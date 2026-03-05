@@ -1,0 +1,86 @@
+{
+  "common": {
+    "appName": "NovelFlow",
+    "tagline": "AI驱动的小说/剧本到视频全链路创作平台",
+    "createProject": "创建新项目",
+    "loading": "加载中...",
+    "autoSaved": "已自动保存",
+    "online": "{count} 在线",
+    "version": "NovelFlow v0.1.0 · Phase 0"
+  },
+  "editions": {
+    "normal": "普通版",
+    "canvas": "画布版",
+    "hidden": "隐藏版",
+    "ultimate": "自用版",
+    "normalDesc": "个人创作者，零门槛向导式流程",
+    "canvasDesc": "团队工作台，多人协作 + AI Agent",
+    "hiddenDesc": "完整Agent体系，高级创作能力",
+    "ultimateDesc": "全功能 + 调试面板 + 数据反馈闭环"
+  },
+  "sources": {
+    "novelTitle": "从小说开始",
+    "novelDesc": "上传小说文件（TXT/DOCX/EPUB/PDF/MD），AI自动分析并生成知识库",
+    "scriptTitle": "从剧本开始",
+    "scriptDesc": "上传已有剧本（Fountain/FDX/TXT/DOCX/PDF），自动格式适配",
+    "blankTitle": "空白项目",
+    "blankDesc": "从零开始创建，手动搭建知识库与剧本"
+  },
+  "wizard": {
+    "prev": "上一步",
+    "next": "下一步",
+    "stepOf": "{current} / {total}"
+  },
+  "newProject": {
+    "chooseSource": "选择导入方式",
+    "projectInfo": "项目信息",
+    "confirm": "确认创建",
+    "projectName": "项目名称",
+    "projectNamePlaceholder": "请输入项目名称...",
+    "projectDesc": "项目描述（可选）",
+    "projectDescPlaceholder": "简单描述你的项目...",
+    "confirmTitle": "确认创建",
+    "labelName": "项目名称",
+    "labelDesc": "项目描述",
+    "labelSource": "导入方式",
+    "labelEdition": "版本",
+    "creating": "创建中...",
+    "create": "创建项目"
+  },
+  "project": {
+    "loadingProject": "加载项目中...",
+    "loadFailed": "加载项目失败",
+    "stage": "阶段",
+    "currentStep": "当前步骤",
+    "workspaceMode": "工作台模式",
+    "navigation": "导航",
+    "aiAssistant": "AI 助手",
+    "aiPlaceholder": "AI功能将在此处显示..."
+  },
+  "stages": {
+    "import": "导入",
+    "knowledge": "知识库",
+    "beat_sheet": "节拍表",
+    "script": "剧本",
+    "storyboard": "分镜",
+    "visual_prompt": "视觉提示词",
+    "generation": "生成中",
+    "complete": "已完成"
+  },
+  "stepHints": {
+    "step0": "上传文件以开始分析...",
+    "step1": "审核并确认知识库...",
+    "step2": "编辑和完善节拍表...",
+    "step3": "撰写和打磨剧本...",
+    "step4": "生成和编辑分镜脚本..."
+  },
+  "aria": {
+    "toggleSidebar": "切换侧边栏",
+    "toggleRightPanel": "切换右侧面板",
+    "progress": "进度"
+  },
+  "lang": {
+    "switchTo": "EN",
+    "label": "切换语言"
+  }
+}

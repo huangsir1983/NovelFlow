@@ -1,0 +1,86 @@
+{
+  "common": {
+    "appName": "NovelFlow",
+    "tagline": "AI-powered novel/script to video creation platform",
+    "createProject": "Create Project",
+    "loading": "Loading...",
+    "autoSaved": "Auto saved",
+    "online": "{count} online",
+    "version": "NovelFlow v0.1.0 · Phase 0"
+  },
+  "editions": {
+    "normal": "Normal",
+    "canvas": "Canvas",
+    "hidden": "Hidden",
+    "ultimate": "Ultimate",
+    "normalDesc": "Solo creator, zero-barrier wizard workflow",
+    "canvasDesc": "Team workspace, collaboration + AI Agents",
+    "hiddenDesc": "Full Agent system, advanced creation tools",
+    "ultimateDesc": "All features + debug panel + data feedback loop"
+  },
+  "sources": {
+    "novelTitle": "Start from Novel",
+    "novelDesc": "Upload a novel file (TXT/DOCX/EPUB/PDF/MD), AI auto-analyzes and builds knowledge base",
+    "scriptTitle": "Start from Script",
+    "scriptDesc": "Upload an existing script (Fountain/FDX/TXT/DOCX/PDF), auto format adaptation",
+    "blankTitle": "Blank Project",
+    "blankDesc": "Start from scratch, manually build knowledge base and script"
+  },
+  "wizard": {
+    "prev": "Previous",
+    "next": "Next",
+    "stepOf": "{current} / {total}"
+  },
+  "newProject": {
+    "chooseSource": "Choose Import Method",
+    "projectInfo": "Project Info",
+    "confirm": "Confirm",
+    "projectName": "Project Name",
+    "projectNamePlaceholder": "Enter project name...",
+    "projectDesc": "Description (optional)",
+    "projectDescPlaceholder": "Briefly describe your project...",
+    "confirmTitle": "Confirm Creation",
+    "labelName": "Project Name",
+    "labelDesc": "Description",
+    "labelSource": "Import Method",
+    "labelEdition": "Edition",
+    "creating": "Creating...",
+    "create": "Create Project"
+  },
+  "project": {
+    "loadingProject": "Loading project...",
+    "loadFailed": "Failed to load project",
+    "stage": "Stage",
+    "currentStep": "Current Step",
+    "workspaceMode": "Workspace Mode",
+    "navigation": "Navigation",
+    "aiAssistant": "AI Assistant",
+    "aiPlaceholder": "AI features will appear here..."
+  },
+  "stages": {
+    "import": "Import",
+    "knowledge": "Knowledge Base",
+    "beat_sheet": "Beat Sheet",
+    "script": "Script",
+    "storyboard": "Storyboard",
+    "visual_prompt": "Visual Prompt",
+    "generation": "Generating",
+    "complete": "Complete"
+  },
+  "stepHints": {
+    "step0": "Upload files to start analysis...",
+    "step1": "Review and confirm knowledge base...",
+    "step2": "Edit and refine beat sheet...",
+    "step3": "Write and polish the script...",
+    "step4": "Generate and edit storyboard..."
+  },
+  "aria": {
+    "toggleSidebar": "Toggle sidebar",
+    "toggleRightPanel": "Toggle right panel",
+    "progress": "Progress"
+  },
+  "lang": {
+    "switchTo": "中",
+    "label": "Switch language"
+  }
+}
