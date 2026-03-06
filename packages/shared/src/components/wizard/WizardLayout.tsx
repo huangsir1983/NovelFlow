@@ -104,7 +104,7 @@ export function WizardLayout({
       {/* Top navigation bar */}
       <header className="sticky top-0 z-50 border-b border-white/[0.06] bg-bg-1/80 backdrop-blur-xl">
         <div className="flex h-12 items-center justify-between px-6">
-          <span className="text-lg font-semibold text-white">NovelFlow</span>
+          <span className="text-lg font-semibold text-white">虚幻造物</span>
           {headerExtra && <div className="flex items-center">{headerExtra}</div>}
         </div>
       </header>

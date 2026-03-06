@@ -7,8 +7,8 @@ import type { Locale } from '@/i18n/config';
 import '../globals.css';
 
 export const metadata: Metadata = {
-  title: 'NovelFlow',
-  description: 'AI-powered novel/script to video creation platform',
+  title: '虚幻造物 | Unreal Make',
+  description: 'AI-Native visual filmmaking creation engine',
 };
 
 type Props = {

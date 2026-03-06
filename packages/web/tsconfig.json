@@ -27,10 +27,10 @@
       "@/*": [
         "./src/*"
       ],
-      "@novelflow/shared": [
+      "@unrealmake/shared": [
         "../shared/src"
       ],
-      "@novelflow/shared/*": [
+      "@unrealmake/shared/*": [
         "../shared/src/*"
       ]
     }

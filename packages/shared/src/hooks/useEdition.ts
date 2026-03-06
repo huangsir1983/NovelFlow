@@ -45,7 +45,7 @@ export const useEdition = create<EditionState>()(
       },
     }),
     {
-      name: 'novelflow-edition',
+      name: 'unrealmake-edition',
     },
   ),
 );

@@ -1,0 +1,44 @@
+# 涛割 - AI视频生成平台依赖
+
+# 核心框架
+PyQt6>=6.4.0
+
+# 数据库
+SQLAlchemy>=2.0.0
+
+# 异步HTTP
+aiohttp>=3.8.0
+
+# WebSocket (ComfyUI集成)
+websockets>=11.0.0
+
+# 图像处理
+Pillow>=9.0.0
+psd-tools>=1.9.0
+
+# 视频帧提取（headless 无 GUI 依赖）
+opencv-python-headless>=4.8.0
+
+# AI API
+openai>=1.0.0
+PyJWT>=2.8.0
+
+# 文档解析
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+
+# 配置管理
+python-dotenv>=1.0.0
+
+# 系统监控
+psutil>=5.9.0
+
+# 测试
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+pytest-cov>=4.0.0
+
+# 开发工具
+black>=23.0.0
+mypy>=1.0.0
+flake8>=6.0.0

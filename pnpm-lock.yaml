@@ -45,7 +45,7 @@ importers:
 
   packages/web:
     dependencies:
-      '@novelflow/shared':
+      '@unrealmake/shared':
         specifier: workspace:*
         version: link:../shared
       framer-motion:

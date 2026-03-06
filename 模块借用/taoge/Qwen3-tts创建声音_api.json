@@ -1,0 +1,77 @@
+{
+  "45": {
+    "inputs": {
+      "文本": [
+        "48",
+        0
+      ],
+      "提示词": [
+        "49",
+        0
+      ],
+      "语言": "自动",
+      "自动卸载模型": false,
+      "最大生成Token数": 2048,
+      "seed": 574914763182994,
+      "语速": 1,
+      "批量模式": false,
+      "top_p": 0.8,
+      "top_k": 50,
+      "temperature": 0.8,
+      "repetition_penalty": 1.1,
+      "启用高级采样配置": false,
+      "模型": [
+        "46",
+        0
+      ]
+    },
+    "class_type": "Qwen3TTSVoiceDesign",
+    "_meta": {
+      "title": "Qwen3 TTS 声音设计"
+    }
+  },
+  "46": {
+    "inputs": {
+      "模型名称": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "运行设备": "cuda",
+      "精度": "fp16"
+    },
+    "class_type": "Qwen3TTSModelLoader",
+    "_meta": {
+      "title": "Qwen3 TTS 模型加载"
+    }
+  },
+  "48": {
+    "inputs": {
+      "编辑文本": "哥哥，你回来啦，人家等了你好久好久了，我要抱抱!"
+    },
+    "class_type": "MuyeTextEditOutput",
+    "_meta": {
+      "title": "文本"
+    }
+  },
+  "49": {
+    "inputs": {
+      "编辑文本": "体现撒娇稚嫩的萝莉女声，音调偏高且起伏明显，营造出黏人、做作又刻意卖萌的听觉效果。但音调过高令人烦的感觉。"
+    },
+    "class_type": "MuyeTextEditOutput",
+    "_meta": {
+      "title": "文本"
+    }
+  },
+  "51": {
+    "inputs": {
+      "filename_prefix": "audio/ComfyUI",
+      "quality": "V0",
+      "audioUI": "",
+      "audio": [
+        "45",
+        0
+      ]
+    },
+    "class_type": "SaveAudioMP3",
+    "_meta": {
+      "title": "Save Audio (MP3)"
+    }
+  }
+}

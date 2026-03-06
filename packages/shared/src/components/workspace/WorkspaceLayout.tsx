@@ -41,7 +41,7 @@ export function WorkspaceLayout({
     <div className="flex h-screen flex-col bg-bg-0 text-white">
       {/* Top navigation bar - Glass effect */}
       <header className="flex h-12 shrink-0 items-center gap-4 border-b border-white/[0.06] bg-bg-1/80 px-4 backdrop-blur-xl">
-        <span className="text-lg font-semibold">NovelFlow</span>
+        <span className="text-lg font-semibold">虚幻造物</span>
         <span className="text-sm text-white/40">|</span>
         <span className="text-sm text-white/70">{projectName}</span>
 

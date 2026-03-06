@@ -1,0 +1,97 @@
+======================================================================
+  FULL PIPELINE TEST REPORT — Production-Grade Prompts
+======================================================================
+
+  Total: 13  |  PASS: 13  |  FAIL: 0
+
+  [PASS] P01: Chapter Splitting
+         Time: 4.9s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 1212 chars
+         Sample: [{'title': '第一章 重生', 'content': '第一章 重生\n\n凌晨三点，暴雨如注。\n林默站在天台边缘，雨水顺着他的脸颊流下，模糊了整个城市的灯火。三年前，他是锦城最年轻的天才建筑师，一手设计了"云上之城"项目，被业界誉为下一个贝聿铭。\n三年后的今天，他一无所有。\n"林默...
+
+  [PASS] P03: Character Extraction
+         Time: 9.7s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 2919 chars
+         Sample: [{'name': '林默', 'aliases': ['天才建筑师'], 'role': 'protagonist', 'description': '被合伙人窃取成果并陷害入局的建筑天才，蛰伏三年后通过原始证据链发起复仇。', 'personality': '冷静克制，习惯在极端压力下进行逻辑推...
+
+  [PASS] P04: Scene Extraction
+         Time: 5.1s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 1195 chars
+         Sample: [{'heading': 'EXT. 烂尾楼天台 - 夜', 'location': '锦城某处烂尾楼顶层', 'time_of_day': 'night', 'description': '暴雨如注，城市灯火在雨幕中模糊成光斑。天台边缘无护栏，空间开阔且危险，冷色调环境光。', 'action':...
+
+  [PASS] P10: Novel to Beat Sheet
+         Time: 4.9s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 1571 chars
+         Sample: [{'title': '站在天台边缘', 'description': '林默在暴雨夜站在天台，回顾从天才建筑师到一无所有的落魄，确立绝望基调。', 'beat_type': 'event', 'save_the_cat': 'Opening Image', 'emotional_value': -...
+
+  [PASS] P05: Knowledge Base Building
+         Time: 7.8s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 1639 chars
+         Sample: {'world_building': {'setting': '当代都市职场复仇剧，聚焦建筑设计界的权力博弈与知识产权争夺。', 'era': '当代，数字化时代（强调电子证据与纸质档案的对比）。', 'rules': ['行业声望即货币：设计署名权与国际大奖直接决定建筑师的阶层地位。', '证据时...
+
+  [PASS] PS01: Format Detection
+         Time: 2.4s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 185 chars
+         Sample: {'format': 'custom', 'confidence': 0.95, 'details': '典型的中文影视剧本自由格式。特征包括：使用‘第X场’作为场景标号，场景标题包含环境（内景/外景）与时间，角色名后紧跟冒号（:），舞台指示使用括号包裹，且未遵循Fountain的严格语法（如空行规...
+
+  [PASS] PS02: Reverse Beat Extraction
+         Time: 3.1s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 579 chars
+         Sample: [{'title': '揭露核心证据', 'description': '老赵将U盘交给林默，揭示了三年前被窃取的图纸真相，确立了主角的复仇动机。', 'beat_type': 'revelation', 'emotional_value': -0.4, 'hook_potential': 'hig...
+
+  [PASS] PS03: Reverse Knowledge Base
+         Time: 7.9s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 2615 chars
+         Sample: {'world_building': {'setting': '现代都市，处于高压的资本与建筑行业竞争环境下', 'era': '当代', 'rules': '权力与资源高度垄断，知识产权被资本强权通过法务手段非法占有，底层个体必须通过隐秘收集证据进行博弈', 'conflict_triggers'...
+
+  [PASS] PS04: Visual Readiness Assessment
+         Time: 8.0s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 1238 chars
+         Sample: {'overall_score': 0.53, 'overall_assessment': '剧本目前处于文学描述阶段，缺乏工业级分镜所需的空间几何关系、角色调度（Blocking）及镜头语言指引。分镜师无法判断机位高度、景别大小及角色间的物理距离，无法直接开工。', 'scenes': [{'sc...
+
+  [PASS] PS05: Storyboard Optimization
+         Time: 9.5s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 2937 chars
+         Sample: [{'heading': 'INT. 烂尾楼天台 - 夜', 'location': '烂尾楼天台边缘', 'time_of_day': 'night', 'description': '暴雨如注，冷色调的城市霓虹在雨幕中扭曲成破碎的光斑。天台地面积水倒映着林默孤独的剪影，风声呼啸。', 'acti...
+
+  [PASS] P12: AI Rewrite
+         Time: 7.0s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 1155 chars
+         Sample: 为了达成“可拍摄”的质感，我们将场景设定为：**雨夜的玄关，冷色调灯光，门锁的咔哒声作为转折点。**  以下是三种不同侧重点的改写方案：  ### 方案一：侧重「Show Don't Tell」（潜台词与动作描写） **核心逻辑：用生理反应替代心理描写，将内心的恐惧转化为具体动作。**  > 门锁落...
+
+  [PASS] P13: Free Script Parsing
+         Time: 3.7s  |  Model: gemini-3.1-flash-lite-preview  |  Provider: _pipeline_test
+         Output: 726 chars
+         Sample: [{'heading': 'INT. 天台 - night', 'location': '天台', 'time_of_day': 'night', 'description': '暴雨倾盆，环境昏暗，天台边缘空间。', 'action': '林默站在天台边缘。老赵从黑暗中走出。', 'dialogu...
+
+  [PASS] Streaming: Chapter Split
+         Time: 2.1s  |  Model: N/A  |  Provider: N/A
+         Chunks: 5  |  Total chars: 176
+         Sample: ```json [   {     "title": "测试",     "content": "第一章 测试\n这是一个简单的测试文本。",     "order": 1   },   {     "title": "验证",     "content": "第二章 验证\n这是第二段测试文本。"...
+
+----------------------------------------------------------------------
+  PIPELINE FLOW VALIDATION
+----------------------------------------------------------------------
+
+  P01 -> Chapters extracted: 2
+         Can feed into P03/P04/P10/P05: YES
+  P03 -> Characters extracted: 5
+         Characters: 林默, 周天明, 老赵, 苏晴, 小张
+         Production-grade fields (desire/flaw): YES
+  P04 -> Scenes extracted: 2
+         Has dramatic_purpose field: YES
+         Can feed into PS04/PS05: YES
+  P10 -> Beats extracted: 7
+         Has hook_potential field: YES
+  P05 -> Knowledge sections: world_building, style_guide, locations
+         conflict_triggers: YES  |  visual_tone: YES
+  PS02 -> Reverse beats: 3
+  PS03 -> Reverse KB sections: ['world_building', 'style_guide', 'locations', 'characters']
+  PS04 -> Overall visual score: 0.53
+         Has overall_assessment: YES
+  PS05 -> Optimized scenes: 3
+         Has visual_notes: YES
+
+======================================================================
+  OVERALL: ALL PASS — Pipeline fully operational
+======================================================================

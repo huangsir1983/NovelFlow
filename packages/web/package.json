@@ -1,5 +1,5 @@
 {
-  "name": "@novelflow/web",
+  "name": "@unrealmake/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@novelflow/shared": "workspace:*",
+    "@unrealmake/shared": "workspace:*",
     "framer-motion": "^12.0.0",
     "next": "^15.3.0",
     "next-intl": "^4.8.3",

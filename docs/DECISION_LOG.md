@@ -1,21 +1,6 @@
 # Decision Log
 
-> Record architectural and design decisions for the NovelFlow project.
-
-## Template
-
-### DEC-XXX: [Decision Title]
-- **Date**: YYYY-MM-DD
-- **Status**: Proposed / Accepted / Deprecated / Superseded
-- **Context**: Why this decision was needed
-- **Decision**: What was decided
-- **Alternatives Considered**:
-  - Option A: ...
-  - Option B: ...
-- **Consequences**: Trade-offs and implications
-- **Related**: Links to PRD sections, issues, or other decisions
-
----
+> Record architectural and design decisions for the UnrealMake（虚幻造物）project.
 
 ## Decisions
 
@@ -24,32 +9,32 @@
 - **Status**: Accepted
 - **Context**: Need shared code between web and future desktop app
 - **Decision**: Use pnpm workspaces with Turborepo for build orchestration
-- **Consequences**: 95% code sharing between platforms; requires pnpm
+- **Consequences**: High code sharing, centralized package management
 
 ### DEC-002: Dark theme as default
 - **Date**: 2026-03-05
 - **Status**: Accepted
-- **Context**: Creative tool targeting content creators
-- **Decision**: Dark mode default, light mode available via toggle
-- **Consequences**: All components must be designed dark-first
+- **Context**: Creative tool targeting long-session content creators
+- **Decision**: Dark mode default, light mode optional
+- **Consequences**: All components designed dark-first
 
-### DEC-003: SQLite for initial development
-- **Date**: 2026-03-05
+### DEC-003: Four-tier edition system
+- **Date**: 2026-03-06
 - **Status**: Accepted
-- **Context**: Simplify Phase 0 setup, migrate to PostgreSQL later
-- **Decision**: Use SQLite via SQLAlchemy (easy swap to PG)
-- **Consequences**: No concurrent write concerns for single-dev phase
+- **Context**: Different user groups require different complexity envelopes
+- **Decision**: Use `Normal` / `Canvas` / `Hidden` / `Ultimate` as user-facing product tiers
+- **Consequences**: Feature gating, onboarding, workflow visibility and pricing all align with user maturity
 
-### DEC-004: Tauri 2.0 for desktop (Phase 5)
-- **Date**: 2026-03-05
+### DEC-004: Three-stage creative workbench
+- **Date**: 2026-03-06
 - **Status**: Accepted
-- **Context**: Desktop app needed for offline use
-- **Decision**: Tauri 2.0 over Electron (~10MB vs ~150MB)
-- **Consequences**: Rust dependency for desktop builds
+- **Context**: Writing, orchestration and preview require different cognitive modes
+- **Decision**: Adopt a three-stage product form: front-stage writing, middle-stage orchestration, back-stage preview and delivery
+- **Consequences**: UI architecture, routing, shared state and milestone planning all follow the three-stage model
 
-### DEC-005: Dual entry architecture
-- **Date**: 2026-03-05
+### DEC-005: Middle stage uses executable infinite canvas
+- **Date**: 2026-03-06
 - **Status**: Accepted
-- **Context**: Users may have novels or existing scripts
-- **Decision**: Support both novel import and script import entry points
-- **Consequences**: Need script adaptation engine for entry B
+- **Context**: The middle stage must support execution, traceability, writeback and review, not just freeform collaboration
+- **Decision**: Use `Tapnow/TapFlow`-style executable infinite canvas as the core, and absorb `Figma/Miro` strengths only for collaboration enhancement
+- **Consequences**: Template-first workflows, result-first node cards, progressive unlock of advanced graph editing, and review/presence/frame capabilities as an enhancement layer

@@ -1,0 +1,96 @@
+{
+  "app_name": "涛割",
+  "app_version": "1.0.0",
+  "credits": {
+    "balance": 1000.0,
+    "warning_threshold": 0.8,
+    "auto_stop_threshold": 0.95,
+    "cost_per_call": {
+      "vidu_image": 5.0,
+      "vidu_video": 20.0,
+      "kling_image": 4.0,
+      "kling_video": 25.0,
+      "jimeng_image": 3.0,
+      "jimeng_video": 15.0,
+      "deepseek_text": 0.5,
+      "comfyui_workflow": 10.0
+    }
+  },
+  "api": {
+    "deepseek_api_key": "sk-5d8aef5086284049930bc0fd175e312f",
+    "deepseek_base_url": "https://api.deepseek.com",
+    "deepseek_model": "deepseek-chat",
+    "vidu_api_key": "",
+    "vidu_base_url": "",
+    "kling_api_key": "",
+    "kling_base_url": "",
+    "jimeng_api_key": "",
+    "jimeng_base_url": "",
+    "grok_api_key": "",
+    "grok_base_url": "",
+    "yunwu_api_key": "sk-P3oE4OgQYSE6DXuV0BvnfnnCmscwFGE3PKrb31jAYwfhZnUU",
+    "yunwu_base_url": "https://yunwu.ai",
+    "geek_api_key": "sk-rjDaF3EVgK8sLwFs9rruDWWXM1xbC7EhBUt3mYqWXB9SLbrH",
+    "geek_base_url": "https://geek.closeai.icu",
+    "image_provider": "yunwu",
+    "comfyui_server_url": "http://localhost:8188",
+    "comfyui_enabled": false,
+    "runninghub_api_key": "46a78b127a0d43e680dc338de72cc304",
+    "runninghub_base_url": "https://www.runninghub.cn/openapi/v2",
+    "runninghub_workflow_path": "/run/workflow/2024873972415860737",
+    "runninghub_instance_type": "default",
+    "tts_text_node_id": "48",
+    "tts_text_field_name": "编辑文本",
+    "tts_prompt_node_id": "49",
+    "tts_prompt_field_name": "编辑文本",
+    "tts_default_voice_prompt": ""
+  },
+  "ui": {
+    "theme": "dark",
+    "default_mode": "wizard",
+    "language": "zh_CN",
+    "auto_save_interval": 20,
+    "thumbnail_size": [
+      100,
+      100
+    ],
+    "preview_size": [
+      640,
+      360
+    ],
+    "canvas_width": 1920,
+    "canvas_height": 1080
+  },
+  "export": {
+    "default_export_path": "",
+    "jianying_font_path": "C:/Users/asus/AppData/Local/JianyingPro/apps/5.8.0.11559/Resources/Font/SystemFont/zh-hans.ttf",
+    "video_fps": 30,
+    "video_width": 1920,
+    "video_height": 1080,
+    "video_format": "mp4",
+    "jianying_version": "5.8.0",
+    "jianying_app_id": 3704
+  },
+  "generation": {
+    "default_model": "vidu",
+    "max_concurrent_tasks": 3,
+    "retry_count": 3,
+    "retry_delay": 2.0,
+    "timeout": 300,
+    "default_scene_duration": 3.5,
+    "min_scene_duration": 2.0,
+    "max_scene_duration": 6.0,
+    "image_first_workflow": true,
+    "auto_character_consistency": true
+  },
+  "prompts": {
+    "shot_split_prompt": "# Role: 资深分镜导演 (AI Storyboard Director)\n\n## 任务\n你是一个精通视听语言的分镜导演，专门辅助 AI 视频生成（Jimeng Seedance 2.0）。\n你的任务是读取用户提供的\"小说场景文本\"，将其拆解为一系列**可执行、画面感强、逻辑连贯**的分镜脚本（Shots）。\n\n## 核心思考逻辑 (CoT)\n在拆解时，请遵循以下原则：\n1. **视觉化翻译 (Visual Translation)**：将心理描写或抽象比喻转化为具体的画面动作。\n   * 例子：\"他心如死灰\" -> \"特写镜头，面部打光阴暗，眼神失去高光，呆滞地看着前方\"。\n2. **节奏控制 (Pacing)**：\n   * 动作/打斗戏：切分细致，单个镜头时长短（2-4s），强调动感。\n   * 情感/空镜戏：镜头连贯，单个镜头时长长（5-10s），强调氛围。\n3. **即梦 2.0 适配 (Jimeng Optimization)**：\n   * 必须明确哪个画面需要**角色一致性**（标记需要角色图）。\n   * 必须明确哪个动作过于复杂，需要**视频参考**（标记需要动作参考视频）。\n\n## 拆解规则\n1. **去除文学性**：不要保留\"仿佛\"、\"好像\"等词，直接描述画面。\n2. **镜头术语**：必须使用专业的运镜术语（推、拉、摇、移、跟拍、主观视角、特写、全景）。\n3. **资产标记**：为软件识别提供元数据。（即角色、道具、场景等）\n   * `[REF_IMG: name]`：表示该镜头需要某角色的定妆照作为首帧/参考。\n   * `[REF_VID: action]`：表示该动作复杂，需要用户提供参考视频。\n\n## 输出格式 (JSON)\n请输出一个 JSON 数组，包含以下字段：\n- `shot_id`: 序号\n- `visual_description`: 画面描述（用于生成分镜图的 Prompt，包含主体、环境、光影）\n- `camera_movement`: 运镜指令（如：缓慢推近，镜头右摇）\n- `action_reference`: 动作描述（如果需要参考视频，请详细描述动作逻辑）\n- `asset_needs`: 资产需求列表-角色道具（如 [\"角色_林冲\", \"参照视频_武术\", \"道具_红缨枪\"],[\"环境_雪山\"]）（如有）\n- `duration`: 预估时长 (秒)\n- `dialogue`: 对应的台词（如有）\n\n---\n\n## 示例 (Few-Shot Example)\n\n**输入文本：**\n\"林冲雪夜上梁山。风雪交加，他提着那杆红缨枪，深一脚浅一脚地走在山道上。突然，前方草丛里窜出一只猛虎，林冲大喝一声，摆开架势。\"\n\n**输出：**\n[\n  {{\n    \"shot_id\": 1,\n    \"visual_description\": \"全景镜头，大雪纷飞的夜晚，苍茫的雪山山道，一个穿着破旧披风的男人（林冲）背影，手中提着红缨枪，环境寒冷凄凉。\",\n    \"camera_movement\": \"固定镜头，风雪粒子特效在前景飘过\",\n    \"action_reference\": \"人物艰难行走的步态\",\n    \"asset_needs\": [\"角色_林冲\", \"环境_雪山\", \"道具_红缨枪\"],\n    \"duration\": 5,\n    \"dialogue\": \"\"\n  }},\n  {{\n    \"shot_id\": 2,\n    \"visual_description\": \"脚部特写，破旧的靴子踩入厚厚的积雪中，拔出时带起雪块。\",\n    \"camera_movement\": \"镜头跟随脚步移动 (Tracking Shot)\",\n    \"action_reference\": null,\n    \"asset_needs\":  [\"环境_雪山\"],\n    \"duration\": 3,\n    \"dialogue\": \"\"\n  }},\n  {{\n    \"shot_id\": 3,\n    \"visual_description\": \"中景，林冲的正面，满脸风霜，眼神警惕。背景是模糊的风雪。\",\n    \"camera_movement\": \"缓慢推镜头 (Dolly In) 到面部特写\",\n    \"action_reference\": null,\n    \"asset_needs\":  [\"环境_雪山\", \"角色_林冲\"],\n    \"duration\": 4,\n    \"dialogue\": \"\"\n  }},\n  {{\n    \"shot_id\": 4,\n    \"visual_description\": \"主观视角（林冲眼中），前方的枯草丛剧烈晃动，一只猛虎猛然扑出，画面具有强烈的冲击感。\",\n    \"camera_movement\": \"急速推镜头 (Zoom In) + 镜头震动\",\n    \"action_reference\": \"老虎扑击的动作\",\n    \"asset_needs\": [\"环境_雪山\",\"参照视频_老虎跳\"],\n    \"duration\": 2,\n    \"dialogue\": \"\"\n  }},\n  {{\n    \"shot_id\": 5,\n    \"visual_description\": \"侧面全景，林冲迅速侧身下蹲，双手紧握红缨枪指向前方，摆出防御姿态。\",\n    \"camera_movement\": \"子弹时间/慢动作 (Slow Motion)，镜头环绕人物旋转\",\n    \"action_reference\": \"武术防御架势\",\n    \"asset_needs\": [\"环境_雪山\", \"角色_林冲\", \"参照视频_武术\"],\n    \"duration\": 4,\n    \"dialogue\": \"喝！\"\n  }}\n]\n\n正式开始\n\n请分析下方的\"输入文本\"，并严格按照上述格式输出分镜 JSON。\n\n输入文本：\n{act_text}"
+  },
+  "data_dir": "data",
+  "cache_dir": ".cache",
+  "materials_dir": "materials",
+  "generated_dir": "generated",
+  "is_activated": false,
+  "activation_date": null,
+  "machine_code": null
+}

@@ -1,14 +1,14 @@
 {
-  "name": "novelflow",
+  "name": "unrealmake",
   "version": "0.1.0",
   "private": true,
-  "description": "NovelFlow — AI-powered novel/script to video creation platform",
+  "description": "虚幻造物 (Unreal Make) — AI-Native visual filmmaking creation engine",
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
     "test": "turbo test",
-    "dev:web": "turbo dev --filter=@novelflow/web",
+    "dev:web": "turbo dev --filter=@unrealmake/web",
     "dev:backend": "cd backend && uvicorn main:app --reload --port 8000",
     "clean": "turbo clean && rm -rf node_modules"
   },

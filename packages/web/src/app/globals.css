@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* === NovelFlow Dark Theme (PRD 7.2) === */
+  /* === UnrealMake Dark Theme (PRD 7.2) === */
 
   /* Spacing base (Tailwind v4 requires this for p-*, m-*, gap-*, w-*, max-w-* etc.) */
   --spacing: 0.25rem;

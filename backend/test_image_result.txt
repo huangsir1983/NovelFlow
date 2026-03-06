@@ -1,0 +1,10 @@
+=== Test: Gemini Image Generation ===
+
+Model: gemini-3.1-flash-image-preview
+Provider: _img_test
+Elapsed: 17.1s
+MIME type: image/png
+Image size: 1039963 bytes (1015.6 KB)
+Image saved to: test_generated_image.png
+
+[PASS] Image generation successful!
