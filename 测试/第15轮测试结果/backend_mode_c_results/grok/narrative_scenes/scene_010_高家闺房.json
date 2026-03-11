@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高家闺房 - 日",
+  "location": "高家闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "高令宁怀孕绣虎头帽，沈词抱谈和离",
+  "key_dialogue": "你这般心疼睿儿，来日生下他，只怕是要在沈府赖一辈子。",
+  "emotional_peak": "沈词潋滟一笑",
+  "tension_score": 0.55,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "虎头帽",
+    "绣线"
+  ],
+  "dramatic_purpose": "孕期甜蜜与和离约定",
+  "source_text_start": "开春之时，我有孕了。沈母请了位太医来搭脉，说是个男孩。",
+  "source_text_end": "沈词摇头一笑，眼角流露出一抹潋滟。"
+}

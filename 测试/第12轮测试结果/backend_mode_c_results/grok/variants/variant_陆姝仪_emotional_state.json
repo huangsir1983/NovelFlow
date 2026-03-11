@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 厅堂哭诉",
+  "tags": [
+    "哭泣",
+    "委屈",
+    "冲突巅峰"
+  ],
+  "scene_ids": [
+    "scene_012"
+  ],
+  "trigger": "在高家厅堂对质时哭诉委屈，沈词责怪女主时",
+  "appearance_delta": {
+    "face": "泪流满面，梨涡转为委屈神情",
+    "body": "纤细柔弱，身体轻颤",
+    "hair": "柔顺青丝轻挽略显凌乱",
+    "distinguishing_features": "泪眼婆娑楚楚可怜到极致"
+  },
+  "costume_override": {
+    "outfit": "粉色罗裙",
+    "color_palette": [
+      "粉红",
+      "素白"
+    ]
+  },
+  "visual_reference": "一位19岁左右的古代柔弱少女，温婉清丽鹅蛋脸，泪流满面梨涡浅笑转为委屈，眼神楚楚可怜泪眼盈盈如清泉，身材纤细柔弱在高家厅堂颤栗姿态或拉衣角，背景桌椅茶盏，柔和光影营造可怜氛围，写实风格，高清细节",
+  "visual_prompt_negative": "强壮身材、浓妆、现代服饰、强势姿态、卡通风格、无泪平静表情",
+  "emotional_tone": "委屈哭诉，博取保护"
+}

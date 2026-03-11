@@ -1,0 +1,64 @@
+[
+  {
+    "id": "seg_0232",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0627",
+      "shot_0628",
+      "shot_0629"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成空间建立与初始人物关系铺垫，角色集合稳定，均服务于“表面温馨、内里失序”和“高令宁作为观看者”的同一情绪段，可合并为一个完整开场segment。",
+    "order": 232
+  },
+  {
+    "id": "seg_0233",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0630",
+      "shot_0631",
+      "shot_0632",
+      "shot_0633",
+      "shot_0634"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成单一而完整的事件链：玩闹失手—沈睿入场—昭昭认父—沈睿情绪换挡。虽有新角色主导进入，但整体是同一转折弧线，适合压缩为一个重逢触发segment。",
+    "order": 233
+  },
+  {
+    "id": "seg_0234",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0635",
+      "shot_0636",
+      "shot_0637",
+      "shot_0638",
+      "shot_0639",
+      "shot_0640"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "从观察确认、步步逼近到正式对峙，再落到一句致命回答，情绪弧线连续上升且角色核心固定为高令宁与沈睿，属于同一冲突发动段，因此合并为一个长segment更利于维持压迫感。",
+    "order": 234
+  },
+  {
+    "id": "seg_0235",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0641",
+      "shot_0642",
+      "shot_0643",
+      "shot_0644"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后四个shot构成冲突高潮与冷收尾：被刺中后的沉怒、稀缺肢体接触、明确逐客、危险余震。情绪在同一对峙中完成爆发与收束，应作为独立终段保留完整后劲。",
+    "order": 235
+  }
+]

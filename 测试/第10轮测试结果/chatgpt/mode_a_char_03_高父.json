@@ -1,0 +1,62 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "高大人",
+    "爹爹"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "面容儒雅，眼角皱纹明显，常带忧思与慈爱，眉宇间有久居官场的疲惫",
+    "body": "中等身材，略显清瘦，年岁渐长后有些佝偻感",
+    "hair": "黑发夹杂花白，梳整齐官员发式",
+    "distinguishing_features": "温厚父亲气质与不怒自威的官员风骨并存"
+  },
+  "costume": {
+    "typical_outfit": "四品官员常服或居家长衫，朴素整洁，不事张扬",
+    "color_palette": [
+      "深棕",
+      "墨绿",
+      "灰蓝"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "文官",
+    "家族守护者",
+    "温厚持重"
+  ],
+  "visual_reference": "Middle-aged Chinese scholar-official, late 40s to 60s, kind but worried face, slight wrinkles, black hair with gray streaks, modest official robe, gentle dignified fatherly presence, ancient drama style",
+  "personality": "本性温厚爱女，处事谨慎，虽有官场经验却并不强横；对门第压力敏感，对女儿婚事与安危始终放在首位；关键时刻极有底线。",
+  "desire": "保护女儿平安喜乐，避开朝堂祸事，让高家不再卷入抄家灭门之灾。",
+  "flaw": "受门第观念与现实压力影响，前期对沈家过于敬畏；判断女儿真实处境常有滞后。",
+  "arc": "起初因沈家门第而欣然应亲→在女儿提醒下辞官避祸→经历女儿婚后惨剧与早产事件后彻底站到女儿一边→成为和离与抚养权的坚决执行者。",
+  "scene_presence": "正堂接待媒人；私下质问女儿反常举动；在女儿要求下写辞官奏折；安排蒋晟与女儿相见；在高府事件中冲入房内见女儿倒下；之后多次拒绝沈家带走孩子；以和离书逼退沈词；安排赘婿并支持女儿南下。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感|引导",
+      "dynamic": "深爱女儿，后期完全成为她的后盾与庇护者",
+      "function": "引导者/守护者"
+    },
+    {
+      "target": "沈词",
+      "type": "权力|阻碍",
+      "dynamic": "从礼遇的准岳父变成防范女儿再受伤害的强硬对手",
+      "function": "阻碍者"
+    },
+    {
+      "target": "沈母",
+      "type": "权力",
+      "dynamic": "围绕孩子归属与婚姻责任展开博弈",
+      "function": "家族对抗线"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益",
+      "dynamic": "曾视其为女儿合适良配，也间接推动后续纠葛",
+      "function": "替代婚配推动者"
+    }
+  ]
+}

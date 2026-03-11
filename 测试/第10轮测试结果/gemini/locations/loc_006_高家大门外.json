@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_006",
+  "name": "高家大门外",
+  "type": "exterior",
+  "era_style": "明代中晚期官邸大门",
+  "description": "气派的官宦府邸外景。朱红色的大门镶嵌着兽首铜环，上方悬挂着黑底金字的“高府”门匾。门前两侧矗立着威武的石狮子。黄昏的余晖将人的影子拉得很长，青石板路上散落着几张药方。空间开阔却因人物的对峙显得逼仄。",
+  "visual_reference": "Exterior of a Ming Dynasty official's mansion gate at dusk, large vermilion wooden doors with bronze animal-head knockers, carved stone lions, prominent black and gold family plaque reading 'Gao Manor', scattered medical prescriptions on the stone-paved ground, long dramatic shadows, cinematic lighting, tense atmosphere, 8k.",
+  "atmosphere": "肃杀、对峙、黄昏的压迫感",
+  "color_palette": [
+    "朱红色",
+    "青石灰",
+    "暮光紫"
+  ],
+  "lighting": "黄昏时分的侧逆光，金红色的夕阳勾勒出人物冷硬的轮廓",
+  "key_features": [
+    "高府黑底金字门匾",
+    "朱红大门与铜环",
+    "散落的药方"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "从男主卑劣的威胁逼迫，到女主冷酷反击的势均力敌"
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "id": "shot_0034",
+    "scene_id": "scene_002",
+    "shot_number": 1,
+    "goal": "建立沈府内室的封闭礼制空间，交代看诊刚结束的环境信息，并预设夫妻间被空间切开的距离感。",
+    "composition": "MLS，机位略低于坐姿视线，窗侧斜光从画面左后方切入，前景左侧虚化的屏风边框形成遮挡，中景右侧为我端坐榻边，手覆腹部；中景左侧大夫半起身，手刚从脉枕上收回；背景偏右后方沈词立于案几旁，身形被窗棂影切成明暗两块。药箱、诊案置于榻前下方，形成礼制与诊断的物证。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "压抑、克制、被规训的疏离感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "沈词",
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 34
+  },
+  {
+    "id": "shot_0035",
+    "scene_id": "scene_002",
+    "shot_number": 2,
+    "goal": "将诊脉结束这一动作具体化，把决定命运的话落在礼制物件与手部动作上，为性别宣告蓄势。",
+    "composition": "CU，画面中央偏下是脉枕与我的手腕，大夫的手从右侧缓慢撤出；前景下缘可见药箱铜扣冷光，背景虚化为深色衣料与榻沿。留白集中在画面上半部，等待台词压入。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "悬而未落的紧绷感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我",
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.28,
+    "order": 35
+  },
+  {
+    "id": "shot_0036",
+    "scene_id": "scene_002",
+    "shot_number": 3,
+    "goal": "明确诊断结果“是个男孩”，并通过大夫的下定论把家族期待具象化。",
+    "composition": "MCU，大夫位于画面左三分之一，起身后略俯视我与沈词的方向；背景右侧窗棂高光压出轮廓，左下角仍带到诊案边角。大夫面部一半在光里，一半在阴里，语气平稳但结果沉重。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "一种冷静宣布命运的压迫",
+    "duration_hint": "2s",
+    "characters": [
+      "大夫"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 36
+  },
+  {
+    "id": "shot_0037",
+    "scene_id": "scene_002",
+    "shot_number": 4,
+    "goal": "从我的主观观察中捕捉沈词肩背松下的一瞬，揭示他真正被安抚的并非关系，而是子嗣结果。",
+    "composition": "MCU偏主观角度，沈词背对镜头三分之二侧身站在画面右侧，肩线占据视觉中心；左前景虚化为我的发髻边缘，形成第一人称在场感。背景是暗色墙面与半截窗影，肩背从绷紧到微不可察地放松成为唯一动作重点。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "刺痛、了然、冷讽",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 37
+  },
+  {
+    "id": "shot_0038",
+    "scene_id": "scene_002",
+    "shot_number": 5,
+    "goal": "呈现沈词从短暂卸重到迅速恢复冷淡的面部转折，并建立他对我的视线。",
+    "composition": "CU，沈词位于画面中央偏右，先是目光略垂，随即转头看向镜头方向；背景为模糊的木架与暗红陈设，左侧留出一块冷色留白承接我的位置。面部40%-50%陷于阴影，眼神回温极短，旋即封闭。",
+    "camera_movement": "pan",
+    "framing": "CU",
+    "emotion_target": "失望后的寒意与被审视感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 38
+  },
+  {
+    "id": "shot_0039",
+    "scene_id": "scene_002",
+    "shot_number": 6,
+    "goal": "回到我的反应，强调我并不因“男孩”这一结果动容，而是更清楚这段婚姻的实质。",
+    "composition": "CU，我位于画面左三分之一，视线微抬看向右侧画外的沈词；前景下缘保留覆在腹部的手，背景是被窗棂切开的暗墙。脸部一侧被斜光擦亮，另一侧压在阴影中，呈现克制下的冷决。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静、清醒、内心已决",
+    "duration_hint": "2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 39
+  },
+  {
+    "id": "shot_0040",
+    "scene_id": "scene_002",
+    "shot_number": 7,
+    "goal": "以双人空间关系交代大夫退场后，真正的夫妻对峙开始；同时让沈词提出维持婚姻的条件性挽留。",
+    "composition": "MS，两人被案几和空间轴线分隔：我坐于画面左侧榻边，沈词立于右侧略前，二人视线相接但身体朝向并不完全相向。前景左下仍有脉枕，背景中部空出一条暗道，暗示关系的不可弥合。大夫仅以模糊背影从远处出画，不抢焦点。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "体面之下的谈判与冰冷现实",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我",
+      "沈词",
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.6,
+    "order": 40
+  },
+  {
+    "id": "shot_0041",
+    "scene_id": "scene_002",
+    "shot_number": 8,
+    "goal": "突出沈词台词“为睿儿着想，你我便这般继续过下去吧”，明确他维系关系的理由是孩子与利益结构，而非爱。",
+    "composition": "MCU，沈词位于画面右侧朝左说话，肩背依然挺直，手垂于身侧并未靠近我；前景左侧虚化出我的肩线，形成正反打中的主观存在。背景为深墨色立柱，压出他冷硬的身份感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷淡、理所当然、令人心寒",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.67,
+    "order": 41
+  },
+  {
+    "id": "shot_0042",
+    "scene_id": "scene_002",
+    "shot_number": 9,
+    "goal": "通过我的沉默与轻轻摇头，把拒绝放在动作先于语言的位置，形成真正的局势改写前奏。",
+    "composition": "MCU，我位于画面左侧朝右，先短暂停顿，再极轻地摇头；前景下方仍见一角月白袖口压住腹部，背景右侧留有大块暗部，像未出口的前世阴影。眼神不避不让，动作幅度极小但锋利。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "平静中的决绝，风平浪静前的刀锋感",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.76,
+    "order": 42
+  },
+  {
+    "id": "shot_0043",
+    "scene_id": "scene_002",
+    "shot_number": 10,
+    "goal": "让我说出“还是按约定和离吧”，点明双方确有旧约，并把本场核心冲突彻底抬到台面。",
+    "composition": "CU，我居中略偏左，目光越过镜头右侧落向沈词，嘴唇线条清晰，语气平稳。背景仅保留一块瓷白窗光与大片暗色墙面，构图尽量简洁，让台词像判词一样落下。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "断然、清寒、不可回头",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 43
+  },
+  {
+    "id": "shot_0044",
+    "scene_id": "scene_002",
+    "shot_number": 11,
+    "goal": "捕捉沈词第一次真正被击中的失态，展现他并未预料我会兑现和离。",
+    "composition": "CU，沈词位于画面中央，原本端正的神情出现极细微裂缝：瞳孔一滞，呼吸卡住，肩线前倾不足半寸。背景完全压暗，仅留边缘轮廓光勾出清瘦面骨，使表情变化更集中。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "错愕、被反制、隐藏情绪被掀开一角",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 44
+  },
+  {
+    "id": "shot_0045",
+    "scene_id": "scene_002",
+    "shot_number": 12,
+    "goal": "用反应双人关系镜确认局面反转：坐着的我占据主动，站着的沈词反而被问住；并以“为何？”收束悬念。",
+    "composition": "MS，沿既有180度轴线拍摄，我仍在画面左侧坐姿稳定，沈词在右侧站着却略向前探。两人之间隔着诊案与脉枕，前景下缘药箱半开，像一个尚未收起的判决。窗光仍从左后切入，把我轮廓勾清，沈词面部留更多阴影。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "僵持、反转后的高压悬置",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 45
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_001",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_001"
+    ]
+  },
+  "data": {
+    "title": "追问失控缘由",
+    "description": "父亲在屋内追问女主为何突然发疯般羞辱沈词，既困惑又担忧，抛出核心命题：婚姻不是表面风光，而是会吞没女子一生。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Theme Stated",
+    "emotional_value": -0.1,
+    "dramatic_intensity": -0.1,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 1
+  }
+}

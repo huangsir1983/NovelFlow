@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁屋内",
+  "type": "interior",
+  "era_style": "明代中晚期官家小姐闺房",
+  "description": "高令宁屋内是位于内院的深进式闺房，空间分为起居、梳妆与休憩三部分。靠内侧设木制床榻与半透帷帐，床前留有软垫与小脚踏；临窗放置绣架，显示贵女日常针黹。梳妆区以妆奁、铜镜、发钗陈设为核心，闺房圆桌与茶壶茶杯置于中部，方便父女私下交谈。家具多为细致硬木，比例纤巧，墙面与帐幔以素雅浅色织物软化空间。采光柔和，窗棂将白日光筛成细密格影，整个房间整洁克制，却因女子私密空间而更适合承载压抑回忆与坚定决心。",
+  "visual_reference": "Late Ming dynasty noblewoman bedroom, refined inner chamber of an official residence, canopy bed with pale gauze curtains, embroidery frame near lattice window, bronze mirror on dressing table, carved cosmetic box, hairpins, round side table with tea set, elegant hardwood furniture, soft filtered daylight, intimate feminine interior, restrained colors, cinematic Chinese historical drama, detailed textures",
+  "atmosphere": "私密、克制、冷静决断",
+  "color_palette": [
+    "藕粉",
+    "浅木色",
+    "米白"
+  ],
+  "lighting": "日光经窗棂和薄帘过滤，形成温柔而不明亮的散射光，人物面部半明半暗，适合承载回忆与沉思。",
+  "key_features": [
+    "帷帐床榻",
+    "绣架与铜镜妆奁",
+    "临窗柔光与圆桌茶具"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从父亲的困惑与家常劝问，过渡到女主将前世之恨压成今生布局的冷静。"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "shot_0142",
+    "scene_id": "scene_014",
+    "shot_number": 1,
+    "goal": "建立场景空间和压抑氛围，通过风铃声暗示外界与内室的隔绝",
+    "composition": "俯视广角，床榻居画面右侧，窗户在左侧，中间空荡的地板形成视觉鸿沟，帷幔垂直线条分割空间",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "疏离、压抑、空间的冷漠感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 142
+  },
+  {
+    "id": "shot_0143",
+    "scene_id": "scene_014",
+    "shot_number": 2,
+    "goal": "展现女主的孤独状态和母性本能，腹部成为情感焦点",
+    "composition": "侧面中景，女主占画面右2/3，左侧留白暗示沈词的缺席，床榻纹理和帷幔在背景虚化",
+    "camera_movement": "slow dolly in",
+    "framing": "MS",
+    "emotion_target": "孤独中的温柔、无声的期待",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 143
+  },
+  {
+    "id": "shot_0144",
+    "scene_id": "scene_014",
+    "shot_number": 3,
+    "goal": "通过手部特写强化母性触感与生命的脆弱联结",
+    "composition": "特写女主手掌轻抚腹部，指尖微曲，丝绸衣料质感清晰，背景烛光虚化成暖色光斑",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "温柔、脆弱、无声的守护",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.5,
+    "order": 144
+  },
+  {
+    "id": "shot_0145",
+    "scene_id": "scene_014",
+    "shot_number": 4,
+    "goal": "对比切换到沈词，通过僵硬肩线展现拒绝和疏离",
+    "composition": "背影中景，沈词居画面中央偏左，窗棂在右侧形成几何框架，肩线水平僵直如刀刃",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冷漠、拒绝、不可逾越的距离",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 145
+  },
+  {
+    "id": "shot_0146",
+    "scene_id": "scene_014",
+    "shot_number": 5,
+    "goal": "通过侧面特写捕捉沈词面部的冷峻和克制",
+    "composition": "侧面特写，沈词脸部占画面右侧，左侧窗外夜色虚化，眉心微蹙，下颌线紧绷",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压抑的情绪、内心的挣扎与冷硬",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 146
+  },
+  {
+    "id": "shot_0147",
+    "scene_id": "scene_014",
+    "shot_number": 6,
+    "goal": "反打女主反应，通过眼神展现无声的期待落空",
+    "composition": "正面中特写，女主视线望向画面左侧（沈词方向），眼神平静但眼底有隐忍的失落，烛光在瞳孔中跳动",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "隐忍的失望、无声的等待",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 147
+  },
+  {
+    "id": "shot_0148",
+    "scene_id": "scene_014",
+    "shot_number": 7,
+    "goal": "通过风铃特写象征外界的冷漠和时间的流逝",
+    "composition": "特写风铃在窗外轻微摆动，背景夜色深沉，铃铛金属质感冰冷",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "孤寂、时间的无情流逝",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.4,
+    "order": 148
+  },
+  {
+    "id": "shot_0149",
+    "scene_id": "scene_014",
+    "shot_number": 8,
+    "goal": "收尾镜头，重建空间距离感，强化夫妻间的情感鸿沟",
+    "composition": "侧面全景，女主在床榻右侧，沈词在窗边左侧，中间空地占画面1/3，两人背对或侧对，无交流",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "无法弥合的距离、关系的死寂",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "fade_out",
+    "dramatic_intensity": 0.5,
+    "order": 149
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "id": "scene_012",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_000",
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 灵堂/停棺处 - DAY",
+    "location": "沈府灵堂",
+    "time_of_day": "day",
+    "description": "灵堂高敞而空寂，白幡垂挂，棺木居中，冷白天光透过门窗，映得一切肃杀。旁侧摆着寿衣、净水、白布等殓葬用品。空间几乎无人，安静得只剩动作声。沈词神情枯槁，身形比往日更显苍老。",
+    "action": "高令宁死后，沈词亲自抱起她的遗体，稳而缓地放到净身处，拧干白布，一寸寸擦净她的手脸，再替她穿上寿衣，整个过程不假手于人。随后灵堂内，他站在棺材前，肩背塌陷，双手抱住头，久久无声，最后身体微微发抖，泪水坠落却不出声。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "棺材",
+      "寿衣",
+      "白布",
+      "净水铜盆",
+      "白幡"
+    ],
+    "dramatic_purpose": "完成前世婚姻关系的终极反转与情感揭示：生前互咒早死，死后却只剩无法言明的悲痛，为“若有来生”的主题提供最强情感支点。",
+    "tension_score": 0.91,
+    "dramatic_intensity": 0.82,
+    "order": 12
+  }
+}

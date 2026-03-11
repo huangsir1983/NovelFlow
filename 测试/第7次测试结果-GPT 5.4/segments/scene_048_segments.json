@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0240",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0728",
+      "shot_0729",
+      "shot_0730"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并开场建立空间、核心道具与人物关系，角色集合稳定，情绪仍处于压抑试探阶段，适合并为一个连续的梦境入口段落。",
+    "order": 240
+  },
+  {
+    "id": "seg_0241",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0731",
+      "shot_0732",
+      "shot_0733",
+      "shot_0734"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组围绕‘递碗—恳求—落空—反应’形成完整的听者优先情绪单元，以女主主观与孩子反应互切，情感从微弱牵动转向求而不得的焦灼。",
+    "order": 241
+  },
+  {
+    "id": "seg_0242",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0735",
+      "shot_0736",
+      "shot_0737",
+      "shot_0738"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是明确的情感弧线转折，从家庭创伤陈述推进到自责爆发与磕头动作，强度快速抬升，需合并成一个连续崩塌段以保持冲击力。",
+    "order": 242
+  },
+  {
+    "id": "seg_0243",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0739",
+      "shot_0740",
+      "shot_0741"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段以母亲第一次出声为情绪节点，随即转入孩子更深层的创伤袒露，角色不变但情感由爆裂转为刺痛性的对峙与揭示，适合独立成段。",
+    "order": 243
+  },
+  {
+    "id": "seg_0244",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0742",
+      "shot_0743",
+      "shot_0744",
+      "shot_0745"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "终段集中处理全场峰值与收束：孩子最决绝的告白、母亲的动作回应、触碰成立、再回整体关系图。情绪完成从毁灭到微弱宽恕的闭环，应完整保留在同一段内。",
+    "order": 244
+  }
+]

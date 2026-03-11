@@ -1,0 +1,54 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-28",
+  "appearance": {
+    "face": "眉目端正，神情老实，带习武之人的爽朗感，容易脸红",
+    "body": "身材高大结实，肩背宽阔，行动利落",
+    "hair": "黑发高束，简洁利落",
+    "distinguishing_features": "武人生得敦实可靠，气质朴实正派"
+  },
+  "costume": {
+    "typical_outfit": "便于行动的劲装或简洁长袍，佩护腕腰带",
+    "color_palette": [
+      "靛蓝",
+      "棕色",
+      "深灰"
+    ]
+  },
+  "casting_tags": [
+    "老实可靠",
+    "武人",
+    "备选良配",
+    "被动卷入"
+  ],
+  "visual_reference": "ancient chinese young warrior scholar, sturdy build, honest face, tied black hair, simple dark outfit, dependable aura, realistic period drama",
+  "personality": "诚恳老实，体贴谨慎，不擅心机",
+  "desire": "寻一门稳妥婚事，过安稳日子",
+  "flaw": "过于被动，缺乏应对复杂宅斗与权势局面的能力",
+  "arc": "从女主备选良配沦为他人设计中的丈夫，命运被迫改道",
+  "scene_presence": "相看、马球会、失贞疑案、婚后被提及、满月宴后相关命运中出现。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "相亲对象",
+      "dynamic": "本可成为温和选择，却始终未真正进入她内心",
+      "function": "男主对照组"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "夫妻",
+      "dynamic": "建立于算计之上的婚姻，冷淡疏离",
+      "function": "展示女性生存困局"
+    },
+    {
+      "target": "沈词",
+      "type": "情敌/被轻蔑者",
+      "dynamic": "刺激沈词嫉妒，也被其误会事件裹挟",
+      "function": "外部冲突引线"
+    }
+  ]
+}

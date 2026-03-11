@@ -1,0 +1,47 @@
+{
+  "name": "高父",
+  "aliases": [
+    "爹爹",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-55岁",
+  "appearance": {
+    "face": "眼角有皱纹，面相和善但遇事有威严",
+    "body": "中等身材，略显发福的文官体态",
+    "hair": "半白发髻，留有短须",
+    "distinguishing_features": "看着女儿时满眼慈爱与忧心"
+  },
+  "costume": {
+    "typical_outfit": "四品文官常服或质地优良的居家员外郎服",
+    "color_palette": [
+      "暗红色",
+      "深赭色"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "护女狂魔",
+    "官场老手"
+  ],
+  "visual_reference": "1man, 50 years old, ancient chinese official, maroon robes, kind but stern face, wrinkles around eyes, dignified, cinematic lighting --ar 9:16",
+  "personality": "通达世故但极度疼爱女儿，懂得审时度势，关键时刻能为了家人放弃前程。",
+  "desire": "女儿平安喜乐，远离朝堂浑水。",
+  "flaw": "初期对高门联姻抱有世俗的幻想（已被女儿纠正）。",
+  "arc": "期盼高嫁的世俗父亲 → 辞官护女的硬核岳父",
+  "scene_presence": "正堂议亲、听劝辞官、怒拒沈母要人、为女招赘",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "无条件支持与包容",
+      "function": "助攻（提供物质与权力庇护）"
+    },
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "从敬畏逢迎到冷酷拒绝",
+      "function": "阻碍（男主追妻路上的物理屏障）"
+    }
+  ]
+}

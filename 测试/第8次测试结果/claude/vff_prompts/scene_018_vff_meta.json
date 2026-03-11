@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_018",
+  "heading": "INT. 沈府卧房 - 日（紧接上场）",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 1973,
+  "shot_count": 7,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 95,
+    "output_tokens": 2227,
+    "elapsed_s": 31.0
+  }
+}

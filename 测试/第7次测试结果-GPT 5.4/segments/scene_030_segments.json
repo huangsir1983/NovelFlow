@@ -1,0 +1,76 @@
+[
+  {
+    "id": "seg_0159",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0522",
+      "shot_0523",
+      "shot_0524",
+      "shot_0525"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四个shot均属于冲突建立阶段，角色集合稳定为夫妻二人，空间未变化，情绪从封门隔绝递进到正面逼问，形成一个完整的开场压迫弧线，适合合并为首段连续对峙。",
+    "order": 159
+  },
+  {
+    "id": "seg_0160",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0526",
+      "shot_0527",
+      "shot_0528",
+      "shot_0530",
+      "shot_0531"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组shot共同构成第一处情感爆点：高令宁主动点燃底线，沈词从压怒转为肢体暴力。角色与空间不变，但情绪由挑衅平静急坠为失控爆发，适合作为独立暴力升级段落。",
+    "order": 160
+  },
+  {
+    "id": "seg_0161",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0532",
+      "shot_0533",
+      "shot_0534"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是掐颈后的口舌交锋段，角色关系未变，动作强度稍回落但语言羞辱持续加码，形成从身体压制转入道德审判的连续弧线，应合并为一个争执段。",
+    "order": 161
+  },
+  {
+    "id": "seg_0162",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0535",
+      "shot_0536",
+      "shot_0537",
+      "shot_0538"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这四个shot围绕第二次情感转折与暴力顶点：从短暂停顿到诛心揭疤，再到男主崩塌后将其推倒，情绪弧线完整而急促，适合合并为单一高潮段。",
+    "order": 162
+  },
+  {
+    "id": "seg_0163",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0539",
+      "shot_0540",
+      "shot_0541"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜属于高潮后的余震与结果呈现，空间和角色不变，但情绪从直接伤害转入疼痛后果、男主迟疑与女主低位凝视，形成完整收束，因此合并为尾段。",
+    "order": 163
+  }
+]

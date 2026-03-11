@@ -1,0 +1,40 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "minor",
+  "age_range": "18-22",
+  "appearance": {
+    "face": "面容老实憨厚，容易脸红",
+    "body": "习武之人，身材结实挺拔",
+    "hair": "利落的武人束发",
+    "distinguishing_features": "老实巴交的眼神"
+  },
+  "costume": {
+    "typical_outfit": "劲装或武士服",
+    "color_palette": [
+      "深灰",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "忠犬",
+    "武生",
+    "老实人"
+  ],
+  "visual_reference": "A young ancient Chinese martial artist, 20 years old, sturdy build, honest and naive face, wearing dark green martial arts Hanfu, realistic.",
+  "personality": "老实，体贴，容易害羞，缺乏防备心",
+  "desire": "爱慕高令宁，希望能保护她",
+  "flaw": "过于老实，容易被算计",
+  "arc": "平",
+  "scene_presence": "马球会陪伴女主，后在高家被陆姝仪设计。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "爱慕对象",
+      "dynamic": "小心翼翼地讨好与保护",
+      "function": "引发沈词嫉妒的工具人"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "沈家上门提亲，聘礼明显比前世寒酸，高令宁当众退回木雁，以聘礼太薄为由给沈词难堪，试探并确认他也重生了。",
+  "key_dialogue": "「聘礼太薄，我不满意。」",
+  "emotional_peak": "高令宁当众退雁，沈词抬眼与她冷冷对视，彼此确认对方都带着前世记忆归来。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "聘礼箱笼",
+    "金银首饰",
+    "绸缎布匹",
+    "木雁",
+    "礼单",
+    "堂中桌案",
+    "茶盏",
+    "拍案的桌子",
+    "屏风",
+    "官帽椅"
+  ],
+  "dramatic_purpose": "建立双重生设定、男女主关系基调与女主主动权"
+}

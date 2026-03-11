@@ -1,0 +1,546 @@
+{
+  "count": 54,
+  "updated_at": "2026-03-09T00:04:24",
+  "entries": [
+    {
+      "id": "scene_001",
+      "filename": "scene_001.json",
+      "heading": "INT. 高家正堂 - DAY",
+      "location": "高家正堂",
+      "tension_score": 0.73,
+      "dramatic_intensity": 0.46,
+      "order": 1,
+      "source_chapter": "ch_000"
+    },
+    {
+      "id": "scene_000",
+      "filename": "scene_000.json",
+      "heading": "INT. 屋内 - DAY",
+      "location": "高家屋内",
+      "tension_score": 0.68,
+      "dramatic_intensity": 0.36,
+      "order": 0,
+      "source_chapter": "ch_001"
+    },
+    {
+      "id": "scene_020",
+      "filename": "scene_020.json",
+      "heading": "INT. 沈家正厅 - DAY",
+      "location": "沈家正厅",
+      "tension_score": 0.92,
+      "dramatic_intensity": 0.84,
+      "order": 20,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_021",
+      "filename": "scene_021.json",
+      "heading": "INT. 沈府内宅 - DAWN",
+      "location": "沈府内宅",
+      "tension_score": 0.55,
+      "dramatic_intensity": 0.1,
+      "order": 21,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_022",
+      "filename": "scene_022.json",
+      "heading": "INT. 沈府房内 - NIGHT",
+      "location": "沈府房内",
+      "tension_score": 0.78,
+      "dramatic_intensity": 0.56,
+      "order": 22,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_023",
+      "filename": "scene_023.json",
+      "heading": "INT. 沈府房内 - DAY",
+      "location": "沈府房内",
+      "tension_score": 0.81,
+      "dramatic_intensity": 0.62,
+      "order": 23,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_024",
+      "filename": "scene_024.json",
+      "heading": "EXT. 湖边 - DUSK",
+      "location": "湖边",
+      "tension_score": 0.88,
+      "dramatic_intensity": 0.76,
+      "order": 24,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_025",
+      "filename": "scene_025.json",
+      "heading": "INT. 卧房 - NIGHT",
+      "location": "卧房",
+      "tension_score": 0.67,
+      "dramatic_intensity": 0.34,
+      "order": 25,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_026",
+      "filename": "scene_026.json",
+      "heading": "INT. 卧房 - DAY",
+      "location": "卧房",
+      "tension_score": 0.84,
+      "dramatic_intensity": 0.68,
+      "order": 26,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_027",
+      "filename": "scene_027.json",
+      "heading": "INT. 灵堂 - NIGHT",
+      "location": "灵堂",
+      "tension_score": 0.9,
+      "dramatic_intensity": 0.8,
+      "order": 27,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_016",
+      "filename": "scene_016.json",
+      "heading": "INT. 高家宅院·父亲房中 - NIGHT",
+      "location": "高家宅院·父亲房中",
+      "tension_score": 0.42,
+      "dramatic_intensity": -0.16,
+      "order": 16,
+      "source_chapter": "ch_003"
+    },
+    {
+      "id": "scene_017",
+      "filename": "scene_017.json",
+      "heading": "INT. 高家宅院·书房 - DAY",
+      "location": "高家宅院·书房",
+      "tension_score": 0.55,
+      "dramatic_intensity": 0.1,
+      "order": 17,
+      "source_chapter": "ch_003"
+    },
+    {
+      "id": "scene_018",
+      "filename": "scene_018.json",
+      "heading": "INT. 高家宅院·门旁廊下 - DAY",
+      "location": "高家宅院·门旁廊下",
+      "tension_score": 0.78,
+      "dramatic_intensity": 0.56,
+      "order": 18,
+      "source_chapter": "ch_003"
+    },
+    {
+      "id": "scene_019",
+      "filename": "scene_019.json",
+      "heading": "INT. 高家宅院·门旁廊下 - CONTINUOUS DAY",
+      "location": "高家宅院·门旁廊下",
+      "tension_score": 0.9,
+      "dramatic_intensity": 0.8,
+      "order": 19,
+      "source_chapter": "ch_003"
+    },
+    {
+      "id": "scene_028",
+      "filename": "scene_028.json",
+      "heading": "INT. 医馆内室/临时安置房 - 夜",
+      "location": "医馆内室/临时安置房",
+      "tension_score": 0.52,
+      "dramatic_intensity": 0.04,
+      "order": 28,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_029",
+      "filename": "scene_029.json",
+      "heading": "INT. 医馆门口/内室出口 - 夜",
+      "location": "医馆门口/内室出口",
+      "tension_score": 0.74,
+      "dramatic_intensity": 0.48,
+      "order": 29,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_030",
+      "filename": "scene_030.json",
+      "heading": "INT. 医馆内室 - 夜",
+      "location": "医馆内室",
+      "tension_score": 0.86,
+      "dramatic_intensity": 0.72,
+      "order": 30,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_031",
+      "filename": "scene_031.json",
+      "heading": "EXT. 荷花亭 - 午后（回忆）",
+      "location": "荷花亭",
+      "tension_score": 0.7,
+      "dramatic_intensity": 0.4,
+      "order": 31,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_010",
+      "filename": "scene_010.json",
+      "heading": "INT. 沈府内宅 - 日",
+      "location": "沈府内宅",
+      "tension_score": 0.55,
+      "dramatic_intensity": 0.1,
+      "order": 10,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_011",
+      "filename": "scene_011.json",
+      "heading": "INT. 沈府房内 - 夜",
+      "location": "沈府房内",
+      "tension_score": 0.9,
+      "dramatic_intensity": 0.8,
+      "order": 11,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_012",
+      "filename": "scene_012.json",
+      "heading": "INT. 沈府卧房 - 日",
+      "location": "沈府卧房",
+      "tension_score": 0.45,
+      "dramatic_intensity": -0.1,
+      "order": 12,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_013",
+      "filename": "scene_013.json",
+      "heading": "EXT. 府外街道 - 夜",
+      "location": "府外街道",
+      "tension_score": 0.35,
+      "dramatic_intensity": -0.3,
+      "order": 13,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_014",
+      "filename": "scene_014.json",
+      "heading": "INT. 产房 - 日",
+      "location": "沈府产房",
+      "tension_score": 0.95,
+      "dramatic_intensity": 0.9,
+      "order": 14,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_015",
+      "filename": "scene_015.json",
+      "heading": "INT. 室内 - 日",
+      "location": "室内",
+      "tension_score": 0.6,
+      "dramatic_intensity": 0.2,
+      "order": 15,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_002",
+      "filename": "scene_002.json",
+      "heading": "INT. 高家宅院正厅 - DAY",
+      "location": "高家宅院正厅",
+      "tension_score": 0.42,
+      "dramatic_intensity": -0.16,
+      "order": 2,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_003",
+      "filename": "scene_003.json",
+      "heading": "INT. 沈家婚礼礼堂 - DAY",
+      "location": "沈家婚礼礼堂",
+      "tension_score": 0.48,
+      "dramatic_intensity": -0.04,
+      "order": 3,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_004",
+      "filename": "scene_004.json",
+      "heading": "INT. 沈家新房 - NIGHT",
+      "location": "沈家新房",
+      "tension_score": 0.83,
+      "dramatic_intensity": 0.66,
+      "order": 4,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_005",
+      "filename": "scene_005.json",
+      "heading": "INT. 沈家新房 - NIGHT",
+      "location": "沈家新房",
+      "tension_score": 0.76,
+      "dramatic_intensity": 0.52,
+      "order": 5,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_006",
+      "filename": "scene_006.json",
+      "heading": "INT. 沈府 - 陆姝仪房内 - DAY",
+      "location": "沈府陆姝仪房内",
+      "tension_score": 0.62,
+      "dramatic_intensity": 0.24,
+      "order": 6,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_007",
+      "filename": "scene_007.json",
+      "heading": "INT. 沈府 - 室内厅堂/起居间 - DAY",
+      "location": "沈府室内厅堂",
+      "tension_score": 0.74,
+      "dramatic_intensity": 0.48,
+      "order": 7,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_008",
+      "filename": "scene_008.json",
+      "heading": "INT. 沈府 - 高令宁房内 - DAY",
+      "location": "沈府高令宁房内",
+      "tension_score": 0.58,
+      "dramatic_intensity": 0.16,
+      "order": 8,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_009",
+      "filename": "scene_009.json",
+      "heading": "INT. 沈府 - 高令宁房内 - DAY",
+      "location": "沈府高令宁房内",
+      "tension_score": 0.87,
+      "dramatic_intensity": 0.74,
+      "order": 9,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_036",
+      "filename": "scene_036.json",
+      "heading": "INT. 高府廊下 - DAY",
+      "location": "高府廊下",
+      "tension_score": 0.34,
+      "dramatic_intensity": -0.32,
+      "order": 36,
+      "source_chapter": "ch_009"
+    },
+    {
+      "id": "scene_037",
+      "filename": "scene_037.json",
+      "heading": "INT. 高府厅堂 - DAY",
+      "location": "高府厅堂",
+      "tension_score": 0.41,
+      "dramatic_intensity": -0.18,
+      "order": 37,
+      "source_chapter": "ch_009"
+    },
+    {
+      "id": "scene_038",
+      "filename": "scene_038.json",
+      "heading": "INT. 高府厅堂 - DAY",
+      "location": "高府厅堂",
+      "tension_score": 0.62,
+      "dramatic_intensity": 0.24,
+      "order": 38,
+      "source_chapter": "ch_009"
+    },
+    {
+      "id": "scene_039",
+      "filename": "scene_039.json",
+      "heading": "INT. 高府内院/厅堂 - DUSK",
+      "location": "高府内院及厅堂",
+      "tension_score": 0.79,
+      "dramatic_intensity": 0.58,
+      "order": 39,
+      "source_chapter": "ch_009"
+    },
+    {
+      "id": "scene_040",
+      "filename": "scene_040.json",
+      "heading": "INT. 高府厢房 - DUSK",
+      "location": "高府厢房",
+      "tension_score": 0.95,
+      "dramatic_intensity": 0.9,
+      "order": 40,
+      "source_chapter": "ch_009"
+    },
+    {
+      "id": "scene_032",
+      "filename": "scene_032.json",
+      "heading": "INT. 高府厅堂 - DAY",
+      "location": "高府厅堂",
+      "tension_score": 0.72,
+      "dramatic_intensity": 0.44,
+      "order": 32,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_033",
+      "filename": "scene_033.json",
+      "heading": "INT. 高府厅堂 - DAY",
+      "location": "高府厅堂",
+      "tension_score": 0.9,
+      "dramatic_intensity": 0.8,
+      "order": 33,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_034",
+      "filename": "scene_034.json",
+      "heading": "INT. 产房 - NIGHT",
+      "location": "高府产房",
+      "tension_score": 0.97,
+      "dramatic_intensity": 0.94,
+      "order": 34,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_035",
+      "filename": "scene_035.json",
+      "heading": "INT. 产房 - NIGHT",
+      "location": "高府产房",
+      "tension_score": 0.68,
+      "dramatic_intensity": 0.36,
+      "order": 35,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_048",
+      "filename": "scene_048.json",
+      "heading": "INT. 高令宁卧房 - 夜",
+      "location": "高家后院卧房",
+      "tension_score": 0.62,
+      "dramatic_intensity": 0.24,
+      "order": 48,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_049",
+      "filename": "scene_049.json",
+      "heading": "INT. 高家前厅 - 日",
+      "location": "高家前厅",
+      "tension_score": 0.71,
+      "dramatic_intensity": 0.42,
+      "order": 49,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_050",
+      "filename": "scene_050.json",
+      "heading": "INT. 高家前厅 - 日",
+      "location": "高家前厅",
+      "tension_score": 0.82,
+      "dramatic_intensity": 0.64,
+      "order": 50,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_051",
+      "filename": "scene_051.json",
+      "heading": "INT. 高家后院卧房 - 日",
+      "location": "高家后院卧房",
+      "tension_score": 0.87,
+      "dramatic_intensity": 0.74,
+      "order": 51,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_052",
+      "filename": "scene_052.json",
+      "heading": "INT. 临终卧房 - 夜",
+      "location": "前世临终卧房",
+      "tension_score": 0.93,
+      "dramatic_intensity": 0.86,
+      "order": 52,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_053",
+      "filename": "scene_053.json",
+      "heading": "INT. 高家后院卧房 - 日",
+      "location": "高家后院卧房",
+      "tension_score": 0.9,
+      "dramatic_intensity": 0.8,
+      "order": 53,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_044",
+      "filename": "scene_044.json",
+      "heading": "INT. 高府内宅 - 日",
+      "location": "高府内宅，高令宁房外与房内",
+      "tension_score": 0.42,
+      "dramatic_intensity": -0.16,
+      "order": 44,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_045",
+      "filename": "scene_045.json",
+      "heading": "INT. 宴厅 - 日",
+      "location": "昭昭满月宴宴厅",
+      "tension_score": 0.63,
+      "dramatic_intensity": 0.26,
+      "order": 45,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_046",
+      "filename": "scene_046.json",
+      "heading": "INT. 宴厅 - 日",
+      "location": "昭昭满月宴宴厅一侧",
+      "tension_score": 0.84,
+      "dramatic_intensity": 0.68,
+      "order": 46,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_047",
+      "filename": "scene_047.json",
+      "heading": "INT. 宴厅 - 日",
+      "location": "昭昭满月宴宴厅出口附近",
+      "tension_score": 0.76,
+      "dramatic_intensity": 0.52,
+      "order": 47,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_041",
+      "filename": "scene_041.json",
+      "heading": "EXT. 江南宅院 - DAY",
+      "location": "江南宅院前院与院门",
+      "tension_score": 0.72,
+      "dramatic_intensity": 0.44,
+      "order": 41,
+      "source_chapter": "ch_013"
+    },
+    {
+      "id": "scene_042",
+      "filename": "scene_042.json",
+      "heading": "INT. 高令宁卧房 - NIGHT",
+      "location": "江南宅院卧房",
+      "tension_score": 0.86,
+      "dramatic_intensity": 0.72,
+      "order": 42,
+      "source_chapter": "ch_013"
+    },
+    {
+      "id": "scene_043",
+      "filename": "scene_043.json",
+      "heading": "INT. 高令宁卧房 - LATE NIGHT",
+      "location": "江南宅院卧房",
+      "tension_score": 0.91,
+      "dramatic_intensity": 0.82,
+      "order": 43,
+      "source_chapter": "ch_013"
+    }
+  ]
+}

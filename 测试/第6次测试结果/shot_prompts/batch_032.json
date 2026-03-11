@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0186",
+    "shot_id": "shot_0204",
+    "prompt_text": "A wide establishing view of the inner courtyard of the Shen residence leading toward a lakeside, sparse silhouettes of Shen household servants, a hanging lantern in the right foreground not fully lit, ancient gate and covered corridor in the left midground, stone steps receding toward the lake in the depth of frame, the lake surface placed in the lower center with broad cold gray reflections and large negative space, tiny human figures scattered and distant; the atmosphere feels abandoned and out of control, no clear faces, only thin moving silhouettes; rapidly darkening gray-blue dusk sky above, warm lantern glow suppressed by cold evening daylight, desaturated gray-cyan, dark ink-black, aged wood brown palette, side-back light and deepening chill, ancient Chinese noble mansion architecture, Song dynasty aesthetic; cinematic realism, restrained subjective storytelling, wide shot composition, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "cold gray-blue dusk daylight with faint amber lantern glow, low saturation warm-cool contrast, side-back lighting, ominous fading natural light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary clothing, modern buildings, plastic, cars, phones, text, watermark, logo, low quality, blurry faces, oversaturated colors, sci-fi elements"
+  },
+  {
+    "id": "sp_0187",
+    "shot_id": "shot_0205",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, rushing into frame from the left and running toward the lakeside at the right front, skirt hem dragging across the ground in a diagonal sweep, breath hurried, posture urgent and off-balance, servants in the background gathering toward the same direction; blurred corridor pillars streak across the foreground, ancient covered walkway and courtyard depth behind her, lantern warmth dimmed by cold sky light, low-angle medium long shot, desaturated gray-cyan and amber tones, old wood and stone textures, dusk tension in a noble mansion courtyard; cinematic realism, limited subjective perspective, dynamic steadicam feel, high detail, subtle motion energy, filmic texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "cool dusk ambient light overpowering muted lantern warmth, low saturation warm-cool contrast, soft side lighting with dim ambient shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary clothing, modern architecture, plastic, cars, phones, text, watermark, logo, low quality, cartoon, oversaturated colors, sci-fi elements"
+  },
+  {
+    "id": "sp_0188",
+    "shot_id": "shot_0206",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up with her face on the right third of the frame, strands of hair blown loose at her temples, breathing visibly hard, eyes tense and destabilized, lips slightly parted as she runs, emotion overtaking restraint; blurred lakeside silhouettes and stone steps compressed into soft shallow-focus shapes on the left side, cold dusk air, desaturated gray-blue and dark teal palette, faint wind, background reduced to indistinct threat; cinematic realism, handheld urgency, shallow depth of field, limited subjective narration, high detail skin and fabric texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, shallow depth of field, subtle film grain",
+      "lighting": "cold dusk natural light with soft side-back illumination, low saturation, restrained contrast, chill ambient tones"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary clothing, modern makeup, plastic, cars, phones, text, watermark, logo, low quality, distorted anatomy, oversaturated colors, sci-fi elements"
+  },
+  {
+    "id": "sp_0189",
+    "shot_id": "shot_0207",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen from behind stopping at the top of the stone steps, centered slightly left, her skirt edge lifted by the wind in the foreground, body frozen as she stares at the lake, scattered servant silhouettes forming a distant arc; the stone steps cut diagonally downward into the water, the lake occupying the right half and lower half of the frame, unnaturally still water, broad empty surface, ancient courtyard-lake connection visible, cold reflective gray tones, sparse human presence, dusk silence pressing in; cinematic realism, medium shot, restrained subjective tension, ominous negative space, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "cold gray dusk light with faint suppressed warm accents, low saturation warm-cool contrast, side-back lighting across fabric and water reflections"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary clothing, modern waterfront details, plastic, cars, phones, text, watermark, logo, low quality, oversaturated colors, fantasy creatures, sci-fi elements"
+  },
+  {
+    "id": "sp_0190",
+    "shot_id": "shot_0208",
+    "prompt_text": "A restrictive point-of-view close look at the lake surface, cold gray ripples filling almost the entire frame, a dark unnatural shape beneath and near the center-lower area, only the edge of floating silk clothing visible, implying Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, without fully revealing her face or body; a stone step enters only from the lower left corner as a hard diagonal, no complete human faces visible, oppressive stillness, death suggested rather than displayed; gray-cyan dusk reflections, desaturated water, sparse detail, chilling natural light with minimal warmth, noble mansion lakeside atmosphere; cinematic realism, fear through restraint, static frame, high detail water texture, subtle film grain, historical drama mood",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "cold dusk natural light on water, low saturation, soft diffuse reflection, ominous gray-blue ambience with almost no warm light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, explicit gore, electric lights, contemporary clothing, plastic debris, boats with engines, cars, phones, text, watermark, logo, low quality, oversaturated colors, horror exaggeration, sci-fi elements"
+  },
+  {
+    "id": "sp_0191",
+    "shot_id": "shot_0209",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a medium close-up from the front at a slight angle, standing on the left side of the frame, eyes fixed and stunned, lips parted but soundless, body locked in shock, fear breaking through restraint; the right side of the frame is filled with blurred lake reflections, her faint neck scar caught by a cold rim of side-back light, background dissolved into pale water glare and dusk haze; low-saturation gray-blue and muted amber contrast, ancient lakeside setting, chilling stillness after impact; cinematic realism, static shot, limited subjective drama, high facial detail, shallow depth of field, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, shallow depth of field, subtle film grain",
+      "lighting": "cold side-back rim light with gray-blue dusk ambience, faint suppressed warm tones, low saturation, reflective lake highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary clothing, modern jewelry, plastic, cars, phones, text, watermark, logo, low quality, distorted face, oversaturated colors, sci-fi elements"
+  }
+]

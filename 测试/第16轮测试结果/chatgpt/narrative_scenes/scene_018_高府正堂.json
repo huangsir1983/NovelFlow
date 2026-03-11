@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_018",
+  "order": 17,
+  "heading": "INT. 高府正堂 - DAY",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高父",
+    "沈母",
+    "沈词"
+  ],
+  "core_event": "沈家想接走昭昭，高父强硬拒绝，甚至以公堂和官途相威胁。沈词随后跪求见妻女，却被高父摆上一纸和离书。",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "高父第一次以绝对强势姿态压制沈家，宣布女儿和外孙女都由高家保全。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "和离书",
+    "孙女探视请求",
+    "门第官途威胁"
+  ],
+  "dramatic_purpose": "完成外部权力格局逆转，让高家掌握主动权。",
+  "source_text_start": "沈家几次来人，说沈母想看孙女，想接走昭昭。",
+  "source_text_end": "他仰头，声音沙哑：「爹，令宁不会与我和离的"
+}

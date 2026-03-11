@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_011",
+  "name": "高府厢房",
+  "type": "interior",
+  "era_style": "明代府邸厢房",
+  "description": "普通客房,床榻凌乱,被褥散落,衣物散乱堆放。房内设桌椅,桌上茶具倾倒,茶水洒出。门栓从内侧插上,窗户半开。地面铺砖,墙上挂简单字画。房内光线昏暗,气氛混乱。角落设衣架,衣物不整。",
+  "visual_reference": "Ming Dynasty estate side room, disheveled interior, messy bed with scattered bedding, clothes in disarray, overturned tea set on table, door bolt from inside, half-open window, brick floor, simple paintings on wall, dim lighting, chaotic atmosphere, clothing rack with disarranged garments, scandal scene, traditional Chinese interior",
+  "atmosphere": "混乱、羞耻、愤怒",
+  "color_palette": [
+    "昏暗灰",
+    "凌乱白",
+    "木褐色"
+  ],
+  "lighting": "昏暗日光从半开窗户透入,室内阴影重重",
+  "key_features": [
+    "凌乱床榻",
+    "倾倒茶具",
+    "门栓",
+    "散乱衣物"
+  ],
+  "narrative_scenes": [
+    "scene_014"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "愤怒与被冤枉的绝望"
+}

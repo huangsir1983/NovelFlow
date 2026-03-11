@@ -1,0 +1,200 @@
+[
+  {
+    "id": "shot_0201",
+    "scene_id": "scene_014",
+    "shot_number": 1,
+    "goal": "建立高府内宅的礼制空间与表面平静的会面气氛，交代高令宁居上、小厮居下的权力位置。",
+    "composition": "FS，机位置于门内偏外侧，以门框作前景遮挡，形成被礼法切割的纵深。高令宁位于画面右后三分之一，端坐案前；案上茶盏居中偏右形成视觉锚点。沈府小厮立于画面左前中景，微低头。窗棂斜光从画面右后方打入，地面与桌沿形成引导线指向高令宁。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到克制、规整，以及客气表象下的隐性对峙。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.28,
+    "order": 201
+  },
+  {
+    "id": "shot_0202",
+    "scene_id": "scene_014",
+    "shot_number": 2,
+    "goal": "从女主视角确认来者身份与姿态，强调对方只是传话工具，也暗示沈家的试探隔着礼数而来。",
+    "composition": "MS，轻微主观POV角度。小厮位于画面左中，身体略朝右，始终低头不敢直视；画面右前景虚化出高令宁肩线与发髻边缘，压住视线主导权。背景是素净屏风与半截窗格，留白偏多，突出拘束感。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到对方弱势、局面被高令宁掌控。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.2,
+    "order": 202
+  },
+  {
+    "id": "shot_0203",
+    "scene_id": "scene_014",
+    "shot_number": 3,
+    "goal": "建立高令宁的冷静状态与她开口前的审视，预告她的回应不会顺从。",
+    "composition": "MCU，高令宁位于画面右侧三分之一，背脊笔直，视线斜向左前方。前景下沿保留案角与茶盏虚焦，背景窗棂亮面与暗部墙面形成冷暖极弱反差，颈侧淡痕若隐若现。留白在她视线方向，制造压迫。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的克制里藏着锋利和预谋。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.08,
+    "order": 203
+  },
+  {
+    "id": "shot_0204",
+    "scene_id": "scene_014",
+    "shot_number": 4,
+    "goal": "完整交代关键台词，明确高令宁提出反条件，正式将被动婚事变为主动反制。",
+    "composition": "MCU正侧三分之二角度，高令宁位于画面右中，面向左侧画外的小厮。案面横线稳定构图，茶盏位于前景下方偏左，与她的口型形成前后层次。背景窗棂斜光切过她半边脸，另一侧保持冷阴影，强化双层意味。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到言语平稳却带条件交换的刺意。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 204
+  },
+  {
+    "id": "shot_0205",
+    "scene_id": "scene_014",
+    "shot_number": 5,
+    "goal": "用反应镜头验证这句话的压迫力，显示小厮只能吞下、无权置喙。",
+    "composition": "MCU，小厮位于画面左侧，头压得更低，双手收在身前；画面右前景虚化保留高令宁衣袖一角，形成持续压制。背景门框竖线贴近小厮身后，像将其夹住。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这场对话不是商量，而是单向下达。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 205
+  },
+  {
+    "id": "shot_0206",
+    "scene_id": "scene_014",
+    "shot_number": 6,
+    "goal": "以手部细节补强高令宁表面的平静，表现她说狠话时身体控制依旧稳，不见失态。",
+    "composition": "CU，案上茶盏与高令宁搁在桌边的手同框，手指轻搭杯沿却不举杯。茶盏位于画面左下，手位于右中，桌案木纹横向铺开，构成冷静秩序。背景完全虚化，仅余暖白窗光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她不是情绪失控，而是有意识地拿捏节奏。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 206
+  },
+  {
+    "id": "shot_0207",
+    "scene_id": "scene_014",
+    "shot_number": 7,
+    "goal": "完成对话回合，交代小厮领命退出，并通过空间关系强化高令宁始终未动、局面由她定格。",
+    "composition": "MLS，机位仍守在轴线同侧。高令宁坐于画面右后方不动，成为稳定重心；小厮从左中景后退至左前景，再转身向左侧门口退出。门框与屏风形成层层遮挡，人物动静对比鲜明。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她的胜利不是喧哗式，而是端坐中完成压制。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.02,
+    "order": 207
+  },
+  {
+    "id": "shot_0208",
+    "scene_id": "scene_014",
+    "shot_number": 8,
+    "goal": "通过空室与远去脚步制造停顿，给高令宁真实情绪浮现留出空间。",
+    "composition": "FS，沿上一镜轴线稍收紧。左侧门口空出，小厮已出画；高令宁仍在右侧案前，画面中央留下大片空地。前景有半扇门框虚化，背景窗光安静，空间突然显得更大更冷。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到短暂回冷后的余波，等待她卸下表情。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 208
+  },
+  {
+    "id": "shot_0209",
+    "scene_id": "scene_014",
+    "shot_number": 9,
+    "goal": "捕捉高令宁确认人已走远后的第一道细微松动，揭示她先前的平静只是壳。",
+    "composition": "CU，侧面近距离。高令宁位于画面右侧，眼神先停在左侧门外方向，随后极轻地回收。前景用发簪或帐幔边缘形成窄遮挡，背景只留一条亮色门边，暗示她在听、在确认。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的报复意识清醒而谨慎，快意来得很克制。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 209
+  },
+  {
+    "id": "shot_0210",
+    "scene_id": "scene_014",
+    "shot_number": 10,
+    "goal": "呈现情绪反转的高点：唇角微扬，显出报复得逞后的快意，完成本场关系信息反转。",
+    "composition": "ECU，高令宁下半张脸与眼尾同入画，唇角位于画面右下三分之一，眼尾位于左上，形成斜线呼应。背景彻底虚化成浅金白色窗光，所有注意力集中在那一丝克制的笑意上。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到锋利、隐秘而带一点危险的满足。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 210
+  },
+  {
+    "id": "shot_0211",
+    "scene_id": "scene_014",
+    "shot_number": 11,
+    "goal": "给出完整收束，确认高令宁重新恢复端稳外壳，但观众已知她占了上风。",
+    "composition": "MS，高令宁居右中，轻微垂眼整理袖口或收回放在案上的手。案上茶盏仍在原位，背景窗棂与屏风线条整齐，室内一切恢复秩序。左侧留出门口空位，强调对手已退场，她独占画面。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的主动反制已落地，余味冷而利。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.06,
+    "order": 211
+  }
+]

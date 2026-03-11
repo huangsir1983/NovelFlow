@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_019",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:31:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会无人角落 - DAY",
+    "location": "马球会偏僻角落",
+    "time_of_day": "day",
+    "description": "角落被花木和帷幕后遮出一片相对私密的空间，远处仍隐约传来人声与马球喧响。地面平整，光线被树影切碎，明暗交错。高令宁扶着一旁栏杆或石座站立，裙摆微乱，脚踝处不便使力；蒋晟半蹲在侧，保持克制距离。",
+    "action": "蒋晟将高令宁扶到僻静处后松开手，低头查看她的脚伤，不敢贸然触碰，只隔着衣料和距离询问。高令宁微微提起裙角，露出已有些发肿的脚踝，皱眉试着落地，旋即又轻吸一口气。蒋晟提出去叫人或取药，高令宁点头应允。蒋晟离开前回头看了她一眼，见她能扶物站稳，才快步走开。",
+    "dialogue": [
+      {
+        "character": "蒋晟",
+        "line": "像是扭着了，我去叫人来，或给你取药。",
+        "subtext": "我担心你，但守着分寸，不愿让你为难。"
+      },
+      {
+        "character": "高令宁",
+        "line": "好，你去吧。",
+        "subtext": "我需要片刻独处，也默认由你替我处理眼前局面。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "key_props": [
+      "栏杆",
+      "裙摆"
+    ],
+    "dramatic_purpose": "为正面冲突制造单独相处的条件，同时通过蒋晟的克制与体贴继续强化其“良配”形象。",
+    "tension_score": 0.46,
+    "order": 19
+  }
+}

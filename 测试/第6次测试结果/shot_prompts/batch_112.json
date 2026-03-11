@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0672",
+    "shot_id": "shot_0668",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up side profile occupying the right half of the frame; her eyes remain closed, eyelashes trembling slightly, lips pale and still, emotion tightly suppressed as if pierced by old pain but refusing to respond. In the left foreground, the blurred chest-level porridge bowl and sleeve of Shen Rui press into frame as visual compression. Background is a dark wooden bedhead swallowed by shadow, with only a thin warm line of candlelight grazing her neck and nose bridge. Low-saturation warm-cool contrast, gray-blue and old wood brown palette with amber candle highlights, curtain-like shadow pressure, intimate historical chamber, cinematic realism, shallow depth of field, highly detailed skin texture, restrained Song dynasty drama aesthetics.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, shallow depth of field, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, mostly dark ambient tones, a narrow amber candle rim light on the neck and nose bridge, heavy shadowed background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, glass windows, modern furniture, modern hairstyle, modern makeup, text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, overexposed, oversaturated"
+  },
+  {
+    "id": "sp_0673",
+    "shot_id": "shot_0669",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, shown in medium close-up from a slightly high angle at the center of the frame; he slowly lowers a porcelain porridge bowl from chest height to his abdomen, his shoulders sinking a little with the movement, eyes downcast, expression falling into loss and self-blame. Behind him, the bed edge and the blurred white sleeping robe of Gao Lingning create silent pressure like an unseen gaze from above. Ancient bedchamber interior in dim gray-blue and dark wood tones, amber candlelight mixed with cool shadow, low-saturation warm-cool contrast, static emotional gravity despite the gentle tilt framing, cinematic realism, subtle film grain, precise costume texture, Song dynasty aesthetics.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism, subtle camera tilt composition",
+      "lighting": "soft amber candlelight mixed with cool gray-blue shadow, low-saturation warm-cool contrast, downward pressure from dim interior light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern bowl design, modern interior, text, subtitles, watermark, logo, low quality, bad anatomy, extra limbs, distorted face, oversaturated colors, harsh studio lighting"
+  },
+  {
+    "id": "sp_0674",
+    "shot_id": "shot_0670",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, shown in close-up with his lowered eyes centered in frame; his lashes cast shadows over his cheeks, his lips press tight and then part slightly, capturing a suffocating instant of self-condemnation and childlike self-sacrifice. A faint porcelain bowl rim appears at the bottom edge of the frame. The background is fully blurred into dark blocks of mixed warm amber and cool gray-blue, isolating his face in emotional collapse. Low-saturation warm-cool contrast, old noble chamber atmosphere, soft cinematic texture, shallow focus, realistic skin and fabric detail, restrained historical melodrama, Song dynasty aesthetics.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, shallow depth of field, historical drama realism",
+      "lighting": "mixed dim amber candle glow and cool shadow, low-saturation warm-cool contrast, soft frontal falloff with eyelash shadows emphasized"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary clothing, text, subtitles, watermark, logo, low quality, blurry eyes, malformed features, extra fingers, duplicate bowl, oversharpened, oversaturated"
+  },
+  {
+    "id": "sp_0675",
+    "shot_id": "shot_0671",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, and Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a medium long shot; the bed remains dominant on the right side, Gao Lingning lies on the bed in weak stillness, while Shen Rui is placed in the lower left stepping forward, setting the porridge bowl onto a small bedside table and then turning to kneel and bow deeply before the bed. Hanging bed curtains descend from above like a judging veil, while the cold empty wall behind makes the child’s body appear even smaller. Ancient aristocratic bedchamber, dark wood, gray-blue shadows, old brown furniture, sparse amber candlelight, low-saturation warm-cool collision, ritual pressure and emotional humiliation embodied through spatial hierarchy, cinematic realism, highly detailed historical props and textiles, Song dynasty aesthetics.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism, layered composition",
+      "lighting": "dim amber candlelight against cool gray-blue darkness, low-saturation warm-cool contrast, shadow-heavy interior with curtain occlusion and strong spatial pressure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern bed, plastic, contemporary decor, text, subtitles, watermark, logo, low quality, bad anatomy, extra limbs, distorted perspective, overexposed highlights, saturated neon colors"
+  },
+  {
+    "id": "sp_0676",
+    "shot_id": "shot_0672",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in extreme close-up focused only on the eye area, nose bridge, and a strip of pale skin; her closed eye snaps open in shock, the pupil catching a tiny reflection of candle flame, emotion violently awakened under severe restraint. The background is completely black, stripping away all context except the shock of consciousness. A hard diagonal light cuts from above, emphasizing skin texture, eyelashes, and the sharpness of the awakening. Low-saturation palette with a precise amber highlight against black shadow, cinematic realism, ultra-intimate framing, highly detailed eye reflection, tense historical drama aesthetic.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, extreme close-up, film grain, historical drama realism",
+      "lighting": "single diagonal top light with amber candle reflection in the pupil, deep black background, stark warm highlight against cool darkness"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contact lenses, modern makeup, text, subtitles, watermark, logo, low quality, blurry eye, deformed iris, extra eyes, cartoon style, oversaturated"
+  },
+  {
+    "id": "sp_0677",
+    "shot_id": "shot_0673",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up half-reclining on pillows at the right side of the frame; after waking she weakly turns toward the left bedside, lips drained of color, her expression restrained yet cutting, protective instinct breaking through a cold exterior. In the lower left foreground, the blurred crown of Shen Rui’s bowed head occupies the corner, creating subjective pressure and emotional proximity. Ancient bedchamber interior with dark wood headboard, soft bedding, low-saturation gray-blue and old brown tones, a faint amber candle glow brushing her face while cool shadows dominate the room, veil-like darkness enclosing the space. Cinematic realism, intimate historical drama portrait, shallow depth of field, highly detailed fabric and skin, Song dynasty aesthetics.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, shallow depth of field, historical drama realism",
+      "lighting": "soft amber candlelight on the face within cool gray-blue shadow, low-saturation warm-cool contrast, enclosed bedside darkness with subtle directional light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern bedding, plastic, text, subtitles, watermark, logo, low quality, bad anatomy, blurry foreground, distorted face, extra limbs, oversaturated colors"
+  }
+]

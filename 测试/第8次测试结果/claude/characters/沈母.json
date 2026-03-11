@@ -1,0 +1,66 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人",
+    "婆母"
+  ],
+  "role": "supporting",
+  "age_range": "45-55岁",
+  "appearance": {
+    "face": "方正脸型,眉眼威严,法令纹深刻,常带审视目光",
+    "body": "中等偏丰腴,体态端庄但略显僵硬",
+    "hair": "乌黑发髻高盘,插金簪玉钗,鬓角见少许银丝",
+    "distinguishing_features": "紧抿的薄唇,眉间常有川字纹"
+  },
+  "costume": {
+    "typical_outfit": "深色织锦长袍,绣暗纹,系玉带",
+    "color_palette": [
+      "深褐",
+      "墨绿",
+      "暗紫"
+    ],
+    "texture_keywords": [
+      "厚重织锦",
+      "硬挺绸缎",
+      "沉稳暗纹"
+    ]
+  },
+  "casting_tags": [
+    "威严母亲",
+    "传统家长",
+    "权力掌控者",
+    "算计型长辈"
+  ],
+  "visual_reference": "stern middle-aged Chinese noblewoman, severe expression, dark brocade robe, high hair bun with jade hairpin, commanding presence",
+  "description": "以家族利益为名行控制之实的传统婆母",
+  "personality": "表面维护礼法,实则操控欲强,擅长以母权和家族大义压人,遇强硬反抗即心虚退缩",
+  "desire": "掌控儿子婚姻以巩固家族地位,安置心腹陆姝仪为平妻以分化儿媳权力",
+  "flaw": "低估他人反抗意志,过度依赖传统权威,缺乏应对突发冲突的心理承受力",
+  "arc": "权力巅峰(策划平妻)→遭遇暴力反抗(儿媳自残)→惊吓失权(被吓病交出管家权)→边缘化(此后未再出场)",
+  "relationships": [
+    {
+      "target": "我/女主/高家长女",
+      "type": "权力",
+      "dynamic": "婆媳权力争夺战的发起者与失败者,试图以平妻计划羞辱儿媳却被自残反击吓退",
+      "function": "制造核心冲突,推动女主黑化与掌权"
+    },
+    {
+      "target": "沈词",
+      "type": "情感/利益",
+      "dynamic": "以母爱为名操控儿子婚姻,实为维护自身家族话语权,儿子默许其计划但未主动参与",
+      "function": "揭示沈词软弱与家族压力"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益",
+      "dynamic": "扶持心腹进门分化儿媳权力,将其作为制衡工具而非真心疼爱",
+      "function": "工具化关系,暗示陆姝仪悲剧根源"
+    },
+    {
+      "target": "睿儿",
+      "type": "利益",
+      "dynamic": "未直接互动,但其平妻计划间接影响孙子成长环境",
+      "function": "家族利益与下一代幸福的对立"
+    }
+  ]
+}

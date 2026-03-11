@@ -1,0 +1,59 @@
+[
+  {
+    "name": "高姑娘",
+    "aliases": [
+      "我",
+      "女主角",
+      "女主"
+    ],
+    "role": "protagonist",
+    "brief": "清醒独立的重生者，谋划风光大嫁与和离。"
+  },
+  {
+    "name": "沈词",
+    "aliases": [
+      "男主角",
+      "男主",
+      "沈家公子"
+    ],
+    "role": "protagonist",
+    "brief": "同样带记忆重生的男主，婚后冷漠拒和离。"
+  },
+  {
+    "name": "睿儿",
+    "aliases": [
+      "长子",
+      "一代名相"
+    ],
+    "role": "minor",
+    "brief": "男女主前世今生的长子，前世为一代名相。"
+  },
+  {
+    "name": "青梅",
+    "aliases": [
+      "义妹"
+    ],
+    "role": "supporting",
+    "brief": "前世早亡，今生被男主救下收为义妹。"
+  },
+  {
+    "name": "父亲",
+    "aliases": [
+      "高家家主"
+    ],
+    "role": "supporting",
+    "brief": "女主之父，谄媚逢迎权贵但也疼爱女儿。"
+  },
+  {
+    "name": "媒人",
+    "aliases": [],
+    "role": "minor",
+    "brief": "替沈家提亲的中间人，劝阻女主退聘礼。"
+  },
+  {
+    "name": "大夫",
+    "aliases": [],
+    "role": "minor",
+    "brief": "推动剧情的工具人，断定女主怀有男胎。"
+  }
+]

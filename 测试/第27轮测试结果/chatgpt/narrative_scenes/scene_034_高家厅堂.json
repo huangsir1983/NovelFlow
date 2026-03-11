@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_034",
+  "order": 33,
+  "heading": "INT. 高家厅堂 - day",
+  "location": "高家厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "陆姝仪"
+  ],
+  "core_event": "昭昭满月宴上，陆姝仪不请自来，坦白前世投湖与今生蒋晟事件皆是她为求出路亲手设计。",
+  "key_dialogue": "蒋晟的事，是我设计。",
+  "emotional_peak": "真相揭晓后的震惊与释然",
+  "tension_score": 0.88,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "满月请帖",
+    "酒宴礼单"
+  ],
+  "dramatic_purpose": "为长久误会给出真相，也洗清女主冤屈，完成陆姝仪线的收束。",
+  "visual_reference": "满月宴后厅，柔弱女子独自站着，神情惨淡却平静自白；女主静静望着她，父亲护在一侧，宴席余韵未散，空气里却只有真相落地的冰凉，古风群戏后静场",
+  "visual_prompt_negative": "避免大型宴会喧闹、避免恶毒反派脸谱、避免现代请柬、避免过于华美抢戏",
+  "source_text_start": "拿到和离书后。",
+  "source_text_end": "她朝我盈盈一拜，转身离开。"
+}

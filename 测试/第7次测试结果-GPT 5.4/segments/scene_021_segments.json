@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0104",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0335",
+      "shot_0336",
+      "shot_0337"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段合并建立空间轴线与初始权力关系，再从女主主观确认陆姝仪起身意图，最后落回高令宁反应，角色集合稳定未变，情绪仍处于压抑预警阶段，适合作为一个连续铺垫段落。",
+    "order": 104
+  },
+  {
+    "id": "seg_0105",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0338",
+      "shot_0339",
+      "shot_0340",
+      "shot_0341"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完整覆盖陆姝仪从行动到跪求的第一次情绪爆发，包含离榻、下跪、抓衣角、仰头哭诉四个连续动作，虽为4个shot，但同属一个单一目标弧线：以弱势姿态把高令宁推上审判席，因此应合并为一个高压段落。",
+    "order": 105
+  },
+  {
+    "id": "seg_0106",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0342",
+      "shot_0343",
+      "shot_0344"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段以高令宁的沉默反应为起点，迅速转向沈词被触发后的行动，完成全场第一次明确站队。情绪由压抑转为爆裂，且叙事重心从‘跪求高令宁’转为‘沈词介入护短’，因此在此划分新段最合理。",
+    "order": 106
+  },
+  {
+    "id": "seg_0107",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0345",
+      "shot_0346",
+      "shot_0347"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段聚焦护短后的情感确认：先以擦泪特写坐实亲密，再用沈词台词把立场公开化，最后反打高令宁承受这份宣告。三镜形成完整的‘亲密—宣判—受击’情绪链条，应合并为同一高潮段。",
+    "order": 107
+  },
+  {
+    "id": "seg_0108",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0348",
+      "shot_0349"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜共同承担余波收束功能：先给高令宁一侧的孤立见证，再回归客观全景锁死人物关系。情绪从高潮后回冷，但叙事上是同一结局状态，因此合并为结尾段最完整。",
+    "order": 108
+  }
+]

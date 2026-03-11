@@ -1,0 +1,64 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹",
+    "沈府小姐"
+  ],
+  "role": "supporting",
+  "age_range": "17-28",
+  "appearance": {
+    "face": "面容温婉清丽，五官柔和，眼含水光，哭时楚楚可怜，极具保护欲触发感",
+    "body": "纤细柔弱，身姿轻盈，病弱感明显",
+    "hair": "乌发柔顺，常梳温婉闺秀式发髻，点缀浅色珠花",
+    "distinguishing_features": "柔弱姿态与清泉般的泪眼，极容易让人先入为主地怜惜"
+  },
+  "costume": {
+    "typical_outfit": "浅粉、藕荷、月白等柔色衣裙，风格偏素雅可怜型",
+    "color_palette": [
+      "浅粉",
+      "月白",
+      "藕荷"
+    ]
+  },
+  "casting_tags": [
+    "白月光",
+    "柔弱美人",
+    "病弱感",
+    "心机隐忍",
+    "青梅竹马"
+  ],
+  "visual_reference": "Ancient Chinese delicate beauty, soft features, watery eyes, slender body, pale pink hanfu, fragile temperament, melancholy expression, poetic historical drama style",
+  "personality": "表面柔顺无害，内里自卑、敏感、记仇，也有求生本能与算计",
+  "desire": "摆脱孤女命运，获得稳定归宿与被珍视的位置",
+  "flaw": "过度依赖他人认可，边界感薄弱，受困境逼迫时会选择伤人式自保",
+  "arc": "从前世被动卷入的白月光，到重生后主动操控自身婚姻命运，最终承认自己曾陷害高令宁并退出其生活",
+  "scene_presence": "多次作为婚姻矛盾触发点出现，关键场景包括敬茶回忆、马球会、跪求留府、失贞风波与满月宴坦白",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅/义兄妹/情感依赖对象",
+      "dynamic": "长期相互依赖却名不正言不顺，边界模糊",
+      "function": "主情感三角的另一角"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌/加害与被害关系",
+      "dynamic": "表面示弱，实则互相戳伤，最终揭露重生与陷害真相",
+      "function": "推动误会高潮与女性镜像对照"
+    },
+    {
+      "target": "蒋晟",
+      "type": "丈夫",
+      "dynamic": "以设计手段绑定，婚后冷淡疏离",
+      "function": "体现其为自保付出的代价"
+    },
+    {
+      "target": "沈母",
+      "type": "长辈与婚配操控者",
+      "dynamic": "既被怜惜收留，又被当作婚姻筹码安排",
+      "function": "强化其弱势处境"
+    }
+  ]
+}

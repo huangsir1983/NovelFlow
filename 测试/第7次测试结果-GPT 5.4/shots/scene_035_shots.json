@@ -1,0 +1,180 @@
+[
+  {
+    "id": "shot_0542",
+    "scene_id": "scene_035",
+    "shot_number": 1,
+    "goal": "建立高府卧房的封闭、安静与暂住痕迹，交代高令宁已回娘家并开始抽离沈家生活。",
+    "composition": "FS，机位略低于视线，门框作为前景遮挡置于画面左侧形成纵深，画面中部偏右是床榻，床边放着收拾整齐的包裹；右后方窗棂斜光打入，在地面与榻沿形成斜线；左后方案几上摆着汤药与细软，空间留白偏大，人物尚未完全入画。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到冷清、克制，以及一种已经做出决定后的安静决绝。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.48,
+    "order": 542
+  },
+  {
+    "id": "shot_0543",
+    "scene_id": "scene_035",
+    "shot_number": 2,
+    "goal": "将包裹、衣物、汤药并置，强调她以养胎为名回府暂住不是一时赌气，而是有条理的撤离。",
+    "composition": "MS，包裹占画面下中部，叠好的衣物从画面右侧被放入；左前景虚化为药碗边缘，背景是床榻一角和素色帐幔，视觉重心落在物件秩序上，人物仅见到袖口与手。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的选择冷静、实际，没有情绪失控的外露。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.42,
+    "order": 543
+  },
+  {
+    "id": "shot_0544",
+    "scene_id": "scene_035",
+    "shot_number": 3,
+    "goal": "首次明确呈现高令宁的状态：孕中仍动作利落，态度不软，主动掌控自己的去留。",
+    "composition": "MLS，高令宁立于画面右三分之一处，侧身对镜，正将一件衣物折起放入包裹；左侧留出大片空室，案几与药碗在后景，窗棂光从她身后侧打出肩背轮廓，人物被门框与床柱切割在狭窄空间内。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众对她产生克制的敬畏，感到她不是被动退场，而是主动收回自己。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.34,
+    "order": 544
+  },
+  {
+    "id": "shot_0545",
+    "scene_id": "scene_035",
+    "shot_number": 4,
+    "goal": "通过手部动作传达‘不解释’的态度——整理不是犹豫，是执行决定。",
+    "composition": "CU，画面中心是高令宁的双手，一手压平衣角，一手迅速系紧包裹结扣；前景有一缕散落衣带，背景虚化为床榻木纹与月白裙裾，手的动作形成横向收束线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感受到她的决断与隐忍，情绪被压进动作里。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.26,
+    "order": 545
+  },
+  {
+    "id": "shot_0546",
+    "scene_id": "scene_035",
+    "shot_number": 5,
+    "goal": "借女主近景主观风格呈现她对室内事物的扫视，暗示这不是归属感，而是有意识地确认暂住秩序。",
+    "composition": "MCU偏主观，镜头从她肩后看向案几，药碗与细软置于画面中部，边缘有她的肩颈虚焦压入前景；窗光在器物上形成冷白反光，背景墙面空净，强化‘借住痕迹’而非真正安家。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她对现实的清醒盘点，不眷恋，也不慌乱。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.22,
+    "order": 546
+  },
+  {
+    "id": "shot_0547",
+    "scene_id": "scene_035",
+    "shot_number": 6,
+    "goal": "呈现高令宁面部情绪：不是悲伤外露，而是刻意抽离后的冷淡锋利。",
+    "composition": "MCU，高令宁位于画面左三分之一，面朝右侧略低头，眼神落向包裹之外，不看镜头；前景右侧虚化为包裹一角，背景是浅金窗光与暗青屏风，颈侧淡痕在侧光下隐约可见。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众读到她压住的恨意与自持，感到关系已经退到礼制外缘。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 547
+  },
+  {
+    "id": "shot_0548",
+    "scene_id": "scene_035",
+    "shot_number": 7,
+    "goal": "用一个反应停顿说明她并非毫无波动，而是把情绪掐断，不让其蔓延成留恋或解释。",
+    "composition": "CU，正侧面近景，高令宁的眼部位于画面上方三分之一，唇线绷紧；前景下方虚化是她停住的手，背景仅留一道窗棂斜影切过脸颊，画面压缩，空间显得窒息。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众捕捉到她内心被刺了一下却立即收回的锋利自控。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 548
+  },
+  {
+    "id": "shot_0549",
+    "scene_id": "scene_035",
+    "shot_number": 8,
+    "goal": "通过重新提起包裹的动作完成情绪回落后的执行，明确她不会回头解释，也不等待任何人挽留。",
+    "composition": "MS，机位在床尾斜侧，高令宁位于画面中央偏右，弯腰提起包裹后直身；床榻占左前景形成阻隔，案几与药碗退到后景，人物的起身动作成为唯一竖向力量线。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "让观众感到一种近乎冷酷的清醒：她在把自己从旧局里抽出来。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.16,
+    "order": 549
+  },
+  {
+    "id": "shot_0550",
+    "scene_id": "scene_035",
+    "shot_number": 9,
+    "goal": "交代空间关系与出画方向，为后续场景衔接：高令宁从卧房内向门外离开，保持主动离场的方向一致性。",
+    "composition": "MLS，门口机位内拍外，高令宁自画面右侧向左侧门口行进，包裹垂于手侧；门框与帘幕形成前景遮挡，床榻和案几留在后景，窗光从她身后拉长影子，强化离开的意图。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感受到她不是逃离，而是有秩序地撤回自己的阵地。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.24,
+    "order": 550
+  },
+  {
+    "id": "shot_0551",
+    "scene_id": "scene_035",
+    "shot_number": 10,
+    "goal": "以留空的室内结束场景，强调她的离去在情感上留下冷却后的空白，也为下一场的关系观望建立余韵。",
+    "composition": "FS，与开场空间轴线呼应但更空，人物已出画；门框前景仍在左侧，床边少了一件衣物，案几上的汤药未动，窗棂斜光照着刚被收拾过的痕迹，空间比开场更整洁也更冷。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众在安静中意识到她已完成一步关键撤退，留下的是疏离与观望。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": -0.38,
+    "order": 551
+  }
+]

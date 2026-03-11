@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "maiden",
+  "variant_name": "高令宁 — 待嫁少女",
+  "tags": [
+    "少女",
+    "未嫁",
+    "骄傲贵女"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_003"
+  ],
+  "trigger": "提亲场景（scene_001）、闺房对话（scene_002）和门前谈判（  scene_003）中，作为未婚高家小姐出现",
+  "appearance_delta": {
+    "face": "更显青春活力，眼神锐利中透出少女倔强",
+    "body": "苗条修长，未经生育的挺拔体态",
+    "hair": "少女发式，如垂发或简单环髻",
+    "distinguishing_features": "骄傲微抬的下巴，冷笑时锋芒毕露的眼神更具锐气"
+  },
+  "costume_override": {
+    "outfit": "绣花襦裙与华贵少女风格汉服",
+    "color_palette": [
+      "月白",
+      "淡青",
+      "浅绛"
+    ]
+  },
+  "visual_reference": "stunning young Chinese noblewoman in ancient Tang-Song dynasty maiden Hanfu, sharp intelligent phoenix eyes, elegant oval face, long flowing black hair in youthful maiden hairstyle with delicate jade hairpins, fair skin, strong-willed and proud expression with slightly lifted chin, highly detailed cinematic lighting, 8k",
+  "emotional_tone": "高傲坚定，带着重生后的报复决心"
+}

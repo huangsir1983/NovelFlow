@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家产房 - NIGHT",
+  "location": "高家产房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "稳婆"
+  ],
+  "core_event": "高令宁因急火攻心早产难产，稳婆逼沈词在保大保小之间选择；高令宁认定他会为儿子舍弃自己，沈词却红着眼要求保她，最终孩子平安出生，却是个女儿。",
+  "key_dialogue": "「我要高令宁。」",
+  "emotional_peak": "孩子啼哭后，沈词先去确认高令宁鼻息，眼角落泪，紧接着又因“是女儿”而陷入震惊。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "产床",
+    "床单",
+    "稳婆接生用布巾",
+    "新生儿襁褓"
+  ],
+  "dramatic_purpose": "完成情感认知反转，也打碎男女主共同围绕“睿儿”建立的计划",
+  "source_text_start": "眼前是深不见底的黑。\n稳婆和太医都到了。",
+  "source_text_end": "稳婆兴高采烈地道：「沈大人，快来看看小千金，漂亮得很！」"
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高府厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪在高家失踪，最终被发现与蒋晟衣冠不整地昏迷在厢房。陆姝仪哭诉是高令宁设计陷害，沈词不问青红皂白便认定是高令宁所为。",
+  "key_dialogue": "从头到尾，你都是这般恶毒跋扈的妇人。",
+  "emotional_peak": "沈词的全然不信任和恶毒指责，让高令宁彻底心死。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "剥好的葡萄（沈词剥给高令宁）",
+    "昏迷的陆姝仪和蒋晟"
+  ],
+  "dramatic_purpose": "矛盾总爆发。陆姝仪的阴谋得逞，沈词的偏袒和不信任彻底摧毁了高令宁心中最后一丝留恋，直接导致了后续的早产和决裂。",
+  "source_text_start": "借着养胎为由，收拾包裹回了娘家。\n沈词每日下衙，都会先到高家看看我",
+  "source_text_end": "眼前是深不见底的黑。"
+}

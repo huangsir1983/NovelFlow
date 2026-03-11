@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_012",
+  "name": "沈府洞房",
+  "type": "interior",
+  "era_style": "明代中晚期世家婚房内室",
+  "description": "洞房为婚礼后最私密的卧房，空间以喜帐和喜床为绝对视觉中心。床榻宽大，铺设厚重锦被，龙凤喜烛高燃，帐幔以大红纱绸层层垂落。床前可置热水铜盆、帕子、脚踏与换下的散落衣衫，细节显露新婚夜的亲密与狼狈。室内陈设不多，但每件器物都偏软、偏近身：低几、烛台、衣架、床侧小案。门外叩门声会通过厚重门板和静夜氛围被放大。整体需要在传统婚房艳丽喜庆的基础上，加入一种空气滞重、情欲与敌意并存的冷感。",
+  "visual_reference": "Late Ming dynasty bridal chamber in a noble mansion, red canopy bed with layered wedding curtains, dragon-phoenix candles, rich brocade bedding, scattered garments on the floor, bronze basin with hot water, hand cloth, intimate Chinese wedding bedroom at night, luxurious yet tense, emotional coldness beneath physical closeness, cinematic historical realism, detailed textures",
+  "atmosphere": "艳红窒闷、亲密疏离、冷嘲相刺",
+  "color_palette": [
+    "深红",
+    "烛金",
+    "暖褐",
+    "暗影黑"
+  ],
+  "lighting": "夜间主要依靠龙凤喜烛，光线摇曳贴肤，局部高亮、四周昏暗，强化身体接近与情感疏离的矛盾。",
+  "key_features": [
+    "大红喜帐与喜床",
+    "龙凤喜烛",
+    "地面散落衣衫与铜盆"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "在最应温存的新婚之夜，空间却承载着交易、冷嘲与被随时打断的屈辱。"
+}

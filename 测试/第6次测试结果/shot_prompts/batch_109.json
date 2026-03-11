@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0654",
+    "shot_id": "shot_0608",
+    "prompt_text": "A pale exhausted young Chinese noblewoman, tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies weakly on a bed at the back right of the frame, nearly sinking into the pillows, face drained and eyes barely open; beside her stands a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, staying still near the bedside while other attendants surge toward the baby at the bed foot, fragmented busy figures in white cloths crossing the left side and foreground, copper basin and candle stand cutting the composition, his attention fixed on the woman rather than the child; an ancient Chinese childbirth chamber with old wooden walls and hanging curtains pressing down the space, a blurred trembling candle flame in the foreground, low-saturation gray-blue, charcoal black, aged wood brown and amber candlelight colliding in warm-cool contrast, shallow depth of field, static medium long shot, cinematic realism, restrained historical drama atmosphere, fine film grain, highly detailed textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, dim childbirth chamber, side backlight with trembling amber candlelight against cool gray-blue shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern hospital equipment, contemporary clothing, modern hairstyle, text, watermark, logo, subtitle, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0655",
+    "shot_id": "shot_0609",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, leans urgently from the left center of the frame toward the bed, one arm forming a diagonal leading line, his gaze locked on the woman's breathing with instinctive fear and fixation; a pale exhausted young Chinese noblewoman, tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, appears only partially in the lower right with her face and shoulder entering frame, leaving space around her nose and mouth; behind them a blurred swaddled infant and midwife pass in soft focus, indicating the room's attention has shifted to the newborn, ancient Chinese postpartum chamber, dark wood, draped fabric, muted gray-cyan shadows and amber candle glow, medium shot with intimate tension, slight forward dolly feel, cinematic realism, shallow focus, subtle film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, soft side candlelight on faces, cool shadowed background, dim interior with restrained amber highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern hospital equipment, contemporary clothing, modern hairstyle, text, watermark, logo, subtitle, low quality, bad anatomy, extra limbs, blurry image, oversaturated colors"
+  },
+  {
+    "id": "sp_0656",
+    "shot_id": "shot_0610",
+    "prompt_text": "A pale exhausted young Chinese noblewoman, tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in extreme weakness with a pale side profile filling the right two-thirds of the frame, lips drained of color, temple hair damp with sweat, barely perceptible breath; from the left edge enters the trembling fingers of a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, hovering just under her nose to confirm life; the background is almost fully crushed into darkness, only a thin warm candle rim outlining her nose bridge and jawline, close-up composition, stillness and suspended breath, low-saturation amber against cold gray-black shadows, cinematic realism, ultra-detailed skin texture, shallow depth of field, filmic tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro close-up, film grain, historical drama realism",
+      "lighting": "very low-key lighting, nearly dark background, single warm candle rim light against cool gray-black shadow fields"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern hospital equipment, contemporary clothing, modern hairstyle, text, watermark, logo, subtitle, low quality, bad anatomy, malformed fingers, extra fingers, blur, oversaturated colors"
+  },
+  {
+    "id": "sp_0657",
+    "shot_id": "shot_0611",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, framed frontally with a slight three-quarter turn, shoulders visibly dropping, chest rising and falling as he exhales a long breath through tightly pressed lips, the first release after overwhelming fear; behind him stand a dark wooden bedpost and flickering candle flames, while the blurred edge of a bed remains on the right side to keep his emotional focus tied to the woman; ancient Chinese childbirth chamber, compressed interior, aged wood, drapery, subdued gray-blue and charcoal palette pierced by amber candle points, medium close-up, slight dolly intimacy, cinematic realism, restrained emotional release, shallow depth of field, fine film grain, highly detailed costume and skin texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "dim interior with soft side candlelight, warm amber highlights on face and cool gray-blue ambient shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern hospital equipment, contemporary clothing, modern hairstyle, text, watermark, logo, subtitle, low quality, bad anatomy, extra limbs, blurry image, oversaturated tones"
+  },
+  {
+    "id": "sp_0658",
+    "shot_id": "shot_0612",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, shown in an intense close-up with one eye and half his face filling the frame, the outer corner reddened, a single tear rolling down from the lower lashes across the cheekbone, his expression still trying to remain controlled as emotion finally breaks; the background dissolves into a complete blur of cool gray and a few amber candle bokeh points, eye placed near the upper third, tear as the only moving focal point, low-saturation warm-cool contrast, sharp skin detail, intimate cinematic realism, shallow depth of field, film grain, historical drama portrait quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, extreme close-up portrait, film grain, historical drama realism",
+      "lighting": "soft low-key side light, cool gray base tones with tiny amber candle bokeh, restrained contrast emphasizing wet tear highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern hospital equipment, contemporary clothing, modern hairstyle, text, watermark, logo, subtitle, low quality, bad anatomy, asymmetrical eyes, blurry image, oversaturated colors"
+  },
+  {
+    "id": "sp_0659",
+    "shot_id": "shot_0613",
+    "prompt_text": "A traditional ancient Chinese midwife enters from the left carrying a fresh swaddled newborn, stopping at the left foreground, the infant wrapped in clean white cloth with slight damp marks at the edges, the swaddle forming the warm visual center; in the right rear stands a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, shown half-turned away near the bedside, not stepping forward to receive the child, his body still oriented toward the bed; in the soft-focus right background remains the bed with a pale exhausted young Chinese noblewoman, tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, blurred but present, creating emotional conflict between mother and newborn; ancient Chinese childbirth room, old wood, curtains, layered depth, medium shot with gentle pan energy, low-saturation gray-cyan and dark brown palette with amber candlelight and restrained warmth in the swaddle, cinematic realism, film grain, highly detailed historical texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "dim warm-cool contrast, amber candlelight shaping the swaddle and faces, cool gray-blue ambient shadows, layered interior depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern hospital equipment, contemporary clothing, modern hairstyle, text, watermark, logo, subtitle, low quality, bad anatomy, malformed baby, extra limbs, blurry image, oversaturated colors"
+  }
+]

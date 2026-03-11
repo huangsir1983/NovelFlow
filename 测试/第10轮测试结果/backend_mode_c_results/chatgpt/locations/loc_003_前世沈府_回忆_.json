@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_003",
+  "name": "前世沈府（回忆）",
+  "type": "interior",
+  "era_style": "明代中晚期高门世家内宅与产房回忆空间",
+  "description": "前世沈府在回忆中呈现为数个彼此相连的内宅空间：新婚喜堂余设尚在，红绸未尽撤去，案几与烛台残留喜宴痕迹；转入内室则帘幕低垂，空气沉滞，桌上可见茶盘、碎瓷片、画卷碎片与药炉，显示长期争执和病痛留下的凌乱。产房部分尤为压抑，狭窄暖湿，血水盆、补药、襁褓与软垫并置，礼制喜庆与生育死亡在同一宅邸中强烈碰撞。整体空间虽为世家大宅，却被记忆扭曲成层层门帘、烛火摇曳、红色褪成暗褐的幽闭场域，像一座吞噬婚姻与亲情的深宅。",
+  "visual_reference": "Late Ming dynasty aristocratic mansion interior in traumatic flashback, interconnected wedding hall and childbirth chamber, fading red wedding drapery, lantern and candle stands, low hanging curtains, dark carved furniture, broken porcelain on floor, torn painting fragments, medicine brazier, blood basin in birthing room, swaddling cloth, oppressive elite residence at night, memory-like composition, cinematic, emotional, highly detailed",
+  "atmosphere": "窒息、血色、创伤回响",
+  "color_palette": [
+    "暗血红",
+    "焦褐木色",
+    "烛火金"
+  ],
+  "lighting": "以夜间烛火为主，局部强暖光照亮血迹、瓷片和红绸，其余区域沉入深暗，形成记忆碎片般的断裂感。",
+  "key_features": [
+    "残留喜堂与血水产房并置",
+    "破碎瓷片与茶盘案几",
+    "层层帘幕与摇曳烛台"
+  ],
+  "narrative_scenes": [
+    "scene_003",
+    "scene_011"
+  ],
+  "scene_count": 2,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从新婚次日立威的决绝，到伤胎死产后的彻底崩毁，情绪始终高烈且带有毁灭性。"
+}

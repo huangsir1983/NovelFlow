@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_010",
+  "name": "高家厢房",
+  "type": "interior",
+  "era_style": "明代官宦府邸厢房",
+  "description": "高家厢房私密侧室，床榻略显凌乱，衣物散放，茶盏置于几上，空间紧凑昏暗，适合意外发现秘密场景。",
+  "visual_reference": "明代高家厢房，床榻散乱衣物堆叠，茶盏倾倒，木门半掩，昏暗自然光，紧张发现氛围，细节写实明代风格",
+  "visual_prompt_negative": "整洁现代卧室、明亮灯光",
+  "atmosphere": "混乱、震惊",
+  "color_palette": [
+    "暗褐",
+    "衣红",
+    "木黄",
+    "灰"
+  ],
+  "lighting": "白天自然光略暗",
+  "key_features": [
+    "厢房床榻",
+    "散乱衣物",
+    "茶盏"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "女主心惊的发现震惊"
+}

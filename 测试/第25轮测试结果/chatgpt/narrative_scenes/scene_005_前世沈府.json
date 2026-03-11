@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 前世沈府各处/病榻 - 日夜交错",
+  "location": "前世沈府",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈睿",
+    "陆姝仪"
+  ],
+  "core_event": "前世婚后数十年里，夫妻因误解、冷待、丧子与高傲彼此折磨，却在我重病和死后显露出迟来的悲伤。",
+  "key_dialogue": "若有来生，只做路人。",
+  "emotional_peak": "我死后沈词抱着棺木无声流泪，爱恨纠缠达到迟到的崩塌。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "火盆中的衣物",
+    "病榻",
+    "棺材",
+    "寿衣"
+  ],
+  "dramatic_purpose": "浓缩前世婚姻全貌，建立‘重来一次也难解’的宿命感。",
+  "visual_reference": "时间蒙太奇式古宅婚姻悲剧，病榻、火盆、月光、棺木交替出现。",
+  "visual_prompt_negative": "不要现代医院，不要艳丽滤镜，不要玄幻回魂效果，不要过分拥挤人群。",
+  "source_text_start": "我是恨沈词的。恨他算计我，娶我回来",
+  "source_text_end": "可谁能想到，真能重来呢？"
+}

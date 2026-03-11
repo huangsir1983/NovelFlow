@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaofu_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高父 — 正堂会客",
+  "tags": [
+    "官服",
+    "威严",
+    "会客"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_007"
+  ],
+  "trigger": "正堂接待媒人提亲时，作为四品官员的正式形象",
+  "appearance_delta": {
+    "face": "表情更严肃，官员威仪",
+    "body": "端坐姿态，身形挺拔",
+    "hair": "整齐束发",
+    "distinguishing_features": "四品官服，官帽，腰带玉佩"
+  },
+  "costume_override": {
+    "outfit": "四品官服，官帽，朝靴",
+    "color_palette": [
+      "深蓝色",
+      "金色"
+    ]
+  },
+  "visual_reference": "middle-aged Chinese official in formal 4th rank blue official robes with gold embroidery, official hat, dignified sitting posture in formal hall, serious authoritative expression, traditional Ming dynasty official attire, jade belt ornament",
+  "emotional_tone": "威严但克制，官员身份的正式感"
+}

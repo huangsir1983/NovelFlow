@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "id": "scene_010",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:03"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府内宅 - 日",
+    "location": "沈府内宅",
+    "time_of_day": "day",
+    "description": "封闭的内宅空间，光线自窗棂斜照入室，室内陈设整齐，带有主母起居与管家痕迹。案上或悬挂处有一幅被毁坏的画作，成为视觉焦点。年幼婢女衣着较寻常下人更体面，神态倚仗主君宠信，站位不退。高令宁立于室内主位附近，神情冷硬，控制全场秩序。",
+    "action": "高令宁查看被毁的画，目光落在婢女身上。婢女不但不低头认错，反而扬着下巴回视。高令宁冷冷看她一眼，示意下人将人带走。婢女被带离内宅，不再出现在府中。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "毁坏的画",
+      "婢女身契"
+    ],
+    "dramatic_purpose": "建立沈词对陆姝仪旧情未断的现实背景，并引出高令宁与其婚姻中长期积压的怨恨和即将爆发的正面冲突。",
+    "tension_score": 0.55,
+    "dramatic_intensity": 0.1,
+    "order": 10
+  }
+}

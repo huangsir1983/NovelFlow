@@ -1,0 +1,46 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "5-28(梦境/前世)",
+  "appearance": {
+    "face": "苍白清秀，眼神中有着超越年龄的早慧与哀伤",
+    "body": "病骨支离，羸弱不堪",
+    "hair": "一丝不乱的书生发式",
+    "distinguishing_features": "病态的苍白与令人心碎的懂事神情"
+  },
+  "costume": {
+    "typical_outfit": "素净的文人长衫",
+    "color_palette": [
+      "纯白色",
+      "浅灰色"
+    ]
+  },
+  "casting_tags": [
+    "早慧神童",
+    "病弱美强惨",
+    "白月光儿子"
+  ],
+  "visual_reference": "1boy, 7 years old, ancient chinese child, pale and sickly, intelligent but sorrowful eyes, white hanfu, holding a bowl of porridge, soft warm lighting",
+  "personality": "天纵奇才，极其孝顺懂事。将父母的决裂归咎于自己，承受了巨大的心理压力，温柔且充满献身精神。",
+  "desire": "父母能够和解，不再互相折磨。",
+  "flaw": "过于懂事，将所有罪责揽在自己身上，导致郁结于心。",
+  "arc": "前世苦苦哀求父母和好而亡 → 今生在梦中祈求母亲放弃自己选择妹妹。",
+  "scene_presence": "高令宁梦境",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "最深的软肋与重生的唯一执念",
+      "function": "引导"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "前世维系婚姻的唯一纽带，今生沈词试图挽回的借口",
+      "function": "引导"
+    }
+  ]
+}

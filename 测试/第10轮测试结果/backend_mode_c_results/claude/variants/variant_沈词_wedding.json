@@ -1,0 +1,30 @@
+{
+  "variant_id": "shen_ci_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 婚礼新郎",
+  "tags": [
+    "新郎",
+    "喜服",
+    "冷漠"
+  ],
+  "scene_ids": [
+    "scene_008"
+  ],
+  "trigger": "婚礼当日，迎娶高令宁",
+  "appearance_delta": {
+    "face": "表情更加僵硬冷漠",
+    "body": "身姿挺拔如常",
+    "hair": "束发戴冠，插金簪",
+    "distinguishing_features": "眼神空洞，薄唇紧抿"
+  },
+  "costume_override": {
+    "outfit": "大红喜服，绣金纹",
+    "color_palette": [
+      "大红",
+      "金色",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "handsome Chinese groom in red wedding hanfu with gold embroidery, cold empty eyes, jade-like face, hair in formal topknot with gold hairpin, stiff posture, traditional Chinese wedding attire, aloof expression, period drama aesthetic",
+  "emotional_tone": "冷漠敷衍，履行义务"
+}

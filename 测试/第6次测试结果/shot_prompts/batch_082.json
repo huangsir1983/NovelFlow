@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0504",
+    "shot_id": "shot_0476",
+    "prompt_text": "A bustling ancient Chinese Yuanxiao night street with Gao Lingning and Shen Ci only as barely visible side-by-side silhouettes at the far right edge, Gao Lingning as a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, and Shen Ci as a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression; they stand still and emotionally detached while the street surges with passing pedestrians and carriages, a fine horse-drawn carriage moving slowly in the background; foreground left is crossed by a large blurred fish-dragon lantern creating warm amber occlusion, midground crowded market stalls and people glowing with festive light, upper frame filled with strings of lanterns and layered roof eaves, the street receding deep toward the right rear; low-saturation warm-cool contrast, amber lantern light against gray-blue night air, slight side backlight, cinematic restrained realism, Song dynasty aesthetics, crane-shot feeling, shallow atmospheric haze, highly detailed, filmic texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, amber lantern glow against cool gray-blue night, side backlight, festive illumination with subtle emotional detachment"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, neon, cars, asphalt road, glass skyscrapers, plastic, modern hairstyles, modern makeup, text, watermark, logo, low quality, blurry faces, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0505",
+    "shot_id": "shot_0477",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen from behind-left in medium long shot, and Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, slightly ahead on the right; their hands are joined near the lower frame yet their bodies keep a visible gap, Shen Ci leading and Gao Lingning walking with upright shoulders and emotional reserve, formal companionship without intimacy; occasional blurred shoulders of passersby and lantern shadows sweep across the foreground, behind them market stalls, hanging lantern strings, and bright festival street lines guide the eye toward their connected hands; low-saturation warm-cool contrast, warm amber lantern light mixed with cool night tones, subtle steadicam-follow perspective, cinematic realism, Song dynasty aesthetics, layered crowd depth, highly detailed silk textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "warm amber lantern light mixed with cool gray-blue ambient night, restrained low-saturation contrast, soft side and back illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric bulbs, neon signs, modern streetwear, contemporary crowd, plastic lanterns, text, watermark, logo, low quality, deformed hands, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0506",
+    "shot_id": "shot_0478",
+    "prompt_text": "A close-up of two joined hands: Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, his hand placed above in a guiding grip; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, her fingers not returning the grip, only being led; dark ink-blue sleeve cuff beside moon-white sleeve edge creating a cool-warm textile contrast; background dissolved into moving lantern bokeh and soft human silhouettes, a fish-dragon lantern gliding behind them and casting a flickering warm glow briefly over their knuckles; static composition, tactile silk and skin detail, low-saturation warm-cool contrast, cinematic realism, subtle emotional unease, highly detailed close focus",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, macro historical realism",
+      "lighting": "flickering amber lantern highlights on hands against cool dim ambient night, low-saturation warm-cool contrast, soft selective focus"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, rings with modern design, nail polish, watches, text, watermark, logo, low quality, blurry hands, extra fingers, malformed anatomy, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0507",
+    "shot_id": "shot_0479",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, and Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, paused side by side on the right side of the frame, both turned left toward the street flow; a lively group of children rushes in from the left foreground carrying glowing fish-dragon lanterns, the lantern bodies filling much of the foreground with warm blurred motion and playful occlusion, the children moving left to right across in front of the couple; background holds festive shop lights, passing carts, horses, and layered lanterns continuing the celebration; low-saturation warm-cool contrast, warm amber moving light against cool night shadows, slight pan-shot energy, cinematic realism, Song dynasty festival atmosphere, emotional flicker of domestic illusion, highly detailed crowd motion",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "dynamic amber lantern motion light over cool night environment, low-saturation warm-cool contrast, festive glow with restrained realism"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, LED toys, electric lighting, plastic props, modern children clothing, text, watermark, logo, low quality, frozen awkward motion, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0508",
+    "shot_id": "shot_0480",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, framed in medium close-up at the left third, facing right, her gaze following the passing children with calm distance rather than delight; her face remains cool-toned and pale within warm festival light, the faint scar on her neck subtly visible; a blurred fish-dragon lantern sways across the lower foreground, while Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, appears as a soft half-body blur behind her to the rear right; the right side holds empty space filled with flowing market light and soft crowd motion; low-saturation warm-cool contrast, amber lanterns against her cool white complexion, static intimate framing, cinematic realism, restrained emotional distance, highly detailed skin and silk textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical portrait realism",
+      "lighting": "warm amber lantern light surrounding a cool pale face, low-saturation warm-cool contrast, soft side illumination with gentle background bokeh"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric bulbs, neon, modern cosmetics, contact lenses, text, watermark, logo, low quality, overretouched skin, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0509",
+    "shot_id": "shot_0481",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in medium close-up at the right center in profile facing left, his gaze lingering toward where the children have just run past, his stern expression softened by a brief involuntary emotional pause; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, appears only as a blurred shoulder and back at the left foreground edge, preserving her perceptual center; background filled with mottled amber lantern bokeh, and the trailing light arc of a fish-dragon lantern draws a warm curve behind him, contrasting with his cool controlled face; low-saturation warm-cool contrast, subtle dolly-in intimacy, cinematic realism, Song dynasty aesthetics, restrained softness that arrives too late, highly detailed portrait texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical portrait realism",
+      "lighting": "soft amber lantern bokeh and trailing warm light arc against cool facial tones, low-saturation warm-cool contrast, gentle side backlight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, modern menswear, text, watermark, logo, low quality, blurry eyes, distorted face, oversaturated colors, cartoon, anime"
+  }
+]

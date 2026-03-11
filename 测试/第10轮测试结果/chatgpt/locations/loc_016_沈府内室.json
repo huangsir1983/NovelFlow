@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_016",
+  "name": "沈府内室",
+  "type": "interior",
+  "era_style": "明代中晚期世家孕期内室",
+  "description": "沈府内室为孕妇起居空间，布置比新婚洞房更日常柔软。软榻与床榻并置，方便歇息和诊脉；孕妇靠枕、脉枕、茶杯、太医药箱陈列有序。室内还可见绣绷与虎头帽针线，强调未出世孩子的存在感。门框是重要的视觉边界，人物倚门而立即可形成观察与误判。空间整体安静，陈设精细但不张扬，适合亲密对话与误解交锋。",
+  "visual_reference": "Late Ming dynasty pregnant noblewoman chamber, soft couch and bed, embroidered frame with tiger-head baby hat sewing, imperial physician medicine chest, pulse cushion, tea cup, doorway framing a watching man, elegant private room, restrained warm domestic atmosphere with emotional tension, historical Chinese drama realism, detailed textures and fabrics",
+  "atmosphere": "表面温和、内里疏离、亲密误读、将散未散",
+  "color_palette": [
+    "柔米白",
+    "浅褐木色",
+    "淡青绣线色"
+  ],
+  "lighting": "日间柔光稳定，照亮绣绷和软榻，整体明净安静，使人物说出的决绝更显突兀。",
+  "key_features": [
+    "绣绷上的虎头帽针线",
+    "太医药箱与脉枕",
+    "门框构成的窥视式构图"
+  ],
+  "narrative_scenes": [
+    "scene_016"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从看似平静的孕期家常转为关于孩子、婚姻和离去的冷静宣判。"
+}

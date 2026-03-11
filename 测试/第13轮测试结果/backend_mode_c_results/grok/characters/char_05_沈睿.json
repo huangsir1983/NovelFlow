@@ -1,0 +1,39 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28岁（前世记忆）",
+  "appearance": {
+    "face": "聪慧少年脸",
+    "body": "瘦弱书生气",
+    "hair": "书生发式",
+    "distinguishing_features": "神童气质"
+  },
+  "costume": {
+    "typical_outfit": "书生袍",
+    "color_palette": [
+      "青色"
+    ]
+  },
+  "casting_tags": [
+    "天才儿子",
+    "早逝名相"
+  ],
+  "visual_reference": "一位年轻古代神童，面容清秀聪慧，身穿青色书生袍，手捧书卷，眼神坚定智慧，书房背景",
+  "visual_prompt_negative": "成年粗犷、愚笨表情",
+  "personality": "孝顺懂事、天才",
+  "desire": "父母和睦",
+  "flaw": "早逝（前世）",
+  "arc": "前世劝和，今生梦中出现",
+  "scene_presence": "梦中和前世回忆",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "孝顺担心",
+      "function": "情感纽带"
+    }
+  ]
+}

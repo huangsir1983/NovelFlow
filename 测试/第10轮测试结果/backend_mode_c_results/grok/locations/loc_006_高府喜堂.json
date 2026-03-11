@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_006",
+  "name": "高府喜堂",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸喜堂",
+  "description": "装饰喜庆的喜堂大厅，红烛高烧照亮中央拜堂蒲团与红盖头准备区。聘礼箱置于侧案，墙挂大红喜字与绸缎，空间正式而隆重，体现第三次提亲成功后的婚礼仪式。",
+  "visual_reference": "Festive wedding ceremony hall in late Ming dynasty official mansion, bright red candles illuminating central kneeling cushions and red bridal veil setup, gift chests on side tables, large red 'double happiness' characters on walls, silk drapes, formal celebratory Ming interior, highly detailed",
+  "atmosphere": "喜庆庄重、心不在焉",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "深木褐"
+  ],
+  "lighting": "红烛温暖辉光结合白天窗光，喜庆明亮",
+  "key_features": [
+    "喜堂红烛",
+    "拜堂蒲团",
+    "聘礼箱"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "婚礼对拜的正式到盖头下平静侧脸对峙"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "antagonist",
+  "age_range": "18-22岁",
+  "appearance": {
+    "face": "如玉面庞，冷如冰湖的眼，瞳孔点墨，眼下常带乌青",
+    "body": "长身玉立，清瘦挺拔",
+    "hair": "束发戴冠，一丝不苟",
+    "distinguishing_features": "琥珀般的冷眸，常带有讥诮或隐忍的微表情，后期背脊弯折显出颓态"
+  },
+  "costume": {
+    "typical_outfit": "考究的文臣常服，深色系锦袍",
+    "color_palette": [
+      "玄色",
+      "藏青",
+      "深灰"
+    ]
+  },
+  "casting_tags": [
+    "清冷权臣",
+    "高岭之花",
+    "偏执狂",
+    "追妻火葬场"
+  ],
+  "visual_reference": "A handsome young ancient Chinese scholar-official, tall and slender, pale skin, cold amber eyes, wearing a dark blue official robe, aloof and slightly paranoid expression, cinematic lighting, 8k.",
+  "personality": "端方持重，清冷高傲，嘴硬心软，极度偏执且自以为是",
+  "desire": "按部就班地弥补前世遗憾，保住长子，同时护住义妹，最终变为不择手段留住女主",
+  "flaw": "极度自负，缺乏共情能力，永远在用错误的方式表达在意",
+  "arc": "从高高在上、以为能掌控全局的施恩者，跌落为失去一切、摇尾乞怜的偏执狂",
+  "scene_presence": "主要场景在场，尤其是与女主的冲突戏份",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "结发妻子",
+      "dynamic": "从试图掌控、互相伤害，到彻底失去后的疯狂挽留",
+      "function": "承受女主弧线变化的反作用力"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅/义妹",
+      "dynamic": "自以为纯洁的兄妹情与保护欲，实则被利用",
+      "function": "男主性格缺陷的放大器"
+    }
+  ]
+}

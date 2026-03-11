@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 沈府新房 - NIGHT",
+  "location": "沈府新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪的婢女"
+  ],
+  "core_event": "新婚之夜，沈词与高令宁在言语讥讽中圆房。随后陆姝仪的婢女前来求助，高令宁毫无反应地让沈词离去，表示不在乎。",
+  "key_dialogue": "你去吧。也不必回来了。",
+  "emotional_peak": "高令宁对沈词去留的无所谓态度，让沈词感到意外和讥诮。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "红盖头",
+    "婚床",
+    "手腕上的丝带"
+  ],
+  "dramatic_purpose": "展现女主角重生后心态的彻底转变，她不再为沈词的行为产生情绪波动，标志着她情感独立的开始。",
+  "source_text_start": "成亲的全程，我心不在焉。 就连夫妻对拜的喊声也没听见，直愣愣地站在原地。 还是沈词不轻不重地轻咳一声，我才回过神来。",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

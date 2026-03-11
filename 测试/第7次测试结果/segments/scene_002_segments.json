@@ -1,0 +1,61 @@
+[
+  {
+    "id": "seg_0008",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0010",
+      "shot_0011",
+      "shot_0012"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot均为高父单人状态下的空间建立与心理铺垫，角色集合未变，情绪持续向内收紧，从厅堂压迫感自然推进到礼单细节，适合合并为同一段完成婚事现实的落压。",
+    "order": 8
+  },
+  {
+    "id": "seg_0009",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0013",
+      "shot_0014",
+      "shot_0015",
+      "shot_0016"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段以高父内心忧虑过渡到高令宁入场，角色集合发生扩展但仍处于同一连续动作链中；情绪从单人沉闷转为表面温顺、内里疏离的双人关系建立，适合并入一段完成人物关系亮相。",
+    "order": 9
+  },
+  {
+    "id": "seg_0010",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0017",
+      "shot_0018",
+      "shot_0019",
+      "shot_0020"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四个shot构成完整对话回合：父亲担忧—女儿先反应后回答—父亲受刺。虽然时长略长，但情绪弧线高度连续，且遵循“听者比说者重要”的方法，必须保留反应镜头与同轴对切，适合作为一段核心言语试探。",
+    "order": 10
+  },
+  {
+    "id": "seg_0011",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0021",
+      "shot_0022",
+      "shot_0023",
+      "shot_0024"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后四个shot属于同一情感收束段落：双人权力关系确认、高父给出退路、女儿短暂松动、最终落回礼制现实。情绪在此达到本场高点后冷收尾，适合整体合并完成完整闭环。",
+    "order": 11
+  }
+]

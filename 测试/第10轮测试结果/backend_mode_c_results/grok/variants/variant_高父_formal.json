@@ -1,0 +1,30 @@
+{
+  "variant_id": "高父_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高父 — 提亲忧心",
+  "tags": [
+    "官员",
+    "忧虑",
+    "犹豫"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002"
+  ],
+  "trigger": "媒人提亲场景和高令宁闺房质问时，  初期对门第犹豫",
+  "appearance_delta": {
+    "face": "中年儒雅，皱纹渐增，眼角慈祥但眉头紧锁更深",
+    "body": "中等身材，略显疲惫",
+    "hair": "花白束冠",
+    "distinguishing_features": "忧心皱眉加深，犹豫眼神"
+  },
+  "costume_override": {
+    "outfit": "四品官袍",
+    "color_palette": [
+      "深灰",
+      "墨绿"
+    ]
+  },
+  "visual_reference": "middle-aged Chinese official in ancient dynasty, kind yet deeply worried and hesitant face with prominent wrinkles and furrowed brows, graying hair in official hat, medium build slightly tired, wearing deep gray four-rank official robes, paternal expression mixed with concern over family status and daughter's decision, highly detailed, indoor daylight",
+  "emotional_tone": "忧心犹豫"
+}

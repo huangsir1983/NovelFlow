@@ -1,0 +1,83 @@
+[
+  {
+    "id": "dl_0107",
+    "scene_id": "scene_045",
+    "character_id": "char_陆姝仪",
+    "line": "我真羡慕你，有亲人相护。",
+    "subtext": "表面是在感慨高令宁被家人保护，实则是在强调自己身世孤苦，为自己后续的辩解与求得理解铺垫，也暗含对高令宁处境的嫉妒。",
+    "emotion_intensity": 0.62,
+    "order": 0
+  },
+  {
+    "id": "dl_0108",
+    "scene_id": "scene_045",
+    "character_id": "char_陆姝仪",
+    "line": "不似我自小父母离世，寄人篱下，除了阿词，无人肯真心待我。",
+    "subtext": "她在诉说自己的悲惨处境，试图把自己的过错部分归因于命运与无人依靠，同时点出沈词曾是自己唯一的情感寄托，以博取同情并减轻指责。",
+    "emotion_intensity": 0.75,
+    "order": 1
+  },
+  {
+    "id": "dl_0109",
+    "scene_id": "scene_045",
+    "character_id": "char_高令宁",
+    "line": "这就是你陷害我的理由？",
+    "subtext": "高令宁并不接受对方用悲惨经历为自己开脱，直接逼问核心问题：陆姝仪是否在拿苦难为恶行辩护。",
+    "emotion_intensity": 0.8,
+    "order": 2
+  },
+  {
+    "id": "dl_0110",
+    "scene_id": "scene_046",
+    "character_id": "char_陆姝仪",
+    "line": "高令宁，是我对不住你。",
+    "subtext": "她明确认错，但这不仅是道歉，也是为揭露真相做开场，试图在离开前完成自我交代与情感清算。",
+    "emotion_intensity": 0.77,
+    "order": 3
+  },
+  {
+    "id": "dl_0111",
+    "scene_id": "scene_046",
+    "character_id": "char_陆姝仪",
+    "line": "我曾记恨你太过霸道，不肯容我入府，害得我最后所嫁非人……才投湖自尽，哪怕死，也要让你和沈词之间产生嫌隙。",
+    "subtext": "她承认自己前世因怨恨而报复高令宁，表面是陈述动机，实则是在揭开自己重生后的怨念根源，并说明自己曾宁可毁掉别人也不肯独自承受不幸。",
+    "emotion_intensity": 0.92,
+    "order": 4
+  },
+  {
+    "id": "dl_0112",
+    "scene_id": "scene_046",
+    "character_id": "char_陆姝仪",
+    "line": "蒋晟的事，是我设计。",
+    "subtext": "她主动认下关键罪责，不再掩饰，既是坦白，也是对自己命运选择的承担。",
+    "emotion_intensity": 0.86,
+    "order": 5
+  },
+  {
+    "id": "dl_0113",
+    "scene_id": "scene_046",
+    "character_id": "char_陆姝仪",
+    "line": "既然沈家无人为我做主, 那我只能自己寻个好夫婿, 哪怕……手段下作了些。",
+    "subtext": "她在为自己的算计寻找生存逻辑：既无人庇护，就只能靠自己争取出路；她承认手段卑劣，但认为那是被逼无奈的现实选择。",
+    "emotion_intensity": 0.84,
+    "order": 6
+  },
+  {
+    "id": "dl_0114",
+    "scene_id": "scene_046",
+    "character_id": "char_陆姝仪",
+    "line": "你或许还有退路, 然而我的路只有这一条。",
+    "subtext": "她强调自己与高令宁境遇不同，暗示高令宁有家族依靠，而自己只能孤注一掷；这既是解释，也是带着不甘的控诉。",
+    "emotion_intensity": 0.82,
+    "order": 7
+  },
+  {
+    "id": "dl_0115",
+    "scene_id": "scene_046",
+    "character_id": "char_陆姝仪",
+    "line": "我知道你厌恶我, 以后不会再出现在你面前。",
+    "subtext": "她表示接受被厌弃的结果，主动退场，既是在划清界限，也是最后保留一点体面。",
+    "emotion_intensity": 0.7,
+    "order": 8
+  }
+]

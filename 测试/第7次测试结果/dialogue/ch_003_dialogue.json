@@ -1,0 +1,155 @@
+[
+  {
+    "id": "dl_0071",
+    "scene_id": "scene_016",
+    "character_id": "char_高父",
+    "line": "沈家势大，只怕你嫁过去会受委屈。",
+    "subtext": "他改变了支持这门婚事的想法，真正担心的是女儿进入权势之家后无法自保，宁可放弃攀附高门也不愿她受苦。",
+    "emotion_intensity": 0.72,
+    "order": 0
+  },
+  {
+    "id": "dl_0072",
+    "scene_id": "scene_016",
+    "character_id": "char_高父",
+    "line": "为父生养你十余年，不求你高嫁为家族争光，但求你觅得良人，平安喜乐度过此生。",
+    "subtext": "他在表明自己作为父亲的底线：家族利益不重要，女儿一生安稳幸福才最重要，也是在劝她重新考虑婚事。",
+    "emotion_intensity": 0.85,
+    "order": 1
+  },
+  {
+    "id": "dl_0073",
+    "scene_id": "scene_017",
+    "character_id": "char_高令宁",
+    "line": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了，否则稍有不慎，便是抄家灭门之灾。",
+    "subtext": "她表面是在劝父亲辞官保身，实际上是凭借前世记忆强行阻止家族卷入政治灾祸，以保住父亲和全家性命。",
+    "emotion_intensity": 0.88,
+    "order": 2
+  },
+  {
+    "id": "dl_0074",
+    "scene_id": "scene_018",
+    "character_id": "char_沈词",
+    "line": "我以为，你不算个好妻子，但还算个好母亲。",
+    "subtext": "他先以刻薄贬低她，再用母亲身份击中她最脆弱的地方，意在逼她接受婚事，而不是出于真正的体谅。",
+    "emotion_intensity": 0.77,
+    "order": 3
+  },
+  {
+    "id": "dl_0075",
+    "scene_id": "scene_018",
+    "character_id": "char_沈词",
+    "line": "这一世若你我不成亲，便等于再杀睿儿一次。",
+    "subtext": "他把两人再婚包装成拯救儿子的唯一方式，以道德和情感负担迫使她让步，同时也暴露他自己同样想要这个孩子重来一次。",
+    "emotion_intensity": 0.95,
+    "order": 4
+  },
+  {
+    "id": "dl_0076",
+    "scene_id": "scene_019",
+    "character_id": "char_高令宁",
+    "line": "我可以嫁。",
+    "subtext": "她答应婚事并非出于爱意，而是为了重新见到儿子，先接受交易，再争取主动权。",
+    "emotion_intensity": 0.63,
+    "order": 5
+  },
+  {
+    "id": "dl_0077",
+    "scene_id": "scene_019",
+    "character_id": "char_高令宁",
+    "line": "但是，你要先处理好那位表小姐。",
+    "subtext": "她在设定婚前条件，要求沈词切断与陆姝仪的暧昧牵连，既是自保，也是对前世情感羞辱的反击。",
+    "emotion_intensity": 0.78,
+    "order": 6
+  },
+  {
+    "id": "dl_0078",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "你何必对姝仪苦苦相逼？",
+    "subtext": "他本能地维护陆姝仪，把高令宁的合理要求说成无理逼迫，实际是在指责她心胸狭窄并试图夺回话语权。",
+    "emotion_intensity": 0.74,
+    "order": 7
+  },
+  {
+    "id": "dl_0079",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "我与她只是自小相伴之谊。",
+    "subtext": "他在极力淡化自己与陆姝仪的情感关联，希望保住表面清白，也让高令宁无法继续追究。",
+    "emotion_intensity": 0.54,
+    "order": 8
+  },
+  {
+    "id": "dl_0080",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "你不让我纳她，我便没再提过此事，你可曾见过我与她有逾矩之处？",
+    "subtext": "他试图以形式上的克制为自己开脱，要求她承认自己守了规矩，实则是在为陆姝仪争取保留位置。",
+    "emotion_intensity": 0.7,
+    "order": 9
+  },
+  {
+    "id": "dl_0081",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "若是你为我的妻子……",
+    "subtext": "这是他对陆姝仪未竟情感的流露，真实意思是遗憾自己娶的不是她，说明高令宁的怀疑并非空穴来风。",
+    "emotion_intensity": 0.82,
+    "order": 10
+  },
+  {
+    "id": "dl_0082",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "姝仪的事，我可以答应你，但你也莫要得意。",
+    "subtext": "他表面让步，内里却要压制她，强调这不是她的胜利，而是自己有条件的妥协。",
+    "emotion_intensity": 0.68,
+    "order": 11
+  },
+  {
+    "id": "dl_0083",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "你我性子相冲，前世日日怨怼，让睿儿死前还在为我们担心。",
+    "subtext": "他把前世婚姻失败归因为两人不合，也借儿子的痛苦继续施压，暗示这段关系从一开始就不该掺杂感情。",
+    "emotion_intensity": 0.86,
+    "order": 12
+  },
+  {
+    "id": "dl_0084",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离，别的事情你别痴心妄想。",
+    "subtext": "他将婚姻彻底定义为生子交易：孩子归沈家，你拿钱离开，不要妄图得到感情、名分延续或更多权利。",
+    "emotion_intensity": 0.84,
+    "order": 13
+  },
+  {
+    "id": "dl_0085",
+    "scene_id": "scene_019",
+    "character_id": "char_高令宁",
+    "line": "本该如此。",
+    "subtext": "她冷静接受这份无情安排，表明自己本就无意与他做真正夫妻，她的目标只有儿子与自保。",
+    "emotion_intensity": 0.66,
+    "order": 14
+  },
+  {
+    "id": "dl_0086",
+    "scene_id": "scene_019",
+    "character_id": "char_沈词",
+    "line": "你莫要使手段纠缠。",
+    "subtext": "他仍然不信任她，提前警告她不要借婚事、孩子或名分黏住自己，显示出戒备与偏见。",
+    "emotion_intensity": 0.62,
+    "order": 15
+  },
+  {
+    "id": "dl_0087",
+    "scene_id": "scene_019",
+    "character_id": "char_高令宁",
+    "line": "谁纠缠谁是狗。",
+    "subtext": "她以尖锐赌咒式回应斩断一切暧昧可能，既是反击他的羞辱，也是宣示自己同样厌恶这段关系。",
+    "emotion_intensity": 0.9,
+    "order": 16
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_019",
+  "name": "高府产房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸临时产房",
+  "description": "产房应设在内院最安静也最封闭的房间，室内临时清空并围绕产床布置。产床居中偏内，床单与接生布层层覆盖，旁边有剪刀、毛巾、稳婆药粉、药碗、热水和血水铜盆。烛台分布在墙边和床侧，照亮汗湿、血迹和忙乱手势。襁褓预备在一旁，却在结局揭晓前带着悬置意味。门外可感到守候者的影子和紧绷空气，但主画面应以床边医者、稳婆、父亲与男主的慌乱为核心。整体空间逼仄、功能性强，没有美感装饰，完全服务于生死抉择。",
+  "visual_reference": "Late Ming dynasty childbirth room inside an official mansion, central birthing bed, white cloths stained with blood, copper basins of hot water and blood water, scissors, towels, herbal medicine bowl, midwife powder, doctor at bedside, candle stands casting urgent light, prepared swaddling cloth nearby, claustrophobic life-or-death atmosphere, historical Chinese realism, highly detailed cinematic drama",
+  "atmosphere": "生死悬线、惊惧、混乱、命运偏转",
+  "color_palette": [
+    "烛火琥珀",
+    "血污暗红",
+    "麻布灰白"
+  ],
+  "lighting": "夜间以密集烛火照明，光线炽热但局促，床边亮、四周暗，营造呼吸困难般的紧绷感。",
+  "key_features": [
+    "被血水盆包围的产床",
+    "剪刀与接生布的临产细节",
+    "一旁等待命运揭晓的襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_020"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从濒临失去的极端恐惧，转到婴儿啼哭后的短暂释然，再被命运偏离预设所击中。"
+}

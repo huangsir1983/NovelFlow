@@ -1,0 +1,870 @@
+{
+  "characters": [
+    {
+      "name": "高令宁",
+      "aliases": ["高姑娘", "高小姐", "夫人", "令宁"],
+      "role": "protagonist",
+      "age_range": "18-30",
+      "appearance": {
+        "face": "鹅蛋脸，肤色白净偏冷，眉骨清晰，眼尾微挑，眸色乌黑，情绪激烈时眼眶极易泛红，神情常带克制与倔强",
+        "body": "身量修长匀称，肩背挺直，姿态利落，有当家主母的压迫感；孕中与病中则显得纤薄苍白",
+        "hair": "乌黑浓密的长发，多作整齐发髻，闺中时发式端雅，婚后偏成熟简练",
+        "distinguishing_features": "气质凌厉、下颌线干净、眼神带刺，兼具贵气与攻击性"
+      },
+      "costume": {
+        "typical_outfit": "高门闺秀式襦裙与对襟长衫，婚后多着端庄华服、披帛与钗环，颜色不艳俗，重礼制感",
+        "color_palette": ["月白", "黛青"]
+      },
+      "casting_tags": ["清冷美人", "高门嫡长女", "强势主母", "嘴硬心软", "重生复仇感", "破碎感"],
+      "visual_reference": "古风女子，二十岁上下，鹅蛋脸，眉眼锋利而含泪意，肤色冷白，黑发高髻，穿月白与黛青交织的宋明风华服，身姿挺直，手中或持团扇或抱婴儿，神情倔强克制、带淡淡厌世感，室内烛光与窗边冷月交错，画面有压抑婚姻与重生宿命的氛围，电影级写实光影",
+      "visual_prompt_negative": "现代服装、眼镜、夸张妆容、纹身、科幻元素、卡通风、过度暴露、现代发型",
+      "personality": "争强好胜，自尊极强，聪明敏锐，嘴硬，爱恨分明，不肯低头",
+      "desire": "改写家破人亡与丧子之命，重新见到孩子，并为自己争一个不必委屈求全的人生",
+      "flaw": "过度骄傲，习惯用强硬和讥讽保护自己，不善示弱，也难以真正信任他人",
+      "arc": "从执念复仇、为孩子与旧恨再入婚局，到认清强求无用，最终放下怨怼，为自己与女儿争得独立人生",
+      "scene_presence": "全剧第一视角核心人物，贯穿提亲、成婚、怀孕、陷害、生产、和离、江南新生活等所有关键事件",
+      "relationships": [
+        {
+          "target": "沈词",
+          "type": "夫妻/宿敌/前世纠葛",
+          "dynamic": "彼此重生，互知旧恨又被孩子与旧情牵扯，相爱相杀，控制与反控制并存",
+          "function": "主线婚姻冲突与情感张力核心"
+        },
+        {
+          "target": "沈睿",
+          "type": "母子",
+          "dynamic": "她前世最深的牵挂与今生再嫁的主要原因，爱与失去构成其行动底色",
+          "function": "推动再婚与后续和离抉择的核心动机"
+        },
+        {
+          "target": "高父",
+          "type": "父女",
+          "dynamic": "父亲疼爱她、担心她，高令宁也试图保全父族命运",
+          "function": "提供家族支点与退路，支撑女主脱离婚姻"
+        },
+        {
+          "target": "陆姝仪",
+          "type": "情敌/镜像女性",
+          "dynamic": "两人互相厌恶又都被命运逼迫，既是旧恨根源，也是女性困境的互文",
+          "function": "制造婚姻裂痕、误会与道德审判"
+        },
+        {
+          "target": "蒋晟",
+          "type": "潜在婚配/工具性联盟",
+          "dynamic": "曾是父亲看中的稳妥良配，也被卷入陆姝仪设计中",
+          "function": "作为沈词嫉妒触发点与剧情误会节点"
+        },
+        {
+          "target": "昭昭",
+          "type": "母女",
+          "dynamic": "高令宁把未竟的温柔与希望投注在女儿身上",
+          "function": "后期新生活与精神重建的核心"
+        }
+      ]
+    },
+    {
+      "name": "沈词",
+      "aliases": ["沈公子", "阿词", "沈大人", "姑爷"],
+      "role": "protagonist",
+      "age_range": "20-35",
+      "appearance": {
+        "face": "面容白净如玉，轮廓清俊，眉目深黑，眼神常冷如冰湖，偶尔流露琥珀般温润光泽，情绪失控时眼眶发红",
+        "body": "身形高挑清瘦，骨相挺拔，文臣气质浓，病瘦或憔悴时更显脆弱感",
+        "hair": "乌发整束，常为文臣发冠或整齐束发，极少凌乱，狼狈时也保留矜贵感",
+        "distinguishing_features": "冷白面容与一双极有压迫感的黑眸，疏离禁欲气质强烈"
+      },
+      "costume": {
+        "typical_outfit": "深色文臣长袍、宽袖锦袍、官服或婚仪礼服，质地考究但不张扬",
+        "color_palette": ["玄黑", "墨青"]
+      },
+      "casting_tags": ["清冷权臣", "禁欲系", "高门公子", "嘴硬深情", "偏执前夫", "重生男主"],
+      "visual_reference": "古风年轻权臣男子，面容如玉却冷淡，眉骨挺秀，黑眸深沉，身形高瘦挺拔，乌发束冠，穿玄黑或墨青官袍与锦袍，站姿克制，手中可持和离书、药碗或书信，神情在冷漠与隐痛之间摇摆，月夜、烛光、深宅长廊氛围，电影级真实感，压抑深情",
+      "visual_prompt_negative": "现代西装、眼镜、胡须过重、夸张肌肉、纹身、朋克元素、卡通风、嬉皮笑脸",
+      "personality": "克制冷峻，骄傲锋利，善于压抑感情，责任感强，却惯于以冷言冷语伤人",
+      "desire": "保住沈睿的出生与前途，维系家族秩序，也想在重来一次中修补与高令宁的关系",
+      "flaw": "嘴硬、自以为是，对情感边界含糊，容易用理性包装偏心与逃避，造成更深伤害",
+      "arc": "从把婚姻视作生子协议、坚持与高令宁和离，到在失控与失去中意识到自己真正难以放手，最终沦为主动纠缠的一方",
+      "scene_presence": "贯穿提亲、谈判、马球会、成婚、孕期、误会、生产、和离争执、江南追妻等关键段落",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "夫妻/对抗性恋人",
+          "dynamic": "互相怨恨又互为执念，越想抽身越被对方定义",
+          "function": "全剧情感主轴"
+        },
+        {
+          "target": "陆姝仪",
+          "type": "青梅/义妹/暧昧保护对象",
+          "dynamic": "自认无男女之情，却长期越界偏护，引发婚姻灾难",
+          "function": "制造主角关系裂痕与误会"
+        },
+        {
+          "target": "沈睿",
+          "type": "父子",
+          "dynamic": "以孩子为人生投射与家族希望，对其成就极度执著",
+          "function": "推动重生后婚约重启"
+        },
+        {
+          "target": "沈母",
+          "type": "母子",
+          "dynamic": "受母亲家族安排和门第思维影响，情感与秩序长期混杂",
+          "function": "体现沈家压力与婚姻结构问题"
+        },
+        {
+          "target": "蒋晟",
+          "type": "情敌/厌恶对象",
+          "dynamic": "从嫉妒高令宁与其接近，到误会事件后强逼其负责",
+          "function": "触发男主失控与误判"
+        },
+        {
+          "target": "昭昭",
+          "type": "父女",
+          "dynamic": "从期待长子到意外得女，却逐渐把全部柔软寄托在女儿身上",
+          "function": "男主情感软化与持续纠缠的纽带"
+        }
+      ]
+    },
+    {
+      "name": "陆姝仪",
+      "aliases": ["姝仪", "表小姐", "义妹", "小姐"],
+      "role": "supporting",
+      "age_range": "17-25",
+      "appearance": {
+        "face": "五官柔婉秀丽，面容清丽楚楚，泪眼盈盈时极具无辜感，唇色偏淡，气质脆弱",
+        "body": "纤细轻盈，肩背单薄，易显病弱姿态",
+        "hair": "乌发柔顺，多作温婉发髻，配素雅珠花",
+        "distinguishing_features": "典型惹人怜惜的病弱美人气质，表情柔软却藏心机"
+      },
+      "costume": {
+        "typical_outfit": "浅粉、藕荷、月白等柔色襦裙，衣料轻软，配少量珠钗",
+        "color_palette": ["浅粉", "藕荷"]
+      },
+      "casting_tags": ["白月光", "病弱美人", "绿茶感", "孤女", "重生情敌", "外柔内狠"],
+      "visual_reference": "古风柔弱少女，面容温婉清丽，眼含水光，身形纤薄，黑发柔顺挽髻，穿浅粉或藕荷色轻柔长裙，手持风筝或跪地落泪，姿态楚楚可怜，光线柔和却带隐秘心机感，深宅庭院与荷花亭氛围，写实电影风",
+      "visual_prompt_negative": "现代妆容、浓艳红唇、夸张首饰、现代裙装、短发、纹身、卡通风、过度成熟御姐感",
+      "personality": "表面温顺柔弱，实则敏感、怨怼、懂得借弱势谋局，有求生本能",
+      "desire": "摆脱寄人篱下的处境，为自己争得安稳且体面的归宿",
+      "flaw": "将自身不幸转化为对他人的算计，习惯用受害者姿态操纵局面",
+      "arc": "从被保护的青梅与婚姻导火索，到揭露自己也是重生者和设计者，最终黯然退场",
+      "scene_presence": "在马球会、医治场景、逼婚谈判、高府陷害、真相揭露等关键节点出现",
+      "relationships": [
+        {
+          "target": "沈词",
+          "type": "青梅/义兄妹/情感依附",
+          "dynamic": "她依赖沈词的保护，沈词长期越界偏护她",
+          "function": "主角婚姻冲突根源"
+        },
+        {
+          "target": "高令宁",
+          "type": "情敌/对照人物",
+          "dynamic": "一方强硬，一方柔弱；互为镜像，争夺名分、位置与被偏爱的资格",
+          "function": "女性矛盾与误会主源"
+        },
+        {
+          "target": "蒋晟",
+          "type": "丈夫/算计对象",
+          "dynamic": "她设计成婚，婚后关系冷淡疏离",
+          "function": "揭示其求生式谋局"
+        }
+      ]
+    },
+    {
+      "name": "高父",
+      "aliases": ["父亲", "爹爹", "高大人"],
+      "role": "supporting",
+      "age_range": "45-60",
+      "appearance": {
+        "face": "中年文官相貌，面容端正，眼角皱纹明显，神色常带操心与慈爱",
+        "body": "略显清瘦，身形端整，有久坐案前的书卷气",
+        "hair": "发间已有灰白，整齐束发戴冠",
+        "distinguishing_features": "眉心常蹙，带温厚但不失骨气的父亲形象"
+      },
+      "costume": {
+        "typical_outfit": "朴素而讲究的文官常服，深色长袍",
+        "color_palette": ["深褐", "藏青"]
+      },
+      "casting_tags": ["慈父", "文臣", "护女狂魔", "传统家长", "后期强硬"],
+      "visual_reference": "古代中年文官，面容温厚端方，鬓角微白，眉间愁纹明显，穿藏青或深褐长袍，手持奏折或和离书，站在厅堂中护着女儿，神色由忧心到冷硬，烛火下有家族长者的威严，写实古装电影感",
+      "visual_prompt_negative": "现代西装、夸张胡子、武将盔甲、现代发型、卡通风、油腻笑容",
+      "personality": "疼爱女儿，谨慎老成，重亲情胜过门第，关键时刻极有决断",
+      "desire": "让女儿平安喜乐，不再重蹈高嫁受委屈的覆辙，并保全高家",
+      "flaw": "起初受门第与婚事压力影响，判断略有迟缓",
+      "arc": "从对沈家婚事心动又忧惧，到彻底站在女儿一边，成为她和孩子的庇护者",
+      "scene_presence": "提亲场面、父女谈婚、辞官伏笔、高府生产危机后护女、和离交涉等关键场景出现",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "父女",
+          "dynamic": "彼此牵挂，既有传统父权安排，也有真切守护与尊重",
+          "function": "女主的安全退路与情感支柱"
+        },
+        {
+          "target": "沈词",
+          "type": "岳父与女婿/对立",
+          "dynamic": "由接纳到失望再到防备，最终强势阻断其继续伤害女儿",
+          "function": "提供婚姻外部制衡"
+        },
+        {
+          "target": "昭昭",
+          "type": "外祖父与外孙女",
+          "dynamic": "坚定维护抚养权，视为高家血脉",
+          "function": "支撑后期女主独立生活"
+        }
+      ]
+    },
+    {
+      "name": "蒋晟",
+      "aliases": ["蒋公子", "父亲门生"],
+      "role": "supporting",
+      "age_range": "20-28",
+      "appearance": {
+        "face": "五官端正，神情憨厚，脸红时有朴实青年气",
+        "body": "习武之人，身材结实挺拔，动作利落",
+        "hair": "乌发束起，简洁利落",
+        "distinguishing_features": "敦厚可靠的武人气质，与权门公子形成鲜明对照"
+      },
+      "costume": {
+        "typical_outfit": "利落窄袖长袍或便于骑射的常服",
+        "color_palette": ["青灰", "棕黑"]
+      },
+      "casting_tags": ["老实武人", "备选良配", "忠厚", "工具性情敌"],
+      "visual_reference": "古风青年武人，面容端正敦厚，身形结实，黑发高束，穿青灰色利落骑装或窄袖长袍，站在马球场边扶着女子，神情局促真诚，阳光下带沙尘与少年武人的可靠感，写实电影风",
+      "visual_prompt_negative": "现代运动装、盔甲过重、夸张肌肉、染发、纹身、卡通风、邪魅气质",
+      "personality": "老实、负责、内敛，不擅心机",
+      "desire": "求得稳妥婚配，尽量尽责体面地行事",
+      "flaw": "被动、迟钝，容易被卷入高门博弈而无力自证",
+      "arc": "从潜在良配到无辜卷入丑闻，再到与陆姝仪成婚，成为另一种命运牺牲者",
+      "scene_presence": "马球会、高府误会现场、后期被陆姝仪揭露为其设计对象",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "相看对象",
+          "dynamic": "他对她殷勤照顾，但始终未真正走近其内心",
+          "function": "对照沈词，提供正常婚配可能"
+        },
+        {
+          "target": "陆姝仪",
+          "type": "夫妻",
+          "dynamic": "婚姻建立于设计与事故，婚后冷淡疏离",
+          "function": "揭示女性求生与婚姻交易本质"
+        },
+        {
+          "target": "沈词",
+          "type": "敌意关系",
+          "dynamic": "被沈词视作情敌与失德者",
+          "function": "激发男主失控判断"
+        }
+      ]
+    },
+    {
+      "name": "沈睿",
+      "aliases": ["睿儿"],
+      "role": "supporting",
+      "age_range": "0-28（前世）",
+      "appearance": {
+        "face": "幼年聪秀灵动，病中则清瘦苍白；成年后应是眉目清正、文气深重",
+        "body": "幼时清瘦，成年挺拔，病重时羸弱不支",
+        "hair": "幼年软黑短发，成年束发整洁",
+        "distinguishing_features": "天资过人、气质早慧，病榻上仍带温润仁厚"
+      },
+      "costume": {
+        "typical_outfit": "幼年锦衣小袍，成年为文臣服饰",
+        "color_palette": ["天青", "素白"]
+      },
+      "casting_tags": ["神童", "早夭名相", "母子执念", "家族希望"],
+      "visual_reference": "古风神童形象，幼年男孩面容聪秀，眼神早慧，穿天青色小袍，手持书卷或跪在母亲膝前；也可表现成年权臣气质，清俊端方，带病弱宿命感，光影温柔而哀伤，写实电影风",
+      "visual_prompt_negative": "现代校服、夸张可爱风、卡通比例、科幻元素、染发、嬉皮笑脸",
+      "personality": "聪慧、仁厚、孝顺、过早成熟",
+      "desire": "希望父母和睦，不再互相折磨",
+      "flaw": "过度懂事，把父母的裂痕归咎于自己",
+      "arc": "虽主要活在回忆与梦中，却是串联前世婚姻悲剧与今生选择的核心灵魂人物",
+      "scene_presence": "通过回忆、临终片段与梦境出现，是男女主重启婚约的关键理由",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "母子",
+          "dynamic": "彼此深情，母亲为再见他而重返婚姻",
+          "function": "女主行动核心动机"
+        },
+        {
+          "target": "沈词",
+          "type": "父子",
+          "dynamic": "承载父亲家族理想，也反过来劝父母珍重彼此",
+          "function": "男主坚持婚约的理由"
+        }
+      ]
+    },
+    {
+      "name": "昭昭",
+      "aliases": ["小千金", "女儿"],
+      "role": "supporting",
+      "age_range": "0-3",
+      "appearance": {
+        "face": "婴儿时白嫩漂亮，五官秀气；三岁后灵动可爱，眼神明亮",
+        "body": "幼童体态圆润健康，活泼好动",
+        "hair": "乌黑细软，幼儿发髻或散发",
+        "distinguishing_features": "明亮鲜活，象征新生与未被旧恨污染的未来"
+      },
+      "costume": {
+        "typical_outfit": "软糯小袄、小裙或小袍，颜色明快",
+        "color_palette": ["鹅黄", "浅红"]
+      },
+      "casting_tags": ["治愈系幼女", "新生希望", "父母纽带"],
+      "visual_reference": "古风三岁小女孩，白嫩可爱，眼神聪慧，黑发扎小发髻，穿鹅黄或浅红色童装，手拿书卷或在雪地中玩耍，氛围温暖明亮，象征新生与希望，写实电影风",
+      "visual_prompt_negative": "现代童装、夸张动漫眼、塑料质感、科幻元素、成人化妆容",
+      "personality": "聪明、活泼、早慧",
+      "desire": "单纯渴望被爱、被陪伴、自由成长",
+      "flaw": "年幼，无实际缺陷",
+      "arc": "从意外出生的女儿，到成为女主新人生核心，也成为男主不断追来的纽带",
+      "scene_presence": "生产、抚养权争执、满月宴、江南生活等后期场景的中心人物",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "母女",
+          "dynamic": "母亲以全部温柔守护她，把她养成与前世期待不同的自由孩子",
+          "function": "女主重建人生的核心"
+        },
+        {
+          "target": "沈词",
+          "type": "父女",
+          "dynamic": "虽非他预期的长子，却逐渐成为他最真实柔软的牵挂",
+          "function": "男主持续介入女主生活的理由"
+        },
+        {
+          "target": "高父",
+          "type": "外祖父与外孙女",
+          "dynamic": "高家全力维护其归属和成长环境",
+          "function": "巩固高家阵营"
+        }
+      ]
+    },
+    {
+      "name": "沈母",
+      "aliases": ["沈夫人"],
+      "role": "supporting",
+      "age_range": "45-60",
+      "appearance": {
+        "face": "保养得宜的高门主母面相，神情威严，眼神审度意味浓",
+        "body": "体态端庄，举止规矩",
+        "hair": "高髻严整，饰物不俗",
+        "distinguishing_features": "典型豪门长辈气场，礼数周全却压迫感强"
+      },
+      "costume": {
+        "typical_outfit": "华贵主母礼服，珠翠得体",
+        "color_palette": ["深紫", "绛色"]
+      },
+      "casting_tags": ["高门主母", "势利长辈", "礼法压人"],
+      "visual_reference": "古代豪门主母，中年妇人，发髻严整，面容威严精致，穿深紫与绛色华贵礼服，佩戴稳重珠翠，端坐厅堂，神情审视而强势，写实古装剧质感",
+      "visual_prompt_negative": "现代旗袍、夸张宫斗妆、卡通风、轻佻表情、现代首饰",
+      "personality": "重门第、重脸面、擅于拿捏人心",
+      "desire": "维护沈家体面与家族利益",
+      "flaw": "将人当作家族秩序的棋子，缺乏真正共情",
+      "arc": "从安排高令宁入门与陆姝仪共存，到在后期面对高家强硬时被迫退让",
+      "scene_presence": "主要存在于回忆、婚姻安排与后期探视孙女的冲突中",
+      "relationships": [
+        {
+          "target": "沈词",
+          "type": "母子",
+          "dynamic": "以家族和体面影响儿子选择",
+          "function": "体现沈家结构性压力"
+        },
+        {
+          "target": "高令宁",
+          "type": "婆媳",
+          "dynamic": "从试图立威到后期失势，双方长期互不信任",
+          "function": "强化女主婚内压迫"
+        },
+        {
+          "target": "陆姝仪",
+          "type": "姨甥/安排对象",
+          "dynamic": "既护门面又把她当可交易资源",
+          "function": "推动其婚配悲剧"
+        }
+      ]
+    },
+    {
+      "name": "媒人",
+      "aliases": [],
+      "role": "minor",
+      "age_range": "35-55",
+      "appearance": {
+        "face": "喜庆圆脸，善察言观色，受惊时神情夸张",
+        "body": "中等身形，行动麻利",
+        "hair": "盘髻整齐",
+        "distinguishing_features": "职业性赔笑与调停姿态明显"
+      },
+      "costume": {
+        "typical_outfit": "喜庆体面的媒婆装束",
+        "color_palette": ["枣红", "褐金"]
+      },
+      "casting_tags": ["媒婆", "喜剧外壳下推动冲突"],
+      "visual_reference": "古代媒人妇人，圆脸能说会道，穿枣红色体面衣裙，手持礼单或木雁，站在厅堂中赔笑劝和，写实风格",
+      "visual_prompt_negative": "现代职业装、夸张漫画表情、科幻元素、年轻少女化",
+      "personality": "圆滑、世故、趋利避害",
+      "desire": "促成婚事，维护体面",
+      "flaw": "遇强则弱，只会顺势而为",
+      "arc": "无明显成长，为前期婚约博弈的执行者",
+      "scene_presence": "提亲场景核心辅助人物",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "提亲中介",
+          "dynamic": "试图劝她息事宁人",
+          "function": "呈现婚俗压力"
+        },
+        {
+          "target": "沈词",
+          "type": "婚事执行关联",
+          "dynamic": "代表沈家来往高府",
+          "function": "引出提亲冲突"
+        }
+      ]
+    },
+    {
+      "name": "稳婆",
+      "aliases": [],
+      "role": "minor",
+      "age_range": "40-60",
+      "appearance": {
+        "face": "饱经风霜，神情焦灼干练",
+        "body": "朴实健壮，动作熟练",
+        "hair": "简单包头",
+        "distinguishing_features": "生产危机中最直面生死的执行者"
+      },
+      "costume": {
+        "typical_outfit": "便于接生的朴素布衣",
+        "color_palette": ["灰蓝", "土褐"]
+      },
+      "casting_tags": ["接生婆", "生死抉择见证人"],
+      "visual_reference": "古代稳婆，年长妇人，面色急切，穿灰蓝色朴素布衣，袖口挽起，站在产房中焦急询问保大保小，烛火混乱，写实紧张氛围",
+      "visual_prompt_negative": "现代医护服、卡通风、华丽妆容、现代发饰",
+      "personality": "务实、焦急、专业",
+      "desire": "尽快明确决定，保住产妇与孩子中的至少一方",
+      "flaw": "受礼法所限，必须听丈夫决断",
+      "arc": "无明显成长",
+      "scene_presence": "产房生死关头重要触发人物",
+      "relationships": [
+        {
+          "target": "高令宁",
+          "type": "接生关系",
+          "dynamic": "在她最脆弱时守在床边",
+          "function": "将生死抉择具体化"
+        },
+        {
+          "target": "沈词",
+          "type": "求令关系",
+          "dynamic": "逼迫其面对真实选择",
+          "function": "促成男主情感摊牌"
+        }
+      ]
+    },
+    {
+      "name": "陆姝仪婢女",
+      "aliases": ["婢女"],
+      "role": "minor",
+      "age_range": "14-20",
+      "appearance": {
+        "face": "普通清秀，神色怯弱慌张",
+        "body": "瘦小",
+        "hair": "丫鬟双髻或低髻",
+        "distinguishing_features": "始终依附主子行动"
+      },
+      "costume": {
+        "typical_outfit": "素色丫鬟服",
+        "color_palette": ["浅青", "灰白"]
+      },
+      "casting_tags": ["贴身丫鬟", "报信者"],
+      "visual_reference": "古代小丫鬟，清秀瘦小，穿浅青色丫鬟服，跪在新房外急切报信，神情惶恐，写实古风",
+      "visual_prompt_negative": "现代女仆装、浓妆、夸张表情、卡通风",
+      "personality": "怯懦、听命行事",
+      "desire": "完成主子命令，避免受责",
+      "flaw": "缺乏主见",
+      "arc": "无",
+      "scene_presence": "新婚夜前来叩门报陆姝仪心口痛",
+      "relationships": [
+        {
+          "target": "陆姝仪",
+          "type": "主仆",
+          "dynamic": "对主子高度服从",
+          "function": "执行陆姝仪戏码"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "order": 0,
+      "heading": "INT. 高府正堂 - DAY",
+      "location": "高府正堂",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "高父", "媒人"],
+      "core_event": "沈家上门提亲，聘礼比前世寒薄，高令宁当众退还木雁，借机确认沈词也已重生，并逼他加码聘礼。",
+      "key_dialogue": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+      "emotional_peak": "高令宁把木雁还给媒人，正面打脸沈家，沈词震惊抬眼。",
+      "tension_score": 0.9,
+      "estimated_duration_s": 180,
+      "key_props": ["聘礼箱笼（金银绸缎）", "木雁", "礼单"],
+      "dramatic_purpose": "建立双重生设定、主角关系基调与女主主动权。",
+      "source_text_start": "媒人来提亲时，聘礼比前世少了一半。我便知",
+      "source_text_end": "和父母商议聘礼，必定让姑娘满意。」他侧头看我"
+    },
+    {
+      "scene_id": "scene_002",
+      "order": 1,
+      "heading": "INT. 高令宁闺房 - DAY",
+      "location": "高令宁房中",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "高父"],
+      "core_event": "父亲质问她为何当众羞辱沈词，高令宁坦承自己仍要嫁，只是这一次要以对方求娶的姿态风光入门。",
+      "key_dialogue": "谁说我不想嫁？我一定要嫁。",
+      "emotional_peak": "女主在父亲面前首次明确：她不是拒婚，而是带着目的再入婚局。",
+      "tension_score": 0.72,
+      "estimated_duration_s": 140,
+      "key_props": ["发钗记忆意象", "丝帕", "婚事文帖"],
+      "dramatic_purpose": "交代女主内在动机，反转其表面拒婚姿态。",
+      "source_text_start": "回到屋内。父亲绕着我转圈，不理解极了：「",
+      "source_text_end": "「谁说我不想嫁？」父亲愣住了。我低声说：「"
+    },
+    {
+      "scene_id": "scene_003",
+      "order": 2,
+      "heading": "FLASHBACK - INT. 沈府新婚厅堂 - DAY",
+      "location": "前世沈府厅堂",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈母", "陆姝仪", "沈词"],
+      "core_event": "前世高令宁婚后第二日被迫面对陆姝仪敬茶、意图共侍一夫的羞辱，她当场砸茶杯抹脖子立威，震慑沈家。",
+      "key_dialogue": "没有人可以拿捏我。包括沈词。",
+      "emotional_peak": "高令宁捡起瓷片抹脖子，以近乎自毁的方式夺回尊严。",
+      "tension_score": 0.95,
+      "estimated_duration_s": 170,
+      "key_props": ["敬茶茶盏", "碎瓷片", "茶盘"],
+      "dramatic_purpose": "补足前世创伤根源，解释女主为何绝不退让。",
+      "source_text_start": "上一世。沈词求娶我，是为陆姝仪。那是他母",
+      "source_text_end": "也拿她给整个沈家立威。没有人可以拿捏我。包"
+    },
+    {
+      "scene_id": "scene_004",
+      "order": 3,
+      "heading": "FLASHBACK - INT/EXT. 沈府各处与病榻 - NIGHT",
+      "location": "前世沈府内宅、病榻、灵堂意象",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "陆姝仪", "沈睿"],
+      "core_event": "回溯前世漫长婚姻：陆姝仪之死、夫妻冷战、流放危机、丧女丧子、病榻守护与死别，构成两人爱恨纠缠的完整底色。",
+      "key_dialogue": "若有来生，只做路人。",
+      "emotional_peak": "高令宁死后，沈词抱着她的棺材无声流泪。",
+      "tension_score": 0.88,
+      "estimated_duration_s": 240,
+      "key_props": ["火盆中被烧的寝衣鞋袜", "药碗", "寿衣", "棺材"],
+      "dramatic_purpose": "浓缩前世婚姻弧线，奠定‘相恨又相守’的悲剧基础。",
+      "source_text_start": "我是恨沈词的。恨他算计我，娶我回来，又不",
+      "source_text_end": "们说过最多的便是若有来生，只做路人。可谁能"
+    },
+    {
+      "scene_id": "scene_005",
+      "order": 4,
+      "heading": "INT/EXT. 高府书房门外 - DAY",
+      "location": "高府与门外廊下",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "高父", "沈词"],
+      "core_event": "高令宁劝父亲辞官避祸，随后在门外与守候多时的沈词摊牌：她愿嫁，但前提是先处理陆姝仪；两人同时承认婚姻只为孩子，约定生下睿儿后和离。",
+      "key_dialogue": "成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。",
+      "emotional_peak": "两人把婚姻彻底谈成一纸生子契约，彼此眼中只剩恨意。",
+      "tension_score": 0.93,
+      "estimated_duration_s": 220,
+      "key_props": ["辞官奏折", "药方", "活雁留下的勒痕意象"],
+      "dramatic_purpose": "确立中段主线目标：结婚、生子、和离。",
+      "source_text_start": "父亲不放心让我嫁入沈家。一夜未睡后，他改了",
+      "source_text_end": "你莫要使手段纠缠。」「谁纠缠谁是狗。」他抿"
+    },
+    {
+      "scene_id": "scene_006",
+      "order": 5,
+      "heading": "EXT. 侯爵府马球会 - DAY",
+      "location": "马球会场与柳池旁",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+      "core_event": "高令宁故意应约马球会，与蒋晟亲近示人；同时撞见沈词与陆姝仪暧昧相处，旧恨翻涌。她崴脚后借蒋晟刺激沈词，引发后者醋意。",
+      "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+      "emotional_peak": "高令宁看见沈词宠溺注视陆姝仪，愤怒与酸楚同时爆发。",
+      "tension_score": 0.86,
+      "estimated_duration_s": 210,
+      "key_props": ["葡萄", "风筝", "马球杆", "团扇"],
+      "dramatic_purpose": "让四角关系首次同场碰撞，显露沈词占有欲与女主嫉恨。",
+      "source_text_start": "沈家公子认了位义妹。消息传到我耳中，我面不",
+      "source_text_end": "沈公子，你我还未成婚，不宜有肌肤之亲。」风"
+    },
+    {
+      "scene_id": "scene_007",
+      "order": 6,
+      "heading": "INT. 马球会医舍 - DUSK",
+      "location": "会场旁医舍",
+      "time_of_day": "dusk",
+      "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+      "core_event": "高令宁在医舍正骨，蒋晟自责照顾；旁侧沈词又在温柔哄病发的陆姝仪。高令宁坚持沈家必须先嫁陆姝仪，双方矛盾升级，陆姝仪当众下跪哭求留下。",
+      "key_dialogue": "不退。退一步，从此就要退万步。",
+      "emotional_peak": "陆姝仪跪地自贬为奴为宠，沈词当众把她揽入怀里护住。",
+      "tension_score": 0.94,
+      "estimated_duration_s": 240,
+      "key_props": ["药碗", "接骨用布带", "塌榻", "衣袖帕子"],
+      "dramatic_purpose": "将陆姝仪的‘弱’与高令宁的‘硬’正面冲撞，深化误会与立场对立。",
+      "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了",
+      "source_text_end": "恰如你是他的妻子，可得到的疼爱，却只是我手"
+    },
+    {
+      "scene_id": "scene_008",
+      "order": 7,
+      "heading": "FLASHBACK - INT. 前世沈府内室 - NIGHT",
+      "location": "前世沈府卧房与街市回忆",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "沈睿"],
+      "core_event": "高令宁回忆前世另一重伤害：沈词因误会她处置酷似陆姝仪的婢女而暴怒推她，害她伤胎；二人曾短暂尝试修补关系，却终因丧女而彻底决裂。",
+      "key_dialogue": "有些事，强求不得。",
+      "emotional_peak": "两人面对死胎女儿时，相对无言，眼中只有要杀死对方的恨。",
+      "tension_score": 0.91,
+      "estimated_duration_s": 210,
+      "key_props": ["被毁的画", "身契", "安胎药", "鱼龙灯"],
+      "dramatic_purpose": "解释女主为何最终放弃报复，转向‘尽快结束’。",
+      "source_text_start": "是很可笑。陆姝仪死的第十年。沈词依旧没忘了",
+      "source_text_end": "什么都不做。我轻轻道：「成亲之后，还望公子"
+    },
+    {
+      "scene_id": "scene_009",
+      "order": 8,
+      "heading": "INT. 高府正堂/EXT. 迎亲路 - DAY",
+      "location": "高府与婚礼现场",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "高父", "媒人"],
+      "core_event": "第三次提亲后婚事终于定下。父亲虽忧心仍叮嘱女儿受委屈就和离。高令宁心不在焉地完成婚礼，正式嫁入沈家。",
+      "key_dialogue": "父亲只当女儿去沈家暂住一段时间，早晚要回来的。",
+      "emotional_peak": "父女在婚前默契埋下和离退路，婚礼表面盛大却暗流汹涌。",
+      "tension_score": 0.68,
+      "estimated_duration_s": 180,
+      "key_props": ["如山聘礼", "盖头", "红绸", "婚书"],
+      "dramatic_purpose": "完成故事中段结构转折：从谈判进入婚内战场。",
+      "source_text_start": "媒人第三次上门提亲。种种压力下，父亲应下了",
+      "source_text_end": "才回过神来。隔着盖头，我能看见他平静的侧脸"
+    },
+    {
+      "scene_id": "scene_010",
+      "order": 9,
+      "heading": "INT. 沈府新房 - NIGHT",
+      "location": "沈府洞房",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "陆姝仪婢女"],
+      "core_event": "新婚夜中，沈词与高令宁以近乎带刺的方式完成夫妻礼，话语中满是旧怨；中途陆姝仪婢女前来报其心口痛，高令宁淡漠放人。",
+      "key_dialogue": "要不是睿儿，你以为我想碰你？",
+      "emotional_peak": "最亲密的身体接触与最刻薄的语言同时出现，婚姻基调异常畸形。",
+      "tension_score": 0.89,
+      "estimated_duration_s": 210,
+      "key_props": ["丝带", "喜被", "热水", "盖头"],
+      "dramatic_purpose": "用极端私密场景展现两人爱欲与仇恨纠缠的核心关系。",
+      "source_text_start": "入夜后，喧嚣如水退去。月光照亮了我潮红无神",
+      "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么"
+    },
+    {
+      "scene_id": "scene_011",
+      "order": 10,
+      "heading": "INT. 沈府内院 - DAY",
+      "location": "沈府庭院与厅堂",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "陆姝仪", "沈母"],
+      "core_event": "陆姝仪婚事迫近，沈词为择婿焦头烂额。高令宁忽然提出不如把她秘密纳进府中，等自己和离后扶正，表现出真正的厌倦与放下。",
+      "key_dialogue": "等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。",
+      "emotional_peak": "高令宁首次真心松手，不再执着拆散二人，反让沈词情绪复杂。",
+      "tension_score": 0.74,
+      "estimated_duration_s": 160,
+      "key_props": ["折扇", "婚配名帖", "衣袖"],
+      "dramatic_purpose": "标记女主心境变化：从报复转向抽离。",
+      "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他总嫌薄了",
+      "source_text_end": "从始至终，我只是想要她余生顺遂，是你一直扭"
+    },
+    {
+      "scene_id": "scene_012",
+      "order": 11,
+      "heading": "INT. 沈府卧房 - DAY",
+      "location": "沈府卧房",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词"],
+      "core_event": "春日有孕，太医诊断是男孩。高令宁以为命运回到原轨，坚持产后和离；沈词却因她真的想开、不再恨自己而罕见失态。",
+      "key_dialogue": "你放心，我想开了，以后都不会恨你了。",
+      "emotional_peak": "沈词听到‘不恨了’反而暴怒，暴露其潜在情感依赖。",
+      "tension_score": 0.83,
+      "estimated_duration_s": 180,
+      "key_props": ["虎头帽", "太医诊脉结论", "绣线"],
+      "dramatic_purpose": "把孩子议题与感情议题捆绑升级，显示男主开始失控。",
+      "source_text_start": "怔了下，我摇头。并不懂他此刻嘴硬的用意。不",
+      "source_text_end": "我看着他，失笑半晌，摇头：「你放心，我想开"
+    },
+    {
+      "scene_id": "scene_013",
+      "order": 12,
+      "heading": "INT/EXT. 高府廊下与庭院 - DAY",
+      "location": "高府娘家",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "高父"],
+      "core_event": "高令宁借养胎回娘家，沈词频繁探望、剥葡萄、示好忏悔，父亲也以为二人感情转好；平静生活短暂降临。",
+      "key_dialogue": "其实上一世，我有许多对不住你的地方。",
+      "emotional_peak": "沈词在廊下偷吻昏昏欲睡的高令宁，显露迟来的柔情。",
+      "tension_score": 0.52,
+      "estimated_duration_s": 170,
+      "key_props": ["葡萄", "补品礼盒", "包裹行李"],
+      "dramatic_purpose": "制造暴风雨前的短暂温柔错觉，增加后续崩塌冲击力。",
+      "source_text_start": "伯爵娘子又登门了。沈词再不行动，陆姝仪的亲",
+      "source_text_end": "我沉默。直到午饭过后，小厮来报。陆姝仪来了"
+    },
+    {
+      "scene_id": "scene_014",
+      "order": 13,
+      "heading": "INT. 高府厢房 - DUSK",
+      "location": "高府厢房",
+      "time_of_day": "dusk",
+      "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟", "高父"],
+      "core_event": "陆姝仪以出嫁前见面为由登门，却在高府失踪。众人搜寻后发现她与衣冠不整、昏迷的蒋晟同处一室，高令宁瞬间意识到大祸临头。",
+      "key_dialogue": "我转头去看沈词，他也在看我。面若冰霜。",
+      "emotional_peak": "厢房门开的一刻，女主与男主对视，误会已无可挽回。",
+      "tension_score": 0.96,
+      "estimated_duration_s": 150,
+      "key_props": ["请见传话", "房门锁扣", "凌乱衣物"],
+      "dramatic_purpose": "引爆全剧最大误会与生产危机的导火索。",
+      "source_text_start": "父亲不知就里，让人带她进来等着。我想起前世",
+      "source_text_end": "和同样昏迷不醒、衣冠不整的蒋晟。心里一惊。"
+    },
+    {
+      "scene_id": "scene_015",
+      "order": 14,
+      "heading": "INT. 高府厅堂 - NIGHT",
+      "location": "高府厅堂",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟", "高父"],
+      "core_event": "陆姝仪哭诉自己被设计失贞，沈词不问真相便站到她一边，斥责高令宁恶毒跋扈，并以陆姝仪之死威胁；高令宁怒极反击，场面彻底失控。",
+      "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+      "emotional_peak": "高令宁当众甩沈词耳光，随后腹痛发作。",
+      "tension_score": 1.0,
+      "estimated_duration_s": 240,
+      "key_props": ["证人名册（婢女小厮）", "衣角", "耳光动作", "门鼓威胁意象"],
+      "dramatic_purpose": "让男女主信任彻底崩断，推动生死抉择高潮。",
+      "source_text_start": "陆姝仪哭着要自尽。她跪在我面前，哽咽：「夫",
+      "source_text_end": "记忆的最后，父亲踏入门内，脸色一变：「女儿"
+    },
+    {
+      "scene_id": "scene_016",
+      "order": 15,
+      "heading": "INT. 高府产房 - NIGHT",
+      "location": "高府产房",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "稳婆"],
+      "core_event": "高令宁早产难产，稳婆逼问保大保小。她以为沈词必保孩子，不料沈词在极度恐惧中明确选择让她活着。最终孩子平安落地，却是个女儿。",
+      "key_dialogue": "我要高令宁。",
+      "emotional_peak": "沈词血色尽失地指向高令宁，第一次撕开一切嘴硬。",
+      "tension_score": 0.99,
+      "estimated_duration_s": 220,
+      "key_props": ["床单", "接生热水", "药参", "襁褓"],
+      "dramatic_purpose": "完成男主情感真相的大揭示，并以‘生女’彻底打碎双方原定命运脚本。",
+      "source_text_start": "眼前是深不见底的黑。稳婆和太医都到了。混乱",
+      "source_text_end": "稳婆兴高采烈地道：「沈大人，快来看看小千金"
+    },
+    {
+      "scene_id": "scene_017",
+      "order": 16,
+      "heading": "INT. 高令宁病房 - DAY",
+      "location": "高府内室",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈睿"],
+      "core_event": "高令宁梦见前世病中的沈睿，他劝母亲来生不要再生下自己，宁可让妹妹陪伴终老。她醒后决定给女儿取名昭昭，把未来转向新的光亮。",
+      "key_dialogue": "若有来生，娘亲别再生下我，让妹妹代替我承欢膝下。",
+      "emotional_peak": "沈睿在梦中朝母亲磕头，请求她放过自己，也放过她自己。",
+      "tension_score": 0.78,
+      "estimated_duration_s": 130,
+      "key_props": ["粥碗", "床帐", "襁褓中的女儿"],
+      "dramatic_purpose": "让女主真正松开对前世长子的执念，情感转向女儿与自我。",
+      "source_text_start": "我做了个梦。床头，小小的沈睿捧着一碗粥，踮",
+      "source_text_end": "……我给女儿取名为昭昭。只希望她阳光开朗，"
+    },
+    {
+      "scene_id": "scene_018",
+      "order": 17,
+      "heading": "INT. 高府正堂 - DAY",
+      "location": "高府正堂",
+      "time_of_day": "day",
+      "characters_present": ["高父", "沈母", "沈词"],
+      "core_event": "沈家想接走昭昭，高父强硬拒绝，甚至以公堂和官途相威胁。沈词随后跪求见妻女，却被高父摆上一纸和离书。",
+      "key_dialogue": "两个孩子和离后，昭昭归高家。",
+      "emotional_peak": "高父第一次以绝对强势姿态压制沈家，宣布女儿和外孙女都由高家保全。",
+      "tension_score": 0.9,
+      "estimated_duration_s": 200,
+      "key_props": ["和离书", "孙女探视请求", "门第官途威胁"],
+      "dramatic_purpose": "完成外部权力格局逆转，让高家掌握主动权。",
+      "source_text_start": "沈家几次来人，说沈母想看孙女，想接走昭昭。",
+      "source_text_end": "他仰头，声音沙哑：「爹，令宁不会与我和离的"
+    },
+    {
+      "scene_id": "scene_019",
+      "order": 18,
+      "heading": "INT. 高府后院卧房 - DAY",
+      "location": "高府后院",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "昭昭"],
+      "core_event": "沈词强闯后院，拿着和离书质问高令宁。她平静重申按约和离，甚至表示已经原谅他、希望他另觅良人；这反而彻底击垮沈词。",
+      "key_dialogue": "高令宁，我不要你原谅我。",
+      "emotional_peak": "沈词弯下脊背，第一次近乎哀求地拒绝被原谅。",
+      "tension_score": 0.92,
+      "estimated_duration_s": 210,
+      "key_props": ["和离书", "襁褓/婴孩", "雕花木门"],
+      "dramatic_purpose": "把两人关系从‘互恨’推进到‘一方放下、一方无法放手’的新阶段。",
+      "source_text_start": "「不必，」父亲淡道，「我的女儿不愁没人要，",
+      "source_text_end": "我错愕地看着他，哑然失笑。不恨他了……他怎"
+    },
+    {
+      "scene_id": "scene_020",
+      "order": 19,
+      "heading": "INT. 高府满月宴偏厅 - DAY",
+      "location": "高府满月宴",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "陆姝仪", "沈词"],
+      "core_event": "昭昭满月宴上，陆姝仪不请自来，终于承认自己也是重生者，并坦白蒋晟之事是她设计，只为给自己逼出一条活路。沈词在一旁沉默听见真相。",
+      "key_dialogue": "蒋晟的事，是我设计。",
+      "emotional_peak": "女主得知陆姝仪也重生，且当日陷害并非自己臆测，震惊到失语。",
+      "tension_score": 0.87,
+      "estimated_duration_s": 190,
+      "key_props": ["满月宴请帖", "酒盏", "拜礼"],
+      "dramatic_purpose": "揭露最终真相，洗清女主冤屈，也让陆姝仪获得复杂的人性层次。",
+      "source_text_start": "拿到和离书后。我开始养身体，闭门不出这期间",
+      "source_text_end": "几步之外，沈词沉默地注视着我, 神色苍白。"
+    },
+    {
+      "scene_id": "scene_021",
+      "order": 20,
+      "heading": "EXT. 江南宅院书房 - NIGHT",
+      "location": "江南住处",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "昭昭"],
+      "core_event": "高令宁带昭昭远赴江南，三年清净生活展开。昭昭聪慧成长，沈词长期寄钱寄物、书信不断。某次来信谎称母亲为其择好新妻，试探高令宁反应；她只回一句祝百年好合并记得寄钱。",
+      "key_dialogue": "祝你和新夫人百年好合……婚后莫忘寄钱。",
+      "emotional_peak": "高令宁彻夜难眠后写下回信，却依旧选择表面彻底放手。",
+      "tension_score": 0.66,
+      "estimated_duration_s": 180,
+      "key_props": ["书信", "典籍", "金银珠宝", "笔墨"],
+      "dramatic_purpose": "展示女主新生稳定状态，并为最终追来埋下伏笔。",
+      "source_text_start": "京城总有人纠缠。我索性带着昭昭去了江南。终",
+      "source_text_end": "次日，沉重地提笔回他：「祝你和新夫人百年好"
+    },
+    {
+      "scene_id": "scene_022",
+      "order": 21,
+      "heading": "EXT/INT. 江南宅院与卧房 - DAY/NIGHT",
+      "location": "江南宅院庭院、夜间卧房",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "昭昭"],
+      "core_event": "回信后沈词突然亲自赶来江南，撞见高父安排的赘婿们陪昭昭堆雪，醋意大发。深夜他更爬上高令宁的床，被她踹下后仍抱着被褥守在地上，宣称会恬不知耻地纠缠她一辈子。",
+      "key_dialogue": "只要我还活着……我就会恬不知耻地纠缠你一辈子。",
+      "emotional_peak": "曾经冷硬端方的沈词彻底放下体面，像个无赖般求留下。",
+      "tension_score": 0.9,
+      "estimated_duration_s": 240,
+      "key_props": ["雪球", "被褥与枕头", "书信回函", "卧房窗棂"],
+      "dramatic_purpose": "以反转姿态收束情感线：女主已走远，男主开始真正学会低头与追逐。",
+      "source_text_start": "这次书信寄过去，宛如石沉大海。久久没有回信",
+      "source_text_end": "「只要我还活着……」「我就会恬不知耻地纠缠"
+    }
+  ]
+}

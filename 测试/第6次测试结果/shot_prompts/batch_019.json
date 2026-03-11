@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0108",
+    "shot_id": "shot_0114",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen from over her right shoulder with half of her side-back head and shoulder blurred in the right foreground; a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, standing in the midground ahead on the walkway; the woman walks away without turning back, posture straight and controlled, sensing a stare behind her, while the man is caught in a restrained half-body view, and a distant tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, dissolves into the compressed crowd at the venue edge as an implied lingering gaze point; dusty walkway, blurred crowd pushed to the far left background, heat haze and windblown sand, open negative space toward the rear, low-saturation warm-cool contrast, warm dusty daylight with cool gray-blue undertones, side-back sunlight, cinematic historical drama realism, shallow depth of field, subtle film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, film grain",
+      "lighting": "warm dusty daylight with cool gray-blue undertones, side-back light, low saturation warm-cool contrast, atmospheric heat haze"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, electricity, cars, plastic, glass buildings, neon, microphones, phones, text, watermark, logo, low quality, blurry face, extra fingers, deformed hands, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0109",
+    "shot_id": "shot_0115",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, framed in a medium close-up on the left third of the image; she lifts her face slightly and gives a small precise smile toward someone off-screen right, the smile controlled and strategic rather than soft, her eyes sharp with measured provocation; softened crowd flow and walkway railing in the background, suspended dust in warm air, low-saturation warm-cool contrast, back-side sunlight outlining her temple hair and neck line, warm amber sunlight mixed with cool muted gray shadows, gentle windblown sand texture, cinematic historical drama realism, shallow depth of field, highly detailed skin and silk texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, portrait lens, film grain",
+      "lighting": "side-back sunlight on hair and neck, warm amber daylight with cool muted gray shadows, low saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern hairstyle, modern makeup, plastic, street signs, text, watermark, logo, low quality, blurry, bad anatomy, distorted face, oversaturated colors"
+  },
+  {
+    "id": "sp_0110",
+    "shot_id": "shot_0116",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, standing in the left foreground; a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, standing diagonally opposite in the right rear; the woman extends one hand subtly toward the center as the visual focus, posture composed and courteous but unmistakably initiating intimacy, while the man faces her with controlled tension and attentive seriousness; walkway stretching into the left background, distant pedestrian flow receding into blur, public space visually narrowing into a private exchange, low-saturation warm-cool palette, dusty daylight, side-back natural light, warm amber highlights against cool gray-blue shadows, cinematic historical drama realism, medium shot, balanced 180-degree axis composition, shallow depth of field, detailed silk folds and robe textures, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, medium shot, film grain",
+      "lighting": "natural dusty daylight, side-back light, warm amber highlights with cool gray-blue shadows, low saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern fabrics, zippers, buttons, phones, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0111",
+    "shot_id": "shot_0117",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, represented by her hand extending from the lower left toward the center; a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, represented as a blurred figure and robe edge pressing into the right foreground; her hand is steady, fingers slightly raised, sleeve cuff understated and elegant, the gesture deliberate and provocative, the single sharp focal point in frame; bright dusty backlight, abstract blurred crowd, glowing white dust haze, low-saturation warm-cool contrast, historical outdoor walkway atmosphere, cinematic close-up realism, very shallow depth of field, crisp hand texture and silk detail, subtle film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro close-up, historical drama realism, film grain",
+      "lighting": "bright dusty backlight, warm amber-white dust glow with cool muted shadow tones, low saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, rings with modern design, nail polish, text, watermark, logo, low quality, blurry focal point, bad anatomy, extra fingers, malformed hand, oversaturated colors"
+  },
+  {
+    "id": "sp_0112",
+    "shot_id": "shot_0118",
+    "prompt_text": "A tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, framed in a medium close-up on the right third of the image; he lowers his gaze to the left toward her offered hand, expression serious, tense, and careful, with visible restraint and a faint redness at the ear under the light; a blurred sleeve edge of A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, remains in the left foreground as spatial counterpoint; walkway and crowd fade into warm gray blur in the background, dusty daylight, side-back sunlight grazing his face and ear, low-saturation warm-cool contrast, warm amber highlights against cool desaturated shadows, cinematic historical drama realism, shallow depth of field, subtle film grain, highly detailed skin and fabric texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, portrait close-up, film grain",
+      "lighting": "side-back sunlight, warm amber edge light with cool warm-gray shadow field, low saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern haircut, eyeglasses, text, watermark, logo, low quality, blurry face, bad anatomy, distorted features, oversaturated colors"
+  },
+  {
+    "id": "sp_0113",
+    "shot_id": "shot_0119",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, represented by her relaxed hand entering from the left; a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, represented by his hand entering from the right; their hands meet at the center, his palm supporting hers lightly and cautiously, her fingers loosening just enough to accept the contact, the touch ambiguous, measured, and dangerous; background reduced to abstract blur of high-key dust glow and dark fabric masses, low-saturation warm-cool contrast, strong textural detail on skin and layered sleeves, cinematic historical drama realism, intimate close-up, shallow depth of field, subtle film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro close-up, historical drama realism, film grain",
+      "lighting": "high-key dusty backlight, warm amber-white glow with cool muted shadow contrast, low saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern jewelry, nail polish, text, watermark, logo, low quality, blurry hands, bad anatomy, extra fingers, fused fingers, malformed hands, oversaturated colors"
+  }
+]

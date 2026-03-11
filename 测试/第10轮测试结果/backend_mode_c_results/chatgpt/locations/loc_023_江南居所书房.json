@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_023",
+  "name": "江南居所书房",
+  "type": "interior",
+  "era_style": "明代中晚期江南宅院女主人书房",
+  "description": "书房规模不大却精雅，书案临窗，砚台、毛笔、纸张与书信有序摆放，信封可层叠于一侧。室内木作颜色较浅，空间克制静谧。夜间窗外可见夜雪，使江南书房带上罕见的清冷感。烛台是主要光源，映得纸面微黄，四周暗下去，适合表现辗转难眠后的回信时刻。这里的美术重点是文人空间的留白、纸墨质感与夜雪带来的孤清。",
+  "visual_reference": "Late Ming dynasty Jiangnan study at night, elegant private writing room of a noblewoman, desk by lattice window, brushes, inkstone, paper sheets, opened letters and envelopes, single candle stand casting warm light, night snow visible outside, refined southern Chinese interior, contemplative and emotionally restrained, cinematic historical drama, highly detailed",
+  "atmosphere": "寂静、清冷、克制余波",
+  "color_palette": [
+    "雪白",
+    "墨黑",
+    "烛黄"
+  ],
+  "lighting": "单烛照亮案面与执笔之手，窗外夜雪反出冷白微光，形成冷暖对照。",
+  "key_features": [
+    "堆叠书信与信封",
+    "临窗书案与夜雪",
+    "单烛形成的深夜书写氛围"
+  ],
+  "narrative_scenes": [
+    "scene_029"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "表面轻描淡写，内里却有一整夜翻涌过后的清醒与复杂。"
+}

@@ -1,0 +1,219 @@
+```json
+[
+  {
+    "name": "高令宁",
+    "aliases": ["令宁", "高小姐", "沈夫人"],
+    "role": "protagonist",
+    "age_range": "16-25岁",
+    "appearance": {
+      "face": "面容清丽但线条微锐，肤色冷白，眼神常带疏离与厌倦，标志性表情是似笑非笑的冷嗤",
+      "body": "身姿纤细但脊背挺直，体态极具韧性与傲骨",
+      "hair": "乌黑长发，后期多梳随性的少妇发髻，少有繁复珠翠",
+      "distinguishing_features": "眼底透着历经沧桑后的绝对清明与冷漠"
+    },
+    "costume": {
+      "typical_outfit": "剪裁利落的丝质汉服，不追求奢华但质地极佳，后期在江南穿着更为宽松闲适",
+      "color_palette": ["冰蓝色", "月白色"]
+    },
+    "casting_tags": ["清冷大女主", "破碎后重组", "人间清醒", "骨相美人"],
+    "visual_reference": "1girl, 20 years old, ancient chinese noblewoman, elegant hanfu, ice blue and white color palette, cold and detached expression, pale skin, delicate but sharp features, highly detailed, cinematic lighting, 8k --ar 9:16",
+    "personality": "极度要强、杀伐果断、眼里揉不得沙子。重生后转为绝对的内核稳定与情感抽离，不再内耗，边界感极强。",
+    "desire": "摆脱前世纠缠，护住高家满门，让儿女平安降生并独自抚养，追求绝对的精神自由。",
+    "flaw": "过强的自尊心与防御机制，一旦失望便彻底封闭情感通道，拒绝任何沟通与和解。",
+    "arc": "执念深重的怨妇（前世） → 及时止损的清醒者（重生初） → 彻底放下实现自由的独立女性（结局）",
+    "scene_presence": "贯穿全剧：退回木雁退婚、马球会冷眼旁观、洞房夜冷遇沈词、难产保命、江南招赘",
+    "relationships": [
+      {"target": "沈词", "type": "情感", "dynamic": "从前世的相爱相杀到今生的单向逃离与被纠缠", "function": "阻碍/镜像（展示放下与执迷的对比）"},
+      {"target": "陆姝仪", "type": "对照", "dynamic": "高位俯视与冷漠反击", "function": "阻碍（催化女权意识觉醒的工具人）"},
+      {"target": "高父", "type": "情感", "dynamic": "双向守护，绝对的后盾", "function": "助攻"}
+    ]
+  },
+  {
+    "name": "沈词",
+    "aliases": ["阿词", "沈公子", "沈大人"],
+    "role": "protagonist",
+    "age_range": "18-28岁",
+    "appearance": {
+      "face": "面如冠玉，琥珀色眼眸，眼神冷如冰湖，后期常带病态的苍白与眼下乌青，标志性表情是隐忍的咬肌颤动",
+      "body": "长身玉立，文臣的清瘦挺拔，后期因身心折磨略显羸弱",
+      "hair": "一丝不苟的玉冠束发，后期偶有散乱碎发垂落",
+      "distinguishing_features": "清冷禁欲的外表与后期卑微乞求的神态形成强烈反差"
+    },
+    "costume": {
+      "typical_outfit": "考究的文臣常服或锦缎长袍，衣袖宽大，腰系玉带",
+      "color_palette": ["玄色", "藏青色"]
+    },
+    "casting_tags": ["高岭之花", "追妻火葬场", "偏执狂", "病娇权臣"],
+    "visual_reference": "1boy, 22 years old, ancient chinese handsome official, dark blue scholar robes, jade-like face, cold amber eyes, slightly pale and desperate expression, tall and upright, cinematic lighting, masterpiece --ar 9:16",
+    "personality": "端方持重、嘴硬心软、极度自负。习惯掌控一切，不善表达真实情感，失去后会陷入病态的偏执与卑微。",
+    "desire": "在弥补对陆姝仪的愧疚与留住高令宁之间寻找平衡，后期唯一欲望是让高令宁重新爱自己。",
+    "flaw": "傲慢与沟通障碍，理所当然地享受妻子的付出，用最伤人的话掩饰真心。",
+    "arc": "高高在上的掌控者（前世/重生初） → 信仰崩塌的失控者（和离时） → 卑微乞求的附庸者（结局）",
+    "scene_presence": "提亲被拒、马球会吃醋、洞房夜放狠话、产房外崩溃、江南雪夜爬床",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "从施压者沦为卑微的祈求者", "function": "对照（展示男权社会下既得利益者的崩塌）"},
+      {"target": "陆姝仪", "type": "责任", "dynamic": "从庇护纵容到彻底厌弃", "function": "阻碍（制造夫妻裂痕的核心矛盾）"}
+    ]
+  },
+  {
+    "name": "陆姝仪",
+    "aliases": ["姝仪", "表小姐"],
+    "role": "antagonist",
+    "age_range": "16-22岁",
+    "appearance": {
+      "face": "温婉清丽，楚楚可怜，眼眸如含泪清泉，常带凄苦之色",
+      "body": "身姿柔弱纤细，仿佛风吹即倒",
+      "hair": "发丝细软，常配素雅的珠花",
+      "distinguishing_features": "随时能凝结在眼眶的泪水和示弱的姿态"
+    },
+    "costume": {
+      "typical_outfit": "材质轻柔的裙衫，不张扬但极具保护欲暗示",
+      "color_palette": ["藕粉色", "素白色"]
+    },
+    "casting_tags": ["白莲花", "绿茶女配", "生存挣扎者", "小白花长相"],
+    "visual_reference": "1girl, 19 years old, ancient chinese girl, delicate and fragile appearance, pale pink hanfu, teary eyes, gentle and pitiful expression, soft lighting, ethereal --ar 9:16",
+    "personality": "极度利己、擅长利用弱者身份进行道德绑架与雌竞。本质是父权社会下为求生存不择手段的藤蔓植物。",
+    "desire": "寻找最强大的男性庇护，获取阶级地位与安全感。",
+    "flaw": "缺乏独立人格，将命运完全依附于男性，为达目的没有底线。",
+    "arc": "伪善的白月光（前世） → 狗急跳墙的施计者（重生后） → 认命的深宅怨妇（结局）",
+    "scene_presence": "马球会展示风筝、装病求留府、设计蒋晟失贞、满月宴坦白真相",
+    "relationships": [
+      {"target": "沈词", "type": "利益", "dynamic": "寄生与利用，以退为进", "function": "阻碍（男主道德枷锁的具象化）"},
+      {"target": "高令宁", "type": "权力", "dynamic": "暗中嫉妒与雌竞陷害", "function": "对照（依附者与独立者的对比）"},
+      {"target": "蒋晟", "type": "利益", "dynamic": "算计与绑架", "function": "助攻（自食恶果的闭环）"}
+    ]
+  },
+  {
+    "name": "高父",
+    "aliases": ["爹爹", "高大人"],
+    "role": "supporting",
+    "age_range": "45-55岁",
+    "appearance": {
+      "face": "眼角有皱纹，面相和善但遇事有威严",
+      "body": "中等身材，略显发福的文官体态",
+      "hair": "半白发髻，留有短须",
+      "distinguishing_features": "看着女儿时满眼慈爱与忧心"
+    },
+    "costume": {
+      "typical_outfit": "四品文官常服或质地优良的居家员外郎服",
+      "color_palette": ["暗红色", "深赭色"]
+    },
+    "casting_tags": ["慈父", "护女狂魔", "官场老手"],
+    "visual_reference": "1man, 50 years old, ancient chinese official, maroon robes, kind but stern face, wrinkles around eyes, dignified, cinematic lighting --ar 9:16",
+    "personality": "通达世故但极度疼爱女儿，懂得审时度势，关键时刻能为了家人放弃前程。",
+    "desire": "女儿平安喜乐，远离朝堂浑水。",
+    "flaw": "初期对高门联姻抱有世俗的幻想（已被女儿纠正）。",
+    "arc": "期盼高嫁的世俗父亲 → 辞官护女的硬核岳父",
+    "scene_presence": "正堂议亲、听劝辞官、怒拒沈母要人、为女招赘",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "无条件支持与包容", "function": "助攻（提供物质与权力庇护）"},
+      {"target": "沈词", "type": "权力", "dynamic": "从敬畏逢迎到冷酷拒绝", "function": "阻碍（男主追妻路上的物理屏障）"}
+    ]
+  },
+  {
+    "name": "蒋晟",
+    "aliases": ["蒋公子"],
+    "role": "supporting",
+    "age_range": "20-25岁",
+    "appearance": {
+      "face": "面容端正憨厚，容易脸红",
+      "body": "习武之人，身形健硕宽阔",
+      "hair": "简单的武人束发",
+      "distinguishing_features": "老实巴交的直男气质"
+    },
+    "costume": {
+      "typical_outfit": "便于行动的劲装或简单的书生服",
+      "color_palette": ["灰褐色", "墨绿色"]
+    },
+    "casting_tags": ["忠犬男配", "老实人", "冤大头"],
+    "visual_reference": "1boy, 21 years old, ancient chinese martial artist, sturdy build, honest and shy face, brown robes, warm sunlight --ar 9:16",
+    "personality": "老实本分、体贴细致、缺乏城府与防备心。",
+    "desire": "娶一位贤妻，安稳度日。",
+    "flaw": "过于单纯，容易被绿茶手段蒙蔽和算计。",
+    "arc": "殷勤的追求者 → 被算计的接盘侠 → 冷漠的丈夫",
+    "scene_presence": "马球会护花、高府客房被算计",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "仰慕与呵护", "function": "助攻（引发男主嫉妒的工具人）"},
+      {"target": "陆姝仪", "type": "利益", "dynamic": "被动绑定，婚后冷暴力", "function": "对照（恶人自有恶人磨）"}
+    ]
+  },
+  {
+    "name": "沈睿",
+    "aliases": ["睿儿"],
+    "role": "minor",
+    "age_range": "7-10岁（梦境中），28岁（前世记忆）",
+    "appearance": {
+      "face": "清秀苍白，眼神有着超越年龄的成熟与哀伤",
+      "body": "病骨支离，瘦弱",
+      "hair": "总角或少年束发",
+      "distinguishing_features": "病态中透着惊才绝艳的聪慧"
+    },
+    "costume": {
+      "typical_outfit": "精致但略显空荡的锦衣",
+      "color_palette": ["月白色", "浅灰色"]
+    },
+    "casting_tags": ["天才病弱少年", "意难平", "懂事得让人心疼"],
+    "visual_reference": "1boy, 8 years old, ancient chinese noble child, pale and sickly, mature and intelligent eyes, light blue hanfu, soft sad lighting --ar 9:16",
+    "personality": "极度懂事、孝顺、慧极必伤。承担了父母婚姻悲剧的全部精神重压。",
+    "desire": "父母能够停止互相伤害，各自安好。",
+    "flaw": "过度共情，将父母的过错揽在自己身上。",
+    "arc": "无",
+    "scene_presence": "前世记忆中临终劝父母、今生梦境中端粥祈求",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "反向照顾母亲的情绪", "function": "引导（促使女主重生的核心动力与放下的契机）"}
+    ]
+  },
+  {
+    "name": "昭昭",
+    "aliases": ["小千金"],
+    "role": "minor",
+    "age_range": "3岁左右",
+    "appearance": {
+      "face": "粉雕玉琢，眼睛明亮有神，笑容灿烂",
+      "body": "圆润可爱的小童",
+      "hair": "双丫髻，戴着虎头帽或珠花",
+      "distinguishing_features": "毫无阴霾的阳光开朗"
+    },
+    "costume": {
+      "typical_outfit": "富贵人家的娇宠童装，佩戴金锁珠宝",
+      "color_palette": ["明黄色", "赤红色"]
+    },
+    "casting_tags": ["人类幼崽", "治愈系", "掌上明珠"],
+    "visual_reference": "1girl, 3 years old, ancient chinese toddler, cute and lively, bright eyes, red and gold hanfu, playing in snow, joyful --ar 9:16",
+    "personality": "活泼开朗、聪明伶俐、无忧无虑。",
+    "desire": "玩耍、学习、获得爱。",
+    "flaw": "无",
+    "arc": "无",
+    "scene_presence": "出生啼哭、江南雪地玩耍",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "被全心全意爱护的结晶", "function": "对照（静好死去的反面，象征新生的希望）"}
+    ]
+  },
+  {
+    "name": "江南赘婿",
+    "aliases": ["新夫婿"],
+    "role": "minor",
+    "age_range": "20-25岁",
+    "appearance": {
+      "face": "相貌出众，眉眼温顺，毫无攻击性",
+      "body": "修长匀称",
+      "hair": "半束发，随意披散",
+      "distinguishing_features": "极具服务意识的温顺姿态"
+    },
+    "costume": {
+      "typical_outfit": "质地柔软舒适的江南常服",
+      "color_palette": ["竹青色", "米白色"]
+    },
+    "casting_tags": ["男宠", "情绪价值提供者", "温顺奶狗"],
+    "visual_reference": "1boy, 22 years old, ancient chinese handsome youth, bamboo green robes, gentle and submissive expression, warm lighting --ar 9:16",
+    "personality": "温贴、顺从、有眼力见，提供绝对的情绪价值。",
+    "desire": "讨好女主，获得安稳优渥的生活。",
+    "flaw": "缺乏独立主见（但在此设定下是优点）。",
+    "arc": "无",
+    "scene_presence": "江南院落陪昭昭堆雪人、深夜为女主盖被子",
+    "relationships": [
+      {"target": "高令宁", "type": "利益", "dynamic": "绝对服从的供需关系", "function": "助攻（彻底击溃男主心理防线的最后一击）"}
+    ]
+  }
+]
+```

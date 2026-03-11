@@ -1,0 +1,55 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词",
+    "沈大人"
+  ],
+  "role": "protagonist",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "如玉俊朗面庞，冷峻五官",
+    "body": "长身玉立，文臣气质",
+    "hair": "墨黑长发束冠",
+    "distinguishing_features": "冰湖般冷冽黑眸（含笑时琥珀光泽）与讥诮薄唇"
+  },
+  "costume": {
+    "typical_outfit": "深色文人袍服，冠带整齐",
+    "color_palette": [
+      "墨黑",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "冷峻书生",
+    "重生男主",
+    "深情隐忍",
+    "占有欲强"
+  ],
+  "visual_reference": "handsome ancient Chinese scholar-official in dark hanfu, jade-like fair face, cold sharp amber-black eyes, tall slender build, long black hair tied with official guan, aloof aristocratic expression with hidden pain, realistic 8k",
+  "personality": "清冷端方、尖锐讥诮、深情隐忍、占有欲极强",
+  "desire": "护住义妹、挽回妻子与女儿、弥补前世亏欠",
+  "flaw": "固执不信人、前世冷待妻子、暧昧不清导致误会",
+  "arc": "从算计冷漠到后悔痴缠，拒绝被原谅",
+  "scene_presence": "从提亲到江南深夜纠缠，全剧第二主视角",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前世夫妻",
+      "dynamic": "互相折磨到疯狂纠缠",
+      "function": "情感主轴"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "义妹青梅",
+      "dynamic": "兄妹情谊被误会",
+      "function": "冲突来源"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "深爱骄傲",
+      "function": "动机核心"
+    }
+  ]
+}

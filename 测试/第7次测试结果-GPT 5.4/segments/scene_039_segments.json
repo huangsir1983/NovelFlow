@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0194",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0604",
+      "shot_0605",
+      "shot_0606"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属今世内室压抑建立段，角色集合稳定，空间关系到人物状态再到道具细节形成自然递进。以门帘、静坐、攥袖完成‘礼仪铺垫—情绪内收’的第一拍，适合合并为一个连续封闭感段落。",
+    "order": 194
+  },
+  {
+    "id": "seg_0195",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0607",
+      "shot_0608",
+      "shot_0609"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段的合并边界由‘前世闪回触发—回到今世决断—命令即将发出’构成完整情感弧线。虽然存在时空短跳，但闪回依附于衣袖match cut，随后立刻回到同一空间，适合作为一个‘旧忆刺入’段。",
+    "order": 195
+  },
+  {
+    "id": "seg_0196",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0610",
+      "shot_0611",
+      "shot_0612"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是场景核心动作段：停顿、下令、反应，因果闭合清楚，且遵循‘听者比说者重要’，用侍女的承接来放大高令宁决定的分量。角色关系未变，情绪由冷静谋断推至执行确认，适合合并。",
+    "order": 196
+  },
+  {
+    "id": "seg_0197",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0613",
+      "shot_0614",
+      "shot_0615"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜形成‘执行落实—回冷余波—心理落点’的完整收束。侍女离场造成局部角色变化，也标记了动作完成的边界；随后回到女主独处与眼神细部，完成本场‘主动切断危险链条’的余韵，因此独立成尾段最合适。",
+    "order": 197
+  }
+]

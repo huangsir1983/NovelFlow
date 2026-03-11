@@ -1,0 +1,49 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "supporting",
+  "age_range": "16-20",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜，常带泪眼盈盈之态",
+    "body": "柔弱纤细，仿佛风一吹就倒",
+    "hair": "发丝柔软，常有几缕垂落脸颊增添柔弱感",
+    "distinguishing_features": "永远是一副受害者的无辜神情"
+  },
+  "costume": {
+    "typical_outfit": "材质轻柔的襦裙，缺乏正室的端庄感",
+    "color_palette": [
+      "粉色",
+      "藕荷色",
+      "白色"
+    ]
+  },
+  "casting_tags": [
+    "白月光",
+    "绿茶",
+    "小白花",
+    "心机女"
+  ],
+  "visual_reference": "1girl, ancient chinese young woman, delicate, pitiful expression, teary eyes, wearing soft pink hanfu, white moonlight archetype, weak posture, masterpiece",
+  "personality": "表面柔弱无害，实则自私利己，为了生存和地位不择手段",
+  "desire": "抓住沈词这根救命稻草，获得荣华富贵与安稳正妻地位",
+  "flaw": "过度依赖他人同情，手段下作且缺乏底线",
+  "arc": "从试图依靠沈词，到走投无路主动设局，最终自食恶果嫁给不爱自己的人",
+  "scene_presence": "关键冲突节点的引发者",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "靠山",
+      "dynamic": "利用他的愧疚感不断索取",
+      "function": "破坏男女主关系的利器"
+    },
+    {
+      "target": "高令宁",
+      "type": "宿敌",
+      "dynamic": "嫉妒女主的家世与正室地位，屡次暗中雌竞",
+      "function": "衬托女主的清醒与大度"
+    }
+  ]
+}

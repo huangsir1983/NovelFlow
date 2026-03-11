@@ -1,0 +1,294 @@
+[
+  {
+    "id": "shot_0281",
+    "scene_id": "scene_022",
+    "shot_number": 1,
+    "goal": "建立封闭压抑的室内关系场，明确床榻与桌边的空间分裂，以及两人分房而居后的情感距离。",
+    "composition": "门框式构图。前景左侧为半虚焦门框与垂落帘角，形成窥视感；中景右侧床榻占画面右后三分之一，高令宁虚弱卧于床内侧，仅露出苍白侧脸与被褥轮廓；左中部桌边烛台低燃，沈睿立于烛光外缘，身形被暗部吞没一半。背景墙面与窗棂投下条状阴影，画面中央留出明显空区，强化二人之间不可跨越的距离。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、疏离、被礼法与怨气冻结的婚内关系",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 281
+  },
+  {
+    "id": "shot_0282",
+    "scene_id": "scene_022",
+    "shot_number": 2,
+    "goal": "把观众拉进女主身体状态，传达她劳心过度后的虚弱与失控前兆。",
+    "composition": "女主主观限制下的近景。高令宁位于画面右侧偏中，半倚床头，额角细汗在低烛光下泛冷光；前景左下为模糊起伏的被角，背景仅见失焦床柱与黑影。留白压在她视线所向的左侧，预留对沈睿的心理压力。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "脆弱、强撑、无人扶持的孤绝",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 282
+  },
+  {
+    "id": "shot_0283",
+    "scene_id": "scene_022",
+    "shot_number": 3,
+    "goal": "用身体动作推动情节，高令宁试图坐起，显示她仍想维持体面与对峙姿态。",
+    "composition": "侧向中景，镜头保持在床边180度线内。高令宁从画面右侧床榻内侧艰难撑起，手臂压住床沿；床榻帷幔边缘形成前景遮挡，背景左侧是模糊烛火与站立人影。动作线由右向左延伸，暗示她试图进入对话场域。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "勉强支撑的尊严感与即将失衡的不安",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 283
+  },
+  {
+    "id": "shot_0284",
+    "scene_id": "scene_022",
+    "shot_number": 4,
+    "goal": "表现她因眩晕而失稳，形成这一轮情绪换挡：从克制体面滑向身体失控。",
+    "composition": "近距离手部与身形联动。高令宁扶住床沿的手位于画面左下，指节因用力发白；她模糊的身躯压在右上方，头微垂。背景烛火被晕成轻微重影，模拟眩晕感，但仍保持现实冷硬质感不过度主观化。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "眩晕、失控、强撑崩裂的一瞬",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 284
+  },
+  {
+    "id": "shot_0285",
+    "scene_id": "scene_022",
+    "shot_number": 5,
+    "goal": "切到沈睿的观察位置，确立他看见她虚弱却并未靠近，情感上把关切压成了审判。",
+    "composition": "沈睿位于画面左侧三分之一，立于桌边半暗中，肩线笔直，面部一半被烛光扫到，一半隐于阴影；前景右侧虚焦为高令宁床榻边缘，形成他隔空压视她的关系。烛台位于两人之间的视觉中轴偏下，像一段快要熄灭的婚姻火种。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冷硬、克制、压着怒意的不肯示弱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.46,
+    "order": 285
+  },
+  {
+    "id": "shot_0286",
+    "scene_id": "scene_022",
+    "shot_number": 6,
+    "goal": "在他开口前建立其质问姿态，给第一句台词预压迫感。",
+    "composition": "沈睿的中特写，人物位于画面左中，视线从左向右下压向床榻方向；背景是暗色墙面与斜切窗棂影，线条指向其目光。画面右侧留黑，形成语言落点的空隙。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "被审视、被追问、无处回避",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.54,
+    "order": 286
+  },
+  {
+    "id": "shot_0287",
+    "scene_id": "scene_022",
+    "shot_number": 7,
+    "goal": "落第一句质问：把冲突从家务与礼法推向身份归属。",
+    "composition": "延续上一镜，轻微推进至更紧的构图。沈睿面容占画面左半，嘴唇线条克制而硬，目光稳定不闪。背景烛火在右后方成一点冷暖对冲，强化台词尖锐度。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "锋利、逼问、带被辜负感的攻击性",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 287
+  },
+  {
+    "id": "shot_0288",
+    "scene_id": "scene_022",
+    "shot_number": 8,
+    "goal": "捕捉高令宁听到“沈家妇/高家女”后的受刺反应，强调这句话刺中的不是礼法，而是她始终未被允许安放的身份。",
+    "composition": "高令宁反应特写，位于画面右侧，脸偏向左，眼神先是一滞后收紧；前景下方有半虚焦床帐边缘切过下巴，像无形束缚。背景全黑，仅留一点烛光边缘勾出发髻与面颊。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "被戳中旧伤后的冷痛与防备升级",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 288
+  },
+  {
+    "id": "shot_0289",
+    "scene_id": "scene_022",
+    "shot_number": 9,
+    "goal": "通过限制性双人构图强化二人同处一室却各据一端，避免全知俯瞰，同时让空间关系成为情感证词。",
+    "composition": "从高令宁床侧斜拍的MLS。高令宁前景右侧坐于床沿，身形微晃；沈睿背景左侧立于桌边不动。中间大面积空地与桌角、烛台构成阻隔。二人视线相对，但身体都未朝彼此迈出一步。视觉线严格维持右向左、左向右对置。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "僵持、婚内冷战具象化、一步都不肯让",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 289
+  },
+  {
+    "id": "shot_0290",
+    "scene_id": "scene_022",
+    "shot_number": 10,
+    "goal": "引入女主主观失焦，暗示她在现实质问中被刺出前世式记忆残响，但不完整揭示，只制造心理裂纹。",
+    "composition": "高令宁视角的半主观镜头。沈睿在画面左中位置略微失焦，烛火在他身旁拉出轻微拖影；前景右侧是高令宁模糊的肩线。背景边缘有极轻微柔焦与高对比提升，形成碎片记忆即将侵入的质感，但画面主体仍属于现实。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "眩晕中的心理刺痛、现实与旧忆短暂重叠",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.64,
+    "order": 290
+  },
+  {
+    "id": "shot_0291",
+    "scene_id": "scene_022",
+    "shot_number": 11,
+    "goal": "以烛火与阴影的插镜完成节奏顿挫，象征被压缩成质问的关切，也为第二句台词蓄压。",
+    "composition": "烛台特写位于画面中央偏左，火焰低弱摇晃，蜡泪沿暗金烛台缓慢下滴；背景失焦中可辨高令宁浅色衣袖在右、沈睿深色身影在左，两人被火焰分隔。阴影在墙上摇动，像未说出口的情绪。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "窒息、耗损、关系将熄未熄的危险",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.57,
+    "order": 291
+  },
+  {
+    "id": "shot_0292",
+    "scene_id": "scene_022",
+    "shot_number": 12,
+    "goal": "第二轮逼近，沈睿将愤怒从身份指控推进到婚姻关系本身，揭示他真正受伤的是被长期防备。",
+    "composition": "沈睿中近景，人物位于画面左侧，身体微前倾但脚步未动，仍停在线外；桌面边缘从下方切入，像一道理性与体面的栏杆。背景右侧暗处指向床榻方向，形成压迫性的视线通道。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "控诉、委屈被怒气伪装后的刺人感",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.71,
+    "order": 292
+  },
+  {
+    "id": "shot_0293",
+    "scene_id": "scene_022",
+    "shot_number": 13,
+    "goal": "落第二句台词，把冲突推到本场情绪高点：不是隐瞒本身，而是‘你从未把我当自己人’。",
+    "composition": "紧特写。沈睿居中稍偏左，眼神几乎不眨，唇线发紧；背景完全压暗，只保留颧骨与鼻梁冷光边。构图压缩到头肩，取消环境退路，令台词像钉子一样钉进观众耳中。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "情绪高压、被拒于婚姻之外的愤怒与难堪",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 293
+  },
+  {
+    "id": "shot_0294",
+    "scene_id": "scene_022",
+    "shot_number": 14,
+    "goal": "以高令宁的微反应完成反打，不让她立刻回击，而是让沉默本身显示她的防备已成习惯。",
+    "composition": "高令宁近特写，位于画面右侧，眼睛看向左方但不完全迎视，睫毛轻颤，嘴唇抿紧；额角冷汗尚在，肤色更白。前景左下虚焦为她抓住床沿的手，暗示她所有回答都先用于撑住自己。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "隐忍、被误解又无意解释的疲惫冷感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 294
+  },
+  {
+    "id": "shot_0295",
+    "scene_id": "scene_022",
+    "shot_number": 15,
+    "goal": "补足她身体极限与情绪防线的双重崩口，让观众意识到她此刻的沉默并非纯粹强硬，也有难以开口的虚弱。",
+    "composition": "从脸部下移到胸口与手部的中近景。高令宁一手压在心口附近，呼吸起伏急促，另一手仍扣着床沿；衣料皱折与手背青筋在低光中清晰可见。背景黑沉，只有床柱竖线像牢笼。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "窒闷、心力俱疲、连辩解都要耗尽气力",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 295
+  },
+  {
+    "id": "shot_0296",
+    "scene_id": "scene_022",
+    "shot_number": 16,
+    "goal": "冷收尾，回到空间关系，确认这一轮对峙后两人没有更靠近，只把裂痕说得更明白。",
+    "composition": "与开场呼应的限制性全景，但角度更低、更靠近床侧。高令宁坐于画面右侧床沿，身形更显单薄；沈睿仍在左侧暗处，未前进一步。中间烛火更弱，房内阴影更重。留白扩大，像把二人正式分成两岸。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "冷硬余震、裂痕加深、无解的婚姻悬置感",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 296
+  }
+]

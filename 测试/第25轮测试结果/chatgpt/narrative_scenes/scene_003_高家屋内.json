@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 高家闺房 - 日",
+  "location": "高家屋内",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲"
+  ],
+  "core_event": "父亲质问我为何羞辱沈词，我回忆前世初恋与婚后噩梦，明确表示不是不嫁，而是一定要嫁。",
+  "key_dialogue": "我一定要嫁。",
+  "emotional_peak": "从表面拒婚转为主动要嫁，流露出复仇与命运纠缠。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "发钗记忆",
+    "婚事",
+    "前世噩梦"
+  ],
+  "dramatic_purpose": "揭示女主复杂动机：既恨沈词，又必须嫁他。",
+  "visual_reference": "闺房内父女对坐，女子神色冷静，窗边光线安静，情绪压抑。",
+  "visual_prompt_negative": "不要华丽宫殿，不要现代卧室，不要夸张哭泣，不要欢乐色调。",
+  "source_text_start": "回到屋内。父亲绕着我转圈，不理解极了",
+  "source_text_end": "父亲愣住了。我低声说：「我一定要嫁。」"
+}

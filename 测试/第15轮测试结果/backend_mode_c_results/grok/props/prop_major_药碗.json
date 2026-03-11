@@ -1,0 +1,14 @@
+{
+  "name": "药碗",
+  "category": "medical",
+  "description": "传统青瓷药碗，碗身略深口径12cm高8cm，釉色青翠带浅褐药渍痕迹，碗壁薄透简朴工艺，内壁残留少量深褐色药渣，碗沿有轻微使用磨损。",
+  "visual_reference": "古代中国医药道具，盛满深褐色苦药的青瓷药碗，碗身古朴有开片纹理，热气缓缓升起，放置在木质矮桌上，昏黄灯光写实风格，细节真实",
+  "visual_prompt_negative": "现代陶瓷碗、金属容器、塑料材质、干净无痕迹、卡通医疗用品、彩色塑料",
+  "narrative_function": "体现女主角身体不适或产后调养场景，推动情节中父亲与沈词的照顾关怀，承载家庭温暖与恢复过程",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_006",
+    "scene_007"
+  ],
+  "emotional_association": "担忧关怀与家庭温暖"
+}

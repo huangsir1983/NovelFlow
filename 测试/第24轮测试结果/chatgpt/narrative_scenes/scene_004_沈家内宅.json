@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 沈府新婚厅堂 - 白日（回忆）",
+  "location": "沈家内宅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世婚后第二日，沈母安排陆姝仪向我敬茶，试图让她做平妻，我愤怒砸杯并以瓷片抹脖子立威。",
+  "key_dialogue": "无",
+  "emotional_peak": "我用自伤逼退整个沈家，宣告自己绝不容人拿捏。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "茶杯",
+    "瓷片",
+    "敬茶礼"
+  ],
+  "dramatic_purpose": "揭示前世婚姻的原始创伤，以及我强硬性格的形成与爆发。",
+  "visual_reference": "新婚次日的高门内宅，地上碎瓷与血痕，女子眼红决绝，众人惊惧，青年男子急忙阻拦。",
+  "visual_prompt_negative": "不要血腥恐怖特写，不要现代医疗元素，不要夸张武打，不要喜庆搞笑风。",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。那是他母亲的",
+  "source_text_end": "我争强好胜，最不喜欢忍耐，眼里从来容不得沙子。"
+}

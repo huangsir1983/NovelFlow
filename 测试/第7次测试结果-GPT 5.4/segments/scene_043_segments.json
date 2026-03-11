@@ -1,0 +1,101 @@
+[
+  {
+    "id": "seg_0212",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0677",
+      "shot_0678",
+      "shot_0679",
+      "shot_0680"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前四个shot共同完成空间建立与女主痛感主观化，角色集合稳定，情绪统一处于窒息铺垫阶段，适合合并为一个由客观到主观再到身体细节收紧的开场段落。",
+    "order": 212
+  },
+  {
+    "id": "seg_0213",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0681",
+      "shot_0682",
+      "shot_0683"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot属于同一叙事动作链：稳婆诊断—抛出选择—沈词沉默。核心冲突转为伦理施压，角色关系不变，情绪从危机确认推进到压迫悬停，适合并为一个决断前段落。",
+    "order": 213
+  },
+  {
+    "id": "seg_0214",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0684",
+      "shot_0685",
+      "shot_0686"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组shot围绕‘女主先知式不信—闭眼放弃—全场二次逼迫’形成完整情绪弧线，仍在同一时空和角色配置内，适合作为反转前最后的高压蓄势段。",
+    "order": 214
+  },
+  {
+    "id": "seg_0215",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0687",
+      "shot_0688",
+      "shot_0689",
+      "shot_0690"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四个shot构成同一反转爆点：开口征兆—被追问—明确选择—情感告白，情绪连续上升且无时空变化，是全场核心节点，必须合并保持冲击完整。",
+    "order": 215
+  },
+  {
+    "id": "seg_0216",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0691",
+      "shot_0692",
+      "shot_0693"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这三镜形成一个完整的情绪转折链：女主因告白苏醒—夫妻目光接通—婴儿啼哭打断并改变场面动力。属于同一反应段落，适合合并保持‘先内后外’的节奏冲击。",
+    "order": 216
+  },
+  {
+    "id": "seg_0217",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0694",
+      "shot_0695",
+      "shot_0696"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜是男主从冻结到行动再到松气落泪的连续行为链，全部围绕‘先确认她活着’展开，情绪从仓皇降到软化，适合并为一个余震段落。",
+    "order": 217
+  },
+  {
+    "id": "seg_0218",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0697",
+      "shot_0698"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜构成尾钩信息组：报喜—错愕反问。角色集合未变，但情绪由松动转为新的震荡，属于明确的新叙事转折，独立成结尾段最利于保留悬念。",
+    "order": 218
+  }
+]

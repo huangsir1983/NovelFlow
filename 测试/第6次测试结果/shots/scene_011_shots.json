@@ -1,0 +1,310 @@
+[
+  {
+    "id": "shot_0175",
+    "scene_id": "scene_011",
+    "shot_number": 1,
+    "goal": "建立沈府正厅与内院相连的礼法空间，以及从黎明开始就压在高令宁身上的主母职责。",
+    "composition": "WS，正厅居中，前景为半掩门框与垂帘形成压景，右侧门缝斜入一束冷晨光，左后方隐约见通往内院的回廊；桌案、账册、灯笼、钥匙散布其间，空间空阔却显得森严。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众感到规制森严、责任沉重，先建立压迫性的家宅氛围。",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.1,
+    "order": 175
+  },
+  {
+    "id": "shot_0176",
+    "scene_id": "scene_011",
+    "shot_number": 2,
+    "goal": "交代高令宁天未亮便起身整衣，主动进入战斗状态。",
+    "composition": "MCU，高令宁位于画面右侧铜镜前，镜中映出她的正脸，真实人物背身占左侧；前景虚化为衣架与披帛，背景昏暗，仅有冷光勾勒她肩颈线条与低髻轮廓。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "突出她克制、自持、把自己武装起来的意志。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.0,
+    "order": 176
+  },
+  {
+    "id": "shot_0177",
+    "scene_id": "scene_011",
+    "shot_number": 3,
+    "goal": "用动作细节强调她对体面与掌控的执拗。",
+    "composition": "CU，画面中央是她交叠系紧衣带的双手，玉簪尾端与袖口细绣进入上方边缘；背景虚化为冷色屏风，斜向光线切过手背，形成利落明暗分界。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她正在压下疲惫，以秩序感撑住自己。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 177
+  },
+  {
+    "id": "shot_0178",
+    "scene_id": "scene_011",
+    "shot_number": 4,
+    "goal": "呈现高令宁快速穿过内院，建立她在不同空间中高强度流转的节奏。",
+    "composition": "MLS，镜头沿回廊轴线看向正厅，高令宁自画面左侧入，向右前方疾步穿过院中；前景为廊柱连续分割空间，背景门扇层层开启，构成强透视线，引导她的行动方向始终保持左入右出。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "制造紧迫、利落、无暇喘息的观感。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 178
+  },
+  {
+    "id": "shot_0179",
+    "scene_id": "scene_011",
+    "shot_number": 5,
+    "goal": "交代她已实际接掌中馈，开始翻看账册处理府务。",
+    "composition": "MS，桌案横置于画面下半部，高令宁站在画面中央略偏右，俯身翻账册；前景散落钥匙与算盘，背景深处可见正厅高阔梁柱与等候回话的小厮轮廓，形成主次层次。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到她已被事务包围，却仍强行把一切纳入掌控。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.25,
+    "order": 179
+  },
+  {
+    "id": "shot_0180",
+    "scene_id": "scene_011",
+    "shot_number": 6,
+    "goal": "突出账册与钥匙等物件所象征的管家实权落到她手中。",
+    "composition": "ECU，账册页角被迅速翻动，手指压住一串钥匙，钥匙冷光一闪；画面左下是墨迹数字，右上是她袖口掠过，构成斜线张力。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "放大权力与负担同时落下的质感。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 180
+  },
+  {
+    "id": "shot_0181",
+    "scene_id": "scene_011",
+    "shot_number": 7,
+    "goal": "表现她亲自交代下人，做事不留空档。",
+    "composition": "MS，高令宁位于画面左前，侧身面向右侧两名小厮；前景是一盏未熄的晨灯，背景为门框与院光。她微抬下颌，手指点向账册，小厮低头受命，形成明确的权力关系。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到她在用强硬效率争取认可，同时也显出与周围人的距离。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 181
+  },
+  {
+    "id": "shot_0182",
+    "scene_id": "scene_011",
+    "shot_number": 8,
+    "goal": "插入有限他人反应，体现高令宁的强势让下人不敢怠慢。",
+    "composition": "MCU，一名小厮位于画面右侧前景，低头应声，视线略向左上看她；左侧前景虚化为高令宁肩背与发髻轮廓，背景是账房门框与堆叠册页。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "通过旁人谨慎反应，强化她的压迫感与孤立感。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈府小厮",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 182
+  },
+  {
+    "id": "shot_0183",
+    "scene_id": "scene_011",
+    "shot_number": 9,
+    "goal": "继续以女主视角推进她在空间中不停奔忙，形成时间压缩感。",
+    "composition": "FS，镜头置于账房门内向外看，高令宁从左侧前景掠过，穿过中景门洞进入正厅，再由右侧通往内院；前景门框、背景院门形成连续框中框，桌案与灯笼留在画面边缘提示事务未完。",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "强化她像被宅院机制不断推着走的疲惫感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.4,
+    "order": 183
+  },
+  {
+    "id": "shot_0184",
+    "scene_id": "scene_011",
+    "shot_number": 10,
+    "goal": "通过日夜转换说明她忙碌持续到深夜，工作没有停歇。",
+    "composition": "FS，同一桌案与厅堂机位，晨光位置被替换为烛火与灯笼的暖光，空间更暗更深；高令宁仍在原处伏案，形成时间流逝中的人物不变。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众直观感到她把自己耗在这场争取认可的战役里。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 184
+  },
+  {
+    "id": "shot_0185",
+    "scene_id": "scene_011",
+    "shot_number": 11,
+    "goal": "近距离进入她夜里仍强撑核对府务的状态，强调疲态开始显形。",
+    "composition": "MCU，高令宁位于画面中央偏左，伏在桌案前，烛火在前景右下跳动；背景是一片失焦暗木色，只有她冷白侧脸、眉骨与下压的眼神被侧逆光勾出。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她表面沉着，身体却已在边缘。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 185
+  },
+  {
+    "id": "shot_0186",
+    "scene_id": "scene_011",
+    "shot_number": 12,
+    "goal": "埋下身体代价，首次明确表现腹部不适。",
+    "composition": "CU，画面中央是她按向腹部的手，衣料因用力微微起褶；上方边缘带到她绷紧的下颌，前景烛影晃动投在袖面上，制造不稳定感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起隐秘的不安，提示危险已不是单纯疲劳。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 186
+  },
+  {
+    "id": "shot_0187",
+    "scene_id": "scene_011",
+    "shot_number": 13,
+    "goal": "表现她压下痛感，不愿让任何人看见脆弱。",
+    "composition": "CU，高令宁面部占画面右侧，眼尾微扬却压着痛意，唇线抿紧；左侧前景虚化为烛火，背景纯暗，留出大量黑场包围她的脸。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的忍耐近乎倔强，甚至带自我伤害意味。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 187
+  },
+  {
+    "id": "shot_0188",
+    "scene_id": "scene_011",
+    "shot_number": 14,
+    "goal": "把身体虚弱具体化为行动危机：起身时脚下发虚。",
+    "composition": "MS，侧面机位，高令宁从桌案前起身，身体位于画面左侧，右手撑桌沿；前景散乱账册形成横向阻隔，背景灯笼轻晃。她重心明显前倾，站姿失稳。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "制造突发性的眩晕与失控感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 188
+  },
+  {
+    "id": "shot_0189",
+    "scene_id": "scene_011",
+    "shot_number": 15,
+    "goal": "放大险些摔倒的瞬间，形成场内情绪高点。",
+    "composition": "CU，画面聚焦她抓紧桌角的手，指节泛白，桌案边缘与账册因撞击微移；画面下方掠过裙摆，烛火在背景拖出晃动光斑。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众瞬间揪紧，意识到她和腹中孩子都处在危险边缘。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 189
+  },
+  {
+    "id": "shot_0190",
+    "scene_id": "scene_011",
+    "shot_number": 16,
+    "goal": "给出外部世界的短暂反应，但不让旁人真正进入她的内心或改变局面。",
+    "composition": "MCU，门外一名小厮探身停在画面右侧，神色迟疑；左侧前景虚化为高令宁半失焦的背影和桌案，门框将两人隔开，形成礼法与身份的距离。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的危险被看见却无人真正能分担，孤独感上升。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈府小厮",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 190
+  },
+  {
+    "id": "shot_0191",
+    "scene_id": "scene_011",
+    "shot_number": 17,
+    "goal": "收束为她重新坐回案前继续做事，明确她宁可透支身体也不肯退。",
+    "composition": "MS，机位回到桌案正前，高令宁坐回画面中央，背脊重新挺直，却比前面更僵硬；前景账册堆叠成压迫性的屏障，背景深处灯笼孤悬，整个空间被暖光包围却不见温度。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众既敬且痛，看到她争强好胜的行动逻辑，也预感代价必将兑现。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "fade_out",
+    "dramatic_intensity": 0.55,
+    "order": 191
+  }
+]

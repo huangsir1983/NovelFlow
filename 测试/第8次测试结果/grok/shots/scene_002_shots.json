@@ -1,0 +1,203 @@
+[
+  {
+    "id": "shot_0019",
+    "scene_id": "scene_002",
+    "shot_number": 1,
+    "goal": "建立正厅压抑氛围和人物位置关系，展示陆姝仪敬茶初始状态",
+    "composition": "远景\n构图，陆姝仪跪于画面正中央低位捧茶，'我'端坐左侧主位较高位置，沈母站立右侧，背景高耸梁柱与窗棂侧逆光形成明暗切割线条引导至中央",
+    "camera_movement": "slow dolly in",
+    "framing": "WS",
+    "emotion_target": "庄重压抑，预示权力对峙",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "陆姝仪",
+      "沈母"
+    ],
+    "transition_in": "fade in",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 19
+  },
+  {
+    "id": "shot_0020",
+    "scene_id": "scene_002",
+    "shot_number": 2,
+    "goal": "通过主角主观视角观察陆姝仪，突出其柔弱却倔强的姿态",
+    "composition": "主观POV镜头（从'我'视角俯视），陆姝仪跪姿占下半画幅，双手高捧茶杯，脸部微仰眼神倔强，柔弱身姿与光影对比",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "怜悯中带不安的张力",
+    "duration_hint": "2.5s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 20
+  },
+  {
+    "id": "shot_0021",
+    "scene_id": "scene_002",
+    "shot_number": 3,
+    "goal": "展示'我'注视陆姝仪时情绪酝酿，双眼充血发红",
+    "composition": "中特写，'我'居中端坐，丹凤眼锐利注视右下方陆姝仪方向，眼神逐渐充血变红，侧逆光切割脸部突出决绝",
+    "camera_movement": "slow zoom in to eyes",
+    "framing": "MCU",
+    "emotion_target": "内心愤怒积累与重生后的决绝",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 21
+  },
+  {
+    "id": "shot_0022",
+    "scene_id": "scene_002",
+    "shot_number": 4,
+    "goal": "爆发主角挥手砸碎茶杯的反抗行动",
+    "composition": "中景，'我'上身突然动作，右手猛挥向右侧击中陆姝仪手中茶杯，瓷片开始四溅",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "突然爆发的震惊与冲突升级",
+    "duration_hint": "1.5s",
+    "characters": [
+      "我",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 22
+  },
+  {
+    "id": "shot_0023",
+    "scene_id": "scene_002",
+    "shot_number": 5,
+    "goal": "视觉强化茶杯破碎的破坏力与冲击",
+    "composition": "地面特写，茶杯碎裂瓷片四溅飞向四周，茶水泼洒，碎片在光影中闪烁",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "失控与破坏的张力",
+    "duration_hint": "1s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 23
+  },
+  {
+    "id": "shot_0024",
+    "scene_id": "scene_002",
+    "shot_number": 6,
+    "goal": "展现'我'果断捡起瓷片的自残准备",
+    "composition": "中特写，'我'迅速弯身，右手捡起地上锋利瓷片，动作毫不犹豫，脖颈位置已预示危险",
+    "camera_movement": "tilt down",
+    "framing": "MCU",
+    "emotion_target": "极端决心的紧张感",
+    "duration_hint": "2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.95,
+    "order": 24
+  },
+  {
+    "id": "shot_0025",
+    "scene_id": "scene_002",
+    "shot_number": 7,
+    "goal": "高潮自残动作，鲜血涌出外化主角反抗",
+    "composition": "脖颈特写，锋利瓷片划过皮肤，鲜血立刻喷涌染红衣领和高对比光影",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "惊骇、同情与震撼",
+    "duration_hint": "2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 25
+  },
+  {
+    "id": "shot_0026",
+    "scene_id": "scene_002",
+    "shot_number": 8,
+    "goal": "捕捉沈母被彻底震惊的反应，反转其立威意图",
+    "composition": "特写沈母脸部，脸色煞白，丹凤眼瞪大薄唇微张，表情从威严转为惊恐",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "沈母的无力与算计失败",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 26
+  },
+  {
+    "id": "shot_0027",
+    "scene_id": "scene_002",
+    "shot_number": 9,
+    "goal": "陆姝仪当场晕倒的后果展示",
+    "composition": "中景，陆姝仪身体一软缓缓倒地，姿态脆弱，画面留白强调冲击后空洞",
+    "camera_movement": "slight pan down",
+    "framing": "MS",
+    "emotion_target": "怜悯与事件连锁反应",
+    "duration_hint": "1.5s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 27
+  },
+  {
+    "id": "shot_0028",
+    "scene_id": "scene_002",
+    "shot_number": 10,
+    "goal": "沈词介入夺瓷片并抱住'我'，引入情感复杂层",
+    "composition": "动态中景，沈词从右侧冲入画面，眼疾手快夺下瓷片，随后将'我'紧紧抱入怀中",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "紧急保护与情感爆发",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 28
+  },
+  {
+    "id": "shot_0029",
+    "scene_id": "scene_002",
+    "shot_number": 11,
+    "goal": "沈词痛楚凝视伤痕的沉默情感高点，为后续关系奠基",
+    "composition": "中特写双人构图，沈词低头将'我'抱紧，目光痛楚锁定我脖颈血痕，嘴唇微动欲言又止，侧光突出他复杂眼神",
+    "camera_movement": "slow zoom in",
+    "framing": "MCU",
+    "emotion_target": "痛楚、隐忍与前世情感裂痕",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "fade out",
+    "dramatic_intensity": 0.65,
+    "order": 29
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 新婚洞房",
+  "tags": [
+    "新婚",
+    "洞房",
+    "冷淡"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "沈家洞房成亲之夜，面对沈词嘲讽及婢女干扰时",
+  "appearance_delta": {
+    "face": "清丽端庄，眼神锐利坚毅中含泪光却平静",
+    "body": "纤细苗条，姿态优雅挺拔",
+    "hair": "乌黑长发盘成精致妇人髻饰以喜饰",
+    "distinguishing_features": "不屈下巴与泪眼平静的锐利目光"
+  },
+  "costume_override": {
+    "outfit": "红色喜服汉服，凤冠霞帔，红盖头",
+    "color_palette": [
+      "大红",
+      "金色"
+    ]
+  },
+  "visual_reference": "beautiful young Chinese noblewoman in traditional red wedding hanfu with phoenix crown and flowing red sleeves, red veil partially lifted, sharp intelligent determined eyes with restrained tears, long jet black hair in intricate bridal updo with ornate hairpins, pale flawless skin, graceful slender figure, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "平静隐忍却不屈"
+}

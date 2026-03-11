@@ -1,0 +1,89 @@
+[
+  {
+    "id": "seg_0255",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0777",
+      "shot_0778",
+      "shot_0779"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜同属冲突进入前奏到入场完成的连续动作链：先建立私密秩序，再由门被撞开打破，再交代闯入者状态与空间位置。角色集合在段尾完成扩展，适合作为第一段完整建立冲突入口。",
+    "order": 255
+  },
+  {
+    "id": "seg_0256",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0780",
+      "shot_0781",
+      "shot_0782",
+      "shot_0783"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成从女主主观接收到男主发起第一轮质问的情绪启动，核心是‘她先稳住—他拿文书逼近—正式开口’。镜头重心从反应到道具再到问句，情绪单向上升，适合合并为一段。",
+    "order": 256
+  },
+  {
+    "id": "seg_0257",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0784",
+      "shot_0785",
+      "shot_0786",
+      "shot_0787"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是一轮完整攻守：女主给出明确回应，男主第一次受挫，女主进一步定义和离为清醒决断，再以婴儿细节补足场面情感复杂度。情绪由硬答到静压，内部节拍完整。",
+    "order": 257
+  },
+  {
+    "id": "seg_0258",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0788",
+      "shot_0789",
+      "shot_0790"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜围绕男主第二轮进攻展开：先夺回话语权，再通过女主POV揭示其真实恐惧，最后把‘不信你放过我’说破。情绪弧线从攻击到暴露内里，连续且集中。",
+    "order": 258
+  },
+  {
+    "id": "seg_0259",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0791",
+      "shot_0792",
+      "shot_0793",
+      "shot_0794"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段是场内张力峰值前后的完整情绪波：女主沉默承接、双人对撞拉满、男主先露退意、随后以‘前世’刺入禁忌记忆，构成明确转折点，因此作为独立段落最有效。",
+    "order": 259
+  },
+  {
+    "id": "seg_0260",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0795",
+      "shot_0796",
+      "shot_0797"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜构成‘刺入记忆—压回现实—余震停滞’的完整收束。包含唯一明确小时空跳转（前世闪回），且回到现实后人物关系进入短暂冷却，天然形成段落边界。",
+    "order": 260
+  }
+]

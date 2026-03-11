@@ -1,0 +1,456 @@
+[
+  {
+    "id": "shot_0480",
+    "scene_id": "scene_032",
+    "shot_number": 1,
+    "goal": "建立厅堂权力关系与压抑氛围，明确陆姝仪跪地受审、高令宁居高临下、旁人围观作证的局面。",
+    "composition": "门框式构图，前景左侧虚化门框与半截屏风形成压迫边界，中景中央偏下是跪在地面的陆姝仪，身体略朝画面右侧；画面右中后方高令宁立于桌案前，保持距离；左后方沈睿半隐于桌案边；右后方蒋晟立于侧，数名婢女小厮散落背景两侧，窗棂侧光切出条状阴影压在地面与人物衣摆上。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众感到礼法森严中的孤立与被审判感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪",
+      "高令宁",
+      "沈睿",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 480
+  },
+  {
+    "id": "shot_0481",
+    "scene_id": "scene_032",
+    "shot_number": 2,
+    "goal": "把叙事主视点压到高令宁身上，呈现她被迫站在道德审判中心却仍维持克制。",
+    "composition": "高令宁位于画面右三分之一，MCU，肩背笔直，脸微偏向画面左下看向跪地者；前景左侧以陆姝仪失焦的肩背和散乱发丝遮挡，背景是高厅木柱与桌案边角，侧逆光勾出高令宁清瘦轮廓，脸部一半落在冷影中。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "唤起观众对高令宁被误读时的压抑与防御感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 481
+  },
+  {
+    "id": "shot_0482",
+    "scene_id": "scene_032",
+    "shot_number": 3,
+    "goal": "进入陆姝仪的进攻姿态：以受害者形象公开控诉高令宁。",
+    "composition": "陆姝仪位于画面中央偏左，跪姿前倾，仰头看向画外右侧的高令宁；前景下方是她攥皱的裙料与撑地的手，背景高处虚化出高令宁冷白衣摆与桌案腿，形成明显高低位差。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到柔弱外表下咄咄逼人的逼宫感。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.45,
+    "order": 482
+  },
+  {
+    "id": "shot_0483",
+    "scene_id": "scene_032",
+    "shot_number": 4,
+    "goal": "强化陆姝仪第一句控诉的杀伤力，展示她泪痕、狼狈与精准指控并存。",
+    "composition": "陆姝仪正面CU，脸占画面中央，眼中含泪，鬓发微乱，目光直刺画外右侧；背景极浅景深，仅留冷色木柱与一道窗光，嘴角颤动与泪痕成为视觉中心。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众在同情与警觉之间摇摆。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 483
+  },
+  {
+    "id": "shot_0484",
+    "scene_id": "scene_032",
+    "shot_number": 5,
+    "goal": "表现高令宁面对指控不辩不扶，只以冷眼承受，建立她此刻的被动失语。",
+    "composition": "高令宁左肩轻微前置的三分之二侧面CU，位于画面右侧，目光下垂看向画外左下；前景左侧虚化一名婢女的衣袖作为‘人证’压力，背景是被切开的窗棂光影与厅柱，唇线紧抿。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造被围困、无法开口即已失分的窒息感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.41,
+    "order": 484
+  },
+  {
+    "id": "shot_0485",
+    "scene_id": "scene_032",
+    "shot_number": 6,
+    "goal": "交代‘满高府都是您的人’的现场依据，让下人成为压迫性背景而非中立见证。",
+    "composition": "从陆姝仪视线方向切至一组下人MS，二至三名婢女小厮站在画面两侧，中间留空，像为指控让出法庭般的通道；前景右下虚化出陆姝仪的肩头，背景为整齐座椅与案几，所有人低头不语。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众意识到证词从出现起就已失去公信力。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.47,
+    "order": 485
+  },
+  {
+    "id": "shot_0486",
+    "scene_id": "scene_032",
+    "shot_number": 7,
+    "goal": "回到陆姝仪，完成她对高令宁权势压人的话术封口。",
+    "composition": "陆姝仪MCU，位于画面左侧，身体仍跪但上身抬高，视线越过镜头右侧；背景右侧故意留出高令宁失焦的冷色身影，形成被点名者的压迫存在，泪光与轻颤笑意并置。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "凸显她以弱制强、先占道德高地的算计感。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 486
+  },
+  {
+    "id": "shot_0487",
+    "scene_id": "scene_032",
+    "shot_number": 8,
+    "goal": "把叙事重心转向沈睿，建立陆姝仪准备逼他公开站队前的心理悬停。",
+    "composition": "沈睿位于画面左三分之一，MCU，站在桌案旁，画面下方清晰纳入他压在桌沿上的手；背景右后方虚化可见跪地的陆姝仪轮廓，桌案边缘形成横向压迫线。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "营造决断前的克制与即将倒向某一边的危险安静。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 487
+  },
+  {
+    "id": "shot_0488",
+    "scene_id": "scene_032",
+    "shot_number": 9,
+    "goal": "通过细节交代沈睿内心挣扎，并为他随后的表态蓄力。",
+    "composition": "桌案边缘ECU，沈睿修长手指攥紧桌沿，指节泛白，木纹与阴影清晰；画面上方略带虚化的袖口是黛蓝色，光线冷硬，桌角切出锐利对角线。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到决定并非理性中立，而是压抑中的情感偏向。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 488
+  },
+  {
+    "id": "shot_0489",
+    "scene_id": "scene_032",
+    "shot_number": 10,
+    "goal": "完成陆姝仪向沈睿的公开索要背书，把场上对峙从女对女转成逼迫男人选边。",
+    "composition": "越肩镜头，从高令宁右后肩拍向陆姝仪，陆姝仪居中偏左仰视前方，眼神不再看高令宁而是越过她看向画外的沈睿；前景高令宁肩线虚化但锐利，形成被越过的屈辱感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众意识到高令宁在场却被剥夺解释权。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 489
+  },
+  {
+    "id": "shot_0490",
+    "scene_id": "scene_032",
+    "shot_number": 11,
+    "goal": "呈现高令宁在被公开越过后的第一反应，强化她的孤立位置。",
+    "composition": "高令宁CU，位于画面右侧，视线第一次微微抬起看向画外左侧沈睿，眼底有短促受刺感但面上仍冷；背景虚化中陆姝仪的浅色身影仍在低位，形成上下阶层倒置的讽刺。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "激起观众对她被背叛前一瞬的怜惜与紧绷。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.66,
+    "order": 490
+  },
+  {
+    "id": "shot_0491",
+    "scene_id": "scene_032",
+    "shot_number": 12,
+    "goal": "以最短最重的方式让沈睿公开站队。",
+    "composition": "沈睿正面CU，居中构图，背景被压暗，仅保留一条侧逆光勾出脸部轮廓；他闭眼一瞬后睁开，看向画外右侧陆姝仪，说出‘自然不是’。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造落槌般的决绝感，让观众感到局势正式倾斜。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 491
+  },
+  {
+    "id": "shot_0492",
+    "scene_id": "scene_032",
+    "shot_number": 13,
+    "goal": "承接沈睿的表态，展示陆姝仪得手后的脆弱外壳与暗中落定。",
+    "composition": "陆姝仪CU，位于画面中央偏左，泪珠将落未落，嘴角极轻地松开一线；背景中沈睿深色身影虚化成一块稳定色面，像她背后的依靠。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她终于抓住救命稻草，同时隐隐觉出操控成功的寒意。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 492
+  },
+  {
+    "id": "shot_0493",
+    "scene_id": "scene_032",
+    "shot_number": 14,
+    "goal": "给高令宁一个试图开口的机会，并立即被沈睿切断，完成关系裂痕的公开化。",
+    "composition": "限制性双视角MS，高令宁在画面右前景半侧身，刚要启唇；沈睿在左中景转向她，二人中间隔着桌案一角，形成明显物理阻断；陆姝仪低位虚化于画面下方。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到体面关系在众目睽睽下被硬生生掐断。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 493
+  },
+  {
+    "id": "shot_0494",
+    "scene_id": "scene_032",
+    "shot_number": 15,
+    "goal": "用近距离反应镜头承受沈睿‘我不想听你说话’对高令宁的伤害。",
+    "composition": "高令宁CU，面部位于画面右侧，留大量左侧空白给话语压力；她目光停滞，唇微张后收回，脸上没有失态，只有被迫吞下的话。背景是冷色虚化窗影。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到比争吵更伤人的，是不许解释。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 494
+  },
+  {
+    "id": "shot_0495",
+    "scene_id": "scene_032",
+    "shot_number": 16,
+    "goal": "让沈睿以保护者姿态承担责任，并付诸身体行动扶起陆姝仪，推动场面从口舌升级为立场行动。",
+    "composition": "中景双人，陆姝仪仍在画面下方低位，沈睿从左侧入画俯身伸手，形成明显的纵向救援线；高令宁站在右后方失焦，像被排除在这次身体接触之外。桌案与座椅边角构成冰冷几何框架。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到站队被落到实处，且这份肢体接触带有公开羞辱性。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿",
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 495
+  },
+  {
+    "id": "shot_0496",
+    "scene_id": "scene_032",
+    "shot_number": 17,
+    "goal": "突出‘扶起’这一爆发性动作的稀缺价值，使其成为场内所有人都无法忽视的宣告。",
+    "composition": "手部ECU，沈睿的手握住陆姝仪手臂与手腕，浅粉衣袖在黛蓝袖口中被托起；背景地面冷光与阴影交错，动作方向从下向上。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到保护、占有与宣示同时发生。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 496
+  },
+  {
+    "id": "shot_0497",
+    "scene_id": "scene_032",
+    "shot_number": 18,
+    "goal": "给蒋晟第一次明确反应，交代他被卷入丑闻后的苍白与被动。",
+    "composition": "蒋晟MCU，位于画面左侧，肩背绷直，脸色发白，视线落向被扶起的方向；前景右侧虚化掠过沈睿与陆姝仪起身的衣摆，形成压迫性遮挡，背景是木柱暗面。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他并非主导者，而是即将被处置的棋子。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "蒋晟",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.73,
+    "order": 497
+  },
+  {
+    "id": "shot_0498",
+    "scene_id": "scene_032",
+    "shot_number": 19,
+    "goal": "展示沈睿带陆姝仪离开的动作，形成对高令宁的最终背身。",
+    "composition": "侧向MLS，运动方向保持从左向右；沈睿在左前，扶着陆姝仪从画面左中部走向右侧出口，陆姝仪略靠近他；高令宁留在画面右后方原位未动，被桌案边缘与椅背切割；下人退让到两侧让出通道。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到局面已不可逆，高令宁被留在原地承受众目。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿",
+      "陆姝仪",
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 498
+  },
+  {
+    "id": "shot_0499",
+    "scene_id": "scene_032",
+    "shot_number": 20,
+    "goal": "在离场过程中建立沈睿与蒋晟的对位，为下一句逼婚施压准备空间。",
+    "composition": "侧面MS，沈睿与陆姝仪行至画面中央时停下，蒋晟位于前方右侧，三人形成斜线；前景左侧留一条暗柱边缘压框，背景座椅整齐，像礼法本身在观看。沈睿侧目，陆姝仪半倚着但不看蒋晟。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到一场私德丑闻被迅速转化成家族程序。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.81,
+    "order": 499
+  },
+  {
+    "id": "shot_0500",
+    "scene_id": "scene_032",
+    "shot_number": 21,
+    "goal": "用沈睿的冷声完成对蒋晟的公开命令，把补救方案钉死为‘提亲’。",
+    "composition": "沈睿CU，略低机位，人物位于画面左侧偏中，头微转向画外右侧蒋晟；陆姝仪的浅色肩头虚化在前景下方，提示他此刻发言的立场来源；背景压暗，只留木柱竖线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "营造冰冷执行、不给余地的权势压迫。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 500
+  },
+  {
+    "id": "shot_0501",
+    "scene_id": "scene_032",
+    "shot_number": 22,
+    "goal": "承接命令落到蒋晟脸上，表现其被迫接受的震动与无力。",
+    "composition": "蒋晟CU，居中偏右，瞳孔微缩，喉结轻动，嘴唇发白却无辩词；背景左侧一抹失焦的沈睿深色身影压着他，空间被挤窄。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到此举不是求情，而是判决。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "蒋晟",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 501
+  },
+  {
+    "id": "shot_0502",
+    "scene_id": "scene_032",
+    "shot_number": 23,
+    "goal": "回到高令宁，完成本场真正的冷收尾：所有人都移动过，唯独她被留在原地承担后果。",
+    "composition": "高令宁中近景，位于画面右三分之一，侧身站在空出的厅堂中，前景是被遗下的桌案角和椅背，背景通道尽头只剩离去人物模糊的背影；侧光打在她苍白面上，身后大片阴影吞没半个厅堂。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到一种比输掉争论更深的孤绝与冤屈。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 502
+  },
+  {
+    "id": "shot_0503",
+    "scene_id": "scene_032",
+    "shot_number": 24,
+    "goal": "以空厅与残余秩序作结束镜，沉淀本场从私怨升级为名节危机后的寒意。",
+    "composition": "远景，空出的厅中央保留陆姝仪方才跪过的位置，地面光斑和窗棂阴影像一道无形刑场；右侧高令宁小小站立，几乎被厅堂结构吞没，桌案座椅依旧整齐，旁人已退散。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "留下体面未乱、关系已坏的冷硬余震。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 503
+  }
+]

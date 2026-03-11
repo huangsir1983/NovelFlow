@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_05",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 误会爆发冰怒期",
+  "tags": [
+    "极端误会",
+    "嫉妒与护短",
+    "冰冷震怒",
+    "关系决裂"
+  ],
+  "scene_ids": [
+    "scene_016",
+    "scene_017"
+  ],
+  "trigger": "陆姝仪失贞疑案爆发、众人当场撞见混乱局面、沈词再次选择站在高令宁对立面时出现。此阶段是再婚后最具毁灭性的暴怒状态。",
+  "appearance_delta": {
+    "face": "面色比主设定更苍白冷厉，表情凝成冰霜，眼神锋利到近乎伤人，盛怒时眼尾发红，杀气与失控感明显。",
+    "body": "身形依旧修长，但肌肉绷紧、动作强硬，拉拽与逼近时带有强烈压制性，像随时会失去最后的理智。",
+    "hair": "发式仍维持官家子弟的整洁，但在连番奔走与争执后显出细微凌乱，强化其情绪濒临失控的边缘感。",
+    "distinguishing_features": "最显著的是寒意逼人的神情与狠厉言辞并行，像把所有旧怨、护短与恐惧都压成一句致命威胁。"
+  },
+  "costume_override": {
+    "outfit": "赴高府时的深色正式长袍或外氅，服饰仍端方贵重，但在夜间灯火和混乱场景中显得更沉黑压人。",
+    "color_palette": [
+      "玄黑",
+      "深灰",
+      "黛青"
+    ]
+  },
+  "visual_reference": "ancient Chinese aristocratic official in a furious confrontation, pale jade-like face, icy dark eyes, red-rimmed eye corners, tall slim body with rigid aggressive posture, black hair tied neatly but slightly disordered, dark black and deep grey hanfu, night interior with lantern light, tense courtroom-like family hall, cinematic rage and heartbreak",
+  "emotional_tone": "冰怒、偏执、失控、决裂前夜"
+}

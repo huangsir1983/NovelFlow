@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dl_0000",
+    "scene_id": "scene_021",
+    "character_id": "char_沈睿",
+    "line": "你究竟是我沈家妇，还是高家女？",
+    "subtext": "他在质问她为何始终把娘家置于夫妻关系之前，真实情绪是愤怒、受伤与被排斥后的逼问，希望她承认自己应当依赖并站在他这一边。",
+    "emotion_intensity": 0.9,
+    "order": 0
+  },
+  {
+    "id": "dl_0001",
+    "scene_id": "scene_021",
+    "character_id": "char_沈睿",
+    "line": "你这般防我，可曾把我当作你的夫婿？",
+    "subtext": "表面是责问，实际是在控诉她从未真正信任和接纳自己，也流露出他对夫妻亲密与认同的强烈渴望。",
+    "emotion_intensity": 0.93,
+    "order": 1
+  },
+  {
+    "id": "dl_0002",
+    "scene_id": "scene_023",
+    "character_id": "char_沈睿",
+    "line": "怎么，又想从我身上得到什么？",
+    "subtext": "他把她的示好解读为别有用心，真实意图是拒绝她的修补，同时用讥讽掩饰自己对陆姝仪之死的怨恨与对她的不信任。",
+    "emotion_intensity": 0.88,
+    "order": 2
+  }
+]

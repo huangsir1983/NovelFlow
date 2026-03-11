@@ -1,0 +1,49 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-28岁",
+  "appearance": {
+    "face": "面如冠玉，琥珀色眼眸，眼神冷如冰湖，后期常带病态的苍白与眼下乌青，标志性表情是隐忍的咬肌颤动",
+    "body": "长身玉立，文臣的清瘦挺拔，后期因身心折磨略显羸弱",
+    "hair": "一丝不苟的玉冠束发，后期偶有散乱碎发垂落",
+    "distinguishing_features": "清冷禁欲的外表与后期卑微乞求的神态形成强烈反差"
+  },
+  "costume": {
+    "typical_outfit": "考究的文臣常服或锦缎长袍，衣袖宽大，腰系玉带",
+    "color_palette": [
+      "玄色",
+      "藏青色"
+    ]
+  },
+  "casting_tags": [
+    "高岭之花",
+    "追妻火葬场",
+    "偏执狂",
+    "病娇权臣"
+  ],
+  "visual_reference": "1boy, 22 years old, ancient chinese handsome official, dark blue scholar robes, jade-like face, cold amber eyes, slightly pale and desperate expression, tall and upright, cinematic lighting, masterpiece --ar 9:16",
+  "personality": "端方持重、嘴硬心软、极度自负。习惯掌控一切，不善表达真实情感，失去后会陷入病态的偏执与卑微。",
+  "desire": "在弥补对陆姝仪的愧疚与留住高令宁之间寻找平衡，后期唯一欲望是让高令宁重新爱自己。",
+  "flaw": "傲慢与沟通障碍，理所当然地享受妻子的付出，用最伤人的话掩饰真心。",
+  "arc": "高高在上的掌控者（前世/重生初） → 信仰崩塌的失控者（和离时） → 卑微乞求的附庸者（结局）",
+  "scene_presence": "提亲被拒、马球会吃醋、洞房夜放狠话、产房外崩溃、江南雪夜爬床",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "从施压者沦为卑微的祈求者",
+      "function": "对照（展示男权社会下既得利益者的崩塌）"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "责任",
+      "dynamic": "从庇护纵容到彻底厌弃",
+      "function": "阻碍（制造夫妻裂痕的核心矛盾）"
+    }
+  ]
+}

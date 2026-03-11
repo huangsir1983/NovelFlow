@@ -1,0 +1,334 @@
+[
+  {
+    "id": "shot_0543",
+    "scene_id": "scene_037",
+    "shot_number": 1,
+    "goal": "建立婚房的封闭压迫感与亲密空间属性，预示这场洞房不是柔情而是权力角力。",
+    "composition": "FS，床榻位于画面右后方，半垂的红色帷帐形成层层遮挡；左前景是一支近乎燃尽的红烛虚焦，右侧窗棂漏入冷月光，与烛火在床边交错。洗漱器具与净水盆放在左后景，屋内留有大面积阴影与空白，人物仅作帷帐后的模糊轮廓。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、不安、被礼法包裹的危险感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 543
+  },
+  {
+    "id": "shot_0544",
+    "scene_id": "scene_037",
+    "shot_number": 2,
+    "goal": "切入女主限制性主观，突出手腕丝带被解开的动作，建立身体控制的开端。",
+    "composition": "CU，高令宁手腕占画面中央偏右，红丝带从腕间滑落；沈词的手从左侧入画，指节冷白有力。前景是被褥的褶皱，背景烛火化成暖色光斑，画面边缘保留帷帐暗影压迫。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "失去掌控、被迫进入关系的屈辱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 544
+  },
+  {
+    "id": "shot_0545",
+    "scene_id": "scene_037",
+    "shot_number": 3,
+    "goal": "展示女主的感知视角中，自己被从下往上托起，身体失衡意味着权力失衡。",
+    "composition": "MCU，近似高令宁主观仰视，沈词上半身位于画面中央偏左，肩线与下颌形成压下来的斜线；高令宁散乱的发丝虚焦占据右前景边缘。背景是红帐与冷色窗光的交界，沈词面部一半在烛光中，一半没入阴影。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "眩晕、压迫、被侵入私人边界",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 545
+  },
+  {
+    "id": "shot_0546",
+    "scene_id": "scene_037",
+    "shot_number": 4,
+    "goal": "将耳边挑衅与咬耳动作具体化，使羞辱由语言转为身体层面的侵犯。",
+    "composition": "ECU，高令宁耳侧与颈线占据画面右侧三分之二，沈词的唇与侧脸从左侧切入，触碰停在耳垂与鬓发之间；她颈侧极细淡痕在烛火下若隐若现。背景全虚，仅有一抹红与黑的色块对撞。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、羞辱、亲密被武器化的不适",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.6,
+    "order": 546
+  },
+  {
+    "id": "shot_0547",
+    "scene_id": "scene_037",
+    "shot_number": 5,
+    "goal": "承接对白“这张嘴不是挺厉害吗”，将沈词的嘲弄与夺权意图落到脸上。",
+    "composition": "CU，沈词侧脸占画面左侧，视线斜压向右下方；右前景虚焦是高令宁的面颊与发丝，形成被逼视的主观关系。背景中一支红烛在他耳后形成危险的暖色轮廓光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "被压制时听见言语刀锋的寒意",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 547
+  },
+  {
+    "id": "shot_0548",
+    "scene_id": "scene_037",
+    "shot_number": 6,
+    "goal": "切到女主反应，强调她脸颊潮红但眼神空无，情感抽离开始显形。",
+    "composition": "CU，高令宁脸位于画面右侧，眼睛看向左上却无法聚焦，泪意覆在睫毛边；左前景是沈词肩背的深色虚影遮住部分光。背景只有贴近她脸侧的被褥与暗红帷帐，压缩空间。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心被抽离后的空茫与屈辱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 548
+  },
+  {
+    "id": "shot_0549",
+    "scene_id": "scene_037",
+    "shot_number": 7,
+    "goal": "呈现女主试图反抗的动作爆点，带出她并未真正屈服。",
+    "composition": "MS，床榻横向铺开占据画面下半部，高令宁在右侧半坐半仰，猛地抬手向左挥去；沈词位于左侧前景，身形前压。帷帐从上方斜压下来，构成牢笼感。动作线从右向左，与前述人物方位保持一致。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "突然反击的锋利与短暂希望",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 549
+  },
+  {
+    "id": "shot_0550",
+    "scene_id": "scene_037",
+    "shot_number": 8,
+    "goal": "展示反抗立刻被化解，沈词重新掌控她的双手，权力结构被钉死。",
+    "composition": "CU，高令宁被举高的双腕占画面中央，沈词一只手牢牢扣住她两腕压向头顶；画面下缘仅留出她紧绷的下半张脸与微张的唇。背景是床头木栏与帐幔阴影，形成垂直压线。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "无力、窒息、被剥夺主动权",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.8,
+    "order": 550
+  },
+  {
+    "id": "shot_0551",
+    "scene_id": "scene_037",
+    "shot_number": 9,
+    "goal": "以压制姿态承接“夫人，这一世在床榻之上，你还是这么没用啊”，突出羞辱的刻意性与旧恨感。",
+    "composition": "MCU，沈词俯身占据上半画面，肩背形成盖顶式构图；高令宁只露出下方局部额头、眼睛和被迫仰起的下颌。两人之间几乎无留白，背景的烛火被他的身形挡去大半，只余边缘逆光。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被围堵、被羞辱、恶意近在咫尺",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 551
+  },
+  {
+    "id": "shot_0552",
+    "scene_id": "scene_037",
+    "shot_number": 10,
+    "goal": "给女主一句低声回骂的落点，显示她即使受制也仍保有锋刃。",
+    "composition": "ECU，高令宁下半张脸与湿润睫毛占画面中央，嘴唇轻颤后挤出“畜生”；画面上沿仍有双腕虚焦压在头顶，提醒她的处境。背景完全虚化成暖冷交叠的色块。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "恨意、倔强、在屈辱中保持自我",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.78,
+    "order": 552
+  },
+  {
+    "id": "shot_0553",
+    "scene_id": "scene_037",
+    "shot_number": 11,
+    "goal": "承接威胁性对白，强化沈词借羞耻手段逼迫服从的残酷。",
+    "composition": "CU，沈词正面微侧，位于画面中央偏左，眼尾隐隐发红却神色更冷；右后景虚焦可见门的方向与外间暗影，呼应“让他们进来再换一次水”的威胁。前景是高令宁的一缕散发横在画面下缘。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "羞耻威胁带来的恐惧与厌憎",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 553
+  },
+  {
+    "id": "shot_0554",
+    "scene_id": "scene_037",
+    "shot_number": 12,
+    "goal": "表现女主在情绪顶点后突然抽离，不再与他纠缠，完成态度反转。",
+    "composition": "CU，高令宁面部平放于画面中央偏右，眼睛缓慢闭上，泪沿眼尾滑向鬓边；左侧前景是沈词压下来的模糊肩线，但她不再看他。背景中月光冷冷切过帐幔边缘，形成一条清晰冷线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心死般的撤退、冷漠、把自己从现场抽离",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.7,
+    "order": 554
+  },
+  {
+    "id": "shot_0555",
+    "scene_id": "scene_037",
+    "shot_number": 13,
+    "goal": "用一句“再快点吧，我困了”完成关系中的反制：她不再给他情绪价值，反而削弱他的施压成效。",
+    "composition": "MCU，高令宁仍闭眼，位于画面右侧，脸朝左侧吐出这句话；沈词停顿在左前景，只见下颌与肩线微僵。两人之间出现一小块黑暗留白，成为新的心理距离。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷刺、疏离、让对方施暴失去回响的反压制",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 555
+  },
+  {
+    "id": "shot_0556",
+    "scene_id": "scene_037",
+    "shot_number": 14,
+    "goal": "给沈词一个被反噬的反应镜头，显示他短暂失去节奏，敌意背后并非纯粹快意。",
+    "composition": "CU，沈词脸位于画面左侧三分之一，视线落向右下方的她，神情有一瞬停滞；背景烛火轻晃，使他的轮廓不稳。右侧大面积虚空与暗帐吞没画面，放大他未说出口的复杂。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "僵住、受挫、隐约窥见他控制欲下的裂缝",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 556
+  },
+  {
+    "id": "shot_0557",
+    "scene_id": "scene_037",
+    "shot_number": 15,
+    "goal": "以克制的省略推进到事后，避免直白呈现过程，同时保留女主主观的疲惫与断片感。",
+    "composition": "ECU，红烛烛泪沿烛身缓慢淌下，火焰在画面中央偏左微微摇晃；后景极虚，可见床帐影子由剧烈晃动归于静止。冷月光从右后方切入，压低烛火的暖意。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "耗尽、时间被压缩后的沉闷余波",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 557
+  },
+  {
+    "id": "shot_0558",
+    "scene_id": "scene_037",
+    "shot_number": 16,
+    "goal": "转入事后状态，显示高令宁的疲惫与彻底的情感抽离。",
+    "composition": "MS，高令宁侧卧于画面右侧，发丝散在枕上，脸朝外侧空处；被褥拉至肩头，只露出苍白肩颈线。左后景是半掀的帐幔与床沿，空间终于稍稍打开，却更显冷清。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "虚脱、麻木、无人安放的孤冷",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 558
+  },
+  {
+    "id": "shot_0559",
+    "scene_id": "scene_037",
+    "shot_number": 17,
+    "goal": "以净水与布巾的细节呈现沈词事后清理，动作比语言更克制，露出一丝分寸。",
+    "composition": "CU，净水盆位于画面左下，沈词的手拧起湿布在中央，水珠落回盆中泛起细纹；右侧前景是床边垂落的被角与一截高令宁的手指虚焦。背景旧木桌面与烛影沉稳，色调由红转灰青。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "余波中的克制、令人不安的温柔痕迹",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 559
+  },
+  {
+    "id": "shot_0560",
+    "scene_id": "scene_037",
+    "shot_number": 18,
+    "goal": "在不煽情的前提下给出沈词顾惜年幼的分寸，作为场景冷收，埋下关系复杂性。",
+    "composition": "MCU，沈词坐于床边左侧，背对镜头微侧身，动作轻地替高令宁掖好被角；高令宁在右侧只露出闭着眼的半张脸，毫无回应。前景是一层半透明帷帐，形成隔膜；背景红烛已矮，月光占了更多空间。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "复杂、悬而未决、恨意中掺入更危险的克制",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 560
+  }
+]

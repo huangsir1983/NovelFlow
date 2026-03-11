@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 哭诉自尽",
+  "tags": [
+    "跪姿",
+    "哭诉",
+    "崩溃"
+  ],
+  "scene_ids": [
+    "scene_014"
+  ],
+  "trigger": "高家厢房白天，发现陷害后跪地哭诉要自尽",
+  "appearance_delta": {
+    "face": "梨花带雨泪流满面，哽咽绝望表情",
+    "body": "跪地纤弱身姿情绪激动颤抖",
+    "hair": "柔顺垂肩略凌乱",
+    "distinguishing_features": "跪地哭诉崩溃中仍带倔强"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙",
+    "color_palette": [
+      "粉红",
+      "浅白"
+    ]
+  },
+  "visual_reference": "陆姝仪温婉清丽的脸庞哭得梨花带雨泪水横流，神色绝望楚楚可怜，跪在面前哽咽自尽求饶，纤弱身姿颤抖，穿着粉色襦裙，高家厢房白天背景，光影紧张凄美",
+  "visual_prompt_negative": "冷漠表情、站立姿态、艳丽妆容、现代服装、平静氛围",
+  "emotional_tone": "绝望哭诉"
+}

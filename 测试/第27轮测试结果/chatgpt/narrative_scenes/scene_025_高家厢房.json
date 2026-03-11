@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_025",
+  "order": 24,
+  "heading": "INT. 高家厢房 - dusk",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪声称临嫁前想见我，却在高家厢房里被发现与蒋晟同样昏迷且衣冠不整，局面瞬间失控。",
+  "key_dialogue": "面若冰霜。",
+  "emotional_peak": "被栽赃前的窒息预感成真",
+  "tension_score": 0.94,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "厢房门",
+    "衣衫",
+    "请客传话"
+  ],
+  "dramatic_purpose": "引爆本篇最大误会事件，为难产与和离做直接铺垫。",
+  "visual_reference": "傍晚高家厢房门被推开，屋内一男一女昏迷倒地、衣冠散乱，门口众人脸色骤变，怀孕女主站在前景震惊回头，与面色冰冷的沈词对视，古风悬疑冲突画面",
+  "visual_prompt_negative": "避免低俗猎奇、避免露骨失贞画面、避免现代室内布局、避免群像拥挤遮挡",
+  "source_text_start": "我沉默。",
+  "source_text_end": "我转头去看沈词，他也在看我。\n面若冰霜。"
+}

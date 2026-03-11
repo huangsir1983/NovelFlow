@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0258",
+    "shot_id": "shot_0258",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown only through her injured lower body in close-up, her freshly bandaged ankle and suspended tense toes hovering off the bed edge, stiffness and lingering pain visible in the foot posture, old medical wrappings scattered on the right lower corner of the couch, a blurred medicine bowl pressed into the left foreground edge, warm amber lamplight slicing down from above and slightly to the side, revealing the texture of the bandage cloth and the rigid swelling of the ankle, old wooden bed interior in muted gray-blue and brown tones, low-saturation warm-cool contrast, cinematic realism, highly detailed, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm amber lamplight from upper side, soft side light with cool shadow contrast, intimate interior chiaroscuro"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, plastic, electric lights, modern furniture, contemporary clothing, text, watermark, logo, low quality, blurry face, overexposed, extra limbs, deformed anatomy, cartoon, anime"
+  },
+  {
+    "id": "sp_0259",
+    "shot_id": "shot_0259",
+    "prompt_text": "A tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, positioned in a medium close-up on the right third of the frame, leaning slightly forward toward someone off-screen to the left, head lowered, avoiding direct eye contact, guilt and hesitation restrained in his expression, the ear and cheek lightly flushed by firelight, a small blurred shoulder line of A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura in the left foreground as a subjective visual block, old wooden wall and a side wall lamp behind him creating a simple oppressive space, low-saturation amber and gray-blue contrast, static composition, cinematic realism, shallow depth of field, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "warm candle and lamplight from the side, low-saturation amber highlights with cool dark wooden shadows, restrained interior contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric bulbs, modern hairstyle, contemporary fabric, text, watermark, logo, low quality, oversaturated colors, blurry, distorted hands, deformed anatomy, cartoon, anime"
+  },
+  {
+    "id": "sp_0260",
+    "shot_id": "shot_0260",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up slightly left of center, shoulder and neck held straight but subtly leaning from injury, her gaze passing slightly beyond the man in front of her instead of landing on him, emotional withdrawal and clear restraint in her face, the right foreground partially blocked by the blurred shoulder and back of A tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, warm light cutting across her face from above and the side to shape strong light-shadow planes, old interior with muted wood and low-saturation cool shadows, subjective and compressed cinematic framing, highly detailed, realistic historical drama",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "upper side warm lamplight with cool shadow falloff, low-saturation warm-cool collision, intimate chiaroscuro on the face"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, contemporary makeup, modern accessories, text, watermark, logo, low quality, blurry, malformed anatomy, extra fingers, cartoon, anime"
+  },
+  {
+    "id": "sp_0261",
+    "shot_id": "shot_0261",
+    "prompt_text": "Subjective over-the-shoulder view from the injured noblewoman's perspective, with the blurred side silhouette of A tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting along the left foreground edge as an obstruction, looking toward a bed in the right background where A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic curls weakly on the couch with slightly disordered robes, while A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed stands beside her holding a medicine bowl with both hands, his body leaning toward her, the center of the frame deliberately left as an empty stretch of floor to create emotional distance, old wooden chamber, muted bed curtains, low-saturation gray-blue, dark wood brown, and amber lamplight, warm-cool contrast, slight dolly feeling, cinematic realism, layered depth, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation amber lamplight against cool dim interior shadows, side-back practical light, layered occlusion and atmospheric depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, hospital equipment, electric lamps, modern bedding, text, watermark, logo, low quality, oversharpened, distorted perspective, deformed anatomy, cartoon, anime"
+  },
+  {
+    "id": "sp_0262",
+    "shot_id": "shot_0262",
+    "prompt_text": "A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic, shown in medium close-up slightly left of center, half-reclining against bed pillows and curled inward with a pale weakened face, while from the right foreground enters the hand, sleeve, and medicine bowl of A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, the bowl sharing the visual focus with her face, tiny warm highlights catching the bowl rim and her cheekbone, old bed curtains and weathered wooden background softly blurred in low saturation, oppressive intimacy, cinematic realism, shallow depth of field, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft warm lamplight with subtle amber highlights, cool desaturated shadows in the background, intimate bedside contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, stainless steel, plastic cup, electric light, contemporary clothing, text, watermark, logo, low quality, blurry, extra limbs, deformed hands, cartoon, anime"
+  },
+  {
+    "id": "sp_0263",
+    "shot_id": "shot_0263",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, shown in medium close-up on the right side of the frame, body and gaze fully angled toward the lower left where the bed is, holding a medicine bowl at chest height, his expression restrained yet completely focused, the lower left foreground retaining only the top of the hair and bedding of A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic as a visual cue, no visual space left for looking elsewhere, a cool dark patch near the wall lamp behind him forming contrast against the warm interior light, old wooden chamber, low-saturation warm-cool collision, emotionally biased composition, cinematic realism, shallow depth of field, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "warm amber lamplight on subject with a cool dark wall-lamp contrast zone behind, low-saturation interior chiaroscuro"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, modern medicine containers, contemporary fashion, text, watermark, logo, low quality, blur, deformed anatomy, extra fingers, cartoon, anime"
+  }
+]

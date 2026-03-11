@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_024",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "INT. 诊治休息处门前 - DAY",
+    "location": "诊治休息处门前",
+    "time_of_day": "day",
+    "description": "同一地点持续，但人物关系重组。陆姝仪从内室出来，病中步态虚浮，门口空间因她的闯入变得更拥挤。室内阴影笼住她，门外天光照在高令宁一侧，形成强烈对照。",
+    "action": "陆姝仪扶着门框下榻而来，脸色惨白，脚步不稳，忽然在众人面前跪下，裙摆铺开。她仰头哀求，自称与“兄长”并无男女之情，只求留在沈家，哪怕做奴婢宠物也可。高令宁看着她，神色越发僵冷。沈词几乎立刻上前，将陆姝仪从地上护起揽入怀里，挡在她身前，语气强硬地表态无人能赶她走。高令宁的视线停在两人相贴的身影上，眼底最后一点温度彻底熄灭。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "我与兄长并无男女之情，只求暂留沈家，哪怕做奴婢、做宠物也可以。",
+        "subtext": "她以极端示弱巩固自己不可被驱逐的位置，也将道德压力转移给高令宁。"
+      },
+      {
+        "character": "沈词",
+        "line": "有我在，没人能赶你走。",
+        "subtext": "他公开选边站，优先保护陆姝仪而非顾及高令宁的感受。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "门框",
+      "裙摆",
+      "病塌",
+      "药碗"
+    ],
+    "dramatic_purpose": "完成情感与立场的公开揭示，把沈词的偏护推至明面，成为高令宁决断的直接触发点。",
+    "tension_score": 0.9,
+    "order": 24
+  }
+}

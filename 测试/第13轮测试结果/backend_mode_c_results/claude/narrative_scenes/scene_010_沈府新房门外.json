@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府新房门外 - 夜",
+  "location": "沈府新房门外",
+  "time_of_day": "night",
+  "characters_present": [
+    "沈词",
+    "陆姝仪婢女"
+  ],
+  "core_event": "陆姝仪婢女来报，说陆姝仪心口痛",
+  "key_dialogue": "你去吧，也不必回来了",
+  "emotional_peak": "冷漠与讽刺",
+  "tension_score": 0.6,
+  "estimated_duration_s": 90,
+  "key_props": [],
+  "dramatic_purpose": "展现陆姝仪的干扰",
+  "source_text_start": "陆姝仪的婢女来叩房门时。沈词正为我清理。",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

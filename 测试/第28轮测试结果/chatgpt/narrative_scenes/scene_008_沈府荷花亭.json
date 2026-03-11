@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "FLASHBACK. 荷花亭 - dusk",
+  "location": "沈府荷花亭",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪在荷花亭里用温柔而残忍的话羞辱我，宣告我作为妻子所得的爱不过是她漏下的一点。",
+  "key_dialogue": "「你辛辛苦苦追求的，我轻而易举便得到了。」",
+  "emotional_peak": "我第一次被精准戳穿婚姻中的卑微与失败。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "团扇",
+    "栏杆",
+    "荷花"
+  ],
+  "dramatic_purpose": "单独呈现女主心底最深的情感羞辱来源。",
+  "visual_reference": "傍晚荷花亭，水面微波，柔美女子含笑说出刻薄话，另一位主母僵立不语，落日余光与亭中阴影形成强烈反差，情绪压抑锋利",
+  "visual_prompt_negative": "避免姐妹和谐感，避免艳俗宫斗风，避免过度哭喊",
+  "source_text_start": "就像那个下午，荷花亭内，陆姝仪笑吟吟同我说的：",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

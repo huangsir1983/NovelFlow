@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 会馆诊室/客房 - NIGHT",
+  "location": "马球会后临时歇脚处",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为高令宁正骨，另一侧陆姝仪犯胃病，沈词温声哄药。高令宁离开前再次与沈词交锋，坚持必须先安排陆姝仪出嫁；陆姝仪跪求留下，沈词当众护她。",
+  "key_dialogue": "有我在，没人能赶你走。",
+  "emotional_peak": "陆姝仪跪地哭求、沈词揽她入怀，高令宁旁观如再历前世羞辱。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "药碗",
+    "塌榻",
+    "衣角",
+    "扇子"
+  ],
+  "dramatic_purpose": "把三角关系彻底摆到明面，促使女主后续态度由争变倦。",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了",
+  "source_text_end": "「有些事，是强求不来的。」「恰如你是他的妻子」"
+}

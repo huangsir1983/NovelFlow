@@ -1,0 +1,262 @@
+[
+  {
+    "id": "shot_0056",
+    "scene_id": "scene_007",
+    "shot_number": 1,
+    "goal": "建立厅堂内的礼制压迫空间与人物对峙格局，交代高令宁刚从外奔走归来、沈词已在室内等候的状态。",
+    "composition": "FS，厅堂与廊下纵深同框。前景右侧半虚焦为案几，上有散落的求情名帖、书信与外出斗篷；中景左侧门口高令宁入画，衣裙下摆沾尘，身形略逆光；中景右后方沈词立于厅堂阴影内，身形挺直不动。门框与柱子将二人切割在画面两端，中间留出空白距离形成对峙。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、疏离、关系已裂的冷感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 56
+  },
+  {
+    "id": "shot_0057",
+    "scene_id": "scene_007",
+    "shot_number": 2,
+    "goal": "进入女主主观体感，强调她此刻的狼狈与必须隐藏的求助痕迹。",
+    "composition": "MS偏近景，女主从胸以下入画，画面左下是沾灰裙角与膝部褶皱痕迹，中央是她攥紧的名帖和信件，右侧边缘掠过案几角与斗篷。背景虚化为冷硬厅堂地砖，斜射天光打在纸面上。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "窘迫、自持、急于遮掩",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 57
+  },
+  {
+    "id": "shot_0058",
+    "scene_id": "scene_007",
+    "shot_number": 3,
+    "goal": "表现高令宁避开沈词视线并试图把信件收起，建立她主动封闭的姿态。",
+    "composition": "MCU，高令宁位于画面左三分之一，微侧身，视线向下避开镜头轴线；她将手中的信件往身后收。前景右侧虚焦是一根厅柱，形成遮挡；背景深处保留沈词模糊的暗色身影但不清晰，像压力源。",
+    "camera_movement": "steadicam",
+    "framing": "MCU",
+    "emotion_target": "倔强、防御、拒绝求助",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.39,
+    "order": 58
+  },
+  {
+    "id": "shot_0059",
+    "scene_id": "scene_007",
+    "shot_number": 4,
+    "goal": "从女主视角观察沈词动了，传达他从克制到介入的第一步。",
+    "composition": "MS，女主肩背虚焦占据画面左前景边缘，形成过肩主观；中景中右位置沈词自阴影中上前一步，深青衣袍与后方暗面几乎融为一体，只在脸部与肩线被窗侧冷光勾出轮廓。背景为屏风与厅柱，压缩空间。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "逼近、审视、隐忍怒意开始成形",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.47,
+    "order": 59
+  },
+  {
+    "id": "shot_0060",
+    "scene_id": "scene_007",
+    "shot_number": 5,
+    "goal": "明确沈词截住她的去路，完成空间封锁。",
+    "composition": "MLS，走位沿180度轴线保持高令宁在左、沈词在右。廊下与厅堂交界处形成窄口，高令宁欲侧身通过，沈词一步横切到她前方。前景地面斜光形成一道亮带，二人分别踩在亮带两侧，像无形界线。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "窒息、被堵截、关系中的控制欲显形",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 60
+  },
+  {
+    "id": "shot_0061",
+    "scene_id": "scene_007",
+    "shot_number": 6,
+    "goal": "用道具特写把‘她向外求助’这件事具体化，并让沈词的怒意有落点。",
+    "composition": "CU，画面中央是高令宁藏在身后的手，纸张边角被攥出折痕；画面上方右侧伸入沈词衣袖下摆与手的阴影，但未真正触碰。背景是失焦的黛青裙褶与木地板纹理。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "秘密败露前的绷紧感",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 61
+  },
+  {
+    "id": "shot_0062",
+    "scene_id": "scene_007",
+    "shot_number": 7,
+    "goal": "表现沈词低头扫过名帖，意识到她去外头求人，情绪由质问前的确认转向受伤。",
+    "composition": "MCU，沈词位于画面右侧，头微低，眼线斜切向画外左下的名帖；前景左下虚焦保留纸张边角，形成视线指向。背景为深色屏风与一束冷光，脸部半明半暗，强调克制下的裂缝。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "受伤、审判感、压着火的冷",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.66,
+    "order": 62
+  },
+  {
+    "id": "shot_0063",
+    "scene_id": "scene_007",
+    "shot_number": 8,
+    "goal": "以台词第一击正面点出夫妻立场撕裂的核心矛盾。",
+    "composition": "CU，沈词正面略偏侧，位于画面右三分之一，视线压向画外左侧高令宁。背景黑暗留白较多，仅一线门窗冷光切过颧骨与唇线。构图让他像从礼法阴影里发问。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压迫、诘问、被拒后的刺痛",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.73,
+    "order": 63
+  },
+  {
+    "id": "shot_0064",
+    "scene_id": "scene_007",
+    "shot_number": 9,
+    "goal": "接住台词后的反应，不让场面落入机械正反打，突出高令宁不解释的硬抗。",
+    "composition": "CU，高令宁位于画面左侧，脸半转开，不看沈词；嘴唇抿紧，眼尾微红但压住。前景下方是她抬起的肩线与后藏的手形成紧绷三角，背景为门外泛白天光，像退路却不可退。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "倔、忍、被戳中却不肯示弱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 64
+  },
+  {
+    "id": "shot_0065",
+    "scene_id": "scene_007",
+    "shot_number": 10,
+    "goal": "强化她把东西往身后藏的动作，说明她不是无言，而是明确拒绝共享处境。",
+    "composition": "MCU侧面，高令宁在画面中央偏左，背脊挺直，双手彻底将书信与名帖收到身后；画面右侧近处是沈词衣襟和胸前轮廓，形成压迫性的前景遮挡。两人距离被压缩得很近，却没有接触。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "对抗升级、距离侵入、情感封闭",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.77,
+    "order": 65
+  },
+  {
+    "id": "shot_0066",
+    "scene_id": "scene_007",
+    "shot_number": 11,
+    "goal": "展示沈词因她的防备而真正失控边缘，进入第二句质问前的停顿。",
+    "composition": "MCU过肩反打，前景左侧为高令宁模糊的发髻与肩线，沈词在中景中间略前倾，喉结起伏，眼神从她的手移回她的脸。背景竖向门框与柱线收紧在他身后，像被规训逼住的人。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "受挫、偏执、控制即将崩口",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.83,
+    "order": 66
+  },
+  {
+    "id": "shot_0067",
+    "scene_id": "scene_007",
+    "shot_number": 12,
+    "goal": "打出第二句台词，明示他真正介意的是被排除在婚姻共同体之外。",
+    "composition": "CU，沈词更近，略俯角压向镜头左侧，眼底情绪比上一句更直白。背景完全虚化，只余一片冷暗色，唇线和眼神成为唯一信息点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、逼问、情感索取的失控",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.89,
+    "order": 67
+  },
+  {
+    "id": "shot_0068",
+    "scene_id": "scene_007",
+    "shot_number": 13,
+    "goal": "用高令宁的沉默反击完成这轮对撞，她不低头即是回答。",
+    "composition": "ECU，聚焦高令宁的眼与微绷的鼻翼，视线终于抬起，却不是服软而是冷硬迎上。画面边缘可见一缕贴颊碎发和颈侧淡痕一闪而过，背景完全化开。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "冰冷反刺、危险、决不退让",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 68
+  },
+  {
+    "id": "shot_0069",
+    "scene_id": "scene_007",
+    "shot_number": 14,
+    "goal": "把两人的情绪顶点重新放回同一空间，确认这不是一时口角，而是婚姻裂缝的具象化。",
+    "composition": "MLS，仍守同侧轴线，高令宁在左、沈词在右，二人近距离对峙却被一张案几的角和散落纸张切开。前景低处是掉出半截的名帖，背景门窗斜光像冷刀一样切过地面。两人都静止，空气像被绷住。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "僵死、无解、裂痕成形",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.8,
+    "order": 69
+  }
+]

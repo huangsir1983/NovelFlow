@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "EXT. 江南宅院 - 日",
+  "location": "江南宅院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "昭昭"
+  ],
+  "core_event": "带昭昭去江南过清净日子，三年后",
+  "key_dialogue": "终于过了段清净日子。",
+  "emotional_peak": "昭昭蹦跳背唐诗",
+  "tension_score": 0.3,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "信件",
+    "典籍"
+  ],
+  "dramatic_purpose": "过渡平静新生活",
+  "source_text_start": "我索性带着昭昭去了江南。",
+  "source_text_end": "一晃三年过去。昭昭已经能蹦能跳，唐诗三百首倒背如流。"
+}

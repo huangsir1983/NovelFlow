@@ -1,0 +1,54 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人",
+    "婆母"
+  ],
+  "role": "supporting",
+  "age_range": "40-60",
+  "appearance": {
+    "face": "高门主母相貌，保养得宜，神态端庄却透着算计与威严",
+    "body": "体态端正略丰，举止矜贵",
+    "hair": "盘高髻，饰以金玉簪钗",
+    "distinguishing_features": "传统世家主母气场强，笑意常不达眼底"
+  },
+  "costume": {
+    "typical_outfit": "织金绣纹深色长裙、披帛、成套金玉首饰",
+    "color_palette": [
+      "绛紫",
+      "墨绿",
+      "金色"
+    ]
+  },
+  "casting_tags": [
+    "世家主母",
+    "强势婆母",
+    "门第至上"
+  ],
+  "visual_reference": "aristocratic ancient chinese matron, elegant but stern face, luxurious dark hanfu, elaborate hair ornaments, noble family matriarch, realistic",
+  "personality": "重门第、讲体面、擅安排人事",
+  "desire": "维持沈家体面与血脉延续，让家中一切服从家族利益",
+  "flaw": "冷酷算计，轻视儿媳真实感受",
+  "arc": "从操控婚姻安排者到在女儿归属问题上被高家压制退让",
+  "scene_presence": "前世敬茶风波、婚配安排、孙女争夺等关键背景中出现。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "从试图拿捏到被反制，彼此长久不睦",
+      "function": "宅斗压迫来源"
+    },
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "对其婚姻与陆姝仪婚事有强干预",
+      "function": "家族权力结构体现"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姨甥/利用关系",
+      "dynamic": "既顾其体面又将其作为家族婚配筹码",
+      "function": "触发多重婚姻安排"
+    }
+  ]
+}

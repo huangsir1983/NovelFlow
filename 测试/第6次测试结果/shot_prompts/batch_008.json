@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0042",
+    "shot_id": "shot_0021",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown only through his hand holding a traditional calligraphy brush. The brush tip finishes the final stroke of an official memorial on xuan paper, a slight press and lift, dark ink pooling heavier at the tail, the gesture precise and irreversible. Extreme close-up of brush, ink, and paper only, formal memorial layout visible but not fully legible, minimalist frame with no distractions. Low-saturation warm-cool contrast, pale morning daylight pressing across the paper with a faint amber interior undertone, soft side light and crisp micro-shadows on ink texture. Cinematic historical realism, macro lens detail, tactile paper fibers, restrained Song-dynasty drama aesthetic, ultra-detailed, quiet finality.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical realism, macro close-up",
+      "lighting": "low-saturation warm-cool contrast, pale morning side light with subtle amber indoor fill, minimalist high-contrast paper texture"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, readable text, watermark, logo, subtitles, low quality, blurry, oversaturated colors, plastic texture, ballpoint pen, fountain pen, modern paper, modern desk, modern clothing, extra fingers, distorted hand"
+  },
+  {
+    "id": "sp_0043",
+    "shot_id": "shot_0022",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. She is seen from a side-rear close-up, exhaling slowly as her shoulder line sinks almost imperceptibly, half of her side face visible, restraint breaking only in a tiny release of tension, controlled vulnerability in her neck and jaw. Behind her, a writing desk and her father dissolve into soft blurred blocks of cool gray-blue and muted amber, suggesting unresolved danger rather than safety. Low-saturation warm-cool contrast, natural morning light mixed with dim interior warmth, gentle side backlight tracing her shoulder and neck, shallow depth of field, intimate female-subjective perspective. Cinematic historical drama realism, refined fabric texture, subtle film grain, emotionally restrained composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, shallow depth of field, historical realism",
+      "lighting": "low-saturation warm-cool contrast, soft morning sidelight with muted amber interior haze, delicate back edge light on shoulder and neck"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitles, low quality, blurry face, exaggerated emotion, oversaturated colors, modern hairstyle, modern makeup, modern jewelry, plastic skin, deformed anatomy"
+  },
+  {
+    "id": "sp_0044",
+    "shot_id": "shot_0023",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, seated at the right side of a central writing desk with his head lowered toward the memorial. A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands on the left slightly withdrawn by half a step. Medium long shot, same axis as the opening but closer, the desk centered, neither touches the other, their distance becoming the emotional subject. Foreground doorframe and background folding screen create double framing like ritual law and fate enclosing them, morning light still pinned across the desk, the hall heavy and still. Low-saturation warm-cool contrast in gray-green, ink black, old wood brown, and faint amber, static composition, restrained suspense after a decisive act. Cinematic historical realism, architectural depth, layered blocking, subtle film grain, elegant Song-dynasty drama aesthetic.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical realism, layered composition",
+      "lighting": "low-saturation warm-cool contrast, pale morning light across the desk, cool interior shadows, faint amber undertone, frame-cutting side light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitles, low quality, oversaturated colors, modern furniture, modern architecture, electric lights, casual pose, plastic texture, deformed hands, extra limbs"
+  },
+  {
+    "id": "sp_0045",
+    "shot_id": "shot_0061",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed. He stands rigidly in the left-middle ground facing the residence gate, posture straight and controlled, waiting with an unnerving stillness. Wide shot of a narrow passage beside a mansion gate, the half-open gate occupying the right third of the frame, vertical door panels and frame pressing down the composition; stone steps and corridor on the left, a slant of portico shadow cutting across the ground, a little blurred stone step in the foreground acting as a barrier. The sun-bleached outer courtyard in the background collides with the cold darkness around him, establishing a harsh, oppressive threshold. Low-saturation warm-cool contrast, stark daylight outside versus cool shadow under the eaves, restrained aristocratic palette of gray-blue, dark wood, and faded stone. Cinematic historical realism, static frame, architectural pressure, suspenseful female-subjective atmosphere, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical realism, architectural wide shot",
+      "lighting": "low-saturation warm-cool contrast, hard sunlit courtyard against cool portico shadow, strong directional natural light with deep doorway shade"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitles, low quality, oversaturated colors, modern building materials, electric lamps, asphalt, sneakers, modern haircut, plastic fabric, crowd, vehicles"
+  },
+  {
+    "id": "sp_0046",
+    "shot_id": "shot_0062",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed. He is framed in a medium shot slightly left of center, beneath oppressive headroom, with dark doorway shadow behind him and a blurred half-door at the right foreground as if seen from Gao Lingning's obstructed gaze. His expression is controlled but spent: faint blue shadows beneath the eyes, lips pressed tight, robe immaculate yet body held in the stiffness of someone who has waited too long, cold persistence and ill intent held under perfect manners. The threshold space remains tight and airless, with sun-whitened courtyard glare beyond and heavy shadow around the gate. Low-saturation warm-cool contrast, cool shadow shaping his face with a hard strip of daylight edging the silhouette, female-subjective tension, shallow depth of field. Cinematic historical drama realism, restrained emotional pressure, subtle film grain, highly detailed fabric and facial texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical realism, shallow depth of field",
+      "lighting": "low-saturation warm-cool contrast, cool doorway shadow with hard natural daylight spill from courtyard, restrained high-contrast facial modeling"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitles, low quality, blurry, oversaturated colors, modern door hardware, electric lighting, modern clothing, fantasy armor, plastic skin, deformed anatomy"
+  },
+  {
+    "id": "sp_0047",
+    "shot_id": "shot_0063",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, shown through a close-up of his lowered hand at his side. Thin pressure marks cut across the fingertips and knuckles, the dark textured sleeve covering most of the back of the hand, the fingers held too still in deliberate self-control, suggesting restrained violence turned inward. Background reduced to a blurred boundary of stone steps and hard sunlight, where the marks are picked out by sharp light. Low-saturation warm-cool contrast, hard natural sidelight carving the skin texture against cool shadow, terse and dangerous visual detail. Cinematic historical realism, close tactile detail, subtle film grain, psychological tension, clean composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical realism, close-up detail",
+      "lighting": "low-saturation warm-cool contrast, hard sidelight from courtyard sun against cool shadow, sharp highlight on pressure marks and knuckles"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitles, low quality, blurry, oversaturated colors, modern accessories, wristwatch, modern sleeve design, plastic hand, extra fingers, deformed anatomy, blood gore"
+  }
+]

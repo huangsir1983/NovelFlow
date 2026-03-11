@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_005",
+  "name": "马球场无人的角落",
+  "type": "exterior",
+  "era_style": "明代权贵私家园林",
+  "description": "马球场边缘的僻静处，几棵高大的古树遮蔽了阳光，形成一片阴影区。角落里有一张略显斑驳的石凳，四周有假山石点缀，微风拂过树叶，与远处的喧闹形成对比。",
+  "visual_reference": "A quiet, deserted corner of an ancient Chinese manor garden, under the shade of large old trees. A weathered stone bench, decorative scholar's rocks, gentle breeze rustling the leaves. Contrast between the shady quiet foreground and the bright bustling background. Cinematic, moody, 8k.",
+  "atmosphere": "压抑、隐秘、危险逼近",
+  "color_palette": [
+    "#2F4F4F",
+    "#708090",
+    "#556B2F"
+  ],
+  "lighting": "斑驳的树影，大面积的阴影区，只有少量高光透过树叶缝隙洒在石凳上，营造压迫感。",
+  "key_features": [
+    "斑驳的石凳",
+    "浓密的树荫",
+    "假山石"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "伪装被拆穿的惊恐与被言语羞辱的愤怒。"
+}

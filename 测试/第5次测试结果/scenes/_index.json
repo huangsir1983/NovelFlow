@@ -1,0 +1,501 @@
+{
+  "count": 55,
+  "updated_at": "2026-03-07T23:38:47",
+  "entries": [
+    {
+      "id": "scene_000",
+      "filename": "scene_000.json",
+      "heading": "INT. 家中内室 - 日",
+      "location": "家中内室",
+      "tension_score": 0.62,
+      "order": 0,
+      "source_chapter": "ch_001"
+    },
+    {
+      "id": "scene_001",
+      "filename": "scene_001.json",
+      "heading": "INT. 家中内室 - 日",
+      "location": "家中内室",
+      "tension_score": 0.45,
+      "order": 1,
+      "source_chapter": "ch_001"
+    },
+    {
+      "id": "scene_002",
+      "filename": "scene_002.json",
+      "heading": "EXT. 柳枝下小径 - 日",
+      "location": "柳枝下小径",
+      "tension_score": 0.18,
+      "order": 2,
+      "source_chapter": "ch_001"
+    },
+    {
+      "id": "scene_003",
+      "filename": "scene_003.json",
+      "heading": "INT. 婚房/家中室内 - 夜",
+      "location": "婚房",
+      "tension_score": 0.76,
+      "order": 3,
+      "source_chapter": "ch_001"
+    },
+    {
+      "id": "scene_004",
+      "filename": "scene_004.json",
+      "heading": "INT. 家中内室 - 日",
+      "location": "家中内室",
+      "tension_score": 0.84,
+      "order": 4,
+      "source_chapter": "ch_001"
+    },
+    {
+      "id": "scene_005",
+      "filename": "scene_005.json",
+      "heading": "EXT. 陆家府邸 - DAY",
+      "location": "陆家府邸外",
+      "tension_score": 0.72,
+      "order": 5,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_006",
+      "filename": "scene_006.json",
+      "heading": "INT. 沈家正厅/内宅会客处 - DAY",
+      "location": "沈家内宅正厅",
+      "tension_score": 0.68,
+      "order": 6,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_007",
+      "filename": "scene_007.json",
+      "heading": "INT. 沈家正厅/内宅会客处 - DAY",
+      "location": "沈家内宅正厅",
+      "tension_score": 0.96,
+      "order": 7,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_008",
+      "filename": "scene_008.json",
+      "heading": "INT. 沈家正厅/内宅会客处 - DAY",
+      "location": "沈家内宅正厅",
+      "tension_score": 0.74,
+      "order": 8,
+      "source_chapter": "ch_002"
+    },
+    {
+      "id": "scene_009",
+      "filename": "scene_009.json",
+      "heading": "INT. 高府内室 - NIGHT",
+      "location": "高府内室",
+      "tension_score": 0.42,
+      "order": 9,
+      "source_chapter": "ch_004"
+    },
+    {
+      "id": "scene_010",
+      "filename": "scene_010.json",
+      "heading": "INT. 高府书房 - DAY",
+      "location": "高府书房",
+      "tension_score": 0.56,
+      "order": 10,
+      "source_chapter": "ch_004"
+    },
+    {
+      "id": "scene_011",
+      "filename": "scene_011.json",
+      "heading": "INT. 高府门廊/前院过道 - DAY",
+      "location": "高府门廊",
+      "tension_score": 0.22,
+      "order": 11,
+      "source_chapter": "ch_004"
+    },
+    {
+      "id": "scene_012",
+      "filename": "scene_012.json",
+      "heading": "EXT. 高府门前 - DAY",
+      "location": "高府门前",
+      "tension_score": 0.76,
+      "order": 12,
+      "source_chapter": "ch_004"
+    },
+    {
+      "id": "scene_013",
+      "filename": "scene_013.json",
+      "heading": "EXT. 高府门前 - CONTINUOUS DAY",
+      "location": "高府门前",
+      "tension_score": 0.88,
+      "order": 13,
+      "source_chapter": "ch_004"
+    },
+    {
+      "id": "scene_014",
+      "filename": "scene_014.json",
+      "heading": "INT. 高府闺房 - DAY",
+      "location": "高府闺房",
+      "tension_score": 0.58,
+      "order": 14,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_015",
+      "filename": "scene_015.json",
+      "heading": "INT. 高府正厅 - DAY",
+      "location": "高府正厅",
+      "tension_score": 0.32,
+      "order": 15,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_016",
+      "filename": "scene_016.json",
+      "heading": "EXT. 马球会场 - DAY",
+      "location": "马球会场",
+      "tension_score": 0.28,
+      "order": 16,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_017",
+      "filename": "scene_017.json",
+      "heading": "EXT. 柳池旁 - DAY",
+      "location": "马球会柳池旁",
+      "tension_score": 0.72,
+      "order": 17,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_018",
+      "filename": "scene_018.json",
+      "heading": "EXT. 柳池通道 - DAY",
+      "location": "柳池旁通道",
+      "tension_score": 0.79,
+      "order": 18,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_019",
+      "filename": "scene_019.json",
+      "heading": "EXT. 马球会无人角落 - DAY",
+      "location": "马球会偏僻角落",
+      "tension_score": 0.46,
+      "order": 19,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_020",
+      "filename": "scene_020.json",
+      "heading": "EXT. 马球会无人角落 - DAY",
+      "location": "马球会偏僻角落",
+      "tension_score": 0.91,
+      "order": 20,
+      "source_chapter": "ch_005"
+    },
+    {
+      "id": "scene_021",
+      "filename": "scene_021.json",
+      "heading": "INT. 诊治休息处 - DAY",
+      "location": "诊治休息处",
+      "tension_score": 0.35,
+      "order": 21,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_022",
+      "filename": "scene_022.json",
+      "heading": "INT. 塌前 - DAY",
+      "location": "病塌前",
+      "tension_score": 0.58,
+      "order": 22,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_023",
+      "filename": "scene_023.json",
+      "heading": "INT. 诊治休息处门前 - DAY",
+      "location": "诊治休息处门前",
+      "tension_score": 0.78,
+      "order": 23,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_024",
+      "filename": "scene_024.json",
+      "heading": "INT. 诊治休息处门前 - DAY",
+      "location": "诊治休息处门前",
+      "tension_score": 0.9,
+      "order": 24,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_025",
+      "filename": "scene_025.json",
+      "heading": "INT. 沈家府邸 - NIGHT",
+      "location": "前世沈家府邸",
+      "tension_score": 0.7,
+      "order": 25,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_026",
+      "filename": "scene_026.json",
+      "heading": "INT. 沈家府邸 - NIGHT",
+      "location": "前世沈家府邸",
+      "tension_score": 0.95,
+      "order": 26,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_027",
+      "filename": "scene_027.json",
+      "heading": "INT. 产房 - NIGHT",
+      "location": "前世产房",
+      "tension_score": 0.98,
+      "order": 27,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_028",
+      "filename": "scene_028.json",
+      "heading": "INT. 诊治休息处门前 - DAY",
+      "location": "诊治休息处门前",
+      "tension_score": 0.72,
+      "order": 28,
+      "source_chapter": "ch_006"
+    },
+    {
+      "id": "scene_029",
+      "filename": "scene_029.json",
+      "heading": "INT. 高家正厅 - DAY",
+      "location": "高家正厅",
+      "tension_score": 0.48,
+      "order": 29,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_030",
+      "filename": "scene_030.json",
+      "heading": "INT. 成亲礼堂 - DAY",
+      "location": "成亲礼堂",
+      "tension_score": 0.58,
+      "order": 30,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_031",
+      "filename": "scene_031.json",
+      "heading": "INT. 沈家新房 - NIGHT",
+      "location": "沈家新房/洞房",
+      "tension_score": 0.86,
+      "order": 31,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_032",
+      "filename": "scene_032.json",
+      "heading": "INT. 沈家新房 - NIGHT",
+      "location": "沈家新房/洞房门前后",
+      "tension_score": 0.91,
+      "order": 32,
+      "source_chapter": "ch_007"
+    },
+    {
+      "id": "scene_033",
+      "filename": "scene_033.json",
+      "heading": "INT. 沈府 - 议事厅/正堂 - DAY",
+      "location": "沈府议事厅/正堂",
+      "tension_score": 0.57,
+      "order": 33,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_034",
+      "filename": "scene_034.json",
+      "heading": "INT. 沈府 - 陆姝仪房中 - DAY",
+      "location": "沈府陆姝仪房中",
+      "tension_score": 0.66,
+      "order": 34,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_035",
+      "filename": "scene_035.json",
+      "heading": "INT. 沈府 - 高令宁房中/内室 - DAY",
+      "location": "沈府高令宁房中",
+      "tension_score": 0.74,
+      "order": 35,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_036",
+      "filename": "scene_036.json",
+      "heading": "INT. 沈府 - 高令宁房中 - DAY",
+      "location": "沈府高令宁房中",
+      "tension_score": 0.63,
+      "order": 36,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_037",
+      "filename": "scene_037.json",
+      "heading": "INT. 沈府 - 高令宁房中 - DAY",
+      "location": "沈府高令宁房中",
+      "tension_score": 0.82,
+      "order": 37,
+      "source_chapter": "ch_008"
+    },
+    {
+      "id": "scene_038",
+      "filename": "scene_038.json",
+      "heading": "INT. 梦境中的沈家内室 - 夜",
+      "location": "梦境中的沈家内室",
+      "tension_score": 0.72,
+      "order": 38,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_039",
+      "filename": "scene_039.json",
+      "heading": "INT. 高家卧房 - 晨",
+      "location": "高家卧房",
+      "tension_score": 0.38,
+      "order": 39,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_040",
+      "filename": "scene_040.json",
+      "heading": "INT. 高家前厅 - 日",
+      "location": "高家前厅",
+      "tension_score": 0.74,
+      "order": 40,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_041",
+      "filename": "scene_041.json",
+      "heading": "INT. 高家前厅 - 日",
+      "location": "高家前厅",
+      "tension_score": 0.86,
+      "order": 41,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_042",
+      "filename": "scene_042.json",
+      "heading": "INT. 高家后院/高令宁住处 - 日",
+      "location": "高家后院/高令宁住处",
+      "tension_score": 0.95,
+      "order": 42,
+      "source_chapter": "ch_010"
+    },
+    {
+      "id": "scene_043",
+      "filename": "scene_043.json",
+      "heading": "INT. 高令宁居所 - DAY",
+      "location": "高令宁居所",
+      "tension_score": 0.42,
+      "order": 43,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_044",
+      "filename": "scene_044.json",
+      "heading": "INT. 昭昭满月宴现场 - DAY",
+      "location": "昭昭满月宴现场",
+      "tension_score": 0.63,
+      "order": 44,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_045",
+      "filename": "scene_045.json",
+      "heading": "INT. 昭昭满月宴现场 - DAY",
+      "location": "昭昭满月宴现场",
+      "tension_score": 0.91,
+      "order": 45,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_046",
+      "filename": "scene_046.json",
+      "heading": "INT. 昭昭满月宴现场 - DAY",
+      "location": "昭昭满月宴现场",
+      "tension_score": 0.86,
+      "order": 46,
+      "source_chapter": "ch_011"
+    },
+    {
+      "id": "scene_047",
+      "filename": "scene_047.json",
+      "heading": "EXT. 京城城门外官道 - DAY",
+      "location": "京城外通往江南的官道",
+      "tension_score": 0.25,
+      "order": 47,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_048",
+      "filename": "scene_048.json",
+      "heading": "INT. 江南住处 - DAY",
+      "location": "江南宅院内室与书案",
+      "tension_score": 0.35,
+      "order": 48,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_049",
+      "filename": "scene_049.json",
+      "heading": "INT. 江南住处卧房 - NIGHT",
+      "location": "江南宅院卧房",
+      "tension_score": 0.65,
+      "order": 49,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_050",
+      "filename": "scene_050.json",
+      "heading": "INT. 江南住处书房 - DAY",
+      "location": "江南宅院书房",
+      "tension_score": 0.58,
+      "order": 50,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_051",
+      "filename": "scene_051.json",
+      "heading": "EXT. 江南宅院庭院 - DAY",
+      "location": "江南住处院中雪地",
+      "tension_score": 0.78,
+      "order": 51,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_052",
+      "filename": "scene_052.json",
+      "heading": "EXT. 江南宅院庭院 - DAY",
+      "location": "江南住处院中廊下与雪地交界",
+      "tension_score": 0.82,
+      "order": 52,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_053",
+      "filename": "scene_053.json",
+      "heading": "INT. 江南住处卧房 - NIGHT",
+      "location": "江南宅院卧房",
+      "tension_score": 0.86,
+      "order": 53,
+      "source_chapter": "ch_012"
+    },
+    {
+      "id": "scene_054",
+      "filename": "scene_054.json",
+      "heading": "INT. 江南住处卧房 - NIGHT",
+      "location": "江南宅院卧房",
+      "tension_score": 0.93,
+      "order": 54,
+      "source_chapter": "ch_012"
+    }
+  ]
+}

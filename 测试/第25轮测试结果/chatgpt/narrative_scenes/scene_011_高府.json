@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高家前厅与厢房 - 傍晚",
+  "location": "高府",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "小厮"
+  ],
+  "core_event": "我借养胎回娘家，沈词日日探望；陆姝仪借出嫁前探望进府后失踪，最终被发现与蒋晟一同昏迷在厢房，局势骤变。",
+  "key_dialogue": "面若冰霜。",
+  "emotional_peak": "我在厢房门口看到失控现场，与沈词四目相对，灾难感骤起。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "包裹",
+    "书信传话",
+    "厢房门",
+    "昏迷现场"
+  ],
+  "dramatic_purpose": "制造重大误会事件，推动故事进入最激烈冲突。",
+  "visual_reference": "高府傍晚搜人，灯火杂乱，厢房中两人衣冠不整昏迷，众人震惊。",
+  "visual_prompt_negative": "不要露骨描写，不要现代豪宅，不要侦探刑侦设备，不要搞笑表演。",
+  "source_text_start": "伯爵娘子又登门了。沈词再不行动，陆",
+  "source_text_end": "心里一惊。我转头去看沈词，他也在看我。面若冰霜。"
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "shot_0615",
+    "scene_id": "scene_040",
+    "shot_number": 1,
+    "goal": "建立厢房的封闭压迫感，并以门缝切入的灯光预告将被揭开的丑闻现场。",
+    "composition": "画面居中偏左是一扇紧闭木门，门板占据大半画面；右下角前景是一只提灯，暖黄光从门缝斜切进灰青昏暗的室内地面，形成一道锐利光带；背景仅见模糊床脚与屏风边缘，空间狭窄逼仄。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "压抑、预感不祥",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 615
+  },
+  {
+    "id": "shot_0616",
+    "scene_id": "scene_040",
+    "shot_number": 2,
+    "goal": "跟随搜查者动作打开空间信息，让‘发现’成为具象事件而非结果通报。",
+    "composition": "镜头位于门外斜后方，左侧前景是下人推门的手臂和提灯，门向内推开；画面中央被门框切出厢房内部，凌乱床榻与歪斜屏风逐渐显露，地上散落衣物，暖灯光侵入冷暗室内。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "紧张、屏息等待",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 616
+  },
+  {
+    "id": "shot_0617",
+    "scene_id": "scene_040",
+    "shot_number": 3,
+    "goal": "在限制性视角内首次揭示屋内冲击性画面，确立事件严重性。",
+    "composition": "镜头保持门口视点，门框作为天然遮挡包裹画面；画面中部偏右是床榻边昏迷倒卧的陆姝仪，月白与淡粉衣料凌乱散开；中部偏左近地是蒋晟侧倒，衣冠松散；前景下方是被灯光照亮的衣带与地面，背景屏风歪斜压住空间深度。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "震惊、难堪、视觉打击",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 617
+  },
+  {
+    "id": "shot_0618",
+    "scene_id": "scene_040",
+    "shot_number": 4,
+    "goal": "用细节证据强化‘失控停留’与不堪现场的真实性，避免全景信息过于抽象。",
+    "composition": "低机位对准地面与床沿，前景是一截揉皱披帛和散开的衣带，右侧边缘可见陆姝仪垂落的手，左上方虚焦里是蒋晟散乱衣襟；灯光在布料褶皱上形成暖冷交界。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "不适、证据压脸般的窒息感",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 618
+  },
+  {
+    "id": "shot_0619",
+    "scene_id": "scene_040",
+    "shot_number": 5,
+    "goal": "切回高令宁的主观冲击反应，确认这场发现对她的直接打击。",
+    "composition": "高令宁站在门外右侧，门框在左侧形成硬性切割；她占画面右三分之一，肩背僵直，脸色在提灯暖光与走廊冷暗之间显得发白；背景虚焦可见屋内混乱轮廓，但不完全清晰，维持主观限制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "猝然受创、呼吸被夺走",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 619
+  },
+  {
+    "id": "shot_0620",
+    "scene_id": "scene_040",
+    "shot_number": 6,
+    "goal": "捕捉高令宁身体反应，将心理震荡落实为生理停顿。",
+    "composition": "极近距离拍高令宁下半张脸与颈侧，唇色发白微张，喉间轻滞；画面左侧保留一条虚焦灯光边缘，右侧大面积冷色留白，强化失血般空白感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "窒息、失控前的强行克制",
+    "duration_hint": "1-1.5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 620
+  },
+  {
+    "id": "shot_0621",
+    "scene_id": "scene_040",
+    "shot_number": 7,
+    "goal": "以主观转头动作建立她寻找责任与答案的瞬间，将矛头从现场转向人。",
+    "composition": "从高令宁肩后拍出，前景右侧是她模糊的鬓发与肩线，镜头迅速扫过门边；画面左侧灯笼暖光掠过，最终停在站于门框另一侧的沈睿身上，门框将二人空间分割开。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "惊惧转为审视与指控",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.91,
+    "order": 621
+  },
+  {
+    "id": "shot_0622",
+    "scene_id": "scene_040",
+    "shot_number": 8,
+    "goal": "确立沈睿的冷硬状态与复杂立场，让观众意识到他并非单纯围观者。",
+    "composition": "沈睿立于画面中央偏左，半身被门框和阴影切割，面部只被侧逆的暖灯勾出轮廓，眼神直指镜头方向；背景是幽暗走廊木壁，无多余信息，突出其冰冷克制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "寒意、被看穿与被审判的压力",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.89,
+    "order": 622
+  },
+  {
+    "id": "shot_0623",
+    "scene_id": "scene_040",
+    "shot_number": 9,
+    "goal": "反打高令宁的目光，形成无声对峙的第一轮。",
+    "composition": "高令宁位于画面中央偏右，背后是厢房门口漏出的暖光，脸部却处于偏冷阴影中；前景左侧保留一小块虚焦门框作为对位，眼神向左外侧看去，眉骨微绷。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "羞辱中的自持、怀疑与防御",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 623
+  },
+  {
+    "id": "shot_0624",
+    "scene_id": "scene_040",
+    "shot_number": 10,
+    "goal": "回到沈睿反应，避免机械乒乓切换，通过停顿表现他眼神里的复杂未言。",
+    "composition": "沈睿仍在原轴线位置，镜头更近；画面上半部是他冷白而紧绷的眼，下半部略被门影切住，嘴角线条克制；背景暖光更弱，只剩冷暗墙面与门边高反差。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冰冷、压抑、暗含判断",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 624
+  },
+  {
+    "id": "shot_0625",
+    "scene_id": "scene_040",
+    "shot_number": 11,
+    "goal": "用反应镜头补足现场群体氛围，让无声惊呼成为压迫环境的一部分。",
+    "composition": "门外下人挤在画面左后方，因礼制压低声量却神色惊惶；前景右侧是提灯下微颤的手，中央留出一道通向屋内的空隙，观众并不完全看到躺倒人物，只感到众人视线都被吸向内部。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "失控蔓延、丑闻即将外溢",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 625
+  },
+  {
+    "id": "shot_0626",
+    "scene_id": "scene_040",
+    "shot_number": 12,
+    "goal": "将高令宁、沈睿与屋内证据纳入同一视觉关系，完成本场危机揭示的构图落点。",
+    "composition": "从门内斜向外拍，前景下方虚焦是陆姝仪与蒋晟散乱衣物和身体轮廓；中景左侧门口站着高令宁，身形僵直；中景右侧稍后是沈睿，面色冷硬；门框与屏风边缘把两人切成彼此对峙又共同被现场绑住的关系，暖灯光只照亮门口，房内深处仍陷于冷暗。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "宿命般的误解锁死、风暴将起",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.95,
+    "order": 626
+  }
+]

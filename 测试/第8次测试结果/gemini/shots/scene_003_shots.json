@@ -1,0 +1,150 @@
+[
+  {
+    "id": "shot_0027",
+    "scene_id": "scene_003",
+    "shot_number": 1,
+    "goal": "建立前世美好记忆的时空坐标，交代人物所处环境与事件起因（沈词拾起发钗）。",
+    "composition": "画面带有高调柔光与过曝的暖金滤镜。前景是随风摇曳的翠绿柳枝（虚焦），透过柳枝的缝隙，沈词（身着冷月白与墨蓝交织的常服）在画面中心偏右的草地上弯腰。阳光在他身上形成一圈梦幻的轮廓光。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "营造一种失真、易碎的梦幻感，唤起观众对美好往昔的怀旧与隐隐的不安。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.5,
+    "order": 27
+  },
+  {
+    "id": "shot_0028",
+    "scene_id": "scene_003",
+    "shot_number": 2,
+    "goal": "展示沈词对待失物的动作细节，铺垫其表面温和实则极度克制、甚至带有洁癖的性格底色。",
+    "composition": "平角镜头。沈词位于画面左三分之一处，他直起身，左手两指轻轻捏着发钗。右手从袖口中抽出一块折叠得一丝不苟的洁白丝帕。背景是斑驳的金色树影。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "传递一种“守礼”的表象，但通过其不愿直接触碰物品的细节，暗示其内心的疏离。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.2,
+    "order": 28
+  },
+  {
+    "id": "shot_0029",
+    "scene_id": "scene_003",
+    "shot_number": 3,
+    "goal": "放大丝帕这一核心道具，视觉化呈现男女主之间不可逾越的物理与心理隔阂。",
+    "composition": "特写沈词的手部。骨节分明、苍白修长的手指将白丝帕在掌心摊开，随后将发钗轻轻放置于丝帕正中。丝帕的纯白无暇与发钗的华丽形成对比，画面边缘带有轻微的镜头畸变（暗示记忆的不可靠）。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "强化“隔阂感”，让观众在女主的回忆视角中捕捉到当年未曾察觉的冷漠。",
+    "duration_hint": "2.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 29
+  },
+  {
+    "id": "shot_0030",
+    "scene_id": "scene_003",
+    "shot_number": 4,
+    "goal": "呈现沈词“递发钗”的动作，建立两人在场景中的空间关系与视线交流（正打）。",
+    "composition": "过高姑娘右肩（OTS）。沈词位于画面中心，微微颔首，眼神低垂不与高姑娘直视，双手捧着垫有发钗的丝帕递向前景（高姑娘方向）。他的表情温和但下颌线紧绷，透出禁欲感。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "展现前世女主视角下完美的“如意郎君”形象，引发视觉上的欺骗性愉悦。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 30
+  },
+  {
+    "id": "shot_0031",
+    "scene_id": "scene_003",
+    "shot_number": 5,
+    "goal": "展示年轻高姑娘的反应，与现实中她冷漠讥诮的模样形成极其强烈的反差（反打）。",
+    "composition": "过沈词左肩（OTS）。年轻的高姑娘位于画面右三分之一处，暖金色的光打在她脸上，面颊微红。她微微仰头看着沈词，眼神清澈，满是毫无防备的欣喜与倾慕。背景的柳叶在过曝的光线中融化为光斑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "通过展现女主曾经的纯真与深情，让观众对她后续的悲惨遭遇产生强烈的心痛与共情。",
+    "duration_hint": "3s",
+    "characters": [
+      "高姑娘",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 31
+  },
+  {
+    "id": "shot_0032",
+    "scene_id": "scene_003",
+    "shot_number": 6,
+    "goal": "聚焦两人交接发钗的瞬间，通过微动作揭示双方情感的不对等。",
+    "composition": "极特写两人的手。高姑娘微微颤抖的手指伸入画面，小心翼翼地捏住发钗的边缘。就在她指尖即将触碰到丝帕底下的沈词掌心时，沈词的手极其平稳、不着痕迹地向后撤了半寸，完美避开了任何肌肤相亲的可能。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "将张力推向高潮，用极其微小的避让动作刺破“美梦”的表象，传递出令人窒息的讽刺感。",
+    "duration_hint": "2.5s",
+    "characters": [
+      "沈词",
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 32
+  },
+  {
+    "id": "shot_0033",
+    "scene_id": "scene_003",
+    "shot_number": 7,
+    "goal": "撕破记忆的伪装，展露沈词潜藏的傲慢与冷薄，完成情感落差的构建。",
+    "composition": "沈词面部特写。他依然保持着微微颔首的姿态，但眼底闪过一丝居高临下的漠然与微不可察的厌弃。暖金色的滤镜开始出现扭曲的暗红边缘（暗示噩梦的底色）。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到背脊发凉，彻底理解女主复仇的心理动机。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 33
+  },
+  {
+    "id": "shot_0034",
+    "scene_id": "scene_003",
+    "shot_number": 8,
+    "goal": "结束闪回，将观众从压抑的记忆中抽离，为切回现实冷色调场景做视觉准备。",
+    "composition": "巨大的柳树下，两人相对而立的剪影。高姑娘低头看着手中的发钗，沈词已转身准备离去。画面四周的暖金色光芒迅速膨胀、过曝，吞噬掉两人的身影，留白面积急剧扩大。",
+    "camera_movement": "crane",
+    "framing": "MLS",
+    "emotion_target": "表现记忆的消散与美好幻象的破灭，带来一种怅然若失的空虚感。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.4,
+    "order": 34
+  }
+]

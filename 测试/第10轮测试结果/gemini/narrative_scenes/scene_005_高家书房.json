@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 高家书房 - DAY",
+  "location": "高家书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "高令宁劝说父亲写下辞官奏折，规避前世抄家流放的命运。",
+  "key_dialogue": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了。",
+  "emotional_peak": "看着父亲写完奏折，高令宁长舒一口气，卸下重担。",
+  "tension_score": 0.4,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "笔墨纸砚",
+    "辞官奏折",
+    "官印"
+  ],
+  "dramatic_purpose": "展现女主重生后的实际行动，改变家族悲剧命运。"
+}

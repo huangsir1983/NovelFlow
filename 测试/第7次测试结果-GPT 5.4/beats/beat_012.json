@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_012",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_042",
+      "scene_043"
+    ]
+  },
+  "data": {
+    "title": "在污蔑与早产中失去宿命之子",
+    "description": "陆姝仪当众哭诉被害失贞，沈词站在她那边，甚至威胁女主；混乱中女主急怒攻心早产难产。生死关头沈词却选择保她，最终孩子落地却并非众人预期的睿儿，而是女儿昭昭，所有既定盘算瞬间崩塌。",
+    "beat_type": "revelation",
+    "save_the_cat": "All Is Lost",
+    "emotional_value": -0.9,
+    "dramatic_intensity": -0.9,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 12
+  }
+}

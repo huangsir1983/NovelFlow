@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_029",
+  "order": 28,
+  "heading": "INT. 沈家卧房 - day",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈母请来的太医"
+  ],
+  "core_event": "开春后我如前世一样有孕且被诊出男胎，沈词在喜悦中又试探我是否会借孩子赖在沈府。",
+  "key_dialogue": "「成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。」",
+  "emotional_peak": "怀上孩子并未带来和缓，反而让契约婚姻被再次确认。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "虎头帽",
+    "脉枕",
+    "诊方"
+  ],
+  "dramatic_purpose": "让开篇场景的前提在时间线上落实，进入“生子后和离”的倒计时。",
+  "visual_reference": "卧房里太医刚退，女子坐在窗前绣虎头帽，男子从门边走近抱住她又被她躲开，温存与疏离并置",
+  "visual_prompt_negative": "避免母爱温馨过满，避免现代医疗器械，避免浮夸表演",
+  "source_text_start": "开春之时，我有孕了。",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

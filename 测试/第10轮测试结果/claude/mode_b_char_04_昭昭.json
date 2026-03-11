@@ -1,0 +1,48 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "女儿",
+    "小千金"
+  ],
+  "role": "supporting",
+  "age_range": "0-3岁",
+  "appearance": {
+    "face": "粉雕玉琢,漂亮可爱",
+    "body": "幼童身形",
+    "hair": "扎小辫",
+    "distinguishing_features": "活泼灵动的大眼睛"
+  },
+  "costume": {
+    "typical_outfit": "童装襦裙",
+    "color_palette": [
+      "粉色",
+      "红色",
+      "黄色"
+    ]
+  },
+  "casting_tags": [
+    "可爱",
+    "聪慧",
+    "活泼"
+  ],
+  "visual_reference": "adorable Chinese toddler girl, bright intelligent eyes, chubby cheeks, colorful children's hanfu, playful expression",
+  "personality": "聪明活泼,喜欢花朵珠宝也爱读书",
+  "desire": "父母关爱",
+  "flaw": "年幼无知",
+  "arc": "新生命带来的希望与救赎",
+  "scene_presence": "后期重要角色,象征新生",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "被疼爱",
+      "function": "母亲的寄托"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "父亲的牵挂",
+      "function": "父母联系纽带"
+    }
+  ]
+}

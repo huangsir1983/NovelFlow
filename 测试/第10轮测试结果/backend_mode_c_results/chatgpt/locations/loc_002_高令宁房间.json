@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁房间",
+  "type": "interior",
+  "era_style": "明代中晚期官家小姐闺房",
+  "description": "闺房位于内宅深处，空间较为私密，通常分为外间起居与内间安寝两部分，以落地帷帐、罩屏或半开的木隔扇过渡。内间设软榻或架子床，床前有脚踏，浅色帷帐层层垂落，织纹细密。靠窗一侧摆放小几与茶具，便于临窗独坐；另一侧设梳妆台与铜镜，台面陈列发钗、脂粉盒、团扇。角落可见绣架、针线笸箩与未完成的女红，强化闺阁气息。家具多为细腿硬木器，尺度精致，不求宏阔而重含蓄。窗棂筛下的日光柔和，照出纱帐、衣料与镜面的轻微反光，使房间既有贵女起居的雅致，也带着回忆前世创痛时的幽闭感。",
+  "visual_reference": "Late Ming dynasty noble lady's boudoir, refined Chinese inner chamber, canopy bed with pale gauze curtains, carved wooden dressing table with bronze mirror and hairpins, round silk fan, embroidery frame, small tea table by lattice window, elegant hardwood furniture, soft daylight filtered through paper windows, intimate feminine chamber, restrained aristocratic decor, melancholic and psychologically tense, cinematic realism",
+  "atmosphere": "私密克制、柔静压抑、执念暗涌",
+  "color_palette": [
+    "藕粉",
+    "浅木色",
+    "米白",
+    "黛青"
+  ],
+  "lighting": "柔和日光经窗纸和格栅过滤后洒入室内，亮度温润，阴影轻薄，适合表现内心独白与隐忍情绪。",
+  "key_features": [
+    "垂落的闺房帷帐",
+    "临窗小几与茶具",
+    "梳妆台上的铜镜与发钗"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从父女间的担忧询问，转向女主对前世噩梦的沉静回望与近乎偏执的决心。"
+}

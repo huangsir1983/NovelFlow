@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_022",
+  "order": 21,
+  "heading": "INT. 沈家卧房 - day",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈母请来的太医"
+  ],
+  "core_event": "我如前世一般怀孕，太医诊断是男孩，沈词因以为长子将再来而明显松了口气。",
+  "key_dialogue": "说是个男孩。",
+  "emotional_peak": "命运重演带来的复杂欣慰",
+  "tension_score": 0.69,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "脉枕",
+    "虎头帽",
+    "针线"
+  ],
+  "dramatic_purpose": "把故事推进到核心命运节点——所谓的“睿儿”即将降生。",
+  "visual_reference": "卧房里女子坐在窗下绣虎头帽，太医收起搭脉手势，男子站在门框边静静看着，光线柔和却带宿命感，古风家庭场面，针线与脉诊形成命运象征",
+  "visual_prompt_negative": "避免现代医疗器具、避免夸张喜悦、避免婴儿已出现、避免过度富丽背景",
+  "source_text_start": "良久的沉默。",
+  "source_text_end": "和前世一模一样的时间。"
+}

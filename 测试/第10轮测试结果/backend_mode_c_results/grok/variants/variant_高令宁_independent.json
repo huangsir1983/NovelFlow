@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "independent",
+  "variant_name": "高令宁 — 江南和离后",
+  "tags": [
+    "和离",
+    "成熟母亲",
+    "自由"
+  ],
+  "scene_ids": [
+    "scene_013",
+    "scene_014"
+  ],
+  "trigger": "和离后江南宅院生活，陆姝仪道歉（scene_013）和三年后雪夜纠缠（scene_014）",
+  "appearance_delta": {
+    "face": "更显成熟从容，眼神从怨恨转为释怀",
+    "body": "苗条修长，气质优雅稳重",
+    "hair": "简约优雅发髻，略带江南闲适",
+    "distinguishing_features": "母亲的温柔守护与重获自由的独立气场"
+  },
+  "costume_override": {
+    "outfit": "江南风格简约华贵丝绸汉服",
+    "color_palette": [
+      "淡青",
+      "月白",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "elegant Chinese noblewoman in Jiangnan courtyard wearing simplified Tang-Song Hanfu, sharp phoenix eyes softened by relief and strength, elegant oval face, long black hair in loose sophisticated bun, fair skin, proud yet peaceful motherly expression, cinematic lighting, 8k",
+  "emotional_tone": "释怀独立，面对追逐时的坚定"
+}

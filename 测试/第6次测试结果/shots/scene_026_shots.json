@@ -1,0 +1,383 @@
+[
+  {
+    "id": "shot_0364",
+    "scene_id": "scene_026",
+    "shot_number": 1,
+    "goal": "建立高府傍晚由前厅通向厢房的空间关系与迅速冷下去的光线状态，预告从公开空间逼入私密空间的危险搜寻。",
+    "composition": "WS，前景为高府门槛与半掩门扇形成压景，画面左侧留出一条入府通道；中景是前厅廊道层层门框与阴影递进，右后方可见忙乱仆从掠过；背景尽头通向更暗的厢房区域，形成视觉引导线。",
+    "camera_movement": "steadicam",
+    "framing": "WS",
+    "emotion_target": "让观众感到不安、压迫，并迅速进入搜寻将出事的预感。",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 364
+  },
+  {
+    "id": "shot_0365",
+    "scene_id": "scene_026",
+    "shot_number": 2,
+    "goal": "以女主主观重心引入沈词赶到高府的状态，传达他来势汹汹且已知情况不妙。",
+    "composition": "MLS，机位位于门内偏右，沈词自画面左侧急步入画停在中轴偏左，衣袍带风；前景右侧虚化的门框压迫他，背景是被惊动回头的门房与高府仆役，冷天光从身后勾出轮廓。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "传达紧迫、来者不善、危机已逼到门前。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 365
+  },
+  {
+    "id": "shot_0366",
+    "scene_id": "scene_026",
+    "shot_number": 3,
+    "goal": "交代沈词脸色铁青的情绪强度，并把观众绑定到高令宁对他的第一感知上。",
+    "composition": "MCU，沈词占画面右侧三分之二，头肩端正但呼吸急；左侧留出前厅虚化空间，方便承接他所面对的人。冷灰侧光压出眉骨与眼窝，少量散发打破规整。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到寒意与压迫，意识到事情已越过寻常礼数。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 366
+  },
+  {
+    "id": "shot_0367",
+    "scene_id": "scene_026",
+    "shot_number": 4,
+    "goal": "切回高令宁的受视角反应，显示她强压不安但仍维持主事者姿态。",
+    "composition": "MCU，高令宁位于画面左侧，肩背挺直，目光越过镜头指向沈词；前景右侧虚化一点门框，背景为黛青旧木与廊下阴影，脖颈淡痕被斜侧光轻轻勾出。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "建立克制、戒备与将失控前的硬撑。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.44,
+    "order": 367
+  },
+  {
+    "id": "shot_0368",
+    "scene_id": "scene_026",
+    "shot_number": 5,
+    "goal": "通过门房小厮口供交代关键信息：陆姝仪进门后未再出去。",
+    "composition": "MS，门房小厮跪或躬身于画面下中部，高令宁立于左后，沈词立于右后，形成压迫三角；前景可见小厮手中包裹边角，背景是前厅门口渐暗的天色。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众捕捉到案情式的信息落点，并感到局势骤然收紧。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 368
+  },
+  {
+    "id": "shot_0369",
+    "scene_id": "scene_026",
+    "shot_number": 6,
+    "goal": "强调包裹与口供作为线索物，暗示陆姝仪确曾来过且一切无法轻易遮掩。",
+    "composition": "CU，画面下部是小厮捧着的包裹，布面褶皱被冷光打出细节；上方虚化可见沈词衣摆与高令宁裙角分居左右，形成被两方势力夹住的证物感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造证据落地后的冰冷感和无法回避的现实压力。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 369
+  },
+  {
+    "id": "shot_0370",
+    "scene_id": "scene_026",
+    "shot_number": 7,
+    "goal": "表现高令宁在短暂失神后立刻夺回秩序，吩咐搜遍府中。",
+    "composition": "MS，高令宁站于画面中央略前，微前倾发令；高父在左后一步，神色凝重；右后方仆从待命。门框与屏风边线垂直切割画面，强化礼法与秩序。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的控制欲与恐惧同时上升，带出硬撑下的决绝。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 370
+  },
+  {
+    "id": "shot_0371",
+    "scene_id": "scene_026",
+    "shot_number": 8,
+    "goal": "交代众人分头搜寻，空间由前厅向多重房间扩散，悬念开始扩容。",
+    "composition": "FS，从廊道斜侧看去，数名仆从和家人分别朝左右不同门洞散开；高令宁停在画面中轴，沈词略偏右后方未动，像一块沉重的黑影。层层门框把空间切成多个搜索方向。",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "制造忙乱中的秩序感，让观众期待每扇门后都可能藏着坏消息。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "高父",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 371
+  },
+  {
+    "id": "shot_0372",
+    "scene_id": "scene_026",
+    "shot_number": 9,
+    "goal": "将主观视角带入搜寻过程，以掠过的门窗与阴影制造逼近真相前的不确定。",
+    "composition": "MLS，近似高令宁主观前行视角，前景连续掠过柱子、帘幕、门框；中景有仆从推开空房门；背景厢房深处更暗，唯一一点琥珀烛火微弱闪动。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众产生搜寻式紧张与呼吸被拉长的预感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 372
+  },
+  {
+    "id": "shot_0373",
+    "scene_id": "scene_026",
+    "shot_number": 10,
+    "goal": "锁定最终目标门——厢房房门，暗示答案就在门后。",
+    "composition": "MS，厢房房门占画面中央，门缝透出极弱暗光；前景左侧是停住的高令宁肩背虚焦，右侧是沈词半个深色身影，二人共同指向房门。门槛与门缝形成强烈纵深。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众在门被打开前感到心口一沉。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.72,
+    "order": 373
+  },
+  {
+    "id": "shot_0374",
+    "scene_id": "scene_026",
+    "shot_number": 11,
+    "goal": "用门轴声和手部动作制造发现前的悬停，延迟信息揭示。",
+    "composition": "CU，画面中央偏下是推门的手与旧木门环，门缝从黑暗中被拉开；左上角有一点冷青暮色，右下角陷入深影。木纹、金属和手部紧绷筋络都清晰可见。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造窒息式等待与生理性的紧张。",
+    "duration_hint": "1.5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 374
+  },
+  {
+    "id": "shot_0375",
+    "scene_id": "scene_026",
+    "shot_number": 12,
+    "goal": "首次揭示厢房内的丑闻现场，但保留一点距离，让观众先整体辨认关系。",
+    "composition": "FS，从门外斜向内看，门框包住整个厢房如审判框景；中景床榻与地面散落凌乱衣物，陆姝仪倒在榻边偏左，蒋晟倒在右侧近床处，二人衣冠不整、昏迷不醒；背景屏风歪斜，烛火将影子拉长。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "以突然而完整的视觉事实造成冲击与失语。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 375
+  },
+  {
+    "id": "shot_0376",
+    "scene_id": "scene_026",
+    "shot_number": 13,
+    "goal": "补强现场细节为“不可辩白”的视觉证据：凌乱衣物、姿态、昏迷状态。",
+    "composition": "CU，地面凌乱衣物占前景大半，布料褶皱与腰带散落形成杂乱纹理；背景虚化中可见陆姝仪垂落的手和蒋晟侧倒的身形。低机位让衣物像罪证扑到镜头前。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "让观众感到丑闻的实感与难堪，进一步锁死误判空间。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 376
+  },
+  {
+    "id": "shot_0377",
+    "scene_id": "scene_026",
+    "shot_number": 14,
+    "goal": "切回高令宁的瞬间震惊，体现她作为第一认知中心所遭受的冲击。",
+    "composition": "CU，高令宁位于画面中央略偏左，瞳孔微缩，呼吸停顿；前景右侧有门框虚焦切过她半张脸，背景完全压暗，只留一点厢房内琥珀反光映在眼底。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她在克制中被猛刺一下的失衡。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 377
+  },
+  {
+    "id": "shot_0378",
+    "scene_id": "scene_026",
+    "shot_number": 15,
+    "goal": "表现高父目睹现场后的震怒与失措，为家族名声危机加码。",
+    "composition": "MCU，高父处于画面左侧，身形微晃，手下意识按向心口；右侧虚化可见房内地上的衣物色块。侧逆光强调他法令纹与骤沉的脸色。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众意识到此事不仅是男女丑闻，更是家门将塌的灾祸。",
+    "duration_hint": "1.5s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 378
+  },
+  {
+    "id": "shot_0379",
+    "scene_id": "scene_026",
+    "shot_number": 16,
+    "goal": "表现沈词在看到现场后的冷硬定格，建立其后续目光对峙的威胁性。",
+    "composition": "CU，沈词占画面右侧，脸部几乎不动，眼神压向门内；左侧留出深黑负空间。冷光从侧后打出脸部轮廓，眼下阴影加重，唇线绷直如刀。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造比怒火更可怕的冷意，让观众感觉真正的关系危机才刚开始。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.91,
+    "order": 379
+  },
+  {
+    "id": "shot_0380",
+    "scene_id": "scene_026",
+    "shot_number": 17,
+    "goal": "让高令宁从现场回过神，第一时间转头去看沈词，明确她最在意的不是现场本身，而是他会如何理解。",
+    "composition": "MS，机位在门外斜后方，高令宁位于前景左侧半身，迅速转头看向右后方的沈词；门内昏迷二人仍模糊存在于背景中央，作为无法抹去的事实。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众捕捉到她心底真正的慌乱来源：被误会、被定罪、被拖入宿命。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 380
+  },
+  {
+    "id": "shot_0381",
+    "scene_id": "scene_026",
+    "shot_number": 18,
+    "goal": "完成关键对视：沈词也正看向高令宁，现场关系线在这一刻被彻底拧紧。",
+    "composition": "OTS，以高令宁肩背作前景左侧虚焦，沈词位于画面中央偏右，目光直穿过镜头；背景是门外廊道的冷青天色，与厢房暖暗形成暖冷对撞。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "制造审判感、怀疑感与情感断裂的刺痛。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 381
+  },
+  {
+    "id": "shot_0382",
+    "scene_id": "scene_026",
+    "shot_number": 19,
+    "goal": "反打高令宁承接这道目光，显示她无法解释也不能失态的困局。",
+    "composition": "OTS，以沈词深色肩线作前景右侧虚焦，高令宁位于中央偏左，面色更白，唇微张却无话；背景门内烛光在她身后形成极窄轮廓光，像被逼到墙角。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她被冻结在礼法与情感夹缝中的窒息。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 382
+  },
+  {
+    "id": "shot_0383",
+    "scene_id": "scene_026",
+    "shot_number": 20,
+    "goal": "用终局式定格收束章节：丑闻现场在中景后方，前景两人的冰冷对视成为真正的悬念落点。",
+    "composition": "FS，机位置于厢房门内反打向门口；前景下方可见散落衣物虚焦，门口处高令宁在左、沈词在右，二人隔着门槛对峙；更后方高父僵立。门框将众人框成一幅被钉住的画面，冷暮色从外压进来，屋内烛火将尽。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "把观众情绪打到冰点，在无对白中留下巨大误判与关系崩塌的悬念。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "高父",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 383
+  }
+]

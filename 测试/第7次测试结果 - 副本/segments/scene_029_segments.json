@@ -1,0 +1,74 @@
+[
+  {
+    "id": "seg_0151",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0463",
+      "shot_0464",
+      "shot_0465"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成同一动作链：建立压迫空间—声音叫停—沈睿首次发令。角色集合稳定，情绪由窒息过渡到被迫停下，属于同一段开场施压节拍，适合合并为一个连续视频段。",
+    "order": 151
+  },
+  {
+    "id": "seg_0152",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0466",
+      "shot_0467",
+      "shot_0468"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕‘回身—对峙格局建立—第二次施压’展开，空间关系和情绪目标一致。人物未发生实质进出，核心是从被叫停转入正式对峙，因此合并为同一情感段落。",
+    "order": 152
+  },
+  {
+    "id": "seg_0153",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0469",
+      "shot_0470",
+      "shot_0471",
+      "shot_0472"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成第一次话语权翻转：高令宁识破、反刺、沈睿受创并出现肢体失控。虽然由说者切至听者再到动作特写，但情绪弧线完整且连续，属于同一个反击节拍。",
+    "order": 153
+  },
+  {
+    "id": "seg_0154",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0473",
+      "shot_0474",
+      "shot_0475",
+      "shot_0476"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是冲突第二次升级：沈睿以道德反咬，再彻底暴露真实优先顺位，蒋晟的反应作为场内见证补足尴尬与孤立。情感从逼问到立场暴露，再到旁观者羞惭，连续性很强。",
+    "order": 154
+  },
+  {
+    "id": "seg_0155",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0477",
+      "shot_0478",
+      "shot_0479"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜形成完整落槌：决绝前的冷笑、核心台词‘不退’、以及对方承受后的凝滞收尾。情绪在此完成第一波正面交锋的顶点与余震，适合作为独立终段。",
+    "order": 155
+  }
+]

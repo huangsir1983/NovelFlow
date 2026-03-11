@@ -1,0 +1,60 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人",
+    "姨母"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "高门贵妇相，眉眼精明，面容保养得宜，情绪受惊后显出病态",
+    "body": "养尊处优，仪态讲究",
+    "hair": "盘贵妇发髻，佩玉钗金饰",
+    "distinguishing_features": "高门掌家者的审视目光与体面压迫感"
+  },
+  "costume": {
+    "typical_outfit": "富贵繁复的贵妇礼服，层叠绸缎与金玉配饰",
+    "color_palette": [
+      "绛紫",
+      "黛蓝",
+      "金色"
+    ]
+  },
+  "casting_tags": [
+    "高门主母",
+    "家族利益导向",
+    "强势婆母"
+  ],
+  "visual_reference": "wealthy ancient Chinese matriarch, luxurious robe, composed but calculating face, elegant hair ornaments, aristocratic household atmosphere, realistic cinematic style",
+  "personality": "讲体面、重门第、善于安排，偏家族利益至上",
+  "desire": "维持沈家门第与名声，安排儿子与侄女都得到体面归宿",
+  "flaw": "轻视女方感受，把婚姻当成家族布局工具",
+  "arc": "从掌控婚局的强势婆母，到在风波后不得不低头求和、接受失控局面",
+  "scene_presence": "主要出现在前世强推陆姝仪敬茶、择婿安排、满月后上门争夺孩子等情节",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "母亲施压安排，儿子部分顺从又部分反抗",
+      "function": "门第秩序代表"
+    },
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "起初压制试探，后期被其强势反制",
+      "function": "宅斗开端"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姨甥",
+      "dynamic": "怜惜但更重利益，最终拿她作婚配筹码",
+      "function": "逼婚推动者"
+    },
+    {
+      "target": "高父",
+      "type": "亲家对立",
+      "dynamic": "试图以门第压人，却被寸步不让",
+      "function": "和离及孩子归属谈判"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家花厅 - day",
+  "location": "高家花厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈家小厮"
+  ],
+  "core_event": "得知沈词认陆姝仪为义妹后，我借话传回沈府，逼他先把义妹嫁出去才答应婚事。",
+  "key_dialogue": "「贵府小姐出嫁后，我才会答应这门亲事。」",
+  "emotional_peak": "我将规则再度抬高，逼沈词让步。",
+  "tension_score": 0.66,
+  "estimated_duration_s": 45,
+  "key_props": [
+    "口信帖",
+    "茶盏"
+  ],
+  "dramatic_purpose": "推进婚事谈判升级，显示女主主动掌控节奏。",
+  "visual_reference": "花厅中女子神色平静地吩咐小厮传话，桌上茶气微升，姿态温柔却带锋芒，构图简洁利落",
+  "visual_prompt_negative": "避免夸张愤怒动作，避免多人嘈杂，避免奢靡背景",
+  "source_text_start": "沈家公子认了位义妹。",
+  "source_text_end": "沈府的小厮领命离开了。"
+}

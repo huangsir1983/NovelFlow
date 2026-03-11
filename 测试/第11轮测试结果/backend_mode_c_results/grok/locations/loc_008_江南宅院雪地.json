@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_008",
+  "name": "江南宅院雪地",
+  "type": "exterior",
+  "era_style": "明代江南民居宅院雪景",
+  "description": "典型的江南白墙黑瓦宅院，院落内积雪覆盖，雪人堆立于院中。小院有院门和回廊，雪球散落。房屋建筑轻盈，粉墙黛瓦，体现江南水乡特色，冬季银装素裹的宁静却夹杂意外访客的紧张。",
+  "visual_reference": "Snow-covered Jiangnan style Ming dynasty Chinese courtyard house on a winter day, whitewashed walls with dark tiled roofs, snowman and snowballs in the yard, wooden gate, traditional garden elements blanketed in snow, serene yet tense atmosphere, detailed snow textures and architecture",
+  "visual_prompt_negative": "summer greenery, modern buildings, heavy snowstorm obscuring view, fantasy",
+  "atmosphere": "宁静冬日, 意外重逢酸涩",
+  "color_palette": [
+    "纯白雪",
+    "黛黑瓦",
+    "粉白墙",
+    "木棕门"
+  ],
+  "lighting": "白天清冷明亮的冬日阳光，雪地反射强光，营造晶莹剔透效果",
+  "key_features": [
+    "白墙黑瓦宅院",
+    "院中雪人雪球",
+    "江南院门"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "三年后平静生活的温馨到沈词来访的铁青脸色与阴沉冷笑"
+}

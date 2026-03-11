@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府厅堂/内室 - DAY",
+  "location": "沈府内院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "沈词为陆姝仪择婿烦躁不已，高令宁主动提出可对外宣称病逝、私下纳她入府，等日后和离后扶正。她从报复转向厌倦，决定不再执着阻拦。",
+  "key_dialogue": "「等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。」",
+  "emotional_peak": "面对她的松手，沈词反而坚持“我与姝仪并无男女之情”，显露其内心自欺。",
+  "tension_score": 0.78,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "折扇",
+    "议亲名单",
+    "衣袖"
+  ],
+  "dramatic_purpose": "女主第一次真正显露放下报复的趋势，男主开始失衡。",
+  "source_text_start": "沈词开始给陆姝仪择婿。\n那些青年，他总嫌薄了陆",
+  "source_text_end": "「从始至终，我只是想要她余生顺遂，是你一直扭曲我们的感情，怨怼于我。」"
+}

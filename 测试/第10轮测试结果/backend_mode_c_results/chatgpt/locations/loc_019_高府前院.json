@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_019",
+  "name": "高府前院",
+  "type": "exterior",
+  "era_style": "明代中晚期官宅前院门厅外场",
+  "description": "高府前院为门厅内侧的正式院落，地面铺整齐石砖，门扇高大，院中留出足够迎宾与训诫的开阔空地。跪垫置于石砖上时格外醒目，周围侍从垂手而立，形成公开羞辱的仪式感。和离书被置于低案或直接递在视线中心，衣摆尘土与长跪姿态强化人物失势。整体院落不繁花，重秩序与分寸，适合展现男主失去体面的一刻。",
+  "visual_reference": "Late Ming dynasty official residence front courtyard, paved stone ground, tall wooden gate leaves, open formal yard with attendants standing aside, kneeling mat on the ground, divorce document presented in the center, dust on robe hem, austere and hierarchical setting, daylight, cinematic Chinese historical drama, highly detailed",
+  "atmosphere": "屈辱、僵持、体面尽失",
+  "color_palette": [
+    "石砖灰",
+    "深木色",
+    "素纸白"
+  ],
+  "lighting": "白日直光照亮前院，人物跪姿与纸张边缘清晰可见，没有阴影可藏，公开性极强。",
+  "key_features": [
+    "石砖前院中的跪垫",
+    "高大门扇与侍从围观",
+    "和离书的视觉中心地位"
+  ],
+  "narrative_scenes": [
+    "scene_024"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从求见的卑微请求，转为被和离书正面宣判的失控与不甘。"
+}

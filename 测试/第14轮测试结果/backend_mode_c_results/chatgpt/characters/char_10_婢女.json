@@ -1,0 +1,36 @@
+{
+  "name": "婢女",
+  "aliases": [
+    "侍女",
+    "陆姝仪的婢女"
+  ],
+  "role": "minor",
+  "age_range": "14-25",
+  "appearance": {
+    "face": "年轻清秀，神情恭谨",
+    "body": "纤细轻巧",
+    "hair": "简单双髻或包头",
+    "distinguishing_features": "多承担传话、叩门、作证功能"
+  },
+  "costume": {
+    "typical_outfit": "朴素婢女衣裙",
+    "color_palette": [
+      "浅蓝",
+      "灰白",
+      "青绿"
+    ]
+  },
+  "casting_tags": [
+    "侍女",
+    "证人",
+    "传话者"
+  ],
+  "visual_reference": "古代侍女，年轻，穿浅蓝或青绿色婢女裙，低眉顺眼，站在门外传话或在院中作证，古风写实",
+  "visual_prompt_negative": "现代女仆装、浓妆、夸张首饰、动漫风",
+  "personality": "顺从、谨慎",
+  "desire": "自保与服侍好主子",
+  "flaw": "依附主家",
+  "arc": "无明显弧线",
+  "scene_presence": "新婚夜叩门、高府传话、作证等",
+  "relationships": []
+}

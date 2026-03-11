@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会诊治处 - NIGHT",
+  "location": "宴会临时歇脚房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "婢女"
+  ],
+  "core_event": "大夫为高令宁正骨，蒋晟愧疚道歉。另一边陆姝仪胃病发作，沈词亲自喂药温哄。高令宁坚持要求陆姝仪先出嫁，陆姝仪则当众下跪哭求留下，沈词公开护着她。",
+  "key_dialogue": "「有我在，没人能赶你走。」",
+  "emotional_peak": "陆姝仪跪地示弱、沈词拥她入怀，高令宁被迫再次目睹前世熟悉的偏护。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "药碗",
+    "榻",
+    "衣角",
+    "灯火"
+  ],
+  "dramatic_purpose": "让高令宁彻底面对“她虽有名分却得不到偏爱”的旧伤，推动其态度转向疲惫。",
+  "source_text_start": "7.\n大夫来看过了我的伤。\n脚踝错位，正骨完便好了。\n蒋晟",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

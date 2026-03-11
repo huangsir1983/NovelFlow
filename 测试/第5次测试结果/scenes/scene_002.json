@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "id": "scene_002",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:28:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_001",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 柳枝下小径 - 日",
+    "location": "柳枝下小径",
+    "time_of_day": "day",
+    "description": "户外开阔而柔和，日光自上方洒落，被低垂柳枝筛成斑驳光点。小径安静，风吹枝叶轻摆。地上落着一支发钗，画面带有旧日温润的回忆质感。沈词衣着整洁，举止守礼；高令宁尚在闺中，装束端庄，带着少女的克制与心动。",
+    "action": "发钗从高令宁鬓边滑落，掉在柳枝阴影里。沈词先一步俯身拾起，动作轻缓，起身后并不冒犯靠近，只将发钗稳稳递回。高令宁接过时指尖微顿，眼神落在他的面容上，呼吸放轻，目送他退开半步，守着分寸。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "发钗",
+      "柳枝"
+    ],
+    "dramatic_purpose": "交代高令宁曾真心爱慕沈词的情感基础，塑造其旧日“良婿”形象，为后续态度反转提供对照。",
+    "tension_score": 0.18,
+    "order": 2
+  }
+}

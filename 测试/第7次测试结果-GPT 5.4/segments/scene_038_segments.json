@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0190",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0578",
+      "shot_0579",
+      "shot_0580"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间、引入通报者、明确来客信息，角色集合仍围绕厅内秩序与门口消息，没有实质时空切换；情绪从静态礼制轻推至有事将至，适合压缩为一个连续触发段。",
+    "order": 190
+  },
+  {
+    "id": "seg_0191",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0581",
+      "shot_0582",
+      "shot_0583",
+      "shot_0584"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段以情感弧线为核心：先是高父无戒心的礼制回应，随即切入高令宁的主观警报，并由其眼神触发前世闪回。虽然包含时空切换，但属于同一情绪爆点内部的主观视觉外化，应合并为一个完整的‘先知刺入’段落。",
+    "order": 191
+  },
+  {
+    "id": "seg_0192",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0585",
+      "shot_0586",
+      "shot_0587"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组镜头在同一现实时空内完成‘回神—下令—旁观者迟疑’的策略反转，角色核心仍是父女二人，情绪从内在警惕转为外化决断，再落到父亲的客观观察，形成一个完整行动段。",
+    "order": 192
+  },
+  {
+    "id": "seg_0193",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0588",
+      "shot_0589"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段将命令执行与门外对象并置，空间关系清晰闭环：厅内决断直接作用于门口结果。角色重心从厅内父女转向门外来客，构成明确的段落边界，也用门帘与门槛完成悬念收束。",
+    "order": 193
+  }
+]

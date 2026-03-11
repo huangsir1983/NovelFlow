@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_044",
+  "order": 43,
+  "heading": "INT. 江南卧房 - NIGHT",
+  "location": "江南宅院卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "一名赘婿人选"
+  ],
+  "core_event": "深夜沈词爬上我的床，借雷声之名想回到我身边，却被我和屋内陪伴的人同时拒绝，只能抱着被褥睡在地上。",
+  "key_dialogue": "「我不放你，我在地上陪你。」",
+  "emotional_peak": "曾经高傲的人卑微到愿守在地上，只求离我近一点。",
+  "tension_score": 0.83,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "被褥枕头",
+    "床帐",
+    "窗外雷声"
+  ],
+  "dramatic_purpose": "把沈词的执念与失态推向最私人、最狼狈的一刻。",
+  "visual_reference": "深夜卧房月光冷白，床上女子被惊醒后冷脸踹人，另一名男子起身替她盖被，沈词跌坐地上神色凄凉，随后抱着被褥守在床边地面，卑微而固执",
+  "visual_prompt_negative": "避免露骨三人床戏，避免现代卧室家具，避免搞笑摔倒风格",
+  "source_text_start": "深夜。有人爬上了我的床。",
+  "source_text_end": "「我不放你, 我在地上陪你。」语气带着呼之欲出的乞求。"
+}

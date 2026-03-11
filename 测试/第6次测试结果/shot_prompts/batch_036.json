@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0222",
+    "shot_id": "shot_0202",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands on the left outside the firelight with a cold white face; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands on the right beside the brazier with straight shoulders, facing her like an enemy, both rigid and motionless in confrontation. A metal fire basin burns between them in the front-middle as a visual and emotional barrier, scattered table remnants lie in the left rear background, vertical doorframe and folding screen lines compress the space. Side-view medium long shot along a fixed axis, low-saturation warm-cool contrast, amber firelight on one side against grey-blue darkness and old wood brown, restrained historical mansion interior, cinematic realism, highly detailed textures, tense frozen atmosphere, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, amber brazier light versus cold grey-blue ambient darkness, side light and partial backlight, compressed by doorframe and screen shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, plastic, zippers, printed patterns, text, watermark, logo, low quality, blurry, overexposed, oversaturated, cartoon, anime, 3d render, distorted anatomy"
+  },
+  {
+    "id": "sp_0223",
+    "shot_id": "shot_0203",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands still in the upper left midground, shown in half body with a hard side profile, her gaze passing over the brazier toward off-screen Shen Ci; only a dark robe edge of Shen Ci appears at the far right border. In the foreground lower frame, blackened collapsed fabric and small licking flames fill the brazier, ash and embers glowing faintly. The background falls into near-black emptiness, leaving a suspended aftermath of destruction. Medium shot, visual weight shifted toward Gao Lingning, low-saturation palette, cold face against dim amber embers, old noble interior fading into shadow, cinematic realism, quiet hatred, highly detailed cloth ash and fire texture, moody film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "dim amber ember glow in foreground, cold pale side light on Gao Lingning, heavy surrounding darkness, low-saturation warm-cool opposition"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern clothing, plastic, text, watermark, logo, low quality, blurry, noisy, oversaturated, cartoon, anime, 3d render, bad anatomy"
+  },
+  {
+    "id": "sp_0224",
+    "shot_id": "shot_0218",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, sits watchfully at the bedside in the lower right with a slightly bowed back, exhausted and silent; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies on the bed in the right mid-back, only her pale side face and the rise of the quilt visible. A medicine bowl and damp cloth blur into the lower left foreground, discarded changed clothes lie beneath the bed, the sickbed becomes the visual center. Wide shot from a slightly elevated angle, moonlight cuts diagonally from the left rear through lattice windows across the floor and bed edge in cold blue-grey, a dying candle glows warm amber in the right front, enclosed night chamber of old wood, stale illness atmosphere, low-saturation warm-cool contrast, oppressive stillness, cinematic realism, highly detailed Song-dynasty-inspired interior, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cold moonlight slashing diagonally from rear-left through lattice window, small amber candle point in front-right, low-saturation warm-cool mixed lighting, side-backlight with deep shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, hospital equipment, electric lights, modern bedding, plastic, text, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, 3d render, deformed hands, bad anatomy"
+  },
+  {
+    "id": "sp_0225",
+    "shot_id": "shot_0219",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, leans close over the bedside from a low sickbed viewpoint, his clothes still on, hair slightly loosened, shadows under his eyes obvious, expression weary and restrained as if he has not left for a long time. The right foreground is partially blocked by an out-of-focus quilt edge, creating a limited feverish point of view; behind him stand dark wooden bedposts and a strip of cold moonlight, while candlelight from below the side picks out his jawline and hand contours. Medium shot, low-angle restrictive subjective perspective, low-saturation grey-blue and amber palette, quiet exhausted intimacy in a sealed night chamber, cinematic realism, highly detailed face and fabric texture, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cold moonlight in background with soft amber candle glow from low side angle, restrained warm-cool contrast, bedside shadows emphasizing fatigue"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern hairstyle, modern makeup, text, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, 3d render, distorted face, bad anatomy"
+  },
+  {
+    "id": "sp_0226",
+    "shot_id": "shot_0220",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, is shown only through his hands entering from the left, carefully tucking the quilt around Gao Lingning's chest with practiced gentleness; Gao Lingning is present as the covered body beneath the bedding, her face not visible. The lower half of the frame is filled by layered quilt folds over her chest, a damp cloth and the rim of a medicine bowl appear in the lower right, and a thin beam of moonlight presses across his finger joints from the upper left. Close-up focused on action and cloth texture, low-saturation cool blue moonlight mixed with faint amber candle warmth, enclosed sickroom atmosphere, restrained tenderness, cinematic realism, highly detailed hands, silk folds, and bedside objects, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, close-up detail shot",
+      "lighting": "narrow cold moonlight on the knuckles with faint amber candle fill, low-saturation warm-cool blend, intimate bedside shadowing"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern textiles, plastic bowl, text, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, 3d render, extra fingers, malformed hands"
+  },
+  {
+    "id": "sp_0227",
+    "shot_id": "shot_0221",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, is shown only through his right hand lifting a damp cloth from the bedside table, wringing it, folding it neatly, then extending it forward toward the unseen sickbed with quiet familiarity. In the left foreground sits a half-filled medicine bowl on a small bedside table, while a dying candle wavers in the blurred background; cool window moonlight and warm candle glow overlap along the edge of the cloth. Close-up with continuous caregiving detail, low-saturation grey-blue and amber palette, old wood chamber, repetitive bedside routine, cinematic realism, highly detailed hand movement, cloth moisture, ceramic texture, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, close-up detail shot",
+      "lighting": "soft amber candle flicker in background and cool moonlight from window crossing the cloth edge, low-saturation warm-cool contrast, intimate bedside lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, stainless steel, plastic, text, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, 3d render, extra fingers, bad hands, distorted anatomy"
+  }
+]

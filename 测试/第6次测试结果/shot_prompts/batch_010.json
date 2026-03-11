@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0066",
+    "shot_id": "shot_0070",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen in an over-the-shoulder medium close-up from behind A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression. Her mouth tightens almost imperceptibly, moisture rises in her eyes but is forced back, her posture remains upright and unmoving on the threshold line, guarding her boundary with quiet defiance. Left foreground is his dark blurred shoulder and neck occupying the frame edge, she stands center-right. Interior doorway of an ancient noble residence, dark wooden doorframe, dim indoor shadow against soft daylight outside, low-saturation warm-cool contrast with gray-blue, dark wood brown and restrained amber highlights, side backlight and doorway framing creating pressure. cinematic realism, historical Chinese drama still, highly detailed fabric texture, subtle film grain, shallow depth of field, tense emotional realism",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, shallow depth of field",
+      "lighting": "low-saturation warm-cool contrast, soft natural daylight from outside against dim interior shadow, side backlight, doorway-framed pressure lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry face, bad anatomy, extra fingers, deformed hands, modern hairstyle, modern makeup, electric lights, plastic, contemporary furniture, neon colors, oversaturated colors"
+  },
+  {
+    "id": "sp_0067",
+    "shot_id": "shot_0071",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in a tight close-up nearly filling the frame. His lips tense harder as if speaking a cruel truth, his gaze is fixed and oppressive, a suppressed redness gathers at the lower rims of his eyes, his expression controlled but morally coercive. Behind him the dark wooden doorframe is compressed into a heavy shadowed background, the face isolated by narrow composition, focus locked on lips and eyes. Ancient Chinese mansion doorway, low-saturation palette of slate blue, black, old wood brown, minimal amber warmth, side rim light tracing the bridge of the nose and cheek while shadows deepen around him, oppressive cinematic contrast. cinematic realism, historical psychological confrontation, detailed skin texture, subtle film grain, shallow depth of field, emotionally charged close portrait",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, intense close portrait",
+      "lighting": "low-saturation warm-cool contrast, compressed dark doorway background, subtle side rim light, dense shadow, restrained amber mixed with cool gray-blue ambient light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, modern clothing, modern interior, electric light fixtures, contemporary accessories, neon tones, cartoon style"
+  },
+  {
+    "id": "sp_0068",
+    "shot_id": "shot_0072",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a close-up frontal three-quarter view. Her face turns colder, the hurt retreats into depth, only calculation remains in her eyes, her mouth set in composed restraint as she shifts into a bargaining stance rather than surrender. The background is split between dark interior shadow and pale outdoor daylight, the doorway cuts across her face into two halves, visually tearing emotion and interest apart. Ancient Chinese noble residence threshold, dark wood frame, one side dim and cool, the other side sunlit and washed soft, low-saturation warm-cool contrast, precise side lighting with hard boundary across her features. cinematic realism, historical drama close portrait, subtle film grain, high detail, elegant tension, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, dramatic close-up",
+      "lighting": "split lighting from doorway, half in cool interior shadow and half in pale natural daylight, low-saturation warm-cool contrast, sharp emotional light division"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry eyes, bad anatomy, deformed face, contemporary styling, electric lamps, modern windows, plastic texture, neon palette, exaggerated fantasy effects"
+  },
+  {
+    "id": "sp_0069",
+    "shot_id": "shot_0073",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a medium close-up, with A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression as a blurred left-foreground shoulder. She stands center-right with straight shoulders and lifted back, reclaiming verbal control, her expression calm and cutting, composed under pressure. Vertical wooden doorframe lines rise behind her like formal architecture, emphasizing noble discipline and self-possession, while his blurred shoulder remains in frame as the force pressing her. Ancient Chinese mansion doorway, old wood, dim threshold interior and soft daylight beyond, low-saturation gray-blue and dark brown palette with restrained amber undertone, side backlight, doorway pressure framing, clean aristocratic costume detail. cinematic realism, historical confrontation still, highly detailed textiles, subtle film grain, shallow depth of field, poised power reversal",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, medium close-up drama",
+      "lighting": "soft natural daylight outside mixed with dim interior shadow, side backlight, doorway-framed composition, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry foreground, bad anatomy, extra limbs, contemporary costume, electric lighting, modern decor, oversaturated red, sci-fi details"
+  },
+  {
+    "id": "sp_0070",
+    "shot_id": "shot_0074",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a close-up with her face dominating the frame. She looks steadily to the left, and as if naming the true obstacle, a faint cold smile touches the corner of her mouth, not jealous or shaken but exact and unsparing. The background is a sun-bleached empty courtyard outside the doorway, pale and almost white, throwing her icy tone and sharp features into stronger relief. Ancient Chinese noble residence exterior threshold, high daylight outside, minimal background detail, low-saturation palette with cool pale light against dark hair and muted robes, crisp facial focus, restrained side light and open negative space. cinematic realism, historical drama portrait, subtle film grain, high detail skin and silk texture, severe emotional precision",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, sharp close portrait",
+      "lighting": "bright pale natural daylight background, cool open fill light on face, low-saturation warm-cool balance, strong contrast through sun-bleached exterior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, distorted face, bad anatomy, modern accessories, electric lights, urban background, neon colors, fantasy armor"
+  },
+  {
+    "id": "sp_0071",
+    "shot_id": "shot_0075",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in a close-up centered in frame. His face grows heavier and more closed, his lip line draws into a hard straight tension, his eyes press downward for a fleeting instant, revealing the true point of impact beneath control. The dark side of the wooden doorframe behind him deepens, while side backlight only outlines the bridge of his nose and edge of his jaw, shaping a repressed silhouette. Ancient Chinese mansion doorway, shadow-dense background, low-saturation palette of black, indigo, gray-blue and old wood brown, minimal amber warmth, oppressive stillness and emotional compression. cinematic realism, historical psychological drama, detailed skin and robe texture, subtle film grain, shallow depth of field, restrained but devastating reaction shot",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, reaction close-up",
+      "lighting": "heavy shadowed doorway background, narrow side backlight outlining nose bridge and jawline, low-saturation warm-cool contrast, dense compressed shadow"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry eyes, bad anatomy, extra limbs, modern hair products, electric lighting, contemporary architecture, oversaturated palette, anime style"
+  }
+]

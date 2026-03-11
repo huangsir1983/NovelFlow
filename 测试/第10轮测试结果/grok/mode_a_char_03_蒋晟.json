@@ -1,0 +1,54 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-25",
+  "appearance": {
+    "face": "方正老实，五官端正，肤色健康，表情诚恳微红",
+    "body": "身材健壮结实，习武之人体态",
+    "hair": "黑发束冠，简洁利落",
+    "distinguishing_features": "老实可靠的诚恳眼神与强壮武者身姿"
+  },
+  "costume": {
+    "typical_outfit": "武士劲装或简朴长袍",
+    "color_palette": [
+      "深绿",
+      "褐色",
+      "黑"
+    ]
+  },
+  "casting_tags": [
+    "老实武将",
+    "备胎男配",
+    "守护者原型",
+    "正直青年"
+  ],
+  "visual_reference": "Handsome honest young Chinese martial artist early 20s, square honest face with sincere dark eyes, tanned healthy skin, sturdy muscular build, short neat black hair, wearing simple dark green martial hanfu, protective and reliable expression, ancient Chinese setting, highly detailed masterpiece",
+  "personality": "为人老实、诚恳可靠、习武护人、略显木讷",
+  "desire": "守护高令宁、娶得良妻过平稳日子",
+  "flaw": "过于老实易被设计利用、情感表达迟钝",
+  "arc": "起点：陪高令宁马球会护花 → 转变：被陆姝仪设计失贞被迫娶她 → 终点：与陆姝仪分房冷淡过日子",
+  "scene_presence": "马球会护送、被设计昏迷、被迫提亲、满月宴背景出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "单方面守护与好感",
+      "function": "对照"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益",
+      "dynamic": "被迫成婚后冷淡",
+      "function": "阻碍"
+    },
+    {
+      "target": "高父",
+      "type": "权力",
+      "dynamic": "师徒情谊",
+      "function": "助攻"
+    }
+  ]
+}

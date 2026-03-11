@@ -1,0 +1,335 @@
+[
+  {
+    "id": "shot_0147",
+    "scene_id": "scene_011",
+    "shot_number": 1,
+    "goal": "建立封闭空间与失控将至的压迫感，交代房门被合上，沈词主动切断外界。",
+    "composition": "门内侧低机位偏右构图，房门占据左侧三分之一，沈词背身入画后迅速回手关门；前景是虚焦门框与垂落帘角，背景为冷色内室与窄促家具轮廓，门缝里最后一点暖光被切断形成视觉收口。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "窒息、被困、危险逼近",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 147
+  },
+  {
+    "id": "shot_0148",
+    "scene_id": "scene_011",
+    "shot_number": 2,
+    "goal": "在女主限制视角下建立沈词的怒意与逼近方向，明确对峙轴线。",
+    "composition": "高令宁肩后OTS，右前景为她虚焦的半边鬓发与肩线，沈词位于画面中央略偏左，站在刚合上的门前，脸色铁青，身后门板形成硬质背景，头顶上方压留少量负空间，强化压迫。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "威胁感、即将被审问的不安",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 148
+  },
+  {
+    "id": "shot_0149",
+    "scene_id": "scene_011",
+    "shot_number": 3,
+    "goal": "确立高令宁的姿态：看似平静，实则蓄意挑衅；维持她的主观中心。",
+    "composition": "沈词肩后OTS反打，高令宁站在画面右侧三分之一，身后是冷色窗棂切割出的条状阴影，左侧留出沈词压进来的空间；她肩背笔直，唇边仅有极淡笑意，目光直刺镜外对手。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、隐忍中的反击欲",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 149
+  },
+  {
+    "id": "shot_0150",
+    "scene_id": "scene_011",
+    "shot_number": 4,
+    "goal": "用一句话点燃冲突，把‘人被送去窑子’作为爆点抛出。",
+    "composition": "高令宁正面近距特写，面部置于画面中央偏右，左侧留出大量冷暗空间给台词落点；背景窗棂虚化成锋利竖线，她的唇与眼神都清晰，笑意很薄。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、挑衅、寒意",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.58,
+    "order": 150
+  },
+  {
+    "id": "shot_0151",
+    "scene_id": "scene_011",
+    "shot_number": 5,
+    "goal": "呈现沈词被瞬间激怒的生理反应，完成情绪换挡。",
+    "composition": "沈词面部特写，画面左侧进，视线朝右，眉骨压低，咬肌绷紧；背景只剩门板冷黑平面，边缘一抹侧逆光勾出轮廓，眼底阴影加重。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "暴怒失控、危险升级",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 151
+  },
+  {
+    "id": "shot_0152",
+    "scene_id": "scene_011",
+    "shot_number": 6,
+    "goal": "交代沈词猛地上前，身体距离被彻底打破，暴力开始。",
+    "composition": "侧面中景双人构图，沈词从画面左向右猛冲，高令宁退无可退贴近画面右侧；前景有虚焦桌角形成阻隔，背景为门与内室夹角，人物被挤压在狭窄平面内，动线清晰保持左攻右守。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "突袭、失衡、肉身压迫",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 152
+  },
+  {
+    "id": "shot_0153",
+    "scene_id": "scene_011",
+    "shot_number": 7,
+    "goal": "明确掐脖动作的发生，不靠外化打斗而以关键肢体接触制造冲击。",
+    "composition": "颈部与手的近景，高令宁脖颈位于画面中央，沈词手掌自左侧死死扣住；前景是她微颤的衣领与一缕散发，背景完全压成冷暗虚化，皮肤与指节形成高对比。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "窒息、惊骇、疼痛的即时性",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 153
+  },
+  {
+    "id": "shot_0154",
+    "scene_id": "scene_011",
+    "shot_number": 8,
+    "goal": "从女主感受出发表现被迫仰头却不肯退让，建立她的意志强度。",
+    "composition": "高令宁低角度特写，头被迫后仰占据画面下半部，喉线紧绷，眼睛仍直视上方镜外沈词；背景是斜切的梁柱与窗影，画面边缘略有失焦，强化缺氧感。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "痛苦中的倔强、不屈服",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 154
+  },
+  {
+    "id": "shot_0155",
+    "scene_id": "scene_011",
+    "shot_number": 9,
+    "goal": "呈现沈词施暴时的失控状态，突出手臂绷紧、额上青筋暴起。",
+    "composition": "沈词半侧面中特写，位于画面左侧，右臂前伸出画形成看不见但强烈存在的施力方向；额角青筋、鼻翼翕张清晰可见，背景门板和阴影把他压成一团黑。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "恐惧、厌恶、暴力的不可逆",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 155
+  },
+  {
+    "id": "shot_0156",
+    "scene_id": "scene_011",
+    "shot_number": 10,
+    "goal": "进入言语交锋阶段，以双人关系镜头维持对峙张力而非机械正反打。",
+    "composition": "紧凑双人近中景，沈词占左前景虚焦侧脸与肩，高令宁在右侧中焦，被掐住仍艰难发声；两人之间几乎无空隙，窗棂阴影横切二人面部，形成关系撕裂的视觉切割。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "相互折磨、彼此揭伤口",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 156
+  },
+  {
+    "id": "shot_0157",
+    "scene_id": "scene_011",
+    "shot_number": 11,
+    "goal": "让高令宁夺回话语权，抛出‘休我？’与功劳控诉，完成从受害到反审判的姿态翻转。",
+    "composition": "高令宁正面特写，人物置中偏右，颈上被掐后的红痕隐约可见；前景左侧保留沈词肩线黑影，像一道持续压迫。她呼吸不稳但吐字锋利，目光毫不躲闪。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "愤恨、反击、尊严被逼出的锋利",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.8,
+    "order": 157
+  },
+  {
+    "id": "shot_0158",
+    "scene_id": "scene_011",
+    "shot_number": 12,
+    "goal": "在高令宁台词延续中观察沈词被戳中后的变化，为下一轮更深旧伤铺垫。",
+    "composition": "沈词近景，位于画面左侧，面朝右；前景有高令宁虚焦发丝划过下边缘，暗示她仍在他控制范围内。侧逆光勾出紧绷下颌，眼神出现一瞬迟滞。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "怒中被刺中、羞耻与防御并存",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 158
+  },
+  {
+    "id": "shot_0159",
+    "scene_id": "scene_011",
+    "shot_number": 13,
+    "goal": "把冲突推进到诛心层面，高令宁揭开陆姝仪与沈词的旧伤，触发最终失控。",
+    "composition": "高令宁大特写，画面几乎只容下面部与眼睛，唇色发白，眼底带狠意；背景完全虚化，仅留一道冷白侧光切在脸颊，形成刀口般质感。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "诛心、决绝、两败俱伤前的最后一刺",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.95,
+    "order": 159
+  },
+  {
+    "id": "shot_0160",
+    "scene_id": "scene_011",
+    "shot_number": 14,
+    "goal": "用反应镜头表现沈词被‘克死’一语彻底击穿，暴力由掐转为推。",
+    "composition": "沈词特写，面部居中略偏左，眼神骤变，手臂在下方出画处猛然撤力并前推；背景门板与阴影几乎吞没他，仅有额侧高光闪烁，像短促失神后的报复动作。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "失控、心虚被激怒后的报复性爆发",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.98,
+    "order": 160
+  },
+  {
+    "id": "shot_0161",
+    "scene_id": "scene_011",
+    "shot_number": 15,
+    "goal": "明确推倒行为完成，空间重力介入，局势从口舌互刺转为身体伤害。",
+    "composition": "侧向中全景，保持左攻右退轴线，沈词在左侧前景甩手推出，高令宁自右侧失衡后仰跌落；前景桌角与地面共同形成对角线，引导视线下坠，背景床榻边缘压迫空间。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "冲击、猝然、不可挽回",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 161
+  },
+  {
+    "id": "shot_0162",
+    "scene_id": "scene_011",
+    "shot_number": 16,
+    "goal": "落地后的受创结果被看见，重点交代腹部受创与呼吸紊乱，为后续悲剧埋因果。",
+    "composition": "俯角近景，高令宁跌坐在地面右下区域，手护腹部，另一手撑地，发髻微乱；左上方留出大片空地作为沈词站位的压迫性留白，冷光落在她苍白面部与衣料褶皱上。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "疼痛、脆弱、危险后果的预感",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 162
+  },
+  {
+    "id": "shot_0163",
+    "scene_id": "scene_011",
+    "shot_number": 17,
+    "goal": "在地面视角下重建两人权力关系：她倒地，他居高临下，但裂痕已无法收拢。",
+    "composition": "高令宁主观低机位仰拍，沈词站在画面左侧上方半身入画，衣袍下摆沉黑，面容被阴影切半；右下前景是她虚焦抬起的手与衣袖，空间深处只有冷墙和窄窗，无退路。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "屈辱、寒意、关系彻底坍塌",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 163
+  },
+  {
+    "id": "shot_0164",
+    "scene_id": "scene_011",
+    "shot_number": 18,
+    "goal": "冷收尾，把爆发后的余震落在高令宁身上，留下后续悲剧的阴影。",
+    "composition": "高令宁地面特写，人物位于画面中央偏右，呼吸急促，眼神却仍未服软；前景一缕散发贴在颈侧，背景中虚焦的房门位于远处中央，作为封闭命运的视觉回扣。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "余痛、恨意、冰冷收束",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 164
+  }
+]

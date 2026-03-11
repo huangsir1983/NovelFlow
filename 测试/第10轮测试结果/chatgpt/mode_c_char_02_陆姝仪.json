@@ -1,0 +1,64 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "沈家义妹",
+    "小姐"
+  ],
+  "role": "supporting",
+  "age_range": "16-28",
+  "appearance": {
+    "face": "面容清丽柔婉，五官秀气，泪眼盈盈时极具楚楚可怜感，肤色白皙，唇色浅淡",
+    "body": "身形纤细轻盈，气质柔弱，病中更显脆弱",
+    "hair": "柔顺乌发，多梳少女发髻或温婉妇人髻，常配浅色绢花",
+    "distinguishing_features": "粉衣、泪眼、弱不禁风的姿态与看似无害的柔顺神情"
+  },
+  "costume": {
+    "typical_outfit": "浅粉、淡杏、鹅黄等柔色襦裙，材质轻软，偏寄人篱下的雅致打扮",
+    "color_palette": [
+      "粉色",
+      "浅杏",
+      "乳白"
+    ]
+  },
+  "casting_tags": [
+    "古装白月光",
+    "柔弱外表",
+    "心机生存型",
+    "青梅表妹",
+    "悲剧女性"
+  ],
+  "visual_reference": "fragile ancient Chinese beauty, soft oval face, teary eyes, pale skin, slender body, pink hanfu, gentle but calculating expression, poetic cinematic style, ultra detailed",
+  "personality": "表面温顺懂事，实则敏感、嫉恨、擅长以弱示人，也有求生本能与算计",
+  "desire": "在无依无靠的处境中获得归宿、尊严与稳定婚配，不再任人摆布",
+  "flaw": "边界感薄弱，把他人的婚姻与偏爱视作自己生路，易将怨恨转为报复",
+  "arc": "前世因婚配不幸与执念走向死亡，重生后不再完全被动，主动设计婚局，最后坦白前因并退出",
+  "scene_presence": "主要出现在前世回忆、认义妹后与沈词的亲密场面、被逼婚、设计失贞案、满月宴坦白重生真相等关键节点",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅/表兄妹/名义兄妹",
+      "dynamic": "她依赖他，他偏袒她，情感边界长期暧昧",
+      "function": "主婚姻冲突导火索"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌/受害与加害交错",
+      "dynamic": "互相敌视，彼此都认为对方掐断了自己的生路",
+      "function": "女性对照与误会核心"
+    },
+    {
+      "target": "蒋晟",
+      "type": "设计成婚对象",
+      "dynamic": "以失贞局逼婚，婚后关系冷淡",
+      "function": "她反击命运的工具性婚姻"
+    },
+    {
+      "target": "沈母",
+      "type": "姨母/家族安排者",
+      "dynamic": "表面照拂，实则把她作为婚姻筹码安排",
+      "function": "门第婚配压力来源"
+    }
+  ]
+}

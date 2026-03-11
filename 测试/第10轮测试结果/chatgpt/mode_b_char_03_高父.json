@@ -1,0 +1,62 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "中年文官相貌，眉心有深纹，神色常带操劳与忧思",
+    "body": "身形略瘦，年岁渐长后带几分疲态",
+    "hair": "黑发夹杂花白，束冠整齐",
+    "distinguishing_features": "皱纹渐深，目光慈和却有骨气"
+  },
+  "costume": {
+    "typical_outfit": "四品文官常服、家中朴素长衫",
+    "color_palette": [
+      "褐色",
+      "藏青",
+      "灰白"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "清正官员",
+    "家族支柱",
+    "护女狂父"
+  ],
+  "visual_reference": "Middle-aged Chinese scholar-official, kind but worried face, slight graying hair, modest traditional robe, dignified and protective father figure, historical drama style",
+  "personality": "疼爱女儿、谨慎务实、仍带士人风骨",
+  "desire": "女儿平安喜乐，家族免于党争灾祸",
+  "flaw": "起初过于看重高嫁机会，也曾对门第差距抱有侥幸",
+  "arc": "从盼女高嫁到彻底看清沈家风险，最终成为高令宁和外孙女最坚决的庇护者",
+  "scene_presence": "出现在提亲、辞官、婚前叮嘱、早产风波后对峙沈家、和离保护与江南安置等关键节点",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "心疼、包容、最终无条件支持",
+      "function": "提供安全基地"
+    },
+    {
+      "target": "沈词",
+      "type": "岳父与女婿",
+      "dynamic": "从礼遇到失望，再到防备和压制",
+      "function": "现实层面对男主形成制衡"
+    },
+    {
+      "target": "沈母",
+      "type": "姻亲对立",
+      "dynamic": "围绕孩子归属与名声进行强硬交锋",
+      "function": "提高和离阶段现实张力"
+    },
+    {
+      "target": "蒋晟",
+      "type": "师生/备选女婿",
+      "dynamic": "赏识其人品，曾视作可靠婚配对象",
+      "function": "与沈家形成对照选择"
+    }
+  ]
+}

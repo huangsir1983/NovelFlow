@@ -1,0 +1,301 @@
+[
+  {
+    "id": "shot_0490",
+    "scene_id": "scene_031",
+    "shot_number": 1,
+    "goal": "建立卧房长期养胎的封闭环境，交代夜守喝药这一日常已成惯例。",
+    "composition": "FS，机位在门内偏外侧，前景左侧为半掩门框与垂落帘幕形成遮挡，中景右侧床榻被帐幔半围，高令宁卧于画面右后方偏内侧，仅露上身轮廓；画面左中部桌案上药碗、汤匙、烛火成一条低亮度视觉线，沈词坐在床边偏左背对镜头，空间被门框、帐幔、床沿切割成多层。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、疲惫、被礼法与病气封存的安静。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.35,
+    "order": 490
+  },
+  {
+    "id": "shot_0491",
+    "scene_id": "scene_031",
+    "shot_number": 2,
+    "goal": "将空间信息收束到核心道具，强调喝药是二人关系暂时维系的中心动作。",
+    "composition": "CU，前景虚化的烛焰在画面左下，焦点落在画面中央偏右的药碗与汤匙上，碗边蒸汽微起；背景虚化中可见床帐与高令宁苍白侧影，沈词的手从画面左侧托住碗底，手指绷紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到照料中的执拗与不安，而非温情。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.2,
+    "order": 491
+  },
+  {
+    "id": "shot_0492",
+    "scene_id": "scene_031",
+    "shot_number": 3,
+    "goal": "切入女主近景主观感受，呈现她虚弱却清醒的观察状态。",
+    "composition": "MCU，高令宁位于画面右侧三分之一，半倚枕上，脸被烛火切成半明半暗；前景左侧虚化出药碗边缘侵入视野，背景是层叠床帐与暗处床柱，留白集中在她视线前方。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "脆弱中带防备，身体被迫退让，心神并未退让。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.1,
+    "order": 492
+  },
+  {
+    "id": "shot_0493",
+    "scene_id": "scene_031",
+    "shot_number": 4,
+    "goal": "从高令宁主观延伸，展示沈词夜里守药的补偿行为与紧绷状态。",
+    "composition": "MCU，近似高令宁床上视线高度的主观角度，沈词位于画面左侧偏中，坐在床沿前探，药碗托于胸前；前景右下有高令宁被褥虚化边缘，背景为暗青色屏风与烛光，沈词衣襟略松，消瘦感清晰。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他的照料是真实的，但克制过头，像赎罪也像监视。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.0,
+    "order": 493
+  },
+  {
+    "id": "shot_0494",
+    "scene_id": "scene_031",
+    "shot_number": 5,
+    "goal": "放大沈词对她脸色的过度关注，暗示关系中的压力并未因退让而消失。",
+    "composition": "CU，沈词的眼睛与上半张脸占据画面中央，烛火从下侧打上，眼下阴影重；画面右前景虚化为高令宁的脸颊轮廓，形成他凝视的方向线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "审视、焦灼、把关心拍成压迫。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.15,
+    "order": 494
+  },
+  {
+    "id": "shot_0495",
+    "scene_id": "scene_031",
+    "shot_number": 6,
+    "goal": "表现高令宁对这种凝视的感受，她接受药，却不接受亲近。",
+    "composition": "CU，高令宁的眼与唇为重点，位于画面右中；药碗边缘从左侧进入，靠近却未碰到唇，颈侧淡痕在暗部若隐若现，背景全虚成一片灰暗帐纱。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "抗拒、忍耐、关系中的细刺感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 495
+  },
+  {
+    "id": "shot_0496",
+    "scene_id": "scene_031",
+    "shot_number": 7,
+    "goal": "通过手部动作拍出二人之间最小限度的接触，强调希望与负担都落在这一碗药上。",
+    "composition": "CU，画面中心是药碗与两只手：左侧沈词稳稳托碗，右侧高令宁迟缓抬手扶碗沿，二人手指并未相碰，只隔着一线空隙；前景下方是被褥褶皱，背景为烛火暖斑。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "微弱连接、谨慎靠近、如履薄冰。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 496
+  },
+  {
+    "id": "shot_0497",
+    "scene_id": "scene_031",
+    "shot_number": 8,
+    "goal": "完成喝药动作，同时让观众感知她身体承受之难。",
+    "composition": "MCU，高令宁仍在画面右侧，沈词肩背虚化占据左前景形成压迫式遮挡；她低头饮药，眉心轻蹙，烛光落在碗沿和她苍白手背上，背景帐纱暗沉。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "疼、苦、被迫维持的平静。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 497
+  },
+  {
+    "id": "shot_0498",
+    "scene_id": "scene_031",
+    "shot_number": 9,
+    "goal": "用男主反应镜头传达他对任何细微异常都高度警觉。",
+    "composition": "MCU，沈词位于画面左侧，身体略前倾欲起未起，视线紧锁画外右侧；前景右边保留高令宁肩颈虚焦轮廓，背景烛光被压在他身后，衣袍显得空落。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "紧张、怕失手、怕失去。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.25,
+    "order": 498
+  },
+  {
+    "id": "shot_0499",
+    "scene_id": "scene_031",
+    "shot_number": 10,
+    "goal": "拍出高令宁喝药后的停顿，暗示她并未被照料打动，反而在衡量沈词的变化。",
+    "composition": "CU，高令宁位于画面中央偏右，唇边残留一点湿意，眼睛不看药碗而平直看向沈词；前景左下是碗沿虚焦退出，背景保持暗帐与床柱的纵向线条。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静审视，带一丝不言明的刺。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 499
+  },
+  {
+    "id": "shot_0500",
+    "scene_id": "scene_031",
+    "shot_number": 11,
+    "goal": "用有限客观镜头观察沈词收碗后的克制动作，体现他处处退让的行为模式。",
+    "composition": "MS，机位在床侧外缘，二人同框但有床帐竖线将画面切开；右侧床上高令宁半坐，左侧沈词起身半步，将药碗放回小几，动作轻到近乎不出声。前景是帐纱虚化，背景为小几、药壶与烛台。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "一种过分小心的补救感，像在废墟里维持秩序。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.0,
+    "order": 500
+  },
+  {
+    "id": "shot_0501",
+    "scene_id": "scene_031",
+    "shot_number": 12,
+    "goal": "通过道具细节强调‘长期’与‘频繁延医问药’留下的痕迹。",
+    "composition": "CU，小几上层叠药包、药渍、空碗与铜匙占据画面中央，烛泪凝在烛台边；背景虚化中沈词回身再度坐回床边，形成习惯性循环。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "疲惫、消耗、看不见尽头的补偿。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.05,
+    "order": 501
+  },
+  {
+    "id": "shot_0502",
+    "scene_id": "scene_031",
+    "shot_number": 13,
+    "goal": "让沈词重新回到守的位置，巩固其‘不离床侧’的执念。",
+    "composition": "MS，沈词坐回画面左侧床沿，身形端直却僵硬；高令宁在右侧靠内，闭目片刻似在养神。前景下方是被褥，背景烛火位于二人中间偏后，像一枚脆弱支点。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "短暂回冷，但仍有未散的绷紧。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.1,
+    "order": 502
+  },
+  {
+    "id": "shot_0503",
+    "scene_id": "scene_031",
+    "shot_number": 14,
+    "goal": "以女主近景捕捉她身体本能地护住胎腹，强化孩子是希望也是负担。",
+    "composition": "CU，画面从高令宁胸口以下到腹部，右手隔着被褥轻覆小腹，手势极轻却停得很久；左上角有她垂落衣袖，背景全虚，只余烛光暖斑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "脆弱的守护感，带着无人可替的沉重。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 503
+  },
+  {
+    "id": "shot_0504",
+    "scene_id": "scene_031",
+    "shot_number": 15,
+    "goal": "拍出沈词注意到这个动作后的情绪波动，提示其情感高点不在言语而在压回去的反应。",
+    "composition": "CU，沈词位于画面左中，视线下落到画外右侧她的腹部，喉结轻动，唇线收紧；前景右下虚化出高令宁覆腹的手，背景烛火被他的肩影遮去一半。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "心软、愧疚、近乎失控却强行压下。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 504
+  },
+  {
+    "id": "shot_0505",
+    "scene_id": "scene_031",
+    "shot_number": 16,
+    "goal": "以两人同框收束本场，呈现脆弱和平：距离仍在，但共同被一个未出生的孩子拴住。",
+    "composition": "MLS，机位退到帐外，帘幕作前景纵向遮挡，将两人框在同一层薄纱之后；高令宁靠右卧坐，沈词靠左守坐，二人之间隔着床沿与暗部空隙，小几上的空药碗在画面下中作为视觉句点，背景烛火微晃。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "短暂平稳中的隐患，为更大的失去预蓄阴影。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": -0.15,
+    "order": 505
+  }
+]

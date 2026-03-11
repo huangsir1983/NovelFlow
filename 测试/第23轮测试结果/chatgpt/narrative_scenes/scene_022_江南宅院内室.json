@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_022",
+  "order": 21,
+  "heading": "INT. 江南卧房 - NIGHT",
+  "location": "江南宅院内室",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁"
+  ],
+  "core_event": "沈词来信谎称沈母已为他选好大家闺秀即将成亲，试探高令宁是否在意。高令宁一夜难眠后回信祝他百年好合，并提醒婚后别忘寄钱。",
+  "key_dialogue": "祝你和新夫人百年好合……婚后莫忘寄钱。",
+  "emotional_peak": "女主虽彻夜难眠，却仍选择理智地不回头，彻底表明抽离立场。",
+  "tension_score": 0.62,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "试探书信",
+    "笔墨纸砚",
+    "烛台"
+  ],
+  "dramatic_purpose": "用书信完成一轮情感试探，证明女主已不再被男主牵动回归婚姻。",
+  "source_text_start": "直到一次，他特意在信里写道：「母亲已经为我",
+  "source_text_end": "这次书信寄过去，宛如石沉大海。久久没有回信。"
+}

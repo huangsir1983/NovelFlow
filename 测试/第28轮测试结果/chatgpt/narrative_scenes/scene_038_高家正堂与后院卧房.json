@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_038",
+  "order": 37,
+  "heading": "INT. 高家正堂/后院 - day",
+  "location": "高家正堂与后院卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "沈词",
+    "父亲",
+    "我",
+    "昭昭"
+  ],
+  "core_event": "沈词跪求见妻女，父亲当面摆出和离书并说已备赘婿人选，沈词失控闯入后院质问我，我则平静重申按约和离。",
+  "key_dialogue": "「按照我们约定好的，和离。」",
+  "emotional_peak": "我正式把他从自己的未来里剔除，他却第一次显出失态。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 145,
+  "key_props": [
+    "和离书",
+    "雕花木门",
+    "襁褓"
+  ],
+  "dramatic_purpose": "正式启动和离主线，让沈词从掌控者变成被抛弃的一方。",
+  "visual_reference": "正堂里男子笔直下跪，和离书摆在面前；下一镜闯入后院，门被猛然推开，女子抱着婴儿平静看向狼狈的他，反差强烈",
+  "visual_prompt_negative": "避免夸张打砸，避免法庭感，避免人物过多",
+  "source_text_start": "唯有沈词。 笔直地跪在我父亲面前，只为见我和女儿一面。",
+  "source_text_end": "「我们性情不合，强行活在一处，只会互相折磨。」"
+}

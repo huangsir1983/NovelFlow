@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_011",
+  "name": "高府产房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸产房",
+  "description": "临时改建的产房，中央产床铺血巾与稳婆工具，旁边小桌放药碗与婴儿摇篮，墙面挂帘布遮挡，地面木板，烛火照明，空间紧迫而紧张。",
+  "visual_reference": "Urgent Ming dynasty late period official mansion delivery room interior at night, central birthing bed with blood-stained cloths and midwife tools, side table with medicine bowl and infant cradle, hanging curtains for privacy, wooden floor, candlelit tense atmosphere, period medical details",
+  "atmosphere": "生死攸关的紧张与希望",
+  "color_palette": [
+    "血红",
+    "烛黄",
+    "深灰"
+  ],
+  "lighting": "多盏烛火与油灯交织，投下剧烈明暗对比",
+  "key_features": [
+    "产床血巾",
+    "稳婆工具",
+    "婴儿摇篮"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "生死抉择与泪水"
+}

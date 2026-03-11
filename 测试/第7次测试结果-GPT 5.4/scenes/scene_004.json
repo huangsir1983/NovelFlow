@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "id": "scene_004",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:37:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_004",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 书房 - 日",
+    "location": "高府书房",
+    "time_of_day": "day",
+    "description": "半封闭书房，白日自然光从窗侧斜入，照亮书案上的奏折纸页。书架与案桌构成紧凑空间，笔架、砚台、印信摆放整齐。氛围克制而沉重，像一场无声谈判。",
+    "action": "高父伏案提笔，缓慢写下辞官奏折。高令宁站在书案旁，目光紧盯纸面，直到最后一笔落下才微微松肩，长出一口气。她随即想起高父胸口旧疾，转身准备出门去医馆抓药。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了，否则稍有不慎，便是抄家灭门之灾。",
+        "subtext": "我必须逼你抽身保命，这比任何前程都重要。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "辞官奏折",
+      "毛笔",
+      "砚台",
+      "书案"
+    ],
+    "dramatic_purpose": "推动高父退出朝局，展示高令宁主动改写命运、保全家门的行动选择。",
+    "tension_score": 0.55,
+    "dramatic_intensity": 0.1,
+    "order": 4
+  }
+}

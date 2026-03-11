@@ -1,0 +1,45 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-60",
+  "appearance": {
+    "face": "圆熟世故，笑容殷勤",
+    "body": "中等身材",
+    "hair": "整齐发髻",
+    "distinguishing_features": "典型喜事中周旋说和的市侩气"
+  },
+  "costume": {
+    "typical_outfit": "喜气却不失体面的妇人长衫",
+    "color_palette": [
+      "暗红",
+      "褐金"
+    ]
+  },
+  "casting_tags": [
+    "说媒人",
+    "世故",
+    "礼法代言"
+  ],
+  "visual_reference": "古代媒婆，面容圆熟带讨好笑意，穿暗红褐金色喜庆衣衫，手捧礼单或木雁，站在正堂中，写实古风",
+  "visual_prompt_negative": "现代职业装、夸张丑角化、动漫风",
+  "personality": "圆滑、会看脸色",
+  "desire": "促成婚事，保住脸面",
+  "flaw": "趋炎附势",
+  "arc": "功能性角色，无明显成长",
+  "scene_presence": "出现在提亲与聘礼冲突中",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "说合关系",
+      "dynamic": "劝她不要闹脾气",
+      "function": "衬托女主反常举动"
+    },
+    {
+      "target": "沈词",
+      "type": "婚事中间人",
+      "dynamic": "替沈家传递求亲姿态",
+      "function": "引出双方重生试探"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "中年文官相貌，面容儒雅，眼角皱纹明显，神情常带担忧与慈爱",
+    "body": "中等身形，年岁渐长略显疲态，偶有胸口旧疾",
+    "hair": "黑发夹杂花白，整齐束冠",
+    "distinguishing_features": "书卷气浓，神色温和却在护女时极其强硬"
+  },
+  "costume": {
+    "typical_outfit": "四品官员常服、家居时深色宽袍",
+    "color_palette": [
+      "深青",
+      "褐色",
+      "灰白"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "旧式官员",
+    "护女",
+    "温厚持重"
+  ],
+  "visual_reference": "middle-aged ancient chinese official, gentle scholarly face, slight wrinkles, dark official robe, caring father, realistic historical style",
+  "personality": "温厚谨慎，爱女心切，顾家重情",
+  "desire": "保全高家，保护女儿平安喜乐，不让她重蹈委屈婚姻",
+  "flaw": "门第观念与现实顾虑让他早期对沈家有过妥协",
+  "arc": "从对高门婚事心动到彻底看清沈家风险，成为女儿最坚实的后盾",
+  "scene_presence": "提亲、辞官、婚前劝诫、生产危机后决裂、阻止夺女、安排赘婿等场景均有重要作用。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "深情守护，给予退路和底气",
+      "function": "女主安全网与道德支持"
+    },
+    {
+      "target": "沈词",
+      "type": "岳父与女婿",
+      "dynamic": "从客套接纳转为强烈不信任和防备",
+      "function": "现实阻力与裁判"
+    },
+    {
+      "target": "昭昭",
+      "type": "外祖父与外孙女",
+      "dynamic": "偏爱庇护，把她留在高家",
+      "function": "巩固女主脱离沈家的可能"
+    }
+  ]
+}

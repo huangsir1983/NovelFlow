@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_015",
+  "name": "高府宴厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸宴厅",
+  "description": "高府宴会大厅，宽敞宴席布局，长桌环绕宾客席，中央主桌，墙挂请帖与灯笼，梁柱喜庆装饰，地面红毯，空间感热闹却疏离，适合坦白道歉场景。",
+  "visual_reference": "明代中晚期官宦府邸高府宴厅内部，宽敞古典中式宴会厅，长桌与主桌环绕，墙挂请帖与红灯笼，梁柱饰花纹，红毯地面，日光透过窗格，震惊疏离氛围，高清写实细节，古代中国风格",
+  "visual_prompt_negative": "现代家具、电灯、霓虹灯、西方装饰、卡通风格、塑料材质",
+  "atmosphere": "热闹震惊疏离",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "木棕",
+    "灯笼橙"
+  ],
+  "lighting": "明亮日光与灯笼辅光，营造正式却震惊的白天氛围",
+  "key_features": [
+    "长宴桌",
+    "红灯笼",
+    "请帖墙饰"
+  ],
+  "narrative_scenes": [
+    "scene_016"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "陆坦白重生设计后的震惊疏离行礼"
+}

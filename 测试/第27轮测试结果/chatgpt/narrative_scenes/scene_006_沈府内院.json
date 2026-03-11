@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "FLASHBACK. 沈府内院与书房 - day",
+  "location": "沈府内院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "前世婚后，我强撑着做完美主母，父亲获罪时却宁愿四处下跪也不向夫君低头，夫妻裂痕进一步加深。",
+  "key_dialogue": "你究竟是我沈家妇，还是高家女？",
+  "emotional_peak": "自尊与婚姻撕扯到极点",
+  "tension_score": 0.86,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "账册",
+    "官府文书",
+    "求助名帖"
+  ],
+  "dramatic_purpose": "说明两人不仅有第三者问题，更有根深蒂固的性格冲突和信任缺失。",
+  "visual_reference": "蒙太奇式古风场景，女子天未亮起身查账、深夜执灯，后又在权贵门前低头求助，转入书房夫妻冷峙，男子冷声质问，疲惫与锋利并存，写实历史感",
+  "visual_prompt_negative": "避免宫廷皇宫元素、避免现代文件、避免夸张哭戏、避免暖甜光效",
+  "source_text_start": "自那后，再没人敢在我面前提陆姝仪三个字。",
+  "source_text_end": "「你这般防我，可曾把我当作你的夫婿？」"
+}

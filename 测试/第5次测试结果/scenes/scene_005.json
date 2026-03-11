@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "id": "scene_005",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:29:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 陆家府邸 - DAY",
+    "location": "陆家府邸外",
+    "time_of_day": "day",
+    "description": "高门府邸前庭与街面相连，空间开阔却被官兵封死去路。白日天光直落，门匾下尘土飞扬，封条、抄检箱笼、翻倒的家具与散落的家什构成凌乱画面。原本体面的宅门被撕开秩序，气氛压迫而冷硬。",
+    "action": "官兵进出陆家搬检财物，箱笼被抬上车，家眷被驱赶出门。陆姝仪立在混乱中，衣饰虽未尽失体面却明显仓促，手里攥紧帕子不放，指节发白。她被人群裹挟着后退，回头望向府门。关于她失去正妻资格、婚事生变的信息，在这一场面中被外化为她从内宅小姐跌入流放亲眷的处境。",
+    "dialogue": [],
+    "characters_present": [
+      "陆姝仪"
+    ],
+    "key_props": [
+      "封条",
+      "抄检箱笼",
+      "散落家什",
+      "手帕"
+    ],
+    "dramatic_purpose": "交代前情根源：陆家被抄没导致陆姝仪失势，直接动摇她与沈词原有婚配可能，为沈家另择新妇埋因。",
+    "tension_score": 0.72,
+    "order": 5
+  }
+}

@@ -1,7 +1,7 @@
 'use client';
 
 import { create } from 'zustand';
-import type { Project, Chapter, Beat, Scene, Character, Location } from '../types/project';
+import type { Project, Chapter, Beat, Scene, Shot, ShotGroup, Character, Location } from '../types/project';
 
 interface ProjectStoreState {
   // Data
@@ -9,6 +9,8 @@ interface ProjectStoreState {
   chapters: Chapter[];
   beats: Beat[];
   scenes: Scene[];
+  shots: Shot[];
+  shotGroups: ShotGroup[];
   characters: Character[];
   locations: Location[];
   worldBuilding: Record<string, unknown>;
@@ -25,15 +27,30 @@ interface ProjectStoreState {
   loading: boolean;
   importing: boolean;
 
+  // Import task state
+  importTaskId: string | null;
+  importPhase: string | null;
+  importProgress: Record<string, number>;
+
   // Actions
   setProject: (project: Project | null) => void;
   setChapters: (chapters: Chapter[]) => void;
   setBeats: (beats: Beat[]) => void;
   setScenes: (scenes: Scene[]) => void;
+  setShots: (shots: Shot[]) => void;
+  setShotGroups: (groups: ShotGroup[]) => void;
   setCharacters: (characters: Character[]) => void;
   setLocations: (locations: Location[]) => void;
   setWorldBuilding: (wb: Record<string, unknown>) => void;
   setStyleGuide: (sg: Record<string, unknown>) => void;
+
+  // Incremental update actions (for SSE)
+  addCharacter: (character: Character) => void;
+  addScene: (scene: Scene) => void;
+  addBeat: (beat: Beat) => void;
+  addLocation: (location: Location) => void;
+  addShot: (shot: Shot) => void;
+  addShotGroup: (group: ShotGroup) => void;
 
   selectChapter: (id: string | null) => void;
   selectBeat: (id: string | null) => void;
@@ -43,6 +60,9 @@ interface ProjectStoreState {
 
   setLoading: (loading: boolean) => void;
   setImporting: (importing: boolean) => void;
+  setImportTaskId: (taskId: string | null) => void;
+  setImportPhase: (phase: string | null) => void;
+  setImportProgress: (progress: Record<string, number>) => void;
 
   updateBeat: (id: string, updates: Partial<Beat>) => void;
   updateScene: (id: string, updates: Partial<Scene>) => void;
@@ -55,6 +75,8 @@ const initialState = {
   chapters: [],
   beats: [],
   scenes: [],
+  shots: [],
+  shotGroups: [],
   characters: [],
   locations: [],
   worldBuilding: {},
@@ -66,6 +88,9 @@ const initialState = {
   activeSection: 'chapters' as const,
   loading: false,
   importing: false,
+  importTaskId: null,
+  importPhase: null,
+  importProgress: {},
 };
 
 export const useProjectStore = create<ProjectStoreState>((set) => ({
@@ -75,10 +100,26 @@ export const useProjectStore = create<ProjectStoreState>((set) => ({
   setChapters: (chapters) => set({ chapters }),
   setBeats: (beats) => set({ beats }),
   setScenes: (scenes) => set({ scenes }),
+  setShots: (shots) => set({ shots }),
+  setShotGroups: (shotGroups) => set({ shotGroups }),
   setCharacters: (characters) => set({ characters }),
   setLocations: (locations) => set({ locations }),
   setWorldBuilding: (worldBuilding) => set({ worldBuilding }),
   setStyleGuide: (styleGuide) => set({ styleGuide }),
+
+  // Incremental updates for SSE streaming
+  addCharacter: (character) =>
+    set((state) => ({ characters: [...state.characters, character] })),
+  addScene: (scene) =>
+    set((state) => ({ scenes: [...state.scenes, scene] })),
+  addBeat: (beat) =>
+    set((state) => ({ beats: [...state.beats, beat] })),
+  addLocation: (location) =>
+    set((state) => ({ locations: [...state.locations, location] })),
+  addShot: (shot) =>
+    set((state) => ({ shots: [...state.shots, shot] })),
+  addShotGroup: (group) =>
+    set((state) => ({ shotGroups: [...state.shotGroups, group] })),
 
   selectChapter: (id) => set({ selectedChapterId: id }),
   selectBeat: (id) => set({ selectedBeatId: id }),
@@ -88,6 +129,9 @@ export const useProjectStore = create<ProjectStoreState>((set) => ({
 
   setLoading: (loading) => set({ loading }),
   setImporting: (importing) => set({ importing }),
+  setImportTaskId: (importTaskId) => set({ importTaskId }),
+  setImportPhase: (importPhase) => set({ importPhase }),
+  setImportProgress: (importProgress) => set({ importProgress }),
 
   updateBeat: (id, updates) =>
     set((state) => ({

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 孕期夫人",
+  "tags": [
+    "孕妇",
+    "怀孕",
+    "绣活"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "沈家内室怀孕绣虎头帽期间",
+  "appearance_delta": {
+    "face": "清丽端庄，杏眼柳眉，眼神锐利坚定中增添一丝母性柔和",
+    "body": "纤细但腹部微隆",
+    "hair": "乌黑长发盘成精致发髻",
+    "distinguishing_features": "孕期体态与不屈要强气质的结合"
+  },
+  "costume_override": {
+    "outfit": "宽松广袖罗裙",
+    "color_palette": [
+      "素白",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "elegant pregnant Chinese noblewoman in loose white and pale green Hanfu revealing subtle baby bump, sharp phoenix eyes with determination and quiet maternal strength, porcelain fair skin, long silky black hair in elaborate updo with hairpins, gracefully embroidering in ancient inner chamber, proud posture, highly detailed 8k",
+  "visual_prompt_negative": "modern clothes, short hair, western face, heavy makeup, weak submissive pose, smiling weakly, flat stomach, red wedding dress",
+  "emotional_tone": "淡定要强、平静独立"
+}

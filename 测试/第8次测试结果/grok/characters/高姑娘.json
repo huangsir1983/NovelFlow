@@ -1,0 +1,77 @@
+{
+  "name": "高姑娘",
+  "aliases": [
+    "高小姐"
+  ],
+  "role": "protagonist",
+  "age_range": "18-22",
+  "appearance": {
+    "face": "清丽端庄的脸庞，柳眉杏眼，眼神锐利而深沉，带着重\n生者的洞察与隐忍，薄唇微抿时显露坚定",
+    "body": "修长苗条的身材，姿态优雅从容，举止间流露大家闺秀的教养与内在力量",
+    "hair": "乌黑如瀑的长发，常挽成精致云髻，饰以简单玉簪或步摇",
+    "distinguishing_features": "那双透着前世沧桑却今生决绝的明亮杏眼"
+  },
+  "costume": {
+    "typical_outfit": "素雅的襦裙或常服，上身交领襦衣，下身百褶裙，绣淡雅纹样",
+    "color_palette": [
+      "浅蓝",
+      "素白",
+      "淡青"
+    ],
+    "texture_keywords": [
+      "丝绸",
+      "轻纱",
+      "锦缎"
+    ]
+  },
+  "casting_tags": [
+    "古风重生女主",
+    "智慧美人",
+    "坚强独立",
+    "战略型女主角"
+  ],
+  "visual_reference": "Elegant young ancient Chinese woman with sharp intelligent almond eyes showing determination and hidden wisdom, long jet-black hair in intricate updo with jade pins, slender graceful figure, wearing light blue and white hanfu silk dress, resolute beautiful expression, detailed historical drama style",
+  "description": "重生后冷静策略、坚定提出和离以摆脱婚姻纠缠的古代女主角",
+  "personality": "冷静理性、外柔内刚，善于观察人心并精准试探（如退木雁），关键时刻果断决绝，不为情感所动",
+  "desire": "彻底与沈词和离，斩断前世纠缠，实现命运自主与个人独立，不再重复家族悲剧",
+  "flaw": "情感高度封闭，对亲密关系存有前世创伤恐惧，可能在追求独立时忽略与儿子睿儿的情感联结",
+  "arc": "从前世婚姻受害者重生后（起点）→通过试探沈词、战略婚姻与怀孕事件（转变触发）→最终拒绝维持婚姻，坚持和离走向自由（终点）",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感/权力",
+      "dynamic": "双方重生却相互厌恶与试探，她主动退礼并坚持和离，他从震惊到挽留，形成冷淡对峙与权力博弈",
+      "function": "主要叙事对立面与情感冲突核心"
+    },
+    {
+      "target": "青梅",
+      "type": "对照",
+      "dynamic": "沈词极尽疼爱义妹与对她的漠然形成强烈对比，强化她对婚姻的厌弃与和离决心",
+      "function": "情感催化剂，凸显婚姻不公"
+    },
+    {
+      "target": "父亲",
+      "type": "权力/情感",
+      "dynamic": "父亲质问她拿乔与坚持要嫁，她冷笑回应并坚定宣告，父女间从冲突到微妙支持",
+      "function": "家庭权威与复仇/掌控计划的外部阻力"
+    },
+    {
+      "target": "媒人",
+      "type": "利益",
+      "dynamic": "媒人提亲时她当场退雁引发惊慌，用于试探沈词，形成短暂紧张张力",
+      "function": "提亲仪式工具，推动双重生秘密初次碰撞"
+    },
+    {
+      "target": "大夫",
+      "type": "利益",
+      "dynamic": "确诊男胎后她保持沉默拒绝沈词建议，工具性互动凸显她的理性",
+      "function": "情节转折触发者，强化和离决心"
+    },
+    {
+      "target": "睿儿",
+      "type": "情感",
+      "dynamic": "前世名相儿子，今生成为沈词维持婚姻理由，她怀孕后仍选择和离，展现母性与自由的内在冲突",
+      "function": "未来情感锚点与角色成长考验"
+    }
+  ]
+}

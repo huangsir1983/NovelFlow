@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "id": "scene_021",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:14"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 荷花亭 - 午后",
+    "location": "荷花亭",
+    "time_of_day": "day",
+    "description": "开阔外景，亭子临水，午后自然光自上方与侧前方照下，水面反光映在人物衣饰上。亭内可见栏杆、荷叶、荷花与水面，环境清雅却形成反讽。陆姝仪笑吟吟站或坐在亭内，姿态从容；高令宁与她相对，气氛表面平静，实则带刺。此场景为回忆性质，但视觉上应清晰可拍，带有过去时的明亮和冷意。",
+    "action": "陆姝仪含笑看着高令宁，语气轻柔却字字见锋。她手扶亭栏，神情笃定，像是在炫耀已有的胜利。高令宁站在对面，身形绷紧，听着这些话，面上克制不动，手指却可能收紧衣袖或栏杆，压住情绪。两人之间没有肢体冲突，但言语形成压迫。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "有些事，是强求不来的。",
+        "subtext": "你再努力也得不到他真正的心。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "恰如你是他的妻子，可得到的疼爱，却只是我手头缝里流出来的一点。",
+        "subtext": "我才是被偏爱的那个，你只是名分上的赢家。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "你辛辛苦苦追求的，我轻而易举便得到了。",
+        "subtext": "你的全部努力都无法与我的天然优势相比。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "高姑娘，你不觉得自己很可笑吗？",
+        "subtext": "我要羞辱你，让你承认自己在这段关系里彻底失败。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "亭栏",
+      "荷花",
+      "荷叶",
+      "水面"
+    ],
+    "dramatic_purpose": "作为情感根源的回忆补刀，揭示高令宁决绝背后的旧怨与长期屈辱，为当前场景中的“不退”提供深层动机支撑。",
+    "tension_score": 0.68,
+    "dramatic_intensity": 0.36,
+    "order": 21
+  }
+}

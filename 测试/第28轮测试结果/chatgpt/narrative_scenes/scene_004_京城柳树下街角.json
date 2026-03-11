@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "FLASHBACK. 京城街巷柳树下 - day",
+  "location": "京城柳树下街角",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "少女时期的我在柳树下被沈词捡起发钗，因他温和守礼的举动而情根初种。",
+  "key_dialogue": "无",
+  "emotional_peak": "初恋般的心动成为后续悲剧的反衬。",
+  "tension_score": 0.32,
+  "estimated_duration_s": 45,
+  "key_props": [
+    "发钗",
+    "丝帕"
+  ],
+  "dramatic_purpose": "补足女主前世爱慕的起点，为后续幻灭提供情感反差。",
+  "visual_reference": "春日柳枝低垂的京城街巷，少年隔着丝帕递回发钗，少女怔怔望着他，光线柔和，气质清润含蓄",
+  "visual_prompt_negative": "避免现代服饰，避免拥挤市场喧闹破坏氛围，避免夸张偶像剧滤镜",
+  "source_text_start": "也爱慕他在柳树枝下为我拾起发钗，",
+  "source_text_end": "现在想来，当真是一场梦。"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "赘婿甲",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "20-25岁",
+  "appearance": {
+    "face": "相貌出众，温顺",
+    "body": "修长",
+    "hair": "半束发",
+    "distinguishing_features": "举止体贴入微"
+  },
+  "costume": {
+    "typical_outfit": "江南风流才子装扮",
+    "color_palette": [
+      "竹青",
+      "水墨"
+    ]
+  },
+  "casting_tags": [
+    "清秀小生",
+    "温柔"
+  ],
+  "visual_reference": "A handsome young ancient Chinese man, gentle and submissive expression, wearing elegant light green clothes, cinematic lighting.",
+  "personality": "温顺听话，极具眼色",
+  "desire": "讨好高令宁",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "江南雪天、夜半卧室",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "名义夫婿",
+      "dynamic": "百依百顺",
+      "function": "刺激沈词破防的终极道具"
+    }
+  ]
+}

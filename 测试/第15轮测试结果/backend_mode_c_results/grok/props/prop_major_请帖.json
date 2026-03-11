@@ -1,0 +1,14 @@
+{
+  "name": "请帖",
+  "category": "document",
+  "description": "红色宣纸请帖，尺寸20cm×15cm折叠形式，外封红色烫金花纹与丝带装饰，内页毛笔楷书书写宴会细节（如满月宴），边框有精美云纹工艺。",
+  "visual_reference": "古代中国红色喜帖，宣纸材质烫金装饰，精美手写墨字邀请内容，红丝带封口，摊开或密封状态，古风精致工艺，暖光照明",
+  "visual_prompt_negative": "现代打印请柬、塑料卡片、西式邀请函、脏污破损、电脑字体",
+  "narrative_function": "用于蒋晟请帖推动满月宴场景，陆姝仪不请自来引发冲突，揭示人物关系张力与社交对比",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_012",
+    "scene_016"
+  ],
+  "emotional_association": "社交紧张与羡慕嫉妒"
+}

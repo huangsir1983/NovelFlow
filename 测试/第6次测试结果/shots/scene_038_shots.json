@@ -1,0 +1,310 @@
+[
+  {
+    "id": "shot_0573",
+    "scene_id": "scene_038",
+    "shot_number": 1,
+    "goal": "建立婚房内外的空间分隔与气氛反差，交代新婚余温未散却即将被外部打断。",
+    "composition": "房门位于画面左三分之一，门内右侧可见凌乱床榻与半垂床帐，床边红烛在前景右侧虚化摇曳，地面散落褶皱被角与衣物形成私密痕迹；门板将画面切成内外两个层次，内暖外冷。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众先感到私密、余热与即将被冒犯的不祥感。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.18,
+    "order": 573
+  },
+  {
+    "id": "shot_0574",
+    "scene_id": "scene_038",
+    "shot_number": 2,
+    "goal": "以女主感知方式引入突发叩门，打断室内氛围。",
+    "composition": "红烛火焰占据左前景，后景虚化中房门木纹轻震；火光随叩门声微颤，右侧留出大片暗部，形成声源压迫方向。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造突兀侵入感与不耐烦的刺痛。",
+    "duration_hint": "1-2s",
+    "characters": [],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 574
+  },
+  {
+    "id": "shot_0575",
+    "scene_id": "scene_038",
+    "shot_number": 3,
+    "goal": "交代门外传话者的姿态与阶级关系，并明确信息来自门外另一个女人。",
+    "composition": "机位在门外，婢女跪于画面中央偏下，额头略低，门板占据右侧大面积，形成拒绝进入的阻隔；走廊冷色月光压在背景，室内门缝透出暖红烛光，冷暖对撞明显。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到礼法秩序下的冒犯与外来压力。",
+    "duration_hint": "3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.4,
+    "order": 575
+  },
+  {
+    "id": "shot_0576",
+    "scene_id": "scene_038",
+    "shot_number": 4,
+    "goal": "通过隔门禀报完成关键信息传递：陆姝仪醉酒心口痛，请沈词过去。",
+    "composition": "保持门外轴线，婢女仍跪在画面左下，门板占右半壁，镜头略低看她，强化其传话工具属性；背景空廊压出孤冷，门缝微亮成为唯一视觉出口。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到召唤不是请求，而是对婚房的公然切入。",
+    "duration_hint": "4s",
+    "characters": [],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 576
+  },
+  {
+    "id": "shot_0577",
+    "scene_id": "scene_038",
+    "shot_number": 5,
+    "goal": "切回女主反应，显示她并不惊怒，而是冷眼看穿旧戏码。",
+    "composition": "高令宁靠床内侧位于画面右侧，半身藏在被子与床帐后，手将被子拉至肩头；前景左侧虚化为沈词立于床边的暗色衣摆，形成压迫性存在；背景红烛暖光擦过她冷白侧脸。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的冷静里带着讽刺与抽离。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 577
+  },
+  {
+    "id": "shot_0578",
+    "scene_id": "scene_038",
+    "shot_number": 6,
+    "goal": "突出女主那一声轻嗤，把被打断的新婚夜转为嘲讽场。",
+    "composition": "高令宁下半张脸与唇角占据画面中央，鬓发与被角在前景形成包裹，背景红烛散成一枚暖色虚光；她视线不看门也不看沈词，只微侧开。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "放大她对这场召唤的轻蔑与看透。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 578
+  },
+  {
+    "id": "shot_0579",
+    "scene_id": "scene_038",
+    "shot_number": 7,
+    "goal": "建立沈词被置于夹层中的位置：门外在催，床上人却背身不挽留。",
+    "composition": "侧面双人构图，高令宁背对镜头躺于画面右侧前景，肩背与被褶形成封闭面；沈词立于床边画面左中，身后远处是门的方向和一道冷色门缝光，人物被夹在床与门之间。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到关系上的割裂与无形对峙。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 579
+  },
+  {
+    "id": "shot_0580",
+    "scene_id": "scene_038",
+    "shot_number": 8,
+    "goal": "由女主主动放行，完成态度转变的第一次明确表态。",
+    "composition": "从高令宁背后略偏侧拍，她的后脑与肩线占据右前景，沈词虚焦在左后景；构图重心落在她未回头的姿态上，床帐垂线像隔断，将两人切开。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的决绝是平静说出的，比哭闹更锋利。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.62,
+    "order": 580
+  },
+  {
+    "id": "shot_0581",
+    "scene_id": "scene_038",
+    "shot_number": 9,
+    "goal": "落下‘你去吧。也不必回来了。’的完整杀伤力，并强调她背对不看他。",
+    "composition": "高令宁背影占画面中央偏右，后颈与发髻线条清晰，被子如一道白色屏障横过下半部；左侧留出空位给沈词却不让他入焦，形成被剥夺回应位置的视觉效果。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她不是赌气，而是抽身。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 581
+  },
+  {
+    "id": "shot_0582",
+    "scene_id": "scene_038",
+    "shot_number": 10,
+    "goal": "捕捉沈词被她的冷淡刺中的瞬间，展示他由被召唤转为被冒犯。",
+    "composition": "沈词半身位于画面左侧，身形挺直却微僵，目光落向床上背影；右前景虚化为高令宁肩背轮廓，背景门缝冷光与近处暖烛光共同切割他的脸，一半冷一半暖。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他生出的不是愧疚，而是讥诮防备。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 582
+  },
+  {
+    "id": "shot_0583",
+    "scene_id": "scene_038",
+    "shot_number": 11,
+    "goal": "强化沈词盯着她背影的攻击性，酝酿他接下来的翻旧账。",
+    "composition": "沈词双眼与眉骨占据画面中心，视线朝右；右侧边缘虚化出高令宁的背部暗影作为他的凝视目标，背景完全压暗，仅留眼中一点烛火反光。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到压抑、审视与旧怨将被掀开。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.7,
+    "order": 583
+  },
+  {
+    "id": "shot_0584",
+    "scene_id": "scene_038",
+    "shot_number": 12,
+    "goal": "通过沈词台词明确他仍以旧印象定义她，认定她会吃醋告状。",
+    "composition": "维持同轴线正反打，沈词在画面左中近景，肩线略朝床方向；前景右下是床帐虚影，像一道他试图穿透却无法控制的帘幕。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他的讥诮里藏着先入为主与防御。",
+    "duration_hint": "5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 584
+  },
+  {
+    "id": "shot_0585",
+    "scene_id": "scene_038",
+    "shot_number": 13,
+    "goal": "表现女主听见前世式指控后的短暂停顿，但仍拒绝回头，把反应压住。",
+    "composition": "镜头贴近高令宁后颈与侧脸边缘，她位于画面右侧，左侧大片虚空是沈词所在方向；颈侧淡痕在烛光下若隐若现，被子与床帐形成层层遮挡。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到旧伤被刺中，却被她强行按下。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 585
+  },
+  {
+    "id": "shot_0586",
+    "scene_id": "scene_038",
+    "shot_number": 14,
+    "goal": "用双人隔空构图把这场夫妻对话明确成冷战，而非争吵。",
+    "composition": "横向构图中，沈词立于左侧中景，高令宁卧于右侧床上背身，二人中间留出一块空床榻与垂帐作为关系裂缝；前景红烛虚化在下方，像将熄未熄的婚仪余火。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到两人同处一室却已分处两端。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.74,
+    "order": 586
+  },
+  {
+    "id": "shot_0587",
+    "scene_id": "scene_038",
+    "shot_number": 15,
+    "goal": "落下女主核心态度：她不争、不告，因为这段婚姻本就注定终结。",
+    "composition": "从沈词肩后反打高令宁，沈词肩背占左前景虚化，高令宁仍背对，只露出微侧的下颌线与唇；床帐在上方压下，构成礼法壳子下的冷判词。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的放弃比控诉更伤人，也更不可逆。",
+    "duration_hint": "5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 587
+  },
+  {
+    "id": "shot_0588",
+    "scene_id": "scene_038",
+    "shot_number": 16,
+    "goal": "捕捉沈词被‘和离’二字击中的反应，为后续关系升级埋下刺。",
+    "composition": "沈词定在画面中央，身后门板与冷光形成硬直竖线，脸上讥诮一瞬收紧；下方一角保留烛火暖影，显示他仍站在婚房里却被话语推出门外。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到他第一次意识到她不是欲擒故纵，而是真的抽离。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 588
+  },
+  {
+    "id": "shot_0589",
+    "scene_id": "scene_038",
+    "shot_number": 17,
+    "goal": "以门和床同框收束全场，保留去与不去、回与不回的悬念，同时完成情绪冷收。",
+    "composition": "机位退回房内全景，床榻在右，房门在左，沈词立于中间偏左成为被两端牵扯的孤立点；高令宁背身静止在床上几乎不动，门外冷光从门缝压入，红烛在右前景将尽未尽。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众在冰冷僵持中感到婚房已名存实亡。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 589
+  }
+]

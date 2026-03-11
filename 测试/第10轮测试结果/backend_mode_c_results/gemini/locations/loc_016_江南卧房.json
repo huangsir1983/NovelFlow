@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_016",
+  "name": "江南卧房",
+  "type": "interior",
+  "era_style": "明清江南民居/园林内室",
+  "description": "舒适但不算奢华的江南卧房。有一张宽大的木制床榻，铺着厚实的被子。床下打着一个简陋的地铺，放着枕头。窗外雷雨交加，偶尔有闪电和冷冷的月光透过窗棂照进室内。",
+  "visual_reference": "Interior of a cozy traditional Jiangnan Chinese bedroom at night. A large wooden bed with thick quilts, a simple floor bed made of blankets on the ground. Thunderstorm outside, flashes of lightning and cold moonlight piercing through wooden window frames. Moody, dramatic, highly detailed.",
+  "atmosphere": "幽暗、凄凉、极致的偏执",
+  "color_palette": [
+    "#000080",
+    "#A9A9A9",
+    "#8B4513"
+  ],
+  "lighting": "极度昏暗，主要光源来自窗外偶尔闪过的雷电和清冷的月光，室内几乎没有暖光源。",
+  "key_features": [
+    "简陋的地铺",
+    "宽大的床榻",
+    "透着月光的窗棂"
+  ],
+  "narrative_scenes": [
+    "scene_018"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从争风吃醋的滑稽到死死握住手腕的凄凉偏执与卑微。"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-60",
+  "appearance": {
+    "face": "焦急干练，年长妇人",
+    "body": "普通体态",
+    "hair": "紧束发髻",
+    "distinguishing_features": "产房中急切发问“保大保小”"
+  },
+  "costume": {
+    "typical_outfit": "便于劳作的深色妇人衣裳",
+    "color_palette": [
+      "深褐",
+      "灰黑"
+    ]
+  },
+  "casting_tags": [
+    "产婆",
+    "急救现场",
+    "现实压迫"
+  ],
+  "visual_reference": "古代稳婆，年长妇人，神色焦急，穿深色便于行动的衣裙，满头汗水立于产房中，古风写实",
+  "visual_prompt_negative": "现代护士服、卡通风、夸张妆容",
+  "personality": "务实、急切",
+  "desire": "保住产妇与孩子",
+  "flaw": "受制于男主决定",
+  "arc": "无",
+  "scene_presence": "核心出现于高令宁难产生产场景",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医产关系",
+      "dynamic": "在生死边缘救治她",
+      "function": "强化生产危机"
+    },
+    {
+      "target": "沈词",
+      "type": "请示对象",
+      "dynamic": "在 patriarchal 结构中等待其做决定",
+      "function": "逼出男主真实选择"
+    }
+  ]
+}

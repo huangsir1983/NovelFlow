@@ -1,0 +1,143 @@
+{
+  "major": {
+    "葡萄": {
+      "count": 2,
+      "scenes": [
+        "scene_005",
+        "scene_012"
+      ]
+    },
+    "药碗": {
+      "count": 2,
+      "scenes": [
+        "scene_006",
+        "scene_007"
+      ]
+    },
+    "木雁": {
+      "count": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    "金银绸缎聘礼箱": {
+      "count": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    "茶盏": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "茶杯": {
+      "count": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    "瓷片": {
+      "count": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    "辞官奏折": {
+      "count": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    "药包": {
+      "count": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    "风筝": {
+      "count": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    }
+  },
+  "minor": {
+    "衣角": {
+      "count": 1,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    "聘礼箱": {
+      "count": 1,
+      "scenes": [
+        "scene_009"
+      ]
+    },
+    "丝带": {
+      "count": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    "被子": {
+      "count": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    "虎头帽": {
+      "count": 1,
+      "scenes": [
+        "scene_011"
+      ]
+    },
+    "丝线": {
+      "count": 1,
+      "scenes": [
+        "scene_011"
+      ]
+    },
+    "衣衫": {
+      "count": 1,
+      "scenes": [
+        "scene_013"
+      ]
+    },
+    "床单": {
+      "count": 1,
+      "scenes": [
+        "scene_014"
+      ]
+    },
+    "和离书": {
+      "count": 1,
+      "scenes": [
+        "scene_015"
+      ]
+    },
+    "请帖": {
+      "count": 1,
+      "scenes": [
+        "scene_016"
+      ]
+    },
+    "雪球": {
+      "count": 1,
+      "scenes": [
+        "scene_017"
+      ]
+    },
+    "被子枕头": {
+      "count": 1,
+      "scenes": [
+        "scene_018"
+      ]
+    }
+  },
+  "total_unique": 22,
+  "major_count": 10,
+  "minor_count": 12
+}

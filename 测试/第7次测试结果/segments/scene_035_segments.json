@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0156",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0522",
+      "shot_0523",
+      "shot_0524",
+      "shot_0525"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并危机暂解的同一动作链：产房秩序变化→沈睿回神→探鼻息→确认高令宁尚活。角色集合未变，空间未跳转，情绪从压抑悬停过渡到薄弱松气，适合压成一个连续呼吸式segment。",
+    "order": 156
+  },
+  {
+    "id": "seg_0157",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0526",
+      "shot_0527",
+      "shot_0528"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段核心是情绪换挡：从确认人还活着后的松软，骤然被报喜声切断，并明确抛出‘小千金’信息。虽然稳婆入画，但主叙事重心仍通过沈睿的反应被组织，属于同一转折段。",
+    "order": 157
+  },
+  {
+    "id": "seg_0158",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0529",
+      "shot_0530",
+      "shot_0531",
+      "shot_0532"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四个shot构成完整反转链：冻结→转头→对峙空间建立→台词爆点。情绪从松气瞬间坠入震惊，且动作与视线连续紧密，适合整合为一个爆点segment。",
+    "order": 158
+  },
+  {
+    "id": "seg_0159",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0533"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "单独成段作为冷收尾。角色关系未变，但情绪功能发生明显转折：从正面冲突转为余震凝视，用高令宁的被动在场外化‘命保住了，裂痕却开始生成’的戏剧尾音。",
+    "order": 159
+  }
+]

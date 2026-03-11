@@ -1,0 +1,358 @@
+[
+  {
+    "id": "shot_0791",
+    "scene_id": "scene_051",
+    "shot_number": 1,
+    "goal": "建立卧房的私密秩序与高令宁的防御姿态，先让观众进入女主所掌控的安静空间，为闯入打破平衡做铺垫。",
+    "composition": "门内侧视角，雕花木门框形成前景遮挡，右前景虚化门页边框，画面中部偏左高令宁坐于榻边，怀抱襁褓中的昭昭；窗棂投下的条状侧逆光切过她肩背与膝上襁褓，背景为素净墙面与半明半暗的室内陈设，左侧留出门口方向的负空间。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到克制、安静，却隐约预感这份安静即将被撕裂。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.22,
+    "order": 791
+  },
+  {
+    "id": "shot_0792",
+    "scene_id": "scene_051",
+    "shot_number": 2,
+    "goal": "把母性与戒备同时建立起来，强调高令宁此刻的情感优先级是护住孩子而不是回应男人。",
+    "composition": "高令宁半身近景，位于画面中部略偏右，襁褓占据下方三分之一，她一只手更稳地收紧襁褓边缘；前景可见一抹虚化床栏或衣角，背景是被窗棂切碎的冷白光斑，昭昭只露出一小段额头与襁褓纹理。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的冷静不是软弱，而是有明确保护对象后的定力。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 792
+  },
+  {
+    "id": "shot_0793",
+    "scene_id": "scene_051",
+    "shot_number": 3,
+    "goal": "用突发动作打破室内秩序，明确沈睿是以入侵者身份出现。",
+    "composition": "门内正对门口，雕花木门猛然撞开占据左侧大面积前景，门页向镜头内冲形成斜线；门外高亮天光反压进来，沈睿站在门槛中央偏右，衣衫凌乱，手中和离书被攥皱抬在胸前，身后廊下空间过曝成硬白轮廓。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "制造突兀、压迫与失控感，让观众感到他把外部世界的混乱硬闯进来。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 793
+  },
+  {
+    "id": "shot_0794",
+    "scene_id": "scene_051",
+    "shot_number": 4,
+    "goal": "突出和离书作为此场核心道具，既是程序文书，也是情感审判的武器。",
+    "composition": "和离书极近特写，纸张被捏出褶皱，指节发白占据右侧，卷边轻颤；背景虚化中仍可辨识门内暗色与窗光条纹，形成纸张亮面与环境冷暗的对比。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众把注意力锁定在不可回头的‘决断证据’上，感到关系被具象化切断。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.49,
+    "order": 794
+  },
+  {
+    "id": "shot_0795",
+    "scene_id": "scene_051",
+    "shot_number": 5,
+    "goal": "从女主视角正式接住闯入，呈现沈睿的狼狈与逼近，建立对峙轴线。",
+    "composition": "女主近主观视角，沈睿位于画面中央略偏左的门口位置，门框包裹他形成压缩构图；前景右下角虚化露出一小片月白襁褓，提示高令宁并未起身；沈睿微微前倾，呼吸起伏，和离书抬至肩前。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "让观众以高令宁的冷眼看见他的失态，感到警惕而非心疼。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 795
+  },
+  {
+    "id": "shot_0796",
+    "scene_id": "scene_051",
+    "shot_number": 6,
+    "goal": "落第一句质问，强调沈睿情绪先于理性，且仍试图夺回主导权。",
+    "composition": "沈睿正面中特写，位于画面中央，背景是室内暗墙与门框边线；和离书占据左下前景，呼吸急促使肩线微晃，眼神直刺镜头即高令宁位置。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "让观众感到被逼视、被质问，也看出他此刻的控制欲已经裸露。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 796
+  },
+  {
+    "id": "shot_0797",
+    "scene_id": "scene_051",
+    "shot_number": 7,
+    "goal": "用高令宁的稳定回应打掉他的情绪攻势，明确她不是被动挨打而是执行决定。",
+    "composition": "高令宁正反打中特写，位于画面中部偏右，肩背挺直，昭昭襁褓在下方稳稳压住画面重心；背景窗棂光切过她侧脸，另一半面容沉在冷影里，眼神平静看向轴线外左侧的沈睿。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的平静比争吵更锋利，形成冷处理的压迫。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.46,
+    "order": 797
+  },
+  {
+    "id": "shot_0798",
+    "scene_id": "scene_051",
+    "shot_number": 8,
+    "goal": "补足信息：和离并非一时赌气，而是双方曾有约定，女主正在落实规则。",
+    "composition": "维持高令宁角度略近一档，脸与襁褓形成上下双重焦点，她说“按照我们约定好的，和离”时嘴唇几乎不动，手指轻压襁褓边角；背景留白简净，使台词显得更冷。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到她把最伤人的话说得像陈述家务，冷得近乎残忍。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 798
+  },
+  {
+    "id": "shot_0799",
+    "scene_id": "scene_051",
+    "shot_number": 9,
+    "goal": "展示孩子作为无声第三者，她的存在让这场冲突更刺，也提醒观众高令宁的决断有现实分量。",
+    "composition": "昭昭襁褓特写，画面下半部是柔软布纹，上方一小段婴孩安静睡颜，窗光轻落在额头；高令宁指尖从画面边缘缓慢拍抚一下，背景传来成人对话声但不见其人。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众在高压对峙中感到一丝脆弱现实，从而放大争执的残酷。",
+    "duration_hint": "2s",
+    "characters": [
+      "昭昭",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 799
+  },
+  {
+    "id": "shot_0800",
+    "scene_id": "scene_051",
+    "shot_number": 10,
+    "goal": "让高令宁进一步阐明关系破裂的根本，不给对方留下‘误会’或‘挽回’空间。",
+    "composition": "回到高令宁中近景，人物位于中轴略偏右，眼神不闪避；前景左侧极轻微虚化门框压入，像沈睿的存在在画面边缘施压。她说“性情不合，强行活在一处，只会互相折磨”时，构图保持极稳。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这不是情绪口角，而是冷静判决，带出不可逆的绝望。",
+    "duration_hint": "5s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.51,
+    "order": 800
+  },
+  {
+    "id": "shot_0801",
+    "scene_id": "scene_051",
+    "shot_number": 11,
+    "goal": "捕捉沈睿被刺到的一瞬，显示她的冷静比指责更有效地伤到他。",
+    "composition": "沈睿侧面近景，位于画面左侧，眼神先正对后迅速偏开，脸部被门外天光勾出冷边，另一侧陷入室内暗部；和离书从胸前略垂，肩膀绷紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众看到他真正受伤的瞬间，理解这场战斗已转成自尊与执念之争。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 801
+  },
+  {
+    "id": "shot_0802",
+    "scene_id": "scene_051",
+    "shot_number": 12,
+    "goal": "用别开脸后的强硬台词展示他从受伤迅速转入防御性攻击。",
+    "composition": "保持同侧轴线，沈睿稍转回半正面，位于画面中央，“别装了”出口时下颌收紧，和离书重新被举起进入前景；背景门框竖线像牢笼条栏切过他身后。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他在失去上风后开始用轻蔑掩饰慌乱，压迫感重新升高。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 802
+  },
+  {
+    "id": "shot_0803",
+    "scene_id": "scene_051",
+    "shot_number": 13,
+    "goal": "通过限制性双人构图把两人第一次放进同一空间张力中，明确这是私人命运的正面碰撞。",
+    "composition": "斜侧双人中景，镜头站在床榻一侧，前景右侧是高令宁坐姿与襁褓，背景左侧门口是站立的沈睿；两人之间留出一道空白地带，窗棂光与门外白光在空间中对冲，形成冷暖断裂。两人视线在画面中央交汇但身体都未靠近。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到他们虽同框却隔着不可跨越的裂缝，关系已经结构性破裂。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 803
+  },
+  {
+    "id": "shot_0804",
+    "scene_id": "scene_051",
+    "shot_number": 14,
+    "goal": "推进沈睿的核心执念：他无法接受她真的放手，因为那意味着他失去被需要、被恨、被系住的证明。",
+    "composition": "沈睿正面特写，脸占据画面大半，“我不信你肯放过我”时眼底发红，纸张边角进入下方边缘；背景完全压暗，只留下门口一条侧边高光，压缩他与环境的关系。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到他的台词看似控诉她，实则暴露自己的依赖和偏执。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.77,
+    "order": 804
+  },
+  {
+    "id": "shot_0805",
+    "scene_id": "scene_051",
+    "shot_number": 15,
+    "goal": "给高令宁一个几乎无反应的承接镜头，以沉默反证她确实已走出情感索套。",
+    "composition": "高令宁特写，位于画面中央偏右，眼神平直不躲，唇线微抿；窗棂的阴影正切过她眼下与颧骨，襁褓只在下方形成柔软亮面。她不抢话，只承受。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的沉默比辩驳更有力量，也更让人不安。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.64,
+    "order": 805
+  },
+  {
+    "id": "shot_0806",
+    "scene_id": "scene_051",
+    "shot_number": 16,
+    "goal": "把冲突从当下婚姻问题陡然刺入前世记忆层，完成本场最关键的情绪换挡。",
+    "composition": "沈睿近特写，位于画面左半边，身体微前探，声音压低说出“你忘了前世你死时，说了什么吗”；背景边缘开始出现极轻微高反差雾化光晕，像记忆将侵入现实，但仍不真正切入全知闪回。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到旧伤被恶意撕开，空气骤然变冷，关系从现实争执坠入宿命纠缠。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.89,
+    "order": 806
+  },
+  {
+    "id": "shot_0807",
+    "scene_id": "scene_051",
+    "shot_number": 17,
+    "goal": "用主观化碎片闪回回应这句提刺，但保持信息不对称，只给高令宁被触发的感知而不完整交代前世细节。",
+    "composition": "高令宁主观记忆碎片：极近特写中的苍白指尖抓住褥面，血色与冷白布料形成高对比，边缘柔焦、降帧感明显；画面中央偏下是一瞬松开的手，背景无明确环境，仅有模糊暗红与白光交叠。",
+    "camera_movement": "handheld",
+    "framing": "ECU",
+    "emotion_target": "让观众感到被刺痛、窒息，却仍被悬在不完整真相之外。",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.95,
+    "order": 807
+  },
+  {
+    "id": "shot_0808",
+    "scene_id": "scene_051",
+    "shot_number": 18,
+    "goal": "再以现实中的高令宁反应落地，显示她被旧忆击中却仍强行稳住，不给他看到裂口。",
+    "composition": "从闪回的手部动作匹配切回现实，高令宁手指在襁褓边缘骤然收紧的近景，画面中部为她发白的指节，襁褓纹理清晰，婴孩轻微一动；上方虚化可见她下颌线绷紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她并非无痛，只是把痛压回身体里，形成更强的压抑张力。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.83,
+    "order": 808
+  },
+  {
+    "id": "shot_0809",
+    "scene_id": "scene_051",
+    "shot_number": 19,
+    "goal": "以沉默对峙收束本场，让前世之刺悬而未决，同时确认当下关系已进入更深裂痕。",
+    "composition": "回到限制性双人中景，但比前一双人镜更近一档；高令宁仍坐于右侧抱着孩子，沈睿立于左侧门口，两人之间的空白被更深的阴影填满。门外亮、窗边冷、室内暗，三层光区把三人命运切开。无人说话，只有对视和急促呼吸回落。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到话已说尽却更危险，冲突没有释放，反而凝成更冷的结。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 809
+  }
+]

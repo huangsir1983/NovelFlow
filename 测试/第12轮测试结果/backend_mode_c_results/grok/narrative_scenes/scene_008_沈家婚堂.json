@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 沈家婚堂 - 日间",
+  "location": "沈家婚堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "成亲大典，对拜仪式，女主心不在焉",
+  "key_dialogue": "（沈词轻咳提醒）",
+  "emotional_peak": "盖头下无悲无喜",
+  "tension_score": 0.4,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "凤冠霞帔",
+    "红盖头",
+    "喜烛",
+    "拜堂红毯"
+  ],
+  "dramatic_purpose": "正式进入婚姻，平静表象"
+}

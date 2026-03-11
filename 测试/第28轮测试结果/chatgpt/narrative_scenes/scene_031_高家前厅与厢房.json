@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_031",
+  "order": 30,
+  "heading": "INT. 高家前厅 - dusk",
+  "location": "高家前厅与厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "父亲",
+    "陆姝仪",
+    "沈词",
+    "蒋晟",
+    "仆役"
+  ],
+  "core_event": "陆姝仪借出嫁前来见我，却在高家离奇失踪，众人搜查后在厢房找到她与衣冠不整、同样昏迷的蒋晟。",
+  "key_dialogue": "无",
+  "emotional_peak": "一个明显针对我的局，终于在我家里爆开。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 115,
+  "key_props": [
+    "厢房门",
+    "昏迷熏香痕迹",
+    "衣衫"
+  ],
+  "dramatic_purpose": "引爆全书最大误会与陷害事件，推动早产危机。",
+  "visual_reference": "黄昏高府气氛骤变，仆役提灯四处搜寻，厢房门被推开时两人昏迷倒地、衣冠不整，所有人面色骤冷，悬疑感强",
+  "visual_prompt_negative": "避免露骨不雅画面，避免侦探现代感，避免过多围观群众",
+  "source_text_start": "直到午饭过后，小厮来报。 陆姝仪来了。",
+  "source_text_end": "我转头去看沈词，他也在看我。 面若冰霜。"
+}

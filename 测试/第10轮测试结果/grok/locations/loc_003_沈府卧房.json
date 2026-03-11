@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_003",
+  "name": "沈府卧房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸卧房",
+  "description": "私密卧室空间，中央安置雕花架子床挂床帐，四周摆放红木衣柜与梳妆台，地面铺地毯，墙上挂宫灯，床边小几放置药碗与烛台，窗棂外可见庭院，整体温馨却略显压抑。",
+  "visual_reference": "Intimate Ming dynasty late period Chinese official mansion bedroom interior at night, central canopy bed with carved wooden frame and hanging bed curtains, rosewood wardrobe and dressing table, carpeted floor, wall palace lanterns, bedside table with medicine bowl and candlelight, lattice windows overlooking courtyard, warm yet oppressive atmosphere, detailed historical accuracy",
+  "atmosphere": "亲密却充满生死张力",
+  "color_palette": [
+    "暖烛黄",
+    "深红",
+    "木棕"
+  ],
+  "lighting": "烛火摇曳为主光源，投下温暖却跳动的光影，夜色从窗外渗入",
+  "key_features": [
+    "雕花架子床",
+    "床帐",
+    "药碗小几"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "生死相依却互相咒骂"
+}

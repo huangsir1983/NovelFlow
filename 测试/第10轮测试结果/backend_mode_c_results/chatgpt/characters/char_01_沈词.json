@@ -1,0 +1,77 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词",
+    "沈大人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-30",
+  "appearance": {
+    "face": "面容白净如玉，轮廓清俊，鼻梁高挺，眉目疏冷，黑眸深沉如寒湖，偶尔在情绪波动时显出琥珀般的柔光",
+    "body": "高挑挺拔，肩背笔直，文臣气质浓但并不孱弱，后期因情绪与奔波略显清瘦憔悴",
+    "hair": "乌发整束，青年时常为文士发冠或简洁束发，婚后与为官后发式更端方严整",
+    "distinguishing_features": "极冷的眼神与克制姿态，情绪失控时眼尾发红、青筋浮起，反差强烈"
+  },
+  "costume": {
+    "typical_outfit": "多着高门世家公子常服与文臣官袍，婚仪时礼服隆重，私下常见深色长袍、玉带、云纹外氅",
+    "color_palette": [
+      "玄黑",
+      "黛青",
+      "月白",
+      "深灰"
+    ]
+  },
+  "casting_tags": [
+    "清冷贵公子",
+    "克制病娇",
+    "权臣气质",
+    "高智商男主",
+    "嘴硬深情",
+    "古装禁欲"
+  ],
+  "visual_reference": "ancient chinese scholar-official, handsome pale face, cold dark eyes, tall slim figure, black hair tied with jade crown, dark elegant hanfu, restrained aristocratic aura, cinematic period drama style",
+  "personality": "克制、骄矜、锋利、擅长压抑情感，责任心强但表达扭曲，嘴硬心软，极度自尊",
+  "desire": "起初想借与高令宁成婚保住沈睿的出生并安置陆姝仪，后来转变为真正想留住高令宁与现有家庭",
+  "flaw": "情感表达极差，自以为理性却常以冷漠与伤人之语替代坦诚；优柔于旧情责任，导致不断伤害妻子",
+  "arc": "从带着算计和自负重启婚姻，到在失而复得与险些失去中意识到自己真正爱的人是高令宁；但醒悟太晚，只能以近乎卑微执拗的方式追逐",
+  "scene_presence": "在提亲、谈判、成婚、孕期照料、误会爆发、生产抉择、和离抗拒、后期追妻中持续高强度出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前世夫妻/今生再婚又和离",
+      "dynamic": "相互刺伤又彼此最懂，前期是算计与抗衡，中后期是他迟来的认清与挽回",
+      "function": "主线情感男主"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅/表妹/义妹",
+      "dynamic": "名义上守礼，实际上长期过度保护与偏爱，成为婚姻中的导火索",
+      "function": "制造三角张力与男主成长代价"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "前世以儿子为骄傲并受其临终劝诫，今生执着于让其重现人间",
+      "function": "男主做出婚姻选择的核心动机"
+    },
+    {
+      "target": "沈昭昭",
+      "type": "父女",
+      "dynamic": "本以为会得长子，却意外得女；随后对女儿与高令宁同样强烈不舍",
+      "function": "推动其从宗法逻辑转向真实情感"
+    },
+    {
+      "target": "沈母",
+      "type": "母子",
+      "dynamic": "受家族与母亲意志影响深，曾默许对婚姻的不公安排",
+      "function": "体现其受制于家族伦理的一面"
+    },
+    {
+      "target": "蒋晟",
+      "type": "情敌/对照男性",
+      "dynamic": "对其天然警惕与敌意，后因事件更添鄙夷",
+      "function": "触发嫉妒与追妻危机"
+    }
+  ]
+}

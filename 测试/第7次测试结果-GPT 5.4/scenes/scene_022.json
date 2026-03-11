@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "id": "scene_022",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:23"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 荷花亭 - 日",
+    "location": "荷花亭",
+    "time_of_day": "day",
+    "description": "开阔的园林水边亭子，白日自然光自上方与水面反射而来，环境明亮却带冷意。亭外荷叶与水面轻晃，亭内可设石桌石凳。陆姝仪神态从容，含笑而坐或立；高令宁在对侧，身姿端正，表情克制。空间虽空旷，但言语的压迫感使两人之间形成明显对峙。",
+    "action": "画面切入回忆。陆姝仪微笑看向高令宁，语速不快，语气温柔却句句刺人。她手指轻搭在桌沿或衣袖上，姿态松弛。高令宁坐直或站定，脸上的克制一点点绷紧，手指收拢，沉默承受这些话。风吹动亭边纱帘或衣摆，强化表面平静下的羞辱感。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "有些事，是强求不来的。",
+        "subtext": "她宣告高令宁在感情上注定失败。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "恰如你是他的妻子，可得到的疼爱，却只是我手头缝里流出来的一点。",
+        "subtext": "她炫耀自己在沈词心中的优先位置。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "你辛辛苦苦追求的，我轻而易举便得到了。",
+        "subtext": "她以天然胜者姿态羞辱高令宁的努力。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "高姑娘，你不觉得自己很可笑吗？",
+        "subtext": "她要彻底击碎高令宁的自尊。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "石桌",
+      "石凳",
+      "亭栏",
+      "荷花"
+    ],
+    "dramatic_purpose": "通过回忆补足高令宁拒绝退让的情感根源，揭示旧怨与婚后屈辱经验，加深当前冲突的历史重量。",
+    "tension_score": 0.68,
+    "dramatic_intensity": 0.36,
+    "order": 22
+  }
+}

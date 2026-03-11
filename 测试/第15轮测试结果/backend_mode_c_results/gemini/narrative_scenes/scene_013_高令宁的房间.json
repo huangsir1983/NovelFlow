@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高令宁房间 - DAY",
+  "location": "高令宁的房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拿着和离书质问高令宁，试图用前世的誓言捆绑她。高令宁平静地表示已经原谅他，彻底放下了仇恨，这让沈词彻底崩溃。",
+  "key_dialogue": "高令宁，我不要你原谅我。",
+  "emotional_peak": "沈词听到高令宁的原谅后，绝望地摇头，脊背弯下，精神彻底被击垮。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "和离书",
+    "婴儿（昭昭）"
+  ],
+  "dramatic_purpose": "高令宁在精神层面彻底战胜并摆脱了沈词。她的原谅比仇恨更让沈词痛苦，完成了人物弧光的最终转变。",
+  "source_text_start": "雕花木门吱呀一声被推开。\n我抱着女儿，有些讶异地看着沈词狼狈的模样。\n他拿着和离书，连连冷笑：「高",
+  "source_text_end": "不恨他了……他怎么反而还不乐意了呢？"
+}

@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "id": "scene_032",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 府外街道 - 夜",
+    "location": "城中街道",
+    "time_of_day": "night",
+    "description": "开阔街道，夜色中有灯火与市井烟火，宝马雕车穿行，街面热闹明亮。鱼龙灯在孩子们手中晃动，移动光源穿过人群。外部环境繁盛喜庆，与两人关系的冷硬形成鲜明对比。",
+    "action": "沈词拉着高令宁的手出府散心，两人并肩立在街边，动作疏离。成群孩子举着鱼龙灯从他们面前跑过。沈词驻足良久，低头看向高令宁腹中孩子所在的位置，神色短暂松动，轻声提议女儿名字。高令宁站着听，脸上没有真正暖意，只是将这片刻记下。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "就叫静好吧。",
+        "subtext": "我想给这个孩子、也给我们之间残存的一点希望一个体面的名字。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "鱼龙灯",
+      "街市车马"
+    ],
+    "dramatic_purpose": "提供悲剧前的短暂温柔幻象，建立未出世女儿的存在感与命名意义。",
+    "tension_score": 0.42,
+    "dramatic_intensity": -0.16,
+    "order": 32
+  }
+}

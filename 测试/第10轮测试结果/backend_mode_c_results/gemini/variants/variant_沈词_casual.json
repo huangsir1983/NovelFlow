@@ -1,0 +1,31 @@
+{
+  "variant_id": "shen_ci_obsessive_snow",
+  "variant_type": "casual",
+  "variant_name": "沈词 — 江南落魄",
+  "tags": [
+    "偏执狂",
+    "倒贴",
+    "阴暗爬行"
+  ],
+  "scene_ids": [
+    "scene_017",
+    "scene_018"
+  ],
+  "trigger": "三年后追到江南，面对女主的新欢们强忍怒火，深夜打地铺死死纠缠女主。",
+  "appearance_delta": {
+    "face": "面容憔悴阴沉，眼下乌青极重，似哭似笑",
+    "body": "长期风餐露宿导致身形更显清瘦，姿态卑微却如同附骨之疽",
+    "hair": "沾满风雪，随意束起，毫无权臣时期的精致",
+    "distinguishing_features": "眼神呈现出极致的偏执与病态的执念，死死盯着目标"
+  },
+  "costume_override": {
+    "outfit": "沾满雪水的深色冬衣，不再考究挺括，甚至显得有些落魄和沉重",
+    "color_palette": [
+      "苍青",
+      "灰白",
+      "玄色"
+    ]
+  },
+  "visual_reference": "1boy, ancient chinese handsome man, jade-like face but pale and haggard, heavy dark circles under cold amber eyes, messy hair covered with snow, wearing dark worn-out winter traditional clothes covered in snow, gloomy and intensely obsessive expression, pathetic aura, dark night with moonlight background, masterpiece, 8k resolution",
+  "emotional_tone": "阴暗，偏执，死皮赖脸的自我囚禁"
+}

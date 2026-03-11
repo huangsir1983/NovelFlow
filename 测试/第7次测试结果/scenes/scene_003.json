@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_003",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:02:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈家婚礼礼堂 - DAY",
+    "location": "沈家婚礼礼堂",
+    "time_of_day": "day",
+    "description": "封闭而庄重的婚礼空间，红烛高悬，喜幛与红绸布满视野，正前方礼案端正摆放。人群喧闹，仪式感浓重。新娘高令宁头覆盖头，视线受阻，只能透过薄红纱隐约看见对面的轮廓。沈睿立于她对面，身形端正，侧脸平静，情绪几乎没有波澜。",
+    "action": "婚礼流程推进时，高令宁站在原地，身体略显僵直，对司仪的喊声反应迟滞，迟迟没有完成夫妻对拜。周围仪式声催促不断。沈睿不轻不重地咳了一声，提醒她回神。高令宁这才迟缓地配合完成礼数，动作机械，明显心不在焉。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "红盖头",
+      "红烛",
+      "礼案",
+      "喜幛"
+    ],
+    "dramatic_purpose": "通过婚礼仪式中的失神与迟滞，外化高令宁对婚姻的抽离感，也呈现沈睿在公众场合的克制与冷静。",
+    "tension_score": 0.48,
+    "dramatic_intensity": -0.04,
+    "order": 3
+  }
+}

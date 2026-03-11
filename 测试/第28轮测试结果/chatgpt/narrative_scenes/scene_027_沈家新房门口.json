@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_027",
+  "order": 26,
+  "heading": "INT. 沈家洞房门口 - night",
+  "location": "沈家新房门口",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪婢女"
+  ],
+  "core_event": "陆姝仪故技重施，派婢女来报心口痛，我却冷淡放沈词离开，甚至表示不必回房。",
+  "key_dialogue": "「你去吧。也不必回来了。」",
+  "emotional_peak": "我不再争夺丈夫的新婚夜，而是主动撤出这场难堪。",
+  "tension_score": 0.74,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "房门",
+    "被褥",
+    "叩门声"
+  ],
+  "dramatic_purpose": "显示女主已从争宠转为冷眼旁观，也埋下后续裂痕。",
+  "visual_reference": "新房门外婢女跪地叩门，门内女子背对门口裹紧被子，男子停顿回看，三人的关系在一扇门前被彻底揭开",
+  "visual_prompt_negative": "避免夸张狗血喊叫，避免现代病房感，避免色彩过艳",
+  "source_text_start": "陆姝仪的婢女来叩房门时。",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

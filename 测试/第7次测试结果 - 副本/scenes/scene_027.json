@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_027",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 灵堂 - NIGHT",
+    "location": "灵堂",
+    "time_of_day": "night",
+    "description": "封闭灵堂，夜色压顶，烛火与纸钱火光摇曳，棺材居中，四周挂白。空间空旷而肃杀，光线自下而上跳动，把人的衰老与孤独勾得更明显。沈睿独自留在棺前，身影被棺木与烛影切割得瘦长而苍老。",
+    "action": "沈睿站在棺前久久不动，随后像支撑不住般弯下身，双手抱住头，肩背无声地颤抖。他没有哭出声，只任眼泪掉在袖口与地面，整个人在灵堂里显得羸弱而凄凉。棺木沉默地占据画面中心，形成情感压迫。",
+    "dialogue": [],
+    "characters_present": [
+      "沈睿"
+    ],
+    "key_props": [
+      "棺材",
+      "白烛",
+      "纸钱",
+      "灵堂帷幔"
+    ],
+    "dramatic_purpose": "将前世关系的终点落在迟来的悔恨与失去上，完成“生前互咒、死后独哀”的情感闭环，并为“若有来生”提供宿命感支撑。",
+    "tension_score": 0.9,
+    "dramatic_intensity": 0.8,
+    "order": 27
+  }
+}

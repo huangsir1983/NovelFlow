@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_018",
+  "order": 17,
+  "heading": "INT. 高家正堂与婚礼喜堂 - day",
+  "location": "高家正堂及沈家喜堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "媒人",
+    "宾客"
+  ],
+  "core_event": "媒人三次上门后婚事终定，父亲仍忧我高嫁受屈，而我在婚礼全程心不在焉，像在执行一场既定命运。",
+  "key_dialogue": "父亲只当女儿去沈家暂住一段时间。",
+  "emotional_peak": "风光婚礼中的彻骨冷静",
+  "tension_score": 0.63,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "如山聘礼",
+    "盖头",
+    "喜堂礼器"
+  ],
+  "dramatic_purpose": "完成婚姻仪式，同时强调这场再婚并不带有真正喜悦。",
+  "visual_reference": "红妆盛大、聘礼堆叠如山，父亲面带愁容叮嘱，切到喜堂里新娘盖头垂落神思游离，新郎侧脸平静无波，满堂红色中透出冷感，古代婚礼写实风格",
+  "visual_prompt_negative": "避免欢腾喜剧感、避免现代婚礼元素、避免人物笑容灿烂、避免梦幻婚纱效果",
+  "source_text_start": "媒人第三次上门提亲。",
+  "source_text_end": "隔着盖头，我能看见他平静的侧脸。"
+}

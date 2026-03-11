@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0666",
+    "shot_id": "shot_0662",
+    "prompt_text": "A tall elegant young Chinese noblewoman, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lying weakly on a bed; a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, standing on tiptoe beside the bed in silence. Wide shot from a slightly low angle, the bed placed slightly right of center as the visual focus, a porcelain congee bowl glowing warmly on a small bedside table in the right foreground, blurred bed-curtain edge obscuring the left foreground, the boy small in scale at the left side of the bed with side-back rim light outlining his silhouette. Dim dreamlike ancient bedroom with dark gray-blue walls, shadowed lattice window, old wooden furniture, large areas of black negative space, oppressive enclosed interior. Low-saturation warm-cool contrast, amber candlelight against cold window light, cinematic realism, restrained historical drama atmosphere, subtle film grain, highly detailed textures.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, amber candlelight with cold dim window backlight, side-back rim light, heavy shadows, enclosed oppressive interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, plastic, glass windows, contemporary clothing, text, watermark, logo, low quality, blurry face, bad anatomy, deformed hands, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0667",
+    "shot_id": "shot_0663",
+    "prompt_text": "A porcelain congee bowl held carefully by a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression; his two overly small hands cup the bowl from both sides, moon-white sleeves visible, thin steam rising gently from the rim. Close-up composition with the bowl at the lower center of the frame, emphasizing warmth and weight, the blurred edge of the bed and the indistinct reclining silhouette of a tall elegant young Chinese noblewoman, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura in the background. Ancient bedroom interior in darkness, shallow depth of field, soft amber candle glow on white porcelain against cool muted shadows. Low-saturation warm-cool contrast, intimate cinematic realism, delicate texture, subtle film grain, emotionally restrained historical atmosphere.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic macro photography, shallow depth of field, film grain",
+      "lighting": "soft amber candlelight on porcelain, cool dim ambient shadows, low-saturation warm-cool contrast, intimate close-range lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, stainless steel bowl, modern ceramics, text, watermark, logo, low quality, blurry, bad anatomy, malformed hands, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0668",
+    "shot_id": "shot_0664",
+    "prompt_text": "A delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, standing slightly on tiptoe with shoulders tense and straight, holding a porcelain congee bowl close to his chest, his gaze careful and overly understanding. Medium close-up, the boy placed on the left third of the frame, the blurred quilt and shoulder silhouette of a tall elegant young Chinese noblewoman, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura occupying the right foreground as a subjective visual obstruction. Dim ancient bedroom, a small candle flame behind his ear creating a weak warm rim light, deep shadows around him, curtain and bedding compressing the space. Low-saturation warm-cool contrast, restrained cinematic realism, subtle emotional tension, fine fabric textures, film grain, Song dynasty historical drama aesthetic.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic portrait photography, film grain, historical drama realism",
+      "lighting": "weak amber rim light from candle behind subject, cool dark ambient fill, low-saturation warm-cool contrast, compressed interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern hairstyle, contemporary clothing, text, watermark, logo, low quality, blurry, bad anatomy, deformed hands, extra limbs, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0669",
+    "shot_id": "shot_0665",
+    "prompt_text": "A tall elegant young Chinese noblewoman, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lying on her side in silence with a pale face, eyes closed, brow faintly furrowed; the blurred rim of a porcelain congee bowl and the moon-white sleeve of a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression intrude from the left foreground. Medium close-up focused on her at the right side of the frame, invasive foreground composition emphasizing unanswered care. Ancient carved wooden headboard and hanging bed curtains crowd the background, dark negative space beside her face, enclosed noble bedroom in muted gray-blue and old wood tones. Low-saturation warm-cool contrast, soft amber candlelight brushing her features while the rest falls into cold shadow, cinematic realism, oppressive stillness, subtle film grain, highly detailed historical texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic close portrait, film grain, historical drama realism",
+      "lighting": "soft side candlelight on face, cool shadowed background, low-saturation warm-cool contrast, enclosed bed-curtain shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern bed, modern textiles, text, watermark, logo, low quality, blurry, bad anatomy, deformed face, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0670",
+    "shot_id": "shot_0666",
+    "prompt_text": "A delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, leaning forward carefully while extending a porcelain congee bowl toward the bed, his body slightly off balance from standing on tiptoe yet struggling to remain proper and steady; a tall elegant young Chinese noblewoman, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura lies unresponsive on the right side. Medium shot, bed edge running horizontally across the lower frame, the boy on the left and the woman on the right, a hanging curtain line in the foreground corner. Ancient bedroom with dark lattice window casting cold blue-gray light, amber candlelight from the interior creating a visible warm-cool clash, old wood textures and heavy shadowed corners. Low-saturation warm-cool contrast, cinematic realism, gentle dolly-like intimacy, restrained emotional tension, subtle film grain, historically accurate Song dynasty atmosphere.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic medium shot, film grain, historical drama realism",
+      "lighting": "cold window light contrasted with warm amber candlelight, low-saturation warm-cool clash, soft side illumination, deep interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern window frames, contemporary clothing, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, malformed hands, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0671",
+    "shot_id": "shot_0667",
+    "prompt_text": "A delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, facing mostly forward with a slight turn, eyes lowered and then lifting unwillingly toward the person on the bed, carrying pain far beyond his age. Close-up composition with the boy centered slightly left, his expression controlled yet wounded, a thin vertical bed-curtain line and a strip of cold window light behind him. The background is almost completely crushed into darkness, one half of his face illuminated by dim amber candlelight while the other half sinks into shadow, ancient noble bedroom reduced to oppressive fragments. Low-saturation warm-cool contrast, severe chiaroscuro, cinematic realism, emotional pressure of family trauma, subtle film grain, highly detailed skin and silk texture, restrained historical drama mood.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic close-up portrait, chiaroscuro, film grain",
+      "lighting": "half face lit by dim amber candlelight, half face in deep shadow, narrow cold window backlight, low-saturation warm-cool contrast, high shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern accessories, contemporary clothing, text, watermark, logo, low quality, blurry, bad anatomy, deformed face, extra fingers, oversaturated colors, cartoon, anime"
+  }
+]

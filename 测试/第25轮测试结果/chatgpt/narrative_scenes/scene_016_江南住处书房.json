@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 江南书房 - 夜",
+  "location": "江南住处书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我"
+  ],
+  "core_event": "沈词来信称母亲为他相看好新夫人，试探我是否介意；我一夜难眠后仍回信祝他百年好合，只记得叮嘱婚后继续寄钱。",
+  "key_dialogue": "祝你和新夫人百年好合……婚后莫忘寄钱。",
+  "emotional_peak": "我以为自己彻底放下，却仍因他可能再婚而彻夜难眠。",
+  "tension_score": 0.68,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "书信",
+    "毛笔",
+    "烛火"
+  ],
+  "dramatic_purpose": "揭示女主虽已抽离，但情感余波未尽；也为男主亲赴江南制造动机。",
+  "visual_reference": "雪夜书房，女子独对书信与烛火，迟迟落笔，情绪克制。",
+  "visual_prompt_negative": "不要现代台灯，不要电子通信，不要夸张泪崩，不要悬浮特效。",
+  "source_text_start": "直到一次，他特意在信里写道：「母亲",
+  "source_text_end": "这次书信寄过去，宛如石沉大海。久久没有回信。"
+}

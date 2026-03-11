@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府正厅 - DAY",
+  "location": "沈府正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "高令宁再次确认和离约定，沈词试图用“娶陆姝仪”来刺激她，但高令宁表示祝福，并说自己已经“想开了”，不再恨他。沈词闻言震怒。",
+  "key_dialogue": "高令宁，谁准你想开了？",
+  "emotional_peak": "沈词听到高令宁说“不恨了”之后，从试探的得意转为不可置信的愤怒。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "婴儿虎头帽"
+  ],
+  "dramatic_purpose": "剧情的关键转折点。女主的“释怀”成为对男主最大的惩罚，彻底颠覆了两人之间的权力关系。",
+  "source_text_start": "我淡道：「我做完月子便走，不会纠缠。」 沈词难得怔了下，指尖划过我的秀发：「那沈睿……」 「有孩子的夫妇和离得也不少，",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

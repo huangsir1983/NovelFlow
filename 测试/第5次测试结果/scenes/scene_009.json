@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "id": "scene_009",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:30:16"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_004",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府内室 - NIGHT",
+    "location": "高府内室",
+    "time_of_day": "night",
+    "description": "封闭的室内空间，夜色沉沉，室内以案上灯火为主要光源，光线自下而上照亮人物面部，形成疲惫而凝重的阴影。房中有书案、座椅、未动的茶盏与散置文书，显示有人彻夜未眠。高父面有倦色，衣着未曾更换，坐于案前；高令宁立于近侧，停在灯影边缘，气氛压抑而克制。",
+    "action": "高父一夜未眠后开口，放弃原先高嫁打算，低声表明不愿女儿嫁入高门受委屈，只求她平安喜乐。高令宁听着，身形微僵，眼神失焦片刻，像被旧事击中；她垂下眼，手指在袖中收紧，呼吸压得很轻，将前世见到父亲冰冷尸身的惊惧强行咽回。父女相对而立，情绪在克制中流动。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "沈家门第太高，我如今倒不愿你仓促嫁过去了。我不求你高嫁，只盼你这一生平安喜乐。",
+        "subtext": "我宁可放弃体面和前程，也不愿拿你去赌一门可能让你受苦的婚事。"
+      },
+      {
+        "character": "高令宁",
+        "line": "女儿明白。",
+        "subtext": "我比你更清楚这门婚事和朝局背后的凶险，也绝不能再失去你。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "油灯",
+      "书案",
+      "茶盏",
+      "文书"
+    ],
+    "dramatic_purpose": "建立父女关系中的温情与保护欲，明确高父对婚约态度转变，同时外化高令宁对前世悲剧的警惕，为后续自保行动埋下动机。",
+    "tension_score": 0.42,
+    "order": 9
+  }
+}

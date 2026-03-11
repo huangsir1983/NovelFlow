@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_005",
+  "name": "侯爵府马球会柳池旁",
+  "type": "exterior",
+  "era_style": "明代贵族府邸园林",
+  "description": "开阔的园林空间，池边垂柳依依，柳枝拂水。池畔设汉白玉石凳与石桌，远处可见马球场草地与球门。柳树下铺鹅卵石小径，池中游鱼可见。周围设游廊，廊柱漆红色。天空飘风筝，贵族子弟往来。石桌上摆果盘葡萄。",
+  "visual_reference": "Ming Dynasty aristocratic estate garden, willow trees by ornamental pond, white marble stone benches and tables, polo field in background, pebble pathways, red painted corridors, koi pond, flying kites, elegant landscape design, natural daylight, leisurely aristocratic atmosphere, traditional Chinese garden",
+  "atmosphere": "闲适、雅致、社交",
+  "color_palette": [
+    "翠绿柳色",
+    "汉白玉白",
+    "天青色"
+  ],
+  "lighting": "柳荫斑驳，阳光透过枝叶洒落，水面波光粼粼",
+  "key_features": [
+    "垂柳",
+    "汉白玉石凳",
+    "马球场",
+    "游廊"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "嫉妒与占有欲的暗涌"
+}

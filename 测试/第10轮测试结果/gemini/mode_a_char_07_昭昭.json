@@ -1,0 +1,46 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "圆润可爱，双眼明亮灵动，笑容灿烂无阴霾",
+    "body": "幼儿的软糯感",
+    "hair": "可爱的双丫髻",
+    "distinguishing_features": "充满生命力的阳光笑容"
+  },
+  "costume": {
+    "typical_outfit": "精致华丽的江南富家女童装扮",
+    "color_palette": [
+      "明黄色",
+      "大红色"
+    ]
+  },
+  "casting_tags": [
+    "阳光治愈",
+    "人间小太阳",
+    "萌娃"
+  ],
+  "visual_reference": "1girl, 3 years old, ancient chinese toddler, twin buns, bright red and yellow clothing, round face, radiant smile, playing in snow, joyful atmosphere",
+  "personality": "天真烂漫，聪明伶俐，在充满爱的环境中长大，毫无前世的阴霾。",
+  "desire": "快乐成长，探索世界。",
+  "flaw": "无",
+  "arc": "前世胎死腹中 → 今生艰难降世，成为治愈母亲的阳光。",
+  "scene_presence": "满月宴、江南雪中玩耍",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "新生的希望与彻底放下的底气",
+      "function": "引导"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "沈词可望而不可及的血脉亲情",
+      "function": "对照"
+    }
+  ]
+}

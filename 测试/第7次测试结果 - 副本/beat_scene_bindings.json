@@ -1,0 +1,219 @@
+{
+  "bindings": [
+    {
+      "beat_id": "beat_000",
+      "beat_title": "回望前世订亲并预告破局",
+      "scene_ids": [
+        "scene_001",
+        "scene_000"
+      ],
+      "binding_reason": "scene_001以重生后的订亲现场直接呈现“今生再订亲却气氛冷硬”的开篇底色；scene_000承接回屋后的反常态度与前情余波，继续落实“不是重圆而是带着前世破局预感重来”的开场设定。"
+    },
+    {
+      "beat_id": "beat_001",
+      "beat_title": "点明重生不是重圆而是清醒利用",
+      "scene_ids": [
+        "scene_000",
+        "scene_018",
+        "scene_019"
+      ],
+      "binding_reason": "scene_000中女主对婚事的主动掌控已体现婚姻不再是爱情归宿；scene_018与scene_019则由男女主正面谈判，把订亲/成婚的动机明确为孩子、家族与现实利益，直接完成主题陈述。"
+    },
+    {
+      "beat_id": "beat_002",
+      "beat_title": "当堂试探聘礼确认双重重生",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001完整承载媒人上门、木雁聘礼、女主退木雁并重设权力平衡的核心动作，是确认双重重生与试探沈词态度的直接实现。"
+    },
+    {
+      "beat_id": "beat_003",
+      "beat_title": "揭开婚后噩梦触发再度选择",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000就是父女回屋后的质问场，叙事功能正是把堂前反常行为转化为内心动因揭示，触发女主重新选择婚事的情绪根源。"
+    },
+    {
+      "beat_id": "beat_004",
+      "beat_title": "在愿嫁与不甘之间反复权衡",
+      "scene_ids": [
+        "scene_000",
+        "scene_016",
+        "scene_017"
+      ],
+      "binding_reason": "scene_000直接呈现女主“不是不嫁，而是不能这样嫁”的心理辩论；scene_016与scene_017则把这种权衡推进到现实操作层面——借婚事反制命运、要求父亲辞官避祸。"
+    },
+    {
+      "beat_id": "beat_005",
+      "beat_title": "翻出前尘旧怨建立主冲突",
+      "scene_ids": [
+        "scene_020",
+        "scene_021",
+        "scene_022",
+        "scene_024",
+        "scene_023",
+        "scene_025",
+        "scene_026",
+        "scene_027",
+        "scene_010",
+        "scene_011",
+        "scene_012",
+        "scene_013",
+        "scene_014",
+        "scene_015",
+        "scene_031"
+      ],
+      "binding_reason": "这一节拍是大段前世婚姻全貌回溯，包含入门受辱、管家拉扯、夫妻互疑、陆姝仪相关事件、丧女/病榻/守灵与迟来痛悔。上述场景共同构成主冲突的历史根基，属于同一长线揭示在不同切片中的展开。"
+    },
+    {
+      "beat_id": "beat_006",
+      "beat_title": "与沈词立下成婚生子后和离之约",
+      "scene_ids": [
+        "scene_016",
+        "scene_017",
+        "scene_018",
+        "scene_019"
+      ],
+      "binding_reason": "scene_016与scene_017先完成父亲立场松动与辞官条件；scene_018、scene_019则是男女主在廊下正面交锋并谈定“先成婚、生子、处理陆姝仪、再和离”的核心契约，明确进入第二幕。"
+    },
+    {
+      "beat_id": "beat_007",
+      "beat_title": "确立睿儿作为副线情感锚点",
+      "scene_ids": [
+        "scene_018",
+        "scene_019",
+        "scene_004",
+        "scene_008",
+        "scene_009",
+        "scene_035",
+        "scene_048"
+      ],
+      "binding_reason": "睿儿并非通过单一事件出现，而是在多场关键抉择中作为共同执念被反复激活：scene_018-019谈判婚约时提出“再不成婚等于再杀睿儿一次”；scene_004、scene_008、scene_009、scene_035围绕圆房、怀孕、胎儿期待与生女反转持续强化；scene_048梦境则从情感层面反向松动这条副线。"
+    },
+    {
+      "beat_id": "beat_008",
+      "beat_title": "目睹偏爱重演并被迫答应成亲",
+      "scene_ids": [
+        "scene_028",
+        "scene_029",
+        "scene_030",
+        "scene_031",
+        "scene_015"
+      ],
+      "binding_reason": "scene_028直接呈现女主目睹沈词照料陆姝仪的刺激画面；scene_029与scene_030把三角关系摊开并确认对方偏向；scene_031补足旧恨来源；scene_015则以冷静决断收束，落实她答应成亲但已转为交易性的选择。"
+    },
+    {
+      "beat_id": "beat_009",
+      "beat_title": "踏入新婚冷局并被旧情搅局",
+      "scene_ids": [
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "binding_reason": "scene_002建立婚事最终敲定的现实背景，scene_003完成婚礼仪式中的抽离感，scene_004是冷淡而羞辱性的新婚圆房，scene_005则由陆姝仪婢女打断，重演前世争宠戏码并把“和离”立场第一次带入婚后现实。"
+    },
+    {
+      "beat_id": "beat_010",
+      "beat_title": "在陆姝仪婚事与有孕宿命中相互逼近",
+      "scene_ids": [
+        "scene_006",
+        "scene_007",
+        "scene_008"
+      ],
+      "binding_reason": "scene_006交代陆姝仪议婚困局，scene_007让女主提出处置方案并显出她对报复的厌倦与抽离，scene_008转入怀孕与男胎/宿命重合的信息，完整构成“外部婚事压力+内部宿命再现”的双重逼近。"
+    },
+    {
+      "beat_id": "beat_011",
+      "beat_title": "被一句不准想开搅乱情感平衡",
+      "scene_ids": [
+        "scene_009"
+      ],
+      "binding_reason": "scene_009的戏剧目的就是让女主正式表明和离打算，而男主对她的平静抽离产生失控反应，直接外化这一节拍中的情感失衡与暧昧拉扯。"
+    },
+    {
+      "beat_id": "beat_012",
+      "beat_title": "在修补假象中爆出失贞风波",
+      "scene_ids": [
+        "scene_036",
+        "scene_037",
+        "scene_038",
+        "scene_039",
+        "scene_040"
+      ],
+      "binding_reason": "scene_036与scene_037建立回娘家养胎期间男主殷勤补偿、外界误判婚姻转好的假象；scene_038引入陆姝仪来访这一不稳定因子；scene_039升级为全府搜人；scene_040揭开蒋晟与陆姝仪昏迷厢房的失贞现场，完成“缓和—坍塌”的节拍功能。"
+    },
+    {
+      "beat_id": "beat_013",
+      "beat_title": "在指控与早产中坠入绝境",
+      "scene_ids": [
+        "scene_032",
+        "scene_033",
+        "scene_034"
+      ],
+      "binding_reason": "scene_032把女主推到道德审判中心并形成陆姝仪指控；scene_033中男主偏护与威胁将言语冲突升级为身体危机，引发早产；scene_034承接进入产房生死关头，完成坠入绝境。"
+    },
+    {
+      "beat_id": "beat_014",
+      "beat_title": "因保母抉择与生女反转重组认知",
+      "scene_ids": [
+        "scene_034",
+        "scene_035"
+      ],
+      "binding_reason": "scene_034承载“保大保小”的关键抉择并揭示男主真实选择；scene_035则以孩子平安出生却是女儿的结果打破宿命预设，构成认知反转。"
+    },
+    {
+      "beat_id": "beat_015",
+      "beat_title": "梦见睿儿劝放手并真正决定和离",
+      "scene_ids": [
+        "scene_048",
+        "scene_044"
+      ],
+      "binding_reason": "scene_048通过梦境直接完成女主对前世婚姻与孩子执念的内在松动，是和离决心转真心的核心情感触发；scene_044展示和离后静养与关系切断的新秩序，承接这一决定的现实化。"
+    },
+    {
+      "beat_id": "beat_016",
+      "beat_title": "当庭拒复合逼出沈词崩塌",
+      "scene_ids": [
+        "scene_049",
+        "scene_050",
+        "scene_051",
+        "scene_052",
+        "scene_053"
+      ],
+      "binding_reason": "scene_049、scene_050建立沈家来要孩子、男主下跪求见的公开对立局面；scene_051进入私人摊牌；scene_052补入前世狠话记忆，使当下求复合更具反差；scene_053则由女主平静原谅、坚持和离，逼出男主情感崩塌。"
+    },
+    {
+      "beat_id": "beat_017",
+      "beat_title": "在满月宴揭开重生与陷害真相",
+      "scene_ids": [
+        "scene_045",
+        "scene_046",
+        "scene_047"
+      ],
+      "binding_reason": "scene_045建立公开宴席上的闯入场域，scene_046由陆姝仪自白重生与设计陷害的动机，scene_047让男主在旁听见真相并承接其冲击，完整实现真相揭开。"
+    },
+    {
+      "beat_id": "beat_018",
+      "beat_title": "带女南下却被婚讯与闯入重新牵动",
+      "scene_ids": [
+        "scene_041",
+        "scene_042"
+      ],
+      "binding_reason": "scene_041直接建立三年后江南新生活与男主闯入后的嫉妒冲击，正是“带女南下后重新被牵动”的外化；scene_042把这份嫉妒与执念推进到夜间私人空间中的越界纠缠。"
+    },
+    {
+      "beat_id": "beat_019",
+      "beat_title": "在深夜纠缠中定格未断前缘",
+      "scene_ids": [
+        "scene_042",
+        "scene_043"
+      ],
+      "binding_reason": "scene_042开启深夜闯入与拒绝后的滞留，scene_043则完成他抱枕睡地、握手宣告一生纠缠的最终情感定格，构成开放式余波的终章画面。"
+    }
+  ],
+  "unbound_scenes": [],
+  "unbound_beats": []
+}

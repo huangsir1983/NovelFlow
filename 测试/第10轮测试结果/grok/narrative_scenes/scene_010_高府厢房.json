@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高府厢房 - 日",
+  "location": "高府厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪来访后昏迷与蒋晟共处，高令宁被指控",
+  "key_dialogue": "「你非要闹得满城风雨，逼死了姝仪才罢休吗？」",
+  "emotional_peak": "冤屈与巴掌",
+  "tension_score": 0.95,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "昏迷身体、衣冠不整、桌椅、药渣"
+  ],
+  "dramatic_purpose": "高潮冲突与早产触发"
+}

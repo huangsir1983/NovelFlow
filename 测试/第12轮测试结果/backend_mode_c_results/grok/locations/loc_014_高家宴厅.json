@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_014",
+  "name": "高家宴厅",
+  "type": "interior",
+  "era_style": "明代官宦府邸宴厅",
+  "description": "高家宴厅宽敞明亮，宴席桌椅排列，酒盏与请帖摆放，昭昭襁褓可置一侧，适合宴请与告白场景。",
+  "visual_reference": "明代高家宴厅，宴席桌摆酒盏与请帖，昭昭襁褓旁置，红木家具与雕花装饰，日光充足释然氛围，细节丰富",
+  "visual_prompt_negative": "现代餐厅灯具、西方餐具",
+  "atmosphere": "宴席、震惊、疏离",
+  "color_palette": [
+    "酒红",
+    "木褐",
+    "金",
+    "白"
+  ],
+  "lighting": "白天自然光",
+  "key_features": [
+    "宴席酒盏",
+    "昭昭襁褓",
+    "请帖"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "告白重生到女主震惊疏离"
+}

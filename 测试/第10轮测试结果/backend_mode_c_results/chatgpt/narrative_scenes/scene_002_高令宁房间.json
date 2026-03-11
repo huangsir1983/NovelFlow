@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - DAY",
+  "location": "高令宁房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "高父不解女儿为何突然刁难婚事，高令宁表面不解释，内心回望前世婚姻噩梦，并明确表示自己仍一定要嫁。",
+  "key_dialogue": "「谁说我不想嫁？我一定要嫁。」",
+  "emotional_peak": "在父亲担忧中，高令宁以近乎执念的语气确认自己要重入沈家，动机复杂而决绝。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "闺房软榻",
+    "梳妆台",
+    "铜镜",
+    "发钗",
+    "绣架",
+    "帷帐",
+    "茶壶茶杯",
+    "团扇",
+    "窗边小几"
+  ],
+  "dramatic_purpose": "揭示女主并非拒婚，而是带着目的重新布局"
+}

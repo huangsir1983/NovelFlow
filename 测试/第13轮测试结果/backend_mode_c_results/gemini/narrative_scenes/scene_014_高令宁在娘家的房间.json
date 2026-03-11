@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高令宁房间 - DAY",
+  "location": "高令宁在娘家的房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词强行闯入，拿着和离书质问高令宁，试图用前世的誓言捆绑她。高令宁平静地表示已经原谅他，彻底放下了。这让沈词彻底崩溃。",
+  "key_dialogue": "高令宁，我不要你原谅我。",
+  "emotional_peak": "高令宁的“原谅”成为对沈词最沉重的打击，他宁愿她恨他、纠缠他，也不愿被她彻底放下。他的防线完全崩溃。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "和离书",
+    "襁褓中的昭昭"
+  ],
+  "dramatic_purpose": "完成男女主情感地位的终极逆转。高令宁获得内心的平静与自由，而沈词则陷入了自己亲手制造的情感囚笼。",
+  "source_text_start": "下一秒，所有人都震惊地直起腰，看着素来端方持重的沈公子，竟然不顾小厮阻拦，强行闯入了后院。",
+  "source_text_end": "不恨他了……他怎么反而还不乐意了呢？"
+}

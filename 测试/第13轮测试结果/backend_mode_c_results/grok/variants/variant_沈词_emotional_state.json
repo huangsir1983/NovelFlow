@@ -1,0 +1,30 @@
+{
+  "variant_id": "沈词_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 江南痴缠",
+  "tags": [
+    "痴缠",
+    "狼狈",
+    "执着"
+  ],
+  "scene_ids": [
+    "scene_018"
+  ],
+  "trigger": "江南卧室深夜闯入床边，慌乱握腕贴背似哭似笑宣言纠缠",
+  "appearance_delta": {
+    "face": "面如冠玉略显疲惫",
+    "body": "长身玉立脊背弯曲",
+    "hair": "黑发束冠微乱",
+    "distinguishing_features": "眼神慌乱贪婪，表情似哭似笑"
+  },
+  "costume_override": {
+    "outfit": "墨黑青衫略凌乱",
+    "color_palette": [
+      "墨黑",
+      "深蓝"
+    ]
+  },
+  "visual_reference": "一位俊朗古代年轻文官，二十五岁左右，面如冠玉剑眉星目，黑发束冠微乱，身穿墨黑青衫略显凌乱，深夜在江南卧室床边慌乱握住女子手腕，贪婪脸贴近背部，表情似哭似笑充满痴情，古典昏暗光影突出情感张力与狼狈姿态",
+  "visual_prompt_negative": "现代西装、胡须、嬉皮笑容、卡通、肥胖、平静冷峻",
+  "emotional_tone": "痴情主动的纠缠与隐忍爆发"
+}

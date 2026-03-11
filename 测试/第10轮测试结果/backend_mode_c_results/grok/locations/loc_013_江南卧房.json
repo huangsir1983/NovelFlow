@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_013",
+  "name": "江南卧房",
+  "type": "interior",
+  "era_style": "明代江南园林宅院卧房",
+  "description": "江南风情的卧房，木床被褥素雅，月光透过窗棂洒入，侧边置枕头被子，窗外雷雨夜景隐现，地面青砖铺席，布局温馨私密，装饰以轻纱帘幕和木雕为主，营造雨夜情感高潮。",
+  "visual_reference": "Bedroom in Ming dynasty Jiangnan garden residence, simple wooden bed with neat bedding, moonlight streaming through lattice windows, pillows and quilt on floor, distant rainy night view outside, blue brick floor with mat, intimate stormy atmosphere, highly detailed cinematic night lighting",
+  "atmosphere": "温馨雨夜乞求",
+  "color_palette": [
+    "月白",
+    "木褐",
+    "被褥灰蓝",
+    "窗外黑"
+  ],
+  "lighting": "夜晚月光与窗外雷雨闪电交织的戏剧性冷光",
+  "key_features": [
+    "卧床被褥",
+    "月光窗棂",
+    "窗外雷雨景"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "爬床被踹的尴尬到沈词地上守夜乞求永不放手的深情"
+}

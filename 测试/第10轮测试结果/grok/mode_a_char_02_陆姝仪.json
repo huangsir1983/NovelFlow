@@ -1,0 +1,62 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹"
+  ],
+  "role": "antagonist",
+  "age_range": "16-22",
+  "appearance": {
+    "face": "温婉清丽，瓜子脸杏眼含泪，肤色白皙，表情楚楚可怜",
+    "body": "纤细柔弱，身材娇小，病弱气质",
+    "hair": "乌黑长发，常梳垂髫或简单发髻",
+    "distinguishing_features": "泪眼盈盈的楚楚可怜神态与柔弱身姿"
+  },
+  "costume": {
+    "typical_outfit": "粉色或素雅襦裙，常作柔弱打扮",
+    "color_palette": [
+      "粉红",
+      "浅绿",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "绿茶情敌",
+    "柔弱白莲",
+    "trickster原型",
+    "古典美人"
+  ],
+  "visual_reference": "Delicate beautiful young Chinese woman late teens, gentle oval face with tearful almond eyes and fair skin, slender frail build, long black hair in soft updo, wearing pink hanfu dress, pitiful and fragile expression, ancient Chinese setting, highly detailed masterpiece",
+  "personality": "表面温婉柔弱、实则心机深沉、善于示弱博同情、记恨报复",
+  "desire": "嫁入高门或得沈词真心、摆脱孤女寄人篱下命运、陷害高令宁以获优势",
+  "flaw": "心机过重、利用柔弱伪装、最终自食恶果被揭穿",
+  "arc": "起点：重生后设计陷害高令宁、哭求留府 → 转变：被逼嫁蒋晟后承认罪行 → 终点：退出舞台不再出现",
+  "scene_presence": "马球会展示风筝、跪求留府、胃病发作、设计陷害蒋晟、满月宴道歉等多次关键冲突情节",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "兄妹情深实则暗恋，利用其保护",
+      "function": "阻碍"
+    },
+    {
+      "target": "高令宁",
+      "type": "权力",
+      "dynamic": "敌对陷害，多次对峙",
+      "function": "阻碍"
+    },
+    {
+      "target": "沈母",
+      "type": "利益",
+      "dynamic": "依附寻求庇护",
+      "function": "助攻"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益",
+      "dynamic": "设计失贞被迫嫁之",
+      "function": "镜像"
+    }
+  ]
+}

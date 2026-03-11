@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府卧房 - 日",
+  "location": "沈府卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "太医",
+    "沈母"
+  ],
+  "core_event": "高令宁怀孕,太医说是男孩,沈词松口气",
+  "key_dialogue": "你这般心疼睿儿,来日生下他,只怕是要在沈府赖一辈子",
+  "emotional_peak": "得知怀孕,高令宁坚持和离",
+  "tension_score": 0.5,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "床榻",
+    "虎头帽",
+    "针线",
+    "脉枕",
+    "药箱"
+  ],
+  "dramatic_purpose": "沈睿即将出生,高令宁依然要走"
+}

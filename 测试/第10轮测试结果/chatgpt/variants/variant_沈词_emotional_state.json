@@ -1,0 +1,36 @@
+{
+  "variant_id": "shen_ci_variant_05",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 和离后卑微追妻时",
+  "tags": [
+    "追妻火葬场",
+    "卑微",
+    "清瘦",
+    "执拗深情"
+  ],
+  "scene_ids": [
+    "scene_023",
+    "scene_024",
+    "scene_025",
+    "scene_027",
+    "scene_029",
+    "scene_030"
+  ],
+  "trigger": "在被递和离书、跪求见妻女、长期被拒门外、三年间寄信寄钱、雪地撞见‘新夫婿’以及夜里抱被爬床后持续出现，是后期最鲜明的追妻状态。",
+  "appearance_delta": {
+    "face": "比主设定后期更显清瘦疲惫，冷感仍在，但被挫败和执念磨出明显憔悴；眼神常带乞求、酸涩与不肯放手的偏执。",
+    "body": "身量依旧修长，却因心力交瘁显得更单薄；跪姿、候门、抱被而立等动作削弱了原本高高在上的气场。",
+    "hair": "多数时候仍维持冠带，但在长途奔波、雪地现身与夜半纠缠场景里，发冠和发丝会比从前松散，显出狼狈感。",
+    "distinguishing_features": "从‘气质压人’转为‘放下体面也要靠近’；最显著标志是清贵外壳未褪，却不断做出低姿态举动。"
+  },
+  "costume_override": {
+    "outfit": "和离后多穿深色常服或便于往返奔波的上等长袍，外加冬日披风；夜里则抱着铺盖、衣袍略乱，形成权臣与无赖追妻者的反差。",
+    "color_palette": [
+      "玄黑",
+      "墨青",
+      "雪灰白"
+    ]
+  },
+  "visual_reference": "ultra realistic ancient chinese noble official after heartbreak, pale refined face grown thinner and exhausted, dark eyes filled with regret and stubborn longing, black hair tied in guan but slightly loose, tall slim figure in dark robe and winter cloak, kneeling outside a courtyard gate, holding letters, gifts or bedding, snow falling, proud aristocratic aura broken into humble devotion, cinematic historical drama style",
+  "emotional_tone": "卑微、执拗、深情难堪"
+}

@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_011",
+  "name": "高家厢房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸厢房",
+  "description": "侧厢私密房间，床榻凌乱衣冠不整，请帖散落小桌，家具简洁，空间适合突发事件与昏迷场景。",
+  "visual_reference": "明代官宦府邸厢房室内，私密侧室，木床衣冠不整凌乱，床边小桌散落请帖，雕花家具简洁，墙挂淡画，昏暗光影，紧张发现氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "突发惊愕、混乱",
+  "color_palette": [
+    "暗木褐",
+    "衣红",
+    "请帖黄",
+    "墙白"
+  ],
+  "lighting": "黄昏柔和余晖从窗透入，略带阴郁",
+  "key_features": [
+    "凌乱床榻衣冠",
+    "散落请帖小桌",
+    "简洁雕花家具"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "发现昏迷二人的震惊与事件升级"
+}

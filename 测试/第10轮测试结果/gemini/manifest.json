@@ -1,0 +1,67 @@
+{
+  "version": "mode_c_v2",
+  "generated_at": "2026-03-10T17:19:24",
+  "summary": {
+    "characters": 9,
+    "narrative_scenes": 19,
+    "locations": 19,
+    "props_total": 65,
+    "props_major": 0,
+    "props_minor": 65,
+    "variants": 14
+  },
+  "directories": {
+    "characters": "characters/",
+    "narrative_scenes": "narrative_scenes/",
+    "locations": "locations/",
+    "props": "props/",
+    "variants": "variants/"
+  },
+  "files": {
+    "timeline": "narrative_scenes/_timeline.json",
+    "location_index": "locations/_index.json",
+    "props_index": "props/prop_index.json",
+    "manifest": "manifest.json"
+  },
+  "cost": [
+    {
+      "stage": "2A_locations",
+      "model": "gemini-3.1-pro-preview",
+      "input_tokens": 4352,
+      "output_tokens": 7065,
+      "elapsed_s": 221.91
+    },
+    {
+      "stage": "3_variants",
+      "character": "沈词",
+      "model": "gemini-3.1-pro-preview",
+      "input_tokens": 6020,
+      "output_tokens": 1354,
+      "elapsed_s": 67.79
+    },
+    {
+      "stage": "3_variants",
+      "character": "高令宁",
+      "model": "gemini-3.1-pro-preview",
+      "input_tokens": 7032,
+      "output_tokens": 1809,
+      "elapsed_s": 80.6
+    },
+    {
+      "stage": "3_variants",
+      "character": "陆姝仪",
+      "model": "gemini-3.1-pro-preview",
+      "input_tokens": 2563,
+      "output_tokens": 1163,
+      "elapsed_s": 66.11
+    },
+    {
+      "stage": "3_variants",
+      "character": "高父",
+      "model": "gemini-3.1-pro-preview",
+      "input_tokens": 2996,
+      "output_tokens": 1655,
+      "elapsed_s": 101.36
+    }
+  ]
+}

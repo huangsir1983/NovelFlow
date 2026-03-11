@@ -1,0 +1,281 @@
+[
+  {
+    "id": "shot_0798",
+    "scene_id": "scene_052",
+    "shot_number": 1,
+    "goal": "建立卧房内被日光切开的对立关系，交代高令宁坐、沈词站的权力态势与压抑空气。",
+    "composition": "FS，门框外侧轻微遮挡式取景。画面左后方高令宁坐在床榻边，怀抱襁褓中的昭昭；画面右前方沈词背对镜头半侧站立。中间一道斜落日光切开地面与两人之间的空间，床榻、帘幕与屏风形成纵深分隔，和离书压在高令宁手边榻几上可见但不抢眼。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到礼法与情感同时断裂的冷硬对峙。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 798
+  },
+  {
+    "id": "shot_0799",
+    "scene_id": "scene_052",
+    "shot_number": 2,
+    "goal": "进入女主主观感知，确认她已松弛下来且不再防御，怀中孩子成为她新的重心。",
+    "composition": "MCU，高令宁置于画面左三分之一，身形微微歪头，怀中昭昭占据下半画面形成稳定三角。前景虚化一道床帐边缘，背景右侧留出沈词所在的空位与日光边界。和离书只在画面下缘露出一角。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传递一种冷静、抽离后的轻微松弛，带一点看透后的疲惫。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.36,
+    "order": 799
+  },
+  {
+    "id": "shot_0800",
+    "scene_id": "scene_052",
+    "shot_number": 3,
+    "goal": "用女主POV观察沈词被抽空支撑的状态，为后续失控埋下证据。",
+    "composition": "MS，沈词位于画面右侧偏中，正对高令宁方向；左前景保留一块虚焦的月白衣袖，暗示高令宁视点。沈词肩线下塌，衣衫空荡，脸色苍白，背后屏风竖线像将他钉在原地。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到他的失序并非表演，而是内里支撑正在崩塌。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 800
+  },
+  {
+    "id": "shot_0801",
+    "scene_id": "scene_052",
+    "shot_number": 4,
+    "goal": "承接高令宁第一句“想开了”，把她的平静话语与微带讥诮的眼神同时落定。",
+    "composition": "CU，高令宁正面略偏右，视线越过镜头看向沈词。昭昭的襁褓边缘压在下前景，提醒她并非独身发言。背景是柔虚的床帐与冷色墙面，侧光勾出她眉眼的锋利。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "观众应感到一种比怨恨更锋利的平静：她不是赌气，而是真的抽身。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 801
+  },
+  {
+    "id": "shot_0802",
+    "scene_id": "scene_052",
+    "shot_number": 5,
+    "goal": "捕捉沈词听见“想开了”后的第一层裂痕，展示他尚未反应过来的怔滞。",
+    "composition": "MCU，沈词置于画面中央偏右，头顶留少量压迫性留白。背景中一道窗棂光落在他颈侧，眼底阴影加深。画面左缘保留高令宁肩背的虚焦轮廓，维持视线方向一致。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到危险的静止——他不是接受，而是在迟缓地崩裂。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 802
+  },
+  {
+    "id": "shot_0803",
+    "scene_id": "scene_052",
+    "shot_number": 6,
+    "goal": "强调高令宁抱稳昭昭、没有闪避，体现她的立场稳定与情绪控制。",
+    "composition": "ECU，双手与襁褓。高令宁的手指轻轻收紧襁褓边，昭昭安静地露出一点脸。和离书虚焦地横在后方榻几上，形成“孩子/和离”两重选择的视觉并置。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到她如今真正珍视与守住的是什么，也制造一种冷静的决绝。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 803
+  },
+  {
+    "id": "shot_0804",
+    "scene_id": "scene_052",
+    "shot_number": 7,
+    "goal": "在她说出“我原谅你了”前后，给出更完整的关系构图：原谅不是靠近，而是送别。",
+    "composition": "MLS，保持180度轴线。高令宁坐于画面左侧床榻，沈词站于画面右侧，两人之间被日光带切开。榻几上的和离书位于画面中下部，成为视觉焦点之一。昭昭在高令宁怀中形成她这一侧的重量与归属。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众明确意识到这句‘原谅’在空间上等于彻底划界。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 804
+  },
+  {
+    "id": "shot_0805",
+    "scene_id": "scene_052",
+    "shot_number": 8,
+    "goal": "直击高令宁完整说出“希望余生你也能觅得良人”，完成情感反转的刀锋落点。",
+    "composition": "CU，高令宁置中偏左，目光平稳不闪。背景留出一小块空白的右侧空间对应沈词，却没有给他任何视觉支撑。唇线清晰，颈侧淡痕在侧光下若隐若现。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的礼貌比恨更残酷，像正式宣判关系死亡。",
+    "duration_hint": "5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 805
+  },
+  {
+    "id": "shot_0806",
+    "scene_id": "scene_052",
+    "shot_number": 9,
+    "goal": "观众后证实男主真正无法承受的不是责怪，而是被放下；先从生理性反应切入。",
+    "composition": "CU，沈词面部近正面，眼底微红，喉结滚动，肩背一点点塌下去。背景屏风纹样压成密集线条，像收紧的网。画面左下角有一块虚焦的日光边界，提醒他仍站在被切开的那一侧。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "观众应感到一种迟来的寒意：他的执念比此前看见的更病态。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 806
+  },
+  {
+    "id": "shot_0807",
+    "scene_id": "scene_052",
+    "shot_number": 10,
+    "goal": "以动作爆点表现沈词开始失控，‘拼命摇头’打破此前克制外壳。",
+    "composition": "MCU，沈词占满画面，头部在画面内左右急促摆动，衣领与发丝出现轻微拖影。背景短焦压近，屏风和墙面因运动产生轻微晃动感。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "制造突兀的情绪冲击，让观众从冷静博弈被拖入他的慌乱失态。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.9,
+    "order": 807
+  },
+  {
+    "id": "shot_0808",
+    "scene_id": "scene_052",
+    "shot_number": 11,
+    "goal": "在‘不可以’的声音冲出前，先给高令宁一个被打断平静后的即时反应。",
+    "composition": "CU，高令宁面部微僵，眼神第一次出现短促惊意；昭昭襁褓占据下部稳定画面，和她面上的轻微裂缝形成对照。背景仍静止，强化她与沈词失控状态的反差。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众与她一起短暂愣住：这不是普通不甘，而是失去边界感的否认。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 808
+  },
+  {
+    "id": "shot_0809",
+    "scene_id": "scene_052",
+    "shot_number": 12,
+    "goal": "正面打出沈词台词‘不可以……我不要你原谅我’，揭示其真正心理需求。",
+    "composition": "CU，沈词正面近距离，眼神越过镜头直刺高令宁，唇色发白，呼吸乱。镜头略低于眼平，令他看似逼近却无力；背景虚化成一片冷灰，人物孤立出来。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众感到他近乎病态的乞求与控制欲交缠，既可怜又令人不安。",
+    "duration_hint": "5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 809
+  },
+  {
+    "id": "shot_0810",
+    "scene_id": "scene_052",
+    "shot_number": 13,
+    "goal": "补一记关键道具镜头，把‘原谅’与‘和离’的现实后果具象化，强化他为何崩溃。",
+    "composition": "ECU，和离书静置在榻几边缘，纸页被透窗微风掀起一角；前景下方虚焦是昭昭襁褓一抹浅色，后景右上方虚焦是沈词摇晃的暗色衣摆。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众在情绪高潮中获得冰冷确认：这不是一句气话，而是制度与人生的正式切断。",
+    "duration_hint": "1.5-2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 810
+  },
+  {
+    "id": "shot_0811",
+    "scene_id": "scene_052",
+    "shot_number": 14,
+    "goal": "回到高令宁，表现她从惊住到看穿，再到哑然失笑的内在转折。",
+    "composition": "MCU，高令宁位于左侧，面部先停滞后极轻地牵动嘴角，不是温柔而是荒谬至极后的失笑。昭昭安稳在怀，成为她情绪不再被沈词主导的定锚。背景右侧留出大片空位，沈词不入画却被其反应所指向。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她终于彻底认清他，也感到这段关系的可笑与无可挽回。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 811
+  },
+  {
+    "id": "shot_0812",
+    "scene_id": "scene_052",
+    "shot_number": 15,
+    "goal": "用最终对峙全景收束本场：她已退场于情感之外，他仍困在原地。",
+    "composition": "FS，回到初始轴线但更冷。高令宁坐于左，抱着昭昭，微微低头已不再与他缠斗；沈词立于右侧日光之外，姿态塌陷。中间那道日光与榻几上的和离书共同构成不可跨越的分界。门框与床帐再次形成外部观看感。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "留下关系正式断裂后的空响与余寒，让观众体会‘原谅即放逐’的终局感。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 812
+  }
+]

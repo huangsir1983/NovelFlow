@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_040",
+  "order": 39,
+  "heading": "INT. 高家后院卧房 - day",
+  "location": "高家后院卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "我告诉沈词自己已经不恨他，愿他余生另觅良人，沈词却崩溃般拒绝被原谅。",
+  "key_dialogue": "「高令宁，我不要你原谅我。」",
+  "emotional_peak": "他终于承认自己无法接受我真正抽身。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "和离书",
+    "婴儿襁褓"
+  ],
+  "dramatic_purpose": "揭示沈词情感反转：他怕的不是怨恨，而是我不再在意。",
+  "visual_reference": "卧房里女子抱着婴儿语气平静，男子站在床前衣衫空荡、脊背微弯，像失去最后支点的人，画面克制而刺痛",
+  "visual_prompt_negative": "避免跪地痛哭夸张化，避免爱情表白甜腻感，避免背景杂乱",
+  "source_text_start": "我有些迷茫地看着他。 只觉得他可笑。",
+  "source_text_end": "我错愕地看着他，哑然失笑。 不恨他了……他怎么反而还不乐意了呢？"
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 沈府厅堂/内室 - DAY",
+  "location": "沈府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "沈词为陆姝仪择婿焦头烂额，高令宁反而冷静支招：让她假死转妾，等自己和离后再扶正。沈词嘴硬否认男女之情。随后高令宁查出有孕，太医断为男胎。",
+  "key_dialogue": "我与姝仪，并无男女之情。",
+  "emotional_peak": "高令宁怀孕，一切按前世轨迹推进，二人的“生子即和离”契约再次被提醒。",
+  "tension_score": 0.82,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "折扇",
+    "太医诊脉垫",
+    "虎头帽针线",
+    "婚配名册"
+  ],
+  "dramatic_purpose": "推进怀孕主线，并通过男主否认与女主让渡形成关系微妙逆转。",
+  "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他总嫌薄了",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

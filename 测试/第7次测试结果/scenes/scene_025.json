@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_025",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 卧房 - NIGHT",
+    "location": "卧房",
+    "time_of_day": "night",
+    "description": "封闭卧房，深夜静谧，只有月光从窗棂斜照进来，冷白光落在病榻与人物脸上。房内药气沉沉，床边摆着药碗、巾帕与灯盏，空间安静到能看见呼吸与动作的迟缓。高令宁病容明显，面颊凹陷。沈睿守在床边，衣着未解，神情疲惫却克制。",
+    "action": "高令宁重病卧床，半夜惊醒，眼里含泪，双手却无意识地死死抱住沈睿的胳膊。沈睿没有抽开手，只垂眼看着她，另一只手横着在月光下比量她日渐消瘦的脸廓，动作缓慢，像是在确认她还剩下多少分量。他守在床侧，显出长久未离的疲态。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "病榻",
+      "药碗",
+      "巾帕",
+      "灯盏"
+    ],
+    "dramatic_purpose": "在长期敌对后揭露两人关系中仍残存且被压抑的情感，为后续死亡与哀悼提供情感反转基础。",
+    "tension_score": 0.67,
+    "dramatic_intensity": 0.34,
+    "order": 25
+  }
+}

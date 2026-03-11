@@ -1,0 +1,54 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-3+",
+  "appearance": {
+    "face": "婴儿时期漂亮灵秀，长大后眉眼鲜活，神气明亮，带几分父母优点",
+    "body": "幼童圆润健康，活泼能跳",
+    "hair": "孩童双髻或小辫，发质乌黑柔软",
+    "distinguishing_features": "阳光机灵、会背诗、在雪地里奔跑的鲜活生命力"
+  },
+  "costume": {
+    "typical_outfit": "精致小袄、小裙或孩童襦裙，常见喜庆明快配色",
+    "color_palette": [
+      "红色",
+      "鹅黄",
+      "粉白"
+    ]
+  },
+  "casting_tags": [
+    "聪慧萌娃",
+    "治愈向女儿",
+    "家庭新希望"
+  ],
+  "visual_reference": "cute ancient Chinese little girl, bright lively eyes, traditional colorful child hanfu, playful in snow, intelligent and cheerful, warm cinematic lighting",
+  "personality": "聪明、活泼、好学、亲人",
+  "desire": "单纯地爱父母、探索世界",
+  "flaw": "年幼，尚无明显缺陷",
+  "arc": "作为意外出生的女儿，替代了前世执念中的儿子，成为女主真正的新生与男主迟来的牵引",
+  "scene_presence": "出生、满月宴、被争夺抚养权、江南成长与雪地玩耍等阶段性出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "女主全心守护的未来",
+      "function": "重建人生的希望"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "他想弥补与拥有，却始终隔着和离现实",
+      "function": "维系后续联系"
+    },
+    {
+      "target": "高父",
+      "type": "外祖父与外孙女",
+      "dynamic": "被高家坚定保护",
+      "function": "高家延续与柔软补偿"
+    }
+  ]
+}

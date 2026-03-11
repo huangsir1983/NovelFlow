@@ -1,0 +1,36 @@
+{
+  "variant_id": "gaolingning_variant_06",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南和离后的独立母亲",
+  "tags": [
+    "和离后",
+    "江南生活",
+    "独立新生",
+    "带女儿",
+    "清净自持"
+  ],
+  "scene_ids": [
+    "scene_028",
+    "scene_029",
+    "scene_030",
+    "scene_031"
+  ],
+  "trigger": "与沈词和离后南下江南，独自抚养昭昭、收信回信、在雪院中开始新生活时出现；这是她真正从旧怨中抽身后的稳定状态。",
+  "appearance_delta": {
+    "face": "较前期更成熟沉静，眉眼依旧清凌，却少了针锋相对的戾气，多了看透后的冷淡从容",
+    "body": "体态恢复修长挺拔，行动轻稳，带有独立生活后的松弛与掌控感",
+    "hair": "已婚式样减弱，常为简洁端庄的盘发或便于日常起居的整齐发髻，装饰更少",
+    "distinguishing_features": "锋利感收束为沉静气场，像真正掌握自己命运的母亲与女主人"
+  },
+  "costume_override": {
+    "outfit": "江南日常家居长裙与披风，兼具清雅与实用，适合抚育女儿、读信写字与冬日庭院活动",
+    "color_palette": [
+      "月白",
+      "烟青",
+      "淡墨灰",
+      "雪白"
+    ]
+  },
+  "visual_reference": "Independent ancient Chinese woman living in Jiangnan, Song dynasty inspired hanfu, pale cool skin, oval face, calm sharp dark eyes, black hair in a simple elegant bun, refined casual dress in soft moon white, smoky teal and light gray, minimal jewelry, mature poised posture, reading letters in a Jiangnan study or standing in a snowy courtyard with her young daughter, serene yet emotionally guarded, cinematic natural light, quiet post-divorce freedom",
+  "emotional_tone": "清醒从容、独立新生"
+}

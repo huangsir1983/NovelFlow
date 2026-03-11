@@ -1,0 +1,224 @@
+[
+  {
+    "id": "shot_0000",
+    "scene_id": "scene_004",
+    "shot_number": 1,
+    "goal": "建立书房的礼制空间与压抑氛围，交代辞官奏折、书案与父女对峙式站位，为无声谈判定调。",
+    "composition": "FS，门框外微遮挡式取景。书房居中偏内，书案位于画面右中，窗在左后方斜入自然光，照亮案上纸页。高父坐于书案后偏右，伏案成剪影边缘光；高令宁立于案侧偏左，身形挺直，二人被书案切开。前景有半虚化门框与垂帘边缘，背景为整齐书架，留白压在高令宁头顶上方。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到克制、森严与家庭内部政治谈判的压迫感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 0
+  },
+  {
+    "id": "shot_0001",
+    "scene_id": "scene_004",
+    "shot_number": 2,
+    "goal": "将叙事重心压到辞官奏折上，明确高父正在做出实质行动。",
+    "composition": "CU俯角微侧拍书案。奏折纸页占画面下半部，毛笔自右上斜入，墨迹湿亮。砚台与印信在左前景形成礼制秩序感，窗光在纸面拉出斜线，视觉引导到已写下的‘辞官’内容位置。高父袖口与手腕局部入画，不见全脸。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到决定已落到纸面，不再只是劝说。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.18,
+    "order": 1
+  },
+  {
+    "id": "shot_0002",
+    "scene_id": "scene_004",
+    "shot_number": 3,
+    "goal": "引入高令宁的台词与主观压力，表现她对奏折的监视与逼退父亲的决心。",
+    "composition": "MCU，高令宁位于画面左三分之一，身体朝右看向案上纸面；右前景虚化为奏折边缘与高父肩线。她的眼神略向下压，唇线紧，颈侧淡痕在侧光里若隐若现，背景书架压近，空间被中长焦压缩。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她冷静之下的强迫性保护与不容退让。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 2
+  },
+  {
+    "id": "shot_0003",
+    "scene_id": "scene_004",
+    "shot_number": 4,
+    "goal": "承接台词，观察高父听见‘抄家灭门之灾’后的迟疑与沉重接受。",
+    "composition": "MCU正侧反打。高父位于画面右三分之一，坐姿端正却略塌肩，目光落在纸面而非女儿。左前景虚化带入高令宁的肩背轮廓，维持视线轴线一致。窗光打在他鬓角白发与川字纹上，背景书架暗下去，面部被光切成明暗两区。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到一位文臣被现实逼到退位时的屈辱、疲惫与认命。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 3
+  },
+  {
+    "id": "shot_0004",
+    "scene_id": "scene_004",
+    "shot_number": 5,
+    "goal": "强化父女之间并肩施压的空间关系，表现高令宁的话正在逼出最后一笔。",
+    "composition": "MS双人侧面构图。高父坐右，高令宁立左稍后，二人同向面朝书案，形成并列却不亲密的关系。书案横贯下方，笔架与砚台整齐排列成硬线条。窗光从左后切入，把高令宁轮廓勾亮，高父仍在较暗处，视觉上像她把他推向纸面。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到这是女儿主导的一次退场决定，而父亲被迫跟随。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 4
+  },
+  {
+    "id": "shot_0005",
+    "scene_id": "scene_004",
+    "shot_number": 6,
+    "goal": "抓住‘最后一笔落下’这一行动节点，完成辞官的不可逆转。",
+    "composition": "ECU，笔尖占画面中心偏右，墨锋收住最后一捺，纸纤维吃墨可见。高父手指因用力微绷，纸面上末行文字与落款局部清晰。周围背景完全虚化，只有纸、墨、笔形成极简压力中心。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到悬着的一口气终于落地，但落地带着代价。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.62,
+    "order": 5
+  },
+  {
+    "id": "shot_0006",
+    "scene_id": "scene_004",
+    "shot_number": 7,
+    "goal": "表现高令宁在结果确认后的短暂松动，给前面紧绷的情绪一个极小幅度回落。",
+    "composition": "CU，高令宁正侧近景，位于画面左侧，视线仍停在纸面外。肩膀极轻地下沉，呼气带动胸口和唇边细微动作。背景是一片柔暗书架，前景下方有虚化白纸亮斑，提示她的目光对象未变。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她并非冷血，她只是终于保下这一局。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 6
+  },
+  {
+    "id": "shot_0007",
+    "scene_id": "scene_004",
+    "shot_number": 8,
+    "goal": "从放松瞬间转入新的担忧，借高父身体细节提示胸口旧疾，推动她下一步行动。",
+    "composition": "CU，高父上半身与手部特写。画面右侧是他放下毛笔的手，左手下意识按住胸口靠近衣襟处，动作很轻，却被窗侧光捕捉。书案边缘压在画面下方，未干墨迹仍在前景虚化处，形成决定后的生理代价。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "让观众从政治压力转入对身体衰弱的警觉与心疼。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 7
+  },
+  {
+    "id": "shot_0008",
+    "scene_id": "scene_004",
+    "shot_number": 9,
+    "goal": "回到高令宁主观反应，表现她在察觉旧疾后迅速改换优先级。",
+    "composition": "MCU，高令宁位于画面中偏左，目光从纸面抬至高父胸口方向，再迅速转向门口。前景右侧虚化为高父肩部，背景门框在她身后形成明确出路。她神情不外露，但眼神锐度从压迫转为计算与照拂。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的控制欲实则来自保护，她下一步已经决定。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 8
+  },
+  {
+    "id": "shot_0009",
+    "scene_id": "scene_004",
+    "shot_number": 10,
+    "goal": "交代她转身离开的动作，完成从政治施压到家内照护的行动转换。",
+    "composition": "MLS侧后方取景。高令宁自书案左侧向画面左侧门口转身，动作干净利落，衣角划出冷硬弧线。高父仍留在画面右后方坐于案前，未抬头，父女距离被书案和空间拉开。前景有一角门框，背景门外走廊亮度更高，形成明确运动方向。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她不是说完就走，而是立刻接管后续，行动强于情绪。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 9
+  },
+  {
+    "id": "shot_0010",
+    "scene_id": "scene_004",
+    "shot_number": 11,
+    "goal": "在她将出门前给父亲一个余韵反应，显示他对女儿主导命运的复杂接受与柔软。",
+    "composition": "MCU，高父独处在书案后偏右，画面左侧留出高令宁刚离开的空位。案上奏折清晰可见，毛笔横置。高父微抬眼看向左侧门口，目光里有疲惫也有松动，窗光照着白发与眼尾，背景书架依旧严整不动。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这一退并非单纯失败，而是父亲默许女儿替全家夺回生路。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 10
+  },
+  {
+    "id": "shot_0011",
+    "scene_id": "scene_004",
+    "shot_number": 12,
+    "goal": "以动作收束场景，完成她将去医馆抓药的去向暗示，并为下场转场留出口。",
+    "composition": "FS，从书房内望向门口。高令宁背影位于画面左前至中部，沿既定左出方向跨出门槛，衣摆掠过门框。书房深处右侧仍能见高父与书案，形成一静一动的对照。门框与走廊把空间纵深切开，外部光更冷亮，像下一个行动场域的召唤。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众带着余压进入下一场：局面暂稳，但她的奔走才刚开始。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.05,
+    "order": 11
+  }
+]

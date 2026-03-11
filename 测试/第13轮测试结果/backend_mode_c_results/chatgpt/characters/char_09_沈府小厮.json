@@ -1,0 +1,33 @@
+{
+  "name": "沈府小厮",
+  "aliases": [
+    "小厮"
+  ],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "普通少年面容，神色恭谨",
+    "body": "瘦小灵活",
+    "hair": "简洁束发",
+    "distinguishing_features": "作为跑腿传话人存在"
+  },
+  "costume": {
+    "typical_outfit": "青灰色仆从短褂或简装长衫",
+    "color_palette": [
+      "青灰",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "传话仆从",
+    "豪门下人"
+  ],
+  "visual_reference": "中国古代高门小厮，少年，青灰短褂，低眉顺眼，站在门前传话，古风写实",
+  "visual_prompt_negative": "现代制服、夸张发色、卡通风",
+  "personality": "听命行事",
+  "desire": "完成差事",
+  "flaw": "无主体性",
+  "arc": "无",
+  "scene_presence": "在义妹消息传达、高府访客通传等处出现",
+  "relationships": []
+}

@@ -1,0 +1,62 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "令宁",
+    "夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-25",
+  "appearance": {
+    "face": "瓜子脸，丹凤眼锐利坚定，眉宇间透着不屈与冷傲，白皙细腻皮肤",
+    "body": "  苗条修长，身姿挺拔",
+    "hair": "乌黑长发，通常盘成精致发髻",
+    "distinguishing_features": "高傲抬下巴的姿态与嘴角冷笑"
+  },
+  "costume": {
+    "typical_outfit": "华贵襦裙或贵妇罗裙",
+    "color_palette": [
+      "绯红",
+      "宝蓝",
+      "金"
+    ]
+  },
+  "casting_tags": [
+    "重生女主",
+    "坚强独立",
+    "高傲要强",
+    "古代贵女  "
+  ],
+  "visual_reference": "stunning young Chinese noblewoman in ancient hanfu, sharp phoenix eyes with determination and pride, elegant oval face, fair skin, long black hair in intricate updo, slender graceful figure, wearing luxurious red and gold robes, cinematic ancient Chinese drama style, highly detailed, 8k",
+  "personality": "争强好胜、自尊心极强、眼里容不得沙子",
+  "desire": "重见儿子一面、摆脱与沈词的纠缠、过平静自由生活",
+  "flaw": "过于骄傲刚烈、易冲动报复",
+  "arc": "从复仇厌倦到彻底释怀原谅，却被沈词反向痴缠",
+  "scene_presence": "贯穿全剧，从提亲刁难到江南新生活，驱动所有冲突与和离",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前世夫妻",
+      "dynamic": "爱恨交织、互相折磨到痴缠",
+      "function": "情感核心与和离主线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "敌对与被陷害",
+      "function": "制造三角冲突"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "保护与被保护",
+      "function": "情感支柱"
+    },
+    {
+      "target": "昭昭",
+      "type": "母女",
+      "dynamic": "温柔守护",
+      "function": "新生活动力"
+    }
+  ]
+}

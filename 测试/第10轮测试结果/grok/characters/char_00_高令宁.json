@@ -1,0 +1,61 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-23",
+  "appearance": {
+    "face": "清丽精致，五官锋芒毕露，眼神锐利而倔强",
+    "body": "纤细苗条，姿态高傲挺拔",
+    "hair": "乌黑长发，常挽成精致妇人髻或少女发式",
+    "distinguishing_features": "骄傲抬起的下巴与坚定不移的目光"
+  },
+  "costume": {
+    "typical_outfit": "华美绣花汉服长裙，配丝帕与发钗",
+    "color_palette": [
+      "浅绿",
+      "粉紫",
+      "红"
+    ]
+  },
+  "casting_tags": [
+    "重生女主",
+    "古风强势美人",
+    "骄傲贵女"
+  ],
+  "visual_reference": "Elegant young Chinese woman 18-23, sharp determined eyes with proud chin lift, delicate fair features, long jet-black hair in intricate updo or loose maiden style, slender graceful figure, wearing flowing embroidered Hanfu in soft green and pink-purple tones with red accents, cinematic historical drama style, highly detailed face, soft natural lighting",
+  "personality": "争强好胜、骄傲自尊、眼里容不得沙子",
+  "desire": "再见儿子一面、摆脱前世纠缠、获得平静独立生活",
+  "flaw": "过于骄傲冲动、报复心强、拒人千里",
+  "arc": "从恨意满满、报复纠缠到彻底原谅并追求自由，最终被男主疯狂追回",
+  "scene_presence": "全剧绝对核心，从提亲到江南重逢全程驱动剧情与情绪",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前世今生丈夫",
+      "dynamic": "爱恨交织、互相折磨到疯狂纠缠",
+      "function": "情感主线冲突与救赎"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "嫉妒对抗与被陷害",
+      "function": "推动冲突与和离"
+    },
+    {
+      "target": "高父",
+      "type": "父亲",
+      "dynamic": "孝顺保护",
+      "function": "情感后盾与和离支持"
+    },
+    {
+      "target": "昭昭",
+      "type": "女儿",
+      "dynamic": "深沉母爱",
+      "function": "情感锚点与和离理由"
+    }
+  ]
+}

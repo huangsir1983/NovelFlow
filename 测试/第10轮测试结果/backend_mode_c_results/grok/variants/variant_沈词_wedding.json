@@ -1,0 +1,29 @@
+{
+  "variant_id": "沈词_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 洞房夜",
+  "tags": [
+    "新婚",
+    "冷嘲",
+    "占有"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "沈家洞房，成亲后嘲讽女主并行房，陆婢女来闹时",
+  "appearance_delta": {
+    "face": "俊朗清冷，五官端正，嘴角讥诮冷笑明显，眼眸带轻蔑与情欲",
+    "body": "长身玉立，姿态强势压迫",
+    "hair": "黑发以玉冠束起，略微松散",
+    "distinguishing_features": "琥珀色冷眸混杂复杂情绪"
+  },
+  "costume_override": {
+    "outfit": "深色文人喜袍，融入婚庆元素如红丝带",
+    "color_palette": [
+      "墨黑  ",
+      "暗红"
+    ]
+  },
+  "visual_reference": "handsome aloof Chinese scholar-official on wedding night in ancient dynasty, cold amber piercing eyes with mocking smile and hidden desire, refined pale face, tall slender build, black hair tied with jade guan slightly disheveled, dark elegant robes with subtle red wedding accents, red candles and bridal chamber, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "嘲讽冷峻带着占有欲"
+}

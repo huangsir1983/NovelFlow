@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高府厢房 - 日",
+  "location": "高府厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪来访后与蒋晟昏迷被发现",
+  "key_dialogue": "你何必如此苦苦相逼？",
+  "emotional_peak": "沈词铁青面无表情",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "衣冠",
+    "药碗"
+  ],
+  "dramatic_purpose": "陷害事件爆发夫妻决裂",
+  "source_text_start": "直到傍晚，沈词脸色铁青地来到高府。",
+  "source_text_end": "我一把拽住他：「你把话说清楚再走。」"
+}

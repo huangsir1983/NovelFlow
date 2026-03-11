@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 昭昭满月宴厅 - DAY",
+  "location": "昭昭满月宴厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "陆姝仪坦白重生并设计陷害，盈盈一拜离开",
+  "key_dialogue": "高令宁，是我对不住你。",
+  "emotional_peak": "震惊站立",
+  "tension_score": 0.7,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "请帖"
+  ],
+  "dramatic_purpose": "揭露真相推动释怀",
+  "source_text_start": "再见陆姝仪，是在昭昭的满月宴上。",
+  "source_text_end": "她朝我盈盈一拜，转身离开。"
+}

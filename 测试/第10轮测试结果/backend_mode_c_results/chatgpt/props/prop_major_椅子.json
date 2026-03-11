@@ -1,0 +1,14 @@
+{
+  "name": "椅子",
+  "category": "furniture",
+  "description": "中式靠背椅，硬木打造，木色深褐近黑，单椅高约98厘米，座面宽约48厘米，靠背略呈弧形，中段有简洁雕花开光或横枨。扶手款式可为轻微外展的官帽椅风格，也可为无扶手的直背椅，座面铺薄垫，垫面为黛青、暗红或米色绸布。边角打磨圆润，木质厚重，结构端正，体现宅邸礼法与身份秩序。使用痕迹集中在扶手、座沿和脚踏部位，整体不新不旧，适合作为日常会客与室内对谈陈设。",
+  "visual_reference": "Traditional Chinese hardwood chair, Ming-style inspired noble household seat, dark brown almost black wood, 98cm tall, curved backrest, subtle openwork carving or central splat, optional armrests, silk seat cushion in muted teal or dark red, polished worn edges, historical Chinese interior prop, cinematic realism, highly detailed craftsmanship and wood texture",
+  "narrative_function": "椅子用于明确人物位置与尊卑关系，强化谁坐谁立、谁主谁客的叙事信息。它能帮助呈现压迫式谈话、冷静审视与情绪压抑中的距离感。",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_015",
+    "scene_020",
+    "scene_025"
+  ],
+  "emotional_association": "权力秩序与疏离"
+}

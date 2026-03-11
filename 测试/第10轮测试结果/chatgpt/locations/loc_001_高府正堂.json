@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_001",
+  "name": "高府正堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正堂",
+  "description": "高府正堂为典型三开间礼制厅堂，中轴对称，空间高敞，前后通透。正中设抬高半步的主位区域，靠后墙摆放一组深色硬木太师椅与长案，案上置香炉、木雁与礼单，形成严格的礼法中心。厅堂前部设拍案桌几，左右分列客椅与小几，供媒人与主家对坐。地面为青砖铺地，磨损细密，显示老宅气质。梁架外露，木构沉稳，柱身深褐色漆面略有年头。门口垂有厚门帘，帘后透入白昼天光，形成前亮后稳的层次。聘礼箱笼、绸缎布匹、金银首饰整齐堆放在厅堂侧前方，既是陈设也是叙事焦点，与正中孤立的木雁形成鲜明对比。整体装饰克制，不走富丽堆砌，而以官宦之家讲究体面与秩序感为主。",
+  "visual_reference": "Late Ming dynasty Chinese official residence main hall, symmetrical three-bay interior, high timber-beam ceiling, dark hardwood taishi chairs on central dais, long altar table with incense burner, ceremonial wooden wild goose, red gift list scrolls, matchmaking gifts stacked in lacquered chests, bolts of silk, gold and silver jewelry boxes, grey brick floor, heavy doorway curtains, restrained elite decor, daylight entering from front door, tense arranged-marriage atmosphere, cinematic historical drama, ultra detailed, realistic texture",
+  "atmosphere": "礼制严整、压迫试探、表面体面、暗流翻涌",
+  "color_palette": [
+    "深胡桃木色",
+    "灰青砖色",
+    "暗红绸缎色"
+  ],
+  "lighting": "白昼自然光自门口与侧窗斜入，前场明亮，主位区略暗，木器与礼品表面有温润反光，形成审视感极强的礼堂光线。",
+  "key_features": [
+    "正中木雁与香炉长案",
+    "成列聘礼箱笼与绸缎布匹",
+    "对称式太师椅主位"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从表面庄重的提亲礼堂迅速转为针锋相对的试探现场，情绪由克制礼数升高到满堂震惊。"
+}

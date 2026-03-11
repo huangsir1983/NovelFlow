@@ -1,0 +1,81 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "青梅",
+    "义妹",
+    "表小姐",
+    "沈词青梅竹马"
+  ],
+  "role": "supporting",
+  "age_range": "18-21",
+  "appearance": {
+    "face": "精致瓜子脸，柳叶细眉，水润杏眼总是含着楚楚可怜却藏倔强的光芒，樱桃小口，肤如凝脂",
+    "body": "纤细娇小，腰肢柔软如柳，体态轻盈，给人我见犹怜的脆弱感",
+    "hair": "乌黑如瀑的长\n发，通常挽成温婉古典发髻，饰以素雅珠花或绢花",
+    "distinguishing_features": "水汪汪的杏眼与柔弱娇怯的气质，最易引发保护欲与怜爱"
+  },
+  "costume": {
+    "typical_outfit": "素雅淡色襦裙，层层轻薄罗纱披帛，裙摆绣细花，风格婉约温柔",
+    "color_palette": [
+      "浅粉",
+      "嫩绿",
+      "素白"
+    ],
+    "texture_keywords": [
+      "丝绸",
+      "轻纱",
+      "柔软飘逸"
+    ]
+  },
+  "casting_tags": [
+    "delicate ancient Chinese beauty",
+    "fragile damsel",
+    "pitiful watery eyes",
+    "graceful hanfu maiden",
+    "childhood sweetheart"
+  ],
+  "visual_reference": "A delicate beautiful young Chinese woman in ancient hanfu, oval face with large watery almond eyes full of fragile tenderness and quiet stubbornness, pale porcelain skin, small cherry lips, long silky jet-black hair in elegant updo with subtle hairpins, slender petite fragile figure, wearing flowing pale pink silk dress with mint accents and sheer gauze, soft melancholic expression, highly detailed, masterpiece, cinematic, ancient Chinese style",
+  "description": "沈词青梅竹马、前世真爱被救认作义妹并极尽疼爱的柔弱倔强少女，是重生婚姻中情感张力与主角和离决心的核心催化剂",
+  "personality": "外表温柔顺从、楚楚可怜，举止轻柔以博保护；内心倔强坚韧，隐忍执着，行为模式为以弱示强、避免正面冲突却坚守底线",
+  "desire": "彻底摆脱义妹身份，与沈词结为正式夫妻，获得其专属疼爱与长相厮守，重建前世被家族覆灭中断的幸福",
+  "flaw": "身体娇弱易晕厥，情感过度依赖沈词保护，在权力与冲突中被动隐忍或自我牺牲，难以独立自主",
+  "arc": "前世因家族抄家与沈词分离的受害者→今生落水被救获极致疼爱却仍处情感边缘→主角和离后面临定位转变与独立或争取爱情的考验",
+  "relationships": [
+    {
+      "target": "我",
+      "type": "对照",
+      "dynamic": "作为沈词宠爱义妹与前世阴影，成为主角婚姻情感隔阂与警惕对象，激发主角从隐忍到和离的决绝",
+      "function": "主要冲突催化剂，推动主角独立成长与复仇弧线"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "青梅竹马深厚情愫，沈词救命并极尽疼爱保护，她视其为唯一依靠与挚爱，构成强烈情感纽带",
+      "function": "沈词行为动机核心，制造主角婚姻张力与情感三角"
+    },
+    {
+      "target": "睿儿",
+      "type": "情感",
+      "dynamic": "作为义姑母，对未出生侄子形成间接家庭情感关联，可能影响和离后抚养与家族延续",
+      "function": "潜在家庭动态变量，象征子嗣与血脉延续的支线伏笔"
+    },
+    {
+      "target": "父亲",
+      "type": "对照",
+      "dynamic": "无直接互动，但通过主角父亲对女儿的关切与沈词对她的疼爱形成家庭关系对照",
+      "function": "间接家庭背景衬托，突出不同亲情模式"
+    },
+    {
+      "target": "沈母",
+      "type": "权力",
+      "dynamic": "沈母侄女，受其偏爱与利用，作为后宅立威与侧室安排工具，形成亲属权力纽带",
+      "function": "强化沈家内部势力与主角冲突，体现利益驱动"
+    },
+    {
+      "target": "大夫",
+      "type": "对照",
+      "dynamic": "无直接互动，仅在主角怀孕场景中被提及，与其无关却间接关联家族子嗣议题",
+      "function": "中性叙事工具，衬托婚姻去留张力"
+    }
+  ]
+}

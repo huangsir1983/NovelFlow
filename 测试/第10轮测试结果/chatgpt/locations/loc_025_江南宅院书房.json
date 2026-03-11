@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_025",
+  "name": "江南宅院书房",
+  "type": "interior",
+  "era_style": "明清过渡风格江南夜间书房",
+  "description": "夜间书房更显孤寂，案几上摊开书信与笔墨纸砚，一旁设火盆与灯烛。窗外可见雪影映窗，增强时令寒意。书房陈设简净，木色温润，但夜里因独坐而显得格外空。案前宜留足空间，使人物在灯下反复提笔、搁笔的动作有余地。火盆的暗红与烛焰微黄是夜色中的两处温点，却不足以驱散情绪上的迟疑和不眠。",
+  "visual_reference": "Night study in a Jiangnan residence, elegant wooden desk with open letters, brush, inkstone, paper, small brazier, candlelight, snow shadows outside lattice window, solitary woman writing a restrained reply, quiet emotional conflict, refined late imperial Chinese interior, cinematic realism, highly detailed winter night atmosphere",
+  "atmosphere": "静夜辗转、克制、微凉、旧情未灭",
+  "color_palette": [
+    "雪夜冷灰",
+    "烛火暖黄",
+    "旧木棕"
+  ],
+  "lighting": "以桌上灯烛和火盆为主光，室内局部温暖、四周幽暗，窗外雪光反射出清冷边缘光。",
+  "key_features": [
+    "案上展开的书信",
+    "火盆与灯烛双重夜光",
+    "窗外雪影"
+  ],
+  "narrative_scenes": [
+    "scene_028"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "表面平静地写下祝福，内里却是彻夜未眠、反复拉扯的不甘与残留情意。"
+}

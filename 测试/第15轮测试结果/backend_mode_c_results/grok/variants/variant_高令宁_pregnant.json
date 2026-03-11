@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 孕期贵妇",
+  "tags": [
+    "孕妇",
+    "母性",
+    "绣活"
+  ],
+  "scene_ids": [
+    "scene_010",
+    "scene_011"
+  ],
+  "trigger": "怀孕后在高家闺房或廊下绣虎头帽，沈词探望剥葡萄时",
+  "appearance_delta": {
+    "face": "脸庞略圆润红润，眼神柔和一些仍带骄傲",
+    "body": "苗条身材腹部微隆起，姿态优雅护腹",
+    "hair": "乌黑长发盘成稍松精致发髻",
+    "distinguishing_features": "手持虎头帽和绣线，温柔抚腹"
+  },
+  "costume_override": {
+    "outfit": "宽松淡雅绣花襦裙适合孕期",
+    "color_palette": [
+      "浅蓝",
+      "粉白"
+    ]
+  },
+  "visual_reference": "一位二十岁左右古代汉族孕妇，清丽端庄脸庞，柳眉杏眼眼神坚定温柔，皮肤白皙如玉，身材苗条腹部隆起优雅，穿着浅蓝色宽松绣花襦裙，头发高髻插玉钗，手持未完虎头帽坐在高家廊下绣花，姿态倔强优雅，光影柔和自然，写实风格，细腻皮肤纹理，高清细节",
+  "visual_prompt_negative": "现代服装、短发、浓妆、卡通风格、西方面孔、笑容过度甜美、肥胖身材、非孕期平坦腹部",
+  "emotional_tone": "骄傲母爱与温柔"
+}

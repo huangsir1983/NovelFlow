@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_forgiveness",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 彻底释怀期",
+  "tags": [
+    "产后",
+    "平静",
+    "毫无波澜",
+    "端庄主母"
+  ],
+  "scene_ids": [
+    "scene_015",
+    "scene_016"
+  ],
+  "trigger": "生下女儿后，递交和离书并平静表示原谅沈词，参加满月宴",
+  "appearance_delta": {
+    "face": "病后初愈的苍白，但眼神前所未有的平和、清澈，彻底失去了对沈词的恨意与情绪波动",
+    "body": "产后略显单薄纤弱",
+    "hair": "端庄的妇人发髻，未配过多首饰，一丝不苟",
+    "distinguishing_features": "一种让沈词感到窒息的温柔与平静，歪头微笑着说出最残忍的“原谅”"
+  },
+  "costume_override": {
+    "outfit": "极度素雅的常服，款式宽松舒适，不带任何攻击性的色彩",
+    "color_palette": [
+      "素白",
+      "浅灰"
+    ]
+  },
+  "visual_reference": "1girl, ancient chinese noblewoman, young mother, pale skin, elegant matron hair bun, wearing very plain and loose pale white hanfu, peaceful and completely detached expression, gentle but distant smile, sitting quietly, masterpiece, high quality, soft natural lighting",
+  "emotional_tone": "看破红尘般的平静、温柔且残忍的彻底剥离"
+}

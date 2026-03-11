@@ -1,0 +1,60 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "18-26",
+  "appearance": {
+    "face": "五官端正，肤色健康，神情老实，容易脸红，眼神坦诚",
+    "body": "习武之人，肩宽手稳，体格结实，不显粗鲁",
+    "hair": "束发利落，多为简洁公子发式",
+    "distinguishing_features": "朴实可靠的武人气，扶人时动作很稳"
+  },
+  "costume": {
+    "typical_outfit": "利落骑装或简洁锦袍，赴马球会时穿便于活动的轻甲式公子装",
+    "color_palette": [
+      "靛蓝",
+      "棕色",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "老实良配",
+    "武人公子",
+    "备选男配",
+    "温吞正派"
+  ],
+  "visual_reference": "young ancient chinese nobleman with martial bearing, honest face, athletic build, neat tied hair, practical elegant riding outfit, dependable temperament",
+  "personality": "憨厚、规矩、细心，面对感情略显笨拙",
+  "desire": "娶得贤妻，安稳成家",
+  "flaw": "不够机警，在复杂局势中容易成为棋子",
+  "arc": "从潜在良配沦为阴谋受害者，被迫与陆姝仪成婚，人生轨迹被他人设计改变",
+  "scene_presence": "相见、马球会照顾高令宁、失贞风波中昏迷现身、后借请帖出现在满月宴背景中",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "相亲对象/保护者",
+      "dynamic": "对她有明显好感，也曾给过她短暂被稳妥照顾的想象",
+      "function": "对照沈词的另一种男性可能"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "被设计成婚的夫妻",
+      "dynamic": "婚姻建立于算计，婚后疏离冷淡",
+      "function": "展示女性求生手段的代价"
+    },
+    {
+      "target": "高父",
+      "type": "师生",
+      "dynamic": "受器重，被视作门生与女婿候选",
+      "function": "父亲为女儿寻找退路的体现"
+    },
+    {
+      "target": "沈词",
+      "type": "情敌/鄙视对象",
+      "dynamic": "无意中触发其嫉妒，后被其要求负责提亲",
+      "function": "刺激男主情绪与推动风波"
+    }
+  ]
+}

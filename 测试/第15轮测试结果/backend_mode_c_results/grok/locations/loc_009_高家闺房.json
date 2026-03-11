@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_009",
+  "name": "高家闺房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸闺房",
+  "description": "温馨雅致的孕期闺房，绣架上挂绣线与半成品虎头帽，床榻舒适，窗边小几，空间私密适合刺绣与夫妻私谈，装饰较婚前更成熟。",
+  "visual_reference": "明代官宦府邸孕妇闺房室内，温馨雅致空间，雕花木床旁绣架摆绣线与虎头帽，红木小几与茶具，墙挂淡雅花鸟画，纱帐轻垂，日光柔和洒入，宁静温情氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "温馨孕育、情感和解",
+  "color_palette": [
+    "绣红",
+    "浅木褐",
+    "粉嫩",
+    "米白"
+  ],
+  "lighting": "白天柔和自然光透过窗纱，温暖舒适",
+  "key_features": [
+    "绣线与虎头帽",
+    "雕花绣架",
+    "孕期舒适床榻"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "绣帽的宁静到沈词谈和离的潋滟一笑与复杂"
+}

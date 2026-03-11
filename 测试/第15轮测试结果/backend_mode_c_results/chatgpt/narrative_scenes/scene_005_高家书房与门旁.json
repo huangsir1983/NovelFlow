@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT/EXT. 高家书房门外 - DAY",
+  "location": "高家书房与门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "蒋晟",
+    "沈词"
+  ],
+  "core_event": "高父担忧女儿受委屈，安排她见门生蒋晟；高令宁同时逼父亲辞官避祸。出门后，沈词拦路，以“再杀睿儿一次”逼她继续婚约，并约定生子后和离。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "沈词精准拿沈睿刺中高令宁最痛的软肋，两人带着恨意重新缔结婚约。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁勒痕",
+    "婚约口头条件"
+  ],
+  "dramatic_purpose": "明确再婚交易的真正条件：为儿子而婚，生子后和离。",
+  "source_text_start": "父亲不放心让我嫁入沈家。\n一夜未睡后，他改",
+  "source_text_end": "他抿唇，不再说话。\n四目相对，只剩恨意。"
+}

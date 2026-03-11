@@ -1,0 +1,29 @@
+{
+  "variant_id": "陆姝仪_variant_01",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 胃痛虚弱",
+  "tags": [
+    "虚弱",
+    "病态",
+    "跪求"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "马球会医室胃痛发作，跪求暂留并被沈词庇护",
+  "appearance_delta": {
+    "face": "面色苍白憔悴，泪眼盈盈更显痛苦",
+    "body": "更加纤弱无力，仿佛难以支撑",
+    "hair": "柔顺长发略微凌乱",
+    "distinguishing_features": "手捂腹部，跪姿虚弱楚楚"
+  },
+  "costume_override": {
+    "outfit": "粉色轻纱汉服略有褶皱",
+    "color_palette": [
+      "粉红",
+      "浅白"
+    ]
+  },
+  "visual_reference": "delicate beautiful young Chinese woman in slightly wrinkled soft pink ancient hanfu, weak and in pain clutching her stomach while kneeling, pale face with teary watery eyes, soft fragile features, long flowing hair slightly messy with subtle ornaments, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "痛苦依赖与柔弱"
+}

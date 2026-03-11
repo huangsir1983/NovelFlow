@@ -1,0 +1,53 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆婆"
+  ],
+  "role": "minor",
+  "age_range": "45-55岁",
+  "appearance": {
+    "face": "贵妇气质，威严",
+    "body": "中等偏丰腴",
+    "hair": "妇人发髻",
+    "distinguishing_features": "高门贵妇的傲慢神态"
+  },
+  "costume": {
+    "typical_outfit": "华贵主母服饰",
+    "color_palette": [
+      "深紫",
+      "宝蓝"
+    ]
+  },
+  "casting_tags": [
+    "婆婆",
+    "高门贵妇",
+    "偏心"
+  ],
+  "visual_reference": "古代中年贵妇，五十岁左右，面容威严，身着深紫色华贵主母服饰，妇人发髻，神态傲慢，坐在正堂或内室中，整体气质高贵但冷漠",
+  "visual_prompt_negative": "和善、年轻、现代装、卑微、平民气质",
+  "personality": "高门贵妇，偏心侄女",
+  "desire": "维护沈家体面，让侄女入府",
+  "flaw": "偏心陆姝仪，轻视儿媳",
+  "arc": "前世逼迫儿媳接受平妻→被吓病→今生继续偏心",
+  "scene_presence": "少量出现，制造矛盾",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "母亲为儿子安排",
+      "function": "矛盾来源"
+    },
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "轻视儿媳",
+      "function": "矛盾制造"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姨母侄女",
+      "dynamic": "偏爱保护",
+      "function": "偏心根源"
+    }
+  ]
+}

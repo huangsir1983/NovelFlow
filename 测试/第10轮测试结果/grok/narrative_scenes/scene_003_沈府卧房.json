@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 沈府卧房 - 夜 (前世)",
+  "location": "沈府卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "高令宁重病，沈词守床照顾并比量消瘦脸庞",
+  "key_dialogue": "「高令宁，你永远别想摆脱我。」",
+  "emotional_peak": "生死相依却互相咒骂",
+  "tension_score": 0.7,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "药碗、烛火、床帐、沈词胳膊"
+  ],
+  "dramatic_purpose": "揭示复杂情感与死亡"
+}

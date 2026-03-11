@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_008",
+  "name": "马球场偏僻角落",
+  "type": "exterior",
+  "era_style": "明代园林偏僻一隅",
+  "description": "远离喧嚣的隐秘角落。几棵参天古树交织成浓密的树冠，遮蔽了大部分阳光。树下是一套粗糙的青石桌凳。四周灌木丛生，形成了一个天然的封闭空间，充满私密感与危险的侵略性。",
+  "visual_reference": "Secluded corner of an ancient Chinese garden, rough stone benches under thick ancient tree canopies, dappled sunlight filtering through dense leaves, quiet and intimate but slightly dangerous atmosphere, lush dark foliage, cinematic lighting, highly detailed, 8k.",
+  "atmosphere": "私密、危险、充满张力",
+  "color_palette": [
+    "深林绿",
+    "幽影灰",
+    "斑驳金"
+  ],
+  "lighting": "斑驳的树影光斑，高对比度的明暗交界线",
+  "key_features": [
+    "浓密的树冠",
+    "青石凳",
+    "斑驳的树影"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从女主的抗拒与疏离，到男主撕破伪装的强势逼近与言语羞辱"
+}

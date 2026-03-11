@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁闺房",
+  "type": "interior",
+  "era_style": "明代江南官宦小姐闺阁",
+  "description": "私密优雅的少女闺房，内侧置雕花架子床或绣榻，床边垂挂轻纱帐幔。靠窗设有精致妆奁镜台，台上摆放梳妆用品。房间中央或侧边有小茶几和绣墩，墙上挂刺绣作品或山水小画。空间温馨紧凑，充满女性柔美细节，地面铺地毯或席子，空气中似有淡淡香气。",
+  "visual_reference": "Intimate Ming dynasty Chinese noble lady's boudoir in Jiangnan style, delicate carved wooden canopy bed with embroidered silk curtains, ornate dressing table with bronze mirror near window, tea set on small table, soft pastel fabrics and embroidery, elegant feminine details, warm wooden tones, detailed interior",
+  "visual_prompt_negative": "modern furniture, electric lighting, western architecture, contemporary elements, people unless specified, blurry, low resolution, cartoon, fantasy elements",
+  "atmosphere": "温馨私密, 父女对峙",
+  "color_palette": [
+    "粉嫩红",
+    "浅木棕",
+    "翠绿刺绣",
+    "米白"
+  ],
+  "lighting": "白天明亮柔光透过纸窗和纱帐扩散，营造温柔亲密的光影效果",
+  "key_features": [
+    "雕花妆奁镜台",
+    "绣榻纱帐",
+    "父亲官帽摆件"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "父亲责备的严肃到女主坚持与泄愤的复杂情绪"
+}

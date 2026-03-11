@@ -1,0 +1,155 @@
+[
+  {
+    "id": "dl_0054",
+    "scene_id": "scene_028",
+    "character_id": "char_蒋晟",
+    "line": "是我没护好你。",
+    "subtext": "他在为高令宁受伤自责，试图承担责任并表达歉意，也隐含着想安抚她、挽回自己的失职感。",
+    "emotion_intensity": 0.72,
+    "order": 0
+  },
+  {
+    "id": "dl_0055",
+    "scene_id": "scene_028",
+    "character_id": "char_蒋晟",
+    "line": "方才有同窗寻我，推脱不得，我才……",
+    "subtext": "他在解释自己为何未能陪在她身边，本质上是在为自己的缺席辩解，希望得到理解与原谅。",
+    "emotion_intensity": 0.58,
+    "order": 1
+  },
+  {
+    "id": "dl_0056",
+    "scene_id": "scene_028",
+    "character_id": "char_高令宁",
+    "line": "我们回家吧。",
+    "subtext": "她已不愿继续停留，也不想再看沈词与陆姝仪之间的互动；这句话表面是离开，实则是情感上的抽离和决断。",
+    "emotion_intensity": 0.64,
+    "order": 2
+  },
+  {
+    "id": "dl_0057",
+    "scene_id": "scene_029",
+    "character_id": "char_旁白",
+    "line": "二位留步。",
+    "subtext": "这是对高令宁和蒋晟的叫停，意味着对话并未结束，沈词要强行介入并施压。",
+    "emotion_intensity": 0.42,
+    "order": 3
+  },
+  {
+    "id": "dl_0058",
+    "scene_id": "scene_029",
+    "character_id": "char_旁白",
+    "line": "还望高姑娘，言出必行。",
+    "subtext": "沈词借礼貌措辞向高令宁施压，要求她履行先前承诺，本质上是在逼她退让，为陆姝仪留下空间。",
+    "emotion_intensity": 0.63,
+    "order": 4
+  },
+  {
+    "id": "dl_0059",
+    "scene_id": "scene_029",
+    "character_id": "char_高令宁",
+    "line": "公子还是先操心好表小姐的婚事，再来提亲吧。",
+    "subtext": "她在讽刺沈词一边维护陆姝仪、一边又来提亲，揭穿他的感情与责任并不清白，也是在明确拒绝。",
+    "emotion_intensity": 0.77,
+    "order": 5
+  },
+  {
+    "id": "dl_0060",
+    "scene_id": "scene_029",
+    "character_id": "char_旁白",
+    "line": "你何必如此苦苦相逼？",
+    "subtext": "沈词把局面定义为高令宁在逼迫，试图倒置责任，让她为自己的坚持感到不近人情。",
+    "emotion_intensity": 0.71,
+    "order": 6
+  },
+  {
+    "id": "dl_0061",
+    "scene_id": "scene_029",
+    "character_id": "char_旁白",
+    "line": "时间来不及为姝仪慢慢择婿，你就不能退一步吗？",
+    "subtext": "沈词真正关心的是陆姝仪的处境，希望高令宁牺牲自己的原则来成全他的安排；他在请求，但也是道德绑架。",
+    "emotion_intensity": 0.8,
+    "order": 7
+  },
+  {
+    "id": "dl_0062",
+    "scene_id": "scene_029",
+    "character_id": "char_高令宁",
+    "line": "不退。",
+    "subtext": "她拒绝再像前世那样让步，这不仅是回应眼前请求，更是对过去委屈和未来命运的断然反抗。",
+    "emotion_intensity": 0.88,
+    "order": 8
+  },
+  {
+    "id": "dl_0063",
+    "scene_id": "scene_030",
+    "character_id": "char_陆姝仪",
+    "line": "高小姐……",
+    "subtext": "她以示弱开场，先摆出可怜姿态，试图唤起高令宁的同情，为接下来的请求铺垫。",
+    "emotion_intensity": 0.56,
+    "order": 9
+  },
+  {
+    "id": "dl_0064",
+    "scene_id": "scene_030",
+    "character_id": "char_陆姝仪",
+    "line": "我与兄长真的无男女之情，求你，求你可怜可怜我，让我暂且留在沈家……就拿我当奴婢，当宠物……",
+    "subtext": "她口头否认与沈词有情，却用极端自贬的方式博取同情，真实意图是继续留在沈家、留在沈词身边，并把高令宁置于若不答应就显得残忍的位置。",
+    "emotion_intensity": 0.93,
+    "order": 10
+  },
+  {
+    "id": "dl_0065",
+    "scene_id": "scene_030",
+    "character_id": "char_旁白",
+    "line": "姝仪，你这是做什么？",
+    "subtext": "沈词表面是在制止她下跪，实际是在心疼她受辱，也借此强化自己保护她的姿态。",
+    "emotion_intensity": 0.7,
+    "order": 11
+  },
+  {
+    "id": "dl_0066",
+    "scene_id": "scene_030",
+    "character_id": "char_旁白",
+    "line": "有我在，没人能赶你走。",
+    "subtext": "沈词公开站队陆姝仪，向她许诺庇护；潜台词是他会为了她对抗高令宁的立场与要求。",
+    "emotion_intensity": 0.9,
+    "order": 12
+  },
+  {
+    "id": "dl_0067",
+    "scene_id": "scene_031",
+    "character_id": "char_陆姝仪",
+    "line": "有些事，是强求不来的。",
+    "subtext": "她借泛泛而谈来打压高令宁，暗示感情无法靠身份或努力获得，实际上是在宣示自己在沈词心中的特殊位置。",
+    "emotion_intensity": 0.68,
+    "order": 13
+  },
+  {
+    "id": "dl_0068",
+    "scene_id": "scene_031",
+    "character_id": "char_陆姝仪",
+    "line": "恰如你是他的妻子，可得到的疼爱，却只是我手头缝里流出来的一点。",
+    "subtext": "她在残酷地炫耀自己占据了沈词的大部分情感，把高令宁贬低为只能捡拾剩余怜爱的合法妻子。",
+    "emotion_intensity": 0.94,
+    "order": 14
+  },
+  {
+    "id": "dl_0069",
+    "scene_id": "scene_031",
+    "character_id": "char_陆姝仪",
+    "line": "你辛辛苦苦追求的，我轻而易举便得到了。",
+    "subtext": "她在强调高令宁再努力也比不过自己的天然优势，借此羞辱并摧毁对方的自尊心。",
+    "emotion_intensity": 0.9,
+    "order": 15
+  },
+  {
+    "id": "dl_0070",
+    "scene_id": "scene_031",
+    "character_id": "char_陆姝仪",
+    "line": "高姑娘，你不觉得自己很可笑吗？",
+    "subtext": "她将羞辱推到顶点，意图让高令宁彻底怀疑自己的婚姻、努力与存在价值。",
+    "emotion_intensity": 0.95,
+    "order": 16
+  }
+]

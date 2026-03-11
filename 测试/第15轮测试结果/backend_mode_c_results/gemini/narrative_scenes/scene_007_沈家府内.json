@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 沈家书房/厅堂 - DAY",
+  "location": "沈家府内",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "面对沈词为陆姝仪婚事焦头烂额，高令宁主动提出让他纳陆姝仪为妾的“金蝉脱壳”之计，并表示自己想开了，不会再恨他，这让沈词感到震惊和愤怒。",
+  "key_dialogue": "高令宁，谁准你想开了？",
+  "emotional_peak": "沈词听到高令宁说“不会再恨你了”，情绪失控，发出质问。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "扇子",
+    "虎头帽（刺绣）",
+    "丝线"
+  ],
+  "dramatic_purpose": "标志着两人权力关系的逆转。高令宁的“放下”剥夺了沈词在情感上拿捏她的能力，让他开始感到恐慌。",
+  "source_text_start": "沈词为此焦头烂额。\n我看了半晌，淡道：「若你实在心疼，不如便将她纳进来吧。」\n「你此时倒做上好人了",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

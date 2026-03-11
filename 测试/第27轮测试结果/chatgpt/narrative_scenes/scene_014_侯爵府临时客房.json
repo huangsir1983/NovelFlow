@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 马球会客房 - dusk",
+  "location": "侯爵府临时客房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为我正骨时，沈词正温柔照料胃病发作的陆姝仪，我看清自己无论前世今生都被排在后位。",
+  "key_dialogue": "我们回家吧。",
+  "emotional_peak": "冷透后的厌倦",
+  "tension_score": 0.64,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "药碗",
+    "正骨布带",
+    "软榻"
+  ],
+  "dramatic_purpose": "让女主从嫉怒转向抽离，为后续妥协埋下情绪基础。",
+  "visual_reference": "室内一边大夫给女子正骨，年轻武人低头愧疚；几步之外另一张软榻上，病弱女子蜷缩，贵公子端药轻声哄着，画面一分为二，对比鲜明，暮色灯火映照古风压抑感",
+  "visual_prompt_negative": "避免医院现代感、避免过度拥挤、避免夸张病容、避免主次不分",
+  "source_text_start": "大夫来看过了我的伤。",
+  "source_text_end": "我收回视线，只觉得索然无味。"
+}

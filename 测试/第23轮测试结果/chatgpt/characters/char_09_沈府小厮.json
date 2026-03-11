@@ -1,0 +1,38 @@
+{
+  "name": "沈府小厮",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "15-25",
+  "appearance": {
+    "face": "普通清秀或瘦削，神态恭谨",
+    "body": "精瘦灵活",
+    "hair": "小厮常见束发",
+    "distinguishing_features": "传话跑腿，体现沈府意志"
+  },
+  "costume": {
+    "typical_outfit": "朴素短打与下人服",
+    "color_palette": [
+      "灰蓝",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "跑腿小厮",
+    "功能角色"
+  ],
+  "visual_reference": "古代世家小厮，瘦削机灵，穿灰蓝短打，低头传话，站在府门或廊下，古风写实",
+  "visual_prompt_negative": "现代制服、夸张喜剧妆、卡通风",
+  "personality": "服从、谨慎",
+  "desire": "办妥差事",
+  "flaw": "无独立意志",
+  "arc": "功能性角色",
+  "scene_presence": "负责往返传话，带出义妹消息与求亲推进",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "传话对象",
+      "dynamic": "承接条件与态度",
+      "function": "推进情节"
+    }
+  ]
+}

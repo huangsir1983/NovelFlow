@@ -1,0 +1,49 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "表小姐",
+    "姝仪"
+  ],
+  "role": "supporting",
+  "age_range": "16-18岁",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜，常带泪痕",
+    "body": "柔弱纤细，仿佛风一吹就倒",
+    "hair": "简单温婉的发髻，配以素色珠花",
+    "distinguishing_features": "一双如清泉般震动的泪眼，极具欺骗性"
+  },
+  "costume": {
+    "typical_outfit": "粉色或白色的纱裙，显得寄人篱下且柔弱",
+    "color_palette": [
+      "藕粉",
+      "月白",
+      "浅绿"
+    ]
+  },
+  "casting_tags": [
+    "白莲花",
+    "小白花",
+    "绿茶",
+    "外柔内狠"
+  ],
+  "visual_reference": "A fragile and beautiful young ancient Chinese woman, wearing a pale pink dress, tearful eyes, pitiful expression, delicate features, cinematic lighting, 8k.",
+  "personality": "绿茶心机，自私自利，为达目的不择手段，善于利用男人的同情心",
+  "desire": "在失去家族庇护后，不择手段寻找最稳固的靠山（沈词或蒋晟）",
+  "flaw": "聪明反被聪明误，眼界狭隘",
+  "arc": "从伪装柔弱博取同情，到阴谋败露自食恶果，最终认命",
+  "scene_presence": "马球会、满月宴、捉奸现场等关键转折点",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅竹马/利用对象",
+      "dynamic": "不断示弱索取保护，暗中破坏其夫妻关系",
+      "function": "男女主婚姻破裂的直接导火索"
+    },
+    {
+      "target": "蒋晟",
+      "type": "算计对象/丈夫",
+      "dynamic": "设计逼婚，婚后被冷落",
+      "function": "展现其不择手段的结局"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_031",
+  "order": 30,
+  "heading": "INT. 高家前厅 - day",
+  "location": "高家前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "父亲",
+    "沈母"
+  ],
+  "core_event": "沈家想接走昭昭，父亲硬顶沈母，明确表示和离后孩子归高家，并以公堂与官途相胁。",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "娘家终于替我撑腰到底",
+  "tension_score": 0.77,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "孙女探望口信",
+    "公堂威胁"
+  ],
+  "dramatic_purpose": "强化高家站队，切断沈家对女主与女儿的天然支配权。",
+  "visual_reference": "高家前厅中年父亲坐姿稳重，面对来访贵妇神色冷硬，言辞寸步不让；对方勉强陪笑却压不住难堪，厅堂气氛严肃，古代家族博弈写实",
+  "visual_prompt_negative": "避免泼妇骂街感、避免宫廷珠翠夸张、避免现代客厅布局、避免过多旁观者",
+  "source_text_start": "我给女儿取名为昭昭。",
+  "source_text_end": "沈母只得退了一步。\n没再提要将昭昭带走的事。"
+}

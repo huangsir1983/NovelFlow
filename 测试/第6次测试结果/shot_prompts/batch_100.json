@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0600",
+    "shot_id": "shot_0638",
+    "prompt_text": "The hand of Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed slender male hand with pale skin and defined veins pressing on the edge of an old wooden table, fingertips suddenly tightening in a moment of forced decision, knuckles tense, tendons and veins visible, a dangerous restrained gesture. Extreme close-up of only the hand and table edge, old wood grain sharply rendered, background completely blurred into cold gray. Low-saturation warm-cool contrast, ancient noble mansion interior, muted gray-blue ambient tone with a faint amber candle reflection on the wood, static frame, cinematic realism, tactile detail, shallow depth of field, high tension, ultra-detailed texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, ultra-detailed realism",
+      "lighting": "low-saturation warm-cool contrast, cold gray ambient light with faint amber candle bounce, side-lit texture emphasis"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electric lights, plastic, contemporary clothing, text, watermark, logo, low quality, blurry hand, extra fingers, deformed anatomy, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0601",
+    "shot_id": "shot_0639",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, facing front with a slight angle, placed slightly left of center, her eyes showing the first tiny crack of wavering and held breath, lips still controlled but tension rising. Behind her shoulder in soft blur stands Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, his presence oppressive but out of focus. Close-up composition with heavy negative space on the right like an unspoken verdict, ancient interior in muted gray-blue and old wood brown, window-filtered cool daylight mixed with distant amber candlelight, low saturation, side-backlight shaping the face, cinematic historical drama realism, shallow depth of field, emotional compression, highly detailed skin and fabric texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "muted cool daylight from the side with subtle amber interior fill, low-saturation warm-cool contrast, gentle back edge light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern makeup, electric lights, plastic accessories, text, watermark, logo, low quality, flat lighting, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0602",
+    "shot_id": "shot_0640",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, rising to stand at the center of the frame, body upright and controlled, looking downward toward Lu Shuyi as he publicly chooses her side, his expression cold and decisive like a blade falling. Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, visible only as the bowed top of her head at the lower right while kneeling. On the left edge, Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, appears as a blurred side profile. Medium shot, table dragged into a diagonal line by Shen Ci's movement, ancient noble hall interior with old wood furniture, muted gray-blue walls and deep brown wood, low-saturation warm-cool contrast, cool daylight from the side with thin amber candle highlights, slight dolly energy, cinematic betrayal, realistic texture, layered blocking, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool side daylight with restrained amber candle accents, low-saturation warm-cool contrast, controlled directional light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, microphones, modern interiors, electric fixtures, plastic, text, watermark, logo, low quality, bad anatomy, oversaturated red, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0603",
+    "shot_id": "shot_0641",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, her face filling the frame, eyes frozen in disbelief, lips pressed so tightly they blanch, the instant after being condemned by a single sentence, wounded and hollowed out. Close-up composition with almost no distraction, only faint window lattice patterns and cold light texture behind her. Ancient interior rendered in muted gray-blue and old wood brown, low-saturation palette, cool daylight washing across her face from the side, minimal amber warmth nearly absent, static frame, cinematic realism, emotional shock captured through micro-expression, fine skin detail, shallow depth of field, austere historical drama atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, ultra-detailed realism",
+      "lighting": "cold side daylight through lattice window, very restrained warm fill, low-saturation warm-cool contrast leaning cool"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric window frames, modern hairstyle, text, watermark, logo, low quality, blurry face, deformed features, heavy makeup, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0604",
+    "shot_id": "shot_0642",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, bending down and pulling Lu Shuyi up from the floor in a protective decisive motion. Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, being lifted from kneeling, posture weak and dependent. They are placed center-right of frame. In the left foreground, Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands half-body and out of focus, motionless as if excluded. At the doorway in the background, several Shen residence servants form vertical divisions with their silhouettes, watching in silence. Medium long shot, ancient noble mansion hall with door frame pressure and spatial separation, old wood brown, gray-blue walls, low-saturation warm-cool contrast, side light outlining the edges of Shen Ci and Lu Shuyi's garments, subtle steadicam immediacy, cinematic historical realism, social tension, layered depth, highly detailed fabric and posture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "side light with cool daylight base and faint amber edge highlights, low-saturation warm-cool contrast, doorway separation lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern crowd clothing, electric lights, plastic, text, watermark, logo, low quality, bad hands, extra limbs, oversaturated palette, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0605",
+    "shot_id": "shot_0643",
+    "prompt_text": "Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, standing on the right side beside a pillar, face pale, eyes forced upward then avoiding contact, trapped in shame and helplessness. In the blurred left foreground, the passing figures of Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, and Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, sweep across the frame as out-of-focus pressure. Medium close-up composition, ancient mansion interior with wooden pillar, muted gray-blue and old wood brown palette, low-saturation warm-cool contrast, cool side daylight with dim amber interior depth, static frame, cinematic realism, social humiliation, layered focus, highly detailed historical costume texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical portraiture",
+      "lighting": "cool side daylight with subdued amber ambient depth, low-saturation warm-cool contrast, soft shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern pillar design, electric lights, plastic, text, watermark, logo, low quality, blurry subject, deformed anatomy, oversaturated colors, cartoon, 3d render"
+  }
+]

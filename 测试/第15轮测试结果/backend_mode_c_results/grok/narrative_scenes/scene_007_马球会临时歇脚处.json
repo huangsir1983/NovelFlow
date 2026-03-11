@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 临时歇脚处 - 日",
+  "location": "马球会临时歇脚处",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪跪求暂留，高令宁最终同意提亲",
+  "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+  "emotional_peak": "陆姝仪楚楚可怜跪地",
+  "tension_score": 0.85,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "衣角",
+    "药碗"
+  ],
+  "dramatic_purpose": "推动成亲进程与厌倦转折",
+  "source_text_start": "灯火之下，陆姝仪神色黯然。她挣扎着下榻，朝我跪了下来：「高小姐……」",
+  "source_text_end": "我疲倦地叹了口气：「罢了，沈公子明日便来提亲吧。」"
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_030",
+  "order": 29,
+  "heading": "INT. 高家廊下 - day",
+  "location": "高家廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "我借养胎回娘家，沈词却日日来探、送礼、剥葡萄、甚至认错，在父亲眼中像是把我捧在心尖上。",
+  "key_dialogue": "「其实上一世，我有许多对不住你的地方。」",
+  "emotional_peak": "沈词显出罕见的温柔与歉意，却依然无法真正打动我。",
+  "tension_score": 0.55,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "葡萄",
+    "补品礼盒",
+    "廊椅"
+  ],
+  "dramatic_purpose": "在大冲突前制造一段近似和美的缓冲，增强后续背叛感。",
+  "visual_reference": "高家廊下微风轻拂，女子靠着廊柱半倦，男子低头替她剥葡萄，父亲远处观望，表面是一家和乐，内里仍有隔膜",
+  "visual_prompt_negative": "避免甜宠滤镜过重，避免过多下人打扰，避免浓艳色调",
+  "source_text_start": "伯爵娘子又登门了。",
+  "source_text_end": "父亲是谈到：「如今我看你们感情甚好，又有孩子，那位表小姐也即将出嫁，不如便这般过下去吧。」"
+}

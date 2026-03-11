@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_042",
+  "order": 41,
+  "heading": "INT. 江南书房 - NIGHT",
+  "location": "江南宅院书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我"
+  ],
+  "core_event": "三年来沈词不断寄来钱财典籍与书信，直到他故意来信称母亲替他选好新妇，试探我是否会介意。",
+  "key_dialogue": "「你若不愿意便写信告知我，我可以考虑回绝。」",
+  "emotional_peak": "我辗转一夜后仍只回他一句祝福与寄钱，真正坐实了抽身。",
+  "tension_score": 0.64,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "书信",
+    "笔墨",
+    "烛台"
+  ],
+  "dramatic_purpose": "通过书信展示沈词的试探与我的冷淡，也推进到最终见面。",
+  "visual_reference": "江南雨夜或雪后书房，案上堆满来自京城的信与礼单，女子独坐烛下展开一封信，神情复杂后提笔写下冷淡回复，静夜里只有纸页轻响",
+  "visual_prompt_negative": "避免现代信封邮票特写，避免电子通信元素，避免夸张落泪铺满纸面",
+  "source_text_start": "经我允许，沈词经常给我和昭昭写信。",
+  "source_text_end": "次日，沉重地提笔回他：「祝你和新夫人百年好合……婚后莫忘寄钱。」"
+}

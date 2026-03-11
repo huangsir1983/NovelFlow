@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_014",
+  "name": "高家产房",
+  "type": "interior",
+  "era_style": "明代幽暗内室（临时产房）",
+  "description": "充满血腥气与极度紧张感的封闭房间。一盆盆染红的血水被端来端去，铜盆边缘搭着带血的毛巾。剪刀在烛光下泛着冷光。床榻上一片狼藉，染血的床单触目惊心。旁边放着准备好的婴儿襁褓。整个空间如同一个生死搏斗的修罗场。",
+  "visual_reference": "Ancient Chinese delivery room at night, intense and chaotic, copper basins filled with bloody water, blood-stained towels, sharp scissors reflecting candlelight, a baby swaddle ready on a side table, dark wood furniture, dramatic and harsh lantern lighting, high tension, cinematic, 8k.",
+  "atmosphere": "血腥、极度紧张、生死一线",
+  "color_palette": [
+    "暗血红",
+    "铜黄色",
+    "阴影黑"
+  ],
+  "lighting": "集中的高亮度烛光与灯笼光，照亮血水与剪刀，四周陷入浓重的黑暗",
+  "key_features": [
+    "血水铜盆",
+    "染血的床单",
+    "婴儿襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_014"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从难产等死的绝望，到男主怒吼保大人的疯狂，最后转为生下女儿的极度错愕与命运偏离的震惊"
+}

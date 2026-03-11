@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene_008",
+  "order": 15,
+  "heading": "INT. 高家前厅至厢房 - DUSK",
+  "location": "高家",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "陆姝仪",
+    "沈词",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪以出嫁前道别为由来高家，高令宁拒见。傍晚陆姝仪失踪，众人搜宅，最终在厢房里发现昏迷且衣冠不整的陆姝仪和蒋晟。",
+  "key_dialogue": "无",
+  "emotional_peak": "厢房门打开的一刻，女主与男主对视，彼此都知道灾难重演了。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "门房登记簿",
+    "厢房木门",
+    "烛台",
+    "塌榻",
+    "凌乱衣衫",
+    "香炉",
+    "茶杯",
+    "帷帐",
+    "高家院灯",
+    "侍女灯笼"
+  ],
+  "dramatic_purpose": "引爆本作最大误会事件，命运彻底偏离原先‘生下沈睿后和离’的计划"
+}

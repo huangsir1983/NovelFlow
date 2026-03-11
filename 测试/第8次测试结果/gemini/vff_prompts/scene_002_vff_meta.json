@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_002",
+  "heading": "INT. 高家内室 - DAY",
+  "model": "gemini",
+  "vff_text_length": 1614,
+  "shot_count": 6,
+  "cost": {
+    "model": "gemini-3.1-pro",
+    "input_tokens": 4197,
+    "output_tokens": 1098,
+    "elapsed_s": 54.43
+  }
+}

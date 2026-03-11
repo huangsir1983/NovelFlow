@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 灯火厢房 - NIGHT",
+  "location": "灯火厢房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪跪求暂留，高令宁最终同意提亲",
+  "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+  "emotional_peak": "疲倦叹息",
+  "tension_score": 0.85,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "衣角"
+  ],
+  "dramatic_purpose": "暂时妥协推动婚礼",
+  "source_text_start": "灯火之下，陆姝仪神色黯然。",
+  "source_text_end": "我疲倦地叹了口气：「罢了，沈公子明日便来提亲吧。」"
+}

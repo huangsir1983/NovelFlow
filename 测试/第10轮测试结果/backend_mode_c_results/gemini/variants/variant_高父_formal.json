@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_02",
+  "variant_type": "formal",
+  "variant_name": "高父 — 强硬护短",
+  "tags": [
+    "护女狂魔",
+    "威严",
+    "强硬"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_014",
+    "scene_016"
+  ],
+  "trigger": "女儿遭遇陷害早产，以及沈家上门企图抢夺外孙女时，彻底看清沈家真面目，化身强硬的保护者。",
+  "appearance_delta": {
+    "face": "褪去和蔼，目光坚毅锐利，眉头紧锁，不怒自威，带有明显的怒意与决绝",
+    "body": "身姿挺拔，站得笔直，如同一座不可逾越的高山挡在女儿身前",
+    "hair": "半白发髻，因情绪激动可能略显凌厉",
+    "distinguishing_features": "手持和离书，态度强硬，气场全开压制男主"
+  },
+  "costume_override": {
+    "outfit": "墨绿色的四品文官常服，剪裁挺括，彰显官员威仪",
+    "color_palette": [
+      "墨绿",
+      "黑色"
+    ]
+  },
+  "visual_reference": "1man, middle-aged ancient chinese official, stern face, sharp eyes, wrinkles around eyes, wearing dark green structured official robes, holding a document, protective and authoritative aura, angry but controlled, masterpiece, high quality",
+  "emotional_tone": "愤怒、坚决、威严"
+}

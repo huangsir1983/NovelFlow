@@ -1,0 +1,65 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "沈家义妹",
+    "小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "16-24",
+  "appearance": {
+    "face": "五官清秀柔婉，眉眼含水，泪光一出极显楚楚可怜，面容偏鹅蛋型，鼻尖小巧，肤色白净",
+    "body": "身形纤细柔弱，肩窄腰细，病态时更显单薄",
+    "hair": "乌发柔顺，常梳温婉少女发式，配珠花与淡色丝带",
+    "distinguishing_features": "天然无害感极强，哭时像被雨打湿的花枝，极容易激起保护欲"
+  },
+  "costume": {
+    "typical_outfit": "多穿粉色、藕荷、浅杏等柔色襦裙，绣花精致但不过分张扬，符合寄人篱下又惹人怜爱的形象",
+    "color_palette": [
+      "粉色",
+      "藕荷",
+      "浅杏",
+      "乳白"
+    ]
+  },
+  "casting_tags": [
+    "白月光外形",
+    "柔弱美人",
+    "楚楚可怜",
+    "心机女配",
+    "重生反制"
+  ],
+  "visual_reference": "young ancient chinese woman, delicate soft features, watery eyes, frail graceful body, pastel hanfu, vulnerable beauty, gentle but calculating expression, cinematic close-up",
+  "personality": "表面温婉顺从，内里敏感、自卑、求生欲强，也有隐忍后的算计与报复心",
+  "desire": "获得稳定归宿与被爱的位置，不再像前世那样沦为被牺牲、被安排的孤女",
+  "flaw": "把他人的退让与怜惜视作资源，习惯以受害者姿态操纵局面，最终伤人伤己",
+  "arc": "从前世的被动悲剧人物，到今生主动设计命运的操盘者之一；虽自认无路可走，但她的求生方式加深了所有人的灾难",
+  "scene_presence": "以青梅义妹身份长期笼罩在主婚姻关系上，马球会、病榻、逼婚、失贞事件、满月宴坦白等场景关键出现",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅/表兄妹/义兄妹",
+      "dynamic": "高度依赖他，也利用他对自己的保护；两人关系暧昧却总被否认",
+      "function": "婚姻冲突核心第三人"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌/对立女性",
+      "dynamic": "一方觉得自己被夺走丈夫之心，一方觉得自己被容不下；彼此误会叠加真实伤害",
+      "function": "推动误解、死亡与重生后的报复"
+    },
+    {
+      "target": "蒋晟",
+      "type": "设计对象/后成丈夫",
+      "dynamic": "她以手段逼成婚，婚后关系冷淡",
+      "function": "体现她为求生所做的极端选择"
+    },
+    {
+      "target": "沈母",
+      "type": "姨母/掌控者",
+      "dynamic": "依附与被安排并存，婚嫁命运受其摆布",
+      "function": "展示她无家可归的处境"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0043",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0135",
+      "shot_0136",
+      "shot_0137"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间、导火索道具与对峙对象三步信息：先交代封闭内宅与秩序压力，再单提毁坏的画作为事件核心，最后切入高令宁视线锁定婢女。角色集合未变，情绪从冷压迫推进到静默审视，适合压缩为同一连续视频段。",
+    "order": 43
+  },
+  {
+    "id": "seg_0044",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0138",
+      "shot_0139",
+      "shot_0140"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段核心是从判断到对峙的情绪升压。三镜都围绕同一角色关系与同一空间轴线展开，没有角色增减，情绪由克制观察推进为正面僵持，适合作为一个完整对峙段落处理。",
+    "order": 44
+  },
+  {
+    "id": "seg_0045",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0141",
+      "shot_0142",
+      "shot_0143"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是明确的行动转折段：情绪由对峙转为宣判，且事件进入不可逆阶段。高令宁手势、下人上前、身契出场构成一条完整因果链，角色集合本质未变，但叙事状态从心理压迫切换为制度执行，因此合并为单独决断段最清晰。",
+    "order": 45
+  },
+  {
+    "id": "seg_0046",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0144",
+      "shot_0145",
+      "shot_0146"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "末段处理结果兑现、人物内心回落与空间余震。婢女离场导致角色集合发生变化，形成天然分段边界；随后回到高令宁真实情绪落点，再以空镜把冲突余波留给后续夫妻线，符合冷收尾的节拍要求。",
+    "order": 46
+  }
+]

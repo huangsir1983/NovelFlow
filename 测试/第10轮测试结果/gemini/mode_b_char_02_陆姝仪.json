@@ -1,0 +1,48 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "表小姐",
+    "姝仪"
+  ],
+  "role": "antagonist",
+  "age_range": "16-19",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜，常带泪眼",
+    "body": "柔弱纤细",
+    "hair": "简单发髻配珠花",
+    "distinguishing_features": "永远一副受害者的柔弱姿态与含泪的双眸"
+  },
+  "costume": {
+    "typical_outfit": "粉色或浅色系轻纱罗裙",
+    "color_palette": [
+      "藕粉",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "白莲花",
+    "绿茶",
+    "楚楚可怜",
+    "心机女"
+  ],
+  "visual_reference": "A delicate and pitiful ancient Chinese girl, wearing light pink hanfu, tearful eyes, gentle and frail appearance, soft lighting.",
+  "personality": "自私，嫉妒心强，善于伪装柔弱，为达目的不择手段",
+  "desire": "留在沈家得到庇护，或不择手段找个好归宿",
+  "flaw": "心术不正，过于依赖他人",
+  "arc": "从试图继续依附沈词、陷害高令宁，到认清现实、靠下作手段嫁人，最终与高令宁和解退场",
+  "scene_presence": "马球会，陷害事件，满月宴",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "依靠",
+      "dynamic": "利用其愧疚感获取庇护",
+      "function": "破坏男女主关系的绿茶"
+    },
+    {
+      "target": "蒋晟",
+      "type": "丈夫",
+      "dynamic": "单方面算计与利用",
+      "function": "完成自身命运闭环"
+    }
+  ]
+}

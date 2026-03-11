@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "id": "beat_014",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_044",
+      "scene_049",
+      "scene_050",
+      "scene_051",
+      "scene_052"
+    ]
+  },
+  "data": {
+    "title": "签下和离并坚持重新选择人生",
+    "description": "高父强硬挡回沈家来人，沈母退让，沈词跪求见妻女仍想以孩子、前世誓言和愧疚挽留；女主平静重申依约和离，理由是不再互相折磨，正式从‘为子重婚’的旧命运中抽身。",
+    "beat_type": "action",
+    "save_the_cat": "Break into Three",
+    "emotional_value": 0.3,
+    "dramatic_intensity": 0.3,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 14
+  }
+}

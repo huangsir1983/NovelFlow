@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "陆姝仪来高府后失踪，众人搜寻，最终在厢房发现她与蒋晟双双昏迷、衣冠不整，高令宁与沈词隔空对视，危机骤起。",
+  "key_dialogue": "（无完整对话，以对视为主）",
+  "emotional_peak": "真相未明而污名已成，气氛瞬间坠入冰点。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "厢房门闩",
+    "凌乱衣物",
+    "熏香或迷药痕迹"
+  ],
+  "dramatic_purpose": "引爆全篇最大误会，为后续早产和彻底决裂铺路。",
+  "source_text_start": "我才知道陆姝仪根本没回沈家。\n门房小厮说她进来之后便没再",
+  "source_text_end": "和同样昏迷不醒、衣冠不整的蒋晟。\n心里一惊。\n我转头去看沈"
+}

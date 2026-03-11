@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_018",
+  "name": "江南院落",
+  "type": "exterior",
+  "era_style": "明清江南水乡民居庭院",
+  "description": "三年后的江南庭院，白墙黑瓦被厚厚的积雪覆盖。院墙边几株红梅正在傲雪绽放。院落一角靠着一把扫帚，地上散落着几个孩童捏的雪球。整个空间透着一种远离朝堂喧嚣的清冷与宁静。",
+  "visual_reference": "Picturesque Jiangnan style courtyard in winter, white walls and black tiles covered in thick snow, blooming red plum blossoms, a bamboo broom resting against the wall, snowballs on the snowy ground, serene and cold atmosphere, bright winter daylight, highly detailed, 8k.",
+  "atmosphere": "清冷、宁静、世外桃源",
+  "color_palette": [
+    "纯雪白",
+    "梅花红",
+    "水墨黑"
+  ],
+  "lighting": "雪天特有的漫反射亮光，清透且冰冷",
+  "key_features": [
+    "白墙黑瓦的积雪",
+    "傲雪红梅",
+    "地上的雪球"
+  ],
+  "narrative_scenes": [
+    "scene_018"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从久别重逢的激动与期待，到发现女主已有赘婿时的嫉妒与破防"
+}

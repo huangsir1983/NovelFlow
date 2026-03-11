@@ -1,0 +1,116 @@
+[
+  {
+    "id": "seg_0146",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0450",
+      "shot_0451",
+      "shot_0452"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头均围绕女主独处状态展开，角色集合未变化，情绪统一为表面平静、内里紧绷，适合合并为开场建立段；由空间到道具再到神情，完成视觉焦点递进。",
+    "order": 146
+  },
+  {
+    "id": "seg_0147",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0453",
+      "shot_0454",
+      "shot_0455"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此组三镜头构成完整的“入场—凝视—无声拒绝”动作单元，角色集合从单人变双人，形成首次关系边界变化，适合作为独立段落。",
+    "order": 147
+  },
+  {
+    "id": "seg_0148",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0456",
+      "shot_0457",
+      "shot_0458"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头是连续身体动作：靠近、拥抱、被避开，情绪由侵入升为不适亲密，空间和角色连续性极强，应合并为一段完整肢体博弈。",
+    "order": 148
+  },
+  {
+    "id": "seg_0149",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0459",
+      "shot_0460",
+      "shot_0461",
+      "shot_0462"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是第一轮对话攻防的完整单元：他试探、她表态、他受挫并转入动作补偿。虽然为4个shot，但情感弧线连贯且均围绕“离开”第一次明确化，适合压缩成一段。",
+    "order": 149
+  },
+  {
+    "id": "seg_0150",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0463",
+      "shot_0464",
+      "shot_0465"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段围绕“孩子不能留人”展开，人物位置稳定、对话连续，情绪从沈词试探性追问推进到高令宁完整切割，再到沈词否认，形成一轮清晰的情感起伏。",
+    "order": 150
+  },
+  {
+    "id": "seg_0151",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0466",
+      "shot_0467",
+      "shot_0468",
+      "shot_0469"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是本场中部反转核心：刺激、斩断、反刺、受击，情绪节拍清晰而连续，且关键道具虎头帽与丝线直接参与叙事，适合整合为一个爆点段落。",
+    "order": 151
+  },
+  {
+    "id": "seg_0152",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0470",
+      "shot_0471",
+      "shot_0472"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组三镜头构成第二轮也是最致命的情感切割：他索证、她宣告放下、空间静默承受后果。情绪弧线完整，且静默本身是转入失控前的必要蓄势。",
+    "order": 152
+  },
+  {
+    "id": "seg_0153",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0473",
+      "shot_0474",
+      "shot_0475"
+    ],
+    "segment_number": 8,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜头是高潮与收束的完整闭环：男主失控逼近、主观承压、女主无声反制。情绪达到峰值后落回女主稳定内核，符合场景终点与下场留白需求。",
+    "order": 153
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "shot_0048",
+    "scene_id": "scene_004",
+    "shot_number": 1,
+    "goal": "建立空间关系和压抑氛围，展示书房的昏暗与烛光摇曳",
+    "composition": "书桌居中偏右，烛台在前景左侧虚焦，墙上影子摇晃，背景书架模糊，大量暗部留白营造压迫感",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "不安、压抑、即将爆发的紧张",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 48
+  },
+  {
+    "id": "shot_0049",
+    "scene_id": "scene_004",
+    "shot_number": 2,
+    "goal": "展示沈词的愤怒姿态和压迫性存在",
+    "composition": "沈词双手撑桌身体前倾，占据画面中心偏上，书桌边缘作为前景框架，背景烛光在其身后形成逆光轮廓",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "威胁感、男性权威的压迫",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 49
+  },
+  {
+    "id": "shot_0050",
+    "scene_id": "scene_004",
+    "shot_number": 3,
+    "goal": "捕捉沈词眼神的锋利与愤怒",
+    "composition": "沈词面部占满画面，眼神锐利向下看（视线方向指向女主位置），烛光在瞳孔中跳动，下颌线紧绷",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "质问的锋芒、被背叛的愤怒",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 50
+  },
+  {
+    "id": "shot_0051",
+    "scene_id": "scene_004",
+    "shot_number": 4,
+    "goal": "建立正反打，展示女主的防御姿态",
+    "composition": "女主站在门口，身体笔直居中，双手在身侧紧握，门框作为画面边界，背景是黑暗的走廊",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "孤立、坚守、脆弱中的倔强",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 51
+  },
+  {
+    "id": "shot_0052",
+    "scene_id": "scene_004",
+    "shot_number": 5,
+    "goal": "捕捉女主眼神的不屈与嘴唇抿紧的细节",
+    "composition": "女主面部占据画面，眼神直视前方（对应沈词视线），嘴唇抿成线，下颌微抬，冷光从侧面打亮半张脸",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "自尊的坚守、无声的对抗",
+    "duration_hint": "1.5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 52
+  },
+  {
+    "id": "shot_0053",
+    "scene_id": "scene_004",
+    "shot_number": 6,
+    "goal": "展示女主颤抖的手指，暴露内心的动摇",
+    "composition": "女主双手在身侧的特写，手指微微颤抖，指节泛白，衣料质感清晰，背景虚化",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "隐藏的恐惧、强撑的脆弱",
+    "duration_hint": "1s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 53
+  },
+  {
+    "id": "shot_0054",
+    "scene_id": "scene_004",
+    "shot_number": 7,
+    "goal": "沈词开口质问，捕捉其压低声音的控制感",
+    "composition": "沈词侧面中景，嘴唇微动，下颌紧绷，书桌边缘在前景，烛光在背景摇晃",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "压抑的怒火、控制中的失控",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.8,
+    "order": 54
+  },
+  {
+    "id": "shot_0055",
+    "scene_id": "scene_004",
+    "shot_number": 8,
+    "goal": "女主听到质问的反应，展示其不退让的姿态",
+    "composition": "女主正面全景，身体依然笔直，眼神未闪避，门框在两侧形成对称构图，空间显得更加冷凝",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "孤立无援中的坚守、婚姻的冰冷距离",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 55
+  },
+  {
+    "id": "shot_0056",
+    "scene_id": "scene_004",
+    "shot_number": 9,
+    "goal": "展示两人对峙的空间关系，书桌成为无法跨越的鸿沟",
+    "composition": "过肩镜头从女主背后看向沈词，书桌横亘在画面中部，沈词在远景，女主肩膀和后脑勺在前景虚焦",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "不可调和的距离、信任的彻底破裂",
+    "duration_hint": "2.5s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.85,
+    "order": 56
+  }
+]

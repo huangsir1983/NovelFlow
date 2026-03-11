@@ -1,0 +1,48 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿",
+    "长子"
+  ],
+  "role": "supporting",
+  "age_range": "0-28岁(前世)",
+  "appearance": {
+    "face": "俊秀聪慧",
+    "body": "少年身姿",
+    "hair": "束发",
+    "distinguishing_features": "神童气质，聪慧眼神"
+  },
+  "costume": {
+    "typical_outfit": "儒生服饰，官服",
+    "color_palette": [
+      "青色",
+      "白色"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "孝顺",
+    "聪慧",
+    "名相"
+  ],
+  "visual_reference": "intelligent young Chinese scholar, wise beyond years, filial expression, traditional scholar robes, gentle demeanor",
+  "personality": "天生神童，聪慧孝顺，为父母担忧",
+  "desire": "父母和睦，治国平天下",
+  "flaw": "过于为父母操心导致积劳成疾",
+  "arc": "前世成为名相但英年早逝，是父母重生的动力",
+  "scene_presence": "回忆和梦境中出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "孝顺担忧",
+      "function": "情感动力"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "父子情深",
+      "function": "情感动力"
+    }
+  ]
+}

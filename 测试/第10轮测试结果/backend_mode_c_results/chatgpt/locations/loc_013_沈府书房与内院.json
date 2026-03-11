@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_013",
+  "name": "沈府书房与内院",
+  "type": "mixed",
+  "era_style": "明代中晚期世家宅邸书房及内院花木空间",
+  "description": "沈府书房比高府书房更具世家气，书案宽阔，桌面有婚讯书信、婚帖名册、折扇、茶盏等，文书堆叠呈现事务缠身之感。书房临窗，窗外可见修整得宜的花木与内院景致，形成文雅外表与内里焦灼的反差。门帘轻垂，人物进出时能形成遮挡与窥视感。内院部分应包含回廊、花木、石径与少量日常陈设，使对话可在书房内外延续。整体是一个看似体面安静、实则暗流不断的管理型空间，适合围绕婚配、名分与情感否认展开拉扯。",
+  "visual_reference": "Late Ming dynasty noble mansion study opening to an inner courtyard, broad wooden writing desk cluttered with marriage letters, registry booklets, folding fan, porcelain tea cup, hanging doorway curtain, lattice window looking onto flowers and shrubs, refined aristocratic Chinese residence, daylight, elegant but emotionally tense administrative space, historical realism, cinematic detail",
+  "atmosphere": "体面僵持、疲惫拉扯、情感否认",
+  "color_palette": [
+    "深木棕",
+    "花木绿",
+    "纸张米白",
+    "茶釉青"
+  ],
+  "lighting": "白日光从窗外花木间透入，室内明暗适中，适合展现表面冷静下的复杂言辞博弈。",
+  "key_features": [
+    "堆满婚讯文书的书案",
+    "窗外可见的内院花木",
+    "轻垂门帘造成的内外分隔"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从操办婚事的现实焦灼，到女主真正厌倦报复后的冷淡抽离。"
+}

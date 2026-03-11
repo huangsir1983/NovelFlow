@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "EXT. 柳池旁 - 日",
+  "location": "侯爵府马球会柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "马球会上，高令宁崴脚，蒋晟扶她，沈词吃醋",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "沈词的嫉妒与占有欲",
+  "tension_score": 0.6,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "风筝",
+    "柳树",
+    "马球场",
+    "葡萄",
+    "石凳"
+  ],
+  "dramatic_purpose": "展现三角关系，沈词对高令宁的在意"
+}

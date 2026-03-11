@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "FLASHBACK. 沈府内室与街市 - night",
+  "location": "沈府内室及街市",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "年幼婢女",
+    "沈睿"
+  ],
+  "core_event": "前世因酷似陆姝仪的婢女引发争执，沈词失手推倒我伤了胎气，之后竭力补救仍没留住女儿静好。",
+  "key_dialogue": "就叫静好吧。",
+  "emotional_peak": "失女之痛把夫妻恨意推到极限",
+  "tension_score": 0.98,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "毁掉的画",
+    "身契",
+    "安胎药",
+    "鱼龙灯"
+  ],
+  "dramatic_purpose": "用失去女儿的共同创伤，解释女主为何最终放弃继续争一时意气。",
+  "visual_reference": "先是内室里男子掐住女子脖颈、怒气冲天；转为他遍寻名医、夜里盯她喝药、牵手逛灯市，最后切到产房对坐和死婴带来的死寂，画面层次强烈，古风悲剧感",
+  "visual_prompt_negative": "避免过于血腥婴儿画面、避免连续动作混乱、避免现代城市街景、避免甜蜜误导",
+  "source_text_start": "是很可笑。",
+  "source_text_end": "既如此。\n争这一时的意气，有什么用呢？"
+}

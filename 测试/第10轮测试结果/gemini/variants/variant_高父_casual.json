@@ -1,0 +1,29 @@
+{
+  "variant_id": "gaofu_festive_01",
+  "variant_type": "casual",
+  "variant_name": "高父 — 满月宴外祖父",
+  "tags": [
+    "喜庆",
+    "释然",
+    "含饴弄孙"
+  ],
+  "scene_ids": [
+    "scene_017"
+  ],
+  "trigger": "在厅堂为外孙女昭昭举办满月宴时",
+  "appearance_delta": {
+    "face": "红光满面，眉头彻底舒展，笑容慈祥灿烂，一扫之前的愁云惨雾",
+    "body": "精神矍铄，步伐轻快，显得年轻了几分",
+    "hair": "梳理得一丝不苟，佩戴成色极好的玉簪",
+    "distinguishing_features": "摆脱前世阴影与渣男纠缠后的通透释然，但在沈词出现时会瞬间收敛笑容"
+  },
+  "costume_override": {
+    "outfit": "暗红色带福寿暗纹的华贵锦缎常服，彰显家族底蕴与喜庆气氛",
+    "color_palette": [
+      "暗红",
+      "绛紫"
+    ]
+  },
+  "visual_reference": "A 50-year-old ancient Chinese grandfather, slightly chubby, wearing a luxurious dark red casual ancient robe with subtle auspicious patterns. Half-white hair neatly tied with a jade hairpin. Kind face with wrinkles, smiling warmly and looking completely relieved and joyful. Festive banquet background with red silk, bright cinematic lighting, photorealistic.",
+  "emotional_tone": "喜悦，释怀，护短"
+}

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_010",
+  "name": "侯府临时客房",
+  "type": "interior",
+  "era_style": "明代中晚期侯府待客偏房",
+  "description": "侯府临时客房为应急安置伤病宾客的偏房，空间较紧凑，木门厚实，室内以桌案、软塌和药碗为主要陈设。傍晚灯火初上，光源主要来自桌上灯火和门外余晖，形成暖而压抑的环境。正骨夹板、绷带、药碗等医疗物件占据显著位置，软塌上可安置伤者；另一侧若有他人病发，便会让室内空间显得更加拥挤与尴尬。此处不重装饰，而强调临时性、被迫共处与情绪失衡。",
+  "visual_reference": "Late Ming dynasty marquis residence guest side room, temporary sick room, compact wooden interior, sturdy door, low couch, medical splints, bandages, herbal medicine bowl on table, warm lamp light at dusk, crowded emotional space, one injured noblewoman resting while another is comforted nearby, cinematic historical Chinese drama, highly detailed",
+  "atmosphere": "逼仄、尴尬、心灰意冷",
+  "color_palette": [
+    "暖棕",
+    "灯火金",
+    "暗青"
+  ],
+  "lighting": "傍晚余光从门缝和窗格进入，室内以油灯暖光为主，人物面部受局部照亮，背景迅速沉暗。",
+  "key_features": [
+    "软塌与正骨用具",
+    "狭小偏房中的双重病弱场景",
+    "灯火与药气交织的压迫感"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "由伤后照料的现实场面，坠入当众偏爱他人的残酷对比。"
+}

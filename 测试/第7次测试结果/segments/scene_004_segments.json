@@ -1,0 +1,88 @@
+[
+  {
+    "id": "seg_0037",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0105",
+      "shot_0106",
+      "shot_0107"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成空间建立与控制关系落地：先交代婚房压迫场域，再以丝带动作具体化支配，最后切入女主感知层确认她的抽离。角色集合不变，情绪从窒息推进到被侵犯的冷感，适合合并为单一开场段落。",
+    "order": 37
+  },
+  {
+    "id": "seg_0038",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0108",
+      "shot_0109",
+      "shot_0110"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头是完整的第一轮身体冲突：挑衅逼近、短促反抗、迅速压制。情绪弧线明确且连续，未发生时空或角色变化，合并后能形成一次完整的‘反击—失效’节拍。",
+    "order": 38
+  },
+  {
+    "id": "seg_0039",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0111",
+      "shot_0112",
+      "shot_0113"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "从身体压制自然过渡到言语试探，且遵循‘听者比说者重要’：先建立对峙轴线，再给男方羞辱台词，最终落在女主反应上。三镜头构成一次完整的审问与不配合回应，合并最顺。",
+    "order": 39
+  },
+  {
+    "id": "seg_0040",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0114",
+      "shot_0115",
+      "shot_0116"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段是明确的情绪拐点：男方以“这一世”刺出异常，触发前世闪回，再由女主用极冷的一句骂完成第一次正面回击。闪回虽是小时空变化，但服务于同一情感爆点，故合并为单段以保持刺痛连续性。",
+    "order": 40
+  },
+  {
+    "id": "seg_0041",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0117",
+      "shot_0118",
+      "shot_0119",
+      "shot_0120"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段涵盖第二次情绪暴冲：先以工具化台词将关系推入情感冷战，再给女主一个冷处理反应，随后男方突然以封口动作夺回控制，并升级为眼神侵犯。虽然包含4个shot，但动作和心理推进连续紧密，适合压缩为一段高峰。",
+    "order": 41
+  },
+  {
+    "id": "seg_0042",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0121",
+      "shot_0122",
+      "shot_0123",
+      "shot_0124"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是完整的结局段：女主闭眼完成反高潮反击，男方威胁暴露失控，女主以冷淡催促彻底降格对方，最后用呼应开场的远景冷收尾。情绪从高压骤然落入冰封，属于明确的终段合并边界。",
+    "order": 42
+  }
+]

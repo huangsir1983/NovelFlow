@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 坦白道歉",
+  "tags": [
+    "坦白",
+    "悔悟",
+    "告别"
+  ],
+  "scene_ids": [
+    "scene_016"
+  ],
+  "trigger": "昭昭满月宴上坦白重生设计陷害并盈盈一拜道歉时",
+  "appearance_delta": {
+    "face": "温婉清丽，泪眼中带悔意与平静",
+    "body": "柔弱纤细",
+    "hair": "柔顺黑发整齐轻挽",
+    "distinguishing_features": "盈盈行礼姿态"
+  },
+  "costume_override": {
+    "outfit": "粉色优雅衣裙",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "一位温婉清丽的古代少女，身穿粉色优雅衣裙在高府宴厅，脸庞清丽柔弱，杏眼含泪楚楚可怜，黑发轻挽，身姿纤细盈盈一拜道歉，光影柔美略带悔悟与释然",
+  "visual_prompt_negative": "强势表情、现代装、浓妆、壮实身材、喜悦大笑",
+  "emotional_tone": "悔悟疏离"
+}

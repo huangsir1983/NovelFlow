@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "FLASHBACK. 沈家正房 - night",
+  "location": "沈家正房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "父亲卷入党争下狱后，我四处求人却不肯向沈词低头，沈词愤怒质问我是否把他当丈夫。",
+  "key_dialogue": "「你究竟是我沈家妇，还是高家女？」",
+  "emotional_peak": "夫妻身份与娘家责任正面冲撞，裂痕彻底显形。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "求助名帖",
+    "未封奏疏",
+    "灯盏"
+  ],
+  "dramatic_purpose": "突出两人婚姻里最深的价值冲突：自尊、家族与信任。",
+  "visual_reference": "夜色下的正房，烛火摇曳，女子刚从外奔走归来，衣裙沾尘，男子冷声逼问，空气如绷紧的弦，近景强调二人眼中愤怒与失望",
+  "visual_prompt_negative": "避免武打动作，避免外人围观，避免画面过亮",
+  "source_text_start": "我父亲不慎卷入朝堂党争，被判下狱流放。",
+  "source_text_end": "「你这般防我，可曾把我当作你的夫婿？」"
+}

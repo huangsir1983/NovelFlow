@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_004",
+  "name": "沈家病榻",
+  "type": "interior",
+  "era_style": "明代中晚期幽暗内室",
+  "description": "充满死气与药苦味的狭窄内室。一张沉重的拔步床被厚重的暗色床帏半掩着。床头小几上放着早已凉透的黑色药汁。床榻上散落着惨白的寿衣。整个空间仿佛一个无法逃脱的牢笼，令人窒息。",
+  "visual_reference": "Ancient Chinese bedroom at night, gloomy and suffocating, a heavy wooden canopy bed draped with dark curtains, pale moonlight shining through the window onto a white burial shroud, a bowl of dark bitter medicine on a small table, cold and melancholic atmosphere, cinematic lighting, long shadows, 8k.",
+  "atmosphere": "死寂、阴冷、绝望",
+  "color_palette": [
+    "惨白色",
+    "枯木暗棕",
+    "幽冷蓝"
+  ],
+  "lighting": "冰冷苍白的月光，在床榻上投下深邃的阴影",
+  "key_features": [
+    "暗色床帏的拔步床",
+    "惨白的寿衣",
+    "半碗黑药汁"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从临终前刻骨铭心的怨恨毒誓，到死亡降临时的死寂与男主病态的平静"
+}

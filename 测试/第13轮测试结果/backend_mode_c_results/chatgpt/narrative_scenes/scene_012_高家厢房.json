@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父",
+    "沈府小厮"
+  ],
+  "core_event": "陆姝仪来高府后失踪，众人搜查，最终在厢房发现昏迷且衣冠不整的陆姝仪与蒋晟，事态瞬间恶化。",
+  "key_dialogue": "「面若冰霜。」",
+  "emotional_peak": "高令宁与沈词隔空对视，彼此都意识到一场无法善终的脏局已经形成。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "厢房门锁",
+    "凌乱衣物",
+    "昏迷二人",
+    "搜查灯火"
+  ],
+  "dramatic_purpose": "引爆全剧最大误会与道德审判事件。",
+  "source_text_start": "我想起前世。\n她也是在出嫁前，说想和我叙话。\n回来后便跌",
+  "source_text_end": "和同样昏迷不醒、衣冠不整的蒋晟。\n心里一惊。\n我转头去看沈词"
+}

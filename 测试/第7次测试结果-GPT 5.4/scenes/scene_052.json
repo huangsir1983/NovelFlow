@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "id": "scene_052",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "related_beats": [
+      "beat_014"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家后院卧房 - 日",
+    "location": "高家后院卧房",
+    "time_of_day": "day",
+    "description": "同一卧房，空气压抑，日光落在两人之间，像把空间切成对立的两端。高令宁抱着孩子坐着，姿态放松下来，甚至微微歪头；沈词站在她面前，肩背不再挺直，衣衫空荡，脸色苍白，整个人像被抽掉支撑。",
+    "action": "高令宁抬眼看着沈词，眼神里带着困惑与淡淡讥诮，语气平静地说自己已想开。她抱稳昭昭，没有躲避也没有激动。沈词一动不动盯着她，肩背一点点塌下去，随后拼命摇头，声音近乎失控地否认她的原谅。高令宁被他的反应惊住，继而哑然失笑。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "可是我现在真的已经想开了。",
+        "subtext": "我已经从这段关系里抽身，不再被你牵制。"
+      },
+      {
+        "character": "高令宁",
+        "line": "沈词，我原谅你了，我希望余生你也能觅得良人。",
+        "subtext": "我彻底放下你，也正式把你从我的人生里送走。"
+      },
+      {
+        "character": "沈词",
+        "line": "不可以……",
+        "subtext": "你不能这样结束我们，恨都比无关紧要更能让我抓住你。"
+      },
+      {
+        "character": "沈词",
+        "line": "高令宁，我不要你原谅我。",
+        "subtext": "我宁愿背负你的恨，也无法承受你真正放下我。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "key_props": [
+      "襁褓",
+      "和离书"
+    ],
+    "dramatic_purpose": "完成本章最核心的情感反转：高令宁以“原谅”实现真正切割，而沈词暴露出对惩罚、纠缠和联结的病态依赖。",
+    "tension_score": 0.93,
+    "dramatic_intensity": 0.86,
+    "order": 52
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_006",
+  "name": "医室",
+  "type": "interior",
+  "era_style": "明代医馆内室",
+  "description": "医馆内室狭窄整洁，中央塌床铺锦被，旁置药碗与茶盏，木柜存放药材，绣屏风分隔空间，梁柱简朴，适合病人休养与情感对话。",
+  "visual_reference": "明代医馆内室，塌上锦被柔软铺陈，药碗茶盏置于木几，屏风半掩，药材柜隐现，柔和日光透过纸窗，安静药香古风氛围，细节写实",
+  "visual_prompt_negative": "现代医疗器械、白色瓷砖墙、荧光灯",
+  "atmosphere": "安静、病弱、护佑",
+  "color_palette": [
+    "药白",
+    "木褐",
+    "锦红",
+    "青绿"
+  ],
+  "lighting": "白天柔和窗光，略带药香暖意",
+  "key_features": [
+    "塌上锦被",
+    "药碗",
+    "屏风"
+  ],
+  "narrative_scenes": [
+    "scene_006",
+    "scene_007"
+  ],
+  "scene_count": 2,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从哄药泪眼到跪求让步的疲倦释然"
+}

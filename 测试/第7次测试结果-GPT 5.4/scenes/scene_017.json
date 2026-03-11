@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_017",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:20"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_007"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会场边 - 日",
+    "location": "马球会场地边缘通道",
+    "time_of_day": "day",
+    "description": "场边地面覆着浮沙，来往宾客与仆从穿梭，风将尘土卷过脚边。空间半开阔，视线容易被远处注视。高令宁与蒋晟站在场边，柳池方向可见沈词与陆姝仪。人物之间形成可被误读的视觉构图。",
+    "action": "高令宁与沈词视线撞上的瞬间，脚下一滑，身形向旁边歪去。蒋晟立刻伸手扶住她，一手托住她的手臂，一手稳住她的腰侧，两人距离骤然拉近。高令宁借势抬脸，对蒋晟露出笑，顺势把手递过去，声称脚崴了。蒋晟耳根发红，郑重地接住她的手，小心扶着她往另一边慢慢走去。高令宁背对柳池离开，却始终能感觉到身后追随而来的视线。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+        "subtext": "我要借你刺激沈词，也要给旁人看见我并非非他不可。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "浮沙地面"
+    ],
+    "dramatic_purpose": "高令宁主动制造可被沈词看见的亲昵画面，将隐性的情绪对抗升级为公开的试探与挑衅。",
+    "tension_score": 0.74,
+    "dramatic_intensity": 0.48,
+    "order": 17
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "model": "ChatGPT (gpt-5.4)",
+    "status": "OK",
+    "streaming": true,
+    "total_time_s": 285.29,
+    "time_to_first_char_s": 95.65,
+    "num_characters": 11,
+    "num_scenes": 25,
+    "num_chars_streamed": 11,
+    "num_scenes_streamed": 12,
+    "character_names": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "蒋晟",
+      "沈母",
+      "沈睿",
+      "昭昭",
+      "媒人",
+      "小厮",
+      "稳婆"
+    ],
+    "stream_chunks": 14863,
+    "num_locations": 23,
+    "num_props_total": 177,
+    "num_props_major": 20,
+    "minor_props_with_visual": 157,
+    "num_variants": 26,
+    "pipeline_total_time_s": 1159.96
+  }
+]

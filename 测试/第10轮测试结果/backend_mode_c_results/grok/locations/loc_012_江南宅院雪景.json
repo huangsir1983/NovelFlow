@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_012",
+  "name": "江南宅院雪景",
+  "type": "exterior",
+  "era_style": "明代江南园林宅院雪景",
+  "description": "江南水乡园林宅院雪景，院门雕花石框，院内白雪覆盖假山与梅树，堆雪人玩具散落，中央赘婿茶具石桌，地面石板覆雪，整体布局精巧雅致，装饰以园林石景和雪景为主，体现三年后闲适却突兀的氛围。",
+  "visual_reference": "Snow-covered Jiangnan garden courtyard in Ming dynasty private residence, ornate stone gate, white snow on rockeries and plum trees, snowman toys scattered, scholar's tea set on stone table, stone pavement under snow, delicate elegant winter scene, highly detailed cinematic daylight",
+  "atmosphere": "宁静雪景带阴沉张力",
+  "color_palette": [
+    "雪白",
+    "梅红",
+    "石灰",
+    "木褐"
+  ],
+  "lighting": "白天柔和漫射雪光，反射明亮却冷冽",
+  "key_features": [
+    "堆雪人玩具",
+    "江南院门假山",
+    "赘婿茶具石桌"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "三年后闯入的震惊到沈词阴沉冷笑的质问"
+}

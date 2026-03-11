@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_013",
+  "name": "沈府内宅",
+  "type": "interior",
+  "era_style": "明代中晚期世家内书房式起居空间",
+  "description": "沈府内宅此处偏向主人日常议事的小型内书房，空间不大，设书案、椅子、笔墨与婚配名单，兼具起居与决策功能。折扇与文房四宝散在案上，说明主人焦躁翻检良配。窗棂投下规整光影，墙面和木作保持世家内院的一贯精致，但无冗余华饰，更突出理性与私下筹谋感。空间适合近距离对话，人物之间距离短，却因桌案横隔而产生情感上的断层。",
+  "visual_reference": "Late Ming dynasty aristocratic inner study room, elegant but restrained domestic office, writing desk with matchmaking lists, brush and ink, folding fan, carved wooden chairs, lattice window casting geometric shadows, intimate conversation space inside a noble household, subdued daylight, cinematic Chinese period drama, highly detailed",
+  "atmosphere": "冷静、疲惫、放下执念后的空心感",
+  "color_palette": [
+    "墨黑",
+    "浅木棕",
+    "窗光白"
+  ],
+  "lighting": "日光透过窗棂投下清晰格影，照在书案和人物半身，强化理智对话的疏离感。",
+  "key_features": [
+    "堆放婚配名单的书案",
+    "窗棂光影",
+    "内宅式小型议事空间"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "场景从婚后烦乱，转向女主真正放下报复的平静与疏离。"
+}

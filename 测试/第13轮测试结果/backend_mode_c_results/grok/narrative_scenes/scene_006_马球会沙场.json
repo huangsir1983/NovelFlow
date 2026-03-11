@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "EXT. 马球会场地 - 日",
+  "location": "马球会沙场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁与蒋晟参加马球，目睹沈词宠溺陆姝仪做风筝",
+  "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+  "emotional_peak": "酸楚嫉恨看到宠溺",
+  "tension_score": 0.75,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "马球杆"
+  ],
+  "dramatic_purpose": "重燃前世嫉恨，引发脚伤冲突",
+  "source_text_start": "想到沈词愠怒的神情，我心情大好，应了侯爵娘子的马球会。",
+  "source_text_end": "有道目光一直跟在身后，如芒在背。"
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_000",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:56"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "点明重生婚约的苦涩宿命",
+    "description": "故事以未来结果先声夺人：前世我与沈词生有睿儿，后成一代名相；今生二人双双重生，虽彼此厌憎，仍因睿儿与既定命运被迫再度走向婚约，并预埋青梅、家破人亡、和离之约等后续冲突。",
+    "beat_type": "revelation",
+    "save_the_cat": "Opening Image",
+    "emotional_value": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 0
+  }
+}

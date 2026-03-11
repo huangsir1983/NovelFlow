@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_033",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 产房 - 日",
+    "location": "沈府产房",
+    "time_of_day": "day",
+    "description": "产房封闭闷热，空气里残留血腥与药味。床榻凌乱，产褥、热水器具、用过的布巾散在周边，光线惨白或被门窗压得发灰。高令宁躺在榻上，虚脱苍白；沈词坐在不远处，脸色同样失血般难看。两人之间横亘着刚出生却已无呼吸的婴儿，房内死寂沉重。",
+    "action": "孩子出生时已无呼吸。高令宁与沈词隔着产房的狼藉和失去，对坐沉默。两人目光交缠，谁都没有说话，却都像用眼神把对方剜开。时间拖长后，沈词终于闭上眼，面部抽紧，像是再也撑不住。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "死胎婴儿",
+      "产床",
+      "血污布巾",
+      "药具"
+    ],
+    "dramatic_purpose": "完成情感与家庭层面的毁灭性打击，使两人关系从怨偶彻底走向不可修复的仇恨。",
+    "tension_score": 0.95,
+    "dramatic_intensity": 0.9,
+    "order": 33
+  }
+}

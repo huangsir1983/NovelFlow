@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 沈家正堂 - DAY (FLASHBACK)",
+  "location": "沈家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈母"
+  ],
+  "core_event": "前世新婚次日，沈母让陆姝仪敬茶立威，高令宁砸碎茶杯抹脖子反击。",
+  "key_dialogue": "无台词，仅动作与眼神交锋。",
+  "emotional_peak": "高令宁捡起瓷片抹脖子，鲜血流出，沈词冲上前抱住她。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "茶杯",
+    "碎瓷片",
+    "鲜血",
+    "主母座椅",
+    "蒲团"
+  ],
+  "dramatic_purpose": "视觉化呈现前世婚姻的惨烈开局，解释女主脖颈伤痕的由来及对陆姝仪的恨意。"
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "model": "chatgpt",
+    "cost": {
+      "total_api_calls": 27,
+      "total_input_tokens": 102814,
+      "total_output_tokens": 59880,
+      "total_tokens": 162694,
+      "total_api_elapsed_s": 1609.0,
+      "stages": {
+        "1": {
+          "input_tokens": 12206,
+          "output_tokens": 569,
+          "elapsed_s": 14.1,
+          "api_calls": 1
+        },
+        "2": {
+          "input_tokens": 4481,
+          "output_tokens": 2201,
+          "elapsed_s": 74.80000000000001,
+          "api_calls": 4
+        },
+        "3": {
+          "input_tokens": 17278,
+          "output_tokens": 15750,
+          "elapsed_s": 471.06000000000006,
+          "api_calls": 7
+        },
+        "4": {
+          "input_tokens": 7173,
+          "output_tokens": 6151,
+          "elapsed_s": 159.22,
+          "api_calls": 4
+        },
+        "5": {
+          "input_tokens": 3514,
+          "output_tokens": 1685,
+          "elapsed_s": 38.92,
+          "api_calls": 1
+        },
+        "6": {
+          "input_tokens": 17364,
+          "output_tokens": 16478,
+          "elapsed_s": 366.09,
+          "api_calls": 5
+        },
+        "7": {
+          "input_tokens": 40798,
+          "output_tokens": 17046,
+          "elapsed_s": 484.81,
+          "api_calls": 5
+        }
+      }
+    },
+    "stats": {
+      "chapters": 3,
+      "characters": 6,
+      "scenes": 5,
+      "beats": 17,
+      "shots": 72,
+      "vff_prompts": 5
+    },
+    "error": null
+  },
+  {
+    "model": "gemini",
+    "cost": {
+      "total_api_calls": 24,
+      "total_input_tokens": 73040,
+      "total_output_tokens": 32000,
+      "total_tokens": 105040,
+      "total_api_elapsed_s": 1466.6,
+      "stages": {
+        "1": {
+          "input_tokens": 11235,
+          "output_tokens": 1352,
+          "elapsed_s": 127.34,
+          "api_calls": 1
+        },
+        "2": {
+          "input_tokens": 4420,
+          "output_tokens": 2749,
+          "elapsed_s": 142.16,
+          "api_calls": 4
+        },
+        "3": {
+          "input_tokens": 14715,
+          "output_tokens": 5666,
+          "elapsed_s": 262.9,
+          "api_calls": 5
+        },
+        "4": {
+          "input_tokens": 6864,
+          "output_tokens": 5819,
+          "elapsed_s": 314.36,
+          "api_calls": 4
+        },
+        "5": {
+          "input_tokens": 3148,
+          "output_tokens": 1784,
+          "elapsed_s": 78.41,
+          "api_calls": 1
+        },
+        "6": {
+          "input_tokens": 12386,
+          "output_tokens": 9238,
+          "elapsed_s": 319.65,
+          "api_calls": 5
+        },
+        "7": {
+          "input_tokens": 20272,
+          "output_tokens": 5392,
+          "elapsed_s": 221.81,
+          "api_calls": 4
+        }
+      }
+    },
+    "stats": {
+      "chapters": 3,
+      "characters": 4,
+      "scenes": 5,
+      "beats": 22,
+      "shots": 43,
+      "vff_prompts": 4
+    },
+    "error": null
+  },
+  {
+    "model": "claude",
+    "cost": {
+      "total_api_calls": 54,
+      "total_input_tokens": 3241,
+      "total_output_tokens": 110961,
+      "total_tokens": 114202,
+      "total_api_elapsed_s": 1582.4,
+      "stages": {
+        "1": {
+          "input_tokens": 62,
+          "output_tokens": 1583,
+          "elapsed_s": 31.16,
+          "api_calls": 1
+        },
+        "2": {
+          "input_tokens": 164,
+          "output_tokens": 3373,
+          "elapsed_s": 61.69,
+          "api_calls": 4
+        },
+        "3": {
+          "input_tokens": 544,
+          "output_tokens": 9959,
+          "elapsed_s": 184.58,
+          "api_calls": 7
+        },
+        "4": {
+          "input_tokens": 232,
+          "output_tokens": 12495,
+          "elapsed_s": 158.98000000000002,
+          "api_calls": 4
+        },
+        "5": {
+          "input_tokens": 22,
+          "output_tokens": 1796,
+          "elapsed_s": 25.61,
+          "api_calls": 1
+        },
+        "6": {
+          "input_tokens": 1191,
+          "output_tokens": 39566,
+          "elapsed_s": 541.8699999999999,
+          "api_calls": 19
+        },
+        "7": {
+          "input_tokens": 1026,
+          "output_tokens": 42189,
+          "elapsed_s": 578.53,
+          "api_calls": 18
+        }
+      }
+    },
+    "stats": {
+      "chapters": 3,
+      "characters": 6,
+      "scenes": 19,
+      "beats": 18,
+      "shots": 181,
+      "vff_prompts": 18
+    },
+    "error": null
+  },
+  {
+    "model": "grok",
+    "cost": {
+      "total_api_calls": 7,
+      "total_input_tokens": 0,
+      "total_output_tokens": 78144,
+      "total_tokens": 78144,
+      "total_api_elapsed_s": 378.3,
+      "stages": {
+        "1": {
+          "input_tokens": 0,
+          "output_tokens": 75452,
+          "elapsed_s": 321.94,
+          "api_calls": 3
+        },
+        "2": {
+          "input_tokens": 0,
+          "output_tokens": 258,
+          "elapsed_s": 10.86,
+          "api_calls": 1
+        },
+        "3": {
+          "input_tokens": 0,
+          "output_tokens": 1753,
+          "elapsed_s": 23.18,
+          "api_calls": 1
+        },
+        "4": {
+          "input_tokens": 0,
+          "output_tokens": 542,
+          "elapsed_s": 14.09,
+          "api_calls": 1
+        },
+        "5": {
+          "input_tokens": 0,
+          "output_tokens": 139,
+          "elapsed_s": 8.23,
+          "api_calls": 1
+        }
+      }
+    },
+    "stats": {
+      "chapters": 0,
+      "characters": 0,
+      "scenes": 0,
+      "beats": 0,
+      "shots": 0,
+      "vff_prompts": 0
+    },
+    "error": null
+  }
+]

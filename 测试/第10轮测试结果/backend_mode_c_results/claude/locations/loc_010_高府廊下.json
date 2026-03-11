@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_010",
+  "name": "高府廊下",
+  "type": "mixed",
+  "era_style": "明代府邸回廊庭院",
+  "description": "曲折的回廊连接各院落，廊柱为朱红色，廊顶覆青瓦。廊下设美人靠和坐垫，可观赏庭院景致。庭院植花木，有石桌石凳，摆茶具果盘。廊边种芭蕉、葡萄架，绿意盎然。地面铺青砖，廊道通风明亮。远处可见其他院落屋檐。",
+  "visual_reference": "Ming Dynasty mansion corridor and courtyard, winding red-pillared corridor with blue tile roof, beauty's rest seats with cushions under corridor, courtyard garden with flowers and trees, stone table and stools with tea service and fruit, banana plants and grape trellis, blue brick paving, airy bright passageway, distant rooftops of other courtyards, serene garden atmosphere, dappled shade",
+  "atmosphere": "悠闲、雅致、养胎静谧",
+  "color_palette": [
+    "朱红廊柱",
+    "青瓦灰",
+    "庭院绿植",
+    "青砖灰蓝"
+  ],
+  "lighting": "日光透过葡萄架投下斑驳光影，廊下阴凉舒适",
+  "key_features": [
+    "朱红廊柱",
+    "美人靠坐垫",
+    "葡萄架",
+    "庭院花木",
+    "石桌茶具"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词温柔示好→高令宁冷淡回应的僵持"
+}

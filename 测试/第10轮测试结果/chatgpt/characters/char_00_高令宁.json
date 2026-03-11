@@ -1,0 +1,76 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "令宁",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-30",
+  "appearance": {
+    "face": "鹅蛋脸，肤色白净偏冷，眉骨清秀却带英气，眼尾微挑，眸色清亮，情绪激动时眼眶容易泛红，唇形薄而利落，病中则显苍白脆弱",
+    "body": "身形纤秾合度，少女时期轻盈挺拔，婚后因操劳显得清瘦，孕期腹部明显，产后带虚弱感",
+    "hair": "乌黑浓密的长发，常梳端庄发髻，闺中时有珠钗步摇，婚后多为已婚妇人高髻",
+    "distinguishing_features": "气质强势冷艳，眼神倔强不服输，脖颈曾有自刎留下的浅伤痕记忆点"
+  },
+  "costume": {
+    "typical_outfit": "高门闺秀式交领襦裙、绣花披帛，婚后多穿质地上乘但不浮夸的主母服饰，养胎或居家时着素雅宽松长裙",
+    "color_palette": [
+      "月白",
+      "黛青",
+      "绛红"
+    ]
+  },
+  "casting_tags": [
+    "古典美人",
+    "强势主母",
+    "高自尊",
+    "重生复仇",
+    "外冷内伤"
+  ],
+  "visual_reference": "ancient chinese noblewoman, elegant oval face, sharp bright eyes, pale skin, black long hair in refined hanfu updo, strong proud expression, Song dynasty style, cinematic lighting, delicate but resilient, realistic",
+  "personality": "争强好胜，自尊极强，聪明果决，爱恨分明，嘴硬心软",
+  "desire": "改写家破人亡与丧子命运，再见并保全自己的孩子，最终获得真正的自由与体面",
+  "flaw": "过于骄傲，不肯示弱，情绪激烈时容易以伤己方式反击",
+  "arc": "从执着于报复、证明自己，到逐渐看清执念无意义，最终放下怨恨，选择脱离有毒婚姻，走向自主生活",
+  "scene_presence": "贯穿全篇。重生后主导订亲谈判、婚姻条件、家庭保全与和离，经历怀孕、误会、早产、失子阴影与自我和解。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻/宿敌/前世纠缠",
+      "dynamic": "彼此相知最深也伤害最深，既互相利用又暗藏感情，张力极强",
+      "function": "主线情感与冲突核心"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "父亲疼爱保护她，她则试图保全父亲和高家",
+      "function": "提供情感支撑与退路"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌/镜像女性",
+      "dynamic": "两人都在婚姻与身份中挣扎，互相伤害又互为命运镜像",
+      "function": "制造误会与三角张力，映照女主执念"
+    },
+    {
+      "target": "沈睿",
+      "type": "母子",
+      "dynamic": "高令宁对其爱到近乎执念，愿为见他再入婚局",
+      "function": "推动重婚与后续选择的关键动机"
+    },
+    {
+      "target": "昭昭",
+      "type": "母女",
+      "dynamic": "失而复得式的情感寄托，女主真正的新生希望",
+      "function": "女主后期人生重心与未来象征"
+    },
+    {
+      "target": "蒋晟",
+      "type": "相亲对象/被牵连者",
+      "dynamic": "原本可能成为稳妥良配，却被卷入旧怨与设计",
+      "function": "对照沈词，推动误会升级"
+    }
+  ]
+}

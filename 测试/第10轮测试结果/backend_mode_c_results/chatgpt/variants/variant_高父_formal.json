@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高父 — 提亲时的官员家主形象",
+  "tags": [
+    "文官",
+    "家主",
+    "审视婚事",
+    "忧思克制"
+  ],
+  "scene_ids": [
+    "scene_001"
+  ],
+  "trigger": "沈家携媒人上门提亲时，高父以官员兼父亲身份坐镇正堂，面对女儿当众退雁与沈词对峙的局面。",
+  "appearance_delta": {
+    "face": "神情比主设定更严肃克制，眉间皱纹更深，带有当堂应对婚事风波的审慎与压抑惊疑",
+    "body": "坐姿端正，肩背强撑威仪，清瘦感在正堂礼制场合下更显挺拔",
+    "hair": "发髻梳理得更为整肃，鬓角微白被收拾得一丝不乱",
+    "distinguishing_features": "兼具官场礼法与慈父护短气质，表面沉稳，实则全神戒备观察女儿与沈词"
+  },
+  "costume_override": {
+    "outfit": "四品官员常服，配官帽或端正规制头冠，衣料整洁但不过分张扬，适合在正堂会客议亲",
+    "color_palette": [
+      "深青",
+      "褐色",
+      "灰蓝"
+    ]
+  },
+  "visual_reference": "middle-aged ancient Chinese official father in a formal reception hall, thin dignified scholar-official, kind but worried face, visible forehead and eye wrinkles, slightly graying temples, neat official topknot, dark teal and brown rank robe, seated upright in the main hall, observing a tense marriage proposal scene, warm fatherly presence mixed with restrained authority, realistic historical costume, cinematic lighting",
+  "emotional_tone": "克制、审慎、隐忍护女"
+}

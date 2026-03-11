@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_012",
+  "name": "高府",
+  "type": "mixed",
+  "era_style": "明代中晚期京城官宦府邸复合空间",
+  "description": "高府作为多次出现的核心场景，应设定为一座规整而不奢侈的官宦宅院，包含门前、正厅、会客处、廊下、后院卧房等连续空间。正厅庄重，适合接待媒人与沈母，摆有茶盏、礼单、珍贵摆件与成山聘礼；前院有守门家丁、轿子停靠与来往礼盒，呈现礼数往来；廊下设竹椅、薄毯、果盘，适合产后探望与短暂温柔时刻；后院卧房偏私密，门锁、风铃、首饰匣、婴孩襁褓、小儿玩具与药材匣等强调女子养身与育儿日常。全宅以灰墙青砖、深木门窗和克制的文官家风为基底，随着剧情推进，从议婚、养胎、坐月子到拒客和防守，空间逐渐从开放转为封闭。",
+  "visual_reference": "Late Ming dynasty Beijing scholar-official mansion compound, connected spaces including formal hall, reception room, front gate, bamboo-chaired corridor, family courtyard, postpartum bedroom, grey brick walls, dark wooden doors, red silk gifts piled high, tea cups, ritual gift lists, baby swaddles, toys, medicine boxes, guarded entrances, restrained elite household, evolving from formal courtship to defensive refuge, historical Chinese drama, highly detailed cinematic realism",
+  "atmosphere": "家族庇护、礼法周旋、短暂温存、后期防守与隔绝",
+  "color_palette": [
+    "青灰墙色",
+    "深木棕",
+    "暗红礼绸"
+  ],
+  "lighting": "整体以日间自然光为主，不同区域光感不同：前厅明朗端正，廊下温润柔和，后院卧房更安静内收。",
+  "key_features": [
+    "可切换为正厅与后院的完整府邸格局",
+    "廊下竹椅与产后探望氛围",
+    "门锁家丁与被严防死守的后院入口"
+  ],
+  "narrative_scenes": [
+    "scene_012",
+    "scene_017",
+    "scene_022",
+    "scene_024"
+  ],
+  "scene_count": 4,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从议婚时的谨慎体面，到婚后短暂柔情，再到父亲护女、拒之门外与卑微等待，情绪跨度极大。"
+}

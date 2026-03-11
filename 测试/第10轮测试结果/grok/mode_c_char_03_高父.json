@@ -1,0 +1,40 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "慈爱忧心，中年皱纹渐增",
+    "body": "中等身材，官员风度",
+    "hair": "花白长须束冠",
+    "distinguishing_features": "担忧时加深的眼角皱纹"
+  },
+  "costume": {
+    "typical_outfit": "四品官员袍服",
+    "color_palette": [
+      "深青",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "护女官员"
+  ],
+  "visual_reference": "middle-aged Chinese official in traditional robes, kind worried face with graying beard and hair, gentle yet firm expression, realistic 8k",
+  "personality": "慈爱谨慎、为女着想",
+  "desire": "女儿平安喜乐",
+  "flaw": "初期犹豫高嫁",
+  "arc": "从劝嫁到坚决保护女儿和离",
+  "scene_presence": "提亲到和离谈判全程守护",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "深爱保护",
+      "function": "后盾"
+    }
+  ]
+}

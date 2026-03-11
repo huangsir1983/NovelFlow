@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "id": "scene_023",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ]
+  },
+  "data": {
+    "heading": "INT. 诊治休息处门前 - DAY",
+    "location": "诊治休息处门前",
+    "time_of_day": "day",
+    "description": "门口空间狭窄，内外光线形成明暗分界。室内药气未散，门外走廊或院前光线更亮，构成离开与滞留的对峙边界。人物站位清晰：高令宁被蒋晟扶着向外，沈词从后方出声截停。",
+    "action": "高令宁借蒋晟的手起身，受伤的脚不敢着力，身体微微偏向一侧，示意回家。蒋晟扶稳她，带她往外走。两人刚到门前，沈词开口拦下。高令宁停步却不回头，随后慢慢转身，脸上已无先前波动，只剩冷硬。沈词逼她履行先前承诺，为陆姝仪之事退让。高令宁反击，直指他应先处置陆姝仪婚事，再来谈提亲，并明确拒绝退步。蒋晟站在她身侧，形成支持姿态。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "你先前答应过的事，该兑现了。",
+        "subtext": "他想以承诺施压，逼她为陆姝仪让路。"
+      },
+      {
+        "character": "高令宁",
+        "line": "你若真想提亲，先把表小姐的婚事解决干净再说。",
+        "subtext": "她不再接受含糊关系，逼他直面自己与陆姝仪的纠葛。"
+      },
+      {
+        "character": "高令宁",
+        "line": "绝不退。",
+        "subtext": "她在守住最后的体面与底线，也是在切断自己旧有的幻想。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "key_props": [
+      "门框",
+      "高令宁受伤的脚踝包扎",
+      "蒋晟搀扶的手"
+    ],
+    "dramatic_purpose": "将隐性的情感失衡升级为公开对峙，明确婚事矛盾核心与高令宁当前立场。",
+    "tension_score": 0.78,
+    "order": 23
+  }
+}

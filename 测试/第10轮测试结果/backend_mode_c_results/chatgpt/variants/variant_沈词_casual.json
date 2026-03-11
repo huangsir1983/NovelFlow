@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "casual",
+  "variant_name": "沈词 — 孕期短暂温柔期",
+  "tags": [
+    "婚后",
+    "柔和假象",
+    "居家探望",
+    "迟来的歉意"
+  ],
+  "scene_ids": [
+    "scene_014",
+    "scene_015"
+  ],
+  "trigger": "高令宁有孕并回娘家养胎后，沈词频繁探望、送补品、剥葡萄、姿态罕见柔和时出现。这是他最接近正常亲密关系的一段时期。",
+  "appearance_delta": {
+    "face": "较主设定更柔缓，冷硬线条被短暂放松，黑眸偶尔显出温润的琥珀光感，但底层仍藏着不安与患得患失。",
+    "body": "身形依然高挑笔直，但坐于廊下、俯身照料时动作明显比平时更轻缓，压迫感减弱。",
+    "hair": "发式保持整洁端方，但比正式官场与礼仪场景略微家常，少了几分锋利的仪式感。",
+    "distinguishing_features": "会出现少见的低姿态照料动作，如剥葡萄、轻吻、带补品探望；这种温柔与他本人的清冷形成鲜明反差。"
+  },
+  "costume_override": {
+    "outfit": "私下探望时的深色家常长袍或轻便文士袍，质地精良但不夸张，适合在高府廊下与庭院中久坐陪伴。",
+    "color_palette": [
+      "月白",
+      "黛青",
+      "深灰"
+    ]
+  },
+  "visual_reference": "ancient Chinese noble scholar in a softer domestic moment, pale refined face, cold eyes softened with hidden tenderness, tall slim figure seated in a mansion corridor, black hair neatly tied with a simple jade crown, elegant dark blue or grey hanfu, peeling grapes and bringing gifts to his pregnant wife, gentle sunlight, restrained romantic period drama mood",
+  "emotional_tone": "克制温柔、试图修补、短暂安宁、暗藏不安"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "沈家第一次正式提亲，高令宁从聘礼寒薄与木雁判断沈词也重生，当堂退还木雁、嫌聘礼薄，给沈词难堪。",
+  "key_dialogue": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+  "emotional_peak": "高令宁当众退还木雁，沈词震惊抬眼，二人确认彼此重生。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "聘礼礼单与金银绸缎",
+    "木雁",
+    "媒人手中的婚书文帖"
+  ],
+  "dramatic_purpose": "建立双重生设定、人物前史默契与第一轮正面交锋。",
+  "source_text_start": "媒人来提亲时，聘礼比前世少了一半。我便知道",
+  "source_text_end": "回去会再和父母商议聘礼，必定让姑娘满意。"
+}

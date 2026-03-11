@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "媒人",
+    "高父"
+  ],
+  "core_event": "媒人第一次提亲，高令宁拒绝木雁聘礼",
+  "key_dialogue": "聘礼太薄，我不满意",
+  "emotional_peak": "高令宁当众拒绝聘礼的震惊",
+  "tension_score": 0.7,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "木雁",
+    "金银绸缎",
+    "聘礼箱",
+    "茶具",
+    "桌椅",
+    "屏风"
+  ],
+  "dramatic_purpose": "揭示重生设定，展现高令宁态度转变"
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 高府闺房 - 日",
+  "location": "高府闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "父女争执，高令宁坚持嫁并劝父辞官",
+  "key_dialogue": "「我一定要嫁。」",
+  "emotional_peak": "决心与父爱冲突",
+  "tension_score": 0.6,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "茶盏、辞官奏折、父亲皱纹脸"
+  ],
+  "dramatic_purpose": "确立女主嫁人动机与家族保护"
+}

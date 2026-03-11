@@ -1,0 +1,30 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 雪夜纠缠者",
+  "tags": [
+    "雪夜",
+    "疯狂",
+    "乞求"
+  ],
+  "scene_ids": [
+    "scene_018"
+  ],
+  "trigger": "EXT. 江南雪院 - 夜，雪天闯入深夜爬床宣告纠缠时，凄凉乞求似哭似笑",
+  "appearance_delta": {
+    "face": "俊朗脸庞凄凉似哭似笑，充满贪婪乞求",
+    "body": "长身玉立挺拔",
+    "hair": "墨黑长发束冠",
+    "distinguishing_features": "漆黑眸子疯狂乞求与贪婪深情，脸上似哭似笑"
+  },
+  "costume_override": {
+    "outfit": "深色锦袍官服",
+    "color_palette": [
+      "深蓝",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "二十五岁左右英俊古代文官，面如冠玉剑眉入鬓，漆黑眸子凄凉疯狂似哭似笑充满乞求，薄唇微颤，身材挺拔修长，穿着深蓝锦袍腰系玉带，墨发玉冠束起，深夜在江南雪院床边小心翼翼握手腕贪婪脸贴背，身上略沾雪花，背景大雪纷飞烛光昏黄，光影凄美冷冽古典，极致写实细节",
+  "visual_prompt_negative": "胡须、肥胖身材、现代西装、笑容夸张、卡通风格、西方五官、平静满足表情",
+  "emotional_tone": "凄凉疯狂的永恒纠缠深情"
+}

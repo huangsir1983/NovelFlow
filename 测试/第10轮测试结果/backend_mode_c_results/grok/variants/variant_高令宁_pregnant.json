@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 怀孕时期",
+  "tags": [
+    "怀孕",
+    "母性",
+    "淡然"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "沈府内室怀孕绣虎头帽，与沈词约定和离时",
+  "appearance_delta": {
+    "face": "清丽端庄，眼神锐利坚毅增添母性柔光",
+    "body": "纤细苗条但腹部微微隆起",
+    "hair": "乌黑长发盘成精致妇人髻",
+    "distinguishing_features": "不屈下巴与专注绣活的锐利目光"
+  },
+  "costume_override": {
+    "outfit": "宽松精致汉服罗裙，绣花长衫",
+    "color_palette": [
+      "素白",
+      "淡青",
+      "浅粉"
+    ]
+  },
+  "visual_reference": "beautiful young Chinese noblewoman visibly pregnant with slight round belly in elegant loose ancient hanfu with flowing sleeves, sharp intelligent determined eyes with maternal warmth, long jet black hair in intricate updo with hairpins, pale flawless skin, graceful slender figure, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "淡然坚定，深沉母爱"
+}

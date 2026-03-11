@@ -1,0 +1,82 @@
+{
+  "total_locations": 9,
+  "locations": [
+    {
+      "location_id": "loc_001",
+      "name": "高府正堂",
+      "scene_count": 3,
+      "narrative_scenes": [
+        "scene_001",
+        "scene_007",
+        "scene_008"
+      ]
+    },
+    {
+      "location_id": "loc_002",
+      "name": "高令宁闺房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "location_id": "loc_003",
+      "name": "医馆门口",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "location_id": "loc_004",
+      "name": "高府",
+      "scene_count": 3,
+      "narrative_scenes": [
+        "scene_004",
+        "scene_013",
+        "scene_014"
+      ]
+    },
+    {
+      "location_id": "loc_005",
+      "name": "马球会场地",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "location_id": "loc_006",
+      "name": "马球会休息室",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "location_id": "loc_007",
+      "name": "沈府新房",
+      "scene_count": 2,
+      "narrative_scenes": [
+        "scene_009",
+        "scene_010"
+      ]
+    },
+    {
+      "location_id": "loc_008",
+      "name": "沈府",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_011"
+      ]
+    },
+    {
+      "location_id": "loc_009",
+      "name": "高令宁房间",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_012"
+      ]
+    }
+  ]
+}

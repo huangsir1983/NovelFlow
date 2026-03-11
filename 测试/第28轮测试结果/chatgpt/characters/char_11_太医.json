@@ -1,0 +1,47 @@
+{
+  "name": "太医",
+  "aliases": [
+    "大夫"
+  ],
+  "role": "minor",
+  "age_range": "40-65岁",
+  "appearance": {
+    "face": "老成持重，面色平静，带医者审慎",
+    "body": "中等身材，站姿稳健",
+    "hair": "黑白相杂束发，或有短须",
+    "distinguishing_features": "诊脉时神色凝重，语言谨慎保守"
+  },
+  "costume": {
+    "typical_outfit": "医官袍服或素净医者长衫，携药箱",
+    "color_palette": [
+      "青灰",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "宫廷医者",
+    "命运预告者",
+    "冷静旁观"
+  ],
+  "visual_reference": "古风太医，五十岁左右，神情沉稳审慎，留短须，穿青灰或月白医官袍，手持药箱或诊脉，室内烛光下神色凝重，写实古风",
+  "visual_prompt_negative": "避免江湖郎中滑稽感、避免现代医生白大褂、避免夸张仙风道骨、避免卡通化",
+  "personality": "谨慎专业，话少",
+  "desire": "准确诊断、避免失误",
+  "flaw": "在权贵家务事中只能点到为止",
+  "arc": "无明显弧线",
+  "scene_presence": "曾为高令宁诊出男胎，也在难产与日常病症中作为医学权威出现，强化命运错位感。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医患",
+      "dynamic": "其诊断曾让众人误以为会得沈睿",
+      "function": "推动错认子嗣的戏剧性"
+    },
+    {
+      "target": "沈家",
+      "type": "家族医官服务",
+      "dynamic": "为权贵家宅服务",
+      "function": "提供制度与命运背书"
+    }
+  ]
+}

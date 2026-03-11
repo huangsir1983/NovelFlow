@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 今生压抑婚礼与洞房态",
+  "tags": [
+    "婚礼",
+    "新婚",
+    "貌合神离",
+    "压抑",
+    "危险亲密"
+  ],
+  "scene_ids": [
+    "scene_013",
+    "scene_014"
+  ],
+  "trigger": "今生与沈词正式成婚，在婚堂完成仪式、夜入洞房并带着前世积怨发生夫妻之事时出现。",
+  "appearance_delta": {
+    "face": "妆容完整却无新嫁喜色，神情心不在焉，洞房时则转为冷淡讥诮与被迫的情欲张力并存",
+    "body": "身段成熟而紧绷，肢体并非羞怯而是防备、抗拒与压抑发泄交织",
+    "hair": "已婚妇人高髻更正式，婚礼时配红色喜饰，洞房后略显松散凌乱",
+    "distinguishing_features": "同样是新妇外表，却几乎不见甜美感；红妆之下透出锋利和疲惫，形成强烈反差"
+  },
+  "costume_override": {
+    "outfit": "婚堂为完整红色喜服与红盖头造型，洞房则为褪去部分层叠后的红色寝衣或中衣，保留新婚喜床氛围",
+    "color_palette": [
+      "绛红",
+      "金红",
+      "月白"
+    ]
+  },
+  "visual_reference": "ancient Chinese bride, Song dynasty wedding hanfu, elegant oval face, pale cool skin, thin lips, sharp bright eyes with no joy, black hair in formal married bridal updo with red ornaments, red wedding robe and veil, later in bridal chamber with loosened layers and disheveled elegance, tense intimate atmosphere, dragon-phoenix bedding and candlelight, cinematic realism, cold beautiful bride with restrained hostility",
+  "emotional_tone": "压抑、疏离、恨意中的亲密"
+}

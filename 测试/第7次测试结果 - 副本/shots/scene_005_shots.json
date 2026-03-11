@@ -1,0 +1,265 @@
+[
+  {
+    "id": "shot_0052",
+    "scene_id": "scene_005",
+    "shot_number": 1,
+    "goal": "建立同一新房在深夜中的冷硬状态，交代床榻凌乱、门外昏暗与内外空间即将被叩门切开的前提。",
+    "composition": "FS，机位在床尾偏外侧，床榻占画面右后方，高令宁被被褥半裹侧身朝里，仅露出后脑与肩线；沈睿位于画面中右，坐或立在床边低头收尾清理；左前景虚化放着清理用水与巾帕，左后方房门处留出一块暗色负空间，门缝透入微弱走廊冷光，形成明确视觉出口。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到新婚夜余温已死，空气里只剩体面和压抑。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.18,
+    "order": 52
+  },
+  {
+    "id": "shot_0053",
+    "scene_id": "scene_005",
+    "shot_number": 2,
+    "goal": "用突如其来的叩门声打断床边动作，制造外部压力进入室内的第一击。",
+    "composition": "MS，保持室内轴线，门位于画面左侧三分之一处，门板占较大面积；前景右侧虚焦可见沈睿停住的手与衣袖，背景床榻模糊成一团暗影。叩门落点集中在门板中段，木纹与震动成为视觉焦点。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "制造被打断的不快和不祥感，像一根针扎进本就僵冷的空气。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 53
+  },
+  {
+    "id": "shot_0054",
+    "scene_id": "scene_005",
+    "shot_number": 3,
+    "goal": "交代门外来者身份与姿态：婢女跪着、压低声音却急促，明确她是替陆姝仪来截人。",
+    "composition": "MS，从室内门边向外拍，门框形成天然边界，门板内侧占右前景，婢女跪在走廊冷光里位于画面左下，头微低，双手扶地或拢袖回话；走廊深处昏暗空无一人，强化她背后那位不在场者的存在感。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到规矩姿态下的逼迫与算计，门外的柔弱其实是侵入。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.41,
+    "order": 54
+  },
+  {
+    "id": "shot_0055",
+    "scene_id": "scene_005",
+    "shot_number": 4,
+    "goal": "呈现婢女通报内容，同时把门板作为情感三角的可视化分隔：内是新房，外是陆姝仪的召唤。",
+    "composition": "MLS，半开的门把画面纵向切成两块：右侧室内暗暖，左侧走廊冷青。婢女跪在左侧下方回话；沈睿立于右侧近门位置，只见侧身与下颌，不完全出门；床榻在右后景朦胧可见高令宁的被褥轮廓。视觉上三方被门框、门板、光色分层切开。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众直观看见三角关系第一次成形，且这种介入已经压过新婚体面。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿",
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 55
+  },
+  {
+    "id": "shot_0056",
+    "scene_id": "scene_005",
+    "shot_number": 5,
+    "goal": "回到女主限制视角，捕捉她听见通报后的第一反应，不靠眼泪而靠轻嗤与冷处理建立她的立场。",
+    "composition": "MCU，高令宁背对镜头偏右卧于床内侧，画面左前景虚化带入门口方向的暗影与沈睿衣摆；她露出的半张侧脸压在画面右下，唇角极轻地动，眉眼不向门口，只在被褥边缘上显出一丝嘲意。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的冷，不是受伤哭闹，而是看透后的轻蔑与抽离。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 56
+  },
+  {
+    "id": "shot_0057",
+    "scene_id": "scene_005",
+    "shot_number": 6,
+    "goal": "用动作代替情绪爆发：她拉高被子把自己裹好，彻底撤出这段关系的身体与情感空间。",
+    "composition": "CU，被褥占据画面大半，冷白手指从下方抓住被缘向上拉，高令宁的下半张脸迅速被遮住，只剩一截冷白眼尾和鬓发；背景中门口方向的光斑被被褥边缘硬生生切断。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一种决绝的自我封闭，像关门，不争也不让进。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 57
+  },
+  {
+    "id": "shot_0058",
+    "scene_id": "scene_005",
+    "shot_number": 7,
+    "goal": "完成她的拒绝动作：干脆转身背对沈睿，切断新婚夜应有的依恋姿态。",
+    "composition": "MS，机位仍在床外侧，遵守轴线。高令宁从画面中部向右翻身，最终背脊与发髻朝向镜头，面朝墙内；沈睿站在左侧中景位置，因她转身而停住，二人之间被床面大块空白隔开。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到她不是赌气，而是把情感出口彻底关死。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.58,
+    "order": 58
+  },
+  {
+    "id": "shot_0059",
+    "scene_id": "scene_005",
+    "shot_number": 8,
+    "goal": "让她以不回头的姿态说出“你去吧。也不必回来了”，建立主动退出争宠逻辑的锋利态度。",
+    "composition": "MCU，高令宁背影占画面右侧三分之二，后颈与发髻清晰，被褥裹到肩头；左侧留出沈睿模糊站立的空间，但不见其完整表情。她的声音从背影发出，画面不肯给正脸，强化拒绝。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到克制语气比哭闹更伤人，她的平静本身就是羞辱。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 59
+  },
+  {
+    "id": "shot_0060",
+    "scene_id": "scene_005",
+    "shot_number": 9,
+    "goal": "给沈睿反应：他停在原地，盯着她背影，先是意外，继而转成讥诮和试探。",
+    "composition": "MCU，沈睿位于画面左侧，半身逆光，视线越过镜头指向床上；右前景虚化是高令宁的背影轮廓。门外冷光落在他侧脸边缘，压出薄唇与下颌线，神情发冷。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他被刺到后立刻转入防御性攻击，关系开始从冷转锋。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.72,
+    "order": 60
+  },
+  {
+    "id": "shot_0061",
+    "scene_id": "scene_005",
+    "shot_number": 10,
+    "goal": "呈现沈睿的试探性攻击台词，暴露他预设她会争宠告状，也借此逼她表态。",
+    "composition": "CU，仍在同一侧轴线上拍沈睿正偏侧脸，目光向右下压向床上；背景门框形成硬直线，像把他卡在新房与门外之间。说台词时唇线带笑不笑，眉眼却是冷的。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到讥诮里的自负与偏见，他在挑衅，也在测试她是不是世俗剧本中的正妻。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 61
+  },
+  {
+    "id": "shot_0062",
+    "scene_id": "scene_005",
+    "shot_number": 11,
+    "goal": "用不回头的背影承接这句羞辱，强调高令宁并不接他的逻辑，也不给情绪回馈。",
+    "composition": "MCU，镜头贴近高令宁后背与后脑，画面几乎没有脸，只有被褥褶皱、紧直的脊背线条和安静到近乎冷酷的停顿；左边缘可见沈睿一小块虚焦深色衣袖，证明他仍在等她反应。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "制造短促但压得很重的沉默，让观众感到她比反击前更危险。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.74,
+    "order": 62
+  },
+  {
+    "id": "shot_0063",
+    "scene_id": "scene_005",
+    "shot_number": 12,
+    "goal": "抛出全场核心转折台词：“你我早晚要和离”，公开否定婚姻未来，完成关系走向的重要断裂。",
+    "composition": "CU，仍不见正脸，只拍高令宁的下颌、唇线与被褥边缘，角度从她背后微绕到侧后，但始终不给完整眼神；背景深处沈睿虚焦定住。她的台词像从被褥里平静切出来，画面硬、近、无退路。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到真正的致命一击来自平静陈述，而非情绪失控。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 63
+  },
+  {
+    "id": "shot_0064",
+    "scene_id": "scene_005",
+    "shot_number": 13,
+    "goal": "给沈睿接住“和离”后的反应，不靠大动作而靠被刺穿的停滞，留下后续裂痕余波。",
+    "composition": "MCU，沈睿站在床边偏左，肩背微绷，脸处于门口与室内两种光色交界；右侧前景是高令宁静止的背影虚焦，门在他身后半开，形成他被夹在两个女人、两个空间之间的困局。画面留出上方空白，压迫感增强。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他第一次真正被她的抽离击中，但仍无处安放这一下。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 64
+  },
+  {
+    "id": "shot_0065",
+    "scene_id": "scene_005",
+    "shot_number": 14,
+    "goal": "冷收尾：用门、床、背影和停住的人把这场戏封死，结束在更深的裂痕上。",
+    "composition": "FS，回到建立镜位但更空。右侧床上高令宁背对不动，像一块冷白静物；中左沈睿仍站着未出门；最左门口外是跪着的婢女低伏身影。三人被门框、床沿和光区切成三层，谁都没有靠近谁。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众带着寒意离场：新婚夜没有争吵高潮，只有关系被悄无声息地判了死缓。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 65
+  }
+]

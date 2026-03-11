@@ -1,0 +1,56 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "我",
+    "令宁",
+    "高姑娘",
+    "夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-20",
+  "appearance": {
+    "face": "清丽温婉中带着倔强，眼神清冷通透",
+    "body": "纤细但挺拔",
+    "hair": "乌黑长发，常挽发髻",
+    "distinguishing_features": "冷漠疏离的眼神与脖颈间隐约的前世血痕记忆"
+  },
+  "costume": {
+    "typical_outfit": "素雅的丝绸襦裙，后期偏向宽松舒适的常服",
+    "color_palette": [
+      "月白",
+      "淡青"
+    ]
+  },
+  "casting_tags": [
+    "清冷倔强",
+    "大女主",
+    "破碎感与坚韧并存",
+    "人间清醒"
+  ],
+  "visual_reference": "A beautiful young ancient Chinese noblewoman, wearing elegant pale blue and white silk hanfu, clear and cold eyes, calm and resolute expression, cinematic lighting, 8k resolution.",
+  "personality": "争强好胜，眼里容不得沙子，重生后变得清醒、通透、果断",
+  "desire": "摆脱沈词的纠缠，保护家人，平安生下并抚养孩子",
+  "flaw": "前世自尊心过强，今生为了自保过于封闭内心",
+  "arc": "从前世充满怨怼、执着于证明自己，到重生后彻底放下执念、追求自由和内心平静",
+  "scene_presence": "贯穿全剧，核心视角",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前夫",
+      "dynamic": "从相看两厌、契约婚姻，到彻底抛弃对方，被其偏执纠缠",
+      "function": "核心矛盾与情感拉扯对象"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "从前世的嫉恨防备，到今生的冷眼旁观与无视",
+      "function": "催化女主死心与觉醒"
+    },
+    {
+      "target": "高父",
+      "type": "父亲",
+      "dynamic": "被无条件偏爱与保护",
+      "function": "提供亲情后盾与退路"
+    }
+  ]
+}

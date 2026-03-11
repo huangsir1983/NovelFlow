@@ -1,0 +1,287 @@
+[
+  {
+    "id": "shot_0628",
+    "scene_id": "scene_040",
+    "shot_number": 1,
+    "goal": "建立前厅与院门相连的空间关系，交代傍晚冷下来的环境与府内骤然紧绷的气息，为失踪危机做视觉铺垫。",
+    "composition": "WS，机位设在前厅内偏后方，以门框为天然遮挡。画面右侧前景是一盏将燃未燃的灯笼与半掩屏风，左侧中景可见门房小厮候在廊柱旁。背景正中是院门，外头最后一线余晖冷冷压在门槛上，厅内已偏冷灰。人物尚未进入主导位置，留出院门方向的空位形成压迫性期待。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到礼制空间中的寒意与将要失控的预兆。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 628
+  },
+  {
+    "id": "shot_0629",
+    "scene_id": "scene_040",
+    "shot_number": 2,
+    "goal": "突出门房小厮的惶然，预示他掌握关键信息且事态不寻常。",
+    "composition": "MS，门房小厮位于画面左三分之一，身体微躬，手中抱着门房名册。前景右侧虚化的门框形成压线，背景是人影来去的回廊与冷掉的厅灯，视线引导集中到他不安的眼神和抱紧名册的手。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到消息已坏到连下人都失措。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.31,
+    "order": 629
+  },
+  {
+    "id": "shot_0630",
+    "scene_id": "scene_040",
+    "shot_number": 3,
+    "goal": "以闯入动作打破前两镜的压抑静止，交代沈词情绪失控地进入高府。",
+    "composition": "MLS，机位面向院门内侧，沈词自画面右后方猛然入画，朝左前方前厅深处疾行，衣摆扬起带风。门槛与回廊线条形成强透视，把他的冲入动作压向厅内。背景可见小厮仓促转身，强化突发性。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "制造突然侵入感和危机正式爆发的冲击。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 630
+  },
+  {
+    "id": "shot_0631",
+    "scene_id": "scene_040",
+    "shot_number": 4,
+    "goal": "捕捉沈词失控边缘的状态，明确他并非寻常登门，而是带着近乎逼问的急迫。",
+    "composition": "MCU，沈词位于画面中央偏右，肩线前倾，呼吸急促，脸色铁青。前景左侧掠过一抹虚化灯笼暖色，与他面上的冷光形成冲突。背景压暗，只保留厅柱轮廓，突出其狭长凤眼中的逼迫感。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他克制正在断裂，危险感骤升。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.67,
+    "order": 631
+  },
+  {
+    "id": "shot_0632",
+    "scene_id": "scene_040",
+    "shot_number": 5,
+    "goal": "引入高令宁的主观观察位置，建立她在场且先于观众判断事态严重的悬疑视角。",
+    "composition": "MCU，高令宁站在前厅内侧偏左，半身被门框与垂帘切割，形成被礼法框住的视觉关系。她看向画外右侧的沈词，脸色冷白，眼神先是收紧。背景留有深色厅堂虚空，颈侧淡痕与紧绷下颌在冷侧光中若隐若现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她在一瞬间意识到事情比表面更坏，同时保持克制与冷锐。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 632
+  },
+  {
+    "id": "shot_0633",
+    "scene_id": "scene_040",
+    "shot_number": 6,
+    "goal": "通过对峙式构图交代双方空间关系与信息交换即将发生，避免机械正反打前先建立轴线。",
+    "composition": "FS，采用斜侧双人构图，高令宁在画面左前景侧身而立，沈词在画面右中景前压，两人之间留出一道空隙，空隙正对门房小厮所在方向。前景有灯笼下垂，背景是院门与回廊，形成纵深遮挡。180度轴线确立为高令宁看向右、沈词看向左。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到两人都在压情绪，但真正刺人的内容还未落下。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 633
+  },
+  {
+    "id": "shot_0634",
+    "scene_id": "scene_040",
+    "shot_number": 7,
+    "goal": "交代关键信息来源：门房名册证明陆姝仪进了高府却未出去，使失踪从猜测变成事实链。",
+    "composition": "CU，门房名册占据画面下半部，粗糙纸页被仓促翻开，手指停在某一行记录上。上半部浅景深中可见小厮颤抖的袖口和一角灯笼冷暖交界。文字不必完全读清，但停顿位置足以表明有明确记载。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "给予观众证据落地的寒意，而非空口传话。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 634
+  },
+  {
+    "id": "shot_0635",
+    "scene_id": "scene_040",
+    "shot_number": 8,
+    "goal": "让小厮回话，明确‘进府后未再出去’这一核心信息，推动场面进入危机确认。",
+    "composition": "MCU，小厮位于画面中央，头压得很低，眼神却不敢不抬。前景右侧虚化出沈词深色袍肩，左侧虚化出高令宁月白衣角，形成被两位主子夹在中间的压迫。背景廊柱垂直线加强束缚感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这句话像落锁，彻底封死侥幸。",
+    "duration_hint": "3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 635
+  },
+  {
+    "id": "shot_0636",
+    "scene_id": "scene_040",
+    "shot_number": 9,
+    "goal": "抓取沈词听到确认后的即时反应，体现他的失控不是表演，而是骤然下沉的恐惧与暴躁。",
+    "composition": "CU，沈词位于画面右侧，面部三分之二入画，视线死死钉向小厮方向。背景几乎压成暗面，仅留一条门外残光切过他的颧骨，唇线绷紧，眼尾微红。留白在画面左侧，像无处可抓的空缺。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众感到他第一次真正害怕，且害怕正转化成攻击性。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.81,
+    "order": 636
+  },
+  {
+    "id": "shot_0637",
+    "scene_id": "scene_040",
+    "shot_number": 10,
+    "goal": "切到高令宁的反应，显示她并不外露惊惶，而是在极短时间内完成判断和自我压制。",
+    "composition": "CU，高令宁位于画面左侧偏中，脸转向右。前景有一缕垂帘虚化掠过脸边，像把情绪隔了一层。她眼神先是一滞，随后下颌轻收，唇角压紧。背景暗处只剩屏风轮廓，突出她冷静收束的过程。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的镇定并非无情，而是更锋利的控制力。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 637
+  },
+  {
+    "id": "shot_0638",
+    "scene_id": "scene_040",
+    "shot_number": 11,
+    "goal": "表现高令宁‘站定片刻’这一关键停顿，把她从被动听闻转化为主动掌局。",
+    "composition": "MS，高令宁完整半身立于画面中央，四周仆役人影在前景与背景匆匆掠过，唯独她静止。门框与廊柱把她夹在中轴线上，灯笼微晃却她不动，形成时间被压住的一瞬。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "让观众感到风暴中心短暂回冷，真正的命令即将落下。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 638
+  },
+  {
+    "id": "shot_0639",
+    "scene_id": "scene_040",
+    "shot_number": 12,
+    "goal": "用细部动作展示她压情绪而非宣泄，完成角色权威的建立。",
+    "composition": "ECU，高令宁袖中的手在画面下方微微攥紧，指节发白，布料被掐出折痕；画面上缘隐约见到褙子暗纹与一缕发丝。背景完全虚化，只保留冷色光感。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到克制本身比哭喊更有力量，也更危险。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 639
+  },
+  {
+    "id": "shot_0640",
+    "scene_id": "scene_040",
+    "shot_number": 13,
+    "goal": "高令宁下令全府搜查，明确剧情进入危机搜查阶段。",
+    "composition": "MCU，高令宁位于画面中央略偏左，面向画外右前方下令。前景右侧虚化出沈词肩背，表明她不是被他驱动，而是在他失控时接管局面。背景中下人已开始警觉转身，空间被命令激活。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到局面从失控转为高压行动，危机被正式命名。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 640
+  },
+  {
+    "id": "shot_0641",
+    "scene_id": "scene_040",
+    "shot_number": 14,
+    "goal": "用群体动作响应命令，扩大事件规模，显示‘全府搜查’不是一句话而是整座府邸被震动。",
+    "composition": "FS，前厅与院门之间形成纵深调度。下人从画面左向右、由前向后分流奔出，灯笼被迅速提起。高令宁仍站在左中景稳定位置，沈词在右侧半步前倾未动。背景回廊深处被动作点亮，形成搜查扩散感。",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "让观众感到危机已全面蔓延，时间开始追赶所有人。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 641
+  },
+  {
+    "id": "shot_0642",
+    "scene_id": "scene_040",
+    "shot_number": 15,
+    "goal": "以有限客观镜头观察沈词在高令宁接管后短暂的迟疑，呈现他失控与无能为力并存的复杂状态。",
+    "composition": "MS，沈词位于画面右侧，肩背绷紧，像要追出去却被瞬间定住。左侧前景是高令宁模糊而稳定的身影，形成对照。背景中奔走的下人拉出动线，唯有他在动与不动之间停顿。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到他的强势第一次被现实噎住，焦灼转为更深的执念。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 642
+  },
+  {
+    "id": "shot_0643",
+    "scene_id": "scene_040",
+    "shot_number": 16,
+    "goal": "收束场景，以冷而悬的空间余韵结束，承接下一场搜查动作戏。",
+    "composition": "WS，机位退回前厅深处，门框再次包住画面。高令宁与沈词分别立于中轴两侧，彼此不靠近，中间空出一条直通院门的搜查通道。提起的灯笼陆续向回廊深处移动，形成一串远去的光点。门外余晖彻底褪尽，厅内冷色占满画面。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "让观众感到人已散出，真正的黑暗才刚开始。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.71,
+    "order": 643
+  }
+]

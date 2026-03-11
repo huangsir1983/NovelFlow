@@ -1,0 +1,184 @@
+[
+  {
+    "id": "shot_0077",
+    "scene_id": "scene_007",
+    "shot_number": 1,
+    "goal": "建立场景氛围，展示深夜卧房的凄清与病态",
+    "composition": "月光从画面右侧窗棂斜射入，在床榻上形成斑驳光影，前景虚化的药碗和帕子占据画面下方1/3，背景床榻上隐约可见人形轮廓",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "压抑、不安、死亡气息逼近的窒息感",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 77
+  },
+  {
+    "id": "shot_0078",
+    "scene_id": "scene_007",
+    "shot_number": 2,
+    "goal": "揭示女主病重状态，强化生命脆弱感",
+    "composition": "女主面部占据画面中心偏右，月光从左侧照亮凹陷的颧骨和眼窝，右侧脸部隐入阴影，枕头和散乱发丝构成柔软前景",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "怜悯、心痛、生命流逝的残酷",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 78
+  },
+  {
+    "id": "shot_0079",
+    "scene_id": "scene_007",
+    "shot_number": 3,
+    "goal": "捕捉女主苏醒瞬间的情绪残留（泪痕）",
+    "composition": "女主眼部极特写，睫毛颤动，眼角泪痕在月光下泛着微光，瞳孔缓慢聚焦",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "脆弱、悲伤的余韵、意识回归的迷茫",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 79
+  },
+  {
+    "id": "shot_0080",
+    "scene_id": "scene_007",
+    "shot_number": 4,
+    "goal": "揭示女主与沈词的身体连接（抓握），暗示依赖与纠葛",
+    "composition": "女主消瘦的手紧抓沈词衣袖，两只手占据画面中心，背景虚化的床沿和衣料褶皱，手部骨节因用力而泛白",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "紧张、不舍、病态的执着",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 80
+  },
+  {
+    "id": "shot_0081",
+    "scene_id": "scene_007",
+    "shot_number": 5,
+    "goal": "展示沈词守夜状态，建立他的疲惫与隐忍",
+    "composition": "沈词侧面中景，坐姿笔直但肩线微塌，月光勾勒出眼下青黑和紧抿的唇线，前景虚化的床沿，背景暗部占据2/3画面",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "压抑、疲惫、情感的自我囚禁",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 81
+  },
+  {
+    "id": "shot_0082",
+    "scene_id": "scene_007",
+    "shot_number": 6,
+    "goal": "核心情感爆破点——沈词比量女主脸颊的动作，揭示隐藏的深情",
+    "composition": "沈词手掌横在女主脸侧，手与脸之间留出3-5cm空隙，月光穿过指缝在女主脸上投下阴影，背景全虚，手指微颤清晰可见",
+    "camera_movement": "slow dolly in",
+    "framing": "CU",
+    "emotion_target": "心碎、克制的爱意、无法触碰的悲剧感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 82
+  },
+  {
+    "id": "shot_0083",
+    "scene_id": "scene_007",
+    "shot_number": 7,
+    "goal": "捕捉沈词手指颤抖细节，强化情感真实性",
+    "composition": "沈词手指极特写，指尖轻微颤动，背景虚化的女主脸颊轮廓，月光在指甲上形成高光",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "脆弱、失控边缘的情感、身体背叛理智",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 83
+  },
+  {
+    "id": "shot_0084",
+    "scene_id": "scene_007",
+    "shot_number": 8,
+    "goal": "女主视角捕捉沈词反应，展示他的情感逃避",
+    "composition": "女主主观镜头，沈词侧脸占据画面右侧，他别过脸的动作形成视线引导，左侧留白强化疏离感，月光只照亮他的半张脸",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被拒绝的刺痛、情感的单向性、悲剧的不可逆",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 84
+  },
+  {
+    "id": "shot_0085",
+    "scene_id": "scene_007",
+    "shot_number": 9,
+    "goal": "沈词手部僵住的反应镜头，定格情感破裂瞬间",
+    "composition": "沈词手掌仍停在半空，但手指从弯曲变为僵直，女主脸部虚化在背景，手与脸的距离感被强化",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "尴尬、被揭穿的羞耻、情感的骤然冻结",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 85
+  },
+  {
+    "id": "shot_0086",
+    "scene_id": "scene_007",
+    "shot_number": 10,
+    "goal": "双人构图收尾，固化两人关系的悲剧性距离",
+    "composition": "中全景，女主躺在画面左侧床榻上，沈词坐在右侧床边背对镜头，两人之间留出明显空隙，月光在中间形成分割线",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "无力、悲凉、爱而不得的宿命感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.6,
+    "order": 86
+  }
+]

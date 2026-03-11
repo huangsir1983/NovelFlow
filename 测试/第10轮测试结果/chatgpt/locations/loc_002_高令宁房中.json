@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁房中",
+  "type": "interior",
+  "era_style": "明代中晚期官宦小姐闺房",
+  "description": "闺房为内院东厢式私密卧房，进深不大但布置精致，分为梳妆、起居、卧榻三部分。床榻靠内墙摆放，悬半透帘帐，软化空间边界；床边设绣凳与小几，便于贴身侍奉与短暂谈话。临窗设梳妆台，台上铜镜、发钗、团扇、茶壶与药匣杂而不乱，显示少女闺阁与病弱心事并存。窗边置细颈花瓶，插当季花枝，使室内在克制中带一点柔润生气。家具多用浅褐至中褐色木器，雕花不繁，线条秀气。室内铺设素色织物，帘帐与床品偏浅，方便承接人物神情变化。整个空间较为封闭安静，适合回忆与内心独白。",
+  "visual_reference": "Late Ming dynasty noblewoman bedroom, refined boudoir interior, canopied bed with gauze curtains, wooden dressing table with bronze mirror, hairpins, round silk fan, medicine box, tea pot, flower vase by lattice window, embroidered stool, elegant but restrained decor, soft daylight, intimate private chamber, emotional tension, historical Chinese drama realism, highly detailed",
+  "atmosphere": "私密、压抑、回忆翻涌、决绝自持",
+  "color_palette": [
+    "藕粉白",
+    "浅木棕",
+    "淡青灰"
+  ],
+  "lighting": "柔和日光经格窗过滤后散入室内，光面细腻，照亮梳妆台与帘帐边缘，整体无强烈阴影，营造闷而静的情绪。",
+  "key_features": [
+    "半透帘帐床榻",
+    "铜镜与发钗梳妆台",
+    "窗边花瓶与药匣"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从闺阁柔静转向前世创伤回忆与今生再次入局的冷硬决心。"
+}

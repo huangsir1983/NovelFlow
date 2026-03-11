@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_001",
+  "name": "沈府正厅",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸正厅",
+  "description": "宽敞对称的正厅空间，高大梁柱支撑屋顶，中央主座为沈母太师椅，四周环绕雕  花红木屏风与条案，地面铺青砖，墙面挂卷轴字画与红烛台，入口有高门槛与对联，侧边摆放茶几与瓷器架，整体布局庄重正式，厅内留有足够走动空间。",
+  "visual_reference": "Grand Ming dynasty late period Chinese official mansion main hall interior, spacious symmetrical layout   with high wooden beams and columns, ornate carved rosewood screens and altar tables, central majestic armchair for the matriarch, blue brick floor, hanging calligraphy scrolls and red candle stands on walls, high threshold entrance with couplets, side tea tables with porcelain, dramatic formal atmosphere, detailed architectural precision, cinematic lighting",
+  "atmosphere": "庄严肃穆却剑拔弩张",
+  "color_palette": [
+    "深木棕",
+    "朱红",
+    "金黄"
+  ],
+  "lighting": "日光从侧面格窗斜射入厅，营造明暗对比与戏剧性阴影",
+  "key_features": [
+    "主座太师椅",
+    "雕花屏风",
+    "高梁木柱"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "愤怒与屈辱爆发"
+}

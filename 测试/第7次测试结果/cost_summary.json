@@ -1,0 +1,129 @@
+{
+  "total_api_calls": 222,
+  "total_input_tokens": 985285,
+  "total_output_tokens": 532062,
+  "total_tokens": 1517347,
+  "total_api_elapsed_s": 11635.1,
+  "stages": {
+    "1": {
+      "input_tokens": 12206,
+      "output_tokens": 1146,
+      "elapsed_s": 23.61,
+      "api_calls": 1,
+      "models": {
+        "gpt-5.4": {
+          "calls": 1,
+          "tokens": 13352
+        }
+      }
+    },
+    "2": {
+      "input_tokens": 23417,
+      "output_tokens": 9498,
+      "elapsed_s": 265.18999999999994,
+      "api_calls": 14,
+      "models": {
+        "gpt-5.4": {
+          "calls": 14,
+          "tokens": 32915
+        }
+      }
+    },
+    "3": {
+      "input_tokens": 73689,
+      "output_tokens": 18790,
+      "elapsed_s": 493.35999999999996,
+      "api_calls": 8,
+      "models": {
+        "gpt-5.4": {
+          "calls": 8,
+          "tokens": 92479
+        }
+      }
+    },
+    "4": {
+      "input_tokens": 32757,
+      "output_tokens": 35282,
+      "elapsed_s": 760.6600000000001,
+      "api_calls": 14,
+      "models": {
+        "gpt-5.4": {
+          "calls": 14,
+          "tokens": 68039
+        }
+      }
+    },
+    "5": {
+      "input_tokens": 13951,
+      "output_tokens": 2727,
+      "elapsed_s": 53.11,
+      "api_calls": 1,
+      "models": {
+        "gpt-5.4": {
+          "calls": 1,
+          "tokens": 16678
+        }
+      }
+    },
+    "6": {
+      "input_tokens": 176636,
+      "output_tokens": 189362,
+      "elapsed_s": 3927.0600000000004,
+      "api_calls": 54,
+      "models": {
+        "gpt-5.4": {
+          "calls": 54,
+          "tokens": 365998
+        }
+      }
+    },
+    "7": {
+      "input_tokens": 433817,
+      "output_tokens": 163246,
+      "elapsed_s": 3431.37,
+      "api_calls": 54,
+      "models": {
+        "gpt-5.4": {
+          "calls": 54,
+          "tokens": 597063
+        }
+      }
+    },
+    "8": {
+      "input_tokens": 160651,
+      "output_tokens": 53215,
+      "elapsed_s": 1405.04,
+      "api_calls": 54,
+      "models": {
+        "gpt-5.4": {
+          "calls": 54,
+          "tokens": 213866
+        }
+      }
+    },
+    "9": {
+      "input_tokens": 19924,
+      "output_tokens": 19866,
+      "elapsed_s": 416.41999999999996,
+      "api_calls": 13,
+      "models": {
+        "gpt-5.4": {
+          "calls": 13,
+          "tokens": 39790
+        }
+      }
+    },
+    "10": {
+      "input_tokens": 38237,
+      "output_tokens": 38930,
+      "elapsed_s": 859.29,
+      "api_calls": 9,
+      "models": {
+        "gpt-5.4": {
+          "calls": 9,
+          "tokens": 77167
+        }
+      }
+    }
+  }
+}

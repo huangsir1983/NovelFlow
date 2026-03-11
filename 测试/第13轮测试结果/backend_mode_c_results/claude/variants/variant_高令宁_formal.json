@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 提亲拒婚",
+  "tags": [
+    "未嫁",
+    "高傲",
+    "对抗",
+    "决绝"
+  ],
+  "scene_ids": [
+    "scene_001"
+  ],
+  "trigger": "高府正堂，沈家提亲时，拒绝木雁聘礼",
+  "appearance_delta": {
+    "face": "眉眼间的倔强更加明显，眼神锐利带着讥讽",
+    "body": "站姿笔直，昂首挺胸，充满对抗姿态",
+    "hair": "简洁发髻，仅用一支玉簪",
+    "distinguishing_features": "嘴角带着冷笑，眼中闪烁着不屑"
+  },
+  "costume_override": {
+    "outfit": "青色襦裙，素雅简洁，未嫁女子装束",
+    "color_palette": [
+      "青色",
+      "素白"
+    ]
+  },
+  "visual_reference": "古代未嫁女子，清秀端庄的面容上眉眼间倔强明显，眼神锐利带着讥讽和不屑，嘴角挂着冷笑，身着青色襦裙素雅简洁，乌黑长发挽成简洁发髻仅用一支玉簪固定，站姿笔直昂首挺胸充满对抗气势，一手指向聘礼中的木雁，背景是高府正堂，光线明亮，气氛紧张对峙",
+  "visual_prompt_negative": "柔顺表情，低头姿态，华丽装饰，婚后服饰，温和眼神",
+  "emotional_tone": "高傲、对抗、决绝"
+}

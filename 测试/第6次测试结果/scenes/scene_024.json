@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_024",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:48"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_008",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_019"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 高府 - 廊下/庭院 - DAY",
+    "location": "高府廊下",
+    "time_of_day": "day",
+    "description": "半开敞的廊下，通风良好，微风拂面，日光柔和，自庭院一侧漫入。廊柱、坐榻或栏杆构成稳定生活画面。果盘、葡萄等时鲜吃食摆在手边，营造看似和美的家庭日常。高令宁倚坐，神情松弛；沈词坐在近旁，手上剥葡萄，动作细致殷勤。",
+    "action": "高令宁以养胎为由回了娘家。沈词下衙后来高府探视，在廊下陪她坐风口纳凉，替她剥葡萄，低声提及前世对她的亏欠。高令宁眯着眼，顺势把头靠到他肩上，像是困倦欲睡。沈词侧过脸，动作很轻地亲了她一下。两人肢体距离亲近，但高令宁内心并未真正被打动，表面和缓中藏着判断与疏离。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "其实上一世，我有许多对不住你的地方。",
+        "subtext": "我在迟来的补偿，也试图为过去求得一点原谅。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "葡萄",
+      "廊柱",
+      "坐榻"
+    ],
+    "dramatic_purpose": "用温柔日常制造情感缓冲，对照高令宁内心并未回头，强化两人表面和美、实则错位的关系状态。",
+    "tension_score": 0.34,
+    "dramatic_intensity": -0.32,
+    "order": 24
+  }
+}

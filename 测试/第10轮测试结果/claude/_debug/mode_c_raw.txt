@@ -1,0 +1,495 @@
+```json
+{
+  "characters": [
+    {
+      "name": "高令宁",
+      "aliases": ["令宁", "高姑娘", "高小姐", "沈夫人"],
+      "role": "protagonist",
+      "age_range": "16-40岁(跨越重生前后)",
+      "appearance": {
+        "face": "清秀端庄，眉眼间带着倔强",
+        "body": "纤细但不柔弱",
+        "hair": "乌黑长发，通常梳成已婚妇人发髻",
+        "distinguishing_features": "眼神坚定，不服输的神态"
+      },
+      "costume": {
+        "typical_outfit": "古代女子襦裙，婚后着诰命夫人服饰",
+        "color_palette": ["青色", "月白色", "淡粉色"]
+      },
+      "casting_tags": ["坚韧", "高傲", "要强", "管家能手"],
+      "visual_reference": "elegant Chinese woman in hanfu, determined eyes, proud posture, traditional hairstyle, delicate features with strong character, ancient China setting",
+      "personality": "争强好胜，自尊心极强，不愿示弱，管理能力出众，重生后变得更加理智冷静",
+      "desire": "获得真心对待，保护家人，再见儿子沈睿",
+      "flaw": "过于要强导致不懂示弱，自尊心太强难以沟通",
+      "arc": "从爱慕沈词到失望怨恨，重生后从报复心态转为放下释然",
+      "scene_presence": "全剧主角，贯穿始终",
+      "relationships": [
+        {"target": "沈词", "type": "夫妻", "dynamic": "相爱相杀，互相折磨又互相牵挂", "function": "核心情感线"},
+        {"target": "陆姝仪", "type": "情敌", "dynamic": "明争暗斗，最终理解", "function": "情感冲突制造者"},
+        {"target": "高父", "type": "父女", "dynamic": "父亲疼爱保护女儿", "function": "情感支撑"},
+        {"target": "沈睿", "type": "母子", "dynamic": "深爱儿子，为他重生", "function": "行动动机"},
+        {"target": "昭昭", "type": "母女", "dynamic": "疼爱女儿", "function": "新生希望"}
+      ]
+    },
+    {
+      "name": "沈词",
+      "aliases": ["沈公子", "沈大人", "阿词"],
+      "role": "protagonist",
+      "age_range": "18-42岁(跨越重生前后)",
+      "appearance": {
+        "face": "如玉面庞，清冷俊美",
+        "body": "长身玉立，身姿挺拔",
+        "hair": "束发戴冠，儒雅",
+        "distinguishing_features": "冷如冰湖的眼睛，琥珀色眸子"
+      },
+      "costume": {
+        "typical_outfit": "文官朝服，青衫儒袍",
+        "color_palette": ["墨色", "青色", "白色"]
+      },
+      "casting_tags": ["冷峻", "端方", "才子", "权臣"],
+      "visual_reference": "handsome Chinese scholar official, cold elegant demeanor, jade-like features, traditional official robes, piercing amber eyes, ancient China dynasty",
+      "personality": "端方持重，冷静理智，对陆姝仪温柔，对高令宁复杂矛盾，重生后逐渐意识到真心",
+      "desire": "保护陆姝仪，得到沈睿，后期想挽回高令宁",
+      "flaw": "感情迟钝，不懂表达真心，对高令宁态度冷漠伤人",
+      "arc": "从为陆姝仪娶妻到发现真正在意高令宁，从冷漠到卑微挽回",
+      "scene_presence": "男主角，贯穿全剧",
+      "relationships": [
+        {"target": "高令宁", "type": "夫妻", "dynamic": "从利用到真爱，从冷漠到纠缠", "function": "核心情感线"},
+        {"target": "陆姝仪", "type": "青梅竹马/义妹", "dynamic": "保护疼爱但非男女之情", "function": "情感纠葛"},
+        {"target": "沈睿", "type": "父子", "dynamic": "深爱儿子，为他重生", "function": "行动动机"},
+        {"target": "昭昭", "type": "父女", "dynamic": "疼爱女儿", "function": "情感羁绊"}
+      ]
+    },
+    {
+      "name": "陆姝仪",
+      "aliases": ["姝仪", "表小姐"],
+      "role": "antagonist",
+      "age_range": "16-38岁(跨越重生前后)",
+      "appearance": {
+        "face": "温婉清丽，楚楚可怜",
+        "body": "纤细柔弱",
+        "hair": "柔顺长发",
+        "distinguishing_features": "泪眼盈盈，柔弱倔强的神态"
+      },
+      "costume": {
+        "typical_outfit": "粉色襦裙，素雅衣裙",
+        "color_palette": ["粉色", "白色", "淡青色"]
+      },
+      "casting_tags": ["柔弱", "可怜", "心机", "白莲花"],
+      "visual_reference": "delicate Chinese beauty in pink hanfu, tearful eyes, fragile appearance, gentle demeanor with hidden schemes, traditional hairstyle",
+      "personality": "表面柔弱温婉，实则有心机手段，为达目的不择手段，重生后更加决绝",
+      "desire": "嫁给沈词或找到好归宿",
+      "flaw": "过于依赖他人保护，手段下作",
+      "arc": "从被保护的义妹到设计陷害，最终认错离开",
+      "scene_presence": "前期频繁出现，后期退场",
+      "relationships": [
+        {"target": "沈词", "type": "青梅竹马/义妹", "dynamic": "依赖被保护", "function": "情感障碍"},
+        {"target": "高令宁", "type": "情敌", "dynamic": "明争暗斗", "function": "冲突制造"},
+        {"target": "蒋晟", "type": "夫妻", "dynamic": "设计成婚但冷淡", "function": "结局安排"}
+      ]
+    },
+    {
+      "name": "沈睿",
+      "aliases": ["睿儿", "长子"],
+      "role": "supporting",
+      "age_range": "0-28岁(前世)",
+      "appearance": {
+        "face": "俊秀聪慧",
+        "body": "少年身姿",
+        "hair": "束发",
+        "distinguishing_features": "神童气质，聪慧眼神"
+      },
+      "costume": {
+        "typical_outfit": "儒生服饰，官服",
+        "color_palette": ["青色", "白色"]
+      },
+      "casting_tags": ["神童", "孝顺", "聪慧", "名相"],
+      "visual_reference": "intelligent young Chinese scholar, wise beyond years, filial expression, traditional scholar robes, gentle demeanor",
+      "personality": "天生神童，聪慧孝顺，为父母担忧",
+      "desire": "父母和睦，治国平天下",
+      "flaw": "过于为父母操心导致积劳成疾",
+      "arc": "前世成为名相但英年早逝，是父母重生的动力",
+      "scene_presence": "回忆和梦境中出现",
+      "relationships": [
+        {"target": "高令宁", "type": "母子", "dynamic": "孝顺担忧", "function": "情感动力"},
+        {"target": "沈词", "type": "父子", "dynamic": "父子情深", "function": "情感动力"}
+      ]
+    },
+    {
+      "name": "昭昭",
+      "aliases": ["女儿", "小千金"],
+      "role": "supporting",
+      "age_range": "0-3岁",
+      "appearance": {
+        "face": "漂亮可爱",
+        "body": "幼童",
+        "hair": "小辫子",
+        "distinguishing_features": "活泼可爱"
+      },
+      "costume": {
+        "typical_outfit": "童装襦裙",
+        "color_palette": ["粉色", "红色", "彩色"]
+      },
+      "casting_tags": ["可爱", "聪慧", "活泼"],
+      "visual_reference": "adorable Chinese toddler girl, bright eyes, playful smile, colorful traditional children's clothing, lively expression",
+      "personality": "聪明活泼，喜欢花朵珠宝和读书",
+      "desire": "父母关爱",
+      "flaw": "年幼",
+      "arc": "从出生到成长，是父母新的希望",
+      "scene_presence": "中后期出现",
+      "relationships": [
+        {"target": "高令宁", "type": "母女", "dynamic": "母女情深", "function": "新生希望"},
+        {"target": "沈词", "type": "父女", "dynamic": "父女情深", "function": "情感羁绊"}
+      ]
+    },
+    {
+      "name": "高父",
+      "aliases": ["父亲", "爹爹"],
+      "role": "supporting",
+      "age_range": "40-60岁",
+      "appearance": {
+        "face": "慈祥但有威严",
+        "body": "中年发福",
+        "hair": "花白头发",
+        "distinguishing_features": "眼角皱纹，慈父形象"
+      },
+      "costume": {
+        "typical_outfit": "四品官服，便服",
+        "color_palette": ["深蓝色", "褐色"]
+      },
+      "casting_tags": ["慈父", "护女", "官员"],
+      "visual_reference": "middle-aged Chinese official, kind fatherly face, protective demeanor, traditional official robes, dignified posture",
+      "personality": "疼爱女儿，护短，有官员威严",
+      "desire": "女儿幸福平安",
+      "flaw": "前世卷入党争",
+      "arc": "从支持女儿高嫁到保护女儿对抗沈家",
+      "scene_presence": "关键场景出现",
+      "relationships": [
+        {"target": "高令宁", "type": "父女", "dynamic": "慈父护女", "function": "情感支撑"},
+        {"target": "沈词", "type": "翁婿", "dynamic": "从欣赏到失望对抗", "function": "冲突推动"}
+      ]
+    },
+    {
+      "name": "蒋晟",
+      "aliases": ["蒋公子"],
+      "role": "minor",
+      "age_range": "20-25岁",
+      "appearance": {
+        "face": "老实憨厚",
+        "body": "习武之人体格",
+        "hair": "束发",
+        "distinguishing_features": "武人气质"
+      },
+      "costume": {
+        "typical_outfit": "儒生服饰带武人气质",
+        "color_palette": ["青色", "褐色"]
+      },
+      "casting_tags": ["老实", "习武", "门生"],
+      "visual_reference": "honest young Chinese martial scholar, sturdy build, sincere expression, traditional scholar-warrior attire",
+      "personality": "老实本分，习武，对高令宁有好感",
+      "desire": "娶良妻",
+      "flaw": "被陷害卷入纠纷",
+      "arc": "从追求者到被设计成婚",
+      "scene_presence": "少量场景",
+      "relationships": [
+        {"target": "高令宁", "type": "追求者", "dynamic": "单方面好感", "function": "情节工具"},
+        {"target": "陆姝仪", "type": "夫妻", "dynamic": "被迫成婚后冷淡", "function": "情节结局"},
+        {"target": "高父", "type": "师徒", "dynamic": "师徒关系", "function": "关系纽带"}
+      ]
+    },
+    {
+      "name": "沈母",
+      "aliases": ["婆婆"],
+      "role": "supporting",
+      "age_range": "45-65岁",
+      "appearance": {
+        "face": "威严贵妇",
+        "body": "富态",
+        "hair": "贵妇发髻",
+        "distinguishing_features": "高门贵妇气质"
+      },
+      "costume": {
+        "typical_outfit": "贵妇华服",
+        "color_palette": ["深红色", "紫色", "金色"]
+      },
+      "casting_tags": ["威严", "贵妇", "偏心"],
+      "visual_reference": "dignified elderly Chinese noblewoman, authoritative presence, elaborate traditional noble attire, stern expression",
+      "personality": "高门贵妇，偏心陆姝仪，后被吓病",
+      "desire": "家族利益",
+      "flaw": "偏心导致家庭矛盾",
+      "arc": "从掌权到被吓病失权",
+      "scene_presence": "前期关键场景",
+      "relationships": [
+        {"target": "高令宁", "type": "婆媳", "dynamic": "对立冲突", "function": "矛盾制造"},
+        {"target": "沈词", "type": "母子", "dynamic": "母子关系", "function": "家庭背景"},
+        {"target": "陆姝仪", "type": "姨甥", "dynamic": "偏爱保护", "function": "冲突根源"}
+      ]
+    },
+    {
+      "name": "媒人",
+      "aliases": [],
+      "role": "minor",
+      "age_range": "40-50岁",
+      "appearance": {
+        "face": "圆润和气",
+        "body": "中等身材",
+        "hair": "妇人发髻",
+        "distinguishing_features": "职业媒婆形象"
+      },
+      "costume": {
+        "typical_outfit": "媒婆服饰",
+        "color_palette": ["红色", "花色"]
+      },
+      "casting_tags": ["媒婆", "圆滑"],
+      "visual_reference": "traditional Chinese matchmaker, round friendly face, colorful traditional attire, persuasive demeanor",
+      "personality": "圆滑世故，职业媒人",
+      "desire": "促成婚事",
+      "flaw": "无",
+      "arc": "工具人",
+      "scene_presence": "提亲场景",
+      "relationships": []
+    },
+    {
+      "name": "赘婿们",
+      "aliases": ["新夫婿"],
+      "role": "minor",
+      "age_range": "20-30岁",
+      "appearance": {
+        "face": "相貌出众",
+        "body": "年轻体健",
+        "hair": "束发",
+        "distinguishing_features": "俊朗"
+      },
+      "costume": {
+        "typical_outfit": "儒生便服",
+        "color_palette": ["青色", "白色"]
+      },
+      "casting_tags": ["俊朗", "温柔", "工具人"],
+      "visual_reference": "handsome young Chinese men, gentle expressions, scholar robes, caring demeanor",
+      "personality": "温柔体贴，照顾高令宁和昭昭",
+      "desire": "娶妻",
+      "flaw": "无",
+      "arc": "工具人刺激沈词",
+      "scene_presence": "江南后期场景",
+      "relationships": [
+        {"target": "高令宁", "type": "追求者", "dynamic": "照顾体贴", "function": "刺激沈词"},
+        {"target": "昭昭", "type": "继父候选", "dynamic": "疼爱", "function": "情节工具"}
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "order": 0,
+      "heading": "INT. 高府正堂 - 日",
+      "location": "高府正堂",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "媒人", "高父"],
+      "core_event": "媒人第一次提亲，高令宁拒绝木雁聘礼",
+      "key_dialogue": "聘礼太薄，我不满意",
+      "emotional_peak": "高令宁当众拒绝聘礼的震惊",
+      "tension_score": 0.7,
+      "estimated_duration_s": 180,
+      "key_props": ["木雁", "金银绸缎", "聘礼箱", "茶具", "桌椅", "屏风"],
+      "dramatic_purpose": "揭示重生设定，展现高令宁态度转变"
+    },
+    {
+      "scene_id": "scene_002",
+      "order": 1,
+      "heading": "INT. 高令宁闺房 - 日",
+      "location": "高令宁闺房",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "高父"],
+      "core_event": "父亲不解女儿为何刁难沈家",
+      "key_dialogue": "我一定要嫁",
+      "emotional_peak": "高令宁坚定要嫁的决心",
+      "tension_score": 0.5,
+      "estimated_duration_s": 120,
+      "key_props": ["闺房家具", "妆台", "铜镜", "绣品", "床榻"],
+      "dramatic_purpose": "展现高令宁内心动机"
+    },
+    {
+      "scene_id": "scene_003",
+      "order": 2,
+      "heading": "EXT. 医馆门外 - 日",
+      "location": "医馆门口",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词"],
+      "core_event": "沈词拦住高令宁，提出交易条件",
+      "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次",
+      "emotional_peak": "提到沈睿的痛",
+      "tension_score": 0.8,
+      "estimated_duration_s": 240,
+      "key_props": ["医馆招牌", "街道", "沈词手上的勒痕", "药包"],
+      "dramatic_purpose": "揭示双方重生和为沈睿而婚的动机"
+    },
+    {
+      "scene_id": "scene_004",
+      "order": 3,
+      "heading": "INT. 高府 - 日",
+      "location": "高府",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈府小厮"],
+      "core_event": "高令宁要求陆姝仪出嫁后才答应婚事",
+      "key_dialogue": "贵府小姐出嫁后，我才会答应这门亲事",
+      "emotional_peak": "高令宁的强硬态度",
+      "tension_score": 0.6,
+      "estimated_duration_s": 60,
+      "key_props": ["书信", "茶具", "家具"],
+      "dramatic_purpose": "高令宁设置婚姻条件"
+    },
+    {
+      "scene_id": "scene_005",
+      "order": 4,
+      "heading": "EXT. 侯爵娘子马球会场地 - 日",
+      "location": "马球会场地",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+      "core_event": "马球会上高令宁脚崴，蒋晟扶持，沈词目睹",
+      "key_dialogue": "蒋公子，我脚好像崴了",
+      "emotional_peak": "沈词看到高令宁与蒋晟亲昵的嫉妒",
+      "tension_score": 0.7,
+      "estimated_duration_s": 300,
+      "key_props": ["马球", "柳树", "风筝", "葡萄", "场地围栏", "观众席"],
+      "dramatic_purpose": "展现三角关系，沈词陆姝仪的亲密刺激高令宁"
+    },
+    {
+      "scene_id": "scene_006",
+      "order": 5,
+      "heading": "INT. 马球会休息处 - 日傍晚",
+      "location": "马球会休息室",
+      "time_of_day": "dusk",
+      "characters_present": ["高令宁", "沈词", "蒋晟", "陆姝仪", "大夫"],
+      "core_event": "陆姝仪胃病，沈词照顾；高令宁正骨后要离开",
+      "key_dialogue": "还望高姑娘，言出必行",
+      "emotional_peak": "陆姝仪跪求高令宁的楚楚可怜",
+      "tension_score": 0.8,
+      "estimated_duration_s": 360,
+      "key_props": ["药碗", "床榻", "灯火", "医药箱", "屏风"],
+      "dramatic_purpose": "矛盾激化，陆姝仪示弱，高令宁妥协"
+    },
+    {
+      "scene_id": "scene_007",
+      "order": 6,
+      "heading": "INT. 高府正堂 - 日",
+      "location": "高府正堂",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "媒人", "高父", "沈词"],
+      "core_event": "媒人第三次提亲，高父应下婚事",
+      "key_dialogue": "沈公子明日便来提亲吧",
+      "emotional_peak": "高令宁疲倦妥协",
+      "tension_score": 0.6,
+      "estimated_duration_s": 180,
+      "key_props": ["如山聘礼", "活雁", "金银珠宝", "绸缎", "茶具"],
+      "dramatic_purpose": "婚事定下"
+    },
+    {
+      "scene_id": "scene_008",
+      "order": 7,
+      "heading": "INT. 高府正堂 - 日",
+      "location": "高府正堂",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "高父"],
+      "core_event": "父亲担忧女儿嫁入高门，高令宁安慰父亲",
+      "key_dialogue": "父亲只当女儿去沈家暂住一段时间，早晚要回来的",
+      "emotional_peak": "父女温情",
+      "tension_score": 0.4,
+      "estimated_duration_s": 120,
+      "key_props": ["聘礼", "茶具", "家具"],
+      "dramatic_purpose": "展现父女情深，埋下和离伏笔"
+    },
+    {
+      "scene_id": "scene_009",
+      "order": 8,
+      "heading": "INT. 沈府婚房 - 夜",
+      "location": "沈府新房",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词"],
+      "core_event": "新婚之夜，高令宁心不在焉，沈词云雨",
+      "key_dialogue": "再快点吧，我困了",
+      "emotional_peak": "高令宁的冷淡和沈词的不甘",
+      "tension_score": 0.7,
+      "estimated_duration_s": 600,
+      "key_props": ["红盖头", "喜床", "红烛", "喜字", "丝带", "水盆"],
+      "dramatic_purpose": "展现婚姻的冷漠本质"
+    },
+    {
+      "scene_id": "scene_010",
+      "order": 9,
+      "heading": "INT. 沈府婚房 - 夜深",
+      "location": "沈府新房",
+      "time_of_day": "night",
+      "characters_present": ["高令宁", "沈词", "陆姝仪婢女"],
+      "core_event": "陆姝仪婢女来报小姐心口痛，高令宁让沈词去",
+      "key_dialogue": "你去吧。也不必回来了",
+      "emotional_peak": "高令宁的决绝",
+      "tension_score": 0.6,
+      "estimated_duration_s": 120,
+      "key_props": ["房门", "被子", "烛火"],
+      "dramatic_purpose": "展现高令宁不再争夺的态度"
+    },
+    {
+      "scene_id": "scene_011",
+      "order": 10,
+      "heading": "INT. 沈府 - 日",
+      "location": "沈府",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "陆姝仪", "沈母"],
+      "core_event": "沈词为陆姝仪择婿焦头烂额，高令宁建议纳她为妾",
+      "key_dialogue": "若你实在心疼，不如便将她纳进来吧",
+      "emotional_peak": "沈词的震惊和不解",
+      "tension_score": 0.7,
+      "estimated_duration_s": 240,
+      "key_props": ["扇子", "茶具", "家具", "书信"],
+      "dramatic_purpose": "高令宁放下执念"
+    },
+    {
+      "scene_id": "scene_012",
+      "order": 11,
+      "heading": "INT. 沈府高令宁房间 - 日",
+      "location": "高令宁房间",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "沈词", "太医"],
+      "core_event": "高令宁怀孕，太医诊断是男孩",
+      "key_dialogue": "我做完月子便走，不会纠缠",
+      "emotional_peak": "沈词的不可置信",
+      "tension_score": 0.8,
+      "estimated_duration_s": 180,
+      "key_props": ["虎头帽", "针线", "脉枕", "药箱"],
+      "dramatic_purpose": "怀孕但坚持和离"
+    },
+    {
+      "scene_id": "scene_013",
+      "order": 12,
+      "heading": "INT. 高府 - 日",
+      "location": "高府",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "高父", "沈词"],
+      "core_event": "高令宁养胎回娘家，沈词每日来探望",
+      "key_dialogue": "其实上一世，我有许多对不住你的地方",
+      "emotional_peak": "沈词的愧疚和温柔",
+      "tension_score": 0.5,
+      "estimated_duration_s": 300,
+      "key_props": ["葡萄", "廊下座椅", "珍贵玩意", "茶具"],
+      "dramatic_purpose": "沈词开始反思和改变"
+    },
+    {
+      "scene_id": "scene_014",
+      "order": 13,
+      "heading": "INT. 高府 - 日",
+      "location": "高府",
+      "time_of_day": "day",
+      "characters_present": ["高令宁", "高父", "陆姝仪", "小厮"],
+      "core_event": "陆姝仪来访，高令宁拒见，陆姝仪失踪",
+      "key_dialogue": "我不想见客",
+      "emotional_peak": "陆姝仪失踪的紧张",
+      "tension_score": 0.9,
+      "estimated_duration_s": 240,
+      "key_props": ["门房", "厢房", "家具", "茶具"],
+      "dramatic_purpose": "陷害事件前奏"
+    },
+    {
+      "scene_id": "scene_015",
+      "order": 14,
+      "heading": "INT. 高府厢房 - 傍晚",
+      "location": "高府

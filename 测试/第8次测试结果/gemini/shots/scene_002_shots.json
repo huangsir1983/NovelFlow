@@ -1,0 +1,112 @@
+[
+  {
+    "id": "shot_0021",
+    "scene_id": "scene_002",
+    "shot_number": 1,
+    "goal": "建立压抑的物理空间与人物动态反差，交代父亲的焦躁与高姑娘的异常沉静",
+    "composition": "高对比度冷调光影。高姑娘端坐于画面右侧前景（背脊挺直，处于暗部），父亲在画面左侧中景处来回踱步。雕花木窗的阴影如栅栏般投射在地面和墙壁上，形成视觉切割与囚笼感。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "传递逼仄、焦灼的幽闭感与山雨欲来的压抑情绪",
+    "duration_hint": "4-5s",
+    "characters": [
+      "父亲",
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 21
+  },
+  {
+    "id": "shot_0022",
+    "scene_id": "scene_002",
+    "shot_number": 2,
+    "goal": "展现父亲的不解与愤怒，通过台词输出建立外部压力",
+    "composition": "父亲位于画面中央，随着他的踱步，背景的明暗交界线不断切割他的身体。他眉头紧锁，双手在背后焦躁地搓动。视觉引导线集中在他因急躁而微蹙的眉眼和法令纹上。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到父亲市侩面具下的慌乱与对未知的恐惧",
+    "duration_hint": "3-4s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 22
+  },
+  {
+    "id": "shot_0023",
+    "scene_id": "scene_002",
+    "shot_number": 3,
+    "goal": "揭示高姑娘极度克制下的心理波动，形成表里不一的悬疑感",
+    "composition": "特写高姑娘置于膝上的双手。冷银色光线下，她苍白的手指正无意识地死死绞缠着墨绿色织金锦缎的衣角，骨节泛白，与她上半身的端庄形成强烈撕裂感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "引发观众对她内心隐秘创伤的好奇与不安",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.5,
+    "order": 23
+  },
+  {
+    "id": "shot_0024",
+    "scene_id": "scene_002",
+    "shot_number": 4,
+    "goal": "父亲施加最终的质问压力，将冲突推向高点",
+    "composition": "过肩镜头（带高姑娘右肩前景）。父亲突然停止踱步，身体前倾逼近镜头，脸部进入一束锐利的冷光中，质问：“怎么今日给他下这么大个脸？”",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "强化逼问的压迫感，代入女主视角的被审视感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "父亲",
+      "高姑娘"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 24
+  },
+  {
+    "id": "shot_0025",
+    "scene_id": "scene_002",
+    "shot_number": 5,
+    "goal": "展现高姑娘面对质问的非正常反应，确立其清醒又冷酷的大女主基调",
+    "composition": "正面中特写。窗棂的阴影如刀刃般斜切过她清冷的脸庞（Chiaroscuro明暗对照）。她双唇紧闭，嘴角勾起一抹极淡的讥诮冷笑，眼神深邃且毫无温度。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传递令人胆寒的理智与上位者的蔑视感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.7,
+    "order": 25
+  },
+  {
+    "id": "shot_0026",
+    "scene_id": "scene_002",
+    "shot_number": 6,
+    "goal": "完成从现实到前世记忆的心理与视觉过渡",
+    "composition": "极特写高姑娘的眼睛。瞳孔在冷蓝色调中逐渐失去焦点，画面边缘开始渗透出扭曲、过曝的暗红色/暖金光晕，侵蚀原本的冷调现实，暗示创伤记忆的涌入。",
+    "camera_movement": "dolly",
+    "framing": "ECU",
+    "emotion_target": "制造眩晕感与心理惊悚，将观众强行拉入她的噩梦深渊",
+    "duration_hint": "3s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.9,
+    "order": 26
+  }
+]

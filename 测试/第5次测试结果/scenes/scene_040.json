@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_040",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:36:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高父",
+      "沈母"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家前厅 - 日",
+    "location": "高家前厅",
+    "time_of_day": "day",
+    "description": "前厅开阔规整，层高较高，白日天光从厅门和侧窗照入，正面光清晰，空间带有待客与对峙的礼制感。主位与客位分明，厅中案几、椅榻整齐。高父坐镇上首，气场强硬。沈母上门交涉，厅内氛围冷肃，像随时会撕破体面。",
+    "action": "沈母带人登门，试图为接回昭昭争取转圜。高父端坐不动，不让人通传后院。说到沈词与陆姝仪暧昧之事时，他抬手重重按在桌案上，语气陡厉，逼得厅内气压骤降。沈母神情僵住，强撑体面，几次欲辩又止。高父寸步不让，直接划定底线：和离、孩子归高家、再纠缠便上公堂。沈母最终只能敛容退让。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "你们沈家还有脸来接孩子？",
+        "subtext": "他先声夺人，拒绝任何情面周旋。"
+      },
+      {
+        "character": "高父",
+        "line": "沈词与义妹暧昧不清，险些害得我女儿一尸两命。",
+        "subtext": "他把道德与生死账一并摆上台面，堵死沈家的辩解空间。"
+      },
+      {
+        "character": "高父",
+        "line": "和离之后，昭昭归我高家。你们若再纠缠，便对簿公堂。",
+        "subtext": "他正式宣告高家的法律与家族立场。"
+      }
+    ],
+    "characters_present": [
+      "高父",
+      "沈母"
+    ],
+    "key_props": [
+      "桌案",
+      "座椅",
+      "茶盏"
+    ],
+    "dramatic_purpose": "确立高家对孩子抚养权与和离的强硬态度，切断沈家通过长辈施压夺回昭昭的路径。",
+    "tension_score": 0.74,
+    "order": 40
+  }
+}

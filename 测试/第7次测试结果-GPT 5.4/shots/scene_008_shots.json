@@ -1,0 +1,225 @@
+[
+  {
+    "id": "shot_0112",
+    "scene_id": "scene_008",
+    "shot_number": 1,
+    "goal": "建立会客处的半封闭礼制空间与表面平静、暗里压抑的气氛，同时交代两人分坐两侧、彼此保持距离的关系格局。",
+    "composition": "FS对称构图。桌案置于画面中轴，茶盏与未动点心清楚可见。高令宁坐画面左侧偏后，陆姝仪坐画面右侧偏后，二人之间留出明显空隙。前景以门框形成轻微遮挡，背景为窗棂投下的午后斜光与屏风，纵深被礼法式空间切割。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到安静过度、因此不安，预感这场会面将留下后患。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 112
+  },
+  {
+    "id": "shot_0113",
+    "scene_id": "scene_008",
+    "shot_number": 2,
+    "goal": "以女主感知优先，突出陆姝仪状态异常：看似安静端坐，实际心神不宁。",
+    "composition": "MS偏主观视角拍陆姝仪，人物位于画面右三分之一，左侧保留桌案和一只茶盏入画作关系提示。前景虚化一角为高令宁肩线，背景窗棂光斜落在陆姝仪衣袖与脸侧，显出苍白与恍惚。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众先于事实感知陆姝仪的不对劲，产生悬疑性的警觉。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 113
+  },
+  {
+    "id": "shot_0114",
+    "scene_id": "scene_008",
+    "shot_number": 3,
+    "goal": "将异常落到具体动作上：陆姝仪指尖摩挲茶盏边缘，暗示迟疑、焦躁与难言之事。",
+    "composition": "CU手部特写。茶盏置于画面下中部，陆姝仪纤细手指沿杯沿缓慢摩挲，占据视觉中心。前景虚化一点点心边角，背景为桌案木纹与投下的窗格影，线条收束到手指动作。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众从细节里感到她的紧绷与脆弱，强化不祥预感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 114
+  },
+  {
+    "id": "shot_0115",
+    "scene_id": "scene_008",
+    "shot_number": 4,
+    "goal": "给出高令宁的观察与克制，建立她并非被动在场，而是在谨慎判断陆姝仪的异常。",
+    "composition": "MCU高令宁正三分之二侧脸，人物位于画面左侧，视线指向右侧画外的陆姝仪。前景保留桌案边缘与半只茶盏，背景是较暗的屏风面，衬出她冷白面色与压住情绪的眼神。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到女主的清醒、戒备与不动声色的审视。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 115
+  },
+  {
+    "id": "shot_0116",
+    "scene_id": "scene_008",
+    "shot_number": 5,
+    "goal": "建立两人对坐中的试探性交流氛围，即便无明确台词，也要传达谈话已发生且无一方真正放松。",
+    "composition": "MLS双人斜侧构图，遵守180度轴线。高令宁仍在画面左，陆姝仪在画面右，桌案横亘其中。前景以垂落帘角轻遮，背景窗棂光将两人分隔成两块明暗区域，强调礼貌距离与情感断层。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众感到对话并未拉近关系，反而把沉默压得更重。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 116
+  },
+  {
+    "id": "shot_0117",
+    "scene_id": "scene_008",
+    "shot_number": 6,
+    "goal": "捕捉陆姝仪目光游移与恍惚失焦，进一步埋下她之后出事的心理与生理先兆。",
+    "composition": "CU陆姝仪面部特写，人物位于画面右中部，眼神不落在对手身上而轻轻偏离。背景大面积虚化，只留窗棂高光碎片；下方微露她苍白唇色与轻抿动作，强化易碎感。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感觉她像在强撑，既可怜又危险，仿佛下一刻就会失控或崩塌。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 117
+  },
+  {
+    "id": "shot_0118",
+    "scene_id": "scene_008",
+    "shot_number": 7,
+    "goal": "通过高令宁细微抬眼的反应，说明她已经察觉陆姝仪的不稳定，并在心中留下疑点。",
+    "composition": "CU高令宁眼部与上半张脸为主，人物置于画面左侧，视线向右上轻抬。前景虚化一条桌案边线，背景为暗色屏风，令眼神变化更清晰。镜头保留少量颈侧线条，隐约带出她危险而自持的气质。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众跟随女主一起‘看见问题’，但仍无法确认问题是什么。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 118
+  },
+  {
+    "id": "shot_0119",
+    "scene_id": "scene_008",
+    "shot_number": 8,
+    "goal": "用关键道具强化表面礼数下的停滞与违和：茶点完整未动，说明这场会面从始至终没有真正安定下来。",
+    "composition": "MS桌案静物镜头。茶盏两只分别位于画面左右前景，中央点心完整无缺。背景虚焦中可见两人衣摆与坐姿轮廓，一左一右互不靠近。窗棂影像栅栏一样压在桌面上。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到这不是普通寒暄，而是一场被礼数包住的异常会面。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 119
+  },
+  {
+    "id": "shot_0120",
+    "scene_id": "scene_008",
+    "shot_number": 9,
+    "goal": "推动动作转折：陆姝仪结束交谈起身，令场内气氛由压抑转向即将失去控制的空落。",
+    "composition": "MS保持原轴线。陆姝仪从画面右侧坐位起身，身形略晃，占据右中区域；高令宁仍坐在左侧不动，只以视线追随。桌案作为中间屏障不变，突出一动一静。背景门口方向留出空间，预示离场路线。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "让观众感到突然、失礼又无法挽留，紧张度上扬。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 120
+  },
+  {
+    "id": "shot_0121",
+    "scene_id": "scene_008",
+    "shot_number": 10,
+    "goal": "强调陆姝仪离开的脆弱姿态，将她塑造成‘最后一次见面中的易碎背影’。",
+    "composition": "MLS侧后方跟门口方向。陆姝仪自画面右向右前方出画，裙摆掠过门槛，占画面中心偏右。前景为门框暗部，背景是外部更亮的走廊光，形成剪影式对比。高令宁留在景深后方左侧，模糊但仍可辨认坐姿未动。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众产生一种来不及阻止的惶然与宿命感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 121
+  },
+  {
+    "id": "shot_0122",
+    "scene_id": "scene_008",
+    "shot_number": 11,
+    "goal": "以女主主观凝视收住离场瞬间，制造‘她看见了最后的异常，但尚不知其后果’的悬疑效果。",
+    "composition": "MS偏主观望向门口。门框位于画面右侧形成强烈边界，陆姝仪背影已接近出画，仅余单薄身形与轻摆衣角。前景左侧虚化一点高令宁肩线，背景走廊光过亮，吞没人物细节，形成不祥空白。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到一种被记住的离去，这个背影将成为之后误解的起点。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 122
+  },
+  {
+    "id": "shot_0123",
+    "scene_id": "scene_008",
+    "shot_number": 12,
+    "goal": "落在高令宁被留在原地的反应上，完成因果钩子：她既未追，也无法释怀，这将成为后续指控中的情绪证据。",
+    "composition": "MCU高令宁独留画面左中部，身体仍端坐，头微偏向右侧门口方向，神情凝住。前景桌案与未动茶盏形成冷硬横线，背景门口区域留出大片空位，像被突然抽空。窗棂光只落在她半张脸上，另一半沉入阴影。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到克制中的寒意与后知后觉的不安，留下悬而未决的余波。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.56,
+    "order": 123
+  }
+]

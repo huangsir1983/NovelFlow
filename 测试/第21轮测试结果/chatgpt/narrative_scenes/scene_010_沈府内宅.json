@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府厅堂 - DAY",
+  "location": "沈府内宅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "沈家为陆姝仪相看婚事，沈词百般不满意。高令宁忽然主动献计，建议假死后私纳陆姝仪，自己和离腾位，表示已厌倦报复。",
+  "key_dialogue": "「等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。」",
+  "emotional_peak": "高令宁首次真正说出放手，反而让沈词的否认与嘴硬显得更失控。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "团扇",
+    "婚配名单",
+    "衣袖"
+  ],
+  "dramatic_purpose": "推动女主从报复转向抽身，也埋下男主开始动摇的征兆。",
+  "source_text_start": "沈词开始给陆姝仪择婿。\n那些青年，他总嫌薄了陆",
+  "source_text_end": "怔了下，我摇头。\n并不懂他此刻嘴硬的用意。"
+}

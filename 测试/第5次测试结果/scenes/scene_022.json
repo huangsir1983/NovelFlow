@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_022",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "INT. 塌前 - DAY",
+    "location": "病塌前",
+    "time_of_day": "day",
+    "description": "同处室内但焦点转向塌前，空间更私密压缩。塌边垂着帐幔，案几上摆着药碗、汤匙、帕子。侧窗的天光落在陆姝仪苍白的脸上，形成柔弱病容。周遭静下来，只剩喂药与低声安抚的动作。",
+    "action": "陆姝仪半卧在塌上，手按胃腹，眉心紧蹙，呼吸发虚。沈词亲自端药坐近，试过温度后递到她唇边，另一手扶住她肩背，让她慢慢咽下，又用帕子替她拭去唇边药痕。他俯身低语，动作熟稔自然。高令宁在一旁或稍远处看见这一幕，目光停住，原本因疼痛紧绷的神色慢慢冷下来，手从衣角滑落，不再发问，也不再期待。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "慢些，先把药喝了。",
+        "subtext": "他对陆姝仪的照料已超出寻常客套，是不加掩饰的偏护与亲近。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "药碗",
+      "汤匙",
+      "手帕",
+      "病塌",
+      "帐幔"
+    ],
+    "dramatic_purpose": "以可见的亲昵照料坐实沈词对陆姝仪的偏向，促成高令宁彻底心冷并决定离开。",
+    "tension_score": 0.58,
+    "order": 22
+  }
+}

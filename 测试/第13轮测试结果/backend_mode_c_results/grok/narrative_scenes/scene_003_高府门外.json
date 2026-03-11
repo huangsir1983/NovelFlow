@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_003",
+  "order": 4,
+  "heading": "INT. 高府门外 - 日",
+  "location": "高府门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦路谈睿儿，双方约定处理陆姝仪后和离",
+  "key_dialogue": "但是，你要先处理好那位表小姐。",
+  "emotional_peak": "恨意四目相对",
+  "tension_score": 0.8,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "药包",
+    "大雁勒痕"
+  ],
+  "dramatic_purpose": "确立今生婚姻交易与孩子牵绊",
+  "source_text_start": "却在门旁看到了等待已久的沈词。",
+  "source_text_end": "四目相对，只剩恨意。我冷哼一声，转身离开。"
+}

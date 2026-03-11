@@ -1,0 +1,140 @@
+{
+  "bindings": [
+    {
+      "beat_id": "beat_000",
+      "beat_title": "登门提亲",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000提供了提亲的物理空间（高府正堂）和关键道具（木雁、聘礼），承载了提亲事件的发生与重生基调的奠定。"
+    },
+    {
+      "beat_id": "beat_001",
+      "beat_title": "洞察重生",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000的戏剧目的包含“建立双重重生的核心设定”，女主通过观察场景中的木雁细节完成了这一信息揭示。"
+    },
+    {
+      "beat_id": "beat_002",
+      "beat_title": "拒收木雁",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000明确提到“通过退回木雁这一反常举动，主动打破前世的温顺人设”，与该动作节拍完美咬合。"
+    },
+    {
+      "beat_id": "beat_003",
+      "beat_title": "震怒相劝",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000中父亲在场且场景包含敌对张力，承载了女主拒收木雁后引发的父亲震怒与媒人相劝的外部冲突。"
+    },
+    {
+      "beat_id": "beat_004",
+      "beat_title": "伪装贪慕",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000的戏剧目的“试探并确认了沈词的重生身份”正是通过女主伪装贪慕、正面挑衅男主的对话节拍来实现的。"
+    },
+    {
+      "beat_id": "beat_005",
+      "beat_title": "隐忍加码",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "scene_000中沈词“微微低垂着眼眸”的隐忍姿态，承载了其拒绝退婚并反向加码的悬念构建。"
+    },
+    {
+      "beat_id": "beat_006",
+      "beat_title": "退避密谈",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "scene_002的内室空间和“气氛焦灼压抑”的描述，完美匹配了父女退避密谈、节奏放缓的过渡节拍。"
+    },
+    {
+      "beat_id": "beat_007",
+      "beat_title": "回忆梦魇",
+      "scene_ids": [
+        "scene_003"
+      ],
+      "binding_reason": "scene_003作为闪回场景（FLASHBACK），其柔光滤镜与美好失真感，视觉化呈现了前世美梦与今生噩梦的情感落差，专门承载此回忆节拍。"
+    },
+    {
+      "beat_id": "beat_008",
+      "beat_title": "坦白泄愤",
+      "scene_ids": [
+        "scene_004"
+      ],
+      "binding_reason": "scene_004中“半张脸隐在阴影中”的危险氛围，契合了女主向父亲坦白复仇动机、完成心态转变的戏剧功能。"
+    },
+    {
+      "beat_id": "beat_009",
+      "beat_title": "执意高嫁",
+      "scene_ids": [
+        "scene_004"
+      ],
+      "binding_reason": "scene_004的核心戏剧目的是“明确高姑娘的戏剧目标（风光大嫁）”，与执意高嫁、要求十里红妆的动作节拍完全一致。"
+    },
+    {
+      "beat_id": "beat_014",
+      "beat_title": "确诊男胎",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001中“床头小几上放着大夫的脉枕”这一视觉细节，暗示了确诊男胎的事件，是触发该场景后续摊牌冲突的引子。"
+    },
+    {
+      "beat_id": "beat_015",
+      "beat_title": "卸下伪装",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001中“两人之间隔着明显的物理与心理距离”及冷清的陈设，视觉化呈现了男主确诊男胎后卸下伪装的冷漠态度。"
+    },
+    {
+      "beat_id": "beat_017",
+      "beat_title": "毁约逼迫",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001的核心戏剧目的是“打破沈词对维持现状的理所当然”，承载了男主企图作废和离约定、困住女主的对话节拍。"
+    },
+    {
+      "beat_id": "beat_018",
+      "beat_title": "沉默深思",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001封闭冷清的卧房氛围烘托了女主面对逼迫时的短暂沉默与内心审视，为后续爆发蓄力。"
+    },
+    {
+      "beat_id": "beat_019",
+      "beat_title": "决绝拒议",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001中“女主坚决和离的举动”直接对应了决绝拒议、打破宿命枷锁的动作节拍。"
+    },
+    {
+      "beat_id": "beat_020",
+      "beat_title": "质问对峙",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001中“确立全剧的核心矛盾”的戏剧目的，通过男女主关于和离的质问与对峙得以实现。"
+    },
+    {
+      "beat_id": "beat_021",
+      "beat_title": "斩断羁绊",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "scene_001“确立女主独立的情感走向”的戏剧目的，与斩断羁绊、画面定格在独立姿态的过渡节拍完美契合。"
+    }
+  ]
+}

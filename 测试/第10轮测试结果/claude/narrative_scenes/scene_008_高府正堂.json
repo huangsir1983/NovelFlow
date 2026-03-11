@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "父亲担忧女儿嫁入高门，高令宁安慰父亲",
+  "key_dialogue": "父亲只当女儿去沈家暂住一段时间，早晚要回来的",
+  "emotional_peak": "父女温情",
+  "tension_score": 0.4,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "聘礼",
+    "茶具",
+    "家具"
+  ],
+  "dramatic_purpose": "展现父女情深，埋下和离伏笔"
+}

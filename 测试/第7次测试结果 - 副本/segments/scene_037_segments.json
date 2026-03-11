@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0160",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0559",
+      "shot_0560",
+      "shot_0561"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属父女对坐的建立阶段，角色集合稳定，无时空变化；情绪从礼制空间建立到父亲温和规劝，再落到女主克制反应，构成一段完整的‘体面铺陈’弧线，适合合并为开场段。",
+    "order": 160
+  },
+  {
+    "id": "seg_0161",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0562",
+      "shot_0563",
+      "shot_0564"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段集中表现情绪第一次转折：女主身体细节先于语言暴露抗拒，父亲继续完成现实逻辑闭环，最后女主抬眼准备试探。三镜头因果紧密、动作连续，形成完整蓄压段。",
+    "order": 161
+  },
+  {
+    "id": "seg_0162",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0565",
+      "shot_0566",
+      "shot_0567"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组shot构成完整对峙段：女主发问、父亲未接住真正求助、并以经验论彻底坐实立场。角色关系不变，但情感弧线从试探转为被压回，适合合并为核心冲突段。",
+    "order": 162
+  },
+  {
+    "id": "seg_0163",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0568",
+      "shot_0569",
+      "shot_0570"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜完成单场冷收尾：女主意识到父亲已站在‘这般过下去’的一边，于是收回辩解、低头封口，再以静物空景留下更深的不被理解。情绪走向统一且递减，适合合并为结尾段。",
+    "order": 163
+  }
+]

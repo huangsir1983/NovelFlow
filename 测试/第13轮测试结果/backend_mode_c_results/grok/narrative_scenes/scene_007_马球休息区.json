@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 马球休息区 - 日",
+  "location": "马球休息区",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "脚伤后沈词拽住要抱，高令宁拒绝肌肤之亲",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "沈词讥讽冷笑",
+  "tension_score": 0.7,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "药碗"
+  ],
+  "dramatic_purpose": "夫妻前世亲密回忆引发张力",
+  "source_text_start": "路过沈词时。他冷淡地拽住我：「你脚肿了，我抱你回去。」",
+  "source_text_end": "「装什么装？」「你身上哪里，我没碰过？」"
+}

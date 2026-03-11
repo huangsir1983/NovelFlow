@@ -1,0 +1,31 @@
+{
+  "variant_id": "zhaozhao_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "昭昭 — 雪院玩耍期",
+  "tags": [
+    "冬日",
+    "玩雪",
+    "活泼外放",
+    "情感冲突见证者"
+  ],
+  "scene_ids": [
+    "scene_029"
+  ],
+  "trigger": "江南雪后庭院中，昭昭与几位赘婿候选人一起玩雪，甚至有雪球砸中沈词，呈现她最外放活跃的一面。",
+  "appearance_delta": {
+    "face": "小脸被冷空气映得更红润，神情兴奋，眼神明亮外放",
+    "body": "动作感最强，跑跳、捏雪球、在雪地中穿行，显得格外灵活",
+    "hair": "小髻或垂发在冬日帽饰、披风领口映衬下更蓬松，可有轻微散乱感",
+    "distinguishing_features": "从安静受护的幼女转为主动参与庭院游戏的小孩，童真与机灵感最鲜明"
+  },
+  "costume_override": {
+    "outfit": "冬日幼女披风或夹袄外搭保暖小斗篷，内穿彩色小裙，适合雪地玩耍",
+    "color_palette": [
+      "绯红",
+      "鹅黄",
+      "雪白"
+    ]
+  },
+  "visual_reference": "ancient chinese little girl playing in a snowy Jiangnan courtyard, bright intelligent eyes, rosy cheeks, soft black hair in tiny buns, wearing a warm embroidered winter cape over colorful hanfu, holding a small snowball and child shovel, lively, playful, noble family child, snowman and courtyard gate in background, realistic cinematic style, crisp winter daylight",
+  "emotional_tone": "欢闹、天真、轻快中带戏剧张力"
+}

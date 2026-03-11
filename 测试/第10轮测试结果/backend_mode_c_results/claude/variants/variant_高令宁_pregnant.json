@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 孕期",
+  "tags": [
+    "怀孕",
+    "母性",
+    "坚持"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012"
+  ],
+  "trigger": "怀孕期间，在沈府或高府养胎",
+  "appearance_delta": {
+    "face": "面容柔和但依然坚定",
+    "body": "腹部隆起，动作小心",
+    "hair": "简单发髻，少装饰",
+    "distinguishing_features": "手抚腹部，眼神温柔但对沈词依然冷淡"
+  },
+  "costume_override": {
+    "outfit": "宽松襦裙，适合孕妇的舒适服饰",
+    "color_palette": [
+      "淡粉",
+      "月白",
+      "浅蓝"
+    ]
+  },
+  "visual_reference": "pregnant Chinese woman in loose hanfu, gentle hand on belly, simple hair bun, soft pink and white robes, tender eyes looking down at belly but cold expression when facing others, sitting in courtyard with grapes nearby, maternal glow mixed with detachment, ancient Chinese setting, warm natural light, cinematic composition",
+  "emotional_tone": "母性温柔与冷漠并存，坚持和离"
+}

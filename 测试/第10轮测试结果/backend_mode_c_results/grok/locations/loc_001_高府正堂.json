@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_001",
+  "name": "高府正堂",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸正厅",
+  "description": "宽敞高大的正堂大厅，对称布局，中央放置大型红木八仙桌及太师椅，两侧设有客椅和雕花屏风分隔空间。梁柱饰以精美木  雕和彩绘，墙壁悬挂名人字画与对联，后方有祖先牌位供桌。地面青砖铺设，空间庄严正式，体现官宦家族权威。媒人聘书卷轴、木雁雕像聘礼、金银绸缎箱笼置于中央红木桌椅旁，茶盏果盘备于侧案。",
+  "visual_reference": "Grand and solemn main reception hall interior of a late Ming dynasty Chinese official mansion, high ceilings with carved wooden beams and pillars, central large hongmu rosewood square table and official armchairs symmetrically placed, ornate carved folding screen dividing space, calligraphy scrolls and paintings on walls, ancestral altar at back, blue-gray brick floor, lattice windows with soft daylight, traditional Ming architecture, elegant minimalist furniture, highly detailed, cinematic atmosphere",
+  "atmosphere": "庄严肃穆、正式紧张",
+  "color_palette": [
+    "深红褐",
+    "金黄",
+    "墨黑",
+    "青灰"
+  ],
+  "lighting": "柔和自然日光透过花格窗洒入，营造明亮庄重的氛围",
+  "key_features": [
+    "红木八仙桌椅",
+    "雕花屏风",
+    "名人字画挂轴"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "正式提亲的紧张到当场拒绝的震惊对峙"
+}

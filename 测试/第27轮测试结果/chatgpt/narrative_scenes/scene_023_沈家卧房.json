@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_023",
+  "order": 22,
+  "heading": "INT. 沈家卧房 - day",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "面对怀孕，我重申做完月子便和离，并说自己以后不会再恨他，沈词反而被这份释然刺痛。",
+  "key_dialogue": "你放心，我想开了，以后都不会恨你了。",
+  "emotional_peak": "女主放下，男主失控",
+  "tension_score": 0.87,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "虎头帽",
+    "丝线"
+  ],
+  "dramatic_purpose": "揭露沈词情感开始偏移——他已不再满足于生子契约。",
+  "visual_reference": "男子从背后抱住怀孕女子，试图亲近却被轻轻避开；她咬断丝线平静说出和离打算，他神色骤冷，室内春光明亮却气氛突变，古风细腻情绪戏",
+  "visual_prompt_negative": "避免甜蜜拥抱定格、避免宫斗夸张神情、避免现代婴儿房、避免布景杂乱",
+  "source_text_start": "沈词踏进屋时，我正在绣婴儿穿的虎头帽。",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "shot_0141",
+    "scene_id": "scene_010",
+    "shot_number": 1,
+    "goal": "建立沈府内宅夜晚的封闭压抑环境，明确这是高令宁独处且被规制空间包围的当下。",
+    "composition": "FS，门框外侧取景，门框作为前景压景，占画面左右两侧形成视觉囚笼；高令宁位于画面偏右三分之一，独坐桌案旁，背后床榻与妆台规整分布在背景，画面中央偏左仅一支烛台发出昏弱琥珀光，大面积灰暗留白压住上方空间。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到冷清、压抑与被礼法困住的窒息感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.45,
+    "order": 141
+  },
+  {
+    "id": "shot_0142",
+    "scene_id": "scene_010",
+    "shot_number": 2,
+    "goal": "将注意力从空间压迫收束到高令宁的身体状态，传达她表面静止、内里绷紧。",
+    "composition": "MLS，机位推进到室内同侧，不越轴；高令宁仍位于画面右侧坐姿侧背，肩背线条笔直，桌案横向切过下三分之一；前景左侧虚化烛火，背景床榻和屏风隐在暗处，形成由烛火引向她背脊的视觉线。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众感知她的自持不是平静，而是强行压住的紧绷。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.35,
+    "order": 142
+  },
+  {
+    "id": "shot_0143",
+    "scene_id": "scene_010",
+    "shot_number": 3,
+    "goal": "用细节提示长期积怨已经进入身体反应，建立情绪并非临时起意。",
+    "composition": "CU，取高令宁放在膝上的手与衣袖，手位于画面中央偏下，指尖攥皱丝料；衣料褶皱向内收缩形成张力线，烛光从左前侧掠过，袖口与手背的冷白反差明显，背景完全压暗。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起观众对克制之下疼痛与隐怒的敏感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.2,
+    "order": 143
+  },
+  {
+    "id": "shot_0144",
+    "scene_id": "scene_010",
+    "shot_number": 4,
+    "goal": "把烛火作为情绪媒介，暗示她的记忆将被点燃但仍被压在沉默里。",
+    "composition": "CU，烛台置于画面左前景实焦，火焰微晃；高令宁的侧脸处于右后景半实半虚，火光切出她鼻梁与下颌线，背景黑场吞没其余陈设，光影把她与房间切割开。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造将要刺入旧忆前的悬滞与幽冷感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": -0.1,
+    "order": 144
+  },
+  {
+    "id": "shot_0145",
+    "scene_id": "scene_010",
+    "shot_number": 5,
+    "goal": "进入有限主观的回忆触发态，传达她眼中多年婚姻屈辱的残影开始浮现。",
+    "composition": "MCU，正侧45度近距离拍高令宁面部，人物位于画面右侧，左侧留白给黑暗；眼神微向下，睫影压在眼下，脖颈淡痕在侧逆光里若隐若现，背景失焦成低亮度暗块，保留一丝红褐色旧木与烛光污染。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众贴近她的内心，感到怨与屈辱正在无声回潮。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 145
+  },
+  {
+    "id": "shot_0146",
+    "scene_id": "scene_010",
+    "shot_number": 6,
+    "goal": "以眼部细节承接回忆压力，明确她不是恍惚，而是在主动压制翻涌情绪。",
+    "composition": "CU，双眼占画面上半部中央，眉骨与眼尾线条锐利；光从左侧掠过，瞳仁深暗，眼下阴影加重，背景完全虚化，仅保留一丝烛火暖色散斑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "强化观众对她冷意与恨意的直观感受。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.18,
+    "order": 146
+  },
+  {
+    "id": "shot_0147",
+    "scene_id": "scene_010",
+    "shot_number": 7,
+    "goal": "用动作微变化表现她从回望旧伤到重新收束自己的过程。",
+    "composition": "MCU，延续同轴线不越线；高令宁面部位于画面中央偏右，眼神缓慢抬起后停住，身后暗处的床榻横线压在她肩后，前景左下方虚化烛光形成斜向引导，突出抬眼动作。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她短暂露出锋刃，情绪有抬头的危险。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 147
+  },
+  {
+    "id": "shot_0148",
+    "scene_id": "scene_010",
+    "shot_number": 8,
+    "goal": "呈现她再次压下情绪的动作，说明她的核心状态是隐忍而非宣泄。",
+    "composition": "CU，镜头落到她的嘴角与下颌，嘴角绷紧占画面右下，唇线发白；左侧前景是失焦衣领与一缕发丝，背景无信息，光影集中在紧绷的口部肌肉。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感受到咬住不发作的疼与狠。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 148
+  },
+  {
+    "id": "shot_0149",
+    "scene_id": "scene_010",
+    "shot_number": 9,
+    "goal": "把人物与室内支点重新放在一个画面里，确认旧怨并未过去，而是沉积在她此刻所处的婚姻空间中。",
+    "composition": "MS，侧面构图；高令宁坐于画面右侧，桌案与烛台在中景左侧，床榻在后景右后方，妆台在深背景左后方，三处陈设构成三角结构包围她；她微微垂眼，身体仍未放松，上方屋梁阴影压低天花空间。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到她被这段婚姻和宅院共同困住，怨恨无处宣泄。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 149
+  },
+  {
+    "id": "shot_0150",
+    "scene_id": "scene_010",
+    "shot_number": 10,
+    "goal": "以冷收尾，奠定全章回忆视角与夫妻旧怨的底色，为后续涉及沈词的戏预埋情感张力。",
+    "composition": "CU，正面近距离定格高令宁，人物置中略偏右，左侧保留一块深暗留白；她垂下眼，神情重新封闭，烛光只照亮半张脸，另一半沉入阴影，形成明显分割，背景全虚。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "留下冷硬、未决、像刀背压着皮肤的余味。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.05,
+    "order": 150
+  }
+]

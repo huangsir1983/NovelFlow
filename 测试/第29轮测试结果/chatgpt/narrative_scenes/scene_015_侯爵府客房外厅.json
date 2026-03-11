@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 侯爵府客房门前 - NIGHT",
+  "location": "侯爵府客房外厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "离开前沈词再次逼我退让，陆姝仪突然下跪求我容她留在沈家，沈词当众护她入怀，让我记起前世羞辱。",
+  "key_dialogue": "「有我在，没人能赶你走。」",
+  "emotional_peak": "她下跪，他揽她入怀，我在灯下被迫重历旧伤。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "灯火",
+    "衣角",
+    "药碗"
+  ],
+  "dramatic_purpose": "把当下冲突推到峰值，并引出具体羞辱回忆。",
+  "visual_reference": "夜色灯火昏黄，病弱少女泪眼跪地拽住女主衣角，年轻官员半蹲将她护入怀中，女主直立不动，神情冷到发白，空间里每个人都紧绷",
+  "visual_prompt_negative": "避免宫斗夸张跪拜人群，避免现代灯具，避免过度哭花妆容",
+  "source_text_start": "走出几步，身后突然传来淡淡的一声：「二位留步。」",
+  "source_text_end": "明明我才是他的发妻。他一颗心却全捧给了别人。"
+}

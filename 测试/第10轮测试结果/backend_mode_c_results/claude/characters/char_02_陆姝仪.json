@@ -1,0 +1,55 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "16-19岁",
+  "appearance": {
+    "face": "温婉清丽,楚楚可怜",
+    "body": "纤细柔弱",
+    "hair": "柔顺长发,简单发饰",
+    "distinguishing_features": "泪眼盈盈,柔弱倔强的神态"
+  },
+  "costume": {
+    "typical_outfit": "素色襦裙,寄人篱下的朴素打扮",
+    "color_palette": [
+      "粉白",
+      "浅绿",
+      "淡黄"
+    ]
+  },
+  "casting_tags": [
+    "白莲花",
+    "柔弱",
+    "心机",
+    "可怜"
+  ],
+  "visual_reference": "delicate Chinese beauty, pitiful expression, soft features, pale complexion, traditional hanfu, vulnerable appearance",
+  "personality": "表面柔弱温顺,实则心机深沉,为达目的不择手段",
+  "desire": "嫁给沈词,获得安稳生活",
+  "flaw": "过于依赖他人,手段下作",
+  "arc": "前世投湖自尽→重生后设计陷害→嫁给蒋晟→承认罪行",
+  "scene_presence": "关键矛盾场景出现",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅竹马",
+      "dynamic": "她爱慕依赖,他保护怜惜",
+      "function": "情感障碍"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "嫉妒陷害",
+      "function": "制造冲突"
+    },
+    {
+      "target": "蒋晟",
+      "type": "夫妻",
+      "dynamic": "她设计成婚,他冷淡对待",
+      "function": "结局安排"
+    }
+  ]
+}

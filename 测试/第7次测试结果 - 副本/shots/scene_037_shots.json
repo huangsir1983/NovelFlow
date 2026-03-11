@@ -1,0 +1,223 @@
+[
+  {
+    "id": "shot_0559",
+    "scene_id": "scene_037",
+    "shot_number": 1,
+    "goal": "建立厅堂内父女相对而坐的礼制空间关系，交代这是一场看似平和、实则带规劝意味的家常谈话，并明确高令宁处于被审视与被劝服的位置。",
+    "composition": "门框式构图，前景左侧虚化的门框与半截屏风形成阻隔，中景右后方为主座上的高父，位于画面右三分之一；左前方偏下首位置是高令宁的侧背，坐得端正但略收肩。地面上窗棂光斜切成条状阴影，将父女之间的茶案与距离切开。背景为木褐墙面与侧椅，茶盏置于两人之间，强化礼貌而疏离的气氛。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "体面、克制、隐含压迫感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.32,
+    "order": 559
+  },
+  {
+    "id": "shot_0560",
+    "scene_id": "scene_037",
+    "shot_number": 2,
+    "goal": "从高令宁主观限制视角切入高父，建立父亲以温和语气作出婚姻判断的姿态，传达他的规劝并非恶意，而是来自旧式父权经验。",
+    "composition": "高父 MCU 正面偏三分之二侧，位于画面右侧，视线朝画面左侧下方的高令宁。前景左缘保留一块高令宁肩头与发髻的虚化轮廓，维持女主视角限制。高父身后是简洁木架与柔和窗边反光，面部一侧被窗棂侧逆光轻切，法令纹与鬓白清晰。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "长辈的笃定、温和中的不容置疑",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.24,
+    "order": 560
+  },
+  {
+    "id": "shot_0561",
+    "scene_id": "scene_037",
+    "shot_number": 3,
+    "goal": "呈现高令宁听到“把你捧在心尖上”时未作表态的表层顺从，埋下她对这种判断的不认同。",
+    "composition": "高令宁 MCU，位于画面左三分之一，身形端直但头微垂，眼睛先落在茶案边缘而不直接看父亲。前景右侧虚化为高父袖口与茶盏边缘，形成压迫性的在场感。背景保留冷灰墙面与窗棂投影，光线扫过她冷白面颊，唇线收紧。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "表面恭顺下的冷意与防备",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.12,
+    "order": 561
+  },
+  {
+    "id": "shot_0562",
+    "scene_id": "scene_037",
+    "shot_number": 4,
+    "goal": "用手部细节具体化高令宁情绪波动：听到“感情甚好”时，她真实的抗拒先于言语出现。",
+    "composition": "高令宁袖边手指 ECU，画面中央偏下是她原本轻搭在衣袖边缘的指尖，突然停住并微微收紧布料纹理。画面上方虚化可见茶案一角与一道斜切窗影，细节冷硬，没有任何柔化。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、克制、情绪骤然收束",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.06,
+    "order": 562
+  },
+  {
+    "id": "shot_0563",
+    "scene_id": "scene_037",
+    "shot_number": 5,
+    "goal": "强化父亲继续陈述“感情甚好、又有孩子、表小姐将出嫁”的逻辑闭环，表现他已替女儿做出结论。",
+    "composition": "高父 MS，居中略偏右，身体坐姿稳固，手轻扶座椅扶手，另一手靠近茶案，话语平稳地向前推进。画面左侧保留大面积留白，作为高令宁的听位空间。背景窗棂光在他背后形成较整齐的条状结构，象征秩序与既定判断。",
+    "camera_movement": "slow dolly in",
+    "framing": "MS",
+    "emotion_target": "被现实逻辑包围的窒息感",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.14,
+    "order": 563
+  },
+  {
+    "id": "shot_0564",
+    "scene_id": "scene_037",
+    "shot_number": 6,
+    "goal": "捕捉高令宁沉默后的抬眼，完成她从被动承受到主动试探的情绪转折。",
+    "composition": "高令宁 CU，位于画面左侧，初始视线低垂，随后缓慢抬眼看向画外右侧父亲。背景虚化，仅留一道窗棂阴影切过她颈侧与鬓边。前景下方略有衣袖边缘，呼应上一镜手部动作。镜头中留出她视线前方空间，制造压抑前的蓄力。",
+    "camera_movement": "slow dolly in",
+    "framing": "CU",
+    "emotion_target": "冷静反击前的蓄压、隐忍中的锋利",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.28,
+    "order": 564
+  },
+  {
+    "id": "shot_0565",
+    "scene_id": "scene_037",
+    "shot_number": 7,
+    "goal": "让高令宁以礼貌措辞发出试探，表明她并未认同婚姻“稳定”的判断，而是在试探父亲是否还站在她这边。",
+    "composition": "高令宁 MCU 正侧三分之二，位于画面左三分之一，朝右发问。前景右侧虚化为高父肩线，构成对话压力。她的背脊依旧笔直，面上几乎无波，但眼神比前镜更直，声音克制。背景的木褐家具边线与窗影共同把她框在狭窄区域里。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "礼貌下的试探、锋芒不露的求证",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 565
+  },
+  {
+    "id": "shot_0566",
+    "scene_id": "scene_037",
+    "shot_number": 8,
+    "goal": "通过高父的摆手宽慰，明确他并未接住女儿真正的求助，而是继续以经验和结果论压回去。",
+    "composition": "高父 MCU，位于画面右侧，抬手轻摆进入画面中央，动作不大却带结论性。前景左侧保持高令宁的模糊轮廓。高父神色略松，像是在安抚，却因姿态居高临下而更显压制。茶盏处在画面下方中心，成为两人之间不可逾越的礼法界线。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "安抚中的否定、温和的失望感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 566
+  },
+  {
+    "id": "shot_0567",
+    "scene_id": "scene_037",
+    "shot_number": 9,
+    "goal": "让高父说出“先前担心、婚后都变了许多”，把父亲立场彻底坐实：他相信转机已经发生，不支持她抽身。",
+    "composition": "限制性双人 MS，父亲在右前景清晰，高令宁在左后景半虚焦坐着，二人同框但不共享同一清晰平面。高父面朝左说话，语调笃定；高令宁的脸在后方静止，几乎不动。窗棂光在地面与案几上形成横向分层，把空间切成前后两段。",
+    "camera_movement": "slow pan",
+    "framing": "MS",
+    "emotion_target": "关系同框却心理失联的凉意",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 567
+  },
+  {
+    "id": "shot_0568",
+    "scene_id": "scene_037",
+    "shot_number": 10,
+    "goal": "以反应镜头表现高令宁听完后彻底收回辩解，意识到父亲已经站在‘这般过下去’的一边。",
+    "composition": "高令宁 CU，位于画面中央略偏左，眼中光泽压住，视线从父亲方向缓慢撤回到下方。前景无干扰，背景仅保留一段冷灰木壁与模糊窗影，使她像被空白吞没。她唇角极轻地下压，几乎难以察觉。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "失望、清醒、自我封闭",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.31,
+    "order": 568
+  },
+  {
+    "id": "shot_0569",
+    "scene_id": "scene_037",
+    "shot_number": 11,
+    "goal": "通过低头与茶盏的并置完成冷收尾，表现她不再辩解，只把情绪重新压回体内，为后续反转埋钩。",
+    "composition": "高令宁 MS，位于画面左下区域，缓缓低头，手重新收回袖中。前景中央是一只未动过的茶盏，边缘映着冷光；右上方高父仅留模糊衣袍一角，不再需要正面出现。窗棂影子落在地面与茶案上，像一道道规训的栏栅。留白大于人物面积，形成情绪坠落。",
+    "camera_movement": "tilt down",
+    "framing": "MS",
+    "emotion_target": "沉默、压抑、裂痕被礼数重新封住",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.08,
+    "order": 569
+  },
+  {
+    "id": "shot_0570",
+    "scene_id": "scene_037",
+    "shot_number": 12,
+    "goal": "以厅堂空隙与静物结束场景，留下‘表面稳定、实则更深的不被理解’这一余味，便于衔接下场戏或内心旧忆刺入。",
+    "composition": "茶案与窗棂影的静物 FS，茶盏居中偏左，主座与下首空出两端位置，人物退到画外，只余高父最后一句话的尾音或室内静默。前景可有一角垂帘虚化，背景木椅与地面光影整齐而冷。视觉上像一间被体面整理好的房间，却没有真正的和解。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "冷清余震、表面平定后的更深不安",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.06,
+    "order": 570
+  }
+]

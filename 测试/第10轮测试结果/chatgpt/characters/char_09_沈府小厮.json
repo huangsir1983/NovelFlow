@@ -1,0 +1,38 @@
+{
+  "name": "沈府小厮",
+  "aliases": [
+    "小厮"
+  ],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "普通少年仆从相貌",
+    "body": "瘦小灵活",
+    "hair": "简单束发",
+    "distinguishing_features": "典型宅门跑腿仆从"
+  },
+  "costume": {
+    "typical_outfit": "灰蓝短打仆役装",
+    "color_palette": [
+      "灰蓝",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "跑腿仆从"
+  ],
+  "visual_reference": "young ancient chinese servant boy, simple clothes, tied hair, humble expression, realistic",
+  "personality": "听命行事",
+  "desire": "完成差遣",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "传话、回报等功能性出场。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "主仆",
+      "dynamic": "听命办事",
+      "function": "信息传递"
+    }
+  ]
+}

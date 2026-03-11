@@ -1,0 +1,256 @@
+{
+  "count": 25,
+  "updated_at": "2026-03-08T09:13:53",
+  "entries": [
+    {
+      "id": "beat_000",
+      "filename": "beat_000.json",
+      "title": "当众折辱未婚夫",
+      "beat_type": "action",
+      "save_the_cat": "Opening Image",
+      "emotional_value": -0.2,
+      "dramatic_intensity": -0.2,
+      "order": 0
+    },
+    {
+      "id": "beat_001",
+      "filename": "beat_001.json",
+      "title": "追问失控缘由",
+      "beat_type": "dialogue",
+      "save_the_cat": "Theme Stated",
+      "emotional_value": -0.1,
+      "dramatic_intensity": -0.1,
+      "order": 1
+    },
+    {
+      "id": "beat_002",
+      "filename": "beat_002.json",
+      "title": "回忆初恋幻梦",
+      "beat_type": "revelation",
+      "save_the_cat": "Set-Up",
+      "emotional_value": 0.4,
+      "dramatic_intensity": 0.4,
+      "order": 2
+    },
+    {
+      "id": "beat_003",
+      "filename": "beat_003.json",
+      "title": "揭开前世噩梦",
+      "beat_type": "revelation",
+      "save_the_cat": "Catalyst",
+      "emotional_value": -0.7,
+      "dramatic_intensity": -0.7,
+      "order": 3
+    },
+    {
+      "id": "beat_004",
+      "filename": "beat_004.json",
+      "title": "坚持仍要再嫁",
+      "beat_type": "dialogue",
+      "save_the_cat": "Debate",
+      "emotional_value": -0.1,
+      "dramatic_intensity": -0.1,
+      "order": 4
+    },
+    {
+      "id": "beat_005",
+      "filename": "beat_005.json",
+      "title": "闯入前世婚局",
+      "beat_type": "transition",
+      "save_the_cat": "Break into Two",
+      "emotional_value": -0.5,
+      "dramatic_intensity": -0.5,
+      "order": 5
+    },
+    {
+      "id": "beat_006",
+      "filename": "beat_006.json",
+      "title": "撞见平妻试探",
+      "beat_type": "event",
+      "save_the_cat": "B Story",
+      "emotional_value": -0.8,
+      "dramatic_intensity": -0.8,
+      "order": 6
+    },
+    {
+      "id": "beat_007",
+      "filename": "beat_007.json",
+      "title": "以自戕方式立威",
+      "beat_type": "action",
+      "save_the_cat": "Fun and Games",
+      "emotional_value": 0.2,
+      "dramatic_intensity": 0.2,
+      "order": 7
+    },
+    {
+      "id": "beat_008",
+      "filename": "beat_008.json",
+      "title": "接管沈府却失去婚姻",
+      "beat_type": "revelation",
+      "save_the_cat": "Midpoint",
+      "emotional_value": -0.3,
+      "dramatic_intensity": -0.3,
+      "order": 8
+    },
+    {
+      "id": "beat_009",
+      "filename": "beat_009.json",
+      "title": "累积数十年夫妻旧怨",
+      "beat_type": "montage",
+      "save_the_cat": "Bad Guys Close In",
+      "emotional_value": -0.9,
+      "dramatic_intensity": -0.9,
+      "order": 9
+    },
+    {
+      "id": "beat_010",
+      "filename": "beat_010.json",
+      "title": "迎来临终迟来温情",
+      "beat_type": "event",
+      "save_the_cat": "All Is Lost",
+      "emotional_value": -0.6,
+      "dramatic_intensity": -0.6,
+      "order": 10
+    },
+    {
+      "id": "beat_011",
+      "filename": "beat_011.json",
+      "title": "在死后反看一生",
+      "beat_type": "revelation",
+      "save_the_cat": "Dark Night of the Soul",
+      "emotional_value": -0.7,
+      "dramatic_intensity": -0.7,
+      "order": 11
+    },
+    {
+      "id": "beat_012",
+      "filename": "beat_012.json",
+      "title": "推动父亲辞官避祸",
+      "beat_type": "action",
+      "save_the_cat": "Break into Three",
+      "emotional_value": 0.3,
+      "dramatic_intensity": 0.3,
+      "order": 12
+    },
+    {
+      "id": "beat_013",
+      "filename": "beat_013.json",
+      "title": "签下成婚和离之约",
+      "beat_type": "dialogue",
+      "save_the_cat": "Finale",
+      "emotional_value": -0.2,
+      "dramatic_intensity": -0.2,
+      "order": 13
+    },
+    {
+      "id": "beat_014",
+      "filename": "beat_014.json",
+      "title": "允婚却心如死灰",
+      "beat_type": "event",
+      "save_the_cat": "Final Image",
+      "emotional_value": -0.4,
+      "dramatic_intensity": -0.4,
+      "order": 14
+    },
+    {
+      "id": "beat_015",
+      "filename": "beat_015.json",
+      "title": "在马球会上反向试探",
+      "beat_type": "action",
+      "save_the_cat": "N/A",
+      "emotional_value": 0.2,
+      "dramatic_intensity": 0.2,
+      "order": 15
+    },
+    {
+      "id": "beat_016",
+      "filename": "beat_016.json",
+      "title": "撞见偏宠再起旧恨",
+      "beat_type": "revelation",
+      "save_the_cat": "N/A",
+      "emotional_value": -0.6,
+      "dramatic_intensity": -0.6,
+      "order": 16
+    },
+    {
+      "id": "beat_017",
+      "filename": "beat_017.json",
+      "title": "逼谈陆姝仪婚事",
+      "beat_type": "dialogue",
+      "save_the_cat": "N/A",
+      "emotional_value": -0.5,
+      "dramatic_intensity": -0.5,
+      "order": 17
+    },
+    {
+      "id": "beat_018",
+      "filename": "beat_018.json",
+      "title": "提出藏匿扶正方案",
+      "beat_type": "dialogue",
+      "save_the_cat": "N/A",
+      "emotional_value": -0.2,
+      "dramatic_intensity": -0.2,
+      "order": 18
+    },
+    {
+      "id": "beat_019",
+      "filename": "beat_019.json",
+      "title": "确认怀孕重临宿命",
+      "beat_type": "revelation",
+      "save_the_cat": "N/A",
+      "emotional_value": 0.1,
+      "dramatic_intensity": 0.1,
+      "order": 19
+    },
+    {
+      "id": "beat_020",
+      "filename": "beat_020.json",
+      "title": "发现厢房失身局",
+      "beat_type": "event",
+      "save_the_cat": "N/A",
+      "emotional_value": -0.8,
+      "dramatic_intensity": -0.8,
+      "order": 20
+    },
+    {
+      "id": "beat_021",
+      "filename": "beat_021.json",
+      "title": "遭指控后早产生女",
+      "beat_type": "event",
+      "save_the_cat": "N/A",
+      "emotional_value": -0.4,
+      "dramatic_intensity": -0.4,
+      "order": 21
+    },
+    {
+      "id": "beat_022",
+      "filename": "beat_022.json",
+      "title": "在和离对峙中选择放手",
+      "beat_type": "dialogue",
+      "save_the_cat": "N/A",
+      "emotional_value": 0.2,
+      "dramatic_intensity": 0.2,
+      "order": 22
+    },
+    {
+      "id": "beat_023",
+      "filename": "beat_023.json",
+      "title": "逼出重生真相",
+      "beat_type": "revelation",
+      "save_the_cat": "N/A",
+      "emotional_value": -0.1,
+      "dramatic_intensity": -0.1,
+      "order": 23
+    },
+    {
+      "id": "beat_024",
+      "filename": "beat_024.json",
+      "title": "在江南迎来死缠烂打的重逢",
+      "beat_type": "event",
+      "save_the_cat": "N/A",
+      "emotional_value": 0.1,
+      "dramatic_intensity": 0.1,
+      "order": 24
+    }
+  ]
+}

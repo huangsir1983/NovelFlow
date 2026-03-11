@@ -1,0 +1,44 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩可爱",
+    "body": "婴孩到幼童",
+    "hair": "稚嫩小髻",
+    "distinguishing_features": "明亮笑眼"
+  },
+  "costume": {
+    "typical_outfit": "虎头帽婴儿服",
+    "color_palette": [
+      "粉",
+      "红"
+    ]
+  },
+  "casting_tags": [
+    "可爱女儿"
+  ],
+  "visual_reference": "adorable Chinese toddler girl with bright smile, wearing tiger-head hat and pink baby clothes",
+  "personality": "活泼可爱",
+  "desire": "父母陪伴",
+  "flaw": "",
+  "arc": "新生象征",
+  "scene_presence": "出生后、满月、江南雪天",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "温柔守护",
+      "function": "新生活锚点"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "愧疚疼爱",
+      "function": "追妻动力"
+    }
+  ]
+}

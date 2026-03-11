@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 马球场 - 日",
+  "location": "马球场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "马球会上高令宁看到沈词宠溺陆姝仪，与蒋晟亲昵互动后脚伤",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "沈词冷眼眯起与高令宁疏离对峙",
+  "tension_score": 0.85,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "马球杆",
+    "粉色风筝",
+    "葡萄果盘",
+    "蒋晟扶手",
+    "柳池栏杆"
+  ],
+  "dramatic_purpose": "重燃前世嫉恨，引入蒋晟对比"
+}

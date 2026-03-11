@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_001",
+  "name": "高家正堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正堂",
+  "description": "宽敞威严的待客正堂，采用对称式布局。正中悬挂名家字画，下方为紫檀木太师椅与茶几。堂内两侧摆放着整齐的交椅。地面铺设青砖，阳光透过雕花格扇门洒入，照亮了堆放在堂中央的红漆抬箱、金银绸缎与作为聘礼的木雁，彰显出家族的财力与庄重感。",
+  "visual_reference": "Interior of a Ming Dynasty wealthy official's main hall, symmetrical layout, heavy carved zitan wood furniture, tea tables, red lacquer boxes, gold and silk fabrics, a carved wooden goose prop on the floor, bright daylight streaming through carved wooden lattice doors, cinematic lighting, formal and opulent atmosphere, highly detailed, photorealistic, 8k.",
+  "atmosphere": "庄重、奢华且暗流涌动",
+  "color_palette": [
+    "朱红色",
+    "紫檀深棕",
+    "暗金色"
+  ],
+  "lighting": "明亮的自然天光，透过格扇门形成规整的光影切割",
+  "key_features": [
+    "对称的紫檀木太师椅",
+    "红漆聘礼抬箱",
+    "雕花木雁"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从表面喜气的提亲氛围，瞬间降至剑拔弩张的震惊与对峙"
+}

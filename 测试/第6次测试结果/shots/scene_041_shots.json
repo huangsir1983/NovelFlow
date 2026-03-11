@@ -1,0 +1,340 @@
+[
+  {
+    "id": "shot_0590",
+    "scene_id": "scene_041",
+    "shot_number": 1,
+    "goal": "建立产房的封闭压迫环境与危急状态，明确床榻是场面核心，沈词在场却与喧乱形成情感隔离。",
+    "composition": "FS，机位贴近床尾略偏高，床榻居中偏后，高令宁躺于画面中央偏右，稳婆与太医围床形成半包围；前景左下虚化烛火与晃动白布，右前景铜盆边缘反光，背景旧木墙与暗影压低空间。沈词站在床左侧中后景，身形笔直却僵硬，留出一块冷暗留白与床形成距离。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "窒息、压迫、危机临近",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "稳婆",
+      "太医"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 590
+  },
+  {
+    "id": "shot_0591",
+    "scene_id": "scene_041",
+    "shot_number": 2,
+    "goal": "将观众拉入高令宁的身体痛感与限制性主观感知，强调她被疼痛困住。",
+    "composition": "CU，高令宁侧脸占画面右侧三分之二，汗湿鬓发黏在脸侧，唇色发白；左侧前景有失焦晃动的烛光和掠过的白布阴影，背景模糊人影来回压迫，光线从后侧烛火勾出汗珠。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "疼痛、失控、孤立无援",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 591
+  },
+  {
+    "id": "shot_0592",
+    "scene_id": "scene_041",
+    "shot_number": 3,
+    "goal": "用动作细节具象化难产强度，增强现实质感与紧迫节奏。",
+    "composition": "ECU，高令宁抓住床单的手占满画面中央，指节发白，丝缎床单被抓出深褶；背景仅有模糊血色与白布掠动，画面边缘有烛光颤动的暖色跳闪。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "肉身撕裂般的痛楚、危险逼近",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 592
+  },
+  {
+    "id": "shot_0593",
+    "scene_id": "scene_041",
+    "shot_number": 4,
+    "goal": "补足产房忙乱信息，制造听觉与视觉双重压迫，推动‘必须尽快决断’的局势。",
+    "composition": "MS，铜盆位于左前景被人急促放下溅起水光，白布从右侧快速进出形成遮挡；中景稳婆俯身查看产况，太医在后景递热水，床沿与手臂将画面切割得拥挤凌乱。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "慌乱、局面失控",
+    "duration_hint": "2s",
+    "characters": [
+      "稳婆",
+      "太医",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.7,
+    "order": 593
+  },
+  {
+    "id": "shot_0594",
+    "scene_id": "scene_041",
+    "shot_number": 5,
+    "goal": "引出稳婆第一次逼问，将生死选择正式抛给沈词。",
+    "composition": "MCU，稳婆位于画面左前侧，半转身朝画外右侧的沈词说话，神色急切；背景右后方可见床上高令宁模糊轮廓，前景边缘有沾湿白布和热气，形成逼仄纵深。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "催逼、道德重压",
+    "duration_hint": "4-5s",
+    "characters": [
+      "稳婆",
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 594
+  },
+  {
+    "id": "shot_0595",
+    "scene_id": "scene_041",
+    "shot_number": 6,
+    "goal": "首次给出沈词面对抉择的状态：失语、动摇、压抑情绪。",
+    "composition": "MCU，沈词立于画面右侧，身体朝床但眼神短暂失焦；左侧前景虚化为稳婆肩背与烛火，背景是暗木墙与一抹床幔阴影。光线自左侧暖光打脸，另一半面部沉入冷暗，喉结位置清晰处在画面中心附近。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "窒息的犹疑、内心塌陷前的克制",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 595
+  },
+  {
+    "id": "shot_0596",
+    "scene_id": "scene_041",
+    "shot_number": 7,
+    "goal": "从高令宁主观角度看沈词，保留她对他沉默的误判空间。",
+    "composition": "POV式CU，沈词位于画面中央略偏左，边缘有模糊晕眩感和前景遮挡，仿佛高令宁躺着费力望去；烛火在他身后摇晃，脸色被映得更白，身形像隔着一层热浪。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "绝望中的审视、不信任",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 596
+  },
+  {
+    "id": "shot_0597",
+    "scene_id": "scene_041",
+    "shot_number": 8,
+    "goal": "表现高令宁对沈词沉默作出的情绪回应：讥诮、失望、心死。",
+    "composition": "CU，高令宁侧头看向镜头外左侧，画面右侧保留床褥褶皱与她颈侧细汗；嘴角勾起极淡冷笑，眼底带痛。背景完全虚化，只留一团烛火琥珀光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心寒、讽刺、自我放弃前的锋利",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 597
+  },
+  {
+    "id": "shot_0598",
+    "scene_id": "scene_041",
+    "shot_number": 9,
+    "goal": "将‘放弃挣扎’视觉化，制造短暂下坠感，为后续反转蓄压。",
+    "composition": "ECU，高令宁眼睛缓缓闭合占据画面中心，睫毛湿重，额头汗珠在侧逆光下发亮；画面上沿掠过一缕散发，背景无实质信息，近乎黑沉。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "心死、坠落、几近诀别",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.86,
+    "order": 598
+  },
+  {
+    "id": "shot_0599",
+    "scene_id": "scene_041",
+    "shot_number": 10,
+    "goal": "通过第二次逼问把场面推到不可拖延的临界点。",
+    "composition": "MS，稳婆扑近画面中央偏左，几乎要越过镜头朝沈词求问；右后景床榻与高令宁半被白布遮住，左下角铜盆反射出刺目暖光。空间层层叠叠，人物都在朝同一方向施压。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "逼迫、慌张、最后通牒",
+    "duration_hint": "4s",
+    "characters": [
+      "稳婆",
+      "高令宁",
+      "太医"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 599
+  },
+  {
+    "id": "shot_0600",
+    "scene_id": "scene_041",
+    "shot_number": 11,
+    "goal": "捕捉沈词情感失守的身体信号，为他的选择做前置爆点。",
+    "composition": "CU，沈词正面略侧，眼眶发红，喉结滚动后停住，嘴唇轻颤未出声；前景左侧虚焦为稳婆衣袖，背景烛火摇成不稳光斑，脸部光影撕裂明显。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "压抑到极限、即将失控",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 600
+  },
+  {
+    "id": "shot_0601",
+    "scene_id": "scene_041",
+    "shot_number": 12,
+    "goal": "高令宁重新睁眼，形成她对最终答案的生死凝视。",
+    "composition": "ECU，高令宁的眼猛地睁开，占据画面中央，瞳孔映出烛火与一个模糊的人影；眼尾因痛与惊惧泛红，画面边缘仍有轻微呼吸式晃动。",
+    "camera_movement": "handheld",
+    "framing": "ECU",
+    "emotion_target": "悬住一口气的惊醒、最后的审判感",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.94,
+    "order": 601
+  },
+  {
+    "id": "shot_0602",
+    "scene_id": "scene_041",
+    "shot_number": 13,
+    "goal": "用动作明确沈词做出选择，并在空间关系上指向高令宁，完成情感立场暴露。",
+    "composition": "MS，沈词位于画面右侧，向左前方床榻抬手指去，手势进入画面中央成为视觉焦点；左侧前景虚化为稳婆肩背，后景床上高令宁处于浅焦中可辨的躺姿。构图维持左床右人的轴线，指向关系清晰。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "决断、压抑后的爆裂",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁",
+      "稳婆"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 602
+  },
+  {
+    "id": "shot_0603",
+    "scene_id": "scene_041",
+    "shot_number": 14,
+    "goal": "落下第一句“我要高令宁”，让语言第一次明确穿透场面喧乱。",
+    "composition": "CU，沈词脸占画面大部分，目光越过镜头左侧直指床上人，眼眶通红，声音发颤但字字咬紧；背景只留模糊暖光，不再给其他人信息，聚焦于他的情感曝光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震动、真心失守、爱意破防",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 603
+  },
+  {
+    "id": "shot_0604",
+    "scene_id": "scene_041",
+    "shot_number": 15,
+    "goal": "给出有限他人反应，证明这个决定在礼法与常识层面都出乎意料。",
+    "composition": "MCU，稳婆位于画面左侧猛地愣住，嘴微张说出“什么”；右后景可见太医动作短暂停滞，床榻与白布形成静止一瞬。前景烛火仍在晃，但人物停住，形成节奏顿挫。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "错愕、难以置信",
+    "duration_hint": "1-2s",
+    "characters": [
+      "稳婆",
+      "太医"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 604
+  },
+  {
+    "id": "shot_0605",
+    "scene_id": "scene_041",
+    "shot_number": 16,
+    "goal": "强化沈词的选择，不再是冲口而出，而是清醒确认。",
+    "composition": "MCU，机位略低看沈词，他站在画面中央偏右，肩背绷紧，重复“我要她活着”；左侧边缘保留床幔一角与暖光，像他的视线和立场都被拽向床榻。背景深暗，人物从阴影里被烛火切出。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "决绝、公开站队、不可回头",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.98,
+    "order": 605
+  },
+  {
+    "id": "shot_0606",
+    "scene_id": "scene_041",
+    "shot_number": 17,
+    "goal": "把这句选择落到高令宁的接收上，完成关系认知被重置的情感终点。",
+    "composition": "CU，高令宁躺在画面中央偏右，刚睁开的眼定住，呼吸急促却短暂失声；前景有一角虚化床幔与白布，背景暖光轻晃。她的冷厉神情裂开一丝不可置信，嘴角那抹讥诮已散。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震动、迟疑、情感认知被撬开",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.9,
+    "order": 606
+  },
+  {
+    "id": "shot_0607",
+    "scene_id": "scene_041",
+    "shot_number": 18,
+    "goal": "以重新恢复的忙乱收尾，但情感意义已被改写，留下余震。",
+    "composition": "FS，回到床榻全貌，稳婆与太医重新扑向床前操作，白布与热水再次流动；沈词仍站在床左，但身体明显前倾，像终于进入这场生死。高令宁在中心被众人围护，烛火摇晃，铜盆声与喘息延续。",
+    "camera_movement": "steadicam",
+    "framing": "FS",
+    "emotion_target": "余震中的继续搏命、关系反转后的悬念延续",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "稳婆",
+      "太医"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 607
+  }
+]

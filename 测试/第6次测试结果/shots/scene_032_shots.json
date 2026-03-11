@@ -1,0 +1,247 @@
+[
+  {
+    "id": "shot_0476",
+    "scene_id": "scene_032",
+    "shot_number": 1,
+    "goal": "建立府外上元夜街市的繁盛喜庆氛围，并用外部热闹反衬这场关系中的冷感，为后续短暂温柔幻象提供环境基底。",
+    "composition": "WS，街道纵深朝右后方延展，画面上半部是成串灯火与楼檐，下半部是穿行车马与行人；前景左侧有晃动失焦的鱼龙灯掠过形成暖色遮挡，中景街面热闹明亮，背景宝马雕车缓慢穿行。两位主角暂不突出，只在画面右侧边缘隐约可见并肩站立的剪影，保留认知上的延后揭示。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "让观众先进入一种虚假的太平与节庆温度，同时隐约感到人物与环境不相融的疏离。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.32,
+    "order": 476
+  },
+  {
+    "id": "shot_0477",
+    "scene_id": "scene_032",
+    "shot_number": 2,
+    "goal": "将视角收束到女主感知，明确两人已经出府站在街边，但关系并不亲密，‘拉手散心’只是行为层面的靠近。",
+    "composition": "MLS，机位位于高令宁身后偏左，形成女主近距离主观尾随感；高令宁在画面左中，肩背挺直，沈词在右中稍前半步。两人手在画面下部相连，但身体之间留出明显空隙。前景偶有行人肩背和灯影掠过，背景是灯火与街市摊棚。视觉引导线由街道与灯串把目光带向两人相握的手。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "感受到形式上的陪伴与实质上的冷硬，像被人群推着并肩却始终没有靠近。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.26,
+    "order": 477
+  },
+  {
+    "id": "shot_0478",
+    "scene_id": "scene_032",
+    "shot_number": 3,
+    "goal": "强调两人动作上的疏离和关系的礼法外壳：是牵着，却不像相爱的人。",
+    "composition": "CU，画面下中部是两人交握的手，沈词的手在上方牵引，高令宁手指并未回握，只是被带着；衣袖纹理形成冷暖对比，沈词墨青袖口与高令宁月白袖缘并置。背景虚化成流动灯火与人影，一只鱼龙灯从后方划过投下跳动暖光，短暂照亮指节。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造细微的不适和克制感，让观众读出‘牵引’而非‘相牵’。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": -0.18,
+    "order": 478
+  },
+  {
+    "id": "shot_0479",
+    "scene_id": "scene_032",
+    "shot_number": 4,
+    "goal": "借鱼龙灯孩童群切入，呈现未出世孩子的外部意象，并打断两人僵冷的站姿，创造情绪松动的契机。",
+    "composition": "MS，机位站在两人对侧街边，二人位于画面右侧并肩停下，身体朝左看向街流；画面左前景突然冲入一群举着鱼龙灯的孩子，灯体占据前景大面积暖色晃动，形成活泼遮挡。背景车马与店铺灯火延续节庆感，孩子们的运动方向统一由左向右，从两人面前擦过。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让画面短暂活起来，带来近乎错觉式的人间烟火与家庭想象。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 479
+  },
+  {
+    "id": "shot_0480",
+    "scene_id": "scene_032",
+    "shot_number": 5,
+    "goal": "回到女主感知，捕捉她在热闹中的冷静旁观，强调她并未被真正打动，只是在看这一幕发生。",
+    "composition": "MCU，高令宁位于画面左三分之一，面朝右侧，眼神追随孩子群掠过；右侧留白给街市流光。前景有一盏失焦鱼龙灯从下方晃过，背景中沈词以虚焦半身站在她后右侧。她的冷白脸在暖灯里依旧显得偏凉，颈侧淡痕若隐若现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "唤起一种隔着人间热闹的清醒与自持，观众站在她的距离感里看世界。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.14,
+    "order": 480
+  },
+  {
+    "id": "shot_0481",
+    "scene_id": "scene_032",
+    "shot_number": 6,
+    "goal": "有限切入沈词的反应，表现他被孩子与灯光触动后停住脚步，情绪第一次松动。",
+    "composition": "MCU，沈词位于画面右中，侧脸朝左，目光落向刚跑过的孩子群方向；高令宁的肩背虚焦占据左前景边缘，保持女主中心视角。背景暖灯斑驳，鱼龙灯尾部光痕在他身后拖出一条温暖弧线，和他冷峻面容形成反差。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他确实有一瞬被凡俗温情击中，但这份柔软来得晚、也浅。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.02,
+    "order": 481
+  },
+  {
+    "id": "shot_0482",
+    "scene_id": "scene_032",
+    "shot_number": 7,
+    "goal": "明确沈词驻足并将视线转向高令宁腹中，建立未出世女儿的存在感。",
+    "composition": "MS，两人静止站在街边，机位略低于胸口，沈词在右，高令宁在左；沈词的目光从孩子群方向下移到她腹部位置，画面中心落在两人之间的空间和她腹前衣料的轻微起伏上。前景下缘有流动人影扫过，背景灯火虚化，外界热闹被压低成一层遥远光幕。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "营造一种安静而脆弱的停顿，让观众意识到这一刻真正被看见的是‘孩子’而不是夫妻关系。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 482
+  },
+  {
+    "id": "shot_0483",
+    "scene_id": "scene_032",
+    "shot_number": 8,
+    "goal": "用细节镜头承接沈词目光，具象化他对腹中孩子的注意与这份温柔的落点。",
+    "composition": "CU，高令宁腹部与交叠衣褶位于画面中央偏下，沈词的手并未触碰，只停在画面边缘下方犹疑地微抬又止。暖色灯影像水波一样掠过布料。背景完全虚化，隔绝街市，仅保留远处孩子笑声感的空间想象。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "产生极短暂的珍重感，同时保留克制与距离，不让温柔变得圆满。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.14,
+    "order": 483
+  },
+  {
+    "id": "shot_0484",
+    "scene_id": "scene_032",
+    "shot_number": 9,
+    "goal": "表现沈词神色短暂松动，为命名台词建立情绪来源。",
+    "composition": "CU，沈词正面三分之二侧脸位于画面右侧，视线微垂；左侧前景是高令宁肩线虚焦作为视点锚。侧逆光勾出他的眉骨和睫毛，原本紧绷的唇线轻微松开，眼底压着未能成形的温情。背景是散开的金色灯点。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众相信他此刻确有一丝真心，因而后续更显残忍与可悲。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.22,
+    "order": 484
+  },
+  {
+    "id": "shot_0485",
+    "scene_id": "scene_032",
+    "shot_number": 10,
+    "goal": "落台词‘就叫静好吧’，将孩子的命名与两人残存希望正式绑定。",
+    "composition": "MCU双人，仍守180度轴线，高令宁在左前侧背，沈词在右中偏近镜，微微朝她和腹部方向低头。画面中心留给两人之间的空气与未被触碰的距离。背景有一盏鱼龙灯在远处缓慢晃动，成为台词的情绪陪衬。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传达轻声提议中的克制珍惜，让观众听见一个几乎像祈愿而非决定的名字。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 485
+  },
+  {
+    "id": "shot_0486",
+    "scene_id": "scene_032",
+    "shot_number": 11,
+    "goal": "给出女主对这句话的第一反应：她听见了，也记下了，但没有被真正暖到。",
+    "composition": "CU，高令宁正面微侧位于画面左中，目光并不立刻看向沈词，而是停在前方虚空片刻，再极轻地侧过去。背景右侧暖灯虚化成柔光，沈词完全不入焦。她的唇角没有变化，眼底只有一瞬细不可察的停顿。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感受到被触及却不信任的复杂心绪：这不是和解，只是记录。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 486
+  },
+  {
+    "id": "shot_0487",
+    "scene_id": "scene_032",
+    "shot_number": 12,
+    "goal": "用反应细节封住情感：高令宁把这片刻收进心里，却不把自己交出去。",
+    "composition": "ECU，聚焦高令宁眼睛与唇线之间，眼神轻微发滞后恢复清明，睫毛压住所有波动；画面边缘有暖色灯影掠过，却未能真正染暖她的肤色。构图紧致，剥离环境，只留下情绪上的封存动作。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "产生一种轻微刺痛：这温柔太迟，故而只能被收藏，不能被相信。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.06,
+    "order": 487
+  },
+  {
+    "id": "shot_0488",
+    "scene_id": "scene_032",
+    "shot_number": 13,
+    "goal": "收束场景，将两人重新放回热闹街市中，完成‘悲剧前短暂温柔幻象’的封印。",
+    "composition": "FS，两人并肩站在街边，位于画面右下三分之一，身体仍有空隙；孩子们拿着鱼龙灯再次从前景左向右掠过，形成流动暖色带。背景街道继续繁盛，车马与灯火向纵深延展。两人像被灯市包围却并未真正融入，视觉上被人群与光海轻轻吞没。",
+    "camera_movement": "dolly",
+    "framing": "FS",
+    "emotion_target": "留下温柔已过、冷意未散的余韵，让观众记住‘静好’这个名字先于悲剧被点亮过。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": -0.04,
+    "order": 488
+  }
+]

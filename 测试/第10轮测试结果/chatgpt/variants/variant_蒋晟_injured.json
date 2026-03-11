@@ -1,0 +1,32 @@
+{
+  "variant_id": "jiangsheng_variant_03",
+  "variant_type": "injured",
+  "variant_name": "蒋晟 — 失贞疑案中的昏迷受害者",
+  "tags": [
+    "昏迷",
+    "衣冠不整",
+    "被设计",
+    "失控局面"
+  ],
+  "scene_ids": [
+    "scene_018",
+    "scene_019"
+  ],
+  "trigger": "傍晚众人发现陆姝仪与蒋晟同处高府厢房时，蒋晟衣冠不整且处于昏迷状态，成为阴谋中的关键当事人。",
+  "appearance_delta": {
+    "face": "面色失去平日爽朗，昏沉苍白，神情无意识，显出被药物或突发变故影响后的失控状态",
+    "body": "高大敦实的体格在昏迷时反而更显沉重，被动地倒卧或倚靠，失去平日利落感",
+    "hair": "高束黑发略有散乱，符合厢房中突发事变后的狼狈状态",
+    "distinguishing_features": "最鲜明的标志是凌乱衣冠、昏迷不醒与被迫卷入丑闻的无辜感，和主设定中的可靠正派形成强烈反差"
+  },
+  "costume_override": {
+    "outfit": "原本应是整洁的深色常服或简洁长袍，但在厢房中已被扯乱，衣襟散开、腰带松脱，呈现被摆布后的狼狈痕迹",
+    "color_palette": [
+      "深灰",
+      "靛蓝",
+      "棕色"
+    ]
+  },
+  "visual_reference": "ancient chinese young man, sturdy broad-shouldered warrior-scholar, honest face now pale and unconscious, black hair partially loosened from a topknot, disheveled dark robe with open collar and disturbed belt, lying or slumped in a dim side room of a noble residence, scandal scene, realistic period drama, victim of intrigue, vulnerable yet solid physique",
+  "emotional_tone": "无助、狼狈、被动卷入"
+}

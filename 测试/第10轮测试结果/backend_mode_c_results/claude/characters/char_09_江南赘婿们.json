@@ -1,0 +1,44 @@
+{
+  "name": "江南赘婿们",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "25-30岁",
+  "appearance": {
+    "face": "相貌出众",
+    "body": "各有特色",
+    "hair": "整齐发型",
+    "distinguishing_features": "温和体贴的神态"
+  },
+  "costume": {
+    "typical_outfit": "文雅便服",
+    "color_palette": [
+      "浅色系"
+    ]
+  },
+  "casting_tags": [
+    "工具人",
+    "陪衬"
+  ],
+  "visual_reference": "handsome Chinese young men, gentle expressions, elegant casual hanfu, caring demeanor",
+  "personality": "温柔体贴",
+  "desire": "照顾高令宁和昭昭",
+  "flaw": "无个性",
+  "arc": "刺激沈词的工具人",
+  "scene_presence": "江南结局场景",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "追求者",
+      "dynamic": "体贴照顾",
+      "function": "刺激沈词"
+    },
+    {
+      "target": "昭昭",
+      "type": "继父候选",
+      "dynamic": "疼爱",
+      "function": "家庭氛围"
+    }
+  ]
+}

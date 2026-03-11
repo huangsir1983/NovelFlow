@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0576",
+    "shot_id": "shot_0560",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, seen from behind in a medium close-up at the left side of a bed, gently tucking the quilt around a sleeping woman; a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies on the right side with only half of her closed face visible, completely unresponsive. A translucent bed curtain veils the foreground like a barrier, the exhausted red candle in the background has burned low while cool moonlight occupies more of the room, old wood, muted bedding, low-saturation warm-cool contrast, red accents under 15 percent. Cinematic historical drama realism, static MCU composition, restrained tension, layered depth, fine fabric detail, subtle film grain, high-end period production design.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, dim amber candlelight mixed with cool moonlight, side-back lighting through gauze curtain, soft shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, plastic, contemporary makeup, contemporary hairstyle, text, watermark, logo, low quality, blurry, oversaturated colors, deformed hands, extra fingers"
+  },
+  {
+    "id": "sp_0577",
+    "shot_id": "shot_0573",
+    "prompt_text": "An ancient Chinese bridal chamber shown without visible faces, the door placed on the left third of the frame, the interior on the right revealing a disordered wedding bed with half-fallen canopy curtains, wrinkled quilt corners and scattered garments on the floor as intimate traces of a just-finished wedding night. A blurred red candle flickers in the front right foreground, the door panel divides the image into interior and exterior layers, warm privacy inside and cold distance outside. Old timber textures, muted red wedding details, gray-blue night tones, amber candlelight against cold moonlit corridor air, low-saturation warm-cool collision, red used as a restrained accent. Cinematic historical drama realism, static medium long shot, spatial separation emphasized by the doorway, elegant negative space, tactile silk and wood detail, subtle film grain, high production value.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "interior warm amber candlelight versus exterior cool moonlight, doorway split lighting, soft flicker, low saturation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern door hardware, plastic fabrics, contemporary bedroom items, text, watermark, logo, low quality, blurry, oversaturated colors"
+  },
+  {
+    "id": "sp_0578",
+    "shot_id": "shot_0574",
+    "prompt_text": "A single red candle flame dominates the left foreground in close-up, trembling slightly as if disturbed by knocking from outside; in the blurred background, the wooden door grain and panel subtly vibrate, while a large dark negative space on the right suggests the oppressive direction of the sound source. Ancient Chinese bridal chamber interior, old wood, faint red wedding atmosphere, low-saturation palette, the flame sharp and alive against soft darkness. Amber candlelight flickers against surrounding cool shadow, abrupt intrusion conveyed through minimal movement and compressed composition. Cinematic historical drama realism, static close-up, sensory subjective framing, fine texture, shallow depth of field, subtle film grain, elegant visual tension.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro-like close-up realism, subtle film grain",
+      "lighting": "flickering amber candlelight with surrounding cool darkness, high contrast but low saturation, intimate interior glow"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric candle, modern room decor, text, watermark, logo, low quality, blurry, CGI look, oversaturated reds"
+  },
+  {
+    "id": "sp_0579",
+    "shot_id": "shot_0575",
+    "prompt_text": "A kneeling maidservant in ancient China occupies the lower center of the frame outside a closed door, head slightly lowered in a posture of submission, simple period servant clothing in muted tones, hands gathered respectfully, delivering a message she cannot personally cross the threshold with. The massive wooden door panel fills most of the right side as a barrier, while the corridor behind her is pressed by cold moonlight; a thin gap of warm red candlelight leaks from inside the bridal chamber, creating a clear clash of cold and warm space. Old timber, stone floor, sparse empty corridor, ritual hierarchy and intrusion held together in one static image. Cinematic historical drama realism, static medium shot, restrained composition, low-saturation warm-cool contrast, sharp class tension, subtle film grain, refined period detail.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cold moonlight in the corridor opposed by thin warm candlelight from the door crack, side lighting, low saturation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern maid uniform, plastic items, text, watermark, logo, low quality, blurry, oversaturated colors, fantasy architecture"
+  },
+  {
+    "id": "sp_0580",
+    "shot_id": "shot_0576",
+    "prompt_text": "A kneeling maidservant in ancient China remains at the lower left of the frame, seen from a slightly low angle that reduces her to a message-bearing instrument, head bowed and posture rigid as she reports through a closed door. The wooden door occupies the entire right half like a wall of refusal, and an empty cold corridor stretches behind her, lonely and austere; only a narrow seam of warm light from the bridal chamber acts as the sole visual exit. Muted servant garments, old wood grain, stone floor, night air under moonlight, low-saturation warm-cool opposition emphasizing a summons rather than a request. Cinematic historical drama realism, static medium close-up, compressed authority and distance, subtle film grain, detailed historical textures, restrained menace.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cold moonlit corridor with a single narrow strip of warm candlelight from the door gap, directional side light, low-saturation contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern hallway, plastic, text, watermark, logo, low quality, blurry, oversaturated colors, sci-fi atmosphere"
+  },
+  {
+    "id": "sp_0581",
+    "shot_id": "shot_0577",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, sits on the inner side of the bed at the right of the frame, half hidden behind quilt and bed curtains, pulling the blanket up to her shoulder with calm, detached control rather than anger. In the blurred left foreground, the dark hem of a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands by the bed as an oppressive partial presence only. Warm red candlelight brushes the woman’s cold pale profile, while the rest of the bridal chamber sinks into cool shadow, old wood and soft gauze creating layers of separation. Cinematic historical drama realism, static medium close-up, female-centered subjective tension, low-saturation warm-cool contrast, subtle irony and distance, fine textile detail, film grain, high-end period mood.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "soft amber candlelight grazing the face against cool surrounding shadow, layered through bed curtains, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern bedding, plastic accessories, contemporary makeup, text, watermark, logo, low quality, blurry, oversaturated colors, deformed hands, extra fingers"
+  }
+]

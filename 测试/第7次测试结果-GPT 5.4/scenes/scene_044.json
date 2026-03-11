@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_044",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:42"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_013",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_014"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 高令宁房外及内室 - DAY",
+    "location": "沈府高令宁住处",
+    "time_of_day": "day",
+    "description": "封闭的内宅空间，房门紧闭，门外增设守卫，进出受严格限制。室内光线偏柔，带有养病静养的氛围。案几上和桌边堆放着成批送入的昂贵补品，包装整齐，分量明显充裕，暗示并非只供一人使用。空间安静、克制，形成与门外来往动静之间的反差。",
+    "action": "高令宁拿到和离书后留在房中调养身体，极少外出。仆从将补品一批批送入房内，堆叠在桌案与柜边。门外守卫站定，拦下试图靠近的沈词，使他无法进入。沈词只能在门外徘徊、停步，等待被允许与高令宁和女儿见面。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "和离书",
+      "昂贵补品",
+      "房门",
+      "守卫兵器"
+    ],
+    "dramatic_purpose": "交代和离后的新关系格局：高令宁进入被保护的恢复期，沈词被隔绝在外，为后续见面制造情感距离与压力。",
+    "tension_score": 0.45,
+    "dramatic_intensity": -0.1,
+    "order": 44
+  }
+}

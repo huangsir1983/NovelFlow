@@ -1,0 +1,408 @@
+<think>
+Generating JSON structure- Output as JSON array with visual archive objects for each location
+- Each object includes location_id, name, type, era_style, description, visual_reference, color_palette, key_features, emotional_range
+- description details spatial structure, decoration, furniture, and typical props for consistency
+- era_style varies by location, e.g., "明代中晚期官宦府邸" for high family halls, "明代医馆外" for medical exteriors, "明代江南院落" for later scenes
+- visual_reference must be in Chinese, detailed for AI drawing prompts
+- key_features: array of 3 distinctive visual elements
+- emotional_range: describe emotional span across scenes, e.g., "从震惊到释然"
+[Agent 2][AgentThink] 需要为16个地点生成详细JSON视觉档案。故事是明代古风官宦家庭，我计划统一era_style为"明代中晚期官宦府邸"（江南院落调整为"明代江南私家院落"）。type根据名称分interior/exterior。visual_reference必须是详细中文提示词，包含建筑、布局、装饰、光线。color_palette至少3个。negative通用避免现代元素。我会逐个构建，确保一致性。你有小说参考或特定建议吗？先从高家正堂开始验证结构。
+- description focuses on fixed architecture, avoiding scene-specific props for consistency
+[Agent 1][AgentThink] 我已分析了所有16个拍摄地点的数据。故事背景为明代官宦家庭，涉及高家、沈家及后期江南宅院。我会为每个地点生成视觉档案，重点融入提供的props、events和情感峰值。时代风格统一为“明代中晚期官宦府邸”或变体（医馆为医馆风格，江南为江南园林风格）。我将按顺序生成JSON对象草稿，先发前4个给你审核，然后继续。需要确保visual_reference是详细的中文AI提示词，description详细空间布局。
+- era_style set to "明代中晚期官宦府邸" for Gao family locations, adjusted for Jiangnan scenes
+- location list finalized with 16 entries, each with unique era_style and type (interior/exterior)
+- type assigned based on location: interior for halls and rooms, exterior for courtyards and outdoor scenes like 马球会场
+[Agent 1][AgentThink] 以下是完整JSON数组草稿（16个地点）。我已根据props、events、time_variations和小说段落调整了每个地点的描述，确保visual_reference适合Midjourney/Stable Diffusion等AI工具（详细中文提示），description聚焦空间布局和装饰，era_style具体化，color_palette 4个色调。检查后如需修改告诉我，我可以优化特定地点。输出严格此JSON格式。
+Finalizing visual details- visual_reference includes lighting atmosphere like "柔和自然光" and avoids modern elements for consistency
+[Agent 3][AgentThink] 作为影视美术指导，我已经分析了所有16个拍摄地点的数据。故事背景为明代官宦家庭（含江南风格后期），我将为每个地点创建详细视觉档案。重点提取了建筑风格（明代木结构、雕花家具、屏风等）、光线（日光透过窗棂或烛光）、色彩（红木棕、深红、金、青绿）、并结合props和情绪。 
+
+我准备生成完整的JSON数组。是否需要我先提供前5个地点的草稿让你审查，或直接生成全部16个？如果直接生成，我会确保每个visual_reference都是优化过的中文AI提示词（包含风格、布局、细节、光影），并严格符合规则。 
+
+确认故事时代：明代中晚期（官帽、凤冠霞帔、马球、和离书等元素支持）。
+[Agent 2][AgentThink] 我开始构建JSON数组。以下是前几个地点的草稿，请审核风格一致性，特别是visual_reference要详细中文提示，便于AI生成一致场景。时代统一明代官宦。 
+
+[
+  {
+    "location_id": "loc_001",
+    "name": "高家正堂",
+    "type": "interior",
+    "era_style": "明代中晚期官宦府邸正堂",
+    "description": "高家正堂为典型明代官宦主厅，空间宽敞高挑，采用抬梁式木构架，梁柱粗壮雕刻祥云瑞兽图案。中央设红木罗汉床和八仙桌，两侧对称摆放太师椅与茶几。墙面悬挂书法卷轴、官衔匾额，侧面立有绣屏风。地面铺青砖，木窗糊白纸。陈设包含媒人礼单、官帽、木雁聘礼、茶盏及金银绸缎箱笼，体现家族地位。",
+    "visual_reference": "明代中晚期官宦府邸正堂内部，宽敞庄严大厅，高耸木梁精雕花纹，中央红色罗汉床与对称八仙桌椅，墙上挂官帽和书法匾额，侧有屏风，青砖地面，木格窗透入柔和自然光，桌上散落茶盏、礼单和绸缎箱笼，古朴大气细节丰富，写实风格，电影级光影",
+    "visual_prompt_negative": "现代家具、西方装饰、电灯、霓虹灯、卡通风格、模糊、低分辨率、人物过多",
+    "atmosphere": "庄严肃穆、紧张对峙",
+    "color_palette": ["深木褐", "朱红", "米黄", "金赭"],
+    "lighting": "白天柔和自然光从纸窗均匀洒入，营造庄重氛围",
+    "key_features": ["雕花罗汉床", "对称太师椅", "官帽与礼单"],
+    "narrative_scenes": ["scene_001", "scene_014"],
+    "scene_count": 2,
+    "time_variations": ["day"],
+    "emotional_range": "从提亲仪式的正式庄重到对峙冲突的紧张压抑"
+  }
+]
+
+下一个是高令宁闺房，你要我继续生成所有16个还是逐个？
+- common negative prompt: "现代建筑, 汽车, 霓虹灯, 西方服装, 塑料制品, 电灯, 高层建筑, 玻璃窗"
+- era_style tailored to specific locations, e.g., "明代江南私家院落雪景" for outdoor Jiangnan scenes
+Extending to all locations- Generate detailed visual archives for all 16 locations, ensuring strict JSON format with no extra text
+[Agent 1][AgentThink] [
+  {
+    "location_id": "loc_001",
+    "name": "高家正堂",
+    "type": "interior",
+    "era_style": "明代中晚期官宦府邸正厅",
+    "description": "宽敞对称的明代官宦正堂，中央设有红木罗汉床和八仙桌，两侧排列太师椅，后方大型雕花屏风，墙壁悬挂书法卷轴、官府匾额和祖先画像，地面青砖铺设，梁柱精美木雕，空间高大庄重，适合正式会客和家庭对峙场景。",
+    "visual_reference": "明代官宦府邸正堂室内，宽敞对称大厅，中央罗汉床与雕花红木桌椅，两侧太师椅整齐排列，墙上挂有书法字画和'忠孝传家'匾额，后方精致落地屏风，青砖地面，高耸木梁，纸窗透光，庄严肃穆古风氛围，细节丰富写实，古代中国明代风格",
+    "visual_prompt_negative": "现代家具、霓虹灯、西方元素、电灯泡、卡通风格、金属材质、明亮LED灯",
+    "atmosphere": "庄严、紧张、对峙",
+    "color_palette": ["深红", "金棕", "木褐", "墨黑"],
+    "lighting": "柔和自然日光从侧窗洒入，形成庄重明暗对比",
+    "key_features": ["罗汉床", "家族匾额", "雕花屏风"],
+    "narrative_scenes": ["scene_001", "scene_014"],
+    "scene_count": 2,
+    "time_variations": ["day"],
+    "emotional_range": "媒人提亲的正式张力到父亲拒绝对峙的激烈冲突"
+  },
+  {
+    "location_id": "loc_002",
+    "name": "高令宁闺房",
+    "type": "interior",
+    "era_style": "明代官宦小姐闺阁",
+    "description": "精致私密的女子闺房，中央有雕花木床和绣花屏风，一侧妆台配铜镜和梳妆用品，桌上摆放父亲奏折，茶几旁有茶盏，墙上挂丝绸挂画，空间温馨雅致却带书卷气，窗外可能有花园光影。",
+    "visual_reference": "明代官宦小姐闺房内部，精致木床与绣花屏风分隔空间，妆台铜镜反射柔光，桌上散落奏折和书卷，茶盏摆放优雅，丝绸窗帘和挂画装饰，木质家具细腻雕花，温暖私密氛围，日光透过窗棂照射",
+    "visual_prompt_negative": "现代化妆品、塑料物品、明亮荧光灯、西方卧室风格",
+    "atmosphere": "私密、压抑、决绝",
+    "color_palette": ["粉木", "浅绿", "暖黄", "丝绸红"],
+    "lighting": "柔和日光透过纸窗，营造温馨却略带忧郁的光影",
+    "key_features": ["妆台铜镜", "绣花屏风", "父亲奏折"],
+    "narrative_scenes": ["scene_002"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "父亲质问到女主坚持嫁人的冷笑情绪转折"
+  },
+  {
+    "location_id": "loc_003",
+    "name": "医馆门外",
+    "type": "exterior",
+    "era_style": "明代街边医馆门脸",
+    "description": "传统明代医馆入口，木质门框上挂'医馆'或药名招牌，门前有路边柳树，地面青石板，旁有药包放置处，整体古朴简洁，医馆内隐约可见药柜，适合街头拦人谈判场景。",
+    "visual_reference": "明代古风医馆门外街景，木质招牌悬挂'悬壶济世'或医馆名，门前柳树摇曳，青石板地面，药包靠墙放置，建筑为青砖灰瓦，传统门楼结构，日光照射下略带尘土氛围",
+    "visual_prompt_negative": "现代车辆、招牌霓虹、混凝土建筑",
+    "atmosphere": "街头、紧张、谈判",
+    "color_palette": ["青灰", "木棕", "柳绿", "土黄"],
+    "lighting": "明亮白天自然光，柳树投下斑驳树影",
+    "key_features": ["医馆招牌", "路边柳树", "药包"],
+    "narrative_scenes": ["scene_003"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "恨意翻涌的四目相对"
+  },
+  {
+    "location_id": "loc_004",
+    "name": "马球会场",
+    "type": "exterior",
+    "era_style": "明代郊外马球场",
+    "description": "开阔的马球场地，沙地为主，旁有柳池水面，远处可见葡萄架和风筝飘飞，场边有观众席或遮阳棚，马场围栏，沙尘飞扬，适合贵族娱乐活动。",
+    "visual_reference": "明代马球会场广阔场景，沙尘飞扬的马场，旁有柳池清澈水面，葡萄盘摆放，空中风筝飞舞，马球杆散落，贵族服饰人物，春日明亮阳光，动态古风氛围",
+    "visual_prompt_negative": "现代体育场、汽车、塑料物品",
+    "atmosphere": "热闹、嫉妒、沙尘",
+    "color_palette": ["沙黄", "柳绿", "天蓝", "葡萄紫"],
+    "lighting": "明亮白天阳光，沙尘中略带朦胧",
+    "key_features": ["柳池", "马场沙尘", "葡萄盘"],
+    "narrative_scenes": ["scene_004"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "亲近与目睹宠溺的嫉妒交织"
+  }
+]
+- Adjust era_style for exteriors like "明代街头医馆" and Jiangnan scenes to "明代江南私家院落雪景" for accuracy
+[Agent 1][AgentThink] 以下是loc_005到loc_016的JSON对象续接。请将我之前发的loc_001-004与此合并成完整数组。每个都仔细匹配了时间、光线、props和情绪。确保JSON有效。
+- Compile full JSON array by extending draft patterns for consistency across all entries
+- Tailor visual_reference to include specific lighting and atmosphere, e.g., "黄昏柔和余晖" for outdoor scenes
+- Ensure emotional_range reflects narrative shifts, like "从哄药泪眼到跪求让步的疲倦释然" for medical interiors
+Refining Jiangnan exteriors- Tailor era_style for outdoor Jiangnan scenes to "明代江南私家院落雪景" with snow-covered courtyards and bare trees
+- Adjust visual_reference for high family halls to include "桌椅对称，茶盏摆放，和离书预备" for consistency in tense scenes
+- Incorporate era-specific props like "喜烛" and "红绸" in visual_reference for wedding halls to enhance festive yet tense atmosphere
+- Refine emotional_range for产房 to "早产难产到保大人落泪" capturing tension and relief
+- Enhance visual_reference for江南卧房 with "窗外雷雨夜景" to emphasize stormy, intimate atmosphere
+Finalizing JSON consistency- Harmonize visual_reference length and detail across all entries, matching Harper's concise style
+
+</think>
+[
+  {
+    "location_id": "loc_001",
+    "name": "高家正堂",
+    "type": "interior",
+    "era_style": "明代中晚期官宦府邸正厅",
+    "description": "宽敞对称的明<think>
+- Output complete JSON array with confidence score appended
+
+</think>
+代官宦正堂，中央设有红木罗汉床和八仙桌，两侧排列太师椅，后方大型雕花屏风，墙壁悬挂书法卷轴、官府匾额和祖先画像，地面青砖铺设，梁柱精美木雕，空间高大庄重，适合正式会客和家庭对峙场景。",
+    "visual_reference": "明代官宦府邸正堂室内，宽敞对称大厅，中央罗汉床与雕花红木桌椅，两侧太师椅整齐排列，墙上挂有书法字画和'忠孝传家'匾额，后方精致落地屏风，青砖地面，高耸木梁，纸窗透光，庄严肃穆古风氛围，细节丰富写实，古代中国明代风格",
+    "visual_prompt_negative": "现代家具、霓虹灯、西方元素、电灯泡、卡通风格、金属材质、明亮LED灯",
+    "atmosphere": "庄严、紧张、对峙",
+    "color_palette": ["深红", "金棕", "木褐", "墨黑"],
+    "lighting": "柔和自然日光从侧窗洒入，形成庄重明暗对比",
+    "key_features": ["罗汉床", "家族匾额", "雕花屏风"],
+    "narrative_scenes": ["scene_001", "scene_014"],
+    "scene_count": 2,
+    "time_variations": ["day"],
+    "emotional_range": "媒人提亲的正式张力到父亲拒绝对峙的激烈冲突"
+  },
+  {
+    "location_id": "loc_002",
+    "name": "高令宁闺房",
+    "type": "interior",
+    "era_style": "明代官宦小姐闺阁",
+    "description": "精致私密的女子闺房，中央有雕花木床和绣花屏风，一侧妆台配铜镜和梳妆用品，桌上摆放父亲奏折，茶几旁有茶盏，墙上挂丝绸挂画，空间温馨雅致却带书卷气，窗外可能有花园光影。",
+    "visual_reference": "明代官宦小姐闺房内部，精致木床与绣花屏风分隔空间，妆台铜镜反射柔光，桌上散落奏折和书卷，茶盏摆放优雅，丝绸窗帘和挂画装饰，木质家具细腻雕花，温暖私密氛围，日光透过窗棂照射",
+    "visual_prompt_negative": "现代化妆品、塑料物品、明亮荧光灯、西方卧室风格",
+    "atmosphere": "私密、压抑、决绝",
+    "color_palette": ["粉木", "浅绿", "暖黄", "丝绸红"],
+    "lighting": "柔和日光透过纸窗，营造温馨却略带忧郁的光影",
+    "key_features": ["妆台铜镜", "绣花屏风", "父亲奏折"],
+    "narrative_scenes": ["scene_002"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "父亲质问到女主坚持嫁人的冷笑情绪转折"
+  },
+  {
+    "location_id": "loc_003",
+    "name": "医馆门外",
+    "type": "exterior",
+    "era_style": "明代街边医馆门脸",
+    "description": "传统明代医馆入口，木质门框上挂'医馆'或药名招牌，门前有路边柳树，地面青石板，旁有药包放置处，整体古朴简洁，医馆内隐约可见药柜，适合街头拦人谈判场景。",
+    "visual_reference": "明代古风医馆门外街景，木质招牌悬挂'悬壶济世'或医馆名，门前柳树摇曳，青石板地面，药包靠墙放置，建筑为青砖灰瓦，传统门楼结构，日光照射下略带尘土氛围",
+    "visual_prompt_negative": "现代车辆、招牌霓虹、混凝土建筑",
+    "atmosphere": "街头、紧张、谈判",
+    "color_palette": ["青灰", "木棕", "柳绿", "土黄"],
+    "lighting": "明亮白天自然光，柳树投下斑驳树影",
+    "key_features": ["医馆招牌", "路边柳树", "药包"],
+    "narrative_scenes": ["scene_003"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "恨意翻涌的四目相对"
+  },
+  {
+    "location_id": "loc_004",
+    "name": "马球会场",
+    "type": "exterior",
+    "era_style": "明代郊外马球场",
+    "description": "开阔的马球场地，沙地为主，旁有柳池水面，远处可见葡萄架和风筝飘飞，场边有观众席或遮阳棚，马场围栏，沙尘飞扬，适合贵族娱乐活动。",
+    "visual_reference": "明代马球会场广阔场景，沙尘飞扬的马场，旁有柳池清澈水面，葡萄盘摆放，空中风筝飞舞，马球杆散落，贵族服饰人物，春日明亮阳光，动态古风氛围",
+    "visual_prompt_negative": "现代体育场、汽车、塑料物品",
+    "atmosphere": "热闹、嫉妒、沙尘",
+    "color_palette": ["沙黄", "柳绿", "天蓝", "葡萄紫"],
+    "lighting": "明亮白天阳光，沙尘中略带朦胧",
+    "key_features": ["柳池", "马场沙尘", "葡萄盘"],
+    "narrative_scenes": ["scene_004"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "亲近与目睹宠溺的嫉妒交织"
+  },
+  {
+    "location_id": "loc_005",
+    "name": "柳池旁",
+    "type": "exterior",
+    "era_style": "明代园林柳池边",
+    "description": "幽静园林柳池，池水清澈，岸边垂柳低垂，石径小路环绕，旁有草坪与石凳，池边柳枝拂水，空间诗意私密，适合意外相遇与肌肤接触场景。",
+    "visual_reference": "明代园林柳池旁场景，池边柳枝随风轻拂，池水反射夕阳，石径小路铺青石，女主绣鞋散落池边，沈词衣袖近景，绿意盎然黄昏氛围，写实古风细节丰富",
+    "visual_prompt_negative": "现代园林景观、霓虹灯、塑料装饰、混凝土路面",
+    "atmosphere": "诗意、疏离、讥讽",
+    "color_palette": ["柳绿", "水蓝", "金黄", "土褐"],
+    "lighting": "黄昏柔和余晖，池面反射温暖光影",
+    "key_features": ["池边柳枝", "石径小路", "绣鞋"],
+    "narrative_scenes": ["scene_005"],
+    "scene_count": 1,
+    "time_variations": ["dusk"],
+    "emotional_range": "女主疏离后退的尴尬与讥讽"
+  },
+  {
+    "location_id": "loc_006",
+    "name": "医室",
+    "type": "interior",
+    "era_style": "明代医馆内室",
+    "description": "医馆内室狭窄整洁，中央塌床铺锦被，旁置药碗与茶盏，木柜存放药材，绣屏风分隔空间，梁柱简朴，适合病人休养与情感对话。",
+    "visual_reference": "明代医馆内室，塌上锦被柔软铺陈，药碗茶盏置于木几，屏风半掩，药材柜隐现，柔和日光透过纸窗，安静药香古风氛围，细节写实",
+    "visual_prompt_negative": "现代医疗器械、白色瓷砖墙、荧光灯",
+    "atmosphere": "安静、病弱、护佑",
+    "color_palette": ["药白", "木褐", "锦红", "青绿"],
+    "lighting": "白天柔和窗光，略带药香暖意",
+    "key_features": ["塌上锦被", "药碗", "屏风"],
+    "narrative_scenes": ["scene_006", "scene_007"],
+    "scene_count": 2,
+    "time_variations": ["day"],
+    "emotional_range": "从哄药泪眼到跪求让步的疲倦释然"
+  },
+  {
+    "location_id": "loc_007",
+    "name": "沈家婚堂",
+    "type": "interior",
+    "era_style": "明代官宦婚礼正堂",
+    "description": "沈家婚礼正堂宽敞喜庆，地面铺红毯，中央拜堂位设香案，两侧高烧喜烛，墙饰红绸与喜字，空间华丽正式，适合成亲对拜仪式。",
+    "visual_reference": "明代官宦婚堂内部，红毯铺地中央拜堂，喜烛红光摇曳，凤冠霞帔与红盖头置于案上，红绸满壁装饰，庄重喜庆明代古风，光影温暖",
+    "visual_prompt_negative": "现代婚礼灯饰、西方教堂元素、塑料花",
+    "atmosphere": "喜庆、心不在焉",
+    "color_palette": ["大红", "金黄", "黑红", "木褐"],
+    "lighting": "白天自然光混喜烛暖光",
+    "key_features": ["拜堂红毯", "喜烛", "红盖头"],
+    "narrative_scenes": ["scene_008"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "盖头下无悲无喜的平静"
+  },
+  {
+    "location_id": "loc_008",
+    "name": "新房",
+    "type": "interior",
+    "era_style": "明代官宦新婚洞房",
+    "description": "新婚洞房私密浪漫，中央喜床铺锦被与丝带，红烛高照，旁设水盆与妆台，墙挂红绸，空间温馨却带压抑，适合亲密与打断场景。",
+    "visual_reference": "明代新婚洞房，喜床锦被华丽铺陈，红烛摇曳映照丝带与水盆，红绸满室，夜色窗外，温暖烛光亲密氛围，细节精美写实",
+    "visual_prompt_negative": "现代卧室家具、LED灯、玻璃窗",
+    "atmosphere": "亲密、讥诮、打断",
+    "color_palette": ["喜红", "烛黄", "锦金", "深褐"],
+    "lighting": "夜晚温暖红烛光，映照喜庆红调",
+    "key_features": ["喜床锦被", "红烛", "丝带"],
+    "narrative_scenes": ["scene_009"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "催促困倦到讥诮的亲密冲突"
+  },
+  {
+    "location_id": "loc_009",
+    "name": "沈府厅堂",
+    "type": "interior",
+    "era_style": "明代官宦府邸厅堂",
+    "description": "沈府厅堂正式对称，中央桌椅摆放茶盏，墙挂扇子与择婿名单，木雕梁柱简洁，空间用于家事讨论，氛围正式却带释然。",
+    "visual_reference": "明代沈府厅堂，木桌椅对称排列，茶盏与扇子、择婿名单置于桌上，雕花装饰简雅，日光透过窗棂，正式古风氛围",
+    "visual_prompt_negative": "现代办公家具、荧光灯",
+    "atmosphere": "正式、失笑、释然",
+    "color_palette": ["木褐", "茶绿", "红褐", "金"],
+    "lighting": "白天柔和日光",
+    "key_features": ["择婿名单", "茶盏", "扇子"],
+    "narrative_scenes": ["scene_010"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "建议纳妾被拒到怀孕消息的释然"
+  },
+  {
+    "location_id": "loc_010",
+    "name": "高家厢房",
+    "type": "interior",
+    "era_style": "明代官宦府邸厢房",
+    "description": "高家厢房私密侧室，床榻略显凌乱，衣物散放，茶盏置于几上，空间紧凑昏暗，适合意外发现秘密场景。",
+    "visual_reference": "明代高家厢房，床榻散乱衣物堆叠，茶盏倾倒，木门半掩，昏暗自然光，紧张发现氛围，细节写实明代风格",
+    "visual_prompt_negative": "整洁现代卧室、明亮灯光",
+    "atmosphere": "混乱、震惊",
+    "color_palette": ["暗褐", "衣红", "木黄", "灰"],
+    "lighting": "白天自然光略暗",
+    "key_features": ["厢房床榻", "散乱衣物", "茶盏"],
+    "narrative_scenes": ["scene_011"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "女主心惊的发现震惊"
+  },
+  {
+    "location_id": "loc_011",
+    "name": "高家厅堂",
+    "type": "interior",
+    "era_style": "明代官宦府邸厅堂",
+    "description": "高家厅堂与正堂相近但稍小，桌椅对称，茶盏摆放，和离书预备于桌，木柱雕花，适合激烈对质与争执。",
+    "visual_reference": "明代高家厅堂，桌椅整齐对称，茶盏与和离书置于中央，雕花门窗，柔和日光，紧张对质古风氛围",
+    "visual_prompt_negative": "现代家具、霓虹装饰",
+    "atmosphere": "对质、气愤、发颤",
+    "color_palette": ["木褐", "茶黄", "红", "黑"],
+    "lighting": "白天自然光",
+    "key_features": ["和离书", "桌椅", "茶盏"],
+    "narrative_scenes": ["scene_012"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "对质哭诉到女主扇耳光的激烈"
+  },
+  {
+    "location_id": "loc_012",
+    "name": "产房",
+    "type": "interior",
+    "era_style": "明代官宦府邸产房",
+    "description": "临时产房私密压抑，产床铺垫，稳婆药包与血巾散放，襁褓准备一旁，烛光昏黄，空间局促适合难产抉择。",
+    "visual_reference": "明代产房内部，产床凌乱血巾，稳婆药包与襁褓放置，烛光昏黄映照，紧张压抑明代古风，细节真实",
+    "visual_prompt_negative": "现代医院设备、白色墙面",
+    "atmosphere": "痛苦、落泪、选择",
+    "color_palette": ["血红", "烛黄", "白布", "木褐"],
+    "lighting": "夜晚昏黄烛光",
+    "key_features": ["产床", "血巾", "襁褓"],
+    "narrative_scenes": ["scene_013"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "早产难产到保大人落泪"
+  },
+  {
+    "location_id": "loc_013",
+    "name": "高家后院",
+    "type": "exterior",
+    "era_style": "明代官宦府邸后院",
+    "description": "高家私密后院，雕花木门通往厢房，石径环绕，庭院简洁，适合跪求与争执场景，和离书与襁褓可置于门前。",
+    "visual_reference": "明代高家后院庭院，雕花木门半开，和离书与昭昭襁褓置于石阶，青砖墙与石径，日光照射紧张氛围，写实古风",
+    "visual_prompt_negative": "现代庭院景观、彩灯",
+    "atmosphere": "恳求、坚持、拒绝",
+    "color_palette": ["青灰", "木红", "绿", "白"],
+    "lighting": "白天自然光",
+    "key_features": ["雕花木门", "和离书", "昭昭襁褓"],
+    "narrative_scenes": ["scene_015", "scene_016"],
+    "scene_count": 2,
+    "time_variations": ["day"],
+    "emotional_range": "跪求不可置信到拼命摇头拒绝"
+  },
+  {
+    "location_id": "loc_014",
+    "name": "高家宴厅",
+    "type": "interior",
+    "era_style": "明代官宦府邸宴厅",
+    "description": "高家宴厅宽敞明亮，宴席桌椅排列，酒盏与请帖摆放，昭昭襁褓可置一侧，适合宴请与告白场景。",
+    "visual_reference": "明代高家宴厅，宴席桌摆酒盏与请帖，昭昭襁褓旁置，红木家具与雕花装饰，日光充足释然氛围，细节丰富",
+    "visual_prompt_negative": "现代餐厅灯具、西方餐具",
+    "atmosphere": "宴席、震惊、疏离",
+    "color_palette": ["酒红", "木褐", "金", "白"],
+    "lighting": "白天自然光",
+    "key_features": ["宴席酒盏", "昭昭襁褓", "请帖"],
+    "narrative_scenes": ["scene_017"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "告白重生到女主震惊疏离"
+  },
+  {
+    "location_id": "loc_015",
+    "name": "江南院落雪地",
+    "type": "exterior",
+    "era_style": "明代江南私家院落雪景",
+    "description": "江南民居院落雪地，雕花院门与青砖墙，雪覆盖石径与地面，珠宝典籍礼盒堆放，适合三年后雪球嬉戏场景。",
+    "visual_reference": "明代江南院落雪景，雪覆盖青砖地面与雕花院门，珠宝典籍礼盒堆放，雪球飞舞，冬日灰白光线，诗意雪景古风细节",
+    "visual_prompt_negative": "现代雪景设施、彩灯装饰",
+    "atmosphere": "雪景、阴沉、沉下",
+    "color_palette": ["雪白", "木黑", "红礼", "灰蓝"],
+    "lighting": "白天阴沉雪光，柔和漫反射",
+    "key_features": ["江南院门", "雪球", "珠宝礼盒"],
+    "narrative_scenes": ["scene_018"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "沈词来访沉下脸色的阴沉"
+  },
+  {
+    "location_id": "loc_016",
+    "name": "江南卧房",
+    "type": "interior",
+    "era_style": "明代江南民居卧房",
+    "description": "江南卧房雅致简洁，中央卧床铺锦被与枕头被子，窗外可见雷雨景，空间温馨私密，适合夜间纠缠表白。",
+    "visual_reference": "明代江南卧房内部，卧床锦被整齐，枕头被子堆叠，窗外雷雨夜景可见，烛光温暖映照，亲密古风氛围，细节写实",
+    "visual_prompt_negative": "现代卧室家具、LED灯、玻璃窗",
+    "atmosphere": "亲密、纠缠、表白",
+    "color_palette": ["锦蓝", "木褐", "烛黄", "雨灰"],
+    "lighting": "夜晚雷雨窗光混烛光",
+    "key_features": ["卧床锦被", "枕头被子", "窗外雷雨"],
+    "narrative_scenes": ["scene_019"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "爬床纠缠到似哭似笑贴背"
+  }
+]

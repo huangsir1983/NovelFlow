@@ -1,0 +1,331 @@
+[
+  {
+    "id": "shot_0832",
+    "scene_id": "scene_054",
+    "shot_number": 1,
+    "goal": "建立深夜卧房的封闭秩序与冷色边界，预示私人空间即将被侵入。",
+    "composition": "WS，机位置于房门内侧偏外，门框形成前景遮挡，画面右侧为宽大床榻，锦被凌乱但仍有余温；左侧窗棂斜切入月光，在地面与床沿形成冷色光带。床帐半垂，床内侧隐约可见另一名夫婿的轮廓，但不完全明示。背景暗处留出通往床边的空地，构成潜在入侵路径。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压抑、安静、带礼法切割感的不安",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 832
+  },
+  {
+    "id": "shot_0833",
+    "scene_id": "scene_054",
+    "shot_number": 2,
+    "goal": "以女主近景主观感建立睡眠中的脆弱状态，并把注意力集中到床榻边界。",
+    "composition": "MCU，机位贴近高令宁枕侧，女主面部位于画面右侧三分之一，侧卧半隐在被褥中，前景是散乱的锦被边缘与一缕乌发；背景虚化中可见床沿冷白月光。画面左侧留出一片模糊黑暗，作为未知闯入方向。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众先与女主站在一起，感受睡梦中的不设防",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.22,
+    "order": 833
+  },
+  {
+    "id": "shot_0834",
+    "scene_id": "scene_054",
+    "shot_number": 3,
+    "goal": "揭示床边有人上榻的动作，但保持不完全确认，制造主观惊悚感。",
+    "composition": "CU，低机位对准床沿，画面下部是垂落的床褥与月光切出的亮边，左侧一只男子手掌按上床沿，随后衣袍下摆与膝盖进入画面。人物脸不入镜，只见黑色衣料侵入温软被褥的质地对比。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "越界、突兀、令人本能排斥",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 834
+  },
+  {
+    "id": "shot_0835",
+    "scene_id": "scene_054",
+    "shot_number": 4,
+    "goal": "以女主醒来的主观受惊反应，把闯入与惊醒直接绑定。",
+    "composition": "CU，女主猛然睁眼，眼睛位于画面中心偏上，枕侧阴影压住半张脸；前景有一角被掀动的被面从镜头下缘划过，形成被惊扰的即时感。背景仍虚，未完全看清来人。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "惊醒后的戒备与冒犯感",
+    "duration_hint": "1-1.5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 835
+  },
+  {
+    "id": "shot_0836",
+    "scene_id": "scene_054",
+    "shot_number": 5,
+    "goal": "完成‘女主先知—观众后证实’，从她的视角认出闯入者是沈词。",
+    "composition": "MCU，女主主观POV，沈词半跪半伏在床外侧，位于画面左中部，脸被月光劈出冷白，一半仍陷在阴影里；床帐边缘和被角作为前景框住他，构图挤压，突出他已跨入不该进入的位置。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "确认后的厌恶大于恐惧",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 836
+  },
+  {
+    "id": "shot_0837",
+    "scene_id": "scene_054",
+    "shot_number": 6,
+    "goal": "用最直接的身体动作确立高令宁的边界：她不是退，而是踹。",
+    "composition": "MS，侧拍床榻外沿，高令宁位于画面右侧迅速抬腿，腿部从被中踢出形成强斜线；沈词在左侧刚抬头即被踹中，身体失衡向后。前景是凌乱锦被，背景是月光地带，动作线清晰可读。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "痛快、凌厉、关系彻底失衡",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 837
+  },
+  {
+    "id": "shot_0838",
+    "scene_id": "scene_054",
+    "shot_number": 7,
+    "goal": "交代踹落结果，并将沈词的狼狈与床榻的高低差视觉化。",
+    "composition": "MLS，机位略低，床榻占据画面右上，沈词跌坐到画面左下的地面月光带里，衣袍散乱，脸色发白。高低落差明显，床榻像一道不可逾越的界线。背景门口暗处为空，隐含退路。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "羞辱、失控后的卑微",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 838
+  },
+  {
+    "id": "shot_0839",
+    "scene_id": "scene_054",
+    "shot_number": 8,
+    "goal": "通过对白首次正面点名，明确这不是误会而是越界闯入。",
+    "composition": "CU，高令宁坐起身，位于画面右侧，眉头紧蹙，眼尾微红但克制，月光只照到她半边脸；左侧留黑，仿佛她视线里仍有污秽之物。被褥滑落至肩下，暴露出失序的一瞬。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "锋利、嫌恶、毫不留情",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.8,
+    "order": 839
+  },
+  {
+    "id": "shot_0840",
+    "scene_id": "scene_054",
+    "shot_number": 9,
+    "goal": "引入床上另一名夫婿，形成三人关系的现实压迫与替代事实。",
+    "composition": "MS，床内侧的夫婿从画面深处坐起，占据左后景；高令宁在右前景半侧身，二人形成前后层次。夫婿伸手将她肩头滑落的锦被掖好，动作克制、熟悉、合礼。床外侧留一条空隙通向沈词所在位置，形成被排除的第三者视角。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "冷静却致命的现实打脸，亲密资格已被他人占据",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 840
+  },
+  {
+    "id": "shot_0841",
+    "scene_id": "scene_054",
+    "shot_number": 10,
+    "goal": "给沈词反应镜头，让观众看见他的仓皇与自我说服尚未停止。",
+    "composition": "MCU，沈词站起于床边，位于画面左侧，背后是窗棂月光，脸色病白；右侧前景虚化着床帐与被缘，像一道挡在他和床上二人之间的帘幕。他目光向右上方抬，视线指向高令宁。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "可怜中带危险，失控仍在硬撑体面",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 841
+  },
+  {
+    "id": "shot_0842",
+    "scene_id": "scene_054",
+    "shot_number": 11,
+    "goal": "呈现沈词借关心之名为闯入寻找理由，暴露其自欺与偏执。",
+    "composition": "MCU，维持沈词轴线，人物居中稍偏左，肩背微弓，手还扶着床沿边缘未完全撤开；背景窗棂斜线与他身体形成交叉压迫。说“打雷了”时，远处残留雷声衔接室外，强化借口的苍白。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到荒唐、窒息，不被他的温柔说辞欺骗",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 842
+  },
+  {
+    "id": "shot_0843",
+    "scene_id": "scene_054",
+    "shot_number": 12,
+    "goal": "以高令宁的回应一刀切断他的理由，并用现实中的‘有人陪’完成关系反转。",
+    "composition": "CU，高令宁转脸看向床内侧再回视床外，人物位于画面右侧，左侧前景是夫婿掖好的被角，形成无声证词。她眼神平直，嘴角无起伏，几乎不把沈词放入情绪范围。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷硬、判决式的否定",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 843
+  },
+  {
+    "id": "shot_0844",
+    "scene_id": "scene_054",
+    "shot_number": 13,
+    "goal": "将三人同框压迫构图具体化，让‘替代者已在场’成为视觉事实。",
+    "composition": "MLS，侧向横构图。右侧床上高令宁半坐，夫婿在她身后近旁；左侧床下沈词站在月光里。床沿横贯画面中段，像礼制和身份的分界线。三人视线不相接成三角断裂结构，沈词被孤立在冷光区。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "压迫、羞耻、关系上无法回头的明确化",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 844
+  },
+  {
+    "id": "shot_0845",
+    "scene_id": "scene_054",
+    "shot_number": 14,
+    "goal": "表现沈词最后的本能挽留动作：想抓住她，却连触碰资格都没有。",
+    "composition": "CU，聚焦手部。画面左下沈词的手从暗处伸入，画面右上高令宁的手腕迅速撤回，被角顺势掠过。两只手之间留出一段清晰空隙，最终只抓到空气。背景虚化成冷白月光与深色床褥。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "刺痛、落空、不可挽回",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 845
+  },
+  {
+    "id": "shot_0846",
+    "scene_id": "scene_054",
+    "shot_number": 15,
+    "goal": "以最短最硬的逐客令终结这场越界，完成场内权力归位。",
+    "composition": "CU，高令宁正面略偏侧，眼神向镜头外左侧压过去，颈侧淡痕在月光边缘若隐若现。构图极简，背景压黑，仅保留一点床帐线条。她说“你走吧”时不提高声量，反而更冷。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "决绝、不可谈判",
+    "duration_hint": "1.5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 846
+  },
+  {
+    "id": "shot_0847",
+    "scene_id": "scene_054",
+    "shot_number": 16,
+    "goal": "给沈词一个失神停顿，展示他被彻底排除后的空白与崩塌。",
+    "composition": "MCU，沈词立于床边不动，位于画面中央偏左，眼神失焦；前景右侧模糊的床帐和被褥像一道柔软却不可穿越的墙。背景窗棂冷光将他脸色照得更白，肩线微塌。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "失重、难堪、偏执短暂失去支点",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.73,
+    "order": 847
+  },
+  {
+    "id": "shot_0848",
+    "scene_id": "scene_054",
+    "shot_number": 17,
+    "goal": "完成离开的动作，强调他不是被理解后退场，而是被驱逐出界。",
+    "composition": "MLS，机位仍在床榻一侧，保持方向一致。沈词从画面右中部转身，沿着先前留下的空地向左后方门口走去；床榻和高令宁留在右侧前景虚焦中，不再给他任何回应。门框再次形成出口构图，与开场呼应。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "冷、空、带着失败者退场的余痛",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.48,
+    "order": 848
+  },
+  {
+    "id": "shot_0849",
+    "scene_id": "scene_054",
+    "shot_number": 18,
+    "goal": "以回冷收尾，让卧房恢复秩序，但观众记住这次侵入留下的裂痕。",
+    "composition": "MS，回到床榻内侧。高令宁坐在右侧，夫婿在她近旁，替她将被子重新拢实后停住手。二人都不追看门口，左侧背景只剩半开的门与一道渐暗的月光。空间恢复安静，却比开场更冷硬。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "短暂回冷、余波未平、边界被重新封死",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 849
+  }
+]

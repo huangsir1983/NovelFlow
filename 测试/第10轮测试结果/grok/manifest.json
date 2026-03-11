@@ -1,0 +1,59 @@
+{
+  "version": "mode_c_v2",
+  "generated_at": "2026-03-10T17:23:50",
+  "summary": {
+    "characters": 8,
+    "narrative_scenes": 14,
+    "locations": 14,
+    "props_total": 14,
+    "props_major": 0,
+    "props_minor": 14,
+    "variants": 13
+  },
+  "directories": {
+    "characters": "characters/",
+    "narrative_scenes": "narrative_scenes/",
+    "locations": "locations/",
+    "props": "props/",
+    "variants": "variants/"
+  },
+  "files": {
+    "timeline": "narrative_scenes/_timeline.json",
+    "location_index": "locations/_index.json",
+    "props_index": "props/prop_index.json",
+    "manifest": "manifest.json"
+  },
+  "cost": [
+    {
+      "stage": "2A_locations",
+      "model": "grok-4.20-beta",
+      "input_tokens": 0,
+      "output_tokens": 6125,
+      "elapsed_s": 60.08
+    },
+    {
+      "stage": "3_variants",
+      "character": "高令宁",
+      "model": "grok-4.20-beta",
+      "input_tokens": 0,
+      "output_tokens": 3809,
+      "elapsed_s": 49.15
+    },
+    {
+      "stage": "3_variants",
+      "character": "沈词",
+      "model": "grok-4.20-beta",
+      "input_tokens": 0,
+      "output_tokens": 5866,
+      "elapsed_s": 53.55
+    },
+    {
+      "stage": "3_variants",
+      "character": "陆姝仪",
+      "model": "grok-4.20-beta",
+      "input_tokens": 0,
+      "output_tokens": 6130,
+      "elapsed_s": 53.83
+    }
+  ]
+}

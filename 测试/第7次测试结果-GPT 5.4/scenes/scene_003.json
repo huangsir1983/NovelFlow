@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "id": "scene_003",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:37:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_004",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 卧房 - 夜",
+    "location": "高府卧房",
+    "time_of_day": "night",
+    "description": "封闭的内室，光线昏暗，案上烛火将墙面映出摇晃的影子。室内陈设简朴，案几上散着文书与未收起的笔墨，夜色压低气氛。高父一夜未眠，面容疲惫，眼角皱纹更深。",
+    "action": "高父坐在案前，声音低沉地改口反对婚事，抬眼看向高令宁，手指压着案面，语气由权衡转为担忧。高令宁站在一旁，沉默望着父亲脸上的皱纹，视线短暂停滞，像是被某段痛苦记忆攫住，没有立刻回应。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "沈家势大，只怕你嫁过去会受委屈。",
+        "subtext": "我不再看重门第利益，只担心你嫁入强势人家后无法自保。"
+      },
+      {
+        "character": "高父",
+        "line": "为父生养你十余年，不求你高嫁为家族争光，但求你觅得良人，平安喜乐度过此生。",
+        "subtext": "我愿放下家族盘算，只求你一生平安。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "烛台",
+      "案几",
+      "笔墨",
+      "文书"
+    ],
+    "dramatic_purpose": "建立父女关系与婚事阻力，交代高父从权衡门第转向保护女儿的动机。",
+    "tension_score": 0.42,
+    "dramatic_intensity": -0.16,
+    "order": 3
+  }
+}

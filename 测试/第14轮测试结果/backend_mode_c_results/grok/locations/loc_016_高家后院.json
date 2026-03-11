@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_016",
+  "name": "高家后院",
+  "type": "exterior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "后院私密庭院，假山绿植环绕，中央石桌摆和离书，适合闯入争执与原谅场景。",
+  "visual_reference": "明代中晚期江南官宦世家府邸后院外部，私密小庭院，假山绿植环绕，中央石桌摆和离书，木廊连接，背景白墙，日光洒落古典幽静",
+  "visual_prompt_negative": "现代花园、喷泉、霓虹",
+  "atmosphere": "争执释怀、摇头不愿",
+  "color_palette": [
+    "石灰白",
+    "绿植色",
+    "和离白"
+  ],
+  "lighting": "白天柔和庭院光，幽静自然",
+  "key_features": [
+    "假山石桌",
+    "和离书陈设",
+    "后院绿植"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词闯入争和离书到女主原谅却不愿的脊背弯下摇头"
+}

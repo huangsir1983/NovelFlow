@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "第三次提亲，父亲应下婚事",
+  "key_dialogue": "无妨。",
+  "emotional_peak": "父亲愁容与女主淡笑",
+  "tension_score": 0.5,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "聘礼箱"
+  ],
+  "dramatic_purpose": "正式进入婚礼阶段",
+  "source_text_start": "媒人第三次上门提亲。",
+  "source_text_end": "隔着盖头，我能看见他平静的侧脸。无悲无喜。"
+}

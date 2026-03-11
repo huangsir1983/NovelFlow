@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0690",
+    "shot_id": "shot_0680",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, Song dynasty aesthetics, in close-up on the left side of the frame, his cheek lightly pressed against a woman's hand, pausing mid-breath, eyes shifting from stunned stillness to softened grief, lips slightly parted, carrying sour tenderness and lingering guilt. Gao Lingning's hand appears as a soft foreground silhouette on the right, belonging to a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. Blurred bed curtains and a faint candle flame re-emerge in the enclosed chamber behind them, shallow depth of field, low-saturation warm-cool contrast, amber candlelight mixed with dim cold window spill, softened dreamlike haze, compressed intimate space, side backlight and curtain occlusion creating an unreal yet painful memory atmosphere. cinematic realism, highly detailed historical drama still, subtle film grain, restrained color palette, emotional close framing",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, faint amber candlelight with dim cold ambient window light, soft side backlight, dreamy enclosed interior haze"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass windows, modern furniture, text, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0691",
+    "shot_id": "shot_0681",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies weakly on the right side of the bed, her hand lingering in midair before slowly falling back; Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, Song dynasty aesthetics, kneels on the left near the bed edge, posture straight yet exhausted, looking toward her with helpless restraint and unresolved longing. A small porridge bowl sits untouched on the bedside table, steam almost gone, half-veiled bed drapes in the foreground, the chamber seen in a medium long shot from the bedside profile, cold lattice-window light growing stronger in the background while the candle is nearly spent, old wood, gauze curtains, enclosed noble bedchamber. Low-saturation gray-blue, dark wood brown, and fading amber tones, static suspended dream ending, side light and curtain obstruction emphasize distance between mother and son, cinematic realism, delicate texture, subtle melancholy, historical drama still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cooler window light overtaking fading amber candlelight, low-saturation warm-cool contrast, soft side light, dim enclosed interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, metal bed frame, modern bowls, text, watermark, logo, low quality, bad anatomy, distorted perspective, oversaturated colors"
+  },
+  {
+    "id": "sp_0692",
+    "shot_id": "shot_0620",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, sits upright in the host seat at the right rear of the hall with layered depth behind him; Shen Mother, a stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, stands at the left-middle area not yet fully seated, facing the host position along a clear axis of confrontation, posture controlled but disadvantaged. Full shot, symmetrical composition, an empty guest chair and untouched teacup in the left foreground creating pressure, main seat elevated in the right background, doorframe, beams, and wooden pillars dividing the noble reception hall into strict depth planes. Daylight enters diagonally from the left rear doorway, casting lattice shadows across the floor and pillars, cool natural light against muted interior wood tones, sparse austere Song-dynasty aristocratic hall, low-saturation gray-blue, dark wood brown, and restrained teal palette. cinematic realism, formal spatial order, rigid etiquette atmosphere, highly detailed historical interior, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool natural daylight slanting from doorway, low-saturation interior shadows, lattice-shadow contrast, restrained warm-cool balance"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lights, modern architecture, plastic, text, watermark, logo, low quality, low resolution, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0693",
+    "shot_id": "shot_0621",
+    "prompt_text": "Shen Mother, a stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, placed in the left third of the frame in medium shot, slightly turned to the right toward her unseen counterpart, forcing a strained polite smile, fingers pressing into the folds of her skirt or the edge of the chair, maintaining dignity while suppressing humiliation and resistance. The blurred rim of a teacup and table corner occupy the foreground, behind her stand a cold wooden pillar and an empty chair, emphasizing etiquette and social imbalance in the noble main hall. Soft cool daylight from the side mixes with dim reflected interior warmth, low-saturation palette of gray-green, maroon, and old wood brown, clean negative space, subtle forward dolly feeling translated into intimate tension, realistic texture, restrained emotional pressure, cinematic historical drama portrait",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft cool side daylight with muted interior bounce, low-saturation warm-cool contrast, controlled shadow on facial lines"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern makeup, contemporary furniture, electric lights, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0694",
+    "shot_id": "shot_0622",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, in medium close-up on the right third of the frame, body turned left, sitting still before speaking, gaze hard and immovable, jaw set, brows casting shadow over his eyes, an untouched teacup resting at the lower foreground edge. Behind him, a dark host-seat screen or deep-toned wall forms a heavy background, side backlight outlining the gray at his temples while his brow ridge and nasolabial folds fall into shadow, reinforcing an unyielding bottom line. Noble main hall interior, low-saturation teal, charcoal, and old wood tones, cool daylight cut from behind his shoulder with restrained ambient warmth, dense contrast, austere Song-dynasty atmosphere. cinematic realism, highly detailed character portrait, severe etiquette pressure, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool side backlight with dense shadow modeling, low-saturation contrast, restrained interior fill light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern tableware, electric lights, contemporary design, text, watermark, logo, low quality, bad anatomy, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0695",
+    "shot_id": "shot_0623",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, in medium shot seated on the right side and speaking toward the left, posture composed and unmoving, thin lips tightened, expression polite yet cutting, delivering a threat with controlled calm. A horizontal desk slices across the lower edge of the frame, an untouched teacup fixed in place to create a suffocating pause, while a large area of empty space on the left points toward the unseen Shen Mother. Daylight cuts from the rear side across his shoulder line, emphasizing the edge of his robe and face while much of the hall remains in cool shadow, formal aristocratic reception room with dark wood, restrained decor, strict Song-dynasty etiquette atmosphere. Low-saturation gray-blue, dark teal, wood brown, and faint amber undertones, blade-like courtesy under cold pressure, cinematic realism, highly detailed historical drama still, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool rear-side daylight cutting across shoulder and face, subdued interior shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lights, plastic, modern cups, text, watermark, logo, low quality, blurry, bad anatomy, oversaturated colors"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "id": "scene_036",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:35:32"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_008",
+    "characters_present": [
+      "高令宁",
+      "沈母"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 高令宁房中 - DAY",
+    "location": "沈府高令宁房中",
+    "time_of_day": "day",
+    "description": "开春时节的内室，窗外天光明亮柔和，室内通风，带有养胎时的安静与谨慎。床榻、屏风、诊脉用的小几摆放妥当。空间私密，气氛却被一纸诊断拉出宿命感。高令宁坐着伸出手腕，衣袖微挽。",
+    "action": "沈母带太医入内。太医隔着脉枕为高令宁诊脉，垂目细听后起身回禀，确认有孕且是男胎。沈母闻言神色一松，显出对嫡孙的满意。高令宁坐在原处，听到结果后动作短暂停住，视线凝在自己小腹或诊脉的手腕上，没有喜色，只是安静地消化这与前世重合的事实。",
+    "dialogue": [
+      {
+        "character": "沈母",
+        "line": "请太医仔细瞧瞧。",
+        "subtext": "她在确认子嗣，也在确认这个媳妇此刻的价值。"
+      },
+      {
+        "character": "沈母",
+        "line": "男胎？那便好。",
+        "subtext": "她最在意的是沈家血脉与继承。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈母"
+    ],
+    "key_props": [
+      "脉枕",
+      "屏风",
+      "床榻"
+    ],
+    "dramatic_purpose": "引入‘有孕’与‘男胎’信息，制造与前世完全重合的宿命感，为后续和离选择增加现实重量与悬念。",
+    "tension_score": 0.63,
+    "order": 36
+  }
+}

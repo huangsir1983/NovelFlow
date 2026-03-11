@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府内院 - DAY",
+  "location": "沈府庭院与厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈母"
+  ],
+  "core_event": "陆姝仪婚事迫近，沈词为择婿焦头烂额。高令宁忽然提出不如把她秘密纳进府中，等自己和离后扶正，表现出真正的厌倦与放下。",
+  "key_dialogue": "等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。",
+  "emotional_peak": "高令宁首次真心松手，不再执着拆散二人，反让沈词情绪复杂。",
+  "tension_score": 0.74,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "折扇",
+    "婚配名帖",
+    "衣袖"
+  ],
+  "dramatic_purpose": "标记女主心境变化：从报复转向抽离。",
+  "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他总嫌薄了",
+  "source_text_end": "从始至终，我只是想要她余生顺遂，是你一直扭"
+}

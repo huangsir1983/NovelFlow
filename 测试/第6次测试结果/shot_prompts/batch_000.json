@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0024",
+    "shot_id": "shot_0041",
+    "prompt_text": "A formal ancestral hall scene in ancient China: Shen Mu, a stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, sits elevated at the upper center background; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, is seated at the lower right; behind her stands Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, kneels at the lower center holding a tea cup and saucer with both hands. Everyone's attention converges on the kneeling woman, Gao Lingning remains rigid and humiliated, Shen Mu presides with silent authority, Shen Ci stands still without intervening. A spacious noble mansion main hall with dark wooden beams, pillars and door frames forming oppressive vertical lines, a corner of a tea table in the foreground, empty floor space emphasized, diagonal side window light slicing across the ground, low-saturation gray-blue, old wood brown, dark black and amber highlights, restrained red accents kept minimal. Cinematic historical drama realism, symmetrical wide shot, static camera, ritualistic power structure, oppressive and humiliating atmosphere, highly detailed, filmic texture, subtle grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, diagonal side window light, soft amber interior fill, cold daylight cutting through dark wooden hall, framed shadows from beams and doorways"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, glass windows, plastic, contemporary makeup, text, watermark, logo, low quality, blurry, deformed hands, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0025",
+    "shot_id": "shot_0042",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, occupies the right third of the frame in medium close-up. Her back and shoulders are held perfectly straight, her jaw is slightly tense, her gaze cuts toward the lower left, anger and humiliation barely suppressed before losing control. In the blurred foreground, the edge of Lu Shuyi's elegant updo and the rim of a raised tea cup pass across the frame, turning the scene into Gao Lingning's suffocating subjective perception. Behind her, dark Shen family wooden architecture recedes into shadow with a single cold line of daylight; side light strikes her cheek, revealing a collision of flush, pallor, and hard shadow. Low-saturation warm-cool contrast, dark wood, gray-blue shadows, faint amber interior undertone, no more than a trace of red. Cinematic historical realism, intimate subjective tension, shallow depth of field, emotional compression, highly detailed skin and fabric, filmic texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, subjective historical drama realism, film grain",
+      "lighting": "cold side daylight against dim amber interior, strong cheek side-light, low-saturation warm-cool contrast, deep wooden shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern interiors, plastic, contemporary hairstyle, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0026",
+    "shot_id": "shot_0043",
+    "prompt_text": "Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, kneels at the center-left of the frame in a slightly high-angle medium shot. She raises a tea cup with both hands to chest level, her posture thin and contained, sleeves plain and subdued, her expression soft yet painfully exposed. At the bottom foreground, the blurred hem of Gao Lingning's muted white and dark teal robe intrudes, while above and behind, the legs of Shen Mu's chair and the edge of a tea table press down visually from the top, creating a layered sense of hierarchy and entrapment. The hall is dark with old wooden textures, cool daylight filtering from the side and faint amber interior glow, low saturation gray-blue and brown palette, restrained ceremonial red almost absent. Cinematic historical drama realism, subjective pressure, compressed vertical space, elegant but hostile ritual atmosphere, highly detailed, film grain, realistic fabric and porcelain texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "soft side daylight with dim amber interior bounce, low-saturation warm-cool contrast, top-down visual pressure through shadowed furniture framing"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, plastic, text, watermark, logo, low quality, blurry, bad anatomy, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0027",
+    "shot_id": "shot_0044",
+    "prompt_text": "Shen Mu, a stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, sits upright slightly left of center in medium close-up. Her gaze presses downward, lips tightly set, one hand resting motionless on the chair arm, calm and merciless, making clear that the tea ritual is deliberate and controlled. In the lower right foreground, the blurred silhouette of a kneeling figure and a lifted tea cup intrude into frame, emphasizing her silent sanction. Behind her, a tall chair back and screen create rigid vertical lines of authority, enclosing her in dark wood and muted brocade. Low-saturation warm-cool contrast dominates: cool daylight edges, old wood browns, gray-blue shadows, restrained amber highlights, a faint maroon richness in the robe without excess saturation. Cinematic historical realism, oppressive authority, ritual discipline, sharp portrait detail, filmic grain, highly detailed textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, portrait-focused historical drama realism, film grain",
+      "lighting": "controlled side light with cool daylight edge and subdued amber interior fill, low-saturation warm-cool contrast, shadow-heavy background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, contemporary furniture, plastic, text, watermark, logo, low quality, blurry, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0028",
+    "shot_id": "shot_0045",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands on the left side of the frame in medium close-up. His posture is perfectly straight, his eyes lowered toward the off-screen lower right, his lips tightened without action, conveying restraint that reads as betrayal and coercion from Gao Lingning's perspective. A blurred streak of red sleeve passes through the foreground, hinting at Gao Lingning's position and agitation. The background is made of a shadowed hall pillar and deep interior darkness, splitting his face into half light and half shadow. The color palette remains low-saturation gray-blue, old wood brown, deep black, with only a small red accent in the foreground. Cinematic historical drama realism, emotionally dangerous stillness, subjective disappointment, high-detail facial tension, film grain, realistic silk and wood textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "half-lit face with cool side daylight and deep shadow, low-saturation warm-cool contrast, minimal amber bounce from interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary costume details, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0029",
+    "shot_id": "shot_0046",
+    "prompt_text": "A close-up of a porcelain tea cup and saucer centered in the frame, held by Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression. Her slender fingers are tense and turning pale from pressure, the surface of the tea trembles slightly, freezing the instant before emotional collapse. In the blurred background, the dark teal and white robe front and knee-line silhouette of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, can be seen as an ominous presence. Diagonal side light catches the rim of the cup, making the white porcelain and tea color feel brittle and precarious against the dark hall. Low-saturation warm-cool contrast, cool daylight with faint amber interior undertone, old wood shadows, restrained palette with almost no red. Cinematic historical realism, tactile close-up, suspended breath, pre-eruption tension, highly detailed porcelain, liquid, and fabric texture, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, macro-like historical drama realism, film grain",
+      "lighting": "diagonal side daylight highlighting porcelain rim, dim amber interior fill, low-saturation warm-cool contrast, shadowed background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern cups, plastic, text, watermark, logo, low quality, blurry, bad anatomy, deformed hands, oversaturated colors"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 高家闺房 - 白日",
+  "location": "高家屋内",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲"
+  ],
+  "core_event": "回屋后父亲质问我为何羞辱沈词，我回忆少女时的倾慕与婚后的噩梦，明确表示自己仍一定要嫁。",
+  "key_dialogue": "「我一定要嫁。」",
+  "emotional_peak": "我明知婚姻是火坑，却为了前世未竟之事主动踏入。",
+  "tension_score": 0.76,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "发钗旧忆",
+    "婚事决定",
+    "父亲劝告"
+  ],
+  "dramatic_purpose": "交代女主复杂动机：并非爱，而是带着恨意与目的重新进入这场婚姻。",
+  "visual_reference": "闺房中父亲焦躁踱步，女子坐在窗边神色冷静，回忆与现实交错，气氛压抑。",
+  "visual_prompt_negative": "不要现代卧室，不要过亮糖水风，不要夸张哭喊，不要二次元风格。",
+  "source_text_start": "回到屋内。父亲绕着我转圈，不理解极了：「你发",
+  "source_text_end": "「谁说我不想嫁？」父亲愣住了。我低声说：「我一定要嫁。」"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩可爱，阳光开朗",
+    "body": "幼童圆润",
+    "hair": "丫髻",
+    "distinguishing_features": "明亮笑眼"
+  },
+  "costume": {
+    "typical_outfit": "稚童锦袄",
+    "color_palette": [
+      "粉红",
+      "嫩黄"
+    ]
+  },
+  "casting_tags": [
+    "可爱女童",
+    "活泼女儿"
+  ],
+  "visual_reference": "古代可爱小女孩，粉嫩面容明亮笑眼，丫髻发式，身穿粉红稚童锦袄，堆雪或捧花姿态，温暖庭院光影，写实",
+  "visual_prompt_negative": "成年，忧郁表情",
+  "personality": "活泼开朗",
+  "desire": "父母陪伴",
+  "flaw": "年幼无辜",
+  "arc": "出生后成为和离焦点",
+  "scene_presence": "出生后及江南场景出场",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "温馨依恋",
+      "function": "推动和离与重逢"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "渴望父爱",
+      "function": "男主纠缠理由"
+    }
+  ]
+}

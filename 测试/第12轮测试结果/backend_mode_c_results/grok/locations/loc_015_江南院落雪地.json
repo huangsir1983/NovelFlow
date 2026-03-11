@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_015",
+  "name": "江南院落雪地",
+  "type": "exterior",
+  "era_style": "明代江南私家院落雪景",
+  "description": "江南民居院落雪地，雕花院门与青砖墙，雪覆盖石径与地面，珠宝典籍礼盒堆放，适合三年后雪球嬉戏场景。",
+  "visual_reference": "明代江南院落雪景，雪覆盖青砖地面与雕花院门，珠宝典籍礼盒堆放，雪球飞舞，冬日灰白光线，诗意雪景古风细节",
+  "visual_prompt_negative": "现代雪景设施、彩灯装饰",
+  "atmosphere": "雪景、阴沉、沉下",
+  "color_palette": [
+    "雪白",
+    "木黑",
+    "红礼",
+    "灰蓝"
+  ],
+  "lighting": "白天阴沉雪光，柔和漫反射",
+  "key_features": [
+    "江南院门",
+    "雪球",
+    "珠宝礼盒"
+  ],
+  "narrative_scenes": [
+    "scene_018"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词来访沉下脸色的阴沉"
+}

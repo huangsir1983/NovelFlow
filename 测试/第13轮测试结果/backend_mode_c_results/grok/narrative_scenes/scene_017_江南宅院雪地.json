@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "EXT. 江南宅院雪地 - 日",
+  "location": "江南宅院雪地",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "昭昭",
+    "沈词",
+    "赘婿们"
+  ],
+  "core_event": "三年后沈词来江南，见赘婿候选吃醋",
+  "key_dialogue": "他们是谁？我的新夫婿。",
+  "emotional_peak": "沈词脸沉阴沉冷笑",
+  "tension_score": 0.75,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "雪球"
+  ],
+  "dramatic_purpose": "男主嫉妒与新生活对比",
+  "source_text_start": "一晃三年过去。昭昭已经能蹦能跳，唐诗三百首倒背如流。",
+  "source_text_end": "沈词脸沉了下来。他找到在旁悠哉嗑子的我，冷声道：「他们是谁？」"
+}

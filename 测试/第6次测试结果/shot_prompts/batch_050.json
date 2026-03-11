@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0306",
+    "shot_id": "shot_0776",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. Extreme close-up of her eye and half of her face, gaze slightly lowered to the right, eyelashes almost motionless, lips pressed with the slightest downward tension, the faint scar on the side of her neck catching a thin side light for an instant, her emotion frozen rather than broken. Background fully dissolved into mixed cool and warm bokeh, the world receding into abstract light, only her judgment remaining. Low-saturation warm-cool contrast, restrained aristocratic interior mood, cinematic realism, ultra-detailed skin texture, shallow depth of field, static frame, tense psychological drama.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, ultra-detailed, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, narrow side light with amber candle glow and cool ambient shadow, soft background bokeh, high contrast close-up"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry face, deformed eyes, extra facial features, bad anatomy, contemporary makeup, modern hairstyle, plastic texture, neon lighting, overexposed highlights"
+  },
+  {
+    "id": "sp_0307",
+    "shot_id": "shot_0777",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, Song dynasty aesthetic; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears. Medium long shot, static axis, Shen Ci positioned center-left, half kneeling yet lifting his head to speak toward Gao Lingning, publicly protective and resolute, Lu Shuyi sheltered at his chest in the lower right, Gao Lingning standing complete in the upper left but partially cut by a doorway or curtain edge, Jiang Sheng one half-step behind her, clear spatial hierarchy of upper and lower positions and verbal power collision through depth. Aristocratic interior with dark wood, doorway framing, muted gray-blue and old brown tones, amber candlelight colliding with cool shadow, low-saturation pressure-filled atmosphere. Cinematic historical realism, layered blocking, emotionally charged tableau, sharp focus on power dynamics, film still quality.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, carefully staged composition",
+      "lighting": "low-saturation warm-cool contrast, side-back candlelight with cool ambient fill, doorway shadow compression, restrained amber highlights in a dark interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, bad anatomy, extra limbs, cropped heads, contemporary clothing, electric lights, modern furniture, plastic skin, exaggerated fantasy effects, oversaturated colors"
+  },
+  {
+    "id": "sp_0308",
+    "shot_id": "shot_0778",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears; in the distant foreground blur, Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, and Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, Song dynasty aesthetic. Medium shot, Gao Lingning placed on the left third, standing perfectly straight, gaze steady yet emotionally detached, Jiang Sheng blurred behind her, the right side held in large negative space with the dark blurred silhouettes of Shen Ci and Lu Shuyi leaning close in the foreground but no longer the focus, a doorway shadow pressing against Gao Lingning's shoulder, only a thin boundary of cool and warm light tracing her cheek. Quiet aftermath, dangerous stillness, restrained tension. Low-saturation warm-cool contrast, noble mansion interior, cinematic realism, shallow depth of field, suspenseful emotional containment, elegant film composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, shallow depth of field",
+      "lighting": "low-saturation warm-cool contrast, doorway shadow, narrow cheek light at the boundary of cool ambient light and warm candlelight, subdued interior illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry main subject, bad anatomy, extra limbs, modern decor, electric fixtures, contemporary fabrics, oversaturated palette, fantasy glow, cartoon style"
+  },
+  {
+    "id": "sp_0309",
+    "shot_id": "shot_0287",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, Song dynasty aesthetic. Wide shot of a pavilion memory scene, pavilion placed in the middle right, lotus pond and broad lotus leaves filling the left side and lower foreground, cold bright reflections flickering on the water at the bottom of frame, Gao Lingning standing inside the pavilion on the left interior side with a straight back facing right, Lu Shuyi on the far right near the railing with a relaxed posture, pavilion pillars and railings creating vertical and horizontal divisions that separate the two women across the same space, a deliberate gap between them emphasizing psychological distance. Bright yet chilly daylight, graceful garden architecture, calm surface with hidden pressure. Flashback mood with brightness reduced slightly, stronger contrast and denser shadows, low-saturation warm-cool opposition, cinematic realism, elegant spatial storytelling, crane-shot feeling, refined historical drama atmosphere.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, Song dynasty aesthetic",
+      "lighting": "soft natural daylight with cool water reflections, slightly lowered flashback brightness, denser shadows, restrained warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, bad anatomy, modern garden design, plastic textures, contemporary railing, neon colors, overprocessed HDR, fantasy architecture"
+  },
+  {
+    "id": "sp_0310",
+    "shot_id": "shot_0288",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, Song dynasty aesthetic. Medium long shot from over Gao Lingning's shoulder, limited subjective perspective, the left foreground blurred into Gao Lingning's cool-toned shoulder, neck, and hairline, Lu Shuyi placed in the right third, leaning against the pavilion railing in half profile, composed and unsettlingly calm, lotus leaves and shimmering water behind her, soft daylight outlining her silhouette, railing diagonals leading toward her and creating a pressured subjective line of sight. Quiet verbal confrontation in a refined pavilion by the lotus pond, bright memory atmosphere with hidden chill. Low-saturation warm-cool contrast, slightly dimmed flashback treatment, cinematic realism, shallow depth of field, elegant but oppressive composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, over-shoulder composition",
+      "lighting": "soft natural daylight with cool reflected water light, slightly lowered flashback exposure, gentle rim light, restrained contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, bad anatomy, distorted perspective, contemporary clothing, modern hair accessories, electric lighting, urban background, oversaturated greens, anime style"
+  },
+  {
+    "id": "sp_0311",
+    "shot_id": "shot_0289",
+    "prompt_text": "Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, Song dynasty aesthetic. Medium close-up, centered slightly to the right, her right hand lightly resting on the pavilion railing entering the lower foreground, blurred lotus blossoms and bright water behind her on the left rear, a faint smile on her lips, eyes directed toward the camera with gentle certainty and quiet superiority, side-front natural light illuminating her face, moving water reflections softly gliding over the front of her robe. Pavilion by the lotus pond, calm and graceful exterior with a hidden blade beneath her tenderness. Low-saturation warm-cool contrast, slightly dimmed flashback look, cinematic realism, delicate fabric detail, subtle emotional menace, refined historical portrait.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, portrait close-up",
+      "lighting": "soft side-front natural daylight with cool water reflections, slightly lowered flashback brightness, gentle contrast, clean facial modeling"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, bad anatomy, extra fingers, contemporary makeup, modern jewelry, plastic skin, harsh studio light, oversaturated pink, fantasy effects"
+  }
+]

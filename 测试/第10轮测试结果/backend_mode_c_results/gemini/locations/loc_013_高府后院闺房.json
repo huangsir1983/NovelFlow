@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_013",
+  "name": "高府后院闺房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸内宅",
+  "description": "女主产后休养的闺房，布置清雅。阳光透过雕花木门洒在地上。桌上放着醒目的和离书，旁边是婴儿的襁褓。房间里透着一种尘埃落定的宁静。",
+  "visual_reference": "Interior of a serene ancient Chinese boudoir in the backyard. Sunlight streaming through intricately carved wooden doors. A formal divorce document (calligraphy on paper) and a baby's swaddle on the table. Peaceful, settled atmosphere, clean composition, 8k.",
+  "atmosphere": "宁静、决绝、尘埃落定",
+  "color_palette": [
+    "#DCDCDC",
+    "#F5DEB3",
+    "#000000"
+  ],
+  "lighting": "明亮清透的日间自然光，光线勾勒出人物和道具的清晰轮廓。",
+  "key_features": [
+    "桌上的和离书",
+    "婴儿襁褓",
+    "雕花木门"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "平静微笑着原谅，对比男主脊背弯折的彻底崩溃。"
+}

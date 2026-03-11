@@ -1,0 +1,47 @@
+{
+  "name": "高父",
+  "aliases": [
+    "爹爹",
+    "父亲"
+  ],
+  "role": "supporting",
+  "age_range": "40-50",
+  "appearance": {
+    "face": "慈祥，眼角有皱纹",
+    "body": "中等身材，微胖",
+    "hair": "灰白相间",
+    "distinguishing_features": "总是带着担忧女儿的神情，发怒时极具威严"
+  },
+  "costume": {
+    "typical_outfit": "四品文官服或居家常服",
+    "color_palette": [
+      "褐色",
+      "暗红"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "护女狂魔",
+    "老戏骨"
+  ],
+  "visual_reference": "A middle-aged ancient Chinese official, kind face with wrinkles, wearing brown hanfu, protective and loving expression.",
+  "personality": "疼爱女儿，开明，护短，有决断力",
+  "desire": "女儿平安喜乐，不受委屈",
+  "flaw": "初期对权贵有一定妥协心理",
+  "arc": "从希望女儿高嫁，到看清沈家面目，坚决辞官并支持女儿和离招赘",
+  "scene_presence": "提亲，辞官，难产，对峙沈家，江南生活",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "女儿",
+      "dynamic": "无条件支持与保护",
+      "function": "提供爽点与避风港"
+    },
+    {
+      "target": "沈词",
+      "type": "前女婿",
+      "dynamic": "从满意到极度厌恶并扫地出门",
+      "function": "阻断男主追妻之路的物理屏障"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_arrogant_official",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 权臣时期",
+  "tags": [
+    "高岭之花",
+    "傲慢",
+    "掌控欲"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_003",
+    "scene_004",
+    "scene_005"
+  ],
+  "trigger": "前期提亲、逼婚及马球场试探阶段，自以为能掌控一切，用冷漠掩饰在意。",
+  "appearance_delta": {
+    "face": "面部表情冷酷讥诮，毫无破绽，眼神充满压迫感",
+    "body": "站姿笔挺，长身玉立，极具文臣的威严",
+    "hair": "束发戴冠，一丝不苟，没有丝毫散乱",
+    "distinguishing_features": "眼下常有疲惫的乌青，但被强硬的气场掩盖"
+  },
+  "costume_override": {
+    "outfit": "考究挺括的文臣常服，大袖衫，材质硬挺，彰显身份与不可侵犯的地位",
+    "color_palette": [
+      "玄色",
+      "藏青"
+    ]
+  },
+  "visual_reference": "1boy, ancient chinese handsome official, jade-like face, cold amber eyes with a mocking gaze, perfectly groomed hair with silver guan (crown), wearing dark blue and black stiff traditional scholar robes, tall, arrogant and oppressive expression, standing upright, masterpiece, highly detailed, 8k resolution",
+  "emotional_tone": "高高在上，傲慢冷漠，充满掌控欲"
+}

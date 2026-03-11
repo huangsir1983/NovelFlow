@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0768",
+    "shot_id": "shot_0752",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, seen from the heroine's point of view with his shoulder and upper back blurred on the left foreground; several young ancient Chinese men gathered in the mid-right around a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body, fine black hair styled in neat little twin buns, wrapped in moon-white and blush pink silk, the men frozen mid-gesture with mixed expressions of surprise and awkwardness; a seated noblewoman remains at the far right edge as a silent dominant presence. Snowy courtyard outside a traditional residence, a visible trail of footprints connecting the doorway to the clustered figures, cold white snow reflecting daylight, dark corridor pillars and old wood architecture framing the space, low-saturation warm-cool contrast with gray-blue, ink-black, aged wood brown and restrained amber undertones, cinematic historical drama realism, medium long shot, slight pan energy, shallow foreground blur, tense visual separation, highly detailed, filmic texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold natural winter daylight on snow with subtle warm-cool contrast, side backlight, soft reflected highlights, restrained low saturation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, electric lights, plastic, glass buildings, cars, phones, contemporary hairstyles, sneakers, text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0769",
+    "shot_id": "shot_0753",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated in the right foreground and not rising; A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, striding in from the left rear toward the right front across the snow, shoulders tense, movement forceful, his steps compressing deep footprints into a strong diagonal advance. In the far background, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body, fine black hair styled in neat little twin buns, wrapped in moon-white and blush pink silk, remains with several halted young men as if stranded in another layer of relationships. Snow-covered courtyard beside a traditional covered corridor, old wooden pillars, cold white ground, sparse winter atmosphere, low-saturation warm-cool palette with gray-blue snow, dark robes, aged wood brown, natural daylight and subtle side backlight, full shot, 180-degree axis maintained, cinematic tension, realistic texture, historical drama quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold winter daylight with side backlight and snow bounce, low-saturation warm-cool contrast, clean natural highlights and soft shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electric lighting, plastic materials, cars, phones, modern makeup, text, watermark, logo, low quality, bad anatomy, extra fingers, distorted body, oversaturated scene"
+  },
+  {
+    "id": "sp_0770",
+    "shot_id": "shot_0754",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, positioned on the right side of the frame in close-up, face turned slightly left, eyes level and unflinching, fingertips lifting a sunflower seed to her lips, the tiny cracking motion enlarged with calm deliberate contempt; a blurred intrusion of a dark robe hem or shoulder enters from the left foreground to show a man has approached. Behind her, cold white snow surface and the dark side of a corridor pillar create stark negative space, winter courtyard of an ancient Chinese residence, low-saturation warm-cool contrast, cold reflected snow light against muted wood shadow, cinematic close-up, static composition, razor-sharp facial detail, subtle film grain, realistic historical drama aesthetics",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, close-up portrait realism, film grain",
+      "lighting": "cold snow-reflected daylight with gentle side light, low-saturation palette, crisp facial modeling, restrained contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern jewelry design, acrylic nails, contemporary cosmetics, text, watermark, logo, low quality, blurry, overexposed, deformed hands, extra limbs, cartoon style"
+  },
+  {
+    "id": "sp_0771",
+    "shot_id": "shot_0755",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in medium close-up on the left side facing right, shoulder line rigid, anger tightly suppressed, gaze fixed intensely toward someone off-screen, eyes dark and on the verge of reddening, jaw tense with restrained jealousy and fear of replacement. In the shallow-focus right background, a faint child figure in pale clothing and a blurred male silhouette remain visible as emotional provocation rather than clear subjects. Ancient Chinese snow courtyard and covered walkway, cold white snow and muted architectural tones, low-saturation warm-cool contrast with gray-blue, ink-black, old wood brown, natural winter daylight with soft side backlight, static reverse-shot composition, cinematic realism, high detail, filmic depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold natural winter daylight, subtle side backlight, soft snow reflection, restrained low-saturation warm-cool balance"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern hairstyle, zippers, plastic fabrics, electric bulbs, text, watermark, logo, low quality, low resolution, blurry eyes, bad anatomy, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0772",
+    "shot_id": "shot_0756",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in medium close-up on the right side facing left, blinking almost imperceptibly, lips nearly expressionless, neck and shoulders upright, not avoiding the stare, one empty sunflower seed shell still in her hand; the blurred black shoulder and back of a man press into the left foreground, creating visual pressure. The background is sparse and pale, with snow-bright emptiness and minimal architectural distraction to isolate her calm dominance, ancient Chinese winter courtyard, low-saturation warm-cool palette, cold daylight, gentle side light and clean negative space, static shot, cinematic realism, refined texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, portrait realism, film grain",
+      "lighting": "cold daylight with snow reflection, soft side light, minimalist high-key background within a low-saturation warm-cool system"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern accessories, electric lighting, plastic objects, text, watermark, logo, low quality, blurry image, bad anatomy, extra limbs, exaggerated expression, anime style"
+  },
+  {
+    "id": "sp_0773",
+    "shot_id": "shot_0757",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, framed in close-up at the right-center, looking steadily to the left, lips sharply defined as she delivers a devastatingly calm answer, expression composed with deliberate cruelty and finality; the blurred shoulder of a man presses in from the left foreground, tightening the confrontation. Behind her, the hard reflective surface of winter snow throws cold light into the frame, with dark corridor shadows and muted old wood tones supporting the scene, ancient Chinese residence courtyard, low-saturation warm-cool contrast, cold daylight with a slight side-back edge, static close-up, cinematic historical drama realism, emotionally cutting stillness, highly detailed skin and fabric texture, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, close-up historical drama realism, film grain",
+      "lighting": "cold snow-reflected daylight with slight side-back edge light, restrained contrast, low-saturation warm-cool palette"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, contemporary set design, electric lamps, plastic, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, malformed face, oversaturated red"
+  }
+]

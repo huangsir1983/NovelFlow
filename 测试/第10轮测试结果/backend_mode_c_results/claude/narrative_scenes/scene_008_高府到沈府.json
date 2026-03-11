@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 高府/沈府 - 日",
+  "location": "高府到沈府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "宾客"
+  ],
+  "core_event": "婚礼仪式,高令宁心不在焉",
+  "key_dialogue": "无",
+  "emotional_peak": "冷漠的婚礼",
+  "tension_score": 0.4,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "花轿",
+    "红盖头",
+    "喜服",
+    "喜烛",
+    "喜字",
+    "宾客礼物"
+  ],
+  "dramatic_purpose": "完成婚礼,气氛冷淡"
+}

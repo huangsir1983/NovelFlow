@@ -1,0 +1,47 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩可爱，圆润小脸",
+    "body": "娇小稚嫩",
+    "hair": "细软童发",
+    "distinguishing_features": "明亮大眼与甜美笑容"
+  },
+  "costume": {
+    "typical_outfit": "绣花小襦裙或襁褓",
+    "color_palette": [
+      "粉红",
+      "嫩黄"
+    ]
+  },
+  "casting_tags": [
+    "可爱女童",
+    "聪明灵动"
+  ],
+  "visual_reference": "一位3岁左右的可爱古代女童，粉嫩圆润小脸明亮大眼，细软童发，身穿粉红色绣花小襦裙，站在江南雪地堆雪球，欢乐姿态，柔和冬光写实风格，高清细节",
+  "visual_prompt_negative": "成年脸、现代童装、哭泣表情、卡通夸张",
+  "personality": "阳光开朗、聪慧活泼",
+  "desire": "父母陪伴",
+  "flaw": "年幼无知",
+  "arc": "从婴儿到活泼女童象征新生",
+  "scene_presence": "出生后、满月宴、江南雪天出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "温柔依恋",
+      "function": "女主新希望"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "被宠爱",
+      "function": "男主追妻纽带"
+    }
+  ]
+}

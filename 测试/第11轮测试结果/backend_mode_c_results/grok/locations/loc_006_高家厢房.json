@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_006",
+  "name": "高家厢房",
+  "type": "interior",
+  "era_style": "明代高家侧厢房",
+  "description": "相对私密的厢房，内设床榻，空间较主厅狭小。房间陈设简单，有衣架和茶具。地面可能有散乱衣物痕迹，适合作为次要卧室或休息空间，氛围较隐秘。",
+  "visual_reference": "Ming dynasty side chamber in official residence, simple wooden bed with disheveled bedding and clothes, tea cups with residue, dimmer interior space with wooden furniture, tense discovery scene atmosphere, detailed historical interior",
+  "visual_prompt_negative": "modern, clean perfect order, bright lights",
+  "atmosphere": "隐秘紧张, 指责风暴",
+  "color_palette": [
+    "暗棕",
+    "浅灰",
+    "残茶褐",
+    "木红"
+  ],
+  "lighting": "白天室内光线稍暗，从侧窗洒入，制造戏剧性阴影",
+  "key_features": [
+    "厢房床榻",
+    "散乱衣物",
+    "茶杯残液"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "发现事件的震惊到沈词冰霜威胁与女主颤抖的激烈冲突"
+}

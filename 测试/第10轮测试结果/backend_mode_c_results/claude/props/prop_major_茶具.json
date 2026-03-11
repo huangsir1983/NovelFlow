@@ -1,0 +1,16 @@
+{
+  "name": "茶具",
+  "category": "container",
+  "description": "青花瓷茶具套装，包含一把圆润茶壶（高12cm）和四只茶杯（直径6cm）。壶身绘有缠枝莲纹，釉面温润光洁，壶嘴微翘，竹制提梁。茶杯薄胎，杯口微外撇，内壁施白釉。整体呈现明清风格，色调以青白为主，青花发色沉稳。",
+  "visual_reference": "Traditional Chinese blue and white porcelain tea set, Ming-Qing dynasty style, round teapot with bamboo handle, lotus scroll pattern, four delicate teacups, white glaze interior, warm lighting, product photography, high detail, ceramic texture",
+  "narrative_function": "建立日常生活场景氛围，可能承载人物间的对话与情感交流时刻，茶具的反复出现暗示某种仪式感或习惯",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_001",
+    "scene_006",
+    "scene_007",
+    "scene_010",
+    "scene_012"
+  ],
+  "emotional_association": "平静、温情、日常仪式感"
+}

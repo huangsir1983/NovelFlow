@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0312",
+    "shot_id": "shot_0302",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in medium close-up on the right side of the frame, body turned left; a brief cold smirk appears before any defense, the corner of his mouth lifting shortly with no smile in his eyes, jaw tightened, sleeves slightly disordered, a hint of embarrassment and wounded pride beneath forced composure. A blurred edge of Gao Lingning's round silk fan sweeps across the foreground as oppressive female POV, with an old wooden cabinet behind him and a slanting beam of natural skylight cutting across the room. Low-saturation warm-cool contrast, gray-blue, dark ink black, aged wood brown, subtle amber traces, side backlight shaping tension, restrained historical drama realism, cinematic photography, shallow depth of field, highly detailed texture, filmic still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, film grain",
+      "lighting": "slanting natural skylight with cool-warm contrast, side backlight, low saturation, old wooden interior ambience"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass office windows, text, watermark, logo, low quality, blurry face, distorted hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0313",
+    "shot_id": "shot_0303",
+    "prompt_text": "Over-shoulder medium shot of Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, positioned on the right in sharp focus; he leans forward slightly, one hand pressing the edge of the table, speaking with controlled resistance, using status and propriety as a shield while his composure already frays. In the left foreground, the blurred back of Gao Lingning's head and shoulder line occupy the frame, creating female subjective pressure. The central writing table divides them like a moral boundary, emphasizing ritual distance and emotional separation. Old noble house interior with muted wood, pale daylight from lattice windows, low-saturation warm-cool palette of gray teal, dark blue-black, old wood brown, restrained cinematic realism, static tension, shallow focus, highly detailed period textures.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, over-shoulder composition, film grain",
+      "lighting": "soft natural window light with cool daylight and faint warm interior bounce, low saturation, spatial division through side light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric fixtures, text, watermark, logo, low quality, low resolution, bad anatomy, deformed hands, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0314",
+    "shot_id": "shot_0304",
+    "prompt_text": "Close-up of Gao Lingning's round silk fan and fingertips, centered slightly left; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, is represented through her cold pale fingers controlling the fan ribs with perfect steadiness. The fan opens and closes slowly, her fingertips white and precise, calm rather than angered, signaling dangerous control. Horizontal wood grain of the table stretches below, while in the blurred background a corner of Shen Ci's dark robe hem is barely visible. Light strikes the fan edge to create a cold blade-like gleam. Low-saturation warm-cool contrast, natural daylight mixed with muted interior amber, elegant Song-style historical realism, macro detail, controlled menace, cinematic close-up, highly textured silk and wood.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic macro photography, historical drama realism, shallow depth of field, film grain",
+      "lighting": "focused side light on fan edge, cool natural daylight with faint warm interior undertone, low saturation, blade-like highlight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary accessories, printed modern patterns, text, watermark, logo, low quality, blurry details, bad anatomy, extra fingers, malformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0315",
+    "shot_id": "shot_0305",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in medium close-up on the left side of the frame from a slightly low angle; her face remains level and unreadable, the round silk fan slowly coming to a stop in her hand, as she calmly delivers a ruthless complete solution with steady oppressive authority. On the right side, negative space holds a faint blurred suggestion of Shen Ci's shoulder line. Behind her, lattice window lines cut diagonally through the background like an invisible cage. Low-saturation warm-cool contrast with gray teal, faded white, dark wood brown, natural daylight preserved for present-tense possibility, restrained cinematic realism, subtle pressure, elegant but dangerous stillness, highly detailed historical interior.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle dolly feel, film grain",
+      "lighting": "soft natural window light with cool daylight dominance, slight warm wood reflection, low saturation, diagonal shadow structure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary makeup, electric lighting, plastic items, text, watermark, logo, low quality, bad anatomy, deformed face, extra fingers, blurry image, oversaturated palette"
+  },
+  {
+    "id": "sp_0316",
+    "shot_id": "shot_0306",
+    "prompt_text": "Extreme close-up of Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, focused on his eyes and upper face, positioned slightly right of center; he lifts his gaze sharply toward the left with a sudden dangerous intensity, silence turning into scrutiny and attack, brow shadow pressing down into the eye sockets, emotion surging under rigid control. A loose strand of black hair lightly crosses the foreground, while the background is fully blurred except for a tiny reflection of window light flickering in his pupils. Low-saturation palette, cool daylight with controlled contrast, severe facial shadow, historical drama realism, razor-sharp eye detail, cinematic tension, shallow depth of field, highly detailed skin texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic extreme close-up, historical drama realism, shallow depth of field, film grain",
+      "lighting": "cool natural window glint in the eyes, deep brow shadow, low-saturation contrast, compressed interior light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contact lenses, modern hairstyle, text, watermark, logo, low quality, blurry eyes, bad anatomy, asymmetrical face distortion, oversaturated colors"
+  },
+  {
+    "id": "sp_0317",
+    "shot_id": "shot_0307",
+    "prompt_text": "Side-view medium long shot of two figures maintaining strict spatial balance: on the left, Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; on the right, Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression. They sit across a central table that cuts the frame like a boundary line. Gao Lingning sits perfectly upright with the slightest smile, her fan stopped mid-stillness; Shen Ci's body is rigid, gaze fixed and unyielding, his sleeve hanging with only a faint downward shift. A blurred screen edge occupies one foreground corner, while window light separates the two into cool and warm zones in the background. Low-saturation warm-cool contrast, gray teal, dark ink, aged wood brown, subtle amber highlights, static silence stretched into pain, cinematic historical realism, almost no motion, highly detailed composition and fabric texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, balanced two-shot, film grain",
+      "lighting": "window light splitting the room into cool and warm zones, low saturation, soft side light with spatial pressure through screen and table divisions"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lamps, text, watermark, logo, low quality, bad anatomy, extra limbs, malformed hands, oversaturated colors, cartoon style"
+  }
+]

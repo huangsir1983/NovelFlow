@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 马球会休息室 - 日",
+  "location": "马球会休息室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪胃病，沈词照顾，高令宁要求陆姝仪出嫁才同意婚事",
+  "key_dialogue": "公子还是先操心好表小姐的婚事，再来提亲吧",
+  "emotional_peak": "对峙与坚持",
+  "tension_score": 0.8,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "药碗"
+  ],
+  "dramatic_purpose": "高令宁坚持底线，陆姝仪哀求",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了。",
+  "source_text_end": "我静静地看着。上一世，他也是这么护着她。"
+}

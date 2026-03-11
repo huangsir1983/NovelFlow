@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "EXT. 高府门前 - 日",
+  "location": "高府门前",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦路谈判，提出处理陆姝仪换女主嫁",
+  "key_dialogue": "我可以嫁，但是你要先处理好那位表小姐。",
+  "emotional_peak": "四目相对恨意满满",
+  "tension_score": 0.8,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "门前石阶",
+    "沈词马匹缰绳",
+    "医馆药包"
+  ],
+  "dramatic_purpose": "确立协议婚姻与陆姝仪冲突根源"
+}

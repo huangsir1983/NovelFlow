@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_005",
+  "name": "沈家内室",
+  "type": "interior",
+  "era_style": "明代沈家私密内室",
+  "description": "温馨的夫妻内室，内有雕花木床或绣榻，旁设绣架供女主刺绣。房间内摆有茶几茶盏，墙边有衣架或柜子。空间亲密舒适，装饰简洁雅致，体现沈家风格，适合日常起居和私密对话。",
+  "visual_reference": "Cozy Ming dynasty private inner chamber of a wealthy family, wooden bed with embroidered items, embroidery frame with tiger hat patterns, tea set on table, soft natural lighting, intimate domestic atmosphere, detailed traditional Chinese interiors",
+  "visual_prompt_negative": "modern elements, clutter, western furniture, blurry",
+  "atmosphere": "亲密温馨, 调侃暧昧",
+  "color_palette": [
+    "暖米白",
+    "木棕",
+    "绣线红绿",
+    "浅灰"
+  ],
+  "lighting": "白天柔和光线从门窗进入，均匀舒适",
+  "key_features": [
+    "绣架虎头帽",
+    "茶盏小几",
+    "雕花门框"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "怀孕日常的温馨到和离话题的意外怔愣与一笑"
+}

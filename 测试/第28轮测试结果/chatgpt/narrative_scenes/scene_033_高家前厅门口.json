@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_033",
+  "order": 32,
+  "heading": "INT. 高家前厅 - night",
+  "location": "高家前厅门口",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "父亲"
+  ],
+  "core_event": "我坚决要求查清真相并威胁敲京兆府登闻鼓，沈词则以“若姝仪再因你而死就杀了你”回敬，我一巴掌扇过去后腹痛发作。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "所有旧恨同时爆炸，我与他真正走到生死敌对的一刻。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 105,
+  "key_props": [
+    "巴掌",
+    "门框",
+    "腹部血色隐痛"
+  ],
+  "dramatic_purpose": "情绪峰值场，直接引发早产。",
+  "visual_reference": "高府前厅门口，女子厉声要查清公道，男子逼近冷眼放狠话，下一瞬巴掌响亮、她面色煞白扶住腹部，父亲刚闯入，场面失控",
+  "visual_prompt_negative": "避免武侠打斗感，避免血腥大出血，避免人物失真表情",
+  "source_text_start": "良久，我深吸一口气：「事情不调查清楚，今日你们谁都别想走。」",
+  "source_text_end": "记忆的最后，父亲踏入门内，脸色一变：「女儿！」"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "minor",
+  "age_range": "20-25岁",
+  "appearance": {
+    "face": "老实憨厚",
+    "body": "习武之人的健壮体格",
+    "hair": "简单束发",
+    "distinguishing_features": "诚恳的眼神"
+  },
+  "costume": {
+    "typical_outfit": "武生服饰",
+    "color_palette": [
+      "深色",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "老实",
+    "武人",
+    "工具人"
+  ],
+  "visual_reference": "honest Chinese martial artist, sturdy build, sincere expression, simple traditional clothing",
+  "personality": "老实本分,被利用后冷漠",
+  "desire": "娶高令宁",
+  "flaw": "被陷害后变得冷酷",
+  "arc": "追求高令宁→被陷害娶陆姝仪→冷待妻子",
+  "scene_presence": "马球会和陷害事件",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "追求者",
+      "dynamic": "爱慕但无缘",
+      "function": "工具人"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "夫妻",
+      "dynamic": "被迫成婚后冷淡",
+      "function": "惩罚陆姝仪"
+    },
+    {
+      "target": "高父",
+      "type": "师生",
+      "dynamic": "尊敬",
+      "function": "关系纽带"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_017",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:08"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府内宅 - 夜",
+    "location": "沈府内宅",
+    "time_of_day": "night",
+    "description": "回到当下视角的内宅，夜色深重，室内安静，烛火稳定。空间与开篇相似，但气氛已从单纯怨恨转为复杂的回看与命运反思。高令宁独处在静默中，像是刚从漫长回忆中抽离。",
+    "action": "高令宁静坐良久，眼神从冷硬逐渐转为恍惚。她缓慢抬手抚过自己的脸，再低头看向掌心，像在确认此刻仍活着、仍能重来的事实。她轻轻吸了一口气，目光重新聚焦，情绪复杂而克制。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "烛台",
+      "桌案"
+    ],
+    "dramatic_purpose": "收束整段回忆，点明“重来一世”的叙事前提，为后续人物选择与关系重构建立动机。",
+    "tension_score": 0.45,
+    "dramatic_intensity": -0.1,
+    "order": 17
+  }
+}

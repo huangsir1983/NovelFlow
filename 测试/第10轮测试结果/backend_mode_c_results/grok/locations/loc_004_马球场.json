@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_004",
+  "name": "马球场",
+  "type": "exterior",
+  "era_style": "明代晚期江南官宦府邸马球场",
+  "description": "开阔的户外马球场地，周围柳池栏杆环绕，设有观众席扶手和看台。地面平坦草坪适合骑马奔驰，旁置葡萄果盘与马球杆，背景可见府邸建筑与树木，空间自由明亮，体现贵族娱乐休闲。",
+  "visual_reference": "Expansive outdoor polo field on a late Ming dynasty Jiangnan official estate, willow-lined pond railings, spectator stands with armrests, flat grassy turf for horseback play, fruit platter tables nearby, distant mansion buildings and trees, bright sunny daylight, aristocratic leisure setting, highly detailed",
+  "atmosphere": "热闹疏离、冷眼对峙",
+  "color_palette": [
+    "翠绿",
+    "土黄",
+    "朱红"
+  ],
+  "lighting": "强烈自然日光照射整个场地，晴朗开阔",
+  "key_features": [
+    "柳池栏杆",
+    "马球杆与扶手",
+    "葡萄果盘台"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "目睹宠溺场景的嫉妒到脚伤后疏离冷眼对峙"
+}

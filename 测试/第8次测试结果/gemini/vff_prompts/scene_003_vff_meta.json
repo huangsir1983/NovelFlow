@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_003",
+  "heading": "EXT. 柳树下 - DAY (FLASHBACK)",
+  "model": "gemini",
+  "vff_text_length": 1972,
+  "shot_count": 8,
+  "cost": {
+    "model": "gemini-3.1-pro",
+    "input_tokens": 4895,
+    "output_tokens": 1360,
+    "elapsed_s": 59.69
+  }
+}

@@ -1,0 +1,297 @@
+[
+  {
+    "id": "shot_0761",
+    "scene_id": "scene_050",
+    "shot_number": 1,
+    "goal": "建立厅堂权力关系与视觉核心：和离书已从口头争执变成无法回避的书面现实。",
+    "composition": "FS，机位略高俯拍。画面中央地面铺开的和离书占据视觉焦点，纸张在冷白日光下发亮；沈词跪于画面下中偏左，身形笔直却显狼狈；高父立于画面上中偏右，借台阶与站姿形成居高临下；右侧边缘压入一名小厮半身作前景遮挡，门框与厅柱在背景中切割空间，强化礼法压迫。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、冰冷、关系已被制度化切断的窒息感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 761
+  },
+  {
+    "id": "shot_0762",
+    "scene_id": "scene_050",
+    "shot_number": 2,
+    "goal": "将和离书从场景元素提升为情节引爆器，明确它是沈词目光与执念的落点。",
+    "composition": "CU，地面平视微低角度。和离书斜置于画面中央偏下，纸边压住地砖缝形成引导线；沈词膝前衣摆与散乱袖角虚化压在前景上缘，高父袍角停在背景上方边缘，人物不露脸，只保留阶级位置的痕迹。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到这张纸比人更有权力，冷硬、无情。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.44,
+    "order": 762
+  },
+  {
+    "id": "shot_0763",
+    "scene_id": "scene_050",
+    "shot_number": 3,
+    "goal": "进入沈词的受压状态，交代他仍试图否认现实并维持体面辩驳。",
+    "composition": "MCU，沈词位于画面左三分之一，仍跪姿，肩背笔直但衣襟微乱；焦点在他枯槁面色与紧盯下方的目光，和离书作为虚焦白块停在画面下前景，高父的深色袍摆压在右侧边缘形成压迫。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "心酸中带不安，感受他克制下的濒临崩裂。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 763
+  },
+  {
+    "id": "shot_0764",
+    "scene_id": "scene_050",
+    "shot_number": 4,
+    "goal": "呈现沈词第一轮辩驳：他试图用‘令宁不会和离’否认高家决定。",
+    "composition": "MCU正反打，镜头立在180度线沈词侧。沈词位于画面右侧，视线朝左上看向高父，背景为冷灰厅柱与虚化屏风；下颌紧绷，喉结轻动，语气沙哑。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "执拗、卑微中的自欺。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 764
+  },
+  {
+    "id": "shot_0765",
+    "scene_id": "scene_050",
+    "shot_number": 5,
+    "goal": "给出高父的情绪基调：不是暴怒，而是更伤人的冷定与不退让。",
+    "composition": "MCU反打。高父位于画面左侧偏中，站姿稳定，俯视画外右侧沈词；背后是厅中留白与一道竖直门框，形成审判式构图。手中尚执和离书一角，位置压在胸前偏下。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "感受长辈的决定已下，门彻底关上。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 765
+  },
+  {
+    "id": "shot_0766",
+    "scene_id": "scene_050",
+    "shot_number": 6,
+    "goal": "推进沈词第二轮辩解：他搬出陆姝仪，试图证明自己已补救错误。",
+    "composition": "MS，沈词仍跪在画面中左，高父站在右前景虚焦形成压顶；沈词抬头幅度不大，像在法度前陈情，手指在膝上微蜷。背景深处保留侧立小厮模糊轮廓，暗示有人准备拦截。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众看到他不是无话可说，而是每句话都太迟。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 766
+  },
+  {
+    "id": "shot_0767",
+    "scene_id": "scene_050",
+    "shot_number": 7,
+    "goal": "捕捉高父无动于衷的听，强调补救并不能抵消伤害。",
+    "composition": "CU，高父半侧脸位于画面右侧，目光平直向左下，眉心川字纹更深；前景左侧以虚焦的沈词肩线切入，形成被审视者视角。背景简净，不给情绪出口。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷、硬、不可协商。",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 767
+  },
+  {
+    "id": "shot_0768",
+    "scene_id": "scene_050",
+    "shot_number": 8,
+    "goal": "推进沈词第三轮辩驳：他改用孩子作为进入高令宁生活的合法理由。",
+    "composition": "MCU，沈词居中略偏左，身体仍直但眼底明显发红，视线终于从和离书抬向高父；画面下沿保留他放在膝上的手，指节发白。背景厅柱纵线像牢笼。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他开始从体面辩驳滑向情感勒索与绝望求留。",
+    "duration_hint": "5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 768
+  },
+  {
+    "id": "shot_0769",
+    "scene_id": "scene_050",
+    "shot_number": 9,
+    "goal": "通过细节显示高父并未被孩子说动，反而准备彻底切断沈词作为‘父亲’的资格。",
+    "composition": "CU，高父的手将和离书向前放低，画面主体是手与纸，脸只占上方三分之一；手势稳，动作轻却决绝。地面砖缝把纸引向画外左下沈词位置。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "决断感，像一纸文书完成了驱逐。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.68,
+    "order": 769
+  },
+  {
+    "id": "shot_0770",
+    "scene_id": "scene_050",
+    "shot_number": 10,
+    "goal": "呈现高父核心反击：不仅不要沈词，还已准备好替代者。",
+    "composition": "MS反打。高父站在画面右侧偏中，低头看向左侧画外沈词；和离书已落在画面下方前景边缘。身后屏风与门框形成垂直切面，像一道一道封门。台词落在‘赘婿人选’时不变色。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "刺痛、羞辱、被完整替代的毁灭感。",
+    "duration_hint": "5s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 770
+  },
+  {
+    "id": "shot_0771",
+    "scene_id": "scene_050",
+    "shot_number": 11,
+    "goal": "抓住沈词听到‘赘婿人选’时的第一反应，完成心理断裂点。",
+    "composition": "CU，沈词面部占满画面中部，眼神先是空白后一瞬收紧；背景完全虚化，只剩冷灰色块。下颌线骤然绷住，呼吸停顿可见，形成近乎冻结的时间感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震惊、被夺位后的本能失控前夜。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 771
+  },
+  {
+    "id": "shot_0772",
+    "scene_id": "scene_050",
+    "shot_number": 12,
+    "goal": "把心理冲击外化到身体：他从跪姿变为站起，但姿态已不复从前挺拔。",
+    "composition": "MLS侧拍，机位保持在线内。沈词位于画面左侧，从地面缓慢起身，腰背微弯；高父站在右侧不动，形成静与动对照；和离书留在二人之间的地上，像裂缝。小厮在右后方准备上前。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "感到一种危险的安静，像人正在从屈辱滑向暴烈。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 772
+  },
+  {
+    "id": "shot_0773",
+    "scene_id": "scene_050",
+    "shot_number": 13,
+    "goal": "用极短的笑声表现沈词精神防线的扭曲，不是释然而是失序。",
+    "composition": "CU，沈词站起后微低头，位于画面右侧偏中，眼神不看高父而落向空处；嘴角牵出极短促的笑，眼里无笑。背景左侧高父肩线虚化，保持权力来源仍在场。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "寒意、不可预测、理智断丝。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 773
+  },
+  {
+    "id": "shot_0774",
+    "scene_id": "scene_050",
+    "shot_number": 14,
+    "goal": "交代阻拦即将发生，建立行动路径与空间方向，为冲闯动作做准备。",
+    "composition": "MS，画面左侧是沈词半身，身体朝画面右后方后院方向偏转；右侧前景小厮迈步入画抬臂欲拦；高父留在背景中轴稍后位置。门洞与回廊方向在画面右深处清晰可见，作为冲突出口。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "蓄势、危机即将破礼而出。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 774
+  },
+  {
+    "id": "shot_0775",
+    "scene_id": "scene_050",
+    "shot_number": 15,
+    "goal": "爆发动作：沈词甩开小厮，正式从言语博弈转入失控硬闯。",
+    "composition": "MLS近距离，短焦压近人物。沈词自画面左向右猛冲，手臂横甩开从右侧拦入的小厮手臂；高父在后方中轴被甩出焦点。和离书被带起一角留在下方边缘，动作线清晰朝右后院方向。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "失控、冲撞、礼制被当场撕开。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 775
+  },
+  {
+    "id": "shot_0776",
+    "scene_id": "scene_050",
+    "shot_number": 16,
+    "goal": "用高父的反应完成场面意义：他未追，只目送，说明局势已超出言语处理范围，并把冲突递向后院。",
+    "composition": "MS，高父位于画面左侧，身体微前倾却未动步；右侧前景是被撞歪的小厮残影，背景深处门洞内沈词背影迅速出画向右。厅内仍留着地上和离书在下中位置，成为静止的判词。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "余震、事态失守、下一场正面对决迫近。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 776
+  }
+]

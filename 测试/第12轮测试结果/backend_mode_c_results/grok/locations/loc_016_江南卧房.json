@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_016",
+  "name": "江南卧房",
+  "type": "interior",
+  "era_style": "明代江南民居卧房",
+  "description": "江南卧房雅致简洁，中央卧床铺锦被与枕头被子，窗外可见雷雨景，空间温馨私密，适合夜间纠缠表白。",
+  "visual_reference": "明代江南卧房内部，卧床锦被整齐，枕头被子堆叠，窗外雷雨夜景可见，烛光温暖映照，亲密古风氛围，细节写实",
+  "visual_prompt_negative": "现代卧室家具、LED灯、玻璃窗",
+  "atmosphere": "亲密、纠缠、表白",
+  "color_palette": [
+    "锦蓝",
+    "木褐",
+    "烛黄",
+    "雨灰"
+  ],
+  "lighting": "夜晚雷雨窗光混烛光",
+  "key_features": [
+    "卧床锦被",
+    "枕头被子",
+    "窗外雷雨"
+  ],
+  "narrative_scenes": [
+    "scene_019"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "爬床纠缠到似哭似笑贴背"
+}

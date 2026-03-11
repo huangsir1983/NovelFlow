@@ -1,0 +1,39 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "清秀聪慧少年脸（前世成年）",
+    "body": "瘦弱或英俊青年",
+    "hair": "束冠",
+    "distinguishing_features": "神童气质"
+  },
+  "costume": {
+    "typical_outfit": "稚童或官服",
+    "color_palette": [
+      "青",
+      "白"
+    ]
+  },
+  "casting_tags": [
+    "天才儿子",
+    "梦中出现"
+  ],
+  "visual_reference": "young Chinese prodigy boy or adult scholar, intelligent clear eyes, gentle face, wearing simple blue robes",
+  "personality": "懂事孝顺",
+  "desire": "父母和睦",
+  "flaw": "早逝遗憾",
+  "arc": "前世劝和与梦中遗憾",
+  "scene_presence": "前世回忆与难产后梦境",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "深爱劝和",
+      "function": "情感驱动"
+    }
+  ]
+}

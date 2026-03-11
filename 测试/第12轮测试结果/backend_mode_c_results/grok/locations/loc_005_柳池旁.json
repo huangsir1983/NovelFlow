@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_005",
+  "name": "柳池旁",
+  "type": "exterior",
+  "era_style": "明代园林柳池边",
+  "description": "幽静园林柳池，池水清澈，岸边垂柳低垂，石径小路环绕，旁有草坪与石凳，池边柳枝拂水，空间诗意私密，适合意外相遇与肌肤接触场景。",
+  "visual_reference": "明代园林柳池旁场景，池边柳枝随风轻拂，池水反射夕阳，石径小路铺青石，女主绣鞋散落池边，沈词衣袖近景，绿意盎然黄昏氛围，写实古风细节丰富",
+  "visual_prompt_negative": "现代园林景观、霓虹灯、塑料装饰、混凝土路面",
+  "atmosphere": "诗意、疏离、讥讽",
+  "color_palette": [
+    "柳绿",
+    "水蓝",
+    "金黄",
+    "土褐"
+  ],
+  "lighting": "黄昏柔和余晖，池面反射温暖光影",
+  "key_features": [
+    "池边柳枝",
+    "石径小路",
+    "绣鞋"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "女主疏离后退的尴尬与讥讽"
+}

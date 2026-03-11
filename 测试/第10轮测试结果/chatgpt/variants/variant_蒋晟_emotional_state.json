@@ -1,0 +1,31 @@
+{
+  "variant_id": "jiangsheng_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "蒋晟 — 丑闻厅堂中的窘迫当事人",
+  "tags": [
+    "窘迫",
+    "被审视",
+    "名节牵连",
+    "沉默受压"
+  ],
+  "scene_ids": [
+    "scene_019"
+  ],
+  "trigger": "高府正厅夜间对质时，蒋晟以衣冠凌乱的当事人身份站在众人视线中心，被卷入失贞指控与婚配危机。",
+  "appearance_delta": {
+    "face": "脸色难堪、局促羞惭，老实人的神情中带着惊愕和不知如何辩白的窘迫",
+    "body": "高大体格在厅堂对峙中显得僵硬，被迫承受众人目光与局势压力",
+    "hair": "发冠或发束未完全恢复整齐，仍残留前一场混乱痕迹",
+    "distinguishing_features": "作为正派武人却陷入最不体面的厅堂指控，形成强烈反差，突出其不擅应付复杂权势局面的弱点"
+  },
+  "costume_override": {
+    "outfit": "仍是深色简洁袍服，但衣角与衣襟凌乱未整，整体礼仪状态被破坏，显得尴尬失序",
+    "color_palette": [
+      "深灰",
+      "靛蓝",
+      "暗棕"
+    ]
+  },
+  "visual_reference": "ancient chinese young warrior-scholar standing in a noble hall at night, sturdy build, honest embarrassed face, slightly flushed and shocked expression, tied black hair somewhat disordered, dark robe rumpled and collar uneven, candlelit confrontation, surrounded by accusations, realistic historical c-drama style, decent man trapped in scandal",
+  "emotional_tone": "羞惭、压抑、无措"
+}

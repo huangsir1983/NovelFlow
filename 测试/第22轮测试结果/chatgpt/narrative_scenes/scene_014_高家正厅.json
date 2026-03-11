@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高家正厅 - NIGHT",
+  "location": "高家正厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪哭诉自己被高令宁设计失贞，沈词公开站在她那边，认定高令宁仍是恶毒跋扈之人；高令宁坚持要闹上京兆府讨公道，双方彻底撕破脸。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "高令宁忍无可忍甩了沈词一巴掌，却随即腹痛发作。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "证人名单",
+    "衣角被拽的袖口",
+    "桌案",
+    "巴掌后的狼狈发髻"
+  ],
+  "dramatic_purpose": "把前世“被误解”创伤完整复现到今生，推动生死关头",
+  "source_text_start": "陆姝仪哭着要自尽。\n她跪在我面前，哽咽：",
+  "source_text_end": "眼前一花。\n我踉跄几步，腹中剧痛。\n记忆的最后，父亲踏入门内"
+}

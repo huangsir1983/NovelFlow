@@ -19,9 +19,18 @@ class Scene(Base, TimestampMixin):
     time_of_day = Column(String(50), default="")  # day | night | dawn | dusk | ...
     description = Column(Text, default="")
     action = Column(Text, default="")
-    dialogue = Column(JSON, default=list)  # [{character, line}, ...]
+    dialogue = Column(JSON, default=lambda: [])  # [{character, line}, ...]
     order = Column(Integer, nullable=False, default=0)
     tension_score = Column(Float, default=0.0)  # 0.0 to 1.0
+    characters_present = Column(JSON, default=lambda: [])  # in-scene character names
+    key_props = Column(JSON, default=lambda: [])  # key props list
+    dramatic_purpose = Column(Text, default="")  # narrative function
+    window_index = Column(Integer, nullable=True)  # source window index
+    # Extended fields for narrative scene enrichment
+    core_event = Column(Text, default="")  # core narrative event
+    key_dialogue = Column(Text, default="")  # most critical dialogue line
+    emotional_peak = Column(Text, default="")  # emotional peak description
+    estimated_duration_s = Column(Integer, nullable=True)  # estimated duration in seconds
 
     def __repr__(self) -> str:
         return f"<Scene(id={self.id}, heading={self.heading}, order={self.order})>"

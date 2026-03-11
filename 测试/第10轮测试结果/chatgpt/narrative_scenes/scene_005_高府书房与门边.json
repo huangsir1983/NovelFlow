@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 高府书房/门厅 - DAY",
+  "location": "高府书房与门边",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "蒋晟",
+    "沈词"
+  ],
+  "core_event": "高父决定辞官避祸并安排女儿相看门生蒋晟；高令宁监督写完辞官奏折后出门，却被沈词堵住，以未来长子沈睿说服她必须嫁。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "沈词用“再杀睿儿一次”直击高令宁最痛处。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "书案",
+    "笔墨纸砚",
+    "辞官奏折",
+    "官印",
+    "椅子",
+    "门槛",
+    "药方",
+    "灯台",
+    "袖中大雁勒痕",
+    "车马帘布"
+  ],
+  "dramatic_purpose": "确立男女主今生联姻的共同目的：为了儿子。"
+}

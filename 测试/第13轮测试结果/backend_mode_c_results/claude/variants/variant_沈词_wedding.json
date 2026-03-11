@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 新婚之夜",
+  "tags": [
+    "新郎",
+    "冷漠",
+    "圆房"
+  ],
+  "scene_ids": [
+    "scene_009",
+    "scene_010"
+  ],
+  "trigger": "成亲当夜，在新房中与高令宁圆房时的状态",
+  "appearance_delta": {
+    "face": "面容依旧清冷，但眼神更加讥诮冷漠",
+    "body": "身姿挺拔，动作带着克制的冷淡",
+    "hair": "乌黑长发束冠，新郎装束",
+    "distinguishing_features": "眼神中的讥诮和不屑，薄唇紧抿透着冷漠"
+  },
+  "costume_override": {
+    "outfit": "新郎礼服，深色华贵长袍",
+    "color_palette": [
+      "深红",
+      "墨色",
+      "金色"
+    ]
+  },
+  "visual_reference": "古代男子新郎形象，清冷俊美的面容带着讥诮神色，身着深红色或墨色华贵新郎礼服，金色纹饰点缀，长身玉立，乌黑长发束冠，眼神冷漠不屑，薄唇紧抿，整体气质疏离克制，背景是古代新房，红烛摇曳，光影昏暗暧昧，氛围冷淡压抑",
+  "visual_prompt_negative": "温柔表情，热情姿态，明亮欢快的氛围，现代婚礼服装",
+  "emotional_tone": "冷漠、讥诮、克制的厌恶"
+}

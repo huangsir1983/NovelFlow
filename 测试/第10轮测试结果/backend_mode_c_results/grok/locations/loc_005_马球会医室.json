@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_005",
+  "name": "马球会医室",
+  "type": "interior",
+  "era_style": "明代临时马球会医室",
+  "description": "简易整洁的临时医室，位于会场旁厢房或帐篷内，中央置低矮塌榻供病人休息，侧边药柜与药碗陈设，墙上挂医书和草药束，地面青砖，布局紧凑实用，装饰简单以木质家具和白瓷为主，体现临时救护的氛围。",
+  "visual_reference": "Temporary medical tent room at Ming dynasty polo gathering, simple low couch for patient, wooden medicine cabinet and bowls, hanging herbal bundles and medical texts on walls, blue brick floor, functional and clean interior, soft diffused daylight, highly detailed historical",
+  "atmosphere": "安静紧张实用",
+  "color_palette": [
+    "木褐",
+    "白瓷灰",
+    "草绿",
+    "浅黄"
+  ],
+  "lighting": "白天通过帐篷开口或小窗的柔和自然光，略带昏暗医疗感",
+  "key_features": [
+    "低矮塌榻",
+    "药柜与药碗",
+    "草药医书墙饰"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "胃痛求留的紧张到女主疲倦释然的最终妥协"
+}

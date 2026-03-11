@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0250",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0761",
+      "shot_0762",
+      "shot_0763"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立场面、道具权力与沈词的主观受压状态，角色集合未变，情绪从冰冷压迫推进到克制辩驳，属于同一叙事起势单元。",
+    "order": 250
+  },
+  {
+    "id": "seg_0251",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0764",
+      "shot_0765",
+      "shot_0766"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段整合沈词前两轮辩驳与高父的冷听，仍是同一对话回合中的攻防；角色关系稳定，情绪缓慢抬升但尚未转折，适合合并为一段连续言语博弈。",
+    "order": 251
+  },
+  {
+    "id": "seg_0252",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0767",
+      "shot_0768",
+      "shot_0769",
+      "shot_0770"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段形成完整情感弧：高父冷听→沈词打出孩子牌→高父落书断绝并抛出替代者。虽然包含四个shot，但属于单一反击高潮，且“赘婿人选”是明确的段内引爆点。",
+    "order": 252
+  },
+  {
+    "id": "seg_0253",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0771",
+      "shot_0772",
+      "shot_0773"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里是明确的情感弧线转折段，从言语受击切入心理断裂，再外化为起身和异常短笑，人物虽未离场，但状态已从求留转为危险失控，必须独立成段。",
+    "order": 253
+  },
+  {
+    "id": "seg_0254",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0774",
+      "shot_0775",
+      "shot_0776"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段整合行动蓄势、身体冲撞与余震收束，角色集合虽含小厮介入，但核心叙事是一气呵成的失控硬闯；空间目标从前厅明确递送到后院，构成场景尾部动作高潮。",
+    "order": 254
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高家正堂 - day",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "我当众退回木雁，以聘礼太薄为由发难，逼沈词正面接招，令提亲场面骤然失控。",
+  "key_dialogue": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+  "emotional_peak": "当众打脸的挑衅",
+  "tension_score": 0.91,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "木雁",
+    "聘礼单",
+    "案桌"
+  ],
+  "dramatic_purpose": "首次正面冲突，展示女主主动夺回议价权，也揭示她对前世婚姻的怨恨。",
+  "visual_reference": "少女将木雁推还给媒人，堂上众人神色震惊，父亲拍案而起，媒人慌乱劝解，沈词忽然抬眼，冰冷目光直刺过来，空气凝固，古代世家提亲场面，强烈对峙构图",
+  "visual_prompt_negative": "避免嬉闹感、避免群演过多、避免柔光唯美化、避免现代妆容、避免人物站位杂乱",
+  "source_text_start": "上一世，沈家聘我，用的是只活雁。",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

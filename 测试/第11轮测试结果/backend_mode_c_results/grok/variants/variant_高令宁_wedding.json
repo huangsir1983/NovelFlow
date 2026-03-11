@@ -1,0 +1,29 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 红嫁新娘",
+  "tags": [
+    "婚礼",
+    "新娘",
+    "红盖头"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "高家婚堂拜堂成亲，头戴红盖头进行夫妻对拜",
+  "appearance_delta": {
+    "face": "清丽端庄，杏眼柳眉，眼神锐利坚定但略显心不在焉怔愣",
+    "body": "纤细苗条，姿态优雅挺拔",
+    "hair": "乌黑长发盘成精致发髻",
+    "distinguishing_features": "红盖头下的坚定目光与复杂情绪"
+  },
+  "costume_override": {
+    "outfit": "红嫁衣",
+    "color_palette": [
+      "绯红"
+    ]
+  },
+  "visual_reference": "elegant young Chinese noblewoman in bright red wedding hanfu with intricate phoenix embroidery, red bridal veil covering or half-lifted face, sharp phoenix eyes with determination and subtle daze, porcelain fair skin, long silky black hair in elaborate updo with red hairpins, elegant upright posture in wedding hall with candles, ancient China, highly detailed 8k",
+  "visual_prompt_negative": "modern clothes, short hair, western face, heavy makeup, weak submissive pose, smiling weakly, white or green dress, pregnant belly, no veil",
+  "emotional_tone": "心不在焉、克制坚定"
+}

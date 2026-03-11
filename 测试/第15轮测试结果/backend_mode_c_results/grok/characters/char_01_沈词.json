@@ -1,0 +1,55 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "supporting",
+  "age_range": "22-28",
+  "appearance": {
+    "face": "如玉俊朗，剑眉星目，薄唇",
+    "body": "长身玉立挺拔",
+    "hair": "墨黑长发束冠",
+    "distinguishing_features": "冷如冰湖的漆黑眸子"
+  },
+  "costume": {
+    "typical_outfit": "深色锦袍官服",
+    "color_palette": [
+      "深蓝",
+      "墨黑"
+    ]
+  },
+  "casting_tags": [
+    "冷峻文臣",
+    "重生深情男主",
+    "俊美贵公子"
+  ],
+  "visual_reference": "二十五岁左右英俊古代文官，面如冠玉剑眉入鬓，眼睛深邃如潭带寒意偶尔琥珀含笑，身材挺拔修长，穿着深蓝锦袍腰系玉带，墨发玉冠束起，姿态端方冷峻，站在庭院或书房，光影冷冽古典，极致写实细节",
+  "visual_prompt_negative": "胡须、肥胖身材、现代西装、笑容夸张、卡通风格、西方五官",
+  "personality": "清冷尖锐、隐忍深情",
+  "desire": "保住儿子、挽回妻子一生纠缠",
+  "flaw": "过去不信任妻子、优柔寡断于感情",
+  "arc": "从冷漠算计到疯狂追妻纠缠",
+  "scene_presence": "从提亲贯穿至江南雪夜纠缠",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前妻",
+      "dynamic": "爱恨交织到不顾一切纠缠",
+      "function": "情感核心"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅义妹",
+      "dynamic": "兄妹情谊",
+      "function": "误会冲突催化剂"
+    },
+    {
+      "target": "昭昭",
+      "type": "女儿",
+      "dynamic": "深沉父爱",
+      "function": "亲情纽带"
+    }
+  ]
+}

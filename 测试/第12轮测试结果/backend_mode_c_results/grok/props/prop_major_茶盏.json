@@ -1,0 +1,18 @@
+{
+  "name": "茶盏",
+  "category": "container",
+  "description": "明代青花瓷茶盏，细白瓷胎，釉面莹润透亮  ，杯身绘淡雅青花缠枝莲纹或梅花纹，口径8cm，高5cm，薄胎轻盈，做工精致，底部有小款识。",
+  "visual_reference": "古代明代风格青花瓷茶盏，精美白瓷胎体上绘青花花卉纹饰，釉色温润如玉，杯壁极薄透光，优雅古典造型，放在深色木桌上，柔和窗边自然光，历史古风，高细节，真实材质感",
+  "visual_prompt_negative": "现代陶瓷、塑料杯、粗糙釉面、彩釉、金属光泽、当代设计、大体积",
+  "narrative_function": "多次出现在家庭对话与日常场景中，用于建立人物互动的平静表面氛围，暗藏情感张力，推动情节自然流动",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_002",
+    "scene_006",
+    "scene_010",
+    "scene_011",
+    "scene_012",
+    "scene_014"
+  ],
+  "emotional_association": "表面宁静与潜在的情感暗涌"
+}

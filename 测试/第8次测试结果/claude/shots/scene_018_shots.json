@@ -1,0 +1,130 @@
+[
+  {
+    "id": "shot_0174",
+    "scene_id": "scene_018",
+    "shot_number": 1,
+    "goal": "建立场景时空延续性，通过光影变化暗示时间流逝和关系破裂",
+    "composition": "俯视角度，地面斜长的窗影占据画面下半部分，女主的影子与沈词的影子分离在画面两侧，中间留白形成视觉裂痕",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "疏离、时间流逝的沉重感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 174
+  },
+  {
+    "id": "shot_0175",
+    "scene_id": "scene_018",
+    "shot_number": 2,
+    "goal": "捕捉女主情绪转折的微表情，垂眼动作暗示放弃与接受",
+    "composition": "女主侧面中特写，眼睑占据画面中心，背景虚化的窗棂形成冷硬线条，侧光在脸颊留下阴影",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "压抑的悲凉、克制的决绝",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.6,
+    "order": 175
+  },
+  {
+    "id": "shot_0176",
+    "scene_id": "scene_018",
+    "shot_number": 3,
+    "goal": "通过嘴角苦笑的极特写外化内心独白，展现自嘲与释然",
+    "composition": "嘴角极特写，唇线微微上扬的弧度占据画面中心，浅焦使背景完全虚化成冷色调光斑",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "心碎后的自嘲、绝望中的清醒",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 176
+  },
+  {
+    "id": "shot_0177",
+    "scene_id": "scene_018",
+    "shot_number": 4,
+    "goal": "手抚腹部的动作承载母性承诺与告别决心，形成情感高点",
+    "composition": "手部特写，纤细手指轻覆在腹部衣料上，前景虚化的袖口，背景是模糊的木质家具纹理，侧光勾勒手指轮廓",
+    "camera_movement": "slow_dolly_in",
+    "framing": "CU",
+    "emotion_target": "温柔的母性、悲壮的决绝",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 177
+  },
+  {
+    "id": "shot_0178",
+    "scene_id": "scene_018",
+    "shot_number": 5,
+    "goal": "沈词的僵立反应形成对比，展现他的震惊与失语",
+    "composition": "沈词正面中景，身体僵直居中，双手垂在身侧略显无措，背景是房间深处的暗影，顶光在肩部形成硬边阴影",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "震惊、无力、悔意的萌芽",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 178
+  },
+  {
+    "id": "shot_0179",
+    "scene_id": "scene_018",
+    "shot_number": 6,
+    "goal": "沈词张嘴无声的特写，外化语言的无力与关系的断裂",
+    "composition": "沈词侧面特写，嘴唇微张但无声，眼神失焦望向画面左侧（女主方向），前景虚化的发冠流苏，背景冷色调窗光",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "无力、悔恨、沟通的彻底失败",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 179
+  },
+  {
+    "id": "shot_0180",
+    "scene_id": "scene_018",
+    "shot_number": 7,
+    "goal": "双人全景收尾，通过空间距离视觉化关系破裂，为场景结束留白",
+    "composition": "双人全景，女主在画面左侧背对镜头，沈词在右侧侧身，中间大片留白，斜射的窗光在地面形成分割线，冷色调主导",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "疏离、无法弥合的裂痕、悲凉的终局感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "fade_to_black",
+    "dramatic_intensity": 0.4,
+    "order": 180
+  }
+]

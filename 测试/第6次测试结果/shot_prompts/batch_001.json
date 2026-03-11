@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0006",
+    "shot_id": "shot_0047",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in an extreme close close-up with only her eyes and half of her face occupying the right side of the frame; her gaze is locked hard toward the lower left off-screen, breath tight, cheeks slightly flushed, brows tense, the ignition of fierce resolve visible in her eyes. A blurred tea cup rim cuts into the left foreground, creating pressure and partial obstruction; interior noble hall with deep dark wood, low-saturation warm-cool contrast, amber candlelight mixed with cool ambient daylight, sharp side light carving her brow bone and eye corner, shallow depth of field. Cinematic realism, restrictive female-centered POV, Song dynasty historical drama aesthetic, tactile skin detail, subtle film grain, high tension, precise composition, dramatic dolly-in feeling.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cool ambient daylight mixed with amber candlelight, hard side light shaping brow bone and eye tail, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry face, extra fingers, deformed hands, CGI look, neon lighting, plastic texture, contemporary makeup, modern furniture, modern cup, smartphone"
+  },
+  {
+    "id": "sp_0007",
+    "shot_id": "shot_0048",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, positioned on the right side of a medium side-view composition, suddenly sweeping her arm horizontally with explosive force; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, kneels at the lower left, her tea cup struck away from her hands, face shocked and recoiling. The tea cup and saucer fly through the center of the frame, tea scattering in a bright diagonal spray caught by the light, sleeves and gesture forming a clear action line; deep dark wooden wall of a noble hall in the background, low-saturation gray-blue, old brown wood, and dim black tones, with a sharp shaft of slanting light and warm amber candle glow colliding with cool ambient light. Cinematic realism, handheld urgency, ritual order breaking apart, historical Song dynasty aesthetic, dynamic motion freeze, high-detail liquid splash, dramatic tension.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, motion-rich frame, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, slanting side light catching tea spray, amber candlelight against cool interior daylight, deep shadowed wood background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry motion mush, extra limbs, deformed hands, CGI splash, modern ceramics, electric lights, contemporary clothing, plastic props, smartphone"
+  },
+  {
+    "id": "sp_0008",
+    "shot_id": "shot_0049",
+    "prompt_text": "A shattered porcelain tea cup exploding on the floor at the center of the frame in a close-up top-down view, sharp ceramic shards flying outward in all directions, dark tea spreading into irregular wet stains across the ground; a large broken shard rests in the lower foreground, razor-edged and dominant. In the blurred background, the hem of a kneeling robe and the toe of a standing shoe are barely visible, implying Lu Shuyi and Gao Lingning without drawing focus. Noble mansion floor texture, muted historical interior palette of gray-blue, old wood brown, and dim charcoal, lit by cool ambient daylight with a touch of amber candle warmth, strong contrast on the reflective porcelain edges. Cinematic realism, static impact frame, dangerous irreversibility, tactile shard detail, Song dynasty historical drama aesthetic, shallow depth of field, intense visual sting.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic macro detail, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cool top ambient light with faint amber candle warmth, crisp highlights on porcelain edges, controlled deep shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, low detail, cartoon, CGI, modern tile floor, contemporary shoes, plastic cup, stainless steel, electric light reflections"
+  },
+  {
+    "id": "sp_0009",
+    "shot_id": "shot_0050",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, captured from a slightly low medium shot and dominating the right side of the frame as she bends down rapidly, sleeve falling toward the ground, her hand reaching for a sharp porcelain shard at the center floor with unwavering intent. In the blurred left background, Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, recoils backward in shock; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, begins to lean forward as if to stop her. Interior noble hall with dark wood, compressed space, low-saturation warm-cool contrast, cool daylight and amber candlelight, deep shadowed background, handheld instability heightening danger. Cinematic realism, female-centered crisis POV, historical Song dynasty aesthetic, tense motion, precise depth layering.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, handheld tension, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cool ambient daylight mixed with amber candlelight, side-back light on sleeve and shard, dark wooden background with heavy shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry subject, extra fingers, deformed hands, modern hairstyle, modern furniture, electric lamps, plastic debris, smartphone, contemporary shoes"
+  },
+  {
+    "id": "sp_0010",
+    "shot_id": "shot_0051",
+    "prompt_text": "Gao Lingning's hand, belonging to Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in an extreme close-up gripping a razor-sharp porcelain shard stained with tea and blood; her fingers clutch tightly, knuckles whitening, tendons strained, the shard edge flashing with cold reflected light. The background is fully blurred into abstraction, with only a strip of cool pale neck skin entering at the upper edge, implying imminent self-harm. Low-saturation warm-cool contrast, hard cool highlight on the porcelain edge, faint amber warmth receding behind, no distraction from the object and hand. Cinematic realism, static macro tension, historical drama detail, tactile skin and ceramic texture, dread and resolve condensed into one frame.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic macro close-up, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cold specular highlight on shard edge, soft cool ambient fill with distant amber candle warmth, ultra shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, low detail, extra fingers, deformed hand, cartoon blood, modern manicure, plastic shard, metal blade, contemporary accessories"
+  },
+  {
+    "id": "sp_0011",
+    "shot_id": "shot_0052",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, placed slightly right of center in a medium close-up from an intimate near-subjective angle, drawing a broken porcelain shard backhand up against the left side of her own neck; her shoulder and neck line are pulled taut like a drawn bow, expression shockingly calm and absolute, eyes hard with self-directed resolve. In the deep blurred background, the silhouettes of Shen mother and Lu Shuyi recede out of focus as if the world has suddenly fallen away. Ancient noble hall interior with dark wood, sparse red accents, low-saturation warm-cool contrast, cool natural daylight retained with amber candlelight at the edges, strong side-back light emphasizing the shard, neck, and sleeve contours, heavy surrounding shadow. Cinematic realism, handheld immediacy, suffocating emotional climax, restrictive female-centered POV, Song dynasty historical drama aesthetic, highly detailed fabric and skin, tragic ferocity.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, handheld intensity, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cool daylight with restrained amber candle edge light, sharp side-back light on neck and porcelain, deep shadowed background isolation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurred main subject, extra fingers, deformed hands, modern jewelry, electric lighting, contemporary interior, plastic props, metal knife, smartphone"
+  }
+]

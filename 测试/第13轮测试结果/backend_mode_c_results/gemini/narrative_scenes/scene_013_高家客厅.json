@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高府客厅 - DAY",
+  "location": "高家客厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "沈词",
+    "高父",
+    "沈母"
+  ],
+  "core_event": "高父与沈家摊牌，态度强硬地要求和离，并宣布女儿昭昭归高家抚养。沈词下跪请求见高令宁一面，被高父用和离书拒绝。",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "一向高傲的沈词跪在岳父面前，显示出他失去一切后的卑微和绝望。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "一纸和离书"
+  ],
+  "dramatic_purpose": "展示沈词失去掌控后的狼狈处境，以及高家在事件后坚决的态度，确立了和离的必然性。",
+  "source_text_start": "沈家几次来人，说沈母想看孙女，想接走昭昭。\n都被父亲拦了回去。",
+  "source_text_end": "他仰头，声音沙哑：「爹，令宁不会与我和离的。」"
+}

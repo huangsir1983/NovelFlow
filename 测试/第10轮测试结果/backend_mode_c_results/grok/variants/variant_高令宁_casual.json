@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南独立时期",
+  "tags": [
+    "三年后",
+    "独立",
+    "释然"
+  ],
+  "scene_ids": [
+    "scene_012",
+    "scene_013"
+  ],
+  "trigger": "三年后江南宅院雪景中与女儿生活，面对沈词追寻时的新生活状态",
+  "appearance_delta": {
+    "face": "清丽端庄，眼神锐利坚毅更添成熟从容",
+    "body": "纤细苗条，姿态优雅挺拔",
+    "hair": "乌黑长发盘成简约妇人髻",
+    "distinguishing_features": "不屈下巴与面对纠缠的锐利冷笑中带独立"
+  },
+  "costume_override": {
+    "outfit": "轻便精致汉服罗裙，江南日常款",
+    "color_palette": [
+      "素白",
+      "淡青",
+      "浅粉"
+    ]
+  },
+  "visual_reference": "beautiful young Chinese noblewoman in elegant casual ancient hanfu with flowing sleeves in snowy Jiangnan courtyard, sharp intelligent determined eyes with serene independence and maturity, long jet black hair in simple updo with hairpins, pale flawless skin, graceful slender figure, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "独立坚强、彻底释然"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人",
+    "婆婆"
+  ],
+  "role": "supporting",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "瓜子脸，丹凤眼锐利狭长，薄唇紧抿成一条直线，眉心\n常带微皱，眼神冷冽中透着不容置疑的威严与算计",
+    "body": "中等身高，身材匀称偏瘦，脊背笔直，姿态端庄却带着上位者的压迫感，手指修长常戴玉扳指",
+    "hair": "乌黑长发高挽成贵妇髻，插金凤步摇与珠钗，鬓角隐现几缕银丝",
+    "distinguishing_features": "锐利如刀的丹凤眼与总是微抿的薄唇，目光扫过时能瞬间让人感到被审视与压制"
+  },
+  "costume": {
+    "typical_outfit": "深色锦缎褙子绣金丝云纹凤凰，内搭百褶长裙，腰间系玉带，颈戴赤金项圈",
+    "color_palette": [
+      "深红",
+      "金黄",
+      "墨黑"
+    ],
+    "texture_keywords": [
+      "锦缎",
+      "刺绣",
+      "丝绸",
+      "玉饰"
+    ]
+  },
+  "casting_tags": [
+    "强势婆婆",
+    "操控型贵妇",
+    "传统贵族母亲",
+    "立威反派",
+    "中年冷艳"
+  ],
+  "visual_reference": "A stern middle-aged Chinese noblewoman in ancient dynasty style, sharp phoenix eyes with calculating gaze, thin lips tightly pursed, high elegant bun with gold phoenix hairpins and pearls, wearing luxurious dark red and gold embroidered brocade robe with phoenix patterns, upright posture exuding authority and subtle menace, highly detailed realistic face, ancient Chinese mansion background, dramatic lighting",
+  "description": "沈词的母亲，前世试图通过让陆姝仪敬茶立威的强势婆婆，家族秩序的绝对掌控者。",
+  "personality": "操控欲极强，表面端庄得体，实际善于利用家族权势与辈分压制他人；行为模式为先礼后兵、借刀杀人式试探，一旦被挑战会瞬间失态震惊，却迅速转为沉默退让以保全颜面。",
+  "desire": "维持沈家内部等级秩序，确保儿子婚姻能容忍陆姝仪做平妻，从而巩固自己作为主母的绝对权威并实现家族利益最大化。",
+  "flaw": "过度自信于自身权势与媳妇的“家世平平、脾气温和”，严重低估女主的刚烈底线，导致立威行动彻底崩盘并暴露自身脆弱。",
+  "arc": "前世起点：作为主母主动安排敬茶仪式试图立威压制新妇 → 转变触发：媳妇砸杯自残的极端反抗令其惊恐失声 → 终点：被迫沉默接受失败，从此无人再敢在她面前提及陆姝仪，权威受挫却为重生后女主复仇线埋下伏笔。",
+  "relationships": [
+    {
+      "target": "我",
+      "type": "权力",
+      "dynamic": "婆媳权力对抗巅峰，沈母试图以立威方式迫使女主接受侧室，女主以自杀式反抗瞬间逆转张力，令其从掌控者沦为惊恐旁观者",
+      "function": "制造核心冲突，推动女主从受害者到立威者的叙事转变"
+    },
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "母子间权力主导与情感疏离，沈母为家族利益安排婚姻，沈词虽配合却在关键时刻沉默抱住媳妇，母子张力隐藏于表面和谐之下",
+      "function": "揭示沈词情感纠葛与家族利益优先的背景"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益",
+      "dynamic": "视作亲侄女与青梅替身，极力扶持其上位做平妻，情感上偏爱却以家族利益包装，制造与女主的直接对照张力",
+      "function": "三角关系催化剂，凸显沈家婚姻的功利本质"
+    },
+    {
+      "target": "睿儿",
+      "type": "情感",
+      "dynamic": "潜在祖孙情感纽带，前世未展开但作为沈家血脉延续象征，沈母会以维护孙子名义间接干预婚姻",
+      "function": "未来家庭延续与和离冲突的潜在叙事支点"
+    },
+    {
+      "target": "父亲",
+      "type": "利益",
+      "dynamic": "联姻利益方，沈母通过儿子娶高家女间接与女主父亲形成门第交易关系，双方表面客气实则各怀算计",
+      "function": "家族联姻背景的权力支撑"
+    },
+    {
+      "target": "大夫",
+      "type": "无关",
+      "dynamic": "无直接情感或权力交集，仅可能在家族事务中短暂出现，不构成张力",
+      "function": "次要功能角色，无叙事推动力"
+    }
+  ]
+}

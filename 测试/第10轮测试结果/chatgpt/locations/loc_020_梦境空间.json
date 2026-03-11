@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_020",
+  "name": "梦境空间",
+  "type": "interior",
+  "era_style": "古典中式抽象梦境卧房",
+  "description": "梦境空间不是现实房间，而是从病榻提炼出的极简中式意象：一张床榻、一床薄被、一只粥碗、一把小勺，四周边界被柔光吞没，几乎没有真实墙面。空间可保留轻微纱雾感和漂浮感，让人物像处在未醒的静水中。床榻位置偏中央，周边留白极多，强调母子之间纯粹而不受打扰的对话。整体不需复杂家具，只要用低饱和暖白和柔雾光建立抚慰感。",
+  "visual_reference": "Minimalist Chinese dream chamber, soft glowing bed platform, thin quilt, rice porridge bowl and small spoon, no hard room boundaries, misty luminous space, gentle child beside sick mother, serene afterlife-like emotional atmosphere, poetic historical fantasy realism, soft-focus cinematic light, highly detailed fabrics and subtle glow",
+  "atmosphere": "温柔、超脱、哀伤安抚、执念松动",
+  "color_palette": [
+    "柔雾白",
+    "浅暖金",
+    "淡灰蓝"
+  ],
+  "lighting": "整体为无明显来源的梦境柔光，轮廓边缘发亮，没有强阴影，像晨雾中透出的温暖光晕。",
+  "key_features": [
+    "几乎空无一物的留白空间",
+    "粥碗与小勺的亲情意象",
+    "被柔光包围的床榻"
+  ],
+  "narrative_scenes": [
+    "scene_021"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从濒死昏睡中的沉重，过渡到被孩子温柔劝解后的释怀。"
+}

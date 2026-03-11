@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_004",
+  "name": "侯爵府马球场",
+  "type": "exterior",
+  "era_style": "明代顶级权贵私家园林",
+  "description": "宽阔平整的沙土马球场，周围环绕着高大的柳树与观赛的彩棚。彩棚内设有精美的石凳与茶几，摆放着瓜果。马球场上沙尘微扬，天空中飘着纸鸢，展现出贵族奢靡的休闲场景。",
+  "visual_reference": "A grand ancient Chinese polo field in a noble Marquis manor, Ming dynasty. Flat sandy ground, surrounded by willow trees and colorful viewing tents with stone benches and fruit tables. Dust kicking up, kites in the sky. Bright sunny day, dynamic composition, cinematic lighting, highly detailed.",
+  "atmosphere": "奢靡、热闹、暗流涌动",
+  "color_palette": [
+    "#F4A460",
+    "#228B22",
+    "#FF6347"
+  ],
+  "lighting": "强烈的直射阳光，带有轻微的沙尘漫射效果，营造出燥热与活力的氛围。",
+  "key_features": [
+    "飞扬的沙尘",
+    "观赛彩棚",
+    "精致的果盘"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "表面欢快的贵族游乐到四人视线交织的嫉妒与挑衅。"
+}

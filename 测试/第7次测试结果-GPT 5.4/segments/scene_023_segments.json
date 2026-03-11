@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0118",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0362",
+      "shot_0363",
+      "shot_0364"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并开场建立镜头组：角色集合稳定，时空未变，情绪统一处于被聘礼压迫的低压状态；由空间总貌推进到道具符号，再落到父亲神情，形成一段完整的现实压力导入。",
+    "order": 118
+  },
+  {
+    "id": "seg_0119",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0365",
+      "shot_0366",
+      "shot_0367"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组围绕父女关系建立与身体动作展开，情绪仍属同一弧线：从父亲看女儿，到女儿上前安抚，再压到手部细节，为对话开启做充分铺垫，适合合并为一个连续表演段。",
+    "order": 119
+  },
+  {
+    "id": "seg_0120",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0368",
+      "shot_0369",
+      "shot_0370"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是第一轮对话攻防，情绪从父亲外露担忧转向女儿冷淡回应，构成完整的问答单元；角色与空间不变，情感弧线清晰，适合并为一段。",
+    "order": 120
+  },
+  {
+    "id": "seg_0121",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0371",
+      "shot_0372",
+      "shot_0373",
+      "shot_0374"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段以情绪转折为核心：从父亲受伤反应，到女儿明确“暂住”立场，再到父亲抬手托底，最后落在女儿的微妙回听反应。虽然包含四个shot，但都服务于同一情感升级节点，可压缩成一段连贯的关系博弈。",
+    "order": 121
+  },
+  {
+    "id": "seg_0122",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0374",
+      "shot_0376",
+      "shot_0377"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以父亲最重要的信息释放为核心，接女儿的顺从回应，再回到客观空间收束，全段完成本场主题闭环：父亲保护、女儿抽离、婚事不可逆。shot_0374作为核心台词镜头在此段承载主要叙事重心，后两镜完成情绪落点与空间回冷。",
+    "order": 122
+  }
+]

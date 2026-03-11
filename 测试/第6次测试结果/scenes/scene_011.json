@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "id": "scene_011",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:08"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈母",
+      "沈府小厮"
+    ],
+    "related_beats": [
+      "beat_008",
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府正厅及内院 - 黎明至深夜",
+    "location": "沈府正厅及内院",
+    "time_of_day": "dawn",
+    "description": "沈府空间开阔，厅堂高阔，天未亮时晨光从门窗缝隙斜入，入夜后则靠灯笼与烛火维持照明。正厅、账房、内院相连，桌案上堆着账册、牌匾、钥匙等管家事务物件。高令宁穿戴整肃，在各空间之间来回穿行，呈现高强度操持家务的节奏。",
+    "action": "沈母病倒后，高令宁接掌管家权。她天未亮便起身整衣，快步穿过院落，在厅中翻账册、交代下人、核对府务，几乎每件事都亲自过问。入夜后她仍伏在案前，肩颈僵硬，抬手按压腹部，站起时脚下发虚，险些失稳，却仍强撑着继续处理事务。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈母",
+      "沈府小厮"
+    ],
+    "key_props": [
+      "账册",
+      "钥匙",
+      "灯笼",
+      "桌案"
+    ],
+    "dramatic_purpose": "展现高令宁争强好胜、试图赢得沈家认可的行动逻辑，同时埋下因过度劳心几乎失去孩子的代价。",
+    "tension_score": 0.5,
+    "dramatic_intensity": 0.0,
+    "order": 11
+  }
+}

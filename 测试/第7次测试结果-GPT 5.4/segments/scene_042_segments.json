@@ -1,0 +1,121 @@
+[
+  {
+    "id": "seg_0224",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0867",
+      "shot_0868",
+      "shot_0869"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以建立空间关系到女主主观感知再到女主反应，完成同一轮攻防起手。角色集合稳定，时空连续，情绪从公开审判感推进到被逼视与强压情绪，适合合并为首段。",
+    "order": 224
+  },
+  {
+    "id": "seg_0225",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0870",
+      "shot_0871",
+      "shot_0872"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组属于同一战术动作链：叫证人—拆证词—转逼沈词表态。叙事对象连续，焦点从程序正义迅速转向舆论操控，情绪持续上升，无需切段。",
+    "order": 225
+  },
+  {
+    "id": "seg_0226",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0873",
+      "shot_0874",
+      "shot_0875",
+      "shot_0876",
+      "shot_0877"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完整覆盖‘内在动摇—公开站队—女主受伤—准备行动—女主喝止’的第一轮情感弧线，虽然镜头数较多，但动作高度连续且依靠反应镜头推进，适合压缩成一个强情绪segment。",
+    "order": 226
+  },
+  {
+    "id": "seg_0227",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0878",
+      "shot_0879",
+      "shot_0880"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段由现实动作触发女主主观刺痛，并以闪回完成情绪加码，属于风格化的单一情绪节点。时空虽短暂跳到旧忆，但由match cut连接，适合作为独立爆点段落。",
+    "order": 227
+  },
+  {
+    "id": "seg_0228",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0881",
+      "shot_0882",
+      "shot_0883",
+      "shot_0884"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段从离场、栽责到高令宁出手阻拦，动作链明确且主轴发生转换：群体对峙转为婚姻内部近身冲突，因此合并为一个清晰转轴段。",
+    "order": 228
+  },
+  {
+    "id": "seg_0229",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0885",
+      "shot_0886",
+      "shot_0887"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "围绕同一近身对峙展开：沈词羞辱压制，高令宁首次公开反击，再落到群体反应确认事件升级。情绪弧线清晰完整，适合作为一段‘反压—反击—回响’。",
+    "order": 229
+  },
+  {
+    "id": "seg_0230",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0888",
+      "shot_0889",
+      "shot_0890",
+      "shot_0891",
+      "shot_0892"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是全场最核心的爆裂点，怒意积蓄、威胁落地、耳光反击与余震构成一个不可拆分的动作高潮。角色集合收束至二人，情绪直线顶到峰值。",
+    "order": 230
+  },
+  {
+    "id": "seg_0231",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0893",
+      "shot_0894",
+      "shot_0895",
+      "shot_0896",
+      "shot_0897"
+    ],
+    "segment_number": 8,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "耳光后的身体崩塌、旁人尖叫与高父闯入属于同一后果链，叙事目标从争执瞬间切换为早产危机。角色集合新增@char_高父 高父，构成明确段落边界，适合作为本场收束。",
+    "order": 231
+  }
+]

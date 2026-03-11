@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_000",
+  "heading": "INT. 高家正堂 - 日",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 2876,
+  "shot_count": 13,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 70,
+    "output_tokens": 3067,
+    "elapsed_s": 39.26
+  }
+}

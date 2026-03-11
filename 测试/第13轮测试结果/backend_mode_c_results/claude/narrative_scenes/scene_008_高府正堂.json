@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "媒人",
+    "沈词"
+  ],
+  "core_event": "沈家第三次提亲，高父应允婚事",
+  "key_dialogue": "齐大非偶，你不必逼着自己",
+  "emotional_peak": "无奈与接受",
+  "tension_score": 0.4,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "如山聘礼"
+  ],
+  "dramatic_purpose": "婚事确定，父亲叮嘱",
+  "source_text_start": "媒人第三次上门提亲。种种压力下，父亲应下了这门婚事。",
+  "source_text_end": "「齐大非偶，」父亲嘱咐我，「你不必逼着自己一定让沈家满意」"
+}

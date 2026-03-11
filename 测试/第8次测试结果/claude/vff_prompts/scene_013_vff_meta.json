@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_013",
+  "heading": "INT. 高府书房 - 夜",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 1729,
+  "shot_count": 7,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 51,
+    "output_tokens": 2024,
+    "elapsed_s": 28.84
+  }
+}

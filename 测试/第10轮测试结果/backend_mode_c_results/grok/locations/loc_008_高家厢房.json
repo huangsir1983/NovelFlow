@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_008",
+  "name": "高家厢房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸厢房",
+  "description": "侧厢房空间较为私密，雕花屏风隔断，中央昏迷塌榻，衣物散乱堆放，侧边置请帖与小桌，地面青砖，布局略显杂乱紧张，装饰简单以木质家具和屏风为主，适合突发事件场景。",
+  "visual_reference": "Private side chamber in late Ming dynasty official mansion, ornate wooden screen divider, low couch for unconscious figures, scattered clothing, invitation card on side table, blue brick floor, slightly disheveled tense atmosphere, highly detailed cinematic",
+  "atmosphere": "紧张杂乱隐秘",
+  "color_palette": [
+    "木褐",
+    "浅灰",
+    "深红",
+    "青砖灰"
+  ],
+  "lighting": "白天透过窗棂的柔和光线，略带阴郁",
+  "key_features": [
+    "雕花屏风",
+    "昏迷塌榻",
+    "散乱衣物"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "发现陷害的震惊到女主被冤怒极的爆发"
+}

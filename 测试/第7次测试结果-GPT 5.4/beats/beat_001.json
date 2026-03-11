@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_001",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_002",
+      "scene_005"
+    ]
+  },
+  "data": {
+    "title": "点明今生婚姻只为利益与子嗣",
+    "description": "通过前情摘要与后续走向的提前交代，明确主题：爱情已死，婚姻变成交易、复仇、改命与再见孩子的工具；“这一世不愿再纠缠终生”构成核心主题陈述。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Theme Stated",
+    "emotional_value": -0.3,
+    "dramatic_intensity": -0.3,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续下降",
+    "order": 1
+  }
+}

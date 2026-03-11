@@ -1,0 +1,45 @@
+{
+  "name": "太医",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "45-65岁",
+  "appearance": {
+    "face": "年长医者面容，神情审慎，双目沉稳",
+    "body": "偏瘦，仪态稳重",
+    "hair": "灰白头发束起，留短须",
+    "distinguishing_features": "医者式沉静与谨慎判断"
+  },
+  "costume": {
+    "typical_outfit": "深色医官袍服，随身药箱或诊脉布包",
+    "color_palette": [
+      "深灰",
+      "靛青"
+    ]
+  },
+  "casting_tags": [
+    "宫廷医者",
+    "权威诊断者",
+    "古代太医"
+  ],
+  "visual_reference": "古代太医，五六十岁，神情稳重谨慎，留短须，灰白发束起，穿靛青或深灰色医官袍，手持脉枕、药箱或处方笺，在内室烛光下诊脉，气质专业克制，写实古风",
+  "visual_prompt_negative": "避免江湖郎中邋遢感、避免年轻化、避免现代白大褂、避免夸张神棍气质、避免卡通化",
+  "personality": "谨慎、守规矩、以医理说话。",
+  "desire": "准确诊断、减少风险。",
+  "flaw": "受限于时代医术与家宅权力结构。",
+  "arc": "功能性人物，无独立成长。",
+  "scene_presence": "诊断高令宁腹中是男胎，后在生产与病中参与医疗判断。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医患",
+      "dynamic": "他的诊断影响她与沈词的未来决策",
+      "function": "推动剧情关键误判与期待"
+    },
+    {
+      "target": "沈词",
+      "type": "官家与医者",
+      "dynamic": "向其汇报病情与胎相",
+      "function": "强化男主对子嗣执念"
+    }
+  ]
+}

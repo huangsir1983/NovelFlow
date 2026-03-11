@@ -1,0 +1,47 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子",
+    "门生"
+  ],
+  "role": "minor",
+  "age_range": "20-25岁",
+  "appearance": {
+    "face": "老实憨厚",
+    "body": "习武之人的健壮体格",
+    "hair": "简单束发",
+    "distinguishing_features": "淳朴的笑容"
+  },
+  "costume": {
+    "typical_outfit": "儒生服饰",
+    "color_palette": [
+      "青色",
+      "灰色"
+    ]
+  },
+  "casting_tags": [
+    "老实",
+    "武人",
+    "配角"
+  ],
+  "visual_reference": "honest Chinese martial scholar, sturdy build, simple features, straightforward expression, plain scholar robes",
+  "personality": "老实本分,习武之人",
+  "desire": "娶妻成家",
+  "flaw": "被算计后变得冷漠",
+  "arc": "从追求者→被陷害→冷漠丈夫",
+  "scene_presence": "工具人角色,陷害事件关键",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "夫妻",
+      "dynamic": "被迫成婚后冷待",
+      "function": "陆姝仪的报应"
+    },
+    {
+      "target": "高令宁",
+      "type": "追求者",
+      "dynamic": "单方面好感",
+      "function": "引发误会"
+    }
+  ]
+}

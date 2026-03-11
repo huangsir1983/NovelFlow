@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "id": "scene_007",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 室内厅堂/廊下 - DAY",
+    "location": "沈府厅堂",
+    "time_of_day": "day",
+    "description": "厅堂封闭，白日天光从门窗斜照入内，室内光线冷硬。案上散落求情名帖、信件、外出斗篷。高令宁衣裙下摆沾尘，像是刚从外头奔走回来；沈词立于阴影处，衣冠齐整，站位稳定，与她形成明显对峙。",
+    "action": "高令宁从外归来，手里攥着求助的帖子和信件，膝行求人的狼狈痕迹还留在衣角。她避开沈词视线，欲将信件收起。沈词上前一步，截住她去路，低头扫过她手中的名帖，声音压着怒意发问。高令宁抿唇不语，背脊绷直，把东西往身后藏，始终不肯低头示弱。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "你究竟是我沈家妇，还是高家女？",
+        "subtext": "你把自己和我分得太清，从未真正信任我，也在否认这段婚姻中的共同立场。"
+      },
+      {
+        "character": "沈词",
+        "line": "你这般防我，可曾把我当作你的夫婿？",
+        "subtext": "我在意的不是你求人，而是你宁肯向外人屈膝，也不肯向我求助，我被你排除在外。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "求情名帖",
+      "书信",
+      "斗篷"
+    ],
+    "dramatic_purpose": "将高令宁的强硬自尊与沈词的受伤、控制欲正面碰撞，明确夫妻关系中的核心裂缝：不信任与立场对立。",
+    "tension_score": 0.72,
+    "dramatic_intensity": 0.44,
+    "order": 7
+  }
+}

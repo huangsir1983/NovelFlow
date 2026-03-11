@@ -1,0 +1,315 @@
+[
+  {
+    "id": "shot_0850",
+    "scene_id": "scene_053",
+    "shot_number": 1,
+    "goal": "建立江南宅院冬雪初停后的空间关系，先交代院门、庭中空地、回廊与生活痕迹，并埋下院内温暖与门外突入者将形成反差。",
+    "composition": "WS，机位在院门外略偏右，半开的院门占画面左三分之一形成门框遮挡，门内可见覆薄雪的庭中空地、雪人与散落雪球，回廊与窗棂在后景横向铺开，冷白天光漫射，人物尚小，留出门内深处活动区。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到环境冷静、松弛而有日常温度，为后续情感撞击蓄势。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 850
+  },
+  {
+    "id": "shot_0851",
+    "scene_id": "scene_053",
+    "shot_number": 2,
+    "goal": "以女主主观倾向建立她在门边旁观的位置和态度，交代她并未融入嬉闹，而是悠闲又疏离地看着院中。",
+    "composition": "MS，机位在院门内侧，门框做左前景虚化，高令宁站在右侧三分线，肩背平直，手中瓜子清晰；中景深处是昭昭与几名年轻男人围着雪堆嬉闹的模糊活动层，形成她静、他们动的对比。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "传达高令宁的克制、冷眼旁观，以及她已拥有独立生活秩序。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 851
+  },
+  {
+    "id": "shot_0852",
+    "scene_id": "scene_053",
+    "shot_number": 3,
+    "goal": "展示院中嬉闹状态与昭昭的轻快，建立‘家内温暖’这一会被来客打断的基线。",
+    "composition": "MLS，昭昭位于画面中央偏前，正蹦跳抓雪；两侧及后方几名年轻男人半围拢，雪人与雪堆占下方前景，回廊柱子在背景形成纵深切割，活动路线围绕昭昭展开。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众短暂感到松弛、明亮，感知昭昭被众人照看的安全感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 852
+  },
+  {
+    "id": "shot_0853",
+    "scene_id": "scene_053",
+    "shot_number": 4,
+    "goal": "把高令宁的视线与院中欢乐连接起来，强化她掌握局面的主观位置。",
+    "composition": "MCU，高令宁位于画面右侧，冷白光勾出面部轮廓，手指捏着瓜子停在唇边；左侧前景留出大量虚焦雪地与人物运动痕迹，眼神斜向院中，门框边线压在她身后。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她情绪不外露，却并非冷硬无情，而是带着可控的距离。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.06,
+    "order": 853
+  },
+  {
+    "id": "shot_0854",
+    "scene_id": "scene_053",
+    "shot_number": 5,
+    "goal": "引入沈词，利用门的开启和突入方向改变场面能量，完成‘外来者进入既有秩序’的事件启动。",
+    "composition": "MLS，机位在庭院内朝向院门，院门居中偏左被推开，沈词自门外迈入，身形高挑占据门框；前景右侧虚化为雪地和半个雪人，背景是院内活动空间，人物视线尚未完全对上。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众感到秩序被打断，一股冷意与压迫进入温暖场域。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 854
+  },
+  {
+    "id": "shot_0855",
+    "scene_id": "scene_053",
+    "shot_number": 6,
+    "goal": "用一个带意外性的动作把沈词置于场面中心，同时保留轻微荒诞感：他刚进来就被雪球砸中。",
+    "composition": "MS，沈词位于画面中央偏左，身体刚停，右肩被飞来的雪球击中，雪沫在肩头炸开；雪球轨迹从画面右侧前景斜切入画，后景是庭中薄雪与回廊，形成运动方向清晰的攻击线。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "制造突兀、失衡和一点被冒犯的可笑感，为后续情绪翻转做铺垫。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 855
+  },
+  {
+    "id": "shot_0856",
+    "scene_id": "scene_053",
+    "shot_number": 7,
+    "goal": "切到昭昭的反应，完成认出与称呼，瞬间把这次闯入从陌生来客转成家庭关系冲击。",
+    "composition": "MCU，昭昭在画面中央偏右，脸颊因玩雪泛红，额前碎发贴着；她停住动作，肩后是虚焦的年轻男人和雪堆，视线直朝镜头外门口方向，口型清楚喊出‘爹爹’。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "唤起观众对孩子天然认亲的柔软，同时预感这声称呼会刺痛成人关系。",
+    "duration_hint": "2s",
+    "characters": [
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.36,
+    "order": 856
+  },
+  {
+    "id": "shot_0857",
+    "scene_id": "scene_053",
+    "shot_number": 8,
+    "goal": "捕捉沈词先被孩子称呼软化、随后看清院中其他男人而笑意僵住的关键反转。",
+    "composition": "CU，沈词面部占画面左二分之一，肩头残雪仍在；先是眉眼微松，随即视线越过镜头偏右，瞳孔收紧，后景虚化但能辨出数道人影与雪人，形成视觉刺点。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众清晰感到希望只出现一瞬，随即被嫉意和威胁感截断。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 857
+  },
+  {
+    "id": "shot_0858",
+    "scene_id": "scene_053",
+    "shot_number": 9,
+    "goal": "以主观观察方式让观众跟随沈词确认‘院中不止母女’，强调他所见到的威胁对象。",
+    "composition": "MLS，主观机位自沈词视线望向院中：昭昭在中间偏前，几名年轻男人围在她周边，一人手里还捏着雪团；高令宁站在右侧门边嗑瓜子，显得格外冷静。前景留出一点失焦的门边，像视线被刚刚闯入者占据。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众和沈词一起感到刺眼、被排除在外，家中位置被他人占据。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 858
+  },
+  {
+    "id": "shot_0859",
+    "scene_id": "scene_053",
+    "shot_number": 10,
+    "goal": "展示沈词转身逼近高令宁，完成空间上的侵入，也把戏剧核心从群体嬉闹收束到二人对峙。",
+    "composition": "MLS，机位沿二人轴线内侧，高令宁固定在画面右侧靠门，沈词从左侧快速逼近，门框和廊柱在后方形成压缩纵深；中间留出的雪地成为他跨过的距离，昭昭与他人退到深背景。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "制造压迫感，观众能感到沈词的情绪开始失控，而高令宁仍未退。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 859
+  },
+  {
+    "id": "shot_0860",
+    "scene_id": "scene_053",
+    "shot_number": 11,
+    "goal": "给高令宁一个稳定的近景反应，确认她面对逼近并不慌，只是冷淡地接住他的质问。",
+    "composition": "MCU，高令宁位于画面右侧，身后是院门木板与一点冷白天光，瓜子壳在手指间，眼神微抬看向镜头外左侧；前景左缘有一小块失焦深色衣料，提示沈词已逼到很近。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的疏离和掌控，她不被他的来势牵着走。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 860
+  },
+  {
+    "id": "shot_0861",
+    "scene_id": "scene_053",
+    "shot_number": 12,
+    "goal": "正面打出沈词的质问‘他们是谁？’，把嫉妒、确认威胁和对关系资格的索要合在一句里。",
+    "composition": "MCU，沈词在画面左侧稍前倾，肩线压向镜头，面部微俯视形成侵略性；后景是虚化门框与白雪，高令宁不入画，仅保留他视线方向。嘴唇收紧后吐出短句。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到审问感和不被允许回避的压迫。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 861
+  },
+  {
+    "id": "shot_0862",
+    "scene_id": "scene_053",
+    "shot_number": 13,
+    "goal": "用高令宁的回答完成本场核心刺点：她主动命名那些男人，故意把沈词排除在外。",
+    "composition": "CU，高令宁位于中央偏右，眼神平直，唇线冷硬；前景下方可见一枚瓜子壳被她轻弹出去，背景中远处虚焦的年轻男人轮廓仍在，形成台词所指向的对象。她说‘我的新夫婿。’",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到锋利、克制的报复快感，同时也感知她这句话有意伤人。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 862
+  },
+  {
+    "id": "shot_0863",
+    "scene_id": "scene_053",
+    "shot_number": 14,
+    "goal": "捕捉这句话落到沈词脸上的效果：他不能当场失控，只能把怒意压成阴沉笑意。",
+    "composition": "CU，沈词居中，眼底寒意上涌，目光下压，唇角被强行提起一线极薄笑纹；背景完全压虚，只剩冷白雪光，令表情成为唯一信息点。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到危险：不是爆发，而是更可怕的克制和偏执被按了下去。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 863
+  },
+  {
+    "id": "shot_0864",
+    "scene_id": "scene_053",
+    "shot_number": 15,
+    "goal": "用身体接触完成关系权力的反转，高令宁主动推开沈词，拒绝被他逼住。",
+    "composition": "MS，二人半身同框，高令宁在右、沈词在左，保持既定轴线；她一只手抵在他胸前将其推开，动作利落，衣袖在冷光里划出浅色弧线。前景是薄雪地，背景斜向通往回廊深处，形成她接下来指示‘客房在里面’的空间方向。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的边界清晰、毫不留情，也让压抑张力短促爆一下。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 864
+  },
+  {
+    "id": "shot_0865",
+    "scene_id": "scene_053",
+    "shot_number": 16,
+    "goal": "完成最后一击：高令宁把沈词降格为普通来客，示意客房方向，去留随意。",
+    "composition": "MCU，高令宁占画面右侧，身体已半转离开，手臂从胸前伸出指向画面左后方回廊深处；门框与廊柱切割出清晰通道，沈词肩部虚化占左前景边缘。她不再看他，说‘客房在里面，去留随意。’",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到冷、硬、礼貌而残忍的切断，她不给任何旧情回旋余地。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 865
+  },
+  {
+    "id": "shot_0866",
+    "scene_id": "scene_053",
+    "shot_number": 17,
+    "goal": "用沈词被留在原地的反应收束本场，让他的失控冲动回冷成沉默的危险停顿。",
+    "composition": "MS，沈词独占画面中央，侧身站在雪地与门边之间，肩上残雪未拂，视线钉在高令宁离开的方向；右后景是她渐远的背影虚化，左后景仍有雪人和孩童活动痕迹，形成他被排除在这个家之外的图像关系。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众在短暂回冷中感到余波未止：他没走，也绝不会轻易放手。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 866
+  }
+]

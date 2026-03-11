@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_004",
+  "name": "高府",
+  "type": "mixed",
+  "era_style": "明代官宦府邸庭院与厢房",
+  "description": "府邸包含多个空间：庭院有廊下座椅、石桌，种植花木；厢房布置简洁，设床榻桌椅；正房会客处摆茶具、珍玩。院落以青砖铺地，回廊连接各房，门房位于府邸入口。整体布局讲究对称与层次。",
+  "visual_reference": "Ming Dynasty official residence compound, courtyard with covered corridors, side chambers, reception rooms, traditional garden elements, symmetrical layout, brick paving, wooden architecture, natural daylight filtering through, classical Chinese residential complex",
+  "atmosphere": "府邸日常、层次分明、家族空间",
+  "color_palette": [
+    "青砖灰色",
+    "木质褐色",
+    "庭院绿植"
+  ],
+  "lighting": "庭院开阔，日光充足；廊下形成阴影；室内光线柔和",
+  "key_features": [
+    "回廊连接",
+    "庭院座椅",
+    "厢房布局",
+    "门房入口"
+  ],
+  "narrative_scenes": [
+    "scene_004",
+    "scene_013",
+    "scene_014"
+  ],
+  "scene_count": 3,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从强硬拒绝到养胎温情，再到失踪紧张"
+}

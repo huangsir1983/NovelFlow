@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高家厢房 - 日间",
+  "location": "高家厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "发现陆姝仪与蒋晟昏迷衣冠不整",
+  "key_dialogue": "（沈词面若冰霜）",
+  "emotional_peak": "女主心惊",
+  "tension_score": 0.85,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "厢房床榻",
+    "散乱衣物",
+    "茶盏"
+  ],
+  "dramatic_purpose": "陷害事件爆发"
+}

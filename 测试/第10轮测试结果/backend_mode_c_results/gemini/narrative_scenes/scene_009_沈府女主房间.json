@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 沈府主院 - DAY",
+  "location": "沈府女主房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "女主怀孕，太医断定是男孩。女主提出生完孩子做完月子就和离，并表示自己已经想开，不再恨沈词。",
+  "key_dialogue": "你放心，我想开了，以后都不会恨你了。",
+  "emotional_peak": "女主平静地说出不再恨他，沈词从得意调侃瞬间转为不可置信的破防。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "婴儿虎头帽",
+    "绣花针线",
+    "门框"
+  ],
+  "dramatic_purpose": "女主完成心理蜕变（放下恨意），男主迎来全剧最大转折点（发现失去女主的恨等于失去女主）。"
+}

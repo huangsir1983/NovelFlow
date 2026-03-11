@@ -1,0 +1,30 @@
+{
+  "variant_id": "父亲_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "父亲 — 坚定护女",
+  "tags": [
+    "坚定",
+    "护女",
+    "和离"
+  ],
+  "scene_ids": [
+    "scene_015"
+  ],
+  "trigger": "产后后院和离谈判，坚决支持女儿",
+  "appearance_delta": {
+    "face": "慈祥中眼神坚定锐利",
+    "body": "保护性站姿",
+    "hair": "花白束冠",
+    "distinguishing_features": "紧护女儿姿态"
+  },
+  "costume_override": {
+    "outfit": "深灰常服",
+    "color_palette": [
+      "深灰",
+      "褐色"
+    ]
+  },
+  "visual_reference": "五十岁古代官员，面容慈祥却眼神坚定威严，眼角皱纹明显，皮肤微黄，身材中等微胖，花白头发束冠，穿着深灰常服，站在高家后院保护女儿面对沈词，神情坚决支持和离如后盾，光影温暖家庭感带紧张对峙，写实风格",
+  "visual_prompt_negative": "年轻、犹豫软弱、官服、现代服装、卡通",
+  "emotional_tone": "坚决护女"
+}

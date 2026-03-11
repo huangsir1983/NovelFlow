@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_003",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:56"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "回溯旧爱撕开婚后噩梦",
+    "description": "父亲追问我为何羞辱良婿，我在沉默中回忆待字闺中时对沈词的真心爱慕，再骤然切入前世仓促下嫁后‘美梦尽碎’的婚后现实，明确如今一切挑衅与强硬都源于旧恨。",
+    "beat_type": "revelation",
+    "save_the_cat": "Catalyst",
+    "emotional_value": -0.6,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 3
+  }
+}

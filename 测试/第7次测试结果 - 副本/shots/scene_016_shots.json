@@ -1,0 +1,223 @@
+[
+  {
+    "id": "shot_0252",
+    "scene_id": "scene_016",
+    "shot_number": 1,
+    "goal": "建立封闭压抑的夜谈空间，交代高父彻夜未眠与父女此刻的距离关系。",
+    "composition": "门框式构图。前景左侧为半虚化门框与垂落帘角形成遮挡，中景右后三分之一处高父坐于书案后，油灯置于画面中央偏左，暖黄侧光打亮他半张脸与案上散乱文书；高令宁立于画面左前三分之一，仅见侧背轮廓与收紧的袖口线条。背景是昏黑窗棂，冷色夜意压入室内。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众先感到礼法空间中的克制、疲惫与未言明的压迫。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.32,
+    "order": 252
+  },
+  {
+    "id": "shot_0253",
+    "scene_id": "scene_016",
+    "shot_number": 2,
+    "goal": "从高令宁的限制性主观看到父亲面容的变化，建立她注意到父亲一夜之间苍老。",
+    "composition": "高令宁肩部与发髻虚化占据画面左前景，形成过肩视角；高父位于右侧三分之一，伏案微侧，灯火从左侧切过其眼角和法令纹，皱纹与青影被强调。案上纸张边缘在下方构成斜线，引导视线至高父眼部。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "唤起一种迟来的体察与隐秘心软，但仍包着防备。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.24,
+    "order": 253
+  },
+  {
+    "id": "shot_0254",
+    "scene_id": "scene_016",
+    "shot_number": 3,
+    "goal": "交代高令宁表面沉静、内里紧绷的反应，为后续不立刻反驳做准备。",
+    "composition": "高父肩背虚化占据右前景边缘，高令宁位于画面左中部，半侧面对镜，目光越过镜头落向高父。窗棂冷影切过她的肩颈，手部落在下画幅边缘，手指悄然攥紧衣袖。背景为暗木墙面与少量留白，突出她的克制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到她压下本能反驳、转为审视局势的冷静。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 254
+  },
+  {
+    "id": "shot_0255",
+    "scene_id": "scene_016",
+    "shot_number": 4,
+    "goal": "以细节强化熬夜与决断代价，说明高父是经过长夜挣扎后才改口。",
+    "composition": "案头细节特写。油灯火焰位于左上，右下摊开的文书、未干墨迹与被反复翻动起卷的纸角占据主体；一只略显发颤的手停在纸页边缘，指节发白。背景全虚，只有灯影轻晃。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造一种沉重、迟疑、已经付出代价的质感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": -0.12,
+    "order": 255
+  },
+  {
+    "id": "shot_0256",
+    "scene_id": "scene_016",
+    "shot_number": 5,
+    "goal": "承接台词开口，明确高父第一次将婚事表述为风险而非荣耀。",
+    "composition": "正面偏侧的高父单人镜头，人物位于画面右侧三分之一，左侧留出一片被灯火照亮的空案面作为情绪留白；油灯虚化在近前景左下角，形成暖色遮挡。高父抬眼看向画外左侧的高令宁，语速缓慢。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到一个一向持重的父亲终于说出不愿承认的担忧。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.04,
+    "order": 256
+  },
+  {
+    "id": "shot_0257",
+    "scene_id": "scene_016",
+    "shot_number": 6,
+    "goal": "捕捉高令宁听到‘受委屈’时的第一层反应，强调她没有立刻顶回去。",
+    "composition": "高令宁近景，位于画面左侧三分之一，身体朝右，视线定在画外父亲方向。前景右边缘有高父肩线虚化压框，形成对峙关系。她唇线轻抿，眼神微滞，手指在下画幅更紧地攥住袖口。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "唤起观众对她复杂心绪的捕捉：意外、警惕、短暂失语。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 257
+  },
+  {
+    "id": "shot_0258",
+    "scene_id": "scene_016",
+    "shot_number": 7,
+    "goal": "用双人关系镜头确认父女此刻虽对立站位未变，但情感重心开始靠近。",
+    "composition": "侧面双人中景，遵循180度轴线，高令宁站于画面左侧面向右，高父坐于画面右侧面向左，书案横亘中间形成礼法与代际阻隔。油灯位于二人之间稍偏高父一侧，暖光只够勉强连接两人脸部；背景窗棂冷影切成条状，压在墙面。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到关系发生松动，但隔阂仍真实存在。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.02,
+    "order": 258
+  },
+  {
+    "id": "shot_0259",
+    "scene_id": "scene_016",
+    "shot_number": 8,
+    "goal": "进入第二句台词，明确高父价值立场的转折：放下家族荣耀，转向女儿安稳。",
+    "composition": "比前一父亲单人更近一级。高父位于画面中央略偏右，身体前倾但不越过书案，眼神稳定而疲惫。背景几乎全黑，仅保留一条窗棂冷边，衬出他面上的暖光与鬓边霜白。画面下缘隐约保留文书边角，提醒这是在公私抉择中做出的让步。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "把观众推向场内最核心的父爱显露，带出克制下的歉意与决意。",
+    "duration_hint": "7-8s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 259
+  },
+  {
+    "id": "shot_0260",
+    "scene_id": "scene_016",
+    "shot_number": 9,
+    "goal": "用高令宁的反应承接父亲的告白，显示她被触动但仍不彻底交出情绪。",
+    "composition": "高令宁特写，正面略侧，位于画面中央偏左。背景是暗墙与一小块虚化灯暖，形成冷脸暖边的对冲。她眼里有极轻微湿意但不落泪，下颌保持绷紧，目光没有闪躲。下画幅可见她松开又重新扣住袖口的一瞬。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她不是被煽动，而是在极力确认这份迟来的真心是否可信。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 260
+  },
+  {
+    "id": "shot_0261",
+    "scene_id": "scene_016",
+    "shot_number": 10,
+    "goal": "以手部动作将高令宁的情绪内化为可见细节，避免直白煽情。",
+    "composition": "袖口与手指细节特写。高令宁月白衣袖占据画面大部，纤细手指从用力攥紧到略微松开，布料褶皱清晰可见。背景是模糊的木褐与一抹暖黄灯色，无人物面部信息，纯保留压抑动作。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "把观众的情绪收进身体反应里，感受她在忍、在算、也在动摇。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 261
+  },
+  {
+    "id": "shot_0262",
+    "scene_id": "scene_016",
+    "shot_number": 11,
+    "goal": "完成父女对视，确认婚事态度已发生关键转折，但答案仍未说尽。",
+    "composition": "限制性双视角近中景。镜头位于书案一侧，油灯虚化在前景中央下方，父女分列画面左右两端，彼此对望，中间留有一小段空隙与灯影。高父坐姿略低，高令宁站姿挺直，形成情感主动权正在转移的视觉关系。背景仍为冷暗窗棂与木墙。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "营造一瞬无声的关系重写：不是和解，而是局势改写前的静止。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 262
+  },
+  {
+    "id": "shot_0263",
+    "scene_id": "scene_016",
+    "shot_number": 12,
+    "goal": "冷收尾，留下高令宁听完却未表态的余味，为后续她提出条件做铺垫。",
+    "composition": "从高父一侧看向高令宁的半身背侧镜头。高令宁位于画面左中部，面朝右前方，略垂眼，没有说话；高父只留模糊侧脸在右前景。案上油灯火焰变小，背景夜色更重。画面上方留出较多黑暗留白，压住结尾气息。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众带着未解的冷静与新的期待离开场景，而非停在温情里。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.06,
+    "order": 263
+  }
+]

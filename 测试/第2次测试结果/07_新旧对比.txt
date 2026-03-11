@@ -1,0 +1,53 @@
+新旧方案对比
+============================================================
+
+【旧方案】P03_CHARACTER_EXTRACT (全文 → 一次性提取)
+  耗时: 68.2s
+  角色数: 6
+  输入: 全文 13181 字 (截断到 60000)
+
+  高令宁 (protagonist): 重生后从执念中觉醒，从卑微求爱走向彻底独立的女性。
+    visual_reference: 有, desire: 有
+  沈词 (antagonist): 一代名相，前世因傲慢与执念错失真爱，今生在悔恨中苦苦纠缠。
+    visual_reference: 有, desire: 有
+  陆姝仪 (supporting): 沈词的青梅，前世执念的化身，今生为了生存不择手段的重生者。
+    visual_reference: 有, desire: 有
+  高父 (supporting): 深爱女儿的父亲，高令宁最坚实的后盾。
+    visual_reference: 有, desire: 有
+  沈睿 (minor): 沈词与令宁的长子，天生神童，是维系父母关系的纽带。
+    visual_reference: 有, desire: 有
+  蒋晟 (supporting): 高父的门生，性格老实，曾是高令宁的追求者。
+    visual_reference: 有, desire: 有
+
+============================================================
+【新方案】P03A (名单扫描) + P03B (逐一详情)
+  角色数: 10
+  输入: synopsis 12456 字
+
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  ? (?): 
+    visual_reference: 无, desire: 无, flaw: 无, appearance: 无
+  婢女 (minor): 仗着酷似男主白月光而恃宠而骄，最终成为男女主矛盾彻底爆发导火索的愚蠢替身。
+    visual_reference: 有, desire: 有, flaw: 有, appearance: 有
+
+============================================================
+对比结论:
+  旧方案角色数: 6  vs  新方案角色数: 10
+  旧方案有visual_ref: 6  vs  新方案有visual_ref: 1
+  旧方案有desire: 6  vs  新方案有desire: 1
+  新方案优势: 每个角色独立AI调用，质量更高；输入为synopsis不截断

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高府 - 日",
+  "location": "高府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "陆姝仪",
+    "小厮"
+  ],
+  "core_event": "陆姝仪来访，高令宁拒见，陆姝仪失踪",
+  "key_dialogue": "我不想见客",
+  "emotional_peak": "陆姝仪失踪的紧张",
+  "tension_score": 0.9,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "门房",
+    "厢房",
+    "家具",
+    "茶具"
+  ],
+  "dramatic_purpose": "陷害事件前奏"
+}

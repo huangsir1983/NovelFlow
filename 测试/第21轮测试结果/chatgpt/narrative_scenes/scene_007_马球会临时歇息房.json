@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 马球会客房 - DUSK",
+  "location": "马球会临时歇息房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁脚踝正骨，蒋晟自责；另一边沈词亲自喂药安抚胃病发作的陆姝仪。高令宁坚持不退让，逼沈词必须先解决陆姝仪婚事。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪当众下跪求留，沈词护她入怀，彻底刺痛高令宁前世今生的委屈。",
+  "tension_score": 0.91,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "伤药与正骨布带",
+    "药碗",
+    "衣角"
+  ],
+  "dramatic_purpose": "把女主对“不再退一步”的立场说透，也加深她对前世婚姻不公的认知。",
+  "source_text_start": "大夫来看过了我的伤。\n脚踝错位，正骨完便好了",
+  "source_text_end": "「恰如你是他的妻子，可得到的疼爱，却只是我手头缝里流出来的一点。」"
+}

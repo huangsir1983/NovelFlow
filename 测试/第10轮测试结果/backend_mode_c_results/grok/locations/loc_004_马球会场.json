@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_004",
+  "name": "马球会场",
+  "type": "exterior",
+  "era_style": "明代郊外马球会场",
+  "description": "开阔的马球草场，周边环绕垂柳与池塘，池边设有石凳供观赛休息，场地上有临时彩旗与看台，远处可见江南水乡风光，地面草皮平整，整体布局自然开阔，装饰以柳条和石景为主，适合贵族聚会。",
+  "visual_reference": "Open air polo field in Ming dynasty Chinese countryside estate, surrounded by willow trees and lotus pond, stone benches by the water edge, grassy polo pitch with colorful banners and temporary viewing platforms, distant Jiangnan water town scenery, bright daytime sunlight, highly detailed, cinematic composition",
+  "atmosphere": "热闹活力开阔",
+  "color_palette": [
+    "翠绿",
+    "柳绿",
+    "石灰",
+    "天蓝"
+  ],
+  "lighting": "白天充足的自然阳光照射整个草场，柳树投下斑驳树影",
+  "key_features": [
+    "垂柳池塘石凳",
+    "宽阔马球草场",
+    "  彩旗看台"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "亲密互动的愉悦到醋意与挑衅交织的复杂情绪"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿",
+    "长子"
+  ],
+  "role": "minor",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "清秀聪颖，少年英气",
+    "body": "瘦高文弱",
+    "hair": "童发或束冠",
+    "distinguishing_features": "神童般的灵动眼神"
+  },
+  "costume": {
+    "typical_outfit": "小公子袍或襁褓",
+    "color_palette": [
+      "浅蓝",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "神童少年",
+    "孝顺长子"
+  ],
+  "visual_reference": "一位梦中出现的古代神童少年，清秀聪颖脸庞瘦高身材，黑发整齐，穿着浅蓝色小公子袍，跪捧粥碗表情担忧，室内暖光写实风格，高清细节",
+  "visual_prompt_negative": "成年壮汉、现代服装、凶狠表情、卡通风格",
+  "personality": "孝顺懂事、天资聪颖",
+  "desire": "父母和睦",
+  "flaw": "早逝命运",
+  "arc": "前世英年早逝推动父母重生反思",
+  "scene_presence": "女主梦境与回忆中出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "心疼母亲",
+      "function": "情感触动点"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "崇拜父亲",
+      "function": "男主娶妻动机"
+    }
+  ]
+}

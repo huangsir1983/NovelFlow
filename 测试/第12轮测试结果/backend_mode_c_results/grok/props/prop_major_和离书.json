@@ -1,0 +1,14 @@
+{
+  "name": "和离书",
+  "category": "document",
+  "description": "泛黄宣纸和离文书，毛笔小楷书写婚姻解除条款，顶部醒目'和离书'三字，下方有签押花押与红色印鉴，纸张有自然折痕和墨晕。",
+  "visual_reference": "古风和离书文件，明清宣纸材质，手写工整黑色楷体文字，顶部大字标题，鲜红朱砂官印或私章，纸张微微卷曲折痕，置于书案，严肃历史文献感，光影戏剧性",
+  "visual_prompt_negative": "现代合同纸、打印字体、白纸新纸、电脑生成、过于破烂撕裂",
+  "narrative_function": "核心转折道具，沈词拿着它闯入并质问，直接推动和离情节高潮，揭示双方复杂情感纠葛与决断",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_015",
+    "scene_016"
+  ],
+  "emotional_association": "决裂、释然与隐痛"
+}

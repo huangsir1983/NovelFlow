@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_020",
+  "order": 19,
+  "heading": "INT. 沈家新房门内 - night",
+  "location": "沈家洞房门口",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪婢女"
+  ],
+  "core_event": "洞房中途陆姝仪故伎重施，以醉酒心口痛召走沈词，我冷淡放行并再次提醒彼此迟早和离。",
+  "key_dialogue": "你去吧，也不必回来了。",
+  "emotional_peak": "从刺痛转为彻底不在乎的冷笑",
+  "tension_score": 0.76,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "房门",
+    "被褥",
+    "传话婢女"
+  ],
+  "dramatic_purpose": "重演前世桥段，但女主的反应已变，表现她感情上的抽离。",
+  "visual_reference": "新房内女子背对门口裹好被子，门外婢女跪着传话，男子立在床侧神色讥诮，红烛映出冷清残局，喜气与尴尬并置，古风戏剧场面",
+  "visual_prompt_negative": "避免婢女过度夸张哭喊、避免花哨婚俗道具过多、避免甜虐偶像风、避免现代门窗样式",
+  "source_text_start": "说完，他俯身去盯我的眼睛。",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

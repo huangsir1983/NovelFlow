@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0792",
+    "shot_id": "shot_0792",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, exits from the middle of the frame toward the left rear doorway after a fall, posture tense and unsteady, leaving with lingering fear and unfinished resolve; a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, remains on the raised bed at the right side, still and distant; ancient Chinese noble bedchamber, right side occupied by a high bed with hanging curtains, left rear doorway swallowing him into darkness, old wood interior, cold moonlight remaining inside the room, low-saturation gray-blue and dark brown palette, side backlight, doorway framing, oppressive negative space; cinematic historical drama realism, restrained composition, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cold moonlight against dim warm interior remnants, low-saturation blue-gray tones, side backlight, doorway shadow compression"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern furniture, plastic, zippers, contemporary makeup, text, watermark, logo, low quality, blurry, oversaturated, cartoon, sci-fi elements"
+  },
+  {
+    "id": "sp_0793",
+    "shot_id": "shot_0793",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, re-enters from the dark left rear doorway carrying a quilt and pillow in his arms, more disheveled and stubborn, expression exhausted yet resolute; ancient Chinese bedchamber from the same doorway angle, dark foreground, vertical doorframe dominating the left side, raised bed still on the right, unchanged spatial order, old wooden interior, cold moonlight on the floor and bed curtains, black doorway behind him, muted gray-blue, ink-black, old wood brown palette, deep shadows emphasizing obsession returning; cinematic historical drama realism, static full shot composition, visual tension through symmetry and repetition, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cold moonlight with dense doorway shadows, low-saturation blue-gray and dark wood contrast, restrained interior fill light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern bedding, plastic, metal bed frame, contemporary clothing details, text, watermark, logo, low quality, blurry, distorted anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0794",
+    "shot_id": "shot_0794",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, kneels in the lower half of the frame spreading bedding and placing a pillow on the floor, movements humble yet unyielding, his persistence suffocating; a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, remains elevated on the bed above him behind the hanging curtains, distant and emotionally sealed off; ancient Chinese bedchamber seen from a slightly high angle, moonlight lattice shadows across the floor, high bed occupying the upper half, curtains dropping like a boundary line, clear upper-lower power separation, low-saturation gray-blue, dark teal, old wood brown tones, cold moonlight with faint amber interior residue, screen-like spatial division; cinematic historical drama realism, medium long shot, oppressive layered composition, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cold moonlight patterned through lattice, faint warm residual interior glow, side-top contrast, low-saturation blue-gray palette"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern mattress, synthetic fabrics, plastic, contemporary room decor, text, watermark, logo, low quality, blurry, overexposed, oversaturated, anime style"
+  },
+  {
+    "id": "sp_0795",
+    "shot_id": "shot_0795",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, kneels low at the center-left holding the edge of a pillow against his chest, looking upward toward the bed with pleading intensity and broken boundaries, eyes faintly red with fixation and sorrow; ancient Chinese bedchamber interior, blurred bed edge pressing down from the upper right as spatial pressure, dark hanging curtains and old wooden textures around him, muted blue-gray and black tones, cold moonlight shaping his face with a hard side light, little warmth, oppressive shallow space; cinematic historical drama realism, medium close-up, low camera perspective at eye level with the kneeling figure, emotional claustrophobia, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cold side moonlight with strong shadow falloff, low-saturation blue-gray palette, compressed interior darkness"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern pillow design, plastic, contemporary hairstyle, text, watermark, logo, low quality, blurry, deformed hands, extra fingers, oversaturated colors, comic style"
+  },
+  {
+    "id": "sp_0796",
+    "shot_id": "shot_0796",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, lies down with her back to the camera on the right side of the frame, spine rigid, shoulders tense, refusing to turn or answer, her silence defensive and exhausted; ancient Chinese bedchamber seen from inside the bed space, hanging curtain and a small section of empty bed in the left foreground, a corner of bedding visible on the floor far below, raised bed, old wood, layered fabric textures, cool moonlight touching the bed surface while the rest stays dim, low-saturation gray-blue, dark teal, old wood brown palette, visual separation through curtains and height difference; cinematic historical drama realism, medium shot, static restrained composition, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cool moonlight skimming fabric and profile edges, dim ambient interior shadows, low-saturation blue-gray and muted teal tones"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern bed linens, synthetic curtain fabric, plastic, text, watermark, logo, low quality, blurry, bad anatomy, oversaturated, 3d render look"
+  },
+  {
+    "id": "sp_0797",
+    "shot_id": "shot_0797",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, remains motionless on the raised bed at the right side; a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, lies still on the floor bedding at the lower left, silent and unresolved; ancient Chinese bedchamber in a wide static view, a large expanse of cold floor dominating the center, moonlight slightly shifted across the room, hanging curtains, old wood walls, raised bed high on the right and floor bedding low on the left, storm aftermath atmosphere, distant thunder implied, low-saturation gray-blue, dark brown, muted teal palette, silence as the main subject; cinematic historical drama realism, wide shot, austere negative space, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "shifted cold moonlight after storm, faint residual warm darkness, low-saturation blue-gray tones, still air and soft shadow gradients"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern room decor, plastic, contemporary textiles, text, watermark, logo, low quality, blurry, noisy artifacts, oversaturated colors, fantasy effects"
+  }
+]

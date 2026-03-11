@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "EXT. 侯府马球场 - day",
+  "location": "侯爵府马球场边",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟"
+  ],
+  "core_event": "我赴马球会，蒋晟处处体贴周到，展现出与沈词截然不同的稳妥良配可能。",
+  "key_dialogue": "无",
+  "emotional_peak": "我短暂看见了另一种婚姻生活的想象。",
+  "tension_score": 0.44,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "葡萄",
+    "马球杆",
+    "帕子"
+  ],
+  "dramatic_purpose": "引入蒋晟，作为对照男性与后续误会的关键人物。",
+  "visual_reference": "春日马球场边尘土飞扬，武将气质的青年替女子挡风、剥葡萄，女子站在日光下略出神，画面明亮却含隐忧",
+  "visual_prompt_negative": "避免激烈球赛主导画面，避免浪漫过度，避免现代运动服",
+  "source_text_start": "想到沈词愠怒的神情，我心情大好，应了侯爵娘子的马球会。",
+  "source_text_end": "我想吃葡萄，他甚至剥了皮才递给我。"
+}

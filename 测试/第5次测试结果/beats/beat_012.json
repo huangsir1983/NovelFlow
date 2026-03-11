@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_012",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "怀上睿儿却仍决定生后离开",
+    "description": "开春后太医诊出我有孕且是男胎，与前世时间完全重合，宿命感达到顶点。沈词默认孩子会把我留住，甚至以和离后立刻娶陆姝仪试探；我却平静回应生完坐完月子便走，并说以后都不会再恨他，这让沈词第一次真正失衡。",
+    "beat_type": "revelation",
+    "save_the_cat": "Break into Three",
+    "emotional_value": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 12
+  }
+}

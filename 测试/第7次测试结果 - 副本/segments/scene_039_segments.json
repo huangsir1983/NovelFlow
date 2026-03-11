@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0194",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0585",
+      "shot_0586",
+      "shot_0587"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成入场铺垫：先建立高府傍晚压抑环境，再切入高令宁的主观警觉，最后由沈睿闯入打破表面秩序。角色集合从环境到女主再到来者，情绪线连续由不祥预感推进到外部压力降临，适合合并成一个开场segment。",
+    "order": 194
+  },
+  {
+    "id": "seg_0195",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0588",
+      "shot_0589",
+      "shot_0590"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕同一信息爆点展开：沈睿带来的严重性、门房名册确认事实、高令宁接收冲击后的第一反应。信息流连续且空间未变，情绪从外部施压直达女主内心坠落，构成一个完整的‘危机坐实’单元。",
+    "order": 195
+  },
+  {
+    "id": "seg_0196",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0591",
+      "shot_0592",
+      "shot_0593"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头构成明确的情感弧线转折：由身体层面的失控边缘，到意志回收，再到公开下令。角色核心始终是高令宁，动作与情绪高度连续，适合作为一个独立segment呈现她从慌乱到接管局面的换挡。",
+    "order": 196
+  },
+  {
+    "id": "seg_0197",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0594",
+      "shot_0595",
+      "shot_0596"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段核心是‘命令生效后的扩散’：先看局部执行，再看全府规模，最后插入高父作为家族权威失效的反应。虽然加入新角色高父，但其功能是对同一场失序的补充观察，不构成时空切换，合并后能完整展示搜府从动作到意义的扩张。",
+    "order": 197
+  },
+  {
+    "id": "seg_0198",
+    "scene_id": "scene_039",
+    "shot_ids": [
+      "shot_0597",
+      "shot_0598",
+      "shot_0599",
+      "shot_0600"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后四镜共享同一末段情绪：搜寻无果后的持续拉紧。先回到高令宁的孤立，再进入她的受限观察，再补上沈睿的外部压力，最后冷收在她的近景上。角色关系与悬念都在同一时空内收束，适合作为结尾segment，把压力递送到下一场。",
+    "order": 198
+  }
+]

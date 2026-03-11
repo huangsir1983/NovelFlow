@@ -1,0 +1,47 @@
+{
+  "name": "媒人",
+  "aliases": [
+    "媒人婆"
+  ],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "圆滑喜庆的市井妇人面相，笑容常带试探与讨好",
+    "body": "中等身形，行动麻利",
+    "hair": "已婚妇人发髻，打理整齐",
+    "distinguishing_features": "说话带职业化热络感"
+  },
+  "costume": {
+    "typical_outfit": "色彩喜庆的妇人衣裙，配简易首饰",
+    "color_palette": [
+      "绛红",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "媒婆",
+    "市井圆滑",
+    "礼俗人物"
+  ],
+  "visual_reference": "中国古代媒婆，中年妇人，面带热络笑意，穿喜庆绛红衣裙，手捧礼单或木雁，站在正堂中，古风写实",
+  "visual_prompt_negative": "现代职业装、卡通夸张表情、奇幻元素",
+  "personality": "圆滑、善劝、趋利避害",
+  "desire": "促成婚事，保住颜面与差事",
+  "flaw": "只看门第利益，忽视当事人感受",
+  "arc": "无明显弧线，承担礼俗推进作用",
+  "scene_presence": "在初次提亲和第三次上门提亲时出场",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "说亲对象",
+      "dynamic": "劝其就范",
+      "function": "引爆初次公开冲突"
+    },
+    {
+      "target": "沈词",
+      "type": "为其传话办事",
+      "dynamic": "代表沈家婚配意志",
+      "function": "礼俗工具角色"
+    }
+  ]
+}

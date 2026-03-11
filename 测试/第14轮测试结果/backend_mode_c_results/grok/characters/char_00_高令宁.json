@@ -1,0 +1,55 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高小姐",
+    "夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-28",
+  "appearance": {
+    "face": "清丽端庄，五官精致，眉眼坚定锐利",
+    "body": "苗条匀称，Finalizing character visuals- Shen Rui: young prodigy with bright eyes, later adult with minister's aura; visual reference in Chinese for AI drawing.  </think> 姿态优雅却带倔强",
+    "hair": "乌黑长发，精致盘髻",
+    "distinguishing_features": "锐利聪慧的眼神与偶尔冷笑的唇角"
+  },
+  "costume": {
+    "typical_outfit": "华美绣花襦裙，锦缎罗裙",
+    "color_palette": [
+      "绯红",
+      "浅青"
+    ]
+  },
+  "casting_tags": [
+    "古风女主",
+    "要强贵女",
+    "重生复仇型"
+  ],
+  "visual_reference": "一位年轻古代贵女，清秀美丽容貌，柳眉凤眼眼神坚定自信，白皙肌肤，黑长直发盘成精致发髻，身着浅粉色绣花华美襦裙，姿态优雅倔强，站在古宅正堂或江南庭院中，柔和自然光影，写实风格，超高清细节",
+  "visual_prompt_negative": "现代服装，短发，浓妆艳抹，西方脸型，可爱萝莉风，笑容过于甜美，卡通风格",
+  "personality": "争强好胜、高傲自尊、不肯忍耐",
+  "desire": "重见孩子一面、摆脱前世纠缠、平安喜乐度日",
+  "flaw": "过于要强、易冲动记恨、不愿示弱",
+  "arc": "从仇恨针锋到逐渐释怀原谅，却被男主持续纠缠",
+  "scene_presence": "第一人称主角，全程核心出场，推动所有情感冲突",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "丈夫",
+      "dynamic": "爱恨交织、互相提防到救赎纠缠",
+      "function": "情感核心冲突与和解"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "敌对嫉妒、互相算计",
+      "function": "制造张力与误会"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "关爱保护",
+      "function": "情感后盾"
+    }
+  ]
+}

@@ -17,6 +17,7 @@ class Project(Base, TimestampMixin):
     import_source = Column(String(20), nullable=False, default="novel")  # novel | script | blank
     edition = Column(String(20), nullable=False, default="normal")       # normal | canvas | hidden | ultimate
     stage = Column(String(30), nullable=False, default="import")         # import | knowledge | beat_sheet | script | storyboard | visual_prompt | generation | complete
+    current_phase = Column(String(20), nullable=False, default="workbench")  # workbench | board | preview
 
     def __repr__(self) -> str:
-        return f"<Project(id={self.id}, name={self.name}, stage={self.stage})>"
+        return f"<Project(id={self.id}, name={self.name}, stage={self.stage}, phase={self.current_phase})>"

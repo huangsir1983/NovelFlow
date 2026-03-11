@@ -1,0 +1,13 @@
+{
+  "name": "父亲奏折",
+  "category": "document",
+  "description": "黄色绫边奏折，折叠册状尺寸30cm×15cm，内页白宣纸毛笔小楷书写朝政内容，盖有鲜红官印，封面庄重。",
+  "visual_reference": "古代官员奏折，黄绫封面折叠整齐，内页密密麻麻工整小楷汉字，置于书案上，书房昏黄灯光，古风历史剧真实细节",
+  "visual_prompt_negative": "现代文件、打印纸张、随意折叠、破损不堪、英文文字",
+  "narrative_function": "体现父亲朝臣身份与家庭支柱，推动女主观察家庭背景与亲子对话场景",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_002"
+  ],
+  "emotional_association": "敬重依靠与家族责任"
+}

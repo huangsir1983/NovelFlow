@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 沈府新婚正厅/前世回忆 - DAY",
+  "location": "前世沈府正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世新婚第二日，沈母安排陆姝仪向高令宁敬茶，意图试探并迫使其容下平妻，高令宁当场砸杯自戕反击。",
+  "key_dialogue": "无",
+  "emotional_peak": "高令宁捡起瓷片抹脖子，血痕惊住全场。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "敬茶茶盏",
+    "瓷杯碎片",
+    "茶盘",
+    "跪垫",
+    "主位椅",
+    "桌案",
+    "帕子",
+    "地面血迹",
+    "门帘"
+  ],
+  "dramatic_purpose": "交代前世婆媳与情敌关系的原始创伤，塑造女主强烈反抗性。"
+}

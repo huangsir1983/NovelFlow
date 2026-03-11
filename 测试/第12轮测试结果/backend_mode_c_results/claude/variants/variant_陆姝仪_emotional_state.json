@@ -1,0 +1,32 @@
+{
+  "variant_id": "lu_shuyi_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 跪求哀告",
+  "tags": [
+    "下跪",
+    "哭泣",
+    "哀求",
+    "绝望"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "马球会外夜晚，跪求高令宁让她留在沈家",
+  "appearance_delta": {
+    "face": "梨花带雨，泪痕满面，眼神绝望哀求",
+    "body": "双膝跪地，身体前倾",
+    "hair": "发髻松散，几缕发丝垂落",
+    "distinguishing_features": "泪水不断滑落，双手合十哀求姿态"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙沾染尘土，披帛滑落肩头",
+    "color_palette": [
+      "粉色",
+      "灰褐",
+      "暗青"
+    ]
+  },
+  "visual_reference": "古代少女，十八岁，梨花带雨泪痕满面，眼神绝望哀求，身着粉色襦裙沾染尘土，披帛滑落肩头，发髻松散几缕发丝垂落，双膝跪地身体前倾，双手合十哀求，泪水不断滑落，夜晚昏暗灯火下，马球会外空地，氛围凄凉悲戚",
+  "visual_prompt_negative": "站立姿态、自信神态、整洁华丽、欢快氛围、白天明亮、现代装",
+  "emotional_tone": "绝望、哀求、卑微凄凉"
+}

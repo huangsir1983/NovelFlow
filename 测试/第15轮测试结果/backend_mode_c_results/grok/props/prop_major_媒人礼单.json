@@ -1,0 +1,13 @@
+{
+  "name": "媒人礼单",
+  "category": "document",
+  "description": "长卷宣纸媒人礼单，长约40cm，墨笔工整列出各项聘礼条目，字迹清晰，盖有红色媒人官印，纸张略带泛黄，卷轴形式。",
+  "visual_reference": "古代媒人礼单，宣纸手写墨字清单，书法优美配红色官印，摊开于桌上，古色古香宫廷风格",
+  "visual_prompt_negative": "现代打印纸、电子表格、破损严重、随意涂写、无印章",
+  "narrative_function": "正式提亲仪式道具，女主角通过礼单评估聘礼缩减确认沈词重生，推动拒绝婚事决策",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_001"
+  ],
+  "emotional_association": "正式审视与警觉"
+}

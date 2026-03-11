@@ -1,0 +1,54 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "幼时聪慧秀气，长大后眉目清正，兼具父亲的清隽与母亲的灵气",
+    "body": "少年时修长清瘦，成年后文臣风骨鲜明",
+    "hair": "幼时软发，成年后整束冠发",
+    "distinguishing_features": "天生神童气质，目光早慧，病中仍温柔懂事"
+  },
+  "costume": {
+    "typical_outfit": "幼时锦袍小褂，成年后清贵官袍",
+    "color_palette": [
+      "青色",
+      "月白",
+      "墨色"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "白月光儿子",
+    "早逝天才",
+    "母子羁绊"
+  ],
+  "visual_reference": "Ancient Chinese prodigy boy to young minister, refined intelligent eyes, elegant scholar robe, gentle and precocious temperament, emotional historical drama portrait",
+  "personality": "聪慧、仁厚、孝顺、过早成熟",
+  "desire": "希望父母和睦，家族安宁",
+  "flaw": "过度懂事，把父母关系的裂痕归咎于自己",
+  "arc": "虽多以回忆与梦境出现，但其从天才名相到早逝之子，成为所有人执念的起点；梦中更推动母亲放下",
+  "scene_presence": "主要出现在回忆、谈话和梦境中，是全剧核心但不常现身的情感发动机",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "深情依恋，彼此都因对方受苦而愧疚",
+      "function": "驱动女主再嫁"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "父亲以他为骄傲与执念，儿子则努力调和父母",
+      "function": "驱动男主坚持婚姻"
+    },
+    {
+      "target": "沈昭昭",
+      "type": "未出生妹妹的精神映照",
+      "dynamic": "梦中主动让位般的祝福，象征执念转移",
+      "function": "帮助主角群完成情感转向"
+    }
+  ]
+}

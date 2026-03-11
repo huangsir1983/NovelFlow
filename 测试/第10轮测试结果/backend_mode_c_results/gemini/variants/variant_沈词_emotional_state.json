@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_broken",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 破防疯批",
+  "tags": [
+    "追妻火葬场",
+    "崩溃",
+    "卑微"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012",
+    "scene_014",
+    "scene_015"
+  ],
+  "trigger": "陆姝仪陷害导致女主早产、得知前世长子未归、高父甩出和离书以及女主平静原谅他时。",
+  "appearance_delta": {
+    "face": "眼尾猩红，泪流满面，神情极度恐慌与崩溃，脸颊可能有被扇耳光的红印",
+    "body": "脊背弯折，失去所有体面，甚至下跪祈求，身体僵硬发抖",
+    "hair": "发冠歪斜，发丝凌乱散落",
+    "distinguishing_features": "高岭之花彻底跌落神坛，眼神从不可置信转为绝望的疯狂"
+  },
+  "costume_override": {
+    "outfit": "原本考究的常服变得凌乱不堪，带有深深的褶皱，衣摆可能沾染灰尘或血迹",
+    "color_palette": [
+      "暗紫",
+      "灰黑"
+    ]
+  },
+  "visual_reference": "1boy, ancient chinese handsome official, jade-like face, crying, red-rimmed amber eyes with tears, messy unkempt hair, wearing wrinkled and dusty dark purple traditional robes, kneeling posture, shattered and desperate expression, begging, masterpiece, highly detailed, dramatic lighting, 8k resolution",
+  "emotional_tone": "极度恐慌，绝望崩溃，卑微祈求"
+}

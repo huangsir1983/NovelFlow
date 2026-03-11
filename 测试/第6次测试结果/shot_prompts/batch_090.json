@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0540",
+    "shot_id": "shot_0536",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, close-up portrait, slowly turning his head from right to left, brows tightening, eyes trembling slightly with hurt and worry, lips parted as if about to speak but stopping, a blurred edge of a young noblewoman's sleeve in the foreground, a vertical edge of stacked betrothal gift boxes in the background, inside an ancient Chinese family hall with muted gray-blue, old wood brown, and a faint amber-cool contrast, soft side-back light and natural doorway light shaping his features, cinematic historical drama realism, shallow depth of field, emotionally restrained and intimate",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, soft side-back light, subtle amber interior glow mixed with cool daylight, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electricity, plastic, neon, glass curtain wall, contemporary makeup, text, watermark, logo, low quality, blurry face, deformed hands, extra fingers, cropped head, oversaturated colors"
+  },
+  {
+    "id": "sp_0541",
+    "shot_id": "shot_0537",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, and a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, medium shot, the father seated or half-standing in the right foreground turning to look back toward his daughter, the daughter standing slightly behind on the left with one hand still resting on his shoulder, both sharing the frame for the first time, a narrow strip of negative space between them like an unspoken future, the betrothal gifts pushed to the edge of the composition rather than centered, ancient Chinese interior with old wood pillars and muted ceremonial boxes, low-saturation gray-blue and old wood tones with faint amber and cool daylight contrast, static balanced composition, cinematic emotional realism, subtle film grain, restrained tension and intimate distance",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, soft natural back-side daylight from door and window, subdued amber interior bounce, controlled shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, electricity, plastic, microphones, text, watermark, logo, low quality, low resolution, extra limbs, deformed anatomy, oversaturated red, contemporary interior decor"
+  },
+  {
+    "id": "sp_0542",
+    "shot_id": "shot_0538",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, medium close-up, right-profile view occupying the right two-thirds of the frame, lifting his gaze toward his daughter with a steadier and more resolute expression, voice heavy yet protective, deepened lines around the eyes and mouth, in the distant background blurred betrothal chests and a wooden door pillar recede into soft focus as if rules and pressure have stepped back, inside an ancient Chinese residence with muted gray-blue, dark wood brown, and restrained amber accents, soft side-back light from the doorway outlining his profile, cinematic historical realism, shallow depth of field, quiet but decisive paternal emotion",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, soft side-back daylight from doorway, gentle amber fill from interior, subdued shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern room, electronic devices, plastic, text, watermark, logo, low quality, blurred features, bad anatomy, extra fingers, exaggerated expression, oversaturated palette"
+  },
+  {
+    "id": "sp_0543",
+    "shot_id": "shot_0539",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, close-up portrait, standing still and listening, the faint trace of a smile fading almost imperceptibly, emotion held back behind controlled eyes, positioned slightly left of center, behind her a half-open wooden door, cool side-back light tracing the fine scar on her neck and casting delicate eyelash shadows, ancient Chinese domestic interior in low-saturation gray-blue and old wood brown with a subtle amber-cool contrast, minimalist frame with off-screen paternal presence implied, cinematic realism, shallow depth of field, restrained vulnerability",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, cool side-back doorway light with faint amber interior undertone, soft sculpting shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern hairstyle, heavy modern makeup, text, watermark, logo, low quality, low resolution, deformed face, extra limbs, plastic materials, oversaturated colors"
+  },
+  {
+    "id": "sp_0544",
+    "shot_id": "shot_0540",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, and a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, close-up of gesture, the daughter's hand changing from a light tapping motion to a gentle press on her father's shoulder and pausing there for a beat, the father's shoulder line filling the lower half of the frame, her hand and sleeve occupying the center, no visible faces, background reduced to old wood tones and cool light only, stripped of clutter, intimate ancient Chinese interior, low-saturation warm-cool contrast, soft side light and cool ambient daylight, cinematic realism, tactile fabric detail, quiet restrained tenderness",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, detail shot",
+      "lighting": "low-saturation warm-cool contrast, soft side light, cool natural ambient daylight, minimalistic shadowed background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, rings with modern design, manicured modern nails, text, watermark, logo, low quality, blurry hands, extra fingers, malformed hands, plastic texture, contemporary interior details"
+  },
+  {
+    "id": "sp_0545",
+    "shot_id": "shot_0541",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, and a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, full shot, the father and daughter placed in the right half of the frame, father in front seated or standing, daughter close behind and to the side, their bodies near each other yet facing differently, the father looking at his daughter while she looks forward, the left half dominated again by a mountain of betrothal gifts, back-side daylight pressing in from door and window, the figures visually trapped between the family threshold and the marriage goods, ancient Chinese household interior with muted gray-blue, dark wood brown, restrained ceremonial red and gold kept minimal, static composition, cinematic historical drama realism, layered space, emotional aftermath with lingering pressure",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, compressed back-side daylight from doors and windows, dim amber interior undertone, spatial shadow layering"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern gift boxes, plastic wrapping, electric lights, text, watermark, logo, low quality, bad perspective, deformed anatomy, extra limbs, oversaturated red, contemporary architecture"
+  }
+]

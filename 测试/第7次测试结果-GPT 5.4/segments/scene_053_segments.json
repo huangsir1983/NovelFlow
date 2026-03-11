@@ -1,0 +1,63 @@
+[
+  {
+    "id": "seg_0266",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0850",
+      "shot_0851",
+      "shot_0852",
+      "shot_0853"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前4个shot共同完成场景建立与主观秩序铺垫：先交代院门、庭院、雪地与生活痕迹，再落到高令宁门边旁观的位置，最后确认昭昭与几名年轻男人构成的温暖家内状态。角色集合稳定，情绪仍处于松弛基线，适合合并为一个完整起势段。",
+    "order": 266
+  },
+  {
+    "id": "seg_0267",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0854",
+      "shot_0855",
+      "shot_0856",
+      "shot_0857",
+      "shot_0858"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组shot构成一次完整的入场反转链条：沈词进入、被雪球砸中、昭昭认父、沈词情绪先软后冷，再通过主观视线确认威胁对象。新角色核心入场且情绪由轻微荒诞迅速翻到嫉妒与被排斥感，形成明确段落边界，应整体合并。",
+    "order": 267
+  },
+  {
+    "id": "seg_0268",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0859",
+      "shot_0860",
+      "shot_0861",
+      "shot_0862"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot聚焦门边对峙的第一轮攻防：空间逼近、女主稳定反应、男主质问、女主给出核心刺点答案。角色集合收缩至男女主，情绪持续上行且未完成释放，构成单一而完整的对话冲突段。",
+    "order": 268
+  },
+  {
+    "id": "seg_0269",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0863",
+      "shot_0864",
+      "shot_0865",
+      "shot_0866"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后4个shot完成本场的情绪顶点与余波收束：沈词压怒、高令宁推开、客房指示、沈词被晾在原地。情绪由高压爆点转入危险回冷，且角色关系在此完成阶段性定格，因此合并为结尾段最为完整。",
+    "order": 269
+  }
+]

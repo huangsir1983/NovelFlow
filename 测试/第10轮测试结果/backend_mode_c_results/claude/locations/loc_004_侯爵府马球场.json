@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_004",
+  "name": "侯爵府马球场",
+  "type": "exterior",
+  "era_style": "明代贵族府邸园林马球场",
+  "description": "开阔的草地球场，四周环绕低矮木栅栏。一侧设观赛看台，为木制高台铺锦垫。场边植垂柳，柳下有池塘，水面映天光。远处可见假山亭台。看台旁搭遮阳棚，摆果盘茶具。草地平整，划有球门标记。天空高远，风筝飘摇。马匹在场中奔驰，扬起尘土。",
+  "visual_reference": "Ming Dynasty aristocratic polo field, open grass field with low wooden fence, elevated wooden viewing platform with silk cushions, weeping willows by pond reflecting sky, distant pavilion and rockery, canopy tent with fruit and tea service, flat grass with goal markers, horses galloping raising dust, kites flying in clear sky, luxurious garden setting, dynamic outdoor scene",
+  "atmosphere": "贵族、悠闲、竞技张力",
+  "color_palette": [
+    "翠绿草地",
+    "柳绿",
+    "天蓝",
+    "木栅原色"
+  ],
+  "lighting": "明媚阳光，柳树投下斑驳树影，池塘反光",
+  "key_features": [
+    "垂柳与池塘",
+    "木制看台",
+    "奔驰的马匹",
+    "飘摇风筝",
+    "遮阳棚茶座"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "社交场合的暗流涌动→沈词嫉妒的情绪爆发"
+}

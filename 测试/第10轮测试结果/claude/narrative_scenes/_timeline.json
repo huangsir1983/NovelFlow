@@ -1,0 +1,161 @@
+{
+  "total_scenes": 14,
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "order": 0,
+      "location": "高府正堂",
+      "core_event": "媒人第一次提亲，高令宁拒绝木雁聘礼",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "媒人",
+        "高父"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "order": 1,
+      "location": "高令宁闺房",
+      "core_event": "父亲不解女儿为何刁难沈家",
+      "characters_present": [
+        "高令宁",
+        "高父"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "order": 2,
+      "location": "医馆门口",
+      "core_event": "沈词拦住高令宁，提出交易条件",
+      "characters_present": [
+        "高令宁",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "order": 3,
+      "location": "高府",
+      "core_event": "高令宁要求陆姝仪出嫁后才答应婚事",
+      "characters_present": [
+        "高令宁",
+        "沈府小厮"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "order": 4,
+      "location": "马球会场地",
+      "core_event": "马球会上高令宁脚崴，蒋晟扶持，沈词目睹",
+      "characters_present": [
+        "高令宁",
+        "蒋晟",
+        "沈词",
+        "陆姝仪"
+      ]
+    },
+    {
+      "scene_id": "scene_006",
+      "order": 5,
+      "location": "马球会休息室",
+      "core_event": "陆姝仪胃病，沈词照顾；高令宁正骨后要离开",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "蒋晟",
+        "陆姝仪",
+        "大夫"
+      ]
+    },
+    {
+      "scene_id": "scene_007",
+      "order": 6,
+      "location": "高府正堂",
+      "core_event": "媒人第三次提亲，高父应下婚事",
+      "characters_present": [
+        "高令宁",
+        "媒人",
+        "高父",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_008",
+      "order": 7,
+      "location": "高府正堂",
+      "core_event": "父亲担忧女儿嫁入高门，高令宁安慰父亲",
+      "characters_present": [
+        "高令宁",
+        "高父"
+      ]
+    },
+    {
+      "scene_id": "scene_009",
+      "order": 8,
+      "location": "沈府新房",
+      "core_event": "新婚之夜，高令宁心不在焉，沈词云雨",
+      "characters_present": [
+        "高令宁",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_010",
+      "order": 9,
+      "location": "沈府新房",
+      "core_event": "陆姝仪婢女来报小姐心口痛，高令宁让沈词去",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "陆姝仪婢女"
+      ]
+    },
+    {
+      "scene_id": "scene_011",
+      "order": 10,
+      "location": "沈府",
+      "core_event": "沈词为陆姝仪择婿焦头烂额，高令宁建议纳她为妾",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "陆姝仪",
+        "沈母"
+      ]
+    },
+    {
+      "scene_id": "scene_012",
+      "order": 11,
+      "location": "高令宁房间",
+      "core_event": "高令宁怀孕，太医诊断是男孩",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "太医"
+      ]
+    },
+    {
+      "scene_id": "scene_013",
+      "order": 12,
+      "location": "高府",
+      "core_event": "高令宁养胎回娘家，沈词每日来探望",
+      "characters_present": [
+        "高令宁",
+        "高父",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_014",
+      "order": 13,
+      "location": "高府",
+      "core_event": "陆姝仪来访，高令宁拒见，陆姝仪失踪",
+      "characters_present": [
+        "高令宁",
+        "高父",
+        "陆姝仪",
+        "小厮"
+      ]
+    }
+  ]
+}

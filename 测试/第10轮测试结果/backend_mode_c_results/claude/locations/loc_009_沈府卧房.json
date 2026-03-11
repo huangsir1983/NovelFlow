@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_009",
+  "name": "沈府卧房",
+  "type": "interior",
+  "era_style": "明代主卧寝室",
+  "description": "宽敞的卧房，中央为雕花大床，铺厚实被褥。床边设小几，放脉枕和药箱。窗边设软榻供休憩，榻上放针线筐，内有半成品虎头帽。墙上挂素雅字画，衣柜靠墙。地面铺地毯，光线柔和。整体布置舒适实用，有生活气息。",
+  "visual_reference": "Ming Dynasty master bedroom, carved large bed with thick bedding, small table beside bed with pulse pillow and medicine chest, soft couch by window with sewing basket containing tiger-head hat in progress, plain elegant calligraphy on walls, wardrobe against wall, carpeted floor, soft comfortable lighting, lived-in practical space, warm domestic atmosphere",
+  "atmosphere": "居家、温馨、生活化",
+  "color_palette": [
+    "浅木本色",
+    "米白被褥",
+    "地毯暖褐",
+    "柔和日光"
+  ],
+  "lighting": "窗外自然光柔和照入，室内明亮温暖",
+  "key_features": [
+    "雕花大床",
+    "脉枕药箱",
+    "针线筐与虎头帽",
+    "窗边软榻",
+    "素雅字画"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "得知怀孕的复杂情绪→沈词松口气→高令宁坚持和离"
+}

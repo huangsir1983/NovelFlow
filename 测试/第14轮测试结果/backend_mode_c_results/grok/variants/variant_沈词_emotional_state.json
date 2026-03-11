@@ -1,0 +1,30 @@
+{
+  "variant_id": "沈词_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 产房落泪守护",
+  "tags": [
+    "脆弱",
+    "泪痕",
+    "深情"
+  ],
+  "scene_ids": [
+    "scene_015"
+  ],
+  "trigger": "早产产房夜里选择保妻，昭昭出生后落泪时",
+  "appearance_delta": {
+    "face": "俊美面庞苍白血色尽失，双眼通红",
+    "body": "长身玉立微微颤抖俯身",
+    "hair": "束冠墨发",
+    "distinguishing_features": "泪水滑落，冷峻转为痛苦柔软"
+  },
+  "costume_override": {
+    "outfit": "官袍",
+    "color_palette": [
+      "深蓝",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "一位25岁古代俊美文臣，长身玉立白净脸庞苍白，双眼通红泪痕，冷峻面容转为深情痛苦，穿着深色官袍略显凌乱，在产房夜色烛光与血色氛围中守护床边，眼神坚定中带泪",
+  "visual_prompt_negative": "现代西装、胡须、粗犷、笑容灿烂、明亮欢乐",
+  "emotional_tone": "痛苦与深情"
+}

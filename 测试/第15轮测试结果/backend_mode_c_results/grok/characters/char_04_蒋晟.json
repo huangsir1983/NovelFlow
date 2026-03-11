@@ -1,0 +1,38 @@
+{
+  "name": "蒋晟",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "20-25",
+  "appearance": {
+    "face": "老实忠厚",
+    "body": "健壮习武",
+    "hair": "短发束起",
+    "distinguishing_features": "微红脸庞"
+  },
+  "costume": {
+    "typical_outfit": "武人劲装",
+    "color_palette": [
+      "灰褐",
+      "黑"
+    ]
+  },
+  "casting_tags": [
+    "忠厚武生",
+    "短暂追求者"
+  ],
+  "visual_reference": "二十二岁左右古代武人，忠厚方脸剑眉，皮肤健康古铜，身材健壮，穿着灰褐劲装，头发短束，扶人或剥葡萄姿态，马球场背景，阳光写实",
+  "visual_prompt_negative": "文弱书生、现代服、卡通",
+  "personality": "老实忠厚",
+  "desire": "良配安稳",
+  "flaw": "易被设计",
+  "arc": "从追求到被陷害娶陆",
+  "scene_presence": "马球会与误会事件",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "追求者",
+      "dynamic": "护卫照顾",
+      "function": "催化误会"
+    }
+  ]
+}

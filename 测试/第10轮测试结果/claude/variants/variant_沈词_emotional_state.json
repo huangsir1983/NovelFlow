@@ -1,0 +1,31 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 嫉妒时刻",
+  "tags": [
+    "嫉妒",
+    "压抑",
+    "痛苦"
+  ],
+  "scene_ids": [
+    "scene_005",
+    "scene_006"
+  ],
+  "trigger": "马球会上目睹高令宁与蒋晟亲昵，以及照顾陆姝仪时",
+  "appearance_delta": {
+    "face": "如玉面庞，眉头微蹙",
+    "body": "身姿紧绷",
+    "hair": "束发戴冠，略显凌乱",
+    "distinguishing_features": "琥珀色眸子中闪过嫉妒与不甘，手上有勒痕"
+  },
+  "costume_override": {
+    "outfit": "青色儒袍，衣襟微乱",
+    "color_palette": [
+      "青色",
+      "墨色",
+      "暗红"
+    ]
+  },
+  "visual_reference": "handsome Chinese scholar official with jealous expression, jade-like face with furrowed brows, amber eyes flashing with possessiveness and pain, blue-green robes slightly disheveled, tense body language, marks on hands, ancient China outdoor setting",
+  "emotional_tone": "嫉妒压抑，情感挣扎"
+}

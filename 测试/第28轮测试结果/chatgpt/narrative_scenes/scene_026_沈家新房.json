@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_026",
+  "order": 25,
+  "heading": "INT. 沈家洞房 - night",
+  "location": "沈家新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "洞房夜里，沈词以刻薄话语与克制的身体亲近完成圆房，彼此都把这次结合视作为生下沈睿的任务。",
+  "key_dialogue": "「要不是睿儿，你以为我想碰你？」",
+  "emotional_peak": "最亲密的时刻却充满侮辱、报复与麻木。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "丝带",
+    "床榻",
+    "喜被"
+  ],
+  "dramatic_purpose": "呈现二人关系最扭曲的亲密状态，并推动生子契约。",
+  "visual_reference": "红烛低照的新房内，女子眼眶发红却神情麻木，男子俯身靠近说着刻薄话，动作克制但压迫感强，喜庆外壳下尽是冰冷",
+  "visual_prompt_negative": "避免裸露色情，避免甜宠暧昧感，避免多人闹房",
+  "source_text_start": "入夜后，喧嚣如水退去。",
+  "source_text_end": "可我只是闭上眼，催促：「再快点吧，我困了。」"
+}

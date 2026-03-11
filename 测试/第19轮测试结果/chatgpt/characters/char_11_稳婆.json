@@ -1,0 +1,44 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-60",
+  "appearance": {
+    "face": "经验老到，神色焦灼",
+    "body": "普通中老年妇人身形",
+    "hair": "简单挽髻",
+    "distinguishing_features": "产房中语速急，情绪紧绷"
+  },
+  "costume": {
+    "typical_outfit": "便于接生的朴素妇人衣衫",
+    "color_palette": [
+      "褐色",
+      "灰色"
+    ]
+  },
+  "casting_tags": [
+    "产房角色",
+    "生死抉择见证者"
+  ],
+  "visual_reference": "古代稳婆，中老年妇人，面色焦急，穿朴素灰褐衣衫，站在产房烛火旁满手忙乱，东方古典写实风",
+  "visual_prompt_negative": "现代护士服、夸张喜剧、卡通、手术室元素",
+  "personality": "老练、现实、急切",
+  "desire": "尽力保住产妇和孩子",
+  "flaw": "受时代规则所限，只能请丈夫做主",
+  "arc": "功能型角色",
+  "scene_presence": "早产难产场景关键角色",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "接生者",
+      "dynamic": "在生死关头围绕其生产做判断",
+      "function": "推动保大保小戏剧高潮"
+    },
+    {
+      "target": "沈词",
+      "type": "询问决断对象",
+      "dynamic": "要求其在妻与子之间表态",
+      "function": "逼出男主真心"
+    }
+  ]
+}

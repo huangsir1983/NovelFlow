@@ -1,0 +1,31 @@
+{
+  "variant_id": "lushuyi_variant_02",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 下跪求情状态",
+  "tags": [
+    "下跪",
+    "哀求",
+    "卑微",
+    "绝望"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "厢房中高令宁提出让她出嫁的条件后，跪地哀求",
+  "appearance_delta": {
+    "face": "泪流满面，神情哀切绝望",
+    "body": "跪姿，身体前倾或叩首",
+    "hair": "发髻因跪拜动作更加凌乱",
+    "distinguishing_features": "双膝跪地，双手合十或扶地，泪水滴落"
+  },
+  "costume_override": {
+    "outfit": "浅蓝色襦裙，裙摆散落地面",
+    "color_palette": [
+      "浅蓝",
+      "月白"
+    ]
+  },
+  "visual_reference": "古代少女跪地哀求，泪流满面，神情哀切绝望，身着浅蓝色襦裙，裙摆散落在地面，发髻凌乱，双膝跪地，身体微微前倾，双手合十或按地，泪水滴落在衣襟上，眼神中带着卑微的恳求和隐忍的倔强，背景为厢房内景，光线从侧面照射形成阴影，强化悲情氛围",
+  "visual_prompt_negative": "站立姿态，笑容，整齐发髻，干净面容，华丽服饰，自信神态",
+  "emotional_tone": "卑微哀求，绝望无助，隐忍倔强"
+}

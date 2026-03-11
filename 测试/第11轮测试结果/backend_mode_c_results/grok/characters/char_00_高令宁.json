@@ -1,0 +1,58 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "高小姐",
+    "令宁",
+    "夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-28",
+  "appearance": {
+    "face": "清丽端庄，杏眼柳眉，眼神锐利坚定",
+    "body": "纤细苗条，姿态优雅挺拔",
+    "hair": "乌黑长发，通常盘成精致发髻",
+    "distinguishing_features": "坚毅下巴与聪慧锐利的目光，透露不屈要强气质"
+  },
+  "costume": {
+    "typical_outfit": "华丽襦裙或广袖罗裙，嫁衣时为红嫁衣",
+    "color_palette": [
+      "绯红",
+      "素白",
+      "浅绿"
+    ]
+  },
+  "casting_tags": [
+    "古风重生女主",
+    "要强美人",
+    "聪慧高傲",
+    "独立强势"
+  ],
+  "visual_reference": "elegant young Chinese noblewoman in red and white Hanfu with intricate embroidery, sharp phoenix eyes showing determination and pride, porcelain fair skin, long silky black hair in elaborate updo with hairpins, proud posture, ancient setting, highly detailed 8k",
+  "visual_prompt_negative": "modern clothes, short hair, western face, heavy makeup, weak submissive pose, smiling weakly",
+  "personality": "争强好胜、独立要强、眼里容不得沙子、自尊心极强",
+  "desire": "重见长子沈睿一面，摆脱与沈词的纠缠，过上自由平静生活",
+  "flaw": "高傲易冲动、报复心- 门旁谈判：沈词门外与高父争执，高令宁偷听  </think> 强、不肯轻易示弱",
+  "arc": "从恨意报复到彻底释怀原谅，最终走向独立，却引发男主觉醒追妻",
+  "scene_presence": "故事全程第一人称主角，从待字闺中到成亲怀孕生女、和离后江南生活，推动所有冲突与结局",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻",
+      "dynamic": "相看两厌到复杂爱恨交织",
+      "function": "叙事核心张力与情感主线"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "孝顺依赖与保护",
+      "function": "情感支撑与后盾"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "仇恨与厌恶",
+      "function": "制造冲突与三角关系"
+    }
+  ]
+}

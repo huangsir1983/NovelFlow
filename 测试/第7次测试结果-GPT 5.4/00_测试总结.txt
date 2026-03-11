@@ -1,0 +1,59 @@
+======================================================================
+  第7轮测试报告 — Phase A/B/C 三阶段Pipeline + VFF
+  多模型适配 + 中文VFF视觉融合流
+======================================================================
+  小说: 《我和沈词的长子》 (13181 字)
+  模型: gpt-5.4, claude-opus-4-6, gemini, grok
+
+  数据库统计 (11张表):
+    chapters: 15 条
+    characters: 8 条
+    scenes: 56 条
+    beats: 17 条
+    knowledge: 1 条
+    shots: 898 条
+    character_states: 0 条
+    dialogue: 0 条
+    shot_prompts: 0 条
+    segments: 281 条
+    vff_prompts: 281 条
+
+  chapters/: 16 文件
+  characters/: 10 文件
+  scenes/: 57 文件
+  beats/: 18 文件
+  knowledge/: 3 文件
+  visual/: 不存在
+  shots/: 57 文件
+  character_states/: 不存在
+  dialogue/: 不存在
+  shot_prompts/: 不存在
+  segments/: 57 文件
+  vff_prompts/: 57 文件
+
+  成本统计:
+    总API调用: 0 次
+    总Token: 0 (0in + 0out)
+    总API耗时: 0.0s
+
+  各阶段成本:
+    Stage  1 (章节分割): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  2 (摘要+扫描): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  3 (角色详情+知识库): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  4 (场景+节拍): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  5 (绑定): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  6 (Shot拆分): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  7 (VFF生成): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  8 (角色状态): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  9 (对白提取): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage 10 (视觉评估): 0次调用, 0tokens (0in+0out), 0.0s
+
+  R6 vs R7 对比:
+    旧 Stage 9 (英文image prompt): 134次调用, ~1.07M tokens
+    新 Stage 7 (中文VFF): 0次调用, 0tokens
+    VFF segments: 281 段
+    VFF prompts: 281 条
+
+======================================================================
+  流水线执行完毕
+======================================================================

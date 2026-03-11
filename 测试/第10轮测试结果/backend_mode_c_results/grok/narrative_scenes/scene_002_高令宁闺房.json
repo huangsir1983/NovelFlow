@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - 日",
+  "location": "高令宁闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "父亲不解质问，女主坚持要嫁并要求父亲辞官",
+  "key_dialogue": "我一定要嫁。",
+  "emotional_peak": "父女默契与前世回忆涌现",
+  "tension_score": 0.45,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "闺房绣架",
+    "茶盏",
+    "父亲奏折",
+    "木椅"
+  ],
+  "dramatic_purpose": "女主决心与家族后盾确立"
+}

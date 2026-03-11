@@ -1,0 +1,51 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "贵妇圆脸，保养得宜，表情势利",
+    "body": "富态中年身材",
+    "hair": "贵妇发髻，珠翠满头",
+    "distinguishing_features": "势利却无奈的贵妇神态"
+  },
+  "costume": {
+    "typical_outfit": "富贵夫人常服",
+    "color_palette": [
+      "宝蓝",
+      "金"
+    ]
+  },
+  "casting_tags": [
+    "势利婆婆",
+    "家族守护者"
+  ],
+  "visual_reference": "Middle-aged Chinese noble matron mid-50s, round well-maintained face with calculating eyes, plump figure, elaborate jeweled updo, wearing luxurious blue-gold hanfu, haughty yet helpless expression, ancient Chinese setting, highly detailed masterpiece",
+  "personality": "势利偏心、看重门第、最终理亏退让",
+  "desire": "家族荣耀、孙子传宗",
+  "flaw": "偏心义妹、轻视儿媳",
+  "arc": "起点：安排义妹平妻 → 转变：生产后理亏上门 → 终点：放弃要孙女",
+  "scene_presence": "安排陆姝仪婚事、上门要孙女、被拒",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "母子关系，影响决策",
+      "function": "助攻"
+    },
+    {
+      "target": "高令宁",
+      "type": "权力",
+      "dynamic": "轻视儿媳",
+      "function": "阻碍"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情感",
+      "dynamic": "偏爱侄女",
+      "function": "助攻"
+    }
+  ]
+}

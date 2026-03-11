@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪借出嫁前拜访留在高家，傍晚失踪；众人搜查后，在厢房里发现她与衣冠不整的蒋晟一同昏迷，疑似失贞。",
+  "key_dialogue": "无",
+  "emotional_peak": "高令宁看向沈词，沈词也冰冷地看向她，误会一瞬间成型。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "厢房门闩",
+    "散乱衣衫",
+    "昏迷的两人",
+    "传话小厮口供"
+  ],
+  "dramatic_purpose": "引爆全剧最大误会与生产危机导火索",
+  "source_text_start": "说是即将出嫁，想来见我一面。\n父亲不知就里",
+  "source_text_end": "和同样昏迷不醒、衣冠不整的蒋晟。\n心里一惊。"
+}

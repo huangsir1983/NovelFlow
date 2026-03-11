@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "媒人",
+    "高父",
+    "高令宁"
+  ],
+  "core_event": "媒人第二次提亲被拒,高令宁要求陆姝仪出嫁",
+  "key_dialogue": "贵府小姐出嫁后,我才会答应这门亲事",
+  "emotional_peak": "高令宁坚持立场",
+  "tension_score": 0.5,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "茶具",
+    "聘礼",
+    "桌椅"
+  ],
+  "dramatic_purpose": "推进剧情,施压沈词"
+}

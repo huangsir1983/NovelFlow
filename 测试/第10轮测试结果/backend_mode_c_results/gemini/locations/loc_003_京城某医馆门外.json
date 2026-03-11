@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_003",
+  "name": "京城某医馆门外",
+  "type": "exterior",
+  "era_style": "明代京城繁华市井",
+  "description": "熙熙攘攘的京城街道，青石板路面。医馆门面古朴，挂着写有“悬壶济世”的布幌子，门外有抓药的木柜台。街边有来往的行人与商贩，背景是错落有致的市井瓦房。",
+  "visual_reference": "Exterior of an ancient Chinese traditional medicine clinic on a bustling street in the capital city, Ming dynasty. Stone paved road, wooden storefront with a cloth sign, busy pedestrians in the background. Daylight, realistic textures, historical street photography style, 8k.",
+  "atmosphere": "市井喧嚣与两人对峙的紧张感",
+  "color_palette": [
+    "#A9A9A9",
+    "#8B4513",
+    "#D3D3D3"
+  ],
+  "lighting": "明亮的日光，街道上充满生活气息的漫反射光，人物面部有清晰的轮廓光。",
+  "key_features": [
+    "医馆布幌子",
+    "青石板街道",
+    "提着药包的行人"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "在喧闹市井中隐秘的心理博弈与痛处被戳中的隐忍。"
+}

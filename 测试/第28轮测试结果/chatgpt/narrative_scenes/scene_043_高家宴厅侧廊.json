@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_043",
+  "order": 42,
+  "heading": "INT. 昭昭满月宴侧廊 - day",
+  "location": "高家宴厅侧廊",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "陆姝仪承认自己也重生，并坦白蒋晟失贞局是她设计，只因她能走的路只剩这一条；说完后转身离开。",
+  "key_dialogue": "「蒋晟的事，是我设计。」",
+  "emotional_peak": "真相揭晓，我所有旧恨忽然失去了唯一确定的靶子。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 105,
+  "key_props": [
+    "请帖",
+    "回廊栏杆"
+  ],
+  "dramatic_purpose": "揭示核心误会真相，完成陆姝仪角色动机闭环。",
+  "visual_reference": "侧廊光影斑驳，柔弱女子低眉说出自己重生与布局的真相，另一女子震惊僵住，远处男子苍白站立听见一切，气氛沉重",
+  "visual_prompt_negative": "避免反派狂笑，避免悬疑侦探道具，避免夸张闪回特效",
+  "source_text_start": "她没有回答，只是面容惨淡地说：「高令宁，是我对不住你。」",
+  "source_text_end": "几步之外，沈词沉默地注视着我, 神色苍白。"
+}

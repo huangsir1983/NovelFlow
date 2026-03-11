@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪在高家失踪，最终被发现与蒋晟衣衫不整地昏倒在厢房。陆姝仪反咬一口，指责是高令宁设计陷害。",
+  "key_dialogue": "夫人，您设计我失贞，是要我非死不可吗？",
+  "emotional_peak": "发现陆姝仪和蒋晟衣衫不整地在一起，高令宁内心震惊，预感到巨大的危机。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "厢房床榻"
+  ],
+  "dramatic_purpose": "重大冲突爆发点。陆姝仪的阴谋得逞，将高令宁推向了百口莫辩的境地。",
+  "source_text_start": "我想起前世。\n她也是在出嫁前，说想和我叙话。\n回来后便跌入湖中，至今我都不知道她为何要寻死。",
+  "source_text_end": "面若冰霜。"
+}

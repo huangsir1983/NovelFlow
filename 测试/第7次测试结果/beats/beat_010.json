@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_010",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_006",
+      "scene_007",
+      "scene_008"
+    ]
+  },
+  "data": {
+    "title": "在陆姝仪婚事与有孕宿命中相互逼近",
+    "description": "陆姝仪择婿困难，沈母欲将她嫁给恶名在外的伯爵府三公子；女主冷静提出假死藏人、和离后扶正的方案，显出对报复的厌倦。与此同时她意外有孕，且太医断言是男胎，与前世时间完全重合，宿命感陡增。",
+    "beat_type": "revelation",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": 0.1,
+    "dramatic_intensity": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 10
+  }
+}

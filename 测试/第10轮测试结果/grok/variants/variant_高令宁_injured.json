@@ -1,0 +1,29 @@
+{
+  "variant_id": "高令宁_variant_01",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 前世病弱",
+  "tags": [
+    "病榻",
+    "憔悴",
+    "前世"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "沈府卧房夜里，重病卧床，沈词守床比量消瘦脸庞时",
+  "appearance_delta": {
+    "face": "清丽脸庞消瘦苍白，五官锋芒稍敛，眼神虚弱却仍倔强",
+    "body": "纤细苗条更显瘦弱无力，姿态半靠床头",
+    "hair": "乌黑长发散乱披肩，未梳妇人髻",
+    "distinguishing_features": "额头冷汗、唇色发白、脸颊凹陷"
+  },
+  "costume_override": {
+    "outfit": "素白中衣，病中寝服",
+    "color_palette": [
+      "白",
+      "浅灰"
+    ]
+  },
+  "visual_reference": "Elegant young Chinese woman 18-23, sharp determined eyes now weakened yet stubborn, delicate fair features pale and haggard with sunken cheeks and cold sweat, long jet-black hair disheveled and loose over shoulders, slender graceful figure appearing frail and emaciated, lying weakly on bed in simple white inner robe, dimly lit bedroom with medicine bowls, candles and bed curtains, cinematic historical drama style, highly detailed face, soft flickering candle lighting with deep shadows, expression of pain mixed with defiance",
+  "emotional_tone": "生死相依却互相咒骂的复杂纠葛"
+}

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_019",
+  "name": "江南高令宁卧室",
+  "type": "interior",
+  "era_style": "明清江南民居内室",
+  "description": "温馨而略显局促的江南民居卧室。木制床榻上铺着厚实的被子，床下紧挨着铺了一个简陋的地铺，放着单薄的枕头。窗外雷雨交加，闪电不时照亮糊纸的窗棂。室内烛光摇曳，充满了一种荒诞又卑微的亲密感。",
+  "visual_reference": "Cozy Jiangnan style bedroom interior at night, a wooden bed with warm quilts, a makeshift floor bed with a thin pillow next to it, thunderstorm outside the paper window, intimate and dramatic atmosphere, warm candlelight contrasting with cool lightning flashes, highly detailed, 8k.",
+  "atmosphere": "温馨、局促、荒诞的卑微",
+  "color_palette": [
+    "暖烛黄",
+    "闪电蓝",
+    "粗布白"
+  ],
+  "lighting": "室内温暖微弱的烛光，与窗外时不时劈进来的刺眼冷蓝色闪电形成剧烈交替",
+  "key_features": [
+    "木制床榻",
+    "简陋的地铺",
+    "窗外的闪电"
+  ],
+  "narrative_scenes": [
+    "scene_019"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从爬床被踹的狼狈，到男主彻底抛弃尊严、死皮赖脸发誓纠缠的病态痴迷"
+}

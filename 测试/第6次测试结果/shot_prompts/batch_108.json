@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0648",
+    "shot_id": "shot_0602",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, stands on the right side of the frame in a medium shot, raising one arm and pointing firmly toward the bed at left front, shoulder and back tense, eyes fixed toward the woman on the bed, red-rimmed eyes, suppressed emotion breaking into decisive action. In the blurred left foreground, the shoulder and back of an elderly midwife are visible; in the shallow-focus background, A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies discernibly on the bed. Ancient Chinese noble birth chamber interior, old wood, bed curtains, white cloth, bronze basin, flickering amber candlelight against gray-blue and dark brown tones, low-saturation warm-cool contrast, side-back lighting shaping the figures, shallow depth of field, clear left-bed right-man axis, the pointing hand becomes the visual focus at center. Cinematic realism, historical drama still, restrained tension, fine fabric texture, subtle film grain, highly detailed composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, amber candlelight with cool gray ambient fill, side-back lighting, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, plastic, glass windows, contemporary hairstyle, western clothing, modern medical equipment, text, watermark, logo, low quality, blurry face, extra fingers, distorted hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0649",
+    "shot_id": "shot_0603",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, fills most of the frame in a close-up, looking past the left side of the camera toward the bed, eyes reddened and wet, lips tense as if forcing out each word, voice trembling but expression fiercely controlled, emotional restraint collapsing into exposed devotion. The background is reduced to soft blurred warm candle glow with no other figures visible, ancient interior implied only through amber light and dark muted tones. Low-saturation warm-cool palette, pale skin against dark blue-black robes, candlelight cutting across his face from the side, background falling into soft darkness, intimate shallow focus isolating his emotional confession. Cinematic realism, historical romance drama close-up, delicate skin detail, visible eye moisture, subtle film grain, highly detailed portrait quality.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, intimate close-up, subtle film grain",
+      "lighting": "soft amber candlelight with cool shadow retention, side lighting, warm blurred background, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, microphones, modern makeup, western clothing, contemporary background, text, watermark, logo, low quality, overexposed skin, deformed eyes, blurry portrait, oversaturated colors"
+  },
+  {
+    "id": "sp_0650",
+    "shot_id": "shot_0604",
+    "prompt_text": "An elderly Chinese midwife in ancient attire, weathered face, hair in a practical traditional bun under a dark headscarf, simple brown and gray layered robe, worn hands, startled expression, occupies the left side of the frame in a medium close-up, suddenly frozen with mouth slightly open in disbelief, eyes widened as she reacts to the shocking decision. In the right rear background, an ancient Chinese imperial physician in muted traditional robe and black medical cap pauses mid-motion, hands briefly suspended; the bed, white cloth, and birthing space behind him hold in a suspended instant. Ancient Chinese noble birth chamber interior, old wood, white cloth, bed curtains, bronze basin, flickering candle flame in the foreground still moving while the people are frozen, low-saturation gray-blue, dark brown, and amber palette, warm-cool contrast, layered depth, restrained historical realism. Cinematic realism, static reaction shot, tense pause, subtle film grain, highly detailed period textures.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, reaction shot, subtle film grain",
+      "lighting": "flickering amber candlelight with cool gray shadows, side-back lighting, low-saturation warm-cool contrast, layered depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, surgical tools, modern hospital room, electric lighting, plastic basin, text, watermark, logo, low quality, blurry background, distorted anatomy, oversaturated colors, cartoon style"
+  },
+  {
+    "id": "sp_0651",
+    "shot_id": "shot_0605",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, stands slightly right of center in a medium close-up from a slightly low angle, shoulders rigid, back straight, repeating his choice with clear unwavering resolve, eyes drawn toward the bed outside the frame, face cut by grief and determination, no retreat in his posture. At the left edge, a corner of bed curtain and warm candle glow remain visible, pulling his stance and gaze toward the bed; the background is deep dark shadow, and his figure is carved out by candlelight. Ancient Chinese noble chamber, muted gray-blue, dark wood brown, black, and amber tones, low-saturation warm-cool contrast, side-back candlelight slicing through darkness, oppressive interior space with ritual restraint. Cinematic realism, historical drama still, decisive emotional breakthrough, subtle film grain, highly detailed costume and facial structure.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, low-angle portrait, subtle film grain",
+      "lighting": "amber candlelight cutting through deep shadow, cool ambient darkness, side-back lighting, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern interior, zippers, modern accessories, text, watermark, logo, low quality, blurry face, deformed hands, extra limbs, oversaturated reds"
+  },
+  {
+    "id": "sp_0652",
+    "shot_id": "shot_0606",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies in a close-up slightly right of center, just awakened, eyes fixed in stunned stillness, breathing fast but speechless, the usual cold severity cracked by a thin line of disbelief, the mocking edge gone from her mouth. In the foreground, a blurred corner of bed curtain and white cloth partially veil the frame; in the background, warm candlelight trembles softly. Ancient Chinese birth chamber, low-saturation gray-blue and amber palette, pale skin and dark brows emphasized by warm-cool contrast, soft side light across her face, intimate shallow focus, restrained emotional rupture inside ritual space. Cinematic realism, historical drama close-up, fragile yet sharp presence, subtle film grain, highly detailed skin, fabric, and faint neck scar.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, intimate close-up, subtle film grain",
+      "lighting": "soft trembling amber candlelight with cool shadow retention, side lighting, low-saturation warm-cool contrast, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern bedding, electric lights, contemporary makeup, western jewelry, text, watermark, logo, low quality, blurry eyes, plastic texture, oversaturated colors, cartoon rendering"
+  },
+  {
+    "id": "sp_0653",
+    "shot_id": "shot_0607",
+    "prompt_text": "A full shot of an ancient Chinese noble birth chamber: A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lies at the center of the bed surrounded by attendants; A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, stands to the left of the bed, body noticeably leaning forward as if finally entering the life-and-death struggle; an elderly midwife in simple traditional robes and an imperial physician in muted robe and black cap rush back into action around the bed. White cloth and hot water move through the frame, hands busy again, bed curtains swaying, bronze basin catching light, candle flames shaking. Ancient interior of old wood, dark bed drapery, gray-blue, dark brown, black, and amber palette, low-saturation warm-cool contrast, dynamic yet controlled composition, center-protected bed, ritual space turned urgent. Cinematic realism, historical drama ensemble shot, suspended aftershock inside renewed motion, subtle film grain, highly detailed period textures and layered depth.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, ensemble staging, subtle film grain",
+      "lighting": "flickering amber candlelight with cool ambient fill, low-saturation warm-cool contrast, layered side-back lighting, moving highlights on cloth and bronze"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, hospital equipment, electric lights, plastic containers, modern flooring, text, watermark, logo, low quality, blurry figures, distorted anatomy, extra limbs, oversaturated red, fantasy effects"
+  }
+]

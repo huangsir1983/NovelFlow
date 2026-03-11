@@ -1,0 +1,33 @@
+{
+  "variant_id": "shenci_variant_02",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 崩溃颓态",
+  "tags": [
+    "崩溃",
+    "悔恨",
+    "颓废",
+    "失去一切"
+  ],
+  "scene_ids": [
+    "scene_013",
+    "scene_014",
+    "scene_016",
+    "scene_017"
+  ],
+  "trigger": "因自己的偏执导致女主早产难产，以及面对女主递上和离书并平静表示“原谅”时，精神防线彻底崩溃。",
+  "appearance_delta": {
+    "face": "面色惨白如纸，眼下乌青极重，眼眶猩红充血，满是错愕与恐惧",
+    "body": "曾经挺拔的脊背弯折，显出极度的颓丧与无力感，甚至会踉跄跌跪",
+    "hair": "发丝散乱，发冠微歪，失去了一贯的体面",
+    "distinguishing_features": "通红的眼眶和因极度恐慌而颤抖的嘴唇"
+  },
+  "costume_override": {
+    "outfit": "略显凌乱的常服，衣摆可能沾染灰尘，衣襟带有明显的褶皱",
+    "color_palette": [
+      "深灰",
+      "暗青"
+    ]
+  },
+  "visual_reference": "A handsome young ancient Chinese man in deep despair, pale and haggard face, heavy dark circles under red tearful amber eyes, messy hair with a slightly crooked hair crown, wearing a wrinkled dark grey robe, hunched posture showing deep breakdown and powerlessness, cinematic lighting, dramatic shadows, 8k.",
+  "emotional_tone": "极度恐惧、绝望、不可置信"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "7-10岁(梦境中)",
+  "appearance": {
+    "face": "清秀苍白，早慧",
+    "body": "病弱瘦小",
+    "hair": "总角",
+    "distinguishing_features": "眼神透着不符合年龄的成熟与悲伤"
+  },
+  "costume": {
+    "typical_outfit": "精致但略显宽大的锦缎童装",
+    "color_palette": [
+      "月白",
+      "淡蓝"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "病弱小生",
+    "催泪"
+  ],
+  "visual_reference": "A pale and sickly ancient Chinese boy around 8 years old, wearing fine but slightly loose silk clothes, mature and sad eyes, cinematic lighting.",
+  "personality": "懂事，孝顺，早慧敏感",
+  "desire": "父母和睦，母亲不再受委屈",
+  "flaw": "把父母的矛盾归咎于自己",
+  "arc": "无明显弧线，作为白月光存在",
+  "scene_presence": "女主梦境",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "互相心疼",
+      "function": "解开女主心结，促使她接受女儿昭昭"
+    }
+  ]
+}

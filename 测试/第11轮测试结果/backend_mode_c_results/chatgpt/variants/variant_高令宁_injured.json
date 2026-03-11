@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_05",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 早产难产时",
+  "tags": [
+    "产房",
+    "濒危",
+    "血色脆弱",
+    "生死关头"
+  ],
+  "scene_ids": [
+    "scene_009"
+  ],
+  "trigger": "陆姝仪失踪事件后，她急火攻心早产并难产，在高家产房经历保大保小的生死抉择。",
+  "appearance_delta": {
+    "face": "脸色比主设定苍白得近乎失血，冷白皮更显透明；额上汗湿，唇色褪尽，眼眶通红，痛苦与不甘交织。",
+    "body": "身体极度虚弱，因生产而蜷缩紧绷，纤秀感被濒危的脆弱取代，但骨子里的抗劲仍从咬牙忍痛中显露。",
+    "hair": "发髻散乱，乌发被汗水打湿贴在鬓边和颈侧，失去平日的规整体面。",
+    "distinguishing_features": "抓皱床单的手、汗湿凌乱的碎发、血色与苍白并存；即使濒死，眼神仍带倔强，不肯向命运示弱。"
+  },
+  "costume_override": {
+    "outfit": "产房中的素色中衣与被褥包裹，衣襟凌乱，重点是病弱与生产现场感，而非正式服饰。",
+    "color_palette": [
+      "月白",
+      "灰白",
+      "暗红"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noblewoman in childbirth, elegant oval face but drained and pale, cool white skin, red-rimmed sharp eyes, black hair disheveled and damp with sweat, slim body weakened by difficult labor, wearing rumpled ivory inner robes on a traditional birth bed, gripping wrinkled sheets, candles, folding screen, copper basins, medicine bowl, tense dramatic night lighting, painful yet defiant expression, cinematic realism",
+  "visual_prompt_negative": "modern hospital, medical machines, fantasy healing magic, glamorous makeup, smiling mother, western bedroom, short hair, graphic gore",
+  "emotional_tone": "濒危、绝望、强烈求生"
+}

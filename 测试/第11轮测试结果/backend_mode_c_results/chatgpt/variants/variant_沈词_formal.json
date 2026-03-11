@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_01",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 提亲时的清冷世家公子",
+  "tags": [
+    "提亲",
+    "初次交锋",
+    "清冷克制",
+    "世家文臣"
+  ],
+  "scene_ids": [
+    "scene_001"
+  ],
+  "trigger": "沈家第一次上门提亲，在高家正堂与高令宁当众交锋时出现。",
+  "appearance_delta": {
+    "face": "面色冷白，神情比主设定更疏离克制，抬眼看人时压迫感更重，尚未显露明显狼狈或病态",
+    "body": "身形修长端正，站姿极稳，带有刻意维持的世家体面与官场仪态",
+    "hair": "乌发严整束起，玉冠或正式会客冠饰更工整，不见丝毫散乱",
+    "distinguishing_features": "在众目睽睽下被退木雁仍维持表面平静，唯有眼神骤冷，显出重生后首次正面碰撞的锋利感"
+  },
+  "costume_override": {
+    "outfit": "正式提亲场合所穿的考究深色长袍或半礼制服饰，衣料贵重但不过分张扬，保持文臣世家的克制体面",
+    "color_palette": [
+      "墨黑",
+      "玄青",
+      "暗金"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noble scholar-official during a formal marriage proposal, tall slender man with pale skin, refined handsome face, cold dark eyes, black hair tied neatly with jade crown, immaculate dark blue-black hanfu with subtle gold detailing, standing in a traditional family hall beside betrothal gifts, restrained aristocratic aura, tense eye contact, cinematic historical drama lighting, elegant composition, high detail",
+  "visual_prompt_negative": "modern suit, beard, glasses, armor, messy hair, bright smile, casual clothing, fantasy elements, exaggerated jewelry, contemporary interior",
+  "emotional_tone": "表面平静、内里森冷，被冒犯后的克制对峙"
+}

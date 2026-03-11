@@ -1,0 +1,83 @@
+[
+  {
+    "id": "dl_0010",
+    "scene_id": "scene_004",
+    "character_id": "char_高令宁",
+    "line": "麻烦你回去告诉沈家公子，贵府小姐出嫁后，我才会答应这门亲事。",
+    "subtext": "我并非真的顺从这门婚事，而是在借“义妹”之事反击沈词，故意设下条件让他难堪，也表明自己对沈府当前关系的不认可与不满。",
+    "emotion_intensity": 0.72,
+    "order": 0
+  },
+  {
+    "id": "dl_0011",
+    "scene_id": "scene_007",
+    "character_id": "char_高令宁",
+    "line": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+    "subtext": "表面是在求助，实际上有意借与蒋晟的亲近姿态刺激沈词，同时也顺势拉开与柳池那边两人的距离。",
+    "emotion_intensity": 0.58,
+    "order": 1
+  },
+  {
+    "id": "dl_0012",
+    "scene_id": "scene_009",
+    "character_id": "char_沈词",
+    "line": "你脚肿了，我抱你回去。",
+    "subtext": "他以照顾为名强势介入，真实意图是重新掌控她、阻止她离开，也带有明显的占有欲。",
+    "emotion_intensity": 0.69,
+    "order": 2
+  },
+  {
+    "id": "dl_0013",
+    "scene_id": "scene_009",
+    "character_id": "char_高令宁",
+    "line": "与你无关。",
+    "subtext": "我拒绝你的关心，更拒绝与你恢复亲密；你没有资格再插手我的事。",
+    "emotion_intensity": 0.8,
+    "order": 3
+  },
+  {
+    "id": "dl_0014",
+    "scene_id": "scene_009",
+    "character_id": "char_沈词",
+    "line": "又逞强，",
+    "subtext": "他不接受她的拒绝，将她的抗拒解读为嘴硬，试图继续压过她的意志。",
+    "emotion_intensity": 0.55,
+    "order": 4
+  },
+  {
+    "id": "dl_0015",
+    "scene_id": "scene_009",
+    "character_id": "char_沈词",
+    "line": "不怕落下病根？",
+    "subtext": "表面是担心伤势，实则是在用关切做理由逼她接受自己的接近。",
+    "emotion_intensity": 0.5,
+    "order": 5
+  },
+  {
+    "id": "dl_0016",
+    "scene_id": "scene_009",
+    "character_id": "char_高令宁",
+    "line": "沈公子，你我还未成婚，不宜有肌肤之亲。",
+    "subtext": "我在用礼法划清界限，公开否认你对我的亲密权利，也是在反讽你如今的身份与处境。",
+    "emotion_intensity": 0.77,
+    "order": 6
+  },
+  {
+    "id": "dl_0017",
+    "scene_id": "scene_009",
+    "character_id": "char_沈词",
+    "line": "装什么装？",
+    "subtext": "他被她的疏离激怒，认为她是在故作清高，试图用羞辱打破她建立的边界。",
+    "emotion_intensity": 0.83,
+    "order": 7
+  },
+  {
+    "id": "dl_0018",
+    "scene_id": "scene_009",
+    "character_id": "char_沈词",
+    "line": "你身上哪里，我没碰过？",
+    "subtext": "他故意以过往的亲密经验施压，宣示自己曾经对她的占有，也借此撕毁她此刻强调的体面与距离。",
+    "emotion_intensity": 0.94,
+    "order": 8
+  }
+]

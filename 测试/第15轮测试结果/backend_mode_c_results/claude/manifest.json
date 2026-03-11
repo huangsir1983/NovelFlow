@@ -1,0 +1,51 @@
+{
+  "model": "Claude (claude-opus-4-6)",
+  "status": "OK",
+  "streaming": true,
+  "total_time_s": 108.49,
+  "time_to_first_char_s": 18.99,
+  "num_characters": 9,
+  "num_scenes": 8,
+  "num_chars_streamed": 9,
+  "num_scenes_streamed": 4,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈睿",
+    "昭昭",
+    "高父",
+    "蒋晟",
+    "沈母",
+    "媒人"
+  ],
+  "stream_chunks": 1113,
+  "source_text_coverage": {
+    "total": 8,
+    "count_with_start": 8,
+    "count_with_end": 8,
+    "count_with_both": 8,
+    "coverage_pct": 100.0
+  },
+  "num_locations": 0,
+  "num_props_total": 20,
+  "num_props_major": 10,
+  "num_props_minor": 10,
+  "minor_props_with_visual": 0,
+  "num_variants": 13,
+  "pipeline_total_time_s": 624.22,
+  "r14_major_prop_top_n": 10,
+  "r13_source_text_coverage": {
+    "total": 8,
+    "count_with_start": 8,
+    "count_with_end": 8,
+    "count_with_both": 8,
+    "coverage_pct": 100.0
+  },
+  "r14_fixes": [
+    "unified_streaming_pipeline",
+    "clean_scene_files",
+    "parallel_stage2",
+    "prop_top_n"
+  ]
+}

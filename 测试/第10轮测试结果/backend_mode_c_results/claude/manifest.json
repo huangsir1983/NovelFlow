@@ -1,0 +1,29 @@
+{
+  "model": "Claude (claude-opus-4-6)",
+  "status": "OK",
+  "streaming": true,
+  "total_time_s": 107.58,
+  "time_to_first_char_s": 17.71,
+  "num_characters": 10,
+  "num_scenes": 12,
+  "num_chars_streamed": 10,
+  "num_scenes_streamed": 12,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈睿",
+    "昭昭",
+    "高父",
+    "蒋晟",
+    "沈母",
+    "媒人",
+    "江南赘婿们"
+  ],
+  "stream_chunks": 1131,
+  "num_locations": 10,
+  "num_props_total": 54,
+  "num_props_major": 1,
+  "num_variants": 16,
+  "pipeline_total_time_s": 248.55
+}

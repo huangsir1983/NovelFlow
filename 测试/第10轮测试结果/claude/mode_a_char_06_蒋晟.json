@@ -1,0 +1,51 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "minor",
+  "age_range": "20-25岁",
+  "appearance": {
+    "face": "老实相貌",
+    "body": "习武之人体格",
+    "hair": "传统男子发髻",
+    "distinguishing_features": "武人气质"
+  },
+  "costume": {
+    "typical_outfit": "儒生服饰",
+    "color_palette": [
+      "素色"
+    ]
+  },
+  "casting_tags": [
+    "老实",
+    "武人",
+    "被陷害"
+  ],
+  "visual_reference": "An honest young Chinese martial artist in his early 20s, sturdy build, traditional scholar's clothing, sincere expression, ancient dynasty",
+  "personality": "为人老实，家境殷实。习武之人，处处护着高令宁。被陷害后对陆姝仪冷淡。",
+  "desire": "娶高令宁为妻（前期），后被迫娶陆姝仪。",
+  "flaw": "过于老实，容易被利用。",
+  "arc": "高父门生→追求高令宁→马球会护着高令宁→被陷害与陆姝仪失贞→被迫娶陆姝仪→婚后冷待妻子。",
+  "scene_presence": "次要角色，陷害事件的受害者。关键场景：马球会、被陷害、被迫成婚。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "单方面爱慕，后成为陷害工具",
+      "function": "备选对象"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益",
+      "dynamic": "被迫成婚，婚后冷淡",
+      "function": "受害者"
+    },
+    {
+      "target": "高父",
+      "type": "利益",
+      "dynamic": "师徒关系",
+      "function": "引入角色"
+    }
+  ]
+}

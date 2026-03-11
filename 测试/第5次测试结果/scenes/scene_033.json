@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_033",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:35:32"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_008",
+    "characters_present": [
+      "沈词",
+      "沈母"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 议事厅/正堂 - DAY",
+    "location": "沈府议事厅/正堂",
+    "time_of_day": "day",
+    "description": "室内封闭，厅堂开阔，层高较高，白日天光自侧面窗棂斜照入内，照亮案几与座椅。堂内陈设端正，带有主母议事的秩序感。案上放着婚帖、名册或说亲用的资料，气氛克制却压抑，婚事被当作家族事务冷静权衡。",
+    "action": "沈词与沈母围绕陆姝仪婚事商议。沈词翻看名册，动作频繁停顿，显出受阻与焦灼；沈母稳坐上首，以手指点压帖册，态度强硬，提出伯爵府三公子这门婚事。话语间把陆姝仪的孤女身份与婚配价值一并衡量，场面形成无形逼压。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "京中门当户对的人家，多半不肯应这门亲事。",
+        "subtext": "他想替陆姝仪谋一个体面的归宿，但现实处处碰壁。"
+      },
+      {
+        "character": "沈母",
+        "line": "伯爵府三公子虽年长些，到底门第摆在那里。",
+        "subtext": "她更看重家世体面，不在意陆姝仪将承受什么。"
+      },
+      {
+        "character": "沈母",
+        "line": "她是孤女，能进这样的门第，已是难得。",
+        "subtext": "陆姝仪没有议价权，受委屈也该认命。"
+      }
+    ],
+    "characters_present": [
+      "沈词",
+      "沈母"
+    ],
+    "key_props": [
+      "婚帖",
+      "名册",
+      "案几"
+    ],
+    "dramatic_purpose": "建立陆姝仪婚事困局，揭示门第与身份压迫，为后续情感冲突与非常规解决方案铺垫。",
+    "tension_score": 0.57,
+    "order": 33
+  }
+}

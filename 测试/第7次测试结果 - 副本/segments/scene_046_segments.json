@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0218",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0758",
+      "shot_0759",
+      "shot_0760"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜共同完成空间建立与第一轮情绪起点：先交代宴厅侧区的封闭对峙关系，再进入陆姝仪的主观羡慕，最后落到她的第一句试探性台词。角色集合未变，情绪连续从体面压迫推进到自嘲开口，适合合并为一段开场视频。",
+    "order": 218
+  },
+  {
+    "id": "seg_0219",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0761",
+      "shot_0762",
+      "shot_0763",
+      "shot_0764"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组镜头围绕“试图争取同情”到“被高令宁正面截断”形成完整情绪弧。虽然插入高父反应，但角色集合稳定，仍属同一轮对峙推进；以高令宁的质问作为段落收束，可自然开启下一段认罪停顿。",
+    "order": 219
+  },
+  {
+    "id": "seg_0220",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0765",
+      "shot_0766",
+      "shot_0767",
+      "shot_0768"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段是明确的情感低压区：由质问后的沉默、手部外化、正式认罪，到高令宁不接受表面止损。情绪从紧绷坠落到短暂平静再转为警觉，连续性极强，适合作为一段认罪前室。",
+    "order": 220
+  },
+  {
+    "id": "seg_0221",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0769",
+      "shot_0770",
+      "shot_0771"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处发生信息层面的主爆点，且包含一次明确的小时空跳转到前世碎片闪回，再迅速回到现实。三镜合并可保持“现实坦白—记忆刺入—现实补刀”的连续冲击，不应被拆散。",
+    "order": 221
+  },
+  {
+    "id": "seg_0222",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0772",
+      "shot_0773",
+      "shot_0774",
+      "shot_0775"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一组属于爆点后的余震：高令宁的认知震裂、高父的迟到反应、以及三人空间关系的冷收尾共同组成完整尾声。角色集合回到三人，情绪由个人惊骇落到群像裂痕，适合作为场景结束段。",
+    "order": 222
+  }
+]

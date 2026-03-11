@@ -1,0 +1,35 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 高门闺秀议亲态",
+  "tags": [
+    "未嫁",
+    "高门闺秀",
+    "试探博弈",
+    "冷艳强势"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_005",
+    "scene_006",
+    "scene_007"
+  ],
+  "trigger": "重生后仍决定再入婚局，在高府正堂与闺房、门前等场景中主导提亲谈判、确认沈词重生并提出婚约条件时出现。",
+  "appearance_delta": {
+    "face": "较主设定更显年轻，面部轮廓尚带闺阁少女的清润感，但眼神已明显冷硬警惕，唇线绷紧",
+    "body": "身形轻盈挺拔，未见婚后操劳造成的清瘦感",
+    "hair": "乌发梳作精致未嫁女子发髻，配珠钗步摇，闺秀感更强",
+    "distinguishing_features": "姿态端正克制，目光审视感强，言辞发难时带压迫性；颈间伤痕记忆点通常不主动外露"
+  },
+  "costume_override": {
+    "outfit": "高门闺秀式交领襦裙与绣花披帛，衣料考究但不张扬，适合正堂议亲与闺房会客",
+    "color_palette": [
+      "月白",
+      "黛青",
+      "绛红"
+    ]
+  },
+  "visual_reference": "ancient Chinese noble young lady, Song dynasty style hanfu, elegant oval face, pale cool-toned skin, sharp bright slightly upturned eyes, black hair in refined maiden updo with pearl hairpins and buyao, poised posture in a noble family hall, layered cross-collar ruqun and embroidered pibo, proud and calculating expression, cinematic realistic lighting, delicate yet intimidating, historical drama realism",
+  "emotional_tone": "克制、警醒、骄傲而锋利"
+}

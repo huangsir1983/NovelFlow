@@ -1,0 +1,87 @@
+[
+  {
+    "id": "seg_0261",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0816",
+      "shot_0817",
+      "shot_0818"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成同一叙事功能：先建立女主掌控下的私密静场，再以闯门动作打断，情绪由克制转为突兀受侵。角色集合在末尾新增沈睿，正好形成首段的情绪拐点与合并边界。",
+    "order": 261
+  },
+  {
+    "id": "seg_0262",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0819",
+      "shot_0820",
+      "shot_0821"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕沈睿作为入侵者的攻击性建立：先亮出核心道具，再进入女主视角确认对峙轴线，最后落第一句逼问。道具、人物位置与情绪目的高度一致，适合作为一段连续压迫推进。",
+    "order": 262
+  },
+  {
+    "id": "seg_0263",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0822",
+      "shot_0823",
+      "shot_0824",
+      "shot_0825"
+    ],
+    "segment_number": 3,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "四个镜头属于同一情绪弧线：女主接招、说明和离、孩子作为无声现实、再补充关系破裂根因。角色集合稳定，情绪从平静回应深化为冷静宣判，且孩子道具参与叙事，适合合并成一段完整的‘女主主导回合’。",
+    "order": 263
+  },
+  {
+    "id": "seg_0264",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0826",
+      "shot_0827",
+      "shot_0828",
+      "shot_0829"
+    ],
+    "segment_number": 4,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "此段是沈睿的受伤—防御—执念暴露的完整回合。先拍反应再拍说话，符合‘听者比说者重要’；中间用同框双人镜确认关系裂缝，最后以他的核心执念收束，情绪连续且递增。",
+    "order": 264
+  },
+  {
+    "id": "seg_0265",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0830",
+      "shot_0831",
+      "shot_0832",
+      "shot_0833"
+    ],
+    "segment_number": 5,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "本段以情绪换挡为核心：女主沉默承接、男主翻刺前世、碎片闪回、现实生理反应落地，完成从现实婚姻争执到宿命旧伤的跃迁。虽有时空层短暂切换，但其功能是同一情感爆点的连续展开，因此合并最有效。",
+    "order": 265
+  },
+  {
+    "id": "seg_0266",
+    "scene_id": "scene_051",
+    "shot_ids": [
+      "shot_0834"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最终单镜收束，情绪从爆点回落成更冷的凝结状态。角色关系、空间距离和道具位置都已固定，不需要再拆分，保留沉默同框能最大化悬而未决的裂痕感。",
+    "order": 266
+  }
+]

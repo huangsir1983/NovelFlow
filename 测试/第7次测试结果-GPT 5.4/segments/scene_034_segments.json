@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0175",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0566",
+      "shot_0567",
+      "shot_0568"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前3个shot均围绕同一角色集合与同一情绪起点展开：先建立冷却对峙空间，再连续压近到高令宁的身体反应，完成‘旧事余波后，她准备做决定’的单一情绪弧线。无时空跳转，适合合并为一个由外到内的起势段。",
+    "order": 175
+  },
+  {
+    "id": "seg_0176",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0569",
+      "shot_0570",
+      "shot_0571"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组shot构成完整的关系反转：高令宁主动答应成婚，随即触发沈词的双重反应——先愣住，再生疑。角色关系未变，但情感弧线从女主决断清晰转向男主受击后的警觉收紧，形成独立的‘转折—反应’段。",
+    "order": 176
+  },
+  {
+    "id": "seg_0177",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0572",
+      "shot_0573",
+      "shot_0574"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段由‘听者反应’主导：先看高令宁如何接住沈词的惊疑，再切到沈词的质问，最后回到她不解释的沉默。三镜紧扣同一问答动作链，情绪从悬而未决的平静转为锋利试探，再压回女主的冷处理，适合并为一个攻防段。",
+    "order": 177
+  },
+  {
+    "id": "seg_0178",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0575",
+      "shot_0576",
+      "shot_0577"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜完成本场核心落点：女主提出条件，男主被条件击中，最后用双人空间关系回冷收束章节转折。情绪弧线由冷静陈述推至隐痛认知，再落回静止而危险的新平衡，是典型的结尾封口段。",
+    "order": 178
+  }
+]

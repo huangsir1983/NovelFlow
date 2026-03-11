@@ -1,0 +1,62 @@
+[
+  {
+    "id": "seg_0236",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0699",
+      "shot_0700",
+      "shot_0701",
+      "shot_0702"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段统一建立对峙空间、主观观察轴线与陆姝仪开口认错的起点。角色集合稳定，时空连续，情绪从公开压迫推进到迟来的认罪，适合合并为一个完整的开闸段落。",
+    "order": 236
+  },
+  {
+    "id": "seg_0237",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0703",
+      "shot_0704",
+      "shot_0705",
+      "shot_0706"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕第一层真相揭示展开：陆姝仪陈述前因、闪回具象化旧恨、高令宁首次被击中，并以高父与宴厅沉默补足公开性。虽插入闪回，但属于同一情绪冲击链条，适合并置成一段。",
+    "order": 237
+  },
+  {
+    "id": "seg_0238",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0707",
+      "shot_0708",
+      "shot_0709",
+      "shot_0710"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段是第二层反转与道德辩护的完整单元：从承认设计婚事，到请帖细节落地，再到“别无选择”的逻辑陈述，最终落在高令宁认知松动上。角色关系未变，但情感弧线明显转入复杂化，因此自成一段。",
+    "order": 238
+  },
+  {
+    "id": "seg_0239",
+    "scene_id": "scene_046",
+    "shot_ids": [
+      "shot_0711",
+      "shot_0712",
+      "shot_0713",
+      "shot_0714"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "终段集中完成情绪峰值与回冷：高令宁被彻底钉住，陆姝仪说完退场之言，自身近景完成切割，最后回到高令宁的沉默余震。角色集合没有再扩展，情绪从爆点滑入冷场，适合作为结尾段。",
+    "order": 239
+  }
+]

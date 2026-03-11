@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_001",
+  "name": "高府正堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸",
+  "description": "宽敞威严的中堂，高挑的穿斗式木构架，地面铺设青砖。正中悬挂名家匾额，下方为紫檀木大案和太师椅。两侧对称摆放着成排的客座与茶几。场景中堆满了堆积如山的红绸包裹的聘礼，金银绸缎闪烁，与古朴的建筑形成强烈对比。",
+  "visual_reference": "Interior of a wealthy Mid-Ming dynasty Chinese official manor main hall, high wooden beams, grey brick floor, symmetrical layout with rosewood armchairs and tea tables. Mountains of betrothal gifts wrapped in red silk, gold and silver fabrics scattered around. Cinematic lighting, rich colors, intricate wood carvings, photorealistic, 8k.",
+  "atmosphere": "庄重肃穆与荒诞的喧闹交织",
+  "color_palette": [
+    "#8B0000",
+    "#D4AF37",
+    "#4A3C31"
+  ],
+  "lighting": "白天充足的自然光透过雕花格扇门洒入，形成斑驳的光影，略带压抑的室内暗调。",
+  "key_features": [
+    "堆积如山的红绸聘礼",
+    "紫檀木太师椅",
+    "雕花格扇门"
+  ],
+  "narrative_scenes": [
+    "scene_001",
+    "scene_007",
+    "scene_014"
+  ],
+  "scene_count": 3,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从嫌弃难堪，到满面愁容，再到决裂的崩溃与疯狂。"
+}

@@ -1,0 +1,136 @@
+{
+  "model": "Grok",
+  "model_id": "grok",
+  "mode_c": {
+    "mode": "C_pipeline",
+    "streaming": true,
+    "total_time_s": 102.41,
+    "time_to_first_char_s": 49.45,
+    "char_export_log": [
+      {
+        "name": "高令宁",
+        "time_s": 49.45
+      },
+      {
+        "name": "沈词",
+        "time_s": 57.33
+      },
+      {
+        "name": "陆姝仪",
+        "time_s": 62.67
+      },
+      {
+        "name": "蒋晟",
+        "time_s": 66.66
+      },
+      {
+        "name": "高父",
+        "time_s": 71.3
+      },
+      {
+        "name": "沈母",
+        "time_s": 73.12
+      },
+      {
+        "name": "沈睿",
+        "time_s": 75.42
+      },
+      {
+        "name": "昭昭",
+        "time_s": 77.52
+      }
+    ],
+    "scene_export_log": [
+      {
+        "scene_id": "scene_001",
+        "location": "沈府正厅",
+        "time_s": 79.14
+      },
+      {
+        "scene_id": "scene_002",
+        "location": "沈府荷花亭",
+        "time_s": 80.87
+      },
+      {
+        "scene_id": "scene_003",
+        "location": "沈府卧房",
+        "time_s": 82.17
+      },
+      {
+        "scene_id": "scene_004",
+        "location": "高府正堂",
+        "time_s": 83.48
+      },
+      {
+        "scene_id": "scene_005",
+        "location": "高府闺房",
+        "time_s": 85.42
+      },
+      {
+        "scene_id": "scene_006",
+        "location": "医馆门前",
+        "time_s": 86.46
+      },
+      {
+        "scene_id": "scene_007",
+        "location": "马球场",
+        "time_s": 90.02
+      },
+      {
+        "scene_id": "scene_008",
+        "location": "客栈厢房",
+        "time_s": 92.36
+      },
+      {
+        "scene_id": "scene_009",
+        "location": "沈府洞房",
+        "time_s": 94.29
+      },
+      {
+        "scene_id": "scene_010",
+        "location": "高府厢房",
+        "time_s": 96.37
+      },
+      {
+        "scene_id": "scene_011",
+        "location": "高府产房",
+        "time_s": 97.48
+      },
+      {
+        "scene_id": "scene_012",
+        "location": "高府后院",
+        "time_s": 98.43
+      },
+      {
+        "scene_id": "scene_013",
+        "location": "江南院落",
+        "time_s": 100.05
+      },
+      {
+        "scene_id": "scene_014",
+        "location": "江南卧房",
+        "time_s": 102.4
+      }
+    ],
+    "num_characters": 8,
+    "num_characters_streamed": 8,
+    "num_scenes": 14,
+    "num_scenes_streamed": 14,
+    "character_names": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟",
+      "高父",
+      "沈母",
+      "沈睿",
+      "昭昭"
+    ],
+    "stream_chunks": 5543,
+    "num_locations": 14,
+    "num_props_total": 14,
+    "num_props_major": 0,
+    "num_variants": 13,
+    "pipeline_total_time_s": 265.69
+  }
+}

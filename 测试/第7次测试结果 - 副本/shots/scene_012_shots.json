@@ -1,0 +1,279 @@
+[
+  {
+    "id": "shot_0165",
+    "scene_id": "scene_012",
+    "shot_number": 1,
+    "goal": "建立卧房的封闭压抑环境，并用药气、帷帐与弱光预告这段关系进入补救期而非和解期。",
+    "composition": "女主主观高度的门内斜视角。前景左侧为半掩门框与虚焦帘角形成遮挡，中景右侧低垂帷帐包裹床榻，床前小几上药碗与汤药置于画面下方偏中，背景窗棂漏入被切割的冷光，房内大面积阴影留白压向床位。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、闷滞、关系被困住的窒息感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.25,
+    "order": 165
+  },
+  {
+    "id": "shot_0166",
+    "scene_id": "scene_012",
+    "shot_number": 2,
+    "goal": "把观众带入高令宁的身体状态，明确她卧床保胎、虚弱而清醒。",
+    "composition": "床内侧近景，镜头贴近高令宁上半身。她位于画面右侧三分之一，面朝左，手按腹部停在下画幅；前景有一层半透明帷帐虚化，背景仅见枕褥与暗色床栏，弱侧光打出苍白面色与清瘦轮廓。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "怜惜中带戒备，感到她脆弱却未放下心防。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.15,
+    "order": 166
+  },
+  {
+    "id": "shot_0167",
+    "scene_id": "scene_012",
+    "shot_number": 3,
+    "goal": "建立沈词围绕床前照料的空间关系，并展示他消瘦、克制、补偿式存在。",
+    "composition": "从高令宁视线方向拍向床边，保持180度轴线。前景右下是高令宁模糊的被角与手，沈词立于画面左侧偏中，微躬身端药碗，身体朝右进入床前区域；背景为药案、叠放药包和诊脉用具，形成他不断求医换方的视觉证据。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到他的愧疚是真实的，但也带着迟来的无力。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.05,
+    "order": 167
+  },
+  {
+    "id": "shot_0168",
+    "scene_id": "scene_012",
+    "shot_number": 4,
+    "goal": "强调沈词身体上的耗损，把补救具象化为自我消耗。",
+    "composition": "沈词面部特写，位于画面左侧，视线向右下落在药碗与高令宁身上。前景下方是一点虚焦碗沿，背景是暗色帷帐和窗棂切割光，眼下青黑、下颌消瘦被硬边侧光勾出。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "疲惫、愧疚、想靠近却不敢越界的克制。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 168
+  },
+  {
+    "id": "shot_0169",
+    "scene_id": "scene_012",
+    "shot_number": 5,
+    "goal": "用药碗建立照料动作的核心道具记忆点，并暗示控制与关怀混杂。",
+    "composition": "药碗极近特写居中偏左，沈词双手从左侧托入画面，深色袖口包围白瓷碗，碗中药液轻晃；背景虚焦中可辨高令宁卧于右后方，床帐形成柔灰层次。",
+    "camera_movement": "tilt",
+    "framing": "ECU",
+    "emotion_target": "让观众感到这不是温柔的喂药，而是带着监护意味的逼近。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 169
+  },
+  {
+    "id": "shot_0170",
+    "scene_id": "scene_012",
+    "shot_number": 6,
+    "goal": "表现高令宁面对照料时的冷静承受，她接受药，却未接受关系修复。",
+    "composition": "高令宁中近景，位于画面右侧，头微仰朝左。前景左侧伸入沈词持碗的手，占据下左角形成压迫；她的手仍压在腹部，另一手没有主动去接碗。背景是低垂帷帐和床头阴影，留白集中在她视线前方。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "疏离、疲惫、自保。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.15,
+    "order": 170
+  },
+  {
+    "id": "shot_0171",
+    "scene_id": "scene_012",
+    "shot_number": 7,
+    "goal": "把‘盯着她喝下’拍成关系里无声的试探与监视，避免表面温情化。",
+    "composition": "双人中景，保持床轴线。高令宁位于画面右侧靠床内，沈词坐于左侧床沿略前倾，二人之间由药碗构成视觉中心；前景垂帘虚化切割两人，背景窗棂光在床帐上形成条状阴影，二人目光不真正相接。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "体面外壳下的紧绷，像暂时停火而非和解。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 171
+  },
+  {
+    "id": "shot_0172",
+    "scene_id": "scene_012",
+    "shot_number": 8,
+    "goal": "用高令宁的吞咽细节表现她把痛苦和情绪一并咽下去。",
+    "composition": "高令宁口鼻与下颌特写，位于画面中央偏右，碗沿从左下方进入遮住部分唇线，喉间细微起伏可见；背景完全化开，仅余冷灰色帐影。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "隐忍、苦涩、把自己封住的冷硬。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 172
+  },
+  {
+    "id": "shot_0173",
+    "scene_id": "scene_012",
+    "shot_number": 9,
+    "goal": "以反应镜头展示沈词在她喝药时的紧张，说明他已把她每一个顺从都看成赎罪机会。",
+    "composition": "沈词反应特写，位于画面左侧，视线固定向右，嘴唇欲言又止；前景右侧是一片虚焦的高令宁肩线，背景为药案上叠起的药包与诊脉用具，形成重复补救的压力。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "不安、卑微、害怕失手。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 173
+  },
+  {
+    "id": "shot_0174",
+    "scene_id": "scene_012",
+    "shot_number": 10,
+    "goal": "展示‘一次次更换药方或请医问诊’这一持续行动，把愧疚转为机械重复的补偿行为。",
+    "composition": "药案中景，桌面横向占据下半画幅。前景是摊开的药方与药包，沈词的手从左到右翻拣更换，右侧角落有脉枕和笔墨；背景虚焦中能见床帐轮廓，表明一切动作仍围绕床前展开。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "焦灼、徒劳、忙而无解。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 174
+  },
+  {
+    "id": "shot_0175",
+    "scene_id": "scene_012",
+    "shot_number": 11,
+    "goal": "回到高令宁视角，表现她看着这一切却不被打动，信息仍限制在她的感受内。",
+    "composition": "从床上略低机位拍出，前景是高令宁模糊的膝被与帷帐边，沈词在中景左侧背对镜头整理药方，始终朝右活动不越轴；右侧留出大片空床空间，强调她与他之间的距离。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷观、疲惫、她并未因他的照料而真正靠近。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 175
+  },
+  {
+    "id": "shot_0176",
+    "scene_id": "scene_012",
+    "shot_number": 12,
+    "goal": "以腹部与手的细节提醒保胎风险，也为后续更大悲剧埋下身体层面的不安。",
+    "composition": "高令宁按住腹部的手部特写居中，指节因用力微白，衣料褶皱被压出张力；画面上缘隐约见她垂下的发丝和半截下颌，背景无信息，只保留床褥冷色纹理。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "脆弱、悬着的一口气、未说出口的恐惧。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 176
+  },
+  {
+    "id": "shot_0177",
+    "scene_id": "scene_012",
+    "shot_number": 13,
+    "goal": "给出短暂和缓：沈词下意识想碰她却克制收回，体现他不再争执、处处退让。",
+    "composition": "双手近景。高令宁的手在右侧床褥上，沈词的手从左侧缓慢伸近，在触到帕子边缘前停住并收回；前景有药碗残影虚焦，背景是深色被褥和一线侧光。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "克制中的心酸，观众短暂感到两人差一点能缓和。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 177
+  },
+  {
+    "id": "shot_0178",
+    "scene_id": "scene_012",
+    "shot_number": 14,
+    "goal": "用高令宁的眼神冷收这一点和缓，明确裂痕仍在，补救尚未换来信任。",
+    "composition": "高令宁眼部特写，双眼位于画面上三分之一，视线向左看向床边，神情清醒而冷；前景帷帐边缘在左侧形成窄幅遮挡，背景退成灰黑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "警惕、审视、绝不轻易心软。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 178
+  },
+  {
+    "id": "shot_0179",
+    "scene_id": "scene_012",
+    "shot_number": 15,
+    "goal": "以关系定格收尾：沈词仍守在床边，而高令宁仍在床内，两人共享同一空间却停在不同情感位置，为后续短暂缓和与更大悲剧蓄力。",
+    "composition": "门外远一点的框景收尾。前景门框与垂帘形成双重框架，床榻位于画面右侧，高令宁卧于帐内仅见侧影；沈词坐在左侧床前守着药碗，身体朝右不动。背景窗棂冷光切出横竖阴影，把两人分割在同一画面不同区域。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "沉静而更深的裂痕，像暴风雨前被迫维持的安静。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": -0.05,
+    "order": 179
+  }
+]

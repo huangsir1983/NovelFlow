@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_020",
+  "name": "高府后院",
+  "type": "mixed",
+  "era_style": "明代中晚期官家后院母女居所",
+  "description": "高府后院兼具小院与内室视角，外有安静院落，内有临窗床榻、椅子、小摇篮与婴儿襁褓，雕花木门将母女起居与外界严格隔绝。室内布置以照顾婴儿为中心，线条柔和，家具不多，留白较多，突出产后静养的安宁。窗光温和，摇篮与床榻构成母职与独立生活的新秩序。此地视觉上应有强烈“被闯入”的感觉：平静、私密、母女世界，突然遭到外来情绪冲击。",
+  "visual_reference": "Late Ming dynasty rear courtyard and inner room of an official residence, peaceful mother-and-child quarters, carved wooden door, cradle beside the bed, swaddled infant, simple chairs, soft window light, quiet postpartum domestic world, then intruded upon by a desperate man holding a divorce paper, cinematic Chinese historical drama, highly detailed",
+  "atmosphere": "安静、私密、被闯入的终局对峙",
+  "color_palette": [
+    "暖米白",
+    "浅木色",
+    "柔光金"
+  ],
+  "lighting": "白日窗光柔和均匀，婴儿与床榻区域最明亮，来者站在门边时可形成逆光压迫感。",
+  "key_features": [
+    "小摇篮与婴儿襁褓",
+    "雕花木门形成的边界",
+    "窗边床榻上的平静居所"
+  ],
+  "narrative_scenes": [
+    "scene_025"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从母女自成世界的平静，骤然转为男主迟来的崩溃告白。"
+}

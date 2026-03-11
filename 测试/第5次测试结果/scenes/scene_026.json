@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "id": "scene_026",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "沈睿"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈家府邸 - NIGHT",
+    "location": "前世沈家府邸",
+    "time_of_day": "night",
+    "description": "同属前世，但时间后移。室内气氛更阴沉，案上可能有沈睿的画卷残片，地上散着被毁坏的纸页。烛火摇晃，投出尖利阴影，冲突一触即发。",
+    "action": "一个肖似陆姝仪的婢女因毁掉沈睿的画引发事端。高令宁故意当着沈词的面，冷声谎称已把婢女送去窑子。沈词瞬间失控，几步逼近，一把掐住她脖颈，把她抵得后仰。高令宁呼吸受阻却仍抬眼与他对视，眼里是报复性的决绝。争执间，沈词猛地一推，她踉跄摔倒，护住小腹。空气骤然死寂。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "人我已经送去窑子了。",
+        "subtext": "她明知会激怒他，仍故意用最狠的话试探他心中真正的轻重。"
+      },
+      {
+        "character": "沈词",
+        "line": "毒妇！",
+        "subtext": "他把失控与痛意全投向她，也暴露了自己对替代者的执念。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "沈睿"
+    ],
+    "key_props": [
+      "画卷",
+      "画纸碎片",
+      "烛台"
+    ],
+    "dramatic_purpose": "展示前世婚姻关系彻底恶化的关键事件，以暴力伤害把情感裂缝推进到不可逆阶段。",
+    "tension_score": 0.95,
+    "order": 26
+  }
+}

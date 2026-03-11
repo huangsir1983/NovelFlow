@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 正堂 - 日",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人提亲，高令宁拒木雁要求加聘礼",
+  "key_dialogue": "聘礼太薄，我不满意。",
+  "emotional_peak": "沈词震惊抬头",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "木雁",
+    "金银绸缎聘礼",
+    "媒人礼单"
+  ],
+  "dramatic_purpose": "揭示双方重生，开启今生冲突",
+  "source_text_start": "媒人来提亲时，聘礼比前世少了一半。我便知道，沈词也重生了。",
+  "source_text_end": "我抬起脸，换上一副温和的笑：「我便是这般贪慕虚荣的人，沈公子可要退亲？」"
+}

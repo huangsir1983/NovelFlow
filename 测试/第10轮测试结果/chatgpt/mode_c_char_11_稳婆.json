@@ -1,0 +1,43 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-60",
+  "appearance": {
+    "face": "经验老到，神色焦灼时极具压迫感",
+    "body": "结实干练",
+    "hair": "妇人发髻",
+    "distinguishing_features": "在产房中不断催问“保大保小”"
+  },
+  "costume": {
+    "typical_outfit": "方便行动的深色妇人衣裙",
+    "color_palette": [
+      "深灰",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "产房角色",
+    "生死选择见证者"
+  ],
+  "visual_reference": "ancient Chinese midwife, experienced older woman, tense childbirth room, realistic historical detail",
+  "personality": "务实、急迫",
+  "desire": "尽快保住产妇与孩子",
+  "flaw": "受礼法限制，只能听丈夫定夺",
+  "arc": "无",
+  "scene_presence": "产房生死场的关键声音角色",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医护关系",
+      "dynamic": "在危急时抢救她",
+      "function": "生死抉择场景推进"
+    },
+    {
+      "target": "沈词",
+      "type": "请示关系",
+      "dynamic": "逼迫其作出选择",
+      "function": "揭露男主真实心意"
+    }
+  ]
+}

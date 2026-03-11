@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府内室 - DAY",
+  "location": "沈府居室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词为陆姝仪择婿焦头烂额，高令宁反而提出可让她“病逝”后暗中纳入府中，表示自己已经厌倦报复。随后高令宁怀孕，太医断为男胎，两人再次谈及未来和离。",
+  "key_dialogue": "「我做完月子便走，不会纠缠。」",
+  "emotional_peak": "高令宁说“以后都不会恨你了”，沈词却第一次失态，反问“谁准你想开了”。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "折扇",
+    "太医脉案",
+    "虎头帽针线",
+    "婴儿衣料"
+  ],
+  "dramatic_purpose": "将关系从互恨推进到一方先放下、另一方开始无法接受的阶段",
+  "source_text_start": "沈词开始给陆姝仪择婿。\n那些青年，他总",
+  "source_text_end": "话音落下，一片冷然的寂静。\n「高令宁，」他盯着我"
+}

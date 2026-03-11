@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - DAY",
+  "location": "高令宁的闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "父亲"
+  ],
+  "core_event": "父亲质问高令宁为何羞辱沈词，高令宁回忆前世种种，坚定表示一定要嫁，但要风光大嫁。",
+  "key_dialogue": "谁说我不想嫁？我一定要嫁。",
+  "emotional_peak": "高令宁回忆起前世的噩梦，眼神由迷茫转为坚定。",
+  "tension_score": 0.4,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "闺房陈设"
+  ],
+  "dramatic_purpose": "揭示女主的动机和前世的痛苦经历，展现她重生后的策略和决心。",
+  "source_text_start": "回到屋内。\n父亲绕着我转圈，不理解极了：「你发什么疯？」\n「之前你不是夸沈家哥乃是良婿之选，若能嫁给",
+  "source_text_end": "包括沈词。"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹"
+  ],
+  "role": "antagonist",
+  "age_range": "17-25",
+  "appearance": {
+    "face": "温婉清丽，眉目柔和",
+    "body": "柔弱纤细，楚楚可怜",
+    "hair": "柔顺黑发，简单发饰",
+    "distinguishing_features": "泪眼盈盈如清泉般的眸子"
+  },
+  "costume": {
+    "typical_outfit": "粉色或素雅襦裙",
+    "color_palette": [
+      "粉白",
+      "浅蓝"
+    ]
+  },
+  "casting_tags": [
+    "古风柔弱绿茶",
+    "楚楚可怜青梅",
+    "心机女"
+  ],
+  "visual_reference": "delicate beautiful Chinese maiden in soft pink Hanfu, gentle willow eyes with pitiful teary expression, soft delicate features, frail slender body, long flowing black hair, vulnerable posture, highly detailed 8k",
+  "visual_prompt_negative": "strong build, aggressive pose, modern fashion, sharp eyes",
+  "personality": "柔弱倔强、善于示弱、心机深沉",
+  "desire": "获得沈词庇护，嫁得好人家",
+  "flaw": "心机重、陷害他人、嫉妒心强",
+  "arc": "从陷害到坦白承认（也重生），最终退出",
+  "scene_presence": "女主主要情敌，多次制造冲突与陷害",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅义兄妹",
+      "dynamic": "单方面依恋，被女主视为威胁",
+      "function": "三角关系张力来源"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "明争暗斗与陷害",
+      "function": "推动女主情绪峰值"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "variant_id": "gaofu_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 不解困惑",
+  "tags": [
+    "困惑",
+    "不解",
+    "担忧"
+  ],
+  "scene_ids": [
+    "scene_002"
+  ],
+  "trigger": "女儿拒绝沈家提亲后,父亲不理解女儿为何刁难好姻缘",
+  "appearance_delta": {
+    "face": "眉头深锁,满脸困惑不解",
+    "body": "身体前倾,试图理解女儿",
+    "hair": "花白头发略显凌乱",
+    "distinguishing_features": "紧锁的眉头,疑惑的眼神"
+  },
+  "costume_override": {
+    "outfit": "褐色便服",
+    "color_palette": [
+      "褐色",
+      "深灰"
+    ]
+  },
+  "visual_reference": "confused middle-aged Chinese father, deeply furrowed brows, puzzled expression, graying hair slightly disheveled, brown casual robe, leaning forward with concern, traditional Chinese interior, warm lighting, protective but bewildered",
+  "emotional_tone": "困惑不解但依然关爱女儿"
+}

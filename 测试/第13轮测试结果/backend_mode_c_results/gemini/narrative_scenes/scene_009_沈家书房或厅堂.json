@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 沈府书房 - DAY",
+  "location": "沈家书房或厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词为陆姝仪的婚事焦头烂额，高令宁反常地为他出主意，建议他将陆姝仪“病逝”后接入府中，等和离后扶正。沈词对此反应复杂。",
+  "key_dialogue": "等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。",
+  "emotional_peak": "高令宁提出“完美”解决方案，沈词却陷入沉默，眼神翻涌，显示出内心的动摇和不解。",
+  "tension_score": 0.6,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "扇子（高令宁摇着）",
+    "婚事名册"
+  ],
+  "dramatic_purpose": "高令宁彻底放弃争斗，反而推动沈词与陆姝仪在一起，这种“成全”的态度让沈词措手不及，开始反思自己的感情。",
+  "source_text_start": "沈词开始给陆姝仪择婿。\n那些青年，他总嫌薄了陆姝仪。",
+  "source_text_end": "怔了下，我摇头。\n并不懂他此刻嘴硬的用意。"
+}

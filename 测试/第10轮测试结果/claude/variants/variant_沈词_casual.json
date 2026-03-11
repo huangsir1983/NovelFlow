@@ -1,0 +1,30 @@
+{
+  "variant_id": "shen_ci_variant_03",
+  "variant_type": "casual",
+  "variant_name": "沈词 — 探望日常",
+  "tags": [
+    "青衫",
+    "温柔",
+    "反思"
+  ],
+  "scene_ids": [
+    "scene_013"
+  ],
+  "trigger": "每日去高府探望怀孕的高令宁",
+  "appearance_delta": {
+    "face": "如玉面庞，眼神柔和愧疚",
+    "body": "长身玉立，姿态放松",
+    "hair": "简单束发，无冠",
+    "distinguishing_features": "琥珀色眸子中透出温柔与歉意"
+  },
+  "costume_override": {
+    "outfit": "淡青色儒袍，简洁雅致",
+    "color_palette": [
+      "淡青",
+      "白色",
+      "浅灰"
+    ]
+  },
+  "visual_reference": "handsome Chinese scholar in light blue elegant robes, gentle expression, jade-like features softened with guilt and tenderness, amber eyes showing warmth, simple hair tied without hat, ancient China courtyard setting, relaxed refined posture",
+  "emotional_tone": "温柔愧疚，开始反思"
+}

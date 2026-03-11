@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0090",
+    "shot_id": "shot_0090",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up at the left-center of the frame; her eyelashes lift slightly and her gaze pauses for a brief moment after windblown sand, revealing restrained awareness without openly softening; a blurred raised arm of Jiang Sheng forms a partial protective foreground frame in the upper right; behind her is a sun-washed out-of-focus arena with drifting figures and pale sand, natural daylight with low-saturation warm-cool contrast, side backlight, soft haze, cinematic historical drama realism, shallow depth of field, subtle film grain, highly detailed skin and fabric texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "sun-washed natural daylight, low-saturation warm-cool contrast, soft side backlight, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, modern jewelry, plastic, glass bottles, electric lights, neon, vehicles, phones, text, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0091",
+    "shot_id": "shot_0091",
+    "prompt_text": "A subjective mid shot of a viewing table arranged with a tea cup, fruit dish, and seasonal grapes in the lower half of the frame; one cluster of grapes sits slightly left of center, glowing semi-translucent in sunlight, becoming the visual focus; blurred moving silhouettes and flowing hems pass in the background, suggesting the social bustle of a historical arena gathering; the table setting is orderly, refined, and understated, with pale sand tones and muted wood textures; natural daylight with low-saturation warm-cool contrast, bright sun on the grapes against cooler soft background movement, realistic ancient Chinese setting, cinematic realism, shallow depth of field, delicate highlights on fruit skin, highly detailed still-life composition",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical still-life, subtle film grain",
+      "lighting": "natural daylight, low-saturation warm-cool contrast, sunlit translucent highlights, soft ambient background blur"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern tableware, plastic fruit tray, metal cutlery, electric lights, neon, phones, text, watermark, logo, low quality, bad composition, oversaturated colors, CGI look"
+  },
+  {
+    "id": "sp_0092",
+    "shot_id": "shot_0092",
+    "prompt_text": "Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, shown in a medium close-up on the right side of the frame; he lowers his head slightly and looks toward the grapes on the table, his ear catching light with a faint blush, conveying careful observation and quiet intention; a blurred grape cluster sits in the left lower foreground, and Gao Lingning's shoulder line appears as a soft blur along the left edge, keeping her presence central; the background retains the sandy arena and tent drapery with muted warm-cool contrast, low-saturation daylight, side light and soft backlight, cinematic historical realism, shallow depth of field, fine costume texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "natural daylight with side light, low-saturation warm-cool contrast, soft backlight on ear and cheek, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary male haircut, modern armor, zippers, plastic, electric lights, vehicles, phones, text, watermark, logo, low quality, deformed hands, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0093",
+    "shot_id": "shot_0093",
+    "prompt_text": "Jiang Sheng's hand, belonging to a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting; in close-up at the center of the frame, his defined fingers carefully peel a grape with controlled, respectful hand movement, never overly intimate; the exposed fruit flesh and thin skin catch a slight moist reflection under strong sunlight; the background is completely blurred into flowing golden-white highlights and sandy tones, isolating the gesture; low-saturation warm-cool contrast, crisp natural sun, realistic tactile detail, cinematic macro-like close framing, shallow depth of field, subtle film grain, highly detailed skin, nail, and fruit texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic close-up detail, subtle film grain",
+      "lighting": "strong natural sunlight, low-saturation warm-cool contrast, bright reflective highlights on fruit, fully blurred background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern manicure, latex gloves, stainless steel tools, plastic objects, text, watermark, logo, low quality, deformed hands, extra fingers, bad anatomy, oversaturated colors, cartoon style"
+  },
+  {
+    "id": "sp_0094",
+    "shot_id": "shot_0094",
+    "prompt_text": "A mid shot focused on two hands in a restrained historical exchange: on the left, Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, represented by her hanging sleeve and half-raised hand; on the right, Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, extends a peeled grape toward her fingertips; a small pocket of air remains between their fingers, preserving decorum and emotional restraint; the lower background shows the edge of the viewing table, the upper background holds a softly blurred crowd, natural daylight with low-saturation warm-cool contrast, gentle side backlight, cinematic realism, shallow depth of field, highly detailed silk sleeves and skin texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "natural daylight, low-saturation warm-cool contrast, gentle side backlight, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary accessories, plastic, electric lights, phones, text, watermark, logo, low quality, deformed hands, extra fingers, bad anatomy, oversaturated colors, exaggerated romance pose"
+  },
+  {
+    "id": "sp_0095",
+    "shot_id": "shot_0095",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a medium close-up from a three-quarter side angle at the center-left of the frame; she has accepted the peeled grape, but her gaze does not fully rest on her hand and instead shifts past the right side of the frame toward the deeper arena, her expression moving from slight softening into controlled thoughtfulness; Jiang Sheng remains only as a blurred shoulder and back in the right foreground, forming a subtle protective obstruction; the background is a softly washed historical competition ground with muted movement and pale sunlit sand, natural daylight with low-saturation warm-cool contrast, side backlight and soft atmospheric haze, cinematic historical realism, shallow depth of field, subtle film grain, highly detailed facial texture and silk folds",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, subtle film grain",
+      "lighting": "natural daylight, low-saturation warm-cool contrast, soft side backlight, sun-washed haze, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, modern makeup, electric lights, vehicles, phones, text, watermark, logo, low quality, blurry face, deformed hands, bad anatomy, oversaturated colors"
+  }
+]

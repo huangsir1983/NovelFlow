@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_017",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_045",
+      "scene_046",
+      "scene_047"
+    ]
+  },
+  "data": {
+    "title": "在满月宴揭开重生与陷害真相",
+    "description": "拿到和离书后，女主闭门养身。昭昭满月宴上，陆姝仪不请自来，坦白自己也重生了，前世投湖与今生蒋晟失贞案皆是她主动设计，只因无人为她做主。沈词在暗处听见真相，脸色惨白，夫妻误会被彻底翻开。",
+    "beat_type": "revelation",
+    "save_the_cat": "Finale",
+    "emotional_value": 0.1,
+    "dramatic_intensity": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 17
+  }
+}

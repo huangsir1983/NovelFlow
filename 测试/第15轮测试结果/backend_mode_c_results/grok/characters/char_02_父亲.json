@@ -1,0 +1,41 @@
+{
+  "name": "父亲",
+  "aliases": [
+    "爹爹",
+    "高父"
+  ],
+  "role": "supporting",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "慈祥带皱纹，威严",
+    "body": "中等身材",
+    "hair": "花白束冠",
+    "distinguishing_features": "眼角皱纹增多"
+  },
+  "costume": {
+    "typical_outfit": "四品官服或常服",
+    "color_palette": [
+      "深灰",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "慈父官宦",
+    "护女心切"
+  ],
+  "visual_reference": "五十岁左右古代官员，面容慈祥却带疲惫，眼角皱纹明显，皮肤微黄，身材中等微胖，花白头发束冠，穿着深灰常服或官袍，站在正堂担忧神情，光影温暖家庭感，写实风格",
+  "visual_prompt_negative": "年轻无皱、现代西装、卡通、西方面孔",
+  "personality": "慈爱护女、忧心朝堂",
+  "desire": "女儿平安喜乐",
+  "flaw": "最初犹豫门第",
+  "arc": "从劝嫁到坚决护女和离",
+  "scene_presence": "提亲、辞官、产后谈判关键出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父亲",
+      "dynamic": "深沉父爱保护",
+      "function": "后盾与劝导"
+    }
+  ]
+}

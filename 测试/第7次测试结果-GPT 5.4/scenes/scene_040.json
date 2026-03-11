@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_040",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 前厅/院门一带 - DUSK",
+    "location": "高府前厅",
+    "time_of_day": "dusk",
+    "description": "傍晚天色转暗，厅内光线发冷，门外余晖将尽。前厅与院门之间人影来去，气氛骤然紧绷。门房小厮候在一侧，神色惶然。",
+    "action": "沈词脸色铁青地快步闯入高府，步伐急促，衣摆带风。他得知陆姝仪没有回沈家，门房小厮连忙回话，说人进了高府后便未再出去。高令宁站定片刻，强压情绪，下令全府搜查各处角落。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "门房名册",
+      "灯笼"
+    ],
+    "dramatic_purpose": "将原本隐约的不安升级为明确失踪事件，推动剧情进入危机搜查阶段。",
+    "tension_score": 0.78,
+    "dramatic_intensity": 0.56,
+    "order": 40
+  }
+}

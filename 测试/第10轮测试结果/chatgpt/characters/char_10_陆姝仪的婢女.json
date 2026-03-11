@@ -1,0 +1,39 @@
+{
+  "name": "陆姝仪的婢女",
+  "aliases": [
+    "婢女"
+  ],
+  "role": "minor",
+  "age_range": "14-22",
+  "appearance": {
+    "face": "普通丫鬟面容，神色怯懦",
+    "body": "纤细",
+    "hair": "双丫髻或低髻",
+    "distinguishing_features": "服侍表小姐，行动匆忙"
+  },
+  "costume": {
+    "typical_outfit": "浅色丫鬟服",
+    "color_palette": [
+      "浅绿",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "丫鬟",
+    "传信工具人"
+  ],
+  "visual_reference": "young ancient chinese maid, simple pale hanfu, anxious expression, realistic",
+  "personality": "怯弱、服从",
+  "desire": "照顾主子、完成传话",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "新婚夜叩门传话等短暂出场。",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "忠于主子",
+      "function": "情节触发"
+    }
+  ]
+}

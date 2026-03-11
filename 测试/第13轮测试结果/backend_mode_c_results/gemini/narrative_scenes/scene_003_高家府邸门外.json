@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "EXT. 高府门口 - DAY",
+  "location": "高家府邸门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦住高令宁，以儿子“沈睿”为筹码，要求她必须成亲。高令宁同意，但提出条件：必须先处理好陆姝仪。",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+  "emotional_peak": "沈词提到儿子，戳中高令宁痛处，两人达成充满恨意的交易。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "辞官奏折（高令宁逼父亲写的）",
+    "药包（高令宁为父亲准备的）"
+  ],
+  "dramatic_purpose": "揭示两人重生后结婚的核心动机——为了儿子沈睿。建立新的核心冲突：陆姝仪的处置问题。",
+  "source_text_start": "盯着父亲写完辞官的奏折。\n我松了口气，浑身轻松。",
+  "source_text_end": "四目相对，只剩恨意。\n我冷哼一声，转身离开。"
+}

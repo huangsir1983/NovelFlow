@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_005",
+  "name": "高家书房",
+  "type": "interior",
+  "era_style": "明代中晚期文官书房",
+  "description": "充满书卷气与墨香的静谧空间。三面墙皆是顶天立地的书架，堆满古籍卷轴。中央是一张宽大的金丝楠木画案，案上整齐摆放着笔墨纸砚、一枚象征权力的铜制官印，以及一本刚刚写就、墨迹未干的辞官奏折。空间透着一种如释重负的宁静。",
+  "visual_reference": "Interior of an ancient Chinese official's study room, floor-to-ceiling wooden bookshelves filled with scrolls, a large nanmu wood desk in the center, calligraphy brushes, inkstone, a bronze official seal, a folded memorial document with fresh ink, serene and scholarly atmosphere, warm daylight illuminating the desk, highly detailed, 8k.",
+  "atmosphere": "静谧、沉稳、如释重负",
+  "color_palette": [
+    "暖羊脂白",
+    "书卷黄",
+    "沉香木色"
+  ],
+  "lighting": "温暖而集中的白昼光线，重点照亮书桌上的奏折与官印",
+  "key_features": [
+    "金丝楠木画案",
+    "铜制官印",
+    "辞官奏折"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从对前世抄家命运的焦虑，到写下奏折后的彻底解脱与轻松"
+}

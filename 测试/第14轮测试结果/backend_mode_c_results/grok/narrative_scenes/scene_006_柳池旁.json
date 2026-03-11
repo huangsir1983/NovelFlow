@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "EXT. 柳池旁 - DAY",
+  "location": "柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "脚伤后沈词拽住高令宁，提醒亲密往事",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "疏离与暧昧碰撞",
+  "tension_score": 0.8,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "药碗"
+  ],
+  "dramatic_purpose": "揭示前世亲密，增加情感张力",
+  "source_text_start": "四目相对。我噌地站了起来，一瘸一拐地想离开。",
+  "source_text_end": "你身上哪里，我没碰过？"
+}

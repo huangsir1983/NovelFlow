@@ -1,0 +1,85 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "高小姐",
+    "夫人",
+    "令宁"
+  ],
+  "role": "protagonist",
+  "age_range": "18-25",
+  "appearance": {
+    "face": "鹅蛋脸，肤色白净偏冷，眉形利落，眼尾微挑，眸光清亮但常含戒备与讥诮；年轻时带闺秀的柔美，经历世事后神情更沉静锋利",
+    "body": "身形纤秀匀称，肩背挺直，仪态端正，怀孕后体态柔和但仍有强撑出来的硬气",
+    "hair": "乌黑浓密的长发，闺中多梳规整发髻，婚后常为高髻或低髻，配简洁簪钗",
+    "distinguishing_features": "清艳中带压迫感的眼神，倔强下颌线，情绪激烈时眼眶发红却不示弱"
+  },
+  "costume": {
+    "typical_outfit": "世家闺秀式襦裙、褙子与披帛，婚后为端庄华贵的妇人装束，偏爱剪裁利落、能显主母气场的服饰",
+    "color_palette": [
+      "月白",
+      "藕荷",
+      "绛红",
+      "青黛"
+    ]
+  },
+  "casting_tags": [
+    "古典美人",
+    "高门主母气质",
+    "嘴硬心软",
+    "清醒克制",
+    "倔强",
+    "虐恋女主"
+  ],
+  "visual_reference": "Ancient Chinese noblewoman, elegant oval face, sharp bright eyes, pale skin, black long hair in refined traditional updo, slim graceful figure, Song dynasty inspired hanfu, restrained luxury, proud and intelligent expression, cinematic lighting",
+  "visual_prompt_negative": "modern clothing, glasses, heavy makeup, tattoo, short hair, fantasy armor, exaggerated smile, western palace dress",
+  "personality": "争强好胜，聪明清醒，骨子里骄傲，情感深却不肯低头，受伤后更趋冷硬与自持",
+  "desire": "重见并保住自己的孩子，守住高家，摆脱被算计和被误解的一生，获得真正可掌控的人生",
+  "flaw": "自尊过强，不肯示弱，遇事习惯硬顶到底；爱恨都走极端，容易以反击代替沟通",
+  "arc": "从执着于婚姻输赢、反复陷入与沈词的旧怨中，到看透强求无益，最终选择和离、带女儿南下，学会把人生重心从男人与旧恨中抽离出来",
+  "scene_presence": "几乎贯穿全篇；从重生后拒收薄聘、逼婚条件、成婚怀子、被诬陷早产，到和离养女、江南新生，始终是叙事核心视角",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前世夫妻/今生再婚后和离对象",
+      "dynamic": "彼此深知对方最痛的地方，长期互刺互恨，却又在孩子、旧情与亏欠里无法彻底斩断",
+      "function": "核心情感冲突与命运纠缠"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "父亲疼爱她、也担心她高嫁受苦；她则用重生经验反过来保护父亲和高家",
+      "function": "提供家族根基与情感避风港"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌/镜像女性",
+      "dynamic": "前世今生都被彼此牵制，一个争体面与名分，一个争偏爱与生路",
+      "function": "推动误会、嫉妒、女性困局与重生反转"
+    },
+    {
+      "target": "沈睿",
+      "type": "母子",
+      "dynamic": "她重回一世最直接的动力就是再见儿子；儿子也是她与沈词再度捆绑的唯一理由",
+      "function": "母性驱动与命运锚点"
+    },
+    {
+      "target": "沈昭昭",
+      "type": "母女",
+      "dynamic": "失而复得般的新生关系，昭昭成为她重新建构人生的希望",
+      "function": "替代旧执念，完成女主弧线"
+    },
+    {
+      "target": "蒋晟",
+      "type": "相亲对象/被卷入者",
+      "dynamic": "原本可能是稳妥良配，却被重生者们的算计拖入风暴",
+      "function": "展示另一种婚姻可能与悲剧性错失"
+    },
+    {
+      "target": "沈母",
+      "type": "婆媳/长辈对立",
+      "dynamic": "前世以规训和家族利益压她，今生依旧代表沈家门第与传统控制",
+      "function": "家宅压迫来源"
+    }
+  ]
+}

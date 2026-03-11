@@ -1,0 +1,16 @@
+{
+  "name": "茶盏",
+  "category": "container",
+  "description": "一只中式小型茶盏，器形低矮圆润，敞口，浅弧腹，小圈足，通高约5厘米，口径约8厘米。材质为细腻白瓷胎，胎体轻薄但不失温润质感。外壁施温润米白釉，釉色中带微微暖黄，釉面细洁，有轻微开片纹理；内壁釉色更亮，便于映出茶汤颜色。盏口边缘收拾工整，口沿略薄，足底露出浅米色胎骨。整体做工简洁雅致，无繁复纹样，仅在外壁近底部饰一圈极淡的手工刻弦纹，显出克制含蓄的古典气质。使用痕迹轻微，口沿与足圈有不明显磨损，适合多场景反复出现并保持视觉一致性。",
+  "visual_reference": "A traditional Chinese tea bowl, small and elegant, Song dynasty inspired aesthetic, thin white porcelain body, warm ivory glaze, subtle crackle glaze texture, low rounded form, open mouth, shallow curved body, small ring foot, minimal engraved line decoration near the base, refined handcrafted ceramic, soft natural light, understated historical realism, cinematic prop photography, neutral background, highly detailed texture, authentic ancient Chinese teaware",
+  "visual_prompt_negative": "modern cup handle, glass, plastic, stainless steel, bright modern patterns, exaggerated ornament, Japanese matcha bowl style, neon colors, logo, contemporary tableware, oversized vessel, lid, spoon",
+  "narrative_function": "作为反复出现的日常器物，茶盏能够建立场景的生活质感与时代氛围，也常用于承载人物之间克制含蓄的情感交流；它既可推动对话与情节展开，也可通过递茶、持盏、残茶等细节揭示人物关系与内心状态。",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_001",
+    "scene_002",
+    "scene_003",
+    "scene_006"
+  ],
+  "emotional_association": "克制、温情、静观与含而不露的情感流动"
+}

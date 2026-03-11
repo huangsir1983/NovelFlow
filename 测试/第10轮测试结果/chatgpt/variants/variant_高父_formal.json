@@ -1,0 +1,31 @@
+{
+  "variant_id": "高父_variant_03",
+  "variant_type": "formal",
+  "variant_name": "高父 — 书房辞官时的决断长者",
+  "tags": [
+    "辞官",
+    "避祸",
+    "家族担当",
+    "沉重决断"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "在高府书房中，高父决定辞官避祸，并安排女儿相看门生蒋晟，展现出从官员身份向家族守护者身份倾斜的关键状态。",
+  "appearance_delta": {
+    "face": "神色比前期更凝重，眉心压痕明显，显出为家事与仕途两难所累",
+    "body": "伏案或起身时可见轻微疲态，胸口旧疾的负担感更强",
+    "hair": "束冠仍整肃，但略显劳顿感",
+    "distinguishing_features": "文臣气质中多出果断，像主动放下仕途换取家宅平安"
+  },
+  "costume_override": {
+    "outfit": "半正式文官袍服或书房内便于写奏折的整肃深色袍服",
+    "color_palette": [
+      "深青",
+      "灰褐",
+      "灰白"
+    ]
+  },
+  "visual_reference": "middle-aged ancient Chinese scholar-official father in a study, writing a resignation memorial with brush and ink, gentle refined face marked by stress and age lines, black hair mixed with gray under a formal crown, dark teal and gray-brown robe, official seal and memorial paper on desk, determined yet weary expression, realistic historical Chinese interior",
+  "emotional_tone": "沉重、清醒、决断"
+}

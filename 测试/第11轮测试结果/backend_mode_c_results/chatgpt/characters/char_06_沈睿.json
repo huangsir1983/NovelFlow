@@ -1,0 +1,49 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28（主要以回忆与未出生命运存在）",
+  "appearance": {
+    "face": "幼时聪慧秀气，病中脸色苍白却神情温和；成年后应是清俊文雅的青年权臣相貌",
+    "body": "幼时文弱，成年后修长斯文",
+    "hair": "孩童发髻，成年后规整束发",
+    "distinguishing_features": "超越年龄的早慧与温柔目光"
+  },
+  "costume": {
+    "typical_outfit": "幼时家居小袍，成年后文臣官服",
+    "color_palette": [
+      "月白",
+      "青色",
+      "浅灰"
+    ]
+  },
+  "casting_tags": [
+    "天才儿子",
+    "白月光亲子",
+    "早夭名相",
+    "温柔懂事"
+  ],
+  "visual_reference": "Ancient Chinese gifted boy scholar, gentle intelligent eyes, pale delicate face, simple elegant robe, later young prime minister aura, poetic cinematic style",
+  "visual_prompt_negative": "modern school uniform, glasses, fantasy costume, messy hair, tattoo",
+  "personality": "早慧、仁厚、懂事，过度体谅父母",
+  "desire": "希望父母和睦，不再互相折磨",
+  "flaw": "过早承担了不属于孩子的情感负担",
+  "arc": "前世是父母悲剧婚姻的唯一缓冲器，死后仍成为推动他们重来一世的执念；梦中更主动劝母亲放下",
+  "scene_presence": "主要出现在回忆、描述与梦境中，但其存在是全剧命运发动机",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "是她重生后再嫁的最大理由",
+      "function": "女主行动驱动力"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "是他再度求娶和诸多妥协的核心原因",
+      "function": "男主行动驱动力"
+    }
+  ]
+}

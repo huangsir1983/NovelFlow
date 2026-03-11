@@ -1,0 +1,170 @@
+{
+  "major": {
+    "药碗": {
+      "count": 3,
+      "scenes": [
+        "scene_007",
+        "scene_008",
+        "scene_011"
+      ]
+    }
+  },
+  "minor": {
+    "药包": {
+      "count": 2,
+      "scenes": [
+        "scene_001",
+        "scene_005"
+      ]
+    },
+    "被子": {
+      "count": 2,
+      "scenes": [
+        "scene_009",
+        "scene_018"
+      ]
+    },
+    "和离书": {
+      "count": 2,
+      "scenes": [
+        "scene_014",
+        "scene_015"
+      ]
+    },
+    "辞官奏折": {
+      "count": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    "木雁": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "金银绸缎": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "聘礼箱笼": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "茶盏": {
+      "count": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    "茶杯": {
+      "count": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    "瓷片": {
+      "count": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    "大雁勒痕": {
+      "count": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    "风筝": {
+      "count": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    "葡萄": {
+      "count": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    "马球杆": {
+      "count": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    "衣角": {
+      "count": 1,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    "丝带": {
+      "count": 1,
+      "scenes": [
+        "scene_009"
+      ]
+    },
+    "虎头帽": {
+      "count": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    "丝线": {
+      "count": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    "衣冠": {
+      "count": 1,
+      "scenes": [
+        "scene_011"
+      ]
+    },
+    "桌案": {
+      "count": 1,
+      "scenes": [
+        "scene_012"
+      ]
+    },
+    "床单": {
+      "count": 1,
+      "scenes": [
+        "scene_013"
+      ]
+    },
+    "婴儿襁褓": {
+      "count": 1,
+      "scenes": [
+        "scene_013"
+      ]
+    },
+    "请帖": {
+      "count": 1,
+      "scenes": [
+        "scene_016"
+      ]
+    },
+    "雪球": {
+      "count": 1,
+      "scenes": [
+        "scene_017"
+      ]
+    },
+    "枕头": {
+      "count": 1,
+      "scenes": [
+        "scene_018"
+      ]
+    }
+  },
+  "total_unique": 26,
+  "major_count": 1,
+  "minor_count": 25
+}

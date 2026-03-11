@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁闺房",
+  "type": "interior",
+  "era_style": "明代中晚期贵族千金闺房",
+  "description": "精致而不失大气的内室。空间被一扇双面苏绣屏风巧妙隔开。靠窗处是一张黄花梨木梳妆台，上面摆放着菱花铜镜与多层镶玉首饰盒。床榻挂着轻柔的烟影纱帐。房间陈设并不繁琐，透出主人果决、清冷的性格底色。",
+  "visual_reference": "Interior of a Ming Dynasty noblewoman's boudoir, elegant huanghuali wood dressing table with a bronze mirror, jade-inlaid jewelry box, double-sided silk embroidery screen, soft translucent bed curtains, soft diffused daylight through paper windows, intimate and resolute atmosphere, detailed textures, cinematic, 8k.",
+  "atmosphere": "清冷、私密、压抑着决绝",
+  "color_palette": [
+    "藕粉色",
+    "暖木色",
+    "黛青色"
+  ],
+  "lighting": "柔和的漫反射天光，透过糊纸窗棂洒在梳妆台上",
+  "key_features": [
+    "黄花梨梳妆台",
+    "菱花铜镜",
+    "苏绣屏风"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从父女间的无奈劝说，到女主眼底闪过极致恨意与偏执的爆发"
+}

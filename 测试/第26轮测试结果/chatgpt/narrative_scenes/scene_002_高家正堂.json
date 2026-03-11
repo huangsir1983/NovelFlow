@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高家正堂 - day",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人上门提亲，聘礼比前世寒酸，我意识到沈词也重生了，当众退回木雁，借机羞辱沈词并试探他的态度。",
+  "key_dialogue": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+  "emotional_peak": "我把木雁还回去，正面撕破体面。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "聘礼",
+    "木雁",
+    "活雁的前世记忆"
+  ],
+  "dramatic_purpose": "正式建立男女主双重生的默契与敌意，点燃婚约冲突。",
+  "visual_reference": "古代厅堂内金银绸缎堆放，少女将木雁退还媒人，少年郎君抬眼冷视，长辈震怒。",
+  "visual_prompt_negative": "不要现代礼服，不要宫廷夸张金碧辉煌，不要搞笑表情，不要赛博元素",
+  "source_text_start": "1.\n媒人来提亲时，聘礼比前世少了一半。",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

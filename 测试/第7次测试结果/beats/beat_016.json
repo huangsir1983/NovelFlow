@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "id": "beat_016",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_049",
+      "scene_050",
+      "scene_051",
+      "scene_052",
+      "scene_053"
+    ]
+  },
+  "data": {
+    "title": "当庭拒复合逼出沈词崩塌",
+    "description": "沈家来要孩子，父亲强硬护女；沈词甚至当众下跪、闯入后院求见，以‘孩子不能没有爹’和前世狠话挽回。女主却平静表示按约和离、愿意原谅他并祝他另觅良人，反使沈词彻底崩塌：他宁愿被恨，也不要被原谅。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Finale",
+    "emotional_value": -0.1,
+    "dramatic_intensity": -0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 16
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0240",
+    "shot_id": "shot_0252",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a close-up from a front-side angle on the right side of the frame; his gaze fixed toward the unseen coffin on the left, eyes slightly widened and staring, outer corners reddened, lower lashes damp, lips pressed into a tight line, delayed grief finally visible and real. Dim mourning hall background with blurred white funeral banners and a tiny reflected candle flame, dark negative space on the left for eyeline, low-saturation warm-cool contrast with pale skin against faint blood warmth in the eyes, side-back candlelight and soft shadow shaping the face. cinematic realism, historical Chinese drama, highly detailed skin texture, shallow depth of field, restrained emotional intensity, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, dim amber candle reflection with cool gray-blue ambient shadow, soft side-back lighting, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern furniture, modern hairstyle, zipper, plastic, contemporary makeup, text, watermark, logo, low quality, blurry face, extra fingers, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0241",
+    "shot_id": "shot_0253",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown only through her still body inside the coffin; focus on her folded hands resting over plain white burial robes, motionless fingers and quiet cloth folds conveying absolute finality. Close-up from an inner coffin angle, the lower foreground filled with white shroud fabric and arranged hands, a black coffin edge cutting across the upper frame, no other character visible, composition calm and almost cruel. Cold mourning chamber atmosphere, muted whites, charcoal blacks, old wood browns, minimal candle glint, low brightness, dense shadows, silence made visible. cinematic realism, austere funerary detail, static composition, highly controlled framing, fine textile texture, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "subdued low-key lighting, cool gray ambient tone with faint amber candle reflection, soft top-side falloff, high shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, hospital setting, modern coffin design, plastic fabric, synthetic materials, text, watermark, logo, low quality, overexposed, oversaturated, blurred hands, deformed anatomy"
+  },
+  {
+    "id": "sp_0242",
+    "shot_id": "shot_0254",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a medium close-up on the right side of the frame; his gaze dropping slowly from above, eyes losing focus, eyelids heavy, shoulders visibly collapsing downward, face turning hollow after the crest of grief has passed. The coffin corner remains in the left rear background like a physical weight pressing toward him, mourning hall in dim blur with dark wood, white funeral drapery, and drained empty space. Low-saturation warm-cool contrast, cool gray-blue ambient darkness mixed with weak amber candlelight, soft directional side light, realistic shadows, restrained and exhausted emotional aftermath. cinematic realism, historical Chinese drama, subtle camera continuity feeling, highly detailed costume folds, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "muted cool ambient light with weak amber candle accents, soft side lighting, low saturation, gentle shadow rolloff, somber low-key exposure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern room decor, casual contemporary clothing, text, watermark, logo, low quality, low resolution, cartoon, exaggerated expression, oversaturated colors"
+  },
+  {
+    "id": "sp_0243",
+    "shot_id": "shot_0255",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, sitting lower before the coffin, body leaning forward and nearly folded into itself; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lying still within the coffin. Full shot in a side-facing long composition, coffin placed slightly left of center, Shen Ci seated in front of it at a lower level, white funeral banner hanging in the right foreground as a soft obstruction, vast empty wall and deep mourning hall stretching behind them, the distance between man and coffin short, the distance between man and the world immense. Low-saturation palette of gray-cyan, charcoal, aged wood brown, and faint amber candlelight, spatial silence, cold ceremonial emptiness, side-back lighting and layered depth, cinematic realism, architectural melancholy, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "dim side-back lighting with cool gray ambient space and sparse amber candle accents, low saturation, deep spatial shadows, soft foreground occlusion"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric fixtures, modern funeral hall, plastic candles, text, watermark, logo, low quality, distorted perspective, extra limbs, oversaturated colors, glossy fantasy effects"
+  },
+  {
+    "id": "sp_0244",
+    "shot_id": "shot_0256",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, reduced to a small figure crouched low beneath the coffin; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lying motionless within the central coffin. Wide shot from a higher and farther viewpoint, coffin centered, Shen Ci small at the lower portion of the frame, two pale candle flames at the far left and right edges, vast empty mourning space surrounding them, the frame emphasizing stillness rather than action. Desolate funeral hall with dark wood, white banners, hollow silence, low-saturation warm-cool contrast, gray-blue emptiness touched by faint amber candlelight, high ceiling gloom, echoing negative space. cinematic realism, austere composition, historical Chinese mourning scene, static emotional ending, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "high distant composition with cool gray ambient darkness, faint amber candle points, low saturation, soft low-key exposure, echoing empty-space lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, modern architecture, contemporary fabrics, text, watermark, logo, low quality, low detail, oversaturated colors, dramatic fantasy glow, distorted anatomy"
+  },
+  {
+    "id": "sp_0245",
+    "shot_id": "shot_0233",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated alone at a table in a still and upright posture with a subtle stiffness, her presence quiet and withdrawn after memory has receded. Wide shot with deep interior perspective, she sits in the right third of the frame near the rear-right table, a blurred candle stand in the left foreground creating warm obstruction, dark doorframes and screen silhouettes in the background, broad silent empty space left in the center. Ancient noble mansion inner chamber, muted gray-cyan, dark ink-black, old wood brown, one steady amber candle as the only stable light, restrained present-time atmosphere with more natural breathable darkness than the flashback, static and heavy with emotional aftershock. cinematic realism, Song dynasty inspired historical drama, layered composition, delicate negative space, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool interior lighting, soft amber candlelight in foreground with cool dim ambient room tone, gentle side shadow, static calm exposure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, modern tableware, contemporary interior design, text, watermark, logo, low quality, blurry subject, oversaturated colors, fantasy costume, plastic texture"
+  }
+]

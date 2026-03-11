@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "EXT. 马球场 - day",
+  "location": "侯爵府马球会场地",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟"
+  ],
+  "core_event": "我故意应下马球会，与父亲门生蒋晟同行，在他的周到体贴中短暂感受到另一种可能。",
+  "key_dialogue": "蒋公子，我脚好像崴了。",
+  "emotional_peak": "对平稳良配的片刻迟疑",
+  "tension_score": 0.51,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "葡萄",
+    "马球杆",
+    "披风"
+  ],
+  "dramatic_purpose": "引出蒋晟这条线，并让女主看到除沈词之外的婚配可能。",
+  "visual_reference": "春日马球场沙尘飞扬，年轻武人小心为女子挡风、剥葡萄，女子立在场边神色若有所思，远处球场喧闹，近处两人却安静细腻，古风户外群像与私密感并存",
+  "visual_prompt_negative": "避免西式马球服、避免现代运动场、避免过度浪漫粉色滤镜、避免拥挤失焦",
+  "source_text_start": "沈家公子认了位义妹。",
+  "source_text_end": "春光如泄，我站在原地，忽然怔了片刻。"
+}

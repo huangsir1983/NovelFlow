@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0084",
+    "shot_id": "shot_0001",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in medium shot on the left third of the frame facing right; she stands still with controlled posture, lips pressed flat, emotion contained after hearing grave news, her neck scar barely visible, while a blurred male servant shoulder and back occupy the right foreground as if reporting to her. Interior of an ancient noble residence with cool-toned wooden lattice window and a corner of a desk in the background, desaturated gray-blue, dark wood brown, and dim amber accents, side light carving her cheekbone and hairline, restrained warm-cool contrast, shallow depth of field, limited subjective perspective centered on her perception. Cinematic historical drama realism, Song dynasty aesthetic, tense aristocratic power game, highly detailed fabric texture, subtle film grain, precise composition, elegant but dangerous stillness",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cool natural window side light with faint amber interior bounce, low saturation warm-cool contrast, controlled shadows, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electric lights, plastic, glass windows, contemporary hairstyle, modern makeup, text, subtitle, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0085",
+    "shot_id": "shot_0002",
+    "prompt_text": "A young male servant of the Shen residence in plain dark historical Chinese servant robes, humble and tense, shown in medium close-up on the right-center of the frame facing left; he is replying carefully, shoulders slightly drawn in, eyes lowered with visible pressure, as if carrying the weight of a noble household's message. The left foreground is softly blocked by the blurred shoulder, neck, and sleeve of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, preserving her subjective viewpoint. Interior doorway lines frame the servant in a narrow vertical space, with dark wood, muted gray-blue walls, old brown doorframe, and faint screen shadows, low saturation palette with restrained amber highlights, compressed space and still air suggesting invisible oppression. Cinematic historical drama realism, Song dynasty aesthetic, psychologically tense composition, shallow focus, highly detailed costume folds, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "soft cool ambient daylight with weak warm indoor fill, low saturation warm-cool contrast, narrow framed shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, electric fixtures, plastic, zippers, contemporary interior, text, watermark, logo, low quality, overexposed, distorted anatomy, extra limbs, cartoon style, oversaturated colors"
+  },
+  {
+    "id": "sp_0086",
+    "shot_id": "shot_0003",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up with her face centered slightly left; she lifts her gaze subtly toward the upper right, lips pressed into a thin line, the outer corner of her eye faintly sharpened, revealing a hidden calculation rather than calm indifference. The background is heavily blurred, leaving only bright lattice window highlights and soft abstract interior shapes, one side of her eye socket and nose bridge cut by cool side light while the other side sinks into warmer dim shadow, creating restrained warm-cool collision in a low-saturation palette. Cinematic historical drama realism, intimate psychological portrait, Song dynasty aesthetic, fine skin detail, sharp eyes, shallow depth of field, subtle film grain, silent tension before verbal attack",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "precise cool side light from lattice window with faint warm shadow fill, low saturation warm-cool contrast, sculpted facial shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern portrait styling, electric light glare, text, watermark, logo, low quality, soft mushy details, deformed face, extra eyes, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0087",
+    "shot_id": "shot_0004",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in medium shot on the left side of the frame facing right; she remains perfectly upright and still, only her chin slightly lifted as she begins to speak, calm and authoritative, taking command of the exchange. On the right middle ground, the silhouette of a Shen residence servant listens respectfully, subdued and smaller in presence. A desk edge forms a stable horizontal line across the lower frame, with negative space concentrated in front of her line of sight to imply verbal pressure. Interior noble chamber with muted gray-blue tones, dark wood furniture, lattice window, faint amber interior highlights, low saturation warm-cool palette, side-back light and soft shadow divisions reinforcing ritual restraint and power imbalance. Cinematic historical drama realism, Song dynasty aesthetic, composed confrontation, shallow focus, detailed silk texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "controlled cool daylight from the side with delicate amber interior accents, low saturation warm-cool contrast, stable shadow structure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern interior, plastic, electric lamps, contemporary fashion, text, watermark, logo, low quality, blurred subject, malformed hands, bad anatomy, oversaturated scene"
+  },
+  {
+    "id": "sp_0088",
+    "shot_id": "shot_0005",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in an intense close-up slightly left-weighted so that her lips, jawline, and one sharp eye dominate the frame; she is in the act of delivering a polite but cutting condition, her mouth controlled, her gaze needle-sharp, aggression hidden beneath formal courtesy. A small area of blurred empty space remains on the right, increasing verbal tension and implied target. The background is soft and minimal, with only faint cool window glow and dark interior blur, side light sharpening the lip line, eye, and cheek contour, low saturation gray-blue and old wood tones with restrained amber undertone, warm-cool collision kept subtle and elegant. Cinematic historical drama realism, Song dynasty aesthetic, psychological attack through dialogue, hyper-detailed facial texture, shallow depth of field, subtle film grain, poised menace",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "tight cool side lighting with slight warm interior undertone, low saturation warm-cool contrast, crisp highlight on lips and eye"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern beauty lighting, glossy fashion photography, text, watermark, logo, low quality, distorted face, extra features, bad anatomy, excessive blur, oversaturated colors"
+  },
+  {
+    "id": "sp_0089",
+    "shot_id": "shot_0006",
+    "prompt_text": "A young male servant of the Shen residence in plain dark historical Chinese servant robes, humble and tense, shown in medium close-up on the right side slightly toward center facing left; he visibly freezes for a beat, then lowers his eyes and quickly obeys, his reaction showing that the words struck a sensitive point. The left foreground retains the blurred shoulder of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, maintaining her dominant viewpoint. Behind him, a doorframe and screen compress the depth into a narrow corridor-like space, dark wood, gray-blue walls, old brown interior tones, faint amber touches, low saturation palette, visual feeling of being trapped inside etiquette and hierarchy. Cinematic historical drama realism, Song dynasty aesthetic, tense reaction shot, shallow depth of field, subtle film grain, detailed costume texture, silent consequence and pressure",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "soft cool daylight mixed with dim amber indoor bounce, low saturation warm-cool contrast, framed shadows and compressed depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern architecture, electric lighting, plastic accessories, text, watermark, logo, low quality, blurry eyes, deformed anatomy, extra fingers, cartoon rendering, oversaturated colors"
+  }
+]

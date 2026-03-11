@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "id": "scene_018",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:31:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 柳池通道 - DAY",
+    "location": "柳池旁通道",
+    "time_of_day": "day",
+    "description": "池边小径狭长，脚下可能有潮湿青苔，周遭人来人往却在某一瞬显得异常安静。光线仍亮，但气氛已从宴游的轻快转为绷紧。沈词的视线穿过人群直直落来，蒋晟与高令宁并肩而立。",
+    "action": "沈词像是察觉到什么，抬眼朝高令宁看去。两人目光在半空撞上，高令宁像被那道视线钉住，脚下一个踉跄，鞋尖打滑，身子朝旁偏去。蒋晟立刻伸臂扶住她的手肘和腰侧，将人稳稳托住。高令宁顺势将重心压在蒋晟手臂上，没有立刻抽身，反而偏头低声请他扶自己离开。远处沈词面无表情，眼睛微眯，目光一路追着两人离开的方向。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "我脚下不稳，劳烦你扶我一程。",
+        "subtext": "我既要掩饰自己的失态，也要故意做给沈词看。"
+      },
+      {
+        "character": "蒋晟",
+        "line": "小心。",
+        "subtext": "我下意识护住你，也愿意在众目睽睽下承担这份亲近。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "风筝"
+    ],
+    "dramatic_purpose": "把暗潮推向可见层面：高令宁借蒋晟刺激沈词，沈词的占有欲首次通过目光和反应被明确外化。",
+    "tension_score": 0.79,
+    "order": 18
+  }
+}

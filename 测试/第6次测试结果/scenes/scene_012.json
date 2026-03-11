@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_012",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:08"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_008",
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府房内 - 夜",
+    "location": "沈府房内",
+    "time_of_day": "night",
+    "description": "房间封闭，烛火摇曳，暖色光线映出紧绷的面部轮廓。案上可能散放着外出奔走带回的物件，衣摆沾尘，显示高令宁刚经历长时间奔波。沈词立于室内较暗一侧，与高令宁形成明显对峙站位。",
+    "action": "高令宁从外归来，衣摆凌乱，膝上尘痕未净，像是刚向人低头求助。她避开沈词的目光，收拾衣袖，不肯解释。沈词压着怒气逼近一步，声音发冷，质问她宁可对外人下跪，也不肯向他开口。高令宁站得笔直，下颌微抬，沉默抵抗，两人之间空气紧绷到几乎凝固。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "你究竟是我沈家妇，还是高家女？",
+        "subtext": "你始终把自己放在我之外，从未真正信任或依附我。"
+      },
+      {
+        "character": "沈词",
+        "line": "你这般防我，可曾把我当作你的夫婿？",
+        "subtext": "我愤怒的不只是你的隐瞒，更是你在情感上拒绝我。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "烛台",
+      "衣袖上的尘土",
+      "桌案"
+    ],
+    "dramatic_purpose": "明确夫妻矛盾的核心：自尊、猜防与身份立场冲突，推动关系从疏离走向正面裂痕。",
+    "tension_score": 0.7,
+    "dramatic_intensity": 0.4,
+    "order": 12
+  }
+}

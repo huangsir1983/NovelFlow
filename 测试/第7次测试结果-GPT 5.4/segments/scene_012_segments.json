@@ -1,0 +1,95 @@
+[
+  {
+    "id": "seg_0068",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0185",
+      "shot_0186"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以建立空间到启动行动的连续因果合并。角色集合由沈词单人扩展到与高令宁遗体形成关系，但仍处于同一礼制空间与同一情绪起点，适合作为开场段完成“死亡事实+亲自料理后事”的信息建立。",
+    "order": 68
+  },
+  {
+    "id": "seg_0069",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0187",
+      "shot_0188"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "两镜头同属一个完整动作单元：抱持重量与放至净身处。没有时空跳转，情绪持续加深但未转折，合并后可完整呈现私人照料感，避免切碎动作削弱沉重感。",
+    "order": 69
+  },
+  {
+    "id": "seg_0070",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0189",
+      "shot_0190",
+      "shot_0191"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头均围绕同一仪式步骤“净身”展开，由盆、水、布推进到手与脸，叙事和情绪高度连续，形成一个完整的细节段落。合并后能突出动作替代语言、礼数滑入私人悲痛的过程。",
+    "order": 70
+  },
+  {
+    "id": "seg_0071",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0192",
+      "shot_0193",
+      "shot_0194"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段从沈词的情绪控制切入，再落回穿寿衣动作与细节收束，是同一情感弧内的递进：强忍—执行—被触痛。角色与空间不变，适合压成一个补偿行为段落。",
+    "order": 71
+  },
+  {
+    "id": "seg_0072",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0195",
+      "shot_0196"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里是动作段落结束后的状态转场：从“她已被整理妥当”转到“他被留在棺前”。时空仍在灵堂内，但叙事目标从处理遗体切换为处理失控前的真空，故合并成一段静止蓄压。",
+    "order": 72
+  },
+  {
+    "id": "seg_0073",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0197",
+      "shot_0198",
+      "shot_0199"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头构成完整的崩溃弧线：动作起势、身体失控、情感落点。情绪发生明确爆发，且全程围绕沈词单人反应，适合合并为本场核心高潮段，强化“无声比嚎哭更重”。",
+    "order": 73
+  },
+  {
+    "id": "seg_0074",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0200"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "单独成段作为高潮后的回冷与收束。情绪从贴身崩溃切回客观苍凉，构成明显边界，且承担场景尾声与余韵功能，不宜再并入前段。",
+    "order": 74
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0113",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0320",
+      "shot_0321",
+      "shot_0322"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并建立同一时空内的回忆空间、人物对峙格局与发话前的控制细节。角色集合不变，情绪从冷意铺场推进到警惕与蓄势，适合作为闪回开端的完整起势段。",
+    "order": 113
+  },
+  {
+    "id": "seg_0114",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0323",
+      "shot_0324",
+      "shot_0325"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成第一句台词的落点与听者反应，并用双人空间镜头把羞辱关系固定下来。情绪弧线是‘发话—受击—关系定型’，叙事连续且压迫感逐步上升。",
+    "order": 114
+  },
+  {
+    "id": "seg_0115",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0326",
+      "shot_0327",
+      "shot_0328"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段围绕第二句台词形成完整的主受击链条：说者加码、听者身体反应、听者面部承受。遵循‘听者比说者重要’，把羞辱从语言外化到手部与眼神，情绪明显升级。",
+    "order": 115
+  },
+  {
+    "id": "seg_0116",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0329",
+      "shot_0330",
+      "shot_0331"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组镜头共同构成第三句台词后的情绪扩散：先加码羞辱，再由环境承接余波，最后落回听者临界崩点。角色不变但情绪从优越压制转向濒临刺穿，是明确的弧线推进。",
+    "order": 116
+  },
+  {
+    "id": "seg_0117",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0332",
+      "shot_0333",
+      "shot_0334"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜构成完整终段：终极羞辱、核心反应、回忆收束。情绪在此达到峰值后回冷，形成闪回结束所需的封口节拍，也为之后回到今世情境预留视觉缓冲。",
+    "order": 117
+  }
+]

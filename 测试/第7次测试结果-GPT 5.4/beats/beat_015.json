@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_015",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_045",
+      "scene_046",
+      "scene_047"
+    ]
+  },
+  "data": {
+    "title": "在满月宴逼出陆姝仪重生真相",
+    "description": "和离后养伤期间，沈词仍频送补品。昭昭满月宴上，陆姝仪不请自来，坦白自己同样重生、前世投湖与今生设局的动机，并承认蒋晟风波是她亲手谋出的一条生路。沈词在暗处听见真相，主线误会被正式拆解。",
+    "beat_type": "revelation",
+    "save_the_cat": "Finale",
+    "emotional_value": 0.1,
+    "dramatic_intensity": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "连续上升",
+    "order": 15
+  }
+}

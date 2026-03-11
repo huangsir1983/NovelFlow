@@ -1,0 +1,129 @@
+[
+  {
+    "id": "shot_0013",
+    "scene_id": "scene_001",
+    "shot_number": 1,
+    "goal": "建立场景空间，展示父亲焦虑状态",
+    "composition": "高父背对镜头在房间中央踱步，前景虚化的妆台暗示女主位置，背景窗棂透入柔和日光形成逆光轮廓",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "不安、压抑",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 13
+  },
+  {
+    "id": "shot_0014",
+    "scene_id": "scene_001",
+    "shot_number": 2,
+    "goal": "揭示女主冷漠态度，形成父女情绪对比",
+    "composition": "女主侧坐窗边，脸部占画面右侧1/3，左侧大面积留白对准窗外，眼神焦点在画面外（父亲方向）但疏离",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷漠、抽离感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 14
+  },
+  {
+    "id": "shot_0015",
+    "scene_id": "scene_001",
+    "shot_number": 3,
+    "goal": "通过正反打建立对话空间，展示父亲质问",
+    "composition": "高父中景正面，双手手势激动，背景是闺房木质屏风，人物居中偏右形成不稳定构图",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "困惑、焦虑",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.4,
+    "order": 15
+  },
+  {
+    "id": "shot_0016",
+    "scene_id": "scene_001",
+    "shot_number": 4,
+    "goal": "捕捉女主反应，冷笑细节推动情绪转折",
+    "composition": "女主特写，脸部占满画面，嘴角冷笑从画面下方1/3处浮现，眼神依然疏离",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "寒意、报复预感",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 16
+  },
+  {
+    "id": "shot_0017",
+    "scene_id": "scene_001",
+    "shot_number": 5,
+    "goal": "父亲继续施压，语气转为试探",
+    "composition": "高父中特写，眉间川字纹清晰，背景虚化，人物居中，眼神带期待和不安",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "期待被理解",
+    "duration_hint": "3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.45,
+    "order": 17
+  },
+  {
+    "id": "shot_0018",
+    "scene_id": "scene_001",
+    "shot_number": 6,
+    "goal": "女主简短回应，斩断父亲期待",
+    "composition": "女主中景，侧身坐姿，头部微转向父亲方向但身体未动，窗光在脸部形成明暗分界",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "决绝、冰冷",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 18
+  },
+  {
+    "id": "shot_0019",
+    "scene_id": "scene_001",
+    "shot_number": 7,
+    "goal": "捕捉父亲受挫反应，场景情绪收尾",
+    "composition": "高父背影中景，肩膀微垂，前景是女主虚化的侧影，背景窗棂光线形成牢笼般的竖线条",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "无力、隔阂",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.35,
+    "order": 19
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0025",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0056",
+      "shot_0057",
+      "shot_0058"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜都服务于同一叙事起点：建立冷硬厅堂、交代人物站位，并迅速落到高令宁的主观体感与藏信动作。角色集合未变，时空连续，情绪从压迫到窘迫再到防御，适合并为一个起势段。",
+    "order": 25
+  },
+  {
+    "id": "seg_0026",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0059",
+      "shot_0060",
+      "shot_0061"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜构成完整动作单元：沈词上前、截路、目光落到证据。情绪连续上扬，从逼近到封锁再到秘密暴露前夕，没有角色或时空变化，适合合并为一次控制欲显形的段落。",
+    "order": 26
+  },
+  {
+    "id": "seg_0027",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0062",
+      "shot_0063",
+      "shot_0064"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段以‘确认—发问—反应’完成第一轮冲撞，严格遵循听者比说者重要的原则，将沈词的台词落在高令宁的反应上。情绪从冷确认转为正面刺问，再落到她的沉默反击，构成完整节拍。",
+    "order": 27
+  },
+  {
+    "id": "seg_0028",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0065",
+      "shot_0066",
+      "shot_0067"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜共同推进第二轮情感升级：高令宁用动作加码封闭，沈词由受挫到濒临失控，再打出真正核心的婚姻质问。角色与空间不变，情绪弧线清晰递增，适合并为爆点前段。",
+    "order": 28
+  },
+  {
+    "id": "seg_0029",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0068",
+      "shot_0069"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜形成标准收束：先用高令宁的眼神完成无声回答，再回到双人同框确认冲突结果不是一时口角，而是关系结构性的断裂。情绪从顶点凝固到冷却后的僵死，适合作为场尾段。",
+    "order": 29
+  }
+]

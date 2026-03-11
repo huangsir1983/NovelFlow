@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_023",
+  "order": 22,
+  "heading": "INT. 江南书房 - NIGHT",
+  "location": "江南住处书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁"
+  ],
+  "core_event": "高令宁收到沈词来信，说母亲为他选了大家闺秀，问她若不愿意便回信阻止。她辗转难眠后回信祝他百年好合，只要求婚后别忘寄钱。",
+  "key_dialogue": "「祝你和新夫人百年好合……婚后莫忘寄钱。」",
+  "emotional_peak": "她用戏谑冷静确认自己不会回头，完成情感切割。",
+  "tension_score": 0.64,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "书信",
+    "信封火漆",
+    "笔墨纸砚",
+    "烛台",
+    "小几",
+    "夜窗",
+    "被翻乱的信纸"
+  ],
+  "dramatic_purpose": "制造男主最后的试探失败，并引出其亲赴江南。"
+}

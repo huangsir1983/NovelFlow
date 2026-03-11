@@ -1,0 +1,32 @@
+{
+  "variant_id": "lu_shuyi_variant_03",
+  "variant_type": "casual",
+  "variant_name": "陆姝仪 — 马球会柳池边受宠时刻",
+  "tags": [
+    "马球会",
+    "青梅义妹",
+    "柔婉少女",
+    "受宠",
+    "白月光外形"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "侯府马球会上，她在柳池边与沈词相处，被高令宁撞见，成为四角情绪场的核心触发点之一。",
+  "appearance_delta": {
+    "face": "比主设定更显轻柔明媚，眉眼含水但并不狼狈，带被人温柔照看时的安稳感。",
+    "body": "姿态更放松，纤细柔弱中透出依附感，像习惯被护着的小白花。",
+    "hair": "少女发式更轻盈灵动，珠花与淡色丝带在户外风中更显柔美。",
+    "distinguishing_features": "与主设定相比，此时的天然无害感最强，像被春日光线包裹的脆弱花枝。"
+  },
+  "costume_override": {
+    "outfit": "适合春日宴游的浅色襦裙，衣料轻盈，细绣精巧，既符合侯府宴会场合又不显喧宾夺主。",
+    "color_palette": [
+      "粉色",
+      "藕荷",
+      "乳白"
+    ]
+  },
+  "visual_reference": "young ancient chinese woman by a willow tree and pond, delicate soft features, watery bright eyes, fair skin, frail elegant body, pastel pink and lotus hanfu with subtle embroidery, soft black hair with pearl ornaments and pale ribbons moving in the breeze, gentle cherished expression, spring polo gathering in aristocratic garden, cinematic romantic tension, vulnerable beauty, ultra detailed",
+  "emotional_tone": "被呵护的柔弱与隐性优越"
+}

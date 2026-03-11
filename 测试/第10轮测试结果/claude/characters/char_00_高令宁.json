@@ -1,0 +1,69 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高姑娘",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-40岁(跨越重生前后)",
+  "appearance": {
+    "face": "清秀端庄，眉眼间带着倔强",
+    "body": "纤细但不柔弱",
+    "hair": "乌黑长发，通常梳成已婚妇人发髻",
+    "distinguishing_features": "眼神坚定，不服输的神态"
+  },
+  "costume": {
+    "typical_outfit": "古代女子襦裙，婚后着诰命夫人服饰",
+    "color_palette": [
+      "青色",
+      "月白色",
+      "淡粉色"
+    ]
+  },
+  "casting_tags": [
+    "坚韧",
+    "高傲",
+    "要强",
+    "管家能手"
+  ],
+  "visual_reference": "elegant Chinese woman in hanfu, determined eyes, proud posture, traditional hairstyle, delicate features with strong character, ancient China setting",
+  "personality": "争强好胜，自尊心极强，不愿示弱，管理能力出众，重生后变得更加理智冷静",
+  "desire": "获得真心对待，保护家人，再见儿子沈睿",
+  "flaw": "过于要强导致不懂示弱，自尊心太强难以沟通",
+  "arc": "从爱慕沈词到失望怨恨，重生后从报复心态转为放下释然",
+  "scene_presence": "全剧主角，贯穿始终",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻",
+      "dynamic": "相爱相杀，互相折磨又互相牵挂",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "明争暗斗，最终理解",
+      "function": "情感冲突制造者"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "父亲疼爱保护女儿",
+      "function": "情感支撑"
+    },
+    {
+      "target": "沈睿",
+      "type": "母子",
+      "dynamic": "深爱儿子，为他重生",
+      "function": "行动动机"
+    },
+    {
+      "target": "昭昭",
+      "type": "母女",
+      "dynamic": "疼爱女儿",
+      "function": "新生希望"
+    }
+  ]
+}

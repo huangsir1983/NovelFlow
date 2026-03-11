@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_007",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "梳理前世夫妻相杀又相守的漫长折磨",
+    "description": "我回顾前世婚后全程：掌家劳瘁、娘家遭祸、陆姝仪之死、夫妻分房、示好被焚、数十年互相折磨，直到病榻前沈词衣不解带守我、灵前无声痛哭，显露恨与爱纠缠不清的复杂关系。",
+    "beat_type": "revelation",
+    "save_the_cat": "Fun and Games",
+    "emotional_value": -0.5,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续下降",
+    "order": 7
+  }
+}

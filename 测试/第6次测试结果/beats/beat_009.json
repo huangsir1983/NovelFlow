@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "id": "beat_009",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_010",
+      "scene_011",
+      "scene_012",
+      "scene_013",
+      "scene_014",
+      "scene_030",
+      "scene_031",
+      "scene_032",
+      "scene_033"
+    ]
+  },
+  "data": {
+    "title": "累积数十年夫妻旧怨",
+    "description": "高家遭祸、求援受辱、示好被焚、长期分房冷待，女主与沈词的误解、归咎与敌意不断加深，婚姻进入长期围困状态。",
+    "beat_type": "montage",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": -0.9,
+    "dramatic_intensity": -0.9,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续下降",
+    "order": 9
+  }
+}

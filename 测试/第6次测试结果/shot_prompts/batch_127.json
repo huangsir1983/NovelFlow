@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0756",
+    "shot_id": "shot_0746",
+    "prompt_text": "An old wooden courtyard gate dominates the left half of the frame, rough aged wood grain and clinging snow in sharp detail, a slender pale male hand pushing the gate wider from outside, only the edge of a dark sleeve and a partial silhouette visible, the face still hidden to preserve suspense. The door crack opens wider as cold white snow light pours violently into the courtyard, creating a sudden intrusion. On the right side, the inner courtyard snowfield remains softly blurred, empty and quiet. Ancient Chinese noble residence in winter, low-saturation palette of gray-blue, old wood brown, muted black, natural cold daylight colliding with faint warm interior tones, tight close-up composition, female subjective viewpoint, cinematic realism, highly detailed texture, shallow depth of field, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold white winter daylight flooding through the gate, side backlight contrast, low-saturation warm-cool collision"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, electricity, plastic, cars, glass windows, neon, contemporary architecture, text, watermark, logo, low quality, blurry face, deformed hand, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0757",
+    "shot_id": "shot_0747",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands one step inside the gate on the left side of the frame. He wears a faint restrained smile and has not yet fully taken in the courtyard, his posture upright and composed. Behind him are unmelted snow and cold white daylight outside the gate, forming a side backlit outline around his figure; the courtyard snow spreads toward the right side. In the blurred right foreground, keep a small out-of-focus corner of a woman’s shoulder or sleeve to mark Gao Lingning’s subjective position. Ancient Chinese winter courtyard, low-saturation gray-blue, old wood brown, dark indigo, soft snow textures, medium shot, cinematic realism, shallow depth of field, subtle film grain, highly detailed.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold white winter daylight from behind the gate, soft side backlight silhouette, restrained natural fill, low-saturation warm-cool collision"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, electricity, plastic, cars, neon, contemporary props, text, watermark, logo, low quality, bad anatomy, blurry, distorted face, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0758",
+    "shot_id": "shot_0748",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, is framed from chest and shoulders at the left-center of the image. A snowball flies in from the right foreground and strikes his shoulder in the instant of impact, exploding into bright snow powder under cold light, interrupting his calm return. His posture catches the surprise in a brief frozen beat. The background shows a blurred snowy courtyard with indistinct figures, preserving spatial direction: the gate behind him to the left rear, playful people somewhere ahead on the right. Ancient Chinese noble courtyard in winter, static medium close-up, low-saturation palette, crisp snow particles, cinematic realism, shallow depth of field, subtle film grain, highly detailed action still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold winter daylight with sharp snow highlights, soft side backlight, natural contrast, low-saturation cool-toned scene"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, plastic, vehicles, neon, text, watermark, logo, low quality, motion smear, bad anatomy, deformed face, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0759",
+    "shot_id": "shot_0749",
+    "prompt_text": "Zhaozhao, a delicate ancient Chinese noble girl, big luminous dark eyes, pale soft skin, tiny fragile body, soft black hair styled in neat little buns, naturally innocent downturned eye corners, light and agile childlike build, stands slightly right of center in a close-up. Her cheeks are flushed from the cold, fine snow clings to her hair and fur trim, and she suddenly turns toward the courtyard gate on the left side of the frame. Her eyes brighten at once and her lips part as if she is about to call out, with instinctive warmth and recognition. In the shallow-focus background, a half-built snowman and the lower hem of a man’s robe are only faintly visible. Ancient Chinese winter courtyard, low-saturation gray-blue and old wood brown with soft muted fabrics, natural cold daylight, delicate facial detail, cinematic realism, female-centered emotional close-up, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "soft cold winter daylight, gentle natural fill on the face, low-saturation cool scene with minimal warm accents"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern hairstyle, plastic toys, synthetic fabrics, text, watermark, logo, low quality, bad anatomy, deformed child face, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0760",
+    "shot_id": "shot_0750",
+    "prompt_text": "Zhaozhao, a delicate ancient Chinese noble girl, big luminous dark eyes, pale soft skin, tiny fragile body, soft black hair styled in neat little buns, naturally innocent downturned eye corners, light and agile childlike build, stands in the right foreground facing left as she calls out. Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands in the left midground just inside the gate. The two are shown in the same frame for the first time, linked across an intentional empty stretch of snow between them that emphasizes emotional distance. In the blurred right rear background, a young man has stopped moving. Ancient Chinese courtyard in winter, medium shot, low-saturation palette of gray-blue snow, old wood brown, dark indigo, cold daylight from the gate, restrained cinematic tension, shallow depth of field, highly detailed historical realism, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold white winter daylight from the gate, soft side backlight, spacious natural fill over snow, low-saturation warm-cool collision"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, plastic, electronics, vehicles, neon, text, watermark, logo, low quality, bad anatomy, deformed face, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0761",
+    "shot_id": "shot_0751",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, fills the left-center of the close-up frame. For one instant there is a softened smile touched by a child’s call, but his gaze quickly shifts past the camera right toward the men in the courtyard, and the warmth drains from his expression into controlled coldness. Snowlight catches in his eyes, sharpening the emotional reversal. The background stays in shallow focus, preserving a few standing male silhouettes and the blurred color block of Zhaozhao’s direction. Ancient Chinese noble courtyard in winter, low-saturation gray-blue and dark indigo palette, intimate emotional close-up, cinematic realism, shallow depth of field, subtle film grain, highly detailed facial micro-expression.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold reflected snow light on the face, soft side backlight, restrained contrast, low-saturation cool daylight with faint warm undertone"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, plastic, electronics, vehicles, neon, text, watermark, logo, low quality, blurry eyes, bad anatomy, deformed face, extra features, oversaturated colors"
+  }
+]

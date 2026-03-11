@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "EXT. 高家门外街巷 - 日",
+  "location": "高家门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词"
+  ],
+  "core_event": "父亲因担心我受委屈想另择良配并准备辞官保家，我出门买药时被沈词拦下，他以长子沈睿为筹码逼婚，双方约定生子后和离。",
+  "key_dialogue": "成亲后，睿儿一出生，我们便和离。",
+  "emotional_peak": "为了再见儿子，我接受这桩明知痛苦的婚事。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁勒痕",
+    "和离约定"
+  ],
+  "dramatic_purpose": "确立二人今生结婚的真实交易：为子成婚，为子分开。",
+  "visual_reference": "宅门外春日街巷，男子拦路，女子神色倔强，空气像凝住一般。",
+  "visual_prompt_negative": "不要现代街景，不要拥抱和解，不要甜蜜恋爱感，不要夸张人群围观。",
+  "source_text_start": "父亲不放心让我嫁入沈家。一夜未睡后",
+  "source_text_end": "四目相对，只剩恨意。我冷哼一声，转身离开。"
+}

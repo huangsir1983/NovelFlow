@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_005",
+  "name": "马球会休息室",
+  "type": "interior",
+  "era_style": "明代贵族府邸客房",
+  "description": "宽敞的休息室，设软榻数张，铺绸缎靠垫。墙边摆药箱和茶几，茶几上放药碗。室内悬灯笼，夜晚灯火通明。窗帘半掩，透出夜色。地面铺地毯，角落设屏风隔出私密空间。家具为浅色木料，整体温暖舒适。",
+  "visual_reference": "Ming Dynasty guest rest room at night, soft couches with silk cushions, medicine chest and tea table with medicine bowl, hanging lanterns providing warm lighting, half-drawn curtains showing night outside, carpeted floor, privacy screen in corner, light wood furniture, comfortable warm interior, intimate healing space",
+  "atmosphere": "私密、温暖、疗愈",
+  "color_palette": [
+    "暖黄灯光",
+    "浅木色",
+    "绸缎深红",
+    "夜色深蓝"
+  ],
+  "lighting": "灯笼散发的暖黄光线，营造温暖氛围，窗外夜色深沉",
+  "key_features": [
+    "软榻与靠垫",
+    "药箱药碗",
+    "悬挂灯笼",
+    "隔断屏风",
+    "半掩窗帘"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "陆姝仪示弱跪求→沈词护短→高令宁冷眼旁观"
+}

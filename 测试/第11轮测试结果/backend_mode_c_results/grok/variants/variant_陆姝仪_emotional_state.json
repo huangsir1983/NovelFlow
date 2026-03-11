@@ -1,0 +1,30 @@
+{
+  "variant_id": "lushuyi_variant_01",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 马球场柳池旁",
+  "tags": [
+    "户外",
+    "风筝",
+    "被宠溺"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "马球会上与沈词宠溺展示粉色风筝时，位于柳池旁",
+  "appearance_delta": {
+    "face": "温婉清丽，眉目柔和",
+    "body": "柔  弱纤细，楚楚可怜",
+    "hair": "柔顺黑发，简单发饰略有风动",
+    "distinguishing_features": "泪眼盈盈如清泉般的眸子，手持粉色风筝"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙",
+    "color_palette": [
+      "粉白",
+      "浅蓝"
+    ]
+  },
+  "visual_reference": "delicate beautiful Chinese maiden in soft pink Hanfu holding a pink kite, standing gracefully by willow pond at polo field daytime, gentle willow eyes with pitiful teary expression, soft delicate features, frail slender body, long flowing black hair slightly tousled by breeze, vulnerable yet cherished posture, highly detailed 8k",
+  "visual_prompt_negative": "strong build, aggressive pose, modern fashion, sharp eyes, disheveled hair, dark atmosphere",
+  "emotional_tone": "柔弱依恋被宠溺"
+}

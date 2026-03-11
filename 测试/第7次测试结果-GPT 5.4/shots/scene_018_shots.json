@@ -1,0 +1,391 @@
+[
+  {
+    "id": "shot_0268",
+    "scene_id": "scene_018",
+    "shot_number": 1,
+    "goal": "建立场景空间与礼法隔绝感，说明这里远离喧闹、适合私下对峙，也为后续二人关系压缩出一处无退路的角落。",
+    "composition": "WS，场地边缘僻静角落。画面左后方远处虚化可见马球场与零散人影，右前景是碎石与细沙地，背风矮墙与几株低矮灌木形成遮挡。高令宁独自坐在画面右下三分之一处，身形偏小，被大量空白包围，衣摆铺落在沙地上。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "孤立、失衡前的短暂静止",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 268
+  },
+  {
+    "id": "shot_0269",
+    "scene_id": "scene_018",
+    "shot_number": 2,
+    "goal": "确认高令宁脚伤并非伪装，建立她此刻真实的身体脆弱。",
+    "composition": "MS偏低机位。高令宁坐于画面中央略偏右，低头揉按脚踝。前景是被风吹起的裙角，背景仅留模糊沙地与墙根，压掉多余信息。她肩背仍端着，但眉心拧起，呼吸起伏明显。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "疼痛被压住的倔强",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 269
+  },
+  {
+    "id": "shot_0270",
+    "scene_id": "scene_018",
+    "shot_number": 3,
+    "goal": "用细节把疼痛落到肉身层面，给后续‘抱她回去’提供视觉证据。",
+    "composition": "CU，脚踝与手。高令宁的指节压在肿起的脚踝外侧，绣鞋边缘沾着细沙，裙摆压出褶痕。画面左下有碎石，形成粗粝触感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、狼狈却不愿示弱",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 270
+  },
+  {
+    "id": "shot_0271",
+    "scene_id": "scene_018",
+    "shot_number": 4,
+    "goal": "切入女主主观，先让她发现蒋晟不见，再让沈词以静止压迫进入她的认知。",
+    "composition": "MCU主观POV起幅从空出的左侧位置扫到前方。原本应有人站的位置空着，随即在几步之外、画面中央偏左，沈词立于背风阴影边缘，人物完整、静看她。前景保留一点高令宁模糊的膝头与衣摆，强化主观性。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "骤然警觉、被盯视的不适",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 271
+  },
+  {
+    "id": "shot_0272",
+    "scene_id": "scene_018",
+    "shot_number": 5,
+    "goal": "表现高令宁在看到沈词后的本能防御反应，身体先于言语启动撤离。",
+    "composition": "MCU正侧面。高令宁位于画面右侧，猛地抬头后撑地起身；背景左侧浅焦中保留沈词的模糊站姿。她起身瞬间重心不稳，肩线微晃，手撑地留下细沙痕迹。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "慌而不乱、强撑体面",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 272
+  },
+  {
+    "id": "shot_0273",
+    "scene_id": "scene_018",
+    "shot_number": 6,
+    "goal": "交代她试图绕开他离开，同时在走路姿态里显出脚伤与拒绝接触的决心。",
+    "composition": "MLS侧向构图，保持180度轴线。高令宁从画面右向左一瘸一拐前行，占前景；沈词立于画面左侧中景位置，像一道不主动让开的竖线。地面碎石形成她步伐不稳的视觉引导线，风吹衣摆。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "回避、紧绷、礼法外壳下的逃离欲",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 273
+  },
+  {
+    "id": "shot_0274",
+    "scene_id": "scene_018",
+    "shot_number": 7,
+    "goal": "把冲突升级为肢体边界被打断的明确事件：沈词出手拽住她。",
+    "composition": "CU，手腕与衣袖。高令宁的手从右向左掠过画面，沈词的手自左侧切入，准确扣住她手腕。两人衣料纹样与色差并置，袖口被风掀起一瞬，后景只剩虚化沙地。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "侵入、失守、旧亲密被强行唤醒",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 274
+  },
+  {
+    "id": "shot_0275",
+    "scene_id": "scene_018",
+    "shot_number": 8,
+    "goal": "展示高令宁被迫停住后的姿态：不正面迎他，而是侧身抽手，以身体角度表达疏离。",
+    "composition": "MS双人侧拍。高令宁在画面右侧，半背对镜头，肩线向外，手腕仍被拉住；沈词位于左侧，站姿稳定。两人之间留出窄窄的空气缝，像被礼法切开的距离。背景是灰白矮墙，去除热闹环境。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冷硬对抗、关系断而未断",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 275
+  },
+  {
+    "id": "shot_0276",
+    "scene_id": "scene_018",
+    "shot_number": 9,
+    "goal": "给沈词一个有限客观镜头，捕捉他先看她脚而非先看她脸，传达克制中的补偿与控制欲。",
+    "composition": "MCU，沈词位于画面左中，视线下落到画外右下。前景虚化是高令宁垂落的袖角。背景被长焦压扁，只剩冷色墙面与一点日光边缘。他神色平静，但下颌绷紧。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "克制下的强迫性关切",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 276
+  },
+  {
+    "id": "shot_0277",
+    "scene_id": "scene_018",
+    "shot_number": 10,
+    "goal": "将他的判断落到伤处，为台词‘你脚肿了，我抱你回去’提供目光逻辑。",
+    "composition": "CU，低机位脚部。高令宁受伤的脚踝在画面右侧，微微承重不稳；左侧前景有沈词衣摆下摆切入，形成逼近感。沙地被鞋尖蹭出浅痕。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "被看穿脆弱的不适",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.66,
+    "order": 277
+  },
+  {
+    "id": "shot_0278",
+    "scene_id": "scene_018",
+    "shot_number": 11,
+    "goal": "落下第一句台词，以照料名义提出越界方案，明确他的占有姿态。",
+    "composition": "MCU正面近景，沈词占画面左侧三分之二，目光越过镜头看向高令宁。右侧留出一条空隙，像他预设的靠近路径。光线照在脸的一半，另一半落在冷阴影里。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "压迫式温柔、不容拒绝",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 278
+  },
+  {
+    "id": "shot_0279",
+    "scene_id": "scene_018",
+    "shot_number": 12,
+    "goal": "让高令宁用最短的字拒绝，把对抗从身体拉回意志。",
+    "composition": "CU，高令宁正面略侧，位于画面右侧，眼神斜向左上看他，唇线绷直，眼尾因痛与怒微红。背景极浅焦，只有冷白天光与一点被风带动的发丝。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冰冷斩断、寸步不让",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 279
+  },
+  {
+    "id": "shot_0280",
+    "scene_id": "scene_018",
+    "shot_number": 13,
+    "goal": "通过反应镜头表现沈词并未退让，反而把她的拒绝解读为逞强，继续施压。",
+    "composition": "MCU，沈词位于画面左侧，肩背笔直，视线稳定压向右侧画外。前景右边缘保留高令宁模糊的鬓发与肩线，维持对话空间关系。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被无视边界的窒息感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 280
+  },
+  {
+    "id": "shot_0281",
+    "scene_id": "scene_018",
+    "shot_number": 14,
+    "goal": "用一步后退把她的拒绝具体化为空间防线，准备礼法台词。",
+    "composition": "MS双人。高令宁从画面右侧向后退半步，身后已接近矮墙边缘；沈词仍在左侧，未追满一步，只留出足够压迫感。两人衣摆被风掀起，地面碎石清晰可见，退无可退之意增强。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "防线拉起、僵持加深",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 281
+  },
+  {
+    "id": "shot_0282",
+    "scene_id": "scene_018",
+    "shot_number": 15,
+    "goal": "让高令宁祭出‘礼法’作为盾，同时以称呼变化‘沈公子’明确划界并暗藏讽刺。",
+    "composition": "MCU，高令宁居中略偏右，侧身不完全朝向镜头，保留颈侧线条与淡痕一闪而过。前景左侧虚化是沈词深色肩线，形成被逼问中的答复姿态。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "克制反刺、以规矩行反击",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.83,
+    "order": 282
+  },
+  {
+    "id": "shot_0283",
+    "scene_id": "scene_018",
+    "shot_number": 16,
+    "goal": "捕捉沈词听见‘未成婚、不宜有肌肤之亲’后的情绪裂缝：被礼法推开，也被旧事刺中。",
+    "composition": "CU，沈词脸部近景，位于画面左中。起初无波，随后嘴角极轻一牵，眼神冷下去。背景是被长焦压缩的亮色沙地，空而刺眼。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "危险的静、失控前兆",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 283
+  },
+  {
+    "id": "shot_0284",
+    "scene_id": "scene_018",
+    "shot_number": 17,
+    "goal": "用更近的空间侵入取代大动作，表现他向前逼近半寸的威压。",
+    "composition": "MCU双人对峙，短焦近距离。高令宁在右，沈词在左，二人脸与肩几乎压满画面，中间只剩一线空气。风吹起她额角碎发，也掀动他衣领边缘。镜头微晃，压迫感增强。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "私人边界被挤碎的恐惧与怒意",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 284
+  },
+  {
+    "id": "shot_0285",
+    "scene_id": "scene_018",
+    "shot_number": 18,
+    "goal": "落下第一句羞辱性台词‘装什么装？’，完成从礼法博弈到旧亲密揭伤的转向。",
+    "composition": "CU，沈词半侧脸占画面左侧大部，目光钉在画外右侧。高令宁只有一缕模糊发丝切入右边缘，像被他的言语逼入镜框边角。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "羞辱、旧账翻开前的冷刺",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 285
+  },
+  {
+    "id": "shot_0286",
+    "scene_id": "scene_018",
+    "shot_number": 19,
+    "goal": "在最关键一句前先看高令宁的反应，让观众先站进她的体感，再承受后一句台词。",
+    "composition": "ECU，高令宁的眼与唇。眼尾骤红，瞳仁微缩，唇线压得发白。背景完全化开，只剩一层冷白高光。她没有说话，呼吸停住半拍。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "被旧日亲密反噬的羞怒",
+    "duration_hint": "1.5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.96,
+    "order": 286
+  },
+  {
+    "id": "shot_0287",
+    "scene_id": "scene_018",
+    "shot_number": 20,
+    "goal": "用最终台词撕开防线，将二人关系核心——未被切断的肉身记忆与占有欲——彻底摊开。",
+    "composition": "CU双人偏置构图。沈词在左前景清晰，几乎贴近镜头；高令宁在右后景清晰可辨，身形僵住，没有再退的空间。矮墙与狭窄留白把两人锁在同一平面内。台词落下时风更大，衣摆翻动。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "窒息、羞辱、关系真相被强行曝光",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.99,
+    "order": 287
+  },
+  {
+    "id": "shot_0288",
+    "scene_id": "scene_018",
+    "shot_number": 21,
+    "goal": "在爆点后给一个短暂回冷的收束，保留僵持未解的余震，为下场戏转场。",
+    "composition": "MLS静态双人。高令宁仍在右侧靠墙，肩背僵直；沈词立于左侧近前，一步之内却未再碰她。中间空气薄得像一条裂缝。前景碎石与沙地清晰，远处模糊传来马球场的动静，世界恢复但二人未动。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "余震、未决、冰面下仍在沸腾",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 288
+  }
+]

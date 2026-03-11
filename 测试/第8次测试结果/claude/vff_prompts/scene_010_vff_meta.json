@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_010",
+  "heading": "INT. 高府正厅 - 日",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 2866,
+  "shot_count": 11,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 82,
+    "output_tokens": 3116,
+    "elapsed_s": 45.44
+  }
+}

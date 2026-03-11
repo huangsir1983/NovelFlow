@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_03",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 胃病虚弱",
+  "tags": [
+    "病弱",
+    "虚弱",
+    "痛苦"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "马球会休息处白天，脚伤后胃病发作接受哄药时",
+  "appearance_delta": {
+    "face": "脸色苍白，泪眼楚楚痛苦",
+    "body": "更显纤弱，微微蜷缩",
+    "hair": "柔顺垂肩",
+    "distinguishing_features": "手捂胃部或接药的虚弱姿态"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙",
+    "color_palette": [
+      "粉红",
+      "浅白"
+    ]
+  },
+  "visual_reference": "陆姝仪温婉清丽脸庞苍白虚弱泪眼楚楚，纤弱柔美身躯因胃痛微微蜷缩坐在休息处，穿着粉色襦裙，古典马球会休息处白天背景，光影柔和凄美，旁有药碗",
+  "visual_prompt_negative": "红润健康脸色、活力满满表情、粗壮体型、明亮欢快氛围",
+  "emotional_tone": "痛苦隐忍"
+}

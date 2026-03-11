@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0390",
+    "shot_id": "shot_0374",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown only by her tense hand pushing an old wooden door ring, fingers rigid and veins taut, the door opening a narrow crack from darkness. Extreme close-up composition, the hand and aged metal ring placed slightly below center, weathered wood grain, oxidized metal texture, and strained knuckles rendered in sharp detail. A tiny patch of cold cyan dusk enters from the upper left, the lower right falls into dense shadow, low-saturation warm-cool contrast with old wood brown, gray-blue, and faint amber spill, oppressive interior threshold, static cinematic realism, highly detailed historical drama frame, shallow depth of field, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, faint cold dusk from upper left, deep shadow in lower right, minimal amber interior spill, side-back threshold lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary furniture, modern door hardware, text, watermark, logo, low quality, blurry, oversaturated, anime, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0391",
+    "shot_id": "shot_0375",
+    "prompt_text": "A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, and a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, both lying unconscious and disheveled. Full shot from outside the doorway looking diagonally into the side chamber, the doorframe enclosing the whole room like a judgment frame, the bed in midground, scattered garments across the floor, Lu Shuyi collapsed to the left of the couch, Jiang Sheng fallen near the right side of the bed, robes loosened and disorderly, bodies limp and unresponsive. A tilted folding screen in the background, candlelight stretching long shadows across old wooden flooring, muted gray-blue, dark brown, and amber tones with restrained red accents, static composition, cinematic Song-dynasty historical realism, high detail, tense and devastating visual reveal",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "amber candlelight inside the room with deep shadow density, low-saturation warm-cool contrast, doorway framing, elongated shadows, dim oppressive interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, modern bed, zipper, buttons, plastic, contemporary fabrics, explicit nudity, text, watermark, logo, low quality, blurry, oversaturated, anime, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0392",
+    "shot_id": "shot_0376",
+    "prompt_text": "Foreground evidence of scattered ancient silk garments and loosened belts sprawled across the floor, heavy folds, twisted sashes, wrinkled fabric textures dominating most of the frame, with a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, and a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, visible only as blurred background forms: her limp hand hanging down, his body collapsed on its side. Close-up from a low angle, the garments thrust toward the camera like incriminating evidence, shallow focus emphasizing cloth fibers, belt knots, dust, and chaotic layering. Old wooden floor, dim side chamber, amber candlelight mixed with cool gray darkness, low-saturation warm-cool palette, static tension with subtle implied tilt movement, harshly tangible historical realism, cinematic detail, shallow depth of field, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism, shallow depth of field",
+      "lighting": "dim amber candlelight over old wood and fabric, cool shadowed background, low-saturation warm-cool contrast, dense interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing, synthetic fabric, zippers, plastic, electric light, text, watermark, logo, low quality, blurry foreground, oversaturated, anime, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0393",
+    "shot_id": "shot_0377",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stunned for a single breath, pupils slightly contracted, lips parted almost imperceptibly, breath halted in controlled shock. Close-up composition with her placed slightly left of center, a blurred doorframe cutting across the right foreground and obscuring half her face, her gaze fixed inward, the background pressed into near-total darkness, only a faint amber reflection from the chamber caught in her eyes. Low-saturation warm-cool contrast, cold shadow around her face with a tiny warm flicker in the eyes, oppressive negative space, static cinematic realism, highly detailed facial texture, emotional restraint under impact, film grain, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism, close-up portrait",
+      "lighting": "mostly dark frame with faint amber interior reflection in the eyes, cool surrounding shadows, side-back doorway occlusion, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern makeup, plastic accessories, text, watermark, logo, low quality, blurry, oversaturated, anime, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0394",
+    "shot_id": "shot_0378",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, standing in sudden shock and anger, body slightly wavering, one hand pressing instinctively to his chest, jaw tightened, nasolabial folds deepened, complexion dropping heavily. Medium close-up composition with him on the left side of the frame, blurred patches of garments on the floor visible on the right, implying the scandal inside the chamber. Side backlight carves his features and emphasizes the strain in his face, old wooden interior, muted gray-blue shadows, dark teal robe, amber spill from candlelight kept restrained, low-saturation warm-cool contrast, static historical drama realism, cinematic portrait detail, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism, portrait framing",
+      "lighting": "side-back lighting with restrained amber candle spill, cool shadow fill, low-saturation warm-cool contrast, strong facial contour emphasis"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric light, modern textiles, plastic, contemporary props, text, watermark, logo, low quality, blurry, oversaturated, anime, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0395",
+    "shot_id": "shot_0379",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, holding perfectly still as he looks into the room, gaze heavy and hard, lips compressed into a blade-straight line, face nearly motionless, menace contained beneath restraint. Close-up composition with him occupying the right side of the frame, deep black negative space left on the other side, eyes directed inward toward the unseen chamber. Cold rim light from the side-back outlines his profile, shadows deepen beneath the eyes, low-saturation warm-cool contrast with cool gray-blue dominance and minimal amber contamination from the room, oppressive silence, static cinematic realism, highly detailed historical portrait, subtle film grain, sharp facial definition",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism, close-up portrait",
+      "lighting": "cold side-back rim light, deep under-eye shadow, strong negative space, minimal amber interior bounce, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern hairstyle, plastic accessories, text, watermark, logo, low quality, blurry, oversaturated, anime, cartoon, 3d render"
+  }
+]

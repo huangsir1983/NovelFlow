@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府大厅 - 日",
+  "location": "高府大厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆跪哭指责，高令宁打沈词耳光",
+  "key_dialogue": "你现在还怀着孕，我不想与你说这些。",
+  "emotional_peak": "沈词冷硬失望",
+  "tension_score": 0.95,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "桌案"
+  ],
+  "dramatic_purpose": "误会升级主角被冤枉",
+  "source_text_start": "陆姝仪哭着要自尽。她跪在我面前，哽咽：「夫人，您便这般恨我吗？」",
+  "source_text_end": "「从头到尾，你都是这般恶毒跋扈的妇人。」"
+}

@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_006",
+  "name": "马球会沙场",
+  "type": "exterior",
+  "era_style": "明代郊外马球场",
+  "description": "郊外开阔马球沙场，平整黄沙地面，四周低矮围栏与看台旗帜，远处山林背景，场边设临时凉棚与马桩，空间感广阔动态，适合马球比赛与风筝场景。",
+  "visual_reference": "明代郊外马球会沙场，外景开阔黄沙场地，四周低矮木围栏与彩旗飘扬，看台简易木结构，场边马桩与葡萄架，远处青山绿树，日光充足明亮，动态活力却带酸楚氛围，高清写实细节，古代中国风格",
+  "visual_prompt_negative": "现代建筑、汽车、霓虹灯、西方体育场、塑料材质",
+  "atmosphere": "活力酸楚嫉恨",
+  "color_palette": [
+    "黄沙",
+    "翠绿",
+    "朱红",
+    "金黄"
+  ],
+  "lighting": "强烈日光直射沙场，营造明亮开阔的白天氛围",
+  "key_features": [
+    "开阔黄沙场地",
+    "彩旗围栏",
+    "场边马桩"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "目睹沈词宠溺陆姝仪做风筝的酸楚嫉恨"
+}

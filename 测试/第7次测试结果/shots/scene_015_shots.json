@@ -1,0 +1,220 @@
+[
+  {
+    "id": "shot_0228",
+    "scene_id": "scene_015",
+    "shot_number": 1,
+    "goal": "建立会面空间的冷淡秩序与两人明确的距离关系，交代这是一次克制而带防备的谈话收束。",
+    "composition": "门框式构图。高令宁置于画面左侧中景偏前，坐于案几后；沈睿置于画面右侧偏后，站立或半侧身对她。前景有虚化的门框或屏风边缘形成阻隔，背景为冷白窗棂切出的条状光影，案几横向分隔两人，中间留出明显空白。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到体面之下的疏离、关系已无温度。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 228
+  },
+  {
+    "id": "shot_0229",
+    "scene_id": "scene_015",
+    "shot_number": 2,
+    "goal": "切入高令宁的疲倦状态，强调她是在长期拉扯后做出决定，而非情绪冲动。",
+    "composition": "高令宁位于画面左三分之一，肩背仍端直但略显沉。前景右侧保留一小块模糊的沈睿肩线，维持女主限制性主观。侧逆光勾出她苍白面部轮廓，背景为虚化窗棂阴影。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的疲惫与压抑后的冷静。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 229
+  },
+  {
+    "id": "shot_0230",
+    "scene_id": "scene_015",
+    "shot_number": 3,
+    "goal": "用一个具体动作表现她‘放下争执’的瞬间，作为台词前的情绪预备。",
+    "composition": "高令宁下半张脸与肩颈的近特写，画面重心在她唇边与微起伏的胸口。左侧留白承接她呼出的气，背景仅剩柔冷的灰青虚面，不见完整环境。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一种近乎认命却仍清醒的松脱感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.18,
+    "order": 230
+  },
+  {
+    "id": "shot_0231",
+    "scene_id": "scene_015",
+    "shot_number": 4,
+    "goal": "让高令宁说出核心决定，推进婚事主线，并明确这是她主动给出的结论。",
+    "composition": "高令宁正面微侧近景，视线稳定落向画外右侧的沈睿。她位于左侧，右侧留出对话空间。窗棂斜光切过她半边面庞，另一半沉在柔暗里，形成理智与隐忍并存的视觉层次。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到意外中的寒意——这不是柔顺，而是决断。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 231
+  },
+  {
+    "id": "shot_0232",
+    "scene_id": "scene_015",
+    "shot_number": 5,
+    "goal": "承接台词冲击，展示沈睿‘一怔、顿住’的即时反应，证明他并未掌控局面。",
+    "composition": "沈睿位于画面右侧，保持与前镜头一致的视线方向看向左侧画外。前景左下角保留高令宁虚化肩缘，形成压迫性的主观注视。沈睿身体明显僵住，手指或袖摆轻微停滞。背景较暗，人物脸部被一条冷光切出。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他的迟疑、错愕与警觉同时被激发。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 232
+  },
+  {
+    "id": "shot_0233",
+    "scene_id": "scene_015",
+    "shot_number": 6,
+    "goal": "强化沈睿对局势突变的不信任，把他的怀疑具体化为眼神与细微表情。",
+    "composition": "沈睿眼部与眉心特写，画面右重左轻，眼神向左侧微收紧。背景完全虚化，仅存冷色轮廓。面部细微肌肉绷紧可见，停顿感被放大。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到对方不是被说服，而是立刻起疑。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.5,
+    "order": 233
+  },
+  {
+    "id": "shot_0234",
+    "scene_id": "scene_015",
+    "shot_number": 7,
+    "goal": "让沈睿发问，完成本场第一次正面试探，把潜台词‘我不信你’推到台前。",
+    "composition": "沈睿中近景，身体略前倾但仍克制，位于右侧三分之一，视线打向画外左侧。左侧保留更大的空白，像是被高令宁的沉默顶住。背景窗影直线加强其压迫感。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到试探中的锋利与不安。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 234
+  },
+  {
+    "id": "shot_0235",
+    "scene_id": "scene_015",
+    "shot_number": 8,
+    "goal": "回到高令宁，表现她对质疑并不意外，也不再解释，情绪开始冷却下沉。",
+    "composition": "高令宁侧面近景，位于左侧，眼神短暂下垂后再抬起，动作幅度极小。前景有一道模糊的案几边线横切下方，像礼法与交易的边界。背景仍为冷淡的室内空面。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的心已经退到很远，不再与他争。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 235
+  },
+  {
+    "id": "shot_0236",
+    "scene_id": "scene_015",
+    "shot_number": 9,
+    "goal": "用更近的面部细节承载她‘什么都不做’的轻声回应，明确她放弃的不是条件，而是情爱争辩。",
+    "composition": "高令宁面部特写，眼睛处于画面上三分之一，唇线清晰，神情近乎平静到发冷。右侧留白承接她说话的去向。侧逆光强调她冷白肤色与薄唇，背景极简。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一种不再期待后的决绝平静。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.35,
+    "order": 236
+  },
+  {
+    "id": "shot_0237",
+    "scene_id": "scene_015",
+    "shot_number": 10,
+    "goal": "将台词重点落在‘成亲之后，还望公子说话算话’，明确婚事是一场条件交换而非和解。",
+    "composition": "维持高令宁同轴线近景，镜头比前一镜略退半级，纳入她挺直的肩背与部分手部。她手指轻扣或静放于案几边缘，稳定而无温度。背景中窗棂线条与案几边缘形成交叉，视觉上像契约。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她在体面措辞下划下清晰底线。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 237
+  },
+  {
+    "id": "shot_0238",
+    "scene_id": "scene_015",
+    "shot_number": 11,
+    "goal": "捕捉沈睿听完条件后的反应，不给出解释，只保留他被迫重新衡量她的瞬间。",
+    "composition": "沈睿中近景，位于右侧，神情收住，眼神停在高令宁方向却没有接话。前景左侧仍有她的虚焦轮廓，维持空间关系。背景暗部吞掉部分肩线，使其显得更沉。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到两人之间并未缓和，反而形成更冷的对峙。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 238
+  },
+  {
+    "id": "shot_0239",
+    "scene_id": "scene_015",
+    "shot_number": 12,
+    "goal": "冷收尾，回到双人空间关系，确认这场会面在礼貌中结束，但裂痕更深、婚事已被推进。",
+    "composition": "比开场略近的双人中全景。高令宁仍在左侧坐定，目光已不再主动索取回应；沈睿在右侧停立，未再逼近。案几与中间空白依旧清晰，门框或屏风前景再次形成夹持。窗棂冷光把两人各自分在不同明暗区。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到体面落幕后的寒意，以及一桩婚事被冷冷敲定。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 239
+  }
+]

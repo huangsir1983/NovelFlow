@@ -1,0 +1,31 @@
+{
+  "variant_id": "高令宁_variant_03",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南三年后",
+  "tags": [
+    "江南",
+    "三年后",
+    "释然"
+  ],
+  "scene_ids": [
+    "scene_017",
+    "scene_018"
+  ],
+  "trigger": "和离后三年江南雪天院子，面对沈词夜间纠缠时",
+  "appearance_delta": {
+    "face": "眼神锐利转为成熟坚定略带柔和",
+    "body": "身材恢复苗条挺拔",
+    "hair": "乌黑长发精致盘髻",
+    "distinguishing_features": "气质从恨意中放下，姿态自信优雅"
+  },
+  "costume_override": {
+    "outfit": "淡雅保暖襦裙",
+    "color_palette": [
+      "淡青",
+      "粉白"
+    ]
+  },
+  "visual_reference": "一位23岁左右古代女子在江南雪天院子，瓜子脸柳眉杏眼眼神锐利成熟坚定带柔和，苗条挺拔身材，乌黑秀发精致盘髻，身穿淡青色优雅襦裙，雪花纷飞背景，姿态自信挺拔优雅，古典冷暖光影对比，古代中国风",
+  "visual_prompt_negative": "现代服装、短发、浓妆、过于柔弱、悲伤表情、夏季薄衣",
+  "emotional_tone": "原谅放下后被纠缠的复杂平静"
+}

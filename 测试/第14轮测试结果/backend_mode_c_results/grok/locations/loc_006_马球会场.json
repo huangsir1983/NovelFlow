@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_006",
+  "name": "马球会场",
+  "type": "exterior",
+  "era_style": "明代贵族马球竞技场",
+  "description": "开阔绿草坪马球场，四周木栏杆围护，远处观礼凉亭与旗杆，背景山景，地面平整草地，适合竞技与社交。",
+  "visual_reference": "明代贵族马球竞技场外部，广阔绿草坪场地，四周木栏杆与旗帜飘扬，远处观礼凉亭与马厩，背景江南远山，日光充足开阔，场边散落葡萄与风筝道具，古典贵族游乐氛围",
+  "visual_prompt_negative": "现代体育场、汽车、霓虹灯、西方马球场",
+  "atmosphere": "热闹竞技、酸楚嫉妒",
+  "color_palette": [
+    "翠绿色",
+    "土黄色",
+    "旗帜红色"
+  ],
+  "lighting": "白天强烈自然日光，草坪明亮开阔",
+  "key_features": [
+    "绿草马球场",
+    "木栏旗杆",
+    "观礼凉亭"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "见沈陆亲密到女主脚滑被扶的酸楚嫉妒"
+}

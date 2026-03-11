@@ -1,0 +1,204 @@
+[
+  {
+    "id": "shot_0101",
+    "scene_id": "scene_010",
+    "shot_number": 1,
+    "goal": "建立空间环境，展现两家人对峙的权力格局",
+    "composition": "俯视角度，正厅中轴线对称构图，茶桌居中，两侧家族成员分列，窗棂光影在地面形成方格图案，红木家具框定空间边界",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "压抑、拘谨、仪式感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词",
+      "媒人",
+      "高父",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.2,
+    "order": 101
+  },
+  {
+    "id": "shot_0102",
+    "scene_id": "scene_010",
+    "shot_number": 2,
+    "goal": "聚焦女主，捕捉她内心的抗拒与克制",
+    "composition": "侧光打亮半边脸，窗棂阴影落在另半边，眼神望向画外（避开沈词方向），背景虚化的中堂挂轴",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "疏离、勉强、内心挣扎",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 102
+  },
+  {
+    "id": "shot_0103",
+    "scene_id": "scene_010",
+    "shot_number": 3,
+    "goal": "展现沈词同样的抗拒态度，形成对照",
+    "composition": "与镜头2对称构图，同样侧光，眼神望向相反方向，眉心微蹙，下颌线紧绷",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷漠、不情愿、克制",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 103
+  },
+  {
+    "id": "shot_0104",
+    "scene_id": "scene_010",
+    "shot_number": 4,
+    "goal": "通过手部动作外化内心焦虑",
+    "composition": "俯拍特写，女主纤细手指端起茶盏又放下，指尖轻叩红木桌面，茶水微微晃动，背景虚化的聘礼盒",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "焦虑、不安、身体语言的抗拒",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.5,
+    "order": 104
+  },
+  {
+    "id": "shot_0105",
+    "scene_id": "scene_010",
+    "shot_number": 5,
+    "goal": "镜像呼应，展现沈词同样的焦虑",
+    "composition": "同样俯拍角度，沈词修长手指端茶盏又放下，手指节奏性敲击桌面（与女主节奏错开）",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "不耐烦、勉强配合",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 105
+  },
+  {
+    "id": "shot_0106",
+    "scene_id": "scene_010",
+    "shot_number": 6,
+    "goal": "捕捉媒人的尴尬，推动场景张力",
+    "composition": "中景正面，媒人居中坐在两人之间偏后位置，眼神在两人间游移，清嗓子动作，前景虚化的茶盏",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "尴尬、试探、调和气氛的无力感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 106
+  },
+  {
+    "id": "shot_0107",
+    "scene_id": "scene_010",
+    "shot_number": 7,
+    "goal": "展现高父的忧虑与无奈",
+    "composition": "侧面中景，高父坐姿略显僵硬，眉间川字纹深刻，目光望向女主方向但欲言又止，背景是窗棂光影",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "担忧、无奈、父亲的愧疚",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 107
+  },
+  {
+    "id": "shot_0108",
+    "scene_id": "scene_010",
+    "shot_number": 8,
+    "goal": "展现沈母的审视与不满",
+    "composition": "斜侧面中景，沈母端坐，薄唇紧抿，眼神审视地扫向女主方向，金簪在侧光下反光",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "威严、挑剔、不满意",
+    "duration_hint": "2s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 108
+  },
+  {
+    "id": "shot_0109",
+    "scene_id": "scene_010",
+    "shot_number": 9,
+    "goal": "回到两人对峙，强化「相看两厌」的核心矛盾",
+    "composition": "过肩镜头，从女主肩后看向沈词，沈词眼神冷淡地望向画外（避开女主），中景深度，背景是对面家族成员",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "疏离、抗拒、无法逾越的心理距离",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 109
+  },
+  {
+    "id": "shot_0110",
+    "scene_id": "scene_010",
+    "shot_number": 10,
+    "goal": "反向过肩镜头，完成正反打",
+    "composition": "从沈词肩后看向女主，女主同样目光错开，手指再次轻叩桌面，前景是沈词的肩线和发冠",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "僵持、各怀心事、被迫的联姻",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.6,
+    "order": 110
+  },
+  {
+    "id": "shot_0111",
+    "scene_id": "scene_010",
+    "shot_number": 11,
+    "goal": "以物件特写收尾，象征这段婚约的冰冷本质",
+    "composition": "特写桌上的婚书和聘礼盒，窗棂光影斜切过纸面，背景虚化的两双手（都未触碰婚书）",
+    "camera_movement": "slow_dolly_in",
+    "framing": "CU",
+    "emotion_target": "冰冷、形式主义、无爱的契约",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 111
+  }
+]

@@ -1,0 +1,44 @@
+ValueError: 无法提取JSON:
+[
+  {"title": "重生和离", "start_marker": "我和沈词的长子成了一代名相。是以双双重生", "end_marker": "大概是因为这次，不想再与他纠缠一生了吧。", "order": 0},
+  {"title": "提亲拒绝", "start_marker": "媒人来提亲时，聘礼比前世少了一半。我便", "end_marker": "满眼讥诮冷薄，是我再熟悉不过的眼神。", "order": 1},
+  {"title": "父亲质问", "start_marker": "回到屋内。父亲绕着我转圈，不理解极了：", "end_marker": "父亲愣住了。我低声说：「我一定要嫁。」", "
+order": 2},
+  {"title": "前世立威", "start_marker": "上一世。沈词求娶我，是为陆姝仪。那是他", "end_marker": "没有人可以拿捏我。包括沈词。", "order": 3},
+  {"title": "夫妻恨意", "start_marker": "我是恨沈词的。恨他算计我，娶我回来，又", "end_m
+
+Traceback (most recent call last):
+  File "E:\小说转剧本\软件系统\虚幻造物\claude版\测试\run_test_round8.py", line 76, in extract_json
+    return json.loads(text)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Invalid control character at: line 4 column 98 (char 318)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\小说转剧本\软件系统\虚幻造物\claude版\测试\run_test_round8.py", line 192, in run_single_model_pipeline
+    chapters = await _stage1_chapter_split(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        novel, model_key, tracker, out_dir)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\小说转剧本\软件系统\虚幻造物\claude版\测试\run_test_round8.py", line 297, in _stage1_chapter_split
+    markers = extract_json(resp)
+  File "E:\小说转剧本\软件系统\虚幻造物\claude版\测试\run_test_round8.py", line 84, in extract_json
+    raise ValueError(f"无法提取JSON:\n{text[:500]}")
+ValueError: 无法提取JSON:
+[
+  {"title": "重生和离", "start_marker": "我和沈词的长子成了一代名相。是以双双重生", "end_marker": "大概是因为这次，不想再与他纠缠一生了吧。", "order": 0},
+  {"title": "提亲拒绝", "start_marker": "媒人来提亲时，聘礼比前世少了一半。我便", "end_marker": "满眼讥诮冷薄，是我再熟悉不过的眼神。", "order": 1},
+  {"title": "父亲质问", "start_marker": "回到屋内。父亲绕着我转圈，不理解极了：", "end_marker": "父亲愣住了。我低声说：「我一定要嫁。」", "
+order": 2},
+  {"title": "前世立威", "start_marker": "上一世。沈词求娶我，是为陆姝仪。那是他", "end_marker": "没有人可以拿捏我。包括沈词。", "order": 3},
+  {"title": "夫妻恨意", "start_marker": "我是恨沈词的。恨他算计我，娶我回来，又", "end_m

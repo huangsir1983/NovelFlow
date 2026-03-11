@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 沈府正厅 - 日 (前世)",
+  "location": "沈府正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈母"
+  ],
+  "core_event": "陆姝仪敬茶，高令宁砸杯自刎，沈词拦住",
+  "key_dialogue": "「你究竟是我沈家妇，还是高家女？」",
+  "emotional_peak": "愤怒与屈辱爆发",
+  "tension_score": 0.9,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "茶杯、瓷片、血迹、红烛、喜帕、沈母座椅、陆姝仪茶盏"
+  ],
+  "dramatic_purpose": "建立前世仇恨根源与女主性格"
+}

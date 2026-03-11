@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "EXT. 柳池旁 - day",
+  "location": "马球会柳池边",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "我撞见沈词宠溺地看陆姝仪做风筝，妒怒交加之下，故意借蒋晟之手与他形成对峙。",
+  "key_dialogue": "认了义妹，还这般藕断丝连。",
+  "emotional_peak": "嫉恨失控却强装轻慢",
+  "tension_score": 0.88,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "风筝",
+    "柳池",
+    "蒋晟的手"
+  ],
+  "dramatic_purpose": "把女主对陆姝仪的旧恨拉回现实，也触发沈词的占有反应。",
+  "visual_reference": "柳池边粉衣女子展示风筝，贵公子低头含笑；另一侧女主脚下一滑，被青年扶住，四人目光在春光中交错，水面、柳枝、风筝营造表面柔和却情绪尖锐的古风画面",
+  "visual_prompt_negative": "避免甜美群像、避免池边游客过多、避免现代公园感、避免表情呆滞",
+  "source_text_start": "这一怔，便看到了不想看到的一幕。",
+  "source_text_end": "有道目光一直跟在身后，如芒在背。"
+}

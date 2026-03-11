@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高令宁房间 - DAY",
+  "location": "高令宁的房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拿着和离书质问高令宁，试图用前世的誓言捆绑她。高令宁平静地表示已经原谅他，希望他另觅良人，彻底击垮了沈词的心理防线。",
+  "key_dialogue": "高令宁，我不要你原谅我。",
+  "emotional_peak": "沈词听到“原谅”后，脊背弯下，死死盯着高令宁，拼命摇头，神情痛苦而偏执。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "和离书",
+    "摇篮里的昭昭"
+  ],
+  "dramatic_purpose": "完成对男主角的最后一击。女主的“原谅”和“放手”成为最锋利的武器，让他陷入万劫不复的悔恨。",
+  "source_text_start": "我抱着女儿，有些讶异地看着沈词狼狈的模样。 他拿着和离书，连连冷笑：「高令宁，你什么意思？」",
+  "source_text_end": "不恨他了……他怎么反而还不乐意了呢？"
+}

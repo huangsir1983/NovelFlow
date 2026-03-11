@@ -1,0 +1,226 @@
+[
+  {
+    "id": "shot_0163",
+    "scene_id": "scene_012",
+    "shot_number": 1,
+    "goal": "建立封闭压迫的室内关系场，交代高令宁刚从外奔走归来、两人已处于对峙前夜。",
+    "composition": "FS，房门一侧为前景暗色门框形成压景，右前方桌案与烛台占画面前景，烛火轻晃；高令宁立于画面左中部偏亮处，衣摆微乱，袖口与膝侧可见尘痕；沈词立于画面右后方较暗处，身形被阴影吞去半边，二人之间留出一段空地作为对峙张力区，桌案横向切开空间。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到礼法空间中的窒闷与夫妻间未爆的冷战。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 163
+  },
+  {
+    "id": "shot_0164",
+    "scene_id": "scene_012",
+    "shot_number": 2,
+    "goal": "从女主视角强化她刚经历屈辱奔波的身体证据，说明她在隐瞒什么且不愿被看见。",
+    "composition": "CU，画面下半部是高令宁垂落的衣袖与手，手指在整理袖口，尘土附着其上；前景虚化为桌案边缘和一角散落小物，背景烛光成暖色斑点，人物面部不完全入画，仅露出下颌线与颈侧淡痕的一部分。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起观众对她自尊受损后的强撑与防备。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 164
+  },
+  {
+    "id": "shot_0165",
+    "scene_id": "scene_012",
+    "shot_number": 3,
+    "goal": "交代女主有意避开沈词目光，确立限制性主观下她的回避策略。",
+    "composition": "MCU，高令宁位于画面左侧三分之一，脸微偏向下方和画外左，眼神不与对方接触；背景右侧深处虚化可见沈词暗色身影站立不动，形成压迫性的目光方向；烛火侧逆光切出她冷白面部轮廓，另一侧沉入灰青阴影。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她并非软弱，而是有意识地拒绝解释。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 165
+  },
+  {
+    "id": "shot_0166",
+    "scene_id": "scene_012",
+    "shot_number": 4,
+    "goal": "引入沈词的压抑怒气与主动逼近，把静态对峙推向正面冲突。",
+    "composition": "MS，遵守轴线，沈词从画面右侧暗处向左迈近一步，肩背挺直，占据画面右半并向高令宁方向形成视觉压迫；左前景保留高令宁虚化肩线，提示这是贴近女主认知的观察角度；背景烛台在二人中线后方，火焰晃动。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "制造被逼近的压迫感，让观众感到空气开始收紧。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 166
+  },
+  {
+    "id": "shot_0167",
+    "scene_id": "scene_012",
+    "shot_number": 5,
+    "goal": "展示沈词视线所捕捉到的屈辱细节：她的膝尘像证词，激发他的怒意与嫉恨。",
+    "composition": "CU，高令宁裙摆与膝侧尘痕位于画面中央，布料褶皱凌乱；画面右边缘压入沈词深色袍角的模糊前景，形成注视感；暖色烛光扫过尘痕，使污迹更刺眼。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到屈辱被看穿后的难堪，以及即将到来的质问锋刃。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.5,
+    "order": 167
+  },
+  {
+    "id": "shot_0168",
+    "scene_id": "scene_012",
+    "shot_number": 6,
+    "goal": "打出第一句质问，明确冲突核心不是事情本身，而是身份归属与情感站位。",
+    "composition": "MCU，沈词位于画面右侧偏中，面朝画外左，半边脸被烛火照亮，另一半落在冷暗中；背景是旧木墙面与一道阴影切线，线条指向他紧绷的眼与唇。保持视线方向稳定，对着高令宁说话。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到克制语气里裹着的占有、受伤与审判意味。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 168
+  },
+  {
+    "id": "shot_0169",
+    "scene_id": "scene_012",
+    "shot_number": 7,
+    "goal": "用女主反应而非回答承接质问，凸显她的沉默是抵抗，不是心虚。",
+    "composition": "CU，高令宁正面略偏右，目光仍不看对方，只微抬下颌；画面左侧保留一小块虚化暖光，像逼近的火；背景深暗，脖颈细痕在侧光下若隐若现，面部轮廓锋利冷硬。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起观众对她强撑尊严的疼惜，同时感到她的倔强会继续激怒对方。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 169
+  },
+  {
+    "id": "shot_0170",
+    "scene_id": "scene_012",
+    "shot_number": 8,
+    "goal": "通过双人构图确认两人站位已逼到临界距离，关系裂痕被具象化。",
+    "composition": "MLS，二人分列画面左右，高令宁在左前偏亮，沈词在右前偏暗，彼此面向对方但中间隔着一臂有余的空隙；桌案位于后景横陈，烛台在二人中间略后的位置，火焰像一条脆弱分界线。两人都站得笔直，谁也不退。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众直观看到婚姻中的对峙结构：近在咫尺，却毫无可退。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 170
+  },
+  {
+    "id": "shot_0171",
+    "scene_id": "scene_012",
+    "shot_number": 9,
+    "goal": "打出第二句更私密的质问，把矛盾从家族立场推进到夫妻情感的拒绝。",
+    "composition": "CU，沈词脸部更近，位于画面右侧，眼尾隐见发红，唇线绷紧；前景左边缘是高令宁模糊肩线，形成贴近她的听觉与体感视角；背景烛火被压暗，仅留下冷暖交界的硬边。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到他表面质问身份，实则在索要被承认的亲密与信任。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 171
+  },
+  {
+    "id": "shot_0172",
+    "scene_id": "scene_012",
+    "shot_number": 10,
+    "goal": "让高令宁以沉默完成反击，形成对白翻刃后的情绪失控前停顿。",
+    "composition": "ECU，高令宁眼部与微抬的下颌占满画面，瞳色深沉，眼神终于微微抬起却不软化；光从侧面切过，睫影压在脸上，背景全黑化，仅留极浅暖光边缘。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "制造冰冷、锋利、不可退让的刺痛感，让观众感到她无声地把关系推向更深裂口。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.83,
+    "order": 172
+  },
+  {
+    "id": "shot_0173",
+    "scene_id": "scene_012",
+    "shot_number": 11,
+    "goal": "用空间中的静物承接未说出口的话，把室内气压推到几乎凝固。",
+    "composition": "CU，烛台居中，火焰因空气流动骤然一晃，蜡泪沿烛身垂落；后景左右两侧分别虚化出高令宁浅色衣角与沈词深色袍摆，二人像被火焰隔开。桌案边缘形成压迫性的水平线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众在短暂停顿里感到危险与情绪即将失控的临界。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 173
+  },
+  {
+    "id": "shot_0174",
+    "scene_id": "scene_012",
+    "shot_number": 12,
+    "goal": "冷收场景，以未解的对峙结束，明确这不是争执的终点，而是关系裂痕正式显形。",
+    "composition": "FS，机位略后退，门框再次作为前景压住画面；高令宁仍在左侧亮区，沈词停在右侧暗区，二人比开场更近却更僵；桌案与烛台夹在中间，房内留白被压缩，谁都未转身。整体色调暖冷对撞，红黄烛火仅为刺点色。",
+    "camera_movement": "dolly",
+    "framing": "FS",
+    "emotion_target": "留下冰冷悬念与婚姻裂痕已无法回避的余波。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 174
+  }
+]

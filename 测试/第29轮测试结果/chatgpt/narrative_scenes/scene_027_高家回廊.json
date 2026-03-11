@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_027",
+  "order": 26,
+  "heading": "INT. 高家廊下 - DAY",
+  "location": "高家回廊",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "我借养胎回娘家，沈词却日日前来嘘寒问暖、送尽珍物，连父亲也开始误以为我们感情转好。",
+  "key_dialogue": "「姑爷看起来，是把你捧在心尖上的。」",
+  "emotional_peak": "表面的和美让父亲动摇，我却看得更冷。",
+  "tension_score": 0.43,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "葡萄",
+    "补品盒",
+    "回廊竹椅"
+  ],
+  "dramatic_purpose": "制造短暂的婚姻假象，为后面骤然坠落蓄力。",
+  "visual_reference": "高家回廊微风轻拂，孕妇靠在竹椅上半睡，男子剥葡萄递喂，父亲远处观望神色松动，画面温柔却带隐秘虚假感",
+  "visual_prompt_negative": "避免完全甜宠感，避免现代水果盘摆设，避免夸张亲密接吻",
+  "source_text_start": "伯爵娘子又登门了。",
+  "source_text_end": "父亲是谈到：「如今我看你们感情甚好，又有孩子，那位表小姐也即将出嫁，不如便这般过下去吧。」"
+}

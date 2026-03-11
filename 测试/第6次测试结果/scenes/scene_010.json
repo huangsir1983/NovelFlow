@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_010",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:08"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005",
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府内宅 - 夜",
+    "location": "沈府内宅",
+    "time_of_day": "night",
+    "description": "内宅封闭压抑，夜色沉沉，房中仅有昏弱烛火，家具与陈设规整却冷清。高令宁独处，四周安静，空气里有长期积怨沉积的滞重感。空间以床榻、妆台、桌案为主要视觉支点，适合近景捕捉她克制而翻涌的情绪。",
+    "action": "高令宁独自坐在昏黄烛光下，背脊绷直，指尖攥紧衣料，久久不动。她目光发冷，像是在回望多年婚姻里的屈辱：新婚后的狼狈反击、被冷待、被分房、被弃置于府中成为笑柄。她缓慢抬眼，又垂下，嘴角绷紧，情绪压在沉默里。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "烛台",
+      "桌案",
+      "衣袖"
+    ],
+    "dramatic_purpose": "建立高令宁与沈词之间长期累积的夫妻旧怨，奠定全章的情感基调与回忆视角。",
+    "tension_score": 0.4,
+    "dramatic_intensity": -0.2,
+    "order": 10
+  }
+}

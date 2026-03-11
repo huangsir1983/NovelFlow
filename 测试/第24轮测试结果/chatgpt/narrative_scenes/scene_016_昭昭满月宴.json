@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 高家满月宴 - 白日",
+  "location": "昭昭满月宴",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "和离后我闭门养身，昭昭满月宴上陆姝仪不请自来，坦白自己也重生，承认前世投湖与今生蒋晟事件皆是她设计，只为自保和谋求出路。",
+  "key_dialogue": "「原来，她也重生了。」",
+  "emotional_peak": "我终于得知压在身上多年的真正真相，宿怨根源被揭开。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "满月请帖",
+    "蒋晟请帖",
+    "重生秘密"
+  ],
+  "dramatic_purpose": "解开关键误会，完成陆姝仪人物动机的最后拼图。",
+  "visual_reference": "满月宴外表热闹，角落对话却冰冷沉重，柔弱女子低眉坦白，另一女子震惊失语。",
+  "visual_prompt_negative": "不要现代宴会厅，不要大红大紫婚庆风，不要恶女脸谱化。",
+  "source_text_start": "拿到和离书后。我开始养身体，闭门不出这期间，",
+  "source_text_end": "几步之外，沈词沉默地注视着我, 神色苍白。我疏离地对他行了个礼。"
+}

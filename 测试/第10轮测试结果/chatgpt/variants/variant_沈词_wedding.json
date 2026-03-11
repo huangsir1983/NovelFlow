@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_03",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 压抑新婚时",
+  "tags": [
+    "新婚",
+    "红黑反差",
+    "怨偶",
+    "克制深情未显"
+  ],
+  "scene_ids": [
+    "scene_013",
+    "scene_014"
+  ],
+  "trigger": "在成婚仪式与新婚洞房出现，表面完成夫妻礼制，实则与高令宁带着前世积怨进行最亲密也最尖锐的接触。",
+  "appearance_delta": {
+    "face": "在喜庆装束下仍显冷淡，面容比常态多一层压抑欲念与疲惫，目光灼人却并不温柔。",
+    "body": "礼仪场合姿态端正无可挑剔，进入洞房后则由端方转为带攻击性的贴近与控制，体现情感撕裂。",
+    "hair": "婚礼所用乌发束冠更隆重，配正式婚冠；洞房后可能因拉扯而略有散乱，增添失序感。",
+    "distinguishing_features": "喜色衣装与冷硬神情形成强烈反差，是典型‘成婚却无欢意’的状态。"
+  },
+  "costume_override": {
+    "outfit": "正式婚服，以深红婚袍、金纹礼饰、婚冠为主；洞房中婚服部分解开，露出层叠中衣与被扯乱的领口。",
+    "color_palette": [
+      "深绯红",
+      "玄黑",
+      "鎏金"
+    ]
+  },
+  "visual_reference": "ultra realistic ancient chinese groom, handsome pale scholar-official face, cold intense eyes, black hair in ceremonial wedding crown, tall slim build, dark red and black traditional wedding robe with gold embroidery, solemn and loveless expression in a richly decorated bridal chamber, red candles, canopy bed, restrained yet aggressive intimacy, cinematic historical drama",
+  "emotional_tone": "压抑、尖锐、危险亲密"
+}

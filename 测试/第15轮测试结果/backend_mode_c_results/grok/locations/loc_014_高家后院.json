@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_014",
+  "name": "高家后院",
+  "type": "exterior",
+  "era_style": "明代中晚期官宦府邸后院",
+  "description": "私密后院庭园，雕花木门紧闭，石径与花木，石凳散落和离书，适合产后谈判与强闯。",
+  "visual_reference": "明代官宦府邸后院室外，私密庭园空间，雕花木门半开，石径旁花木环绕，和离书散落石凳，围墙高筑，阳光或月光照射，紧张谈判氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "决裂谈判、强闯绝望",
+  "color_palette": [
+    "木门褐",
+    "绿植",
+    "石灰",
+    "和离纸白"
+  ],
+  "lighting": "白天自然光或夜月光，投下清晰轮廓",
+  "key_features": [
+    "雕花木门",
+    "石径与和离书",
+    "围墙花木"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "产后谈判的决绝到沈词跪求强闯的凄凉"
+}

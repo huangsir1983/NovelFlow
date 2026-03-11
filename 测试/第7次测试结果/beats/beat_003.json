@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "id": "beat_003",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_000"
+    ]
+  },
+  "data": {
+    "title": "揭开婚后噩梦触发再度选择",
+    "description": "回到屋内，父亲质问她为何发疯。女主回忆少女时对沈词的倾慕、柳树下拾钗的温柔，以及前世嫁后美梦尽成噩梦的残酷现实，真正点燃这次重议婚事的情绪根源。",
+    "beat_type": "revelation",
+    "save_the_cat": "Catalyst",
+    "emotional_value": -0.6,
+    "dramatic_intensity": -0.6,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 3
+  }
+}

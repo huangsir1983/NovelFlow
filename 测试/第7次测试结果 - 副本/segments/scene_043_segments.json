@@ -1,0 +1,62 @@
+[
+  {
+    "id": "seg_0204",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0678",
+      "shot_0679",
+      "shot_0680"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并开场建立、女主封闭状态与男主折返入场，三镜头共享同一空间轴线与‘床—门’关系，完成第一轮叙事信息交代：夜深、她拒绝、他回来。角色集合虽扩展，但属同一情境的自然引入，适合压缩成一个建立性segment。",
+    "order": 204
+  },
+  {
+    "id": "seg_0205",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0681",
+      "shot_0682",
+      "shot_0683",
+      "shot_0684",
+      "shot_0685"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段完整覆盖‘请求留下—遭拒绝—改以地铺执意停留—女主再次排斥’这一单一情绪弧线。虽含5个shot，但动作连贯且围绕同一冲突核心，适合合并为一个节奏紧凑的行动段，突出道具叙事与关系降格。",
+    "order": 205
+  },
+  {
+    "id": "seg_0206",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0686",
+      "shot_0687",
+      "shot_0688"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以一次明显时间推进为边界，开启新segment。先用呼应式大全景建立‘夜更深’的小时空跳转，再连续推进男主从地铺起身到逼近床边，形成由静止到越界前一刻的禁忌蓄势，情绪由压抑转向危险亲密。",
+    "order": 206
+  },
+  {
+    "id": "seg_0207",
+    "scene_id": "scene_043",
+    "shot_ids": [
+      "shot_0689",
+      "shot_0690",
+      "shot_0691",
+      "shot_0692",
+      "shot_0693"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是全场高潮与收束，所有镜头都服务于同一情感爆点：触碰、贴近、宣告、她的微反应、命运式定格。虽然包含5个shot，但它们构成不可拆分的连续越界动作与誓言落点，合并后能完整保留高潮递进和冷收尾余悸。",
+    "order": 207
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0004",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0000",
+      "shot_0001",
+      "shot_0002"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头均处于同一时空与同一动作链起点：建立空间压迫感、明确辞官动作、切入高令宁的施压台词。角色集合稳定不变，情绪持续上拱，适合合并为一个“无声谈判定调”段落。",
+    "order": 4
+  },
+  {
+    "id": "seg_0005",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0003",
+      "shot_0004",
+      "shot_0005"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组镜头完整覆盖同一情绪弧线：高父听见重话后的迟疑、双人关系压迫的强化、直到最后一笔落下的行动闭合。叙事目标单一且动作连续，适合合并为“接受并签下退场”段落。",
+    "order": 5
+  },
+  {
+    "id": "seg_0006",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0006",
+      "shot_0007",
+      "shot_0008"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组三镜头构成明确的情感转折：从政治决定落地后的微松，到察觉高父旧疾，再到高令宁立刻形成下一步行动。角色关系未变，但目标发生转换，是一个清晰的合并边界。",
+    "order": 6
+  },
+  {
+    "id": "seg_0007",
+    "scene_id": "scene_004",
+    "shot_ids": [
+      "shot_0009",
+      "shot_0010",
+      "shot_0011"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜头共同完成同一动作结尾：高令宁转身离开、高父目送接受、人物真正出门。情绪进入收束与余压保留阶段，且下一场行动方向已明确，适合合并为场景尾段。",
+    "order": 7
+  }
+]

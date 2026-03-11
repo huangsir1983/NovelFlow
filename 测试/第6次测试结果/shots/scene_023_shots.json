@@ -1,0 +1,410 @@
+[
+  {
+    "id": "shot_0323",
+    "scene_id": "scene_023",
+    "shot_number": 1,
+    "goal": "建立闺阁空间、孕育气息与封闭氛围，并将高令宁置于一个看似安稳实则被困的环境中。",
+    "composition": "FS。画面右侧窗边柔光斜入，榻与几案位于中右景，高令宁坐在榻边偏右三分之一处低头做针线；前景左侧虚化门框形成压景，几上散置针线箩、绣绷、虎头帽半成品，背景为旧木柜与屏风，留出左侧门口空位作为潜在侵入方向。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "平静中预埋压迫，感到这间房既温柔又像牢笼。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 323
+  },
+  {
+    "id": "shot_0324",
+    "scene_id": "scene_023",
+    "shot_number": 2,
+    "goal": "强调高令宁的专注与克制，用针线动作代替情绪表露。",
+    "composition": "CU。虎头帽与她指间针线占据画面中央，绣面在下三分之一，手指从右向左牵线；背景虚化为月白衣料与榻缘，窗光在针尖上形成细小冷亮点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "细密、压抑、把情绪都缝进针脚里的感觉。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 324
+  },
+  {
+    "id": "shot_0325",
+    "scene_id": "scene_023",
+    "shot_number": 3,
+    "goal": "以女主感知引入门口的窥视，建立沈词先观察后逼近的姿态。",
+    "composition": "MCU。镜头从高令宁肩后取门口方向，前景右侧为她虚焦肩颈与发髻，左侧门框内沈词倚靠而立，占据左三分之一，身后走廊较暗，室内较亮，形成明暗对撞；门框垂直线像将他镶嵌成一个压迫性的存在。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被注视、被逼视的轻微不适与试探感。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 325
+  },
+  {
+    "id": "shot_0326",
+    "scene_id": "scene_023",
+    "shot_number": 4,
+    "goal": "给出沈词沉默观察的反应，传达他以克制包裹占有欲。",
+    "composition": "MCU。沈词立于门框内偏左，肩线微斜倚门，视线投向画外右侧高令宁；前景左边保留一段虚化门框，背景暗部吞没一半身形，仅脸与胸前衣纹被室内侧光擦亮。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "温雅外壳下的压迫与难以回避的执拗。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.28,
+    "order": 326
+  },
+  {
+    "id": "shot_0327",
+    "scene_id": "scene_023",
+    "shot_number": 5,
+    "goal": "表现高令宁对他的进入并不欢迎，但也不正面迎战，继续以绣活维持边界。",
+    "composition": "MCU。高令宁位于右侧，低头不抬眼，针线仍在手中；左侧留出一块空白门口方向，背景窗光柔和勾出她侧脸与脖颈细痕，眉心有极轻微蹙起。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷淡、自持、拒绝给对方情绪回应。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 327
+  },
+  {
+    "id": "shot_0328",
+    "scene_id": "scene_023",
+    "shot_number": 6,
+    "goal": "交代沈词由观察转为逼近，空间距离开始缩短。",
+    "composition": "MLS。机位仍在房内，画面右侧高令宁坐于榻边，左侧沈词自门口沿纵深走近；前景有几案和针线箩形成遮挡，视觉引导线由地砖和门框直指她的位置，突出他对她的路径性侵入。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "不安地看见边界被一步步压缩。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 328
+  },
+  {
+    "id": "shot_0329",
+    "scene_id": "scene_023",
+    "shot_number": 7,
+    "goal": "将强行亲密动作具体化，表现沈词试图用身体接触挽留。",
+    "composition": "MS。高令宁坐右，沈词自左后方俯身将她搂入怀中，构成斜向包围；她身前虎头帽仍在画面下缘未离手，前景绣绷虚焦，背景窗光形成一圈柔亮轮廓，但人物关系是紧绷的。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "亲密外观下的窒息与不对等控制。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 329
+  },
+  {
+    "id": "shot_0330",
+    "scene_id": "scene_023",
+    "shot_number": 8,
+    "goal": "呈现高令宁本能躲避，否定这份亲密的有效性。",
+    "composition": "CU。高令宁侧脸占右侧，沈词下巴压在她发端、唇将落未落地停在左后方；她微蹙眉并向画面右外偏头，脖颈线条绷紧，发丝被压乱一缕，背景虚化成暗色衣料与一线窗光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "厌倦、排拒，以及对亲密失效的刺感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.52,
+    "order": 330
+  },
+  {
+    "id": "shot_0331",
+    "scene_id": "scene_023",
+    "shot_number": 9,
+    "goal": "以对话开局，交代沈词用孩子和未来试探她是否会留下。",
+    "composition": "MS双人。沈词站左后，双臂仍环住她但力道不显，脸贴近她耳侧说话；高令宁坐右，手中继续针线，视线始终落在绣活上，二人同框却方向不一致。前景下缘虎头帽强化台词含义。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "看似温言，实则步步设套。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 331
+  },
+  {
+    "id": "shot_0332",
+    "scene_id": "scene_023",
+    "shot_number": 10,
+    "goal": "突出高令宁冷淡回应，不被亲密和孩子话题牵制。",
+    "composition": "MCU。高令宁位于中右，肩后仍压着沈词一段虚焦衣襟，但她主体清晰，目光不抬，手上针线动作稳；背景用屏风水平线压低画面，显出她语气平静却不可撼动。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷、硬、提前宣判关系终点。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 332
+  },
+  {
+    "id": "shot_0333",
+    "scene_id": "scene_023",
+    "shot_number": 11,
+    "goal": "给沈词一个受挫后的停顿，显示他真正被“要走”刺到。",
+    "composition": "CU。沈词脸部偏左，视线向下看她，眼神短暂滞住；下方右角有她发顶虚焦作为对视关系锚点，背景暗而简，嘴角试图维持笑意却明显僵住。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "试探失手后的轻微失衡。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.6,
+    "order": 333
+  },
+  {
+    "id": "shot_0334",
+    "scene_id": "scene_023",
+    "shot_number": 12,
+    "goal": "通过指尖拂发的动作，将追问孩子去留包装成柔情控制。",
+    "composition": "CU。沈词的手自画面左上沿滑入，指尖从她鬓边发丝缓慢下移；高令宁发髻与耳后轮廓占据右侧，动作轻却带明显支配意味，背景为暖灰布料与浅窗光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "温柔表皮下的不安与占有。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 334
+  },
+  {
+    "id": "shot_0335",
+    "scene_id": "scene_023",
+    "shot_number": 13,
+    "goal": "承接“那沈睿……”的追问，显示他开始失去周全的话术。",
+    "composition": "MCU。沈词略俯身进入她的私人空间，占左侧三分之一，高令宁后脑与肩线占右前景虚焦；他的脸处在光影交界，话说到一半停住，形成未尽之意。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "迟疑、慌乱初现，控制感开始松动。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 335
+  },
+  {
+    "id": "shot_0336",
+    "scene_id": "scene_023",
+    "shot_number": 14,
+    "goal": "让高令宁把未来安排说清，彻底堵住他借孩子留下她的路。",
+    "composition": "MS。镜头略侧移到二人侧面，高令宁在右侧端坐，终于微抬下颌但不回头，只平视前方；沈词站在左后略俯身，被她话语推在次要位置。前景虎头帽在她膝上，成为“母亲身份仍在、婚姻身份退出”的视觉悖论。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "理智得近乎残忍的抽离。",
+    "duration_hint": "6-7s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 336
+  },
+  {
+    "id": "shot_0337",
+    "scene_id": "scene_023",
+    "shot_number": 15,
+    "goal": "沈词改用陆姝仪刺激她，推进攻防升级。",
+    "composition": "MCU。沈词从她身后稍稍转到侧前，脸靠近画面左中，嘴角挂一丝刻意笑意；高令宁仍在右侧虚焦前景，形成他说给她听却更像说给自己试探的构图。背景暗木与衣袍冷色压住画面。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "恶意试探，带着不体面的求证。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 337
+  },
+  {
+    "id": "shot_0338",
+    "scene_id": "scene_023",
+    "shot_number": 16,
+    "goal": "用高令宁极简反问“有何不妥”完成一次反制，证明她真的不再被激怒。",
+    "composition": "CU。高令宁终于微侧脸入镜，眼神平平掠向左侧沈词，唇线冷直；前景下缘仍是针线和衣料，她的回应比表情更淡，背景空白留出大量负空间。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷到令人生寒的无所谓。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 338
+  },
+  {
+    "id": "shot_0339",
+    "scene_id": "scene_023",
+    "shot_number": 17,
+    "goal": "给沈词一个被彻底刺中的反应，显示他不信也不接受她的不在意。",
+    "composition": "CU。沈词正面略偏右，眉骨压低，笑意彻底褪去，只剩紧绷眼神；背景虚化的窗光在他眼尾打出一圈微红，画面左侧留一条她所在方向的空位，强化视线对冲。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "执念被否定后的狼狈与恼怒。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.82,
+    "order": 339
+  },
+  {
+    "id": "shot_0340",
+    "scene_id": "scene_023",
+    "shot_number": 18,
+    "goal": "以咬断丝线的动作作为情绪断裂点，预示她将说出更绝的一句。",
+    "composition": "ECU。高令宁唇边与指尖占满画面，丝线被轻咬拉紧后一断；纤细线头弹回，手中虎头帽边缘露在下方，声音细小却像切断某段关系。背景完全虚化。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "极轻却极决绝的斩断感。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 340
+  },
+  {
+    "id": "shot_0341",
+    "scene_id": "scene_023",
+    "shot_number": 19,
+    "goal": "让高令宁第一次正面抬眼，说出‘以后都不会恨你了’，形成真正的情感终局宣告。",
+    "composition": "CU。高令宁位于画面中央略偏右，缓慢抬眼看向左侧画外沈词；眼神平静，没有泪意也没有怒火，只有彻底抽离。背景窗光冷下来，颈侧细痕被轻轻勾出，强化旧伤仍在但已不再作为牵制。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "冷绝、释然，同时让观众感到比恨更残酷的空。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 341
+  },
+  {
+    "id": "shot_0342",
+    "scene_id": "scene_023",
+    "shot_number": 20,
+    "goal": "捕捉沈词在这句话落下后的骤变，完成本场情绪爆点前的吸气。",
+    "composition": "CU。沈词脸部近乎正对镜头，先是一瞬空白，随即眼尾泛红、下颌绷紧；前景右下角有她发梢虚影提醒视角仍贴着她的认知。背景更暗，让他的神色像被抽空再骤然填满怒意。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心口被挖空后的失控前兆。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 342
+  },
+  {
+    "id": "shot_0343",
+    "scene_id": "scene_023",
+    "shot_number": 21,
+    "goal": "以更近的双人压迫构图完成他情绪失控的外化：‘谁准你想开了？’",
+    "composition": "MCU双人。高令宁坐在右侧前景，肩线仍直；沈词从左侧猛然压近，占据画面大半，二人距离被压到极限但不发生剧烈肢体冲突。门框与屏风竖线在背景形成夹逼，视觉上像把她困在中间。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "失控、占有、礼法外壳骤然开裂的危险感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 343
+  },
+  {
+    "id": "shot_0344",
+    "scene_id": "scene_023",
+    "shot_number": 22,
+    "goal": "在爆点后冷收，留下高令宁不退不让的沉默，作为悬念与下场承接。",
+    "composition": "MS。高令宁仍坐右侧，沈词立于左前近处形成压迫性前景虚焦；她没有回避，只将断线后的虎头帽轻放在膝上，目光平直。窗边天光照着婴儿物件，空间恢复安静，却比开场更冷。门口仍在左后方，提示这段关系已无真正出口。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "寒意回落后的余震，让观众停在更危险的平静里。",
+    "duration_hint": "3-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.76,
+    "order": 344
+  }
+]

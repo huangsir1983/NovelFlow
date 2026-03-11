@@ -1,0 +1,108 @@
+{
+  "bindings": [
+    {
+      "beat_id": "beat_003",
+      "beat_title": "媒人上门提亲",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "场景001高家正堂直接呈现媒人携聘礼上门、木雁出现确认沈词重生的事件，与\n揭示双方均已重生并建立首次隐秘对抗的戏剧目的完全匹配。"
+    },
+    {
+      "beat_id": "beat_004",
+      "beat_title": "公开退还木雁试探",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "女主在正堂当众退回木雁、父亲震怒的戏剧动作，与场景通过拒绝聘礼揭示重生事实和信息不对称的功能匹配。"
+    },
+    {
+      "beat_id": "beat_005",
+      "beat_title": "沈词震惊回应",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "沈词在提亲现场以讥诮眼神回应，完成双方重生秘密的首次交锋，与场景首次隐秘对抗的叙事功能匹配。"
+    },
+    {
+      "beat_id": "beat_006",
+      "beat_title": "父亲质问羞辱动机",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "返回内室后父亲质问女主动机的对话，与场景通过与父亲冲突展现家庭压力和隐秘决心的功能匹配。"
+    },
+    {
+      "beat_id": "beat_007",
+      "beat_title": "回忆前世爱慕惨剧",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "女主内心闪回前世经历，与场景揭示从前世受害到今生复仇心态巨变的核心功能匹配。"
+    },
+    {
+      "beat_id": "beat_008",
+      "beat_title": "坚定要求风光嫁",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "女主在私密对话中要求十里红妆并承认羞辱动机，与确立必须嫁给沈词并反转权力的核心动机匹配。"
+    },
+    {
+      "beat_id": "beat_009",
+      "beat_title": "宣告必嫁决心",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "女主果断宣告'我一定要嫁'，确立婚姻阶段，与场景通过父亲冲突展现隐秘决心并为后续剧情建立张力的功能匹配。"
+    },
+    {
+      "beat_id": "beat_011",
+      "beat_title": "怀孕男胎确诊",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "沈府内室诊断用具与大夫确诊男胎的转折事件，与场景通过诊断制造婚姻关系转折点的功能匹配。"
+    },
+    {
+      "beat_id": "beat_012",
+      "beat_title": "沈词提议维持婚姻",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "沈词建议为孩子继续婚姻的对话，与场景夫妻情感疏离及对话制造转折点的叙事功能匹配。"
+    },
+    {
+      "beat_id": "beat_013",
+      "beat_title": "义妹疼爱对比",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "沈词对义妹极尽疼爱与对女主漠然形成的鲜明对比，与揭示夫妻情感疏离的功能直接匹配。"
+    },
+    {
+      "beat_id": "beat_014",
+      "beat_title": "拒绝和离要求",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "女主坚持按约定和离、沈词惊愕追问，与场景制造婚姻关系转折点并推动独立命运的功能匹配。"
+    },
+    {
+      "beat_id": "beat_015",
+      "beat_title": "灵魂黑暗反思",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "女主内心总结不想再纠缠并对前世今生婚姻的绝望反思，与揭示女主重生后心态转变的功能匹配。"
+    },
+    {
+      "beat_id": "beat_016",
+      "beat_title": "决定主动求变",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "女主打破被动、坚定选择和离开启新人生转折，与场景推动女主追求独立命运主线的叙事功能匹配。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "variant_id": "lu_shuyi_confession",
+  "variant_type": "formal",
+  "variant_name": "陆姝仪 — 坦白认命",
+  "tags": [
+    "重生者",
+    "坦白",
+    "认命"
+  ],
+  "scene_ids": [
+    "scene_017"
+  ],
+  "trigger": "不请自来参加满月宴，卸下伪装坦白一切，准备接受自己算计来的婚姻。",
+  "appearance_delta": {
+    "face": "不再有常备的泪痕，神情平静甚至带着一丝疲惫与自嘲，眼神变得冷漠清醒",
+    "body": "站姿相对挺直，不再刻意佝偻示弱",
+    "hair": "梳着已婚妇人的发髻，装饰比以往略显正式但依旧不张扬",
+    "distinguishing_features": "卸下白莲花伪装后的清冷与决绝"
+  },
+  "costume_override": {
+    "outfit": "浅绿色的正式对襟襦裙，衣料比以往的纱裙厚实，符合已婚身份及赴宴场合",
+    "color_palette": [
+      "浅绿",
+      "灰白"
+    ]
+  },
+  "visual_reference": "A young ancient Chinese woman standing calmly, wearing a formal light green dress, married woman's elegant hairstyle, no tears, calm and slightly cynical expression, shedding her fragile disguise, elegant, cinematic lighting, 8k.",
+  "emotional_tone": "平静、自嘲与认命"
+}

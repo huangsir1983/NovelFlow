@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 脚伤时刻",
+  "tags": [
+    "受伤",
+    "试探",
+    "倔强"
+  ],
+  "scene_ids": [
+    "scene_005",
+    "scene_006"
+  ],
+  "trigger": "马球会上脚崴后，在休息室中",
+  "appearance_delta": {
+    "face": "眉头微蹙显示疼痛，但眼神依然不肯示弱",
+    "body": "坐姿略显不适，一只脚抬起",
+    "hair": "发髻略有凌乱，有几缕发丝散落",
+    "distinguishing_features": "脚踝处缠着绷带，面色略显苍白但仍保持高傲"
+  },
+  "costume_override": {
+    "outfit": "青色襦裙，裙摆略有泥痕，一只绣花鞋脱落",
+    "color_palette": [
+      "青色",
+      "素色"
+    ]
+  },
+  "visual_reference": "古代女子，清秀端庄的面容上眉头微蹙显示疼痛，但眼神依然锐利不肯示弱，身着青色襦裙裙摆略有泥痕，发髻略有凌乱几缕发丝散落在肩头，坐在椅子上一只脚抬起脚踝处缠着白色绷带，一只绣花鞋脱落在地，面色略显苍白但姿态依然挺直，背景是马球会休息室，光线柔和，气氛微妙紧张",
+  "visual_prompt_negative": "健康状态，完整发髻，整洁服装，柔弱姿态，求助表情",
+  "emotional_tone": "疼痛、倔强、试探"
+}

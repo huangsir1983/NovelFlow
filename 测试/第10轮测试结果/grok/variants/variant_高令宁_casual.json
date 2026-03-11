@@ -1,0 +1,30 @@
+{
+  "variant_id": "高令宁_variant_04",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南独立",
+  "tags": [
+    "成熟",
+    "冬日",
+    "自由"
+  ],
+  "scene_ids": [
+    "scene_013"
+  ],
+  "trigger": "三年后江南院落冬日雪中，与昭昭堆雪人、面对沈词来访时",
+  "appearance_delta": {
+    "face": "清丽精致，五官锋芒依旧，眼神多了一丝平静戏谑",
+    "body": "纤细苗条，姿态高傲却更放松自在",
+    "hair": "乌黑长发部分挽起，余发披散简单发饰",
+    "distinguishing_features": "嘴角微扬自信微笑，雪花沾发眉梢"
+  },
+  "costume_override": {
+    "outfit": "浅绿绣花汉服外披白色狐裘，冬日保暖",
+    "color_palette": [
+      "浅绿",
+      "白",
+      "粉紫"
+    ]
+  },
+  "visual_reference": "Elegant young Chinese woman 18-23, sharp determined eyes with proud chin lift softened by serene confidence and teasing glint, delicate fair features, long jet-black hair in loose partial updo with falling strands and simple pins, slender graceful figure, wearing flowing embroidered Hanfu in soft green and pink-purple tones with white fur cloak, standing in snowy Jiangnan courtyard with snowflakes falling, cinematic historical drama style, highly detailed face, soft natural winter daylight, expression of independence and playful provocation",
+  "emotional_tone": "追求自由的平静与对过去的戏弄"
+}

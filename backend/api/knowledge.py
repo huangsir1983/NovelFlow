@@ -1,4 +1,4 @@
-"""Knowledge base, Characters, and Locations CRUD API."""
+"""Knowledge base, Characters, Locations CRUD API + Story Bible aggregation."""
 
 from datetime import datetime
 from typing import Optional
@@ -12,6 +12,8 @@ from database import get_db
 from models.knowledge_base import KnowledgeBase
 from models.character import Character
 from models.location import Location
+from models.project import Project
+from models.beat import Beat
 
 router = APIRouter(tags=["knowledge"])
 
@@ -43,6 +45,14 @@ class CharacterCreate(BaseModel):
     personality: str = ""
     arc: str = ""
     relationships: list = []
+    age_range: str = ""
+    appearance: dict = {}
+    costume: dict = {}
+    casting_tags: list = []
+    visual_reference: str = ""
+    visual_prompt_negative: str = ""
+    desire: str = ""
+    flaw: str = ""
 
 
 class CharacterUpdate(BaseModel):
@@ -53,6 +63,14 @@ class CharacterUpdate(BaseModel):
     personality: Optional[str] = None
     arc: Optional[str] = None
     relationships: Optional[list] = None
+    age_range: Optional[str] = None
+    appearance: Optional[dict] = None
+    costume: Optional[dict] = None
+    casting_tags: Optional[list] = None
+    visual_reference: Optional[str] = None
+    visual_prompt_negative: Optional[str] = None
+    desire: Optional[str] = None
+    flaw: Optional[str] = None
 
 
 class CharacterResponse(BaseModel):
@@ -65,6 +83,14 @@ class CharacterResponse(BaseModel):
     personality: str
     arc: str
     relationships: list
+    age_range: str
+    appearance: dict
+    costume: dict
+    casting_tags: list
+    visual_reference: str
+    visual_prompt_negative: str = ""
+    desire: str
+    flaw: str
     created_at: datetime
     updated_at: datetime
     model_config = {"from_attributes": True}
@@ -77,6 +103,8 @@ class LocationCreate(BaseModel):
     description: str = ""
     visual_description: str = ""
     mood: str = ""
+    sensory: str = ""
+    narrative_function: str = ""
 
 
 class LocationUpdate(BaseModel):
@@ -84,6 +112,8 @@ class LocationUpdate(BaseModel):
     description: Optional[str] = None
     visual_description: Optional[str] = None
     mood: Optional[str] = None
+    sensory: Optional[str] = None
+    narrative_function: Optional[str] = None
 
 
 class LocationResponse(BaseModel):
@@ -93,6 +123,10 @@ class LocationResponse(BaseModel):
     description: str
     visual_description: str
     mood: str
+    sensory: str
+    narrative_function: str
+    visual_reference: str = ""
+    visual_prompt_negative: str = ""
     created_at: datetime
     updated_at: datetime
     model_config = {"from_attributes": True}
@@ -143,6 +177,13 @@ def create_character(project_id: str, data: CharacterCreate, db: Session = Depen
         personality=data.personality,
         arc=data.arc,
         relationships=data.relationships,
+        age_range=data.age_range,
+        appearance=data.appearance,
+        costume=data.costume,
+        casting_tags=data.casting_tags,
+        visual_reference=data.visual_reference,
+        desire=data.desire,
+        flaw=data.flaw,
     )
     db.add(character)
     db.commit()
@@ -164,7 +205,9 @@ def update_character(project_id: str, character_id: str, data: CharacterUpdate, 
     if not character:
         raise HTTPException(status_code=404, detail="Character not found")
 
-    for field in ["name", "aliases", "role", "description", "personality", "arc", "relationships"]:
+    for field in ["name", "aliases", "role", "description", "personality", "arc", "relationships",
+                   "age_range", "appearance", "costume", "casting_tags", "visual_reference",
+                   "visual_prompt_negative", "desire", "flaw"]:
         value = getattr(data, field)
         if value is not None:
             setattr(character, field, value)
@@ -200,6 +243,8 @@ def create_location(project_id: str, data: LocationCreate, db: Session = Depends
         description=data.description,
         visual_description=data.visual_description,
         mood=data.mood,
+        sensory=data.sensory,
+        narrative_function=data.narrative_function,
     )
     db.add(location)
     db.commit()
@@ -221,7 +266,7 @@ def update_location(project_id: str, location_id: str, data: LocationUpdate, db:
     if not location:
         raise HTTPException(status_code=404, detail="Location not found")
 
-    for field in ["name", "description", "visual_description", "mood"]:
+    for field in ["name", "description", "visual_description", "mood", "sensory", "narrative_function"]:
         value = getattr(data, field)
         if value is not None:
             setattr(location, field, value)
@@ -239,3 +284,72 @@ def delete_location(project_id: str, location_id: str, db: Session = Depends(get
     db.delete(location)
     db.commit()
     return None
+
+
+# ── Story Bible Aggregation ─────────────────────────────────────
+
+@router.get("/projects/{project_id}/story-bible")
+def get_story_bible(project_id: str, db: Session = Depends(get_db)):
+    """Aggregated Story Bible view: characters + locations + world_building + style_guide + key beats + stats."""
+    project = db.query(Project).filter(Project.id == project_id).first()
+    if not project:
+        raise HTTPException(status_code=404, detail="Project not found")
+
+    characters = db.query(Character).filter(Character.project_id == project_id).all()
+    locations = db.query(Location).filter(Location.project_id == project_id).all()
+    beats = db.query(Beat).filter(Beat.project_id == project_id).order_by(Beat.order).all()
+
+    kb = db.query(KnowledgeBase).filter(KnowledgeBase.project_id == project_id).first()
+    world_building = kb.world_building if kb else {}
+    style_guide = kb.style_guide if kb else {}
+
+    # Key beats: high emotional impact or hook potential
+    key_beats = [
+        {
+            "id": b.id,
+            "title": b.title,
+            "beat_type": b.beat_type,
+            "emotional_value": b.emotional_value,
+            "order": b.order,
+        }
+        for b in beats
+        if abs(b.emotional_value) >= 0.6
+    ][:10]
+
+    return {
+        "project_id": project_id,
+        "project_name": project.name,
+        "characters": [
+            {
+                "id": c.id, "name": c.name, "aliases": c.aliases or [], "role": c.role,
+                "description": c.description or "", "personality": c.personality or "",
+                "arc": c.arc or "", "desire": c.desire or "", "flaw": c.flaw or "",
+                "age_range": getattr(c, "age_range", "") or "",
+                "appearance": getattr(c, "appearance", {}) or {},
+                "costume": getattr(c, "costume", {}) or {},
+                "visual_reference": getattr(c, "visual_reference", "") or "",
+                "visual_prompt_negative": getattr(c, "visual_prompt_negative", "") or "",
+            }
+            for c in characters
+        ],
+        "locations": [
+            {
+                "id": l.id, "name": l.name, "description": l.description or "",
+                "visual_description": l.visual_description or "",
+                "mood": l.mood or "",
+                "sensory": getattr(l, "sensory", "") or "",
+                "narrative_function": getattr(l, "narrative_function", "") or "",
+            }
+            for l in locations
+        ],
+        "world_building": world_building,
+        "style_guide": style_guide,
+        "key_beats": key_beats,
+        "stats": {
+            "character_count": len(characters),
+            "location_count": len(locations),
+            "beat_count": len(beats),
+            "protagonist_count": sum(1 for c in characters if c.role == "protagonist"),
+            "antagonist_count": sum(1 for c in characters if c.role == "antagonist"),
+        },
+    }

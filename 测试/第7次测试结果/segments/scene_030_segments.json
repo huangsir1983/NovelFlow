@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0136",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0447",
+      "shot_0448",
+      "shot_0449"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并为一段建立限制性主观空间：先交代室内狼狈现场与四人站位，再让陆姝仪主动下塌扑近，最后落到高令宁无法后退的被迫承受。角色集合未变，情绪从压迫预感推进到正面接招，适合作为同一连续视频段。",
+    "order": 136
+  },
+  {
+    "id": "seg_0137",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0450",
+      "shot_0451",
+      "shot_0452"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段完整呈现‘道德施压启动’：动作先于台词，抓衣角建立物理绑定；随后以一句称呼试探，再用高令宁的沉默反应定下对峙基调。角色关系未变，情感节拍从冒犯到试探到冷拒，内部起伏明确。",
+    "order": 137
+  },
+  {
+    "id": "seg_0138",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0453",
+      "shot_0454",
+      "shot_0455"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "将陆姝仪完整哀求、高度自贬与高令宁的关键确认合并，形成同一情感弧线：语言越低，压迫越高。手部特写把‘奴婢、宠物’的羞辱视觉化，再落回高令宁的静止确认，完成第一轮冲击峰值。",
+    "order": 138
+  },
+  {
+    "id": "seg_0139",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0456",
+      "shot_0457",
+      "shot_0458",
+      "shot_0459"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是明确的情感转折点，角色集合虽未新增，但对峙结构被沈睿的介入彻底改写：从陆姝仪单方面施压，转入沈睿公开护人的动作宣言。连用切入、揽抱、责问、擦泪四步，完成由‘看’到‘护’的升级，适合合并成一段高强度连续动作视频。",
+    "order": 139
+  },
+  {
+    "id": "seg_0140",
+    "scene_id": "scene_030",
+    "shot_ids": [
+      "shot_0460",
+      "shot_0461",
+      "shot_0462"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段完成情绪定案与关系收束：先给高令宁内心最终确认，再让沈睿公开宣示立场，最后退回限制性主观全景，固定新的关系版图。情感由内冷到外判再到冷收尾，形成清晰终段弧线。",
+    "order": 140
+  }
+]

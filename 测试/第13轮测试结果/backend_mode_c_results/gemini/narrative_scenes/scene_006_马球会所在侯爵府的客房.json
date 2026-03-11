@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 侯爵府客房 - NIGHT",
+  "location": "马球会所在侯爵府的客房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪装病，沈词温言哄劝。高令宁心冷欲走，沈词却拦住她，要求她在陆姝仪婚事上让步，陆姝仪下跪哭求，被高令宁拒绝。",
+  "key_dialogue": "退一步，从此就要退万步。",
+  "emotional_peak": "陆姝仪下跪，沈词将其揽入怀中，高令宁冷眼旁观，三人间的矛盾彻底爆发。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "药碗",
+    "灯火"
+  ],
+  "dramatic_purpose": "将陆姝仪的问题推到台前，迫使高令宁做出选择。通过回忆闪回，揭示前世陆姝仪之死的隐情和对男女主关系的毁灭性打击。",
+  "source_text_start": "大夫来看过了我的伤。\n脚踝错位，正骨完便好了。",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

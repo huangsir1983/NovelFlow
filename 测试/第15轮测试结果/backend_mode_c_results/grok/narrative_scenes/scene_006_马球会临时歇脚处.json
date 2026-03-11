@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 临时歇脚处 - 日",
+  "location": "马球会临时歇脚处",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪胃病发作，沈词照顾，高令宁冷眼旁观",
+  "key_dialogue": "我们回家吧。",
+  "emotional_peak": "沈词目光如芒在背",
+  "tension_score": 0.65,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "药碗",
+    "塌"
+  ],
+  "dramatic_purpose": "强化前世阴影与今生对峙",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了。",
+  "source_text_end": "我收回视线，只觉得索然无味。"
+}

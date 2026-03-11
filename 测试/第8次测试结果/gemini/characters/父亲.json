@@ -1,0 +1,61 @@
+{
+  "name": "父亲",
+  "aliases": [
+    "高父",
+    "高家家主"
+  ],
+  "role": "supporting",
+  "age_range": "45-55岁",
+  "appearance": {
+    "face": "圆滑的市侩面相，眼角与嘴角有常年赔笑留下的深刻法令纹和细纹，眉头常因焦虑而微蹙。",
+    "body": "中等身材，略微发福，带有习惯性含胸微驼背的肢体记忆（长期逢迎上位者的姿态）。",
+    "hair": "灰白相间的发丝，梳理得一丝不苟，戴着象征身份但材质并不顶级的玉冠或木簪。",
+    "distinguishing_features": "谄媚赔笑与焦躁不安时无处安放的双手（如搓手、拍案后又懊恼的动作）形成的强烈反差。"
+  },
+  "costume": {
+    "typical_outfit": "中下阶层官僚或富商的常服，款式端庄但细节处显露底气不足，试图通过繁复的花纹掩盖门第的差距。",
+    "color_palette": [
+      "赭石色",
+      "暗青色",
+      "古铜色"
+    ],
+    "texture_keywords": [
+      "中等丝绸",
+      "棉麻",
+      "略显陈旧的暗纹锦缎"
+    ]
+  },
+  "casting_tags": [
+    "黄金配角",
+    "市侩慈父",
+    "悲喜剧交织",
+    "老戏骨",
+    "情绪外放"
+  ],
+  "visual_reference": "A 50-year-old ancient Chinese man, minor official, slightly plump, wearing dark brown and olive green silk hanfu, grey hair in a neat topknot, deep smile lines and slightly furrowed brows, slightly hunched posture, anxious but caring expression, cinematic lighting, 8k resolution, photorealistic.",
+  "description": "在阶级自卑与护犊之情中反复拉扯挣扎的市侩慈父。",
+  "personality": "势利圆滑但底线护短。对外唯唯诺诺、极尽逢迎；对内虽端着封建家长的架子且遇事极易焦躁慌张（如遇变故在屋内绕圈走），但当女儿的真正幸福受到威胁时，能压倒虚荣心，向女儿的意愿妥协。",
+  "desire": "通过女儿与高门显贵（沈家）的联姻实现家族阶级的跃升，同时祈求女儿一生安稳幸福。",
+  "flaw": "阶级自卑感深重，缺乏对抗权贵的骨气与远见，容易被表面的荣华富贵与阶级压迫感蒙蔽双眼。",
+  "arc": "焦虑攀附（恐惧女儿得罪权贵破坏婚事） → 妥协护女（心疼女儿，主动提出愿顶着压力退婚） → 仰仗追随（见证女儿重振门楣，从传统父权掌控者彻底转变为女儿的拥趸）。",
+  "relationships": [
+    {
+      "target": "高姑娘",
+      "type": "情感/权力",
+      "dynamic": "表面是父权压制与斥责，实则被女儿的清醒与强势完全主导。他因女儿挑衅权贵而暴怒恐慌，却又在私下密谈时因心疼女儿而甘愿放弃高攀。",
+      "function": "提供亲情羁绊，衬托女主重生后的清醒、强势与独立，铺垫女主“重振门楣”的家族动机。"
+    },
+    {
+      "target": "沈词",
+      "type": "利益/权力",
+      "dynamic": "极度敬畏与谄媚。视沈词为家族飞黄腾达的恩赐，在沈词面前毫无岳父尊严，甚至将沈家刻意怠慢的减半聘礼也视作理所应当。",
+      "function": "具象化沈家的高门权势，放大男女主之间的阶级差距与前世女主在婚姻中的卑微处境。"
+    },
+    {
+      "target": "媒人",
+      "type": "利益/对照",
+      "dynamic": "极力讨好与同频共振。生怕媒人传错话导致联姻失败，两人在面对沈家权势时表现出高度一致的敬畏与惶恐。",
+      "function": "展现其市侩、逢迎的社会生存面具，推动提亲现场剑拔弩张的戏剧冲突。"
+    }
+  ]
+}

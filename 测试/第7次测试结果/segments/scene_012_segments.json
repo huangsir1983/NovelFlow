@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0047",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0165",
+      "shot_0166",
+      "shot_0167"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以环境建立、病体确认、照料者入场构成一个完整起势段。三镜头角色集合从女主单人扩展到双人，但仍属同一床前空间连续动作，情绪从压迫闷滞推进到迟来的照料，无需切段。",
+    "order": 47
+  },
+  {
+    "id": "seg_0048",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0168",
+      "shot_0169",
+      "shot_0170"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜围绕同一动作核心“递药”展开，先拍照料者耗损，再落到道具，再拍被照料者的拒近反应，形成单一情绪弧线：愧疚逼近—监护压迫—冷静承受。动作连续，适合合并为一段。",
+    "order": 48
+  },
+  {
+    "id": "seg_0049",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0171",
+      "shot_0172",
+      "shot_0173"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是完整的“喝药”情绪事件，遵循听者比说者重要：先交代双人关系，再近拍高令宁的吞咽，最后落到沈词反应。动作和视线连续，情绪由紧绷推进到隐忍，再回到他的卑微不安。",
+    "order": 49
+  },
+  {
+    "id": "seg_0050",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0174",
+      "shot_0175",
+      "shot_0176"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "段内从外部补救行为切回女主主观感受，再收束到身体风险，完成一次明确的情绪换挡：焦灼忙乱—冷观疏离—潜伏恐惧。虽然视觉焦点转移，但时空未变，且都服务于‘补救无效’这一同一叙事单元。",
+    "order": 50
+  },
+  {
+    "id": "seg_0051",
+    "scene_id": "scene_012",
+    "shot_ids": [
+      "shot_0177",
+      "shot_0178",
+      "shot_0179"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段完成短暂和缓到更深裂痕的收束。先给出几乎发生的接触，再用女主眼神冷收，最后以远景定格关系状态，形成清晰结尾节拍，也为下场戏的短暂缓和与更大悲剧预留情绪余震。",
+    "order": 51
+  }
+]

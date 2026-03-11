@@ -1,0 +1,62 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高姑娘",
+    "夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-25",
+  "appearance": {
+    "face": "清丽端庄，眼神锐利且清冷，病中略显苍白",
+    "body": "纤细修长",
+    "hair": "乌黑长发，常挽端庄妇人髻或简约发簪",
+    "distinguishing_features": "眼神中透着历经沧桑的透彻与不屈的傲骨"
+  },
+  "costume": {
+    "typical_outfit": "质地优良但款式简约的交领襦裙，后期偏好素雅常服",
+    "color_palette": [
+      "月白",
+      "青色",
+      "正红（大婚时）"
+    ]
+  },
+  "casting_tags": [
+    "清冷大女主",
+    "倔强",
+    "端庄主母",
+    "破碎感"
+  ],
+  "visual_reference": "1girl, ancient chinese noblewoman, elegant, pale skin, sharp beautiful eyes, wearing traditional hanfu, dignified posture, cold and clear expression, masterpiece, high quality, cinematic lighting",
+  "personality": "争强好胜，眼里揉不得沙子，恩怨分明，极度理智且果决",
+  "desire": "重振门楣，保护家人，生下前世的长子沈睿，随后远离沈词获得自由",
+  "flaw": "前世自尊心过强导致沟通断裂；今生过于执着于过去的伤害而封闭情感",
+  "arc": "从充满恨意与报复心，到彻底放下执念获得内心平静，最终走向独立自主的新生活",
+  "scene_presence": "全剧核心视角，贯穿始终",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前夫/宿命纠缠",
+      "dynamic": "从相看两厌、互相折磨，到女方彻底放下，男方陷入偏执疯魔",
+      "function": "核心矛盾制造者与情感张力来源"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌/对照组",
+      "dynamic": "前世被其阴影笼罩，今生冷眼旁观其自作自受",
+      "function": "推动男女主关系破裂的催化剂"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "相互扶持，父亲是她最坚实的后盾",
+      "function": "提供亲情庇护与退路"
+    },
+    {
+      "target": "蒋晟",
+      "type": "追求者",
+      "dynamic": "短暂的暧昧对象，后被卷入阴谋",
+      "function": "引发沈词嫉妒的工具人"
+    }
+  ]
+}

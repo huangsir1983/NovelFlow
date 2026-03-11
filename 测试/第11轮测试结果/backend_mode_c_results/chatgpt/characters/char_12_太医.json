@@ -1,0 +1,31 @@
+{
+  "name": "太医",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-65",
+  "appearance": {
+    "face": "沉稳老成，略显严肃",
+    "body": "普通体型",
+    "hair": "整齐束发或冠帽",
+    "distinguishing_features": "典型官医气质"
+  },
+  "costume": {
+    "typical_outfit": "官医袍服",
+    "color_palette": [
+      "灰白",
+      "深青"
+    ]
+  },
+  "casting_tags": [
+    "医者",
+    "宫廷医生"
+  ],
+  "visual_reference": "Ancient Chinese imperial physician, serious older man, traditional medical robe, calm professional expression",
+  "visual_prompt_negative": "modern doctor coat, stethoscope, glasses, western hospital",
+  "personality": "谨慎专业",
+  "desire": "如实判断病情",
+  "flaw": "只能报结果，难以介入人心纷争",
+  "arc": "无明显弧线",
+  "scene_presence": "诊断男胎、难产场面辅助出现",
+  "relationships": []
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "EXT. 马球会园林 - 白日",
+  "location": "侯爵娘子马球会",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "沈词认陆姝仪为义妹，我提出必须等她出嫁才答应婚事。随后我与蒋晟同去马球会，见到沈词宠溺看陆姝仪，故意借蒋晟刺激他。",
+  "key_dialogue": "「贵府小姐出嫁后，我才会答应这门亲事。」",
+  "emotional_peak": "我看见沈词对陆姝仪的柔情，妒与恨被再度点燃。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "义妹身份"
+  ],
+  "dramatic_purpose": "实景呈现三角关系，并加深我对两人暧昧的愤怒认知。",
+  "visual_reference": "春日贵族马球会，尘土飞扬与园林柳池并存，一边是殷勤护持，一边是隐秘对视与嫉恨。",
+  "visual_prompt_negative": "不要现代运动装，不要西式马球俱乐部风，不要卡通恋爱滤镜。",
+  "source_text_start": "沈家公子认了位义妹。消息传到我耳中，我面不改",
+  "source_text_end": "蒋晟接过我伸过来的手，轻轻置于掌心，脸色微红。"
+}

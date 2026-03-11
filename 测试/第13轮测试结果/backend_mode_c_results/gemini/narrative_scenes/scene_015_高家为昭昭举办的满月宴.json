@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "EXT. 高府宴会 - DAY",
+  "location": "高家为昭昭举办的满月宴",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "陆姝仪不请自来，向高令宁坦白自己也是重生者，并承认前世投湖和今生设计蒋晟都是自己的阴谋。沈词在不远处听到了真相。",
+  "key_dialogue": "高令宁，是我对不住你。",
+  "emotional_peak": "真相大白，高令宁震惊，而沈词面色苍白，意识到自己两世都错怪了高令宁。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "满月宴的请帖",
+    "各色酒盏"
+  ],
+  "dramatic_purpose": "解开前世陆姝仪之死的谜团，彻底洗清高令宁的“罪名”，让沈词的悔恨达到顶峰。",
+  "source_text_start": "再见陆姝仪，是在昭昭的满月宴上。\n她拿了蒋晟的请帖，不请自来。",
+  "source_text_end": "却只捉住了我的衣角。"
+}

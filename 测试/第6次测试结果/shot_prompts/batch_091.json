@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0546",
+    "shot_id": "shot_0542",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, shown in close-up side profile on the right side of the frame; she gazes past the foreground bridal gifts toward the bright doorway outside, her expression calm, nearly cold and decisive, emotionally distant from the marriage; a blurred streak of red silk sweeps across the left foreground, out-of-focus betrothal gifts partially obscure the lower front, the background is bright and empty to suggest departure, low-saturation warm-cool contrast palette with muted wood brown, gray-teal shadows, amber candle residue and restrained red accents, soft side-back light from the doorway shaping her cheek and neck, cinematic realism, shallow depth of field, delicate texture, subtle film grain, highly detailed historical drama still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, realistic historical drama, shallow depth of field, film grain",
+      "lighting": "soft side-back daylight from doorway with low-saturation warm-cool contrast, bright empty background, restrained red accents, gentle amber interior spill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary makeup, modern hairstyle, western clothing, text, subtitle, watermark, logo, low quality, lowres, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated red, CGI look"
+  },
+  {
+    "id": "sp_0547",
+    "shot_id": "shot_0516",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, standing at left-center in formal red bridal attire beside Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, standing at right-center; the two newlyweds stand upright with a controlled gap between them, formal and emotionally distant; wide shot of a wedding hall in strict axial symmetry, ritual altar centered slightly in the rear, paired red wedding candles in front creating depth lines, restrained red silk crossing beams and pillars, blurred guest shoulders pressing in from both foreground sides, tall dark wooden columns and dim noble interior in the background, low-saturation warm-cool contrast with muted gray-cyan shadows, dark wood brown, amber candlelight and carefully limited crimson under 15 percent, static formal composition, cinematic realism, architectural pressure, highly detailed, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, realistic historical drama, symmetrical composition, film grain",
+      "lighting": "dim amber candlelight mixed with cool ambient daylight, low-saturation warm-cool contrast, dark wood interior, restrained crimson highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, LED lights, plastic decorations, contemporary wedding design, text, watermark, logo, low quality, lowres, overexposed, cartoon, 3d render, bad anatomy, distorted architecture, oversaturated red"
+  },
+  {
+    "id": "sp_0548",
+    "shot_id": "shot_0517",
+    "prompt_text": "Restricted subjective view from Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure; she experiences the world through a red bridal veil, detached and faintly dizzy, with ritual space separated from her perception; close-up subjective frame covered by semi-transparent red gauze, soft dark red occlusion around the edges, blurred altar and defocused candle bokeh in the center, distant human silhouettes reduced to trembling soft shapes, blank space concentrated in the lower part to create weightlessness, low-saturation warm-cool contrast beneath the veil with dim amber glows and muted gray shadows, slight handheld instability, cinematic realism, immersive veil texture, shallow focus, subtle grain, oppressive and isolated atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, subjective POV, shallow depth of field, film grain",
+      "lighting": "diffused candlelight filtered through red gauze, muted amber bokeh, subdued cool shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric light, plastic fabric, modern interior, text, watermark, logo, low quality, lowres, sharp modern objects, bad blur, bad anatomy, oversaturated crimson, digital glitch, sci-fi"
+  },
+  {
+    "id": "sp_0549",
+    "shot_id": "shot_0518",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, shown from the left-front 45-degree angle in medium shot under a red bridal veil; her shoulders and neck are rigid, her body unnaturally still, emotionally absent from the ongoing ritual. Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands upright in the right rear background with only a side contour visible; the left half of the frame is dominated by the red veil, while blurred ritual altar and paired wedding candles in the background form stable vertical lines that compress the characters' movement space, dark wooden wedding hall, low-saturation warm-cool contrast, muted red accents, amber candlelight against cool gray-blue shadow, static and oppressive composition, cinematic realism, precise historical texture, shallow depth of field, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, realistic historical drama, shallow depth of field, film grain",
+      "lighting": "controlled amber candlelight with cool ambient shadow, low-saturation warm-cool contrast, red veil softly diffusing light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, plastic, zipper, modern tailoring, text, watermark, logo, low quality, lowres, bad anatomy, extra limbs, oversaturated red, cartoon, glossy CGI"
+  },
+  {
+    "id": "sp_0550",
+    "shot_id": "shot_0519",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, represented through a close-up of her folded hands resting before her body; her fingertips curl slightly but do not move, conveying mechanical stillness rather than shyness; the lower center of the frame is filled with pale fingers against rich red wedding sleeves, creating a cold-warm contrast, a blurred strand of red gauze passes through the foreground, the background contains only tiny flickering golden candle points in darkness, low-saturation warm-cool palette with restrained crimson, cool skin tones, dark wood shadow and soft amber glints, static composition, cinematic realism, tactile silk texture, delicate skin detail, shallow depth of field, highly detailed historical film still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, macro close-up feel, shallow depth of field, film grain",
+      "lighting": "soft amber candle flicker on red silk with cool shadowed skin tones, low-saturation warm-cool contrast, dim interior light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, nail polish, modern jewelry, electric light, text, watermark, logo, low quality, lowres, bad hands, extra fingers, malformed fingers, oversaturated red, cartoon, artificial CGI"
+  },
+  {
+    "id": "sp_0551",
+    "shot_id": "shot_0520",
+    "prompt_text": "Restricted subjective view from Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure; she remains mentally blank while the ritual pressure closes in around her; medium close-up subjective frame beneath the red bridal veil, blurred human figures and the ritual altar centered ahead, the upper frame pressed down by translucent red gauze, shadowy guest shapes on both sides converging inward as if the room is narrowing, an unstable right-rear candle glow flickers with uneasy rhythm, subtle dolly-in sensation, low-saturation warm-cool contrast with dim amber highlights, gray-blue shadow, dark wood interior and controlled crimson accents, cinematic realism, suffocating ceremonial space, shallow focus, film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, subjective POV, shallow depth of field, film grain",
+      "lighting": "filtered amber candlelight through red gauze with cool shadow compression, low-saturation warm-cool contrast, oppressive enclosed interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, microphones, plastic decor, modern crowd clothing, text, watermark, logo, low quality, lowres, bad blur, distorted perspective, oversaturated red, futuristic effects, CGI look"
+  }
+]

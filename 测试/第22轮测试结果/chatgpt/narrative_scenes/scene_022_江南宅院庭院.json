@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_022",
+  "order": 21,
+  "heading": "EXT. 江南庭院雪地 - DAY",
+  "location": "江南宅院庭院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "昭昭",
+    "沈词"
+  ],
+  "core_event": "冬雪后，沈词突然来到江南，撞见高父安排住进来的几位“赘婿”陪昭昭堆雪。高令宁故意称他们是自己的新夫婿，沈词脸色骤沉。",
+  "key_dialogue": "「我的新夫婿。」",
+  "emotional_peak": "沈词本想以父亲身份自然融入，却瞬间意识到自己正被彻底排除在新生活之外。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "雪球",
+    "院门",
+    "冬衣斗篷"
+  ],
+  "dramatic_purpose": "制造终局前最后一次正面冲撞，凸显男主迟来的危机感",
+  "source_text_start": "冬雪过后, 我推开院门。\n爹爹在江南替我找",
+  "source_text_end": "我不耐烦地推开了他：「客房在里面, 去留随意。」"
+}

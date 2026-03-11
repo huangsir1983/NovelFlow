@@ -1,0 +1,182 @@
+[
+  {
+    "id": "shot_0125",
+    "scene_id": "scene_008",
+    "shot_number": 1,
+    "goal": "建立房内时空、生活质感与表面安静的氛围，同时埋下‘命运重复’的阴影感，为喜脉结果做冷静铺垫。",
+    "composition": "MLS，门框式构图。前景左侧虚焦为半掩帘幕与门框，形成遮挡；中景右侧高令宁坐于榻边案前，身形偏右三分之一，月白衣袖与微隆腹部可辨；左侧案几上摆着针线笸箩、绣绷、彩线和半成虎头帽；背景为窗棂侧逆光，光线切出条状阴影，房内木褐与米白层次清晰，留白集中在左中部，营造静压感。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "温暖日常中潜藏冷意，让观众感到这不是纯粹喜讯，而是命运逼近前的安静。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 125
+  },
+  {
+    "id": "shot_0126",
+    "scene_id": "scene_008",
+    "shot_number": 2,
+    "goal": "把叙事重心收束到高令宁身体状态与等待诊断的当下，暗示她已意识到某种将被确认的结果。",
+    "composition": "MS。高令宁位于画面右侧，侧身朝左，手腕平放在案上或软垫上，姿态端正克制；前景下缘带入一角绣绷与散开的彩线；背景窗边柔光勾出她脸部与肩线，腹部轮廓在宽松衣料下隐约可见。左侧留出空位，暗示太医即将进入/正在诊脉的位置，但不完整展示其全貌，保持限制性视角。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众进入她的压抑等待，感到她并不惊喜，只是沉着承受。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.14,
+    "order": 126
+  },
+  {
+    "id": "shot_0127",
+    "scene_id": "scene_008",
+    "shot_number": 3,
+    "goal": "用诊脉动作确认医疗场景成立，并以不完全展示太医的方式维持高令宁主观限制。",
+    "composition": "CU。画面中心是高令宁搭在诊垫上的手腕，肤色冷白；画面左下进入太医的两指按脉，袖口只露一截深色衣料，不见完整面容；右下角虚焦可见一缕彩线与虎头帽边缘，形成母性与诊断的并置；背景完全压虚，仅保留案几暖色质感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造一种安静却锋利的悬置感，让‘被命运碰到脉门’的感觉具体化。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 127
+  },
+  {
+    "id": "shot_0128",
+    "scene_id": "scene_008",
+    "shot_number": 4,
+    "goal": "通过高令宁的面部反应承接诊断前的停顿，突出她对结果的预感与冷静自控。",
+    "composition": "MCU。高令宁位于画面右侧偏中，视线略垂向左下，不看镜头；前景左侧以太医肩背虚焦遮挡一小部分画面，形成对峙式压迫；背景是窗棂柔光与屏风暗面，脸上一半受光一半落阴，眼神乌深克制，唇线收紧。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她不是被喜讯点亮，而是被旧记忆轻轻刺了一下。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.3,
+    "order": 128
+  },
+  {
+    "id": "shot_0129",
+    "scene_id": "scene_008",
+    "shot_number": 5,
+    "goal": "完成关键信息揭示：喜脉与男胎被确认，但用冷处理呈现‘验证’而非庆贺。",
+    "composition": "MS。限制性双视角。太医位于画面左侧近景半身，略俯身向右；高令宁位于右侧坐姿，构成稳定对角线。两人之间隔着案几与诊垫，中央留有空白，强化疏离。前景下方压入虎头帽和针线笸箩一角；背景为窗棂光斜切，光落在高令宁脸上，太医更多处于暗部。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "制造一种礼貌、平静、却近乎宿命审判式的冲击。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 129
+  },
+  {
+    "id": "shot_0130",
+    "scene_id": "scene_008",
+    "shot_number": 6,
+    "goal": "抓住结果落地后的第一反应，表现高令宁把震动压回体内，不让情绪外溢。",
+    "composition": "CU。高令宁正面略偏侧，位于画面中央偏右，眼睫轻颤后垂下，唇角没有起伏；背景完全虚化，只保留窗边冷暖混合的光斑。构图上头顶留少量压迫性空间，人物不居中满格，形成被看不见的命运挤压之感。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到一种无声的静默冲击——不是喜极，而是心里某道旧伤被证实。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.56,
+    "order": 130
+  },
+  {
+    "id": "shot_0131",
+    "scene_id": "scene_008",
+    "shot_number": 7,
+    "goal": "把抽象的宿命感转化为具体动作：她低头拿起针线，主动把情绪压入‘做事’之中。",
+    "composition": "CU。画面中心为她的手拿起虎头帽与针线，动作从静止到启动；衣袖从右侧进入，针尖在光里一闪。前景下部是彩线盘绕，背景上部虚焦中保留她下颌与低垂的视线。通过手部动作与上一镜脸部低头形成动作匹配剪接。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她将情绪转译为控制感与母性投射，克制更重于柔软。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 131
+  },
+  {
+    "id": "shot_0132",
+    "scene_id": "scene_008",
+    "shot_number": 8,
+    "goal": "强化针线动作本身的仪式感，让‘为孩子做打算’成为场面的真正情绪承载点。",
+    "composition": "ECU。针尖穿过虎头帽边缘绣面，丝线被缓缓拉紧，占据画面中心；布料纹理、绣线色泽与她指尖细微用力清晰可见。背景完全虚化，无他物干扰，只让线的来回成为唯一视觉事件。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "带出细小而尖锐的情感牵引：温柔与危险共存，像在替未来一针一针缝定命数。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 132
+  },
+  {
+    "id": "shot_0133",
+    "scene_id": "scene_008",
+    "shot_number": 9,
+    "goal": "回到人物面部，展现她在缝制中的沉静与内心盘算，完成从结果震动到自我收束的转换。",
+    "composition": "MCU。高令宁位于画面右侧偏中，低头缝制，视线始终落在手中物件，不看外界；前景左侧以绣绷虚焦形成弧形遮挡，背景是窗棂切割出的条状阴影落在墙面与她肩侧。脸部受柔和侧光，眼下有淡淡阴影，神色冷定。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众意识到她已经开始为这个孩子、也为自己的去留与婚姻下注，情绪转为更深层的决断前平静。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 133
+  },
+  {
+    "id": "shot_0134",
+    "scene_id": "scene_008",
+    "shot_number": 10,
+    "goal": "以冷收尾结束场景：把虎头帽作为视觉记忆点锁定，同时留下命运回环未止的余味。",
+    "composition": "MS。高令宁仍坐在原位，位于右侧三分之一，继续缝制；左侧案几上针线笸箩、彩线、绣绷铺开，虎头帽在她手中逐渐成形。前景有轻微帘影晃过，仿佛从门外窥见；背景窗光稳定，室内明亮却不暖。构图整体回到建立镜的空间关系，但人物更孤立，留白更重。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "留下体面外壳下更沉的寒意：新生命被确认，但并未带来轻松，只让赌注更高。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 134
+  }
+]

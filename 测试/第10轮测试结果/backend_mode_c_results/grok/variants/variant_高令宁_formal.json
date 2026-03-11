@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 未婚少女",
+  "tags": [
+    "未婚",
+    "少女",
+    "要强"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_003"
+  ],
+  "trigger": "  重生后在高家正堂退聘礼、闺房与父亲交谈及门前与沈词谈判时，未出嫁的强势状态",
+  "appearance_delta": {
+    "face": "清丽端庄，柳眉杏眼，眼神锐利坚毅中更显青春决绝",
+    "body": "纤细苗条，姿态优雅挺拔  ",
+    "hair": "乌黑长发盘成简单少女发式",
+    "distinguishing_features": "不屈下巴与冷笑时的锐利目光，带初生锋芒"
+  },
+  "costume_override": {
+    "outfit": "精致汉服罗裙，绣花长衫，少女清新风格",
+    "color_palette": [
+      "素白",
+      "淡青",
+      "浅粉"
+    ]
+  },
+  "visual_reference": "beautiful young Chinese noblewoman in elegant ancient hanfu with flowing sleeves in maiden formal style, sharp intelligent determined eyes full of youthful resolve, long jet black hair in simple maiden updo with subtle hairpins, pale flawless skin, graceful slender figure, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "争强好胜、高傲不屈"
+}

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_022",
+  "name": "江南居所",
+  "type": "mixed",
+  "era_style": "明代中晚期江南士绅小院住宅",
+  "description": "江南居所是一处尺度适中的南方小院，白墙黛瓦，院中有花木，室内外气质比京城更轻盈。可设小桌或秋千于院中，旁边堆放童书、典籍、笔墨与珠宝匣，显示母女兼具读书与富足闲适的生活。建筑开窗较灵秀，木格窗与廊檐线条柔和，空间留白更多，气流与光感更通透。这里不再强调门第威压，而强调日常秩序、教养与安宁，是女主真正重建人生的居所。",
+  "visual_reference": "Late Ming dynasty Jiangnan residence, elegant white-walled black-tiled small courtyard house, literati domestic atmosphere, flowering plants, child’s books, brush and ink, classics stacked neatly, small table or swing in the courtyard, jewelry casket, airy southern Chinese architecture with refined wooden lattice windows, peaceful life away from the capital, cinematic historical drama, highly detailed",
+  "atmosphere": "清静、柔润、自主新生",
+  "color_palette": [
+    "粉墙白",
+    "黛瓦灰",
+    "园木绿"
+  ],
+  "lighting": "江南白日天光柔润，院内漫反射充足，阴影轻薄，整体更透气、更安定。",
+  "key_features": [
+    "白墙黛瓦的江南小院",
+    "童书笔墨与珠宝匣并存",
+    "花木环绕的小桌或秋千"
+  ],
+  "narrative_scenes": [
+    "scene_028"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从京城纠葛抽离后，沉淀为真正属于自己与女儿的安稳生活。"
+}

@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 新房 - NIGHT",
+  "location": "新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "婚礼洞房，沈词调情后被陆婢女打断",
+  "key_dialogue": "你去吧。也不必回来了。",
+  "emotional_peak": "泪眼模糊与讥诮",
+  "tension_score": 0.75,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "丝带",
+    "被子"
+  ],
+  "dramatic_purpose": "展现今生夫妻亲密与外部干扰",
+  "source_text_start": "入夜后，喧嚣如水退去。",
+  "source_text_end": "你去吧。也不必回来了。"
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "shot_0787",
+    "scene_id": "scene_050",
+    "shot_number": 1,
+    "goal": "建立前厅的礼制压迫关系，明确沈睿跪、高父坐、和离书在场，公开执行的气氛已经形成。",
+    "composition": "门框式构图，前景左侧虚焦门扇与一名小厮半身形成遮挡；中景中心偏下是笔直跪在空地上的沈睿，身形被斜射日光切出窄亮边；画面上方正中偏右是高父坐于主位案后，案几上和离书平放可见；背景为深色厅柱与阴影，留白集中在沈睿与高父之间的空地，强化审判感。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、失衡、体面之下的冷酷公开处置",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 787
+  },
+  {
+    "id": "shot_0788",
+    "scene_id": "scene_050",
+    "shot_number": 2,
+    "goal": "将和离书建立为本场核心道具，预示谈判并非请求而是结果宣告。",
+    "composition": "案几局部特写，和离书横置于画面下三分之一，高父的手从右侧入画轻按纸角，木案纹理与纸张边缘形成硬线；背景完全压暗，仅留一条门外反光落在纸面上。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冰冷、程序化、无可转圜",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 788
+  },
+  {
+    "id": "shot_0789",
+    "scene_id": "scene_050",
+    "shot_number": 3,
+    "goal": "切入沈睿的弱势位置与仍在强撑的体面，为其第一句请求建立姿态。",
+    "composition": "低机位侧前方中近景，沈睿跪在画面左中，肩背笔直但消瘦，仰头望向画外右侧高父；前景下沿保留一片空地，突出他与主位之间的距离；背景是前厅地砖与一道斜光，膝下阴影清晰。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "忍耐、卑微中的不甘",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.48,
+    "order": 789
+  },
+  {
+    "id": "shot_0790",
+    "scene_id": "scene_050",
+    "shot_number": 4,
+    "goal": "承接台词“爹，令宁不会与我和离的”，展示沈睿仍试图以称呼与笃定挽回局面。",
+    "composition": "沈睿正面特写，头部位于画面左三分之一，视线向右上；额前有一缕散发，面色冷白，嘴唇发干；背景为虚化的厅柱与光斑，右侧留出大量压迫性空白供台词落点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "执拗、自我说服、最后的体面哀求",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.53,
+    "order": 790
+  },
+  {
+    "id": "shot_0791",
+    "scene_id": "scene_050",
+    "shot_number": 5,
+    "goal": "给出高父的反应而非立即回话，体现其冷静掌控与对沈睿言辞的不为所动。",
+    "composition": "高父半侧面中近景，坐于画面右侧，左侧前景虚化一角为和离书边缘；他垂眼不看沈睿，只将指尖从纸上缓慢移开；背景是深青色屏风与厅柱阴影，脸部被侧逆光切出硬边。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "审判者式的冷定、拒绝共情",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 791
+  },
+  {
+    "id": "shot_0792",
+    "scene_id": "scene_050",
+    "shot_number": 6,
+    "goal": "推进沈睿辩解，交代陆姝仪已另嫁、旧事已切断，是他试图证明自己‘可被接纳’的理由。",
+    "composition": "保持同侧轴线的中景，沈睿位于画面左侧偏中，仍跪姿但身体微微前倾；右侧前景虚焦为案几边角，暗示他在向权威陈情；背景里一名小厮模糊站立，形成旁观压力。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "急于补救、理性包装下的狼狈",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 792
+  },
+  {
+    "id": "shot_0793",
+    "scene_id": "scene_050",
+    "shot_number": 7,
+    "goal": "强调高父听到‘陆姝仪’与‘机会’时依旧无波，说明问题核心早已不是解释。",
+    "composition": "高父面部特写，居画面右侧，眼神平直向左下方，不起波澜；前景左下虚焦掠过沈睿肩部轮廓，建立对视关系；背景压暗，仅鬓边霜白与法令纹受光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷酷、父权式决断、彻底封门",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 793
+  },
+  {
+    "id": "shot_0794",
+    "scene_id": "scene_050",
+    "shot_number": 8,
+    "goal": "将孩子作为沈睿最后的筹码抬出来，完成本场第二次情绪换挡。",
+    "composition": "沈睿中近景，机位稍高俯看，削弱其尊严；他抬头更急，肩线第一次松散，右手在身侧微微攥紧；背景斜光从后方掠过，膝前地面亮、身后暗，像被光线逼住。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "可怜、慌乱、用亲情做最后防线的 desperation",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 794
+  },
+  {
+    "id": "shot_0795",
+    "scene_id": "scene_050",
+    "shot_number": 9,
+    "goal": "在‘孩子怎能没有爹爹’后留出一击前的静默，制造高父回话的重量。",
+    "composition": "和离书与高父袖口的近景，纸面静止，手却慢慢将其向前推半寸；画面上沿留黑，动作极轻但意味明确。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "窒息、宣判前的冷停顿",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.71,
+    "order": 795
+  },
+  {
+    "id": "shot_0796",
+    "scene_id": "scene_050",
+    "shot_number": 10,
+    "goal": "正面打出高父的核心回击：女儿不愁没人要，赘婿已备，孩子也不缺爹。",
+    "composition": "高父正面中近景，位于画面正中偏右，案几横线稳定压住下沿；他抬眼首次正视画外左侧沈睿，神情平静，语气锋利；背景的屏风竖线与柱线像牢笼般收束在他身后。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被礼貌措辞包裹的致命替代感",
+    "duration_hint": "5s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 796
+  },
+  {
+    "id": "shot_0797",
+    "scene_id": "scene_050",
+    "shot_number": 11,
+    "goal": "捕捉‘赘婿人选’落下后的瞬间生理冲击，完成信息重击。",
+    "composition": "沈睿极近特写，画面几乎只容纳双眼、鼻梁与绷紧的唇线；瞳孔明显一滞，呼吸卡住；背景彻底化黑，仅留一线冷光勾边。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "被替代的羞辱、难以置信、瞬间失重",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 797
+  },
+  {
+    "id": "shot_0798",
+    "scene_id": "scene_050",
+    "shot_number": 12,
+    "goal": "展示沈睿从跪到站的状态转换，外在动作标志其心理断裂开始越界。",
+    "composition": "中全景，沈睿位于画面左中，从地面缓慢起身，动作僵硬，背先弓起再撑起；右侧高父仍坐于主位不动，形成动静对照；前景一名小厮向内迈半步准备阻拦，未完全入焦。",
+    "camera_movement": "tilt",
+    "framing": "MLS",
+    "emotion_target": "失控前的诡异平静、危险正在生成",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 798
+  },
+  {
+    "id": "shot_0799",
+    "scene_id": "scene_050",
+    "shot_number": 13,
+    "goal": "用那一声短促笑声表现沈睿的尊严彻底被刺穿，理智转为失序。",
+    "composition": "沈睿胸口以上特写，画面左侧，身体微弓，低头后突然扯出极短的笑；嘴角上提却眼神空掉，形成表情撕裂；背景里高父模糊成稳定深影。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "荒谬、屈辱、令人发寒的崩裂",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 799
+  },
+  {
+    "id": "shot_0800",
+    "scene_id": "scene_050",
+    "shot_number": 14,
+    "goal": "把失控具象化为身体冲撞，推动场面从言语对峙转入行动冲突。",
+    "composition": "侧向中景，沈睿由左向右猛然前冲，前景一名小厮手臂从右侧探入试图拦腰；画面因快速动作形成轻微拖影，高父留在后景右上角仍未起身；门外斜光被沈睿身体切断。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "爆裂、突围、体面秩序被撕开",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 800
+  },
+  {
+    "id": "shot_0801",
+    "scene_id": "scene_050",
+    "shot_number": 15,
+    "goal": "跟随沈睿挣开阻拦冲向后院，形成本场动作高潮并为下一场空间衔接做准备。",
+    "composition": "走廊方向的跟拍镜头，沈睿背影占据画面中央偏左，朝画面右前方冲去；前景掠过柱子与帘影形成断续遮挡，后方两名小厮追出但被拉开距离；尽头后院门洞透出更亮的天光，成为视觉目标点。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "决绝、失序后的单一执念、冲破禁区",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 1.0,
+    "order": 801
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT/EXT. 高家书房门外与医馆路旁 - DAY",
+  "location": "高家书房外、医馆附近门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词"
+  ],
+  "core_event": "高令宁逼父亲写下辞官奏折保命，随后在门旁被沈词拦下。沈词以“再杀睿儿一次”刺她软肋，提出为长子重来而成婚、待孩子出生后和离。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "二人围绕沈睿达成冷酷婚约：先成婚生子，再分道扬镳。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁留下的勒痕意象"
+  ],
+  "dramatic_purpose": "明确再婚交易逻辑，设立‘生子即和离’主契约。",
+  "source_text_start": "父亲不放心让我嫁入沈家。\n一夜未睡后，他改了原本",
+  "source_text_end": "「谁纠缠谁是狗。」\n他抿唇，不再说话。\n四目相对，只剩恨意。"
+}

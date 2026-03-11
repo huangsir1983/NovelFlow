@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaofu_variant_01",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 忧心慈父",
+  "tags": [
+    "慈父",
+    "忧心忡忡",
+    "儒雅"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_007",
+    "scene_010"
+  ],
+  "trigger": "沈家提亲及女儿回娘家养胎期间，面对门第差距、聘礼以及女儿的固执决定感到担忧与无奈。",
+  "appearance_delta": {
+    "face": "眉头微蹙，眼神中充满对女儿未来的担忧与不解，面容略显疲惫与愁苦",
+    "body": "姿态微微放松但略带沉重感，显出老父亲的心理压力",
+    "hair": "半白发髻，梳理得一丝不苟",
+    "distinguishing_features": "看着女儿或聘礼时常常叹气，满面愁容"
+  },
+  "costume_override": {
+    "outfit": "深褐色的居家宽袍，质地柔软舒适",
+    "color_palette": [
+      "深褐",
+      "灰白"
+    ]
+  },
+  "visual_reference": "1man, middle-aged ancient chinese official, kind face, wrinkles around eyes, frowning, worried expression, sighing, wearing dark brown loose traditional robes, fatherly aura, indoor lighting, masterpiece, high quality",
+  "emotional_tone": "担忧、无奈、慈爱"
+}

@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 高家门口 - DAY",
+  "location": "高家门口/门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦住高令宁，以儿子沈睿的性命为筹码，要求她必须成亲。两人达成“生下孩子就和离”的协议。",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+  "emotional_peak": "提到儿子沈睿，两人情绪激动，针锋相对，定下冷酷的契约。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "辞官奏折（提及）",
+    "大雁（提及）"
+  ],
+  "dramatic_purpose": "明确两人重生后合作（结婚）的核心目标——为了儿子沈睿，同时揭示他们之间深刻的矛盾和不信任。",
+  "source_text_start": "盯着父亲写完辞官的奏折。\n我松了口气，浑身轻松。\n想起他胸口痛的老毛病，我想到医馆为他开一帖药。",
+  "source_text_end": "四目相对，只剩恨意。\n我冷哼一声，转身离开。"
+}

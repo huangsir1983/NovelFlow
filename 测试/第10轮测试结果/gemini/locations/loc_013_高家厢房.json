@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_013",
+  "name": "高家厢房",
+  "type": "interior",
+  "era_style": "明代官邸客房",
+  "description": "原本整洁的客房此刻一片狼藉。床铺凌乱不堪，锦被半褪。地上散落着男女的衣物，几张桌椅被撞翻在地。黄昏的光线从半开的门扉斜射进来，将室内的混乱与不堪暴露无遗。",
+  "visual_reference": "Interior of an ancient Chinese guest room at dusk, chaotic scene, messy bed with tangled blankets, scattered clothing on the wooden floor, overturned chairs, tense and dramatic atmosphere, long harsh shadows from the setting sun, cinematic lighting, 8k.",
+  "atmosphere": "混乱、难堪、冲突爆发地",
+  "color_palette": [
+    "昏暗橙",
+    "灰褐色",
+    "刺目的杂色"
+  ],
+  "lighting": "黄昏的低角度斜射光，拉长了倾倒家具的阴影",
+  "key_features": [
+    "凌乱的床铺",
+    "散落的衣物",
+    "翻倒的桌椅"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "从捉奸的震惊与愤怒，到男主偏心导致的暴力推搡，最终化为早产的剧痛与惊呼"
+}

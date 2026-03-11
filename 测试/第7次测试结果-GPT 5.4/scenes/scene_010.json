@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "id": "scene_010",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 寝屋/火盆前 - NIGHT",
+    "location": "沈府寝屋",
+    "time_of_day": "night",
+    "description": "寝屋封闭压抑，夜里只靠火盆和烛火照明，暖光映出尖锐阴影。屋内有针线箩、叠好的寝衣、鞋子、食盒。火盆居中，成为视觉焦点和关系毁灭的象征。高令宁站在火光外缘，沈词靠近火盆，神情冷硬。",
+    "action": "高令宁把亲手缝好的寝衣、鞋子和备好的饭菜一一摆出，动作克制，小心试探。沈词看也不看，抬手将寝衣和鞋子丢进火盆，布料迅速卷曲发黑。食盒被推到一旁。高令宁僵在原地，手还维持着递出的姿势，指尖轻颤。火光映在她眼里，她却强撑着不肯后退。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "怎么，又想从我身上得到什么？",
+        "subtext": "我不相信你的示好是真心，我认定你每一次靠近都带着目的，也在用羞辱回击我受过的伤。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "火盆",
+      "寝衣",
+      "鞋子",
+      "饭菜",
+      "针线箩",
+      "食盒"
+    ],
+    "dramatic_purpose": "具象化夫妻关系的决裂：高令宁试图修补，沈词以公开毁弃善意的方式拒绝，双方正式进入互相提防、针锋相对的状态。",
+    "tension_score": 0.84,
+    "dramatic_intensity": 0.68,
+    "order": 10
+  }
+}

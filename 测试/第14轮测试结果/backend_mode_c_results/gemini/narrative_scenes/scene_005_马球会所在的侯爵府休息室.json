@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 侯爵府休息室 - DAY",
+  "location": "马球会所在的侯爵府休息室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "蒋晟离开后，沈词出现，二人因“肌肤之亲”发生言语冲突，沈词言语轻佻，强行要抱高令宁。",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "沈词充满暗示和占有欲的言语，与高令宁的疏离形成对峙。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 90,
+  "key_props": [],
+  "dramatic_purpose": "展现沈词对高令宁强烈的占有欲，以及两人之间即便重生也无法抹去的身体记忆和纠葛。",
+  "source_text_start": "寻了个无人的角落，我坐下揉了揉脚。 很痛。 再抬头时，蒋晟已经不在身边。 有人站在几步之外，静静地打量我。",
+  "source_text_end": "「你身上哪里，我没碰过？」"
+}

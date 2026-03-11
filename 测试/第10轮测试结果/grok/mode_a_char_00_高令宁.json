@@ -1,0 +1,75 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "令宁",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-25",
+  "appearance": {
+    "face": "精致瓜子脸，柳眉杏眼，肤色白皙细腻，标志表情从倔强冷笑转为平静释然",
+    "body": "身高约165  cm，体态匀称纤细优雅，怀孕后略显柔弱",
+    "hair": "乌黑长发，通常盘成贵妇发髻，饰玉簪或珠花",
+    "distinguishing_features": "锐利聪慧的眼神，透出不屈意志与要强锋芒"
+  },
+  "costume": {
+    "typical_outfit": "华贵襦裙或贵妇常服，成亲时大红嫁衣",
+    "color_palette": [
+      "绯红",
+      "金黄",
+      "淡青"
+    ]
+  },
+  "casting_tags": [
+    "重生女主",
+    "骄傲贤妻",
+    "战士原型",
+    "古典美人",
+    "坚强独立"
+  ],
+  "visual_reference": "Beautiful young Chinese noblewoman early 20s, elegant oval face with sharp intelligent almond eyes and fair skin, long black hair in intricate updo with jade pins, wearing luxurious red-gold hanfu with intricate embroidery, dignified yet determined expression, ancient Chinese setting, highly detailed masterpiece",
+  "personality": "争强好胜、自尊心极强、聪明干练、管家有方却眼里容不得沙子、不喜忍耐、后期厌倦争斗转为释然宽容",
+  "desire": "重见前世长子沈睿一面、保护父亲与家人、摆脱前世痛苦婚姻纠缠、最终过上自由平静新生活",
+  "flaw": "过于高傲要强导致夫妻针锋相对、易冲动报复、情感上不愿示弱",
+  "arc": "起点：重生后恨意满满、利用婚姻见子并报复陆姝仪 → 转变：厌倦冤冤相报、选择和离原谅过去 → 终点：内心释然开启江南新生活，却被前夫痴缠",
+  "scene_presence": "全程第一人称叙述者，出现在提亲、成亲、入府、怀孕、生产、和离、江南定居等所有关键情节",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "前世互相折磨恨意深重，今生从冷战到和离后被痴缠",
+      "function": "镜像/阻碍"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "权力",
+      "dynamic": "视作情敌与威胁，多次对峙",
+      "function": "阻碍"
+    },
+    {
+      "target": "高父",
+      "type": "情感",
+      "dynamic": "孝顺保护，劝其辞官",
+      "function": "助攻"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益",
+      "dynamic": "利用其作为潜在良配与对照",
+      "function": "对照"
+    },
+    {
+      "target": "沈睿",
+      "type": "情感",
+      "dynamic": "母爱深沉，为见他重生再嫁",
+      "function": "引导"
+    },
+    {
+      "target": "昭昭",
+      "type": "情感",
+      "dynamic": "慈母守护，带其江南生活",
+      "function": "引导"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "EXT. 侯爵府马球场 - DAY",
+  "location": "侯爵娘子举办的马球会",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁与蒋晟出席马球会，蒋晟处处体贴；她看见柳池边沈词含笑看陆姝仪，故意借崴脚与蒋晟亲近刺激沈词。",
+  "key_dialogue": "「蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。」",
+  "emotional_peak": "沈词目睹二人姿态亲昵，眼神陡然发冷。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "马球杆",
+    "马匹",
+    "葡萄果盘",
+    "剥皮小刀",
+    "风筝",
+    "柳树",
+    "池水",
+    "席位软垫",
+    "绣鞋",
+    "尘沙",
+    "遮阳伞"
+  ],
+  "dramatic_purpose": "以外部社交场景激化四角关系与嫉妒。"
+}

@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_007",
+  "name": "沈府新房",
+  "type": "interior",
+  "era_style": "明代新婚洞房",
+  "description": "喜房布置华丽，床榻为红木雕龙凤架子床，悬大红喜帐，床上铺鸳鸯被褥。房间四角挂红灯笼，桌上燃成对红烛，烛光摇曳。墙上贴双喜剪纸，窗帘为红色绸缎。梳妆台摆新娘凤冠霞帔，衣架挂新郎喜服。地面铺红毯，空气中有龙凤烛的蜡香。",
+  "visual_reference": "Ming Dynasty wedding chamber, carved red sandalwood canopy bed with dragon and phoenix motifs, bright red wedding curtains, mandarin duck bedding, red lanterns in four corners, paired red candles on table with flickering flames, double happiness paper cuts on walls, red silk window curtains, bridal phoenix crown on dressing table, groom's wedding robe on rack, red carpet, intimate candlelit atmosphere",
+  "atmosphere": "喜庆、私密、仪式化",
+  "color_palette": [
+    "大红喜色",
+    "暗红木色",
+    "烛光金黄",
+    "绸缎深红"
+  ],
+  "lighting": "红烛摇曳的暖黄光线，营造暧昧氛围，角落较暗",
+  "key_features": [
+    "龙凤雕花喜床",
+    "成对红烛",
+    "大红喜帐",
+    "双喜剪纸",
+    "凤冠霞帔"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "冷漠行房的机械感→陆姝仪打扰的愤怒"
+}

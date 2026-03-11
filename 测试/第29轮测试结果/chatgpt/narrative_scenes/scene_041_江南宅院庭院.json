@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_041",
+  "order": 40,
+  "heading": "EXT. 江南宅院 - DAY",
+  "location": "江南宅院庭院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭"
+  ],
+  "core_event": "为避京城纠缠，我带昭昭南下江南，三年里独自养育她长大，过上久违清净而充实的生活。",
+  "key_dialogue": "「昭昭已经能蹦能跳，唐诗三百首倒背如流。」",
+  "emotional_peak": "我终于拥有不被旧怨裹挟的母女日常。",
+  "tension_score": 0.28,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "书卷",
+    "珠宝匣",
+    "庭院花木"
+  ],
+  "dramatic_purpose": "开辟新生活空间，证明我离开沈词后也能过得很好。",
+  "visual_reference": "江南小院粉墙黛瓦，女童在院中背诗玩耍，母亲坐在廊下看书，花木清润，生活气息温柔安定，像终于从旧宅阴影走出",
+  "visual_prompt_negative": "避免北方府邸风格，避免现代儿童玩具，避免宫廷奢华感",
+  "source_text_start": "京城总有人纠缠。我索性带着昭昭去了江南。",
+  "source_text_end": "昭昭已经能蹦能跳, 唐诗三百首倒背如流。"
+}

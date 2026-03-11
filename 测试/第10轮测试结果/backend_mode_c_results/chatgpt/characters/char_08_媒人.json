@@ -1,0 +1,43 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "喜气圆脸，笑容熟练，神情善于察言观色",
+    "body": "中等身材",
+    "hair": "妇人发髻",
+    "distinguishing_features": "说话讨喜，圆场能力强"
+  },
+  "costume": {
+    "typical_outfit": "体面喜庆的妇人装束",
+    "color_palette": [
+      "枣红",
+      "褐金"
+    ]
+  },
+  "casting_tags": [
+    "媒婆",
+    "圆场人物"
+  ],
+  "visual_reference": "ancient chinese matchmaker woman, smiling face, festive traditional clothes, expressive gestures",
+  "personality": "圆滑、世故",
+  "desire": "促成婚事，不生波折",
+  "flaw": "势利，倾向门第强者",
+  "arc": "无明显弧线",
+  "scene_presence": "在沈家提亲时关键出场，见证高令宁当面拒木雁",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "婚事中介",
+      "dynamic": "试图劝她就范",
+      "function": "激化首场冲突"
+    },
+    {
+      "target": "沈词",
+      "type": "婚事中介",
+      "dynamic": "代沈家行礼",
+      "function": "推进婚事仪式"
+    }
+  ]
+}

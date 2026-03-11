@@ -1,0 +1,38 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "端庄贵妇，略显势利",
+    "body": "富态",
+    "hair": "华丽发髻饰珠",
+    "distinguishing_features": "精致头面与威严姿态"
+  },
+  "costume": {
+    "typical_outfit": "富贵夫人锦缎华服",
+    "color_palette": [
+      "金黄",
+      "绛红"
+    ]
+  },
+  "casting_tags": [
+    "势利婆母"
+  ],
+  "visual_reference": "elegant mature Chinese noble lady in rich brocade robes, stern refined face, elaborate hair ornaments with pearls, authoritative expression, realistic 8k",
+  "personality": "势利、护子",
+  "desire": "家族门楣",
+  "flaw": "偏爱义女",
+  "arc": "理亏退让",
+  "scene_presence": "提亲前后与孙女争夺",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "掌控",
+      "function": "次要冲突"
+    }
+  ]
+}

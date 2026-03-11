@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府厅堂/卧房 - 日",
+  "location": "沈府",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈母",
+    "太医"
+  ],
+  "core_event": "婚后陆姝仪婚事难定，我甚至冷静建议沈词假死纳她；不久我怀孕，太医诊出男胎，沈词却察觉我真的会在生子后离开。",
+  "key_dialogue": "我做完月子便走，不会纠缠。",
+  "emotional_peak": "我真正放下报复之念，反而让沈词开始失控。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "扇子",
+    "虎头帽",
+    "太医诊脉",
+    "男胎消息"
+  ],
+  "dramatic_purpose": "女主心态转折为抽离，男主则从掌控者转为被动。",
+  "visual_reference": "深宅卧房内孕妇绣婴儿帽，男子从门边走近拥抱却落空。",
+  "visual_prompt_negative": "不要现代婴儿房，不要甜蜜撒糖风，不要儿童出现，不要神怪元素。",
+  "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

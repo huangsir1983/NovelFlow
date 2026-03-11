@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT/EXT. 高府书房门外 - DAY",
+  "location": "高府与门外廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词"
+  ],
+  "core_event": "高令宁劝父亲辞官避祸，随后在门外与守候多时的沈词摊牌：她愿嫁，但前提是先处理陆姝仪；两人同时承认婚姻只为孩子，约定生下睿儿后和离。",
+  "key_dialogue": "成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。",
+  "emotional_peak": "两人把婚姻彻底谈成一纸生子契约，彼此眼中只剩恨意。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁留下的勒痕意象"
+  ],
+  "dramatic_purpose": "确立中段主线目标：结婚、生子、和离。",
+  "source_text_start": "父亲不放心让我嫁入沈家。一夜未睡后，他改了",
+  "source_text_end": "你莫要使手段纠缠。」「谁纠缠谁是狗。」他抿"
+}

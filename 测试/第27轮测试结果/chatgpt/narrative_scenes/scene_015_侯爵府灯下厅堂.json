@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 侯爵府厅堂 - night",
+  "location": "侯爵府灯下厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "沈词再次要求我退让，让陆姝仪暂留沈家；对峙中陆姝仪下跪哀求，沈词当众护她，我在屈辱中想起前世亭中羞辱。",
+  "key_dialogue": "退一步，从此就要退万步。",
+  "emotional_peak": "被迫围观心上人与夫君的亲昵护持",
+  "tension_score": 0.95,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "灯火",
+    "衣角",
+    "药碗"
+  ],
+  "dramatic_purpose": "把三人关系彻底摊开，并逼女主从争胜心走向认命。",
+  "visual_reference": "灯火明灭的厅堂里，粉衣女子跪地哭求，男子蹲身将她揽入怀中用衣袖拭泪，另一侧女主站得笔直，面色发白，背后蒋晟沉默，构图形成情感三角，古风戏剧张力极强",
+  "visual_prompt_negative": "避免狗血夸张摔跤、避免现代灯具、避免艳俗滤镜、避免表演过火",
+  "source_text_start": "走出几步，身后突然传来淡淡的一声：「二位留步。」",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

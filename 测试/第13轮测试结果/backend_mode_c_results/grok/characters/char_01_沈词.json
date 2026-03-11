@@ -1,0 +1,48 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词"
+  ],
+  "role": "supporting",
+  "age_range": "20-30岁",
+  "appearance": {
+    "face": "面如冠玉，剑眉星目",
+    "body": "长身玉立",
+    "hair": "黑发束冠",
+    "distinguishing_features": "冷如冰湖的漆黑眸子，带讥诮涟漪"
+  },
+  "costume": {
+    "typical_outfit": "深色官袍或青衫",
+    "color_palette": [
+      "深蓝",
+      "墨黑"
+    ]
+  },
+  "casting_tags": [
+    "冷峻男主",
+    "重生文臣",
+    "俊朗官员"
+  ],
+  "visual_reference": "一位俊朗古代年轻文官，二十五岁左右，面如冠玉剑眉星目，冷峻气质，黑发整齐束冠，身穿深蓝色官袍，姿态挺拔站在厅堂，眼神从冷淡转为震惊，古典光影突出五官轮廓",
+  "visual_prompt_negative": "现代西装、胡须、嬉皮笑容、卡通、肥胖",
+  "personality": "清冷尖锐、外冷内热、深情隐忍",
+  "desire": "护佑儿子睿儿，挽回与妻子的关系",
+  "flaw": "多疑尖锐，不善表达情感",
+  "arc": "从冷待算计到后悔主动纠缠",
+  "scene_presence": "从提亲到强闯江南卧房",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "妻子",
+      "dynamic": "爱恨交织互相折磨",
+      "function": "情感核心"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "义妹青梅",
+      "dynamic": "兄妹情谊被误解",
+      "function": "制造误会"
+    }
+  ]
+}

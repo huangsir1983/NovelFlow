@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_008",
+  "name": "沈家厅堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸厅堂",
+  "description": "正式宽敞的沈家厅堂，中央主桌与椅，侧面摆放扇子与聘礼单展示，墙挂字画，梁柱雕刻，空间适合家庭议事与择婿讨论。",
+  "visual_reference": "明代官宦府邸厅堂室内，宽敞正式空间，红木主桌陈列扇子与聘礼单，周围官帽椅，太师椅对坐，背景雕花屏风与山水画，朱漆梁柱，青砖地，日光柔和，庄重氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "家庭议事、情绪翻涌",
+  "color_palette": [
+    "朱红色",
+    "深木褐",
+    "米黄",
+    "青灰"
+  ],
+  "lighting": "白天自然光从窗格透入，均匀照亮桌椅",
+  "key_features": [
+    "红木主桌与聘礼单",
+    "雕花屏风",
+    "扇子陈列"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "为陆择婿的平静到纳妾建议被拒的情绪翻涌"
+}

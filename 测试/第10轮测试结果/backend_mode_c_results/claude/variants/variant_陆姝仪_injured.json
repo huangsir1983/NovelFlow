@@ -1,0 +1,29 @@
+{
+  "variant_id": "lu_shuyi_variant_02",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 胃病发作",
+  "tags": [
+    "病弱",
+    "可怜",
+    "楚楚动人"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "夜晚休息室,胃病发作,需要沈词照顾",
+  "appearance_delta": {
+    "face": "面色苍白,眉头微蹙,病态美感",
+    "body": "虚弱无力,需要搀扶",
+    "hair": "略显凌乱,发饰松动",
+    "distinguishing_features": "泪眼盈盈,病态的脆弱感,惹人怜惜"
+  },
+  "costume_override": {
+    "outfit": "素色中衣,外披薄衫,病中装束",
+    "color_palette": [
+      "粉白",
+      "淡黄"
+    ]
+  },
+  "visual_reference": "frail young Chinese woman in pale hanfu, sickly pale complexion, tears in eyes, weak posture lying on bed, disheveled hair, pitiful expression, dim candlelight, indoor night scene, extremely vulnerable and delicate appearance",
+  "emotional_tone": "病弱可怜,楚楚动人,激发保护欲"
+}

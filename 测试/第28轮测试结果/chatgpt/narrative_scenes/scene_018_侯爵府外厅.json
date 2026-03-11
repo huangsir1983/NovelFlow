@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_018",
+  "order": 17,
+  "heading": "INT. 侯府客房外厅 - night",
+  "location": "侯爵府外厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "临走前，沈词再度逼我退让，我坚持不退，陆姝仪忽然下跪求留，沈词当众护住她，我被迫直面旧伤。",
+  "key_dialogue": "「有我在，没人能赶你走。」",
+  "emotional_peak": "他护她的姿态与前世重叠，把我重新推回屈辱深处。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "灯火",
+    "衣角",
+    "药碗"
+  ],
+  "dramatic_purpose": "拆出情绪峰值场，凸显三人关系中公开站队的残酷。",
+  "visual_reference": "灯火下病弱女子跪地拽住衣角哭求，男子立刻将她揽入怀中护着，另一女子僵立，身边的蒋晟无措，构图三角张力强烈",
+  "visual_prompt_negative": "避免过度哭闹失真，避免古偶甜宠氛围，避免背景太空",
+  "source_text_start": "走出几步，身后突然传来淡淡的一声：「二位留步。」",
+  "source_text_end": "「你辛辛苦苦追求的，我轻而易举便得到了。」"
+}

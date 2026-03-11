@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_001",
+  "name": "高家正堂",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦府邸正厅",
+  "description": "宽敞庄严的正堂大厅，高挑的抬梁式木结构屋顶，粗壮  的红漆圆柱支撑梁架，中央摆放大型红木八仙桌和四把太师椅，两侧排列客座椅凳。背景墙悬挂中堂字画和祖先牌位，前方有精雕屏风。地面青砖铺地，墙面粉刷素净，窗为木格花窗。空间开阔正式，适合接待重要宾客和仪式，摆设有媒人礼单、木雁聘礼、金银绸缎等堆叠在桌案上。",
+  "visual_reference": "Highly detailed interior of a grand Ming dynasty Jiangnan official family main reception hall, ornate carved red lacquered pillars and beams, large central hongmu rosewood table with official armchairs, hanging calligraphy scrolls and ancestral tablets on back wall, intricate wooden lattice windows, luxurious betrothal gifts like silks and wooden goose displayed on table, solemn and formal atmosphere, photorealistic, 8k resolution",
+  "visual_prompt_negative": "modern furniture, electric lighting, western architecture, contemporary elements, people unless specified, blurry, low resolution, cartoon, fantasy elements",
+  "atmosphere": "庄严肃穆, 紧张对峙",
+  "color_palette": [
+    "深红",
+    "暖棕红木",
+    "金黄",
+    "青灰"
+  ],
+  "lighting": "白天柔和自然光从木格窗棂和天井洒入，均匀明亮，突出木质纹理和礼品光泽",
+  "key_features": [
+    "红漆立柱",
+    "红木八仙桌太师椅",
+    "中堂字画祖先牌位"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "正式提亲的庄重到当场拒绝带来的震惊与权力角力"
+}

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 洞房新妇",
+  "tags": [
+    "新婚",
+    "疲惫",
+    "冷淡"
+  ],
+  "scene_ids": [
+    "scene_009"
+  ],
+  "trigger": "成亲当夜洞房行房后，陆婢女来扰导致心口痛，沈词离开时",
+  "appearance_delta": {
+    "face": "脸庞潮红，眼眸无神疲惫带冷意",
+    "body": "苗条纤细",
+    "hair": "乌黑长发凌乱散开部分",
+    "distinguishing_features": "身上薄被半掩，表情讥诮疏离"
+  },
+  "costume_override": {
+    "outfit": "红色中衣或嫁衣残装",
+    "color_palette": [
+      "大红",
+      "金丝"
+    ]
+  },
+  "visual_reference": "一位18岁清丽古代新妇在婚房，瓜子脸杏眼无神略带疲惫，潮红脸庞透冷淡，乌黑长发部分散开，身穿大红色中衣半掩被子坐在床沿，月光照亮房间，姿态优雅却内心疏离，古典夜景光影，写实风格",
+  "visual_prompt_negative": "现代服装、短发、浓妆、甜美笑容、卡通风格、过亮表情",
+  "emotional_tone": "冷淡与隐忍恨意"
+}

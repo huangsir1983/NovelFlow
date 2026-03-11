@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_017",
+  "name": "高府正厅（夜）",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正堂夜间审问态空间",
+  "description": "同一高府正堂在夜晚呈现完全不同的气质。主位桌案、椅子与屏风仍在，但白日的礼序感被夜间灯火放大为逼仄的审讯感。烛台、灯火与门外暗色形成强烈反差，门槛处可聚集婢女小厮等证人，人物站位更拥挤，空气更沉。桌案边手帕、衣角、扶人的手臂、脸上泪痕与巴掌声后的凝滞都在低照度中格外显眼。正堂原本宽阔的中轴空间，此刻因证词、误解和强行带离而显得像临时公堂。需要保留高府正堂的基础结构，同时通过夜色、灯影和人群压缩感，让熟悉空间变成情绪爆炸场。",
+  "visual_reference": "Night version of a late Ming dynasty official residence main hall, same formal symmetrical Chinese hall now lit by candles and lanterns, dark wooden columns, tables and chairs, folding screen, witnesses crowded near threshold, tears, tense body language, interrogation-like family confrontation, dramatic shadows, oppressive atmosphere, historical Chinese realism, cinematic night interior",
+  "atmosphere": "灯影逼仄、冤屈爆发、关系决裂",
+  "color_palette": [
+    "暗褐",
+    "烛橙",
+    "夜黑",
+    "惨白肤色"
+  ],
+  "lighting": "夜间以烛火和灯笼为主，局部高亮、整体昏暗，人物面部与手部动作被重点照出，阴影强化冲突与误判。",
+  "key_features": [
+    "夜间灯火下的正堂主位",
+    "门槛边聚集的证人下人",
+    "在昏暗中格外清晰的肢体冲突"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从仍可讲理的对质，彻底爆发为被冤、被弃、被威胁的决裂时刻。"
+}

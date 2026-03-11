@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_007",
+  "name": "高家后院",
+  "type": "mixed",
+  "era_style": "明代江南官宦府邸后院",
+  "description": "半开放的后院，雕花木门通向内室，院内有小花园或天井，铺青石板。空间连接室内外，适合家庭私密会面，摆放有和离书和襁褓相关物品。",
+  "visual_reference": "Ming dynasty Chinese courtyard garden behind official mansion, carved wooden doors and screens, stone paved paths, partial interior view, traditional plants, emotional family confrontation setting",
+  "visual_prompt_negative": "modern garden, tropical plants, people unless needed",
+  "atmosphere": "私密情感, 恳求悲伤",
+  "color_palette": [
+    "青石灰",
+    "木棕",
+    "绿植",
+    "白襁褓"
+  ],
+  "lighting": "白天自然天光从上方照下，后院明亮但有门廊阴影",
+  "key_features": [
+    "雕花木门",
+    "后院石板地",
+    "和离书昭昭襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "父亲递和离书的决绝到沈词跪求的绝望与女主复杂情感"
+}

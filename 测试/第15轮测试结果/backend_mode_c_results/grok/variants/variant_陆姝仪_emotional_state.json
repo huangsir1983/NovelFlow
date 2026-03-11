@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 重生坦白",
+  "tags": [
+    "坦白",
+    "释然",
+    "认错"
+  ],
+  "scene_ids": [
+    "scene_016"
+  ],
+  "trigger": "昭昭满月宴上坦白重生与设计蒋晟，惨淡一笑认错后",
+  "appearance_delta": {
+    "face": "惨淡微笑，神情复杂带解脱",
+    "body": "纤细柔弱，姿态平静",
+    "hair": "乌发柔顺半挽",
+    "distinguishing_features": "眼神愧疚释怀"
+  },
+  "costume_override": {
+    "outfit": "粉色轻纱衣裙",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "十九岁左右古代柔弱少女，温婉清丽脸庞，细长柳眉水汪汪杏眼含复杂情绪惨淡一笑，皮肤白嫩，身材纤细楚楚可怜，穿着粉色轻纱襦裙，长发柔顺半挽，盈盈一拜转身姿态，宴厅背景，柔光写实，高清细腻，哀伤释怀氛围",
+  "visual_prompt_negative": "强壮身材、浓妆、现代服装、卡通、西方五官、大笑表情、强势姿态",
+  "emotional_tone": "愧疚释怀"
+}

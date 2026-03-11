@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 马球会场/柳池旁 - DAY",
+  "location": "京郊马球会",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "高令宁与蒋晟亲近，故意刺激在不远处与陆姝仪相处的沈词。她假装崴脚，与蒋晟姿态亲昵地离开，引发沈词的嫉妒。",
+  "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+  "emotional_peak": "沈词看到高令宁和蒋晟的亲密姿态，面无表情地眯起眼睛，眼神冰冷。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "马球",
+    "葡萄",
+    "风筝"
+  ],
+  "dramatic_purpose": "四角关系初次登场，展现了男女主之间复杂的占有欲和嫉妒心，为后续冲突埋下伏笔。",
+  "source_text_start": "想到沈词愠怒的神情，我心情大好，应了侯爵娘子的马球会。\n陪我去的便是父亲的门生。\n叫蒋晟，是个习武",
+  "source_text_end": "「你身上哪里，我没碰过？」"
+}

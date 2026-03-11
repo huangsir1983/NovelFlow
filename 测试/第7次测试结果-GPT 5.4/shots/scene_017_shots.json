@@ -1,0 +1,288 @@
+[
+  {
+    "id": "shot_0289",
+    "scene_id": "scene_017",
+    "shot_number": 1,
+    "goal": "建立场边半开阔空间与‘随时会被远处看见’的局面，交代这场试探发生在众目可能及之处。",
+    "composition": "WS，场边通道横向展开，前景是被风卷起的浮沙与来往宾客下摆、仆从脚步掠过；中景右侧偏前站着高令宁与蒋晟，二人保持礼制距离；背景左后方经通道与人群缝隙可见柳池方向，沈词与陆姝仪被压在远处纵深里，视线通道清晰但不直白，利用人流形成断续遮挡。",
+    "camera_movement": "steadicam",
+    "framing": "WS",
+    "emotion_target": "让观众先感到局势可被误读、空气里有被窥视的紧张。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 289
+  },
+  {
+    "id": "shot_0290",
+    "scene_id": "scene_017",
+    "shot_number": 2,
+    "goal": "切入女主主观感知，确认她已看见柳池方向的人，并主动把对抗对象锁定为沈词。",
+    "composition": "MCU偏主观，画面右前景虚焦保留高令宁一缕鬓发与肩线，作为她视点锚点；中景左侧沈词站得端直，陆姝仪在他身侧略后，二人被回廊式人流与立柱边缘切割，沈词目光穿过空间直抵镜头，形成‘看过来’的压迫；背景是明亮场地与移动宾客。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她与沈词之间那种不必说破的针锋相对。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 290
+  },
+  {
+    "id": "shot_0291",
+    "scene_id": "scene_017",
+    "shot_number": 3,
+    "goal": "表现高令宁在视线撞上的瞬间并非被动受惊，而是迅速起意，情绪转为带锋的决断。",
+    "composition": "CU，高令宁居画面左三分之一，背景浅焦中仍可辨认远处柳池方向的明亮虚影；她眼尾微抬，目光先钉住前方后轻微下落，唇线极轻地收紧，颈侧淡痕在侧光中若隐若现，留白落在她目光所向的画面右侧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众读到她冷静、锋利、几乎带一点报复性的临场决定。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 291
+  },
+  {
+    "id": "shot_0292",
+    "scene_id": "scene_017",
+    "shot_number": 4,
+    "goal": "用脚下细节触发‘失足’动作，同时让观众保留一丝怀疑：这到底是意外还是借势。",
+    "composition": "CU，低机位拍浮沙地面与高令宁鞋尖，鞋底踩入松沙边缘略一打滑，裙摆从画面上方扫过；右侧一只稳健的男靴半步之隔进入画面但尚未碰触；风卷起细沙形成斜向运动线。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "制造瞬时失衡感与‘她在借这个机会’的暧昧不确定。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 292
+  },
+  {
+    "id": "shot_0293",
+    "scene_id": "scene_017",
+    "shot_number": 5,
+    "goal": "呈现蒋晟的本能反应：快、稳、没有多想，先护住人。",
+    "composition": "MS，镜头保持原轴线，画面中央高令宁身形向画面右侧歪去，蒋晟自左侧迅速入动作，一手托住她手臂，一手稳在她腰侧；前景有一名宾客衣袖掠过形成遮挡，背景人流继续，使二人的靠近更显突兀。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "让观众感到身体距离骤然被打破，保护与暧昧在同一瞬间成立。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.67,
+    "order": 293
+  },
+  {
+    "id": "shot_0294",
+    "scene_id": "scene_017",
+    "shot_number": 6,
+    "goal": "强调被看见的‘亲昵画面’已经形成，且视觉上足以被远处误读。",
+    "composition": "MLS客观观察，二人被置于画面中部偏右，蒋晟扶稳高令宁，身体形成一个短暂闭合构图；画面左前景虚焦放入柳枝与栏杆，模拟柳池方向偷窥视角；背景里宾客与仆从在两侧流动，反衬二人静止贴近，视觉中心高度明确。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众意识到：这一幕足够像，也足够伤人。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 294
+  },
+  {
+    "id": "shot_0295",
+    "scene_id": "scene_017",
+    "shot_number": 7,
+    "goal": "给出沈词的失控前兆，用有限客观镜头捕捉他被刺中的瞬间。",
+    "composition": "CU，沈词居画面中央略偏左，背景中的陆姝仪虚化在其肩后；他原本平直的目光出现明显停顿，下颌收紧，眼尾压低，呼吸极轻地卡住；前景偶有行人模糊掠过，像礼制与人群不断切断他的路径。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到压抑的嫉妒与控制欲正在破裂边缘。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 295
+  },
+  {
+    "id": "shot_0296",
+    "scene_id": "scene_017",
+    "shot_number": 8,
+    "goal": "回到女主，表现她借着被扶稳的姿态完成主动出招：抬脸、带笑、递手。",
+    "composition": "MCU双人近景，高令宁在画面右侧略低位置，被蒋晟扶着；她顺势抬脸，视线先掠过蒋晟再轻轻定住，笑意克制而有意；她将手递出至画面中央，蒋晟的手仍停在她腰侧附近尚未完全撤开。背景是明亮浅焦沙地与人影流动。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众清楚看见她不是狼狈，而是在利用狼狈。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.84,
+    "order": 296
+  },
+  {
+    "id": "shot_0297",
+    "scene_id": "scene_017",
+    "shot_number": 9,
+    "goal": "用台词落实她的策略：表面求助，内里挑衅与自证抽离。",
+    "composition": "CU，高令宁占画面左侧，脸微仰，话是对蒋晟说，目光却带着可供他人误读的温柔角度；她递出的手从画面下缘伸向右侧留白。背景虚焦中有一抹深色人影方位，暗示柳池方向仍在她感知中。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众尝到她台词里那层冷硬的条件交换意味。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 297
+  },
+  {
+    "id": "shot_0298",
+    "scene_id": "scene_017",
+    "shot_number": 10,
+    "goal": "表现蒋晟的迟疑与真诚：他被这份靠近击中，但仍以郑重克制回应。",
+    "composition": "CU，蒋晟居画面右侧偏中，耳根泛红清晰可见，眼神短暂停住后落到她递来的手上；前景左侧虚焦是高令宁手背与袖口，形成视线牵引；背景尽量压暗压实，使他这份局促诚恳成为唯一焦点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到他并非暧昧老练，而是被卷入局中的老实人。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.73,
+    "order": 298
+  },
+  {
+    "id": "shot_0299",
+    "scene_id": "scene_017",
+    "shot_number": 11,
+    "goal": "以手部完成关系升级的可见证据：他正式接住她，而非偶然扶一下。",
+    "composition": "ECU，画面只拍两只手与半截袖口：高令宁冷白纤细的手从左入画，蒋晟从右稳稳接住，指腹克制地收紧，不逾矩却已构成亲密；下方可见一点腰间革带与衣褶，保留当下空间关系。背景全部化成浅金与沙色虚光。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到这一握既是帮扶，也是公开讯号。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.81,
+    "order": 299
+  },
+  {
+    "id": "shot_0300",
+    "scene_id": "scene_017",
+    "shot_number": 12,
+    "goal": "从沈词方向再看一次，证实这幅画面对他造成实质性刺激，并完成‘观众后证实’。",
+    "composition": "MCU偏主观，从沈词一侧视线高度看过去，前景右边缘虚焦带入沈词深色肩线；中景中高令宁将重量轻轻压向蒋晟，蒋晟谨慎扶着她，两人开始转身往画面右侧走；背景中人流与浮沙让画面带一点朦胧误读感，恰好加重亲昵印象。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众体会到这不是高令宁自我想象——沈词确实看见了，并且只能看见这一版事实。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 300
+  },
+  {
+    "id": "shot_0301",
+    "scene_id": "scene_017",
+    "shot_number": 13,
+    "goal": "交代二人开始离场的行动线，保持方向一致，并将高令宁置于背对柳池的位置。",
+    "composition": "MLS侧拍，二人由画面左向右缓慢移动，蒋晟在外侧稳住步伐，高令宁略内侧借他之力前行；画面左后方远处保留柳池与沈词、陆姝仪的小比例身影，形成被留在身后的关系；前景偶有仆从穿行，但不打断主行动线。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她表面离开，实则是在把一把刀留给身后的人。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 301
+  },
+  {
+    "id": "shot_0302",
+    "scene_id": "scene_017",
+    "shot_number": 14,
+    "goal": "在离开动作中保留女主内在感知：即使背对，她仍知道那道视线在追着自己。",
+    "composition": "CU侧后近景，高令宁占画面右侧前景，只见半张侧脸与紧绷后颈线条；她未回头，眼睫轻颤，唇边方才的笑意已经淡去。背景左侧深处是一条被压缩的通道与模糊人影，像视线从远处直穿而来。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到报复并不畅快，反而更冷、更刺、更难收场。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 302
+  },
+  {
+    "id": "shot_0303",
+    "scene_id": "scene_017",
+    "shot_number": 15,
+    "goal": "收在沈词的余波上，为后续情绪追击埋钩：他没有追上去，但也绝未放下。",
+    "composition": "MS，沈词立于画面左侧，身形不动，目光越过右侧留白追向他们离去方向；陆姝仪在他后方半步，存在却失焦，无法真正进入他的视线；前景浮沙再次被风卷起，横切画面，像一层压不住的躁意。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众在短暂回冷中保留强烈后劲：局势没有爆开，但已经被她亲手推过界。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 303
+  }
+]

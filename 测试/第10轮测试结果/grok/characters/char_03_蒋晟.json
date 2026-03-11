@@ -1,0 +1,39 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-25",
+  "appearance": {
+    "face": "老实憨厚，五官端正",
+    "body": "健壮习武体型",
+    "hair": "短束发",
+    "distinguishing_features": "微红脸庞与护花姿态"
+  },
+  "costume": {
+    "typical_outfit": "简洁武士袍",
+    "color_palette": [
+      "灰",
+      "蓝"
+    ]
+  },
+  "casting_tags": [
+    "古风老实武将",
+    "忠厚男配"
+  ],
+  "visual_reference": "Honest young Chinese martial artist 20-25, sturdy build, kind straightforward face with slight blush, short tied hair, wearing simple grey-blue historical robe, protective expression, detailed cinematic",
+  "personality": "老实忠厚、护妻心切",
+  "desire": "娶得良妻、保护高令宁",
+  "flaw": "不够果断",
+  "arc": "从护花到被设计娶陆姝仪",
+  "scene_presence": "马球会护送、昏迷事件后被迫提亲、最终娶陆",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "追求者",
+      "dynamic": "温柔保护",
+      "function": "对比沈词"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "EXT. 马球会园林 - 日",
+  "location": "侯爵娘子马球会",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "我以拒婚施压沈家后参加马球会，与蒋晟相处融洽，却撞见沈词与陆姝仪亲昵，故意借蒋晟刺激沈词。",
+  "key_dialogue": "蒋公子，我脚好像崴了。",
+  "emotional_peak": "看见沈词对陆姝仪温柔含笑，我妒怒翻涌，立刻反向试探报复。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "马球会帖子"
+  ],
+  "dramatic_purpose": "外化四角关系，展示女主嫉恨与沈词隐性占有欲。",
+  "visual_reference": "春日园林与马球场交错，女子遥望池边男女，随即借他人手臂离开。",
+  "visual_prompt_negative": "不要现代运动装，不要西式马场，不要明亮恋爱滤镜，不要卡通夸张。",
+  "source_text_start": "沈家公子认了位义妹。消息传到我耳中",
+  "source_text_end": "风拂过发梢。沈词似乎笑了下：「装什么装？」"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_018",
+  "order": 17,
+  "heading": "FLASHBACK. 汴京夜市 - NIGHT",
+  "location": "京城街市",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "为保住受伤的胎儿，沈词费尽心力寻医问药，又带我看市井烟火，罕见地为未出生的孩子取名“静好”。",
+  "key_dialogue": "「就叫静好吧。」",
+  "emotional_peak": "在短暂温柔中，我们像是终于有了正常夫妻的样子。",
+  "tension_score": 0.4,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "药包",
+    "鱼龙灯",
+    "手牵手"
+  ],
+  "dramatic_purpose": "在巨大创伤前插入片刻温情，使后面的失去更具反差和杀伤力。",
+  "visual_reference": "古代夜市灯火繁华，鱼龙灯穿梭，男子牵着女子缓步而行，神情少见温和，远处孩童奔跑，烟火气短暂照亮一段似真似假的和解",
+  "visual_prompt_negative": "避免现代商业街，避免节庆舞台感，避免过度甜蜜偶像剧滤镜",
+  "source_text_start": "事后，他整个人都瘦了一圈。",
+  "source_text_end": "他站在原地看了很久，忽然垂眼，同我道：「就叫静好吧。」"
+}

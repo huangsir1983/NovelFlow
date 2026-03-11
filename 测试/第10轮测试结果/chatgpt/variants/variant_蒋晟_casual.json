@@ -1,0 +1,33 @@
+{
+  "variant_id": "jiangsheng_variant_02",
+  "variant_type": "casual",
+  "variant_name": "蒋晟 — 马球会上的体贴陪同者",
+  "tags": [
+    "社交场合",
+    "体贴",
+    "武人",
+    "备选良配"
+  ],
+  "scene_ids": [
+    "scene_008",
+    "scene_009",
+    "scene_010"
+  ],
+  "trigger": "在侯爵府马球会与后续诊伤场景中，蒋晟作为高令宁的陪同者出席，表现出周到体贴与朴实可靠的一面。",
+  "appearance_delta": {
+    "face": "神情更柔和关注，目光常落在高令宁身上，带有老实人的关切与不擅言辞的温厚",
+    "body": "高大结实的体格在扶人、陪同和候在一旁时更突出保护感，行动利落",
+    "hair": "黑发高束，适合户外活动，发束较日常更紧实",
+    "distinguishing_features": "在热闹社交场中依然显得朴实、不油滑，和周遭权贵子弟相比更像可靠的习武之人"
+  },
+  "costume_override": {
+    "outfit": "便于赴会与行动的整洁劲装，可能较日常稍讲究，但仍以实用为主，便于在马球场与内室间出入",
+    "color_palette": [
+      "靛蓝",
+      "棕色",
+      "深灰"
+    ]
+  },
+  "visual_reference": "ancient chinese young warrior gentleman at a polo gathering, sturdy build, honest handsome face, tied black hair, simple dark blue riding outfit with leather belt and wrist guards, attentive and caring posture while helping a noble lady, outdoor aristocratic polo field with willow trees and horses, realistic historical drama, dependable and modest aura",
+  "emotional_tone": "温厚、体贴、略带被动"
+}

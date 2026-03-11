@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 马球会场 - 日间",
+  "location": "马球会场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "女主与蒋晟亲近，目睹沈词宠陆姝仪做风筝，脚滑被扶",
+  "key_dialogue": "蒋公子，我脚好像崴了。",
+  "emotional_peak": "沈词眯眼如芒在背",
+  "tension_score": 0.65,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "马球杆",
+    "风筝",
+    "葡萄盘",
+    "马场沙尘",
+    "柳池"
+  ],
+  "dramatic_purpose": "引发醋意与初次冲突"
+}

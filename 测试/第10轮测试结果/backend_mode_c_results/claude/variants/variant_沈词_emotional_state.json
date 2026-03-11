@@ -1,0 +1,29 @@
+{
+  "variant_id": "shen_ci_variant_06",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 焦虑困惑",
+  "tags": [
+    "焦虑",
+    "困惑",
+    "疲惫"
+  ],
+  "scene_ids": [
+    "scene_010"
+  ],
+  "trigger": "为陆姝仪择婿焦头烂额，面对高令宁建议纳妾",
+  "appearance_delta": {
+    "face": "眉头紧锁，眼中困惑",
+    "body": "肩膀微垂，显疲态",
+    "hair": "束发略显凌乱",
+    "distinguishing_features": "眼神迷茫，面露疲色"
+  },
+  "costume_override": {
+    "outfit": "青色长袍，衣襟松散",
+    "color_palette": [
+      "墨青",
+      "灰色"
+    ]
+  },
+  "visual_reference": "handsome Chinese scholar in dark blue hanfu robe, furrowed brows, confused tired eyes, jade face showing fatigue, slightly disheveled hair in topknot, weary posture, troubled expression, period drama aesthetic",
+  "emotional_tone": "焦虑困惑，情感混乱"
+}

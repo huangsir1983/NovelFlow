@@ -1,0 +1,29 @@
+{
+  "variant_id": "lushuyi_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 跪求哀告状态",
+  "tags": [
+    "绝望",
+    "哀求",
+    "卑微"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "马球会休息处，跪求高令宁不要离开",
+  "appearance_delta": {
+    "face": "泪流满面，哀求神态",
+    "body": "跪姿，身体前倾",
+    "hair": "因跪拜而散落的发丝",
+    "distinguishing_features": "跪地哀求的姿态，泪眼婆娑，绝望倔强并存"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙，衣摆散落地面",
+    "color_palette": [
+      "粉色",
+      "白色"
+    ]
+  },
+  "visual_reference": "desperate Chinese beauty in pink hanfu kneeling on ground, tears streaming down face, pleading expression, hair falling loose, hands clasped in supplication, fragile yet stubborn demeanor, indoor setting with soft lighting, emotional intensity",
+  "emotional_tone": "绝望哀求，卑微倔强"
+}

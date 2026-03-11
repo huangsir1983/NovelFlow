@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_008",
+  "name": "沈府书房",
+  "type": "interior",
+  "era_style": "明代文人书房",
+  "description": "雅致的书房，三面墙设顶天立地书架，藏书丰富。正中设大书桌，桌上摆文房四宝、书卷、折扇。书桌后为太师椅，椅背雕刻竹纹。窗边设茶几和圈椅，茶具精致。墙上挂山水字画，角落立古琴。地面铺青砖，窗外竹影婆娑。整体色调沉稳，书香气浓。",
+  "visual_reference": "Ming Dynasty scholar's study, floor-to-ceiling bookshelves on three walls filled with books, large writing desk with Four Treasures of Study, scrolls and folding fan, carved bamboo pattern armchair, tea table with elegant tea set by window, landscape calligraphy on walls, guqin in corner, blue brick flooring, bamboo shadows outside window, scholarly atmosphere, muted elegant colors",
+  "atmosphere": "文雅、沉静、理性",
+  "color_palette": [
+    "深木书架",
+    "青砖灰",
+    "墨色书卷",
+    "竹影绿"
+  ],
+  "lighting": "白日窗外竹影投射的斑驳光线，室内光线柔和稳定",
+  "key_features": [
+    "顶天立地书架",
+    "文房四宝",
+    "山水字画",
+    "窗外竹影",
+    "古琴"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词焦虑择婿→高令宁放弃争斗的疲惫→沈词否认情感"
+}

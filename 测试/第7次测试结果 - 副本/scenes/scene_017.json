@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_017",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_004",
+      "beat_006"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家宅院·书房 - DAY",
+    "location": "高家宅院·书房",
+    "time_of_day": "day",
+    "description": "白日书房，封闭安静，天光从窗棂斜射入内，落在案面奏折与墨迹未干的纸上。书案整洁但气氛凝重，纸笔、印泥、奏折成为视觉中心。高父坐于案后执笔，高令宁站在一侧近距离盯视，像是在监督一项不可回头的决定。",
+    "action": "高令宁站在书案旁，目光不离高父笔下的辞官奏折，直到最后一笔落定才明显松开肩膀，长出一口气。她随即想起高父胸口旧疾，转身准备出门去医馆开药，动作利落，像终于完成一件压在心口的事。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了，否则稍有不慎，便是抄家灭门之灾。",
+        "subtext": "她以近乎强硬的口吻逼父亲抽身，是在提前阻断前世悲剧。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "辞官奏折",
+      "毛笔",
+      "砚台",
+      "印泥"
+    ],
+    "dramatic_purpose": "明确高令宁的主动性与预防灾祸的动机，推动父亲退场于朝局，也为她即将外出遇见沈睿制造空间转换。",
+    "tension_score": 0.55,
+    "dramatic_intensity": 0.1,
+    "order": 17
+  }
+}

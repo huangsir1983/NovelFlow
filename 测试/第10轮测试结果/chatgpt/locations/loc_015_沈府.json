@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_015",
+  "name": "沈府",
+  "type": "interior",
+  "era_style": "明代中晚期世家府邸日常议事内厅",
+  "description": "此处应表现沈府日常内厅或小书厅，适合谈论婚配人选与家中安排。书案上摆放候选人名帖、婚帖名册、茶盏与折扇，体现家族替女子择婿的世家程序。窗外可见春景，室内因此带一层柔软季节感，与谈话的算计和疲惫形成反差。家具线条端方，木色偏深，空间不大但秩序强，适合多人坐谈与冷言交锋。整体比正式正厅更私密，却仍有沈府门第的沉重感。",
+  "visual_reference": "Late Ming dynasty noble family inner hall or study, wooden writing desk covered with candidate name cards and marriage registry papers, folding fan, tea cups, soft spring scenery outside lattice window, refined dark wood furniture, intimate family strategy conversation space, restrained aristocratic decor, historical Chinese drama realism, highly detailed",
+  "atmosphere": "疲惫、权衡、冷嘲、情感转冷后的空心感",
+  "color_palette": [
+    "深棕木色",
+    "春窗浅绿",
+    "米白帖纸"
+  ],
+  "lighting": "白日春光从窗外照入，光线柔和，桌案上的名帖与扇面清晰可见，整体显得平静却不温暖。",
+  "key_features": [
+    "满桌候选人名帖与婚帖",
+    "窗外春景",
+    "用于长谈的书案与茶盏"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从替人择婿的家常议事，转到女主不再争夺后的彻底抽离与男主情绪反噬。"
+}

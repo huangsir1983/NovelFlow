@@ -1,0 +1,57 @@
+[
+  {
+    "id": "seg_0246",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0776",
+      "shot_0777",
+      "shot_0778"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间、主观感知与关键触发动作，角色集合不变，情绪从压抑观察递进到最后一搏的抓握，适合在同一连续视频内完成由静到刺的起势。",
+    "order": 246
+  },
+  {
+    "id": "seg_0247",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0779",
+      "shot_0780",
+      "shot_0781"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段围绕高令宁的情绪爆发组织，先给听者反应，再回到说者身体代价，最后完成核心诅咒台词，属于同一条情感弧线的集中上扬。",
+    "order": 247
+  },
+  {
+    "id": "seg_0248",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0782",
+      "shot_0783",
+      "shot_0784"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是关系核心的反转落点：高令宁发出恨，沈睿以动作和台词接住。听者反应、覆眼动作、回应台词构成同一情绪闭环，必须连续呈现以形成悚然宿命感。",
+    "order": 248
+  },
+  {
+    "id": "seg_0249",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0785",
+      "shot_0786"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "尾段完成意识熄灭与冷收尾，虽然镜头距离变化明显，但仍属于同一终止性情绪的余波：先主观沉黑，再回到客观静止，用镜像构图钉死因果。",
+    "order": 249
+  }
+]

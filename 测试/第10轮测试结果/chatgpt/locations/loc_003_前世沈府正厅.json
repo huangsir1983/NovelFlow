@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_003",
+  "name": "前世沈府正厅",
+  "type": "interior",
+  "era_style": "明代中晚期世家大族府邸正厅",
+  "description": "沈府正厅比高府更显门第威压，空间纵深更长，主位高、客位低，形成明显的等级俯视。主位椅置于后方高台，前设桌案与敬茶茶盘，地上铺跪垫，专为新妇晨省礼仪而设。厅内木作颜色更深，门帘厚重，压低了室内空气感。地面原本整洁肃穆，却因瓷杯碎裂与血迹破坏了秩序，血痕沿青砖缝隙扩散，成为最刺眼的视觉中心。桌案、茶盏、碎瓷片和帕子散落在前景，构成礼崩乐坏的瞬间。整体陈设不多，但位置极讲究，凸显权力与规训。",
+  "visual_reference": "Late Ming dynasty aristocratic mansion audience hall, rigid hierarchy interior, elevated main seat, dark carved wood furniture, tea ceremony setup with tray and teacups, kneeling cushions on grey brick floor, heavy curtains, shattered porcelain pieces, blood stains spreading on floor, oppressive family power dynamics, historical Chinese drama, cinematic realism, detailed textures, tense stillness",
+  "atmosphere": "威压、失控、羞辱、血色震慑",
+  "color_palette": [
+    "乌木黑褐",
+    "灰砖青",
+    "暗血红"
+  ],
+  "lighting": "白日厅光偏冷，主要来自门外和侧面高窗，室内深处较暗，血迹与碎瓷在冷光下格外刺目。",
+  "key_features": [
+    "主位高台与敬茶跪垫",
+    "青砖地上血迹与瓷杯碎片",
+    "厚重门帘后的压迫式厅堂"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "由新婚礼序的表面安稳骤然坠入自戕反击的极端失控。"
+}

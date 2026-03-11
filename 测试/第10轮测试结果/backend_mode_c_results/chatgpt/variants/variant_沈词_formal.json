@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_01",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 提亲试探期",
+  "tags": [
+    "世家公子",
+    "清冷试探",
+    "重生确认",
+    "高门礼制"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_005"
+  ],
+  "trigger": "在高府正堂提亲、以及于高府门廊拦下高令宁重新谈判婚约时出现。此阶段的他仍以理性算计与冷静压迫为主，借婚事与‘沈睿’逼迫对方达成交易。",
+  "appearance_delta": {
+    "face": "面色白净冷淡，神情比主设定更锋利疏离，眼神带有明显审视与试探感，尚未显出后期的疲惫憔悴。",
+    "body": "身形挺拔而克制，站姿极直，压迫感更强，仍保持青年世家公子的精致与稳定。",
+    "hair": "乌发整束，佩文士发冠或玉冠，发式比私下状态更讲究，显示正式登门的礼数。",
+    "distinguishing_features": "与高令宁对视时目光极冷，手指因压抑情绪而绷紧，克制姿态中透出不容拒绝的逼迫感。"
+  },
+  "costume_override": {
+    "outfit": "高门世家公子的正式拜访常服，深色交领长袍，外罩雅致云纹外氅，玉带束腰，配合登门提亲的端正礼仪感。",
+    "color_palette": [
+      "玄黑",
+      "黛青",
+      "月白"
+    ]
+  },
+  "visual_reference": "ancient Chinese noble scholar during a marriage proposal, pale handsome face, cold dark eyes locked in tense eye contact, tall slim figure, black hair tied with jade crown, dark elegant hanfu with subtle cloud-pattern cloak, restrained aristocratic posture, cinematic period drama lighting, formal interior of a noble mansion, tense negotiation atmosphere",
+  "emotional_tone": "冷静、压迫、试探、带着算计的克制"
+}

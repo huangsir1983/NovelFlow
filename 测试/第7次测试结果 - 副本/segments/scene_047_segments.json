@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0223",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0694",
+      "shot_0695",
+      "shot_0696"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以三人站位建立离场动线后，顺势切入女主限制性视角，最终用陆姝仪特写完成真相落锤。三镜角色集合稳定，情绪从秩序压迫递进到认罪确认，属于同一叙事动作单元。",
+    "order": 223
+  },
+  {
+    "id": "seg_0224",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0697",
+      "shot_0698",
+      "shot_0699"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段将高令宁的克制反应、陆姝仪的求生辩词与其离场收束为同一情感尾声。虽省略了单独的三人稳态与拜别镜头，但叙事功能完整：陆姝仪完成退场，视觉焦点自然移交给高令宁与沈睿，形成明确合并边界。",
+    "order": 224
+  },
+  {
+    "id": "seg_0225",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0700",
+      "shot_0701",
+      "shot_0702"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组镜头完整承担陆姝仪退场的终结功能：最后陈述、盈盈一拜、彻底离场。角色集合在段内由三人过渡到实际剩余两人的关系场，正好构成情感与叙事的边界点，适合单独成段。",
+    "order": 225
+  },
+  {
+    "id": "seg_0226",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0703",
+      "shot_0704",
+      "shot_0705"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段聚焦情感战场正式转向二人：先给沈睿反应，再以高令宁的规整行礼划清界限，最后通过双人空间关系预示身体接触必然失败。角色集合稳定为二人，情绪从停滞到拒绝再到临界，是独立弧线。",
+    "order": 226
+  },
+  {
+    "id": "seg_0227",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0706",
+      "shot_0707",
+      "shot_0708",
+      "shot_0709"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段将伸手、退开、抓住衣角、滑脱收为一个连续爆点动作链，具象化两人关系断裂。虽然合并了4个shot，但它们属于同一瞬间的情绪爆发与冷收尾，必须保留连续性，作为场景终点最有效。",
+    "order": 227
+  }
+]

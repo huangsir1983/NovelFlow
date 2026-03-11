@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_055",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:26:34"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高令宁居所 - DAY",
+    "location": "高令宁居所",
+    "time_of_day": "day",
+    "description": "内室封闭安静，门窗半掩，日光从窗棂斜照入室，光线偏柔，空气里有养病期的沉闷感。床榻、矮几、药碗与补品匣盒构成主要环境元素，房门外可见守卫把守，空间层次分明，内外隔绝感强。",
+    "action": "高令宁闭门养病，长时间停留在内室，不与外界接触。屋内堆放着陆续送来的补品，昭示有人持续探望。门外守卫拦下试图靠近的沈词，令其只能停在门外等待；高父加派人手，强化房门看守，切断两人直接见面的可能。沈词每日往返，补品一份份送到门前，目光停留在紧闭的房门上，却始终不得入内。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "key_props": [
+      "药碗",
+      "补品",
+      "房门",
+      "守卫"
+    ],
+    "dramatic_purpose": "建立高令宁与外界彻底隔绝的现状，交代沈词仍试图维系关系却被阻断，为后续宴会上情感对峙蓄压。",
+    "tension_score": 0.45,
+    "order": 55
+  }
+}

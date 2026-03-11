@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_014",
+  "name": "产房",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "临时改作产房的厢室，中央大床铺床单，旁置接生用具，空间紧迫私密，适合生产与落泪场景。",
+  "visual_reference": "明代中晚期江南官宦世家府邸产房内部，紧迫私密空间，雕花大床铺床单，旁置接生巾与铜盆，墙面简洁，夜间烛光摇曳，古典紧张却温情古典",
+  "visual_prompt_negative": "现代医院设备、强光手术灯、卡通",
+  "atmosphere": "生死紧张、血色落泪",
+  "color_palette": [
+    "床单白色",
+    "烛光橙",
+    "深红血色"
+  ],
+  "lighting": "夜晚烛火与油灯暖光，摇曳压抑",
+  "key_features": [
+    "产床床单",
+    "接生铜盆",
+    "紧闭窗帘"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "早产保大人到昭昭出生沈词落泪的血色通红双眼"
+}

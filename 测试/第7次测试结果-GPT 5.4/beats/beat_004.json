@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "beat_004",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_000",
+      "scene_006",
+      "scene_007",
+      "scene_008",
+      "scene_009",
+      "scene_010",
+      "scene_011",
+      "scene_012",
+      "scene_013",
+      "scene_022",
+      "scene_029",
+      "scene_030",
+      "scene_031",
+      "scene_032",
+      "scene_033"
+    ]
+  },
+  "data": {
+    "title": "回望前世入门受辱并积蓄决心",
+    "description": "女主回忆上一世新婚次日，沈母逼她接受陆姝仪为平妻，她当场摔杯、自刎明志，借血立威；随后进一步串联前世婚姻破裂、误会累积、父家遭祸、丧女丧情的全过程。",
+    "beat_type": "revelation",
+    "save_the_cat": "Debate",
+    "emotional_value": -0.8,
+    "dramatic_intensity": -0.8,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 4
+  }
+}

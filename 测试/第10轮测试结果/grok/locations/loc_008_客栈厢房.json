@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_008",
+  "name": "客栈厢房",
+  "type": "interior",
+  "era_style": "明代普通客栈厢房",
+  "description": "简朴客房空间，中央塌床与矮桌，墙面挂简单字画，地面木板，窗边有药碗与衣物，床头散落风筝残片，整体干净但略显局促。",
+  "visual_reference": "Modest Ming dynasty inn guest room interior daytime, central low bed and small table, simple wall paintings, wooden plank floor, window-side medicine bowl and scattered clothing, kite fragments on bedside, clean yet cramped historical traveler lodging",
+  "atmosphere": "暂居的妥协与厌倦",
+  "color_palette": [
+    "浅木",
+    "灰白",
+    "淡红"
+  ],
+  "lighting": "日光从纸窗透入，柔和均匀",
+  "key_features": [
+    "塌床矮桌",
+    "风筝残片",
+    "药碗"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "厌倦与妥协"
+}

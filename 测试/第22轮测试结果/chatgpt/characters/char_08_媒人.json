@@ -1,0 +1,45 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-60",
+  "appearance": {
+    "face": "笑面圆滑，五官喜气，善察言观色",
+    "body": "中等身材，动作熟练利索",
+    "hair": "整齐盘发或束发",
+    "distinguishing_features": "职业性笑容与两边劝和的姿态"
+  },
+  "costume": {
+    "typical_outfit": "体面喜庆的媒人衣装",
+    "color_palette": [
+      "暗红",
+      "棕色"
+    ]
+  },
+  "casting_tags": [
+    "媒人",
+    "圆滑",
+    "礼俗推动者"
+  ],
+  "visual_reference": "中国古代媒人，笑容圆滑，着暗红喜庆衣衫，手持婚书或礼单，站在正堂提亲场景中，古风写实",
+  "visual_prompt_negative": "现代职业装、夸张喜剧化、动漫风",
+  "personality": "圆滑世故",
+  "desire": "促成婚事，维护场面",
+  "flaw": "以门第压人，缺少立场",
+  "arc": "功能性角色，无明显变化",
+  "scene_presence": "主要出现在三次提亲场景中",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "议亲中间人",
+      "dynamic": "试图压她让步",
+      "function": "推动提亲戏冲突"
+    },
+    {
+      "target": "沈词",
+      "type": "婚事经手者",
+      "dynamic": "代表沈家出面",
+      "function": "呈现门第姿态"
+    }
+  ]
+}

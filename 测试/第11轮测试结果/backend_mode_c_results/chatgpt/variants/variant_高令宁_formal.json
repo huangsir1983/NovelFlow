@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 高家正堂退聘时",
+  "tags": [
+    "未嫁闺秀",
+    "当众博弈",
+    "锋利体面",
+    "重生初次交锋"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_003"
+  ],
+  "trigger": "沈家第一次上门提亲、高家前厅传话定条件时出现；她仍是高门未嫁小姐，却已以近乎主母的姿态掌控婚事谈判。",
+  "appearance_delta": {
+    "face": "比主设定更显年轻，闺秀柔美尚在，但眼神中的戒备和讥诮更直接外露，唇线收紧，带一种故意不给人台阶下的冷艳感。",
+    "body": "纤秀挺拔，站姿更直更硬，带未出阁女子的清瘦与不肯退让的棱角。",
+    "hair": "规整闺阁发髻，乌发一丝不乱，簪钗偏简洁但讲究，强化世家教养与克制。",
+    "distinguishing_features": "抬眼看人时压迫感很强，下颌线绷紧，手持或推回木雁时动作稳准狠，情绪激烈却绝不失仪。"
+  },
+  "costume_override": {
+    "outfit": "世家闺秀式襦裙与褙子，外罩雅致披帛，衣料贵而不张扬，剪裁利落，适合在正堂会客与当众退聘。",
+    "color_palette": [
+      "月白",
+      "藕荷",
+      "青黛"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noble young lady in a grand family hall, elegant oval face, pale cool-toned skin, sharp bright eyes with guarded irony, black long hair in a neat traditional maiden updo with refined hairpins, slim upright posture, Song dynasty inspired hanfu in moon white and pale lotus colors with dark teal accents, restrained luxury, standing before betrothal gifts and a wooden goose, proud confrontational expression, cinematic daylight, noble interior with screen, tea table, silk gift boxes",
+  "visual_prompt_negative": "modern clothing, glasses, heavy makeup, tattoo, short hair, fantasy armor, exaggerated smile, western palace dress, messy hair, overly sensual pose",
+  "emotional_tone": "清醒、挑衅、占据主动"
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_040",
+  "order": 39,
+  "heading": "INT. 高家满月宴厅回廊 - DAY",
+  "location": "高家宴厅外回廊",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "陆姝仪向我正式道歉并表示今后不再出现，离开时沈词站在不远处沉默听见真相，却只能徒劳抓住我的衣角。",
+  "key_dialogue": "「我知道你厌恶我，以后不会再出现在你面前。」",
+  "emotional_peak": "真相大白的一刻，沈词却已失去重新解释与挽回的资格。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "衣角",
+    "回廊栏杆",
+    "请帖"
+  ],
+  "dramatic_purpose": "让关键误会尘埃落定，同时保留沈词“迟到知情”的惩罚感。",
+  "visual_reference": "回廊半明半暗，陆姝仪行礼后转身离去，沈词站在几步外脸色苍白，伸手只扯住女主衣角一瞬，风吹廊帘，关系彻底错位",
+  "visual_prompt_negative": "避免三角恋拥挤拉扯，避免现代玻璃走廊，避免过度煽情泪崩",
+  "source_text_start": "陆姝仪笑了笑：「蒋晟的事，是我设计。」",
+  "source_text_end": "他伸手想去拉我。却只捉住了我的衣角。"
+}

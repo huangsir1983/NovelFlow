@@ -1,0 +1,29 @@
+{
+  "variant_id": "陆姝仪_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 坦白重生",
+  "tags": [
+    "坦白",
+    "悔悟",
+    "决然"
+  ],
+  "scene_ids": [
+    "scene_011"
+  ],
+  "trigger": "昭昭满月宴厅不请自来坦白重生与所有设计陷害",
+  "appearance_delta": {
+    "face": "温婉清丽中带坚定释然，泪眼稍敛",
+    "body": "纤弱柔美，姿态较为端庄",
+    "hair": "柔顺长发整齐配饰",
+    "distinguishing_features": "眼神多了一分解脱与真诚"
+  },
+  "costume_override": {
+    "outfit": "粉色轻纱汉服整洁正式",
+    "color_palette": [
+      "粉红",
+      "浅白"
+    ]
+  },
+  "visual_reference": "delicate beautiful young Chinese woman in neat elegant soft pink ancient hanfu at banquet, confessing with teary but determined and relieved eyes, gentle watery eyes softening, soft fragile features, pale skin, long flowing hair neatly with subtle ornaments, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "悔悟释然与退出"
+}

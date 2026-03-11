@@ -1,0 +1,177 @@
+[
+  {
+    "id": "shot_0067",
+    "scene_id": "scene_006",
+    "shot_number": 1,
+    "goal": "建立场景氛围，展示火盆作为核心视觉元素和情绪载体",
+    "composition": "火盆居中偏下，火光占据画面中心，背景暗影中隐约可见散落的衣物和食盒，顶部留白营造压抑感",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "不安、压抑、即将爆发的愤怒预感",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 67
+  },
+  {
+    "id": "shot_0068",
+    "scene_id": "scene_006",
+    "shot_number": 2,
+    "goal": "展示沈词的冷酷决绝，通过动作传达对女主示好的拒绝",
+    "composition": "沈词侧身站立于画面右侧，火盆在左侧前景，他手持寝衣准备投入火中，火光从下方照亮脸部轮廓",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷酷、决绝、压抑的怒意",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 68
+  },
+  {
+    "id": "shot_0069",
+    "scene_id": "scene_006",
+    "shot_number": 3,
+    "goal": "特写物品投入火中的瞬间，强化毁灭感和决裂意味",
+    "composition": "绣花鞋落入火盆的特写，火焰瞬间吞噬布料，背景虚化，焦点在燃烧的物品上",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心痛、毁灭感、不可挽回",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 69
+  },
+  {
+    "id": "shot_0070",
+    "scene_id": "scene_006",
+    "shot_number": 4,
+    "goal": "捕捉沈词投掷物品时的用力动作，外化内心愤怒",
+    "composition": "沈词手臂特写，用力将食盒扔向火盆，肌肉紧绷，青筋暴起，背景火光跳动",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "压抑的暴力感、愤怒的爆发",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 70
+  },
+  {
+    "id": "shot_0071",
+    "scene_id": "scene_006",
+    "shot_number": 5,
+    "goal": "展示火盆中物品燃烧的全貌，营造毁灭氛围",
+    "composition": "俯拍火盆，衣物、绣花鞋、食盒在火焰中扭曲变形，噼啪声响，烟雾上升",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "绝望、毁灭、关系的灰烬",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.6,
+    "order": 71
+  },
+  {
+    "id": "shot_0072",
+    "scene_id": "scene_006",
+    "shot_number": 6,
+    "goal": "捕捉沈词被火光映红的脸部，展示冷酷表情",
+    "composition": "沈词脸部特写，火光从下方照亮，眉眼冷峻，嘴角紧抿，眼神空洞冰冷，背景全黑",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冰冷、疏离、不信任",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 72
+  },
+  {
+    "id": "shot_0073",
+    "scene_id": "scene_006",
+    "shot_number": 7,
+    "goal": "建立沈词视角，暗示女主在门口（虽未入画）",
+    "composition": "沈词背影居中，面向门口方向，火盆在前景右侧，门口方向留白暗示有人",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "对峙感、紧张、即将爆发的冲突",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 73
+  },
+  {
+    "id": "shot_0074",
+    "scene_id": "scene_006",
+    "shot_number": 8,
+    "goal": "捕捉沈词转身瞬间，展示从冷漠到讥讽的表情变化",
+    "composition": "沈词侧脸转向镜头，眉眼从冷漠到讥讽，嘴角勾起冷笑，火光在脸侧跳动",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "讥讽、敌意、防备",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 74
+  },
+  {
+    "id": "shot_0075",
+    "scene_id": "scene_006",
+    "shot_number": 9,
+    "goal": "极特写沈词眼神，传达冰冷刺骨的敌意和不信任",
+    "composition": "沈词眼部极特写，瞳孔冰冷，眼神锐利如刀，火光在眼底跳动但无法融化寒意",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺骨的寒意、彻底的不信任、绝望",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.9,
+    "order": 75
+  },
+  {
+    "id": "shot_0076",
+    "scene_id": "scene_006",
+    "shot_number": 10,
+    "goal": "反打女主视角（虽女主未入画），展示沈词完整的冷酷姿态，为台词做准备",
+    "composition": "沈词正面中景，站在火盆旁，双手自然垂放，表情冷峻，眼神直视镜头（女主方向），背景火光和暗影",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "对峙、冷漠、质问",
+    "duration_hint": "3-4s（含台词）",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 76
+  }
+]

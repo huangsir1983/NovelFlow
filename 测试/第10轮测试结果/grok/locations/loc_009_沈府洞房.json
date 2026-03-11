@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_009",
+  "name": "沈府洞房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸洞房",
+  "description": "华丽新婚卧室，中央大红喜床挂喜帐与丝带，床前摆洗澡水盆与红烛台，墙面贴喜字与红绸，地面铺锦缎，整体喜庆奢华却透着冷漠。",
+  "visual_reference": "Luxurious Ming dynasty late period official mansion wedding chamber interior at night, grand red canopy bridal bed with hanging curtains and silk ribbons, front bathing basin and red candle stands, walls adorned with double happiness characters and red silk, brocade floor, opulent yet chilly bridal atmosphere",
+  "atmosphere": "喜庆转瞬即逝的冷漠",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "深黑"
+  ],
+  "lighting": "红烛摇曳主光，投下温暖却孤寂光影",
+  "key_features": [
+    "大红喜床",
+    "红烛台",
+    "洗澡水盆"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "云雨后冷漠"
+}

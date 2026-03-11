@@ -1,0 +1,83 @@
+[
+  {
+    "id": "seg_0028",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0025",
+      "shot_0026"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前两镜均用于建立同一时空内的压迫关系与动线秩序，角色集合未变，情绪仍处于父亲施压、女儿沉默承受的起始阶段，适合合并为一个建立性段落。",
+    "order": 28
+  },
+  {
+    "id": "seg_0029",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0027",
+      "shot_0028"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是典型的听者比说者重要的对峙组接：父亲台词推进，女主反应埋伏笔。情绪仍在同一轮高压问责中，但观众开始察觉女主的异常冷静，形成第一层情绪对照。",
+    "order": 29
+  },
+  {
+    "id": "seg_0030",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0029",
+      "shot_0030",
+      "shot_0031"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组内部完成第一次明确情绪换挡：从持续施压过渡到女主露出故意为之的破绽，再到父亲意识到后果严重。虽然仍在同一场对话内，但情绪弧线已明显深化，适合独立成段。",
+    "order": 30
+  },
+  {
+    "id": "seg_0031",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0032",
+      "shot_0033",
+      "shot_0034"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段内部连贯完成父亲策略变化：女主一句承认打断其逻辑，父亲随即停步、叹息、转而提供退路。角色不变，时空不变，但情绪从逼问转入短暂缓和，构成清晰段落边界。",
+    "order": 31
+  },
+  {
+    "id": "seg_0032",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0035",
+      "shot_0036",
+      "shot_0037"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段构成全场核心反转前半拍：女主蓄势、反问、父亲失衡，情绪发生明确断裂，必须集中处理，不能与前段的缓和或后段的宣言混在一起，否则会削弱反转的爆点。",
+    "order": 32
+  },
+  {
+    "id": "seg_0033",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0038",
+      "shot_0039"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜属于同一情绪终局：女主宣言完成角色定位反转，随后的冷收尾把结果落实为空间关系断裂。角色与场景未变，情感却从爆点落入寒意余震，适合作为结尾段完整封口。",
+    "order": 33
+  }
+]

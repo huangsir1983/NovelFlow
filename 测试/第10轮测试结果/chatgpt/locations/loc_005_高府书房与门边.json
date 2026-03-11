@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_005",
+  "name": "高府书房与门边",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸书房及门廊过渡空间",
+  "description": "高府书房为典型文官居家议事空间，书案居中，案上笔墨纸砚、官印、药方与辞官奏折并列，体现家国与私事交叠。椅子靠案，背后设书架或博古格但不繁杂，留出大面积空白墙面，强化慎重决断感。灯台即便在白日也陈设于案旁，暗示书房是昼夜谋事之处。门边区域则以门槛、廊柱、车马帘布和半掀帘角形成由室内到室外的情绪转换点，适合人物堵截与对峙。书房内部整洁克制，门外则有轻微行动痕迹和来往匆忙感。",
+  "visual_reference": "Late Ming dynasty scholar-official study and doorway transition, elegant Chinese study room with central writing desk, brush, inkstone, paper, official seal, resignation memorial scroll, medicine prescription papers, wooden chair, lamp stand, restrained literati decor, threshold and corridor outside with carriage curtain cloth, tense confrontation near doorway, daylight historical drama realism, ultra detailed",
+  "atmosphere": "理性决断、家族危机、门前对峙、情绪骤紧",
+  "color_palette": [
+    "墨黑",
+    "原木褐",
+    "宣纸米白"
+  ],
+  "lighting": "书房内为稳定的侧向天光，纸张与官印受光明显；门边则有更强的室外白光，形成内敛与逼迫的明暗分界。",
+  "key_features": [
+    "铺满书案的奏折与笔墨纸砚",
+    "象征仕途的官印",
+    "书房门槛处的堵门对峙空间"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从父女共同应对危局的冷静谋划，转向旧情与命运筹码交锋的尖锐拉扯。"
+}

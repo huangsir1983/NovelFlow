@@ -1,0 +1,13 @@
+{
+  "name": "木雁",
+  "category": "symbolic",
+  "description": "手工精雕木质大雁，高约30cm，采用深棕色楠木，羽毛纹理和翅膀细节雕刻细腻，姿态优雅站立，底部有稳定木托，表面打磨光滑自然。",
+  "visual_reference": "中国古代婚聘象征物，精美木雕大雁，古朴红木材质，羽翼雕刻生动细节丰富，姿态庄重，放置在聘礼中央，历史古风光影",
+  "visual_prompt_negative": "活体大雁、塑料玩具、现代艺术雕塑、金属材质、卡通化、鲜艳涂色",
+  "narrative_function": "对比前世活雁聘礼的核心象征物，女主角拒绝木雁揭示重生记忆与不满，推动剧情转折与命运反抗",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_001"
+  ],
+  "emotional_association": "震惊觉醒与婚姻决断"
+}

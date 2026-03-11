@@ -1,0 +1,86 @@
+[
+  {
+    "id": "seg_0134",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0394",
+      "shot_0395",
+      "shot_0396"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot均围绕沈词独处与议婚压迫展开，角色集合未变，时空连续，情绪由环境压迫递进到手部烦躁与面部失衡，适合合并成一个建立空间与人物困局的开场段落。",
+    "order": 134
+  },
+  {
+    "id": "seg_0135",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0397",
+      "shot_0398",
+      "shot_0399"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组三个shot构成完整的女主主观引入与第一次试探发言，角色集合从单人扩展为双人，叙事重心由男主压抑转向女主主导，因此作为新segment边界最清晰；内部情绪从旁观到出刺连贯递升。",
+    "order": 135
+  },
+  {
+    "id": "seg_0136",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0400",
+      "shot_0401",
+      "shot_0402",
+      "shot_0403"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完整覆盖第一轮攻防：男主被击中、冷笑防御、以礼法回应、女主冷反应。虽然shot数较多，但均属于同一情绪弧线且无时空变化，合并后能形成节奏更紧的正反打段落。",
+    "order": 136
+  },
+  {
+    "id": "seg_0137",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0404",
+      "shot_0405",
+      "shot_0406"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段形成第二次情感转折：女主提出更狠更具体的解决方案，男主真正被撼动，随即进入拉满的沉默。角色集合稳定，空间未变，但情绪从试探正式跨入关系裂口，因此作为独立segment最有力度。",
+    "order": 137
+  },
+  {
+    "id": "seg_0138",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0407",
+      "shot_0408",
+      "shot_0409"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "后三个shot是男主从沉默到自我整理再到完整否认台词的连贯动作链，情绪逻辑严密，且以身体动作外化心理压制，符合‘视觉外化’原则，适合合并为一个完整的防御性表态段。",
+    "order": 138
+  },
+  {
+    "id": "seg_0139",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0410",
+      "shot_0411"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜共同承担收束功能：先拍听者反应，再以空间与道具落尾，符合‘听者比说者重要’与‘环境即角色’的导演原则。情绪从台词伤害回落为压抑余震，适合作为终段。",
+    "order": 139
+  }
+]

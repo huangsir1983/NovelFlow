@@ -1,0 +1,31 @@
+{
+  "variant_id": "高令宁_variant_04",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南闲居",
+  "tags": [
+    "江南",
+    "闲居",
+    "三年后"
+  ],
+  "scene_ids": [
+    "scene_018",
+    "scene_019"
+  ],
+  "trigger": "三年后在江南院落雪地与昭昭玩耍，以及卧房夜间场景",
+  "appearance_delta": {
+    "face": "瓜子脸，柳眉杏眼，眼神锐利坚定中多了一丝释怀",
+    "body": "修长优雅，身姿挺拔",
+    "hair": "乌黑长发盘成精致发髻",
+    "distinguishing_features": "倔强下巴与锐利目光，增添母性温柔"
+  },
+  "costume_override": {
+    "outfit": "淡雅绣花罗裙",
+    "color_palette": [
+      "浅绿",
+      "粉白"
+    ]
+  },
+  "visual_reference": "一位20岁左右的古代大家闺秀，五官精致清丽，柳眉杏眼眼神锐利坚定透着释怀，皮肤白皙如玉，黑发高盘插玉簪，身着素雅浅绿色绣花罗裙，姿态优雅中透着倔强与温柔，站在江南院落雪地或卧房，窗外雪景或雷雨，写实风格，高清细节，古风氛围",
+  "visual_prompt_negative": "现代服装、短发、华贵凤冠、卡通风格、西方面孔、浓妆、悲伤过度、柔弱姿态",
+  "emotional_tone": "释怀中带警惕"
+}

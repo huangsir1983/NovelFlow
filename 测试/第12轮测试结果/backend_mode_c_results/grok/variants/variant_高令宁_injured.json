@@ -1,0 +1,31 @@
+{
+  "variant_id": "高令宁_variant_03",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 脚伤状态",
+  "tags": [
+    "受伤",
+    "脚伤",
+    "被扶"
+  ],
+  "scene_ids": [
+    "scene_004",
+    "scene_005"
+  ],
+  "trigger": "马球会场脚滑受伤后，以及柳池旁被沈词拽住时",
+  "appearance_delta": {
+    "face": "瓜子脸，柳眉杏眼，眼神锐利坚定带一丝痛楚",
+    "body": "修长优雅，一脚微跛或倚靠他人支撑",
+    "hair": "乌黑长发盘成精致发髻",
+    "distinguishing_features": "倔强下巴与锐利目光，脚伤导致姿态略失平衡"
+  },
+  "costume_override": {
+    "outfit": "淡雅绣花罗裙，绣鞋略显凌乱",
+    "color_palette": [
+      "浅绿",
+      "粉白"
+    ]
+  },
+  "visual_reference": "一位20岁左右的古代大家闺秀，五官精致清丽，柳眉杏眼眼神锐利坚定带痛楚，皮肤白皙如玉，黑发高盘插玉簪，身着浅绿色绣花罗裙，一脚受伤微跛由人搀扶，姿态优雅中透着倔强，站在马球会场沙尘或柳池旁，柔和光线，写实风格，高清细节，古风氛围",
+  "visual_prompt_negative": "现代服装、短发、卡通风格、西方面孔、笑容甜美、完全站立无痛感、柔弱姿态",
+  "emotional_tone": "倔强隐忍"
+}

@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_004",
+  "name": "沈家内院",
+  "type": "mixed",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "半开放内院廊道连接寝室，中央火盆取暖，周围木廊环绕，石板地面，夜间灯笼照明，空间私密冷清，适合夫妻争执。",
+  "visual_reference": "明代中晚期江南官宦世家府邸内院混合空间，木廊环绕半开放庭院，中央火盆与寝衣摆设，背景寝室雕花门窗，石板地面，夜间月光与灯笼光影交织，冷清压抑古典氛围",
+  "visual_prompt_negative": "现代灯光、鲜艳色彩、西方庭院、卡通元素",
+  "atmosphere": "冷战仇恨、压抑对视",
+  "color_palette": [
+    "深灰木色",
+    "火红色",
+    "墨黑色"
+  ],
+  "lighting": "夜晚月光与火盆暖光交织，形成冷暖对比的阴郁光影",
+  "key_features": [
+    "中央火盆",
+    "木廊环绕",
+    "雕花寝室门"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "女儿死后夫妻互相推责的冷战到推倒伤胎的仇恨对视"
+}

@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 休息塌上 - 日",
+  "location": "休息塌上",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪跪求留府，高令宁妥协允许提亲",
+  "key_dialogue": "你何必如此苦苦相逼？",
+  "emotional_peak": "陆哭拽衣角沈词护抱",
+  "tension_score": 0.85,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "药碗",
+    "衣角"
+  ],
+  "dramatic_purpose": "主角短暂心软推动婚事",
+  "source_text_start": "灯火之下，陆姝仪神色黯然。她挣扎着下榻，朝我跪了下来：",
+  "source_text_end": "我疲倦地叹了口气：「罢了，沈公子明日便来提亲吧。」"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0486",
+    "shot_id": "shot_0422",
+    "prompt_text": "A worn ceramic medicine bowl placed slightly left of lower center, dark herbal liquid residue staining the rim, a folded cloth pressed beside it, the bowl as the dominant subject; no human face visible, only the burden of repeated care implied through use marks and arrangement. A blurred quilt edge intrudes from the right foreground, while in the soft background a bed's wooden railing and a partial dark robe hem quietly connect the medicine to the patient and caregiver. Interior of an ancient Chinese noble bedchamber, old wood brown, gray-blue and muted black palette, low-saturation warm-cool contrast, cool daylight filtering from the side with a faint amber indoor warmth, restrained and bitter atmosphere. Cinematic realism, shallow depth of field, close-up composition, textured fabric and ceramic detail, subtle film grain, highly detailed historical drama still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, shallow depth of field, film grain",
+      "lighting": "cool side daylight mixed with faint amber interior warmth, low-saturation warm-cool contrast, soft contrast with restrained shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, plastic, glass cup, metal thermos, electric light, modern furniture, modern textiles, text, watermark, logo, low quality, blurry face, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0487",
+    "shot_id": "shot_0423",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, stands at the left third of the frame in side profile facing right, holding a medicine bowl with tense restraint; his body is visibly thinner, eye sockets shadowed, a few loose strands of hair suggest exhaustion, his posture formal yet strained as if the act of waiting is also self-punishment. Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, highly detailed, appears blurred on the bed in the right background. Ancient Chinese bedchamber interior with a dark old wooden screen behind him, bed and bedside kept on the same axis, cool window backlight outlining his gaunt silhouette, muted gray-blue, dark wood brown and black tones with a faint amber interior undertone. Cinematic medium shot, realistic period drama, layered depth, oppressive stillness, film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, medium shot, film grain",
+      "lighting": "cool window backlight shaping the silhouette, low-saturation warm-cool contrast, dim interior with controlled shadows and slight amber ambient fill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern hairstyle, modern makeup, electric light, plastic, zipper, modern window frame, text, watermark, logo, low quality, extra limbs, deformed hands, oversaturated colors, anime, 3d render"
+  },
+  {
+    "id": "sp_0488",
+    "shot_id": "shot_0424",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, highly detailed, is framed on the right side of the image, leaning weakly against soft pillows and facing left; her face is pale and tired, her eyes guarded rather than comforted, lips held tight in silent refusal, the faint scar on her neck visible under the cold light. In the blurred left foreground, Shen Ci's hand and the rim of the medicine bowl press into the frame, creating a sense of forced proximity. Behind her are plain bed curtains and a patch of window-lit negative space, an ancient Chinese inner chamber rendered in muted gray-blue, old wood brown, dark teal and soft white, low-saturation warm-cool contrast with cool natural light dominant. Cinematic realistic medium close-up, subjective tension, shallow depth of field, delicate skin texture and fabric folds, film grain, highly detailed historical drama still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, medium close-up, shallow depth of field, film grain",
+      "lighting": "cool natural window light with soft side illumination, restrained shadows, low-saturation warm-cool contrast, minimal amber interior warmth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern bedding, electric light, plastic, contemporary cosmetics, text, watermark, logo, low quality, bad anatomy, extra fingers, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0489",
+    "shot_id": "shot_0425",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, fills the left-middle of the close-up frame; he looks downward to the right toward the person on the bed, saying nothing, his expression rigid with suppressed urgency and control, visible shadows beneath his eyes, noticeably gaunt cheeks, and a few slightly disordered strands of hair breaking his otherwise strict appearance. The lower edge of the frame includes half of a medicine bowl, linking his stare to the coercive act of care. Behind him, a blurred lattice window emits cold light, bathing the ancient Chinese interior in muted gray-blue and dark wood tones with only a trace of amber warmth. Cinematic close-up, realistic historical drama, oppressive stillness, shallow depth of field, fine facial detail, film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, close-up portrait, shallow depth of field, film grain",
+      "lighting": "cold diffused window light from behind and side, strong under-eye shadow definition, low-saturation warm-cool contrast with minimal amber ambient fill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern clothing details, electric light, plastic, text, watermark, logo, low quality, deformed face, extra features, oversaturated colors, anime, 3d render"
+  },
+  {
+    "id": "sp_0490",
+    "shot_id": "shot_0426",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, highly detailed, is positioned on the right side of the frame, struggling to push herself upright from a half-reclining position, one hand pressing into the rumpled quilt for support; her body moves slowly and with visible effort, shoulders tense, breath shallow, discomfort and bodily fragility evident rather than graceful. On the far left edge remains part of Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, offering the medicine bowl into the space between them. The wrinkled bedding in the middle foreground forms visual resistance, while a flat cold window light fills the ancient Chinese bedchamber of old wood, gray-blue shadow, muted white fabric and dark teal clothing. Cinematic medium shot, realistic historical drama, layered composition, restrained motion, film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, medium shot, film grain",
+      "lighting": "flat cool window light with soft side illumination, low-saturation warm-cool contrast, subdued shadows, faint interior amber residual warmth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, hospital bed, modern medicine container, electric light, plastic, text, watermark, logo, low quality, bad anatomy, extra limbs, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0491",
+    "shot_id": "shot_0427",
+    "prompt_text": "A ceramic medicine bowl centered in the frame as the single focus of connection; Shen Ci's hand enters from the left sleeve in dark blue and black embroidered hanfu, and Gao Lingning's hand enters from the right sleeve in muted white and dark teal silk robes, their hands meeting only through the transfer of the bowl, with no warmth in the gesture. The contrast of one cold-toned sleeve and one dark sleeve creates a visual standoff at both edges of the image, while the soft quilt texture lies beneath and a band of empty space above holds the pause and emotional distance. Ancient Chinese bedchamber interior reduced to intimate functional detail, muted gray-blue, old wood brown, dark teal, black, and soft white under low-saturation warm-cool contrast, cool natural side light with restrained amber interior undertone. Cinematic realistic close-up, shallow depth of field, tactile fabric and ceramic texture, still tension, film grain, highly detailed historical drama still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, close-up, shallow depth of field, film grain",
+      "lighting": "cool side daylight with faint amber interior undertone, low-saturation warm-cool contrast, soft controlled shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern cups, metal spoon, plastic, electric light, contemporary fabric patterns, text, watermark, logo, low quality, deformed hands, extra fingers, oversaturated colors, anime, 3d render"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "id": "scene_018",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_001",
+      "beat_006",
+      "beat_007"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家宅院·门旁廊下 - DAY",
+    "location": "高家宅院·门旁廊下",
+    "time_of_day": "day",
+    "description": "半开敞的宅门廊下，天光自院中照入，门旁阴影较重，明暗对比明显。廊柱、门扇与门槛构成狭窄通道，适合形成拦截感。沈睿已等候多时，眼下泛青，指尖留有细细勒痕，衣着整洁却带着熬夜后的冷硬疲态。高令宁刚要出门，动作被截住。",
+    "action": "高令宁走到门边，脚步骤停。她抬眼看见候在门旁的沈睿，先是一怔，随即稳住神色。沈睿侧身一步挡住去路，语气清冷，逼近主题。高令宁听见“睿儿”时眼圈发热，却强压泪意，挺直身子与他对峙。二人站在狭窄门旁，谁也不肯先让开。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "我以为，你不算个好妻子，但还算个好母亲。",
+        "subtext": "他故意先刺她的软肋，用母子之情撬开她对婚事的抗拒。"
+      },
+      {
+        "character": "沈睿",
+        "line": "这一世若你我不成亲，便等于再杀睿儿一次。",
+        "subtext": "他把婚姻谈判直接绑定到孩子生死上，以道德与情感双重施压。"
+      },
+      {
+        "character": "高令宁",
+        "line": "我可以嫁。",
+        "subtext": "她并非因爱妥协，而是为了重新见到孩子，先接受交易框架。"
+      },
+      {
+        "character": "高令宁",
+        "line": "但是，你要先处理好那位表小姐。",
+        "subtext": "她在答应婚事的同时划定底线，主动争夺婚姻里的规则制定权。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "宅门",
+      "门槛",
+      "廊柱"
+    ],
+    "dramatic_purpose": "男女主首次正面交锋，明确婚姻的真正驱动力是孩子而非感情，同时抛出陆姝仪这一核心矛盾点。",
+    "tension_score": 0.78,
+    "dramatic_intensity": 0.56,
+    "order": 18
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_024",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_049",
+      "scene_050"
+    ]
+  },
+  "data": {
+    "title": "在江南迎来死缠烂打的重逢",
+    "description": "三年后女主带昭昭移居江南，几乎已建立新生活，沈词却以婚讯试探后突然现身，在赘婿环绕中公开表明将不知羞耻地纠缠她一辈子。",
+    "beat_type": "event",
+    "save_the_cat": "N/A",
+    "emotional_value": 0.1,
+    "dramatic_intensity": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 24
+  }
+}

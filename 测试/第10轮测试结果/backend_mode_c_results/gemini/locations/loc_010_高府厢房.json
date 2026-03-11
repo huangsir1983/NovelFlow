@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_010",
+  "name": "高府厢房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸",
+  "description": "略显凌乱的待客厢房。原本整洁的床铺被扯乱，桌椅有被碰撞的痕迹。地上散落着被撕扯的衣物。黄昏的光线让房间显得昏暗且充满阴谋的气息。",
+  "visual_reference": "Interior of a guest wing room in an ancient Chinese manor. Messy unmade bed, overturned chairs, torn ancient clothing scattered on the floor. Dusk lighting casting long shadows, conveying a sense of chaos and conspiracy. Cinematic, dramatic lighting, 8k.",
+  "atmosphere": "混乱、污秽、剑拔弩张",
+  "color_palette": [
+    "#696969",
+    "#8B4513",
+    "#B22222"
+  ],
+  "lighting": "黄昏的暗光，光线不足，角落充满阴影，凸显场景的混乱与压抑。",
+  "key_features": [
+    "凌乱的床铺",
+    "散落的衣物",
+    "倾斜的桌椅"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "从震惊愤怒、怒扇耳光到动胎气早产的彻底失控。"
+}

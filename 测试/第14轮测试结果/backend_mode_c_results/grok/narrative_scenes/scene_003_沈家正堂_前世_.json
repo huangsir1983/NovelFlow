@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "FLASHBACK. INT. 沈家正堂 - DAY",
+  "location": "沈家正堂（前世）",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈母",
+    "沈词"
+  ],
+  "core_event": "前世婚后第二日陆姝仪敬茶，高令宁砸杯自刎立威",
+  "key_dialogue": "没有人可以拿捏我。",
+  "emotional_peak": "气红眼自刎",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "茶杯",
+    "瓷片"
+  ],
+  "dramatic_purpose": "揭示前世冲突根源",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。",
+  "source_text_end": "没有人可以拿捏我。包括沈词。"
+}

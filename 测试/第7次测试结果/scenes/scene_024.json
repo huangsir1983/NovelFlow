@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_024",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 湖边 - DUSK",
+    "location": "湖边",
+    "time_of_day": "dusk",
+    "description": "开阔外景，傍晚天色昏沉，湖面反射残光，风吹水纹，岸边空寂。环境冷清，带有死亡降临前后的突兀静默。岸边可能散落鞋印、衣角水痕或遗留物，强化事发现场感。",
+    "action": "陆姝仪在与高令宁谈话后的傍晚投湖自尽，消息骤然传开。沈睿站在湖边或被人引至岸边，视线落向水面与打捞痕迹，脸色一点点沉下去。高令宁试图解释，身体微微前倾，手抬起又放下，却无法让他转过头来相信自己。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "湖水",
+      "岸边遗留物"
+    ],
+    "dramatic_purpose": "构成前世婚姻彻底崩裂的关键事件，使沈睿将陆姝仪之死归咎于高令宁，直接推动两人长期冷战与敌对。",
+    "tension_score": 0.88,
+    "dramatic_intensity": 0.76,
+    "order": 24
+  }
+}

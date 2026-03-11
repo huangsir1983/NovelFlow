@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_004",
+  "name": "医馆门口",
+  "type": "exterior",
+  "era_style": "明代街市医馆外景",
+  "description": "青砖灰瓦的医馆临街而立，门楣悬挂木质招牌，上书馆名。门前石阶三级，两侧摆药材晾晒架。街道铺石板，两旁店铺林立，行人往来。医馆门口设长凳，墙上贴药方告示。街边有小贩推车，远处可见牌坊。",
+  "visual_reference": "Ming Dynasty street scene, traditional Chinese medicine shop exterior, gray brick walls with tile roof, wooden signboard, stone steps, herb drying racks, cobblestone street, pedestrians, neighboring shops, street vendors, archway in distance, natural daylight, bustling atmosphere",
+  "atmosphere": "市井、喧闹、日常",
+  "color_palette": [
+    "青灰砖色",
+    "木褐色",
+    "天空蓝"
+  ],
+  "lighting": "明亮日光，街道光影交错，招牌投下阴影",
+  "key_features": [
+    "木质医馆招牌",
+    "石板街道",
+    "药材晾晒架",
+    "行人往来"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "威胁与痛苦的对峙"
+}

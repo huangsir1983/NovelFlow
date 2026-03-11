@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_017",
+  "name": "江南雪院",
+  "type": "mixed",
+  "era_style": "明代江南园林式宅院雪夜",
+  "description": "江南宅院雪夜庭院与内室，被枕凌乱，雪球散落庭院，赘婿身影，适合雪天闯入与爬床纠缠。",
+  "visual_reference": "明代江南园林宅院雪夜场景，白墙黑瓦小院积雪覆盖，庭院雪球散落，室内床被枕凌乱，窗外雪景，烛光与月光交织，凄凉乞求氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "雪夜凄凉、纠缠乞求",
+  "color_palette": [
+    "雪白",
+    "黑瓦灰",
+    "烛橙",
+    "木褐"
+  ],
+  "lighting": "夜晚月光与烛光映雪，寒冷凄美",
+  "key_features": [
+    "积雪庭院与雪球",
+    "凌乱被枕",
+    "白墙黑瓦雪景"
+  ],
+  "narrative_scenes": [
+    "scene_018"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "雪天吃醋闯入到深夜爬床凄凉乞求"
+}

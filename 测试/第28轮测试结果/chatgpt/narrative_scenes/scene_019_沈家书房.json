@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_019",
+  "order": 18,
+  "heading": "FLASHBACK. 沈家书房 - night",
+  "location": "沈家书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "婢女影像"
+  ],
+  "core_event": "多年后，沈词养了一个酷似陆姝仪的婢女，我故意气他说把人送去窑子，他因此掐我脖子并骂我毒妇。",
+  "key_dialogue": "「若非看你为我生下了睿儿，我定要休了你。」",
+  "emotional_peak": "旧人死后留下的替身，彻底戳碎夫妻最后的体面。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "画作碎片",
+    "身契",
+    "房门"
+  ],
+  "dramatic_purpose": "单独展现前世后期婚姻彻底恶化的关键事件。",
+  "visual_reference": "昏暗书房内，男子怒掐女子脖颈，地上是被毁掉的画卷碎片，女子神色冷厉不屈，气氛暴烈压抑",
+  "visual_prompt_negative": "避免极端暴力血腥，避免夸张动作设计，避免多人打斗",
+  "source_text_start": "陆姝仪死的第十年。 沈词依旧没忘了她。",
+  "source_text_end": "「若非看你为我生下了睿儿，我定要休了你，绝不让你这种毒妇祸害我沈家。」"
+}

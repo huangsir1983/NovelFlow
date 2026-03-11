@@ -1,0 +1,13 @@
+{
+  "name": "茶盏",
+  "category": "container",
+  "description": "精致白瓷茶盏，直径8cm高4cm，薄胎白釉透光，杯身绘淡雅青花花卉纹饰，杯沿圆润光滑，内有茶水残留。",
+  "visual_reference": "中国古代青花瓷茶盏，盛满清茶杯壁薄透图案淡雅，放在木茶几上，热气升腾，宁静古风写实",
+  "visual_prompt_negative": "现代玻璃杯、塑料材质、厚重粗陶、艳俗图案、金属杯",
+  "narrative_function": "父亲与女主闲谈场景道具，承载家庭亲情对话与情感交流，辅助奏折讨论的温馨氛围",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_002"
+  ],
+  "emotional_association": "亲情信任与平静"
+}

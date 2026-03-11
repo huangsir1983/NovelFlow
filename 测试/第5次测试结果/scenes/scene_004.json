@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "id": "scene_004",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:28:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_001",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "INT. 家中内室 - 日",
+    "location": "家中内室",
+    "time_of_day": "day",
+    "description": "回到现实中的封闭室内，白日光线仍从侧窗照入，但气氛已从停滞转向针锋相对。父女二人相对而立，空间距离略远，像各自守着立场。屋内陈设稳定，桌案与椅凳成为对峙的分界。",
+    "action": "高父见她久不言语，语气放缓，试图给出退路，抬手示意此事尚可回绝。高令宁缓缓抬眼，先是否认，随后站直身子，语气坚定。她不再回避父亲目光，清楚说出自己不是不嫁，而是一定要嫁；她一步不退地提出条件，要对方相求，要风光大嫁、十里红妆、八抬大轿。高父被她的话钉在原地，神情由担忧转为震愕。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "若你是不愿嫁，我可以替你回绝了这门亲事。",
+        "subtext": "我愿意护着你，不必勉强自己，也不必再冒险得罪沈家。"
+      },
+      {
+        "character": "高令宁",
+        "line": "我不是不嫁，我一定要嫁。",
+        "subtext": "我有自己的盘算，这门婚事我不会放手。"
+      },
+      {
+        "character": "高令宁",
+        "line": "但这一次，必须是他们来求，我要风光大嫁，十里红妆，八抬大轿。",
+        "subtext": "我要夺回体面与主动权，也要让沈家付出代价。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "桌案",
+      "椅凳",
+      "窗户",
+      "衣袖"
+    ],
+    "dramatic_purpose": "完成本章核心转折：高令宁明确表态并非退婚，而是带着清醒、强硬和报复意味重新布局婚事规则。",
+    "tension_score": 0.84,
+    "order": 4
+  }
+}

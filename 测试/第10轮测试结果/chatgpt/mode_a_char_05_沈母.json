@@ -1,0 +1,60 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "保养得宜的贵妇面容，神色端肃，眼神中有世家女主的精明与审视",
+    "body": "体态端庄丰盈，坐姿仪态极稳",
+    "hair": "繁复高髻，佩戴名贵簪钗",
+    "distinguishing_features": "世家主母式威压感强，礼数周到却令人窒息"
+  },
+  "costume": {
+    "typical_outfit": "高门贵妇礼服，绫罗锦缎，珠翠精致而压人",
+    "color_palette": [
+      "绛紫",
+      "金色",
+      "墨青"
+    ]
+  },
+  "casting_tags": [
+    "世家主母",
+    "强势婆婆",
+    "门第观念",
+    "封建家长"
+  ],
+  "visual_reference": "Aristocratic Chinese matriarch, 50s, dignified well-kept face, elaborate black hair updo with gold ornaments, luxurious dark purple silk hanfu, stern noble presence, ancient drama style",
+  "personality": "重门第、重体面、重家族利益，擅长以礼法与亲情包装控制；并非纯恶，而是高度制度化与功利化。",
+  "desire": "维持沈家门楣与家族秩序，让儿子的婚姻与后嗣符合沈家利益。",
+  "flaw": "将女性视为家族安排的棋子，对他人痛苦缺乏真正共情。",
+  "arc": "前世试图让高令宁容下陆姝仪，制造婚姻裂痕→今生继续主导陆姝仪婚配与孙辈归属→在高家强硬反击下被迫退让，失去对局面的掌控。",
+  "scene_presence": "前世婚后让陆姝仪敬茶并欲立平妻格局；病倒后失去部分掌家权；今生为陆姝仪挑伯爵府三公子；女儿昭昭出生后上门索要孙女，被高父驳回。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "权力|阻碍",
+      "dynamic": "婆媳间围绕妻位、掌家权与孩子归属的长期冲突",
+      "function": "制度性阻碍"
+    },
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "以母亲和家族长辈身份深度影响其婚姻与家事决策",
+      "function": "家庭权力源头"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益|权力",
+      "dynamic": "既利用她维持沈家内部平衡，也在婚配上牺牲她换体面",
+      "function": "压迫与推动并存"
+    },
+    {
+      "target": "高父",
+      "type": "权力|冲突",
+      "dynamic": "围绕昭昭抚养权产生正面对抗",
+      "function": "家族博弈对手"
+    }
+  ]
+}

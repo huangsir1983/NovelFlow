@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 洞房新娘",
+  "tags": [
+    "新婚",
+    "嫁衣",
+    "红妆"
+  ],
+  "scene_ids": [
+    "scene_008"
+  ],
+  "trigger": "成亲当晚洞房花烛夜，在沈家洞房与沈词亲热及陆婢女干扰时",
+  "appearance_delta": {
+    "face": "妆容精致红唇，眼神倔强中透疲惫与冷意",
+    "body": "苗条修长，姿态优雅略带抗拒",
+    "hair": "乌黑长发盘成华丽高髻，饰红绸喜钗",
+    "distinguishing_features": "红盖头半掀，红烛光下脸庞"
+  },
+  "costume_override": {
+    "outfit": "华丽红色绣凤凰或牡丹嫁衣，配红绸丝带",
+    "color_palette": [
+      "大红",
+      "金色"
+    ]
+  },
+  "visual_reference": "一位二十岁古代汉族新娘，清丽端庄脸庞，柳眉杏目眼神坚定带一丝冷意疲倦，皮肤白皙如玉，身材苗条优雅，穿着华丽大红色绣花嫁衣，头发高髻插金钗红绸喜饰，红盖头半掀落在肩，坐在洞房红烛喜床上，姿态倔强优雅，红烛光影温暖暧昧，写实风格，细腻皮肤纹理，高清细节",
+  "visual_prompt_negative": "现代服装、浅蓝粉白日常襦裙、短发、卡通风格、西方面孔、笑容甜美、肥胖身材、绿色蓝色服装",
+  "emotional_tone": "疲惫抗拒却骄傲坚毅"
+}

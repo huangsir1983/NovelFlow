@@ -1,0 +1,53 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆婆"
+  ],
+  "role": "supporting",
+  "age_range": "45-65岁",
+  "appearance": {
+    "face": "威严贵妇",
+    "body": "富态",
+    "hair": "贵妇发髻",
+    "distinguishing_features": "高门贵妇气质"
+  },
+  "costume": {
+    "typical_outfit": "贵妇华服",
+    "color_palette": [
+      "深红色",
+      "紫色",
+      "金色"
+    ]
+  },
+  "casting_tags": [
+    "威严",
+    "贵妇",
+    "偏心"
+  ],
+  "visual_reference": "dignified elderly Chinese noblewoman, authoritative presence, elaborate traditional noble attire, stern expression",
+  "personality": "高门贵妇，偏心陆姝仪，后被吓病",
+  "desire": "家族利益",
+  "flaw": "偏心导致家庭矛盾",
+  "arc": "从掌权到被吓病失权",
+  "scene_presence": "前期关键场景",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "对立冲突",
+      "function": "矛盾制造"
+    },
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "母子关系",
+      "function": "家庭背景"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姨甥",
+      "dynamic": "偏爱保护",
+      "function": "冲突根源"
+    }
+  ]
+}

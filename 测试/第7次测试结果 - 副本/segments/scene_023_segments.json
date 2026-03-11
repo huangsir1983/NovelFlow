@@ -1,0 +1,74 @@
+[
+  {
+    "id": "seg_0115",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0330",
+      "shot_0331",
+      "shot_0332"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot角色集合一致，均停留在高令宁的单人主观限制视角内，完整构成‘礼制冷空间—手作示好—等待回应’的前置情绪弧线，适合合并为一个铺垫段，维持压抑和悬置感后再引入对方。",
+    "order": 115
+  },
+  {
+    "id": "seg_0116",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0333",
+      "shot_0334",
+      "shot_0335"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot完成沈睿入场、双人空间关系建立、以及高令宁主动把示好具体化，角色集合在此发生变化，是天然合并边界；情绪仍处于试探阶段，尚未爆裂，适合形成一段完整对峙前奏。",
+    "order": 116
+  },
+  {
+    "id": "seg_0117",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0336",
+      "shot_0337",
+      "shot_0338",
+      "shot_0339"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头以‘听者比说者重要’为核心，从高令宁期待、沈睿审视，到台词落下与高令宁承受，构成完整言语伤害弧线；虽含4个shot，但全是紧凑反应镜头，适合压缩为一段6秒高密度心理对峙。",
+    "order": 117
+  },
+  {
+    "id": "seg_0118",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0340",
+      "shot_0341",
+      "shot_0342"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这三镜是明确的动作爆点，情绪从言语伤害升级为物理毁灭，属于同一连续事件且节奏必须一气呵成；火盆作为道具完成叙事转义，是自然的段落终点。",
+    "order": 118
+  },
+  {
+    "id": "seg_0119",
+    "scene_id": "scene_023",
+    "shot_ids": [
+      "shot_0343",
+      "shot_0344",
+      "shot_0345",
+      "shot_0346"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后四镜共享同一焚毁后的余波状态，情绪从本能前扑、强制停住，到沉默记下，再冷收尾落回双人裂痕，形成完整收束弧线；终点回归双人构图，与开场空间建立首尾呼应。",
+    "order": 119
+  }
+]

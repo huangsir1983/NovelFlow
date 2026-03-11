@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_008",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_017"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会僻静角落 - 日",
+    "location": "马球会无人的休憩角落",
+    "time_of_day": "day",
+    "description": "角落位置远离主会场，较为安静，日光被周围景物略微切割，风声更清晰。可供短暂歇脚的坐处简单。高令宁独自坐下，俯身揉脚，动作克制却透出真实痛感。蒋晟已不在身侧，几步之外沈词立在光影边缘，静静看着她，气场冷下来。",
+    "action": "高令宁坐下后弯腰揉按脚踝，眉心微蹙，呼吸发紧。她抬头时发现蒋晟已离开，取而代之的是站在不远处的沈词。四目相对后，她猛地起身，因脚痛而步态不稳，一瘸一拐地试图从他身边离开。沈词抬手拽住她，阻止她继续走。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "你脚肿了，我抱你回去。",
+        "subtext": "别再借别人逞强，也别在我面前装作无事。"
+      },
+      {
+        "character": "高令宁",
+        "line": "与你无关。",
+        "subtext": "我拒绝你的关心，也拒绝被你重新掌控。"
+      },
+      {
+        "character": "沈词",
+        "line": "又逞强，不怕落下病根？",
+        "subtext": "你明明需要我，我不接受你把我推开。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "将暗中较劲推进为一对一正面交锋，暴露两人之间未断的情感牵扯与控制欲。",
+    "tension_score": 0.82,
+    "dramatic_intensity": 0.64,
+    "order": 8
+  }
+}

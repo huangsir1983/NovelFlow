@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_026",
+  "name": "江南宅院前院",
+  "type": "exterior",
+  "era_style": "明清过渡风格江南冬日庭院",
+  "description": "前院在冬日雪后显得开阔明净，地面积雪被踩出凌乱脚印，中央可堆雪人，孩童用小铲子和雪球玩闹。院门简洁，长凳一侧可放瓜子盘，体现日常生活的松弛。几位赘婿候选人的衣袍颜色与气质应各异，但都融入这处民居式院落，而不似京城权门场合。冬日披风、雪地和笑闹声使这个前院拥有难得的烟火气，也因外来者闯入而瞬间变得紧绷。",
+  "visual_reference": "Snowy front courtyard of a Jiangnan residence, white walls and dark tiles, open yard with footprints in snow, child playing with small shovel, snowman, scattered snowballs, wooden bench with sunflower seed plate, several suitor candidates in winter robes, simple courtyard gate, sudden arrival of a jealous man, bright winter daylight, historical Chinese realism, highly detailed",
+  "atmosphere": "冬日松弛、家庭烟火气、突发醋意、表面轻松下的暗潮",
+  "color_palette": [
+    "雪白",
+    "冬衣深蓝",
+    "院墙灰白"
+  ],
+  "lighting": "冬日天光清亮，积雪反光明显，人物轮廓清晰，整体色温偏冷但不阴沉。",
+  "key_features": [
+    "雪人和雪球散落的前院",
+    "院门与长凳上的瓜子盘",
+    "积雪中的孩童玩耍场面"
+  ],
+  "narrative_scenes": [
+    "scene_029"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "先是温暖日常与轻松逗趣，后迅速转入被嫉妒刺穿的阴沉对峙。"
+}

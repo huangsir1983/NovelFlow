@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "id": "scene_048",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:38:47"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词"
+    ]
+  },
+  "data": {
+    "heading": "INT. 江南住处 - DAY",
+    "location": "江南宅院内室与书案",
+    "time_of_day": "day",
+    "description": "江南宅院内室安静整洁，窗外天光柔和，自侧面照入案前。空间偏封闭，层高适中，陈设雅致，有书案、书架、妆奁、软榻。案上散放珍贵典籍、拆开的书信、金银珠宝盒与孩子用的花簪。生活气息与被长期供养的痕迹并存。",
+    "action": "时间以蒙太奇推进：昭昭从幼童长成稍大的女孩，时而举着花朵和珠串在镜前比划，时而伏在案前背诵唐诗、翻看典籍。高令宁拆信、扫过信纸后随手放下，将金银珠宝收入匣中，隔很久才提笔回信，写字简短冷淡。送来的财物与书册越积越多，显示沈词虽不在场，却持续介入母女生活。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词"
+    ],
+    "key_props": [
+      "书信",
+      "金银珠宝",
+      "珍贵典籍",
+      "书案",
+      "妆奁",
+      "花簪"
+    ],
+    "dramatic_purpose": "交代三年时光流逝、昭昭成长，以及沈词通过书信和财物维系存在感，为后续情感冲突蓄势。",
+    "tension_score": 0.35,
+    "order": 48
+  }
+}

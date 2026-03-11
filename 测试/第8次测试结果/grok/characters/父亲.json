@@ -1,0 +1,78 @@
+{
+  "name": "父亲",
+  "aliases": [
+    "高老爷",
+    "高父"
+  ],
+  "role": "supporting",
+  "age_range": "45-55岁",
+  "appearance": {
+    "face": "方正刚毅的脸庞，浓眉锐目，眼尾\n已有细密鱼尾纹，蓄整齐短须，下颌线条硬朗",
+    "body": "中等偏壮实的身材，长期操持家业导致微胖，站姿笔直而威严",
+    "hair": "黑发掺杂银丝，传统士大夫发髻以玉冠束起",
+    "distinguishing_features": "眉心深锁的川字纹与长期忧虑形成的严厉眼神"
+  },
+  "costume": {
+    "typical_outfit": "深色宽袖士大夫长袍，内衬浅色中衣，外罩同色马褂",
+    "color_palette": [
+      "深蓝",
+      "墨灰"
+    ],
+    "texture_keywords": [
+      "锦缎",
+      "丝绸",
+      "暗纹绣"
+    ]
+  },
+  "casting_tags": [
+    "传统中国严父",
+    "中年士大夫",
+    "门第观念重",
+    "易怒却关爱女儿",
+    "历史古风家长"
+  ],
+  "visual_reference": "A stern middle-aged Chinese scholar-official in ancient dynasty, square resolute face with thick sharp eyebrows, piercing eyes with crow's feet, neatly trimmed short beard, graying black hair in traditional bun secured by jade crown, wearing dark blue wide-sleeved silk robe with subtle embroidery, expression mixing authority and hidden worry, highly detailed realistic historical portrait style",
+  "description": "女主角高姑娘的父亲，一位传统家族掌权者，对女儿婚事充满门第期待却因其叛逆行为转为深切担忧",
+  "personality": "权威强势、易怒冲动却内心关爱女儿，行为模式为先热情接待媒人、后拍案斥责女儿胡闹、再长叹劝说回绝婚事",
+  "desire": "确保女儿嫁入沈家这样的高门以重振家族声誉，避免前世家破人亡的命运，具体目标是促成体面联姻并维持家族体面",
+  "flaw": "过度执着于社会门第与家族颜面，忽视女儿真实情感与内心创伤，导致父女沟通断层",
+  "arc": "起点：热情接待媒人、视沈家提亲为家族福气→转变触发：女儿当堂退雁羞辱沈词后愤怒转为忧心女儿真心→终点：主动提议找由头回绝婚事，展现从刚愎权威到柔软关爱的微弱转变",
+  "relationships": [
+    {
+      "target": "高姑娘",
+      "type": "情感/权力",
+      "dynamic": "父亲权威与女儿叛逆的激烈张力：初期视其为家族筹码，后因其故意羞辱沈词转为叹息担忧",
+      "function": "叙事催化剂，推动女主角重生复仇决心与内心独白"
+    },
+    {
+      "target": "沈词",
+      "type": "利益/权力",
+      "dynamic": "视作理想乘龙快婿却因女儿拒礼陷入尴尬，权力博弈中期待联姻利益却被冷对",
+      "function": "联姻桥梁，凸显父亲门第焦虑与女主重生对峙"
+    },
+    {
+      "target": "媒人",
+      "type": "利益",
+      "dynamic": "合作提亲中的尴尬张力：父亲殷勤接待，媒人劝阻女儿时父亲大怒导致场面失控",
+      "function": "辅助推进婚事，放大父亲对家族体面的执着"
+    },
+    {
+      "target": "青梅",
+      "type": "对照",
+      "dynamic": "无直接互动，但沈词对其义妹极尽疼爱与对女儿的漠然形成间接对比，父亲不知情却担忧婚后女儿地位",
+      "function": "潜在情感冲突对照，推动父亲对女儿婚姻未来的隐忧"
+    },
+    {
+      "target": "大夫",
+      "type": "无直接",
+      "dynamic": "故事其他章节中大夫确诊胎儿时父亲未出场，但作为家族长辈将间接关心子嗣延续",
+      "function": "未来叙事功能，支撑家族延续主题"
+    },
+    {
+      "target": "睿儿",
+      "type": "情感",
+      "dynamic": "尚未出生却已成为父亲潜在外孙，未来将因沈词提议维持婚姻而间接影响其对和离的态度",
+      "function": "伏笔式情感纽带，强化家族血脉张力"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 马球会医舍 - DUSK",
+  "location": "会场旁医舍",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁在医舍正骨，蒋晟自责照顾；旁侧沈词又在温柔哄病发的陆姝仪。高令宁坚持沈家必须先嫁陆姝仪，双方矛盾升级，陆姝仪当众下跪哭求留下。",
+  "key_dialogue": "不退。退一步，从此就要退万步。",
+  "emotional_peak": "陆姝仪跪地自贬为奴为宠，沈词当众把她揽入怀里护住。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "药碗",
+    "接骨用布带",
+    "塌榻",
+    "衣袖帕子"
+  ],
+  "dramatic_purpose": "将陆姝仪的‘弱’与高令宁的‘硬’正面冲撞，深化误会与立场对立。",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了",
+  "source_text_end": "恰如你是他的妻子，可得到的疼爱，却只是我手"
+}

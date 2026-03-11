@@ -1,0 +1,261 @@
+[
+  {
+    "id": "shot_0000",
+    "scene_id": "scene_000",
+    "shot_number": 1,
+    "goal": "建立闺房封闭压抑的空间关系，并明确父女已进入对峙状态：我静止、父亲游走，权力与情绪在空间中先行显形。",
+    "composition": "FS，机位靠门内一侧，门框形成前景暗边，画面右侧中段是我，立于窗边侧光切割处，身体挺直不动；画面左侧与前景之间留出父亲踱步路径，桌案与椅凳在中景形成阻隔，床榻压在背景暗处。窗棂光横切地面，把两人分隔在不同明暗区，构成环绕式对峙。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、窒闷、山雨欲来",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我",
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 0
+  },
+  {
+    "id": "shot_0001",
+    "scene_id": "scene_000",
+    "shot_number": 2,
+    "goal": "从女主主观限制视角强调父亲在她周身施加的压迫感，建立他焦躁失控的情绪状态。",
+    "composition": "MS，偏主观机位，父亲自画面左后方向右前方踱过，偶尔切入近前景形成压迫遮挡；我不完整地留一角肩背在右侧前景虚焦中，作为视点锚。背景可见桌案边缘与窗下器物，父亲不断被窗棂硬光切过脸和衣袍。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "被围困、被审视",
+    "duration_hint": "3-4s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.28,
+    "order": 1
+  },
+  {
+    "id": "shot_0002",
+    "scene_id": "scene_000",
+    "shot_number": 3,
+    "goal": "落到父亲第一次发难，给出他的直接质问，并把失控情绪具象化。",
+    "composition": "MCU，父亲停在画面左三分之一处，身体略前倾朝画面右侧说话，右侧留给我所在的负空间；前景下缘掠过他抬起的手，背景是床榻暗部与一截屏风阴影，使面部法令纹和眉心深痕更突出。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "逼问、怒意、家长权威压顶",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 2
+  },
+  {
+    "id": "shot_0003",
+    "scene_id": "scene_000",
+    "shot_number": 4,
+    "goal": "交代女主的核心姿态：不解释、不退让，以沉默作为反制，建立她反常的冷静。",
+    "composition": "MCU，我位于画面右三分之一，肩背端正，脸朝左看向父亲；侧逆光打亮一侧眼尾和鼻梁，另一侧面部沉在阴影里约一半。背景是窗棂高光和一角垂落帘幔，前景留有父亲模糊掠过的深色衣摆，形成持续环绕感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、克制、危险的平静",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.36,
+    "order": 3
+  },
+  {
+    "id": "shot_0004",
+    "scene_id": "scene_000",
+    "shot_number": 5,
+    "goal": "让父亲继续追问婚事前后反常，补足叙事信息：她原本明明想嫁，如今却当众给沈家难堪。",
+    "composition": "MS，父亲占画面左侧，来回踱步后半停半行；我在画面右后方中景里保持静止，形成动静对照。桌案横在两人之间像一道礼法规矩的界线，案上茶盏与丝帕细节可见。窗光斜切父亲胸口，背景床榻仍沉在暗处。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "焦躁升级、礼面将裂",
+    "duration_hint": "5-6s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 4
+  },
+  {
+    "id": "shot_0005",
+    "scene_id": "scene_000",
+    "shot_number": 6,
+    "goal": "用细节反应镜头表现女主并非被逼到无言，而是在计算、忍耐、等待切入时机。",
+    "composition": "CU，我的手垂在裙侧，指尖轻压衣料折痕，几乎不动；衣料为黛青与暗红交界，侧光扫出丝绸纹理。背景虚化中可见父亲深色衣袍来回掠过，形成不安定阴影。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压抑下的控制感、暗涌",
+    "duration_hint": "2s",
+    "characters": [
+      "我",
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.46,
+    "order": 5
+  },
+  {
+    "id": "shot_0006",
+    "scene_id": "scene_000",
+    "shot_number": 7,
+    "goal": "父亲叹气并点明‘你今日给了沈公子好大一个难堪’，推动冲突从家内训斥转向外部后果。",
+    "composition": "MCU，父亲位于画面中央偏左，踱步后停下，肩线略塌，一口气泄下；他看向画面外右侧的我。前景右侧是虚焦的我半张肩线，背景桌案上的茶盏被一束硬光打亮，成为‘体面’的脆弱象征。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "焦虑、失望、无计可施",
+    "duration_hint": "4s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 6
+  },
+  {
+    "id": "shot_0007",
+    "scene_id": "scene_000",
+    "shot_number": 8,
+    "goal": "女主第一次开口，以极短一句‘我知道’切断父亲的掌控节奏，完成场面主动权第一次翻转。",
+    "composition": "CU，我仍在原位，脸占画面右半，目光平直刺向左侧画外；嘴角只微微牵起一线近似冷笑的弧度。背景窗棂高光在她颊侧形成冷硬边线，阴影面积保留过半，增强藏锋感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "寒意、意外、锋利反击",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 7
+  },
+  {
+    "id": "shot_0008",
+    "scene_id": "scene_000",
+    "shot_number": 9,
+    "goal": "捕捉父亲被这句‘我知道’顶住后的失衡反应，显示他开始怀疑女儿是故意为之。",
+    "composition": "MCU，父亲站定在画面左侧，原本前探的身体略向后收，眼神一滞；右侧保留大片负空间给女主。背景中床榻与屏风的竖线把他困在中央，鬓角灰白被光线挑出。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "错愕、警觉、控制感松动",
+    "duration_hint": "2s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.6,
+    "order": 8
+  },
+  {
+    "id": "shot_0009",
+    "scene_id": "scene_000",
+    "shot_number": 10,
+    "goal": "父亲语气转软，提出补救方案，说明他误判为女儿不想嫁，也暴露他仍想收拾局面。",
+    "composition": "MS，父亲在画面左前景，姿态不再逼近而略侧身，像试图给出退路；我在右后景仍直立不动。两人之间的桌案完整入画，茶盏位于中心偏下，像未打碎却已临界的秩序。光线较前一镜稍平，但人物仍各据明暗两端。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "短暂缓和中的不安、补救徒劳感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 9
+  },
+  {
+    "id": "shot_0010",
+    "scene_id": "scene_000",
+    "shot_number": 11,
+    "goal": "以女主一句‘谁说我不想嫁？’再次反转父亲判断，明确她不是退婚，而是在重新定义这门婚事。",
+    "composition": "MCU，我位于画面右侧，轻微向前探身但脚下未动，形成以最小动作产生最大压迫的效果；左侧大块负空间承接父亲。背景窗光在发髻金钗上挑出一点冷亮，嘴角冷笑更清晰但克制。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "机锋、主导感、令人不安的笃定",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 10
+  },
+  {
+    "id": "shot_0011",
+    "scene_id": "scene_000",
+    "shot_number": 12,
+    "goal": "给父亲一个反应镜头，让观众看见他从愤怒转入真正的不理解与隐隐惧意。",
+    "composition": "CU，父亲面朝右侧画外，眉心锁死却不再发作，唇微张，像话到嘴边顿住。背景虚化后的窗棂线条斜压在他脸后，构成被切分的心理状态。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "愕然、失措、父权失灵",
+    "duration_hint": "2s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 11
+  },
+  {
+    "id": "shot_0012",
+    "scene_id": "scene_000",
+    "shot_number": 13,
+    "goal": "将最终宣言‘我一定要嫁’作为本场戏核心钉子句，明确女主已从被动期待转为主动布局。",
+    "composition": "CU，我居中略偏右，目光稳定直视左侧画外父亲；镜头比前略近，压掉多余环境，仅保留一侧窗光和另一侧深影，面部被切成明暗两半。唇线清楚，声音低但不退，整个人像钉在原地。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "决绝、寒意、命运反向启动",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 12
+  },
+  {
+    "id": "shot_0013",
+    "scene_id": "scene_000",
+    "shot_number": 14,
+    "goal": "用父亲当场怔住收束本场，让冲突从外在斥责落到内在震荡，为后续更大布局留下余震。",
+    "composition": "MS，父亲立于画面左侧中景，彻底停住；我在右后方仍不动，构图回到最初对峙但权力已倒转。前景桌案与茶盏静止，背景床榻沉暗，窗光横切地面不再移动，整个房间像被一句话钉死。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冻结、余震、局势改写后的空白恐惧",
+    "duration_hint": "4s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.76,
+    "order": 13
+  }
+]

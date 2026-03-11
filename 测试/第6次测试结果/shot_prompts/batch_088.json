@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0534",
+    "shot_id": "shot_0497",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a medium shot, positioned left-center of the frame. She holds a perfectly upright posture, one hand lightly pressing her sleeve cuff or the edge of the table, her movement minimal, her gaze directed toward the unseen man on the right, expression restrained, distant, and defining the marriage as a contract. A large area of negative space fills the right side of the image, with orderly folding screen and writing table lines behind her restoring a sense of structure and control. Low-saturation warm-cool contrast, grey-teal, dark wood brown, and restrained amber candle accents, side-back light and soft natural interior fill, calm static composition, cinematic historical drama realism, highly detailed textures, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side-back light with restrained amber candle accents, natural interior fill, orderly shadow separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, oversaturated colors, contemporary furniture, electric lights, plastic, modern hairstyle, modern makeup, smartphone, extra fingers, distorted hands, deformed anatomy"
+  },
+  {
+    "id": "sp_0535",
+    "shot_id": "shot_0498",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a close-up with her face slightly left of center. She looks straight toward the off-screen right with unwavering eyes, her lips held in a flat controlled line, almost no visible emotion, carrying polite finality and a cold transactional tone. Side rim light traces her neck line and the faint scar, turning the old wound into a quiet visual metaphor. Behind her, the candle flame is low and steady, red warmth kept only as a small accent, while the rest of the background remains dim, muted, and disciplined. Low-saturation warm-cool contrast, restrained amber against cool grey shadow, intimate cinematic realism, shallow depth of field, highly detailed skin and silk texture, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "controlled side-back rim light on face and neck, low amber candle accent, cool grey ambient shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, oversaturated red, contemporary lighting, studio backdrop, plastic textures, modern accessories, modern hairstyle, smartphone, deformed face, extra limbs"
+  },
+  {
+    "id": "sp_0536",
+    "shot_id": "shot_0499",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a close-up on the right side of the frame facing left. His gaze darkens in stillness, breath held down, the corner of his mouth tightening almost imperceptibly, conveying dangerous silence and forced acceptance after understanding the contractual meaning of her words. In the left lower foreground, the blurred shoulder line of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, appears out of focus to preserve her central narrative presence. The background combines a cool grey night lamp and dark wood, creating restrained warm-cool tension. Cinematic historical realism, shallow depth of field, low-saturation palette, compressed emotional stillness, highly detailed facial texture, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "cool grey night lamp against dark wood, restrained amber remnants, soft directional interior light, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, modern clothing, electric fixtures, plastic, neon, smartphone, contemporary hairstyle, deformed eyes, bad anatomy, extra fingers"
+  },
+  {
+    "id": "sp_0537",
+    "shot_id": "shot_0500",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, on the left; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, on the right, shown in a medium long shot. Both remain within their own territories and do not move across the empty space between them, their posture controlled and still, the atmosphere cold, unresolved, and bound by fate rather than intimacy. A low candle stand flame bends quietly in the foreground, while the folding screen and door frames in the background divide and confine each person into separate visual zones. The empty space is heavy and silent, as if solidified by the last exchange of words. Low-saturation warm-cool contrast, grey-teal, dark wood brown, and restrained amber with very limited red accents, static symmetrical tension, cinematic historical drama realism, highly detailed environment, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "soft side-back interior light, restrained amber candle glow, cool ambient fill, low-saturation warm-cool contrast with controlled red accents"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, oversaturated festive red, modern decor, electric lights, plastic, contemporary furniture, smartphone, bad anatomy, duplicate characters"
+  },
+  {
+    "id": "sp_0538",
+    "shot_id": "shot_0528",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, stands in the mid-background right before piled betrothal gifts; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, appears only as a faint figure near the back doorway. Wide shot with strong hall depth: in the left foreground and midground, stacked red silk, betrothal chests, and gift boxes rise like a small hill and occupy about one third of the frame, pressing into the composition. The father faces the gifts with a slightly bent back, not joy but burden in his stance. The half-open doors and windows farther back let in slanting daylight, leaving a cold empty patch on the floor. The atmosphere emphasizes the weight of a settled marriage rather than celebration. Low-saturation warm-cool contrast, old wood brown, grey-cyan daylight, muted red kept controlled, static architectural composition, cinematic historical drama realism, highly detailed props and textures, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, environmental storytelling, subtle film grain",
+      "lighting": "slanting cool natural daylight from half-open doors and windows, restrained warm interior bounce, low-saturation warm-cool contrast, muted red accents only"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, festive modern wedding decor, balloons, electric lights, plastic packaging, modern boxes, contemporary clothing, smartphone, bad perspective, deformed anatomy"
+  },
+  {
+    "id": "sp_0539",
+    "shot_id": "shot_0529",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in a medium shot from Gao Lingning's limited point of view. He stands on the right side of the frame, turned two-thirds away from camera, facing slightly toward the stacked betrothal gifts on the left. The corners and edges of the gift boxes form diagonal pressure lines toward his body. Slanting daylight from the doorway and window outlines the frost-white strands in his hair and the line of his shoulders, while only part of his side face is visible, brows tightly locked with worry and hesitation rather than joy. The hall remains austere with dark wood and controlled color, the marriage gifts feeling heavy instead of festive. Low-saturation warm-cool contrast, cool natural light against muted red silk and dark teal robe, subtle inward dolly mood, cinematic historical realism, highly detailed facial and fabric texture, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cool slanting natural daylight outlining hair and shoulders, restrained interior warmth, low-saturation warm-cool contrast with muted red accents"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, modern wedding items, plastic, electric lamps, contemporary architecture, smartphone, cartoonish expression, bad anatomy, extra limbs"
+  }
+]

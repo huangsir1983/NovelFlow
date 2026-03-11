@@ -1,0 +1,88 @@
+[
+  {
+    "id": "seg_0123",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0412",
+      "shot_0413",
+      "shot_0414"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并开场建立空间、主观逼近与关键道具动作，三镜头共同完成‘礼制余温—私密侵入—控制关系落地’的连续起手。角色集合未变，情绪由冷寂稳步升至压迫，适合作为一个完整段落。",
+    "order": 123
+  },
+  {
+    "id": "seg_0124",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0415",
+      "shot_0416",
+      "shot_0417"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段聚焦第一轮试探：先证实女主反常状态，再由男主台词逼问，最后落到咬耳与抬手反击。情绪弧线完整，从麻木到侵入到瞬时反抗，保持同一床榻空间和同一组人物，适合合并。",
+    "order": 124
+  },
+  {
+    "id": "seg_0125",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0418",
+      "shot_0419",
+      "shot_0420"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头构成一个明确动作单元：反击—反制—逼视。没有角色和空间变化，情绪持续上扬到窒息点，正好在下一句更重台词前形成段落边界。",
+    "order": 125
+  },
+  {
+    "id": "seg_0126",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0421",
+      "shot_0422",
+      "shot_0423"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是完整的对话攻防回合：男主羞辱、女主最小反击、男主被刺后失衡。情感弧线从施压到反刺到裂缝显现，非常集中，适合合并为单一表演段。",
+    "order": 126
+  },
+  {
+    "id": "seg_0127",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0424",
+      "shot_0425",
+      "shot_0426"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组围绕男主的补偿性施压展开：先撇清欲望，再主观逼近，最后抛出公开化威胁，情绪是一条清晰递进线。空间未变，叙事动作单一明确，适合合并为一段威胁升级。",
+    "order": 127
+  },
+  {
+    "id": "seg_0128",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0427",
+      "shot_0428",
+      "shot_0429",
+      "shot_0430",
+      "shot_0431"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是全场情感转折后的收束段：女主关键反转、男主停滞、有限客观证实他未彻底失控、细节补充迟疑、最后回到空间冷场。虽然含5个shot，但它们共同完成一个‘局势骤变—动作余波—回冷定格’的大节拍，适合作为结尾长段。",
+    "order": 128
+  }
+]

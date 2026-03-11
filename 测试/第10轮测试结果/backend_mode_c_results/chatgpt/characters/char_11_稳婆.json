@@ -1,0 +1,43 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-60",
+  "appearance": {
+    "face": "经验老到的接生妇人面相，神色焦灼",
+    "body": "普通中年妇人体态",
+    "hair": "已婚妇人包头",
+    "distinguishing_features": "生产时声音急切"
+  },
+  "costume": {
+    "typical_outfit": "利落深色妇人衣衫",
+    "color_palette": [
+      "深褐",
+      "灰蓝"
+    ]
+  },
+  "casting_tags": [
+    "接生婆",
+    "危机现场人物"
+  ],
+  "visual_reference": "ancient chinese midwife, urgent expression, practical dark clothes, childbirth room setting",
+  "personality": "务实、紧张、遵循礼法",
+  "desire": "顺利保住产妇和孩子",
+  "flaw": "受制于父权制度，只能请丈夫决断",
+  "arc": "无",
+  "scene_presence": "高令宁早产难产时主导接生",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医护关系",
+      "dynamic": "竭力施救",
+      "function": "推动生死抉择"
+    },
+    {
+      "target": "沈词",
+      "type": "请示对象",
+      "dynamic": "催促其保大保小决断",
+      "function": "逼出男主真心"
+    }
+  ]
+}

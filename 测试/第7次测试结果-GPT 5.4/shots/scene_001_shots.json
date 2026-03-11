@@ -1,0 +1,371 @@
+[
+  {
+    "id": "shot_0070",
+    "scene_id": "scene_001",
+    "shot_number": 1,
+    "goal": "建立高家正堂的礼制空间、聘礼陈列与压抑试探的整体氛围，并突出木雁作为违和核心道具。",
+    "composition": "WS。机位位于堂门外略偏女主未来入场方向，利用门框作前景框取景。画面中央偏后为成排金银绸缎与聘礼，正中视觉焦点是一只木雁；右后方主位上坐高父，左中偏前站媒人，媒人身后稍后位置站沈词，垂眼不动。日光自画面左侧门窗斜切入内，在聘礼与木雁上形成亮斑，四周厅堂保持冷色阴影，纵深由案几、立柱、屏风层层切割。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到礼数周全中的不对劲与窒息感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 70
+  },
+  {
+    "id": "shot_0071",
+    "scene_id": "scene_001",
+    "shot_number": 2,
+    "goal": "将观众视线从整体礼制收束到木雁，预埋其作为反转触发物的重要性。",
+    "composition": "CU。木雁置于画面中央略偏下，前景虚化为金银器与绸缎边缘，背景虚化可见喜庆聘礼堆叠的暖亮反光。木纹质地与周围华丽材质形成鲜明反差，左侧斜光勾出木雁轮廓。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造细微悬疑，让观众意识到这个物件不只是聘礼之一。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.28,
+    "order": 71
+  },
+  {
+    "id": "shot_0072",
+    "scene_id": "scene_001",
+    "shot_number": 3,
+    "goal": "交代高父对媒人的低姿态与这门婚事的不对等性，建立表面和气下的利益倾斜。",
+    "composition": "MS。高父居画面右侧主位，身体微前倾，朝左侧媒人露笑；左前景可带入媒人半个肩背虚焦作为对话对象。案几横亘下方形成权力线，背景是堂内屏风与暗色立柱。高父衣袖、手势与笑意都朝向媒人，显出殷勤。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到高家的急切与失衡，为后续女主逆势出手做铺垫。",
+    "duration_hint": "4s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.31,
+    "order": 72
+  },
+  {
+    "id": "shot_0073",
+    "scene_id": "scene_001",
+    "shot_number": 4,
+    "goal": "呈现沈词的克制与不主动，埋下他与众不同的冷感及后续骤然抬眼的对比。",
+    "composition": "MCU。沈词位于画面左三分之一，身形笔直，眼睫低垂；前景右侧虚化为媒人衣袖，背景是冷色屏风与一道斜射进来的光边，光只擦到他的颊骨和衣领，眼部仍落在阴影里。留白偏多，压缩感明显。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传达冷淡、难测和情绪被强行压住的危险感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 73
+  },
+  {
+    "id": "shot_0074",
+    "scene_id": "scene_001",
+    "shot_number": 5,
+    "goal": "以女主主观进入堂中，建立她观察这场提亲的第一视角和她与众人的空间关系。",
+    "composition": "MLS。机位贴近高令宁行进方向，略带主观感，从内堂向外看。前景右侧掠过帘幕与门框，正堂中聘礼占据画面中央，木雁在一列聘礼前最醒目；高父在远处右侧主位，媒人与沈词位于左侧纵深。画面下方保留行进中的衣摆虚影，暗示女主入场。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众与女主一起进入博弈现场，形成先观察后出手的心理预备。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 74
+  },
+  {
+    "id": "shot_0075",
+    "scene_id": "scene_001",
+    "shot_number": 6,
+    "goal": "明确女主第一眼锁定木雁，建立‘女主先知’式的关注重点。",
+    "composition": "CU。高令宁眼部与半张侧脸占据画面右侧，视线向左下方落去；左侧前景虚化为木雁轮廓的一角，背景是冷白日光与绸缎反光。她的眼神冷、停得久，颈侧淡痕若隐若现。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起观众对她异常冷静的好奇，感知她知道更多。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.42,
+    "order": 75
+  },
+  {
+    "id": "shot_0076",
+    "scene_id": "scene_001",
+    "shot_number": 7,
+    "goal": "展示高令宁停在聘礼前，完成她从被动入场到主动占位的动作转换。",
+    "composition": "MS。高令宁立于画面中央略偏右，身前下方是一列聘礼与木雁；她与聘礼之间留出半步距离，像在审视。背景深处左侧是媒人与沈词，右侧高父坐于主位。人物站位形成三角对峙，女主前景化，夺取视觉中心。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到她不是来受礼，而是来审判这场提亲。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 76
+  },
+  {
+    "id": "shot_0077",
+    "scene_id": "scene_001",
+    "shot_number": 8,
+    "goal": "把退还木雁的动作拍成仪式性的冒犯，完成第一层关系反转。",
+    "composition": "MCU。木雁位于画面中心，高令宁自右侧伸手稳稳托起木雁，手势克制而决绝；左侧前景是媒人略慌的双手正要来接。背景虚焦中可见红绸与金器，形成反衬。动作线保持女主由右向左递出，媒人由左向右接回。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "制造清冷却带刺的冲击感，让观众感到她的冒犯是经过计算的。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 77
+  },
+  {
+    "id": "shot_0078",
+    "scene_id": "scene_001",
+    "shot_number": 9,
+    "goal": "交代媒人的错愕与堂中秩序被打断的即时反应。",
+    "composition": "MCU。媒人位于画面左侧，双手接过木雁，表情僵住；木雁卡在画面中央作为动作焦点。右侧边缘保留高令宁冷静的手部或衣袖一角，形成压迫。背景深处高父主位虚化，暗示即将起怒。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到礼仪场面被撕开一道口子，尴尬和危险同时出现。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.66,
+    "order": 78
+  },
+  {
+    "id": "shot_0079",
+    "scene_id": "scene_001",
+    "shot_number": 10,
+    "goal": "以女主近景正面确立她公开发难的姿态，并抛出‘聘礼太薄’这一试探性攻击。",
+    "composition": "MCU。高令宁站于画面中央，肩背平直，下巴微抬，目光越过镜头略向左看媒人与沈词方向。前景下缘虚化为木雁或聘礼边角，背景是被日光切开的堂内阴影。她的脸处在柔冷侧光中，眼神锋利但语气平静。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的锋芒不是失控，而是有备而来。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 79
+  },
+  {
+    "id": "shot_0080",
+    "scene_id": "scene_001",
+    "shot_number": 11,
+    "goal": "用爆发性动作表现高父的失态，显示旧秩序对女主反击的立即镇压。",
+    "composition": "MS。高父居画面右侧由坐到起，手掌重拍案几，案上茶盏轻震；衣袖向外甩开。左侧留出大片空位指向女主站位，形成斥责的方向性。背景屏风竖线强化上冲动作。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "给观众一个骤然的压迫与惊跳，感受到父权和家族利益的反扑。",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.81,
+    "order": 80
+  },
+  {
+    "id": "shot_0081",
+    "scene_id": "scene_001",
+    "shot_number": 12,
+    "goal": "承接高父怒斥，将话语压力正面压向女主，表现她承受却不退让。",
+    "composition": "OTS。过高父右肩拍向高令宁，前景是高父虚焦肩背与扬起衣袖，画面中央偏左是高令宁静站不动，身前聘礼形成屏障。她与高父之间隔着一段空地，像审讯场。背景左侧媒人与沈词模糊可见。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到女主被集体目光与家族权威围困，但她仍稳住中心。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 81
+  },
+  {
+    "id": "shot_0082",
+    "scene_id": "scene_001",
+    "shot_number": 13,
+    "goal": "展示媒人慌忙救场，说明这场风波已危及婚事成败。",
+    "composition": "MS。媒人位于画面中央偏前，抱着木雁转身朝右侧高令宁方向相劝；前景下方可见木雁压在怀中。背景右后方是高父站立的暗色身影，左后方沈词仍静立。媒人的身体形成画面中唯一明显前倾姿态，传达急迫。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到局势正在滑向失控，外人急于缝补裂口。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 82
+  },
+  {
+    "id": "shot_0083",
+    "scene_id": "scene_001",
+    "shot_number": 14,
+    "goal": "以女主再度加码的发言，把谈判对象从媒人与父亲直接转向沈词，逼他表态。",
+    "composition": "MCU。高令宁位于画面中央略偏右，脸转向左侧沈词所在方向，唇线平直，眼神带试探。前景左下虚化为媒人抱着木雁的一角，暗示上一动作余波未消；背景右侧有高父模糊轮廓。她的姿态不动，只用目光发起第二轮进攻。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她在拿自己作饵，试探对方底牌，危险而聪明。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 83
+  },
+  {
+    "id": "shot_0084",
+    "scene_id": "scene_001",
+    "shot_number": 15,
+    "goal": "捕捉沈词听到挑衅后的第一次骤然抬眼，作为悬疑确认点。",
+    "composition": "CU。沈词脸部占据画面左侧至中央，原本垂下的眼骤然抬起，目光锐利刺向镜头外右侧的高令宁。背景压成冷暗色，只有眼周与鼻梁被一道斜光切亮。前景无干扰，突出瞬间失控。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一瞬间被证实的危险：他听懂了，她也赌对了。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 84
+  },
+  {
+    "id": "shot_0085",
+    "scene_id": "scene_001",
+    "shot_number": 16,
+    "goal": "用客观双人视角确认两人之间的无声对峙，建立心照不宣的重生同频感。",
+    "composition": "MLS。高令宁位于画面右前，沈词位于画面左后，两人隔着堂中聘礼和一道空地相望。木雁此刻在媒人怀中位于画面中下部，像被撤走的婚约象征。高父与媒人被压在边角，失去主导。堂内立柱将两人分隔成两个画面区块，但视线在中间交汇。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到真正的对手并非父亲和媒人，而是这对未婚男女之间的旧账与新局。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.88,
+    "order": 85
+  },
+  {
+    "id": "shot_0086",
+    "scene_id": "scene_001",
+    "shot_number": 17,
+    "goal": "表现沈词强行收束情绪，以一句轻描淡写的‘姑娘说笑了’完成表面回冷。",
+    "composition": "MCU。沈词位于画面左三分之一，头微偏，嘴角几乎不可见地压了一下，眼神已从锐利收回成冷薄。右侧留白朝向高令宁。背景是模糊的堂内光影与一截立柱，形成克制、整齐的视觉秩序。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他并未真被击溃，而是在重新穿回体面外壳。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 86
+  },
+  {
+    "id": "shot_0087",
+    "scene_id": "scene_001",
+    "shot_number": 18,
+    "goal": "拍出沈词提出补偿方案时的姿态与潜台词：让步，但不认输。",
+    "composition": "MS。沈词站于画面左侧，侧身略向右，对高令宁说出会再议聘礼；前景中下可带入媒人抱着木雁的虚焦轮廓，象征他接手收拾残局。背景右侧远处高父仍站立，神情僵住。沈词说话时头微侧向高令宁，眼神冷薄带讥诮。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到谈判权已被女主抢走一部分，但男主以更隐忍的方式把局接了回来。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 87
+  },
+  {
+    "id": "shot_0088",
+    "scene_id": "scene_001",
+    "shot_number": 19,
+    "goal": "给女主一个反应镜头，确认她从他的表态中读出了更深层的信息。",
+    "composition": "CU。高令宁位于画面右侧，脸微向左，眼底有极轻的了然和警惕，但表面仍冷。背景被压成柔暗，只有颊边冷光和发间玉饰细闪。画面留白朝向沈词，形成未尽之意。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众体会到胜负未分，她得到了答案，却也确认了更大的麻烦。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 88
+  },
+  {
+    "id": "shot_0089",
+    "scene_id": "scene_001",
+    "shot_number": 20,
+    "goal": "以回落的全局镜头收束本场，保留礼数外壳下重新改写的关系格局。",
+    "composition": "FS。机位回到堂门外或门侧，与开场呼应。高令宁立于右前，沈词立于左中，媒人抱木雁夹在中间稍后，高父在右后主位前站着，案几与聘礼仍在，但秩序已悄然重排。门框、立柱、聘礼箱笼构成分隔线，日光依旧照在聘礼上，木雁却已离开原位，形成明显缺口。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众带着冷意离场：婚事未断，战局却已开始。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 89
+  }
+]

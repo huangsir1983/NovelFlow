@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_002",
+  "name": "沈府荷花亭",
+  "type": "exterior",
+  "era_style": "明代晚期江南园林荷花亭",
+  "description": "临湖而建的六角飞檐亭子，四周环绕石栏杆与曲桥，亭内石桌石凳，湖面满布荷叶与莲花，亭边垂柳轻拂水面，远处可见沈府后花园假山，空间开阔通透，适合观景与私语。",
+  "visual_reference": "Elegant Ming dynasty late period Jiangnan garden lotus pavilion exterior at dusk, hexagonal flying-eave pavilion with stone railings and curved bridge, stone table and stools inside, lake covered in lush lotus leaves and flowers, weeping willows brushing water surface, distant rockery of mansion garden, open airy atmosphere, soft twilight glow on water, highly detailed cinematic composition",
+  "atmosphere": "凄美宁静却暗藏决裂",
+  "color_palette": [
+    "墨绿",
+    "湖蓝",
+    "橙红"
+  ],
+  "lighting": "黄昏余晖映照湖面与亭柱，营造柔和金橙光晕与长影",
+  "key_features": [
+    "六角飞檐亭",
+    "满湖荷叶",
+    "石栏曲桥"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "夫妻决裂与指责"
+}

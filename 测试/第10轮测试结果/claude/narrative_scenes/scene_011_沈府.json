@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府 - 日",
+  "location": "沈府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈母"
+  ],
+  "core_event": "沈词为陆姝仪择婿焦头烂额，高令宁建议纳她为妾",
+  "key_dialogue": "若你实在心疼，不如便将她纳进来吧",
+  "emotional_peak": "沈词的震惊和不解",
+  "tension_score": 0.7,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "扇子",
+    "茶具",
+    "家具",
+    "书信"
+  ],
+  "dramatic_purpose": "高令宁放下执念"
+}

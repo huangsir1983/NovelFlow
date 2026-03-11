@@ -1,0 +1,309 @@
+[
+  {
+    "id": "shot_0763",
+    "scene_id": "scene_020",
+    "shot_number": 1,
+    "goal": "建立厢房内的权力地形与光影关系，明确高令宁处于视觉高位、陆姝仪处于病榻低位，冲突即将爆发。",
+    "composition": "FS，门内侧偏高机位斜拍。画面右后方是被灯火照亮的病榻，陆姝仪半撑起身；画面左中是房间中央的亮区，高令宁站立，蒋晟在她后侧半步扶持；前景左下虚化一盏灯盏与木案边角，背景旧木墙与帘幕形成压迫框景，榻边到中央形成明显明暗分界线。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到礼法空间的压迫与人物关系中的不平衡。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.26,
+    "order": 763
+  },
+  {
+    "id": "shot_0764",
+    "scene_id": "scene_020",
+    "shot_number": 2,
+    "goal": "把观众带入高令宁的限制性主观视角，强调她所看到的陆姝仪强撑病体的姿态。",
+    "composition": "MS，主观视角朝病榻。陆姝仪位于画面右侧，从榻沿滑下，手死死撑住榻边；左侧留出一片阴影空位，隐含高令宁的注视位置。前景下缘可见模糊的裙摆暗色边缘，暗示高令宁站在近处。背景药碗与褶皱被褥凌乱，强化病弱与表演性。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到不适与警觉：这一跪不是单纯的脆弱，而是冲着谁来的。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 764
+  },
+  {
+    "id": "shot_0765",
+    "scene_id": "scene_020",
+    "shot_number": 3,
+    "goal": "突出陆姝仪膝盖落地这一动作，把求情的姿态物理化为羞辱与施压。",
+    "composition": "CU，低机位对准地面。陆姝仪浅色裙摆扑落，膝盖重重触地占据画面中心偏右，木地板纹理与灯影摇晃清晰可见；左前景是一滴药汁或水痕，右后方虚化病榻脚形成空间指向。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造一瞬间的刺痛感，让跪地成为高令宁情感受创的第一记实锤。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 765
+  },
+  {
+    "id": "shot_0766",
+    "scene_id": "scene_020",
+    "shot_number": 4,
+    "goal": "展示陆姝仪抓住高令宁衣角，完成“示弱夺位”的关键动作。",
+    "composition": "ECU，画面左侧是高令宁月白/黛青衣摆垂落，布料冷硬整洁；右下方一只苍白发颤的手探入画面，抓住衣角，指节发白。地面木纹与灯火反光作背景，视觉焦点集中在被拽皱的衣角上。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "唤起观众对边界被侵犯的窒息感，也让高令宁的被动承受具象化。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.63,
+    "order": 766
+  },
+  {
+    "id": "shot_0767",
+    "scene_id": "scene_020",
+    "shot_number": 5,
+    "goal": "承接台词“高小姐……”，建立陆姝仪的哀求表演和她对高令宁的道德施压。",
+    "composition": "MCU，略高角度俯拍陆姝仪。她跪在画面下中，抬头望向镜头外左侧的高令宁，泪痕与轻颤的肩背清晰；前景左边缘保留一截虚化的高令宁裙摆，形成主观压迫。背景榻边暖光勾出她发丝微乱，脸色苍白。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "让观众同时感到可怜与不适，意识到这份卑微里带着强烈的策略性。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 767
+  },
+  {
+    "id": "shot_0768",
+    "scene_id": "scene_020",
+    "shot_number": 6,
+    "goal": "捕捉高令宁面对下跪与抓衣角时的第一层反应：不俯身、不退，冷意开始落下。",
+    "composition": "CU，正面略侧拍高令宁，头肩位于画面左中，视线向右下落。右侧留白对准陆姝仪所在方向；后景深处蒋晟模糊半身在她肩后。侧逆光勾出她冷白面色与颈侧淡痕，唇线压紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感受到她不是无动于衷，而是在被迫看清一件她最不愿确认的事实。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 768
+  },
+  {
+    "id": "shot_0769",
+    "scene_id": "scene_020",
+    "shot_number": 7,
+    "goal": "引入沈词的介入前兆，说明他对陆姝仪的反应速度远快于对高令宁情绪的顾及。",
+    "composition": "MS，从高令宁视线轴线内侧拍向右方。画面右后景是跪地的陆姝仪虚焦，左前景掠入一抹深色衣袍，沈词快速下蹲切入中央；动势从左向右压向陆姝仪，保持场内方向连续。灯光在他袖口与衣摆上形成冷硬折线。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "制造突兀的刺感：有人比高令宁更快、更本能地去护她。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 769
+  },
+  {
+    "id": "shot_0770",
+    "scene_id": "scene_020",
+    "shot_number": 8,
+    "goal": "完成“护入怀中”的动作，明确沈词身体性站队。",
+    "composition": "MLS，低机位三分构图。中间偏右沈词半蹲，将陆姝仪揽进怀里；陆姝仪缩在他怀前下方，只露泪脸与抓衣角的手被迫松开；画面左上高令宁仍站立，只见下半身与垂落衣摆，形成压顶感。背景病榻与灯火偏暖，前景沈词深色衣袍构成屏障。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众清楚看到保护关系已经公开化，高令宁被排除在外。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 770
+  },
+  {
+    "id": "shot_0771",
+    "scene_id": "scene_020",
+    "shot_number": 9,
+    "goal": "细节化沈词的温柔举动，用衣袖擦泪，把偏爱落在最伤人的微小动作上。",
+    "composition": "CU，沈词袖口从左侧进入，轻擦陆姝仪右脸泪痕。陆姝仪脸位于画面右侧，睫毛湿重，嘴唇发颤；背景完全压暗，仅保留一点灯火琥珀色边缘光。袖口质地考究，与她病弱面容形成强烈对照。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众替高令宁感到被刺穿——最残忍的往往不是大声表态，而是下意识的体贴。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.84,
+    "order": 771
+  },
+  {
+    "id": "shot_0772",
+    "scene_id": "scene_020",
+    "shot_number": 10,
+    "goal": "用沈词台词“姝仪，你这是做什么？”重定义局面，把陆姝仪塑造成被逼受辱者。",
+    "composition": "MCU，沈词位于画面中央偏左，低头看向怀中人；陆姝仪只占右下角半张脸和发顶。镜头高度略低于沈词视线，使他在蹲姿中仍显掌控。背景左侧留出一片虚化冷色区域，代表高令宁所处位置但不进入焦点。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到局面被他一句话带偏，高令宁被无声地置于加害者位置。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 772
+  },
+  {
+    "id": "shot_0773",
+    "scene_id": "scene_020",
+    "shot_number": 11,
+    "goal": "回到高令宁的主观受伤反应，展示她看到的完整保护/被求/被逼视三角关系。",
+    "composition": "FS，主观视角。前景下缘虚化是高令宁自己静止的衣摆；中景中央沈词半蹲护住陆姝仪，身体明确挡在两人之间；后景右侧蒋晟保持扶持姿态却不介入。灯火把榻边暖亮，中央人物形成深浅分明的剪影，三角构图稳定而残酷。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众体验到一种被排斥在关系之外的冷痛，像亲眼见证偏爱成形。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 773
+  },
+  {
+    "id": "shot_0774",
+    "scene_id": "scene_020",
+    "shot_number": 12,
+    "goal": "给蒋晟一个有限反应镜头，说明旁观者也意识到失衡，但他选择克制不介入。",
+    "composition": "MCU，蒋晟位于画面右侧，手仍扶着高令宁的手臂或肘侧，视线落向前方冲突中心又迅速收回。左侧前景是高令宁肩线的虚焦轮廓，背景压暗。耳根微红、神色为难但沉住。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到现场并非无人看见，只是所有人都默认了这份对高令宁的伤害。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 774
+  },
+  {
+    "id": "shot_0775",
+    "scene_id": "scene_020",
+    "shot_number": 13,
+    "goal": "承接陆姝仪长段求情台词，把她的卑微话术推至极端，压迫高令宁的道德位置。",
+    "composition": "CU，陆姝仪从沈词怀中微微抬脸，位于画面右中，眼睛仍执拗地望向镜头外左侧；左边缘能看到沈词肩颈与护持的手，形成“有人托底的卑微”。背景烛火轻晃，泪光在眼底闪动。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "唤起复杂反应：她说得越低贱，越像在把高令宁往无情之位上推。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "陆姝仪",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 775
+  },
+  {
+    "id": "shot_0776",
+    "scene_id": "scene_020",
+    "shot_number": 14,
+    "goal": "让高令宁的情绪真正冷下来，完成“现实验证”后的内心决绝起点。",
+    "composition": "ECU，高令宁眼部与半边脸。眼神向右下微凝，睫毛几乎不动，唇角极轻地下压；颈侧细痕在侧光中一闪。背景全部虚化成冷暖混杂的光斑，世界像退远，只剩她的判断。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到她的心在此刻不是碎，而是冻住。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.74,
+    "order": 776
+  },
+  {
+    "id": "shot_0777",
+    "scene_id": "scene_020",
+    "shot_number": 15,
+    "goal": "以沈词公开宣示“有我在，没人能赶你走”完成站队外化，把高令宁彻底推向决绝。",
+    "composition": "MLS，轴线保持不变。沈词位于画面中央偏左，半蹲却抬头朝高令宁方向说话，陆姝仪被护在他胸前右下；高令宁站在画面左侧上方，身形完整但被门框或帘幕边缘切割，蒋晟后侧半步。空间纵深中形成清晰的上位/下位与言语权对冲。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "把情绪推到峰值：不是单纯怜惜，而是当众宣告决定权归他。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "陆姝仪",
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 777
+  },
+  {
+    "id": "shot_0778",
+    "scene_id": "scene_020",
+    "shot_number": 16,
+    "goal": "冷收场面，以高令宁的沉默承受作为悬念结束点，为下一场的决绝行动蓄力。",
+    "composition": "MS，高令宁位于画面左三分之一，站姿笔直，目光平稳却已抽离；蒋晟在她后方虚焦。右侧大面积留白中，前景虚化可见沈词与陆姝仪依偎的暗色轮廓，但不再是焦点。门框阴影压在高令宁肩侧，灯火只在她颊边留一线冷暖交界。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到情绪并未爆裂，而是被收进更危险的沉静里。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 778
+  }
+]

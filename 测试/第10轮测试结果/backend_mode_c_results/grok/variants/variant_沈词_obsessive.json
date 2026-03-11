@@ -1,0 +1,30 @@
+{
+  "variant_id": "沈词_variant_04",
+  "variant_type": "obsessive",
+  "variant_name": "沈词 — 江南追妻",
+  "tags": [
+    "三年后",
+    "纠缠",
+    "执着"
+  ],
+  "scene_ids": [
+    "scene_012",
+    "scene_013"
+  ],
+  "trigger": "三年后江南宅院雪景闯入及卧房爬床守夜表白时",
+  "appearance_delta": {
+    "face": "清冷俊朗，眼眸转为深沉执着，似哭似笑的复杂神情",
+    "body": "修长身躯低微纠缠姿态",
+    "hair": "黑发玉冠略显凌乱",
+    "distinguishing_features": "阴沉冷笑转为乞求的痴缠眼神"
+  },
+  "costume_override": {
+    "outfit": "深色长袍带风雪痕迹",
+    "color_palette": [
+      "墨黑",
+      "深蓝"
+    ]
+  },
+  "visual_reference": "handsome aloof Chinese scholar-official in snowy Jiangnan residence years later, intense obsessive amber eyes with desperate crying-smiling expression, refined pale face, tall slender build in pleading posture, black hair with jade guan messy, dark elegant robes with snow, bedroom night scene holding or begging, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "恬不知耻的深情纠缠"
+}

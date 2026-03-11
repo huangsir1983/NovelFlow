@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家正厅 - DAY",
+  "location": "高家正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "沈词",
+    "高父",
+    "沈母"
+  ],
+  "core_event": "高父为女儿出头，强硬要求和离，并以沈词的前途威胁沈母。沈词下跪恳求，被高父用和离书和赘婿人选彻底击溃，情绪失控闯入后院。",
+  "key_dialogue": "我的女儿不愁没人要，我已经备好了赘婿人选，昭昭同样不会缺爹爹疼爱。",
+  "emotional_peak": "沈词听到“赘婿人选”后身体僵住，随即发出短促的笑声，情绪崩溃。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "和离书",
+    "茶杯"
+  ],
+  "dramatic_purpose": "攻守之势异也。沈词彻底失去掌控权，陷入被动和绝望，开启“追妻火葬场”模式。",
+  "source_text_start": "经此一事，他已经对沈词失望至极，连带着对沈家也生出怨恨。 沈母亲自上门，他神色冷淡： 「高家虽然门第低，",
+  "source_text_end": "竟然不顾小厮阻拦，强行闯入了后院。"
+}

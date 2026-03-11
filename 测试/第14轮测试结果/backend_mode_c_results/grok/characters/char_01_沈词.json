@@ -1,0 +1,49 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "supporting",
+  "age_range": "20-35",
+  "appearance": {
+    "face": "如玉俊朗，冷峻眉眼",
+    "body": "长身玉立，高大挺拔",
+    "hair": "墨黑长发，束冠整齐",
+    "distinguishing_features": "冷如冰湖的漆黑或琥珀眸子，讥诮冷薄眼神"
+  },
+  "costume": {
+    "typical_outfit": "文官锦袍或深色官服",
+    "color_palette": [
+      "玄黑",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "古风男主",
+    "冷峻文臣",
+    "重生深情隐忍"
+  ],
+  "visual_reference": "英俊冷峻的古代年轻文官，面如冠玉剑眉星目眼神清冷锐利，高大身材，穿着深色锦袍或官服，姿态挺拔端方，背景书房或庭院，月光烛光冷调氛围，写实古风，超高清",
+  "visual_prompt_negative": "笑容过多，现代西装，胡须凌乱，卡通可爱风，西方五官",
+  "personality": "清冷端方、尖锐讥诮、深情隐忍",
+  "desire": "保护青梅余生顺遂、与妻子和孩子共度",
+  "flaw": "极端护短、尖锐易伤人、不善表达真心",
+  "arc": "从冷待算计到主动纠缠不愿放手",
+  "scene_presence": "贯穿全程，与女主多次正面对峙与亲密互动",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "妻子",
+      "dynamic": "针锋相对到互相救赎纠缠",
+      "function": "情感核心"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "义妹",
+      "dynamic": "兄妹情深却被误会",
+      "function": "制造误会张力"
+    }
+  ]
+}

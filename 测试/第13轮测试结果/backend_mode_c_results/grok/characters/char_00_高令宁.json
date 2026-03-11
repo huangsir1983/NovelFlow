@@ -1,0 +1,55 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高姑娘",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-25岁",
+  "appearance": {
+    "face": "瓜子脸，杏眼樱唇，眉眼带倔强",
+    "body": "苗条纤细",
+    "hair": "乌黑长发盘髻",
+    "distinguishing_features": "清冷坚毅眼神，透露要强性格"
+  },
+  "costume": {
+    "typical_outfit": "浅蓝或粉色襦裙",
+    "color_palette": [
+      "浅蓝",
+      "粉白"
+    ]
+  },
+  "casting_tags": [
+    "重生女主",
+    "要强古代女性",
+    "清丽高傲"
+  ],
+  "visual_reference": "一位17岁左右的清丽古代少女，瓜子脸杏眼，皮肤白皙，乌黑长发挽成精致发髻插玉簪，身穿浅蓝色襦裙外罩薄纱，姿态优雅却眼神坚定，站在古代正堂或闺房，古典柔和光影，写实风格",
+  "visual_prompt_negative": "现代服装、短发、浓妆艳抹、西方面孔、卡通风格、过分甜美笑容",
+  "personality": "争强好胜、独立要强、高傲不屈",
+  "desire": "再见孩子一面后和离，过上独立平安的生活",
+  "flaw": "过于要强易冲动，内心敏感易受伤",
+  "arc": "从充满恨意针锋相对到想开原谅，选择放手独立",
+  "scene_presence": "贯穿全剧，从提亲拒绝薄聘到江南新生活",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前夫",
+      "dynamic": "前世怨偶今生纠缠恨爱交织",
+      "function": "主要情感冲突源"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "恨意与厌恶",
+      "function": "引发误会张力"
+    },
+    {
+      "target": "高父",
+      "type": "父亲",
+      "dynamic": "孝顺保护",
+      "function": "情感支持"
+    }
+  ]
+}

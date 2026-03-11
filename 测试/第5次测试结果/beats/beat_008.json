@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_008",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "以辞官保父并与沈词约定为子成婚",
+    "description": "在再议婚约中，父亲从门第迷思中醒来，愿护我平安；我逼父亲写下辞官奏折，先为高家改命。门前与沈词重逢后，他以‘若不成亲便等于再杀睿儿一次’逼婚，我则要求先处理陆姝仪。二人最终达成为生睿儿而结合、之后和离的冷酷协议。",
+    "beat_type": "event",
+    "save_the_cat": "Midpoint",
+    "emotional_value": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 8
+  }
+}

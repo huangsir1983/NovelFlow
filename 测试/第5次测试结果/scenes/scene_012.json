@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "id": "scene_012",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:30:16"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_004",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 高府门前 - DAY",
+    "location": "高府门前",
+    "time_of_day": "day",
+    "description": "开敞的府门外空间，白日自然光直落，门前石阶分出内外界限。高府大门厚重，门侧可供人久候。沈词立于门前，衣着整肃却带长久等待后的疲态，眼下发青，手背或腕间可见清晰勒痕，暗示此前曾持缰、执绳或携礼奔波。空气里有僵冷的对峙感，人物之间隔着石阶与旧怨。",
+    "action": "高令宁出门时脚步一顿，在门槛前停下，与等候已久的沈词对上视线。沈词站得很直，却掩不住疲惫，手上的勒痕暴露在日光下。他没有寒暄，直接拦住话头，将婚约问题推到眼前。高令宁没有让路，站在门内边缘，神色一点点冷下去。两人都压低情绪，却句句带刺。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "你若今生不肯与我成亲，便等于再杀睿儿一次。",
+        "subtext": "我知道你的软肋是孩子，我要用我们共同失去的那个人迫你重新答应这门婚事。"
+      },
+      {
+        "character": "高令宁",
+        "line": "你拿睿儿来逼我？",
+        "subtext": "你触到了我最不能碰的伤口，我恨你，也恨自己仍会因此动摇。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "高府大门",
+      "石阶",
+      "沈词手上勒痕",
+      "大雁"
+    ],
+    "dramatic_purpose": "引入婚约重谈的正面冲突，借沈词的现身与逼婚话术迅速提高戏剧压力，并用亡子沈睿把两人的共同过去重新拉回台面。",
+    "tension_score": 0.76,
+    "order": 12
+  }
+}

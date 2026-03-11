@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "id": "scene_017",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:31:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 柳池旁 - DAY",
+    "location": "马球会柳池旁",
+    "time_of_day": "day",
+    "description": "池岸半开阔，柳枝低垂，水面映着碎光，形成比球场更私密柔和的角落。粉色衣裙在绿柳与水光间格外醒目。陆姝仪站在池边，手中捧着风筝，身形前倾，带着少女献宝般的殷切；沈词立在她对面，低头看风筝，神色含笑。",
+    "action": "高令宁与蒋晟行至不远处时，高令宁的脚步骤然停住，视线越过人群定在柳池边。陆姝仪把亲手做的风筝举到沈词面前，沈词微微俯身，目光落在风筝和她脸上，唇边带笑，神情显出罕见的纵容。高令宁的手指慢慢攥紧衣袖，肩背绷直，呼吸一滞。她盯着那一幕，眼底的冷意和嫉恨一点点浮上来。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "这是我亲手做的，你看好不好？",
+        "subtext": "我在向你示好，也在确认自己在你心中的特殊位置。"
+      },
+      {
+        "character": "沈词",
+        "line": "嗯，很好。",
+        "subtext": "我接受你的亲近，也并未避讳这份暧昧。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "风筝",
+      "柳枝",
+      "池水"
+    ],
+    "dramatic_purpose": "制造情感转折，让高令宁从轻松状态骤然跌入嫉恨与旧怨，揭示她对沈词和前尘旧事仍深受牵动。",
+    "tension_score": 0.72,
+    "order": 17
+  }
+}

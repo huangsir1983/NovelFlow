@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 回忆中的前世沈府 - NIGHT",
+  "location": "前世沈府内室与街市回忆组接",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈睿"
+  ],
+  "core_event": "高令宁回想前世：沈词因婢女酷似陆姝仪与她再起冲突，愤怒推倒已怀孕的她，险失腹中女儿；之后他竭力补救，两人短暂修复，却仍失去孩子静好。",
+  "key_dialogue": "「琴瑟在御，莫不静好。」",
+  "emotional_peak": "产房里死去的女婴让两人眼中生出要杀死对方的恨，婚姻彻底走到尽头。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "画卷生辰礼",
+    "身契",
+    "保胎药",
+    "鱼龙灯"
+  ],
+  "dramatic_purpose": "补足女主为何放弃争夺、转而接受婚事的心理转折。",
+  "source_text_start": "是很可笑。\n陆姝仪死的第十年。\n沈词依旧没忘了",
+  "source_text_end": "我轻轻道：「成亲之后，还望公子说话算话。」"
+}

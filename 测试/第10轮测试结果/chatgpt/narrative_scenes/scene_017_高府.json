@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "INT/EXT. 高府廊下与院中 - DAY",
+  "location": "高府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "高令宁借养胎回娘家住，沈词日日下衙探望，送珍贵物件、剥葡萄、道歉示好，高父误以为二人感情转好，劝她不必和离。",
+  "key_dialogue": "「其实上一世，我有许多对不住你的地方。」",
+  "emotional_peak": "沈词小心吻她，关系出现罕见温柔假象。",
+  "tension_score": 0.61,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "葡萄果盘",
+    "果皮小碟",
+    "补品匣子",
+    "珍贵摆件",
+    "廊下竹椅",
+    "风铃",
+    "食盒",
+    "薄毯",
+    "来往礼盒"
+  ],
+  "dramatic_purpose": "制造短暂温情，提升后续失控反转的伤害力度。"
+}

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_010",
+  "name": "高府厢房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸厢房",
+  "description": "偏僻厢房内室，昏迷塌床散乱衣物堆放，搜查灯笼悬挂墙上。空间狭窄杂乱，墙壁简朴，体现突发事件爆发后的混乱现场。",
+  "visual_reference": "Cluttered side chamber interior in late Ming dynasty mansion, rumpled cot bed with scattered clothing, hanging search lanterns, simple walls and furniture, chaotic disordered layout, dim investigative atmosphere, detailed Ming style",
+  "atmosphere": "震惊混乱、指责爆发",
+  "color_palette": [
+    "昏黄",
+    "衣杂灰",
+    "灯笼红"
+  ],
+  "lighting": "灯笼昏黄光线，营造紧张调查感",
+  "key_features": [
+    "搜查灯笼",
+    "散乱衣物",
+    "昏迷塌床"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "发现陷害事件的震惊到沈词指责女主恶毒"
+}

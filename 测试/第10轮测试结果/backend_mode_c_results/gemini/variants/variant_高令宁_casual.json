@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_jiangnan",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南隐居期",
+  "tags": [
+    "自由",
+    "惬意",
+    "大女主",
+    "风流"
+  ],
+  "scene_ids": [
+    "scene_017",
+    "scene_018"
+  ],
+  "trigger": "三年后在江南庭院，拥有新欢（赘婿）和女儿，面对找上门死缠烂打的沈词",
+  "appearance_delta": {
+    "face": "气色红润，眼神慵懒惬意，带着漫不经心的笑意与居高临下的从容",
+    "body": "恢复健康，姿态放松且自信，不再有任何紧绷感",
+    "hair": "随性慵懒的发式，可能仅用一根木簪挽起一半，其余披散",
+    "distinguishing_features": "完全摆脱了前世今生的阴霾，展现出真正属于这个年纪的鲜活与上位者的掌控感"
+  },
+  "costume_override": {
+    "outfit": "江南风格的精致冬衣与披风，保暖且华丽但不过分庄重，透着富贵人家的闲适",
+    "color_palette": [
+      "鹅黄",
+      "妃色",
+      "雪白"
+    ]
+  },
+  "visual_reference": "1girl, ancient chinese noblewoman, early 20s, healthy rosy skin, relaxed and carefree expression, lazy smile, wearing elegant winter hanfu with fur-lined cloak, standing in a snowy courtyard, holding melon seeds, masterpiece, high quality, bright winter lighting, snowflakes",
+  "emotional_tone": "慵懒、惬意、对沈词的纠缠感到不耐烦与无视"
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "shot_0149",
+    "scene_id": "scene_009",
+    "shot_number": 1,
+    "goal": "建立湖边暮色环境与突发骚动，交代死讯发生地的阴冷、混乱和不可逆气息。",
+    "composition": "WS，湖面占画面左后方三分之一，发暗的水面与天际线连成低对比灰蓝色块；右侧前景是歪斜栏杆与一角假山，树影斜压进画面上缘。中景里数名下人由右向左奔走、聚拢，形成指向湖面的视觉流线，岸边一人已跪下，留出画面中央一块空白，暗示即将被注视的核心位置。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "先让观众感到寒意与不祥，意识到一场礼法秩序无法收束的事故已发生。",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 149
+  },
+  {
+    "id": "shot_0150",
+    "scene_id": "scene_009",
+    "shot_number": 2,
+    "goal": "将骚动具体化，明确有人指向水面、有人跪地，死讯从环境氛围推进到现场事实。",
+    "composition": "MLS，机位仍守在湖岸同侧轴线。左前景虚化的湿栏杆切出压迫感，中间偏右两名下人半蹲在岸边，其中一人手臂急促指向画外左侧水面；另一名下人跪在地上，身体前倾。背景是交错树影与更多围拢的人头，人物视线统一指向左侧，构成强烈导向。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "制造现场失控感，让观众被慌乱情绪裹挟进入事件中心。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 150
+  },
+  {
+    "id": "shot_0151",
+    "scene_id": "scene_009",
+    "shot_number": 3,
+    "goal": "以高令宁主观接近现场，完成‘她先看到异常，观众随她被拖向真相’的悬疑POV建立。",
+    "composition": "MS，主观机位从回廊/岸道方向逼近人群背影。前景是匆忙闪过的衣摆与肩背，画面中央留出一条被挤开的狭窄视线通道，远处地面隐约可见一抹湿透的浅色衣裙边角，但尸身尚未完整显露。背景湖水发黑，人物形成半包围弧线。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "让观众与高令宁同步产生不安与抗拒，仿佛不愿看清却不得不继续靠近。",
+    "duration_hint": "3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 151
+  },
+  {
+    "id": "shot_0152",
+    "scene_id": "scene_009",
+    "shot_number": 4,
+    "goal": "交代高令宁赶到现场并骤停，明确她是这一死讯的情感承受中心。",
+    "composition": "MLS，高令宁自画面右侧入画，在中轴偏右处骤停；前景左侧是两名下人模糊肩背，形成窥视式遮挡。背景中央偏左是一圈人墙，尚未让尸身完全见光。高令宁月白/黛青衣袍在灰冷环境中显得过分洁净，和现场湿乱形成对比，她身体微前倾却脚下钉住。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "突出她被现实突然截断的瞬间，观众感到心口一紧。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 152
+  },
+  {
+    "id": "shot_0153",
+    "scene_id": "scene_009",
+    "shot_number": 5,
+    "goal": "通过身体细节表现高令宁的第一重应激反应，而非直接外放情绪。",
+    "composition": "CU，高令宁垂在袖中的手位于画面下中部，布料湿冷光泽可见，五指在袖内猛然攥紧，指节顶出衣料轮廓。背景彻底虚化，只剩晃动的人影与灰蓝水色，保持她与外界短暂隔离。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "传递压抑、克制下的剧烈冲击，让观众感到她在强行稳住自己。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 153
+  },
+  {
+    "id": "shot_0154",
+    "scene_id": "scene_009",
+    "shot_number": 6,
+    "goal": "首次完整揭示陆姝仪被打捞上岸的状态，完成视觉证实。",
+    "composition": "MS，陆姝仪横置于画面中央偏左，头朝右侧，湿透衣裙铺散在泥湿岸边，发丝贴在苍白面颊与颈侧。前景下缘是一只下人按着她肩侧的手，右侧边缘有人跪着探身，形成局部遮挡，不让画面过于陈列化。背景是发黑湖面与低矮栏杆，色调冷硬。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "给出冰冷、确凿的死亡冲击，让观众从骚动进入无法回避的事实。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 154
+  },
+  {
+    "id": "shot_0155",
+    "scene_id": "scene_009",
+    "shot_number": 7,
+    "goal": "把死亡细节推进到面部层面，强化陆姝仪‘脆弱形象’在死亡后反成尖刺的反差。",
+    "composition": "CU，陆姝仪面部占画面右侧三分之二，湿发贴颊，唇色尽失，眼睫沾水闭合，颈边与衣领有湖水浸透后的沉重褶皱。左侧留出少量失焦水岸与浅色裙料，形成冷空白。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起观众对死亡的寒意与一种‘已经来不及’的迟到感。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 155
+  },
+  {
+    "id": "shot_0156",
+    "scene_id": "scene_009",
+    "shot_number": 8,
+    "goal": "切回高令宁的面部反应，展示她从警觉到确认后的失血感变化。",
+    "composition": "MCU，高令宁位于画面右侧，肩背笔直却僵硬，视线落向左下方尸身位置。前景左侧是一块虚焦的人肩作为遮挡，背景是模糊树影与暮色。她脸上血色一点点退去，眼尾并未失控发红，而是更冷、更空。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众体会她并非单纯惊惧，而是某种更深的关系裂口被猛然撕开。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 156
+  },
+  {
+    "id": "shot_0157",
+    "scene_id": "scene_009",
+    "shot_number": 9,
+    "goal": "通过高令宁主观再看现场，表现人群围拢与尸身被‘定格’后的异样寂静，完成情绪从乱到冷的转换。",
+    "composition": "MS，主观机位透过两名下人肩膀间隙望向陆姝仪。尸身在画面中央偏下，被半圈人围住；所有人动作似乎都慢了一拍，只有风掠动湿裙边。背景湖面与栏杆呈水平线，把视线压平，形成礼法围困般的闭塞空间。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到现场突然冷下来，混乱之后反而更可怕，因为真相已经不能被撤回。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 157
+  },
+  {
+    "id": "shot_0158",
+    "scene_id": "scene_009",
+    "shot_number": 10,
+    "goal": "以高令宁的最终定格反应为场景收束，明确此死讯将成为她后续关系决裂的心理起点。",
+    "composition": "CU，高令宁正面略侧，位于画面中央偏右，目光越过镜头左侧，唇线绷直，喉间有一次极轻的吞咽却没有出声。背景中远处一抹失焦的浅色尸身与暗色人群仍在同一轴线上，把死亡持续压在她身后。上方树影像一道斜切阴影压住她额际。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "留下冷硬、决绝、被迫进入下一阶段博弈的情绪后劲。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 158
+  }
+]

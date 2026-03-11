@@ -1,0 +1,33 @@
+{
+  "location_id": "loc_001",
+  "name": "高府正堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正堂",
+  "description": "宽敞方正的厅堂，正中悬挂祖先画像，两侧立柱雕刻祥云纹饰。堂中摆放红木太师椅和八仙桌，桌面铺深色织锦桌布。后方设三扇镂空雕花屏风，屏风前设条案，用于陈列聘礼。地面铺青砖，两侧设博古架陈列瓷器古玩。梁柱为深褐色木料，窗棂为菱形格纹，透入柔和天光。",
+  "visual_reference": "Ming Dynasty formal reception hall, dark wood furniture with carved cloud patterns, red sandalwood chairs, ornate folding screen with lattice work, antique display shelves, blue brick flooring, diamond-patterned lattice windows, ancestral portrait, traditional Chinese interior architecture, natural daylight filtering through windows, solemn atmosphere",
+  "atmosphere": "庄重、传统、等级森严",
+  "color_palette": [
+    "深褐木色",
+    "青灰砖石",
+    "暗红织锦",
+    "象牙白屏风"
+  ],
+  "lighting": "白日自然光从窗棂斜射入内，在地面形成菱形光影，屏风后光线较暗",
+  "key_features": [
+    "三扇镂空屏风",
+    "红木太师椅",
+    "祖先画像",
+    "菱形窗棂光影",
+    "条案聘礼陈列区"
+  ],
+  "narrative_scenes": [
+    "scene_001",
+    "scene_006",
+    "scene_007"
+  ],
+  "scene_count": 3,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从坚决拒婚的冷静→僵持的疲惫→无奈妥协的疲倦"
+}

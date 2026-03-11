@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "FLASHBACK INT. 前世沈府内宅 - night",
+  "location": "前世沈府内宅",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈睿",
+    "婢女替身"
+  ],
+  "core_event": "我回想前世沈词十年不忘陆姝仪，养了相似婢女；我故意说将人送窑子刺激他，遭其掐颈与推搡，伤及胎气。两人曾短暂试图挽回，甚至为女儿取名静好，但孩子出生即夭折，夫妻仇恨彻底不可解。",
+  "key_dialogue": "有些事，强求不得。",
+  "emotional_peak": "死去的女儿与空洞的“静好”让一切努力成空。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "被毁的画",
+    "身契",
+    "安胎药",
+    "鱼龙灯",
+    "夭折女婴"
+  ],
+  "dramatic_purpose": "解释女主为何最终放弃报复、选择成婚后再离开。",
+  "visual_reference": "暗色内宅中激烈争执、掐颈推倒、夜市灯火短暂温柔、产房死寂对坐，层层坍塌。",
+  "visual_prompt_negative": "不要血腥婴儿特写，不要现代街景，不要恐怖渲染，不要夸张哭嚎",
+  "source_text_start": "8.\n是很可笑。\n陆姝仪死的第十年。\n沈词",
+  "source_text_end": "我轻轻道：「成亲之后，还望公子说话算话。」"
+}

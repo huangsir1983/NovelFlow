@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_015",
+  "name": "高家宴厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸宴厅",
+  "description": "宽敞宴会厅，圆桌与酒盏，请帖置桌，墙饰精美，适合坦白重生与认错场景。",
+  "visual_reference": "明代官宦府邸宴厅室内，宽敞宴饮空间，圆桌陈列酒盏与请帖，周围雕花椅，墙挂精美挂饰，梁柱朱漆，日光充足，严肃坦白氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "坦白认错、惨淡",
+  "color_palette": [
+    "酒盏红",
+    "木褐",
+    "金饰",
+    "墙白"
+  ],
+  "lighting": "白天明亮自然光照亮桌席",
+  "key_features": [
+    "圆桌酒盏",
+    "请帖陈列",
+    "精美梁柱"
+  ],
+  "narrative_scenes": [
+    "scene_016"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "陆坦白重生的震撼到惨淡一笑认错"
+}

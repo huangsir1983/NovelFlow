@@ -1,0 +1,57 @@
+[
+  {
+    "name": "高姑娘",
+    "aliases": [
+      "我",
+      "女主角",
+      "高小姐"
+    ],
+    "role": "protagonist",
+    "brief": "重生女主，坚定提出和离"
+  },
+  {
+    "name": "沈词",
+    "aliases": [
+      "沈公子",
+      "沈家哥",
+      "男主角"
+    ],
+    "role": "protagonist",
+    "brief": "重生男主，冷漠婚姻疼爱义妹"
+  },
+  {
+    "name": "青梅",
+    "aliases": [
+      "义妹",
+      "落水少女"
+    ],
+    "role": "supporting",
+    "brief": "沈词救回并极尽疼爱的义妹"
+  },
+  {
+    "name": "父亲",
+    "aliases": [],
+    "role": "supporting",
+    "brief": "女主父亲，质问并担忧婚事"
+  },
+  {
+    "name": "媒人",
+    "aliases": [],
+    "role": "minor",
+    "brief": "携聘礼提亲的中介"
+  },
+  {
+    "name": "大夫",
+    "aliases": [],
+    "role": "minor",
+    "brief": "确诊胎儿为男胎的大夫"
+  },
+  {
+    "name": "睿儿",
+    "aliases": [
+      "前世长子"
+    ],
+    "role": "minor",
+    "brief": "前世长子，成为维持婚姻理由"
+  }
+]

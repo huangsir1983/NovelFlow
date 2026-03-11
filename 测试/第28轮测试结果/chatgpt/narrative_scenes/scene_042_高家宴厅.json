@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_042",
+  "order": 41,
+  "heading": "INT. 昭昭满月宴厅 - day",
+  "location": "高家宴厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪",
+    "父亲",
+    "宾客"
+  ],
+  "core_event": "昭昭满月宴上，陆姝仪不请自来，先以身世羡慕试探，又被我直接质问是否故意陷害。",
+  "key_dialogue": "「这就是你陷害我的理由？」",
+  "emotional_peak": "我们终于撕开客套，直面那场改变一切的局。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "请帖",
+    "满月酒席",
+    "襁褓"
+  ],
+  "dramatic_purpose": "将陆姝仪重新拉回主戏，准备揭露真相。",
+  "visual_reference": "满月宴厅内宾客尚在，柔弱女子持帖而入，主位旁的新母亲冷静直视她，喜庆场面被一股冷意切开",
+  "visual_prompt_negative": "避免热闹婚宴感过强，避免多人围观吵闹，避免浮夸恶女造型",
+  "source_text_start": "再见陆姝仪，是在昭昭的满月宴上。",
+  "source_text_end": "我静静地看着她：「这就是你陷害我的理由？」"
+}

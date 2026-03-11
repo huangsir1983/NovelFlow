@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_030",
+  "order": 29,
+  "heading": "FLASHBACK. 梦境中的沈府寝房 - day",
+  "location": "梦中寝房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈睿"
+  ],
+  "core_event": "我在梦里见到前世病弱的沈睿，他自责成为父母互相将就的原因，请求来生别再生下自己。",
+  "key_dialogue": "若有来生，娘亲别再生下我。",
+  "emotional_peak": "失子之痛与母爱同时回涌",
+  "tension_score": 0.82,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "粥碗"
+  ],
+  "dramatic_purpose": "用梦确认女主真正需要放下的不是沈词，而是对儿子执念的束缚。",
+  "visual_reference": "朦胧柔光中的寝房，小小男孩踮脚端着一碗粥，眼神懂事得过分，病后虚弱的母亲抬手摸他脸，梦境氛围温柔却哀伤，古风淡色调",
+  "visual_prompt_negative": "避免灵异恐怖感、避免现代儿童服装、避免过分梦幻仙气、避免哭闹夸张",
+  "source_text_start": "我做了个梦。",
+  "source_text_end": "「若有来生，娘亲别再生下我，让妹妹代替我承欢膝下，侍奉您终老。」"
+}

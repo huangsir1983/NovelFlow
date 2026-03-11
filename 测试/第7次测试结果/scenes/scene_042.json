@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "id": "scene_042",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:42"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_013",
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "弟妹"
+    ],
+    "related_beats": [
+      "beat_018",
+      "beat_019"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高令宁卧房 - NIGHT",
+    "location": "江南宅院卧房",
+    "time_of_day": "night",
+    "description": "卧房封闭安静，月光从窗棂斜照进来，在床榻和地面切出冷白光带。床榻宽大，锦被凌乱，室内有明显双人就寝痕迹。窗外偶有雷声余响，房内光线昏暗，气氛压抑。床边、地面和屏风后留有可供人物进出的动线，便于形成闯入、驱逐与滞留的空间关系。",
+    "action": "深夜，沈睿悄声爬上高令宁的床。高令宁惊醒，看清来人后立刻蹙眉，抬脚将他踹下床。床另一侧的男子坐起身，先伸手替高令宁掖好被角，再平静出声。月光下，沈睿站在床边，脸色发白，伸手去抓高令宁的手腕，却只抓到空气。高令宁躲到那名男子身后，冷冷拒绝。沈睿怔在原地，沉默片刻后转身离开。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "沈词，你有病吗？",
+        "subtext": "你没有资格闯进我的床，更没有资格越界。"
+      },
+      {
+        "character": "弟妹",
+        "line": "别着凉。",
+        "subtext": "他以照顾者姿态占住床边位置，也是在无声宣示亲近。"
+      },
+      {
+        "character": "沈睿",
+        "line": "令宁，方才窗外打雷了，我知道你会害怕，就想来陪陪你……",
+        "subtext": "他以关心为借口靠近，真实意图是求得重新进入她生活的许可。"
+      },
+      {
+        "character": "高令宁",
+        "line": "我已经有人陪了。",
+        "subtext": "你的位置已经被别人取代。"
+      },
+      {
+        "character": "高令宁",
+        "line": "你走吧。",
+        "subtext": "我拒绝你继续停留，也拒绝你的情感索取。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "弟妹"
+    ],
+    "key_props": [
+      "床榻",
+      "锦被",
+      "枕头",
+      "窗棂"
+    ],
+    "dramatic_purpose": "把白天的嫉妒冲突推进到私人空间中的越界危机，明确高令宁的拒绝态度，同时强化沈睿的情感失控与执念。",
+    "tension_score": 0.86,
+    "dramatic_intensity": 0.72,
+    "order": 42
+  }
+}

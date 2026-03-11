@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "id": "scene_000",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:28:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_001",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "INT. 家中内室 - 日",
+    "location": "家中内室",
+    "time_of_day": "day",
+    "description": "封闭室内空间，层高适中，日光自门窗一侧斜照入内，光线偏冷，屋内陈设简朴而整肃。门口与桌案形成清晰动线，气氛压抑。父亲立于屋内或门边，拦住去路，带着余怒与困惑；高令宁自外归来，衣饰未整，停在门内，未再前行。",
+    "action": "高令宁刚跨进屋内，身形顿住。高父立刻开口追问，向前逼近半步，神色凝重，手势压着怒意，质疑她为何当众让沈词难堪。高令宁垂眼不答，唇线绷紧，手指攥住袖口，任由沉默在屋内拉长。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "你为何当众让沈家公子难堪？先前还人人都说是良婿，如今你怎会把人羞辱到这个地步？",
+        "subtext": "你今天的举动失了分寸，也可能断送自己的婚事与体面。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "门扇",
+      "桌案",
+      "椅凳",
+      "衣袖"
+    ],
+    "dramatic_purpose": "建立父女正面冲突，明确本场核心问题：高令宁为何突然转变态度羞辱沈词。",
+    "tension_score": 0.62,
+    "order": 0
+  }
+}

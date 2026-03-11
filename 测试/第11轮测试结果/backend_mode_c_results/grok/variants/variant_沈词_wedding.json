@@ -1,0 +1,30 @@
+{
+  "variant_id": "shen_ci_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 婚堂新郎",
+  "tags": [
+    "婚礼",
+    "平静",
+    "端方"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "高家婚堂拜堂仪式，轻咳提醒女主",
+  "appearance_delta": {
+    "face": "平静侧脸",
+    "body": "长身玉立",
+    "hair": "墨黑长发，束玉冠",
+    "distinguishing_features": "黑眸沉稳"
+  },
+  "costume_override": {
+    "outfit": "文官袍服",
+    "color_palette": [
+      "玄黑",
+      "深蓝"
+    ]
+  },
+  "visual_reference": "handsome tall Chinese scholar-official in dark scholar robes, jade-like pale skin, calm piercing black eyes with subtle amber glint, refined features, long black hair tied with jade crown, aloof elegant posture, highly detailed 8k",
+  "visual_prompt_negative": "smiling warmly, casual modern wear, beard, anxious expression, heavy emotion on face",
+  "emotional_tone": "平静端方隐忍"
+}

@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "id": "scene_054",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:38:47"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ]
+  },
+  "data": {
+    "heading": "INT. 江南住处卧房 - NIGHT",
+    "location": "江南宅院卧房",
+    "time_of_day": "night",
+    "description": "同一卧房，烛火更低，雷声渐远，室内陷入更深的昏暗。床榻与地面形成鲜明高低关系，地上铺开的被褥像一种自降身份的停留。画面亲密却不安，空气中有长久压抑后终于失控的执念。",
+    "action": "沈词去而复返，怀里抱着被子和枕头，在床边地上铺开，坚持不走。高令宁背对着他，闭眼装睡，呼吸却不稳。夜深后，她在半梦半醒间感到身后有人极轻地靠近。沈词小心伸手，像怕惊醒又像怕被甩开，缓慢握住她的手，贴在她背后，额头几乎抵着她，低声而固执地说出近乎偏执的表白。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "只要我还活着，就会不知羞耻地纠缠你一辈子。",
+        "subtext": "我不接受结束，也不接受被替代；无论你怎样拒绝，我都会继续把自己塞进你的生命里。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "被子",
+      "枕头",
+      "床榻",
+      "烛台"
+    ],
+    "dramatic_purpose": "完成本章情感高潮，以沈词彻底放下体面、袒露执念收束冲突，并为后续持续纠缠埋下强力推进器。",
+    "tension_score": 0.93,
+    "order": 54
+  }
+}

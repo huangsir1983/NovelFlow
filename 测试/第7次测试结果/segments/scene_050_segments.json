@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0241",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0787",
+      "shot_0788",
+      "shot_0789"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均处于同一前厅时空与同一角色集合内，功能上完成空间建立、核心道具建立与弱势方姿态建立，情绪仍处于压迫开场，适合合并为一个礼制铺陈段落。",
+    "order": 241
+  },
+  {
+    "id": "seg_0242",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0790",
+      "shot_0791",
+      "shot_0792"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段集中于第一轮言语攻防：沈睿发起请求、高父以反应压制、沈睿继续辩解。角色集合未变，情绪从哀求推进到急切补救，属于单一连续对话动作线。",
+    "order": 242
+  },
+  {
+    "id": "seg_0243",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0793",
+      "shot_0794",
+      "shot_0795"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜构成第二次情绪换挡：高父的冷听、沈睿打出孩子牌、宣判前停顿。视觉重心从人物表情移到道具动作，形成一段完整的窒息蓄力。",
+    "order": 243
+  },
+  {
+    "id": "seg_0244",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0796",
+      "shot_0797",
+      "shot_0798"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里是明确的情感转折边界：高父抛出‘赘婿’完成致命打击，沈睿从语言层面的争辩转入身体层面的断裂。三镜共同完成信息重击到行为转折的闭环，适合独立成段。",
+    "order": 244
+  },
+  {
+    "id": "seg_0245",
+    "scene_id": "scene_050",
+    "shot_ids": [
+      "shot_0799",
+      "shot_0800",
+      "shot_0801"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是从心理崩裂到行动高潮的连续爆发，笑声、冲撞、奔逃在情绪与动作上高度连贯，且结尾直接把空间目标转向后院，为下一场match cut提供清晰出口。",
+    "order": 245
+  }
+]

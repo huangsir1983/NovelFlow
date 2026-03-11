@@ -1,0 +1,39 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "清秀聪慧，少年老成",
+    "body": "瘦弱书生气",
+    "hair": "童发或束冠",
+    "distinguishing_features": "跪求父母和好的泪眼"
+  },
+  "costume": {
+    "typical_outfit": "书生袍",
+    "color_palette": [
+      "白",
+      "蓝"
+    ]
+  },
+  "casting_tags": [
+    "神童儿子",
+    "前世记忆"
+  ],
+  "visual_reference": "young Chinese prodigy boy in ancient scholar robe, intelligent delicate face, gentle eyes with worry, black hair tied neatly, ancient Chinese style, highly detailed, 8k",
+  "personality": "孝顺懂事、天才早慧",
+  "desire": "父母和睦",
+  "flaw": "早逝遗憾",
+  "arc": "前世劝和与梦中托付",
+  "scene_presence": "前世记忆、梦境出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "心疼母亲",
+      "function": "情感驱动"
+    }
+  ]
+}

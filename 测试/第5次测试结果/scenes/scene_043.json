@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_043",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:37:43"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高令宁居所 - DAY",
+    "location": "高令宁居所",
+    "time_of_day": "day",
+    "description": "室内封闭安静，门窗多半掩着，日光从窗棂侧斜照入，光线偏柔弱，带出养病期的沉闷气息。房门外有人把守，形成明显隔离感。室内陈设以卧榻、案几、汤药器皿为主，补品被成批堆放，显示持续有人送来。高令宁活动范围局限在房内，环境整洁却带着长期闭门不出的静滞感。",
+    "action": "高令宁留在房内调养，少与外界接触。门外守卫严密，来人被拦在外侧。沈词日日前来，命人送下成箱补品，补品名义上是给昭昭，份量却明显备了母女双份；他停在门外等待，数次望向紧闭房门，却始终不得入内。高父加派人手守在女儿门前，以身体姿态和调度动作切断沈词靠近的机会。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "key_props": [
+      "和离书",
+      "补品",
+      "汤药器皿",
+      "房门"
+    ],
+    "dramatic_purpose": "建立和离后的关系格局：高令宁闭门养病、主动隔绝外界，沈词仍试图维系联系但被挡在门外，为后续真相揭开后的情感断裂做铺垫。",
+    "tension_score": 0.42,
+    "order": 43
+  }
+}

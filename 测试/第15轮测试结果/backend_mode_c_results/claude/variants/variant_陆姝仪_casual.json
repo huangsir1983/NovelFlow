@@ -1,0 +1,32 @@
+{
+  "variant_id": "lushuyi_variant_03",
+  "variant_type": "casual",
+  "variant_name": "陆姝仪 — 马球会日常状态",
+  "tags": [
+    "日常",
+    "温婉",
+    "亲密",
+    "青梅竹马"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "马球会上与沈词一同观赛，展现亲密关系",
+  "appearance_delta": {
+    "face": "温婉浅笑，眼神柔和带着依恋",
+    "body": "站立或轻坐，姿态柔顺",
+    "hair": "发髻整齐，插有简单发簪",
+    "distinguishing_features": "神态温柔亲近，目光追随沈词"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙整洁，外罩浅色披帛",
+    "color_palette": [
+      "粉色",
+      "月白",
+      "浅蓝"
+    ]
+  },
+  "visual_reference": "古代少女日常状态，面容温婉清丽，浅浅微笑，眼神柔和带着依恋，身着整洁的粉色襦裙，外罩浅色披帛，发髻整齐简洁，插有素雅发簪，站立或轻坐姿态，身姿柔顺，目光温柔地看向身旁之人，背景为户外马球场，阳光明媚，营造温馨亲密的氛围",
+  "visual_prompt_negative": "冷漠表情，华丽服饰，凌乱发型，受伤状态，跪姿，哭泣",
+  "emotional_tone": "温婉柔和，依恋亲密，暗藏期待"
+}

@@ -1,0 +1,270 @@
+[
+  {
+    "id": "shot_0419",
+    "scene_id": "scene_028",
+    "shot_number": 1,
+    "goal": "建立封闭内室的空间关系与情感对照：高令宁受伤在近侧，几步之外陆姝仪被沈睿照料，形成同场不同命的视觉刺点。",
+    "composition": "门框式构图。前景左侧虚化门框与半截帘影形成遮挡，中景左侧塌边坐着或半倚着高令宁，受伤脚踝避地；她身侧稍后方站着低头的蒋晟。中景右侧另一张塌上，陆姝仪蜷缩偏右，沈睿俯身端药碗靠近她。侧上方暖黄灯火在地面切出明显明暗分界，两组人物被空地隔开，形成冷硬对照。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到局促、失衡与无声羞辱，体会女主被迫目睹的一切。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 419
+  },
+  {
+    "id": "shot_0420",
+    "scene_id": "scene_028",
+    "shot_number": 2,
+    "goal": "把叙事重心拉回高令宁的身体处境，明确她脚踝刚被正骨、疼痛与行动不便的现实。",
+    "composition": "低机位近距离拍摄。画面下方是塌边垂落的裙摆与未能着地的足尖，脚踝包扎处置于画面右下三分之一；左侧前景虚化药碗边沿或医具残影，背景保留地面的明暗分界线，强化她被困在塌边的状态。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众先感到疼，再意识到她此刻连离开都要依赖别人。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 420
+  },
+  {
+    "id": "shot_0421",
+    "scene_id": "scene_028",
+    "shot_number": 3,
+    "goal": "交代蒋晟的愧疚姿态与关系位置，开启赔罪对话。",
+    "composition": "高令宁视线轴上的中近景反打。蒋晟站在画面右侧偏中，头微垂，肩线压低；左侧留出高令宁的肩头和发髻虚焦作为主观前景，保持女主视角限制。背景是木墙与灯影，压低环境信息，只留他的无措。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众看到他的歉意是真，却也显得迟到、无力。",
+    "duration_hint": "3s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.1,
+    "order": 421
+  },
+  {
+    "id": "shot_0422",
+    "scene_id": "scene_028",
+    "shot_number": 4,
+    "goal": "承接蒋晟第一句道歉，呈现高令宁对这份歉意的冷处理与不接视线。",
+    "composition": "高令宁半侧脸中近景，位于画面左侧三分之一，肩背仍直，面色冷白。前景右侧保留蒋晟衣袖虚化边缘，表示他仍在她近旁。她的眼神并不看向前景，而是略越过去，眼尾压着情绪。暖灯从侧上方扫过脸颊，另一侧落入阴影。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的克制不是平静，而是在把反应生生收住。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 422
+  },
+  {
+    "id": "shot_0423",
+    "scene_id": "scene_028",
+    "shot_number": 5,
+    "goal": "通过蒋晟解释缺席原因，进一步显出他的辩解意味与关系中的失衡。",
+    "composition": "与3号镜同轴但更近一级。蒋晟位于画面中央稍偏右，低头说话，唇线克制，眼神仍不敢抬。左下角继续保留高令宁肩部虚焦。背景灯影压暗，人物轮廓被侧光切出边线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众听出解释里的急切，感到他想补救却越说越轻薄。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 423
+  },
+  {
+    "id": "shot_0424",
+    "scene_id": "scene_028",
+    "shot_number": 6,
+    "goal": "表现高令宁的注意力被别处牵走：她没有继续听蒋晟，而是被不远处的画面刺中。",
+    "composition": "高令宁眼部与面部的近特写。她位于画面左中，眼珠轻微向右偏移，睫毛下压，神情由忍痛转为发冷。前景无干扰，背景彻底虚化，仅余暖光晕和深色影块。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众进入她的内心转折瞬间：不是生气，而是被旧伤精准戳中。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.32,
+    "order": 424
+  },
+  {
+    "id": "shot_0425",
+    "scene_id": "scene_028",
+    "shot_number": 7,
+    "goal": "切入高令宁主观所见，明确她看到的是沈睿照料陆姝仪的亲密画面。",
+    "composition": "主观视角。画面右侧塌上，陆姝仪蜷缩在内侧，苍白面孔朝向沈睿；沈睿位于左侧前倾，手中药碗处于视觉焦点，碗沿接近陆姝仪唇边。两人距离被压得很近。画面左边缘留出大片空地与塌边，像是高令宁视线隔着那段距离望过去。背景墙面简净，让人物关系成为唯一信息。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到刺目而失礼，像被迫看到一幕本不该看的私密照料。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 425
+  },
+  {
+    "id": "shot_0426",
+    "scene_id": "scene_028",
+    "shot_number": 8,
+    "goal": "放大陆姝仪的病弱与眼泪，强化她在他人眼中天然占据的被照顾位置。",
+    "composition": "陆姝仪面部特写，头偏向画面右侧，睫毛上挂泪，唇色发白；她的手或袖口压在腹前，占据下方前景。画面左侧边缘保留药碗虚焦与沈睿衣袖一角，暗示他就在近旁。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众既看到她的脆弱，也隐约感到这份脆弱正在形成对高令宁的二次伤害。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 426
+  },
+  {
+    "id": "shot_0427",
+    "scene_id": "scene_028",
+    "shot_number": 9,
+    "goal": "用沈睿的照料动作完成视觉补刀，建立‘亲密照拂’这一高令宁无法忽视的事实。",
+    "composition": "沈睿俯身中近景，位于画面左侧三分之一，手托药碗稳定地伸向右侧画外的陆姝仪，身体前倾形成明确保护姿态。背景右侧是塌缘与淡粉衣料虚焦。光线沿他鼻梁和手背打出硬边，动作克制却亲近。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这不是误会，而是确凿可见的偏向与投入。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.53,
+    "order": 427
+  },
+  {
+    "id": "shot_0428",
+    "scene_id": "scene_028",
+    "shot_number": 10,
+    "goal": "回到高令宁，呈现她将情绪迅速压平、收回视线的决绝瞬间。",
+    "composition": "高令宁正侧脸特写，位于画面右侧，视线从画外右方缓慢收回到前方，唇线绷紧。画面左侧保留一小段蒋晟的青灰衣袍虚焦，提醒现实关系仍在她身边。脸上一半暖光，一半冷影，像情绪被切开后重新封住。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感受到她不是崩，而是冷下来；这比落泪更危险。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.6,
+    "order": 428
+  },
+  {
+    "id": "shot_0429",
+    "scene_id": "scene_028",
+    "shot_number": 11,
+    "goal": "用一句‘我们回家吧’完成场内情绪换挡，把受辱感转化为行动决定。",
+    "composition": "双人中景，保持180度轴线。高令宁坐于画面左侧塌边，蒋晟站在右侧略俯身，二人之间留一掌宽的空隙。背景深处模糊可见另一侧塌的轮廓，但不再清晰给出陆姝仪和沈睿，表明高令宁主动切断注视。她说话时不抬高声量，只看前下方。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众体会到这句平静话里的撤退、自保和斩断。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 429
+  },
+  {
+    "id": "shot_0430",
+    "scene_id": "scene_028",
+    "shot_number": 12,
+    "goal": "表现蒋晟听到‘回家’后的立刻反应，说明他仍试图承担照顾责任。",
+    "composition": "蒋晟中近景，位于画面中央偏右，闻言立即抬手向左下方伸去，动作克制却急。左下角保留高令宁衣袖和手的虚焦边缘，形成动作承接。背景是暖色墙面与灯影，减少干扰。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他终于抓住一个可执行的补救动作，却仍带着迟钝的歉意。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 430
+  },
+  {
+    "id": "shot_0431",
+    "scene_id": "scene_028",
+    "shot_number": 13,
+    "goal": "通过稀缺肢体接触完成情绪收束：她不得不借力，但并未真正靠近他。",
+    "composition": "手部与起身动作特写。高令宁的手从画面左下伸出，轻搭蒋晟手臂或掌心；蒋晟从右侧承托。两人的接触位于画面中心，但高令宁受伤脚踝与裙摆仍占下方一角，提醒这不是和解而是必要。背景虚化为药碗与塌边的暖色斑块。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "让观众感到关系只剩礼数和功能，身体靠近反而更显疏离。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 431
+  },
+  {
+    "id": "shot_0432",
+    "scene_id": "scene_028",
+    "shot_number": 14,
+    "goal": "以离场收尾，完成本场的冷收束：高令宁带着伤离开，而那组亲密照料仍留在同一室内。",
+    "composition": "中全景侧拍，沿门口方向。前景左侧门框形成竖向压迫线，高令宁在蒋晟搀扶下由画面中部向左出画，保持此前视线与运动方向一致。背景右侧深处，陆姝仪仍在塌上，沈睿俯身未动，二人被压在较暗区域，像一幅留在室内的静止画。地面明暗分界线横贯两组人物之间，形成最后一次切割。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众带着余刺离场：人走了，伤没有；冲突并未爆发，只是被压得更深。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 432
+  }
+]

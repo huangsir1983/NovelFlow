@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_011",
+  "name": "沈家内室",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "沈家私密内室，中央床榻与虎头帽陈设，墙挂字画，空间用于日常休憩与和离谈判。",
+  "visual_reference": "明代中晚期江南官宦世家府邸内室内部，私密休憩空间，雕花床榻摆虎头帽，红木桌椅，墙面字画装饰，窗透日光，整体简洁温馨古典",
+  "visual_prompt_negative": "现代家具、明亮灯具、卡通",
+  "atmosphere": "和离谈判、潋滟一笑",
+  "color_palette": [
+    "暖木色",
+    "浅灰色",
+    "虎头红"
+  ],
+  "lighting": "白天自然柔光，平静却带张力",
+  "key_features": [
+    "雕花床榻",
+    "虎头帽陈设",
+    "字画墙饰"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈为陆择婿失败到女主怀孕谈和离的复杂情绪"
+}

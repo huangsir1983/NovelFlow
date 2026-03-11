@@ -1,0 +1,50 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词"
+  ],
+  "role": "supporting",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "俊美如玉，清冷疏离，五官端正",
+    "body": "长身玉立，修长挺拔",
+    "hair": "墨黑长发，束玉冠",
+    "distinguishing_features": "冷如冰湖的黑眸，偶尔透出琥珀光泽"
+  },
+  "costume": {
+    "typical_outfit": "文官袍服或华贵常服",
+    "color_palette": [
+      "玄黑",
+      "深蓝",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "古风冷峻男主",
+    "重生权臣",
+    "俊美清冷",
+    "端方持重"
+  ],
+  "visual_reference": "handsome tall Chinese scholar-official in dark scholar robes, jade-like pale skin, cold piercing black eyes with subtle amber glint, refined features, long black hair tied with jade crown, aloof elegant posture, highly detailed 8k",
+  "visual_prompt_negative": "smiling warmly, casual modern wear, beard, heavy emotion on face",
+  "personality": "清冷端方、尖锐刻薄、情感压抑却深情隐忍",
+  "desire": "保护青梅陆姝仪，后转为挽回妻子高令宁与女儿",
+  "flaw": "易误会他人、情感表达生硬、死要面子",
+  "arc": "从冷待算计到深爱觉醒，死缠烂打求复合",
+  "scene_presence": "与女主对峙的主要对手，从提亲到江南夜爬床，全程出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻",
+      "dynamic": "恨意与爱意交织，最终痴缠",
+      "function": "情感核心冲突与救赎"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅义兄妹",
+      "dynamic": "兄妹情谊被误会为恋情",
+      "function": "制造误会与张力"
+    }
+  ]
+}

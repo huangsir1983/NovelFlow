@@ -1,0 +1,297 @@
+[
+  {
+    "id": "shot_0362",
+    "scene_id": "scene_023",
+    "shot_number": 1,
+    "goal": "建立高家正厅的封闭空间、寒素家境与堆积聘礼之间的强烈反差，交代婚事已被应下的现实压力。",
+    "composition": "FS。正厅内纵深构图，门框作为前景遮挡，画面左前方堆叠如小山的聘礼箱笼与礼器承接斜射日光，形成亮部；画面右中后方高父坐于座椅，身形被压在聘礼后侧；高令宁立于其后略偏右，半身隐在阴影里。背景为朴素厅堂陈设与暗墙，中央留出压迫性的空地。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、门第悬殊带来的不安与礼制逼迫感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.22,
+    "order": 362
+  },
+  {
+    "id": "shot_0363",
+    "scene_id": "scene_023",
+    "shot_number": 2,
+    "goal": "将聘礼符号化，强调富贵物件对这个家的侵入与婚事的不可逆。",
+    "composition": "MS。画面左侧近景为金银器、锦盒、绸缎等聘礼细部，被日光打亮；右后景虚焦中可见高父端坐轮廓。视觉引导线由绸缎褶皱斜向指向人物，前实后虚，物压人。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "富贵的刺眼与人情的寒意并置。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 363
+  },
+  {
+    "id": "shot_0364",
+    "scene_id": "scene_023",
+    "shot_number": 3,
+    "goal": "进入高父状态，呈现他面对聘礼时的沉重与迟疑。",
+    "composition": "MCU。高父置于画面右三分之一，面朝左侧聘礼山；左侧前景虚化的礼盒占据画面边缘，形成压框。背景暗而简，鬓角花白与眉心川字纹被侧光勾出。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "观众感到父亲的无力、操劳与护女焦虑。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.1,
+    "order": 364
+  },
+  {
+    "id": "shot_0365",
+    "scene_id": "scene_023",
+    "shot_number": 4,
+    "goal": "以女主近景主观倾向切入，表现高父反复看向她的担忧，也建立父女关系轴线。",
+    "composition": "POV式MCU。高父正面略偏左看向镜头，视线即高令宁所在方向；画面下沿保留一点高令宁肩部虚焦轮廓作为前景提示。背景为暗墙与礼箱边缘，目光落点明确。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被父亲担忧目光触碰的复杂心绪：心软，但不动摇。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.06,
+    "order": 365
+  },
+  {
+    "id": "shot_0366",
+    "scene_id": "scene_023",
+    "shot_number": 5,
+    "goal": "交代高令宁上前为父捶肩的动作，表面温和安抚，实则情绪抽离。",
+    "composition": "MS。高令宁位于画面右后方站立，高父坐于左前方，形成前后层次。高令宁双手落在父亲肩头轻捶；门窗斜光只照亮她的手与半边侧脸，面部其余部分在柔暗中。聘礼仍占据左侧边缘，像第三个无形角色。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "温柔表象下的疏冷，亲情里的无从挽回。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.12,
+    "order": 366
+  },
+  {
+    "id": "shot_0367",
+    "scene_id": "scene_023",
+    "shot_number": 6,
+    "goal": "强调身体接触的礼制克制与安抚动作的机械性，埋下高令宁‘顺从而不投入’的状态。",
+    "composition": "CU。画面中央是高令宁冷白纤细的手轻轻落在高父深青衣袍肩线处，有节奏地捶按；前景一角虚化的衣袖，背景散成暗色。手的动作轻，却不带热度。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制、疏离、关系仍有温度却已隔着一层礼法与决断。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.08,
+    "order": 367
+  },
+  {
+    "id": "shot_0368",
+    "scene_id": "scene_023",
+    "shot_number": 7,
+    "goal": "高父开口第一句担忧，明确门第悬殊的核心冲突。",
+    "composition": "MCU。高父位于画面左侧，略仰头向右后方的女儿说话；右侧保留高令宁腰间与手的虚焦局部，维持空间关系。聘礼亮斑在后景边缘闪动，像逼近的压力。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "沉重父爱、对高门的不信任与预先的恐惧。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 368
+  },
+  {
+    "id": "shot_0369",
+    "scene_id": "scene_023",
+    "shot_number": 8,
+    "goal": "给出高令宁的第一反应，不是安慰，而是过于平静的抽离。",
+    "composition": "MCU。高令宁位于画面右三分之一，低头俯视父亲方向，双手动作未停；背景是暗墙与一道竖直门框线切开她的脸。光落在她眼下与唇线，笑意浅淡几乎不可见。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "清冷、难测、‘无妨’背后的不在意。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 369
+  },
+  {
+    "id": "shot_0370",
+    "scene_id": "scene_023",
+    "shot_number": 9,
+    "goal": "用极简台词“无妨”制造反刺，突出她对婚事并无期待。",
+    "composition": "CU。高令宁半侧脸，置于画面中央偏右，眼神不完全落向父亲，而是略向下偏离；前景有一缕虚化发丝，背景彻底压暗。唇形轻启即止，停顿比台词更重要。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷硬、疏离，令观众意识到她内心早已另有打算。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.14,
+    "order": 370
+  },
+  {
+    "id": "shot_0371",
+    "scene_id": "scene_023",
+    "shot_number": 10,
+    "goal": "回到父亲的受伤反应，显示他察觉女儿的淡漠，却只能继续替她兜底。",
+    "composition": "CU。高父脸部占画面左中，眉心更紧，眼尾下压；他先看向前方聘礼，再缓慢回视右侧女儿。背景虚化出一抹金色礼器反光，像刺眼的现实。",
+    "camera_movement": "pan",
+    "framing": "CU",
+    "emotion_target": "隐痛、心知肚明却无从劝阻的父亲无奈。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 371
+  },
+  {
+    "id": "shot_0372",
+    "scene_id": "scene_023",
+    "shot_number": 11,
+    "goal": "高令宁进一步表态，把婚姻定义为‘暂住’，明确她的抽离立场。",
+    "composition": "MS。高令宁仍站在父亲身后偏右，双手渐缓，身姿端直；高父占左前景侧脸虚焦。画面中线被椅背与她垂落衣袖切分，形成关系上的不靠近。她说话时不俯身，只平静垂眸。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "平静中的锋利，像已写好退路的冷静宣判。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 372
+  },
+  {
+    "id": "shot_0373",
+    "scene_id": "scene_023",
+    "shot_number": 12,
+    "goal": "用父亲抬手打断/叮嘱的动作，把场面从女儿的冷静拉回父亲的强烈保护欲。",
+    "composition": "CU。高父肩线以上，右手从画面下方缓缓抬起，停在半空，既像叮嘱又像阻拦命运；背景中高令宁的衣色虚化成一片冷白黛青。手势居中，脸在左侧，形成动作重心。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "父亲试图给女儿托底的急切与沉重。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.38,
+    "order": 373
+  },
+  {
+    "id": "shot_0374",
+    "scene_id": "scene_023",
+    "shot_number": 13,
+    "goal": "高父说出‘齐大非偶’与‘受委屈便和离回家’，完成本场最重要的信息释放。",
+    "composition": "MCU。高父正面偏左，右侧保留少量空位给女儿所在方向；光从侧面照出他鬓边白发与法令纹，后景暗沉。台词过程中镜头稳定，不煽情，让语言本身落地。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "保护、决绝、提前承认这段婚姻可能失败的悲凉。",
+    "duration_hint": "6-7s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 374
+  },
+  {
+    "id": "shot_0375",
+    "scene_id": "scene_023",
+    "shot_number": 14,
+    "goal": "捕捉高令宁听到‘和离回家’后的微妙反应：不是动容，而是确认了自己的预设。",
+    "composition": "CU。高令宁脸部占画面中央，眼神终于微抬，看向父亲方向；唇角那点浅笑更淡，几乎消失。颈侧淡痕在斜光下若隐若现，背景是模糊门框竖线，像命运的切口。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静、被理解后的短暂松动，但更显她内心另有决断。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 375
+  },
+  {
+    "id": "shot_0376",
+    "scene_id": "scene_023",
+    "shot_number": 15,
+    "goal": "以女主近景收束，她顺从应下，却让观众感到这不是新娘的承诺，而是局外人的陈述。",
+    "composition": "MCU。高令宁位于画面右侧，俯视角微轻，双手从父亲肩头缓慢收回到身前交叠；左侧前景保留父亲模糊头肩轮廓。她说完后目光短暂停在聘礼方向，而非父亲脸上。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "疏离、笃定、命运已定但心不在其中的冷意。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 376
+  },
+  {
+    "id": "shot_0377",
+    "scene_id": "scene_023",
+    "shot_number": 16,
+    "goal": "以客观收尾镜头回到空间与礼制压迫，强调父女虽彼此护持，却都被这场婚事推着走。",
+    "composition": "MLS。机位退回厅门外，门框作为强前景将二人框入其内：左侧仍是高耸聘礼，右侧高父坐着微微前倾，高令宁立在其后，双手已收。二人与聘礼形成不对称三角，日光逐渐偏移，厅内阴影更重。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "余压未散、关系温情中包裹着不可逆的寒意。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.04,
+    "order": 377
+  }
+]

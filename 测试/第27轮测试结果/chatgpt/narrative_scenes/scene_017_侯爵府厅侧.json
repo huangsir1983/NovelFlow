@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "INT. 侯爵府厅侧 - night",
+  "location": "侯爵府厅侧",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "经历前世回忆后，我突然松口，允许沈词明日正式提亲，只要求婚后他信守和离承诺。",
+  "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+  "emotional_peak": "认命式妥协",
+  "tension_score": 0.58,
+  "estimated_duration_s": 55,
+  "key_props": [
+    "团扇"
+  ],
+  "dramatic_purpose": "推动婚事落定，显示女主策略从对抗改为限时合作。",
+  "visual_reference": "厅侧人声渐远，女子神情疲倦地开口，男子微怔回望，夜色与烛光之间两人站得疏远，像谈一桩冷冰冰的交易，古风写实",
+  "visual_prompt_negative": "避免深情告白感、避免拥抱和解、避免华丽盛宴背景、避免多余角色抢戏",
+  "source_text_start": "这一世，我与他迟早要一拍两散的。",
+  "source_text_end": "我轻轻道：「成亲之后，还望公子说话算话。」"
+}

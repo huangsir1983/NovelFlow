@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_017",
+  "name": "高府产房",
+  "type": "interior",
+  "era_style": "明代中晚期官宅内院产房",
+  "description": "高府产房是临时高压的女性空间，产床居中，周边以屏风半围合形成隐私区域。地上与床边摆放热水、药碗、毛巾、剪刀和血水盆，襁褓提前备好却与紧张空气形成反差。灯烛数量较多但光线仍不足，映照出忙乱人影与汗湿布料。空间局促、暖湿、封闭，带有强烈生死边缘感，屏风外可站家属与太医，内外界线被危急状况不断打破。",
+  "visual_reference": "Late Ming dynasty childbirth chamber in an official residence, central birthing bed, folding screens creating partial privacy, many candles, bowls of hot water, towels, scissors, herbal medicine bowl, blood basin, prepared swaddling cloth, crowded with midwife and physician, high-stakes life-and-death atmosphere, historical Chinese drama, highly detailed",
+  "atmosphere": "混乱、剧痛、生死抉择",
+  "color_palette": [
+    "血色暗红",
+    "烛火黄",
+    "麻布白"
+  ],
+  "lighting": "多支烛火带来跳动暖光，照亮汗水、血迹与布料褶皱，空间边角仍沉在阴影中，压迫感极强。",
+  "key_features": [
+    "屏风围合的产床",
+    "血水盆与剪刀热水",
+    "屏风内外共同承受的生死决定"
+  ],
+  "narrative_scenes": [
+    "scene_021"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从绝望地预期被舍弃，到在最残酷关头获得第一次无遮掩的选择与保全。"
+}

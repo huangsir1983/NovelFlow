@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府厅堂/产房 - 夜",
+  "location": "高府",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "父亲",
+    "稳婆",
+    "太医"
+  ],
+  "core_event": "陆姝仪反咬我设计她失贞，沈词当场偏信她并威胁若她再死就杀我；冲突中我动了胎气早产，稳婆询问保大保小，沈词最终选择保我，却生下的不是预想中的儿子而是女儿。",
+  "key_dialogue": "我要高令宁。",
+  "emotional_peak": "生死关头沈词放弃执念于‘儿子’，第一次明确选择我活着。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 260,
+  "key_props": [
+    "巴掌",
+    "床单",
+    "稳婆问话",
+    "新生儿啼哭"
+  ],
+  "dramatic_purpose": "全篇最大高潮，打碎‘为了沈睿而婚’的既定命运。",
+  "visual_reference": "厅堂争执切入昏暗产房，女人痛苦分娩，男人脸色惨白，婴儿啼哭打破长夜。",
+  "visual_prompt_negative": "不要血腥分娩特写，不要现代医院器械，不要夸张恐怖，不要温馨滤镜。",
+  "source_text_start": "陆姝仪哭着要自尽。她跪在我面前，哽",
+  "source_text_end": "稳婆兴高采烈地道：「沈大人，快来看看小千金，漂亮得很呢！」"
+}

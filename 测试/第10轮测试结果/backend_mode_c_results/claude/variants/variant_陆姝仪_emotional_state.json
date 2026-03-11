@@ -1,0 +1,29 @@
+{
+  "variant_id": "lu_shuyi_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 跪求状态",
+  "tags": [
+    "绝望",
+    "哀求",
+    "倔强"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "休息室内,跪求高令宁同意婚事,沈词护着她",
+  "appearance_delta": {
+    "face": "泪流满面,眼神绝望又倔强",
+    "body": "跪姿,身体颤抖",
+    "hair": "因情绪激动而散乱",
+    "distinguishing_features": "泪痕满面,柔弱中带着不甘的倔强"
+  },
+  "costume_override": {
+    "outfit": "素色襦裙,衣衫因跪地而褶皱",
+    "color_palette": [
+      "粉白",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "young Chinese woman kneeling on ground in pale hanfu, tears streaming down face, desperate yet stubborn expression, trembling body, disheveled appearance, indoor dim lighting, emotional breakdown scene, pitiful and vulnerable",
+  "emotional_tone": "绝望哀求,柔弱倔强,激发同情"
+}

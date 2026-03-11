@@ -1,0 +1,160 @@
+{
+  "count": 22,
+  "updated_at": "2026-03-08T09:11:06",
+  "entries": [
+    {
+      "id": "char_高令宁",
+      "name": "高令宁",
+      "role": "protagonist",
+      "filename": "高令宁.json",
+      "description": "一个带着前世婚姻噩梦与失子创伤归来的高门女子，为夺回尊严、子嗣与人生主动权而再次嫁入仇爱纠缠之局。"
+    },
+    {
+      "id": "char_沈词",
+      "name": "沈词",
+      "role": "protagonist",
+      "filename": "沈词.json",
+      "description": "一个以克制与责任感伪装自己、实则被亏欠、执念与失子之痛彻底困住的高门夫君。"
+    },
+    {
+      "id": "char_陆姝仪",
+      "name": "陆姝仪",
+      "role": "antagonist",
+      "filename": "陆姝仪.json",
+      "description": "一个以柔弱无害为外壳、以生存焦虑和执念为内核、不断撬动婚姻与权力秩序的重生表妹。"
+    },
+    {
+      "id": "char_高父",
+      "name": "高父",
+      "role": "supporting",
+      "filename": "高父.json",
+      "description": "一个看透门第冷暖、最终宁舍官位也要为女儿挡灾护命的传统士大夫父亲。"
+    },
+    {
+      "id": "char_沈母",
+      "name": "沈母",
+      "role": "supporting",
+      "filename": "沈母.json",
+      "description": "以礼法与家族体面为名操控婚姻格局、实则偏私陆姝仪并压制新妇的沈家主母。"
+    },
+    {
+      "id": "char_沈睿",
+      "name": "沈睿",
+      "role": "supporting",
+      "filename": "沈睿.json",
+      "description": "一个以早慧和夭亡撕开父母宿怨、同时又成为他们重返彼此命运核心理由的悲剧性长子。"
+    },
+    {
+      "id": "char_昭昭",
+      "name": "昭昭",
+      "role": "supporting",
+      "filename": "昭昭.json",
+      "description": "她是前世失女之痛后的重生补偿，也是撕开父母宿怨、迫使二人重新面对爱与亏欠的活体命运证明。"
+    },
+    {
+      "id": "char_蒋晟",
+      "name": "蒋晟",
+      "role": "supporting",
+      "filename": "蒋晟.json",
+      "description": "一个本可成为安稳婚配选择、却被他人情感与算计拖入漩涡的正派青年门生。"
+    },
+    {
+      "id": "char_侯爵娘子",
+      "name": "侯爵娘子",
+      "role": "minor",
+      "filename": null,
+      "description": "设马球会促成试探"
+    },
+    {
+      "id": "char_沈府小厮",
+      "name": "沈府小厮",
+      "role": "minor",
+      "filename": null,
+      "description": "替女主向沈家传话"
+    },
+    {
+      "id": "char_陆姝仪的婢女",
+      "name": "陆姝仪的婢女",
+      "role": "minor",
+      "filename": null,
+      "description": "洞房夜来报主子病痛"
+    },
+    {
+      "id": "char_婢女",
+      "name": "婢女",
+      "role": "minor",
+      "filename": null,
+      "description": "酷似陆姝仪引发旧怨"
+    },
+    {
+      "id": "char_伯爵府三公子",
+      "name": "伯爵府三公子",
+      "role": "minor",
+      "filename": null,
+      "description": "沈母欲许配的恶劣婚对象"
+    },
+    {
+      "id": "char_媒人",
+      "name": "媒人",
+      "role": "minor",
+      "filename": null,
+      "description": "三次登门促成婚事"
+    },
+    {
+      "id": "char_大夫",
+      "name": "大夫",
+      "role": "minor",
+      "filename": null,
+      "description": "为女主诊治脚伤"
+    },
+    {
+      "id": "char_太医",
+      "name": "太医",
+      "role": "minor",
+      "filename": null,
+      "description": "诊孕接生并问保大保小"
+    },
+    {
+      "id": "char_稳婆",
+      "name": "稳婆",
+      "role": "minor",
+      "filename": null,
+      "description": "为女主接生报喜"
+    },
+    {
+      "id": "char_京兆府",
+      "name": "京兆府",
+      "role": "minor",
+      "filename": null,
+      "description": "女主欲告官时提及衙门"
+    },
+    {
+      "id": "char_得意门生",
+      "name": "得意门生",
+      "role": "minor",
+      "filename": null,
+      "description": "父亲安排相看的对象"
+    },
+    {
+      "id": "char_同窗",
+      "name": "同窗",
+      "role": "minor",
+      "filename": null,
+      "description": "缠住蒋晟致其失陪"
+    },
+    {
+      "id": "char_权贵",
+      "name": "权贵",
+      "role": "minor",
+      "filename": null,
+      "description": "女主曾低头求助之人"
+    },
+    {
+      "id": "char_赘婿们",
+      "name": "赘婿们",
+      "role": "minor",
+      "filename": null,
+      "description": "江南陪伴令宁的备选夫婿"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_029",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府内宅 - 日",
+    "location": "沈府内宅",
+    "time_of_day": "day",
+    "description": "深宅内院，空间封闭，陈设规整而压抑，日光从窗棂斜照进室内，在桌案与地面切出冷硬光影。案上有一幅被毁坏的画，纸面破损或沾污，成为冲突中心。一个年幼婢女立在屋内，衣着比寻常下人更体面，姿态却带着被纵容后的轻慢；女主人立于一侧，视线冰冷，气场强硬。",
+    "action": "睿儿原本准备送给沈词的生辰画被那名年幼婢女失手毁掉。婢女不但没有低头认错，反而抬着下巴出言挑衅。高令宁只是冷冷看她一眼，没有当场发作，随后将人带离内院处置。她最终放还婢女身契，让其离府归家。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "毁坏的画",
+      "身契"
+    ],
+    "dramatic_purpose": "建立高令宁与沈词之间长期积压的婚姻裂痕，并引出围绕酷似陆姝仪的婢女所爆发的正面冲突。",
+    "tension_score": 0.55,
+    "dramatic_intensity": 0.1,
+    "order": 29
+  }
+}

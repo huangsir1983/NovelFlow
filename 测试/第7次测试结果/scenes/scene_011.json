@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "id": "scene_011",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:03"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府房内 - 夜",
+    "location": "沈府房内",
+    "time_of_day": "night",
+    "description": "封闭室内，房门被合上，光线偏冷，室内空气压抑。主卧或内室格局紧凑，形成对峙感。高令宁与沈词近距离对峙，彼此站位逼仄。房内无多余动作，全部视觉重心集中在两人的身体压迫和情绪爆裂上。",
+    "action": "沈词回府后合上房门，脸色铁青，逼问人去向。高令宁微微一笑，故意说人被送去窑子里。沈词猛地上前，一把掐住她的脖子，手臂绷紧，额上青筋暴起。高令宁被迫仰头，却始终直视他，不肯退让。两人言语交锋后，沈词甩手将她推倒在地。她跌坐或摔在地面，呼吸紊乱，腹部受创。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "送到窑子里去了。",
+        "subtext": "我知道你在意她，我要故意刺痛你、逼你露出真面目。"
+      },
+      {
+        "character": "沈睿",
+        "line": "",
+        "subtext": ""
+      },
+      {
+        "character": "高令宁",
+        "line": "休我？你扪心自问，我可有半点对不住你沈家？没有我为你打理产业，打点亲朋，你能在朝中心无旁骛地为官？",
+        "subtext": "你没有资格审判我，你如今拥有的一切都有我的功劳。"
+      },
+      {
+        "character": "高令宁",
+        "line": "沈词，你真不要脸。祸害了我，祸害了陆姝仪，还想祸害别人？若不是睿儿，你以为我愿意与你过到今天？我看陆姝仪就是被你克死的……",
+        "subtext": "我要把你最深的愧疚和软肋彻底撕开，让你也尝一尝被诛心的滋味。"
+      }
+    ],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "房门"
+    ],
+    "dramatic_purpose": "婚姻矛盾首次彻底爆发，夫妻间积怨由暗流转为公开撕裂，并直接导致后续流产式悲剧的导火索。",
+    "tension_score": 0.9,
+    "dramatic_intensity": 0.8,
+    "order": 11
+  }
+}

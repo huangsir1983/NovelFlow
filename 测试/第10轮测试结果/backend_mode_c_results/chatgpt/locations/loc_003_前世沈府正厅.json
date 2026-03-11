@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_003",
+  "name": "前世沈府正厅",
+  "type": "interior",
+  "era_style": "明代中晚期世家宅邸正厅",
+  "description": "沈府正厅比高府更显门第深厚，空间开阔，主位高起，正中设家族长案与主位太师椅，左右配列次座，形成明显尊卑序列。厅内铺设整齐青砖，中央或置软垫供新妇奉茶跪礼。后方为大型绣屏，题材多为花鸟富贵或寿意纹样，旁有香炉袅袅。敬茶托盘、茶盏茶杯陈列于案，器物考究，釉色温润。厅堂四角与边厅光线较暗，唯中部被白日天光照亮，因此一旦茶盏碎裂，瓷片与血痕会在青砖地上格外刺目。整个空间具有森严家法感，适合呈现以温礼包裹羞辱与试探的家族权力场。",
+  "visual_reference": "Late Ming dynasty aristocratic family main reception hall, spacious formal Chinese ancestral hall interior, elevated master seats, embroidered folding screen, incense burner, polished gray brick floor, kneeling cushions for tea ceremony, lacquered tea tray and porcelain cups, symmetrical seating hierarchy, daylight from front doors, shattered porcelain on floor, tense family confrontation, historical Chinese realism, cinematic drama",
+  "atmosphere": "家法森冷、礼仪羞辱、骤然见血",
+  "color_palette": [
+    "深栗木色",
+    "青灰",
+    "黛绿",
+    "血红"
+  ],
+  "lighting": "白天主光从前厅门口进入，厅内整体偏冷，中央亮、四周暗，便于突出碎瓷与人物动作的戏剧冲击。",
+  "key_features": [
+    "尊卑分明的主位与次座",
+    "中央敬茶软垫",
+    "绣屏与地面碎瓷片的强烈对比"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "由新婚次日的表面礼节，急转为以自戕相抗的极端反击与震慑。"
+}

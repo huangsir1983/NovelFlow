@@ -1,0 +1,63 @@
+======================================================================
+  第6轮测试报告 — 11阶段异步并行流水线
+  OpenClaudeCode API + gpt-5.4
+======================================================================
+  小说: 《我和沈词的长子》 (13181 字)
+  API: OpenClaudeCode (www.openclaudecode.cn)
+  模型: gpt-5.4
+
+  数据库统计 (10张表):
+    chapters: 12 条
+    characters: 8 条
+    scenes: 51 条
+    beats: 25 条
+    knowledge: 1 条
+    shots: 803 条
+    character_states: 139 条
+    dialogue: 196 条
+    shot_prompts: 803 条
+
+  chapters/: 13 文件
+  characters/: 10 文件
+  scenes/: 52 文件
+  beats/: 26 文件
+  knowledge/: 3 文件
+  visual/: 1 文件
+  shots/: 52 文件
+  character_states/: 52 文件
+  dialogue/: 13 文件
+  shot_prompts/: 135 文件
+
+  成本统计:
+    总API调用: 257 次
+    总Token: 1767799 (1167255in + 600544out)
+    总API耗时: 11945.4s
+
+  各阶段成本:
+    Stage  1 (章节分割): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  2 (摘要+扫描): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  3 (角色详情+知识库): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  4 (场景+节拍): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  5 (绑定): 0次调用, 0tokens (0in+0out), 0.0s
+    Stage  6 (Shot拆分): 51次调用, 352628tokens (173295in+179333out), 3408.8s
+    Stage  7 (角色状态): 51次调用, 229630tokens (171545in+58085out), 1337.5s
+    Stage  8 (对白提取): 12次调用, 39120tokens (19327in+19793out), 395.7s
+    Stage  9 (视觉Prompt): 134次调用, 1072319tokens (766486in+305833out), 6001.1s
+    Stage 10 (视觉评估): 9次调用, 74102tokens (36602in+37500out), 802.4s
+
+  阶段状态:
+    Stage 1: 章节分割 — completed
+    Stage 2: 摘要+扫描 — completed
+    Stage 3: 角色详情+知识库 — completed
+    Stage 4: 场景+节拍 — completed
+    Stage 5: 绑定 — completed
+    Stage 6: Shot拆分 — completed
+    Stage 7: 角色状态 — completed
+    Stage 8: 对白提取 — completed
+    Stage 9: 视觉Prompt — completed
+    Stage 10: 视觉评估 — completed
+    Stage 11: 总结报告 — running
+
+======================================================================
+  流水线执行完毕
+======================================================================

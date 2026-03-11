@@ -1,0 +1,30 @@
+{
+  "variant_id": "lushuyi_variant_01",
+  "variant_type": "formal",
+  "variant_name": "陆姝仪 — 前世茶礼",
+  "tags": [
+    "前世",
+    "敬茶",
+    "正式"
+  ],
+  "scene_ids": [
+    "scene_001"
+  ],
+  "trigger": "在前世沈府正厅敬茶仪式中出现，伴随红烛喜帕",
+  "appearance_delta": {
+    "face": "温婉清丽中带有紧张恭顺，泪眼微含期待",
+    "body": "柔弱纤细，姿态端庄",
+    "hair": "乌黑长发部分盘起饰粉色  发簪",
+    "distinguishing_features": "手捧茶盏，柔弱倔强眼神"
+  },
+  "costume_override": {
+    "outfit": "粉色正式汉服，融入喜庆元素",
+    "color_palette": [
+      "粉",
+      "红",
+      "白"
+    ]
+  },
+  "visual_reference": "Delicate beautiful young Chinese woman 18-22, gentle fragile face with tense expectant tearful pitiful eyes, slender frail figure in upright posture, long black hair partially styled up with pink hairpins, wearing elegant soft pink Hanfu with red accents, holding tea cup gracefully, tragic yet manipulative expression, historical drama style in mansion hall with red candles, highly detailed",
+  "emotional_tone": "恭顺示弱，暗藏心机"
+}

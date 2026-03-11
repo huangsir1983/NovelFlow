@@ -1,0 +1,86 @@
+[
+  {
+    "id": "shot_0096",
+    "scene_id": "scene_009",
+    "shot_number": 1,
+    "goal": "建立回忆闪回的时空转换，从现在进入前世记忆",
+    "composition": "空镜：柔焦的室内光影，阳光透过窗棂形成斑驳光影，画面中心留白，边缘虚化",
+    "camera_movement": "slow dolly in",
+    "framing": "WS",
+    "emotion_target": "营造历史感和回忆的不真实质感，引导观众进入闪回",
+    "duration_hint": "1.5-2s",
+    "characters": [],
+    "transition_in": "dissolve",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.1,
+    "order": 96
+  },
+  {
+    "id": "shot_0097",
+    "scene_id": "scene_009",
+    "shot_number": 2,
+    "goal": "揭示儿子未来身份——成年男子官服形象",
+    "composition": "背影中景，男子身着官服立于朝堂，画面三分法右侧，左侧留白暗示权力空间，背景虚化的殿柱形成纵深",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "威严感与命运的沉重感，暗示这是不可改变的未来",
+    "duration_hint": "2-3s",
+    "characters": [
+      "儿子（成年）"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 97
+  },
+  {
+    "id": "shot_0098",
+    "scene_id": "scene_009",
+    "shot_number": 3,
+    "goal": "强化权力象征——印章落下的决定性瞬间",
+    "composition": "极特写：印章底部占据画面下半部，奏折纸面纹理清晰可见，印泥鲜红，构图俯视角度",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "命运的不可逆转感，权力的冰冷质感",
+    "duration_hint": "1-1.5s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.4,
+    "order": 98
+  },
+  {
+    "id": "shot_0099",
+    "scene_id": "scene_009",
+    "shot_number": 4,
+    "goal": "印章压印瞬间的物理细节，强化'盖棺定论'的隐喻",
+    "composition": "特写：印章压在奏折上的瞬间，印泥渗入纸张纤维，画面中心构图，浅景深",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "命运锁定的窒息感，无法更改的宿命",
+    "duration_hint": "1.5s",
+    "characters": [],
+    "transition_in": "match_cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.5,
+    "order": 99
+  },
+  {
+    "id": "shot_0100",
+    "scene_id": "scene_009",
+    "shot_number": 5,
+    "goal": "回到女主视角，暗示她对这段记忆的凝视",
+    "composition": "中特写：女主侧脸，眼神望向画外空间（暗示在回忆），光线从侧面打亮半张脸，另一半隐入阴影，画面左侧构图",
+    "camera_movement": "slow push in",
+    "framing": "MCU",
+    "emotion_target": "复杂情绪：无奈、清醒、被命运绑架的克制痛苦",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 100
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_013",
+  "name": "江南宅院",
+  "type": "mixed",
+  "era_style": "明代江南园林宅院",
+  "description": "精致江南园林宅院，客房被枕与宴席桌椅布置在内院，昭昭满月礼与玩具散落。院门雪堆可见，院落有雪球痕迹，连接内外空间，兼具私宅温馨与园林雅致。",
+  "visual_reference": "Elegant Jiangnan garden residence in late Ming dynasty style, inner guest rooms with pillows and banquet tables, baby full-month gifts and toys scattered, courtyard gate with snow piles, snowball marks, mixed interior-exterior layout with white walls dark tiles and garden elements, daytime and nighttime variations, highly detailed cinematic",
+  "atmosphere": "重逢尴尬、凄凉纠缠",
+  "color_palette": [
+    "雪白",
+    "院绿",
+    "木暖"
+  ],
+  "lighting": "白天明亮园林光线，夜间烛火温暖幽暗",
+  "key_features": [
+    "院门雪堆与雪球",
+    "昭昭玩具满月礼",
+    "客房被枕宴席桌"
+  ],
+  "narrative_scenes": [
+    "scene_013",
+    "scene_014"
+  ],
+  "scene_count": 2,
+  "time_variations": [
+    "day",
+    "night"
+  ],
+  "emotional_range": "陆姝仪道歉重逢的尴尬到三年后沈词凄凉乞求与贪婪贴背"
+}

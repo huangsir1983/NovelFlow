@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0236",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0744",
+      "shot_0745",
+      "shot_0746"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "开场三镜头共同完成空间建立与权力关系布置，角色集合不变，情绪维持在体面外壳下的压抑对峙，适合合并为同一段连续建立段。",
+    "order": 236
+  },
+  {
+    "id": "seg_0237",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0747",
+      "shot_0748",
+      "shot_0749"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组从高父蓄势到正式发难，再切到沈母接收冲击，构成完整的第一轮施压—反应情绪弧线，叙事连续且冲突单向升级。",
+    "order": 237
+  },
+  {
+    "id": "seg_0238",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0750",
+      "shot_0751",
+      "shot_0752"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段完整呈现沈母最后一次试探与高父即时打断，情感从隐忍裂痕推进到回合被封死，属于同一攻防单元，适合紧凑合并。",
+    "order": 238
+  },
+  {
+    "id": "seg_0239",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0753",
+      "shot_0754",
+      "shot_0755"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此组三镜头是全场核心宣判段：孩子归属落定、沈母受击、威胁升级至公堂，情绪呈连续拔高，构成明确的高潮单元。",
+    "order": 239
+  },
+  {
+    "id": "seg_0240",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0756",
+      "shot_0757"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜承担残局判定与冷收尾功能，情绪由高潮回落到冰冷定局，角色与空间关系不再变化，适合作为同一收束段结束本场。",
+    "order": 240
+  }
+]

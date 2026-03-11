@@ -1,0 +1,24 @@
+======================================================================
+  第2次测试报告 — 长文本AI处理管道改进
+======================================================================
+  小说: 《我和沈词的长子》 (13181 字)
+
+  [PASS] Step 1: 章节分割 — 16 章 | 7.3s
+  [PASS] Step 2: 章节摘要 — 16 章摘要, synopsis=13164字 | 89.0s
+  [PASS] Step 3a: 角色名单 — 10 角色: 我（高令宁）, 沈词, 陆姝仪, 高父, 沈睿, 昭昭, 蒋晟, 沈母, 稳婆, 婢女 | 3.9s
+  [FAIL] Step 3b: 角色详情 — 'list' object has no attribute 'get'
+  [FAIL] Step 4: 场景提取 — All AI providers failed. Last error: Server disconnected without sending a response.
+  [FAIL] Step 5: 节拍提取 — All AI providers failed. Last error: Server disconnected without sending a response.
+  [PASS] Step 6: 知识库V2 — world_building=6项, style_guide=6项 | 27.5s
+  [FAIL] Step 7: 新旧对比 — All AI providers failed. Last error: Server disconnected without sending a response.
+
+======================================================================
+  总结: 4 通过, 4 失败
+======================================================================
+
+改进要点:
+  1. 章节分割: regex优先 + 分块AI回退 (20K/块, 1K重叠)
+  2. 章节摘要: 新增步骤, 每章生成300-500字摘要
+  3. 角色提取: 两轮 (P03A名单扫描 + P03B逐一详情)
+  4. 场景提取: 带角色名上下文, 保证角色名一致性
+  5. 知识库: 从synopsis构建, 不再需要全文输入

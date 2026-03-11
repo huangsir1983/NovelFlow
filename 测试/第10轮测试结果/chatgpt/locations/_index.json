@@ -1,0 +1,224 @@
+{
+  "total_locations": 27,
+  "locations": [
+    {
+      "location_id": "loc_001",
+      "name": "高府正堂",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "location_id": "loc_002",
+      "name": "高令宁房中",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "location_id": "loc_003",
+      "name": "前世沈府正厅",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "location_id": "loc_004",
+      "name": "前世沈府、街巷、病榻等回忆空间",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "location_id": "loc_005",
+      "name": "高府书房与门边",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "location_id": "loc_006",
+      "name": "高府门前",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "location_id": "loc_007",
+      "name": "高府会客处",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "location_id": "loc_008",
+      "name": "侯爵娘子举办的马球会",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "location_id": "loc_009",
+      "name": "马球场旁无人角落",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_009"
+      ]
+    },
+    {
+      "location_id": "loc_010",
+      "name": "侯府内室诊伤处",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_010"
+      ]
+    },
+    {
+      "location_id": "loc_011",
+      "name": "前世沈府内院、街市、产房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_011"
+      ]
+    },
+    {
+      "location_id": "loc_012",
+      "name": "高府",
+      "scene_count": 4,
+      "narrative_scenes": [
+        "scene_012",
+        "scene_017",
+        "scene_022",
+        "scene_024"
+      ]
+    },
+    {
+      "location_id": "loc_013",
+      "name": "沈高两家婚礼正堂",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_013"
+      ]
+    },
+    {
+      "location_id": "loc_014",
+      "name": "沈府新婚洞房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_014"
+      ]
+    },
+    {
+      "location_id": "loc_015",
+      "name": "沈府",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_015"
+      ]
+    },
+    {
+      "location_id": "loc_016",
+      "name": "沈府内室",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_016"
+      ]
+    },
+    {
+      "location_id": "loc_017",
+      "name": "高府会客与后院厢房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_018"
+      ]
+    },
+    {
+      "location_id": "loc_018",
+      "name": "高府厅堂",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_019"
+      ]
+    },
+    {
+      "location_id": "loc_019",
+      "name": "高府产房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_020"
+      ]
+    },
+    {
+      "location_id": "loc_020",
+      "name": "梦境空间",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_021"
+      ]
+    },
+    {
+      "location_id": "loc_021",
+      "name": "高府前院、后院卧房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_023"
+      ]
+    },
+    {
+      "location_id": "loc_022",
+      "name": "高府宴厅",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_025"
+      ]
+    },
+    {
+      "location_id": "loc_023",
+      "name": "江南住处",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_026"
+      ]
+    },
+    {
+      "location_id": "loc_024",
+      "name": "江南宅院书房、庭院",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_027"
+      ]
+    },
+    {
+      "location_id": "loc_025",
+      "name": "江南宅院书房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_028"
+      ]
+    },
+    {
+      "location_id": "loc_026",
+      "name": "江南宅院前院",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_029"
+      ]
+    },
+    {
+      "location_id": "loc_027",
+      "name": "江南宅院卧房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_030"
+      ]
+    }
+  ]
+}

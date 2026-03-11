@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_009",
+  "name": "高令宁在高府的房间",
+  "type": "interior",
+  "era_style": "明代孕妇养胎居室",
+  "description": "温暖舒适的居室,床榻加厚垫褥,床边设脉枕与药箱。窗边摆摇篮,篮中放虎头帽与小衣物。桌上摆针线筐,半成品婴儿衣物。房内设香炉,燃安胎香。墙上挂送子观音图,角落堆放补品。光线柔和,窗帘半掩。",
+  "visual_reference": "Ming Dynasty pregnant woman's room, warm comfortable interior, thick padded bed, pulse pillow and medicine box, cradle by window with tiger-head cap and baby clothes, sewing basket with unfinished infant garments, incense burner with calming fragrance, Guanyin painting on wall, nutritional supplements in corner, soft lighting, half-drawn curtains, nurturing atmosphere",
+  "atmosphere": "温暖、期待、母性",
+  "color_palette": [
+    "暖米色",
+    "浅黄色",
+    "柔粉色"
+  ],
+  "lighting": "柔和日光透过窗帘,室内光线温暖安宁",
+  "key_features": [
+    "脉枕",
+    "虎头帽",
+    "摇篮",
+    "针线筐"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "对孩子的期待与希望"
+}

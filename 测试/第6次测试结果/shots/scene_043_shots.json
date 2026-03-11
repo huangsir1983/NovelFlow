@@ -1,0 +1,375 @@
+[
+  {
+    "id": "shot_0662",
+    "scene_id": "scene_043",
+    "shot_number": 1,
+    "goal": "建立梦境卧房的封闭压抑氛围，明确床榻与粥碗是本场核心视觉信息，并将观众带入高令宁的限制性主观感知。",
+    "composition": "WS，机位略低，床榻位于画面中轴偏右，占据视觉中心；左前景虚化的床幔边缘形成遮挡，右前景床头小案上瓷碗在烛火下泛暖光；背景是昏暗窗格与灰青墙面，房间大面积留黑，沈睿小小身形站在床边左侧，踮脚轮廓被侧逆光勾出。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压抑、静默、梦中旧伤被重新唤醒的不安",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 662
+  },
+  {
+    "id": "shot_0663",
+    "scene_id": "scene_043",
+    "shot_number": 2,
+    "goal": "将粥碗从环境元素提升为情感动作核心，传达孩子试图照料母亲的笨拙与郑重。",
+    "composition": "CU，瓷碗位于画面下中部，碗口热气微微上升；沈睿两只过于纤小的手从左右捧住碗沿，袖口月白；背景虚化成床榻边缘与高令宁模糊的卧姿轮廓，浅景深突出碗的温度和重量。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "怜惜、脆弱的温情",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 663
+  },
+  {
+    "id": "shot_0664",
+    "scene_id": "scene_043",
+    "shot_number": 3,
+    "goal": "交代沈睿的谨慎状态与过分懂事的神情，建立他始终在观察大人情绪的角色特征。",
+    "composition": "MCU，沈睿位于画面左三分之一，微微踮脚，肩背绷直，双手捧碗靠近胸前；画面右侧前景是高令宁被褥和肩部虚焦轮廓，形成女主主观视线压景；背景烛火在他耳后形成微弱暖边光。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "心疼、克制中的无助",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.24,
+    "order": 664
+  },
+  {
+    "id": "shot_0665",
+    "scene_id": "scene_043",
+    "shot_number": 4,
+    "goal": "以高令宁的沉默不应，放大沈睿第一句恳求的落空感，保持女主认知中心。",
+    "composition": "MCU，高令宁躺于画面右侧，面色苍白，眼闭，眉心轻蹙；左前景虚化出靠近的粥碗边沿与沈睿袖口，形成探入式构图；背景床头木雕与垂落帐幔压迫空间，留白集中在她脸旁的暗部。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷寂、拒绝感、悬而未决",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 665
+  },
+  {
+    "id": "shot_0666",
+    "scene_id": "scene_043",
+    "shot_number": 5,
+    "goal": "承接第一句对白，表现沈睿小心递近粥碗的动作，推进照料行为却仍得不到回应。",
+    "composition": "MS，床沿横贯画面下方，高令宁卧于右侧，沈睿站于左侧前倾递碗，身体因踮脚而失衡却竭力维持端正；前景一角是床幔垂线，背景窗格冷光与烛火暖光形成冷暖对撞。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "紧张、想靠近又怕惊扰的怯意",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 666
+  },
+  {
+    "id": "shot_0667",
+    "scene_id": "scene_043",
+    "shot_number": 6,
+    "goal": "通过沈睿说及妹妹离世与父母自困，揭开家庭创伤背景，并刺穿梦境的情感根源。",
+    "composition": "CU，沈睿正面略偏侧，位于画面中央偏左，眼神向下又忍不住抬起看床上人；背景完全压暗，仅留一条床幔竖线与后方冷色窗光，面部一半被烛光照亮，一半陷在阴影里。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "早慧带来的刺痛、孩子不该承受的沉重",
+    "duration_hint": "6-7s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 667
+  },
+  {
+    "id": "shot_0668",
+    "scene_id": "scene_043",
+    "shot_number": 7,
+    "goal": "展示高令宁在沉默中被触动但仍未即时回应，保持情绪压抑不外泄。",
+    "composition": "CU，高令宁侧脸占据画面右半，眼睫轻颤但仍未睁开；左侧前景虚化是沈睿胸前的碗与衣袖，形成挤压；背景床头暗木与阴影吞没后景，只有颈侧和鼻梁有一线暖光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "隐忍、被旧痛刺中的微弱波动",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 668
+  },
+  {
+    "id": "shot_0669",
+    "scene_id": "scene_043",
+    "shot_number": 8,
+    "goal": "从动作上表现沈睿意识到自己无力改变母亲状态，开始把责任向自己身上揽。",
+    "composition": "MCU，机位略俯，沈睿位于画面中央，粥碗慢慢从胸前下落到腹前，肩膀也随之塌下一点；背景是床沿和高令宁模糊的白色寝衣，形成视觉上的高压注视。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "失落、自责的下坠感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 669
+  },
+  {
+    "id": "shot_0670",
+    "scene_id": "scene_043",
+    "shot_number": 9,
+    "goal": "用一句‘都是儿子不好’配合磕头动作前的停顿，把情绪推到第一次明显高点。",
+    "composition": "CU，沈睿低垂的眼占据画面中心，睫毛投下阴影，嘴唇抿紧后微启；画面下缘隐约见到碗沿，背景完全虚化成暖冷混杂的暗块，突出瞬间的自我定罪。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "窒息、心碎、孩子式自我牺牲",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 670
+  },
+  {
+    "id": "shot_0671",
+    "scene_id": "scene_043",
+    "shot_number": 10,
+    "goal": "完整交代俯身磕头的动作，令情绪从言语自责升级为身体性的恳求与认罪。",
+    "composition": "MLS，床榻仍在右侧主位，沈睿置于左下方向前一步，先将粥碗放到床边小案，再转身面向床前跪下俯伏；前景床幔从上方垂下像帘幕审判，背景墙面空阔冷暗，孩子身形显得更小。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "卑微、揪心、礼法之下的自伤",
+    "duration_hint": "5s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 671
+  },
+  {
+    "id": "shot_0672",
+    "scene_id": "scene_043",
+    "shot_number": 11,
+    "goal": "在高点后给予极短反应，表现高令宁终于被逼醒，情感防线出现裂口。",
+    "composition": "ECU，高令宁闭着的眼骤然睁开，画面只取眼周、鼻梁与一截苍白皮肤；光从上方斜切，瞳孔里映出烛火微点，背景全黑。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "骤刺、惊醒、压抑情绪被强行唤起",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.78,
+    "order": 672
+  },
+  {
+    "id": "shot_0673",
+    "scene_id": "scene_043",
+    "shot_number": 12,
+    "goal": "用高令宁简短回应‘与你何干？’打断孩子的自责逻辑，体现她仍试图护住他。",
+    "composition": "CU，高令宁半仰在枕上位于画面右侧，睁眼后虚弱转向左侧床边，嘴唇发白，声音轻却锋利；左前景是跪伏的沈睿头顶虚焦，占据画面下角，形成主观压近感。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "克制中的疼、冷硬外壳下的护子本能",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 673
+  },
+  {
+    "id": "shot_0674",
+    "scene_id": "scene_043",
+    "shot_number": 13,
+    "goal": "让沈睿抬头回应，进入更深层的婚姻真相陈述，完成对白翻刃。",
+    "composition": "MCU，沈睿自下而上抬起脸，仍跪在床边，位于画面左侧，眼里有泪意却不失控；右侧是床沿和高令宁垂下的一角寝衣，构成他望向母亲的视线终点；背景暗木屏风纵线像无形栅栏。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "震动、孩子看透成人残局的残忍清醒",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 674
+  },
+  {
+    "id": "shot_0675",
+    "scene_id": "scene_043",
+    "shot_number": 14,
+    "goal": "承接‘若非为了儿子，爹娘早就和离’与‘娘亲为我，受了太多委屈’，让观众直面牺牲被孩子亲口说破的伤口。",
+    "composition": "CU，沈睿正面更近，脸置中，眼神不再闪避，话语越平静越刺人；下方留一点空白给呼吸，背景只剩模糊暖火和冷窗光交错，形成他被两股情绪撕扯的视觉状态。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、羞愧、无法回避的真相",
+    "duration_hint": "6s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 675
+  },
+  {
+    "id": "shot_0676",
+    "scene_id": "scene_043",
+    "shot_number": 15,
+    "goal": "给高令宁一个无声反应，表现她被儿子的话正中旧伤却仍没有彻底崩裂。",
+    "composition": "CU，高令宁位于画面右中，视线落向床边下方，眼中终于有湿意但不落泪；前景虚化出沈睿肩头和发顶，形成母子间的距离；背景帐幔暗影像合拢的空间，把她困在床榻内。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "隐痛、被看见后的脆弱与无处可逃",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 676
+  },
+  {
+    "id": "shot_0677",
+    "scene_id": "scene_043",
+    "shot_number": 16,
+    "goal": "将沈睿‘若有来生，别再生下我’推为全场情绪峰值，完成亲子牺牲主题的最重一击。",
+    "composition": "CU，沈睿面部占满画面，眼眶泛红却极力稳定，嘴角轻颤；他视线朝上看向高令宁，像在请求判决；背景全部压暗，只保留一圈极淡暖边光勾轮廓，令台词像悬在黑暗中。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心碎、灭顶式的悲怆",
+    "duration_hint": "7-8s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 677
+  },
+  {
+    "id": "shot_0678",
+    "scene_id": "scene_043",
+    "shot_number": 17,
+    "goal": "用高令宁勉力抬手的动作回应前面所有语言冲击，将情绪从崩裂边缘转入克制的母爱。",
+    "composition": "CU，画面从高令宁肩颈到抬起的手，手从右侧被褥中缓慢伸向左侧画外；前景虚化有一缕床幔，背景仍是昏暗床头，手指因虚弱微微发颤，成为唯一清晰运动点。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "怜惜、迟来的回应、极轻却沉重的安抚",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 678
+  },
+  {
+    "id": "shot_0679",
+    "scene_id": "scene_043",
+    "shot_number": 18,
+    "goal": "完成触碰瞬间，以身体接触替代言语，落点在母子之间未说尽的疼与保护。",
+    "composition": "ECU，高令宁指尖自画面右侧轻轻抚过沈睿左脸，孩子的皮肤与睫毛清晰可见；两者占满画面，无背景信息，只留烛火暖光在指尖和脸颊上流动，形成梦境式时间停顿。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "温柔到发痛、被接住的一瞬",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 679
+  },
+  {
+    "id": "shot_0680",
+    "scene_id": "scene_043",
+    "shot_number": 19,
+    "goal": "给出沈睿被抚触后的反应，收束他极端自责的情绪，同时保留梦境的不真实感与余痛。",
+    "composition": "CU，沈睿脸位于画面左侧，贴着那只手微微停住，眼神先怔后软；右侧前景是高令宁手的轮廓，背景重新浮现模糊床帐与微弱烛火，空间感回归但依旧封闭。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "酸楚、短暂慰藉后的更深不舍",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.5,
+    "order": 680
+  },
+  {
+    "id": "shot_0681",
+    "scene_id": "scene_043",
+    "shot_number": 20,
+    "goal": "以梦境冷收结束本场，将粥碗、床榻与母子距离重新并置，为后续现实对峙留下情感底色。",
+    "composition": "MLS，回到床边侧面构图：高令宁卧于右侧，手仍停在半空后缓缓落回；沈睿跪在左侧近床沿，床头小案上的粥碗静置未动，热气已淡；前景床幔再度半遮，背景窗格冷光更重，烛火将尽。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "余痛、无力、梦醒前的悬停",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.34,
+    "order": 681
+  }
+]

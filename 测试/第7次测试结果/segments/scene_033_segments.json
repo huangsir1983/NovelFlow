@@ -1,0 +1,115 @@
+[
+  {
+    "id": "seg_0176",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0534",
+      "shot_0535",
+      "shot_0536"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属冲突建立阶段：先交代空间与角色站位，再迅速收束到女主主观，最后以拽袖动作完成第一次身体阻拦。角色集合稳定，情绪从压迫滑向主动截停，适合合并为一个完整起势段。",
+    "order": 176
+  },
+  {
+    "id": "seg_0177",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0537",
+      "shot_0538",
+      "shot_0539"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕第一轮言语交锋展开：女主逼问、男方压制、旁观者不作为。情绪是持续加压而非转折，且仍维持原空间关系，因此并段能形成完整的“体面撕开”节拍。",
+    "order": 177
+  },
+  {
+    "id": "seg_0178",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0540",
+      "shot_0541",
+      "shot_0542"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头构成一条完整的羞辱弧线：以孕为名剥夺发言权，切女主受刺反应，再回到男方的恶毒定性。情绪由压迫升级为人格审判，是清晰的内在高潮点。",
+    "order": 178
+  },
+  {
+    "id": "seg_0179",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0543",
+      "shot_0544",
+      "shot_0545"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是场面第一次大换挡：女主公开化反击，陆姝仪意识到失控，沈睿随即从冷暴力转为情绪暴冲。角色未变，但情感弧线发生明显翻转，适合作为独立段落。",
+    "order": 179
+  },
+  {
+    "id": "seg_0180",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0546",
+      "shot_0547",
+      "shot_0548",
+      "shot_0549"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是从威胁到身体越界的完整爆发链条：拳头预警、贴脸威胁、女主静止决断、耳光爆发。动作因果严密，情绪一路攀到峰值，不宜拆散。",
+    "order": 180
+  },
+  {
+    "id": "seg_0181",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0550",
+      "shot_0551",
+      "shot_0552"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "耳光后的余波与危机转换在这一段完成：先看被打者反应，再看听者抢话，再立刻转到女主身体异样。符合“听者比说者重要”，同时把冲突从道德层面推入生理层面。",
+    "order": 181
+  },
+  {
+    "id": "seg_0182",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0553",
+      "shot_0554",
+      "shot_0555"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是清晰的身体危机段落：先主观失衡，再客观踉跄，最后用腹部特写锁定早产风险。空间没变，但叙事目标已从争执转成生理悬崖，是明确的分段边界。",
+    "order": 182
+  },
+  {
+    "id": "seg_0183",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0556",
+      "shot_0557",
+      "shot_0558"
+    ],
+    "segment_number": 8,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "高父入场带来角色集合变化，也是私密对峙转为家族危机的明确边界。三镜头形成‘闯入—确认—濒倒’的完整收束，顺势把下一场早产危机接出来。",
+    "order": 183
+  }
+]

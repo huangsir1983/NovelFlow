@@ -9,7 +9,7 @@ export interface AIModelConfig {
   supports_image: boolean;
 }
 
-export type ProviderType = 'anthropic' | 'gemini' | 'openai_compat';
+export type ProviderType = 'anthropic' | 'gemini' | 'openai_compat' | 'responses_api' | 'grok_video';
 
 export interface AIProvider {
   id: string;
@@ -73,6 +73,8 @@ export const PROVIDER_TYPE_LABELS: Record<ProviderType, string> = {
   anthropic: 'Anthropic',
   gemini: 'Gemini',
   openai_compat: 'OpenAI Compatible',
+  responses_api: 'Responses API',
+  grok_video: 'Grok Video',
 };
 
 export const CAPABILITY_TIER_LABELS: Record<string, string> = {
@@ -85,4 +87,6 @@ export const DEFAULT_BASE_URLS: Record<ProviderType, string> = {
   anthropic: 'https://api.anthropic.com',
   gemini: 'https://generativelanguage.googleapis.com',
   openai_compat: '',
+  responses_api: '',
+  grok_video: '',
 };

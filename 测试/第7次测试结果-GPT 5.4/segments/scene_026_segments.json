@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0129",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0378",
+      "shot_0379",
+      "shot_0380"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头处于同一室内连续动作链：先建立洞房事后空间关系，再由叩门声打断，最后落到女主近主观感知男主停手。角色集合未新增到画面核心，仅是外部干扰进入，情绪从冷寂转为被冒犯的惊断，适合合并为一个开场段落。",
+    "order": 129
+  },
+  {
+    "id": "seg_0130",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0381",
+      "shot_0382",
+      "shot_0383"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成门外来人身份揭示与通报信息投递，并立即用门内反应确认沈词受影响。角色集合在此正式扩大到三角关系，叙事功能高度统一，情绪由外部侵入升级为内外拉扯，因此合并成单一信息段最有效。",
+    "order": 130
+  },
+  {
+    "id": "seg_0131",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0384",
+      "shot_0385",
+      "shot_0386",
+      "shot_0387"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这四个镜头是同一情绪动作链：女主冷笑判断、说出第一句放行、男主受刺反应、女主再补一刀。视角始终围绕女主近主观，情感弧线由冷处理抬升到公开切断，连续性极强，适合合并为一段完整的决裂推进。",
+    "order": 131
+  },
+  {
+    "id": "seg_0132",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0388",
+      "shot_0389",
+      "shot_0390",
+      "shot_0391"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段构成全场冲突核心反转：男主静止蓄力、开口讥刺、女主无反应吸收、再以‘和离’完成终极反击。角色不变，空间不变，但情感弧线完成从刺痛到爆裂的转折，必须作为独立高潮段落处理。",
+    "order": 132
+  },
+  {
+    "id": "seg_0133",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0392",
+      "shot_0393"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜承担高潮后的收束功能：先给男主被动承受的裂缝，再回到客观全景完成空间性结论。情绪从爆裂回冷，角色与时空稳定，作为尾段既呼应开场也为下一场离开动作留出口。",
+    "order": 133
+  }
+]

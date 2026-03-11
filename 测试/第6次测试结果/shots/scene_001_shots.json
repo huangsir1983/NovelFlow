@@ -1,0 +1,312 @@
+[
+  {
+    "id": "shot_0024",
+    "scene_id": "scene_001",
+    "shot_number": 1,
+    "goal": "建立闺房的封闭压迫感与父女对峙的空间关系，明确高父占据主动、高令宁以静制动。",
+    "composition": "FS，机位贴近门内一侧，门框作为前景压景，右前景虚化帷帐边缘，画面中部偏左为高令宁立于梳妆台与椅凳之间，身形挺直几乎不动；高父在画面右侧至后景绕步，形成围绕她的弧线运动。窗外斜射日光从画面左后侧切入，侧打高令宁半张脸，另一半落入阴影，梳妆台上的首饰发钗在低亮处微闪。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、被围困、礼法空间中的心理逼迫",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 24
+  },
+  {
+    "id": "shot_0025",
+    "scene_id": "scene_001",
+    "shot_number": 2,
+    "goal": "把观众带入高令宁限制性主观视角，让高父的逼问以压面方式进入她的感知。",
+    "composition": "MS，越过高令宁肩后拍高父，左前景为高令宁肩颈和半侧发髻虚焦轮廓，高父停在画面中央偏右，俯身逼近，身后是旧木屏风和半暗帷帐，窗光从他侧后勾出轮廓，脸上带急火与阴影。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "压力骤近、质问扑面而来",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 25
+  },
+  {
+    "id": "shot_0026",
+    "scene_id": "scene_001",
+    "shot_number": 3,
+    "goal": "落下第一句质问，突出高父失控的急切与他对局面的失去把握。",
+    "composition": "MCU，高父占画面中央，头顶留白很少，形成压迫；右下角隐约保留高令宁肩线作为方向锚点。背景为暗木柜与帘影，侧光打出法令纹和紧绷嘴角。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "急怒、失序、父权威压",
+    "duration_hint": "2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 26
+  },
+  {
+    "id": "shot_0027",
+    "scene_id": "scene_001",
+    "shot_number": 4,
+    "goal": "用沉默回应质问，建立高令宁的冷硬防线与不配合姿态。",
+    "composition": "MCU，高令宁置于画面左三分之一，右侧留出高父所处的负空间；背景是梳妆台铜镜与散置发钗，铜镜中只映出一片模糊亮斑，不给完整倒影。她目光平直，唇线紧，脸一半被天光照亮，一半隐在冷影中。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "克制、冷拒、让观众感到她在压着更深的东西",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.32,
+    "order": 27
+  },
+  {
+    "id": "shot_0028",
+    "scene_id": "scene_001",
+    "shot_number": 5,
+    "goal": "继续推进高父的盘问内容，交代她曾赞许沈词，如今反手羞辱，形成核心矛盾。",
+    "composition": "MLS，保持同一轴线，高父从画面右向左踱步进入中景，经过高令宁前方但不遮死她，形成绕行控制；高令宁仍在左后方静立。前景椅背斜切入画，构成阻隔线。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "步步紧逼、对峙升级",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 28
+  },
+  {
+    "id": "shot_0029",
+    "scene_id": "scene_001",
+    "shot_number": 6,
+    "goal": "捕捉高令宁第一次情绪变化的前奏——冷笑将起，显示她并非被动承压而是另有盘算。",
+    "composition": "CU，高令宁面部占画面中央偏左，焦点落在眼与唇角，颈侧淡痕隐约可见；背景虚化成暖冷交错的光斑，发钗高光在右后景形成一枚针点似的刺。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "危险、锋利、隐秘恨意开始浮出",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 29
+  },
+  {
+    "id": "shot_0030",
+    "scene_id": "scene_001",
+    "shot_number": 7,
+    "goal": "表现高父从急怒转向叹气与无奈，显示他并不知道女儿真正的驱动力。",
+    "composition": "MCU，高父停步于画面中央，手抬起又落下，胸口微微起伏；背景窗棂在他身后形成纵向分割，像无形牢栏。画面左侧保留一块虚焦留白，暗示高令宁的位置。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "无奈、焦灼里夹着护女之心",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.42,
+    "order": 30
+  },
+  {
+    "id": "shot_0031",
+    "scene_id": "scene_001",
+    "shot_number": 8,
+    "goal": "在高父提到“你今日给了沈公子好大一个难堪”时，给高令宁的回应制造翻刃感。",
+    "composition": "OTS MCU，越过高父肩膀拍高令宁，高父肩背占右前景三分之一形成压迫，高令宁在左中部抬眼，唇角那一丝冷笑终于成形，眼神却冷到没有温度。梳妆台边沿与她视线构成水平线，稳定而决绝。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷厉反击前的蓄势",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 31
+  },
+  {
+    "id": "shot_0032",
+    "scene_id": "scene_001",
+    "shot_number": 9,
+    "goal": "用极简一句“我知道”完成第一次反制，传达她是有意为之。",
+    "composition": "CU，高令宁正面微侧，目光越过镜头看向父亲，嘴唇轻启，声音很低。背景铜镜边缘切出一圈冷亮，像刀口。画面极稳，几乎无呼吸感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "寒意、反常、让观众意识到她在主动报复",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 32
+  },
+  {
+    "id": "shot_0033",
+    "scene_id": "scene_001",
+    "shot_number": 10,
+    "goal": "在她说完后给高父反应，强化信息不对称——他听见的是倔强，观众感到的是更深的秘密。",
+    "composition": "MCU，高父位于画面右侧，眉心收紧，眼神短暂停顿；左侧留出空位对着高令宁方向。背景暗处帷帐垂落，压低画面顶部空间。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "错愕、看不透、父亲开始试图换一种方式劝她",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.55,
+    "order": 33
+  },
+  {
+    "id": "shot_0034",
+    "scene_id": "scene_001",
+    "shot_number": 11,
+    "goal": "以有限闪回刺穿当下，暗示高令宁的失神并非犹豫，而是被旧伤骤然拽住。",
+    "composition": "ECU，发钗尖端在昏暗中闪一下，镜头极近，金属冷光切过画面；背景完全失焦，色温更冷、对比更高，像记忆碎片。可在边缘隐约带出一抹红痕或碎瓷反光，但不完整展示事件。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、宿命旧伤骤然返身",
+    "duration_hint": "0.8-1s",
+    "characters": [],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 34
+  },
+  {
+    "id": "shot_0035",
+    "scene_id": "scene_001",
+    "shot_number": 12,
+    "goal": "回到当下，表现高令宁短暂失神后重新定神，证明她已学会把痛压进控制之内。",
+    "composition": "CU，高令宁眼神先落向虚空偏右下，随后缓慢收回焦点；前景有一缕帘纱轻虚化掠过，像记忆残影尚未退尽。脸上的侧光比前一镜稍硬，眼底更深。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "心口一沉后的自我收束",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.65,
+    "order": 35
+  },
+  {
+    "id": "shot_0036",
+    "scene_id": "scene_001",
+    "shot_number": 13,
+    "goal": "高父转为软劝，提出体面回绝婚事的方案，显示他仍站在保护她的立场。",
+    "composition": "MS，父女同框但分置画面两端：高父在右侧前景略近，语气缓下；高令宁在左后方仍不动。中间留出一段空地，像无法跨越的距离。椅凳位于中央偏下，形成视觉阻挡。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "短暂缓冲、父爱中的无力与误判",
+    "duration_hint": "4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 36
+  },
+  {
+    "id": "shot_0037",
+    "scene_id": "scene_001",
+    "shot_number": 14,
+    "goal": "高令宁抬眼否认“不想嫁”，将场面从父亲设想的退路直接翻转为她的主动进攻。",
+    "composition": "MCU，从高父视线高度拍高令宁，她原本微垂的眼缓慢抬起，正对镜头。背景梳妆台上的首饰与铜镜都被压在浅景深里，只剩她的目光最清晰。构图居中，比前面更稳定更“正”。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "反问如刀、局面突然反转",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 37
+  },
+  {
+    "id": "shot_0038",
+    "scene_id": "scene_001",
+    "shot_number": 15,
+    "goal": "给高父一个被顶住的反应，表现他第一次真正感到女儿已脱离自己设定的逻辑。",
+    "composition": "CU，高父面部偏右，眼神轻震，唇微张却未立刻接上话；背景窗光过亮，形成轻微逆光，让他的轮廓显得有些发虚，稳固权威被削弱。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "惊疑、失措、父权短暂失重",
+    "duration_hint": "1.5s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 38
+  },
+  {
+    "id": "shot_0039",
+    "scene_id": "scene_001",
+    "shot_number": 16,
+    "goal": "以最终宣告“我一定要嫁”完成本场核心钩子，建立高令宁对婚事的决绝控制欲与无退路姿态。",
+    "composition": "CU，高令宁正面微仰，下巴线条利落，画面中部偏上，头后是暗色帷帐，只有一束侧光切过眼睛和唇。她吐字一字一句，几乎不眨眼。背景中的一点暗红衣料或饰物只占极小面积，成为危险刺点色。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "决绝、寒意、命运被她反手攥住的震慑感",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 39
+  },
+  {
+    "id": "shot_0040",
+    "scene_id": "scene_001",
+    "shot_number": 17,
+    "goal": "用沉默收尾，让父女关系悬停在新的权力格局上，为后续婚事推进留下余震。",
+    "composition": "MLS，回到双人同框，但空间关系已变化：高令宁站在画面左侧前景，身形更稳更近；高父在右后方停住，不再绕步。两人之间隔着椅凳与一线天光。房间依旧封闭，却像她已在心理上夺回中心。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷收、悬念、无声胜过争执的压迫",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.52,
+    "order": 40
+  }
+]

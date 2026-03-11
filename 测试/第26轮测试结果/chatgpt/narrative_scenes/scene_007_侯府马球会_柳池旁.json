@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "EXT. 马球会与柳池旁 - day",
+  "location": "侯府马球会、柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "沈词认陆姝仪为义妹，我提出必须等她出嫁才答应婚事；在马球会上，我与蒋晟相处融洽，却撞见沈词温柔看陆姝仪，心生嫉妒与厌恶，故意借蒋晟刺激沈词。",
+  "key_dialogue": "蒋公子，我脚好像崴了。",
+  "emotional_peak": "我看见沈词从未给过我的宠溺，嫉妒翻涌。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "马球会请帖",
+    "葡萄",
+    "风筝",
+    "扭伤的脚"
+  ],
+  "dramatic_purpose": "让四角关系第一次在今生正面碰撞，显露女主心底尚未冷却的痛。",
+  "visual_reference": "春日马球场沙尘飞扬，一边是温柔扶持，一边是池畔风筝与含笑对视，情绪对照鲜明。",
+  "visual_prompt_negative": "不要现代运动服，不要西式草坪派对，不要过度甜宠滤镜，不要卡通风",
+  "source_text_start": "6.\n沈家公子认了位义妹。\n消息传到我耳中，",
+  "source_text_end": "风拂过发梢。\n沈词似乎笑了下：\n「装什么装？」"
+}

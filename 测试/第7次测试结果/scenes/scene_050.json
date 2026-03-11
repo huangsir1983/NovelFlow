@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "id": "scene_050",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:04:24"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "沈睿",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家前厅 - 日",
+    "location": "高家前厅",
+    "time_of_day": "day",
+    "description": "同一前厅空间，日光从门外斜照进来。厅中央地面空旷，沈睿笔直跪在地上，身形消瘦。高父居高临下坐于主位，面前摆着一纸和离书。周围小厮侍立，空气紧绷。",
+    "action": "沈睿直挺挺跪在高父面前，请求见高令宁和女儿。高父当面放下和离书，语气平静却不容置疑。沈睿仰头辩解，强调陆姝仪已另嫁、自己愿与高令宁共同抚育孩子。高父直接表示已备好赘婿人选。沈睿身体骤然僵住，慢慢站起，弓着背发出一声短促笑声，随即挣开阻拦，朝后院冲去。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "爹，令宁不会与我和离的。",
+        "subtext": "我不接受她真的要离开我。"
+      },
+      {
+        "character": "沈睿",
+        "line": "至于陆姝仪，她已经嫁给蒋晟为妇，我也告诫了她，婚后不得再回沈府。",
+        "subtext": "我已经切断旧事，你们该给我机会。"
+      },
+      {
+        "character": "沈睿",
+        "line": "爹，我与令宁已有子嗣，应共同抚育她长大……孩子怎能没有爹爹？",
+        "subtext": "我想以孩子为理由，保住这段婚姻。"
+      },
+      {
+        "character": "高父",
+        "line": "不必，我的女儿不愁没人要，我已经备好了赘婿人选，昭昭同样不会缺爹爹疼爱。",
+        "subtext": "你的位置可以被任何更合适的人替代。"
+      }
+    ],
+    "characters_present": [
+      "沈睿",
+      "高父"
+    ],
+    "key_props": [
+      "和离书"
+    ],
+    "dramatic_purpose": "将和离从私下意愿推到公开执行层面，并用‘赘婿’信息重击沈睿，促使其失控闯入后院。",
+    "tension_score": 0.82,
+    "dramatic_intensity": 0.64,
+    "order": 50
+  }
+}

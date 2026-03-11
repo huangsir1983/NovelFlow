@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 新房 - 夜间",
+  "location": "新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "洞房亲密，陆婢女叩门打断",
+  "key_dialogue": "你去吧，也不必回来了。",
+  "emotional_peak": "女主催促困了，沈词讥诮",
+  "tension_score": 0.6,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "红烛",
+    "喜床锦被",
+    "丝带",
+    "水盆"
+  ],
+  "dramatic_purpose": "洞房后首次陆干扰"
+}

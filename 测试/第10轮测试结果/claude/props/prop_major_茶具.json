@@ -1,0 +1,18 @@
+{
+  "name": "茶具",
+  "category": "container",
+  "description": "青花瓷茶具套装，包含茶壶、茶杯若干。壶身绘有山水纹样，釉面温润，壶嘴微翘，壶把圆润。茶杯口径约6cm，杯壁薄透，底部有款识。整体呈青白色调，边缘有手工描金痕迹。",
+  "visual_reference": "Traditional Chinese blue and white porcelain tea set, teapot with landscape painting, delicate cups, warm glaze finish, gold rim details, Qing dynasty style, studio lighting, product photography",
+  "narrative_function": "建立日常生活氛围，承载人物间的对话场景，象征传统文化与礼仪",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_001",
+    "scene_004",
+    "scene_007",
+    "scene_008",
+    "scene_011",
+    "scene_013",
+    "scene_014"
+  ],
+  "emotional_association": "温情、日常、仪式感"
+}

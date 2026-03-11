@@ -1,0 +1,46 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人(长辈)"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "保养得宜，神情倨傲，带有高门主母的刻薄感",
+    "body": "体态丰腴端庄",
+    "hair": "满头珠翠，发髻高挽",
+    "distinguishing_features": "高高在上的审视目光"
+  },
+  "costume": {
+    "typical_outfit": "华丽繁复的诰命夫人服饰或绫罗绸缎",
+    "color_palette": [
+      "绛紫色",
+      "暗金色"
+    ]
+  },
+  "casting_tags": [
+    "恶婆婆",
+    "门第观念极重",
+    "势利眼"
+  ],
+  "visual_reference": "1woman, 50 years old, ancient chinese noblewoman, wealthy purple brocade, elaborate gold hairpins, haughty and strict expression, indoor wealthy estate background",
+  "personality": "极度看重门第与家族颜面，专横跋扈，习惯用身份压人，对低门第的儿媳充满偏见。",
+  "desire": "维持沈家高门显贵的体面与绝对控制权。",
+  "flaw": "势利且缺乏人情味，为了面子可以牺牲他人的幸福。",
+  "arc": "前世用陆姝仪立威 → 今生试图抢夺孙女被高父强硬击退。",
+  "scene_presence": "前世敬茶立威、今生登门抢夺昭昭",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "权力",
+      "dynamic": "高高在上的施压与最终的吃瘪",
+      "function": "阻碍"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "权力",
+      "dynamic": "将其视为彰显沈家仁义的工具与敲打儿媳的棋子",
+      "function": "助攻"
+    }
+  ]
+}

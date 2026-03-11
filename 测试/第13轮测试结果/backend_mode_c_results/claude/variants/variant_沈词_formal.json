@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_02",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 提亲时",
+  "tags": [
+    "提亲",
+    "端方",
+    "算计"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_008"
+  ],
+  "trigger": "在高府正堂提亲时的正式状态",
+  "appearance_delta": {
+    "face": "如玉面庞端正，眼神冷淡带着讥诮",
+    "body": "长身玉立，姿态端方持重",
+    "hair": "乌黑长发束冠整齐",
+    "distinguishing_features": "满眼讥诮冷薄的眼神，端方的仪态下藏着算计"
+  },
+  "costume_override": {
+    "outfit": "正式拜访的青色长袍，文士装束",
+    "color_palette": [
+      "青色",
+      "墨色",
+      "白色"
+    ]
+  },
+  "visual_reference": "古代男子正式拜访形象，清冷俊美的面容端正持重，身着青色长袍文士装束，长身玉立，乌黑长发束冠整齐，眉眼端正却透着讥诮冷薄，眼神如冰湖般深邃带着算计，薄唇微抿，整体气质端方却疏离，背景是古代府邸正堂，光线明亮庄重",
+  "visual_prompt_negative": "随意服装，亲切表情，武将装束，现代场景",
+  "emotional_tone": "端方、冷淡、讥诮、算计"
+}

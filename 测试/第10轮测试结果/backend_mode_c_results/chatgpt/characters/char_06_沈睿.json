@@ -1,0 +1,48 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "幼时聪慧秀气，眼神早慧；成年后应是清俊文臣相，承袭父母优点",
+    "body": "童年清瘦，成年挺秀文雅",
+    "hair": "幼童发髻，成年为整肃官员发式",
+    "distinguishing_features": "神童气质，目光沉静懂事，病中仍带温和恳求神态"
+  },
+  "costume": {
+    "typical_outfit": "幼时小公子常服，成年为官袍",
+    "color_palette": [
+      "月白",
+      "青灰",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "白月光儿子",
+    "天才名相",
+    "早夭意难平"
+  ],
+  "visual_reference": "ancient chinese prodigy boy, intelligent gentle eyes, refined features, later a young prime minister type, scholarly elegance",
+  "personality": "聪慧、仁厚、早熟、孝顺，极懂事",
+  "desire": "希望父母停止互相伤害，彼此珍重",
+  "flaw": "过分懂事，把父母婚姻的裂痕归咎于自己",
+  "arc": "前世作为传奇儿子与早逝遗憾存在，今生则作为尚未真正出生却牵动一切的宿命目标",
+  "scene_presence": "主要存在于回忆、梦境与夫妻重启婚姻的动机中",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "母亲为再见他甘愿重入婚姻",
+      "function": "主线情感动机"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "父亲以他为家族与国家未来，也承受其临终劝诫",
+      "function": "男主执念来源"
+    }
+  ]
+}

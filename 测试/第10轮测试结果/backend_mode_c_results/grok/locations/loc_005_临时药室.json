@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_005",
+  "name": "临时药室",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸临时药室",
+  "description": "临时改建的简易药室，中央塌床供病人躺卧休息，旁置药箱、药碗汤匙与茶盏。墙壁挂药材架，空间紧凑实用，家具简朴，适合紧急诊治场景。",
+  "visual_reference": "Makeshift temporary medicine chamber inside late Ming dynasty mansion, simple cot bed in center, wooden medicine chest with bowls spoons and tea cups, herb racks on walls, compact practical layout, soft indoor lighting, detailed Ming interior",
+  "atmosphere": "紧张关怀、冷眼旁观",
+  "color_palette": [
+    "药白",
+    "木褐",
+    "浅绿"
+  ],
+  "lighting": "室内柔和混合光线，自然窗光与烛光结合",
+  "key_features": [
+    "塌床",
+    "药箱与药碗",
+    "茶盏侧桌"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "陆姝仪跪求发作与沈词护妹心疼到女主冷眼让步"
+}

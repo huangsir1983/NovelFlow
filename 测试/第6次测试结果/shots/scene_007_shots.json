@@ -1,0 +1,229 @@
+[
+  {
+    "id": "shot_0113",
+    "scene_id": "scene_007",
+    "shot_number": 1,
+    "goal": "建立场域关系：从开放喧闹的马球会场边缘过渡到相对私密的步道，同时交代高令宁与蒋晟正在离开人群，而背后仍有目光牵制。",
+    "composition": "WS，步道沿画面右后方向左前方延伸形成引导线。高令宁与蒋晟位于画面右侧偏中，顺着步道缓慢向左前移动；前景掠过模糊的观赛人群衣袖与旗影，背景可见会场边栏、扬起的风沙与日光反光，远处留出会场中心的开放空间，暗示仍被注视。",
+    "camera_movement": "steadicam",
+    "framing": "WS",
+    "emotion_target": "让观众感到表面平静下仍有公开场合的压力与被观看感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 113
+  },
+  {
+    "id": "shot_0114",
+    "scene_id": "scene_007",
+    "shot_number": 2,
+    "goal": "切入女主限制性主观，突出她在离场过程中感知到背后的注视，却不回头。",
+    "composition": "MLS，镜头位于高令宁肩后偏右，保留她半个侧后脑与肩线在前景右侧虚焦，步道前方与蒋晟的半身在中景清晰；背景左后方会场边缘人群被压缩在热浪与尘沙中，仿佛有一处凝视点始终未散，画面留白朝后方开放。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "制造被尾随般的心理压迫和女主有意不理会的克制。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 114
+  },
+  {
+    "id": "shot_0115",
+    "scene_id": "scene_007",
+    "shot_number": 3,
+    "goal": "展示高令宁主动发起这一局：她抬脸微笑，准备把亲近变成公开信号。",
+    "composition": "MCU，高令宁位于画面左侧三分之一，抬脸望向右侧画外的蒋晟。逆侧日光勾出她鬓发与颈侧线条，笑意不大却精准。背景是被压软的人流与步道栏杆，暖光里带一点风沙颗粒，形成柔和但带刺的氛围。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的笑并非单纯柔软，而是带着试探与策略。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.36,
+    "order": 115
+  },
+  {
+    "id": "shot_0116",
+    "scene_id": "scene_007",
+    "shot_number": 4,
+    "goal": "通过对白明确高令宁借口脚崴，正式将蒋晟拉入她制造的亲近局面。",
+    "composition": "MS，二人斜对站位保持180度轴线：高令宁在画面左侧偏前，蒋晟在右侧偏后。她微微伸手向画面中部，手势成为视觉中心；步道继续向左后方延伸，背景人流仍在但被拉远，构图从公共空间向私密动作收束。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到礼貌措辞下的主动施压与暧昧张力。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 116
+  },
+  {
+    "id": "shot_0117",
+    "scene_id": "scene_007",
+    "shot_number": 5,
+    "goal": "把‘递手’变成明确的行动信号，强化高令宁的主动和表演对象不止蒋晟一人。",
+    "composition": "CU，高令宁的手自画面左下伸向中间，袖缘素雅，指尖稳定微抬；蒋晟的身形与衣摆在右侧前景虚焦压入画面，背景是亮白的尘光和模糊人群，手在画面中央形成唯一清晰焦点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "放大这一举动的挑衅意味与试探意味。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 117
+  },
+  {
+    "id": "shot_0118",
+    "scene_id": "scene_007",
+    "shot_number": 6,
+    "goal": "给出蒋晟的第一反应：他接招，但明显紧张、克制、认真。",
+    "composition": "MCU，蒋晟位于画面右侧三分之一，视线向左下落到她的手上，耳根在侧逆光下微红。左侧前景保留一点高令宁袖口虚焦作为空间对位，背景为步道与人流的暖灰色虚化，突出他无攻击性的紧张。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到蒋晟的可靠与局促，形成与高令宁主动性的反差。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.47,
+    "order": 118
+  },
+  {
+    "id": "shot_0119",
+    "scene_id": "scene_007",
+    "shot_number": 7,
+    "goal": "完成身体接触，确认这场亲近在外部世界中已具可见性。",
+    "composition": "CU，画面中心是两只手相接：蒋晟自右侧伸入，掌心托住高令宁的手，动作轻而谨慎；高令宁的手并不挣脱，指尖略微放松。背景是一片高亮尘光与暗色衣料的抽象虚焦，手部纹理与衣料层次清晰可见。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到暧昧、分寸和危险同时成立。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 119
+  },
+  {
+    "id": "shot_0120",
+    "scene_id": "scene_007",
+    "shot_number": 8,
+    "goal": "有限切入外部观察者，交代沈词确实在看，并将三角关系从潜流推向可见冲突。",
+    "composition": "MCU，沈词位于画面左侧偏中，站在人群与栏杆之后，衣冠端整但神情冷压；前景有模糊人群肩背和旗杆形成遮挡，像隔着礼法与场面。画面右侧留出大片空位，作为他视线投向高令宁离开的方向。光线偏冷，和主步道暖色形成对撞。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到压抑的占有欲与未爆发的失控前兆。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.66,
+    "order": 120
+  },
+  {
+    "id": "shot_0121",
+    "scene_id": "scene_007",
+    "shot_number": 9,
+    "goal": "回到女主感知层面，把‘背后那道目光’具象化为她身体上的细微反应，而非回头确认。",
+    "composition": "CU，高令宁侧脸位于画面左侧，眼神平视前方不回头，风吹动鬓发；颈侧淡痕在斜光里一闪而过。背景右后方是亮到发白的会场方向虚焦，像一块灼人的空白压在她背后。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众体会她明知被看见却故意不回应的冷静与报复感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 121
+  },
+  {
+    "id": "shot_0122",
+    "scene_id": "scene_007",
+    "shot_number": 10,
+    "goal": "推进两人离开，空间上从开放会场边缘进入较偏僻角落，完成这一回合的战术撤离。",
+    "composition": "MLS，镜头与二人平行移动。高令宁在左、蒋晟在右，保持前进方向一致，由画面右向左缓慢行走，蒋晟以手扶持她，二人占据中景中心。前景偶有树影与廊柱掠过，背景会场人流被逐渐甩远，步道尽头的休憩角落在左前方显现。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到表面安静下的关系升级已经发生，且无法撤回。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 122
+  },
+  {
+    "id": "shot_0123",
+    "scene_id": "scene_007",
+    "shot_number": 11,
+    "goal": "强调蒋晟搀扶时的谨慎与珍重，进一步塑造他与沈词的情感对位。",
+    "composition": "MS，二人半身行进中构图。高令宁位于画面左侧略前，蒋晟在右后，身体微倾向她却保持克制距离；他的手托着她手腕与掌心之间，避免过度触碰。背景已转为较安静的角落墙面与树影，光线柔下来。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "唤起观众对蒋晟温厚可靠的好感，同时感受高令宁利用这份可靠的复杂心态。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 123
+  },
+  {
+    "id": "shot_0124",
+    "scene_id": "scene_007",
+    "shot_number": 12,
+    "goal": "以冷收束结束本场：高令宁借搀扶离开，留下背后未被处理的注视，悬置下一场冲突。",
+    "composition": "FS，步道角落入口处形成天然框景，二人从画面中部向左后方走入阴影更重的休憩区；右后方远处仍能见会场亮面与人流残影。画面右侧保留空旷区域，像属于那个未进入镜头的注视者。人物渐小，空间关系比人物动作更重要。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "留下关系已被公开标记的余波与即将反扑的悬念。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 124
+  }
+]

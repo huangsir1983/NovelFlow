@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "id": "scene_034",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_008"
+    ]
+  },
+  "data": {
+    "heading": "INT. 室内 - 日",
+    "location": "室内",
+    "time_of_day": "day",
+    "description": "安静的室内空间，气氛冷却而疲惫。人物相对而坐或对立，环境陈设简洁，重点集中在两人表情与距离上。高令宁神情倦怠，像终于放下争执的力气；沈词先是一怔，随即起疑，整个人绷紧，显露出不信任与戒备。",
+    "action": "经历一连串旧事后，高令宁长长叹气，像是做出最后决定。她语气平静，主动松口让沈公子次日来提亲。沈词听后明显愣住，随即追问她的意图。高令宁没有争辩，只轻声要求对方婚后守诺。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "罢了，沈公子明日便来提亲吧。",
+        "subtext": "我不再争这口气了，这门婚事我应下，但不是因为情意。"
+      },
+      {
+        "character": "沈词",
+        "line": "你又想做什么？",
+        "subtext": "我不相信你的让步，我怀疑你另有筹谋。"
+      },
+      {
+        "character": "高令宁",
+        "line": "成亲之后，还望公子说话算话。",
+        "subtext": "这是一场交换，不是一场托付；我只要你履行承诺。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "将人物从过往惨烈记忆拉回当下情节，完成‘答应成婚’这一章节核心转折，并明确这段婚约建立在条件与清醒认知之上。",
+    "tension_score": 0.62,
+    "dramatic_intensity": 0.24,
+    "order": 34
+  }
+}

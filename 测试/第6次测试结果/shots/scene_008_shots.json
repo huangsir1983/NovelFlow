@@ -1,0 +1,297 @@
+[
+  {
+    "id": "shot_0125",
+    "scene_id": "scene_008",
+    "shot_number": 1,
+    "goal": "建立僻静角落的空间关系与情绪基调，交代高令宁独处、沈词已在场但处于压迫性的观察位置。",
+    "composition": "WS，女主视角导向的建立镜头。画面左下为简陋坐处与高令宁坐下的背侧身影，身体微蜷；右后方中景处，沈词立在被树影切割的光影边缘，人物占比小但轮廓清晰。前景有虚焦枝叶形成遮挡，背景远处主会场被压成模糊亮块，突出此处隔绝感与风声空旷。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到安静中的异样与被注视的不安。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 125
+  },
+  {
+    "id": "shot_0126",
+    "scene_id": "scene_008",
+    "shot_number": 2,
+    "goal": "把注意力收紧到高令宁的身体状态，明确她并非做作，而是真的疼。",
+    "composition": "MS，高令宁位于画面中央偏左，坐姿端着却已明显下坠，俯身揉按脚踝。前景压入她垂落的衣摆与膝上褶皱，背景只留斑驳地面与木栏，削弱环境信息。侧逆光切过她肩颈和手背，突出克制下的紧绷。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的隐忍与狼狈被看见的危险。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 126
+  },
+  {
+    "id": "shot_0127",
+    "scene_id": "scene_008",
+    "shot_number": 3,
+    "goal": "强化疼痛细节，为后续起身不稳埋下动作因果。",
+    "composition": "CU，画面下部是她按压的脚踝与微肿处，上部只留一截收紧的衣袖与手指。手指用力克制，指节发白。背景为浅焦斑驳日影，风吹衣角轻颤。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众切身感到疼痛压着她的自尊。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.41,
+    "order": 127
+  },
+  {
+    "id": "shot_0128",
+    "scene_id": "scene_008",
+    "shot_number": 4,
+    "goal": "通过呼吸和表情建立她的警惕回升，准备进入发现对方的节点。",
+    "composition": "MCU，高令宁侧脸占画面右侧，眉心微蹙，呼吸发紧。左侧留大面积空白与虚焦树影，形成她即将看向的方向。颈侧淡痕在光里一闪而过，但不刻意强调。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她在忍耐边缘，下一秒会察觉异样。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 128
+  },
+  {
+    "id": "shot_0129",
+    "scene_id": "scene_008",
+    "shot_number": 5,
+    "goal": "以女主主观发现蒋晟不在、沈词取而代之，完成场面调度上的关系替换。",
+    "composition": "MS，主观视角。原本身侧空出的位置落在画面左前景，明显无人；焦点随后落到右侧中景的沈词，他立于树影与日光交界线，身体端正不动，视线直落向镜头。中间留出一段空地，形成不可回避的对峙距离。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众和女主同步产生突兀、被堵住退路的感觉。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 129
+  },
+  {
+    "id": "shot_0130",
+    "scene_id": "scene_008",
+    "shot_number": 6,
+    "goal": "给沈词一个有限反应镜头，建立他冷下来后的控制气场。",
+    "composition": "MCU，沈词站在画面中央偏右，肩背笔直，半张脸在阴影里，另一半被侧光勾出鼻梁和唇线。前景有虚焦叶片切过下缘，像礼法与窥视的遮挡。背景压暗，人物眼神成为唯一视觉落点。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他的克制不是退让，而是更冷的逼近。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 130
+  },
+  {
+    "id": "shot_0131",
+    "scene_id": "scene_008",
+    "shot_number": 7,
+    "goal": "完成两人四目相对的第一轮交锋，以女主反应为核心。",
+    "composition": "CU，高令宁正面偏侧，眼神陡然定住，唇线压薄。背景完全虚化，仅保留一点明暗分割，仿佛她眼里只剩面前的人。构图略偏左，右侧留白承接沈词目光压迫。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她先是惊、随即立刻武装起来。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 131
+  },
+  {
+    "id": "shot_0132",
+    "scene_id": "scene_008",
+    "shot_number": 8,
+    "goal": "通过动作爆点表现她选择逃离而非应对，推动身体冲突开始。",
+    "composition": "MLS，高令宁从坐处猛地起身，占画面左侧，身体向右前方转出；起身瞬间重心不稳，手下意识扶了一下坐处边缘。右侧远处的沈词仍立着，像她必须经过的障碍。地面斜向光影成为她移动路线的引导线。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她的慌与硬撑同时爆出来。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 132
+  },
+  {
+    "id": "shot_0133",
+    "scene_id": "scene_008",
+    "shot_number": 9,
+    "goal": "明确她脚伤导致步态失衡，强化她逞强的代价。",
+    "composition": "MS，侧面跟拍构图。高令宁从左向右一瘸一拐经过画面中央，衣摆略乱；前景掠过木栏或树干形成压迫性遮挡。背景中的沈词开始进入同向运动准备截停，二人方向保持一致，避免越线。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "让观众感到她并不真正有逃开的能力，局势正被追上。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 133
+  },
+  {
+    "id": "shot_0134",
+    "scene_id": "scene_008",
+    "shot_number": 10,
+    "goal": "用动作细节完成阻止，进入肢体层面的控制与侵入。",
+    "composition": "CU，沈词的手从画面右侧伸入，稳而快地拽住高令宁手腕；她的衣袖与手腕被带停，形成瞬间绷直的斜线。背景虚化成晃动的光斑，所有注意力集中在接触点。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众感到突如其来的侵入感和关系中的旧有控制复燃。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 134
+  },
+  {
+    "id": "shot_0135",
+    "scene_id": "scene_008",
+    "shot_number": 11,
+    "goal": "交代两人被迫停下后的空间姿态，确立对峙格局与力量差。",
+    "composition": "MS，二人侧面对峙。高令宁在画面左侧前景，被拽停后身体略向前失衡；沈词在右侧稍后，手仍扣着她手腕，站姿稳定。中间几乎没有缓冲空间，背景是被枝影切碎的墙面或树影，像无形牢笼。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到这不是偶遇，而是一次不容拒绝的拦截。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.86,
+    "order": 135
+  },
+  {
+    "id": "shot_0136",
+    "scene_id": "scene_008",
+    "shot_number": 12,
+    "goal": "沈词先发言，以关心之名行控制之实，亮出这场交锋的情感底牌。",
+    "composition": "MCU，沈词位于画面右侧，目光向左压着她，手臂仍在下画幅边缘隐约可见，证明未放手。光线从后侧勾边，眼下略沉，压住他的温雅外壳。背景简洁，只留暗色树影。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这句台词表面温和，实则带命令与占有。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 136
+  },
+  {
+    "id": "shot_0137",
+    "scene_id": "scene_008",
+    "shot_number": 13,
+    "goal": "呈现高令宁对“关心”的本能反弹，强调她拒绝被重新定义处境。",
+    "composition": "CU，高令宁转头看向沈词，脸在画面左侧，右侧是一段近距离的压迫留白。她眼神冷硬，呼吸仍未平复，嘴唇发白却吐字利落。腕部被制住的姿态不入焦，只在下缘轻微提示。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的拒绝锋利、带伤，却绝不示弱。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 137
+  },
+  {
+    "id": "shot_0138",
+    "scene_id": "scene_008",
+    "shot_number": 14,
+    "goal": "给出沈词被顶回后的反应，他不退，反而进一步施压。",
+    "composition": "CU，沈词面部更近，眼底情绪略起却仍压住，眼尾有极轻微泛红。构图居中偏右，左侧保留她的虚焦肩线，形成近距离逼视。背景阴影更重，脸部对比加深。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到他的执拗被刺中后，危险性上升。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.9,
+    "order": 138
+  },
+  {
+    "id": "shot_0139",
+    "scene_id": "scene_008",
+    "shot_number": 15,
+    "goal": "完成第二句施压对白，把关心升级为不容辩驳的审判与纠缠。",
+    "composition": "MCU，保持同轴但略拉开，让他上半身完整一些，肩线平稳、下颌收紧，话说得克制却不容置疑。前景虚化的女主侧脸占画面左缘一点，形成他对她持续包围。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他不是在劝，而是在逼她承认脆弱与需要。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 139
+  },
+  {
+    "id": "shot_0140",
+    "scene_id": "scene_008",
+    "shot_number": 16,
+    "goal": "用女主的无言反应收束本场第一轮交锋，把情绪停在更危险的悬而未决上。",
+    "composition": "CU，高令宁正面，眼神死死盯住他，愤怒与被看穿的羞恼同时压在面上。她并未立刻接话，只是下颌收紧，呼吸轻颤。背景里有一块被日光切开的亮面，像出口却够不到。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到情绪没有释放，反而被冷冷按住，悬念更强。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.87,
+    "order": 140
+  }
+]

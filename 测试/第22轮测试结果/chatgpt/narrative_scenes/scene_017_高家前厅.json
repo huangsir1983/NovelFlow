@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "INT. 高家前厅 - DAY",
+  "location": "高家前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高父",
+    "沈母",
+    "沈词"
+  ],
+  "core_event": "沈家数次来人想接昭昭回去，高父强硬拒绝。沈母亲自上门仍碰壁，明确孩子和离后归高家；沈词则跪在高父面前，请求见妻女并否认和离可能。",
+  "key_dialogue": "「我的女儿不愁没人要，我已经备好了赘婿人选。」",
+  "emotional_peak": "曾经高高在上的沈词跪在岳父面前，局势彻底倒转。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "和离书",
+    "来往帖子",
+    "孙女探望请求",
+    "跪地的衣摆"
+  ],
+  "dramatic_purpose": "完成权力关系逆转，正式推进和离结局",
+  "source_text_start": "沈家几次来人，说沈母想看孙女，想接走昭昭",
+  "source_text_end": "下一秒，所有人都震惊地直起腰，看着素来端方持重的沈公子"
+}

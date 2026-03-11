@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高令宁房间 - 日",
+  "location": "高令宁房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "高令宁建议沈词纳陆姝仪为妾",
+  "key_dialogue": "若你实在心疼，不如便将她纳进来吧",
+  "emotional_peak": "厌倦与放弃",
+  "tension_score": 0.5,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "扇子"
+  ],
+  "dramatic_purpose": "高令宁态度转变，不再报复",
+  "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他总嫌薄了陆姝仪。",
+  "source_text_end": "怔了下，我摇头。并不懂他此刻嘴硬的用意。"
+}

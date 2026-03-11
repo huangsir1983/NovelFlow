@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_003",
+  "name": "沈家正堂",
+  "type": "interior",
+  "era_style": "明代中晚期世家大族正堂",
+  "description": "相比高家，沈家正堂更显古板与压抑。高高在上的主母座椅透着不可僭越的规矩。地面铺着冰冷的青石板，中央放置着供人跪拜的蒲团。四周门窗紧闭，光线昏暗。地上碎裂的青花瓷片与刺眼的鲜血，打破了这沉闷死寂的空间。",
+  "visual_reference": "Interior of an oppressive Ming Dynasty patriarchal main hall, imposing matriarch's elevated seat, dark heavy wood furniture, kneeling mats on cold stone floor, broken blue-and-white porcelain pieces and a pool of bright red blood on the ground, oppressive and rigid atmosphere, dramatic high-contrast lighting, highly detailed, 8k.",
+  "atmosphere": "森严、压抑、惨烈",
+  "color_palette": [
+    "玄黑色",
+    "冷石灰",
+    "猩红色"
+  ],
+  "lighting": "高对比度的阴暗光线，仅有几缕刺眼的冷光打在碎瓷片与血迹上",
+  "key_features": [
+    "高高在上的主母座椅",
+    "跪拜蒲团",
+    "染血的碎瓷片"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从封建礼教的屈辱压迫，到以死破局的惨烈与男主的极度恐慌"
+}

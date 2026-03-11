@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高府厢房 - 日",
+  "location": "高府厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "蒋晟",
+    "沈词",
+    "高父",
+    "婢女小厮"
+  ],
+  "core_event": "陆姝仪与蒋晟被发现衣冠不整在厢房，陆姝仪指控高令宁陷害",
+  "key_dialogue": "夫人，您便这般恨我吗？",
+  "emotional_peak": "高令宁的愤怒与被冤枉",
+  "tension_score": 0.9,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "床榻",
+    "凌乱衣物",
+    "门栓",
+    "茶具"
+  ],
+  "dramatic_purpose": "重大转折，陆姝仪设计陷害高令宁"
+}

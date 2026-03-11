@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_038",
+  "order": 37,
+  "heading": "INT. 高家内院 - DAY",
+  "location": "高家内院与房门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "和离后我闭门养身，父亲严守房门，沈词只能日日送补品、等我心情好时见女儿一面。",
+  "key_dialogue": "他再想进来，难如登天。",
+  "emotional_peak": "昔日高高在上的沈词被挡在门外，只能以补品和等待换取片刻见面。",
+  "tension_score": 0.54,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "补品礼盒",
+    "房门守卫",
+    "婴儿用品"
+  ],
+  "dramatic_purpose": "展示权力结构翻转，沈词开始漫长的追妻受限状态。",
+  "visual_reference": "高家内院门口守卫森严，礼盒一层层送入门内，男子站在门外克制等待，院内隐约传来婴儿声，近在咫尺又被隔绝",
+  "visual_prompt_negative": "避免宫门禁卫夸张化，避免现代快递盒，避免煽情站雨中",
+  "source_text_start": "拿到和离书后。我开始养身体，闭门不出。",
+  "source_text_end": "只能等我什么时候心情好了，放他和女儿见一面。"
+}

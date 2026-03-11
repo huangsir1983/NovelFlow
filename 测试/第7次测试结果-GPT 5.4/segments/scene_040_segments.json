@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0202",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0628",
+      "shot_0629",
+      "shot_0630"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前3个shot共享同一空间建立任务：先铺陈冷下来的礼制空间与异常气氛，再由门房小厮的不安过渡到沈词闯入，形成由静到破的单一情绪弧线。角色集合在段尾首次引入主导人物，适合作为首段完整建立危机入口。",
+    "order": 202
+  },
+  {
+    "id": "seg_0203",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0631",
+      "shot_0632",
+      "shot_0633"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段合并沈词情绪失控、高令宁主观先知、双人对峙建轴三个相邻shot，均服务于同一叙事节点：从闯入转为对峙。角色集合稳定为男女主，情绪由个人爆裂转为压抑对峙，适合作为独立segment。",
+    "order": 203
+  },
+  {
+    "id": "seg_0204",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0634",
+      "shot_0635",
+      "shot_0636",
+      "shot_0637"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot围绕同一信息爆点“进府后未再出去”展开：证据、宣告、沈词反应、高令宁反应，构成完整的信息确认链。虽然用了4个shot，但情感与叙事高度连续，适合压缩成一段高密度危机确认segment。",
+    "order": 204
+  },
+  {
+    "id": "seg_0205",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0638",
+      "shot_0639",
+      "shot_0640"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这三个shot构成高令宁从被动听闻到主动掌局的完整内外转换：站定片刻、袖中压情绪、正式下令。情感弧线清晰且主体集中于女主，因此合并为一个角色权威建立段最合适。",
+    "order": 205
+  },
+  {
+    "id": "seg_0206",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0641",
+      "shot_0642",
+      "shot_0643"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后3个shot均属于命令后的余波与收束：群体执行、沈词迟疑、空间悬尾。角色集合不变，情绪从外部扩散转为内部悬置，再为下一场搜查动作戏留出口，适合作为结尾段整体打包。",
+    "order": 206
+  }
+]

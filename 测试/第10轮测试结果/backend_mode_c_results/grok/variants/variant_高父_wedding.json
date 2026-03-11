@@ -1,0 +1,29 @@
+{
+  "variant_id": "高父_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "高父 — 婚礼现场",
+  "tags": [
+    "婚礼",
+    "正式",
+    "复杂"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "高府喜堂女儿婚礼对拜时",
+  "appearance_delta": {
+    "face": "中年儒雅，皱纹渐增，眼角慈祥略带释然",
+    "body": "中等身材，略显疲惫",
+    "hair": "花白束冠",
+    "distinguishing_features": "慈父眼神中混杂隐忧"
+  },
+  "costume_override": {
+    "outfit": "四品官袍",
+    "color_palette": [
+      "深灰",
+      "墨绿"
+    ]
+  },
+  "visual_reference": "middle-aged Chinese official in ancient dynasty during wedding ceremony, kind face with wrinkles showing complex emotions, graying hair in formal hat, medium build in deep gray official robes, gentle paternal expression with subtle worry as daughter bows in marriage, highly detailed, festive red candle lighting",
+  "emotional_tone": "欣慰中带忧"
+}

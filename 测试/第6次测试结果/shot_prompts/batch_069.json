@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0414",
+    "shot_id": "shot_0398",
+    "prompt_text": "A divorce document in an ancient Chinese noble household placed under the corner of a wooden bedside table, the paper as the brightest focal point, its nature clearly recognizable as a formal separation letter though the ink characters are only partially legible; in the upper left a bowl of untouched soup, in the lower right the hand of Gao Lingning resting on the quilt, slender pale fingers still and restrained. The paper corners are lightly lifted by a breeze from the window, suggesting finality after all remedies have come too late. Interior bedchamber with softly dim background, old wood brown, gray-teal bedding, muted amber traces of indoor light mixed with cool window light, layered shadows and quiet negative space. cinematic realism, Song dynasty historical drama aesthetic, close-up composition, low saturation warm-cool contrast, highly detailed textures, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "dim interior with cool side window light and soft amber lamplight, low-saturation warm-cool contrast, paper surface brightest, background subdued"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, printed typography, clear readable text, watermark, logo, low quality, blurry, deformed hands, extra fingers, oversaturated colors, plastic texture, contemporary furniture"
+  },
+  {
+    "id": "sp_0415",
+    "shot_id": "shot_0399",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands motionless on the left side of the corridor; on the right, a Shen household servant in plain historical servant attire steps back after handing over a gift box to a gate attendant. The gift is accepted but the door remains closed, Shen Ci becoming the only still figure while others move around him, his posture held in helpless waiting. Ancient mansion corridor outside a noble residence, closed wooden door, layered pillars and threshold, controlled muted palette of gray-blue, dark wood brown, and faint amber, daylight from the courtyard unable to soften the emotional distance. cinematic realism, medium long shot, restrained blocking, low saturation warm-cool contrast, subtle class contrast in costume, highly detailed, filmic atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft natural daylight from courtyard with cool ambient shadows, muted warm-cool contrast, restrained highlights, corridor in partial shade"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, cars, electric lights, plastic packaging, watermark, logo, text, low quality, blurry, bad anatomy, extra limbs, contemporary architecture, oversaturated red"
+  },
+  {
+    "id": "sp_0416",
+    "shot_id": "shot_0400",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in close-up facing toward the right where the closed door is located. His gaze is fixed and suspended, obsession not extinguished yet reduced to passive waiting; a diagonal beam of corridor light cuts across half of his face while the other half sinks into shadow, the eyes faintly reddened with restrained emotion. The blurred background still reveals the position of the distant door, with a small area of empty darkness left on the left side of the frame as emotional negative space. ancient mansion corridor, muted gray-blue and dark wood tones, low saturation warm-cool contrast, side backlight and shadow division emphasizing exclusion and control. cinematic realism, close-up portrait, historical drama texture, shallow depth of field, highly detailed skin and fabric, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "strong diagonal side light with half-face illumination and half-face shadow, cool ambient corridor shade, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, watermark, logo, text, low quality, blurry, overexposed, bad anatomy, extra eyes, contemporary hairstyle, modern makeup, neon lighting"
+  },
+  {
+    "id": "sp_0417",
+    "shot_id": "shot_0401",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated on the right side of the frame. She looks toward the direction of the door for a brief moment and then slowly withdraws her gaze, calm, hurt, and self-controlled, refusing to yield for now. Behind her, layered bed curtains and a folding screen compress the space; in the left foreground, a blurred edge of a doorframe or hanging curtain forms an uncrossable boundary. Interior women’s chamber in an ancient noble house, old wood brown, gray-teal, dark charcoal shadows, soft amber interior light touched by cooler daylight, low saturation warm-cool contrast, restrained red absent, quiet air after emotional rupture. cinematic realism, medium close-up, subtle depth layering, historical drama aesthetics, highly detailed silk and skin texture, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft side light with cool daylight mixed into dim amber interior glow, layered shadows from curtains and screen, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, watermark, logo, text, low quality, blurry, bad hands, extra limbs, plastic sheen, contemporary interior, bright modern colors, excessive jewelry"
+  },
+  {
+    "id": "sp_0418",
+    "shot_id": "shot_0402",
+    "prompt_text": "A wide exterior corridor tableau in an ancient Chinese noble mansion: Gao Fu, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, stands near the closed door on the right rear side like a final barrier; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, remains in the left side of the corridor without stepping forward. Guards hold position firmly near the doorway, establishing a new boundary of power. Bright courtyard daylight remains outside and does not reach the interior beyond the door; the long corridor is cut into segments by pillar shadows, creating repeated layers of separation and ritual order. cinematic realism, wide shot, architectural symmetry and distance, low saturation warm-cool contrast, Song dynasty historical drama aesthetic, controlled negative space, highly detailed environment, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "bright natural courtyard light outside contrasted with shaded corridor and dark doorway interior, segmented pillar shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, watermark, logo, text, low quality, blurry, contemporary building materials, electric fixtures, bad anatomy, extra people merged together, oversaturated colors"
+  },
+  {
+    "id": "sp_0419",
+    "shot_id": "shot_0403",
+    "prompt_text": "A formal full-moon banquet hall in an ancient Chinese noble residence seen from a slightly elevated wide angle, ritual order unfolding along the central axis. In the right-middle seating area, Gao Fu, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, stands half a step forward on the outer side in a protective stance; just behind him stands Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. Nearby, Zhaozhao, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, cinematic realism, rests in swaddling beside the banquet arrangement; Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, is present within the hall as part of the tense social field. In the foreground, softly blurred red silk, ceremonial gift boxes, and guests’ shoulders frame both sides; on the left, a clear path leads toward the hall entrance, leaving visual space for an expected disruption. Background filled with orderly banquet tables, gilded festive decorations, and moving guests, with red accents strictly controlled under fifteen percent of the image. cinematic realism, wide shot, restrained celebratory tension, low saturation warm-cool contrast, gray-cyan, dark wood brown, amber candlelight with carefully limited red and gold, layered social pressure, highly detailed historical drama texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "controlled warm amber banquet light mixed with soft natural interior daylight, low-saturation warm-cool contrast, red and gilded highlights restrained and localized"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, balloons, electric chandeliers, plastic decorations, watermark, logo, text, low quality, blurry, bad anatomy, extra limbs, contemporary banquet setting, oversaturated red, cartoonish baby"
+  }
+]

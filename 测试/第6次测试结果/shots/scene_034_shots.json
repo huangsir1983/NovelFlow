@@ -1,0 +1,223 @@
+[
+  {
+    "id": "shot_0489",
+    "scene_id": "scene_034",
+    "shot_number": 1,
+    "goal": "建立封闭而克制的谈判空间，明确两人同处一室却情感隔绝，为后续让步与试探铺底。",
+    "composition": "FS。女主主观导向的建立镜头。高令宁位于画面左侧偏前的中景层，背后是灰青屏风与旧木案几；沈词位于画面右侧偏后的中景层，二人之间留出一道明显空隙。前景以半虚焦帘幕和烛台形成压景，背景夜灯微弱，门框与屏风竖线将画面切割成两半，强化礼法束缚与心理分裂。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、冷静、谈判前的疲惫停滞",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 489
+  },
+  {
+    "id": "shot_0490",
+    "scene_id": "scene_034",
+    "shot_number": 2,
+    "goal": "把视角拉入高令宁的内在状态，表现她在开口前已做出决定，且决定带着耗尽后的放弃感。",
+    "composition": "MCU。高令宁位于画面左三分之一，身体微侧朝右，看向对面的沈词。前景一角有失焦烛火，暖色贴近她的脸侧；背景暗下去，仅留屏风边框与一小块空白墙面。她颈侧细痕在侧逆光下若隐若现，视线下垂后再抬起。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "疲惫中的决绝，像把自己推入已知结局",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 490
+  },
+  {
+    "id": "shot_0491",
+    "scene_id": "scene_034",
+    "shot_number": 3,
+    "goal": "通过呼吸与细微动作确认‘罢了’并非示弱，而是停止争执后的冷处理。",
+    "composition": "CU。高令宁面部占右侧画面，左侧留出较大负空间指向沈词的站位。可见她轻微长叹，唇线松开又收紧，眼神没有温度。背景完全压暗，仅保留一条暖色边缘光勾出发髻和肩线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制、死心、令人不安的平静",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.25,
+    "order": 491
+  },
+  {
+    "id": "shot_0492",
+    "scene_id": "scene_034",
+    "shot_number": 4,
+    "goal": "完成关键情节推进：高令宁明确允诺提亲，将主线推入婚嫁阶段。",
+    "composition": "MCU。延续上一镜轴线不变，高令宁仍朝画面右方说话。她位于中偏左位置，前景烛火虚焦稳住暖色，背景屏风边线与案几水平线形成稳定构图。她说出“罢了，沈公子明日便来提亲吧”时，下巴微抬，语调平直。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "意外、冷感、像在签下一纸交易",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 492
+  },
+  {
+    "id": "shot_0493",
+    "scene_id": "scene_034",
+    "shot_number": 5,
+    "goal": "切到沈词反应，展示他并未因让步而放松，反而立刻起疑。",
+    "composition": "MCU。沈词位于画面右三分之一，朝左看向高令宁，保持对话轴一致。前景是高令宁肩部和发髻的一小块虚焦轮廓，强调本场以女主认知为中心。背景为深色木架与一盏较冷的夜灯，脸上暖冷混光，眉峰轻压，眼神先怔后紧。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "错愕中生出戒备，观众感到关系并未缓和",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 493
+  },
+  {
+    "id": "shot_0494",
+    "scene_id": "scene_034",
+    "shot_number": 6,
+    "goal": "强化沈词对高令宁的不信任，把这场‘答应’翻译成另一轮心理攻防。",
+    "composition": "CU。沈词正面略偏侧，目光刺向画面左外。前景虚化烛焰掠过画面下缘，给他眼下投出不稳定暗影。背景干净压暗，使眼神与微绷的嘴角成为信息中心。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "怀疑、提防、表面镇定下的骤然收紧",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.5,
+    "order": 494
+  },
+  {
+    "id": "shot_0495",
+    "scene_id": "scene_034",
+    "shot_number": 7,
+    "goal": "让沈词明确发问，点出他认定高令宁另有算计，推进对白翻刃。",
+    "composition": "MCU。沈词仍在画面右侧，对着左侧画外的高令宁发问“你又想做什么？”。肩背挺直，头部微前倾。背景门框竖线贴近他身后，像一道无形束缚。前景保留高令宁失焦肩线，形成压迫式对看。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "敌意被礼貌包裹，关系更冷",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 495
+  },
+  {
+    "id": "shot_0496",
+    "scene_id": "scene_034",
+    "shot_number": 8,
+    "goal": "回到女主主观中心，用反应镜头显示她并不被刺中，反而确认了这桩婚事的本质。",
+    "composition": "CU。高令宁位于画面左侧偏中，视线平稳投向右侧画外。前景一缕垂落帘影横切下方，像压在她胸口的一道线。背景几乎无信息，仅留暖色边光和暗木纹。她眼里无波，只有更深的疲惫。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静反制，观众感到她已不再求解释",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 496
+  },
+  {
+    "id": "shot_0497",
+    "scene_id": "scene_034",
+    "shot_number": 9,
+    "goal": "通过更稳定、略拉开的景别，让高令宁重新掌控话语节奏，把争执降为条件陈述。",
+    "composition": "MS。高令宁坐或立于画面左中部，姿态端正，手部可见轻压袖口或案边，动作极小。右侧大片留白指向沈词位置。背景屏风与案几横竖线条规整，画面重归秩序，像她给谈判重新划线。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "克制、疏离、把婚事定义为契约",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.38,
+    "order": 497
+  },
+  {
+    "id": "shot_0498",
+    "scene_id": "scene_034",
+    "shot_number": 10,
+    "goal": "落下核心条件：婚后说话算话，明确婚姻不是情投意合而是带条件的交换。",
+    "composition": "CU。高令宁脸部位于中间偏左，眼神笔直，看向右侧画外。说“成亲之后，还望公子说话算话”时，唇线平直，几乎没有情绪波动。侧逆光勾出她颈线与那道淡痕，形成旧伤隐喻。背景烛火低而稳，红暖不超过局部点缀。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "寒意、交易感、礼貌中的最后通牒",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 498
+  },
+  {
+    "id": "shot_0499",
+    "scene_id": "scene_034",
+    "shot_number": 11,
+    "goal": "给沈词一个有限反应，表现他听懂了这句话背后的契约性质，却无法在当下反驳。",
+    "composition": "CU。沈词位于画面右侧，朝左凝视。前景高令宁的失焦肩线略占左下角，保持女主中心。沈词眼神一沉，呼吸压住，唇角细微收紧。背景冷灰夜灯与暗木形成暖冷冲突，衬出他被迫接受的压抑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "被看穿后的僵滞，危险的沉默",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 499
+  },
+  {
+    "id": "shot_0500",
+    "scene_id": "scene_034",
+    "shot_number": 12,
+    "goal": "用收束镜头完成本场冷落点：婚事已定，但两人之间不是靠近，而是更清楚地划出界线。",
+    "composition": "MLS。回到双人构图，但较开场略近。高令宁仍在左，沈词仍在右，二人都未移动跨越中间空隙。前景烛台火焰低伏，背景屏风和门框把两人锁在各自区域。留白比开场更沉，空气像被话语凝固。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷收、悬而未决、宿命正式启动",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 500
+  }
+]

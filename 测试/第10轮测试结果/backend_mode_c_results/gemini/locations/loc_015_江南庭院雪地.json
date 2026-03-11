@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_015",
+  "name": "江南庭院雪地",
+  "type": "exterior",
+  "era_style": "明清江南古典园林",
+  "description": "典型的江南白墙黑瓦庭院，被厚厚的白雪覆盖。院门半掩，院内有太湖石和枯枝寒梅。地上有杂乱的脚印和散落的雪球，石桌上放着一盘瓜子。充满生活气息与冬日清寒。",
+  "visual_reference": "A classical Jiangnan Chinese courtyard covered in thick winter snow. White walls, black tiled roofs, Taihu rocks, plum blossoms with snow. A half-open wooden gate, snowballs on the ground, a stone table with melon seeds. Cold winter daylight, beautiful, cinematic, 8k.",
+  "atmosphere": "清寒、温馨、滑稽的修罗场",
+  "color_palette": [
+    "#FFFFFF",
+    "#2F4F4F",
+    "#8B0000"
+  ],
+  "lighting": "雪天特有的漫反射白光，光线均匀，带有冷色调的清冷感。",
+  "key_features": [
+    "白墙黑瓦与积雪",
+    "散落的雪球",
+    "半掩的院门"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "欢声笑语的温馨瞬间转为满身风雪的阴沉与不耐烦。"
+}

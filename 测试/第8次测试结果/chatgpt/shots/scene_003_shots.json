@@ -1,0 +1,227 @@
+[
+  {
+    "id": "shot_0046",
+    "scene_id": "scene_003",
+    "shot_number": 1,
+    "goal": "建立正堂礼制空间与权力秩序，交代主位、聘礼陈列和来客站位，为女主进入后的观察提供整体参照。",
+    "composition": "WS对称构图。正堂纵深被门框与案几分隔，父亲居画面上中偏后主位，媒人立于画面右中景聘礼旁，沈词站在媒人后方稍退半步，位于右后侧阴影里。画面中央前中景成排金银绸缎铺开，木雁置于最中心最亮处。前景保留门槛与半扇门框形成第一人称入口视线，侧窗切割光斜落在聘礼上，人物面部多处于半阴影。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到体面、规整与压迫并存，意识到这是一个礼制先于人情的空间。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "父亲",
+      "媒人",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 46
+  },
+  {
+    "id": "shot_0047",
+    "scene_id": "scene_003",
+    "shot_number": 2,
+    "goal": "以女主主观进入空间，开启她对聘礼的审视，强调她不是被动接受场面，而是在读取信息。",
+    "composition": "MLS第一人称限制视角感。镜头从门内沿中轴缓缓推进，前景掠过门框暗边，画面下方可见女主裙摆一角短暂入画。中景是金银与绸缎的层叠摆放，背景保持父亲与媒人虚化于主位区域，沈词立于右后方，不主动成为焦点。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众进入女主冷静扫视、暗中盘算的感知状态。",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲",
+      "媒人",
+      "沈词",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 47
+  },
+  {
+    "id": "shot_0048",
+    "scene_id": "scene_003",
+    "shot_number": 3,
+    "goal": "展示聘礼体面但不足的细节，传达‘数量看似周全，规格却不对’的异常信息。",
+    "composition": "MS横向层次构图。金银器物占据画面左下与中部，绸缎卷轴叠放于右侧，留出中央一条空隙指向后方主位。背景上方可见父亲模糊含笑的嘴角和媒人的袖口动作，强化表面热络与物件真实规格之间的反差。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到这场提亲有一种刻意维持的体面，细看却透着寒酸和敷衍。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "父亲",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 48
+  },
+  {
+    "id": "shot_0049",
+    "scene_id": "scene_003",
+    "shot_number": 4,
+    "goal": "将木雁确立为本场最重要异常物件，暗示礼数之中藏着对女主的轻慢，也触发她识破沈词的心理反应。",
+    "composition": "CU正中构图。木雁居画面中央，周围喜庆绸缎与金银虚化成暖色块，木雁表面木纹粗涩、颜色沉闷，边角硬冷。侧逆光打出硬边高光，木质触感与周围丝金形成强烈反差，画面四周略留压迫性暗边。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众对这只木雁产生刺目的不适与警觉，意识到异常不只是礼数简薄，而是有意为之。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 49
+  },
+  {
+    "id": "shot_0050",
+    "scene_id": "scene_003",
+    "shot_number": 5,
+    "goal": "表现女主看见木雁后的瞬间反应：脚步微顿、心里已起判断，但表面仍克制。",
+    "composition": "MCU女主三分之二侧面，位于画面左侧，视线投向右前方画外木雁。前景下方虚焦带入一点裙摆和门槛，背景是被切割的窗棂光与模糊聘礼。她脸上一半在光里，一半在阴影里，眼神冷而定。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她并非受辱后的慌乱，而是瞬间识破后的冷硬与警醒。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 50
+  },
+  {
+    "id": "shot_0051",
+    "scene_id": "scene_003",
+    "shot_number": 6,
+    "goal": "通过父亲的热络姿态交代他的立场：把这门亲事当成高攀与恩赐，正在努力维持体面。",
+    "composition": "MS父亲位于画面左中，身体微前倾朝向右侧画外媒人，双手拱礼。前景右侧以虚焦聘礼边缘形成遮挡，背景主位案几与家堂陈设稳住身份。光落在他笑起的法令纹上，显出殷勤过度的疲态。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到父亲的客气里藏着急迫与自我矮化，进而替女主感到窒闷。",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.36,
+    "order": 51
+  },
+  {
+    "id": "shot_0052",
+    "scene_id": "scene_003",
+    "shot_number": 7,
+    "goal": "落父亲台词，明确信息：沈家之于父亲是上位者，这桩婚事被定义为恩赐而非相配。",
+    "composition": "MCU父亲正面偏侧，位于画面左三分之一，对画面右侧说话。背景右后方模糊可见媒人的红润笑脸与一角绸缎，强化‘礼上加礼’的氛围。父亲嘴角上提过分，眼底却紧绷。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这句恭维并不温和，而是一记把女主推上案板的定性。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 52
+  },
+  {
+    "id": "shot_0053",
+    "scene_id": "scene_003",
+    "shot_number": 8,
+    "goal": "用媒人的陪笑补足礼制表层，使场面更体面，也更显虚伪。",
+    "composition": "MCU媒人位于画面右侧，微俯身朝左回应，手势停在聘礼上方像在替其增色。前景下方虚焦木雁边角压入画面，背景是主位阴影和沈词模糊站姿。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这套寒暄像被油抹亮的器物，越圆滑越让人不适。",
+    "duration_hint": "2s",
+    "characters": [
+      "媒人",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 53
+  },
+  {
+    "id": "shot_0054",
+    "scene_id": "scene_003",
+    "shot_number": 9,
+    "goal": "首次正面强调沈词的状态：他在场却像缺席，对女主没有主动目光，像在完成一桩他并不投入的礼数。",
+    "composition": "MS沈词立于画面右侧后景，身形挺拔端正，垂眼不看前方。前景左侧以媒人肩背形成遮挡，进一步体现他站位靠后。背景窗棂冷光落在他衣襟和下颌线，脸部大半留在阴影里，玉饰微冷反光。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到一种近乎无礼的冷淡，以及藏在克制下的疲倦和疏离。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 54
+  },
+  {
+    "id": "shot_0055",
+    "scene_id": "scene_003",
+    "shot_number": 10,
+    "goal": "从女主主观角度逼近沈词的细节，暗示她正在把此人和记忆中的某个认知进行核对。",
+    "composition": "CU沈词面部偏侧，位于画面右三分之一，视线下垂，睫影压住眼神。左侧留出大量负空间，像是女主的凝视停在那里。背景完全虚化为堂内暗红与茶白色块，突出他神情里的冷倦。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到女主的观察已从物进入到人，且观察带着试探与确认。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 55
+  },
+  {
+    "id": "shot_0056",
+    "scene_id": "scene_003",
+    "shot_number": 11,
+    "goal": "回到女主反应，呈现她已将木雁、聘礼减半与沈词神态串联起来，内心判断进一步坐实。",
+    "composition": "CU女主正面偏侧，位于画面左中，目光略抬却不外露情绪。前景右侧虚焦是一抹月白衣角，指向沈词存在；背景后方是被切割开的堂内光影。她唇线收紧，呼吸极轻，克制到近乎锋利。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她心里已经见血，但面上仍端庄得无从挑错。",
+    "duration_hint": "2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 56
+  },
+  {
+    "id": "shot_0057",
+    "scene_id": "scene_003",
+    "shot_number": 12,
+    "goal": "以女主视线关系收束全场：她看见每个人的位置，也看清了这门婚事的真实分量与羞辱结构。",
+    "composition": "FS从女主进入后的侧后位看向堂内。女主站在画面左前景背影，未再前行；中景中央仍是成排聘礼与木雁；背景左侧父亲对媒人含笑，右后侧沈词垂眼静立。人物间形成清晰三角关系，木雁卡在视觉中心，门框与案几把空间切成层层壁垒。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众在一幅完整关系图里感到冷、僵、失衡，像体面外壳下已经裂开一道口子。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "父亲",
+      "媒人",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 57
+  }
+]

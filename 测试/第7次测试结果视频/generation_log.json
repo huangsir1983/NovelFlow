@@ -1,0 +1,143 @@
+{
+  "test": "第7次测试结果_视频生成_第1分钟",
+  "start_time": "2026-03-09T00:35:05.828178",
+  "end_time": "2026-03-09T00:38:24.193377",
+  "elapsed_seconds": 198.365199,
+  "tasks": [
+    {
+      "name": "01_S000_父女对峙_开场",
+      "scene": "scene_000 seg1",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior of an ancient Chinese noble family house, daytime. Soft side light from doorway cuts across the room. a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded stands motionless at the right side of frame, spine perfectly straight. a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing paces around her in the left-center, circling between her front and side, his movement creating an oppressive interrogation rhythm. A wooden table in blurred foreground, doorframe forming a cage-like second layer trapping both figures. Fixed camera, medium wide shot. Oppressive, confined atmosphere. Song dynasty interior. Cinematic lighting, shallow depth of field, film grain.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/a1e2a49c-4885-469c-98c0-bf7289e1773d/generated/a7ee80a0-9d37-4490-88a9-4f11a1e478c8/generated_video_hd.mp4",
+        "task_id": "4d4d7a75-e5a5-4231-9c3a-985346f157d3",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\01_S000_父女对峙_开场.mp4",
+        "file_size_mb": 2.1957101821899414
+      }
+    },
+    {
+      "name": "02_S000_父女对峙_逼问",
+      "scene": "scene_000 seg2",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior of an ancient Chinese house, daytime. Medium close-up shot. a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing occupies the left half of frame, facing right, brow deeply furrowed, raising his hand to point accusingly, his fingers jabbing into foreground. Window lattice light spots on the empty wall behind him create psychological pressure. Then reverse shot: a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded at right-center, side-backlight splitting her face into cold white and shadow halves. She does not argue or retreat, meeting his accusations with an unnervingly calm flat gaze. Father's sleeve occasionally sweeps across foreground. Fixed camera, anxious and cold undercurrent. Song dynasty aesthetic, cinematic.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/d4e33f64-d877-4291-9bb2-a9edf39486b2/generated/28c455f3-8c30-4593-8108-dba3f3e389ef/generated_video_hd.mp4",
+        "task_id": "1a066dca-dfe1-40af-8dfa-2b60d43e1ae3",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\02_S000_父女对峙_逼问.mp4",
+        "file_size_mb": 1.4762401580810547
+      }
+    },
+    {
+      "name": "03_S000_父女对峙_冷笑",
+      "scene": "scene_000 seg3",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior ancient Chinese house, daytime. Medium wide shot. a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded remains pinned at the right side of frame, absolutely still. a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing paces from left foreground to background and back, furniture cutting the space. The bright doorway behind them is an exit no one approaches. Close-up: when he mentions the Shen family's insult, her lip corner twitches into a faint cold smirk, her eyes suddenly hardening. Diagonal window light crosses her jaw, revealing menace for the first time. Then his gestures drop, body leans forward then pulls back, fear creeping into his reproach. Tracking shot, tense and icy. Song dynasty interior, cinematic drama.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/d4e33f64-d877-4291-9bb2-a9edf39486b2/generated/e0e0a3f6-0bec-48e8-9d4b-791fd67d1b33/generated_video_hd.mp4",
+        "task_id": "f3b09070-7dc7-49d0-b008-b6502394874c",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\03_S000_父女对峙_冷笑.mp4",
+        "file_size_mb": 2.542283058166504
+      }
+    },
+    {
+      "name": "04_S000_父女对峙_退让",
+      "scene": "scene_000 seg4",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior ancient Chinese house, daytime. Close-up on a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded in three-quarter profile at right side, large negative space to her left. She quietly says 'I know' — her expression barely changes but her eyes grow colder, the words cutting like a blade. Medium shot: a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing finally stops pacing. He stands still, drops his hands, presses his chest and slowly exhales. Window lattice shadows cross his chest. His aggression transforms into weary surrender. He lowers his voice, offering her a way out — if she doesn't want to marry, he'll find an excuse to refuse. Dolly camera movement. Cold-hard mood shifting to false calm. Song dynasty interior, cinematic.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/d4e33f64-d877-4291-9bb2-a9edf39486b2/generated/1201c5b0-ffe5-4f19-b1b8-a8a67c2a9d26/generated_video_hd.mp4",
+        "task_id": "b04f486b-fcf7-4d89-a97e-e25f54eac699",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\04_S000_父女对峙_退让.mp4",
+        "file_size_mb": 2.174820899963379
+      }
+    },
+    {
+      "name": "05_S000_父女对峙_反问",
+      "scene": "scene_000 seg5",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior ancient Chinese house, daytime. Medium close-up: a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded first looks down, then slowly raises her eyes toward the left where her father stands. Background darkens, only a thin line of light from the doorway remains. Her chin lifts slightly, showing sharp determination in her stillness. Close-up: camera presses tight on her face. She asks quietly but firmly: 'Who said I don't want to marry?' Background simplified to cold grey wall and blurred window shadows. All information and control falls on her. Close-up: a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing — his gaze freezes, mouth slightly open but speechless. Doorway light behind him feels more oppressive. He is pushed outside his frame of understanding. Dolly movement, sharp and stunning reversal. Cinematic, Song dynasty.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/a1e2a49c-4885-469c-98c0-bf7289e1773d/generated/fa0623bb-8ca7-48f1-a0aa-8924bd7a0898/generated_video_hd.mp4",
+        "task_id": "3d0e40b3-edf7-41ad-87f6-02d7740986aa",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\05_S000_父女对峙_反问.mp4",
+        "file_size_mb": 1.8204517364501953
+      }
+    },
+    {
+      "name": "06_S000_父女对峙_宣言",
+      "scene": "scene_000 seg6",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior ancient Chinese house, daytime. Low angle close-up pressing toward a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded. She stands centered, window lattice shadows behind her like prison bars cutting the cold grey background. She states without blinking: 'I must marry' — her voice steady, carrying absolute will, as if seizing control of this arranged marriage with her own hands. Then medium wide shot returning to the opening composition: a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing stopped at left, no longer pacing. a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded still at right, unmoved. Empty space between them with diagonal light on the floor like an invisible boundary. Table corner presses foreground down. Doorway still bright, but neither walks toward it. Dolly, then fixed. Resolute, icy fracture. Cinematic, Song dynasty interior.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/d4e33f64-d877-4291-9bb2-a9edf39486b2/generated/8fb82e7d-148b-42b1-b6c3-06eb7f25b0c7/generated_video_hd.mp4",
+        "task_id": "9a9df354-c964-4ead-b239-570015dad093",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\06_S000_父女对峙_宣言.mp4",
+        "file_size_mb": 2.775975227355957
+      }
+    },
+    {
+      "name": "07_S001_订亲正堂_木雁登场",
+      "scene": "scene_001 seg1",
+      "aspect_ratio": "16:9",
+      "prompt": "Interior of a grand ancient Chinese family hall during a betrothal ceremony, daytime. Doorframe composition. Gold and silver silks laid out in perfect rows as betrothal gifts. a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing sits at the head position, smiling. A matchmaker stands beside the gifts. a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded stands further back, half-hidden behind ceremonial objects, reserved and cold. At the brightest center spot sits a conspicuously crude wooden goose — out of place among the wealth. Subjective shot: a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded enters through moon-white sleeves crossing frame. Her gaze bypasses all faces, cutting through the gifts to lock onto the wooden goose. Close-up of the wooden goose surrounded by gold and silk, rough wood grain lit by side-backlight, its cheapness painfully obvious amid the luxury. Fixed camera, formal yet oppressive. Song dynasty betrothal hall, cinematic.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/d4e33f64-d877-4291-9bb2-a9edf39486b2/generated/f02bf82b-f7a5-4e08-b1e7-9613cd180092/generated_video_hd.mp4",
+        "task_id": "98d51a34-80a6-4fa2-b0f8-7c5c1f2c2ddb",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\07_S001_订亲正堂_木雁登场.mp4",
+        "file_size_mb": 2.7811365127563477
+      }
+    },
+    {
+      "name": "08_S001_订亲正堂_伸手取雁",
+      "scene": "scene_001 seg2",
+      "aspect_ratio": "16:9",
+      "prompt": "Ancient Chinese family hall, betrothal ceremony, daytime. Medium close-up: a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded stops at the right side of the hall. Half her face is cut by window lattice light and shadow. Her gaze locks toward the wooden goose at the left. Her expression shifts from scrutiny to swift determination. Medium shot: a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing sits at the head, leaning forward toward the matchmaker and a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded with an eager smile. a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded stands in half-shadow behind, eyes downcast, restrained to the point of cold rigidity. Medium shot: without waiting for ceremony to proceed, a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded reaches from the right side across the betrothal gifts toward the central wooden goose, her body's diagonal line breaking the hall's symmetrical order. Push-in tracking, restrained then suddenly transgressive. Song dynasty interior, cinematic.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/a1e2a49c-4885-469c-98c0-bf7289e1773d/generated/c703631a-0ec2-4163-8144-7a35db996148/generated_video_hd.mp4",
+        "task_id": "0197734f-17fc-4e89-bf23-6f618f8c8562",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\08_S001_订亲正堂_伸手取雁.mp4",
+        "file_size_mb": 2.458502769470215
+      }
+    },
+    {
+      "name": "09_S001_订亲正堂_退还木雁",
+      "scene": "scene_001 seg3",
+      "aspect_ratio": "16:9",
+      "prompt": "Ancient Chinese betrothal hall, daytime. Close-up: a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded's hand extends from the right, pushing the crude wooden goose directly toward the matchmaker. The matchmaker's hands hover between accepting and refusing. The wooden goose sits centered in frame — like a publicly returned insult. Medium close-up: the matchmaker hastily cradles the goose but holds it unsteadily. a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded's shoulder presses foreground. a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing's silhouette freezes above. The hall's veneer of propriety cracks open. a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing's smile hasn't fully faded before his face suddenly darkens. Then a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded lifts her chin toward matchmaker and father, her voice steady: 'The betrothal gifts are too thin. I am not satisfied.' Deep in background, a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded has not yet raised his eyes. Fixed camera, sharp, brazen public reversal. Song dynasty, cinematic.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/d4e33f64-d877-4291-9bb2-a9edf39486b2/generated/2c15c103-5cb7-4993-80fa-385892734d8c/generated_video_hd.mp4",
+        "task_id": "d464f924-126c-4066-9ef9-5f2bcbda7948",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\09_S001_订亲正堂_退还木雁.mp4",
+        "file_size_mb": 2.290163993835449
+      }
+    },
+    {
+      "name": "10_S001_订亲正堂_对视识破",
+      "scene": "scene_001 seg4",
+      "aspect_ratio": "16:9",
+      "prompt": "Ancient Chinese betrothal hall, daytime. Extreme close-up: a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded suddenly lifts his eyelids from behind the matchmaker's shoulder, window light cutting into his dark pupils — silently catching the blade a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded has thrown. Medium close-up: restricted dual perspective — a slender young noblewoman with pale skin, oval face, sharp calm almond eyes, straight dark brows with a hint of sharpness, black hair in a neat low bun, wearing muted moon-white silk hanfu robes, elegant yet emotionally guarded in right foreground, a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded in left background, betrothal gifts and matchmaker between them. The two lock eyes across the distance, the wooden goose pushed to a corner. Their mutual recognition becomes the new focal point. Medium shot: a dignified middle-aged scholar-official father with lean build, graying temples, stern furrowed brows, deep nasolabial folds, restrained but protective expression, wearing dark teal-blue hanfu robe, scholarly bearing slams the table, standing up abruptly. Tea cups tremble. Handheld shake tears the suppressed space wide open. He leans forward scolding fiercely. The matchmaker clutches the goose, squeezed between father and daughter trying to mediate. a tall aristocratic young nobleman with pale cold skin, sharp jawline, narrow dark eyes, straight black hair in a neat topknot, wearing dark ink-blue brocade hanfu with jade ornament, restrained and cold expression, handsome yet emotionally guarded still stands deep in the frame, watching coldly. Handheld camera, recognition, counter-strike, authority erupting. Song dynasty hall, cinematic.",
+      "result": {
+        "status": "completed",
+        "url": "https://yhgrok.xuhuanai.cn/v1/files/video/users/a1e2a49c-4885-469c-98c0-bf7289e1773d/generated/c9ed7505-2352-45b7-a7f2-71db8c0ac854/generated_video_hd.mp4",
+        "task_id": "26004293-7d79-41b2-9ad1-66bd8a7b444f",
+        "file": "G:\\涛项目\\claude版\\测试\\第7次测试结果视频\\10_S001_订亲正堂_对视识破.mp4",
+        "file_size_mb": 2.721040725708008
+      }
+    }
+  ],
+  "summary": {
+    "success": 10,
+    "fail": 0,
+    "total": 10
+  }
+}

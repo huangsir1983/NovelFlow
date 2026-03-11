@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_010",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_027",
+      "scene_028"
+    ]
+  },
+  "data": {
+    "title": "提出怀孕后和离却遭执念反噬",
+    "description": "春日里，女主被诊出有孕且太医断为男胎，仿佛命运重演。她平静表示坐完月子便和离、孩子可共同维系关系；沈词口头试探她若和离自己就娶陆姝仪，她却真正放下恨意，反令他失控。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": 0.2,
+    "dramatic_intensity": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 10
+  }
+}

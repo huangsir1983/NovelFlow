@@ -1,0 +1,220 @@
+[
+  {
+    "id": "shot_0608",
+    "scene_id": "scene_042",
+    "shot_number": 1,
+    "goal": "用婴儿啼哭后的空间反应建立‘危机暂缓’的第一层信息，同时保留产房内余压未散的情绪基底。",
+    "composition": "MLS，床榻位于画面右侧偏后，高令宁虚弱躺卧，面色苍白几乎陷入枕褥；左侧与前景是被白布、铜盆、烛台切碎的忙乱身影，众人朝床尾和婴儿方向涌动。前景一盏摇晃烛火虚焦，背景旧木墙与帘幕压低空间。沈词站在床边近右中景位置，未随众人移动，形成逆向视觉重心。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众先感到一口气松下，却立即意识到沈词的关注点仍在生死而非孩子。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 608
+  },
+  {
+    "id": "shot_0609",
+    "scene_id": "scene_042",
+    "shot_number": 2,
+    "goal": "把叙事主轴收紧到沈词身上，明确他没有去看孩子，而是先确认高令宁是否活着。",
+    "composition": "MS，沈词占画面左中，俯身切向床榻；高令宁的脸与肩在画面右下方半入画，留出她鼻息所在区域。背景中一抹晃动的襁褓与稳婆身影虚焦掠过，提示众人已转向新生儿。画面由沈词的手臂斜线引导到高令宁面部。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "强化他对高令宁近乎本能、压倒一切的执念与恐惧。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 609
+  },
+  {
+    "id": "shot_0610",
+    "scene_id": "scene_042",
+    "shot_number": 3,
+    "goal": "以近距离动作细节传达‘她还活着’这一关键信息，完成生死确认。",
+    "composition": "CU，高令宁苍白侧脸占画面右侧三分之二，唇色淡，鬓发汗湿；沈词的手指从左侧入画，悬在她鼻下，指尖微颤。背景完全压暗，仅留一条烛火暖边勾出鼻梁与下颌线，突出微弱呼吸。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造屏息后的极轻微安定，让观众跟着一起确认她尚存生机。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 610
+  },
+  {
+    "id": "shot_0611",
+    "scene_id": "scene_042",
+    "shot_number": 4,
+    "goal": "表现沈词在确认高令宁活着后的身体卸力，给出第一波情感释放。",
+    "composition": "MCU，沈词正面偏侧三分构图，位于画面中央略偏左，身后是暗木床柱与摇曳烛火；他肩膀明显塌下，胸口起伏，一口长气从紧抿唇间吐出。背景右侧虚焦可见高令宁的床榻边缘，保持情感指向不离床。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到压抑过久后的短暂松动与后怕。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 611
+  },
+  {
+    "id": "shot_0612",
+    "scene_id": "scene_042",
+    "shot_number": 5,
+    "goal": "用极小的泪意完成沈词情绪破口，展示他失态的罕见一瞬。",
+    "composition": "CU，沈词眼部与半张脸占满画面，眼尾泛红，泪珠沿下睫滚落到颧侧；背景完全虚化成一片冷灰与烛火琥珀点。构图将眼睛放在上三分线，泪水成为唯一动态焦点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "把克制人物的情感裂缝精准刺入观众心口，形成短促而尖锐的怜惜。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.3,
+    "order": 612
+  },
+  {
+    "id": "shot_0613",
+    "scene_id": "scene_042",
+    "shot_number": 6,
+    "goal": "引入稳婆报喜与襁褓，完成‘母女平安’中的‘女’这一信息投放前的视觉铺垫。",
+    "composition": "MS，稳婆抱着襁褓从画面左侧进入，停在前景左中；襁褓占据暖色重心，布料洁白，边缘沾着些许湿痕。沈词在画面右后方半背身，仍靠近床沿，没有主动迎上。床榻与高令宁保持在右后背景虚焦中，形成情感与叙事的双焦点冲突。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到喜气与异样同时存在：好消息来了，但对象并未被正确接住。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 613
+  },
+  {
+    "id": "shot_0614",
+    "scene_id": "scene_042",
+    "shot_number": 7,
+    "goal": "通过对白明确‘小千金’这一命运反差信息，并观察沈词尚未完全反应过来的状态。",
+    "composition": "OTS from 稳婆，稳婆肩背与襁褓虚焦占据画面左前景，沈词位于中景中央偏右，刚刚抬起一点头，神情仍停留在余悸后的松弛边缘。背景烛火与帘幕构成纵深，床榻在他身后形成无形压迫。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众先一步捕捉到信息炸点，形成比人物早半拍的认知刺痛。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 614
+  },
+  {
+    "id": "shot_0615",
+    "scene_id": "scene_042",
+    "shot_number": 8,
+    "goal": "记录沈词从松动到凝住的瞬间变化，完成内在命运偏差的第一击。",
+    "composition": "CU，沈词脸部居中，原本松下的眉眼在一句‘小千金’后骤然停住，唇线收紧，瞳孔微缩。右侧背景是一点跳动烛火，左侧留出暗部空间，让神情凝滞更突出。",
+    "camera_movement": "zoom",
+    "framing": "CU",
+    "emotion_target": "让观众感受到一股冷意突入：不是单纯报喜，而是预设被击碎。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 615
+  },
+  {
+    "id": "shot_0616",
+    "scene_id": "scene_042",
+    "shot_number": 9,
+    "goal": "以主观化视角看向襁褓，呈现‘现实摆在眼前’的确认过程，同时保持信息限制性。",
+    "composition": "POV MS，襁褓被稳婆抱在画面中央偏左，白布层层包裹，婴儿只露出一点泛红面颊与细小眉眼；稳婆笑意在上方半入画。背景众人虚焦围拢，暖色烛光集中在襁褓上，周边空间反而偏冷暗，形成视觉孤岛。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众和沈词一起被迫面对这个新变量，感到现实温软却尖锐。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 616
+  },
+  {
+    "id": "shot_0617",
+    "scene_id": "scene_042",
+    "shot_number": 10,
+    "goal": "给出高令宁的虚弱存在，提醒观众此刻真正的代价与胜利仍是‘她活着’，为沈词反应增添复杂性。",
+    "composition": "CU，高令宁侧躺在枕上，占画面右侧，眼睫沉重，呼吸极弱但可见胸口轻起伏；前景左侧虚焦掠过襁褓的一角白布。她脖颈那道极细淡痕被侧逆光轻轻勾出，提示旧伤与命运余波。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众在性别揭示之外重新锚定母体生还的价值，生出复杂的疼惜与警醒。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 617
+  },
+  {
+    "id": "shot_0618",
+    "scene_id": "scene_042",
+    "shot_number": 11,
+    "goal": "完成沈词的语言反应‘你说什么’，让震惊真正落地为对外表达。",
+    "composition": "MCU，沈词猛地抬眼，身体微向左前探，视线牢牢钉向稳婆；画面中线略偏左给他的动作留出冲击方向。背景床柱形成垂直线，强化人物突然绷紧的姿态。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "制造突兀刺痛和短促失衡，表现他控制力瞬间破裂。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 618
+  },
+  {
+    "id": "shot_0619",
+    "scene_id": "scene_042",
+    "shot_number": 12,
+    "goal": "以反应镜头收束场面，固定‘母女平安’与‘生女’带来的命运偏差，给后续人物关系留下悬念。",
+    "composition": "MLS，稳婆与襁褓在画面左前景，喜色未退；沈词立于右中景，僵住不前；高令宁躺在更后方右侧床上，虚弱却在场。三层空间清晰分隔：新生儿、父亲、母亲。烛火在前景下方闪动，白布与暗木构成冷暖对撞的收束画面。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众在报喜的表层上感到一丝寒意和未竟风暴，形成冷收悬念。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 619
+  }
+]

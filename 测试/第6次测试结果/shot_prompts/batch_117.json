@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0702",
+    "shot_id": "shot_0686",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in a medium close-up, head slightly leaning forward, voice implied hoarse yet controlled, exhausted face with faint redness at the eye corners and pale lips, struggling to preserve dignity in a low posture; the blurred cuff edge of Gao Father presses into the right foreground as if judging him, inside a noble mansion hall with old wood tones, a diagonal strip of bright doorway light behind him exposing his worn features, low-saturation warm-cool contrast with gray-blue shadows and restrained amber interior tones; cinematic historical drama realism, static axis-side composition, shallow depth of field, highly detailed skin texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, side-back doorway light, muted amber indoor light, gray-blue shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern furniture, plastic, contemporary hairstyle, glasses, phones, text, watermark, logo, low quality, blurry face, deformed hands, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0703",
+    "shot_id": "shot_0687",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in the right foreground in half profile with a cold hard jawline, unmoved and severe; behind him on the left stands the Shen household servant, a young ancient Chinese male servant in plain muted gray-blue robe and neat headwrap, cautious and humble, lips parted as if wanting to speak, hands held in a restrained awkward gesture; a tense blank space is left in the middle of the frame pointing toward the divorce paper on the floor, inside a noble mansion interior with subdued gray-green, dark wood, and muted amber accents, low-saturation warm-cool contrast, quiet public humiliation in still air; cinematic historical drama realism, medium shot two-person grouped composition, static camera, layered depth, subtle film grain, highly detailed costume texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "muted natural doorway light with restrained amber interior fill, side-lit faces, low-saturation warm-cool contrast, compressed shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern interior decor, plastic, zippers, watches, text, watermark, logo, low quality, bad anatomy, extra fingers, oversaturated colors, cartoon style"
+  },
+  {
+    "id": "sp_0704",
+    "shot_id": "shot_0688",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in a close-up, gaze lifted toward someone above the frame, throat visibly moving as he speaks of an heir, lips drained pale, expression tense and nearly pleading, desperate fixation breaking through restraint; a blurred white sheet of the divorce paper remains at the lower edge of the frame like an unavoidable judgment, inside a noble mansion hall with soft old-wood background fully subdued, cool natural light from the doorway mixed with faint amber interior light, low-saturation warm-cool contrast emphasizing his pallor; cinematic historical drama realism, slight forward camera push feeling, shallow depth of field, highly detailed facial features, delicate film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cool doorway side light with faint amber bounce, low-saturation warm-cool contrast, soft facial falloff, restrained highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry eyes, bad anatomy, deformed face, contemporary clothing, electric fixtures, oversaturated lighting"
+  },
+  {
+    "id": "sp_0705",
+    "shot_id": "shot_0689",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, in a centered close-up slightly right of frame, eyes pressed downward, expression absolute and unemotional, speaking slowly with finality, right hand just lifting away from the paper as if completing a sentence of judgment; the background is heavily darkened, only a cold rim of daylight from the doorway cutting along his cheek, inside a severe noble mansion interior with compressed shadow mass, low-saturation warm-cool contrast, old wood and dark teal tones dominating the frame; cinematic historical drama realism, static close-up, hard emotional stillness, crisp facial texture, subtle film grain, highly detailed period costume",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cold doorway rim light on cheek, dark compressed background, minimal warm interior fill, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, contemporary suit, eyeglasses, electric lighting, bad anatomy, distorted hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0706",
+    "shot_id": "shot_0690",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in an extreme emotional close-up, slight dead-black negative space on the left side of the frame, pupils subtly tightened, eye rims quickly flushing red, breath caught for a single suspended beat, the instant of pain turning into jealousy and rupture; the background is fully blurred away, only one cold reflection from the outer doorway glancing across the bottom of his eyes, low-saturation warm-cool contrast heightening the sting and loss of balance; cinematic historical drama realism, static close-up, razor-sharp eyes, ultra shallow depth of field, delicate skin detail, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "single cold reflected doorway light in the eyes, deep black negative space, minimal warm fill, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry eyes, bad anatomy, deformed face, modern haircut, electric lights, oversaturated red, cartoon rendering"
+  },
+  {
+    "id": "sp_0707",
+    "shot_id": "shot_0691",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown on the left in a medium side shot moving from kneeling toward standing, body tense with restrained fury, robe sweeping past the floor as control begins to crack; on the right, Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, remains still and immovable in contrast; the divorce paper lies in the foreground on the floor, his robe crossing near it without touching, inside a noble mansion hall with old wood, gray-blue shadow, and faint amber interior tones, low-saturation warm-cool contrast, pressure building before rupture; cinematic historical drama realism, medium shot with vertical body motion line, subtle tilt feeling, layered composition, shallow depth of field, highly detailed fabric motion, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "muted side-back doorway light with restrained amber interior tone, low-saturation warm-cool contrast, soft shadow layering"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, bad anatomy, extra limbs, distorted hands, contemporary clothing, plastic materials, electric lights, oversaturated colors"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家后院 - 日间",
+  "location": "高家后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "沈词跪求见妻女，父亲递和离书，女主坚持和离",
+  "key_dialogue": "按照我们约定好的，和离。",
+  "emotional_peak": "沈词脊背弯曲不可置信",
+  "tension_score": 0.8,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "和离书",
+    "雕花木门",
+    "昭昭襁褓"
+  ],
+  "dramatic_purpose": "和离谈判与男主崩溃"
+}

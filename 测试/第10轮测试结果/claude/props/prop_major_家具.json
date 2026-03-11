@@ -1,0 +1,15 @@
+{
+  "name": "家具",
+  "category": "furniture",
+  "description": "中式实木家具，包含方桌、椅凳等。木材为深色红木或榆木，表面打磨光滑，带有岁月包浆。桌面约80cm见方，桌腿雕刻简洁纹样。椅子为圈椅或官帽椅样式，靠背微弧，扶手圆润。",
+  "visual_reference": "Chinese traditional wooden furniture, dark rosewood square table, round-back armchair, Ming dynasty style, smooth patina surface, simple carved details, warm indoor lighting, cinematic composition",
+  "narrative_function": "构建室内空间环境，体现人物生活品味与经济状况",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_004",
+    "scene_008",
+    "scene_011",
+    "scene_014"
+  ],
+  "emotional_association": "稳重、居家、传统"
+}

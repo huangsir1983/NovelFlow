@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 马球会角落被旧情撕开时",
+  "tags": [
+    "未婚状态",
+    "暧昧敌意",
+    "羞怒",
+    "旧日身体记忆"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "马球会僻静角落，蒋晟离开后沈词追来与她单独对峙；未婚身份下被旧夫妻间的身体记忆当面挑破。",
+  "appearance_delta": {
+    "face": "面上浮起羞怒后的薄红，但整体仍偏冷白；眼神比主设定更尖更乱，兼有被冒犯后的狼狈与不肯示弱的倔强。",
+    "body": "站姿略有防御感，肩颈绷紧，像随时后撤或反击；纤秀感更明显。",
+    "hair": "出门赴会的精致发髻保持完整，但因走动或情绪起伏，鬓边可能微乱，更添暧昧失序感。",
+    "distinguishing_features": "眼眶发红却强撑冷脸，裙摆与绣鞋成为被注视的羞耻焦点，整个人像被逼到墙角仍不肯低头。"
+  },
+  "costume_override": {
+    "outfit": "适合贵女出席马球会的轻便华贵襦裙，便于行走，披帛较轻，兼顾观赏与身份体面。",
+    "color_palette": [
+      "藕荷",
+      "月白",
+      "青黛"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noblewoman in a quiet corner of a polo gathering garden, pale cool skin, elegant oval face, sharp bright eyes reddened with anger and embarrassment, black long hair in a refined outdoor updo with slightly loosened side strands, slim graceful figure with tense defensive posture, Song dynasty inspired hanfu in lotus pink, moon white, and dark teal, subtle romantic hostility, fallen leaves, stone bench, flowering shrubs, cinematic daylight, intimate confrontational mood",
+  "visual_prompt_negative": "sports uniform, modern polo outfit, smiling romance pose, heavy makeup, fantasy setting, short hair, western gown, armor",
+  "emotional_tone": "羞耻、愤怒、隐秘欲念与旧恨交缠"
+}

@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "id": "scene_047",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:42"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_013",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "昭昭"
+    ],
+    "related_beats": [
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "INT. 宴厅 - CONTINUOUS DAY",
+    "location": "昭昭满月宴宴厅",
+    "time_of_day": "day",
+    "description": "宴厅出口一带，人物关系形成新的三角构图：陆姝仪转身离开，高令宁仍停在原地，沈词出现在几步之外。厅内明亮光线下，沈词脸色苍白，与喜庆背景形成强烈反差。两人之间隔着短短数步，却有明显情感距离。",
+    "action": "陆姝仪朝高令宁盈盈一拜，转身离开宴厅。高令宁目送她离去，还未从震惊中抽离。几步之外，沈词沉默站着，显然已听见这一切，脸色发白。高令宁收敛神色，对他疏离行礼。沈词下意识伸手去拉她，却只勾住她的衣角，没能真正留住她。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "昭昭"
+    ],
+    "key_props": [
+      "衣角"
+    ],
+    "dramatic_purpose": "将真相揭露的后果立刻投射到高令宁与沈词的关系上，用一次未能握住的肢体动作外化两人之间的断裂。",
+    "tension_score": 0.82,
+    "dramatic_intensity": 0.64,
+    "order": 47
+  }
+}

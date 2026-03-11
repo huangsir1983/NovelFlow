@@ -1,0 +1,224 @@
+[
+  {
+    "id": "shot_0151",
+    "scene_id": "scene_009",
+    "shot_number": 1,
+    "goal": "建立僻静角落的封闭空间关系，明确两人处于近距离对峙状态，并将观众锚定在高令宁的受压主观感受中。",
+    "composition": "MLS，机位略偏高令宁一侧，保持她在画面左前1/3，背肩轻虚化占前景；沈词立于画面右中景，身形更完整。背景为马球会空置木廊与稀疏春枝，右后方留出一块空白形成退路幻觉，但被廊柱和栏杆切割成封闭格。风拂高令宁鬓发，二人中间负空间极窄，视觉引导线由廊柱与栏杆压向两人之间。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "压迫、屏息、礼法空间中的危险亲密感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 151
+  },
+  {
+    "id": "shot_0152",
+    "scene_id": "scene_009",
+    "shot_number": 2,
+    "goal": "交代高令宁主动抽离接触并后退半步，建立她试图以身体距离恢复控制权的动作意图。",
+    "composition": "MS，女主主观近距角度。画面中心偏左是高令宁从沈词手边抽离的袖口与手腕动作，沈词的深色衣袖停在右前景边缘形成压迫框。高令宁上身后撤，肩颈绷直，脖颈淡痕在侧逆光下隐约可见；背景虚化为旧木栏杆与一束冷日光。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "本能防御、克制中的紧绷",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.61,
+    "order": 152
+  },
+  {
+    "id": "shot_0153",
+    "scene_id": "scene_009",
+    "shot_number": 3,
+    "goal": "捕捉高令宁后退后的身体反应，强调她不是从容退场，而是在强撑礼法姿态。",
+    "composition": "CU，高令宁位于画面右侧1/3，视线朝左外看向沈词；左侧留出压迫性空白供对手“侵入”。前景有几缕被风吹起的发丝掠过镜头边缘，背景是失焦的廊柱暗面。她下颌收紧，唇线抿直，肩背保持端正却明显僵硬。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "逞强、戒备、情绪压抑到发硬",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.67,
+    "order": 153
+  },
+  {
+    "id": "shot_0154",
+    "scene_id": "scene_009",
+    "shot_number": 4,
+    "goal": "以高令宁的礼貌措辞正式划界，推动冲突由身体对峙进入礼法攻防。",
+    "composition": "MCU，仍站在180度线内的高令宁正侧三分之二脸，位于画面中央略偏右；左前景保留沈词肩线虚焦作为压迫存在。背景木栏水平线切过她肩部，像一道外在规矩。她说话时目光不闪避，但下唇有极轻停顿。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、疏离、用礼貌包裹敌意",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 154
+  },
+  {
+    "id": "shot_0155",
+    "scene_id": "scene_009",
+    "shot_number": 5,
+    "goal": "给出沈词听完后的第一反应，不立刻说话，而是用沉默和目光制造更强压迫。",
+    "composition": "CU，沈词位于画面左侧1/3，视线向右锁定高令宁；右侧大面积留白承接她的存在。侧逆光勾出他眉骨与鼻梁，眼底阴影更重。背景是冷灰色廊柱与一抹春枝亮斑，形成温暖环境与冷硬表情的反差。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "不安、被猎视的窒息感",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 155
+  },
+  {
+    "id": "shot_0156",
+    "scene_id": "scene_009",
+    "shot_number": 6,
+    "goal": "放大沈词那一下短促的笑，标志他从克制转为带刺逼近。",
+    "composition": "ECU，沈词下半张脸居中偏左，唇角极轻一挑，笑意短而冷；画面右边缘保留一点颌线与微动的喉结。背景完全虚化成低饱和冷暖斑块，剥离环境让这一瞬间成为情绪转折点。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "寒意、羞辱预感、危险升级",
+    "duration_hint": "1s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.81,
+    "order": 156
+  },
+  {
+    "id": "shot_0157",
+    "scene_id": "scene_009",
+    "shot_number": 7,
+    "goal": "用女主主观感受呈现沈词的逼视与第一句挑衅，打碎她刚搭起的礼法屏障。",
+    "composition": "MCU，接近高令宁视角的对位镜头。沈词占画面中央略偏左，肩背平直，身体有极轻前倾；镜头前缘保留一点高令宁发丝虚影，暗示主观距离。背景廊柱垂直线正好贴近他身后，强化其逼近时的压迫感。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "被冒犯、被追逼、心理防线受冲击",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 157
+  },
+  {
+    "id": "shot_0158",
+    "scene_id": "scene_009",
+    "shot_number": 8,
+    "goal": "捕捉高令宁听到“装什么装”后的即时反应，强调她受刺却不愿示弱。",
+    "composition": "CU，高令宁位于画面右侧，眼神向左上微抬，瞳孔轻收；她唇线绷得更薄，呼吸卡住。前景左下是一片沈词深色衣袖虚焦压入。背景亮部缩小，只剩冷白天光沿她颊侧勾边，令面色更冷。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "羞耻被戳中后的愤怒与失控前兆",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 158
+  },
+  {
+    "id": "shot_0159",
+    "scene_id": "scene_009",
+    "shot_number": 9,
+    "goal": "重新确认两人的距离已被心理上彻底破坏，沈词的言语正在跨过她后退拉出的那一步。",
+    "composition": "MS，侧面双人构图，保持轴线一致：高令宁在右，沈词在左，二人相对而立。虽然身体距离仍有一步，但沈词的前倾和目光使画面中心负空间被“填满”。前景一根虚焦廊柱横切画面边缘，如偷窥般增加不安。背景无人，风吹衣角微动。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "封闭、逃无可逃、战场感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.9,
+    "order": 159
+  },
+  {
+    "id": "shot_0160",
+    "scene_id": "scene_009",
+    "shot_number": 10,
+    "goal": "让沈词说出最具杀伤力的旧日亲密之语，形成章节核心刺点。",
+    "composition": "CU，沈词位于画面左中，眼神钉死镜头方向，几乎直逼女主。构图压低一点，让他眉眼处于视觉重心，嘴唇在说出下半句时进入清晰平面。背景暗面加重，只有肩后一道天光，把他从环境中剥离成压迫性的独立存在。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "震骇、羞辱、旧情被武器化的残酷",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 160
+  },
+  {
+    "id": "shot_0161",
+    "scene_id": "scene_009",
+    "shot_number": 11,
+    "goal": "用高令宁的无言反应承接台词杀伤，显示她的界线在瞬间被击碎但仍强压住崩裂。",
+    "composition": "ECU，高令宁双眼与鼻梁占满画面，眼尾轻颤，睫毛下压，瞳中有瞬间失焦后重新聚焦；镜头下缘带到她紧抿的唇峰一角。背景全虚，风吹起一缕发丝扫过脸侧，如旧忆刺入当下。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、狼狈、强撑体面的临界点",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 161
+  },
+  {
+    "id": "shot_0162",
+    "scene_id": "scene_009",
+    "shot_number": 12,
+    "goal": "冷收场面，在高压余震中留下未爆完的危险悬念，服务下一场关系反转或情绪延烧。",
+    "composition": "MLS，回到双人但更冷静的构图。高令宁退至画面右后1/3，身形仍挺直却明显更孤立；沈词在左前1/3，未再前进，形成控制与僵持。中间留出狭长负空间像一道被击碎却仍存在的礼法裂缝。背景春光安静，木廊与栏杆把二人分别框住，风继续吹动衣角和发梢。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "余震、寒意、关系危险程度被重新定义",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 162
+  }
+]

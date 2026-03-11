@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_003",
+  "name": "医馆门口",
+  "type": "exterior",
+  "era_style": "明代市井街道医馆外景",
+  "description": "青石板街道，医馆门面为木结构铺面，悬挂'济世堂'木匾，门框漆成暗红色。门前摆药材晾晒架，挂着药包。街道两侧是其他店铺，行人往来。医馆台阶三级，门口立石狮。远处可见街巷深处的民居屋檐。天色明亮，街道有生活气息。",
+  "visual_reference": "Ming Dynasty street scene, traditional Chinese medicine shop exterior, wooden storefront with dark red painted frame, hanging wooden signboard 'Ji Shi Tang', stone steps with lion statues, drying herbs on racks, blue stone paved street, pedestrians, neighboring shops, residential rooftops in background, daytime urban atmosphere, lived-in feeling",
+  "atmosphere": "市井、日常、人间烟火",
+  "color_palette": [
+    "青石灰",
+    "暗红门框",
+    "褐色木匾",
+    "草药土黄"
+  ],
+  "lighting": "明亮日光，街道有建筑投下的阴影，对比分明",
+  "key_features": [
+    "济世堂木匾",
+    "药材晾晒架",
+    "三级石阶",
+    "青石板路",
+    "门前石狮"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "冷酷协议达成的紧张与克制"
+}

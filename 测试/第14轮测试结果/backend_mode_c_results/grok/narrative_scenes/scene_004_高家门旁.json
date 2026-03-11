@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 高家门旁 - DAY",
+  "location": "高家门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "父亲辞官后高令宁遇沈词，双方谈条件同意成亲",
+  "key_dialogue": "但是，你要先处理好那位表小姐。",
+  "emotional_peak": "恨意对视",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "辞官奏折",
+    "药包"
+  ],
+  "dramatic_purpose": "确立今生婚姻协议与张力",
+  "source_text_start": "父亲不放心让我嫁入沈家。",
+  "source_text_end": "四目相对。只剩恨意。我冷哼一声，转身离开。"
+}

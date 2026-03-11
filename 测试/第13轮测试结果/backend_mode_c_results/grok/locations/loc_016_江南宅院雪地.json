@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_016",
+  "name": "江南宅院雪地",
+  "type": "exterior",
+  "era_style": "明代江南水乡宅院雪地",
+  "description": "江南宅院外雪地庭院，白墙黑瓦宅院环绕，地面厚雪覆盖石径与假山，中央空地适合玩雪，远处水乡景，空间感宁静开阔却带吃醋紧张，三年后场景。",
+  "visual_reference": "明代江南水乡宅院雪地，外景白墙黑瓦宅院环绕，地面厚白雪覆盖石径假山，雪球散落，远处小桥流水，日光映雪明亮，宁静却阴沉吃醋氛围，高清写实细节，古代中国风格",
+  "visual_prompt_negative": "现代建筑、汽车、霓虹灯、无雪、西方景观、塑料材质",
+  "atmosphere": "宁静阴沉吃醋",
+  "color_palette": [
+    "雪白",
+    "黑瓦灰",
+    "翠绿",
+    "石青"
+  ],
+  "lighting": "明亮冬日阳光映雪，反射冷白光，营造清冷白天氛围",
+  "key_features": [
+    "白墙黑瓦宅院",
+    "厚雪石径假山",
+    "散落雪球"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "三年后沈词见赘婿候选的阴沉冷笑吃醋"
+}

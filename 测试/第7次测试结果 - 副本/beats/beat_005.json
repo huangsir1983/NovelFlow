@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "beat_005",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_020",
+      "scene_021",
+      "scene_022",
+      "scene_024",
+      "scene_023",
+      "scene_025",
+      "scene_026",
+      "scene_027",
+      "scene_010",
+      "scene_011",
+      "scene_012",
+      "scene_013",
+      "scene_014",
+      "scene_015",
+      "scene_031"
+    ]
+  },
+  "data": {
+    "title": "翻出前尘旧怨建立主冲突",
+    "description": "女主完整回溯前世婚姻：沈家借娶她为壳安置陆姝仪，新婚第二日逼平妻敬茶，她以自戕立威；此后夫妻互疑、家族祸事、陆姝仪投湖、沈词焚毁示好之物、却在她死时守灵痛哭，构成爱恨难辨的根基。",
+    "beat_type": "revelation",
+    "save_the_cat": "Set-Up",
+    "emotional_value": -0.8,
+    "dramatic_intensity": -0.8,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 5
+  }
+}

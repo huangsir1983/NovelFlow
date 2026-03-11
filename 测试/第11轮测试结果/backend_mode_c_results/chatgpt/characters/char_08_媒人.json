@@ -1,0 +1,47 @@
+{
+  "name": "媒人",
+  "aliases": [
+    "媒婆"
+  ],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "圆脸喜气，表情精明讨巧",
+    "body": "中等身材，动作利索",
+    "hair": "妇人发髻，戴常见簪花",
+    "distinguishing_features": "满脸职业性笑容，擅察言观色"
+  },
+  "costume": {
+    "typical_outfit": "体面妇人袄裙，颜色偏喜庆",
+    "color_palette": [
+      "玫红",
+      "深绿"
+    ]
+  },
+  "casting_tags": [
+    "婚嫁中人",
+    "世故",
+    "小人物"
+  ],
+  "visual_reference": "Ancient Chinese matchmaker woman, lively expressive face, colorful traditional dress, practical and shrewd demeanor",
+  "visual_prompt_negative": "modern outfit, fantasy look, gothic makeup, tattoo",
+  "personality": "圆滑，见风使舵，重促成婚事",
+  "desire": "顺利做成婚配，保全各方颜面",
+  "flaw": "只看成事，不问内里是否公允",
+  "arc": "无明显弧线",
+  "scene_presence": "多次提亲场景中的事务推动者",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "婚事中介",
+      "dynamic": "试图劝她识大体",
+      "function": "推动提亲戏份"
+    },
+    {
+      "target": "沈词",
+      "type": "婚事中介",
+      "dynamic": "替沈家出面保婚",
+      "function": "提供外部礼制压力"
+    }
+  ]
+}

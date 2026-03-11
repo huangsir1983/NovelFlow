@@ -1,0 +1,258 @@
+[
+  {
+    "id": "shot_0421",
+    "scene_id": "scene_031",
+    "shot_number": 1,
+    "goal": "建立回忆场的空间关系与情绪反差：园林静美、亭水清冷，而这份安静将承载一场温柔的羞辱。",
+    "composition": "WS。画面右后三分之一为临水亭，左前景虚化荷叶轻晃，水面反光铺在画面下半部；亭内两人一坐一立形成明确对峙，高令宁站在画面左侧偏中，陆姝仪坐倚栏于画面右侧，二人之间留出空隙，水面与栏杆形成水平引导线，强化距离感。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到景色柔静，再隐约察觉其中的寒意与压迫。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.15,
+    "order": 421
+  },
+  {
+    "id": "shot_0422",
+    "scene_id": "scene_031",
+    "shot_number": 2,
+    "goal": "将视角收束到高令宁的主观感知，建立她站着承受、无法退开的被动处境。",
+    "composition": "MLS。机位站在高令宁一侧略后方，保留她左肩和半侧后脑作前景遮挡，陆姝仪位于画面右中景，倚栏而坐，身后是柔亮水面；高令宁只占画面左边窄条区域，形成主观式压迫观看。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众进入高令宁的受困视角，感到对方的从容刺眼。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 422
+  },
+  {
+    "id": "shot_0423",
+    "scene_id": "scene_031",
+    "shot_number": 3,
+    "goal": "首次给出陆姝仪的表面形象：笑意温和、姿态松弛，攻击性藏在礼貌外壳之下。",
+    "composition": "MS。陆姝仪坐在画面右三分之一，左侧留出大片空位给她的视线方向；前景一角带入亭栏，背景是失焦荷叶与水光。她一手轻抚衣袖，嘴角带笑，眼神并不直逼镜头，而是先看向水面再缓慢回望。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到一种披着柔软外衣的危险。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.3,
+    "order": 423
+  },
+  {
+    "id": "shot_0424",
+    "scene_id": "scene_031",
+    "shot_number": 4,
+    "goal": "承接第一句台词，明确陆姝仪以轻描淡写的方式宣判高令宁的徒劳。",
+    "composition": "MCU。陆姝仪位于画面中偏右，背景水光柔白，脸侧受午后侧上方自然光拂过，显得苍白温顺；嘴角笑意不深，眼神落在高令宁方向。衣袖动作停在胸前，形成一种若无其事的优雅。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众听出礼貌措辞下的轻蔑与掌控。",
+    "duration_hint": "4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 424
+  },
+  {
+    "id": "shot_0425",
+    "scene_id": "scene_031",
+    "shot_number": 5,
+    "goal": "给出高令宁对第一击的无声反应，强调她没有反驳，只把情绪往身体里收。",
+    "composition": "MCU。高令宁站在画面左中，身后是亭柱形成垂直分割，右侧背景留出陆姝仪的模糊轮廓或水面亮斑。她下颌微收，肩背绷直，视线压低一线，不肯示弱也不肯失态。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "唤起观众对克制性痛感的共鸣，感到她在被迫吞咽羞辱。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 425
+  },
+  {
+    "id": "shot_0426",
+    "scene_id": "scene_031",
+    "shot_number": 6,
+    "goal": "用手部细节把高令宁的心理反应具体化，显示她不是麻木，而是在死死控制自己。",
+    "composition": "CU。高令宁垂在身侧的手位于画面下中部，指尖缓慢收紧，袖口质地清冷，背景是失焦亭栏与水面反光。手部是唯一清晰焦点，细微的筋骨绷紧可见。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到压抑正在身体里积聚，愤怒无处发泄。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.5,
+    "order": 426
+  },
+  {
+    "id": "shot_0427",
+    "scene_id": "scene_031",
+    "shot_number": 7,
+    "goal": "推进第二句台词，以更具体、更残酷的比较羞辱高令宁的婚姻位置。",
+    "composition": "MS。保持同侧轴线，陆姝仪仍在画面右侧，身子微偏向栏外，先看水面后转头回来，形成“话像顺手说出”的轻松感；前景可有一片虚化荷叶掠过左下角，柔化但不减冷意。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到这份伤害因其从容随意而更恶毒。",
+    "duration_hint": "5s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 427
+  },
+  {
+    "id": "shot_0428",
+    "scene_id": "scene_031",
+    "shot_number": 8,
+    "goal": "捕捉高令宁听到“妻子”与“疼爱”时的细微裂痕，展示她体面的边缘开始松动。",
+    "composition": "CU。高令宁脸部位于画面左三分之一，右侧留白给陆姝仪的声源方向；眼底有短促震动但迅速压住，唇线收紧，面色更冷。背景亭柱与栏杆斜向切入，像将她困住。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到刺痛直入旧伤，且她必须在对方面前维持尊严。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 428
+  },
+  {
+    "id": "shot_0429",
+    "scene_id": "scene_031",
+    "shot_number": 9,
+    "goal": "第三句台词落下时，强化陆姝仪‘天生占有优势’的自知与炫耀。",
+    "composition": "MCU。陆姝仪微微前倾占据画面中心，肩颈线条柔弱，神色却异常笃定；背景水面高光被压成冷亮斑点，像碎裂的银。她目光终于正面落向高令宁，笑意更浅，锋芒更明确。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她终于露出柔弱皮相下的胜者姿态。",
+    "duration_hint": "4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 429
+  },
+  {
+    "id": "shot_0430",
+    "scene_id": "scene_031",
+    "shot_number": 10,
+    "goal": "用高令宁的主观压迫镜头呈现她眼中的陆姝仪，体现记忆中对方的毒性被重新点亮。",
+    "composition": "CU。镜头略带主观逼近陆姝仪，人物位于画面正中偏右，边缘轻微柔化，仿佛回忆失真；她的笑容很淡，眼神湿润无辜，话却字字锋利。背景几乎只剩一层发白水光，削弱空间，增强心理贴脸感。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众产生‘越温柔越可怖’的不适感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 430
+  },
+  {
+    "id": "shot_0431",
+    "scene_id": "scene_031",
+    "shot_number": 11,
+    "goal": "第四句台词前给出高令宁的临界状态，显示她的沉默已逼近失控，但仍未开口。",
+    "composition": "MCU。高令宁位于画面左侧，身体正对陆姝仪，头却只微微侧着；前景右侧虚化入一角陆姝仪的衣袖或肩线，制造贴近压迫。她呼吸极轻，眼神像结了冰，肩颈绷成一条直线。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众屏住气，等待最后一击落下。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.82,
+    "order": 431
+  },
+  {
+    "id": "shot_0432",
+    "scene_id": "scene_031",
+    "shot_number": 12,
+    "goal": "用最直接的近距离完成终极羞辱：陆姝仪不是求胜，而是要高令宁失去体面。",
+    "composition": "CU。陆姝仪居中，视线稳定地望向高令宁方向，表情近乎温柔，嘴角只抬一线；背景退为浅灰水光与栏杆横线，使面部与台词成为全部焦点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到被礼貌修辞包裹的残酷彻底刺穿。",
+    "duration_hint": "4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 432
+  },
+  {
+    "id": "shot_0433",
+    "scene_id": "scene_031",
+    "shot_number": 13,
+    "goal": "承接终极羞辱后的反应高潮，用极近距离呈现高令宁被击中的瞬间，但她依然不肯崩塌。",
+    "composition": "ECU。高令宁的眼与上半张脸占满画面，瞳色乌深，眼底压着怒与耻，几乎不眨；背景完全虚化成冷白。镜头只给极细微的鼻息与眼尾变化，不给眼泪，不给软弱。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众直接感受旧恨刻入骨头的瞬间，形成记忆根源。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 433
+  },
+  {
+    "id": "shot_0434",
+    "scene_id": "scene_031",
+    "shot_number": 14,
+    "goal": "以冷收尾结束回忆切片：高令宁沉默站在静景中，旧恨无声沉底，也为回到现实留出口。",
+    "composition": "MLS。回到亭内对峙关系，但更偏向高令宁一侧；她站在画面左中，背脊如弦，陆姝仪在画面右后方仍坐得从容。两人之间隔着栏杆与一片外部水面留白，风吹荷叶轻动，人物却像冻结。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到一切都没爆发，但裂痕已经终身成形。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.68,
+    "order": 434
+  }
+]

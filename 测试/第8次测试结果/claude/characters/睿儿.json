@@ -1,0 +1,69 @@
+{
+  "name": "睿儿",
+  "aliases": [
+    "长子",
+    "一代名相"
+  ],
+  "role": "supporting",
+  "age_range": "胎儿",
+  "appearance": {
+    "face": "未出生，无具体面部特征",
+    "body": "腹中胎儿",
+    "hair": "未出生",
+    "distinguishing_features": "前世成年后具备名相气质（推测：眉目清朗、神色沉稳）"
+  },
+  "costume": {
+    "typical_outfit": "襁褓/婴儿衣物",
+    "color_palette": [
+      "浅色系",
+      "素雅色"
+    ],
+    "texture_keywords": [
+      "柔软",
+      "棉麻"
+    ]
+  },
+  "casting_tags": [
+    "未出生",
+    "命运之子",
+    "权力象征"
+  ],
+  "visual_reference": "unborn fetus in womb, symbolic golden light, destiny aura, ancient Chinese setting",
+  "description": "前世名相转世，父母重生博弈中的核心筹码",
+  "personality": "未出生状态，前世性格推测：沉稳睿智、善谋略、重家国（名相特质）",
+  "desire": "（前世）实现政治抱负、匡扶社稷；（今生潜在）获得完整家庭",
+  "flaw": "存在本身成为父母婚姻的枷锁，被动承载双方期待与算计",
+  "arc": "胎儿→可能无法出生（母亲拒绝维持婚姻）→命运改写的不确定性",
+  "relationships": [
+    {
+      "target": "我/女主/高家长女",
+      "type": "血缘/情感",
+      "dynamic": "母亲为其前途曾忍受噩梦婚姻，重生后拒绝再次牺牲自我，睿儿成为她斩断过去的最大阻碍",
+      "function": "母亲自我觉醒的对立面，考验其是否重蹈覆辙"
+    },
+    {
+      "target": "沈词",
+      "type": "血缘/利益",
+      "dynamic": "父亲视其为维持婚姻的唯一理由（'为睿儿着想'），将儿子前途置于夫妻感情之上",
+      "function": "父亲道德绑架的工具，暴露其功利性思维"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "对照",
+      "dynamic": "前世睿儿的存在未能阻止父亲偏爱陆姝仪，今生若出生可能再次面临同样困境",
+      "function": "揭示父亲情感天平的失衡，睿儿无法改变的家庭裂痕"
+    },
+    {
+      "target": "沈母",
+      "type": "利益",
+      "dynamic": "祖母前世曾策划平妻计划伤害母亲，睿儿若出生将成为沈家延续的关键",
+      "function": "沈家权力结构的未来继承者"
+    },
+    {
+      "target": "高父",
+      "type": "利益",
+      "dynamic": "外祖父前世因党争流放，睿儿作为名相可能是高家翻身的希望",
+      "function": "外家政治资本，母亲决策的隐形压力"
+    }
+  ]
+}

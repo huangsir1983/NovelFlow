@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "FLASHBACK. 灵堂 - DAY",
+  "location": "沈家灵堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "沈词",
+    "我的遗体"
+  ],
+  "core_event": "前世我死后，沈词亲自为我净身更衣，并在棺前无声痛哭，显露他在失去后才承认的悲伤。",
+  "key_dialogue": "生前互咒早死，死后却只剩凄凉。",
+  "emotional_peak": "他对着棺材抱头流泪，身影苍老羸弱。",
+  "tension_score": 0.58,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "棺材",
+    "寿衣",
+    "白幡"
+  ],
+  "dramatic_purpose": "将前世情感推至终点，解释重来后两人为何都无法真正抽身。",
+  "visual_reference": "白色灵堂肃穆空旷，男子独自站在棺前，衣袍凌乱，曾经端方的人崩塌失态，无声抱头落泪，白幡轻动，死亡感沉重",
+  "visual_prompt_negative": "避免恐怖尸体细节，避免现代殡葬设施，避免夸张鬼怪感",
+  "source_text_start": "我咽气后，他亲自抱着我遗体，清洗干净。",
+  "source_text_end": "可我真死了，他又对着我的棺材，抱着头无声地流泪。"
+}

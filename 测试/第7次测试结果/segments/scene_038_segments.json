@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0184",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0571",
+      "shot_0572",
+      "shot_0573"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成同一叙事动作：从饭后静止建立，到门口动静刺入，再切到女主限制性接收信息。角色集合未发生实质变化，情绪从平稳转为被惊扰，适合合并为一个连续开场段落。",
+    "order": 184
+  },
+  {
+    "id": "seg_0185",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0574",
+      "shot_0575",
+      "shot_0576"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组围绕同一情感转折：高父无戒备的决定，触发女主内在失衡。人物关系不变，但情绪由外部应酬瞬间转向女主被名字刺中的内部危机，构成清晰的一段情绪下坠。",
+    "order": 185
+  },
+  {
+    "id": "seg_0186",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0577",
+      "shot_0578",
+      "shot_0579"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处包含一次明确的小时空变化：从现实进入前世记忆，再迅速回落现实，并立刻转为行动。虽然有闪回，但三镜头共同服务于“名字触发—身体压制—主动防御”的完整心理到行为链条，适合合并。",
+    "order": 186
+  },
+  {
+    "id": "seg_0187",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0580",
+      "shot_0581",
+      "shot_0582"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是同一行动结果的展开：下令、受命、旁观者反应。角色关系稳定，情绪从女主主动切断危险，过渡到命令落地，再补一笔父亲的迟疑，形成一个完整的防御执行段。",
+    "order": 187
+  },
+  {
+    "id": "seg_0188",
+    "scene_id": "scene_038",
+    "shot_ids": [
+      "shot_0583",
+      "shot_0584"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜完成本场冷收尾：先回到女主压住情绪的脸，再把悬念抛到门外的人影上。这里发生了明确空间延展，从厅内主观控制到门外被挡住的威胁，正好作为终段与下场衔接。",
+    "order": 188
+  }
+]

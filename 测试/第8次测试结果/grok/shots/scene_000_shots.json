@@ -1,0 +1,149 @@
+[
+  {
+    "id": "shot_0000",
+    "scene_id": "scene_000",
+    "shot_number": 1,
+    "goal": "建立沈府内室庄重压抑氛围，展示大夫完成诊脉准备宣布结果",
+    "composition": "雕花木床纱帐占右前景垂落，‘我’半卧床头右侧，梨木诊桌中景，大夫坐诊桌旁手置诊脉枕，沈词站立背景左侧，柔和日光从右侧纸窗斜入切割人物，药箱置前景，保持180度规则：沈词左侧、我右侧",
+    "camera_movement": "slow dolly in",
+    "framing": "MLS",
+    "emotion_target": "营造封闭、沉闷的家族压迫感，观众感受到空气中的药香与紧张",
+    "duration_hint": "4s",
+    "characters": [
+      "我",
+      "沈词",
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.25,
+    "order": 0
+  },
+  {
+    "id": "shot_0001",
+    "scene_id": "scene_000",
+    "shot_number": 2,
+    "goal": "大夫郑重宣布胎儿为男孩，推进情节至性别揭晓",
+    "composition": "大夫正面略偏，背景虚化床帐与‘我’身影，日光侧逆光勾勒他严肃脸部轮廓",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "短暂的‘喜讯’带来虚假希望",
+    "duration_hint": "2.5s",
+    "characters": [
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 1
+  },
+  {
+    "id": "shot_0002",
+    "scene_id": "scene_000",
+    "shot_number": 3,
+    "goal": "展示沈词听到男孩消息后的长松一口气，并漠然转头注视床上的‘我’",
+    "composition": "沈词中景偏左，剑眉微舒后眼神恢复冷漠，视线向右看向床方向，前景药箱边缘",
+    "camera_movement": "slow pan right",
+    "framing": "MCU",
+    "emotion_target": "他的务实释然对比潜在情感裂痕",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 2
+  },
+  {
+    "id": "shot_0003",
+    "scene_id": "scene_000",
+    "shot_number": 4,
+    "goal": "沈词提出为孩子继续婚姻的冷漠建议，铺垫对话冲突",
+    "composition": "从‘我’肩后过肩镜头（OTS），沈词居左画面，背景窗光，构图引导观众注意他的薄唇与疏离眼神",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "观众感受到婚姻的交易本质与情感疏离",
+    "duration_hint": "3.5s",
+    "characters": [
+      "沈词",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.6,
+    "order": 3
+  },
+  {
+    "id": "shot_0004",
+    "scene_id": "scene_000",
+    "shot_number": 5,
+    "goal": "‘我’轻轻摇头，眼神决然说出和离决定，打破前世命运",
+    "composition": "‘我’正面CU，丹凤眼锐利坚定直视前方略左，背景模糊沈词身影，床单前景指尖开始收紧，日光侧打脸部突出重生锋芒",
+    "camera_movement": "slow push in",
+    "framing": "CU",
+    "emotion_target": "决绝与重获自由的坚定力量",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 4
+  },
+  {
+    "id": "shot_0005",
+    "scene_id": "scene_000",
+    "shot_number": 6,
+    "goal": "沈词眉头骤紧，震惊追问‘为何’，展现他意外反应",
+    "composition": "沈词CU，星目骤眯眉心紧锁，薄唇微张，背景床帐，逆光强化冷峻压迫感",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震惊与权力被挑战的不安",
+    "duration_hint": "2.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.95,
+    "order": 5
+  },
+  {
+    "id": "shot_0006",
+    "scene_id": "scene_000",
+    "shot_number": 7,
+    "goal": "‘我’微微垂眸目光飘向窗外，指尖无意识绞紧床单，展现内心决意",
+    "composition": "双构图：先CU手部指节泛白绞紧锦缎床单，再轻微tilt up到她侧脸与眼神，窗光作为视觉引导线指向窗外自由象征",
+    "camera_movement": "tilt up",
+    "framing": "MCU",
+    "emotion_target": "隐忍后的决绝与对新生的向往",
+    "duration_hint": "4s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.75,
+    "order": 6
+  },
+  {
+    "id": "shot_0007",
+    "scene_id": "scene_000",
+    "shot_number": 8,
+    "goal": "‘我’注视窗外的坚定眼神收尾，暗示叙事转向独立",
+    "composition": "‘我’眼神特写偏右，背景纸窗柔光透入，前景模糊床纱，眼神中前世沧桑与今生睿智交汇",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "情感爆发后的平静决绝，观众感受到角色转变",
+    "duration_hint": "2.5s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "fade out",
+    "dramatic_intensity": 0.6,
+    "order": 7
+  }
+]

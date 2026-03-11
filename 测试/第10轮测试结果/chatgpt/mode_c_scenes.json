@@ -1,0 +1,570 @@
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父",
+      "媒人"
+    ],
+    "core_event": "沈家上门提亲，聘礼明显缩水。高令宁识破沈词也重生，当众退回木雁，借机下他脸面。",
+    "key_dialogue": "“聘礼太薄，我不满意。”",
+    "emotional_peak": "两人隔着提亲礼数第一次确认彼此都带着前世记忆回来，旧恨瞬间翻涌。",
+    "tension_score": 0.9,
+    "estimated_duration_s": 220,
+    "key_props": [
+      "木雁",
+      "聘礼箱笼",
+      "正堂桌案"
+    ],
+    "dramatic_purpose": "建立重生设定与男女主敌对关系，确立女主主动权"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高家内院闺房",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "core_event": "父亲震惊女儿拒聘，高令宁表明自己不是不嫁，而是一定要嫁，并要风光出嫁。",
+    "key_dialogue": "“我一定要嫁。”",
+    "emotional_peak": "女主在平静中流露出深埋的报复心与算计。",
+    "tension_score": 0.62,
+    "estimated_duration_s": 150,
+    "key_props": [
+      "铜镜",
+      "发钗",
+      "家中桌椅"
+    ],
+    "dramatic_purpose": "明确女主再入婚局不是天真，而是带着目标和恨意"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "INT. 沈府新婚厅堂/卧房 - FLASHBACK",
+    "location": "前世沈府",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈母",
+      "陆姝仪",
+      "沈词"
+    ],
+    "core_event": "前世新婚次日，沈母逼陆姝仪给高令宁敬茶，暗示平妻安排。高令宁当场以瓷片抹脖子立威。",
+    "key_dialogue": "“没有人可以拿捏我。”",
+    "emotional_peak": "血色与失态打破高门体面，奠定整段婚姻的畸形开局。",
+    "tension_score": 0.97,
+    "estimated_duration_s": 260,
+    "key_props": [
+      "茶盏",
+      "瓷片",
+      "敬茶托盘"
+    ],
+    "dramatic_purpose": "交代前世婚姻裂痕起点与女主性格底色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "INT. 前世沈府/病榻/灵堂 - FLASHBACK MONTAGE",
+    "location": "前世沈府多处空间",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "沈睿"
+    ],
+    "core_event": "前世婚后数十年的互伤：陆姝仪之死、夫妻冷战、父亲下狱、互相误解、病中守护与死后恸哭。",
+    "key_dialogue": "“若有来生，只做路人。”",
+    "emotional_peak": "死后棺前，沈词无声落泪，与生前恶语形成残酷反差。",
+    "tension_score": 0.88,
+    "estimated_duration_s": 320,
+    "key_props": [
+      "火盆",
+      "寝衣鞋袜",
+      "病榻",
+      "棺材",
+      "寿衣"
+    ],
+    "dramatic_purpose": "扩展前世恩怨，给今生纠缠赋予悲剧厚度"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "INT. 高家书房/门口街边 - DAY",
+    "location": "高家书房与门前",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "沈词"
+    ],
+    "core_event": "高令宁逼父亲写辞官奏折以避前世祸事，出门时被守候多时的沈词拦下。沈词以‘再杀睿儿一次’逼婚，提出孩子出生后和离。",
+    "key_dialogue": "“这一世若你我不成亲，便等于再杀睿儿一次。”",
+    "emotional_peak": "长子之痛被直直剖开，成为两人重新绑定的交易条件。",
+    "tension_score": 0.93,
+    "estimated_duration_s": 240,
+    "key_props": [
+      "辞官奏折",
+      "药方",
+      "大雁留下的勒痕"
+    ],
+    "dramatic_purpose": "完成婚姻契约的核心谈判，明确双方都只为孩子结婚"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "INT. 高家院中 - DAY",
+    "location": "高家院落",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "core_event": "高令宁得知沈词认陆姝仪为义妹，继续加码要求：必须等这位‘小姐’出嫁后才肯应婚。",
+    "key_dialogue": "“贵府小姐出嫁后，我才会答应这门亲事。”",
+    "emotional_peak": "女主不再正面哭闹，而是精准设卡，控制婚事节奏。",
+    "tension_score": 0.65,
+    "estimated_duration_s": 90,
+    "key_props": [
+      "传话帖子"
+    ],
+    "dramatic_purpose": "将情敌问题正式搬到台面，推进婚前拉扯"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "EXT. 马球会场/柳池边 - DAY",
+    "location": "侯爵娘子马球会",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪",
+      "伯爵娘子"
+    ],
+    "core_event": "高令宁赴马球会，与蒋晟相处轻松；她却撞见柳池边沈词宠溺看陆姝仪，故意借蒋晟刺激他。",
+    "key_dialogue": "“蒋公子，我脚好像崴了。”",
+    "emotional_peak": "高令宁目睹沈词对陆姝仪流露出她从未得到的温柔，嫉恨与报复同时涌上来。",
+    "tension_score": 0.86,
+    "estimated_duration_s": 240,
+    "key_props": [
+      "马球杆",
+      "葡萄",
+      "风筝",
+      "柳池"
+    ],
+    "dramatic_purpose": "视觉化三角关系，激发男主妒意和女主旧伤"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "EXT. 马球会角落 - DAY",
+    "location": "马球会僻静处",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "高令宁脚伤，沈词追来要抱她回去，被她以未婚男女不宜接触拒绝。沈词反唇相讥，揭开前世最亲密也最难堪的记忆。",
+    "key_dialogue": "“你身上哪里，我没碰过？”",
+    "emotional_peak": "礼法与旧情欲的碰撞，让表面冷静彻底变得危险暧昧。",
+    "tension_score": 0.91,
+    "estimated_duration_s": 150,
+    "key_props": [
+      "扭伤的脚踝",
+      "衣袖"
+    ],
+    "dramatic_purpose": "强化两人身体记忆与敌对亲密感"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 马球会厢房 - DUSK",
+    "location": "侯府厢房",
+    "time_of_day": "dusk",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "core_event": "高令宁正骨后，看到沈词亲自喂药哄陆姝仪。她坚持不退让，陆姝仪下跪求留，沈词当众护住她。",
+    "key_dialogue": "“有我在，没人能赶你走。”",
+    "emotional_peak": "当众偏袒彻底复刻前世伤口，高令宁心灰意冷。",
+    "tension_score": 0.94,
+    "estimated_duration_s": 280,
+    "key_props": [
+      "药碗",
+      "塌榻",
+      "衣角"
+    ],
+    "dramatic_purpose": "把情感偏心公开化，为女主后续松口埋下‘厌倦争夺’的心理节点"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 前世沈府内宅 - FLASHBACK",
+    "location": "前世沈府房中与街市",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "沈睿"
+    ],
+    "core_event": "回忆前世因酷似陆姝仪的婢女引发争执，沈词掐她脖子、推伤有孕的她，后又尽力保胎，最终女儿静好死胎出生。",
+    "key_dialogue": "“就叫静好吧。”",
+    "emotional_peak": "产房里死去的女婴，将夫妻关系推进彻底不可修复的深渊。",
+    "tension_score": 0.95,
+    "estimated_duration_s": 320,
+    "key_props": [
+      "画卷",
+      "身契",
+      "药碗",
+      "鱼龙灯"
+    ],
+    "dramatic_purpose": "揭示女主放弃强求婚姻的终极原因，也映照今生命运反转"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "INT. 高家/婚礼现场 - DAY TO NIGHT",
+    "location": "高家出嫁与沈府新房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "沈词",
+      "陆姝仪婢女"
+    ],
+    "core_event": "婚事在压力下敲定。婚礼当天高令宁心不在焉，夜里与沈词完成冷硬而带敌意的圆房，陆姝仪婢女来叩门请人。",
+    "key_dialogue": "“再快点吧，我困了。”",
+    "emotional_peak": "本应最喜庆的新婚夜，变成两人拿肉身完成生育任务的冷酷契约。",
+    "tension_score": 0.92,
+    "estimated_duration_s": 300,
+    "key_props": [
+      "喜服",
+      "盖头",
+      "丝带",
+      "喜床",
+      "热水"
+    ],
+    "dramatic_purpose": "完成婚姻与生育契约，强化男女主病态婚姻质地"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 沈府厅房 - DAY",
+    "location": "沈府内宅",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "沈母"
+    ],
+    "core_event": "沈词为陆姝仪择婿焦头烂额。高令宁提出假死入府、待和离后扶正的方案，却被沈词嘴硬否认自己对陆姝仪有男女之情。",
+    "key_dialogue": "“我与姝仪，并无男女之情。”",
+    "emotional_peak": "高令宁第一次真的生出放过一切的念头，连报复欲都消退。",
+    "tension_score": 0.74,
+    "estimated_duration_s": 200,
+    "key_props": [
+      "折扇",
+      "婚配名册"
+    ],
+    "dramatic_purpose": "显示女主从争抢转向厌倦，男主仍停留在自欺状态"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "INT. 沈府卧房 - DAY",
+    "location": "高令宁房中",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "太医",
+      "沈词"
+    ],
+    "core_event": "太医断定高令宁腹中是男孩。沈词松了口气，提及孩子出生后的和离安排；高令宁平静表示做完月子就走。",
+    "key_dialogue": "“我做完月子便走，不会纠缠。”",
+    "emotional_peak": "沈词第一次因她真的不纠缠而明显失衡。",
+    "tension_score": 0.82,
+    "estimated_duration_s": 180,
+    "key_props": [
+      "虎头帽",
+      "脉枕",
+      "绣绷"
+    ],
+    "dramatic_purpose": "推动男主从掌控局面转向被动不安"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "INT./EXT. 高家回廊 - DAY",
+    "location": "高家娘家",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "core_event": "高令宁借养胎回娘家，沈词每日探望、送礼、剥葡萄、亲吻，外人看来已是恩爱夫妻。高父甚至劝她不如继续过下去。",
+    "key_dialogue": "“其实上一世，我有许多对不住你的地方。”",
+    "emotional_peak": "关系出现罕见缓和与柔软，让‘或许能过下去’短暂成立。",
+    "tension_score": 0.45,
+    "estimated_duration_s": 240,
+    "key_props": [
+      "葡萄",
+      "珍贵补品",
+      "廊下坐榻"
+    ],
+    "dramatic_purpose": "制造情感缓冲与假性修复，为后续崩盘加大反差"
+  },
+  {
+    "scene_id": "scene_015",
+    "heading": "INT. 高家偏厅/厢房 - DUSK",
+    "location": "高家",
+    "time_of_day": "dusk",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪",
+      "沈词",
+      "蒋晟"
+    ],
+    "core_event": "即将出嫁的陆姝仪登门后失踪。众人搜查，竟在厢房里发现昏迷且衣冠不整的陆姝仪与蒋晟。",
+    "key_dialogue": "“我才知道陆姝仪根本没回沈家。”",
+    "emotional_peak": "真相不明的暧昧现场瞬间把所有旧案、旧怨重新点燃。",
+    "tension_score": 0.96,
+    "estimated_duration_s": 240,
+    "key_props": [
+      "门房记录",
+      "厢房床榻",
+      "凌乱衣衫"
+    ],
+    "dramatic_purpose": "把全剧推入最大误会与灾难节点"
+  },
+  {
+    "scene_id": "scene_016",
+    "heading": "INT. 高家正厅 - NIGHT",
+    "location": "高家正厅",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪",
+      "沈词",
+      "蒋晟",
+      "高父"
+    ],
+    "core_event": "陆姝仪哭诉自己被设计失贞，高令宁要求查清真相，沈词却认定高令宁恶毒跋扈，甚至说若陆姝仪再因她而死便杀了她。高令宁怒极甩了他一巴掌，当场腹痛倒下。",
+    "key_dialogue": "“这一世姝仪若再为你而死，信不信我杀了你？”",
+    "emotional_peak": "当众威胁与耳光交错，女主在最无辜时再次背上前世罪名，情绪彻底崩塌。",
+    "tension_score": 1.0,
+    "estimated_duration_s": 330,
+    "key_props": [
+      "桌案",
+      "证人婢女小厮",
+      "衣角",
+      "巴掌声"
+    ],
+    "dramatic_purpose": "引爆最大情绪高潮，直接触发早产生死局"
+  },
+  {
+    "scene_id": "scene_017",
+    "heading": "INT. 高家产房 - NIGHT",
+    "location": "高家产房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "稳婆",
+      "太医",
+      "高父"
+    ],
+    "core_event": "高令宁早产难产，稳婆逼问保大保小。高令宁以为沈词会选孩子，沈词却失控指明“要高令宁活着”。孩子顺利出生，却发现不是期待中的儿子，而是女儿。",
+    "key_dialogue": "“我要高令宁。”",
+    "emotional_peak": "在生死关头，沈词第一次压倒一切地选择她本人。",
+    "tension_score": 0.99,
+    "estimated_duration_s": 260,
+    "key_props": [
+      "床单",
+      "产房血水",
+      "啼哭婴儿",
+      "稳婆剪刀"
+    ],
+    "dramatic_purpose": "揭露男主真实心意，彻底打碎‘只为儿子’的表层逻辑，同时完成命运反转"
+  },
+  {
+    "scene_id": "scene_018",
+    "heading": "INT. 高令宁病榻/梦境 - DAY",
+    "location": "高家卧房与梦境空间",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "core_event": "高令宁梦见前世小沈睿端粥劝慰，求她来生不要再为他受苦。醒来后，她为女儿取名昭昭。",
+    "key_dialogue": "“若有来生，娘亲别再生下我。”",
+    "emotional_peak": "长子亲口劝她放下执念，使她真正从‘必须再得睿儿’中松手。",
+    "tension_score": 0.72,
+    "estimated_duration_s": 180,
+    "key_props": [
+      "粥碗",
+      "床帐",
+      "婴儿襁褓"
+    ],
+    "dramatic_purpose": "完成女主核心执念的松动，为和离做情感铺垫"
+  },
+  {
+    "scene_id": "scene_019",
+    "heading": "INT. 高家正厅/院中 - DAY",
+    "location": "高家",
+    "time_of_day": "day",
+    "characters_present": [
+      "高父",
+      "沈母",
+      "沈词",
+      "高令宁",
+      "昭昭"
+    ],
+    "core_event": "沈家欲接走昭昭，高父强硬拒绝。沈词跪求见妻女，面对和离书仍坚持高令宁不会和离，继而失态闯入后院对质。",
+    "key_dialogue": "“两个孩子和离后，昭昭归高家。”",
+    "emotional_peak": "门第与父权秩序在高父面前失效，沈词第一次彻底失了体面。",
+    "tension_score": 0.87,
+    "estimated_duration_s": 260,
+    "key_props": [
+      "和离书",
+      "门槛",
+      "后院雕花木门"
+    ],
+    "dramatic_purpose": "完成婚姻关系的法律与家族切割"
+  },
+  {
+    "scene_id": "scene_020",
+    "heading": "INT. 高家后院卧房 - DAY",
+    "location": "高家后院",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "core_event": "沈词拿着和离书闯入，质问高令宁为何真要离开。高令宁平静表示已经想开并原谅他，希望彼此另觅良人。",
+    "key_dialogue": "“沈词，我原谅你了。”",
+    "emotional_peak": "女主的原谅不是复合，而是抽离；对男主来说比恨更残忍。",
+    "tension_score": 0.9,
+    "estimated_duration_s": 220,
+    "key_props": [
+      "和离书",
+      "婴儿抱被"
+    ],
+    "dramatic_purpose": "彻底逆转情感权力结构，男主由掌控者变成失去者"
+  },
+  {
+    "scene_id": "scene_021",
+    "heading": "INT. 高家满月宴 - DAY",
+    "location": "高家宴厅",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪",
+      "沈词",
+      "高父",
+      "昭昭",
+      "蒋晟"
+    ],
+    "core_event": "昭昭满月宴上，陆姝仪不请自来，坦白自己也重生，前世投湖是为了制造嫌隙，今生蒋晟失贞局亦是她自导自演，只为给自己谋一条路。",
+    "key_dialogue": "“蒋晟的事，是我设计。”",
+    "emotional_peak": "误会终于有了真相，但真相并不带来释然，只让所有人都更显可悲。",
+    "tension_score": 0.89,
+    "estimated_duration_s": 260,
+    "key_props": [
+      "请帖",
+      "满月宴席",
+      "酒盏"
+    ],
+    "dramatic_purpose": "揭露核心误会真相，完成陆姝仪人物闭环"
+  },
+  {
+    "scene_id": "scene_022",
+    "heading": "EXT. 江南宅院 - DAY",
+    "location": "江南居所",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "昭昭"
+    ],
+    "core_event": "高令宁带昭昭定居江南，享受脱离京城纠缠后的平静生活；昭昭聪慧可爱，成为她真正想守护的人生。",
+    "key_dialogue": "“也只是让他寄钱。”",
+    "emotional_peak": "从血雨腥风到岁月安稳，女主终于拥有可被呼吸的日子。",
+    "tension_score": 0.25,
+    "estimated_duration_s": 150,
+    "key_props": [
+      "书信",
+      "典籍",
+      "珠宝",
+      "江南庭院"
+    ],
+    "dramatic_purpose": "展示女主脱离主战场后的新秩序与独立生活"
+  },
+  {
+    "scene_id": "scene_023",
+    "heading": "INT. 江南书房 - NIGHT",
+    "location": "江南居所书房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁"
+    ],
+    "core_event": "高令宁收到沈词来信，信中试探称自己将另娶大家闺秀，若她不愿可回信阻止。她一夜辗转后，只回以百年好合与继续寄钱。",
+    "key_dialogue": "“祝你和新夫人百年好合……婚后莫忘寄钱。”",
+    "emotional_peak": "她认真思索后仍选择放手，说明这份抽离已不是赌气。",
+    "tension_score": 0.58,
+    "estimated_duration_s": 140,
+    "key_props": [
+      "书信",
+      "笔墨",
+      "烛火"
+    ],
+    "dramatic_purpose": "验证女主彻底放下，也逼男主停止试探"
+  },
+  {
+    "scene_id": "scene_024",
+    "heading": "EXT. 江南雪院 - DAY",
+    "location": "江南宅院庭院",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词",
+      "赘婿候选们"
+    ],
+    "core_event": "三年后，昭昭在雪地里与几个赘婿候选人玩耍。沈词突然出现，被雪球砸中，又亲眼看到高令宁身边已有‘新夫婿’们，妒意与失控彻底爆发。",
+    "key_dialogue": "“他们是谁？”——“我的新夫婿。”",
+    "emotional_peak": "男主晚到的占有欲在别人环绕她的画面前被推至顶点。",
+    "tension_score": 0.88,
+    "estimated_duration_s": 210,
+    "key_props": [
+      "雪球",
+      "冬雪",
+      "院门"
+    ],
+    "dramatic_purpose": "把追妻线推向最后的卑微与偏执"
+  },
+  {
+    "scene_id": "scene_025",
+    "heading": "INT. 江南卧房 - NIGHT",
+    "location": "高令宁卧房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "赘婿候选们"
+    ],
+    "core_event": "深夜雷声中，沈词爬上高令宁的床想陪她，被踹下去后仍抱着被褥睡在地上，低声宣告自己会恬不知耻纠缠她一辈子。",
+    "key_dialogue": "“只要我还活着……我就会恬不知耻地纠缠你一辈子。”",
+    "emotional_peak": "昔日高高在上的沈公子，终于彻底撕下体面，变成一个祈求被留下的人。",
+    "tension_score": 0.84,
+    "estimated_duration_s": 220,
+    "key_props": [
+      "被褥",
+      "枕头",
+      "床帐",
+      "雷声"
+    ],
+    "dramatic_purpose": "以偏执又荒诞的方式收束男女主关系，保留开放式纠缠结局"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gao_lingning_variant_02",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 孕期居家",
+  "tags": [
+    "孕期",
+    "消瘦",
+    "疲倦",
+    "居家"
+  ],
+  "scene_ids": [],
+  "trigger": "怀沈昭昭期间，身体负担加重而与沈词关系持续紧张，居于内宅养胎，形容消瘦憔悴，却仍强撑体面",
+  "appearance_delta": {
+    "face": "面色苍白，颧骨略显，眼下有淡淡青痕，杏眼依旧明亮但多了倦意，神情从清冷转为一种疲惫的淡漠",
+    "body": "腹部隆起明显，四肢反而更加纤瘦，肩背仍努力挺直但偶见微微佝偻的疲态",
+    "hair": "懒于打理，仅以一根银簪松松挽住，大量黑发散落肩背，发丝略显干涩",
+    "distinguishing_features": "下意识触碰颈侧的动作更频繁；常以一只手护住腹部"
+  },
+  "costume_override": {
+    "outfit": "宽松月白交领衫裙，无褙子外罩，腰间仅系一条软绦松松束住，足着软底布鞋，整体着装以舒适为主，不施任何首饰仅留银簪",
+    "color_palette": [
+      "月白",
+      "浅青",
+      "素白"
+    ]
+  },
+  "visual_reference": "A young Chinese woman around 18 years old, visibly pregnant with a rounded belly, wearing a loose moon-white cross-collar hanfu shirt and long skirt with a soft fabric sash tied loosely at the waist, no outer jacket, black hair loosely pinned with a single silver hairpin with much of the hair falling over her shoulders looking slightly dry, pale complexion with faint dark circles under her eyes, sharp almond eyes showing weariness and quiet endurance, thin lips unpainted, one hand resting on her belly, sitting by a wooden window in a simple traditional Chinese bedroom with soft natural daylight filtering in, muted color palette, cinematic lighting, highly detailed, 8k",
+  "visual_prompt_negative": "modern clothing, bright colors, heavy makeup, jewelry, smile, energetic pose, glasses, tattoo, Western features, fantasy armor, wings",
+  "emotional_tone": "疲倦隐忍——身心俱疲却不肯示弱，对腹中孩子怀有复杂的期待与不安，是前世命运轨迹被打破的关键转折"
+}

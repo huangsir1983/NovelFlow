@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0146",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0421",
+      "shot_0422",
+      "shot_0423"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属回忆场建立段，角色集合稳定，无时空切换；从空间关系到高令宁受困主观，再落到陆姝仪的柔软外壳，形成单一连续的开场情绪递进，适合合并为一个6秒左右的引入segment。",
+    "order": 146
+  },
+  {
+    "id": "seg_0147",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0424",
+      "shot_0425",
+      "shot_0426"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕第一句台词及其即时反应，情感弧线完整：宣判—吞咽—身体化压抑。虽有说者与听者切换，但叙事动作连续，且遵循“听者比说者重要”，故合并为同一段。",
+    "order": 147
+  },
+  {
+    "id": "seg_0148",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0427",
+      "shot_0428"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这两镜构成第二轮羞辱的完整攻防：陆姝仪以轻松语气施压，高令宁第一次出现体面边缘的裂痕。情绪明确升级，但仍在同一对峙弧线内，适合合并。",
+    "order": 148
+  },
+  {
+    "id": "seg_0149",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0429",
+      "shot_0430",
+      "shot_0431"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是第三轮羞辱到终极问题前的蓄势，内部完成“炫耀胜利—主观放大毒性—听者逼近临界”的情绪起伏。角色未变、空间未变，但主观心理压迫明显加强，适合独立成段。",
+    "order": 149
+  },
+  {
+    "id": "seg_0150",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0432",
+      "shot_0433",
+      "shot_0434"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "终极羞辱、主角被击中的瞬间、以及回忆的冷收尾构成完整终章，情绪从峰值落回死寂，形成清晰段落边界，也为后续现实场景的转场预留 dissolve 出口。",
+    "order": 150
+  }
+]

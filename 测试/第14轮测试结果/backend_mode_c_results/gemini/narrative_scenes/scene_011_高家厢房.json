@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪在高家设计陷害自己与蒋晟有染，并反诬是高令宁所为。沈词不问青红皂白，选择相信陆姝仪，并对高令宁恶言相向。",
+  "key_dialogue": "从头到尾，你都是这般恶毒跋扈的妇人。",
+  "emotional_peak": "沈词对高令宁说出绝情的话，高令宁浑身发颤，彻底失望。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "昏迷的陆姝仪",
+    "衣冠不整的蒋晟"
+  ],
+  "dramatic_purpose": "矛盾达到顶峰。沈词的误解和伤害直接导致了后续的悲剧，成为两人关系彻底破裂的导火索。",
+  "source_text_start": "终于在厢房里，寻到了已经昏迷的陆姝仪。 和同样昏迷不醒、衣冠不整的蒋晟。 心里一惊。",
+  "source_text_end": "「从头到尾，你都是这般恶毒跋扈的妇人。」"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_036",
+  "order": 35,
+  "heading": "EXT. 高家前院 - DAY",
+  "location": "高家前院石阶",
+  "time_of_day": "day",
+  "characters_present": [
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "沈词跪在父亲面前求见我与女儿，父亲递出和离书并提出已备赘婿人选，彻底刺痛他的占有欲。",
+  "key_dialogue": "「爹，令宁不会与我和离的。」",
+  "emotional_peak": "当听到“赘婿人选”时，沈词的镇定当场崩裂。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "和离书",
+    "石阶",
+    "长跪身影"
+  ],
+  "dramatic_purpose": "让沈词从“笃定不会离”第一次跌入失控边缘。",
+  "visual_reference": "前院石阶上，官服男子笔直长跪，父亲居高临下递出和离书，周围下人噤声，阳光下却透出寒意，尊严与执念同时被碾压",
+  "visual_prompt_negative": "避免夸张下跪哭嚎，避免现代离婚协议视觉，避免群像闹剧化",
+  "source_text_start": "唯有沈词。笔直地跪在我父亲面前。",
+  "source_text_end": "沈词的身体猛得一僵。"
+}

@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_005",
+  "name": "马球会场地",
+  "type": "exterior",
+  "era_style": "明代贵族户外马球场",
+  "description": "开阔的草地场地，四周设木质围栏。观众席搭建看台，有遮阳棚。场边种植柳树，随风摇曳。远处可见风筝飘扬。场地中央为比赛区域，沙尘飞扬。贵族们着华服观赛，侍从准备茶点果品。",
+  "visual_reference": "Ming Dynasty polo field, open grass arena, wooden fences, spectator pavilions with canopies, willow trees, kites in sky, aristocratic gathering, spring atmosphere, natural outdoor lighting, historical sports venue, elegant leisure scene",
+  "atmosphere": "春日、贵族社交、户外活动",
+  "color_palette": [
+    "草地绿",
+    "木栏褐色",
+    "天空蓝"
+  ],
+  "lighting": "春日明媚阳光，开阔无遮挡，光线充足",
+  "key_features": [
+    "木质围栏",
+    "观众看台",
+    "柳树",
+    "飘扬风筝"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "社交场合中的亲昵与嫉妒"
+}

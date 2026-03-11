@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_003",
+  "name": "医馆门外",
+  "type": "exterior",
+  "era_style": "明代街边医馆门脸",
+  "description": "传统明代医馆入口，木质门框上挂'医馆'或药名招牌，门前有路边柳树，地面青石板，旁有药包放置处，整体古朴简洁，医馆内隐约可见药柜，适合街头拦人谈判场景。",
+  "visual_reference": "明代古风医馆门外街景，木质招牌悬挂'悬壶济世'或医馆名，门前柳树摇曳，青石板地面，药包靠墙放置，建筑为青砖灰瓦，传统门楼结构，日光照射下略带尘土氛围",
+  "visual_prompt_negative": "现代车辆、招牌霓虹、混凝土建筑",
+  "atmosphere": "街头、紧张、谈判",
+  "color_palette": [
+    "青灰",
+    "木棕",
+    "柳绿",
+    "土黄"
+  ],
+  "lighting": "明亮白天自然光，柳树投下斑驳树影",
+  "key_features": [
+    "医馆招牌",
+    "路边柳树",
+    "药包"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "恨意翻涌的四目相对"
+}

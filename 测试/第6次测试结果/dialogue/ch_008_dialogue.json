@@ -1,0 +1,227 @@
+[
+  {
+    "id": "dl_0062",
+    "scene_id": "scene_022",
+    "character_id": "char_高令宁",
+    "line": "若你实在心疼，不如便将她纳进来吧。",
+    "subtext": "表面是在给沈词出主意，实则带着试探与讥讽，逼他面对自己对陆姝仪的感情和责任。",
+    "emotion_intensity": 0.46,
+    "order": 1
+  },
+  {
+    "id": "dl_0063",
+    "scene_id": "scene_022",
+    "character_id": "char_沈词",
+    "line": "你此时倒做上好人了，",
+    "subtext": "他不相信高令宁是真心成全，认为她是在冷嘲热讽，借此表达防备与不满。",
+    "emotion_intensity": 0.62,
+    "order": 2
+  },
+  {
+    "id": "dl_0064",
+    "scene_id": "scene_022",
+    "character_id": "char_沈词",
+    "line": "如今姝仪是我名义上妹妹……",
+    "subtext": "他拿身份伦理作挡箭牌，回避自己真实的情感纠葛，也是在为自己的犹疑辩护。",
+    "emotion_intensity": 0.5,
+    "order": 3
+  },
+  {
+    "id": "dl_0065",
+    "scene_id": "scene_022",
+    "character_id": "char_高令宁",
+    "line": "对外宣称她病逝，私下接入府中，不就成了？",
+    "subtext": "她提出极端而现实的解决方案，实际上是在揭破规矩体面都可以被权宜牺牲，关键只看沈词敢不敢做。",
+    "emotion_intensity": 0.54,
+    "order": 4
+  },
+  {
+    "id": "dl_0066",
+    "scene_id": "scene_022",
+    "character_id": "char_高令宁",
+    "line": "等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。",
+    "subtext": "她主动把自己从这段关系里剔除，既是成全，也是明确表达自己离开的决心。",
+    "emotion_intensity": 0.57,
+    "order": 5
+  },
+  {
+    "id": "dl_0067",
+    "scene_id": "scene_022",
+    "character_id": "char_沈词",
+    "line": "我与姝仪，并无男女之情。",
+    "subtext": "他急于划清界限，不只是解释，更像是在为自己辩白，甚至试图纠正高令宁对他的认知。",
+    "emotion_intensity": 0.63,
+    "order": 6
+  },
+  {
+    "id": "dl_0068",
+    "scene_id": "scene_022",
+    "character_id": "char_沈词",
+    "line": "从始至终，我只是想要她余生顺遂，是你一直扭曲我们的感情，怨怼于我。",
+    "subtext": "他将责任推回给高令宁，试图证明自己无私清白，同时也在控诉她长期以来对自己的误解。",
+    "emotion_intensity": 0.74,
+    "order": 7
+  },
+  {
+    "id": "dl_0069",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "你这般心疼睿儿，来日生下他，只怕是要在沈府赖一辈子。",
+    "subtext": "看似打趣，实则是在试探高令宁会不会因为孩子留下，也流露出他希望她留下的心思。",
+    "emotion_intensity": 0.56,
+    "order": 8
+  },
+  {
+    "id": "dl_0070",
+    "scene_id": "scene_023",
+    "character_id": "char_高令宁",
+    "line": "你想多了。",
+    "subtext": "她直接切断他的幻想，不愿让他误会自己会因孩子改变离开的决定。",
+    "emotion_intensity": 0.41,
+    "order": 9
+  },
+  {
+    "id": "dl_0071",
+    "scene_id": "scene_023",
+    "character_id": "char_高令宁",
+    "line": "我做完月子便走，不会纠缠。",
+    "subtext": "她重申和离立场，也是在维护自己最后的边界与体面。",
+    "emotion_intensity": 0.69,
+    "order": 10
+  },
+  {
+    "id": "dl_0072",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "那沈睿……",
+    "subtext": "他借孩子发问，真实关切的是她是否真的会离开，以及这个家会不会因此破裂。",
+    "emotion_intensity": 0.48,
+    "order": 11
+  },
+  {
+    "id": "dl_0073",
+    "scene_id": "scene_023",
+    "character_id": "char_高令宁",
+    "line": "有孩子的夫妇和离得也不少，睿儿能理解，无论你是否续娶，我都会定时来看他。",
+    "subtext": "她已把分开后的生活考虑清楚，强调自己不会用孩子绑住婚姻，也不会彻底放弃母亲身份。",
+    "emotion_intensity": 0.7,
+    "order": 12
+  },
+  {
+    "id": "dl_0074",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "高令宁，你又说气话。",
+    "subtext": "他拒绝承认她的认真，把她的决定降格为情绪发作，以逃避直面她真正要离开的事实。",
+    "emotion_intensity": 0.53,
+    "order": 13
+  },
+  {
+    "id": "dl_0075",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "你这边和离，我便立即娶姝仪入府……",
+    "subtext": "他故意拿陆姝仪刺激高令宁，想逼出她的嫉妒和在意，以证明她仍然爱他、舍不得他。",
+    "emotion_intensity": 0.66,
+    "order": 14
+  },
+  {
+    "id": "dl_0076",
+    "scene_id": "scene_023",
+    "character_id": "char_高令宁",
+    "line": "有何不妥？",
+    "subtext": "她没有如他预期般动怒，而是平静接受，借此表明自己真的已不再被刺痛。",
+    "emotion_intensity": 0.44,
+    "order": 15
+  },
+  {
+    "id": "dl_0077",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "你这般恨我，岂能看着我余生和姝仪和和美美？",
+    "subtext": "他仍执意把她定义为因恨而执着，实际上是在确认她是否还对自己有强烈感情。",
+    "emotion_intensity": 0.64,
+    "order": 16
+  },
+  {
+    "id": "dl_0078",
+    "scene_id": "scene_023",
+    "character_id": "char_高令宁",
+    "line": "你放心，我想开了，以后都不会恨你了。",
+    "subtext": "她真正表达的是放下过去、准备抽身而去；不恨并非原谅，而是彻底不再把他放在心上。",
+    "emotion_intensity": 0.76,
+    "order": 17
+  },
+  {
+    "id": "dl_0079",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "高令宁，",
+    "subtext": "这声呼唤先于质问，表明他情绪骤然失控，想抓住她正在远离的心。",
+    "emotion_intensity": 0.61,
+    "order": 18
+  },
+  {
+    "id": "dl_0080",
+    "scene_id": "scene_023",
+    "character_id": "char_沈词",
+    "line": "谁准你想开了？",
+    "subtext": "他不能接受她真正放下自己，这句话暴露出强烈的占有欲和失控感，而非单纯愤怒。",
+    "emotion_intensity": 0.91,
+    "order": 19
+  },
+  {
+    "id": "dl_0081",
+    "scene_id": "scene_024",
+    "character_id": "char_沈词",
+    "line": "其实上一世，我有许多对不住你的地方。",
+    "subtext": "他难得主动认错，试图弥补过去，也是在为重新修复两人关系打开缺口。",
+    "emotion_intensity": 0.72,
+    "order": 20
+  },
+  {
+    "id": "dl_0082",
+    "scene_id": "scene_024",
+    "character_id": "char_高父",
+    "line": "姑爷看起来，是把你捧在心尖上的。",
+    "subtext": "他以旁观者角度肯定沈词的表现，实际上是在劝女儿重新相信婚姻与丈夫。",
+    "emotion_intensity": 0.39,
+    "order": 21
+  },
+  {
+    "id": "dl_0083",
+    "scene_id": "scene_025",
+    "character_id": "char_高父",
+    "line": "如今我看你们感情甚好，又有孩子，那位表小姐也即将出嫁，不如便这般过下去吧。",
+    "subtext": "他希望女儿放下旧怨，珍惜眼前表面的圆满，劝她不要轻易结束婚姻。",
+    "emotion_intensity": 0.47,
+    "order": 22
+  },
+  {
+    "id": "dl_0084",
+    "scene_id": "scene_025",
+    "character_id": "char_高父",
+    "line": "至亲至疏夫妻，世间夫妻不大都如此吗？",
+    "subtext": "他在用世俗经验淡化夫妻间的隔阂，劝她接受婚姻本就不可能全然契合。",
+    "emotion_intensity": 0.36,
+    "order": 23
+  },
+  {
+    "id": "dl_0085",
+    "scene_id": "scene_025",
+    "character_id": "char_高令宁",
+    "line": "爹爹不觉得我和姑爷性子太左，难以磨合吗？",
+    "subtext": "她是在向父亲确认自己的犹疑并非无理，也借此再次表达这段婚姻的根本问题没有解决。",
+    "emotion_intensity": 0.49,
+    "order": 24
+  },
+  {
+    "id": "dl_0086",
+    "scene_id": "scene_025",
+    "character_id": "char_高父",
+    "line": "先前我正是担心，才不希望你嫁入沈家，不过我未曾想，你们成亲后，和之前比起来，竟都变了许多。",
+    "subtext": "他承认曾有顾虑，但如今更倾向相信两人能磨合成功，继续劝她珍惜改变后的关系。",
+    "emotion_intensity": 0.43,
+    "order": 25
+  }
+]

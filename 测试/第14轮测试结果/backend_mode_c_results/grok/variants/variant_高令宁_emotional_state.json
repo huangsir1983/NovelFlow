@@ -1,0 +1,31 @@
+{
+  "variant_id": "高令宁_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 前世恨意",
+  "tags": [
+    "前世",
+    "愤怒",
+    "要强崩溃"
+  ],
+  "scene_ids": [
+    "scene_003",
+    "scene_004"
+  ],
+  "trigger": "前世沈家正房砸杯立威或内院女儿死后冷战对峙时",
+  "appearance_delta": {
+    "face": "眼神充满强烈恨意，眼睛微红锐利",
+    "body": "苗条挺拔略显憔悴",
+    "hair": "乌黑长发盘髻可能略微凌乱",
+    "distinguishing_features": "激烈要强姿态，充满报复与仇恨气质"
+  },
+  "costume_override": {
+    "outfit": "沈家日常襦裙或寝衣",
+    "color_palette": [
+      "粉白",
+      "淡青"
+    ]
+  },
+  "visual_reference": "一位20岁古代女子，瓜子脸柳眉杏眼眼神锐利充满恨意眼眶微红，苗条挺拔身材略憔悴，乌黑长发盘髻略散，身穿淡色襦裙站在沈家内室，手持碎瓷片或推搡姿态，氛围紧张昏暗压抑，光影古典，古代中国风",
+  "visual_prompt_negative": "现代服装、短发、甜美笑容、放松姿态、明亮光影",
+  "emotional_tone": "恨意滔天，争强好胜报复"
+}

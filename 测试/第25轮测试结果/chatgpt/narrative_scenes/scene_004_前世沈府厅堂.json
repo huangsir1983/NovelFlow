@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 沈府新婚厅堂 - 夜",
+  "location": "前世沈府厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世婚后第二日，沈母逼陆姝仪敬茶欲立平妻，我当场砸杯以瓷片抹脖子反击，震慑全府。",
+  "key_dialogue": "没有人可以拿捏我。",
+  "emotional_peak": "我以近乎自毁的方式立威，彻底打破新婚假象。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "茶杯",
+    "瓷片",
+    "敬茶礼"
+  ],
+  "dramatic_purpose": "补全前世最初的婚姻创伤，解释女主今生的尖锐与不让。",
+  "visual_reference": "古代厅堂敬茶场面骤然失控，碎瓷在地，女子颈间见血，众人惊惧。",
+  "visual_prompt_negative": "不要血腥特写，不要现代客厅，不要夸张武打，不要喜剧化。",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。",
+  "source_text_end": "我也拿她给整个沈家立威。没有人可以拿捏我。"
+}

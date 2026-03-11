@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_022",
+  "name": "高府宴厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸家宴厅",
+  "description": "宴厅为可举办满月宴的中型厅堂，席位排布整齐，宾客座椅围绕中央留出通行区域。桌上摆点心、酒杯与宴席器皿，四周有红绸装饰，喜庆程度低于婚礼但仍保留庆贺气氛。婴孩长命锁、请帖和礼单类物件可置于显眼处，显示这是围绕新生儿展开的家宴。整体陈设体面而稳重，不似勋贵府邸铺张。由于不请自来的来客打破气氛，空间应能容纳众目注视与突发揭密的尴尬凝滞。",
+  "visual_reference": "Late Ming dynasty family banquet hall in an official Chinese mansion, full moon celebration setup, neat guest seating, dessert plates, wine cups, subtle red silk decorations, infant longevity lock displayed, invitation cards, dignified but not extravagant hall, formal gathering disrupted by an unexpected female guest, tense revelation scene, historical Chinese drama realism, highly detailed",
+  "atmosphere": "喜宴表面、暗潮再起、真相揭露、众目凝固",
+  "color_palette": [
+    "节庆朱红",
+    "米金",
+    "沉稳木褐"
+  ],
+  "lighting": "日间厅堂明亮，适度辅以室内暖光，原本应轻快温和，但因气氛冻结而显得异常清晰冷峻。",
+  "key_features": [
+    "满月宴席面与宾客座椅",
+    "婴孩长命锁",
+    "红绸装饰下的揭密对峙"
+  ],
+  "narrative_scenes": [
+    "scene_025"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从庆贺新生的短暂平稳，骤然转入旧案真相揭开的震惊和脸色惨白。"
+}

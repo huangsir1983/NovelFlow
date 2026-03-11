@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 沈家正堂 - DAY",
+  "location": "沈家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "媒人提亲，聘礼减半，高令宁退还木雁要求加聘",
+  "key_dialogue": "聘礼太薄，我不满意。",
+  "emotional_peak": "震惊与讥诮对视",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "木雁",
+    "金银绸缎聘礼箱"
+  ],
+  "dramatic_purpose": "揭示双方重生，建立初次冲突",
+  "source_text_start": "媒人来提亲时，聘礼比前世少了一半。",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

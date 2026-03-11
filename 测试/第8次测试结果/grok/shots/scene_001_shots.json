@@ -1,0 +1,203 @@
+[
+  {
+    "id": "shot_0008",
+    "scene_id": "scene_001",
+    "shot_number": 1,
+    "goal": "建立封闭压抑的室内环境，展示父亲焦虑绕圈动作和主角初始沉默注视的姿态，推动父女对峙开场",
+    "composition": "全景构图，父亲在房间中央动态踱步形成圆形轨迹，主角坐在左侧椅子上姿态优雅挺拔（怀孕身形），\n右侧窗纸侧逆光切割木梁和人物，留白强调私密压抑感",
+    "camera_movement": "slow pan",
+    "framing": "FS",
+    "emotion_target": "营造家庭对话的压抑氛围，让观众感受到父亲的不满与主角的隐忍",
+    "duration_hint": "4-5s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 8
+  },
+  {
+    "id": "shot_0009",
+    "scene_id": "scene_001",
+    "shot_number": 2,
+    "goal": "父亲第一句质问‘你发什么疯？’，展示其困惑不满表情",
+    "composition": "父亲位于画面右侧中景位置，背景虚化木柱，前景主角肩部轻微遮挡形成OTS，侧光突出额头皱纹和锐利双眼",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "传递父亲的震惊与无法理解，观众开始感受到张力",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 9
+  },
+  {
+    "id": "shot_0010",
+    "scene_id": "scene_001",
+    "shot_number": 3,
+    "goal": "主角反应镜头，沉默注视父亲，眼神游移进入短暂回忆，暗示前世记忆",
+    "composition": "主角特写，居中构图，眼神略向右上方游移，丹凤眼透出睿智与隐忍，柔和窗光侧逆打脸部，背景父亲身影虚化",
+    "camera_movement": "slow zoom in",
+    "framing": "CU",
+    "emotion_target": "让观众感受到主角内心的复杂与克制，引发对她过去的好奇",
+    "duration_hint": "4s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.4,
+    "order": 10
+  },
+  {
+    "id": "shot_0011",
+    "scene_id": "scene_001",
+    "shot_number": 4,
+    "goal": "父亲第二句台词，提醒过去爱慕并质疑转变，强调家族压力",
+    "composition": "父亲MCU正面偏右，踱步至画面中心，表情加重困惑，手势轻微强调，背景家具形成引导线",
+    "camera_movement": "handheld subtle (跟随踱步不安)",
+    "framing": "MCU",
+    "emotion_target": "增强父亲的担忧与对女儿转变的不解，积累情感张力",
+    "duration_hint": "4s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 11
+  },
+  {
+    "id": "shot_0012",
+    "scene_id": "scene_001",
+    "shot_number": 5,
+    "goal": "主角继续沉默反应，眼神更深邃，准备打断，嘴角微动预示冷笑",
+    "composition": "主角CU偏左，眼神直视父亲方向，柳眉微挑，脖颈线条优雅，侧光突出坚定轮廓，内心独白可叠加",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "观众感受到主角从克制到即将爆发的内心转变",
+    "duration_hint": "2.5s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 12
+  },
+  {
+    "id": "shot_0013",
+    "scene_id": "scene_001",
+    "shot_number": 6,
+    "goal": "父亲第三句台词‘你今日给了沈公子好大一个难堪……’，试图劝说",
+    "composition": "父亲MS，位于画面左侧，身体略前倾面向主角，忧虑眼神直接，背景窗光形成高对比",
+    "camera_movement": "dolly in slow",
+    "framing": "MS",
+    "emotion_target": "强化父亲对后果的担忧，推高对话张力",
+    "duration_hint": "3.5s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 13
+  },
+  {
+    "id": "shot_0014",
+    "scene_id": "scene_001",
+    "shot_number": 7,
+    "goal": "主角突然打断，嘴角浮现冷笑，坚定回应‘我知道。’",
+    "composition": "主角MCU转CU推进，脸部居中，丹凤眼锐利直视，嘴角冷笑弧度明确，头发玉簪反射光线，象征决心",
+    "camera_movement": "push in (dolly/zoom)",
+    "framing": "MCU",
+    "emotion_target": "观众感受到主角的反转与泄恨的决绝快感",
+    "duration_hint": "3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 14
+  },
+  {
+    "id": "shot_0015",
+    "scene_id": "scene_001",
+    "shot_number": 8,
+    "goal": "主角第二句‘谁说我不想嫁？’ 反转父亲假设，展示隐藏决心",
+    "composition": "主角特写，画面左侧留白引导视线，表情从冷笑转为坚定，眼睛透出重生睿智光芒，侧逆光切割脸部锋芒",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "引发观众对主角真实意图的惊讶与期待",
+    "duration_hint": "2.5s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 15
+  },
+  {
+    "id": "shot_0016",
+    "scene_id": "scene_001",
+    "shot_number": 9,
+    "goal": "主角高潮宣示‘我一定要嫁。’，确立复仇掌控决心，推动情节",
+    "composition": "主角大特写或紧CU，占据画面中心偏上，眼神直视镜头方向（第一人称冲击），唇形坚定，背景虚化父亲反应",
+    "camera_movement": "slow zoom in tighter",
+    "framing": "ECU",
+    "emotion_target": "观众感受到主角的强烈意志与情感爆发，产生共鸣与紧张期待",
+    "duration_hint": "4s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 16
+  },
+  {
+    "id": "shot_0017",
+    "scene_id": "scene_001",
+    "shot_number": 10,
+    "goal": "父亲反应，长叹并露出忧虑神色，展示误解与张力延续",
+    "composition": "父亲CU，眉头紧锁，叹气时肩膀下沉，眼睛看向女儿，侧光强调银丝和皱纹，表达无力感",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众体会父女间的误解与父亲的关切忧虑，为后续铺垫",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 17
+  },
+  {
+    "id": "shot_0018",
+    "scene_id": "scene_001",
+    "shot_number": 11,
+    "goal": "双人收尾镜，父亲忧虑注视主角，主角坚定回视，强化决心与张力余韵",
+    "composition": "中景双人构图，父亲右侧背对稍虚，主角左侧实焦挺拔，180度线保持一致，窗光连接两人",
+    "camera_movement": "slow dolly out",
+    "framing": "MS",
+    "emotion_target": "以视觉节奏收束场景，留下父女情感冲突的回响",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲",
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.55,
+    "order": 18
+  }
+]

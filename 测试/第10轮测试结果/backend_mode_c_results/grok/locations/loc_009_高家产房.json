@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_009",
+  "name": "高家产房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸产房",
+  "description": "紧急布置的产房，中央产床铺血巾，侧边稳婆药盆与烛台，婴儿襁褓准备就绪，墙壁简洁挂帘，地面青砖，布局紧迫实用，装饰以红色织物和药具为主，营造生死紧张氛围。",
+  "visual_reference": "Urgent delivery room in Ming dynasty mansion, central birthing bed with blood-stained cloths, midwife's medicine basin and candle stands, prepared swaddling clothes, simple wall curtains, blue brick floor, tense dramatic night lighting, highly detailed historical",
+  "atmosphere": "紧张生死攸关",
+  "color_palette": [
+    "血红",
+    "烛黄",
+    "白襁褓",
+    "木褐"
+  ],
+  "lighting": "夜晚烛火摇曳的昏黄光影，投下戏剧性阴影",
+  "key_features": [
+    "产床血巾",
+    "稳婆药盆",
+    "婴儿襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "早产难产的惊恐到沈词落泪保母的释然"
+}

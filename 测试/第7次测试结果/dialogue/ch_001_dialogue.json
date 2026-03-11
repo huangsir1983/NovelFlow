@@ -1,0 +1,65 @@
+[
+  {
+    "id": "dl_0003",
+    "scene_id": "scene_000",
+    "character_id": "char_高父",
+    "line": "你发什么疯？",
+    "subtext": "他对女儿当众让沈家难堪的举动极其不解，也是在质问她为何突然违背先前态度，试图逼她给出解释。",
+    "emotion_intensity": 0.82,
+    "order": 0
+  },
+  {
+    "id": "dl_0004",
+    "scene_id": "scene_000",
+    "character_id": "char_高父",
+    "line": "之前你不是夸沈家哥乃是良婿之选，若能嫁给他此生无憾吗？怎么今日给他下这么大个脸？",
+    "subtext": "他在强调女儿过去对这门亲事的认可，借此指出她今日行为的反常；深层是担心她冲动行事，毁掉一门他认为不错的婚事，也让两家关系受损。",
+    "emotion_intensity": 0.78,
+    "order": 1
+  },
+  {
+    "id": "dl_0005",
+    "scene_id": "scene_000",
+    "character_id": "char_高父",
+    "line": "你今日给了沈公子好大一个难堪……",
+    "subtext": "他既是在陈述事实，也是在委婉责备，想让女儿意识到自己行为的后果，顾及沈家的颜面与婚事前景。",
+    "emotion_intensity": 0.6,
+    "order": 2
+  },
+  {
+    "id": "dl_0006",
+    "scene_id": "scene_000",
+    "character_id": "char_高令宁",
+    "line": "我知道。",
+    "subtext": "她并非失控或无知，而是清楚自己在做什么；这句表明让沈家难堪正是她有意为之。",
+    "emotion_intensity": 0.68,
+    "order": 3
+  },
+  {
+    "id": "dl_0007",
+    "scene_id": "scene_000",
+    "character_id": "char_高父",
+    "line": "你若真是不想嫁，为父找个由头回绝了便是，何须如此？",
+    "subtext": "他以为女儿是在用激烈方式拒婚，因此提出由自己出面善后；潜台词是希望她别再把事情闹大，也表明他愿意护着她。",
+    "emotion_intensity": 0.66,
+    "order": 4
+  },
+  {
+    "id": "dl_0008",
+    "scene_id": "scene_000",
+    "character_id": "char_高令宁",
+    "line": "谁说我不想嫁？",
+    "subtext": "她否认父亲对自己动机的判断，表明自己并非要退婚，而是在以另一种方式掌控这门婚事的主动权。",
+    "emotion_intensity": 0.74,
+    "order": 5
+  },
+  {
+    "id": "dl_0009",
+    "scene_id": "scene_000",
+    "character_id": "char_高令宁",
+    "line": "我一定要嫁。",
+    "subtext": "她态度坚决，婚事不仅不会取消，而且势在必行；真正目的并非单纯成婚，而是带着强烈执念与算计去完成这场婚姻。",
+    "emotion_intensity": 0.84,
+    "order": 6
+  }
+]

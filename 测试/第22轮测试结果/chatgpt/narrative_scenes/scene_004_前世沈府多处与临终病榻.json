@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT./MONTAGE. 沈府与病榻（前世回忆） - DAY/NIGHT",
+  "location": "前世沈府多处与临终病榻",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈睿",
+    "沈母"
+  ],
+  "core_event": "前世婚后数十年的主要裂痕被串联展示：分房冷待、家族打压、父亲入狱、陆姝仪之死、互相刺伤，直到高令宁临终与死后，沈词显露迟来的哀恸。",
+  "key_dialogue": "「若有来生，只做路人。」",
+  "emotional_peak": "两人明明生前咒彼此早死，真正死别时沈词却对着棺材无声痛哭。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "火盆中被烧的寝衣鞋袜",
+    "病榻药碗",
+    "寿衣",
+    "棺材"
+  ],
+  "dramatic_purpose": "建立前世完整情感债与爱恨纠缠的深层根基",
+  "source_text_start": "我是恨沈词的。\n恨他算计我，娶我回来，",
+  "source_text_end": "上一世撩狠话时，我们说过最多的便是若有来生，只做路人。"
+}

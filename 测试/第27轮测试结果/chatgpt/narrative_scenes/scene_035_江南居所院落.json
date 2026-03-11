@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_035",
+  "order": 34,
+  "heading": "EXT. 江南宅院 - day",
+  "location": "江南居所院落",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭"
+  ],
+  "core_event": "我带着昭昭远赴江南，远离京城纷扰，三年中把女儿养成聪慧明朗的孩子，也终于过上清净生活。",
+  "key_dialogue": "终于过了段清净日子。",
+  "emotional_peak": "迟来的宁静与母女新生",
+  "tension_score": 0.34,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "书信",
+    "珠宝盒",
+    "典籍"
+  ],
+  "dramatic_purpose": "展示和离后女主真正获得的人生状态，也让昭昭成为新的情感核心。",
+  "visual_reference": "江南院落白墙黛瓦，孩童在花木间嬉跑，女子坐廊下看书，案上是来自京城的书信、珠宝与典籍，阳光温润，生活感强，古风水乡静谧画面",
+  "visual_prompt_negative": "避免北方宅院风格、避免现代庭院、避免过度仙气、避免人物服饰宫廷化",
+  "source_text_start": "京城总有人纠缠。",
+  "source_text_end": "每数个月，我才会回他一封。\n也只是让他寄钱。"
+}

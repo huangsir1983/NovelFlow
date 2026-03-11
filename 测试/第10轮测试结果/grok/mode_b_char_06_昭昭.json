@@ -1,0 +1,46 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩可爱，圆脸大眼",
+    "body": "幼童娇小",
+    "hair": "细软童发",
+    "distinguishing_features": "阳光笑脸与蹦跳活力"
+  },
+  "costume": {
+    "typical_outfit": "彩色童装",
+    "color_palette": [
+      "粉",
+      "黄"
+    ]
+  },
+  "casting_tags": [
+    "可爱女儿",
+    "活泼童星"
+  ],
+  "visual_reference": "cute 3-year-old Chinese girl, bright smiling eyes, chubby cheeks, soft black hair, wearing colorful ancient child clothes, joyful expression, ancient Chinese setting, highly detailed, 8k",
+  "personality": "阳光开朗、聪明早慧",
+  "desire": "父母陪伴",
+  "flaw": "年幼无知",
+  "arc": "从婴儿到3岁活泼女孩",
+  "scene_presence": "出生、满月宴、江南堆雪",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "依恋",
+      "function": "新生活象征"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "被追寻",
+      "function": "纠缠理由"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "EXT. 马球场柳池旁 - DAY",
+  "location": "马球场柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁接受蒋晟献殷勤，撞见沈词与陆姝仪暧昧互动，高令宁故意假装崴脚倒向蒋晟，引发沈词嫉妒。",
+  "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+  "emotional_peak": "沈词视线交织瞬间，看到高令宁倒向蒋晟，面无表情地眯起眼睛。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "剥好皮的葡萄",
+    "风筝",
+    "马球杆",
+    "柳树枝"
+  ],
+  "dramatic_purpose": "展现四角关系的暗流涌动，女主主动出击刺激男主。"
+}

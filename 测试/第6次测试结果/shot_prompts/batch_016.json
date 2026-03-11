@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0102",
+    "shot_id": "shot_0096",
+    "prompt_text": "Subjective wide shot from Gao Lingning's point of view of a lively ancient Chinese polo field, galloping horses crossing horizontally through the frame, richly dressed spectators raising cups and talking with elegant gestures, blurred silhouettes of the marquis's wife and noble ladies on the right side as an indistinct social presence, festive aristocratic gathering seen from emotional distance; the horses kick up dust, figures feel animated yet unreachable, no single face becomes the focal point; open outdoor raceground, sun-bleached distance, drifting dust softening the far background, low-saturation warm-cool contrast with pale sunlight and muted robe colors, the scene feels prosperous but detached; cinematic historical drama realism, restrained observational framing, subtle film grain, highly detailed, Song dynasty aesthetic",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "natural daylight with side-backlit haze, sun-washed highlights, dusty atmospheric diffusion, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, plastic, glass skyscrapers, electric lights, microphones, cameras, vehicles, text, watermark, logo, low quality, blurry faces as focal point, oversaturated colors, sci-fi elements"
+  },
+  {
+    "id": "sp_0103",
+    "shot_id": "shot_0097",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; close-up, her face placed slightly right of center, lips gently tightened, gaze suddenly fixed, breath seeming to pause for a beat, her expression sinking into quiet emotional stillness; the left side of the frame is filled with large sun-bleached negative space, background crowd fully defocused into moving color blocks, outdoor aristocratic event under pale daylight, subtle cooling of mood within warm natural light, low-saturation warm-cool contrast; cinematic realism, intimate psychological portrait, shallow depth of field, delicate skin texture, fine film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, intimate portrait realism, film grain",
+      "lighting": "soft natural daylight with overexposed white negative space, gentle side light, slightly cooled emotional tone, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary makeup, modern hairstyle, electric lights, text, watermark, logo, low quality, deformed face, extra limbs, oversaturated colors, fantasy effects"
+  },
+  {
+    "id": "sp_0104",
+    "shot_id": "shot_0098",
+    "prompt_text": "Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting; medium close-up with him on the right side of the frame, his gaze lowered toward Gao Lingning, posture leaning forward slightly but stopping with restraint, as if about to shield her from the wind again yet first studying her expression, calm concern without intrusion; in the left foreground, Gao Lingning's shoulder and neck remain out of focus with one wind-blown strand of hair, outdoor noble gathering blurred behind him, pale daylight and faint dust in the air, low-saturation warm-cool contrast emphasizing steadiness and emotional distance; cinematic historical realism, shallow depth of field, controlled composition, fine film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "natural daylight with soft side-backlight, gentle dust diffusion, restrained contrast, low-saturation warm-cool balance"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, armor from wrong era, sunglasses, electric lights, text, watermark, logo, low quality, oversharpened, oversaturated colors, fantasy weapons, sci-fi details"
+  },
+  {
+    "id": "sp_0105",
+    "shot_id": "shot_0099",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, standing beside Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting; medium long shot, both figures standing in the left half of the frame, Gao Lingning on the inner side and Jiang Sheng on the outer side, he subtly turns his body to shield her as the wind rises, they do not look at each other, she keeps looking into the distance, composed companionship with unspoken distance; foreground table setting with a grape plate and banquet seat, background polo field and ladies' seating blurred by sunlight and drifting sand, side backlight outlining their silhouettes, low-saturation warm-cool contrast with pale gold light against muted teal and indigo garments; cinematic historical drama realism, restrained emotional staging, slight dolly-shot feeling, atmospheric dust, fine film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "side backlight with dusty haze, natural daylight, pale golden rim light, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern tableware, plastic fruit, electric lights, microphones, text, watermark, logo, low quality, extra fingers, deformed anatomy, oversaturated colors, fantasy atmosphere"
+  },
+  {
+    "id": "sp_0106",
+    "shot_id": "shot_0100",
+    "prompt_text": "Restrained subjective wide shot from Gao Lingning's position: Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen only as a half-body back view at the far right rear edge of the frame; in the middle and far distance across the willow pond stand Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, and Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic, facing each other near the poolside; faintly farther right in the rear, Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, remains on Gao Lingning's side of the space; foreground walking guests and drooping willow branches partially obstruct the view like a curtain, midground reflective pond water and stone path, diagonal visual axis across the water, quiet surface tension under natural daylight, low-saturation warm-cool contrast, airy yet painful atmosphere; cinematic historical realism, voyeuristic composition, layered depth, subtle film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "natural daylight with reflected pond light, soft side light through willow branches, low-saturation warm-cool contrast, gentle atmospheric haze"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary park design, plastic decorations, modern railings, electric lights, text, watermark, logo, low quality, flat lighting, oversaturated colors, fantasy scenery, sci-fi elements"
+  },
+  {
+    "id": "sp_0107",
+    "shot_id": "shot_0101",
+    "prompt_text": "Subjective medium long shot focused on Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic, standing on the left third of the frame and gently offering a kite forward with both hands, the kite placed slightly right of center as the visual focus; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, stands on the right third facing her, head lowered to look at the kite; drooping willow branches blur across the top foreground like a curtain, pond reflections brighten the hems of their robes from below, sparse background figures remain soft and out of focus, calm daily tenderness rendered as emotionally piercing evidence, low-saturation warm-cool contrast with pale waterlight and muted pink-blue garments; cinematic historical drama realism, controlled dolly-like framing, shallow depth, fine film grain, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "natural daylight with soft reflected light from pond water, filtered light through willow branches, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern kite design, plastic materials, electric lights, text, watermark, logo, low quality, oversaturated colors, cartoon style, fantasy glow, contemporary background objects"
+  }
+]

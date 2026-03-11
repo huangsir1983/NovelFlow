@@ -1,0 +1,46 @@
+{
+  "name": "沈府小厮",
+  "aliases": [
+    "小厮"
+  ],
+  "role": "minor",
+  "age_range": "14-20岁",
+  "appearance": {
+    "face": "年轻清秀，神情谨慎，带下人特有的恭顺与机灵",
+    "body": "瘦小灵活",
+    "hair": "束发简单整齐",
+    "distinguishing_features": "行动迅速，常低眉顺眼传话跑腿"
+  },
+  "costume": {
+    "typical_outfit": "青灰色下人短打或简朴长衫",
+    "color_palette": [
+      "青灰",
+      "土褐"
+    ]
+  },
+  "casting_tags": [
+    "传话下人",
+    "豪门仆从"
+  ],
+  "visual_reference": "中国古代豪门小厮，少年模样，清秀机灵，穿青灰色简朴短打，低头躬身，手捧口信或礼盒，站在宅门或廊下，写实古风配角",
+  "visual_prompt_negative": "避免现代仆役制服、避免脏污乞丐感、避免夸张搞笑表情",
+  "personality": "谨慎听命，识趣，少言",
+  "desire": "完成差事，不惹主子不快",
+  "flaw": "地位低微，缺乏主见",
+  "arc": "无明显弧线",
+  "scene_presence": "负责往返高家与沈家传话，如义妹出嫁前不答应婚事等信息传递",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "主仆",
+      "dynamic": "忠实听命，代为执行琐碎事务",
+      "function": "推动信息流转"
+    },
+    {
+      "target": "高令宁",
+      "type": "传话对象",
+      "dynamic": "面对女主冷淡而强势的要求只能照传",
+      "function": "强化女主对婚事的掌控"
+    }
+  ]
+}

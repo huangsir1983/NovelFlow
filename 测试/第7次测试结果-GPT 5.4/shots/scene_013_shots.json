@@ -1,0 +1,258 @@
+[
+  {
+    "id": "shot_0212",
+    "scene_id": "scene_013",
+    "shot_number": 1,
+    "goal": "建立这是回忆尽头的非现实意识空间，并把高令宁置于被前尘包围却暂时停滞的状态中。",
+    "composition": "WS。高令宁位于画面右下偏中，身形单薄立于一片黑茫留白中；左侧与上方漂浮着极淡的月光雾带，远处隐约叠出棺影与火光残痕，四周无明确边界，留白压迫主体，视觉引导线由月光斜落至她抬起前的头顶。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "宿命感、悬停感、从漫长旧梦中将醒未醒的不安。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 212
+  },
+  {
+    "id": "shot_0213",
+    "scene_id": "scene_013",
+    "shot_number": 2,
+    "goal": "明确女主从回忆中抬头的动作，提示意识开始重新聚焦。",
+    "composition": "MCU。高令宁居中偏右，肩背仍端直却有一瞬迟滞；前景是一层虚焦冷雾，背景黑场中有斜斜月光在她发髻和颈侧旧痕上勾出冷边，画面左侧留出大片空黑，像她尚未看清的过去。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "克制中的惊醒，像痛意迟到般缓慢抵达。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.22,
+    "order": 213
+  },
+  {
+    "id": "shot_0214",
+    "scene_id": "scene_013",
+    "shot_number": 3,
+    "goal": "以女主主观视角触发第一组记忆碎片，点出她与沈词之间的争执关系。",
+    "composition": "MS。主观POV下，黑暗中浮现一段前世争执画面：高令宁在画面左侧前景背身半侧，沈词在画面右侧中景正对她，二人之间隔着一道竖向暗影如门框切割；背景仅有病白墙面与摇曳烛火，空间被中长焦压紧。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "压抑、尖锐、礼法之下无法说破的敌意。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 214
+  },
+  {
+    "id": "shot_0215",
+    "scene_id": "scene_013",
+    "shot_number": 4,
+    "goal": "补一记沈词在争执中的失控边缘，强化前世怨偶关系的伤口。",
+    "composition": "CU。沈词位于画面左侧三分之一处，微微前倾，凤眼压低看向画外右侧的高令宁；前景右侧掠过一角虚焦衣袖，背景是暗红烛焰与深青阴影，脸部一半入暗，显出克制将裂的偏执。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "威压、危险、情绪失控前的一瞬绷断。",
+    "duration_hint": "1s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 215
+  },
+  {
+    "id": "shot_0216",
+    "scene_id": "scene_013",
+    "shot_number": 5,
+    "goal": "切回女主被记忆击中的反应，显示这些碎片并非旁观而是切肤之痛。",
+    "composition": "CU。高令宁位于画面右侧，视线固定画外左方，眼尾微红却不落泪；前景有一缕游移火光反射掠过她瞳孔，背景仍是黑茫，只有月白冷光贴着面颊与唇线，突出呼吸停顿。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "忍痛、清醒、情绪被强压住的刺感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.48,
+    "order": 216
+  },
+  {
+    "id": "shot_0217",
+    "scene_id": "scene_013",
+    "shot_number": 6,
+    "goal": "进入第二组记忆：冷战与疏离，说明二人关系并非单次冲突，而是长期裂缝。",
+    "composition": "MLS。前世室内被屏风切成前后两层，高令宁在画面左前景背坐，沈词在右后景立于半明半暗处，二人背向彼此，中间横着一张低案形成阻隔；烛光偏左，右侧沉入冷灰阴影，人物被礼制空间明确分隔。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "窒息、隔阂、比争吵更冷的心死感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 217
+  },
+  {
+    "id": "shot_0218",
+    "scene_id": "scene_013",
+    "shot_number": 7,
+    "goal": "转入守病记忆，提示怨偶关系中曾有迟来的补偿与无法挽回的照料。",
+    "composition": "MS。沈词位于画面右侧床前，俯身替病中的高令宁掖被；高令宁只占左下前景一段病白侧脸和手腕，焦点先落在沈词动作克制的手上，再带出他迟疑的神色；背景烛火低，床帐形成柔软但压迫的包围。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "复杂、迟疑、补偿来得太晚的酸冷。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 218
+  },
+  {
+    "id": "shot_0219",
+    "scene_id": "scene_013",
+    "shot_number": 8,
+    "goal": "用细节强化病榻记忆的身体感，让前世的伤与照料变得具体可触。",
+    "composition": "ECU。高令宁病中手腕横在画面下方，苍白细瘦；沈词的手从上方迟疑地覆上又轻轻收紧，二者之间仅隔一层褶皱素被；背景完全虚化成烛光与冷灰，触觉替代环境信息。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、迟到的亲近、无法回头的悔意。",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.6,
+    "order": 219
+  },
+  {
+    "id": "shot_0220",
+    "scene_id": "scene_013",
+    "shot_number": 9,
+    "goal": "进入停棺记忆，给出前世关系已到终局的决定性证据。",
+    "composition": "FS。黑暗中一具棺影浮于画面中央偏后，火光在下方两侧低低闪烁；高令宁不入画，沈词孤身立于画面右侧近前景，身形僵直，像被棺影吞没。上方残留一线冷月光，与下方火色形成冷暖对冲。",
+    "camera_movement": "steadicam",
+    "framing": "FS",
+    "emotion_target": "死亡既成、悔恨无用、宿命压顶。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 220
+  },
+  {
+    "id": "shot_0221",
+    "scene_id": "scene_013",
+    "shot_number": 10,
+    "goal": "给沈词在停棺前的反应特写，有限客观地观察其迟来的崩裂。",
+    "composition": "CU。沈词位于画面中央，视线垂向画外下方棺木，唇线绷紧近乎失色；前景有一抹虚焦火焰偶尔掠过，背景全黑，只留冷白轮廓线压住他的侧脸，使表情更近于被掏空。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "失控前的死寂、悔恨、情感坠落。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 221
+  },
+  {
+    "id": "shot_0222",
+    "scene_id": "scene_013",
+    "shot_number": 11,
+    "goal": "切回女主当下，完成‘这一切已成前世’的意识落点。",
+    "composition": "CU。高令宁位于画面中央偏右，眼神不再追逐碎片，而是定住前方虚空；背景中的棺影、火光、月色在她身后逐层熄暗，像从她瞳孔中退出。颈侧旧痕在冷光下更清晰，呼吸停在喉间。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "恍然、断念、把旧痛从‘正在发生’认回‘已经死去’的冰冷。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.66,
+    "order": 222
+  },
+  {
+    "id": "shot_0223",
+    "scene_id": "scene_013",
+    "shot_number": 12,
+    "goal": "以抽象化画面承接余音‘若有来生，只做路人’，让誓言成为本场情绪最低谷。",
+    "composition": "WS。高令宁缩小至画面下方中央，周围所有记忆意象逐一熄灭，只剩一束冷月光自上方落下；四周空黑吞噬空间，火光最后一点余烬在左下角灭去，形成彻底的空茫。",
+    "camera_movement": "zoom",
+    "framing": "WS",
+    "emotion_target": "心灰、决绝、前缘尽断的寒意。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 223
+  },
+  {
+    "id": "shot_0224",
+    "scene_id": "scene_013",
+    "shot_number": 13,
+    "goal": "打断余音，呈现‘真能重来’这一核心认知在女主心中骤然亮起。",
+    "composition": "ECU。高令宁一只眼占据画面右侧大部分，瞳孔里原本熄灭的冷光突然微亮；左侧仍是纯黑留白，像未知的新生入口。睫毛与眼尾细小颤动成为唯一动作。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "骤醒、难以置信、理智先于情绪做出判断的锋利感。",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 224
+  },
+  {
+    "id": "shot_0225",
+    "scene_id": "scene_013",
+    "shot_number": 14,
+    "goal": "收束本场：女主接受重来前提，并为后续今生故事建立冷静而危险的情感起点。",
+    "composition": "MCU。高令宁位于画面中央，缓慢抬正头颈，肩背重新绷直；前景无物，背景只剩极淡月白雾层，不再有任何前世意象。她面朝镜头略偏左，眼神已经从回忆转向未来，留白稳定而冷。",
+    "camera_movement": "steadicam",
+    "framing": "MCU",
+    "emotion_target": "重整、自持、带着旧恨清醒踏入新局的决意。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.26,
+    "order": 225
+  }
+]

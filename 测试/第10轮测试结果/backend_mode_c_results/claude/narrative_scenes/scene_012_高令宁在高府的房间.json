@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府闺房 - 日",
+  "location": "高令宁在高府的房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "太医"
+  ],
+  "core_event": "高令宁怀孕，太医诊断是男孩",
+  "key_dialogue": "你这般心疼睿儿，来日生下他，只怕是要在沈府赖一辈子",
+  "emotional_peak": "高令宁对孩子的期待",
+  "tension_score": 0.4,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "虎头帽",
+    "针线",
+    "脉枕",
+    "药箱"
+  ],
+  "dramatic_purpose": "沈睿即将出生，推动情节"
+}

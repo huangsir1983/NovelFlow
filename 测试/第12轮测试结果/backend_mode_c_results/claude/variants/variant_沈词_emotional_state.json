@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 前世回忆中的冷漠状态",
+  "tags": [
+    "冷漠",
+    "旁观",
+    "前世",
+    "冷暴力"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "前世婚后第二日，旁观高令宁自残抹脖子的场景",
+  "appearance_delta": {
+    "face": "表情冷漠无情，眼神疏离",
+    "body": "站姿僵硬，保持距离",
+    "hair": "束发整齐",
+    "distinguishing_features": "琥珀色眸子冰冷无温度，面无表情"
+  },
+  "costume_override": {
+    "outfit": "玄黑色儒袍，衣着整洁但气氛压抑",
+    "color_palette": [
+      "玄黑",
+      "深灰",
+      "暗红"
+    ]
+  },
+  "visual_reference": "古代男子，二十五岁左右，清冷俊美的面容如白玉但表情冷漠无情，琥珀色的眸子冰冷疏离毫无温度，身着玄黑色儒袍，束发戴冠，身姿僵硬站立保持距离，站在沈府内室中，面无表情旁观眼前的混乱场景，眼神中没有任何情绪波动，整体氛围冷漠压抑带着冷暴力的残酷，光线昏暗压抑",
+  "visual_prompt_negative": "温柔笑容、关心表情、明亮色彩、现代服装、热情姿态、武将装束",
+  "emotional_tone": "冷漠无情，对妻子的冷暴力，前世婚姻的残酷"
+}

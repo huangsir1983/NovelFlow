@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 昭昭满月宴厅 - 日",
+  "location": "昭昭满月宴厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪不请自来坦白重生与设计陷害，沈词旁观",
+  "key_dialogue": "蒋晟的事，是我设计。",
+  "emotional_peak": "女主震惊释然",
+  "tension_score": 0.7,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "满月酒席",
+    "请帖",
+    "陆姝仪拜礼"
+  ],
+  "dramatic_purpose": "真相揭露与陆退出"
+}

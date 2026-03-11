@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0084",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0289",
+      "shot_0290",
+      "shot_0291"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属‘试探启动’段落：先建立可被看见的公共空间，再确认女主锁定沈词，最后完成她的临场决断。角色集合稳定，时空未变，情绪从被窥视的紧张推至带锋的主动，适合合并为一个起意段。",
+    "order": 84
+  },
+  {
+    "id": "seg_0085",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0292",
+      "shot_0293",
+      "shot_0294"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜构成完整的动作因果链：滑、扶、被看见。角色集中在女主与蒋晟，情绪快速升高但未转场，且都服务于制造‘可被误读的亲昵画面’，应合并为一个连续身体事件段。",
+    "order": 85
+  },
+  {
+    "id": "seg_0086",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0295",
+      "shot_0296",
+      "shot_0297"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段的情感弧线清晰：先给沈词受刺反应作‘观众后证实’，再让女主完成真正的主动挑衅，并以台词钉实策略。虽然视角在沈词与女主之间切换，但叙事核心仍是同一回合的公开试探，适合合并为一个对抗升级段。",
+    "order": 86
+  },
+  {
+    "id": "seg_0087",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0298",
+      "shot_0299",
+      "shot_0300"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜是一条完整的回应链：蒋晟被卷入、正式接手、再由沈词视角确认效果。角色核心没有新增，情绪从克制回应走到外部误读成立，属于同一动作闭环，适合合并。",
+    "order": 87
+  },
+  {
+    "id": "seg_0088",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0301",
+      "shot_0302",
+      "shot_0303"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜属于同一‘离场余波’单元：先交代行动线，再进入女主不回头却感知被追视的内在状态，最后落到沈词的压抑尾劲。角色集合在段末重新完整出现，但情绪已经从公开试探转入回冷与后劲，故作为收束段独立成段最合理。",
+    "order": 88
+  }
+]

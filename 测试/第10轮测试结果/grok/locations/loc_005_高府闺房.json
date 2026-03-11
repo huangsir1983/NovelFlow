@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_005",
+  "name": "高府闺房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸闺房",
+  "description": "精致女性卧室，中央雕花床与绣屏，梳妆台上摆茶盏与奏折，墙面挂丝绸帷幔，窗边小桌放父亲画像或物件，空间私密温馨，地面铺织锦地毯。",
+  "visual_reference": "Delicate Ming dynasty late period Chinese official mansion boudoir interior daytime, ornate carved bed with embroidered screen, dressing table holding tea cups and resignation memorial, silk drapes on walls, small table by window with father's portrait elements, intimate feminine space, woven carpet floor, soft daylight through paper windows",
+  "atmosphere": "温馨却笼罩父女冲突",
+  "color_palette": [
+    "粉红",
+    "浅木",
+    "淡青"
+  ],
+  "lighting": "柔和日光透过窗纱，营造温暖私密光影",
+  "key_features": [
+    "雕花床绣屏",
+    "辞官奏折",
+    "父亲画像小桌"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "决心与父爱冲突"
+}

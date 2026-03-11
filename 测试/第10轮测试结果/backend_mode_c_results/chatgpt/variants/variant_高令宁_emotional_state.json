@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_06",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 夜审决裂时",
+  "tags": [
+    "情绪爆发",
+    "受冤震怒",
+    "孕中受刺激",
+    "决裂前夜"
+  ],
+  "scene_ids": [
+    "scene_016",
+    "scene_017"
+  ],
+  "trigger": "高府厢房事件后，正厅夜审中被沈词再次认定恶毒，旧日冤屈集中爆发并当场掌掴对方。",
+  "appearance_delta": {
+    "face": "情绪激烈时眼眶泛红，神色锋利到近乎灼人，压抑已久的痛楚与愤怒完全外露。",
+    "body": "因怀孕而不宜剧烈动作，但站姿仍强撑笔直，带有摇摇欲坠又绝不服输的对抗感。",
+    "hair": "夜间奔波与争执后发髻稍乱，鬓发散落，失去白日养胎时的温和整洁。",
+    "distinguishing_features": "泛红眼尾、凌乱衣角、冷怒神情与甩巴掌后的决绝姿态，体现裂痕彻底不可逆。"
+  },
+  "costume_override": {
+    "outfit": "晚间在娘家穿着的端庄家常妇人装，外层披衣或披帛略有凌乱，仍保留孕期宽松剪裁。",
+    "color_palette": [
+      "墨黑",
+      "深青",
+      "月白",
+      "暗绛红"
+    ]
+  },
+  "visual_reference": "ancient Chinese noblewoman in a tense night confrontation inside a traditional hall, pale cool skin, oval face, sharp brows, almond eyes reddened with fury and grievance, black hair in a married updo slightly disheveled with loose side strands, slim pregnant figure in dark teal and moon-white hanfu with soft layers, standing rigidly after slapping someone, lamplight, witnesses in the background, intense dramatic Chinese period drama atmosphere",
+  "emotional_tone": "震怒、受辱、彻底决裂"
+}

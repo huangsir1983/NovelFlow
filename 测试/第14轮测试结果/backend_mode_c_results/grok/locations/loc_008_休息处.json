@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_008",
+  "name": "休息处",
+  "type": "mixed",
+  "era_style": "明代贵族马球竞技场",
+  "description": "夜间马球场附近休息凉阁，木结构半开放，内设软榻与衣角细节，灯笼照明，空间私密适合跪求与让步。",
+  "visual_reference": "明代贵族马球场夜间休息处混合空间，木结构半开放凉阁，内设软榻与衣角摆设，周边灯笼暖光，背景马球场暗影，古典夜景温馨却疲倦",
+  "visual_prompt_negative": "现代灯光、鲜艳色彩、卡通",
+  "atmosphere": "疲倦释然、私密谈判",
+  "color_palette": [
+    "灯笼橙红",
+    "木褐色",
+    "夜灰色"
+  ],
+  "lighting": "夜晚灯笼暖光与月光混合，柔和私密",
+  "key_features": [
+    "木凉阁",
+    "软榻陈设",
+    "灯笼照明"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "陆跪求留府到女主让步同意提亲的疲倦释然"
+}

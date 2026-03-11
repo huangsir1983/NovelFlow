@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "id": "scene_035",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 卧房 - DAY",
+    "location": "高府卧房",
+    "time_of_day": "day",
+    "description": "内室封闭，光线柔和，从窗棂斜照入内。床榻边有收拾好的包裹，案几上摆着养胎所用的汤药与日常细软，空间安静，带有回娘家暂住的生活痕迹。",
+    "action": "高令宁以养胎为由，将衣物和随身物件整理入包裹，离开沈家回到高府暂住。她动作利落，不与人多做解释，显出刻意抽离的态度。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "包裹",
+      "衣物",
+      "汤药"
+    ],
+    "dramatic_purpose": "建立高令宁主动撤回娘家的处境，表明她对沈词与陆姝仪婚事进展的疏离与观望态度。",
+    "tension_score": 0.32,
+    "dramatic_intensity": -0.36,
+    "order": 35
+  }
+}

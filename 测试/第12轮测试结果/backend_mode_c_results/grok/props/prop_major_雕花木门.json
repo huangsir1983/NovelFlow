@@ -1,0 +1,14 @@
+{
+  "name": "雕花木门",
+  "category": "furniture",
+  "description": "红木雕花双开门扇，门板厚重坚实，表面精雕细琢花鸟山水或吉祥云纹图案，门环为古铜材质，整体深褐色有自然包浆效果，开启时发出吱呀声。",
+  "visual_reference": "古代沈府雕花木门，明式红木家具风格，繁复精美浮雕花鸟纹饰，门半开或被推开状态，光线从门缝透入制造戏剧阴影，木纹真实包浆，古朴厚重，高细节",
+  "visual_prompt_negative": "现代简约门、金属门、无雕花、光亮新漆、西方风格、塑料材质",
+  "narrative_function": "象征私人空间界限被打破，沈词强行推门闯入制造冲突高潮，推动情节从公堂到私下对峙的转折",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_015",
+    "scene_016"
+  ],
+  "emotional_association": "震惊、对抗与情感爆发"
+}

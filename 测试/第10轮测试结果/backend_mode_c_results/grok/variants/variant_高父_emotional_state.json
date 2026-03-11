@@ -1,0 +1,29 @@
+{
+  "variant_id": "高父_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 坚定支持",
+  "tags": [
+    "支持",
+    "坚定",
+    "和离"
+  ],
+  "scene_ids": [
+    "scene_012"
+  ],
+  "trigger": "高府后院和离谈判时，从犹豫转为坚定支持女儿",
+  "appearance_delta": {
+    "face": "中年儒雅，皱纹渐增，眼角慈祥转为坚定温柔",
+    "body": "中等身材，疲惫但姿态坚定",
+    "hair": "花白束冠",
+    "distinguishing_features": "慈父眼神坚定无犹豫"
+  },
+  "costume_override": {
+    "outfit": "常服",
+    "color_palette": [
+      "深灰",
+      "墨绿"
+    ]
+  },
+  "visual_reference": "middle-aged Chinese official in ancient dynasty, kind and resolute paternal face with wrinkles, firm yet loving eyes free of initial hesitation, graying hair in bun, medium build standing supportively in dark casual robes, expression showing strong backing for daughter's divorce, highly detailed, daylight courtyard",
+  "emotional_tone": "坚定父爱"
+}

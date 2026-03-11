@@ -1,0 +1,86 @@
+[
+  {
+    "id": "seg_0019",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0038",
+      "shot_0039",
+      "shot_0040"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均处于同一礼仪铺垫阶段，角色集合稳定，无时空跳转，情绪从空间压迫收束到奉茶道具，适合合并为一个建立段，完成权力位置、刺激源与关键道具的连续递进。",
+    "order": 19
+  },
+  {
+    "id": "seg_0020",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0041",
+      "shot_0042",
+      "shot_0043"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头属于同一主观心理弧线：从现实凝视到生理应激，再到前世记忆刺入。虽含时空跳转，但由match cut直接连接，且服务于单一情绪爆点的蓄势，适合合并为一段主观爆发前兆。",
+    "order": 20
+  },
+  {
+    "id": "seg_0021",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0044",
+      "shot_0045",
+      "shot_0046"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段完成从内在蓄势到公开破坏的情感转折：动作爆发、道具碎裂、权威失手，构成单一爆点链条。角色集合虽切换观察对象，但仍处于同一瞬间冲突，不宜拆散。",
+    "order": 21
+  },
+  {
+    "id": "seg_0022",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0047",
+      "shot_0048",
+      "shot_0049"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜构成完整且不可分割的自伤动作链：拾片、贴颈、见血。情绪从危险认知直接升级到不可逆事实，是全场最大爆点，必须压缩在一个连续segment中维持生理冲击。",
+    "order": 22
+  },
+  {
+    "id": "seg_0023",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0050",
+      "shot_0051",
+      "shot_0052"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头围绕‘制止’这一新的行动中心展开：沈词由旁观者转为行动者，同时沈母权威彻底崩塌。角色关系发生明显重组，是一个自然的segment边界与新的情绪阶段。",
+    "order": 23
+  },
+  {
+    "id": "seg_0024",
+    "scene_id": "scene_000",
+    "shot_ids": [
+      "shot_0053",
+      "shot_0054",
+      "shot_0055"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜完成爆发后的余震回冷：棋子倒下、男主迟疑、女主夺回中心。情绪由混乱收束到冷硬胜利，角色集合缩回核心关系，适合作为场景结尾段封口。",
+    "order": 24
+  }
+]

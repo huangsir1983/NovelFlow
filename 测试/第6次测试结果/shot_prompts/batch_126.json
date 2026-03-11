@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0762",
+    "shot_id": "shot_0740",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, holding Zhaozhao, a delicate little Chinese girl with big luminous dark eyes, pale soft skin, small fragile build, soft black hair in neat twin buns, in her arms at the lower frame. Gao Lingning sits on the right side in a medium close-up, briefly startled, then the corner of her lips lifts into an extremely faint, almost disbelieving hollow smile, her gaze cold and steady; Zhaozhao remains calm and motionless as an emotional anchor. Interior noble chamber, stable soft window light and muted cool-warm contrast, pale window glow against gray-teal shadows, quiet bedding and old wood tones barely visible, unchanged background emphasizing someone else's off-screen collapse. Cinematic historical drama realism, restrained Song dynasty aesthetic, female-centered subjective framing, subtle film grain, highly detailed skin and fabric, emotionally precise composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "soft diffused window light, low-saturation cool-white and muted warm contrast, stable interior daylight with gentle side light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass windows in modern style, text, watermark, logo, low quality, blurry, oversaturated, deformed hands, extra fingers, bad anatomy"
+  },
+  {
+    "id": "sp_0763",
+    "shot_id": "shot_0741",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed. In a medium close-up he steps slightly forward without crossing the axis, shoulders and part of his tense hands visible, hands clenched rigidly at his sides, not touching her, eyes red at the edges with desperate restraint, expression revealing a cruel confession and emotional collapse. On the right foreground, blurred silhouette of Gao Lingning holding Zhaozhao remains visible as the perceptual center. Interior chamber with muted old wood, soft white window light, low-saturation gray-blue and brown palette, controlled natural daylight preserving negative space and relational tension. Cinematic historical drama realism, limited subjective perspective, emotional reversal, shallow depth of field, subtle dolly intimacy, fine fabric texture, restrained yet devastating atmosphere.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "soft natural window daylight, muted cool-white illumination with restrained warm-brown interior undertone, gentle side-back light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary hairstyle, electric fixtures, plastic, modern furniture, text, watermark, logo, low quality, blurry, overprocessed, bad anatomy, extra limbs, distorted face"
+  },
+  {
+    "id": "sp_0764",
+    "shot_id": "shot_0742",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated with Zhaozhao, a delicate little Chinese girl with big luminous dark eyes, pale soft skin, small fragile build, soft black hair in neat twin buns, in her arms. Gao Lingning sits on the right side in a medium shot, holding the child steadily, her face returned to calm with only the faint aftertaste of an incredulous smile, posture composed and unmoving. A large empty space fills the left side for the absent off-screen Shen Ci, creating emotional rupture. In the lower foreground, a clear divorce paper rests on a low bedside table; behind them, soft white winter-like window light stays unchanged, old wood and pale bedding subdued in the background. Cinematic historical drama realism, restrained ending frame, low-saturation gray-teal and old wood palette, quiet female-centered closure, highly detailed props and textiles, stillness after emotional shock.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "soft diffused white window light, balanced cool daylight with muted warm wood tones, stable low-contrast interior illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, printed modern paper, modern interior decor, electric lamps, plastic, text, watermark, logo, low quality, blurry, noisy image, bad anatomy, deformed hands"
+  },
+  {
+    "id": "sp_0765",
+    "shot_id": "shot_0743",
+    "prompt_text": "A snow-covered Jiangnan courtyard in ancient China, with Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated quietly at the right-front under the corridor edge, sunflower seeds visible in her hand. Zhaozhao, a delicate little Chinese girl with big luminous dark eyes, pale soft skin, small fragile build, soft black hair in neat twin buns, now older and lively, plays in the mid-right with several young men around a half-built snowman. Wide shot composition, the courtyard gate sits in the left rear third as a deep entry point, messy footprints stretch from the gate across the snow into the yard, old wooden doorframe and corridor pillars compress the frame. Cold white winter daylight spreads evenly over snow, gray courtyard walls and aged wood create a low-saturation cool-warm contrast, surface warmth in the family scene but with latent unease. Cinematic historical drama realism, Song dynasty aesthetic, environmental storytelling, crisp snow texture, restrained composition with ominous visual entrance left open.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, environmental wide shot, subtle film grain",
+      "lighting": "cold white overcast winter daylight, low-saturation natural light with muted warm wood accents, even soft illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern courtyard design, sneakers, synthetic fabrics, electric wires, plastic toys, text, watermark, logo, low quality, blurry, oversaturated, bad anatomy, duplicate figures"
+  },
+  {
+    "id": "sp_0766",
+    "shot_id": "shot_0744",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. She sits in the right third of the frame in a medium shot, body slightly turned left, gaze directed toward the courtyard, calm and self-possessed, fingers lightly moving around sunflower seeds and broken seed shells as the detail focus, her expression controlled and faintly detached. The left foreground carries blurred motion of Zhaozhao and young men crossing, creating a restricted subjective feel. Background shows cold gray courtyard wall, packed snow, and a small portion of old corridor pillar on the right. Low-saturation winter palette, pale snow light, muted teal-gray and old wood tones, quiet domestic order under tension. Cinematic historical drama realism, female cognition center, shallow depth of field, tactile close detail, restrained emotional distance, highly detailed costume and hand gesture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "soft cold winter daylight, muted natural side light, low-saturation cool-white illumination with slight warm wood undertone"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern snacks packaging, electric lights, plastic, modern wall textures, text, watermark, logo, low quality, blurry, bad hands, bad anatomy, oversharpened"
+  },
+  {
+    "id": "sp_0767",
+    "shot_id": "shot_0745",
+    "prompt_text": "Zhaozhao, a delicate little Chinese girl with big luminous dark eyes, pale soft skin, small fragile build, soft black hair in neat twin buns, now around six years old, dressed in layered winter hanfu in soft pale tones. She stands center-right in a medium long shot, bouncing as she gathers snow with bright lively energy; two young Chinese men in simple refined historical winter robes flank her loosely on left and right, another young man behind helps roll the snowman base, their interaction natural, close, and unforced. The lower foreground shows churned snow, scattered footprints, and smaller child tracks; the background leaves visible space toward the courtyard gate direction as a potential intrusion path. Cold white winter daylight over an old Jiangnan courtyard, gray walls and weathered wood, low-saturation palette with faint warmth in human presence and fragile joy that feels breakable. Cinematic historical drama realism, dynamic yet restrained steadicam feeling, crisp snow texture, emotionally foreshadowing composition, highly detailed faces, clothing, and movement.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, natural motion capture, subtle film grain",
+      "lighting": "soft overcast winter daylight, cool-white natural illumination with muted warm skin and wood contrast, even outdoor light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern winter coats, plastic sleds, synthetic gloves, electric fixtures, text, watermark, logo, low quality, blurry, motion artifacts, bad anatomy, extra limbs, duplicate people"
+  }
+]

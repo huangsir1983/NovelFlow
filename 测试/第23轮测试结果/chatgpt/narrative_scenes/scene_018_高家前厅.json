@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_018",
+  "order": 17,
+  "heading": "INT. 高家前厅 - DAY",
+  "location": "高家前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高父",
+    "沈母"
+  ],
+  "core_event": "沈家几次来接昭昭都被拒。沈母亲自上门，高父强硬警告：若沈家纠缠便闹上公堂，昭昭归高家。",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "高父彻底撕开两家体面，明确女儿与外孙女都不再由沈家拿捏。",
+  "tension_score": 0.83,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "拜帖",
+    "和离立场口头约定",
+    "前厅茶盏"
+  ],
+  "dramatic_purpose": "完成家族立场站队，防止剧情回流到沈家结构中。",
+  "source_text_start": "沈家几次来人，说沈母想看孙女，想接走昭昭。",
+  "source_text_end": "毕竟于她而言，昭昭是个女孩，无需传宗接代，不要便不要了。"
+}

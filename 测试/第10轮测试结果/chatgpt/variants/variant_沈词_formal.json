@@ -1,0 +1,33 @@
+{
+  "variant_id": "shen_ci_variant_01",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 提亲对峙时",
+  "tags": [
+    "清冷权臣",
+    "高门公子",
+    "重生试探",
+    "克制压迫感"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_005",
+    "scene_006"
+  ],
+  "trigger": "在高府提亲、门厅堵人谈判以及门外订立婚约条件时出现，处于理智主导、以利益和命运为筹码推进婚事的早期状态。",
+  "appearance_delta": {
+    "face": "面色冷白，神情比主设定更疏离锋利，眉眼间带明显审视与试探，几乎不见情绪松动。",
+    "body": "身姿笔直端正，站姿压迫感更强，动作少而精准，整体显得比后期更从容、更有掌控欲。",
+    "hair": "乌发束冠极为严整，发丝一丝不乱，呈现世家公子与准官身的讲究感。",
+    "distinguishing_features": "眼神像在衡量局势与人心，嘴角常有极淡讥诮；袖中藏着被木雁勒出的痕迹，暗示其执念与用力。"
+  },
+  "costume_override": {
+    "outfit": "深青或玄色上等圆领广袖袍，配玉冠与低调贵重腰饰，衣料挺括克制，符合上门提亲与正式拜访场合。",
+    "color_palette": [
+      "玄黑",
+      "墨青",
+      "冷玉白"
+    ]
+  },
+  "visual_reference": "ultra realistic ancient chinese aristocratic scholar-official male, pale refined face, cold dark eyes, sharp thin lips, black hair tied in an immaculate guan, tall slim build, dark cyan and black round-collar robe with wide sleeves, jade crown, restrained posture, standing in a noble mansion hall during a tense marriage proposal, aristocratic pressure, subtle mocking gaze, cinematic historical drama lighting",
+  "emotional_tone": "冷静、算计、强控"
+}

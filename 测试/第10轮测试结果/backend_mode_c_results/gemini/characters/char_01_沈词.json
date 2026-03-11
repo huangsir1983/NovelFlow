@@ -1,0 +1,50 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "antagonist",
+  "age_range": "18-28",
+  "appearance": {
+    "face": "面如冠玉，眼若冰湖，瞳孔呈琥珀色，常带清冷讥诮之色",
+    "body": "长身玉立，文臣风骨",
+    "hair": "束发戴冠，一丝不苟",
+    "distinguishing_features": "眼下常有疲惫的乌青，气质冷硬疏离，破防时眼尾发红"
+  },
+  "costume": {
+    "typical_outfit": "考究的文臣常服，大袖衫，材质挺括",
+    "color_palette": [
+      "玄色",
+      "藏青",
+      "暗紫"
+    ]
+  },
+  "casting_tags": [
+    "清冷权臣",
+    "追妻火葬场",
+    "偏执狂",
+    "高岭之花跌落神坛"
+  ],
+  "visual_reference": "1boy, ancient chinese handsome official, jade-like face, cold amber eyes, wearing dark blue traditional scholar robes, tall, melancholic and obsessive expression, masterpiece, 8k resolution",
+  "personality": "端方持重，自傲固执，嘴硬心软，极度缺乏情绪表达能力，后期偏执卑微",
+  "desire": "弥补前世遗憾，保全陆姝仪的同时，强行将高令宁和儿子留在身边",
+  "flaw": "傲慢，自以为是，用冷漠掩饰在意，永远在失去后才懂得珍惜",
+  "arc": "从高高在上、试图掌控一切的冷酷权臣，沦为失去一切、摇尾乞怜的疯批前夫",
+  "scene_presence": "贯穿全剧，主要与高令宁进行情感博弈",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "妻子/执念",
+      "dynamic": "试图掌控却屡屡挫败，最终被抛弃而陷入疯狂倒贴",
+      "function": "承受女主成长的反作用力"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅竹马/义妹",
+      "dynamic": "出于责任和愧疚过度保护，最终导致自己婚姻破裂",
+      "function": "道德枷锁与前期的情感避风港"
+    }
+  ]
+}

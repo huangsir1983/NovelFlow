@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高家正堂 - 日间",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "媒人提亲，女主退还木雁聘礼对峙沈词",
+  "key_dialogue": "聘礼太薄，我不满意。",
+  "emotional_peak": "沈词震惊掀眼皮，冷眸涟漪",
+  "tension_score": 0.7,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "木雁聘礼",
+    "金银绸缎箱笼",
+    "媒人礼单",
+    "正堂桌椅罗汉床",
+    "父亲官帽"
+  ],
+  "dramatic_purpose": "开启重生对峙，揭示双方重生"
+}

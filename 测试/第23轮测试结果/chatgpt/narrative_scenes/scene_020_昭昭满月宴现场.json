@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_020",
+  "order": 19,
+  "heading": "INT. 高家满月宴 - DAY",
+  "location": "昭昭满月宴现场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "陆姝仪拿蒋晟请帖不请自来，向高令宁坦白自己也重生了，前世投湖是为了离间，今生蒋晟失贞局也是她亲手设计，只因她无路可走。沈词在一旁听见真相，神色苍白。",
+  "key_dialogue": "蒋晟的事，是我设计。",
+  "emotional_peak": "真相迟到揭晓，高令宁终于洗清冤屈，但一切已无法回头。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "满月宴请帖",
+    "酒席礼单",
+    "拜礼"
+  ],
+  "dramatic_purpose": "为高府误会翻案，也让陆姝仪作为反面女性完成自我揭露。",
+  "source_text_start": "拿到和离书后。我开始养身体，闭门不出这期间",
+  "source_text_end": "几步之外，沈词沉默地注视着我, 神色苍白。"
+}

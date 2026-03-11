@@ -1,0 +1,31 @@
+{
+  "variant_id": "zhaozhao_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "昭昭 — 雪院玩耍状态",
+  "tags": [
+    "雪中相认",
+    "冬日",
+    "玩雪",
+    "牵动关系"
+  ],
+  "scene_ids": [
+    "scene_030"
+  ],
+  "trigger": "江南冬雪后，昭昭在院中与几名男子堆雪玩耍，沈词突然现身，被雪球砸中，昭昭成为这场情绪失控场面的天然引线。",
+  "appearance_delta": {
+    "face": "小脸因冬日玩耍泛起红润气色，眼睛比平时更兴奋明亮，神情天真外放",
+    "body": "幼童体态更显轻盈，动作活跃，在雪地中跑跳堆雪",
+    "hair": "童趣发髻在活动中略微松散，发丝边缘带些冬日湿润感",
+    "distinguishing_features": "带着玩雪后的鲜活朝气与无忧神态，在成人情感对峙中形成强烈反差"
+  },
+  "costume_override": {
+    "outfit": "适合冬日庭院活动的厚实童装，外搭小披风或夹袄，手中可拿雪球或玩雪小物",
+    "color_palette": [
+      "朱红",
+      "鹅黄",
+      "雪白"
+    ]
+  },
+  "visual_reference": "ancient chinese little girl playing in snow, around three years old, bright sparkling eyes, rosy cheeks from winter cold, soft black hair in playful buns slightly loosened, dressed in warm traditional child winter clothes with a small red cape or padded jacket, standing in a Jiangnan courtyard covered in snow, snowman and snowballs nearby, lively innocent expression, cinematic winter sunlight, highly detailed",
+  "emotional_tone": "天真、欢闹、无意中牵动暗流"
+}

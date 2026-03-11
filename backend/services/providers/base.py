@@ -51,3 +51,7 @@ class ProviderAdapter(ABC):
     @abstractmethod
     def health_check(self) -> bool:
         ...
+
+    def close(self) -> None:
+        """Close underlying connections. Override in subclasses with persistent clients."""
+        pass

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_034",
+  "order": 33,
+  "heading": "INT. 高家产房 - night",
+  "location": "高家产房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "稳婆",
+    "太医"
+  ],
+  "core_event": "我早产又难产，稳婆逼沈词在保大保小之间做主，我以为他会选孩子，他却红着眼坚持要我活着。",
+  "key_dialogue": "「我要高令宁。」",
+  "emotional_peak": "在我彻底绝望时，他第一次明确选择了我。",
+  "tension_score": 0.97,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "床单",
+    "稳婆剪刀",
+    "药碗"
+  ],
+  "dramatic_purpose": "翻转女主对沈词底线的认知，也让生死羁绊进一步复杂。",
+  "visual_reference": "昏暗产房混乱而压迫，女子满头冷汗抓紧床单，稳婆急问保大保小，男子站在床前面色失血、眼眶发红，决定像刀一样落下",
+  "visual_prompt_negative": "避免血腥分娩细节，避免喜庆气氛，避免医闹式混乱",
+  "source_text_start": "眼前是深不见底的黑。 稳婆和太医都到了。",
+  "source_text_end": "我猛得睁开眼，对上他血色尽失的脸。 他指着我，双眼通红：「我要她活着。」"
+}

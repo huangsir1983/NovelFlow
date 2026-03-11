@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "FLASHBACK. 京城夜市 - night",
+  "location": "京城街市",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "为了保胎与缓和关系，沈词久违地拉我去看街市烟火，并在灯火下为未出生的女儿取名“静好”。",
+  "key_dialogue": "「就叫静好吧。」",
+  "emotional_peak": "短暂温柔几乎让人误以为他们还能重新开始。",
+  "tension_score": 0.48,
+  "estimated_duration_s": 65,
+  "key_props": [
+    "鱼龙灯",
+    "药包",
+    "手"
+  ],
+  "dramatic_purpose": "在悲剧前加入短暂和暖，对照随后更残酷的失去。",
+  "visual_reference": "夜市灯海中，孩子们提着鱼龙灯跑过，夫妻并肩站在街头，男子低声说名字，女子神色复杂，温暖表面下暗藏裂痕",
+  "visual_prompt_negative": "避免现代夜景灯牌，避免节庆狂欢抢戏，避免甜蜜拥抱定式",
+  "source_text_start": "为让我郁结疏解，他也曾像刚成亲时那般，拉着我的手到府外，去看市井烟火。",
+  "source_text_end": "「琴瑟在御，莫不静好。」"
+}

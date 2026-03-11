@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_009",
+  "name": "侯府临时医室",
+  "type": "interior",
+  "era_style": "明代中晚期侯门府邸临时设医的暖阁内室",
+  "description": "医室并非正式诊堂，而是侯府宴会期间临时整理出的暖阁或偏室。空间以帘帐分隔，内设软塌、扶手椅、脚凳，方便女眷诊治。药箱、绷带、药碗、汤匙等器具集中放于小案或矮几上，香炉缓慢燃香，压住药味。家具较一般内室更实用，装饰温雅但不繁复，墙角与帘幕后形成可供旁人停留的层次。房间一侧可容病人休息，另一侧留给看护与交谈，故天然适合多人物同场却彼此割裂的构图。空间柔软、安静，却被明显的不平等待遇和情感刺激所撕裂。",
+  "visual_reference": "Temporary medical chamber inside a late Ming marquis residence, elegant Chinese inner room divided by curtains, soft couch, armchair, footstool, medicine chest, herbal bowls, spoon, bandages, incense burner, refined but practical aristocratic interior, daylight filtered softly through curtains, multiple figures sharing the room in emotional tension, historical realism, cinematic detail",
+  "atmosphere": "表面温和、内里失衡、刺痛难堪",
+  "color_palette": [
+    "浅杏",
+    "药褐",
+    "烟灰",
+    "淡金"
+  ],
+  "lighting": "白日柔光穿过帘帐，室内光线温软、层次丰富，适合表现一边疗伤一边旁观他人温情的反差。",
+  "key_features": [
+    "帘帐分隔出的内外层次",
+    "软塌与脚凳组成的诊治区域",
+    "药箱药碗与香炉并置"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从伤后诊治的脆弱时刻，延展为当众被刺痛与被迫重申条件的失落。"
+}

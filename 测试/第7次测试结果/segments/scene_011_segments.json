@@ -1,0 +1,86 @@
+[
+  {
+    "id": "seg_0062",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0147",
+      "shot_0148",
+      "shot_0149"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成封闭空间建立与对峙轴线确立，角色集合稳定为夫妻二人，情绪仍处于压抑蓄势阶段，适合合并为一个连续开场段，先切断外界，再建立男方逼近、女方冷静迎战的关系。",
+    "order": 62
+  },
+  {
+    "id": "seg_0063",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0150",
+      "shot_0151",
+      "shot_0152"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组shot构成完整的第一轮情绪换挡：高令宁挑衅抛出爆点，沈词情绪被瞬间点燃，并立刻以身体逼近回应。叙事动作高度连续，且暴力真正开始于此，适合合并。",
+    "order": 63
+  },
+  {
+    "id": "seg_0064",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0153",
+      "shot_0154",
+      "shot_0155"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三个shot围绕同一暴力动作展开，从肢体接触、受害者主观感受、施暴者失控状态三层递进呈现，没有时空跳转，情绪持续上升至窒息峰值，应作为一个完整暴力段处理。",
+    "order": 64
+  },
+  {
+    "id": "seg_0065",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0156",
+      "shot_0157",
+      "shot_0158"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段从肢体压制过渡到语言反审判，是明显的情绪层次变化，但动作关系未断，角色也未变化，因此将双人对峙、女方控诉、男方反应合并，形成一轮完整的言语翻盘节拍。",
+    "order": 65
+  },
+  {
+    "id": "seg_0066",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0159",
+      "shot_0160",
+      "shot_0161"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是全场最高爆点，高令宁以旧伤诛心，直接触发沈词由掐到推的动作升级，并完成跌倒结果。三镜头构成一个不可拆分的因果链，情绪从语言极限直冲身体伤害顶点。",
+    "order": 66
+  },
+  {
+    "id": "seg_0067",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0162",
+      "shot_0163",
+      "shot_0164"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜头共同承担后果展示与冷收尾功能：先明确腹部受创，再重建地面视角下的权力失衡，最终落回高令宁未屈服的表情，完成本场爆发后的余震沉降，适合作为结尾段。",
+    "order": 67
+  }
+]

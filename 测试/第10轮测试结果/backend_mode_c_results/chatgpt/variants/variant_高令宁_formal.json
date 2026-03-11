@@ -1,0 +1,35 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 闺中议婚时",
+  "tags": [
+    "未嫁贵女",
+    "端庄锋利",
+    "试探重生",
+    "高门闺秀"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_005",
+    "scene_006"
+  ],
+  "trigger": "高府议婚、退雁、与父亲对谈及婚前传话阶段，处于未嫁闺中但已带着前世记忆重新布局的状态。",
+  "appearance_delta": {
+    "face": "比婚后更年轻饱满，冷白肤色更显清透，眉眼锋芒外露，神情克制却带明显攻击性与审视感。",
+    "body": "体态利落挺拔，尚未经历孕产与病弱消耗，腰背更直，行动干脆。",
+    "hair": "乌发梳成简洁整齐的闺阁发髻，不过分繁复，以少量簪钗点缀。",
+    "distinguishing_features": "眼神冷静倔强，抬颌时压迫感强；颈侧旧痕通常被衣领半遮，只有近看可见。"
+  },
+  "costume_override": {
+    "outfit": "剪裁讲究的素雅襦裙或褙子套裙，配低调但精致的发簪、团扇，整体是高门闺秀的克制华贵。",
+    "color_palette": [
+      "月白",
+      "青碧",
+      "淡银灰",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "ancient Chinese noble young woman in an elegant inner hall, pale cool-toned skin, oval face, sharp refined brows, slightly upturned almond eyes with stubborn and calculating gaze, black hair in a neat unmarried hanfu updo with minimal jade hairpins, slim upright figure, refined Song/Ming inspired pale moon-white and turquoise hanfu, cinematic daylight, aristocratic room with wooden screens, tea table and betrothal gifts, poised yet aggressive classical beauty",
+  "emotional_tone": "冷静、警觉、强势试探"
+}

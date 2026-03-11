@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高家前厅 - DUSK",
+  "location": "高家前厅",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪哭诉自己被设计失贞，高令宁要求彻查并要上京兆府，沈词却再次无条件相信陆姝仪，痛斥高令宁恶毒，并放出“姝仪若再为你而死，我杀了你”的狠话。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "高令宁忍无可忍甩了沈词一巴掌，随即动了胎气腹痛倒下。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "证人传唤名单",
+    "衣角",
+    "巴掌声",
+    "门外车马"
+  ],
+  "dramatic_purpose": "把夫妻信任彻底打碎，并直接引爆生产危机。",
+  "source_text_start": "陆姝仪哭着要自尽。\n她跪在我面前，哽咽：「夫",
+  "source_text_end": "眼前一花。\n我踉跄几步，腹中剧痛。"
+}

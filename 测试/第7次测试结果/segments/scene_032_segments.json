@@ -1,0 +1,114 @@
+[
+  {
+    "id": "seg_0164",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0498",
+      "shot_0499"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以建立空间关系和权力布局为同一叙事单元，先总后近，把观众主视点压到高令宁身上。角色集合不变，情绪仍处于压抑蓄势阶段，适合合并为开场段落。",
+    "order": 164
+  },
+  {
+    "id": "seg_0165",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0500",
+      "shot_0501",
+      "shot_0502"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕陆姝仪首轮控诉与高令宁的沉默承受，构成完整的攻守节拍。角色关系未变，但情绪由压抑进入第一次明确进攻，因此独立成段。",
+    "order": 165
+  },
+  {
+    "id": "seg_0166",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0503",
+      "shot_0504"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这两镜共同完成‘人证失效—权势压人’的论证闭环，属于同一话术推进段。虽然人物未新增，但叙事功能由单纯控诉推进到封口定性，适合单独切段。",
+    "order": 166
+  },
+  {
+    "id": "seg_0167",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0505",
+      "shot_0506",
+      "shot_0507",
+      "shot_0508",
+      "shot_0509"
+    ],
+    "segment_number": 4,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "这是全场第一次核心转折，包含沈睿的内心蓄力、陆姝仪索要背书、高令宁被越过、以及最终公开站队，情绪弧线完整且连续，需作为一个较长segment保留决断落槌感。",
+    "order": 167
+  },
+  {
+    "id": "seg_0168",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0510",
+      "shot_0511",
+      "shot_0512"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段的核心是站队后的即时后果：陆姝仪获得背书，高令宁失去解释权。情绪由得手的轻微缓和迅速转为更深的伤害，形成清晰的二次转折。",
+    "order": 168
+  },
+  {
+    "id": "seg_0169",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0513",
+      "shot_0514",
+      "shot_0515"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "从‘表态’升级为‘行动’，属于同一情绪爆发段。扶起动作是场内稀缺的身体接触，必须与蒋晟的受压反应连在一起，形成局势不可逆的实感。",
+    "order": 169
+  },
+  {
+    "id": "seg_0170",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0516",
+      "shot_0517",
+      "shot_0518",
+      "shot_0519"
+    ],
+    "segment_number": 7,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "这一组从离场动作自然过渡到停步施压，角色集合稳定，情绪从背身离去转到家族程序化补救，属于同一后果推进段，需要完整保留‘离开—停步—命令—判决落脸’的链条。",
+    "order": 170
+  },
+  {
+    "id": "seg_0171",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0520",
+      "shot_0521"
+    ],
+    "segment_number": 8,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "结尾段以高令宁的残留情绪和空厅秩序作冷收尾，角色大幅退场、情绪从对峙落入孤绝，是明确的终止边界。两镜共同完成‘人散尽，后果留下’的收束。",
+    "order": 171
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 孕期",
+  "tags": [
+    "孕妇",
+    "母性",
+    "温存"
+  ],
+  "scene_ids": [
+    "scene_010"
+  ],
+  "trigger": "开春之时有  孕，在沈府卧房绣虎头帽，与沈词短暂温存时",
+  "appearance_delta": {
+    "face": "脸庞略圆润，杏眼柔和中仍带倔强",
+    "body": "腹部明显隆起，体态较主设定丰盈",
+    "hair": "乌黑长发盘髻，略显松散",
+    "distinguishing_features": "手持虎头帽绣品，散发母性温柔"
+  },
+  "costume_override": {
+    "outfit": "浅粉色宽松襦裙",
+    "color_palette": [
+      "浅粉",
+      "米白"
+    ]
+  },
+  "visual_reference": "一位20岁左右的清丽古代孕妇，瓜子脸杏眼樱唇，眉眼带倔强但眼神柔和，皮肤白皙脸庞微圆，乌黑长发盘成松髻，身穿浅粉色宽松襦裙腹部隆起明显，坐在卧房榻上手持未完成的虎头帽绣品，姿态优雅却透着坚定母爱，古典柔和光影，写实风格",
+  "visual_prompt_negative": "现代服装、短发、浓妆艳抹、非孕妇体型、过分甜美笑容、西方面孔、卡通风格",
+  "emotional_tone": "温存中带着独立决心"
+}

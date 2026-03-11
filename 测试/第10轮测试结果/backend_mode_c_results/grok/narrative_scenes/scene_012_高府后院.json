@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府后院 - 日",
+  "location": "高府后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "昭昭"
+  ],
+  "core_event": "和离谈判，沈词跪父闯入争执原谅",
+  "key_dialogue": "高令宁，我不要你原谅我。",
+  "emotional_peak": "沈词脊背弯曲摇头",
+  "tension_score": 0.85,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "和离书卷",
+    "雕花木门",
+    "婴儿摇篮"
+  ],
+  "dramatic_purpose": "和离达成与男主崩溃"
+}

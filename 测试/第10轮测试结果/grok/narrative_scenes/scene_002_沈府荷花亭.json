@@ -1,0 +1,21 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "EXT. 荷花亭 - 黄昏 (前世)",
+  "location": "沈府荷花亭",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪投湖自尽，沈词归罪高令宁",
+  "key_dialogue": "「若非你苦苦相逼，她怎会死？」",
+  "emotional_peak": "夫妻决裂与指责",
+  "tension_score": 0.85,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "湖水、荷叶、陆姝仪衣角、沈词怒容"
+  ],
+  "dramatic_purpose": "加深误会与恨意"
+}

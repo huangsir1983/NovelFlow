@@ -1,0 +1,284 @@
+[
+  {
+    "id": "shot_0599",
+    "scene_id": "scene_039",
+    "shot_number": 1,
+    "goal": "建立傍晚高府内院的压抑状态，交代光线迅速衰减与府内已进入紧绷戒备，为沈睿闯入做情绪预热。",
+    "composition": "WS，门框式构图。画面右侧前景为半开府门与门槛阴影，左侧前景虚化一盏廊灯；中景是由门房通向内院的青石路，数名下人匆匆穿过；背景为厅堂檐下逐次点起的灯火，暮色压低天空，廊柱形成纵深引导线。",
+    "camera_movement": "steadicam",
+    "framing": "WS",
+    "emotion_target": "让观众先感到不祥与收紧，意识到这不是普通来客场面。",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 599
+  },
+  {
+    "id": "shot_0600",
+    "scene_id": "scene_039",
+    "shot_number": 2,
+    "goal": "从高令宁的近景主观感受切入，捕捉她先于言语察觉异常来势。",
+    "composition": "MCU，高令宁置于画面右三分之一，侧身站在廊下暗处，面颊被侧逆光切出硬边；左侧前景有一根失焦廊柱形成遮挡，背景深处门房方向人影晃动，留出左侧空间给她视线所向。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传达她压住心口的一瞬警觉与不愿显露的慌意。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.31,
+    "order": 600
+  },
+  {
+    "id": "shot_0601",
+    "scene_id": "scene_039",
+    "shot_number": 3,
+    "goal": "引入沈睿，以动作和气势说明他不是登门，而是带着坏消息直接撞入局面。",
+    "composition": "MLS，机位保持院落轴线不越线。沈睿自画面左侧快步入画，直扑中景门房区域；前景掠过一名退避的小厮肩背，背景是亮起的厅堂门口与晃动烛火。沈睿衣袍下摆带风尘，形成唯一清晰的运动中心。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "制造侵入感与压迫感，让观众感到坏消息已经闯进门了。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 601
+  },
+  {
+    "id": "shot_0602",
+    "scene_id": "scene_039",
+    "shot_number": 4,
+    "goal": "强调沈睿所携带的信息重量，通过面色和呼吸状态传达事态严重。",
+    "composition": "CU，沈睿位于画面中央略偏左，肩头微前倾，冷风吹乱鬓边细发；背景是虚化的廊灯暖光与暮色冷灰形成冷暖对冲。画面下方保留少量衣襟尘土细节。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众直接接收到他压着怒意与焦灼而来。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.54,
+    "order": 602
+  },
+  {
+    "id": "shot_0603",
+    "scene_id": "scene_039",
+    "shot_number": 5,
+    "goal": "通过门房小厮与名册，给出第一条明确事实：陆姝仪进府后未曾出去，危机从猜测变成封闭空间内的失踪。",
+    "composition": "MS，门房小厮立于画面左侧，双手捧开名册；沈睿背肩占据右侧前景形成压迫；背景可见门内通向内院的暗廊。名册位于视觉中心偏下，被廊灯照亮，成为信息焦点。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到线索收束，恐慌开始有了具体边界。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.61,
+    "order": 603
+  },
+  {
+    "id": "shot_0604",
+    "scene_id": "scene_039",
+    "shot_number": 6,
+    "goal": "切回高令宁的反应，呈现她听见关键事实后的第一层失衡，但仍维持体面。",
+    "composition": "CU，高令宁仍在画面右侧，眼神越过镜头看向门房方向；前景左侧有微微晃动的提灯虚影，背景是一截暗木廊墙。她唇线收紧，呼吸停顿清晰可见。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她心底骤坠，却还不肯让慌乱溢出来。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 604
+  },
+  {
+    "id": "shot_0605",
+    "scene_id": "scene_039",
+    "shot_number": 7,
+    "goal": "用动作细节表现高令宁强压慌乱、强行稳住身体的瞬间，为她接下来的决断蓄力。",
+    "composition": "ECU，高令宁扶住廊柱的手占据画面中央，指节泛白；木柱纹理与冷白指尖形成强烈对比。背景完全虚化，仅有一粒晃动烛火色斑。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "把惊惧落到身体层面，给观众一种她几乎要失控又死死拽住自己的感觉。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.72,
+    "order": 605
+  },
+  {
+    "id": "shot_0606",
+    "scene_id": "scene_039",
+    "shot_number": 8,
+    "goal": "通过高令宁吸气抬眼，完成从慌乱到决断的情绪换挡。",
+    "composition": "MCU，承接上一镜手扶柱动作，镜头上移至她的脸。高令宁居中偏右，身后廊柱竖线像把她钉在原地；左侧留白给即将发出的命令。背景远处一线人影掠过，增强时间紧迫感。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "让观众看见她不是崩溃，而是把恐惧压成命令。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.75,
+    "order": 606
+  },
+  {
+    "id": "shot_0607",
+    "scene_id": "scene_039",
+    "shot_number": 9,
+    "goal": "明确高令宁下令搜府，将私人隐忧正式升级为全府动员的公共事件。",
+    "composition": "MS，高令宁站在廊下画面中央，身后是厅堂门内的暗光；左右两侧各有下人半跪或待命形成夹角。她微向前一步，视线越过镜头下令，构图庄正而冷硬。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到她接管局面，但这份镇定本身带着更重的寒意。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.79,
+    "order": 607
+  },
+  {
+    "id": "shot_0608",
+    "scene_id": "scene_039",
+    "shot_number": 10,
+    "goal": "展示命令生效的瞬间，府内秩序被打散，搜寻正式开始。",
+    "composition": "FS，机位在廊下斜侧。两名下人自画面右向左疾奔出画，另两名从背景厅堂冲向前景，提灯晃出光带；高令宁固定在画面右后方不动，形成静与乱对比。廊柱连续排列强化纵深和分流路线。",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "制造局势突然铺开的紧张，像一池冷水被猛然搅开。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.83,
+    "order": 608
+  },
+  {
+    "id": "shot_0609",
+    "scene_id": "scene_039",
+    "shot_number": 11,
+    "goal": "用提灯奔走的群像强化搜府的规模和迫切程度。",
+    "composition": "WS，院落横向展开。前景一盏提灯从左向右快速掠过形成遮挡；中景多名下人分别冲向回廊、偏房、月洞门；背景厅堂檐下烛火连成冷清亮带。画面保留大量暗部，人物像被灯火切碎。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "让观众感到整座府邸都被同一份焦灼点燃，却越搜越显空。",
+    "duration_hint": "4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 609
+  },
+  {
+    "id": "shot_0610",
+    "scene_id": "scene_039",
+    "shot_number": 12,
+    "goal": "插入高父，交代长辈在场但无法真正掌控，只能被卷入这场失序。",
+    "composition": "MCU，高父立于厅堂门槛内侧，位于画面左侧，半张脸在烛光里、半张脸沉入阴影；右侧背景可见奔走人影从门外经过。门框将他框住，形成被礼制与局势同时困住的视觉感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到家族威严在此刻失效，只剩下压抑和难堪。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.71,
+    "order": 610
+  },
+  {
+    "id": "shot_0611",
+    "scene_id": "scene_039",
+    "shot_number": 13,
+    "goal": "回到高令宁，表现她在搜寻展开后反而更孤立，只能以目光追逐每一个可能的结果。",
+    "composition": "MS，高令宁站在画面右侧廊柱旁，手仍扶柱；前景左侧不断有提灯人影虚化掠过，背景深处院门口和偏廊都有人奔走。她不动，所有人都在动，形成视觉逆差。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众体会到她站在风眼中央，越镇定越显得无助。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.77,
+    "order": 611
+  },
+  {
+    "id": "shot_0612",
+    "scene_id": "scene_039",
+    "shot_number": 14,
+    "goal": "以高令宁视线所及制造信息不对称：人影不断回来又离开，却没有答案，悬念被继续拉高。",
+    "composition": "POV式MLS，从高令宁位置望向院中回廊。画面中央是一名提灯下人停步、回头、又迅速转向另一侧；左右前景由廊柱和门框切割，形成受限视野。背景深处一扇未开的房门最亮，构成疑点。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "让观众跟随她一起焦躁、怀疑每一道阴影里是否藏着人。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 612
+  },
+  {
+    "id": "shot_0613",
+    "scene_id": "scene_039",
+    "shot_number": 15,
+    "goal": "用沈睿的反应补足压力来源，说明这场搜寻不仅关乎高府颜面，也关乎他所代表的外部威压。",
+    "composition": "MCU，沈睿站在院中偏左，背后是来回晃动的灯影。他微侧身看向廊下高令宁，嘴唇紧抿，肩线绷直；右侧留白给他凝视的方向，形成对峙张力但不正面冲撞。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到时间正在被他无声逼紧，空气里有问责将至的寒意。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 613
+  },
+  {
+    "id": "shot_0614",
+    "scene_id": "scene_039",
+    "shot_number": 16,
+    "goal": "冷收尾：回到高令宁，定格她在廊下守着乱局，悬念不解，压力继续上升到下一场。",
+    "composition": "CU，高令宁位于画面中央偏右，廊柱贴近她肩侧；前景一盏提灯自下方掠过，在她眼中留下短暂反光。背景完全失焦，只剩流动的人影与灯火。她目光追出去，脸色更白，仍未失态。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众带着悬空的不安离开这一场：人还没找到，但事情已经坏到无法回头。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 614
+  }
+]

@@ -1,0 +1,346 @@
+```json
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 沈府房间 - DAY",
+    "location": "沈府房间",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "大夫断定高令宁怀了男孩，沈词提议继续婚姻，高令宁坚持按约定和离。",
+    "key_dialogue": "还是按约定和离吧。",
+    "emotional_peak": "沈词的错愕与高令宁的决绝形成冷硬对峙",
+    "tension_score": 0.7,
+    "estimated_duration_s": 90,
+    "key_props": [
+      "安胎药"
+    ],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "core_event": "高令宁当众退回沈词用作聘礼的木雁，逼迫沈词增加聘礼。",
+    "key_dialogue": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+    "emotional_peak": "沈词被当众下脸后的震惊与屈辱",
+    "tension_score": 0.8,
+    "estimated_duration_s": 120,
+    "key_props": [
+      "木雁",
+      "聘礼单"
+    ],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "core_event": "高父不解女儿为何刁难沈家，高令宁暗自发誓要风光大嫁以泄前世之愤。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "高令宁回忆前世凄凉时的隐忍与恨意",
+    "tension_score": 0.5,
+    "estimated_duration_s": 90,
+    "key_props": [
+      "茶盏"
+    ],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "INT. 高家书房 - DAY",
+    "location": "高家书房",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "core_event": "高令宁说服父亲写下辞官奏折，以避开前世的抄家之祸。",
+    "key_dialogue": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了。",
+    "emotional_peak": "高令宁看到父亲写完奏折后的如释重负",
+    "tension_score": 0.4,
+    "estimated_duration_s": 60,
+    "key_props": [
+      "辞官奏折",
+      "笔墨"
+    ],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "EXT. 高家大门外 - DAY",
+    "location": "高家大门外",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "沈词用前世早夭的长子沈睿逼迫高令宁成婚，两人达成生子后和离的冷血交易。",
+    "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+    "emotional_peak": "提到长子时两人共同的丧子之痛与相互怨恨",
+    "tension_score": 0.8,
+    "estimated_duration_s": 150,
+    "key_props": [
+      "药帖"
+    ],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "EXT. 马球场 - DAY",
+    "location": "马球场",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "core_event": "高令宁目睹沈词与陆姝仪暧昧，故意在蒋晟面前假装崴脚以刺激沈词。",
+    "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+    "emotional_peak": "高令宁看到沈词宠溺陆姝仪时的嫉妒与恶心",
+    "tension_score": 0.6,
+    "estimated_duration_s": 100,
+    "key_props": [
+      "剥好皮的葡萄",
+      "风筝"
+    ],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "EXT. 马球场角落 - DAY",
+    "location": "马球场角落",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "沈词拆穿高令宁假装崴脚，两人发生充满性张力与敌意的言语交锋。",
+    "key_dialogue": "装什么装？你身上哪里，我没碰过？",
+    "emotional_peak": "沈词极具侵略性的逼近与高令宁的防备",
+    "tension_score": 0.8,
+    "estimated_duration_s": 70,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "INT. 马球场客房 - NIGHT",
+    "location": "马球场客房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "core_event": "陆姝仪下跪哀求留在沈家，沈词心疼护短，高令宁彻底心死同意提亲。",
+    "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+    "emotional_peak": "高令宁放弃争夺沈词真心时的极致疲惫与释然",
+    "tension_score": 0.7,
+    "estimated_duration_s": 180,
+    "key_props": [
+      "一碗药"
+    ],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 沈府新房 - NIGHT",
+    "location": "沈府新房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "洞房花烛夜两人毫无感情地完成同房，陆姝仪派人装病争宠，高令宁冷漠放行。",
+    "key_dialogue": "要不是睿儿，你以为我想碰你？",
+    "emotional_peak": "床榻之上两人纯粹的生理交集与心理极度厌恶",
+    "tension_score": 0.8,
+    "estimated_duration_s": 150,
+    "key_props": [
+      "红盖头",
+      "丝带"
+    ],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 沈府书房/内室 - DAY",
+    "location": "沈府",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "高令宁建议沈词将陆姝仪纳妾或扶正，沈词否认私情并因高令宁的无所谓而感到暴躁。",
+    "key_dialogue": "你放心，我想开了，以后都不会恨你了。",
+    "emotional_peak": "沈词发现高令宁真的不再嫉妒时的恐慌与愤怒",
+    "tension_score": 0.7,
+    "estimated_duration_s": 120,
+    "key_props": [
+      "婴儿虎头帽"
+    ],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "EXT. 高家廊下 - DAY",
+    "location": "高家廊下",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "core_event": "高令宁回娘家养胎，沈词每日殷勤探望，高父劝说两人好好过日子，高令宁不为所动。",
+    "key_dialogue": "其实上一世，我有许多对不住你的地方。",
+    "emotional_peak": "沈词罕见的温情流露与高令宁内心的冷眼旁观",
+    "tension_score": 0.5,
+    "estimated_duration_s": 100,
+    "key_props": [
+      "葡萄",
+      "补品"
+    ],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 高家厢房 - DUSK",
+    "location": "高家厢房",
+    "time_of_day": "dusk",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟",
+      "高父"
+    ],
+    "core_event": "陆姝仪与蒋晟衣冠不整被抓，陆姝仪反咬高令宁陷害，沈词怒斥高令宁致其动胎气早产。",
+    "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+    "emotional_peak": "高令宁被冤枉且被推倒时的绝望与剧痛",
+    "tension_score": 0.9,
+    "estimated_duration_s": 180,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "INT. 高家产房 - NIGHT",
+    "location": "高家产房",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "core_event": "高令宁难产命悬一线，沈词崩溃选择保大人，最终生下女儿昭昭而非前世的儿子。",
+    "key_dialogue": "我要她活着。",
+    "emotional_peak": "沈词面临失去高令宁时的极度恐惧与悔恨",
+    "tension_score": 1.0,
+    "estimated_duration_s": 150,
+    "key_props": [
+      "血水盆"
+    ],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "INT. 高家后院 - DAY",
+    "location": "高家后院",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "高父",
+      "昭昭"
+    ],
+    "core_event": "沈词拒绝签和离书并强闯后院，高令宁平静表示原谅并坚持和离，沈词精神崩溃。",
+    "key_dialogue": "高令宁，我不要你原谅我。",
+    "emotional_peak": "沈词发现彻底失去高令宁掌控权时的绝望与癫狂",
+    "tension_score": 0.9,
+    "estimated_duration_s": 160,
+    "key_props": [
+      "和离书"
+    ],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_015",
+    "heading": "INT. 高家宴会厅 - DAY",
+    "location": "高家宴会厅",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪",
+      "沈词",
+      "高父"
+    ],
+    "core_event": "满月宴上，陆姝仪坦白自己也是重生者且故意设计蒋晟，向高令宁告别。",
+    "key_dialogue": "既然沈家无人为我做主, 那我只能自己寻个好夫婿, 哪怕……手段下作了些。",
+    "emotional_peak": "两世恩怨真相大白时的荒诞与悲凉",
+    "tension_score": 0.7,
+    "estimated_duration_s": 120,
+    "key_props": [
+      "请帖"
+    ],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_016",
+    "heading": "EXT. 江南宅院院子 - DAY",
+    "location": "江南宅院院子",
+    "time_of_day": "day",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "昭昭",
+      "江南赘婿"
+    ],
+    "core_event": "三年后沈词来到江南寻妻，发现高令宁身边已有赘婿陪伴，嫉妒发狂。",
+    "key_dialogue": "我的新夫婿。",
+    "emotional_peak": "沈词看到别人取代自己位置时的阴沉与嫉妒",
+    "tension_score": 0.6,
+    "estimated_duration_s": 90,
+    "key_props": [
+      "雪球",
+      "瓜子"
+    ],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_017",
+    "heading": "INT. 江南宅院卧室 - NIGHT",
+    "location": "江南宅院卧室",
+    "time_of_day": "night",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "江南赘婿"
+    ],
+    "core_event": "沈词深夜爬床被踹，卑微地打地铺握住高令宁的手腕，发誓纠缠一生。",
+    "key_dialogue": "只要我还活着……我就会恬不知耻地纠缠你一辈子。",
+    "emotional_peak": "沈词病态的执念与卑微乞求",
+    "tension_score": 0.8,
+    "estimated_duration_s": 120,
+    "key_props": [
+      "被子",
+      "枕头"
+    ],
+    "dramatic_purpose": "建氛围"
+  }
+]
+```

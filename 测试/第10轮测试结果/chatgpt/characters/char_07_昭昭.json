@@ -1,0 +1,54 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "婴孩时期漂亮白嫩，眉眼灵秀；三岁时神气活泼，目光明亮",
+    "body": "幼小圆润，行动灵活，能跑能跳",
+    "hair": "幼女软黑发，梳小髻或垂发",
+    "distinguishing_features": "聪慧早熟，兼具灵气与贵气"
+  },
+  "costume": {
+    "typical_outfit": "小女孩绣花夹袄、小裙、红绳或珠花发饰",
+    "color_palette": [
+      "桃粉",
+      "鹅黄",
+      "嫩绿"
+    ]
+  },
+  "casting_tags": [
+    "灵气幼女",
+    "命运反转之女",
+    "母亲新生"
+  ],
+  "visual_reference": "adorable ancient chinese little girl, bright intelligent eyes, soft black hair, colorful hanfu, lively and clever, realistic cinematic style",
+  "personality": "开朗聪颖，好奇，讨喜",
+  "desire": "童真状态下主要是被爱、玩耍、学习",
+  "flaw": "年幼无明显缺陷",
+  "arc": "作为意外出生的女儿，取代前世执念，成为女主真正放下过去后的未来寄托",
+  "scene_presence": "出生、满月、被争夺抚养权、江南成长等场景中重要出现。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "母亲全心抚养，把她作为新的人生起点",
+      "function": "女主新生活核心"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "父亲以物质与书信补偿，借她维系与女主联系",
+      "function": "后期情感纽带"
+    },
+    {
+      "target": "高父",
+      "type": "外祖父与外孙女",
+      "dynamic": "受高家保护长大",
+      "function": "归属高家的象征"
+    }
+  ]
+}

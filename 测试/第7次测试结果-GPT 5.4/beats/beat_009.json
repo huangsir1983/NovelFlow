@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "id": "beat_009",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_023",
+      "scene_024",
+      "scene_025",
+      "scene_026"
+    ]
+  },
+  "data": {
+    "title": "步入新婚冷局并暴露重生共识",
+    "description": "第三次提亲后婚事落定。父亲叮嘱她受委屈就和离归家；婚礼与洞房中，沈词冷淡讥诮，提及‘这一世’与‘睿儿’，确认双方都携前世记忆进入婚姻，且新婚夜即被陆姝仪搅局。",
+    "beat_type": "event",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": -0.6,
+    "dramatic_intensity": -0.6,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 9
+  }
+}

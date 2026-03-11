@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "FLASHBACK. 沈家新房外厅 - DAY",
+  "location": "沈家新婚次日厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世我刚嫁入沈家，第二日便被迫面对陆姝仪敬茶与平妻试探，我当场砸杯以瓷片抹脖子反击。",
+  "key_dialogue": "「没有人可以拿捏我。」",
+  "emotional_peak": "我以自伤立威，逼退整个沈家。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "茶杯",
+    "瓷片",
+    "敬茶托盘"
+  ],
+  "dramatic_purpose": "揭示前世婚姻最初的创伤事件，解释我今日为何如此强硬。",
+  "visual_reference": "古代高门厅堂，新妇红妆未褪，柔弱表小姐跪地奉茶，沈母高坐试压，新妇怒砸茶盏后拾起锋利瓷片横颈，沈词疾步拦抱，场面惊骇失控",
+  "visual_prompt_negative": "避免血腥过度，避免武侠打斗感，避免喜庆婚庆氛围，避免现代茶具",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。",
+  "source_text_end": "我也拿她给整个沈家立威。没有人可以拿捏我。"
+}

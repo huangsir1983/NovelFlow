@@ -1,0 +1,14 @@
+{
+  "name": "门帘",
+  "category": "furniture",
+  "description": "中式内宅门帘，主体为双层结构：外层为浅烟青、藕灰或米白色纱帘，内层为较厚的绸布帘，长度约190厘米、宽约90厘米至120厘米。帘缘包边细致，以深一度的滚边收口，下摆缀有细小流苏或压坠，使垂感稳定。局部可见低调暗纹，如回纹、缠枝纹或细密团花纹，整体配色柔和偏冷。帘杆与挂钩为木制或小型铜件，使用中会形成自然褶皱，半掀半垂时最具空间层次与人物出入的戏剧性。",
+  "visual_reference": "Traditional Chinese doorway curtain, layered silk and gauze curtain in pale smoky blue, lotus gray and ivory, 190cm long, soft draping folds, subtle woven floral patterns, narrow darker trim, small tassels or weighted hem, interior noble residence, late imperial China, cinematic entryway composition, realistic fabric texture, elegant historical prop sheet",
+  "narrative_function": "门帘象征内外之分、身份界限与情绪阈值。人物掀帘、隔帘、停步于帘外，都会强化犹疑、偷听、阻隔与即将进入私密空间的心理张力。",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_007",
+    "scene_018",
+    "scene_027"
+  ],
+  "emotional_association": "界限、迟疑与窥探"
+}

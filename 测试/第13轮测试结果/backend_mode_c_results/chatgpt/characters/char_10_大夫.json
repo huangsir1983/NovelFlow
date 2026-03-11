@@ -1,0 +1,34 @@
+{
+  "name": "大夫",
+  "aliases": [
+    "太医",
+    "稳婆团队中的医者"
+  ],
+  "role": "minor",
+  "age_range": "35-60",
+  "appearance": {
+    "face": "沉稳老成，留短须或清瘦面容",
+    "body": "普通",
+    "hair": "束发或戴幞头",
+    "distinguishing_features": "职业化冷静"
+  },
+  "costume": {
+    "typical_outfit": "素色医者长衫，携药箱",
+    "color_palette": [
+      "灰白",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "古代医者",
+    "功能角色"
+  ],
+  "visual_reference": "中国古代医者，中老年，神情沉稳，穿灰白长衫，背药箱，正在搭脉或正骨，古风写实",
+  "visual_prompt_negative": "现代白大褂、听诊器、卡通风、科幻元素",
+  "personality": "谨慎、专业",
+  "desire": "诊断病情，尽力保命",
+  "flaw": "受礼法与权力结构限制",
+  "arc": "无",
+  "scene_presence": "诊断怀男胎、看脚伤、接生时均有类似医者出现",
+  "relationships": []
+}

@@ -1,0 +1,47 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "中年方脸，皱纹渐增，表情严肃关切",
+    "body": "中等身材，略显疲惫",
+    "hair": "灰白发髻，官帽下",
+    "distinguishing_features": "眼角增多皱纹与慈父关切神情"
+  },
+  "costume": {
+    "typical_outfit": "四品官袍",
+    "color_palette": [
+      "深紫",
+      "黑"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "护女官员",
+    "导师原型"
+  ],
+  "visual_reference": "Middle-aged Chinese official mid-50s, square face with increasing wrinkles and kind yet serious eyes, graying hair under official hat, wearing dark purple fourth-rank hanfu robes, protective fatherly expression, ancient Chinese setting, highly detailed masterpiece",
+  "personality": "疼爱女儿、谨慎官场、最终护女果断",
+  "desire": "女儿平安喜乐、家族平安",
+  "flaw": "最初犹豫门第，后坚决护女",
+  "arc": "起点：劝嫁担忧 → 转变：辞官护女、拒沈家要孙女 → 终点：江南安排赘婿",
+  "scene_presence": "提亲时、劝辞官、拒沈母、和离书、江南安排赘婿",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "父女深情，极力保护",
+      "function": "助攻"
+    },
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "从看好到失望拒见",
+      "function": "阻碍"
+    }
+  ]
+}

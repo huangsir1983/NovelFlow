@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0154",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0490",
+      "shot_0491",
+      "shot_0492"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成空间建立到主观落点的收束：先交代长期养胎的封闭环境，再以药碗把日常动作符号化，最后切入女主近景主观感受。角色集合未变，情绪维持压抑与警觉，适合合并为一个开场段。",
+    "order": 154
+  },
+  {
+    "id": "seg_0155",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0493",
+      "shot_0494",
+      "shot_0495"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头围绕同一动作单元“递药前的对视与压力”展开，且明确遵循女主主观—男主反打—女主反应的节奏。情绪从补偿式照料推进到压迫感成形，构成完整一段。",
+    "order": 155
+  },
+  {
+    "id": "seg_0156",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0496",
+      "shot_0497",
+      "shot_0498",
+      "shot_0499"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段以‘接碗—饮药—男主反应—女主审视’构成完整情绪波峰，动作连续且时间压缩，情绪从谨慎接近推到短暂紧张后落在更冷的心理评估上，适合合并成一个稍长段落。",
+    "order": 156
+  },
+  {
+    "id": "seg_0157",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0500",
+      "shot_0501",
+      "shot_0502"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三个镜头同属‘喝药后回冷’阶段：收碗、道具痕迹、重新守坐，动作逻辑一气呵成。情绪由前段紧张回落为疲惫秩序，未发生角色或空间变化，合并后能强化“习惯性补偿”的循环感。",
+    "order": 157
+  },
+  {
+    "id": "seg_0158",
+    "scene_id": "scene_031",
+    "shot_ids": [
+      "shot_0503",
+      "shot_0504",
+      "shot_0505"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此组三镜头形成本场最终情感收束：女主护胎动作触发男主情绪高点，随后以帐外同框落回脆弱和平。情绪完成一次由静到刺痛再到冷静封存的弧线，是天然结尾段。",
+    "order": 158
+  }
+]

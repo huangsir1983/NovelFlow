@@ -1,0 +1,34 @@
+{
+  "variant_id": "gaolingning_variant_03_pregnant",
+  "variant_type": "pregnant|injured",
+  "variant_name": "高令宁 — 孕期与早产",
+  "tags": [
+    "孕态",
+    "虚弱",
+    "绝望",
+    "决绝"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012",
+    "scene_013",
+    "scene_014",
+    "scene_016"
+  ],
+  "trigger": "怀孕回娘家养胎，后被沈词推倒导致早产难产，最终生下女儿并递交和离书",
+  "appearance_delta": {
+    "face": "未施粉黛，面色极度苍白虚弱，满是冷汗，但眼神透着死心后的空洞与平静",
+    "body": "腹部隆起（孕晚期），姿态虚弱无力",
+    "hair": "发丝被汗水浸湿，凌乱地贴在脸颊和脖颈处",
+    "distinguishing_features": "极度虚弱的生理状态与异常坚定冷酷的心理状态形成强烈反差"
+  },
+  "costume_override": {
+    "outfit": "宽松柔软的孕期里衣/素色长衫，产房场景中下摆带有血迹",
+    "color_palette": [
+      "素白",
+      "浅灰"
+    ]
+  },
+  "visual_reference": "A beautiful pale ancient Chinese woman in late pregnancy, wearing loose plain white inner Hanfu clothes, lying on a bed, hair wet with sweat and messy, extremely weak but with a completely cold and resolute gaze, dramatic dim lighting, cinematic, emotional and painful atmosphere, 8k resolution, photorealistic.",
+  "emotional_tone": "身体极度虚弱，心理彻底死心与决绝"
+}

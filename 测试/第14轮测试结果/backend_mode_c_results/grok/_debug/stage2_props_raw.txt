@@ -1,0 +1,25 @@
+<think>
+Generating prop visuals- 和离书 appears three times in scenes 014, 016, and 017, suggesting symbolic repetition.
+- 和离书 is a document, categorized as "document" with potential symbolic overlap.
+- 和离书 is a handwritten document on traditional Chinese paper, likely from the Qing or Ming dynasty, with a formal divorce agreement.
+- 和离书 carries emotional weight, symbolizing separation and heartbreak, with Shen Ci's reluctance highlighting its narrative role in revealing regret.
+- 和离书 symbolizes the end of marriage, carrying emotions of regret, reluctance, and emotional turmoil.
+
+</think>
+[
+  {
+    "name": "和离书",
+    "category": "document",
+    "description": "淡黄色宣纸制成，尺寸约35cm×25cm，纸张自然泛黄带有细微纤维纹理与轻微卷曲边缘，表面以毛笔小楷工<think>
+- 和离书 embodies the tension between attachment and severance, reflecting the pain of a broken marriage.
+
+</think>
+整书写离婚协议正文，墨迹浓淡适宜略带晕染，右下角盖有鲜红色朱砂方印（私章），纸面略有磨损与折痕，整体呈现明清古籍风格",
+    "visual_reference": "一张高度写实的古代和离书，置于深色雕花木桌上，淡黄色宣纸材质，表面布满毛笔小楷书写的和离书正文，字迹清晰有力墨色深黑略带自然晕染，纸张边缘自然卷曲带有细微纤维纹理与轻微磨损，右下角盖有鲜红色朱砂方印章，整体呈现明清古风书房氛围，纸张光影柔和，细节极致真实，适合AI绘图一致性生成",
+    "visual_prompt_negative": "现代白纸、打印字体、A4规格、塑料封套、彩色印刷、简体字、金属印章、卡通风格、当代设计、亮白纸张、胶印效果",
+    "narrative_function": "推动情节：作为正式离婚协议的交付物，直接促成夫妻和离流程与后续生活转折；揭示角色：展现沈词的跪地不舍与悔恨，以及女主角高令宁的平静决绝；建立象征：代表婚姻关系的彻底终结与女主角新生的开端；承载情感：凝聚爱恨交织的复杂张力，成为沈词反复追寻与女主角闭门谢客的关键信物",
+    "is_motif": true,
+    "scenes_present": ["scene_014", "scene_016", "scene_017"],
+    "emotional_association": "悔恨不舍与决绝分离的矛盾痛苦"
+  }
+]

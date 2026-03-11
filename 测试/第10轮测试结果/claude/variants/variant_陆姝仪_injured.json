@@ -1,0 +1,29 @@
+{
+  "variant_id": "lushuyi_variant_02",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 胃病发作状态",
+  "tags": [
+    "病弱",
+    "痛苦",
+    "楚楚可怜"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "马球会休息处，胃病发作，沈词照顾",
+  "appearance_delta": {
+    "face": "面色苍白，眉头微蹙",
+    "body": "虚弱无力，倚靠床榻",
+    "hair": "略显凌乱的长发",
+    "distinguishing_features": "病容憔悴，泪眼盈盈，痛苦隐忍的神态"
+  },
+  "costume_override": {
+    "outfit": "素色襦裙，衣襟微乱",
+    "color_palette": [
+      "白色",
+      "淡青色"
+    ]
+  },
+  "visual_reference": "fragile Chinese beauty in pale hanfu lying on bed, sickly pale complexion, pained expression with furrowed brows, tearful eyes, disheveled hair, weak posture, indoor dim lighting with lanterns, medicine bowl nearby, delicate suffering appearance",
+  "emotional_tone": "病弱痛苦，惹人怜惜"
+}

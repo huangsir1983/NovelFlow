@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "aged",
+  "variant_name": "高令宁 — 江南独立",
+  "tags": [
+    "成熟",
+    "独立",
+    "三年后"
+  ],
+  "scene_ids": [
+    "scene_017",
+    "scene_018"
+  ],
+  "trigger": "三年后在江南宅院雪地，与女儿昭昭生活，面对沈词吃醋时",
+  "appearance_delta": {
+    "face": "眉眼更成熟坚定，气质自信",
+    "body": "苗条纤细",
+    "hair": "乌黑长发盘髻更简约自在",
+    "distinguishing_features": "独立生活后的从容气场"
+  },
+  "costume_override": {
+    "outfit": "素雅浅色襦裙",
+    "color_palette": [
+      "浅蓝",
+      "素白"
+    ]
+  },
+  "visual_reference": "一位约22岁的清丽古代女子在江南宅院雪地，瓜子脸杏眼眼神坚定自信，皮肤白皙，乌黑长发盘简约发髻，身穿素雅浅蓝色襦裙，抱着或旁伴小女孩，姿态优雅独立，雪景背景古典柔光，写实风格",
+  "visual_prompt_negative": "现代服装、短发、浓妆、年轻少女稚嫩感、卡通风格",
+  "emotional_tone": "释怀独立与微妙纠葛"
+}

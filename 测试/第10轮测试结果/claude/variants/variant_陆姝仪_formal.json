@@ -1,0 +1,29 @@
+{
+  "variant_id": "lushuyi_variant_04",
+  "variant_type": "formal",
+  "variant_name": "陆姝仪 — 登门拜访状态",
+  "tags": [
+    "端庄",
+    "拘谨",
+    "紧张"
+  ],
+  "scene_ids": [
+    "scene_014"
+  ],
+  "trigger": "高府门外，正式拜访被拒",
+  "appearance_delta": {
+    "face": "端庄拘谨，略显紧张",
+    "body": "站姿端正，略显局促",
+    "hair": "精心梳理的发髻",
+    "distinguishing_features": "正式拜访的端庄姿态，眼神期待又忐忑"
+  },
+  "costume_override": {
+    "outfit": "素雅襦裙，正式访客装束",
+    "color_palette": [
+      "淡青色",
+      "白色"
+    ]
+  },
+  "visual_reference": "refined Chinese beauty in elegant light blue hanfu standing at mansion entrance, formal hairstyle with ornaments, composed yet anxious expression, proper posture with slight nervousness, traditional visiting attire, daylight outdoor setting",
+  "emotional_tone": "端庄拘谨，忐忑不安"
+}

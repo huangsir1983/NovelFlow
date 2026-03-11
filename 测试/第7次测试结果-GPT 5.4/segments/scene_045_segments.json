@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0219",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0659",
+      "shot_0660",
+      "shot_0661"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立场域、异常发现与关键道具三步信息，角色集合未发生实质变化，情绪从礼制热闹过渡到警觉，适合压缩为一段完成‘她不是误入，而是有备而来’的开场信息投放。",
+    "order": 219
+  },
+  {
+    "id": "seg_0220",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0662",
+      "shot_0663",
+      "shot_0664",
+      "shot_0665"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段合并陆姝仪穿行、父亲识别、情绪转硬与下令驱赶，属于同一行动链。角色焦点虽在两端切换，但冲突目标一致，情绪从侵入感直推到行动性排斥，形成完整的第一波对抗。",
+    "order": 220
+  },
+  {
+    "id": "seg_0221",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0666",
+      "shot_0667",
+      "shot_0668",
+      "shot_0669"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组以高令宁制止为转折，紧接陆姝仪停步、观察、起笑，情绪弧线从‘赶人’切换为‘允许她开口后的心理博弈’，属于明确的新节拍，故独立成段。",
+    "order": 221
+  },
+  {
+    "id": "seg_0222",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0670",
+      "shot_0671",
+      "shot_0672",
+      "shot_0673"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕陆姝仪的悲情话术展开，并以高令宁、高父的反应压住节奏，属于同一轮对话攻防。听者反应重于说者，故将反应镜头内置，完成她试图夺取道德高地却被高家稳住的过程。",
+    "order": 222
+  },
+  {
+    "id": "seg_0223",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0674",
+      "shot_0675",
+      "shot_0676"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段将核心质问、陆姝仪受击反应与全局对峙格局收束在一起，情绪完成第一波爆点并落到稳定战线上，适合作为本场公开交锋的阶段性封口。",
+    "order": 223
+  }
+]

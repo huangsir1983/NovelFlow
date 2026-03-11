@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "id": "scene_025",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈家府邸 - NIGHT",
+    "location": "前世沈家府邸",
+    "time_of_day": "night",
+    "description": "回忆场景。内宅陈设讲究，灯火温黄，博古架、妆台、花几上摆着御赐盆栽与西域香水，物件精致却透着疏离。空间封闭，像被礼法与沉默压住。高令宁与陆姝仪、沈词的关系通过物件分配显形。",
+    "action": "高令宁立在屋内，看见本该属于正妻体面的好物被人一件件送往陆姝仪处。她不发作，只是站在原地，手指掠过空下的桌面，随后慢慢收回。陆姝仪在她面前轻声却准确地刺她，说强求不来。沈词口头辩称与陆姝仪无情，却默认一切偏袒继续发生。高令宁听着，唇线绷直，眼神从受伤转为麻木。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "强求不来。",
+        "subtext": "她借轻描淡写的羞辱宣示胜利，刺破高令宁名分上的自尊。"
+      },
+      {
+        "character": "沈词",
+        "line": "我与她并无私情。",
+        "subtext": "他在否认情感关系，却不肯停止实际上的偏爱。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "西域香水",
+      "御赐盆栽",
+      "花几",
+      "灯台"
+    ],
+    "dramatic_purpose": "通过前世记忆补足高令宁心冷的根源，证明沈词口头与行动长期不一致。",
+    "tension_score": 0.7,
+    "order": 25
+  }
+}

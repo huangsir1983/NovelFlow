@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_009",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "借马球会以蒋晟刺激沈词",
+    "description": "沈词认义妹后，我以婚事条件反制。马球会上，蒋晟作为现实良配出现，对我体贴周到；而我又亲眼看见沈词含笑看陆姝仪，嫉恨复燃，故意借蒋晟扶持制造亲昵画面，双方暗潮汹涌，副线与主线深度交织。",
+    "beat_type": "action",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": 0.3,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 9
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "伯爵娘子",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "富贵精明，带交际场上的笑意",
+    "body": "贵妇体态",
+    "hair": "华丽高髻",
+    "distinguishing_features": "频繁以做媒和社交之姿介入婚配局"
+  },
+  "costume": {
+    "typical_outfit": "奢华侯伯府女眷服饰",
+    "color_palette": [
+      "金棕",
+      "紫红"
+    ]
+  },
+  "casting_tags": [
+    "社交贵妇",
+    "婚配推动者"
+  ],
+  "visual_reference": "aristocratic ancient Chinese noble lady, luxurious hairstyle and robe, social gathering setting",
+  "personality": "精于社交，现实势利",
+  "desire": "促成对本家有利的婚事",
+  "flaw": "将女子婚配视作筹码",
+  "arc": "无",
+  "scene_presence": "马球会组织者与陆姝仪婚配线推动者",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "潜在婆家联络人",
+      "dynamic": "看中其孤女身份易拿捏",
+      "function": "压迫其婚配命运"
+    }
+  ]
+}

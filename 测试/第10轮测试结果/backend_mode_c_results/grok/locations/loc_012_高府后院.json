@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_012",
+  "name": "高府后院",
+  "type": "exterior",
+  "era_style": "明代晚期官宦府邸后院",
+  "description": "幽静的后院庭院，雕花木门通向内室，中央婴儿摇篮与和离书卷置于石桌。庭石绿植环绕，空间私密宁静，适合和离谈判争执。",
+  "visual_reference": "Quiet rear courtyard of late Ming dynasty official mansion, ornate carved wooden door to inner rooms, central infant cradle and divorce document scroll on stone table, rockery and plants, serene private garden setting, natural daylight, detailed Ming architecture",
+  "atmosphere": "争执原谅、脊背弯曲",
+  "color_palette": [
+    "庭绿",
+    "木雕红",
+    "石灰"
+  ],
+  "lighting": "白天柔和庭院光线，宁静却压抑",
+  "key_features": [
+    "和离书卷",
+    "婴儿摇篮",
+    "雕花木门"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "和离谈判争执到沈词跪父摇头原谅"
+}

@@ -15,7 +15,7 @@ class AIProvider(Base, TimestampMixin):
     provider_type = Column(String(30), nullable=False)  # anthropic | gemini | openai_compat
     base_url = Column(String(500), nullable=False, default="")
     api_key = Column(Text, nullable=False, default="")
-    models = Column(JSON, nullable=False, default=list)
+    models = Column(JSON, nullable=False, default=lambda: [])
     is_default = Column(Boolean, nullable=False, default=False)
     enabled = Column(Boolean, nullable=False, default=True)
     priority = Column(Integer, nullable=False, default=10)

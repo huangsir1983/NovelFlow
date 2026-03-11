@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_025",
+  "order": 24,
+  "heading": "INT. 昭昭满月宴厅 - DAY",
+  "location": "高府宴厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "高父",
+    "沈词"
+  ],
+  "core_event": "昭昭满月宴上，陆姝仪持蒋晟帖子不请自来，坦白自己也重生了，并承认设计失贞局是为了替自己谋一条出路。",
+  "key_dialogue": "「蒋晟的事，是我设计。」",
+  "emotional_peak": "高令宁得知上一场毁灭性误会竟真是陆姝仪所设，震惊失语，而沈词在旁脸色苍白。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "满月宴席面",
+    "请帖",
+    "酒杯",
+    "婴孩长命锁",
+    "红绸装饰",
+    "桌上点心",
+    "宾客座椅"
+  ],
+  "dramatic_purpose": "真相大白，解除核心误会，为最终分离和追妻提供伦理基础。"
+}

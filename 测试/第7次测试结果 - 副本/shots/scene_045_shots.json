@@ -1,0 +1,283 @@
+[
+  {
+    "id": "shot_0645",
+    "scene_id": "scene_045",
+    "shot_number": 1,
+    "goal": "建立满月宴的礼制空间与表面热闹，同时埋下“中心被护持、外围将被闯入”的空间关系。",
+    "composition": "WS，门框内望向开阔宴厅。前景左侧半虚化红绸与来往宾客肩背形成遮挡，中景为齐列酒席、贺礼堆叠，背景主位附近高父与高令宁处在人群视线汇聚点，构图重心偏右，门口方向保留一块冷色留白作为潜在入侵口。",
+    "camera_movement": "steadicam",
+    "framing": "WS",
+    "emotion_target": "让观众感到礼面繁盛之下已有不安，像热闹里留着一道冷风口。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父",
+      "昭昭",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 645
+  },
+  {
+    "id": "shot_0646",
+    "scene_id": "scene_045",
+    "shot_number": 2,
+    "goal": "把女主主观感受拉近，确认她处于被观看也在观看的位置，建立她的安全区。",
+    "composition": "MS，高令宁位于画面右三分之一，侧身朝左看向宴厅入口。前景有案几边角与酒盏虚化切入，下缘隐约见襁褓或昭昭的礼饰，背景是模糊宾客与红绸。她身后略高位置可见高父的半身轮廓，形成隐性保护。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "传达克制、警觉，以及她对场面秩序的本能掌控。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "高父",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.14,
+    "order": 646
+  },
+  {
+    "id": "shot_0647",
+    "scene_id": "scene_045",
+    "shot_number": 3,
+    "goal": "通过请帖先于人物出现，完成“不速之客并非空手闯入，而是带着合法性”的信息投递。",
+    "composition": "CU，冷白手指攥着满月宴请帖，自门口暗影中伸入画面中央偏左。前景是门槛和垂落红绸虚焦，背景金红宴厅散成暖色光斑，请帖文字清晰，人物脸仍未露出。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "制造一丝刺感：来者柔弱，却不是无凭无据地来。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 647
+  },
+  {
+    "id": "shot_0648",
+    "scene_id": "scene_045",
+    "shot_number": 4,
+    "goal": "正式揭示陆姝仪入场状态，突出她与宴厅氛围的冷暖反差。",
+    "composition": "MLS，陆姝仪从画面左侧门口入画，向右缓步而来。前景两侧宾客肩背形成夹道式框景，中景她身形单薄、衣色病淡，背景是暖色酒席与红绸，视线引导线全部朝向她。她被置于门框正中，像被审视的供词。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她脆弱又执拗，是主动把自己放到刀口上。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 648
+  },
+  {
+    "id": "shot_0649",
+    "scene_id": "scene_045",
+    "shot_number": 5,
+    "goal": "借人群反应把无形压力具象化，说明她一入场就已成为全厅焦点。",
+    "composition": "MS，三两宾客分布在画面前中景，前景一只停在半空的酒杯未落，中景两名妇人和一名男宾循声回头，视线统一朝画外左。背景仍有宴席陈设，但动作停滞，留出画外空间给陆姝仪。构图偏密，制造挤压感。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到窒息和审判感，像全场都在替礼法盯人。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 649
+  },
+  {
+    "id": "shot_0650",
+    "scene_id": "scene_045",
+    "shot_number": 6,
+    "goal": "回到女主近景主观，确认她已清楚看见来者，并感受到局势异样。",
+    "composition": "MCU，高令宁位于右侧，目光越过镜头前方看向左侧入口。前景左边有宾客头肩虚化掠过，形成窥视感；背景高父立于她后方偏左，神情开始收紧。画面中线由她视线指向画外的陆姝仪。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传达瞬时警醒与情绪下压，观众被迫跟她一起绷住。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 650
+  },
+  {
+    "id": "shot_0651",
+    "scene_id": "scene_045",
+    "shot_number": 7,
+    "goal": "展示高父认出陆姝仪后的骤然变脸，推动公开对峙由潜在转为明面。",
+    "composition": "MCU，高父正面略侧，位于画面中央偏左，眉心压紧，脸色沉下。前景下方虚化的是案几边与礼盏，背景偏右可见高令宁模糊身影，形成他与女儿的保护轴线。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到父性威压立起，空气一下冷下来。",
+    "duration_hint": "2s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 651
+  },
+  {
+    "id": "shot_0652",
+    "scene_id": "scene_045",
+    "shot_number": 8,
+    "goal": "以手势代替台词，明确高父已决定驱赶她，冲突升级。",
+    "composition": "CU，高父衣袖深色占据画面右侧，手从胸前抬起向左前方一压，示意下人上前。前景有模糊红绸掠过，背景中左侧可见两名仆从立即领会动作准备入画，方向统一朝门口。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到命令的冷硬与门第边界被迅速收紧。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 652
+  },
+  {
+    "id": "shot_0653",
+    "scene_id": "scene_045",
+    "shot_number": 9,
+    "goal": "交代驱赶动作已被执行，逼近身体层面的冲突。",
+    "composition": "MLS，仆从自画面右向左快步进入，朝陆姝仪逼近；陆姝仪立在画面左三分之一，未退。前景宾客身影构成狭窄通道，背景门口冷光与厅内暖光交界明显，形成她被逼在冷热断层处的视觉效果。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "制造临门一脚的压迫感，观众会担心她下一刻就被当众拖走。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.74,
+    "order": 653
+  },
+  {
+    "id": "shot_0654",
+    "scene_id": "scene_045",
+    "shot_number": 10,
+    "goal": "用高令宁的出声制止完成第一次情绪换挡，暂时截停局面。",
+    "composition": "MCU，高令宁自座侧微前倾，位于画面中央偏右，唇启未多，目光冷直投向前方。前景右下是案几与酒盏，背景高父的袖缘刚入画，形成她切断父亲动作的关系。构图稳定，像她以一句话钉住场子。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她不是慌，而是接管，带出克制权威。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 654
+  },
+  {
+    "id": "shot_0655",
+    "scene_id": "scene_045",
+    "shot_number": 11,
+    "goal": "呈现命令生效后的停顿，把场面从动作冲突拉回更危险的静止对峙。",
+    "composition": "MS，仆从停在画面中部，身体微僵，回头看向右后方；陆姝仪仍站左侧，没有移动半步。前景有一名宾客半遮挡，背景是停住的宴席与静下来的众人，所有视线交织在二人之间。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到一切突然安静下来，但静比动更难熬。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 655
+  },
+  {
+    "id": "shot_0656",
+    "scene_id": "scene_045",
+    "shot_number": 12,
+    "goal": "建立关键对峙关系：高父护在高令宁身前，公开划出阵营与边界。",
+    "composition": "MLS，限制性双视角轴线内对拍。画面右侧前景是高父半身略前一步，形成遮挡；高令宁在其后偏右，只露出清冷侧脸；画面左侧远处是陆姝仪独立站着。中间留出一段空地，像不可跨越的礼法距离。背景宾客围成模糊弧线。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到保护也是排斥，这道护持同时是一道羞辱。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父",
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 656
+  },
+  {
+    "id": "shot_0657",
+    "scene_id": "scene_045",
+    "shot_number": 13,
+    "goal": "把陆姝仪置于众目睽睽之下，突出她承受的注视与她对这一幕的复杂读取。",
+    "composition": "MCU，陆姝仪居中偏左，肩背收拢却站直，手中请帖垂在胸前。前景两侧是模糊人头与衣袖形成夹缝，背景远处高父挡在高令宁前的轮廓可辨但不清，像她视线中的刺点。留白压在她头顶上方，增强孤悬感。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她既难堪又清醒，她不是误入，而是来承受这一切。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 657
+  },
+  {
+    "id": "shot_0658",
+    "scene_id": "scene_045",
+    "shot_number": 14,
+    "goal": "抓取她嘴角那一丝笑意，埋下后续自白前的情绪复杂性：不是单纯示弱，也不是单纯挑衅。",
+    "composition": "CU，陆姝仪面部占据画面大半，眼下微青、唇色淡，嘴角极轻地弯起。背景虚化成暖红与深青交错的色块，眼神朝画外右方的高家中心望去，湿润眼底压着别样锋意。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一阵细冷：她在疼，也在看穿什么。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 658
+  },
+  {
+    "id": "shot_0659",
+    "scene_id": "scene_045",
+    "shot_number": 15,
+    "goal": "用高令宁的反应完成这场入侵的落点：她看见了那丝笑，也意识到真正的对话才刚开始。",
+    "composition": "CU，高令宁位于画面右侧，目光定在画外左，神色比先前更冷更深。前景下方虚化一道深色衣袖，暗示高父仍挡在前面；背景热闹陈设被压成硬边虚影，不再有喜气。她的眼神成为收束点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到真正危险的不是驱赶，而是彼此都已看懂对方。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.72,
+    "order": 659
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "seg_0068",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0202",
+      "shot_0203"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "开场先用空间建立封闭压迫和异常死寂，再立刻压到襁褓这一核心物证上，二者同属环境—事实建立阶段，角色关系未发生变化，情绪从寒意收紧到钝痛，适合合并为同一段冷开场。",
+    "order": 68
+  },
+  {
+    "id": "seg_0069",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0204",
+      "shot_0205"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是标准对视建立段：从女主限制性主观进入，再切到被她注视的对象。角色集合稳定，时空不变，情绪推进是从麻木到对峙确认，属于同一条视线叙事链。",
+    "order": 69
+  },
+  {
+    "id": "seg_0070",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0206",
+      "shot_0207"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组属于情绪加压段，核心不是动作而是反应对打。先给女主恨意落点，再给男方承受结果，完全符合‘听者比说者重要’原则，且二者是同一情绪弧线上下句，适合合并。",
+    "order": 70
+  },
+  {
+    "id": "seg_0071",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0208",
+      "shot_0209",
+      "shot_0211"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段内部完成一次明确情绪换挡：共同败局—旧忆刺入—回到更冷的现实。虽然包含闪回，但它服务于同一人物情感收束，且时空跳转极短、需与现实形成尖锐对照，因此合并为单一VFF段最有效。",
+    "order": 71
+  },
+  {
+    "id": "seg_0072",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0212",
+      "shot_0213",
+      "shot_0214"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此组三镜构成完整情绪高潮：铺垫崩塌—动作节点—反应定型。角色关系没有变化，情感却从松动推进到彻底断裂，典型适合合并为一段高潮反应链。",
+    "order": 72
+  },
+  {
+    "id": "seg_0073",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0206",
+      "shot_0215"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "收尾需先保留女主最终态度，再回到空间完成后劲。为控制时长并保持结尾冷意，采用女主近景与最终大全关系镜头的组合，把人物结论落回环境结论，形成完整闭环。",
+    "order": 73
+  }
+]

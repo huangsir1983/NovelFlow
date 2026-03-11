@@ -1,0 +1,117 @@
+{
+  "total_locations": 14,
+  "locations": [
+    {
+      "location_id": "loc_001",
+      "name": "沈府正厅",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "location_id": "loc_002",
+      "name": "沈府荷花亭",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "location_id": "loc_003",
+      "name": "沈府卧房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "location_id": "loc_004",
+      "name": "高府正堂",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "location_id": "loc_005",
+      "name": "高府闺房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "location_id": "loc_006",
+      "name": "医馆门前",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "location_id": "loc_007",
+      "name": "马球场",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "location_id": "loc_008",
+      "name": "客栈厢房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "location_id": "loc_009",
+      "name": "沈府洞房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_009"
+      ]
+    },
+    {
+      "location_id": "loc_010",
+      "name": "高府厢房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_010"
+      ]
+    },
+    {
+      "location_id": "loc_011",
+      "name": "高府产房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_011"
+      ]
+    },
+    {
+      "location_id": "loc_012",
+      "name": "高府后院",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_012"
+      ]
+    },
+    {
+      "location_id": "loc_013",
+      "name": "江南院落",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_013"
+      ]
+    },
+    {
+      "location_id": "loc_014",
+      "name": "江南卧房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_014"
+      ]
+    }
+  ]
+}

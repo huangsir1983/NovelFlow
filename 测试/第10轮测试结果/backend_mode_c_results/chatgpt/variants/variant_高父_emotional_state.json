@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_06",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 厢房惊变时的震怒失色形象",
+  "tags": [
+    "变故现场",
+    "名声危机",
+    "震惊",
+    "家主失控边缘"
+  ],
+  "scene_ids": [
+    "scene_016"
+  ],
+  "trigger": "众人搜寻失踪的陆姝仪后，在高府厢房撞见昏迷且衣冠不整的陆姝仪与蒋晟，高父身处足以毁人婚事与门第声誉的突发灾难中心。",
+  "appearance_delta": {
+    "face": "脸色骤变，震惊与沉怒同时上涌，忧思被突发羞辱和危机压成僵硬失色",
+    "body": "身形更显单薄却绷紧，像被突如其来的家门丑事逼到失控边缘",
+    "hair": "因仓促搜寻与暮色慌乱，发髻虽未散乱但不再如先前从容",
+    "distinguishing_features": "从温厚长辈瞬间切换为直面灾难的家主，表情罕见地出现压不住的惊怒与寒意"
+  },
+  "costume_override": {
+    "outfit": "高府日常外出或会客用的沉稳长袍，适合傍晚在后院与厢房间奔走",
+    "color_palette": [
+      "深青",
+      "灰蓝",
+      "暗褐"
+    ]
+  },
+  "visual_reference": "middle-aged ancient Chinese father reacting to a scandal in a side room at dusk, thin scholar-official with kind features turned shocked and stern, pale tense face, deep forehead and eye wrinkles, slightly graying hair in a still-neat but hurried topknot, muted dark robe, standing in a dim corridor near an opened wooden door, lantern light, family honor crisis, intense historical drama realism",
+  "emotional_tone": "震惊、沉怒、危机压顶"
+}

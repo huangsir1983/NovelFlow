@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_019",
+  "order": 18,
+  "heading": "INT. 高府正厅 - NIGHT",
+  "location": "高府厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "陆姝仪哭诉自己被高令宁设计失贞，沈词在未调查清楚前站到她那边，斥责高令宁恶毒跋扈，并以“若姝仪再为你而死，我杀了你”相威胁。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "高令宁一巴掌打在沈词脸上，随即腹痛发作，轰然坠入黑暗。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "桌案",
+    "桌面茶盏",
+    "证言丫鬟小厮",
+    "衣角",
+    "巴掌声",
+    "高堂烛火",
+    "门帘",
+    "蒋晟凌乱衣冠"
+  ],
+  "dramatic_purpose": "将男女主信任彻底击碎，推动早产与关系断裂。"
+}

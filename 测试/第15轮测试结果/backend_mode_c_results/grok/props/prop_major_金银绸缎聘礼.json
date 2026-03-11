@@ -1,0 +1,13 @@
+{
+  "name": "金银绸缎聘礼",
+  "category": "symbolic",
+  "description": "堆叠华丽的金银绸缎聘礼，包括光泽纯正的金锭银锭与多匹红色绣花丝绸织锦，绸缎质地光滑厚实，整体堆放约1平方米面积，奢华富贵。",
+  "visual_reference": "古代中国聘礼堆，金银丝绸布料层层叠放，华丽刺绣金线闪耀，配金银器皿和锦盒，奢华古风，红色礼布包裹，细节丰富光泽自然",
+  "visual_prompt_negative": "廉价化纤布、现代礼品、塑料包装、杂乱堆放、西方风格",
+  "narrative_function": "展示聘礼规格（比前世少一半），与木雁共同揭示沈词重生，推动女主角警觉与拒绝的情节，体现门第情感变化",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_001"
+  ],
+  "emotional_association": "富贵对比与不满"
+}

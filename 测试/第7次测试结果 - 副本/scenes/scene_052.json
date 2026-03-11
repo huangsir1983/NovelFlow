@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "id": "scene_052",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:04:24"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "INT. 临终卧房 - 夜",
+    "location": "前世临终卧房",
+    "time_of_day": "night",
+    "description": "昏暗卧房内，床榻沉重，灯火低弱，空气凝滞。高令宁躺在床上，气息微弱，面色灰白。沈睿立于床边，神情平静得近乎冷酷。两人之间只有近距离的肢体接触和压抑死寂。",
+    "action": "高令宁用尽力气抬手，死死抓住沈睿的手腕，胸口起伏艰难，断续吐字，带着濒死的执拗与恨意。沈睿低头看她，目光毫无波澜，随后缓慢抬手覆上她的眼睛，语气冷静回应。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "我就算死了……也会一直缠着你，让你痛苦一生。",
+        "subtext": "我这一生被你毁掉，死也不愿放过你。"
+      },
+      {
+        "character": "沈睿",
+        "line": "我等着。",
+        "subtext": "你的恨我接受，甚至把它当作你与我之间最后的联系。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "床榻",
+      "灯火"
+    ],
+    "dramatic_purpose": "补足前世誓言的具体画面，揭示两人关系中‘恨即羁绊’的核心结构，为当下‘原谅’带来的反向冲击埋下因果。",
+    "tension_score": 0.93,
+    "dramatic_intensity": 0.86,
+    "order": 52
+  }
+}

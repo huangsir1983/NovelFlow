@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0228",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0615",
+      "shot_0616",
+      "shot_0617"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前3个shot共享同一发现动作链条：由门的封闭感、推门揭露，到完整看见屋内现场，角色集合从无人到仅现场两人，情绪从压抑预兆直线上升到震惊，适合合并为一个完整的‘发现段落’。",
+    "order": 228
+  },
+  {
+    "id": "seg_0229",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0618",
+      "shot_0619",
+      "shot_0620"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段将现场证据与女主反应绑定：先用细节物证加重羞辱与真实性，再顺势切入@char_高令宁 高令宁 的主观受创，完成从‘看见事实’到‘身体承受事实’的情绪递进，角色重心明确转移，适合作为第二段。",
+    "order": 229
+  },
+  {
+    "id": "seg_0230",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0621",
+      "shot_0622",
+      "shot_0623",
+      "shot_0624"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成完整的无声对峙单元，角色集合稳定为@char_高令宁 高令宁 与@char_沈睿 沈睿，情感弧线从惊惧转向审视、指控与被审判感，内部采用双向反打但保持限制性视角，适合独立成段。",
+    "order": 230
+  },
+  {
+    "id": "seg_0231",
+    "scene_id": "scene_040",
+    "shot_ids": [
+      "shot_0625",
+      "shot_0626"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜共同承担‘危机落点’：先补足群体见证与流言即将扩散的环境压迫，再用门内反拍把屋内证据、门口对峙双方纳入同一构图，完成本场的宿命式收束，因此合并为收尾段最有效。",
+    "order": 231
+  }
+]

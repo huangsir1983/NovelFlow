@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_018",
+  "name": "高府卧房",
+  "type": "interior",
+  "era_style": "明代中晚期官家内院病后卧房",
+  "description": "高府卧房在此阶段偏向产后休养与梦境承载空间，病榻设于内侧，床帐半垂，床边小几上有粥碗与小勺。陈设简单安静，去除了繁复装饰，突出病后虚弱与母女生活的清淡日常。空间中可加入一层梦境柔光处理，使现实卧房在视觉上更轻、更软，仿佛隔着薄雾。整体格局仍是官家卧房的木作与帘帐，但氛围上更接近自我疗愈的容器。",
+  "visual_reference": "Late Ming dynasty noblewoman recovery bedroom, quiet post-childbirth chamber, sickbed with soft curtains, small bowl of porridge and spoon by the bedside, minimal elegant furnishing, dreamy soft glow suggesting a vision, intimate and emotional Chinese historical drama interior, daylight, highly detailed",
+  "atmosphere": "柔软、哀伤、释然过渡",
+  "color_palette": [
+    "雾白",
+    "浅杏",
+    "淡灰蓝"
+  ],
+  "lighting": "柔和散射日光配合轻微梦境滤镜，边缘发虚，整体光感温柔，不强调现实锐度。",
+  "key_features": [
+    "病榻与半垂床帐",
+    "粥碗小勺的照护细节",
+    "梦境般的柔光层"
+  ],
+  "narrative_scenes": [
+    "scene_022"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从产后虚弱与对长子的执念，过渡到终于接受今生女儿的安静释然。"
+}

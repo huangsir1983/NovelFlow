@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "id": "scene_038",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:36:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ]
+  },
+  "data": {
+    "heading": "INT. 梦境中的沈家内室 - 夜",
+    "location": "梦境中的沈家内室",
+    "time_of_day": "night",
+    "description": "封闭低矮的旧式内室，光线昏暗，主要来自桌上一盏摇曳油灯，暖黄光从侧后方打在床榻与矮桌上，房内陈设简陋压抑。床边放着粥碗，空气沉闷，带有病中久卧的滞涩感。幼年的沈睿站在床前，身形瘦小，动作拘谨，小心端着热粥，像在侍奉病中的母亲。",
+    "action": "幼年的沈睿双手捧着粥碗，缓慢走近床边，低头不敢直视人，膝盖微屈站定。说话时嘴唇发颤，眼圈发红，像压着巨大的愧疚。高令宁在梦中目睹这幅画面，无法介入，只能被动看着母子之间压抑的情感裂口不断扩大。梦境中前世丧女、丧子后的夫妻关系以碎片化画面掠过：空床、冷灶、彼此错身而过的背影，显示长久将就与消磨。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "若不是为了我，你们早就和离了。",
+        "subtext": "他将父母婚姻破裂的责任归到自己身上。"
+      },
+      {
+        "character": "沈睿",
+        "line": "来生别再生下我。",
+        "subtext": "他希望自己从未成为父母痛苦的连接。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "油灯",
+      "粥碗",
+      "床榻"
+    ],
+    "dramatic_purpose": "以前世梦境交代母子纠葛与婚姻裂痕，为高令宁如今决意和离提供深层情感动机，并预埋前世记忆的关键设定。",
+    "tension_score": 0.72,
+    "order": 38
+  }
+}

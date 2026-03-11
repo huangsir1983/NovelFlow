@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_024",
+  "order": 23,
+  "heading": "INT. 沈家洞房门前 - NIGHT",
+  "location": "沈家新房门口",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪的婢女"
+  ],
+  "core_event": "圆房后陆姝仪的婢女来报她醉酒心口痛，重复前世争宠戏码，我冷淡放沈词离开，并表明无需再回来。",
+  "key_dialogue": "「你去吧。也不必回来了。」",
+  "emotional_peak": "我不再争，不再告状，彻底放弃新婚之夜的尊严之争。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "门外跪垫",
+    "酒后传话",
+    "锦被"
+  ],
+  "dramatic_purpose": "表现我对重复命运的清醒旁观，也显示我心态已变。",
+  "visual_reference": "新房门外婢女跪地急报，门内烛光摇曳，新娘背对床榻自顾盖被，新郎立在床边神色复杂，门槛形成鲜明分割",
+  "visual_prompt_negative": "避免狗血夸张抓奸感，避免现代门铃元素，避免多人拥挤",
+  "source_text_start": "陆姝仪的婢女来叩房门时。",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

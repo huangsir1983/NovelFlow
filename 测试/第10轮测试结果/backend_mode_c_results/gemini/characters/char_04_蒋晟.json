@@ -1,0 +1,40 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "minor",
+  "age_range": "18-22",
+  "appearance": {
+    "face": "面容老实憨厚，容易脸红",
+    "body": "习武之人，身板结实挺拔",
+    "hair": "利落的武人束发",
+    "distinguishing_features": "神态总是带着几分羞涩与拘谨"
+  },
+  "costume": {
+    "typical_outfit": "便于活动的劲装或武官常服",
+    "color_palette": [
+      "石青",
+      "赭石"
+    ]
+  },
+  "casting_tags": [
+    "忠犬",
+    "老实人",
+    "武将"
+  ],
+  "visual_reference": "1boy, young ancient chinese martial artist, honest face, muscular build, wearing practical dark clothes, slightly blushing, masterpiece",
+  "personality": "老实本分，体贴入微，但缺乏城府",
+  "desire": "娶高令宁为妻",
+  "flaw": "过于单纯，容易被人算计",
+  "arc": "从满心欢喜追求女主，到被陆姝仪算计被迫娶妻，婚姻不幸",
+  "scene_presence": "马球会与捉奸现场",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "爱慕者",
+      "dynamic": "小心翼翼地呵护，却被女主当作气沈词的工具",
+      "function": "推动沈词吃醋与陆姝仪狗急跳墙"
+    }
+  ]
+}

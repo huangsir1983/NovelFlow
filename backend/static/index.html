@@ -1,0 +1,2379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>虚幻造物 - UnrealMake</title>
+<style>
+/* ═══ Reset & Root ═══ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg-0:#0a0a1a;--bg-1:#12122a;--bg-2:#1a1a36;--bg-3:#242450;
+  --brand:#6366f1;--brand-light:#8b5cf6;--gold:#e2b714;
+  --success:#22c55e;--warning:#f59e0b;--error:#ef4444;--info:#3b82f6;
+  --text:#e2e8f0;--text-dim:#94a3b8;--text-muted:#64748b;
+  --border:#334155;--radius:8px;
+}
+html,body{height:100%;font-family:'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg-0);color:var(--text);line-height:1.6}
+a{color:var(--brand-light);text-decoration:none}
+button{cursor:pointer;font-family:inherit;border:none;outline:none}
+input,textarea,select{font-family:inherit;outline:none}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--bg-3);border-radius:3px}
+
+/* ═══ Utility ═══ */
+.brand-gradient{background:linear-gradient(135deg,var(--brand),var(--brand-light))}
+.glass{background:rgba(18,18,42,.7);backdrop-filter:blur(12px);border:1px solid rgba(99,102,241,.15)}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600}
+.badge-brand{background:rgba(99,102,241,.2);color:var(--brand-light)}
+.badge-red{background:rgba(239,68,68,.2);color:var(--error)}
+.badge-green{background:rgba(34,197,94,.2);color:var(--success)}
+.badge-gold{background:rgba(226,183,20,.2);color:var(--gold)}
+.badge-blue{background:rgba(59,130,246,.2);color:var(--info)}
+.hidden{display:none!important}
+.flex{display:flex}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}
+.gap-1{gap:4px}.gap-2{gap:8px}.gap-3{gap:12px}.gap-4{gap:16px}.gap-6{gap:24px}
+.w-full{width:100%}.h-full{height:100%}.flex-1{flex:1}.shrink-0{flex-shrink:0}
+.text-center{text-align:center}.text-sm{font-size:13px}.text-xs{font-size:11px}
+.opacity-50{opacity:.5}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}
+.relative{position:relative}.absolute{position:absolute}
+.p-2{padding:8px}.p-3{padding:12px}.p-4{padding:16px}.p-6{padding:24px}
+.px-3{padding-left:12px;padding-right:12px}.px-4{padding-left:16px;padding-right:16px}
+.py-1{padding-top:4px;padding-bottom:4px}.py-2{padding-top:8px;padding-bottom:8px}
+.mt-2{margin-top:8px}.mt-4{margin-top:16px}.mt-6{margin-top:24px}.mb-2{margin-bottom:8px}.mb-4{margin-bottom:16px}
+.rounded{border-radius:var(--radius)}.rounded-full{border-radius:999px}
+.font-medium{font-weight:500}.font-bold{font-weight:700}
+.border{border:1px solid var(--border)}
+.transition{transition:all .2s ease}
+
+/* ═══ Buttons ═══ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:8px 16px;border-radius:var(--radius);font-size:14px;font-weight:500;transition:all .2s}
+.btn-primary{background:linear-gradient(135deg,var(--brand),var(--brand-light));color:#fff;box-shadow:0 4px 14px rgba(99,102,241,.3)}
+.btn-primary:hover{box-shadow:0 6px 20px rgba(99,102,241,.45);transform:translateY(-1px)}
+.btn-primary:disabled{opacity:.5;transform:none;box-shadow:none;cursor:not-allowed}
+.btn-secondary{background:var(--bg-2);color:var(--text);border:1px solid var(--border)}
+.btn-secondary:hover{background:var(--bg-3);border-color:var(--brand)}
+.btn-danger{background:rgba(239,68,68,.15);color:var(--error);border:1px solid rgba(239,68,68,.3)}
+.btn-danger:hover{background:rgba(239,68,68,.25)}
+.btn-sm{padding:4px 10px;font-size:12px}
+.btn-lg{padding:12px 32px;font-size:16px}
+
+/* ═══ Inputs ═══ */
+.input{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius);padding:8px 12px;color:var(--text);font-size:14px;width:100%;transition:border-color .2s}
+.input:focus{border-color:var(--brand)}
+.input::placeholder{color:var(--text-muted)}
+textarea.input{resize:vertical;min-height:80px}
+
+/* ═══ Cards ═══ */
+.card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+.card-hover:hover{border-color:var(--brand);box-shadow:0 0 20px rgba(99,102,241,.1)}
+
+/* ═══ Animations ═══ */
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.animate-fade{animation:fadeIn .3s ease}.animate-slide{animation:slideUp .4s ease}
+.spinner{width:16px;height:16px;border:2px solid var(--border);border-top-color:var(--brand);border-radius:50%;animation:spin .6s linear infinite;display:inline-block}
+
+/* ═══ Layout: App Shell ═══ */
+#app{height:100%;display:flex;flex-direction:column}
+.app-header{height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;border-bottom:1px solid var(--border);background:var(--bg-1);flex-shrink:0;z-index:100}
+.app-header .logo{font-size:16px;font-weight:700;letter-spacing:1px}
+.app-header .logo span{color:var(--brand-light)}
+.app-header .header-actions{display:flex;align-items:center;gap:8px}
+.icon-btn{width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:6px;background:transparent;color:var(--text-dim);transition:all .15s}
+.icon-btn:hover{background:var(--bg-2);color:var(--text)}
+.app-body{flex:1;overflow:hidden;display:flex;flex-direction:column}
+
+/* ═══ Home Page ═══ */
+.home-page{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:40px}
+.home-title{font-size:36px;font-weight:700;letter-spacing:2px}
+.home-title .brand{color:var(--brand-light)}
+.home-subtitle{color:var(--text-dim);font-size:15px;margin-top:-8px}
+.edition-switcher{display:flex;gap:0;background:var(--bg-1);border-radius:999px;padding:4px;border:1px solid var(--border)}
+.edition-btn{padding:8px 20px;border-radius:999px;font-size:13px;font-weight:500;color:var(--text-dim);background:transparent;transition:all .25s}
+.edition-btn:hover{color:var(--text)}
+.edition-btn.active{background:linear-gradient(135deg,var(--brand),var(--brand-light));color:#fff;box-shadow:0 2px 10px rgba(99,102,241,.4)}
+.edition-desc{color:var(--text-muted);font-size:13px;min-height:20px}
+.create-btn{padding:14px 48px;font-size:16px;border-radius:var(--radius);font-weight:600;letter-spacing:1px}
+.home-footer{color:var(--text-muted);font-size:12px;position:absolute;bottom:24px}
+.home-projects{margin-top:8px;display:flex;flex-direction:column;gap:8px;width:100%;max-width:500px}
+.project-item{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius);cursor:pointer;transition:all .2s}
+.project-item:hover{border-color:var(--brand);background:var(--bg-2)}
+.project-item .name{font-weight:500}.project-item .meta{font-size:12px;color:var(--text-muted)}
+
+/* ═══ Wizard Layout ═══ */
+.wizard{flex:1;display:flex;flex-direction:column;overflow:hidden}
+.wizard-header{padding:12px 24px;border-bottom:1px solid var(--border);background:var(--bg-1)}
+.step-nav{display:flex;gap:24px;align-items:center}
+.step-item{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text-muted);cursor:pointer;transition:color .2s}
+.step-item:hover{color:var(--text-dim)}
+.step-item.active{color:var(--text)}
+.step-item.done{color:var(--success)}
+.step-dot{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;border:2px solid var(--border);color:var(--text-muted);transition:all .2s}
+.step-item.active .step-dot{border-color:var(--brand);color:var(--brand);background:rgba(99,102,241,.15)}
+.step-item.done .step-dot{border-color:var(--success);color:var(--success);background:rgba(34,197,94,.15)}
+.wizard-body{flex:1;overflow:auto;padding:32px 24px}
+.wizard-footer{padding:12px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;background:var(--bg-1)}
+.wizard-footer .step-info{font-size:12px;color:var(--text-muted)}
+
+/* ═══ Source Selection ═══ */
+.source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:700px;margin:0 auto}
+.source-card{padding:24px;text-align:center;cursor:pointer;transition:all .25s;border:2px solid var(--border);border-radius:var(--radius);background:var(--bg-1)}
+.source-card:hover{border-color:var(--brand);transform:translateY(-2px)}
+.source-card.selected{border-color:var(--brand);background:rgba(99,102,241,.08);box-shadow:0 0 20px rgba(99,102,241,.15)}
+.source-card .icon{font-size:32px;margin-bottom:8px}
+.source-card .title{font-weight:600;margin-bottom:4px}
+.source-card .desc{font-size:12px;color:var(--text-muted)}
+.source-card.disabled{opacity:.4;cursor:not-allowed;pointer-events:none}
+
+/* ═══ File Upload ═══ */
+.upload-zone{border:2px dashed var(--border);border-radius:var(--radius);padding:48px 24px;text-align:center;cursor:pointer;transition:all .25s;background:var(--bg-1)}
+.upload-zone:hover,.upload-zone.dragover{border-color:var(--brand);background:rgba(99,102,241,.05)}
+.upload-zone .icon{font-size:40px;margin-bottom:12px;opacity:.5}
+.upload-zone .label{font-size:15px;font-weight:500;margin-bottom:4px}
+.upload-zone .hint{font-size:12px;color:var(--text-muted)}
+.upload-zone input[type=file]{display:none}
+
+/* ═══ Import Progress ═══ */
+.import-progress{max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.import-step{display:flex;align-items:flex-start;gap:12px;padding:12px;border-radius:var(--radius);background:var(--bg-1);border:1px solid var(--border)}
+.import-step .step-icon{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+.import-step .step-icon.pending{background:var(--bg-2);color:var(--text-muted)}
+.import-step .step-icon.running{background:rgba(99,102,241,.2);color:var(--brand);animation:pulse-dot 1.5s infinite}
+.import-step .step-icon.done{background:rgba(34,197,94,.2);color:var(--success)}
+.import-step .step-icon.error{background:rgba(239,68,68,.2);color:var(--error)}
+.import-step .step-body{flex:1;min-width:0}
+.import-step .step-label{font-size:14px;font-weight:500}
+.import-step .step-detail{font-size:12px;color:var(--text-muted);margin-top:2px}
+.progress-bar{height:4px;background:var(--bg-2);border-radius:2px;margin-top:6px;overflow:hidden}
+.progress-bar .fill{height:100%;background:linear-gradient(90deg,var(--brand),var(--brand-light));border-radius:2px;transition:width .3s}
+.entity-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.error-box{background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);border-radius:var(--radius);padding:12px;color:var(--error);font-size:13px;margin-top:12px}
+
+/* ═══ Knowledge Review ═══ */
+.knowledge-review{display:flex;flex-direction:column;gap:24px;max-width:900px;margin:0 auto}
+.kr-section{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.kr-section-header{padding:12px 16px;background:var(--bg-2);font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px;cursor:pointer}
+.kr-section-body{padding:16px}
+.kr-char-card{display:flex;gap:12px;padding:12px;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:8px;background:var(--bg-1)}
+.kr-char-card .name{font-weight:600;font-size:15px}
+.kr-char-card .role-badge{margin-left:8px}
+.kr-char-card .desc{font-size:13px;color:var(--text-dim);margin-top:4px}
+.kr-char-card .detail{font-size:12px;color:var(--text-muted);margin-top:2px}
+.kr-loc-card{padding:12px;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:8px;background:var(--bg-1)}
+.kr-loc-card .name{font-weight:600}
+.kr-loc-card .desc{font-size:13px;color:var(--text-dim);margin-top:4px}
+.kr-kv{display:grid;grid-template-columns:120px 1fr;gap:8px;font-size:13px}
+.kr-kv dt{color:var(--text-muted);font-weight:500}
+.kr-kv dd{color:var(--text-dim)}
+
+/* ═══ Workspace Layout ═══ */
+.workspace{flex:1;display:flex;overflow:hidden}
+.ws-sidebar{width:240px;border-right:1px solid var(--border);background:var(--bg-1);display:flex;flex-direction:column;flex-shrink:0;overflow:hidden}
+.ws-main{flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.ws-right{width:320px;border-left:1px solid var(--border);background:var(--bg-1);display:flex;flex-direction:column;flex-shrink:0;overflow:hidden}
+.ws-status{height:28px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;border-top:1px solid var(--border);background:var(--bg-1);font-size:11px;color:var(--text-muted);flex-shrink:0}
+
+/* ═══ Project Nav (sidebar) ═══ */
+.nav-tabs{display:flex;border-bottom:1px solid var(--border);flex-shrink:0}
+.nav-tab{flex:1;padding:8px;text-align:center;font-size:12px;font-weight:500;color:var(--text-muted);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.nav-tab:hover{color:var(--text-dim)}
+.nav-tab.active{color:var(--brand-light);border-bottom-color:var(--brand)}
+.nav-list{flex:1;overflow:auto;padding:4px}
+.nav-item{padding:8px 12px;border-radius:6px;font-size:13px;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:space-between}
+.nav-item:hover{background:var(--bg-2)}
+.nav-item.active{background:rgba(99,102,241,.15);color:var(--brand-light)}
+.nav-item .count{font-size:11px;color:var(--text-muted)}
+
+/* ═══ Beat List ═══ */
+.beat-panel{flex:1;overflow:auto;padding:16px}
+.beat-curve{width:100%;height:100px;margin-bottom:16px}
+.beat-card{padding:12px;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:8px;cursor:pointer;transition:all .2s;background:var(--bg-1)}
+.beat-card:hover{border-color:var(--brand)}
+.beat-card.selected{border-color:var(--brand);background:rgba(99,102,241,.08)}
+.beat-card .beat-header{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.beat-card .beat-title{font-weight:500;font-size:14px}
+.beat-card .beat-desc{font-size:12px;color:var(--text-dim);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.beat-card .emo-bar{height:4px;border-radius:2px;margin-top:8px;background:var(--bg-2);position:relative}
+.beat-card .emo-fill{position:absolute;height:100%;border-radius:2px}
+
+/* ═══ Script Editor ═══ */
+.script-editor{flex:1;display:flex;flex-direction:column;overflow:hidden}
+.script-editor textarea{flex:1;background:var(--bg-0);color:var(--text);border:none;padding:16px 20px;font-family:'Courier New',monospace;font-size:14px;line-height:1.8;resize:none;width:100%}
+.script-editor textarea::placeholder{color:var(--text-muted)}
+.ai-toolbar{display:flex;gap:4px;padding:4px 8px;background:var(--bg-2);border:1px solid var(--border);border-radius:6px;position:absolute;z-index:50;box-shadow:0 4px 12px rgba(0,0,0,.4)}
+.ai-toolbar button{padding:4px 8px;font-size:11px;border-radius:4px;background:transparent;color:var(--text-dim);transition:all .15s}
+.ai-toolbar button:hover{background:var(--bg-3);color:var(--brand-light)}
+
+/* ═══ AI Assistant ═══ */
+.ai-panel{display:flex;flex-direction:column;height:100%;overflow:hidden}
+.ai-panel .title{padding:12px 16px;font-weight:600;font-size:14px;border-bottom:1px solid var(--border);flex-shrink:0}
+.ai-panel .ai-input{padding:12px;flex-shrink:0;border-bottom:1px solid var(--border)}
+.ai-panel textarea{height:120px}
+.ai-panel .ai-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:12px;flex-shrink:0}
+.ai-panel .ai-result{flex:1;overflow:auto;padding:12px;font-size:13px;line-height:1.7;white-space:pre-wrap;color:var(--text-dim)}
+.ai-streaming{border-left:2px solid var(--brand);padding-left:12px}
+
+/* ═══ Settings Page ═══ */
+.settings-page{flex:1;overflow:auto;padding:24px;max-width:900px;margin:0 auto;width:100%}
+.provider-card{border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:12px;background:var(--bg-1)}
+.provider-card .provider-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.provider-card .provider-name{font-weight:600;font-size:15px;display:flex;align-items:center;gap:8px}
+.provider-card .provider-info{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;font-size:12px;color:var(--text-dim);margin-bottom:12px}
+.provider-card .provider-info dt{color:var(--text-muted)}
+.provider-card .model-list{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.provider-card .model-tag{padding:4px 8px;background:var(--bg-2);border:1px solid var(--border);border-radius:4px;font-size:11px;display:flex;align-items:center;gap:4px}
+.provider-card .actions{display:flex;gap:8px;flex-wrap:wrap}
+
+/* ═══ Modal ═══ */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);z-index:200;display:flex;align-items:center;justify-content:center}
+.modal{background:var(--bg-1);border:1px solid var(--border);border-radius:12px;padding:24px;width:90%;max-width:600px;max-height:85vh;overflow:auto;animation:slideUp .3s ease}
+.modal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.modal-header h3{font-size:18px;font-weight:600}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:13px;font-weight:500;color:var(--text-dim);margin-bottom:6px}
+.form-row{display:flex;gap:12px;align-items:flex-end}
+.type-selector{display:flex;flex-wrap:wrap;gap:6px}
+.type-btn{padding:6px 12px;border-radius:6px;font-size:12px;background:var(--bg-2);color:var(--text-dim);border:1px solid var(--border);transition:all .2s}
+.type-btn:hover{border-color:var(--brand)}
+.type-btn.active{background:rgba(99,102,241,.15);color:var(--brand-light);border-color:var(--brand)}
+.model-row{display:flex;gap:8px;align-items:center;padding:8px;background:var(--bg-2);border-radius:6px;margin-bottom:6px;flex-wrap:wrap}
+.model-row input,.model-row select{flex:1;min-width:100px}
+.checkbox{display:flex;align-items:center;gap:6px;font-size:13px;cursor:pointer}
+.checkbox input[type=checkbox]{accent-color:var(--brand)}
+
+/* ═══ Split view ═══ */
+.split-view{flex:1;display:flex;overflow:hidden}
+.split-left{flex:1;overflow:hidden;display:flex;flex-direction:column;border-right:1px solid var(--border)}
+.split-right{flex:1;overflow:hidden;display:flex;flex-direction:column}
+
+/* ═══ Responsive ═══ */
+@media(max-width:768px){
+  .ws-sidebar,.ws-right{display:none}
+  .source-grid{grid-template-columns:1fr}
+}
+
+/* ═══ Toast ═══ */
+.toast-container{position:fixed;top:16px;right:16px;z-index:999;display:flex;flex-direction:column;gap:8px}
+.toast{padding:10px 16px;border-radius:var(--radius);font-size:13px;animation:fadeIn .3s ease;max-width:360px;box-shadow:0 4px 12px rgba(0,0,0,.4)}
+.toast-success{background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.3);color:var(--success)}
+.toast-error{background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.3);color:var(--error)}
+.toast-info{background:rgba(59,130,246,.15);border:1px solid rgba(59,130,246,.3);color:var(--info)}
+
+/* ═══ Storyboard ═══ */
+.sb-container{max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
+.sb-scene-group{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.sb-scene-header{padding:12px 16px;background:var(--bg-2);font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px;cursor:pointer}
+.sb-scene-header .toggle{font-size:10px;transition:transform .2s}
+.sb-scene-header.collapsed .toggle{transform:rotate(-90deg)}
+.sb-scene-body{padding:12px}
+.sb-shot-row{display:flex;gap:12px;padding:12px;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:8px;background:var(--bg-1);transition:border-color .2s}
+.sb-shot-row:hover{border-color:var(--brand)}
+.sb-shot-num{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--bg-3);font-size:12px;font-weight:700;flex-shrink:0;color:var(--brand-light)}
+.sb-shot-body{flex:1;min-width:0}
+.sb-shot-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.sb-shot-meta .tag{padding:2px 8px;border-radius:4px;font-size:11px;background:var(--bg-2);color:var(--text-dim)}
+.sb-group-card{border:1px solid rgba(99,102,241,.3);border-radius:var(--radius);margin-bottom:8px;overflow:hidden;background:rgba(99,102,241,.04)}
+.sb-group-header{padding:10px 14px;background:rgba(99,102,241,.08);font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:space-between}
+.sb-group-body{padding:12px;font-size:13px}
+.sb-vff{background:var(--bg-0);border:1px solid var(--border);border-radius:6px;padding:12px;font-family:monospace;font-size:12px;white-space:pre-wrap;color:var(--text-dim);max-height:200px;overflow:auto;margin-top:8px}
+.sb-prompt{background:var(--bg-0);border:1px solid var(--border);border-radius:6px;padding:10px;font-size:12px;color:var(--text-dim);margin-top:6px}
+.sb-prompt-label{font-size:11px;color:var(--text-muted);font-weight:600;margin-bottom:4px}
+.sb-empty{text-align:center;padding:60px 20px;color:var(--text-muted)}
+.sb-empty .icon{font-size:48px;margin-bottom:12px;opacity:.5}
+.sb-stats{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.sb-stat{padding:12px 20px;background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius);text-align:center}
+.sb-stat .num{font-size:24px;font-weight:700;color:var(--brand-light)}
+.sb-stat .label{font-size:11px;color:var(--text-muted);margin-top:2px}
+
+/* ═══ Phase Switcher ═══ */
+.phase-switcher{display:flex;gap:0;background:var(--bg-2);border-radius:6px;padding:2px;border:1px solid var(--border)}
+.phase-btn{padding:6px 16px;border-radius:4px;font-size:12px;font-weight:500;color:var(--text-muted);background:transparent;transition:all .2s}
+.phase-btn:hover{color:var(--text)}
+.phase-btn.active{background:linear-gradient(135deg,var(--brand),var(--brand-light));color:#fff}
+.phase-label{font-size:10px;display:block;text-align:center;margin-top:1px;opacity:.7}
+
+/* ═══ Editable Controls ═══ */
+.edit-inline{background:var(--bg-0);border:1px solid var(--border);border-radius:4px;padding:4px 8px;color:var(--text);font-size:13px;width:100%;transition:border-color .2s}
+.edit-inline:focus{border-color:var(--brand);outline:none}
+textarea.edit-inline{resize:vertical;min-height:60px;font-family:inherit;line-height:1.5}
+.edit-actions{display:flex;gap:4px;margin-top:4px;justify-content:flex-end}
+.btn-icon{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:4px;font-size:14px;background:var(--bg-2);color:var(--text-dim);border:1px solid var(--border);transition:all .15s}
+.btn-icon:hover{border-color:var(--brand);color:var(--brand-light)}
+.btn-icon.danger:hover{border-color:var(--error);color:var(--error)}
+.confirm-delete{background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);border-radius:var(--radius);padding:12px;margin-top:8px;display:flex;align-items:center;gap:8px;font-size:13px}
+
+/* ═══ Enhanced AI Panel ═══ */
+.ai-group-label{font-size:11px;font-weight:600;color:var(--text-muted);padding:4px 12px;text-transform:uppercase;grid-column:1/-1}
+.ai-panel .ai-actions{display:flex;flex-direction:column;gap:4px;padding:8px 12px;flex-shrink:0}
+.ai-actions-row{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+
+/* ═══ Enhanced Status Bar ═══ */
+.ws-status{height:32px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;border-top:1px solid var(--border);background:var(--bg-1);font-size:11px;color:var(--text-muted);flex-shrink:0;gap:12px}
+.ws-status .stat-item{display:flex;align-items:center;gap:4px}
+.autosave-dot{width:6px;height:6px;border-radius:50%;background:var(--success);display:inline-block}
+.mini-curve{display:inline-block;vertical-align:middle}
+
+/* ═══ Shot Card Enhanced ═══ */
+.shot-detail-panel{background:var(--bg-0);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-top:8px;animation:fadeIn .2s ease}
+.shot-status-badge{padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;text-transform:uppercase}
+.shot-status-draft{background:rgba(100,116,139,.2);color:var(--text-muted)}
+.shot-status-reviewed{background:rgba(245,158,11,.2);color:var(--warning)}
+.shot-status-approved{background:rgba(34,197,94,.2);color:var(--success)}
+.quality-bar{display:flex;gap:2px;align-items:center}
+.quality-bar .q-seg{width:12px;height:4px;border-radius:1px;background:var(--bg-3)}
+.quality-bar .q-seg.filled{background:var(--brand-light)}
+
+/* ═══ Enter Board CTA ═══ */
+.enter-board-cta{background:linear-gradient(135deg,rgba(99,102,241,.1),rgba(139,92,246,.1));border:1px solid rgba(99,102,241,.3);border-radius:var(--radius);padding:20px;text-align:center;margin-top:16px}
+.enter-board-cta h3{font-size:16px;margin-bottom:8px}
+.enter-board-cta p{font-size:13px;color:var(--text-dim);margin-bottom:12px}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div class="toast-container" id="toasts"></div>
+
+<script>
+/* ═══════════════════════════════════════════════
+   虚幻造物 (UnrealMake) — 完整前端 SPA
+   接入后端全部 API，运行于 http://localhost:8000/
+   ═══════════════════════════════════════════════ */
+
+const API = '';  // same origin
+
+// ─── State ────────────────────────────────────
+const state = {
+  edition: localStorage.getItem('unrealmake-edition') || 'normal',
+  projects: [],
+  project: null,
+  chapters: [], beats: [], scenes: [], shots: [], shotGroups: [],
+  characters: [], locations: [],
+  worldBuilding: {}, styleGuide: {},
+  selectedBeatId: null,
+  importing: false, importTaskId: null,
+  importSteps: [],
+  providers: [],
+  viewStage: null,
+  // Workspace nav
+  wsNav: 'story-bible', // story-bible|characters|locations|scenes|beats|emotion
+  wsEditTarget: null, // {type, id} for central editor
+  expandedShotId: null,
+  autoSaved: true,
+  wordCount: 0,
+};
+
+const EDITIONS = {
+  normal:   { label: '普通版', desc: '个人创作者，零门槛向导式流程', ui: 'wizard', sources: ['novel'] },
+  canvas:   { label: '画布版', desc: '专业制作，多面板工作台 + 画布协作', ui: 'workspace', sources: ['novel','script'] },
+  hidden:   { label: '隐藏版', desc: '高阶方案层，完整 Agent 体系', ui: 'workspace', sources: ['novel','script'] },
+  ultimate: { label: '自用版', desc: '内部操作系统，全功能解锁', ui: 'workspace', sources: ['novel','script','blank'] },
+};
+
+const IMPORT_PHASES = [
+  { id: 'segmenting', label: '文本分段' },
+  { id: 'scenes',     label: '场景提取' },
+  { id: 'characters', label: '角色提取' },
+  { id: 'shots',      label: '镜头拆分' },
+  { id: 'merging',    label: '镜头合并' },
+  { id: 'prompts',    label: '视觉提示词' },
+];
+
+// ─── API Helpers ──────────────────────────────
+async function api(endpoint, opts = {}) {
+  const res = await fetch(`${API}${endpoint}`, {
+    headers: { 'Content-Type': 'application/json', ...opts.headers },
+    ...opts,
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || `API ${res.status}`);
+  }
+  if (res.status === 204) return null;
+  return res.json();
+}
+
+async function apiStream(endpoint, body, onChunk) {
+  const res = await fetch(`${API}${endpoint}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || `API ${res.status}`);
+  }
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buf = '';
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buf += decoder.decode(value, { stream: true });
+    const lines = buf.split('\n');
+    buf = lines.pop();
+    for (const line of lines) {
+      if (line.startsWith('data: ')) {
+        try { onChunk(JSON.parse(line.slice(6))); } catch(e) {}
+      }
+    }
+  }
+}
+
+// ─── Toast ────────────────────────────────────
+function toast(msg, type='info') {
+  const el = document.createElement('div');
+  el.className = `toast toast-${type}`;
+  el.textContent = msg;
+  document.getElementById('toasts').appendChild(el);
+  setTimeout(() => el.remove(), 4000);
+}
+
+// ─── Router ───────────────────────────────────
+function navigate(hash) { location.hash = hash; }
+function getRoute() {
+  const h = location.hash.slice(1) || '/';
+  if (h === '/' || h === '') return { page: 'home' };
+  if (h === '/new') return { page: 'new' };
+  if (h === '/settings') return { page: 'settings' };
+  const m = h.match(/^\/project\/(.+)$/);
+  if (m) return { page: 'project', id: m[1] };
+  return { page: 'home' };
+}
+
+window.addEventListener('hashchange', () => render());
+
+// ─── Render Engine ────────────────────────────
+function render() {
+  const route = getRoute();
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+  switch(route.page) {
+    case 'home': renderHome(app); break;
+    case 'new': renderNew(app); break;
+    case 'project': renderProject(app, route.id); break;
+    case 'settings': renderSettings(app); break;
+    default: renderHome(app);
+  }
+}
+
+// ═══ HEADER ═══════════════════════════════════
+function renderHeader(parent, extra='') {
+  const header = document.createElement('div');
+  header.className = 'app-header';
+  const isCanvasPlus = ['canvas','hidden','ultimate'].includes(state.edition);
+  const phase = state.project?.current_phase || 'workbench';
+  const phaseHtml = (isCanvasPlus && state.project) ? `
+    <div class="phase-switcher" id="phase-switcher">
+      <button class="phase-btn ${phase==='workbench'?'active':''}" data-phase="workbench">工坊</button>
+      <button class="phase-btn ${phase==='board'?'active':''}" data-phase="board">画板</button>
+      <button class="phase-btn ${phase==='preview'?'active':''}" data-phase="preview">预演</button>
+    </div>` : '';
+  header.innerHTML = `
+    <div class="logo" style="cursor:pointer" onclick="navigate('/')">虚幻<span>造物</span></div>
+    <div class="header-actions" style="gap:12px">
+      ${phaseHtml}
+      ${extra}
+      <button class="icon-btn" onclick="navigate('/settings')" title="设置">⚙</button>
+    </div>
+  `;
+  parent.appendChild(header);
+  // Bind phase buttons
+  header.querySelectorAll('[data-phase]').forEach(btn => {
+    btn.onclick = async () => {
+      if (!state.project) return;
+      const newPhase = btn.dataset.phase;
+      if (newPhase === 'board' && state.project.current_phase === 'workbench') {
+        // Check readiness first
+        try {
+          const res = await api(`/api/projects/${state.project.id}/enter-board`, { method: 'POST' });
+          if (!res.ready) {
+            toast(res.issues.join('; '), 'error');
+            return;
+          }
+        } catch(e) { toast(e.message, 'error'); return; }
+      }
+      try {
+        await api(`/api/projects/${state.project.id}`, { method: 'PUT', body: JSON.stringify({ current_phase: newPhase }) });
+        state.project.current_phase = newPhase;
+        projectLoaded = null;
+        render();
+      } catch(e) { toast(e.message, 'error'); }
+    };
+  });
+}
+
+// ═══ HOME PAGE ════════════════════════════════
+function renderHome(app) {
+  renderHeader(app);
+  const body = document.createElement('div');
+  body.className = 'app-body';
+  body.innerHTML = `<div class="home-page animate-fade" id="home-content"></div>`;
+  app.appendChild(body);
+
+  const home = body.querySelector('#home-content');
+  home.innerHTML = `
+    <div class="home-title">虚幻<span class="brand">造物</span></div>
+    <div class="home-subtitle">AI原生视觉影视创作引擎</div>
+    <div class="edition-switcher" id="edition-sw"></div>
+    <div class="edition-desc" id="edition-desc"></div>
+    <button class="btn btn-primary create-btn" onclick="navigate('/new')">创建新项目</button>
+    <div class="home-projects" id="project-list"></div>
+    <div class="home-footer">虚幻造物 v0.2.0 · ${state.edition === 'normal' ? '工坊模式' : '三阶段创作系统'}</div>
+  `;
+
+  // Edition switcher
+  const sw = home.querySelector('#edition-sw');
+  for (const [key, ed] of Object.entries(EDITIONS)) {
+    const btn = document.createElement('button');
+    btn.className = `edition-btn ${state.edition === key ? 'active' : ''}`;
+    btn.textContent = ed.label;
+    btn.onclick = () => { state.edition = key; localStorage.setItem('unrealmake-edition', key); render(); };
+    sw.appendChild(btn);
+  }
+  home.querySelector('#edition-desc').textContent = EDITIONS[state.edition].desc;
+
+  // Load projects
+  api('/api/projects').then(data => {
+    const list = data.projects || data;
+    state.projects = Array.isArray(list) ? list : [];
+    const el = document.getElementById('project-list');
+    if (!el) return;
+    if (state.projects.length === 0) return;
+    el.innerHTML = '<div style="font-size:13px;color:var(--text-muted);text-align:center;margin-bottom:4px">已有项目</div>';
+    state.projects.forEach(p => {
+      const stageLabels = { import:'导入', knowledge:'知识库', beat_sheet:'节拍表', script:'剧本', storyboard:'分镜', visual_prompt:'视觉提示', generation:'生成中', complete:'完成' };
+      const stageLabel = stageLabels[p.stage] || p.stage;
+      el.innerHTML += `
+        <div class="project-item" style="position:relative">
+          <div style="flex:1;cursor:pointer" onclick="state.viewStage=null;navigate('/project/${p.id}')">
+            <div class="name">${esc(p.name)}</div><div class="meta">${p.import_source} · ${stageLabel}</div>
+          </div>
+          <div class="badge badge-brand" style="margin-right:8px">${p.edition}</div>
+          <button class="btn-icon" title="删除项目" data-delete-project="${p.id}" data-delete-name="${esc(p.name)}" style="color:var(--text-muted);font-size:14px;padding:4px 6px;border:none;background:none;cursor:pointer;border-radius:4px" onmouseover="this.style.color='var(--error)';this.style.background='rgba(239,68,68,.1)'" onmouseout="this.style.color='var(--text-muted)';this.style.background='none'">✕</button>
+        </div>`;
+    });
+    el.querySelectorAll('[data-delete-project]').forEach(btn => {
+      btn.onclick = async (e) => {
+        e.stopPropagation();
+        const pid = btn.dataset.deleteProject;
+        const pname = btn.dataset.deleteName;
+        if (!confirm(`确定要删除项目「${pname}」吗？\n此操作不可撤销，所有数据将被永久删除。`)) return;
+        try {
+          await api(`/api/projects/${pid}`, { method: 'DELETE' });
+          toast(`项目「${pname}」已删除`, 'success');
+          render();
+        } catch(err) {
+          toast(`删除失败: ${err.message}`, 'error');
+        }
+      };
+    });
+  }).catch(() => {});
+}
+
+// ═══ NEW PROJECT WIZARD ═══════════════════════
+let newProjectState = { step: 0, source: 'novel', name: '', desc: '' };
+
+function renderNew(app) {
+  renderHeader(app);
+  const body = document.createElement('div');
+  body.className = 'app-body';
+  app.appendChild(body);
+
+  const wizard = document.createElement('div');
+  wizard.className = 'wizard animate-fade';
+  body.appendChild(wizard);
+
+  const steps = [
+    { label: '选择来源', desc: '选择创作起点' },
+    { label: '项目信息', desc: '设置项目名称和描述' },
+    { label: '确认创建', desc: '确认并开始' },
+  ];
+
+  // Header with step nav
+  const wh = document.createElement('div');
+  wh.className = 'wizard-header';
+  wh.innerHTML = `<div class="step-nav">${steps.map((s,i) => `
+    <div class="step-item ${i < newProjectState.step ? 'done' : ''} ${i === newProjectState.step ? 'active' : ''}" onclick="newProjectState.step=${Math.min(i, newProjectState.step)};render()">
+      <div class="step-dot">${i < newProjectState.step ? '✓' : i+1}</div>
+      <span>${s.label}</span>
+    </div>`).join('')}</div>`;
+  wizard.appendChild(wh);
+
+  // Body
+  const wb = document.createElement('div');
+  wb.className = 'wizard-body';
+  wizard.appendChild(wb);
+
+  if (newProjectState.step === 0) renderNewStep0(wb);
+  else if (newProjectState.step === 1) renderNewStep1(wb);
+  else renderNewStep2(wb);
+
+  // Footer
+  const canNext = newProjectState.step === 0 ? !!newProjectState.source
+    : newProjectState.step === 1 ? !!newProjectState.name.trim()
+    : true;
+
+  const wf = document.createElement('div');
+  wf.className = 'wizard-footer';
+  wf.innerHTML = `
+    <button class="btn btn-secondary" ${newProjectState.step === 0 ? 'onclick="navigate(\'/\')"' : `onclick="newProjectState.step--;render()"`}>
+      ${newProjectState.step === 0 ? '返回首页' : '上一步'}
+    </button>
+    <span class="step-info">${newProjectState.step + 1} / ${steps.length}</span>
+    <button class="btn btn-primary" id="wizard-next" ${canNext ? '' : 'disabled'}></button>
+  `;
+  wizard.appendChild(wf);
+
+  const nextBtn = wf.querySelector('#wizard-next');
+  if (newProjectState.step < 2) {
+    nextBtn.textContent = '下一步';
+    nextBtn.onclick = () => { newProjectState.step++; render(); };
+  } else {
+    nextBtn.textContent = '创建项目';
+    nextBtn.onclick = async () => {
+      nextBtn.disabled = true;
+      nextBtn.innerHTML = '<span class="spinner"></span> 创建中...';
+      try {
+        const p = await api('/api/projects', {
+          method: 'POST',
+          body: JSON.stringify({
+            name: newProjectState.name,
+            description: newProjectState.desc,
+            import_source: newProjectState.source,
+            edition: state.edition,
+          }),
+        });
+        newProjectState = { step: 0, source: 'novel', name: '', desc: '' };
+        toast('项目创建成功', 'success');
+        navigate(`/project/${p.id}`);
+      } catch(e) {
+        toast(e.message, 'error');
+        nextBtn.disabled = false;
+        nextBtn.textContent = '创建项目';
+      }
+    };
+  }
+}
+
+function renderNewStep0(container) {
+  const sources = [
+    { id: 'novel', icon: '📖', title: '小说导入', desc: '上传小说文本，AI自动拆解为分镜', ok: true },
+    { id: 'script', icon: '🎬', title: '剧本导入', desc: '上传现有剧本，逆向提取结构', ok: EDITIONS[state.edition].sources.includes('script') },
+    { id: 'blank', icon: '✏️', title: '空白创建', desc: '从零开始创作', ok: EDITIONS[state.edition].sources.includes('blank') },
+  ];
+  container.innerHTML = `<h2 style="text-align:center;margin-bottom:24px;font-size:20px">选择创作来源</h2><div class="source-grid"></div>`;
+  const grid = container.querySelector('.source-grid');
+  sources.forEach(s => {
+    const card = document.createElement('div');
+    card.className = `source-card ${newProjectState.source === s.id ? 'selected' : ''} ${!s.ok ? 'disabled' : ''}`;
+    card.innerHTML = `<div class="icon">${s.icon}</div><div class="title">${s.title}</div><div class="desc">${s.desc}${!s.ok ? '<br><span style="color:var(--warning)">需要画布版+</span>' : ''}</div>`;
+    if (s.ok) card.onclick = () => { newProjectState.source = s.id; render(); };
+    grid.appendChild(card);
+  });
+}
+
+function renderNewStep1(container) {
+  container.innerHTML = `
+    <div style="max-width:500px;margin:0 auto">
+      <h2 style="margin-bottom:24px;font-size:20px">项目信息</h2>
+      <div class="form-group">
+        <label>项目名称 *</label>
+        <input class="input" id="proj-name" placeholder="给你的作品起个名字" value="${esc(newProjectState.name)}">
+      </div>
+      <div class="form-group">
+        <label>项目描述</label>
+        <textarea class="input" id="proj-desc" placeholder="简要描述你的创作目标（可选）">${esc(newProjectState.desc)}</textarea>
+      </div>
+      <div class="form-group">
+        <label>版本</label>
+        <div class="badge badge-brand" style="font-size:13px;padding:4px 12px">${EDITIONS[state.edition].label}</div>
+      </div>
+    </div>
+  `;
+  container.querySelector('#proj-name').oninput = (e) => { newProjectState.name = e.target.value; document.getElementById('wizard-next').disabled = !e.target.value.trim(); };
+  container.querySelector('#proj-desc').oninput = (e) => { newProjectState.desc = e.target.value; };
+}
+
+function renderNewStep2(container) {
+  container.innerHTML = `
+    <div style="max-width:500px;margin:0 auto">
+      <h2 style="margin-bottom:24px;font-size:20px">确认创建</h2>
+      <div class="card">
+        <div class="kr-kv">
+          <dt>项目名称</dt><dd>${esc(newProjectState.name)}</dd>
+          <dt>项目描述</dt><dd>${esc(newProjectState.desc) || '(无)'}</dd>
+          <dt>导入来源</dt><dd>${{novel:'小说导入',script:'剧本导入',blank:'空白创建'}[newProjectState.source]}</dd>
+          <dt>版本</dt><dd>${EDITIONS[state.edition].label}</dd>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ═══ PROJECT PAGE ═════════════════════════════
+let projectLoaded = null;
+
+async function renderProject(app, projectId) {
+  renderHeader(app, `<span style="font-size:13px;color:var(--text-dim)" id="proj-title">加载中...</span>`);
+  const body = document.createElement('div');
+  body.className = 'app-body';
+  app.appendChild(body);
+
+  // Load project data if needed
+  if (!state.project || state.project.id !== projectId || projectLoaded !== projectId) {
+    try {
+      state.project = await api(`/api/projects/${projectId}`);
+      projectLoaded = projectId;
+      const titleEl = document.getElementById('proj-title');
+      if (titleEl) titleEl.textContent = state.project.name;
+
+      if (state.project.stage !== 'import') {
+        const [beatsRes, scenesRes, charsRes, locsRes, shotsRes, groupsRes] = await Promise.all([
+          api(`/api/projects/${projectId}/beats`).catch(() => []),
+          api(`/api/projects/${projectId}/scenes`).catch(() => []),
+          api(`/api/projects/${projectId}/characters`).catch(() => []),
+          api(`/api/projects/${projectId}/locations`).catch(() => []),
+          api(`/api/projects/${projectId}/shots`).catch(() => []),
+          api(`/api/projects/${projectId}/shot-groups`).catch(() => []),
+        ]);
+        state.beats = Array.isArray(beatsRes) ? beatsRes : (beatsRes.beats || []);
+        state.scenes = Array.isArray(scenesRes) ? scenesRes : (scenesRes.scenes || []);
+        state.characters = Array.isArray(charsRes) ? charsRes : (charsRes.characters || []);
+        state.locations = Array.isArray(locsRes) ? locsRes : (locsRes.locations || []);
+        state.shots = Array.isArray(shotsRes) ? shotsRes : (shotsRes.shots || []);
+        state.shotGroups = Array.isArray(groupsRes) ? groupsRes : (groupsRes.shot_groups || []);
+
+        try {
+          const kb = await api(`/api/projects/${projectId}/knowledge`);
+          state.worldBuilding = kb.world_building || {};
+          state.styleGuide = kb.style_guide || {};
+        } catch(e) {}
+      }
+    } catch(e) {
+      body.innerHTML = `<div style="padding:40px;text-align:center"><div style="color:var(--error);margin-bottom:12px">加载项目失败: ${esc(e.message)}</div><button class="btn btn-secondary" onclick="navigate('/')">返回首页</button></div>`;
+      return;
+    }
+  }
+
+  const titleEl = document.getElementById('proj-title');
+  if (titleEl) titleEl.textContent = state.project.name;
+
+  const uiMode = EDITIONS[state.edition]?.ui || 'wizard';
+  if (uiMode === 'wizard') {
+    renderProjectWizard(body);
+  } else {
+    renderProjectWorkspace(body);
+  }
+}
+
+// ─── Project: Wizard Mode ─────────────────────
+const WIZARD_STEPS = [
+  { id: 'import', label: '导入', stage: 'import' },
+  { id: 'knowledge', label: '知识库', stage: 'knowledge' },
+  { id: 'beat_sheet', label: '节拍表', stage: 'beat_sheet' },
+  { id: 'script', label: '剧本', stage: 'script' },
+  { id: 'storyboard', label: '分镜', stage: 'storyboard' },
+];
+const STAGE_ORDER = ['import','knowledge','beat_sheet','script','storyboard','visual_prompt','generation','complete'];
+
+// Stage→Phase mapping
+function stageToPhase(stage) {
+  if (['import','knowledge','beat_sheet','script'].includes(stage)) return 'workbench';
+  if (stage === 'storyboard') return 'board';
+  return 'preview';
+}
+
+function getWizardStep() {
+  if (!state.project) return 0;
+  const idx = STAGE_ORDER.indexOf(state.project.stage);
+  return Math.min(idx, WIZARD_STEPS.length - 1);
+}
+
+function renderProjectWizard(body) {
+  const currentStep = getWizardStep();
+  const wizard = document.createElement('div');
+  wizard.className = 'wizard';
+  body.appendChild(wizard);
+
+  // Determine which stage to display
+  const projectStage = state.project?.stage || 'import';
+  const viewStage = state.viewStage || projectStage;
+  const viewIdx = WIZARD_STEPS.findIndex(s => s.stage === viewStage);
+
+  // Step nav - clickable for completed and current steps
+  const wh = document.createElement('div');
+  wh.className = 'wizard-header';
+  wh.innerHTML = `<div class="step-nav">${WIZARD_STEPS.map((s,i) => {
+    const isClickable = i <= currentStep;
+    const isViewing = s.stage === viewStage;
+    return `
+    <div class="step-item ${i < currentStep ? 'done' : ''} ${isViewing ? 'active' : ''}" ${isClickable ? `data-stage="${s.stage}" style="cursor:pointer"` : ''}>
+      <div class="step-dot">${i < currentStep ? '✓' : i+1}</div>
+      <span>${s.label}</span>
+    </div>`;
+  }).join('')}</div>`;
+  wizard.appendChild(wh);
+
+  // Make completed/current steps clickable
+  wh.querySelectorAll('[data-stage]').forEach(el => {
+    el.onclick = () => {
+      state.viewStage = el.dataset.stage;
+      render();
+    };
+  });
+
+  const wb = document.createElement('div');
+  wb.className = 'wizard-body';
+  wizard.appendChild(wb);
+
+  if (viewStage === 'import') renderImportStage(wb);
+  else if (viewStage === 'knowledge') renderKnowledgeStage(wb);
+  else if (viewStage === 'beat_sheet') renderBeatStage(wb);
+  else if (viewStage === 'script') renderScriptStage(wb);
+  else if (viewStage === 'storyboard') renderStoryboardStage(wb);
+  else renderPlaceholderStage(wb, viewStage);
+
+  // Footer
+  const wf = document.createElement('div');
+  wf.className = 'wizard-footer';
+  const canGoNext = currentStep < WIZARD_STEPS.length - 1 && projectStage !== 'import';
+  const isViewingPast = viewStage !== projectStage;
+  wf.innerHTML = `
+    <button class="btn btn-secondary" onclick="navigate('/')">返回首页</button>
+    <span class="step-info">${isViewingPast ? `查看: ${WIZARD_STEPS[viewIdx]?.label || viewStage}` : `${currentStep + 1} / ${WIZARD_STEPS.length}`}</span>
+    ${isViewingPast ? `<button class="btn btn-primary" id="stage-back-current">返回当前步骤</button>`
+      : canGoNext ? `<button class="btn btn-primary" id="stage-next">下一步</button>` : '<div></div>'}
+  `;
+  wizard.appendChild(wf);
+
+  if (isViewingPast) {
+    wf.querySelector('#stage-back-current').onclick = () => { state.viewStage = null; render(); };
+  } else if (canGoNext) {
+    wf.querySelector('#stage-next').onclick = async () => {
+      const nextStage = STAGE_ORDER[STAGE_ORDER.indexOf(projectStage) + 1];
+      if (nextStage) {
+        await api(`/api/projects/${state.project.id}`, { method: 'PUT', body: JSON.stringify({ stage: nextStage }) });
+        state.project.stage = nextStage;
+        state.viewStage = null;
+        projectLoaded = null;
+        render();
+      }
+    };
+  }
+}
+
+// ─── Project: Workspace Mode ──────────────────
+function renderProjectWorkspace(body) {
+  const ws = document.createElement('div');
+  ws.className = 'workspace';
+  body.appendChild(ws);
+
+  // Sidebar (expanded nav)
+  const sidebar = document.createElement('div');
+  sidebar.className = 'ws-sidebar';
+  renderProjectNav(sidebar);
+  ws.appendChild(sidebar);
+
+  // Main
+  const main = document.createElement('div');
+  main.className = 'ws-main';
+  ws.appendChild(main);
+
+  const stage = state.project?.stage || 'import';
+  const phase = state.project?.current_phase || 'workbench';
+
+  if (stage === 'import') {
+    renderImportStage(main);
+  } else if (phase === 'board' || stage === 'storyboard') {
+    const split = document.createElement('div');
+    split.className = 'split-view';
+    const left = document.createElement('div');
+    left.className = 'split-left';
+    renderStoryboardStage(left);
+    split.appendChild(left);
+    const right = document.createElement('div');
+    right.className = 'split-right';
+    renderScriptStage(right);
+    split.appendChild(right);
+    main.appendChild(split);
+  } else if (stage === 'knowledge') {
+    renderKnowledgeStage(main);
+  } else {
+    const split = document.createElement('div');
+    split.className = 'split-view';
+    const left = document.createElement('div');
+    left.className = 'split-left';
+    renderBeatStage(left);
+    split.appendChild(left);
+    const right = document.createElement('div');
+    right.className = 'split-right';
+    renderScriptStage(right);
+    split.appendChild(right);
+    main.appendChild(split);
+  }
+
+  // Right panel (AI)
+  const rp = document.createElement('div');
+  rp.className = 'ws-right';
+  renderAIAssistant(rp);
+  ws.appendChild(rp);
+
+  // Enhanced status bar
+  const totalWords = state.scenes.reduce((s, sc) => s + (sc.description||'').length + (sc.action||'').length, 0)
+    + state.beats.reduce((s, b) => s + (b.description||'').length, 0);
+  const sb = document.createElement('div');
+  sb.className = 'ws-status';
+  sb.innerHTML = `
+    <div class="flex gap-3">
+      <span class="stat-item"><span class="autosave-dot"></span> 已保存</span>
+      <span class="stat-item">字数: ~${totalWords}</span>
+      <span class="stat-item">场景: ${state.scenes.length}</span>
+      <span class="stat-item">节拍: ${state.beats.length}</span>
+      <span class="stat-item">镜头: ${state.shots.length}</span>
+    </div>
+    <div class="flex gap-2">
+      <span class="badge badge-brand">${EDITIONS[state.edition].label}</span>
+      <span style="font-size:11px">${phase === 'workbench' ? '工坊' : phase === 'board' ? '画板' : '预演'} · ${stage}</span>
+    </div>
+  `;
+  body.appendChild(sb);
+}
+
+// ─── Project Nav (expanded sidebar) ──────────
+function renderProjectNav(container) {
+  const navItems = [
+    { id: 'story-bible', label: 'Story Bible', icon: '📚', count: '' },
+    { id: 'characters', label: '角色', icon: '👤', count: state.characters.length },
+    { id: 'locations', label: '场景地点', icon: '📍', count: state.locations.length },
+    { id: 'scenes', label: '场景', icon: '🎬', count: state.scenes.length },
+    { id: 'beats', label: '节拍', icon: '🎵', count: state.beats.length },
+    { id: 'emotion', label: '情感曲线', icon: '📈', count: '' },
+  ];
+  container.innerHTML = `
+    <div style="padding:8px 12px;font-size:13px;font-weight:600;color:var(--text-dim);border-bottom:1px solid var(--border)">项目导航</div>
+    <div class="nav-list" id="nav-list">
+      ${navItems.map(n => `
+        <div class="nav-item ${state.wsNav === n.id ? 'active' : ''}" data-nav="${n.id}">
+          <span>${n.icon} ${n.label}</span>
+          ${n.count !== '' ? `<span class="count">${n.count}</span>` : ''}
+        </div>
+      `).join('')}
+    </div>
+    <div style="flex:1;overflow:auto;padding:4px" id="nav-detail"></div>
+  `;
+
+  container.querySelectorAll('[data-nav]').forEach(item => {
+    item.onclick = () => {
+      state.wsNav = item.dataset.nav;
+      container.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      renderNavDetail(container);
+    };
+  });
+  renderNavDetail(container);
+}
+
+function renderNavDetail(container) {
+  const detail = container.querySelector('#nav-detail');
+  if (!detail) return;
+  switch(state.wsNav) {
+    case 'characters':
+      detail.innerHTML = state.characters.length ? state.characters.map(c => `
+        <div class="nav-item" style="flex-direction:column;align-items:flex-start;gap:2px">
+          <div class="flex items-center gap-2"><span style="font-size:13px">${esc(c.name)}</span><span class="badge ${c.role==='protagonist'?'badge-brand':c.role==='antagonist'?'badge-red':'badge-blue'}" style="font-size:10px">${c.role}</span></div>
+          ${c.description ? `<div style="font-size:11px;color:var(--text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:200px">${esc(c.description)}</div>` : ''}
+        </div>`).join('') : '<div class="p-3 text-center text-xs" style="color:var(--text-muted)">暂无</div>';
+      break;
+    case 'beats':
+      detail.innerHTML = state.beats.length ? [...state.beats].sort((a,b)=>a.order-b.order).map(b => `
+        <div class="nav-item"><span style="font-size:12px">${esc(b.title)}</span><span style="font-size:10px;color:${b.emotional_value>=0?'var(--success)':'var(--error)'}">${b.emotional_value>=0?'+':''}${b.emotional_value.toFixed(1)}</span></div>
+      `).join('') : '<div class="p-3 text-center text-xs" style="color:var(--text-muted)">暂无</div>';
+      break;
+    case 'scenes':
+      detail.innerHTML = state.scenes.length ? state.scenes.map(s => `
+        <div class="nav-item"><span style="font-size:12px">${esc(s.heading || s.location || '未命名')}</span></div>
+      `).join('') : '<div class="p-3 text-center text-xs" style="color:var(--text-muted)">暂无</div>';
+      break;
+    case 'locations':
+      detail.innerHTML = state.locations.length ? state.locations.map(l => `
+        <div class="nav-item"><span style="font-size:12px">${esc(l.name)}</span></div>
+      `).join('') : '<div class="p-3 text-center text-xs" style="color:var(--text-muted)">暂无</div>';
+      break;
+    case 'story-bible':
+      detail.innerHTML = `<div class="p-3 text-xs" style="color:var(--text-dim)">
+        <div class="mb-2"><strong>角色:</strong> ${state.characters.length}</div>
+        <div class="mb-2"><strong>地点:</strong> ${state.locations.length}</div>
+        <div class="mb-2"><strong>节拍:</strong> ${state.beats.length}</div>
+        <div class="mb-2"><strong>场景:</strong> ${state.scenes.length}</div>
+        ${Object.keys(state.worldBuilding).length ? '<div class="badge badge-green mb-2">世界观 ✓</div>' : ''}
+        ${Object.keys(state.styleGuide).length ? '<div class="badge badge-blue">风格指南 ✓</div>' : ''}
+      </div>`;
+      break;
+    case 'emotion':
+      if (state.beats.length > 1) {
+        const beats = [...state.beats].sort((a,b)=>a.order-b.order);
+        const w = 200, h = 60, p = 8;
+        const xs = beats.length > 1 ? (w-p*2)/(beats.length-1) : 0;
+        let d = '';
+        beats.forEach((b,i) => { const x = p+i*xs; const y = h/2-(b.emotional_value*(h/2-p)); d += i===0?`M${x},${y}`:` L${x},${y}`; });
+        detail.innerHTML = `<div class="p-2"><svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><line x1="${p}" y1="${h/2}" x2="${w-p}" y2="${h/2}" stroke="var(--border)" stroke-dasharray="2"/><path d="${d}" fill="none" stroke="var(--brand-light)" stroke-width="1.5"/></svg><div class="text-xs" style="color:var(--text-muted);text-align:center">情感曲线</div></div>`;
+      } else {
+        detail.innerHTML = '<div class="p-3 text-center text-xs" style="color:var(--text-muted)">需要至少 2 个节拍</div>';
+      }
+      break;
+    default:
+      detail.innerHTML = '';
+  }
+}
+
+// ═══ IMPORT STAGE ═════════════════════════════
+function renderImportStage(container) {
+  if (state.importing || state.importTaskId) {
+    renderImportProgress(container);
+  } else {
+    renderFileUpload(container);
+  }
+}
+
+function renderFileUpload(container) {
+  const wrap = document.createElement('div');
+  wrap.className = 'p-6 animate-fade';
+  wrap.style.maxWidth = '600px';
+  wrap.style.margin = '0 auto';
+  wrap.innerHTML = `
+    <h2 style="text-align:center;margin-bottom:24px;font-size:20px">上传作品文件</h2>
+    <div class="upload-zone" id="upload-zone">
+      <div class="icon">📄</div>
+      <div class="label">拖放文件到这里，或点击选择</div>
+      <div class="hint">支持 .txt .md .docx .epub .pdf，最大 50MB</div>
+      <input type="file" id="file-input" accept=".txt,.md,.docx,.epub,.pdf">
+    </div>
+    <div id="upload-status" style="margin-top:12px;text-align:center;font-size:13px"></div>
+  `;
+  container.appendChild(wrap);
+
+  const zone = wrap.querySelector('#upload-zone');
+  const input = wrap.querySelector('#file-input');
+  const statusEl = wrap.querySelector('#upload-status');
+
+  zone.onclick = () => input.click();
+  zone.ondragover = (e) => { e.preventDefault(); zone.classList.add('dragover'); };
+  zone.ondragleave = () => zone.classList.remove('dragover');
+  zone.ondrop = (e) => { e.preventDefault(); zone.classList.remove('dragover'); handleFile(e.dataTransfer.files[0]); };
+  input.onchange = () => { if (input.files[0]) handleFile(input.files[0]); };
+
+  async function handleFile(file) {
+    if (!file) return;
+    if (file.size > 50 * 1024 * 1024) { toast('文件超过 50MB 限制', 'error'); return; }
+
+    statusEl.innerHTML = '<span class="spinner"></span> 上传中...';
+    zone.style.pointerEvents = 'none';
+    zone.style.opacity = '0.5';
+
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+      const res = await fetch(`${API}/api/projects/${state.project.id}/import/novel`, {
+        method: 'POST',
+        body: formData,
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.detail || `上传失败 (${res.status})`);
+      }
+      const data = await res.json();
+      state.importTaskId = data.task_id;
+      state.importing = true;
+      state.importSteps = IMPORT_PHASES.map(p => ({ ...p, status: 'pending', detail: '', progress: 0, total: 0 }));
+      render();
+      startSSE(data.task_id);
+    } catch(e) {
+      toast(e.message, 'error');
+      statusEl.innerHTML = `<span style="color:var(--error)">${esc(e.message)}</span>`;
+      zone.style.pointerEvents = '';
+      zone.style.opacity = '';
+    }
+  }
+}
+
+function startSSE(taskId) {
+  const evtSource = new EventSource(`${API}/api/projects/${state.project.id}/import/events?task_id=${taskId}`);
+  evtSource.onmessage = (event) => {
+    try {
+      const data = JSON.parse(event.data);
+      handleImportEvent(data);
+    } catch(e) {}
+  };
+  evtSource.onerror = () => {
+    evtSource.close();
+    // Check status via polling
+    setTimeout(async () => {
+      try {
+        const s = await api(`/api/projects/${state.project.id}/import/status?task_id=${taskId}`);
+        if (s.status === 'completed') {
+          handleImportEvent({ type: 'pipeline_complete', summary: {} });
+        }
+      } catch(e) {}
+    }, 2000);
+  };
+  window._importSSE = evtSource;
+}
+
+function handleImportEvent(evt) {
+  const steps = state.importSteps;
+  switch(evt.type) {
+    case 'phase_start': {
+      const s = steps.find(s => s.id === evt.phase);
+      if (s) {
+        s.status = 'running';
+        s.detail = '处理中...';
+        if (evt.total) { s.total = evt.total; s.progress = 0; }
+      }
+      break;
+    }
+    case 'phase_done': {
+      const s = steps.find(s => s.id === evt.phase);
+      if (s) {
+        s.status = 'done';
+        const d = evt.data || {};
+        let parts = [];
+        if (d.window_count) parts.push(`${d.window_count} 个窗口`);
+        if (d.scene_count) parts.push(`${d.scene_count} 个场景`);
+        if (d.location_count) parts.push(`${d.location_count} 个地点`);
+        if (d.character_count) parts.push(`${d.character_count} 个角色`);
+        if (d.shot_count) parts.push(`${d.shot_count} 个镜头`);
+        if (d.beat_count) parts.push(`${d.beat_count} 个节拍`);
+        if (d.shot_group_count) parts.push(`${d.shot_group_count} 个分组`);
+        if (d.prompt_count) parts.push(`${d.prompt_count} 个提示词`);
+        s.detail = parts.length ? `完成 · ${parts.join('，')}` : '完成';
+      }
+      break;
+    }
+    case 'chapter_progress': {
+      const s = steps.find(s => s.id === evt.phase);
+      if (s) { s.progress = evt.index + 1; s.total = evt.total; s.detail = `${evt.index+1}/${evt.total} 章`; }
+      break;
+    }
+    case 'window_progress': {
+      const s = steps.find(s => s.id === evt.phase);
+      if (s) { s.progress = evt.index + 1; s.total = evt.total; s.detail = `窗口 ${evt.index+1}/${evt.total}`; }
+      break;
+    }
+    case 'scene_progress': {
+      const s = steps.find(s => s.id === evt.phase);
+      if (s) { s.progress = evt.index + 1; s.total = evt.total; s.detail = `场景 ${evt.index+1}/${evt.total}`; }
+      break;
+    }
+    case 'item_ready': {
+      if (evt.phase === 'characters' && evt.data) {
+        // Update character progress bar
+        const s = steps.find(s => s.id === 'characters');
+        if (s && evt.data.total) {
+          s.progress = (evt.data.index || 0) + 1;
+          s.total = evt.data.total;
+          s.detail = `角色 ${s.progress}/${s.total}` + (evt.data.name ? `: ${evt.data.name}` : '');
+        }
+        if (evt.data.name) state.characters.push(evt.data);
+      }
+      break;
+    }
+    case 'pipeline_complete': {
+      state.importing = false;
+      state.importTaskId = null;
+      if (window._importSSE) { window._importSSE.close(); window._importSSE = null; }
+      const sum = evt.summary || {};
+      const msg = [
+        sum.scene_count && `${sum.scene_count}场景`,
+        sum.character_count && `${sum.character_count}角色`,
+        sum.shot_count && `${sum.shot_count}镜头`,
+        sum.shot_group_count && `${sum.shot_group_count}分组`,
+      ].filter(Boolean).join('、');
+      toast(msg ? `导入完成：${msg}` : '导入流水线完成！', 'success');
+      state.project.stage = 'knowledge';
+      projectLoaded = null;
+      render();
+      return;
+    }
+    case 'error': {
+      const s = steps.find(s => s.id === evt.phase);
+      if (s) { s.status = 'error'; s.detail = evt.message; }
+      else {
+        state.importing = false;
+        toast(evt.message, 'error');
+      }
+      break;
+    }
+  }
+  renderImportProgressUpdate();
+}
+
+function renderImportProgress(container) {
+  const wrap = document.createElement('div');
+  wrap.className = 'p-6 animate-fade';
+  wrap.innerHTML = `<h2 style="text-align:center;margin-bottom:24px;font-size:20px">AI 正在分析您的作品...</h2><div class="import-progress" id="import-steps"></div>`;
+  container.appendChild(wrap);
+  renderImportProgressUpdate();
+}
+
+function renderImportProgressUpdate() {
+  const el = document.getElementById('import-steps');
+  if (!el) return;
+  el.innerHTML = state.importSteps.map((s, idx) => {
+    const stepNum = idx + 1;
+    let icon;
+    if (s.status === 'done') icon = '✓';
+    else if (s.status === 'error') icon = '!';
+    else if (s.status === 'running') icon = s.total > 0 ? s.progress : stepNum;
+    else icon = stepNum;
+    const pct = s.total > 0 ? Math.round(s.progress / s.total * 100) : 0;
+    return `
+    <div class="import-step">
+      <div class="step-icon ${s.status}">${icon}</div>
+      <div class="step-body">
+        <div class="step-label">${s.label}${s.status === 'running' && s.total > 0 ? ` <span style="color:var(--text-muted);font-weight:400;font-size:12px">${s.progress}/${s.total}</span>` : ''}</div>
+        ${s.detail ? `<div class="step-detail">${esc(s.detail)}</div>` : ''}
+        ${s.status === 'running' && s.total > 0 ? `<div class="progress-bar"><div class="fill" style="width:${pct}%"></div></div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ═══ KNOWLEDGE STAGE (EDITABLE) ════════════════
+function renderKnowledgeStage(container) {
+  const wrap = document.createElement('div');
+  wrap.className = 'p-6 animate-fade overflow-auto';
+  wrap.style.flex = '1';
+  wrap.innerHTML = `<div class="knowledge-review" id="kr-content"><div class="text-center"><span class="spinner"></span> 加载知识库...</div></div>`;
+  container.appendChild(wrap);
+  loadAndRenderKnowledge();
+}
+
+async function loadAndRenderKnowledge() {
+  const el = document.getElementById('kr-content');
+  if (!el) return;
+  try {
+    if (state.characters.length === 0) { const r = await api(`/api/projects/${state.project.id}/characters`); state.characters = r.characters || r || []; }
+    if (state.locations.length === 0) { const r = await api(`/api/projects/${state.project.id}/locations`); state.locations = r.locations || r || []; }
+    if (Object.keys(state.worldBuilding).length === 0) { const kb = await api(`/api/projects/${state.project.id}/knowledge`); state.worldBuilding = kb.world_building || {}; state.styleGuide = kb.style_guide || {}; }
+  } catch(e) {}
+  el.innerHTML = '';
+
+  // ── Characters section (editable) ──
+  el.innerHTML += `
+    <div class="kr-section">
+      <div class="kr-section-header" style="justify-content:space-between">
+        <span>👤 角色 (${state.characters.length})</span>
+        <button class="btn btn-primary btn-sm" id="add-char-btn">+ 新建角色</button>
+      </div>
+      <div class="kr-section-body" id="kr-chars"></div>
+    </div>`;
+  const charsEl = el.querySelector('#kr-chars');
+  state.characters.forEach(c => {
+    charsEl.innerHTML += `
+      <div class="kr-char-card" id="char-${c.id}">
+        <div style="flex:1">
+          <div class="flex items-center gap-2">
+            <span class="name">${esc(c.name)}</span>
+            <span class="badge ${c.role==='protagonist'?'badge-brand':c.role==='antagonist'?'badge-red':'badge-blue'} role-badge">${c.role}</span>
+            ${(c.aliases||[]).map(a => `<span class="badge badge-gold">${esc(a)}</span>`).join('')}
+          </div>
+          <div class="desc">${esc(c.description || '')}</div>
+          ${c.personality ? `<div class="detail">性格: ${esc(c.personality)}</div>` : ''}
+          ${c.arc ? `<div class="detail">弧线: ${esc(c.arc)}</div>` : ''}
+          ${c.desire ? `<div class="detail">欲望: ${esc(c.desire)}</div>` : ''}
+          ${c.flaw ? `<div class="detail">缺陷: ${esc(c.flaw)}</div>` : ''}
+        </div>
+        <div class="flex flex-col gap-1" style="flex-shrink:0">
+          <button class="btn-icon" title="编辑" data-edit-char="${c.id}">✎</button>
+          <button class="btn-icon danger" title="删除" data-del-char="${c.id}">✕</button>
+        </div>
+      </div>`;
+  });
+  if (!state.characters.length) charsEl.innerHTML = '<div style="color:var(--text-muted);font-size:13px;padding:8px">暂无角色数据</div>';
+
+  // ── Locations section (editable) ──
+  el.innerHTML += `
+    <div class="kr-section">
+      <div class="kr-section-header" style="justify-content:space-between">
+        <span>📍 场景地点 (${state.locations.length})</span>
+        <button class="btn btn-primary btn-sm" id="add-loc-btn">+ 新建地点</button>
+      </div>
+      <div class="kr-section-body" id="kr-locs"></div>
+    </div>`;
+  const locsEl = el.querySelector('#kr-locs');
+  state.locations.forEach(l => {
+    locsEl.innerHTML += `
+      <div class="kr-loc-card" id="loc-${l.id}" style="display:flex;justify-content:space-between;align-items:flex-start">
+        <div style="flex:1">
+          <div class="name">${esc(l.name)}</div>
+          <div class="desc">${esc(l.description || '')}</div>
+          ${l.mood ? `<div class="desc" style="margin-top:2px"><span style="color:var(--brand-light)">氛围:</span> ${esc(l.mood)}</div>` : ''}
+        </div>
+        <div class="flex gap-1" style="flex-shrink:0">
+          <button class="btn-icon" title="编辑" data-edit-loc="${l.id}">✎</button>
+          <button class="btn-icon danger" title="删除" data-del-loc="${l.id}">✕</button>
+        </div>
+      </div>`;
+  });
+  if (!state.locations.length) locsEl.innerHTML = '<div style="color:var(--text-muted);font-size:13px;padding:8px">暂无地点数据</div>';
+
+  // ── World building (editable) ──
+  const wb = state.worldBuilding;
+  if (Object.keys(wb).length > 0) {
+    el.innerHTML += `
+      <div class="kr-section">
+        <div class="kr-section-header" style="justify-content:space-between"><span>🌍 世界观</span><button class="btn btn-secondary btn-sm" id="edit-wb-btn">编辑</button></div>
+        <div class="kr-section-body" id="kr-wb">
+          <dl class="kr-kv">${Object.entries(wb).map(([k,v]) => `<dt>${esc(k)}</dt><dd>${esc(typeof v === 'object' ? JSON.stringify(v, null, 2) : String(v))}</dd>`).join('')}</dl>
+        </div>
+      </div>`;
+  }
+
+  // ── Style guide (editable) ──
+  const sg = state.styleGuide;
+  if (Object.keys(sg).length > 0) {
+    el.innerHTML += `
+      <div class="kr-section">
+        <div class="kr-section-header" style="justify-content:space-between"><span>🎨 风格指南</span><button class="btn btn-secondary btn-sm" id="edit-sg-btn">编辑</button></div>
+        <div class="kr-section-body" id="kr-sg">
+          <dl class="kr-kv">${Object.entries(sg).map(([k,v]) => `<dt>${esc(k)}</dt><dd>${esc(typeof v === 'object' ? JSON.stringify(v, null, 2) : String(v))}</dd>`).join('')}</dl>
+        </div>
+      </div>`;
+  }
+
+  // Confirm button
+  el.innerHTML += `<div class="text-center mt-4"><button class="btn btn-primary btn-lg" id="kr-confirm">确认知识库，进入下一步</button></div>`;
+
+  // ── Bind all events ──
+  el.querySelector('#kr-confirm').onclick = async () => {
+    await api(`/api/projects/${state.project.id}`, { method: 'PUT', body: JSON.stringify({ stage: 'beat_sheet' }) });
+    state.project.stage = 'beat_sheet'; projectLoaded = null; render();
+  };
+
+  // Add character
+  el.querySelector('#add-char-btn').onclick = () => openCharacterModal(null);
+  // Add location
+  el.querySelector('#add-loc-btn').onclick = () => openLocationModal(null);
+  // Edit/Delete characters
+  el.querySelectorAll('[data-edit-char]').forEach(b => { b.onclick = () => { const c = state.characters.find(x => x.id === b.dataset.editChar); if(c) openCharacterModal(c); }; });
+  el.querySelectorAll('[data-del-char]').forEach(b => { b.onclick = () => confirmDelete('角色', b.dataset.delChar, `/api/projects/${state.project.id}/characters/${b.dataset.delChar}`, 'characters'); });
+  // Edit/Delete locations
+  el.querySelectorAll('[data-edit-loc]').forEach(b => { b.onclick = () => { const l = state.locations.find(x => x.id === b.dataset.editLoc); if(l) openLocationModal(l); }; });
+  el.querySelectorAll('[data-del-loc]').forEach(b => { b.onclick = () => confirmDelete('地点', b.dataset.delLoc, `/api/projects/${state.project.id}/locations/${b.dataset.delLoc}`, 'locations'); });
+  // Edit world building
+  const wbBtn = el.querySelector('#edit-wb-btn');
+  if (wbBtn) wbBtn.onclick = () => openKBEditModal('world_building', state.worldBuilding);
+  const sgBtn = el.querySelector('#edit-sg-btn');
+  if (sgBtn) sgBtn.onclick = () => openKBEditModal('style_guide', state.styleGuide);
+}
+
+// ── Character Edit Modal ──
+function openCharacterModal(char) {
+  const isEdit = !!char;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  const f = char ? {...char} : { name:'', role:'supporting', description:'', personality:'', arc:'', desire:'', flaw:'', aliases:[], age_range:'', appearance:{}, costume:{}, visual_reference:'' };
+  overlay.innerHTML = `<div class="modal">
+    <div class="modal-header"><h3>${isEdit ? '编辑角色' : '新建角色'}</h3><button class="icon-btn" onclick="this.closest('.modal-overlay').remove()">✕</button></div>
+    <div class="form-group"><label>名称 *</label><input class="input" id="cf-name" value="${esc(f.name)}"></div>
+    <div class="form-group"><label>角色类型</label>
+      <select class="input" id="cf-role"><option value="protagonist" ${f.role==='protagonist'?'selected':''}>protagonist</option><option value="antagonist" ${f.role==='antagonist'?'selected':''}>antagonist</option><option value="supporting" ${f.role==='supporting'?'selected':''}>supporting</option><option value="minor" ${f.role==='minor'?'selected':''}>minor</option></select>
+    </div>
+    <div class="form-group"><label>描述</label><textarea class="input" id="cf-desc">${esc(f.description)}</textarea></div>
+    <div class="form-group"><label>性格</label><textarea class="input" id="cf-personality" style="min-height:50px">${esc(f.personality)}</textarea></div>
+    <div class="form-group"><label>弧线</label><input class="input" id="cf-arc" value="${esc(f.arc)}"></div>
+    <div class="form-group"><label>欲望</label><input class="input" id="cf-desire" value="${esc(f.desire)}"></div>
+    <div class="form-group"><label>缺陷</label><input class="input" id="cf-flaw" value="${esc(f.flaw)}"></div>
+    <div class="form-group"><label>年龄范围</label><input class="input" id="cf-age" value="${esc(f.age_range)}"></div>
+    <div class="form-group"><label>视觉参考 (AI 绘图提示词)</label><input class="input" id="cf-visual" value="${esc(f.visual_reference)}"></div>
+    <div class="flex justify-between mt-4">
+      <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">取消</button>
+      <button class="btn btn-primary" id="cf-save">保存</button>
+    </div>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.querySelector('#cf-save').onclick = async () => {
+    const payload = {
+      name: overlay.querySelector('#cf-name').value, role: overlay.querySelector('#cf-role').value,
+      description: overlay.querySelector('#cf-desc').value, personality: overlay.querySelector('#cf-personality').value,
+      arc: overlay.querySelector('#cf-arc').value, desire: overlay.querySelector('#cf-desire').value,
+      flaw: overlay.querySelector('#cf-flaw').value, age_range: overlay.querySelector('#cf-age').value,
+      visual_reference: overlay.querySelector('#cf-visual').value,
+    };
+    if (!payload.name.trim()) { toast('名称不能为空', 'error'); return; }
+    try {
+      if (isEdit) { await api(`/api/projects/${state.project.id}/characters/${char.id}`, { method: 'PUT', body: JSON.stringify(payload) }); }
+      else { await api(`/api/projects/${state.project.id}/characters`, { method: 'POST', body: JSON.stringify(payload) }); }
+      toast(isEdit ? '角色已更新' : '角色已创建', 'success');
+      overlay.remove();
+      state.characters = []; projectLoaded = null; render();
+    } catch(e) { toast(e.message, 'error'); }
+  };
+}
+
+// ── Location Edit Modal ──
+function openLocationModal(loc) {
+  const isEdit = !!loc;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  const f = loc || { name:'', description:'', visual_description:'', mood:'', sensory:'', narrative_function:'' };
+  overlay.innerHTML = `<div class="modal">
+    <div class="modal-header"><h3>${isEdit ? '编辑地点' : '新建地点'}</h3><button class="icon-btn" onclick="this.closest('.modal-overlay').remove()">✕</button></div>
+    <div class="form-group"><label>名称 *</label><input class="input" id="lf-name" value="${esc(f.name)}"></div>
+    <div class="form-group"><label>描述</label><textarea class="input" id="lf-desc">${esc(f.description)}</textarea></div>
+    <div class="form-group"><label>视觉描述</label><textarea class="input" id="lf-visual">${esc(f.visual_description)}</textarea></div>
+    <div class="form-group"><label>氛围</label><input class="input" id="lf-mood" value="${esc(f.mood)}"></div>
+    <div class="form-group"><label>感官细节</label><input class="input" id="lf-sensory" value="${esc(f.sensory || '')}"></div>
+    <div class="form-group"><label>叙事功能</label><input class="input" id="lf-narr" value="${esc(f.narrative_function || '')}"></div>
+    <div class="flex justify-between mt-4">
+      <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">取消</button>
+      <button class="btn btn-primary" id="lf-save">保存</button>
+    </div>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.querySelector('#lf-save').onclick = async () => {
+    const payload = {
+      name: overlay.querySelector('#lf-name').value, description: overlay.querySelector('#lf-desc').value,
+      visual_description: overlay.querySelector('#lf-visual').value, mood: overlay.querySelector('#lf-mood').value,
+      sensory: overlay.querySelector('#lf-sensory').value, narrative_function: overlay.querySelector('#lf-narr').value,
+    };
+    if (!payload.name.trim()) { toast('名称不能为空', 'error'); return; }
+    try {
+      if (isEdit) { await api(`/api/projects/${state.project.id}/locations/${loc.id}`, { method: 'PUT', body: JSON.stringify(payload) }); }
+      else { await api(`/api/projects/${state.project.id}/locations`, { method: 'POST', body: JSON.stringify(payload) }); }
+      toast(isEdit ? '地点已更新' : '地点已创建', 'success');
+      overlay.remove();
+      state.locations = []; projectLoaded = null; render();
+    } catch(e) { toast(e.message, 'error'); }
+  };
+}
+
+// ── KB (World Building / Style Guide) Edit Modal ──
+function openKBEditModal(field, data) {
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  const label = field === 'world_building' ? '世界观' : '风格指南';
+  let fieldsHtml = '';
+  Object.entries(data).forEach(([k,v]) => {
+    const val = typeof v === 'object' ? JSON.stringify(v, null, 2) : String(v);
+    fieldsHtml += `<div class="form-group"><label>${esc(k)}</label><textarea class="input" data-key="${esc(k)}" style="min-height:${val.length > 100 ? '80' : '40'}px">${esc(val)}</textarea></div>`;
+  });
+  overlay.innerHTML = `<div class="modal">
+    <div class="modal-header"><h3>编辑${label}</h3><button class="icon-btn" onclick="this.closest('.modal-overlay').remove()">✕</button></div>
+    ${fieldsHtml}
+    <div class="flex justify-between mt-4">
+      <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">取消</button>
+      <button class="btn btn-primary" id="kb-save">保存</button>
+    </div>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.querySelector('#kb-save').onclick = async () => {
+    const updated = {};
+    overlay.querySelectorAll('[data-key]').forEach(ta => {
+      let val = ta.value;
+      try { val = JSON.parse(val); } catch(e) {}
+      updated[ta.dataset.key] = val;
+    });
+    try {
+      await api(`/api/projects/${state.project.id}/knowledge`, { method: 'PUT', body: JSON.stringify({ [field]: updated }) });
+      if (field === 'world_building') state.worldBuilding = updated;
+      else state.styleGuide = updated;
+      toast(`${label}已更新`, 'success');
+      overlay.remove();
+      projectLoaded = null; render();
+    } catch(e) { toast(e.message, 'error'); }
+  };
+}
+
+// ── Confirm Delete Helper ──
+async function confirmDelete(typeName, id, endpoint, stateKey) {
+  if (!confirm(`确定删除此${typeName}？此操作不可撤销。`)) return;
+  try {
+    await api(endpoint, { method: 'DELETE' });
+    toast(`${typeName}已删除`, 'success');
+    state[stateKey] = []; projectLoaded = null; render();
+  } catch(e) { toast(e.message, 'error'); }
+}
+
+// ═══ BEAT STAGE (EDITABLE) ════════════════════
+function renderBeatStage(container) {
+  const wrap = document.createElement('div');
+  wrap.className = 'beat-panel animate-fade';
+  container.appendChild(wrap);
+
+  if (state.beats.length === 0) {
+    wrap.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-muted)">暂无节拍数据<br><span class="text-xs">完成导入流程后将自动生成</span></div>';
+    return;
+  }
+
+  const beats = [...state.beats].sort((a,b) => a.order - b.order);
+  const n = beats.length;
+
+  // Emotional curve SVG
+  const svgW = 600, svgH = 90, pad = 20;
+  const xStep = n > 1 ? (svgW - pad*2) / (n - 1) : 0;
+  let pathD = '', dots = '';
+  beats.forEach((b, i) => {
+    const x = pad + i * xStep;
+    const y = svgH/2 - (b.emotional_value * (svgH/2 - pad));
+    if (i === 0) pathD += `M${x},${y}`; else pathD += ` L${x},${y}`;
+    const color = b.emotional_value >= 0 ? 'var(--success)' : 'var(--error)';
+    const r = state.selectedBeatId === b.id ? 6 : 4;
+    dots += `<circle cx="${x}" cy="${y}" r="${r}" fill="${color}" stroke="var(--bg-0)" stroke-width="2" style="cursor:pointer" data-beat-id="${b.id}"/>`;
+  });
+
+  wrap.innerHTML = `
+    <div class="flex justify-between items-center mb-2">
+      <span class="text-sm" style="color:var(--text-muted)">节拍表 (${n})</span>
+      <button class="btn btn-primary btn-sm" id="add-beat-btn">+ 新建节拍</button>
+    </div>
+    <svg class="beat-curve" viewBox="0 0 ${svgW} ${svgH}" preserveAspectRatio="none">
+      <line x1="${pad}" y1="${svgH/2}" x2="${svgW-pad}" y2="${svgH/2}" stroke="var(--border)" stroke-dasharray="4"/>
+      <defs><linearGradient id="curveGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="var(--brand)"/><stop offset="100%" stop-color="var(--brand-light)"/></linearGradient></defs>
+      <path d="${pathD}" fill="none" stroke="url(#curveGrad)" stroke-width="2"/>${dots}
+    </svg>
+    <div id="beat-cards"></div>`;
+
+  wrap.querySelectorAll('circle[data-beat-id]').forEach(c => {
+    c.onclick = () => { state.selectedBeatId = c.dataset.beatId; renderBeatCards(wrap, beats); };
+  });
+
+  wrap.querySelector('#add-beat-btn').onclick = () => openBeatModal(null);
+  renderBeatCards(wrap, beats);
+}
+
+function renderBeatCards(wrap, beats) {
+  const el = wrap.querySelector('#beat-cards');
+  el.innerHTML = beats.map(b => {
+    const typeColors = { event:'badge-brand', dialogue:'badge-green', action:'badge-red', transition:'badge-gold', revelation:'badge-blue' };
+    const emoVal = b.emotional_value;
+    const barLeft = emoVal >= 0 ? 50 : 50 + emoVal * 50;
+    const barWidth = Math.abs(emoVal) * 50;
+    return `
+    <div class="beat-card ${state.selectedBeatId === b.id ? 'selected' : ''}" data-bid="${b.id}">
+      <div class="beat-header">
+        <span class="beat-title" style="flex:1">${esc(b.title)}</span>
+        <span class="badge ${typeColors[b.beat_type]||'badge-brand'}">${b.beat_type}</span>
+        <button class="btn-icon" style="margin-left:4px" title="编辑" data-edit-beat="${b.id}">✎</button>
+        <button class="btn-icon danger" title="删除" data-del-beat="${b.id}">✕</button>
+      </div>
+      <div class="beat-desc">${esc(b.description)}</div>
+      <div class="emo-bar"><div class="emo-fill" style="left:${barLeft}%;width:${barWidth}%;background:${emoVal>=0?'var(--success)':'var(--error)'}"></div></div>
+    </div>`;
+  }).join('');
+
+  el.querySelectorAll('.beat-card').forEach(card => {
+    card.onclick = (e) => { if (e.target.closest('[data-edit-beat],[data-del-beat]')) return; state.selectedBeatId = card.dataset.bid; el.querySelectorAll('.beat-card').forEach(c=>c.classList.remove('selected')); card.classList.add('selected'); };
+  });
+  el.querySelectorAll('[data-edit-beat]').forEach(btn => {
+    btn.onclick = (e) => { e.stopPropagation(); const b = state.beats.find(x => x.id === btn.dataset.editBeat); if(b) openBeatModal(b); };
+  });
+  el.querySelectorAll('[data-del-beat]').forEach(btn => {
+    btn.onclick = (e) => { e.stopPropagation(); confirmDelete('节拍', btn.dataset.delBeat, `/api/projects/${state.project.id}/beats/${btn.dataset.delBeat}`, 'beats'); };
+  });
+}
+
+function openBeatModal(beat) {
+  const isEdit = !!beat;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  const f = beat || { title:'', description:'', beat_type:'event', emotional_value:0 };
+  overlay.innerHTML = `<div class="modal">
+    <div class="modal-header"><h3>${isEdit ? '编辑节拍' : '新建节拍'}</h3><button class="icon-btn" onclick="this.closest('.modal-overlay').remove()">✕</button></div>
+    <div class="form-group"><label>标题 *</label><input class="input" id="bf-title" value="${esc(f.title)}"></div>
+    <div class="form-group"><label>描述</label><textarea class="input" id="bf-desc">${esc(f.description)}</textarea></div>
+    <div class="form-group"><label>类型</label>
+      <select class="input" id="bf-type">
+        ${['event','dialogue','action','transition','revelation'].map(t => `<option value="${t}" ${f.beat_type===t?'selected':''}>${t}</option>`).join('')}
+      </select>
+    </div>
+    <div class="form-group"><label>情感值 (-1.0 ~ 1.0): <span id="bf-emo-label">${f.emotional_value}</span></label>
+      <input type="range" id="bf-emo" min="-100" max="100" value="${Math.round(f.emotional_value*100)}" style="width:100%" oninput="document.getElementById('bf-emo-label').textContent=(this.value/100).toFixed(2)">
+    </div>
+    <div class="flex justify-between mt-4">
+      <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">取消</button>
+      <button class="btn btn-primary" id="bf-save">保存</button>
+    </div>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.querySelector('#bf-save').onclick = async () => {
+    const payload = {
+      title: overlay.querySelector('#bf-title').value,
+      description: overlay.querySelector('#bf-desc').value,
+      beat_type: overlay.querySelector('#bf-type').value,
+      emotional_value: parseInt(overlay.querySelector('#bf-emo').value) / 100,
+    };
+    if (!payload.title.trim()) { toast('标题不能为空', 'error'); return; }
+    try {
+      if (isEdit) { await api(`/api/projects/${state.project.id}/beats/${beat.id}`, { method: 'PUT', body: JSON.stringify(payload) }); }
+      else { await api(`/api/projects/${state.project.id}/beats`, { method: 'POST', body: JSON.stringify(payload) }); }
+      toast(isEdit ? '节拍已更新' : '节拍已创建', 'success');
+      overlay.remove(); state.beats = []; projectLoaded = null; render();
+    } catch(e) { toast(e.message, 'error'); }
+  };
+}
+
+// ═══ SCRIPT STAGE (EDITABLE SCENES) ═══════════
+function renderScriptStage(container) {
+  const wrap = document.createElement('div');
+  wrap.className = 'script-editor animate-fade';
+  container.appendChild(wrap);
+
+  if (state.scenes.length === 0) {
+    const sceneContent = '';
+    wrap.innerHTML = `<textarea placeholder="剧本内容将在完成导入和节拍编辑后显示...\n\n你也可以直接在这里编写剧本。">${esc(sceneContent)}</textarea>`;
+    return;
+  }
+
+  // Render scenes as editable cards instead of raw textarea
+  wrap.style.overflow = 'auto';
+  wrap.style.padding = '16px';
+  wrap.innerHTML = `<div class="flex justify-between items-center mb-2">
+    <span class="text-sm" style="color:var(--text-muted)">场景 (${state.scenes.length})</span>
+    <button class="btn btn-primary btn-sm" id="add-scene-btn">+ 新建场景</button>
+  </div><div id="scene-cards"></div>`;
+
+  const cardsEl = wrap.querySelector('#scene-cards');
+  state.scenes.sort((a,b) => (a.order||0) - (b.order||0)).forEach(s => {
+    const dialogueText = (s.dialogue || []).map(d => `${d.character}：${d.line}`).join('\n');
+    cardsEl.innerHTML += `
+      <div class="card" style="margin-bottom:8px;padding:12px">
+        <div class="flex justify-between items-center">
+          <div class="font-medium" style="font-size:14px">${esc(s.heading || '未命名场景')}</div>
+          <div class="flex gap-1">
+            <button class="btn-icon" title="编辑" data-edit-scene="${s.id}">✎</button>
+            <button class="btn-icon danger" title="删除" data-del-scene="${s.id}">✕</button>
+          </div>
+        </div>
+        ${s.location ? `<div class="text-xs" style="color:var(--text-muted);margin-top:2px">📍 ${esc(s.location)} · ${esc(s.time_of_day||'')}</div>` : ''}
+        ${s.description ? `<div class="text-sm" style="color:var(--text-dim);margin-top:4px">${esc(s.description).substring(0,200)}${s.description.length>200?'...':''}</div>` : ''}
+        ${s.action ? `<div class="text-xs" style="color:var(--text-muted);margin-top:4px">动作: ${esc(s.action).substring(0,150)}</div>` : ''}
+        ${dialogueText ? `<div style="margin-top:4px;padding:6px;background:var(--bg-0);border-radius:4px;font-size:12px;color:var(--text-dim);max-height:80px;overflow:hidden">${esc(dialogueText).substring(0,200)}</div>` : ''}
+        ${typeof s.tension_score === 'number' ? `<div class="text-xs" style="color:var(--text-muted);margin-top:4px">张力: ${(s.tension_score*100).toFixed(0)}%</div>` : ''}
+      </div>`;
+  });
+
+  wrap.querySelector('#add-scene-btn').onclick = () => openSceneModal(null);
+  wrap.querySelectorAll('[data-edit-scene]').forEach(btn => {
+    btn.onclick = () => { const s = state.scenes.find(x => x.id === btn.dataset.editScene); if(s) openSceneModal(s); };
+  });
+  wrap.querySelectorAll('[data-del-scene]').forEach(btn => {
+    btn.onclick = () => confirmDelete('场景', btn.dataset.delScene, `/api/projects/${state.project.id}/scenes/${btn.dataset.delScene}`, 'scenes');
+  });
+}
+
+function openSceneModal(scene) {
+  const isEdit = !!scene;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  const f = scene || { heading:'', location:'', time_of_day:'day', description:'', action:'', dialogue:[] };
+  const dialogueStr = (f.dialogue || []).map(d => `${d.character}：${d.line}`).join('\n');
+  overlay.innerHTML = `<div class="modal" style="max-width:700px">
+    <div class="modal-header"><h3>${isEdit ? '编辑场景' : '新建场景'}</h3><button class="icon-btn" onclick="this.closest('.modal-overlay').remove()">✕</button></div>
+    <div class="form-group"><label>场景标题 (INT/EXT. 地点 - 时间)</label><input class="input" id="sf-heading" value="${esc(f.heading)}"></div>
+    <div class="form-row gap-3">
+      <div class="form-group" style="flex:1"><label>地点</label><input class="input" id="sf-location" value="${esc(f.location)}"></div>
+      <div class="form-group" style="flex:1"><label>时间</label>
+        <select class="input" id="sf-tod"><option value="day" ${f.time_of_day==='day'?'selected':''}>day</option><option value="night" ${f.time_of_day==='night'?'selected':''}>night</option><option value="dawn" ${f.time_of_day==='dawn'?'selected':''}>dawn</option><option value="dusk" ${f.time_of_day==='dusk'?'selected':''}>dusk</option></select>
+      </div>
+    </div>
+    <div class="form-group"><label>描述</label><textarea class="input" id="sf-desc" style="min-height:80px">${esc(f.description)}</textarea></div>
+    <div class="form-group"><label>动作</label><textarea class="input" id="sf-action" style="min-height:60px">${esc(f.action)}</textarea></div>
+    <div class="form-group"><label>对话 (格式: 角色名：台词，每行一条)</label><textarea class="input" id="sf-dialogue" style="min-height:80px">${esc(dialogueStr)}</textarea></div>
+    <div class="flex justify-between mt-4">
+      <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">取消</button>
+      <button class="btn btn-primary" id="sf-save">保存</button>
+    </div>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.querySelector('#sf-save').onclick = async () => {
+    const dlgText = overlay.querySelector('#sf-dialogue').value;
+    const dialogue = dlgText.split('\n').filter(l => l.includes('：')).map(l => {
+      const idx = l.indexOf('：');
+      return { character: l.substring(0,idx).trim(), line: l.substring(idx+1).trim() };
+    });
+    const payload = {
+      heading: overlay.querySelector('#sf-heading').value,
+      location: overlay.querySelector('#sf-location').value,
+      time_of_day: overlay.querySelector('#sf-tod').value,
+      description: overlay.querySelector('#sf-desc').value,
+      action: overlay.querySelector('#sf-action').value,
+      dialogue: dialogue,
+    };
+    try {
+      if (isEdit) { await api(`/api/projects/${state.project.id}/scenes/${scene.id}`, { method: 'PUT', body: JSON.stringify(payload) }); }
+      else { await api(`/api/projects/${state.project.id}/scenes`, { method: 'POST', body: JSON.stringify(payload) }); }
+      toast(isEdit ? '场景已更新' : '场景已创建', 'success');
+      overlay.remove(); state.scenes = []; projectLoaded = null; render();
+    } catch(e) { toast(e.message, 'error'); }
+  };
+}
+
+function renderPlaceholderStage(container, stage) {
+  container.innerHTML = `<div style="padding:60px;text-align:center;color:var(--text-muted)">
+    <div style="font-size:32px;margin-bottom:12px">🚧</div>
+    <div style="font-size:16px;margin-bottom:8px">${stage} 阶段</div>
+    <div style="font-size:13px">此功能正在建设中</div>
+  </div>`;
+}
+
+// ═══ STORYBOARD STAGE ════════════════════════════
+function renderStoryboardStage(container) {
+  const wrap = document.createElement('div');
+  wrap.className = 'p-6 animate-fade overflow-auto';
+  wrap.style.flex = '1';
+  wrap.innerHTML = `<div class="sb-container" id="sb-content"><div class="text-center"><span class="spinner"></span> 加载分镜数据...</div></div>`;
+  container.appendChild(wrap);
+  loadAndRenderStoryboard();
+}
+
+async function loadAndRenderStoryboard() {
+  const el = document.getElementById('sb-content');
+  if (!el) return;
+
+  let loadError = null;
+  try {
+    if (state.shots.length === 0) {
+      const res = await api(`/api/projects/${state.project.id}/shots`);
+      state.shots = Array.isArray(res) ? res : (res.shots || []);
+    }
+    if (state.shotGroups.length === 0) {
+      const res = await api(`/api/projects/${state.project.id}/shot-groups`);
+      state.shotGroups = Array.isArray(res) ? res : (res.shot_groups || []);
+    }
+    if (state.scenes.length === 0) {
+      const res = await api(`/api/projects/${state.project.id}/scenes`);
+      state.scenes = Array.isArray(res) ? res : (res.scenes || []);
+    }
+  } catch(e) {
+    console.error('Storyboard data load error:', e);
+    loadError = e.message || '数据加载失败';
+  }
+
+  el.innerHTML = '';
+
+  // Show error if data loading failed
+  if (loadError) {
+    el.innerHTML = `
+      <div class="sb-empty">
+        <div class="icon" style="font-size:32px">⚠</div>
+        <div style="font-size:16px;margin-bottom:8px;color:var(--error)">分镜数据加载失败</div>
+        <div style="font-size:13px;max-width:400px;margin:0 auto;line-height:1.8;color:var(--text-dim)">${esc(loadError)}</div>
+        <button class="btn btn-primary" style="margin-top:16px" onclick="state.shots=[];state.shotGroups=[];state.scenes=[];projectLoaded=null;render()">重新加载</button>
+      </div>`;
+    return;
+  }
+
+  const shots = state.shots;
+  const groups = state.shotGroups;
+  const scenes = state.scenes;
+
+  // Empty state
+  if (shots.length === 0 && groups.length === 0) {
+    el.innerHTML = `
+      <div class="sb-empty">
+        <div class="icon">🎬</div>
+        <div style="font-size:16px;margin-bottom:8px">暂无分镜数据</div>
+        <div style="font-size:13px;max-width:400px;margin:0 auto;line-height:1.8">
+          分镜数据在导入流水线的第 4-6 阶段（镜头拆分、合并、视觉提示词）生成。<br>
+          请确保导入流程完整完成后再查看此页面。
+        </div>
+        ${scenes.length > 0 ? `<div style="margin-top:16px;font-size:13px;color:var(--brand-light)">已有 ${scenes.length} 个场景，但尚未生成镜头拆分</div>` : ''}
+      </div>`;
+    return;
+  }
+
+  // Stats bar
+  const totalDuration = groups.reduce((s, g) => {
+    const d = parseFloat(g.duration) || 0;
+    return s + d;
+  }, 0);
+  el.innerHTML += `
+    <h2 style="font-size:20px;margin-bottom:16px">分镜预览</h2>
+    <div class="sb-stats">
+      <div class="sb-stat"><div class="num">${scenes.length}</div><div class="label">场景</div></div>
+      <div class="sb-stat"><div class="num">${shots.length}</div><div class="label">镜头</div></div>
+      <div class="sb-stat"><div class="num">${groups.length}</div><div class="label">镜头组</div></div>
+      ${totalDuration > 0 ? `<div class="sb-stat"><div class="num">${Math.round(totalDuration)}s</div><div class="label">预估时长</div></div>` : ''}
+    </div>
+  `;
+
+  // Group shots by scene
+  const shotsByScene = {};
+  shots.forEach(s => {
+    const sid = s.scene_id || '_none';
+    if (!shotsByScene[sid]) shotsByScene[sid] = [];
+    shotsByScene[sid].push(s);
+  });
+
+  const groupsByScene = {};
+  groups.forEach(g => {
+    const sid = g.scene_id || '_none';
+    if (!groupsByScene[sid]) groupsByScene[sid] = [];
+    groupsByScene[sid].push(g);
+  });
+
+  // Render per scene
+  const sceneIds = [...new Set([...Object.keys(shotsByScene), ...Object.keys(groupsByScene)])];
+
+  if (sceneIds.length === 0 && groups.length > 0) {
+    // Groups without scene association - render flat
+    renderShotGroupsFlat(el, groups);
+    return;
+  }
+
+  sceneIds.forEach((sid, idx) => {
+    const scene = scenes.find(s => s.id === sid);
+    const sceneShots = (shotsByScene[sid] || []).sort((a,b) => (a.shot_number||a.order||0) - (b.shot_number||b.order||0));
+    const sceneGroups = (groupsByScene[sid] || []).sort((a,b) => (a.segment_number||a.order||0) - (b.segment_number||b.order||0));
+
+    const groupEl = document.createElement('div');
+    groupEl.className = 'sb-scene-group';
+    groupEl.innerHTML = `
+      <div class="sb-scene-header" data-idx="${idx}">
+        <span class="toggle">▼</span>
+        <span>${scene ? esc(scene.heading || `场景 ${idx+1}`) : `场景 ${idx+1}`}</span>
+        <span style="margin-left:auto;font-size:12px;color:var(--text-muted)">${sceneShots.length} 镜头 · ${sceneGroups.length} 组</span>
+      </div>
+      <div class="sb-scene-body" id="sb-scene-${idx}"></div>
+    `;
+    el.appendChild(groupEl);
+
+    const bodyEl = groupEl.querySelector(`#sb-scene-${idx}`);
+    const headerEl = groupEl.querySelector('.sb-scene-header');
+
+    // Scene info
+    if (scene) {
+      let infoHtml = '<div style="margin-bottom:12px;padding:10px;background:var(--bg-0);border-radius:6px;font-size:13px;color:var(--text-dim)">';
+      if (scene.location) infoHtml += `<span style="margin-right:12px">📍 ${esc(scene.location)}</span>`;
+      if (scene.time_of_day) infoHtml += `<span style="margin-right:12px">🕐 ${esc(scene.time_of_day)}</span>`;
+      if (scene.dramatic_purpose) infoHtml += `<div style="margin-top:4px">${esc(scene.dramatic_purpose)}</div>`;
+      infoHtml += '</div>';
+      bodyEl.innerHTML += infoHtml;
+    }
+
+    // Shot groups (with VFF and prompts)
+    if (sceneGroups.length > 0) {
+      bodyEl.innerHTML += '<div style="font-size:12px;font-weight:600;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase">镜头组</div>';
+      sceneGroups.forEach((g, gi) => {
+        let groupHtml = `<div class="sb-group-card">
+          <div class="sb-group-header">
+            <span>组 ${g.segment_number || gi+1} ${g.duration ? `· ${g.duration}` : ''}</span>
+            ${g.emotional_beat ? `<span class="badge badge-brand">${esc(g.emotional_beat)}</span>` : ''}
+          </div>
+          <div class="sb-group-body">`;
+        if (g.merge_rationale) groupHtml += `<div style="margin-bottom:8px;color:var(--text-dim)">${esc(g.merge_rationale)}</div>`;
+        if (g.continuity) groupHtml += `<div style="margin-bottom:8px;font-size:12px;color:var(--text-muted)">衔接: ${esc(g.continuity)}</div>`;
+        if (g.vff_body) {
+          groupHtml += `<div class="sb-prompt-label">VFF 脚本</div><div class="sb-vff">${esc(g.vff_body)}</div>`;
+        }
+        if (g.visual_prompt_positive) {
+          groupHtml += `<div class="sb-prompt-label" style="margin-top:8px">正向提示词</div><div class="sb-prompt">${esc(g.visual_prompt_positive)}</div>`;
+        }
+        if (g.visual_prompt_negative) {
+          groupHtml += `<div class="sb-prompt-label" style="margin-top:4px">负向提示词</div><div class="sb-prompt" style="border-color:rgba(239,68,68,.2)">${esc(g.visual_prompt_negative)}</div>`;
+        }
+        groupHtml += '</div></div>';
+        bodyEl.innerHTML += groupHtml;
+      });
+    }
+
+    // Individual shots (enhanced Shot Cards)
+    if (sceneShots.length > 0) {
+      bodyEl.innerHTML += '<div style="font-size:12px;font-weight:600;color:var(--text-muted);margin:12px 0 8px;text-transform:uppercase">镜头明细</div>';
+      sceneShots.forEach(s => {
+        let tags = '';
+        if (s.framing) tags += `<span class="tag">${esc(s.framing)}</span>`;
+        if (s.camera_angle) tags += `<span class="tag">${esc(s.camera_angle)}</span>`;
+        if (s.camera_movement && s.camera_movement !== 'static') tags += `<span class="tag">${esc(s.camera_movement)}</span>`;
+        if (s.duration_estimate) tags += `<span class="tag">${esc(s.duration_estimate)}</span>`;
+        if (s.transition_in) tags += `<span class="tag">← ${esc(s.transition_in)}</span>`;
+        if (s.transition_out) tags += `<span class="tag">→ ${esc(s.transition_out)}</span>`;
+
+        const shotStatus = s.status || 'draft';
+        const statusBadge = `<span class="shot-status-badge shot-status-${shotStatus}">${shotStatus}</span>`;
+        const intensityBar = typeof s.dramatic_intensity === 'number' ?
+          `<div style="display:flex;align-items:center;gap:6px;margin-top:4px"><span style="font-size:11px;color:var(--text-muted)">张力</span><div style="width:60px;height:4px;background:var(--bg-2);border-radius:2px;overflow:hidden"><div style="height:100%;width:${Math.abs(s.dramatic_intensity)*100}%;background:${s.dramatic_intensity>=0?'var(--success)':'var(--error)'}"></div></div></div>` : '';
+        const candidateCount = (s.candidates || []).length;
+
+        bodyEl.innerHTML += `
+          <div class="sb-shot-row" style="cursor:pointer" data-shot-expand="${s.id}">
+            <div class="sb-shot-num">${s.shot_number || s.order || '?'}</div>
+            <div class="sb-shot-body">
+              <div class="flex justify-between items-center">
+                ${s.goal ? `<div style="font-size:13px;font-weight:500;flex:1">${esc(s.goal)}</div>` : '<div></div>'}
+                <div class="flex gap-1 items-center">${statusBadge}${candidateCount ? `<span class="badge badge-green">${candidateCount} 候选</span>` : ''}</div>
+              </div>
+              ${s.description ? `<div style="font-size:12px;color:var(--text-dim);margin-top:2px">${esc(s.description)}</div>` : ''}
+              <div class="sb-shot-meta">${tags}</div>
+              ${intensityBar}
+            </div>
+          </div>
+          <div class="shot-detail-panel" id="shot-detail-${s.id}" style="display:${state.expandedShotId===s.id?'block':'none'}">
+            ${s.composition ? `<div style="font-size:12px;margin-bottom:6px"><strong>构图:</strong> ${esc(s.composition)}</div>` : ''}
+            ${s.emotion_target ? `<div style="font-size:12px;margin-bottom:6px"><strong>情感目标:</strong> ${esc(s.emotion_target)}</div>` : ''}
+            ${s.characters_in_frame && s.characters_in_frame.length ? `<div style="font-size:12px;margin-bottom:6px"><strong>角色:</strong> ${(Array.isArray(s.characters_in_frame) ? s.characters_in_frame : []).map(c => esc(c)).join(', ')}</div>` : ''}
+            ${s.visual_prompt ? `<div style="font-size:12px;margin-bottom:6px"><strong>视觉提示词:</strong> <span style="color:var(--text-dim)">${esc(s.visual_prompt).substring(0,200)}</span></div>` : ''}
+            ${s.quality_score && Object.keys(s.quality_score).length ? `<div style="font-size:12px;margin-bottom:6px"><strong>质量评分:</strong> ${JSON.stringify(s.quality_score)}</div>` : ''}
+            ${s.next_action ? `<div style="font-size:12px;margin-bottom:6px"><strong>推荐下一步:</strong> ${esc(s.next_action)}</div>` : ''}
+            <div class="flex gap-2 mt-2">
+              <button class="btn btn-primary btn-sm" data-gen-shot="${s.id}" data-gen-type="image">生成图片</button>
+              <button class="btn btn-secondary btn-sm" data-gen-shot="${s.id}" data-gen-type="video">生成视频</button>
+            </div>
+            ${candidateCount ? `<div style="margin-top:8px;font-size:12px;color:var(--text-dim)">已有 ${candidateCount} 个候选结果</div>` : ''}
+          </div>`;
+      });
+    }
+
+    // Enter Board CTA (show when in workbench phase and has shots)
+    if (state.project?.current_phase === 'workbench' && sceneShots.length > 0 && idx === sceneIds.length - 1) {
+      el.innerHTML += `
+        <div class="enter-board-cta" id="enter-board-cta">
+          <h3>准备进入画板？</h3>
+          <p>当节拍和场景数据充分时，可以进入画板阶段开始分镜制作。</p>
+          <button class="btn btn-primary" id="enter-board-btn">进入画板</button>
+        </div>`;
+    }
+
+    // Toggle collapse
+    headerEl.onclick = () => {
+      headerEl.classList.toggle('collapsed');
+      bodyEl.style.display = bodyEl.style.display === 'none' ? '' : 'none';
+    };
+  });
+
+  // Bind shot expand and generate events
+  el.querySelectorAll('[data-shot-expand]').forEach(row => {
+    row.onclick = (e) => {
+      if (e.target.closest('[data-gen-shot]')) return;
+      const sid = row.dataset.shotExpand;
+      state.expandedShotId = state.expandedShotId === sid ? null : sid;
+      el.querySelectorAll('.shot-detail-panel').forEach(p => p.style.display = 'none');
+      const panel = document.getElementById(`shot-detail-${sid}`);
+      if (panel && state.expandedShotId === sid) panel.style.display = 'block';
+    };
+  });
+  el.querySelectorAll('[data-gen-shot]').forEach(btn => {
+    btn.onclick = async (e) => {
+      e.stopPropagation();
+      const shotId = btn.dataset.genShot;
+      const genType = btn.dataset.genType;
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+      try {
+        const res = await api(`/api/projects/${state.project.id}/shots/${shotId}/generate`, {
+          method: 'POST', body: JSON.stringify({ gen_type: genType })
+        });
+        toast(`${genType === 'image' ? '图片' : '视频'}生成成功 (${res.total_candidates} 候选)`, 'success');
+        state.shots = []; projectLoaded = null; render();
+      } catch(e2) {
+        toast(e2.message, 'error');
+        btn.disabled = false;
+        btn.textContent = genType === 'image' ? '生成图片' : '生成视频';
+      }
+    };
+  });
+  // Enter board button
+  const enterBtn = el.querySelector('#enter-board-btn');
+  if (enterBtn) {
+    enterBtn.onclick = async () => {
+      enterBtn.disabled = true;
+      enterBtn.innerHTML = '<span class="spinner"></span> 检查中...';
+      try {
+        const res = await api(`/api/projects/${state.project.id}/enter-board`, { method: 'POST' });
+        if (res.ready) {
+          state.project.current_phase = 'board';
+          toast('已进入画板阶段', 'success');
+          projectLoaded = null; render();
+        } else {
+          toast(res.issues.join('; '), 'error');
+          enterBtn.disabled = false;
+          enterBtn.textContent = '进入画板';
+        }
+      } catch(e2) { toast(e2.message, 'error'); enterBtn.disabled = false; enterBtn.textContent = '进入画板'; }
+    };
+  }
+}
+
+function renderShotGroupsFlat(el, groups) {
+  el.innerHTML += '<div style="font-size:12px;font-weight:600;color:var(--text-muted);margin-bottom:12px;text-transform:uppercase">全部镜头组</div>';
+  groups.sort((a,b) => (a.order||0) - (b.order||0)).forEach((g, i) => {
+    let html = `<div class="sb-group-card">
+      <div class="sb-group-header"><span>组 ${g.segment_number || i+1} ${g.duration ? `· ${g.duration}` : ''}</span></div>
+      <div class="sb-group-body">`;
+    if (g.vff_body) html += `<div class="sb-prompt-label">VFF 脚本</div><div class="sb-vff">${esc(g.vff_body)}</div>`;
+    if (g.visual_prompt_positive) html += `<div class="sb-prompt-label" style="margin-top:8px">正向提示词</div><div class="sb-prompt">${esc(g.visual_prompt_positive)}</div>`;
+    html += '</div></div>';
+    el.innerHTML += html;
+  });
+}
+
+// ═══ AI ASSISTANT (10 operations, grouped) ════
+function renderAIAssistant(container) {
+  const panel = document.createElement('div');
+  panel.className = 'ai-panel';
+  panel.innerHTML = `
+    <div class="title">AI 助手</div>
+    <div class="ai-input">
+      <textarea class="input" id="ai-text" placeholder="输入文本，选择操作进行 AI 处理..."></textarea>
+    </div>
+    <div class="ai-actions">
+      <div class="ai-group-label">基础</div>
+      <div class="ai-actions-row">
+        <button class="btn btn-secondary btn-sm" data-op="rewrite">改写</button>
+        <button class="btn btn-secondary btn-sm" data-op="expand">扩写</button>
+        <button class="btn btn-secondary btn-sm" data-op="condense">缩写</button>
+        <button class="btn btn-secondary btn-sm" data-op="dialogue_optimize">对话优化</button>
+      </div>
+      <div class="ai-group-label">创作</div>
+      <div class="ai-actions-row">
+        <button class="btn btn-secondary btn-sm" data-op="visualize">视觉化</button>
+        <button class="btn btn-secondary btn-sm" data-op="continue_3way">续写三方向</button>
+        <button class="btn btn-secondary btn-sm" data-op="scene_detail">补充场景</button>
+        <button class="btn btn-secondary btn-sm" data-op="tone_shift">换语气</button>
+      </div>
+      <div class="ai-group-label">专业</div>
+      <div class="ai-actions-row">
+        <button class="btn btn-secondary btn-sm" data-op="subtext">补充潜台词</button>
+        <button class="btn btn-secondary btn-sm" data-op="dialogue_rhythm">对白节奏</button>
+      </div>
+    </div>
+    <div class="ai-result" id="ai-result"></div>
+  `;
+  container.appendChild(panel);
+
+  const opLabels = { rewrite:'改写', expand:'扩写', condense:'缩写', dialogue_optimize:'对话优化',
+    visualize:'视觉化', tone_shift:'换语气', continue_3way:'续写三方向', scene_detail:'补充场景',
+    subtext:'补充潜台词', dialogue_rhythm:'对白节奏' };
+  let streaming = false;
+  panel.querySelectorAll('[data-op]').forEach(btn => {
+    btn.onclick = async () => {
+      if (streaming) return;
+      const text = panel.querySelector('#ai-text').value.trim();
+      if (!text) { toast('请先输入文本', 'error'); return; }
+      if (!state.project) { toast('请先打开项目', 'error'); return; }
+
+      streaming = true;
+      const resultEl = panel.querySelector('#ai-result');
+      resultEl.className = 'ai-result ai-streaming';
+      resultEl.textContent = '';
+      const origText = btn.textContent;
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+
+      try {
+        const body = { text, operation: btn.dataset.op };
+        if (btn.dataset.op === 'tone_shift') {
+          const tone = prompt('目标语气（如：紧张/悬疑、温暖/治愈、冷峻/克制、幽默/讽刺、史诗/庄严）', '紧张/悬疑');
+          if (!tone) { streaming = false; btn.disabled = false; btn.textContent = origText; return; }
+          body.tone = tone;
+        }
+        await apiStream(
+          `/api/projects/${state.project.id}/ai/operate`, body,
+          (chunk) => {
+            if (chunk.type === 'text') resultEl.textContent += chunk.content;
+            else if (chunk.type === 'error') { toast(chunk.message, 'error'); }
+            else if (chunk.type === 'done') { resultEl.className = 'ai-result'; }
+          }
+        );
+      } catch(e) { toast(e.message, 'error'); }
+      streaming = false;
+      resultEl.className = 'ai-result';
+      btn.disabled = false;
+      btn.textContent = origText;
+    };
+  });
+}
+
+// ═══ SETTINGS PAGE ════════════════════════════
+function renderSettings(app) {
+  renderHeader(app);
+  const body = document.createElement('div');
+  body.className = 'app-body';
+  app.appendChild(body);
+
+  const page = document.createElement('div');
+  page.className = 'settings-page animate-fade';
+  page.innerHTML = `
+    <div class="flex justify-between items-center mb-4">
+      <div>
+        <button class="btn btn-secondary btn-sm" onclick="navigate('/')" style="margin-right:12px">← 返回</button>
+        <span style="font-size:20px;font-weight:600">设置</span>
+      </div>
+      <button class="btn btn-primary btn-sm" id="add-provider-btn">+ 添加供应商</button>
+    </div>
+    <div id="providers-list"><div class="text-center p-4"><span class="spinner"></span> 加载中...</div></div>
+  `;
+  body.appendChild(page);
+
+  page.querySelector('#add-provider-btn').onclick = () => openProviderForm(null);
+  loadProviders();
+}
+
+async function loadProviders() {
+  const el = document.getElementById('providers-list');
+  if (!el) return;
+  try {
+    const data = await api('/api/settings/ai-providers');
+    state.providers = data.providers || [];
+    renderProvidersList();
+  } catch(e) {
+    el.innerHTML = `<div class="error-box">${esc(e.message)}</div>`;
+  }
+}
+
+function renderProvidersList() {
+  const el = document.getElementById('providers-list');
+  if (!el) return;
+  if (state.providers.length === 0) {
+    el.innerHTML = '<div class="card text-center p-6" style="color:var(--text-muted)">尚未配置 AI 供应商<br><span class="text-xs">点击上方 "添加供应商" 开始配置</span></div>';
+    return;
+  }
+  el.innerHTML = state.providers.map(p => `
+    <div class="provider-card" data-id="${p.id}">
+      <div class="provider-header">
+        <div class="provider-name">
+          ${esc(p.name)}
+          ${p.is_default ? '<span class="badge badge-gold">默认</span>' : ''}
+          ${p.enabled ? '<span class="badge badge-green">已启用</span>' : '<span class="badge badge-red">已禁用</span>'}
+        </div>
+        <div class="flex gap-2">
+          <button class="btn btn-secondary btn-sm test-btn" data-id="${p.id}">测试连接</button>
+          <button class="btn btn-secondary btn-sm edit-btn" data-id="${p.id}">编辑</button>
+          <button class="btn btn-danger btn-sm del-btn" data-id="${p.id}">删除</button>
+        </div>
+      </div>
+      <div class="provider-info">
+        <div><dt>类型</dt><dd>${p.provider_type}</dd></div>
+        <div><dt>API Key</dt><dd>${p.api_key_masked || '****'}</dd></div>
+        <div><dt>优先级</dt><dd>${p.priority}</dd></div>
+        <div><dt>模型数</dt><dd>${(p.models||[]).length}</dd></div>
+      </div>
+      <div class="model-list">
+        ${(p.models||[]).map(m => `
+          <div class="model-tag">
+            <span>${esc(m.display_name || m.model_id)}</span>
+            <span class="badge ${m.capability_tier==='fast'?'badge-green':m.capability_tier==='advanced'?'badge-gold':'badge-brand'}">${m.capability_tier}</span>
+            <span class="badge badge-blue">${m.model_type || 'text'}</span>
+          </div>
+        `).join('')}
+      </div>
+      <div class="test-result" id="test-result-${p.id}" style="font-size:12px;margin-top:4px"></div>
+    </div>
+  `).join('');
+
+  // Bind events
+  el.querySelectorAll('.test-btn').forEach(btn => {
+    btn.onclick = async () => {
+      const id = btn.dataset.id;
+      const resEl = document.getElementById(`test-result-${id}`);
+      btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>';
+      try {
+        const res = await api(`/api/settings/ai-providers/${id}/test`, { method: 'POST' });
+        resEl.innerHTML = res.success
+          ? `<span style="color:var(--success)">✓ ${esc(res.message)}</span>`
+          : `<span style="color:var(--error)">✗ ${esc(res.message)}</span>`;
+      } catch(e) {
+        resEl.innerHTML = `<span style="color:var(--error)">✗ ${esc(e.message)}</span>`;
+      }
+      btn.disabled = false; btn.textContent = '测试连接';
+    };
+  });
+  el.querySelectorAll('.edit-btn').forEach(btn => {
+    btn.onclick = () => {
+      const p = state.providers.find(p => p.id === btn.dataset.id);
+      if (p) openProviderForm(p);
+    };
+  });
+  el.querySelectorAll('.del-btn').forEach(btn => {
+    btn.onclick = async () => {
+      if (!confirm('确定删除此供应商？')) return;
+      try {
+        await api(`/api/settings/ai-providers/${btn.dataset.id}`, { method: 'DELETE' });
+        toast('已删除', 'success');
+        loadProviders();
+      } catch(e) { toast(e.message, 'error'); }
+    };
+  });
+}
+
+// ─── Provider Form Modal ──────────────────────
+function openProviderForm(provider) {
+  const isEdit = !!provider;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+
+  const types = ['anthropic','gemini','openai_compat','responses_api','grok_video','nanobanana'];
+  const formState = {
+    type: provider?.provider_type || 'anthropic',
+    name: provider?.name || '',
+    baseUrl: provider?.base_url || '',
+    apiKey: '',
+    models: provider?.models?.length ? provider.models.map(m => ({...m})) : [{ model_id: '', display_name: '', model_type: 'text', capability_tier: 'standard', max_tokens: 4096, supports_streaming: true }],
+    priority: provider?.priority ?? 10,
+    isDefault: provider?.is_default || false,
+    enabled: provider?.enabled ?? true,
+  };
+
+  function renderForm() {
+    const modal = overlay.querySelector('.modal');
+    if (!modal) return;
+    modal.innerHTML = `
+      <div class="modal-header">
+        <h3>${isEdit ? '编辑供应商' : '添加供应商'}</h3>
+        <button class="icon-btn" onclick="this.closest('.modal-overlay').remove()">✕</button>
+      </div>
+      <div class="form-group">
+        <label>供应商类型</label>
+        <div class="type-selector">
+          ${types.map(t => `<button class="type-btn ${formState.type===t?'active':''}" data-type="${t}">${t}</button>`).join('')}
+        </div>
+      </div>
+      <div class="form-group">
+        <label>名称</label>
+        <input class="input" id="pf-name" value="${esc(formState.name)}" placeholder="供应商名称">
+      </div>
+      <div class="form-group">
+        <label>Base URL</label>
+        <input class="input" id="pf-url" value="${esc(formState.baseUrl)}" placeholder="API 基础 URL">
+      </div>
+      <div class="form-group">
+        <label>API Key ${isEdit ? '(留空则不更新)' : ''}</label>
+        <input class="input" id="pf-key" type="password" value="" placeholder="sk-...">
+      </div>
+      <div class="form-group">
+        <label>模型列表</label>
+        <div id="pf-models"></div>
+        <button class="btn btn-secondary btn-sm mt-2" id="pf-add-model">+ 添加模型</button>
+      </div>
+      <div class="form-row gap-4">
+        <div class="form-group" style="flex:1">
+          <label>优先级 (数字越小越优先)</label>
+          <input class="input" id="pf-priority" type="number" value="${formState.priority}">
+        </div>
+        <div class="form-group" style="flex:1">
+          <label class="checkbox" style="margin-top:24px">
+            <input type="checkbox" id="pf-default" ${formState.isDefault?'checked':''}>
+            设为默认
+          </label>
+        </div>
+      </div>
+      <div class="flex justify-between mt-4">
+        <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">取消</button>
+        <button class="btn btn-primary" id="pf-save">保存</button>
+      </div>
+    `;
+
+    // Type buttons
+    modal.querySelectorAll('.type-btn').forEach(btn => {
+      btn.onclick = () => { formState.type = btn.dataset.type; renderForm(); };
+    });
+
+    // Bind inputs
+    modal.querySelector('#pf-name').oninput = (e) => formState.name = e.target.value;
+    modal.querySelector('#pf-url').oninput = (e) => formState.baseUrl = e.target.value;
+    modal.querySelector('#pf-priority').oninput = (e) => formState.priority = parseInt(e.target.value) || 10;
+    modal.querySelector('#pf-default').onchange = (e) => formState.isDefault = e.target.checked;
+
+    // Models
+    const modelsEl = modal.querySelector('#pf-models');
+    formState.models.forEach((m, i) => {
+      const row = document.createElement('div');
+      row.className = 'model-row';
+      row.innerHTML = `
+        <input class="input" placeholder="Model ID" value="${esc(m.model_id)}" data-i="${i}" data-f="model_id" style="flex:2">
+        <input class="input" placeholder="显示名" value="${esc(m.display_name)}" data-i="${i}" data-f="display_name" style="flex:2">
+        <select class="input" data-i="${i}" data-f="capability_tier" style="flex:1">
+          <option value="fast" ${m.capability_tier==='fast'?'selected':''}>Fast</option>
+          <option value="standard" ${m.capability_tier==='standard'?'selected':''}>Standard</option>
+          <option value="advanced" ${m.capability_tier==='advanced'?'selected':''}>Advanced</option>
+        </select>
+        <select class="input" data-i="${i}" data-f="model_type" style="flex:1">
+          <option value="text" ${(m.model_type||'text')==='text'?'selected':''}>Text</option>
+          <option value="image" ${m.model_type==='image'?'selected':''}>Image</option>
+          <option value="video" ${m.model_type==='video'?'selected':''}>Video</option>
+        </select>
+        ${formState.models.length > 1 ? `<button class="btn btn-danger btn-sm" data-rm="${i}">✕</button>` : ''}
+      `;
+      modelsEl.appendChild(row);
+    });
+
+    modelsEl.querySelectorAll('input[data-f],select[data-f]').forEach(inp => {
+      inp.oninput = () => { formState.models[inp.dataset.i][inp.dataset.f] = inp.value; };
+      inp.onchange = () => { formState.models[inp.dataset.i][inp.dataset.f] = inp.value; };
+    });
+    modelsEl.querySelectorAll('[data-rm]').forEach(btn => {
+      btn.onclick = () => { formState.models.splice(parseInt(btn.dataset.rm), 1); renderForm(); };
+    });
+
+    modal.querySelector('#pf-add-model').onclick = () => {
+      formState.models.push({ model_id: '', display_name: '', model_type: 'text', capability_tier: 'standard', max_tokens: 4096, supports_streaming: true });
+      renderForm();
+    };
+
+    // Save
+    modal.querySelector('#pf-save').onclick = async () => {
+      const saveBtn = modal.querySelector('#pf-save');
+      saveBtn.disabled = true;
+      saveBtn.innerHTML = '<span class="spinner"></span>';
+
+      const apiKeyVal = modal.querySelector('#pf-key').value;
+      const payload = {
+        name: formState.name,
+        provider_type: formState.type,
+        base_url: formState.baseUrl,
+        models: formState.models,
+        is_default: formState.isDefault,
+        enabled: formState.enabled,
+        priority: formState.priority,
+      };
+      if (apiKeyVal || !isEdit) payload.api_key = apiKeyVal;
+
+      try {
+        if (isEdit) {
+          await api(`/api/settings/ai-providers/${provider.id}`, { method: 'PUT', body: JSON.stringify(payload) });
+        } else {
+          await api('/api/settings/ai-providers', { method: 'POST', body: JSON.stringify(payload) });
+        }
+        toast(isEdit ? '供应商已更新' : '供应商已添加', 'success');
+        overlay.remove();
+        loadProviders();
+      } catch(e) {
+        toast(e.message, 'error');
+        saveBtn.disabled = false;
+        saveBtn.textContent = '保存';
+      }
+    };
+  }
+
+  const modalEl = document.createElement('div');
+  modalEl.className = 'modal';
+  overlay.appendChild(modalEl);
+  document.body.appendChild(overlay);
+  renderForm();
+}
+
+// ═══ UTILS ════════════════════════════════════
+function esc(s) {
+  if (s == null) return '';
+  const d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+
+// ═══ INIT ═════════════════════════════════════
+render();
+</script>
+</body>
+</html>

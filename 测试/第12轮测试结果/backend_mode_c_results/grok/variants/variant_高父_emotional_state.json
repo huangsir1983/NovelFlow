@@ -1,0 +1,31 @@
+{
+  "variant_id": "高父_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 坚决护女",
+  "tags": [
+    "慈父",
+    "坚定",
+    "护女"
+  ],
+  "scene_ids": [
+    "scene_014",
+    "scene_015"
+  ],
+  "trigger": "高家正堂拒沈母要孙女及后院递和离书时",
+  "appearance_delta": {
+    "face": "中年皱纹，慈祥转为坚定决绝",
+    "body": "略显消瘦，站姿挺拔",
+    "hair": "花白束冠",
+    "distinguishing_features": "眼角皱纹与锐利保护目光"
+  },
+  "costume_override": {
+    "outfit": "四品官袍配官帽",
+    "color_palette": [
+      "深红",
+      "墨绿"
+    ]
+  },
+  "visual_reference": "一位50岁左右的中年官员，花白头发束冠，眼角皱纹但眼神坚定决绝，身穿深红色四品官袍，站在高家正堂或后院中，手持和离书神情刚毅看着沈词或沈母，严肃日间室内光，写实风格，高清细节",
+  "visual_prompt_negative": "年轻脸庞、现代西装、冷酷表情、卡通风格、犹豫优柔表情",
+  "emotional_tone": "坚决护女，刚强后盾"
+}

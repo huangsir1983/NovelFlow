@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - DAY",
+  "location": "高令宁闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "高父不解女儿为何为难沈家，高令宁表明自己一定要嫁入沈家的决心。",
+  "key_dialogue": "谁说我不想嫁？我一定要嫁。",
+  "emotional_peak": "高令宁打断父亲，冷笑表示就是要让沈词难堪。",
+  "tension_score": 0.5,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "梳妆台",
+    "铜镜",
+    "绣帕"
+  ],
+  "dramatic_purpose": "揭示女主嫁人的真实动机并非出于爱，而是另有目的（复仇/生子）。"
+}

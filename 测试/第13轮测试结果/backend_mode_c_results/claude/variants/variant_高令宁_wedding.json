@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 新婚之夜",
+  "tags": [
+    "新娘",
+    "红衣",
+    "冷漠",
+    "屈辱"
+  ],
+  "scene_ids": [
+    "scene_009"
+  ],
+  "trigger": "成亲当夜，在沈府新房中，被迫圆房",
+  "appearance_delta": {
+    "face": "面无表情，眼神空洞冷漠，失去了往日的锐利",
+    "body": "身姿僵硬，缺少平日的挺拔",
+    "hair": "新娘发髻，插满珠钗",
+    "distinguishing_features": "眼中的倔强被冷漠取代，嘴角紧抿"
+  },
+  "costume_override": {
+    "outfit": "大红色婚服，绣金凤凰，盖头已掀开",
+    "color_palette": [
+      "大红",
+      "金色"
+    ]
+  },
+  "visual_reference": "古代新娘，清秀端庄的面容却毫无喜色，眼神空洞冷漠，身着大红色婚服，绣满金色凤凰纹样，新娘发髻上插满珠钗，盖头已被掀开放在一旁，坐在婚床边缘，身姿僵硬，嘴角紧抿，整体气氛压抑冷清，烛光昏暗摇曳，背景是古代新房，红色帷幔和喜字装饰形成强烈对比",
+  "visual_prompt_negative": "笑容，喜悦表情，温柔姿态，明亮光线，温馨氛围",
+  "emotional_tone": "冷漠、屈辱、心死"
+}

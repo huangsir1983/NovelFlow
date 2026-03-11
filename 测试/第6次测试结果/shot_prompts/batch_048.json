@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0288",
+    "shot_id": "shot_0764",
+    "prompt_text": "A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, seen from Gao Lingning's restrictive point of view, sliding down from the edge of a sickbed on the right side of the frame, one hand gripping the bed frame hard to support her weak body, shoulders tense, posture half-collapsing yet deliberate. A shadowed empty space dominates the left side as the implied gaze position of Gao Lingning, with a blurred dark hem of a nearby skirt along the lower foreground edge suggesting the observer standing close. Messy rumpled bedding and a medicine bowl in the background reinforce illness and performance. Low-saturation warm-cool contrast, gray-blue and old wood brown tones with amber candlelight, side backlight carving her pale face and trembling hand, tense aristocratic sickroom interior, cinematic realism, Song dynasty aesthetic, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, restrained historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, amber lamplight mixed with cool gray ambient light, side backlight, deep shadows, old wood reflections"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary furniture, modern hairstyle, modern makeup, text, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0289",
+    "shot_id": "shot_0765",
+    "prompt_text": "A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, captured at the instant her knee drops heavily to the floor, her pale skirt spreading and striking the wooden floor at center-right, the motion turning pleading into humiliation and pressure. Extreme attention on the impact point: clear wood grain, wavering lamplight across the floorboards, a single drop of medicine or water in the left foreground, the blurred foot of the sickbed in the right background guiding spatial tension. Low angle close-up, intimate and painful, low-saturation warm-cool palette of gray-blue shadows, old wood brown, and amber candle reflections, cinematic realism, Song dynasty aesthetic, highly detailed texture, sharp focus on fabric and floor",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro-like close framing, film grain",
+      "lighting": "low-saturation warm-cool contrast, flickering amber lamplight on old wood, cool shadow fill, directional low interior light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, shoes with modern design, modern flooring, text, watermark, logo, low quality, blurry, bad anatomy, deformed limbs, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0290",
+    "shot_id": "shot_0766",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown only as a clean cold hem of fabric falling on the left side of the frame; a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, represented by a pale trembling hand entering from the lower right, clutching the edge of Gao Lingning's robe until the knuckles turn white. The pulled fabric becomes the visual focus, wrinkled and violated, with wood grain floor and firelight reflections as background. Extreme close-up, boundary invasion, low-saturation warm-cool contrast, cool gray-blue cloth against amber lamp reflections, cinematic realism, Song dynasty aesthetic, highly detailed hands, fabric tension, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, extreme close-up, tactile fabric detail, film grain",
+      "lighting": "cool ambient gray-blue on robe fabric with warm amber floor reflections, controlled side lighting, deep shadow edges"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, zipper, synthetic fabric, manicure, modern accessories, text, watermark, logo, low quality, blurry, bad hands, extra fingers, fused fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0291",
+    "shot_id": "shot_0767",
+    "prompt_text": "A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, kneeling in the lower center of the frame and looking upward toward Gao Lingning off-screen to the left, tear tracks visible on her pale face, shoulders lightly trembling, lips parted as if about to plead, pitiful yet strategic. A blurred fragment of Gao Lingning's skirt remains at the left foreground edge, creating subjective pressure. Warm light from beside the bed outlines her slightly loosened hair and emphasizes her weak complexion, with the sickbed and chamber interior softly receding behind her. Slight high angle medium close-up, handheld tension, low-saturation warm-cool contrast with gray-blue shadows, old wood brown, and restrained amber candlelight, cinematic realism, Song dynasty aesthetic, highly detailed skin and silk texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, handheld dramatic realism, film grain",
+      "lighting": "soft amber bedside lamplight with cool shadow contrast, slight side-back rim light, low-saturation historical interior lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern cosmetics, contact lenses, text, watermark, logo, low quality, blurry, bad anatomy, deformed face, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0292",
+    "shot_id": "shot_0768",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up from the front with a slight side angle, head and shoulders placed left-center, gaze lowered toward the right as she refuses to bend down or step back, lips pressed tight, the first chill of understanding settling across her face. The right side remains open as negative space toward Lu Shuyi's position, while Jiang Sheng appears as a blurred half figure deep in the background behind her shoulder. Side backlight traces her cold pale face and the faint scar along her neck. Low-saturation warm-cool contrast, gray-blue and dark teal against dim amber interior glow, restrained noble chamber atmosphere, cinematic realism, Song dynasty aesthetic, highly detailed portrait, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, dramatic portrait close-up, film grain",
+      "lighting": "side backlight with cool facial modeling, dim amber practical light in background, low-saturation warm-cool contrast, deep shadow separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern clothing, text, watermark, logo, low quality, blurry, bad anatomy, distorted face, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0293",
+    "shot_id": "shot_0769",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, entering in sudden motion from the left foreground and dropping quickly into the center as if to protect someone instinctively; in the right rear background, A frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, remains kneeling in soft blur. The movement pushes left to right along Gao Lingning's sightline, preserving spatial continuity. Cold hard folds of light strike Shen Ci's sleeve and robe hem, making his intervention feel abrupt and cutting. Medium shot, interior pan energy, low-saturation warm-cool contrast with dark indigo, gray-blue shadow, old wood brown, and restrained amber candlelight, cinematic realism, Song dynasty aesthetic, highly detailed motion-rich composition, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, dynamic pan composition, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, amber interior practical light mixed with cool shadow planes, hard-edged light on sleeves and robe folds, dramatic directional lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern tailoring, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, deformed hands, oversaturated colors"
+  }
+]

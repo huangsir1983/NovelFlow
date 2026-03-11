@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0270",
+    "scene_id": "scene_054",
+    "shot_ids": [
+      "shot_0832",
+      "shot_0833",
+      "shot_0834"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并建立环境、女主脆弱睡态与闯入动作，属于同一条‘私人空间被侵入’的悬疑建立段；角色集合虽从单人到闯入者出现，但情绪仍处在压抑蓄势阶段，适合连续融合为一段。",
+    "order": 270
+  },
+  {
+    "id": "seg_0271",
+    "scene_id": "scene_054",
+    "shot_ids": [
+      "shot_0835",
+      "shot_0836",
+      "shot_0837"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是完整的受惊—认出—反击动作链，情绪从戒备直冲爆发，没有必要拆开；同一空间、同一冲突轴线内完成女主边界确立，适合压缩为一段高张力身体戏。",
+    "order": 271
+  },
+  {
+    "id": "seg_0272",
+    "scene_id": "scene_054",
+    "shot_ids": [
+      "shot_0838",
+      "shot_0839",
+      "shot_0840"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段从身体羞辱转为关系羞辱，关键在于高令宁的直接命名与另一名夫婿入场形成三人关系现实。角色集合在此发生变化，是天然分段点，因此将跌落结果与台词开锋及替代者显形合并。",
+    "order": 272
+  },
+  {
+    "id": "seg_0273",
+    "scene_id": "scene_054",
+    "shot_ids": [
+      "shot_0841",
+      "shot_0842",
+      "shot_0843",
+      "shot_0844"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组形成完整的‘辩解—否定—落空’情感弧线，沈词的自欺与高令宁的判决在同一波对抗内完成；虽然含有动作细节强化，但核心仍是同一心理攻防，因此适合并为一段。",
+    "order": 273
+  },
+  {
+    "id": "seg_0274",
+    "scene_id": "scene_054",
+    "shot_ids": [
+      "shot_0845",
+      "shot_0846",
+      "shot_0847",
+      "shot_0848",
+      "shot_0849"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一段承担终局功能：逐客令、沈词崩塌、退场与空间回冷属于同一收束弧线。虽包含多步动作，但情绪已经从对抗转为结案式驱逐，适合作为结尾长段完成闭环，与开场门框和床榻秩序形成呼应。",
+    "order": 274
+  }
+]

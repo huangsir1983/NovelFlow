@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "id": "scene_028",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "INT. 诊治休息处门前 - DAY",
+    "location": "诊治休息处门前",
+    "time_of_day": "day",
+    "description": "镜头从回忆抽回现实，门前的明暗边界依旧。众人站位未变，但空气已被沉默压实。高令宁立在门口，面色平静得近乎冷淡，像刚完成某种内在切割。",
+    "action": "高令宁从长久的凝视中回神，缓缓扶稳蒋晟的手臂，重新站直。她不再与陆姝仪争辩，也不再追究沈词的偏护，只平静开口答应他次日来提亲，但同时提出婚后守诺的要求。说完，她不看任何人，示意蒋晟扶她离开。这个让步不是屈服，而像是彻底放下意气后的另一步棋。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "你明日来提亲吧。",
+        "subtext": "她表面让步，实则已转入更冷静、更决绝的计划。"
+      },
+      {
+        "character": "高令宁",
+        "line": "但你婚后须守诺。",
+        "subtext": "她不是认同这段关系，而是在为之后的行动预设条件与边界。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "门框",
+      "脚踝包扎",
+      "蒋晟的搀扶"
+    ],
+    "dramatic_purpose": "以反常的平静完成章节收束：高令宁表面让步，实则完成心理转向，并为后续悬念埋钩。",
+    "tension_score": 0.72,
+    "order": 28
+  }
+}

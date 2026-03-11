@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 待嫁闺秀",
+  "tags": [
+    "少女",
+    "未嫁",
+    "要强"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_003"
+  ],
+  "trigger": "高家正堂拒绝提亲、闺房坚持  嫁人、马球场柳池旁时期",
+  "appearance_delta": {
+    "face": "清丽端庄，杏眼柳眉，眼神锐利坚定中透出青春倔强",
+    "body": "纤细苗条，姿态优雅挺拔",
+    "hair": "乌黑长发盘成精致发髻",
+    "distinguishing_features": "坚毅下巴与聪慧锐利的目光，强烈不屈要强气质"
+  },
+  "costume_override": {
+    "outfit": "华丽襦裙或广袖罗裙",
+    "color_palette": [
+      "素白",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "elegant young Chinese noblewoman in white and pale green Hanfu with intricate embroidery, sharp phoenix eyes showing determination and pride, porcelain fair skin, long silky black hair in elaborate updo with hairpins, proud defiant posture, ancient mansion or polo field setting, highly detailed 8k",
+  "visual_prompt_negative": "modern clothes, short hair, western face, heavy makeup, weak submissive pose, smiling weakly, red dress, pregnant belly",
+  "emotional_tone": "争强好胜、复仇决心"
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_015",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_048",
+      "scene_044"
+    ]
+  },
+  "data": {
+    "title": "梦见睿儿劝放手并真正决定和离",
+    "description": "女主梦见前世的睿儿自责父母因他将就一生，并请求来生不要再生下他；醒来后她为女儿取名昭昭，彻底明白不该再让孩子成为婚姻枷锁，和离决心从策略变为真心。",
+    "beat_type": "revelation",
+    "save_the_cat": "Finale",
+    "emotional_value": 0.2,
+    "dramatic_intensity": 0.2,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续上升",
+    "order": 15
+  }
+}

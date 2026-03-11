@@ -1,0 +1,222 @@
+[
+  {
+    "id": "shot_0566",
+    "scene_id": "scene_034",
+    "shot_number": 1,
+    "goal": "建立当下冷却而疲惫的对峙空间，交代两人相对而坐、距离未解，承接旧事余波后进入新的决定时刻。",
+    "composition": "FS，门框内取景，前景左侧虚化屏风边框形成竖向遮挡，中景右侧高令宁坐于画面左三分之一，沈词坐于画面右三分之一，中间留出明显空隙如一道礼法裂缝；背景为简洁室内陈设与冷色窗光，整体压缩空间。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到关系冰冷、疲惫且带着尚未散尽的防备。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 566
+  },
+  {
+    "id": "shot_0567",
+    "scene_id": "scene_034",
+    "shot_number": 2,
+    "goal": "切入女主主观感受，传达高令宁已耗尽争执力气，准备说出决定前的身心倦怠。",
+    "composition": "MCU，高令宁位于画面左侧偏中，身体微向右，肩背仍端直但明显松下半分；前景下沿保留桌案虚焦边缘，背景为冷白窗纸与暗色立柱，颈侧淡痕在侧光中若隐若现，右侧留白指向沈词所在方向。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众体会到她的疲惫不是软弱，而是清醒后的放下。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.14,
+    "order": 567
+  },
+  {
+    "id": "shot_0568",
+    "scene_id": "scene_034",
+    "shot_number": 3,
+    "goal": "用细节动作确认她是在做最后决定，而非一时气话。",
+    "composition": "CU，高令宁下颌至胸口的局部，唇线轻抿后松开，肩头极轻地下沉，叹息先于台词；画面左下保留衣襟与素面褙子纹理，背景完全虚化，仅余冷光轮廓。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众听见她心里那口气终于落下，感到决绝中的疲惫。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.18,
+    "order": 568
+  },
+  {
+    "id": "shot_0569",
+    "scene_id": "scene_034",
+    "shot_number": 4,
+    "goal": "完成情节核心转折：高令宁主动松口，应下婚事，但语义保持冷静和条件感。",
+    "composition": "CU，高令宁正面略偏侧，视线越过镜头右侧看向沈词；画面上方保留少量压迫性顶空，背景是冷灰墙面与一线窗光，面部占据中心偏左，嘴唇清晰可见以承载台词。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到意外，同时意识到这不是柔情表白，而是带着代价的答应。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 569
+  },
+  {
+    "id": "shot_0570",
+    "scene_id": "scene_034",
+    "shot_number": 5,
+    "goal": "表现沈词听到答应后的第一反应——不是喜悦，而是措手不及的停顿。",
+    "composition": "MCU，沈词位于画面右侧偏中，保持与前镜头一致的视线方向；前景左侧虚化为高令宁肩线轮廓，形成女主主观压迫。背景暗色书案与立柱简净，沈词眼神有一瞬空白。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这份让步反而更危险，男主的第一感受是失衡而非安心。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 570
+  },
+  {
+    "id": "shot_0571",
+    "scene_id": "scene_034",
+    "shot_number": 6,
+    "goal": "放大沈词由怔愣迅速转为怀疑和戒备的心理折返。",
+    "composition": "CU，沈词面部占据画面中心偏右，眼尾微压，眉骨收紧；前景无干扰，背景冷色虚化，微量顶光勾出玉冠与颧侧线条，嘴角未动先绷住，表明防御启动。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到他对高令宁的退让毫无信任，空气重新收紧。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 571
+  },
+  {
+    "id": "shot_0572",
+    "scene_id": "scene_034",
+    "shot_number": 7,
+    "goal": "通过反应镜头回到高令宁，确认她并未借对方惊愕乘势施压，而是异常平静。",
+    "composition": "MCU，高令宁仍在画面左侧，身形稳定，目光平直，不追逼也不回避；前景右侧保留沈词肩背虚影，背景窗纸冷光更柔，使她像处在被抽空情绪后的真空里。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的平静比争吵更难解，也更具悬疑性。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.42,
+    "order": 572
+  },
+  {
+    "id": "shot_0573",
+    "scene_id": "scene_034",
+    "shot_number": 8,
+    "goal": "交代沈词的追问，明确他已将这次松口视为可能另有筹谋。",
+    "composition": "CU，沈词略前倾，位于画面右侧偏前，视线直指镜头左侧；背景压暗，脸部受冷侧光切分，一半在光内一半在阴影里，强化猜疑与失控边缘。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到试探里的针锋相对，关系并未缓和反而更锋利。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 573
+  },
+  {
+    "id": "shot_0574",
+    "scene_id": "scene_034",
+    "shot_number": 9,
+    "goal": "在男主质问后给出女主的沉默承接，体现她不再争辩，只把话题导向条件本身。",
+    "composition": "CU，高令宁三分之二侧脸，视线微垂后再抬起，画面左侧贴近面部，右侧大面积留白朝向沈词；背景是一道模糊屏风竖线，像将二人关系切开。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她收回情绪，不接招，也不解释，冷得近乎残酷。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 574
+  },
+  {
+    "id": "shot_0575",
+    "scene_id": "scene_034",
+    "shot_number": 10,
+    "goal": "说出真正的核心诉求：婚约并非和解，而是交换，要求沈词婚后守诺。",
+    "composition": "CU，高令宁正侧之间的近距离肖像，唇线平直，声音轻但目光钉住对方；颈侧淡痕在侧光中再次浮现，背景冷白虚化，构图紧凑不留退路。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的让步里藏着边界和条件，关系被重新定义为一纸清醒的交易。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 575
+  },
+  {
+    "id": "shot_0576",
+    "scene_id": "scene_034",
+    "shot_number": 11,
+    "goal": "捕捉沈词听到“守诺”后的复杂反应：被戳中、迟疑、意识到她从未把这当作托付。",
+    "composition": "CU，沈词面部居中，眼神先僵后沉，呼吸极轻一顿；前景左下角隐约有桌案边缘，背景暗部吞没肩线，只留下眉眼与鼻梁冷光，形成被话语钉住的瞬间。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到男主被她的清醒刺中，防备之下生出迟滞与隐痛。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 576
+  },
+  {
+    "id": "shot_0577",
+    "scene_id": "scene_034",
+    "shot_number": 12,
+    "goal": "以双人构图收束场景，确认章节转折已完成：婚事应下，但两人之间仍隔着条件、礼法与互不信任。",
+    "composition": "MLS，保持180度轴线不变，从侧前方观察二人，高令宁在左、沈词在右，桌案横亘其间；前景有半幅帘幕虚化，背景门框与屏风构成纵深切割，二人都未向对方靠近，空间距离清晰可见。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众在短暂回冷中意识到这不是圆满，而是更危险也更稳固的新契约。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 577
+  }
+]

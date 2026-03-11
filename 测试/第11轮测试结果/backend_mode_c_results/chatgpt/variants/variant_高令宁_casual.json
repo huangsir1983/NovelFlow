@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_06",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南和离后新生时",
+  "tags": [
+    "和离后",
+    "江南书房",
+    "平静抽离",
+    "新生活"
+  ],
+  "scene_ids": [
+    "scene_012"
+  ],
+  "trigger": "带女儿南下后，在江南宅院书房收到沈词试探来信；她辗转反侧后终于能平静写下祝福与边界。",
+  "appearance_delta": {
+    "face": "经历世事后的沉静锋利最明显，神情比前期更淡、更稳，戒备尚存却不再紧绷；像把旧伤真正压成了底色。",
+    "body": "体态恢复纤秀匀称，举止从容，不再是硬抗，而是带有掌控自己生活节奏的松弛。",
+    "hair": "简洁低髻或家常妇人发髻，更轻便素净，少了高门宅斗时的防备性装饰。",
+    "distinguishing_features": "执笔时神色平静克制，眼中不再是被婚姻牵动的怒火，而是看透后的分寸感与自持。"
+  },
+  "costume_override": {
+    "outfit": "江南宅院中的素雅家常妇人装，布料轻柔，依旧讲究但不以门第威压示人，适合夜间书房写信。",
+    "color_palette": [
+      "青黛",
+      "月白",
+      "淡灰蓝"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noblewoman living in Jiangnan after divorce, elegant oval face, pale cool skin, sharp bright eyes now calm and self-possessed, black long hair in a simple low traditional bun, slim graceful figure, Song dynasty inspired refined casual hanfu in dark teal, moon white, and muted gray-blue, seated in a Jiangnan study at night writing a letter by candlelight, ink brush, paper, lattice window, serene restrained expression, mature independence, cinematic warm night lighting",
+  "visual_prompt_negative": "modern desk lamp, modern house, western chair focus, heavy makeup, fantasy costume, excessive luxury, smiling flirtatiously, short hair, tattoo",
+  "emotional_tone": "平静、抽离、终于握回人生主动权"
+}

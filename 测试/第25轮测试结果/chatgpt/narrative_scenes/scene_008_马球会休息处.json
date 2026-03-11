@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会客舍 - 黄昏",
+  "location": "马球会休息处",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "我脚伤正骨后准备离开，沈词追上来要求我遵守承诺，陆姝仪当众下跪哀求留在沈家，沈词护她入怀，我被再次刺痛，最终退让答应让他明日提亲。",
+  "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+  "emotional_peak": "经历前世记忆与现实重叠后，我终于疲惫地放弃继续僵持。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "正骨诊治",
+    "药碗",
+    "衣角",
+    "提亲条件"
+  ],
+  "dramatic_purpose": "把陆姝仪冲突推到台前，推动婚事真正落定。",
+  "visual_reference": "灯火初起的客舍内外，病弱女子下跪，男人护住她，另一女子神情冷透。",
+  "visual_prompt_negative": "不要宫斗华服夸张，不要现代诊室，不要大哭大闹群演化，不要甜宠姿态。",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨",
+  "source_text_end": "我轻轻道：「成亲之后，还望公子说话算话。」"
+}

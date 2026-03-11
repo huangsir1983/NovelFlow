@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "媒人提亲聘礼减半，高令宁拒绝木雁要求加聘",
+  "key_dialogue": "聘礼太薄，我不满意。",
+  "emotional_peak": "沈词震惊掀眼皮冷视",
+  "tension_score": 0.65,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "木雁",
+    "金银绸缎",
+    "聘礼箱笼"
+  ],
+  "dramatic_purpose": "揭示双方重生，开启今生冲突",
+  "source_text_start": "媒人来提亲时，聘礼比前世少了一半。",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

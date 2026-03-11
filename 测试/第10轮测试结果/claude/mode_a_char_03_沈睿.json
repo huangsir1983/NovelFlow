@@ -1,0 +1,54 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿",
+    "长子"
+  ],
+  "role": "supporting",
+  "age_range": "0-28岁（前世）",
+  "appearance": {
+    "face": "未详细描述，暗示俊秀",
+    "body": "未详细描述",
+    "hair": "传统男子发髻",
+    "distinguishing_features": "天生神童的气质"
+  },
+  "costume": {
+    "typical_outfit": "儒生服饰，官服",
+    "color_palette": [
+      "青色",
+      "官服色"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "孝顺",
+    "早逝",
+    "才华"
+  ],
+  "visual_reference": "A brilliant young Chinese scholar in his 20s, refined features, scholarly robes, gentle demeanor, ancient dynasty official",
+  "personality": "天生神童，聪慧过人，孝顺懂事。三岁吟诗，五岁通史，十五岁中进士。性格温和，关心父母，临终前仍为父母担忧。",
+  "desire": "希望父母和睦，不再争吵；希望母亲不要为自己受委屈。",
+  "flaw": "过于为父母着想，将父母的不和归咎于自己的存在。",
+  "arc": "前世：出生→神童成长→少年成名→朝中权臣→病重→临终劝和父母→二十八岁早逝。重生：尚未出生（以女儿昭昭形式重生）。",
+  "scene_presence": "前世回忆中出现，作为高令宁和沈词重生动机的核心。关键场景：临终劝和父母、梦中送粥。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母子情深，是母亲的精神支柱",
+      "function": "情感动机"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "父子情深，是父亲的骄傲",
+      "function": "行为动机"
+    },
+    {
+      "target": "静好（妹妹）",
+      "type": "情感",
+      "dynamic": "兄妹情深，为妹妹之死痛苦",
+      "function": "家庭悲剧"
+    }
+  ]
+}

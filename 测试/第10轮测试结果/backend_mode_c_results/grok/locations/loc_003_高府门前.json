@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_003",
+  "name": "高府门前",
+  "type": "exterior",
+  "era_style": "明代晚期官宦府邸大门",
+  "description": "高大庄严的府邸正门，石阶通向朱漆大门，两侧石狮镇守，高墙环绕。门前有宽阔空地和拴马石，医馆药包与沈词马匹缰绳置于石阶旁，整体气势宏伟，体现家族地位。",
+  "visual_reference": "Imposing exterior front entrance of a grand late Ming dynasty Chinese official mansion, tall red lacquered wooden gates, wide stone steps flanked by guardian stone lions, high whitewashed walls with dark tile roofs, open forecourt with horse tying posts, detailed Ming architectural grandeur, bright daylight",
+  "atmosphere": "紧张对峙、公开冲突",
+  "color_palette": [
+    "朱红",
+    "石灰白",
+    "深灰石",
+    "绿植"
+  ],
+  "lighting": "明亮自然日光，强烈对比",
+  "key_features": [
+    "石阶",
+    "朱漆大门",
+    "石狮守卫"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "拦路谈判中的恨意满满四目相对"
+}

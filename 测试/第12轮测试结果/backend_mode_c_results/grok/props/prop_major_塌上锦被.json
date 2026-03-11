@@ -1,0 +1,14 @@
+{
+  "name": "塌上锦被",
+  "category": "furniture",
+  "description": "华贵丝绸锦缎被褥，红色或绛紫底色，金银丝线绣凤凰牡丹或花鸟纹样，被面光滑厚实，尺寸适配罗汉塌，边缘有精致流苏装饰。",
+  "visual_reference": "明代贵族锦缎被子，红色丝绸面料精绣金线凤凰牡丹图案，层层叠放在古式木塌之上，奢华柔软质感，温暖柔和室内光线，纺织细节逼真",
+  "visual_prompt_negative": "现代棉被、合成面料、简单印花、冷色调、廉价感、塑料光泽",
+  "narrative_function": "营造卧室休养环境，与药碗共同出现，揭示人物产后或病后调养的生活状态与情感脆弱",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_006",
+    "scene_007"
+  ],
+  "emotional_association": "温暖舒适中的脆弱休养"
+}

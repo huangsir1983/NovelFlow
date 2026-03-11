@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_013",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_032",
+      "scene_033",
+      "scene_034"
+    ]
+  },
+  "data": {
+    "title": "在指控与早产中坠入绝境",
+    "description": "陆姝仪哭诉被高令宁设计失贞，沈词当众偏护她、斥责女主恶毒，并以‘若这一世她再因你而死’出言威胁；女主愤而掌掴后腹痛昏厥，转入产房，面临难产与保大保小的生死抉择。",
+    "beat_type": "event",
+    "save_the_cat": "Dark Night of the Soul",
+    "emotional_value": -1.0,
+    "dramatic_intensity": -1.0,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 13
+  }
+}

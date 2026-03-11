@@ -1,0 +1,40 @@
+{
+  "name": "陆姝仪的婢女",
+  "aliases": [
+    "那婢女"
+  ],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "普通侍女相貌，神情急切",
+    "body": "纤细",
+    "hair": "侍女发式",
+    "distinguishing_features": "常以叩门、通报形式出场"
+  },
+  "costume": {
+    "typical_outfit": "浅色侍女服",
+    "color_palette": [
+      "浅蓝",
+      "灰白"
+    ]
+  },
+  "casting_tags": [
+    "贴身丫鬟",
+    "通报者"
+  ],
+  "visual_reference": "古代少女侍女，面容清秀普通，神色惶急，穿浅蓝侍女服，跪在门外通禀消息，东方古典写实风",
+  "visual_prompt_negative": "现代女仆装、浓妆、夸张首饰、卡通风",
+  "personality": "听命、急切",
+  "desire": "替主子求援",
+  "flaw": "仅能依附主子行事",
+  "arc": "功能型角色",
+  "scene_presence": "新婚夜叩门报陆姝仪心口痛",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "为其传递求助信息",
+      "function": "制造新婚夜干扰"
+    }
+  ]
+}

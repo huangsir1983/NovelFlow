@@ -1,0 +1,30 @@
+{
+  "variant_id": "沈词_variant_02",
+  "variant_type": "flashback",
+  "variant_name": "沈词 — 前世冷战对峙",
+  "tags": [
+    "冷厉",
+    "仇恨",
+    "前世"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "前世女儿死后在沈家内院夫妻冷战互相推责对峙时",
+  "appearance_delta": {
+    "face": "白净俊美面庞冷厉紧绷，眼含深恨与疲惫",
+    "body": "长身玉立但身体前倾紧绷",
+    "hair": "束冠墨发略显凌乱",
+    "distinguishing_features": "黑眸冰冷锐利充满怨恨"
+  },
+  "costume_override": {
+    "outfit": "寝衣",
+    "color_palette": [
+      "深灰",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "一位25岁古代俊美文臣，长身玉立白净脸庞，冷峻黑眸满是恨意与疲惫，表情尖锐冷厉，穿着深色寝衣，位于沈家内院夜色中火盆映照，姿态紧绷与妻子四目相对，氛围压抑仇恨",
+  "visual_prompt_negative": "现代西装、胡须、粗犷、笑容灿烂、温暖光线、柔和表情",
+  "emotional_tone": "冷漠仇恨"
+}

@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_016",
+  "name": "高府厢房与后院",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸后院厢房",
+  "description": "后院厢房位于较偏的院落一侧，平时可作客房或暂歇之用，空间比正房低一等，门扇厚重，窗户较小，私密性强。厢房内设床榻、帷帐、熏香炉和简单桌椅，床铺因事发而凌乱，衣衫散落，帷帐半垂。外部后院通过回廊相连，黄昏时灯笼初上，廊道光线昏沉，门房回话与众人脚步形成紧迫感。房门被推开的一刻，内外视线骤然贯通，凌乱床榻与昏迷二人构成灾难性视觉中心。此地需要具备明显的“偏、暗、可藏事”的空间气质。",
+  "visual_reference": "Late Ming dynasty official residence side chamber and rear courtyard at dusk, secluded guest room with narrow windows, wooden door, bed with disordered curtains, scattered garments, incense burner, dim lantern-lit corridor outside, tense search scene, private chamber turned scandal site, historical Chinese realism, cinematic suspense and shock",
+  "atmosphere": "昏沉不祥、丑闻爆裂、失控惊骇",
+  "color_palette": [
+    "暮青",
+    "昏黄灯色",
+    "木褐",
+    "灰白"
+  ],
+  "lighting": "黄昏到入夜交界，外部靠灯笼与余晖混合照明，厢房内部偏暗，门一开才让凌乱景象骤然暴露。",
+  "key_features": [
+    "偏僻厢房木门",
+    "凌乱床榻与半垂帷帐",
+    "后院回廊与初上的灯笼"
+  ],
+  "narrative_scenes": [
+    "scene_016"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "由尚未明说的不安搜寻，陡然坠入足以毁掉一切的丑闻现场。"
+}

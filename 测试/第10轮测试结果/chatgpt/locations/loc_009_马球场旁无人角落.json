@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_009",
+  "name": "马球场旁无人角落",
+  "type": "exterior",
+  "era_style": "明代中晚期园林式马球场边缘隐蔽角落",
+  "description": "这是马球场边缘被树影遮蔽的半私密区域，远离喧闹主场，地面有落叶与零散尘土，一张石凳靠树而置，适合短暂休息或私下交谈。树影斑驳切割人物衣摆与裙摆，形成暧昧而不稳定的画面层次。因为接近球场，背景可朦胧听见远处人声与马蹄，却在视觉上保持相对安静。受伤的脚踝、帕子和低垂裙边成为前景特写元素，使这个角落具备近身接触与越界对话的可能。",
+  "visual_reference": "Secluded corner beside a Late Ming dynasty polo field, shaded by trees, stone bench, scattered leaves, soft dust on ground, partial view of distant match, intimate hidden outdoor space, embroidered skirt hem, handkerchief, swollen ankle detail, dappled daylight through foliage, emotionally charged historical Chinese drama, realistic and cinematic",
+  "atmosphere": "隐秘、暧昧、冒犯、危险靠近",
+  "color_palette": [
+    "树影墨绿",
+    "石灰灰",
+    "浅粉裙色"
+  ],
+  "lighting": "树叶筛下的斑驳日光投在石凳和裙摆上，局部高光与阴影交错，适合近景情绪戏。",
+  "key_features": [
+    "树影下的石凳",
+    "落叶与裙摆形成的近景层次",
+    "远离喧闹主场的隐蔽感"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从礼貌关切迅速滑向前世亲密被挑明后的暧昧与被侵犯感。"
+}

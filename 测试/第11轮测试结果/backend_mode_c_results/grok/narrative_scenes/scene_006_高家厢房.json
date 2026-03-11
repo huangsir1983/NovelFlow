@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_006",
+  "order": 9,
+  "heading": "INT. 高家厢房 - DAY",
+  "location": "高家厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪与蒋晟被发现昏迷衣冠不整，沈词相信陆指责女主设计",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "沈词面若冰霜威胁，女主浑身发颤",
+  "tension_score": 0.95,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "厢房床榻",
+    "散乱衣物",
+    "茶杯残液"
+  ],
+  "dramatic_purpose": "高潮陷害事件与信任崩塌"
+}

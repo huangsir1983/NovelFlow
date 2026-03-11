@@ -1,0 +1,301 @@
+[
+  {
+    "id": "shot_0682",
+    "scene_id": "scene_045",
+    "shot_number": 1,
+    "goal": "建立前厅与院门相连的压迫空间关系，明确和离书为视觉焦点，并预埋通往后院的雕花木门作为下一步行动阻隔。",
+    "composition": "女主主观高度的限制性视角，从前厅偏内侧望向院门方向。画面下前景虚焦掠过门框边缘，中央地面上和离书被天光切亮；左下偏中为笔直跪地的沈词，右侧稍后为端坐/站立的高父，右后景雕花木门半闭，门外高亮天光形成内外明暗反差，沈府小厮压在画面左后侧维持秩序。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、窒息，感知礼法空间对人的围困。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "高父",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 682
+  },
+  {
+    "id": "shot_0683",
+    "scene_id": "scene_045",
+    "shot_number": 2,
+    "goal": "强调和离书已被摆到沈词面前，宣告谈判基础并非挽回而是驱逐。",
+    "composition": "俯角近距离看地面，和离书占画面中央偏下，纸角被厅内微风轻掀；左上进入沈词跪姿的膝与垂落衣摆，衣料空荡显消瘦；右上是高父袍角与稳住纸页的手，地砖纹路将视线导向纸面中心。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷酷、无可回避的事实压下。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.38,
+    "order": 683
+  },
+  {
+    "id": "shot_0684",
+    "scene_id": "scene_045",
+    "shot_number": 3,
+    "goal": "呈现沈词以克制姿态开口求情，建立他尚在理性争辩阶段。",
+    "composition": "沈词左三分之一跪于画面，身体笔直但明显瘦削，抬头望向画外右侧高父；背景是昏沉厅堂木柱，边缘留出大片暗部。门外反打来的侧逆光勾出他脸部轮廓和发丝微乱，眼下青痕清晰。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "心酸中带执拗，感受他外壳尚稳、内里已裂。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 684
+  },
+  {
+    "id": "shot_0685",
+    "scene_id": "scene_045",
+    "shot_number": 4,
+    "goal": "交代高父的冷静立场与父权压制，形成对沈词的正面拒绝。",
+    "composition": "遵守轴线的正反打，高父位于右三分之一，微俯视角强化权威；前景左侧虚化保留沈词肩背轮廓，显示女主认知中的对峙关系。高父身后是深青木屏与暗影，手仍压在案边，神情严正克制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、不可撼动。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 685
+  },
+  {
+    "id": "shot_0686",
+    "scene_id": "scene_045",
+    "shot_number": 5,
+    "goal": "延续沈词辩词，补充他自认已切断外部祸源，试图争取合法留位。",
+    "composition": "仍在同轴线侧，沈词中近景，头部略前倾，声音沙哑却努力平稳；画面右前景虚焦压入高父袖口边缘，构成被审视感。背景门外亮区形成一条斜向高光，逼着人物脸上的憔悴更明显。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "徒劳、低姿态中的自尊挣扎。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.47,
+    "order": 686
+  },
+  {
+    "id": "shot_0687",
+    "scene_id": "scene_045",
+    "shot_number": 6,
+    "goal": "切入有限他人反应，展示高父并未被说动，且小厮在场让局面更具羞辱性和公共性。",
+    "composition": "中景双人偏组接，右侧前景为高父半侧脸与冷硬下颌，左后侧为沈府小厮欲言又止、手势拘谨。中间留出一道空白直指地上和离书的位置，形成沉默压力。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "尴尬、局面失衡，感到沈词在众目睽睽下被剥离体面。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.41,
+    "order": 687
+  },
+  {
+    "id": "shot_0688",
+    "scene_id": "scene_045",
+    "shot_number": 7,
+    "goal": "将辩论推进到子嗣问题，表现沈词把最后筹码压到孩子身上。",
+    "composition": "沈词近景，镜头轻微向前，视线直上方画外；他说到“子嗣”时喉结起伏，唇色发白。画面下缘保留一点和离书虚焦白面，如同他话语始终绕不过的判决。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "焦灼、近乎哀求的执念。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 688
+  },
+  {
+    "id": "shot_0689",
+    "scene_id": "scene_045",
+    "shot_number": 8,
+    "goal": "用高父的回应彻底击碎沈词的希望，明确其位置可被替代。",
+    "composition": "高父特写，脸位于画面正中略偏右，目光下压，语速不快却每字落地。背景暗部压实，仅保留门外天光在他颊侧形成冷边光；说到“赘婿人选”时，右手微动离开纸面，像完成裁定。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "绝情、被当场宣判出局的寒意。",
+    "duration_hint": "4s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 689
+  },
+  {
+    "id": "shot_0690",
+    "scene_id": "scene_045",
+    "shot_number": 9,
+    "goal": "捕捉沈词听到“赘婿人选”后的生理性停滞，完成由克制到裂开的转折点。",
+    "composition": "沈词脸部特写，画面左侧留少量死黑空间；他瞳孔微缩，眼尾迅速泛红，呼吸断一拍。背景完全虚化，只剩一束门外反光掠过眼底，强化刺痛感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、失重、嫉恨被瞬间点燃。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 690
+  },
+  {
+    "id": "shot_0691",
+    "scene_id": "scene_045",
+    "shot_number": 10,
+    "goal": "把僵住的心理反应落到身体动作，开始从跪姿向站起的失控态过渡。",
+    "composition": "中景侧面，沈词位于左侧，由跪到起身占据画面纵向运动线；右侧高父保持不动形成对照。前景地上的和离书被他膝前袍摆掠过却未碰到，像跨不过的规训界线。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "压着火的危险感，局面即将破裂。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 691
+  },
+  {
+    "id": "shot_0692",
+    "scene_id": "scene_045",
+    "shot_number": 11,
+    "goal": "呈现沈词弯腰发出短促冷笑，外在失态首次显形。",
+    "composition": "沈词中近景，身体前折占据画面中央，发冠下垂落一缕散发；他半遮住嘴角，笑声短而冷。背景中高父保持清晰但静止，形成他失控而对方不动如山的对冲。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "不安、寒意，感受礼貌外壳被撕开。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.79,
+    "order": 692
+  },
+  {
+    "id": "shot_0693",
+    "scene_id": "scene_045",
+    "shot_number": 12,
+    "goal": "交代小厮意识到不妙并上前阻拦，制造行动爆点前的最后缓冲。",
+    "composition": "沈府小厮从左后景抢入中景，手臂伸向沈词肩臂；沈词背对镜头位于右前景，高父在更远处保持站位。雕花木门正中后景，成为所有动作的明确目的地。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "慌乱、失控已不可避免。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "沈府小厮",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.83,
+    "order": 693
+  },
+  {
+    "id": "shot_0694",
+    "scene_id": "scene_045",
+    "shot_number": 13,
+    "goal": "用动作爆点完成沈词甩开阻拦，明确他从言语对抗转为身体闯入。",
+    "composition": "近距离动作镜头，沈词占画面右侧前景猛然甩臂，小厮被带向左侧失衡退开；背景门框垂直线稳定，反衬动作的突然性。衣袖在画面中形成凌厉弧线，掠过和离书所在方向。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "惊吓、爆裂感。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 694
+  },
+  {
+    "id": "shot_0695",
+    "scene_id": "scene_045",
+    "shot_number": 14,
+    "goal": "强化高父面对闯门的瞬间反应，显示家族秩序被公然冲撞。",
+    "composition": "高父中近景，位于画面右侧迅速转头看向画外左侧；左前景掠过沈词失焦的深色身影，形成压迫性遮挡。背景暗木与门外亮光夹出他的脸，法令纹更深，护女与怒意同时显现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "震怒与紧绷，感到底线被踩穿。",
+    "duration_hint": "2s",
+    "characters": [
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 695
+  },
+  {
+    "id": "shot_0696",
+    "scene_id": "scene_045",
+    "shot_number": 15,
+    "goal": "把沈词的目标明确落到雕花木门，完成场面调度上的推进：他正要冲向后院与女主正面交锋。",
+    "composition": "从厅内朝门口方向的追随视角，沈词居画面中央偏左快速逼近雕花木门，门外高亮天光包边；地上的和离书被留在后景中央偏下，小厮从后方右侧追上但够不到。门框像一道立起的刀口，把前厅与后院切成两个世界。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "悬冲、危险，观众预感更正面的冲突即将发生。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 696
+  },
+  {
+    "id": "shot_0697",
+    "scene_id": "scene_045",
+    "shot_number": 16,
+    "goal": "以门的物理阻隔作为冷收尾，悬置下一场夫妻正面交锋的临界点。",
+    "composition": "雕花木门特写偏大全，门扇木纹与雕花占据大部分画面，沈词的手/肩从左侧猛撞入画，门缝中泄出后院更亮的白光。前景边缘可见他深色衣袖与因用力绷起的手指，门后空间不可见，保持信息差。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "悬念、逼仄、即将破门而入的压迫。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 697
+  }
+]

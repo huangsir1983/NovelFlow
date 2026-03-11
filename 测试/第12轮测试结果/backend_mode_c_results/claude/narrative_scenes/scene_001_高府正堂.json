@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "沈家第一次提亲，高令宁发现聘礼中是木雁而非活雁，意识到沈词也重生了，当场拒绝聘礼",
+  "key_dialogue": "聘礼太薄，我不满意",
+  "emotional_peak": "震惊与愤怒",
+  "tension_score": 0.7,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "木雁",
+    "金银绸缎聘礼",
+    "茶具",
+    "桌椅"
+  ],
+  "dramatic_purpose": "开篇揭示重生设定，建立主角间的对立关系"
+}

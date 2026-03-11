@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_019",
+  "order": 18,
+  "heading": "INT. 沈家新房 - night",
+  "location": "沈家洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "新婚夜两人以刻薄互刺的方式完成夫妻之礼，亲密行为被降格成只为生下沈睿的机械任务。",
+  "key_dialogue": "要不是睿儿，你以为我想碰你？",
+  "emotional_peak": "最亲密时刻却最像仇人",
+  "tension_score": 0.9,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "丝带",
+    "婚床",
+    "喜烛"
+  ],
+  "dramatic_purpose": "直观表现两人的婚姻契约化与敌意化，奠定婚后基调。",
+  "visual_reference": "红烛摇曳的新房里，女子眼角含泪却冷着脸，男子俯身说着刻薄话，丝带被解开，红帐内并无温情只有压抑，古风洞房戏但克制写实，强调敌意和疲倦",
+  "visual_prompt_negative": "避免露骨色情、避免甜蜜新婚感、避免过度艳俗红色、避免夸张肢体纠缠",
+  "source_text_start": "入夜后，喧嚣如水退去。",
+  "source_text_end": "「再敢骂人，信不信我让他们进来再换一次水？」"
+}

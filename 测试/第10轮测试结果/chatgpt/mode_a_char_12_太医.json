@@ -1,0 +1,43 @@
+{
+  "name": "太医",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "45-65",
+  "appearance": {
+    "face": "沉稳老成，带有医者的审慎",
+    "body": "普通年长男性体态",
+    "hair": "花白发须，束冠整齐",
+    "distinguishing_features": "冷静、权威的宫廷医者气质"
+  },
+  "costume": {
+    "typical_outfit": "太医官服或素净医者长袍",
+    "color_palette": [
+      "灰白",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "宫廷医者",
+    "诊脉者"
+  ],
+  "visual_reference": "Senior Chinese imperial physician, 50s to 60s, composed scholarly face, gray hair and beard, plain official-medical robe, calm authoritative presence, ancient drama style",
+  "personality": "谨慎专业，以诊断事实为主。",
+  "desire": "如实诊病。",
+  "flaw": "无明显描写。",
+  "arc": "无。",
+  "scene_presence": "为高令宁诊出腹中是男孩；在早产危机时与稳婆同场救治。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "利益",
+      "dynamic": "其诊断直接推动人物预期与后续冲突",
+      "function": "命运误导装置"
+    },
+    {
+      "target": "沈词",
+      "type": "利益",
+      "dynamic": "提供其最想确认的‘男孩’信息",
+      "function": "推动期待升级"
+    }
+  ]
+}

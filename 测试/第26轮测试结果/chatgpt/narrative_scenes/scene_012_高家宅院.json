@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT/EXT. 高家宅院 - day to dusk",
+  "location": "高家宅院",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "小厮婢女"
+  ],
+  "core_event": "我借养胎回娘家，沈词每日探望示好；傍晚陆姝仪来访却失踪，最终在厢房内被发现与蒋晟一同昏迷且衣冠不整，局势骤然失控。",
+  "key_dialogue": "面若冰霜。",
+  "emotional_peak": "我看见昏迷的陆姝仪和蒋晟，瞬间意识到自己将再度被卷入陷害。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "包裹",
+    "葡萄",
+    "厢房",
+    "衣冠不整"
+  ],
+  "dramatic_purpose": "设置重大误会与陷害现场，将全篇冲突推向最高点。",
+  "visual_reference": "傍晚高宅内外紧张搜寻，最后在厢房中发现昏迷男女，所有人神色骤冷。",
+  "visual_prompt_negative": "不要现代豪宅，不要侦探警匪风，不要过度艳俗，不要夸张搞笑场面",
+  "source_text_start": "10.\n伯爵娘子又登门了。\n沈词再不行动，陆",
+  "source_text_end": "心里一惊。\n我转头去看沈词，他也在看我。\n面若冰霜。"
+}

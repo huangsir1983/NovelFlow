@@ -1,0 +1,79 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词",
+    "沈大人",
+    "姑爷"
+  ],
+  "role": "protagonist",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "面如冠玉，轮廓清俊，鼻梁高挺，眸色深黑或在暖光下似琥珀，平日神情清冷克制，怒时眼神像结冰的湖面",
+    "body": "身量高挑修长，肩宽而不魁梧，常年为官与读书人的清瘦挺拔，偶有病瘦狼狈时更显嶙峋",
+    "hair": "乌发整束，常戴玉冠或官帽，发式一丝不苟",
+    "distinguishing_features": "冷感极强的眉眼、过分端方的气质与情绪失控时骤然发红的眼眶形成强烈反差"
+  },
+  "costume": {
+    "typical_outfit": "文臣常服、素雅长袍、朝服，私下多为剪裁考究的深色锦袍",
+    "color_palette": [
+      "墨黑",
+      "玄青",
+      "月白",
+      "暗金"
+    ]
+  },
+  "casting_tags": [
+    "清冷权臣",
+    "高岭之花",
+    "嘴硬深情",
+    "病态克制",
+    "古装美男",
+    "虐恋男主"
+  ],
+  "visual_reference": "Ancient Chinese scholar-official, handsome refined face, cold dark eyes, pale skin, tall slender build, black hair tied with jade crown, dark elegant hanfu, restrained aristocratic aura, cinematic close-up, dramatic tension",
+  "visual_prompt_negative": "modern suit, beard, glasses, muscular warrior armor, messy hairstyle, tattoo, smiling broadly, casual contemporary look",
+  "personality": "克制冷峻，锋利自负，极善隐忍，嘴硬心软，面对情感时习惯否认与推开",
+  "desire": "保住前世长子沈睿，维持自己认定的秩序，也在潜意识里想重新得到高令宁却不肯承认",
+  "flaw": "极度不擅表达爱与歉意，习惯以掌控、指责和冷言代替坦白；偏信自己的判断，常伤人后才知悔",
+  "arc": "起初把再娶高令宁视为生下沈睿的工具性选择，后来在相处中逐渐意识到自己真正无法放手的人是她，最终沦为主动纠缠、恳求不被抛下的一方",
+  "scene_presence": "从提亲起持续存在，是与女主并行的核心叙事支点；贯穿订亲、婚后对峙、怀孕、早产、和离与江南追妻",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前世夫妻/今生纠缠爱人",
+      "dynamic": "相爱而不自知，靠互相伤害维系连接，越想切割越难舍",
+      "function": "全剧第一主冲突与情感主线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅/义妹",
+      "dynamic": "口头否认男女之情，实则长期偏爱、保护与补偿，造成婚姻灾难",
+      "function": "制造误会与三角张力"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "以长子为家族与情感寄托，甚至将他视作重来一世必须达成的目标",
+      "function": "驱动再婚与后续崩塌"
+    },
+    {
+      "target": "沈昭昭",
+      "type": "父女",
+      "dynamic": "女儿意外降生打碎他对“既定命运”的执念，也成为他重新靠近高令宁的唯一纽带",
+      "function": "人物转折契机"
+    },
+    {
+      "target": "沈母",
+      "type": "母子",
+      "dynamic": "受母族关系牵扯，对陆姝仪的安置问题长期受其影响",
+      "function": "家族压力来源"
+    },
+    {
+      "target": "蒋晟",
+      "type": "情敌/被利用对象",
+      "dynamic": "从轻视、警惕到厌恶，蒋晟的存在不断照见他的占有欲",
+      "function": "外部竞争与男主吃醋触发器"
+    }
+  ]
+}

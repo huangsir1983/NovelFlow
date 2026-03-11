@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_003",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_001"
+    ]
+  },
+  "data": {
+    "title": "揭开前世噩梦",
+    "description": "女主一句“嫁过去后美梦醒来，皆是噩梦”骤然反转情绪，点明自己态度剧变源于前世婚后创伤，而非任性翻脸。",
+    "beat_type": "revelation",
+    "save_the_cat": "Catalyst",
+    "emotional_value": -0.7,
+    "dramatic_intensity": -0.7,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 3
+  }
+}

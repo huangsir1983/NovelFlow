@@ -1,0 +1,60 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "保养得宜的高门主母面相，神色威严，病后带衰弱感",
+    "body": "体态端庄，举止讲究",
+    "hair": "乌发高髻间杂银丝，配贵重簪钗",
+    "distinguishing_features": "一举一动都带世家主母的体面与控制欲"
+  },
+  "costume": {
+    "typical_outfit": "华贵深色锦缎褙子、主母礼服",
+    "color_palette": [
+      "深紫",
+      "墨绿",
+      "金色"
+    ]
+  },
+  "casting_tags": [
+    "高门主母",
+    "控制型长辈",
+    "重门第",
+    "体面至上"
+  ],
+  "visual_reference": "Ancient Chinese noble matriarch, dignified stern face, elaborate hair ornaments, luxurious dark silk robe, aristocratic and controlling aura, historical family drama style",
+  "personality": "重门第、讲体面、善于权衡利弊",
+  "desire": "维持沈家名声与利益，安排所有人于最稳妥的位置",
+  "flaw": "将他人情感工具化，缺乏共情",
+  "arc": "从安排高令宁入门、试图收纳陆姝仪，到在和离与孩子归属上被高家反压，权威受挫",
+  "scene_presence": "主要存在于回忆与后续谈判中，是前世悲剧的重要制造者之一",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "亲密但彼此都受家族体面约束",
+      "function": "塑造男主原生家庭压力"
+    },
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "先压制后忌惮，始终暗中角力",
+      "function": "宅门权力冲突来源"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姑侄/收留者与安排者",
+      "dynamic": "有亲情却仍以门第利益为先",
+      "function": "推进其婚配悲剧"
+    },
+    {
+      "target": "高父",
+      "type": "姻亲对峙",
+      "dynamic": "在孩子归属与名声上寸步不让后被迫让步",
+      "function": "强化家族博弈"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "女儿",
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3岁",
+  "appearance": {
+    "face": "可爱婴儿/幼童脸",
+    "body": "小巧",
+    "hair": "稚嫩发髻",
+    "distinguishing_features": "像母亲的眼睛"
+  },
+  "costume": {
+    "typical_outfit": "幼童锦衣",
+    "color_palette": [
+      "红",
+      "粉"
+    ]
+  },
+  "casting_tags": [
+    "可爱女儿",
+    "新生儿"
+  ],
+  "visual_reference": "一位可爱古代小女童，约三岁，粉嫩脸庞大眼睛，穿着红色幼童锦衣，在雪地堆雪球，欢乐表情，冬季户外光线",
+  "visual_prompt_negative": "成人化、丑陋",
+  "personality": "阳光开朗",
+  "desire": "父母陪伴",
+  "flaw": "N/A",
+  "arc": "出生后带来转机",
+  "scene_presence": "出生、满月宴、江南生活",
+  "relationships": []
+}

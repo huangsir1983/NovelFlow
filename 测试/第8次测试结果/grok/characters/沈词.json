@@ -1,0 +1,77 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "沈家哥"
+  ],
+  "role": "protagonist",
+  "age_range": "22-28",
+  "appearance": {
+    "face": "俊美如玉，五官冷峻立体，眉眼狭长，眼神疏离中透着讥诮冷意",
+    "body": "长身玉立，修长挺拔的身材，气质清贵",
+    "hair": "乌黑长发以玉冠高束，古士子发髻",
+    "distinguishing_features": "讥诮冷笑时嘴角微勾的冷薄表情与那熟悉的锐利眼神"
+  },
+  "costume": {
+    "typical_outfit": "深色锦袍配玉带，简约却彰显世家贵气",
+    "color_palette": [
+      "墨黑",
+      "深青"
+    ],
+    "texture_keywords": [
+      "锦缎",
+      "丝绸",
+      "玉饰"
+    ]
+  },
+  "casting_tags": [
+    "冷峻美男子",
+    "重生冷漠男主",
+    "宠妹狂魔",
+    "古代贵公子"
+  ],
+  "visual_reference": "A strikingly handsome young Chinese nobleman in ancient dynasty, flawless jade-like cold face with sharp narrow eyes and a sneering smirk, tall slender elegant build, long jet-black hair tied in high jade crown, wearing dark blue silk robes with subtle patterns, standing aloof and indifferent, ultra detailed cinematic lighting for AI art",
+  "description": "重生后与高姑娘冷漠联姻却极尽疼爱义妹青梅的男主角",
+  "personality": "外表冷漠寡言、疏离讥诮，对妻子漠不关心却对义妹温柔宠溺；行为模式包括提亲时冷淡垂眼、震惊后冷笑回应、儿子确诊后漠然建议维持婚姻",
+  "desire": "通过联姻确保儿子睿儿出生并延续前世命运轨迹，同时救回并极尽疼爱前世早亡的青梅义妹以弥补遗憾",
+  "flaw": "对妻子的情感冷漠与对义妹的过度偏爱，导致婚姻关系彻底破裂并引发家庭权力与情感冲突",
+  "arc": "起点：重生后冷淡订亲并以木雁试探女主；转变触发：妻子坚持和离及义妹宠爱引发的对峙；终点：从冷漠执着中被迫面对情感裂痕与命运重塑",
+  "relationships": [
+    {
+      "target": "高姑娘",
+      "type": "情感/利益",
+      "dynamic": "双方重生后相看两厌却按约定联姻，冷漠对峙中暗藏试探与前世恩怨张力，她退雁试探时他震惊后讥诮回应",
+      "function": "叙事核心冲突源，推动女主和离决心与双重生博弈"
+    },
+    {
+      "target": "青梅",
+      "type": "情感",
+      "dynamic": "前世落水早亡，今生救回认作义妹并极尽疼爱，与对妻子的冷漠形成鲜明对比，成为情感裂痕主因",
+      "function": "情感支线冲突催化剂，埋下婚姻破裂与女主不满伏笔"
+    },
+    {
+      "target": "父亲",
+      "type": "权力/利益",
+      "dynamic": "提亲时对女方父亲热情保持冷淡，面对女儿退礼震惊后冷声承诺加聘礼，体现家族联姻的权力博弈",
+      "function": "推动婚事进程的次要对手，强化世家利益冲突"
+    },
+    {
+      "target": "媒人",
+      "type": "利益",
+      "dynamic": "通过媒人完成提亲流程，冷淡回应聘礼争议，后承诺调整以维持合作",
+      "function": "婚事中介工具人，凸显男主冷漠态度"
+    },
+    {
+      "target": "大夫",
+      "type": "叙事",
+      "dynamic": "妻子怀孕时通过大夫确诊男胎后长舒一口气，体现对子嗣的执着重视",
+      "function": "剧情转折工具，强化他提议维持婚姻的动机"
+    },
+    {
+      "target": "睿儿",
+      "type": "情感/利益",
+      "dynamic": "前世长子今生尚未出生，却成为他提议继续婚姻的唯一理由，显示对子嗣与命运延续的执着",
+      "function": "家族传承象征，推动情感转折与和离冲突"
+    }
+  ]
+}

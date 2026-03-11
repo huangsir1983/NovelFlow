@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_010",
+  "name": "侯府内室诊伤处",
+  "type": "interior",
+  "era_style": "明代中晚期勋贵府邸内室诊疗偏厅",
+  "description": "诊伤处为侯府内室临时辟出的医疗空间，一侧用屏风隔开，形成相邻却彼此可闻的两组区域。近景放置矮榻与凳子，便于正骨与包扎；旁边有诊脉软垫、绷带、药碗、灯烛等物。门帘半掩，婢仆出入频繁，带来内宅医疗现场的忙乱。屏风另一侧可设软榻或坐席，形成另一名病者被照料的画面，与前景构成讽刺性的情感对照。整体陈设不华丽，但质地考究，符合侯府标准。空间核心在于近距并置：一边是疼痛治疗，一边是温柔照拂。",
+  "visual_reference": "Late Ming dynasty noble mansion medical inner chamber, folding screen dividing two emotional zones, low couch for bone-setting, stool, bandages, medicine bowls, pulse cushion, lamplight, half-open curtains, one side a woman receiving painful treatment, the other side a man gently feeding medicine to another woman, layered emotional contrast, historical Chinese drama realism, highly detailed interior",
+  "atmosphere": "闷痛、羞辱、偏袒、心寒",
+  "color_palette": [
+    "药草棕",
+    "烛火琥珀",
+    "黯淡米灰"
+  ],
+  "lighting": "白日室内光不足，以门口自然光和补充烛火共同照亮，屏风前后形成层层暖冷对比，情感区分明显。",
+  "key_features": [
+    "屏风隔开的双重照护区",
+    "矮榻与诊脉软垫",
+    "药碗与泪湿帕子的对照"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "由身体疼痛延伸至感情上的公开偏袒，情绪从隐忍变为彻底心寒。"
+}

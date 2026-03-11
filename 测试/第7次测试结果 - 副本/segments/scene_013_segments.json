@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0052",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0216",
+      "shot_0217",
+      "shot_0218"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属进入街市并建立和解幻象的起始动作，角色集合稳定，时空连续；从环境建立到行动牵引再到手部触觉细节，情绪由外部温暖落到私密迟疑，适合合并为一个完整的开场段落。",
+    "order": 52
+  },
+  {
+    "id": "seg_0053",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0219",
+      "shot_0220",
+      "shot_0221"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头构成明确的主观—反应—反应链条，仍围绕同一动作节点“看孩子跑过”展开；叙事重点从外部热闹转向二人内在感受，尤其符合‘听者比说者重要’的导演原则，因此合并为一段。",
+    "order": 53
+  },
+  {
+    "id": "seg_0054",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0222",
+      "shot_0223",
+      "shot_0224",
+      "shot_0225"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这四个镜头构成一次完整的情绪下坠再上扬：并肩假象、热闹远离、沈词停顿、说出名字。虽然镜头数略多，但都服务于同一情感核心‘命名’，且角色关系未变、时空未跳转，适合压缩为一个连续段落。",
+    "order": 54
+  },
+  {
+    "id": "seg_0055",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0226",
+      "shot_0227"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处发生明确的情感弧线收束：命名后的回应不在言语，而在高令宁的沉默凝视，随后以双人同框落回关系本质。角色集合稳定，但情绪从脆弱温柔回落到更深裂痕，适合作为收尾独立段落。",
+    "order": 55
+  }
+]

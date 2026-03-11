@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_051",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:38:47"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 江南宅院庭院 - DAY",
+    "location": "江南住处院中雪地",
+    "time_of_day": "day",
+    "description": "雪后庭院开阔明亮，地面积雪未化，树枝压着白雪，日光自上方反射在雪面上，光线刺亮。院中留有孩童脚印和打闹痕迹。几个相貌出众的年轻男子分散在雪地与廊下之间，形成一种异常完整的家庭画面。",
+    "action": "昭昭穿着厚袄在雪地里跑动，和几个赘婿一起滚雪球、堆雪人。高令宁站在廊下看着，神情松弛。院门方向忽然出现沈词的身影，一个雪球迎面砸中他。昭昭先是下意识朝他喊“爹爹”，随即看见院中其他男人，声音一顿，立刻改口。沈词站在雪地里，视线扫过那几个男人，脸色一点点沉下去。",
+    "dialogue": [
+      {
+        "character": "昭昭",
+        "line": "爹爹——",
+        "subtext": "她对沈词的亲近是本能，父女联系从未真正断开。"
+      },
+      {
+        "character": "昭昭",
+        "line": "……",
+        "subtext": "她察觉气氛不对，临时收住称呼。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词",
+      "高父"
+    ],
+    "key_props": [
+      "雪球",
+      "雪人",
+      "冬袄",
+      "院门"
+    ],
+    "dramatic_purpose": "将潜在关系冲突外化为正面碰撞：沈词闯入一个看似完整的新家庭场景，嫉妒与失控被瞬间点燃。",
+    "tension_score": 0.78,
+    "order": 51
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "seg_0000",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0000",
+      "shot_0001",
+      "shot_0002"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并环境建立、人物靠近与核心道具建立，角色集合恒定，仅有陆姝仪一人；情绪从外部压迫过渡到内里窒息，再落实到帕子的身体性动作，属于同一条压抑递进弧线，适合压缩为一个6秒起势段。",
+    "order": 0
+  },
+  {
+    "id": "seg_0001",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0003",
+      "shot_0004",
+      "shot_0005"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段集中于生理性崩溃、对门外权威的畏惧，以及畏惧如何内化为身体收缩，三镜头均围绕‘不敢出门、不敢争辩’这一同一情感命题展开，空间未变、人物未变，适合合并成中段压迫升级段。",
+    "order": 1
+  },
+  {
+    "id": "seg_0002",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0006",
+      "shot_0007",
+      "shot_0008"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是完整的情绪峰值推进：镜中碎裂自我→正面无声崩溃→极近距离呼吸失控。情感弧线连续上扬，没有角色或时空变化，属于必须一气呵成的高潮段，合并可强化压迫与怜惜的递进爆发。",
+    "order": 2
+  },
+  {
+    "id": "seg_0003",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0009"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "末段承担高潮后的冷收尾功能，情绪由私密崩裂回落至外部局势的不可撼动。虽然仅一镜，但其叙事功能独立且明确：将婚事压力重新悬置于整个空间中，并为后续戏的动机提供静默尾音，因此保留为独立收束段。",
+    "order": 3
+  }
+]

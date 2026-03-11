@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈家新房 - NIGHT",
+  "location": "沈家洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪（门外通过婢女传话）"
+  ],
+  "core_event": "新婚夜两人迅速完成夫妻之实，言语依旧带刺。陆姝仪像前世一样借醉酒心口痛叫走沈词，高令宁却淡漠放行，不再像前世那样争。",
+  "key_dialogue": "你去吧。也不必回来了。",
+  "emotional_peak": "身体最亲密时，两人却把彼此当完任务的工具，荒凉感达到顶点。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "盖头与腕上丝带",
+    "床榻被褥",
+    "门外通传",
+    "热水"
+  ],
+  "dramatic_purpose": "确认睿儿计划启动，同时体现女主态度已从争夺转向抽离。",
+  "source_text_start": "入夜后，喧嚣如水退去。月光照亮了我潮红无神",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

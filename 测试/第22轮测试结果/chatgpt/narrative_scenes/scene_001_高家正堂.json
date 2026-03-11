@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "沈家首次上门提亲，聘礼明显缩水，高令宁据此确认沈词也重生，并当场退回木雁、抬高条件给他难堪。",
+  "key_dialogue": "「聘礼太薄，我不满意。」",
+  "emotional_peak": "高令宁当众将木雁还回去，沈词骤然抬眼，两人重生后的第一次正面交锋形成冰冷对峙。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "聘礼礼单与金银绸缎",
+    "木雁",
+    "婚书相关礼盒"
+  ],
+  "dramatic_purpose": "建立双重生设定、男女主前世纠葛、今生关系基调与女主主动权",
+  "source_text_start": "我和沈词的长子成了一代名相。\n是以双",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

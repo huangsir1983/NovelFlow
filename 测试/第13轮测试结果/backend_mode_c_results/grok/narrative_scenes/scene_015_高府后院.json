@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高府后院 - 日",
+  "location": "高府后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词闯入质问和离，高令宁坚持原谅放手",
+  "key_dialogue": "高令宁，我不要你原谅我。",
+  "emotional_peak": "沈词脊背弯曲拼命摇头",
+  "tension_score": 0.8,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "和离书"
+  ],
+  "dramatic_purpose": "主角释怀男主拒绝被放手",
+  "source_text_start": "雕花木门吱呀一声被推开。我抱着女儿，有些讶异地看着沈词狼狈的模样。",
+  "source_text_end": "沈词沉默地注视着我。素来笔直的脊背弯了下去，衣衫空荡地摇晃。"
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0012",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0066",
+      "shot_0067",
+      "shot_0068"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "开场三镜均服务于同一叙事任务：建立空间对峙、明确女主限制性视角、铺垫她开口前的掌控感。角色集合未变，时空连续，情绪仍处于压抑蓄势阶段，适合合并为一个起势segment。",
+    "order": 12
+  },
+  {
+    "id": "seg_0013",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0069",
+      "shot_0070",
+      "shot_0071"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段构成完整的第一轮攻防：女主试探出招，男主即时冷笑并以台词回击。情绪从压抑进入可见的刺痛与防御，属于同一情感弧线，不宜拆开。",
+    "order": 13
+  },
+  {
+    "id": "seg_0014",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0072",
+      "shot_0073",
+      "shot_0074"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "扇停、方案摊牌、对方沉默，形成清晰的第二次情绪换挡：由言语互刺转入真正的核心揭露。道具与反应紧密连锁，适合合并为一个完整压迫段落。",
+    "order": 14
+  },
+  {
+    "id": "seg_0015",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0075",
+      "shot_0076",
+      "shot_0077"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成对峙高潮：男主沉默逼视、女主接住目光、男主以整理衣袖代替爆发。情绪在无台词的视觉行为中达到峰值，属于单一高点段落。",
+    "order": 15
+  },
+  {
+    "id": "seg_0016",
+    "scene_id": "scene_007",
+    "shot_ids": [
+      "shot_0078",
+      "shot_0079",
+      "shot_0080",
+      "shot_0081"
+    ],
+    "segment_number": 5,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "最后四镜构成同一收束弧线：男主以否认和归责重建道德叙述，女主则不再投入争辩，最终落回空间性冷收尾。虽时长略长，但其功能是完整结束本场交锋并为后续和离动机做视觉结论，合并更利于连续表达。",
+    "order": 16
+  }
+]

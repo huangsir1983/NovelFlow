@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0054",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0159",
+      "shot_0160",
+      "shot_0161"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间压迫、人物站位与女主试探性示好的连续动作，角色集合稳定，情绪由压抑推进到脆弱递出，尚未发生冲突升级，适合并为一个铺垫段。",
+    "order": 54
+  },
+  {
+    "id": "seg_0055",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0162",
+      "shot_0163",
+      "shot_0164",
+      "shot_0165"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕同一对话冲突完成‘不看—先拍听者反应—说出台词—受刺后吞忍’的完整情绪弧线，角色不变，空间不变，但情感从试探正式转为羞辱性对峙，因此独立成段。",
+    "order": 55
+  },
+  {
+    "id": "seg_0056",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0166",
+      "shot_0167",
+      "shot_0168"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段把台词余威转入女主内部受创，以‘说者余压—听者冻结—内心外化为眼中火光’形成一个短促但完整的心理转折，为下一段的动作爆发蓄力，情绪边界清晰。",
+    "order": 56
+  },
+  {
+    "id": "seg_0057",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0168",
+      "shot_0169",
+      "shot_0170"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段集中表现动作层面的毁灭结果：从女主眼中所见的创伤，转到物被烧毁，再到食盒被推开，最后落回她僵住的手，形成‘外部暴力—内部硬撑’的完整爆发段。为保证毁弃行为的连续冲击，采用跨段承接眼中火光作为视觉桥。",
+    "order": 57
+  },
+  {
+    "id": "seg_0058",
+    "scene_id": "scene_010",
+    "shot_ids": [
+      "shot_0171",
+      "shot_0172"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "尾段回到客观双人关系并以余烬收束，完成从爆发到冷却的情绪回落。角色与空间不变，但情绪已从动作冲突转为关系定型，适合作为场景结尾段。",
+    "order": 58
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT/EXT. 高家书房与门外 - day",
+  "location": "高家书房、门口",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词"
+  ],
+  "core_event": "父亲担忧我受委屈，安排我与门生相看，我趁机逼父亲辞官避祸；出门买药时，沈词拦路，以长子沈睿的前途和生命说服我成婚，并约定生子后和离。",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+  "emotional_peak": "沈睿的名字击中我最深的软肋，我答应再嫁。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁留下的勒痕",
+    "和离承诺"
+  ],
+  "dramatic_purpose": "确立再婚的现实交易：为了孩子而不是为了爱情。",
+  "visual_reference": "书房内父亲写辞官奏折，门外男子拦住去路，二人对峙克制而锋利。",
+  "visual_prompt_negative": "不要现代纸笔，不要轻浮恋爱氛围，不要宫斗夸张妆造，不要奇幻特效",
+  "source_text_start": "5.\n父亲不放心让我嫁入沈家。\n一夜未睡后",
+  "source_text_end": "四目相对，只剩恨意。\n我冷哼一声，转身离开。"
+}

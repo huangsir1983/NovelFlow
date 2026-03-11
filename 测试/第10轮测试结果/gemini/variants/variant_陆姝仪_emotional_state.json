@@ -1,0 +1,29 @@
+{
+  "variant_id": "lu_shuyi_faking_illness",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 娇弱伪病",
+  "tags": [
+    "绿茶",
+    "装病",
+    "垂泪"
+  ],
+  "scene_ids": [
+    "scene_009"
+  ],
+  "trigger": "在马球场休息室装作胃病发作，下跪求情以博取沈词同情。",
+  "appearance_delta": {
+    "face": "面色惨白，眉头微蹙，眼角挂着摇摇欲坠的泪珠，显得极其痛苦无助",
+    "body": "佝偻着身子，双手捂住胃部，呈现出随时会晕倒的柔弱姿态",
+    "hair": "发髻略微松散，几缕碎发贴在苍白的脸颊上",
+    "distinguishing_features": "极具欺骗性的无辜且痛苦的眼神，眼眶通红"
+  },
+  "costume_override": {
+    "outfit": "月白色轻纱长裙，因下跪而裙摆铺开，显得单薄可怜",
+    "color_palette": [
+      "月白",
+      "苍白"
+    ]
+  },
+  "visual_reference": "A fragile young ancient Chinese woman kneeling on the floor, clutching her stomach, pale face, tearful eyes with red rims, pitiful expression, wearing a thin moon-white gauze dress, slightly messy hair, cinematic lighting, 8k.",
+  "emotional_tone": "虚伪的柔弱与痛苦"
+}

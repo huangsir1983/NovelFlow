@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_027",
+  "name": "江南宅院卧房",
+  "type": "interior",
+  "era_style": "明清过渡风格江南私宅卧房",
+  "description": "卧房延续江南住宅的素净风格，床榻不奢，配屏风、枕头和被褥，木器轻巧，房间尺度适中。地铺是重要视觉元素，可直接铺在床旁地面，形成人物主动降低姿态的象征。窗外雷雨可透过格窗映入闪动冷光，门闩则强化夜半闯入与私密封闭。整体陈设朴素舒适，与京城婚房的浓烈红色完全相反，更适合表现关系中迟来的柔软与死缠烂打式靠近。",
+  "visual_reference": "Simple Jiangnan bedroom in late imperial China, modest wooden bed, folding screen, pillows and bedding, floor pallet laid beside bed, barred door latch, flashing storm light through lattice window, warm candle glow inside, man clutching bedding after being kicked off the bed, intimate comedic yet emotional reconciliation tension, historical Chinese realism, highly detailed night scene",
+  "atmosphere": "私密、窘迫、执拗、带一丝温软的缠人感",
+  "color_palette": [
+    "暖木棕",
+    "雷雨冷蓝",
+    "被褥米白"
+  ],
+  "lighting": "室内以烛火暖光为主，窗外雷雨不时打入冷色闪光，形成一暖一冷的情绪冲突。",
+  "key_features": [
+    "床边地铺",
+    "屏风与门闩营造的私密性",
+    "窗外雷雨映入室内"
+  ],
+  "narrative_scenes": [
+    "scene_030"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从狼狈闯床的轻微喜剧感，延伸到低姿态、乞求式又固执的深情。"
+}

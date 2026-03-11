@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 前世新婚自戕反击",
+  "tags": [
+    "新婚次日",
+    "受辱反击",
+    "颈部见血",
+    "极端决绝"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "前世沈府新婚次日正厅，被逼接受平妻格局时，当场以碎瓷片抹脖子自戕震慑众人。",
+  "appearance_delta": {
+    "face": "面色因愤怒与受辱而更苍白，眼眶发红，神情近乎凌厉失控，但仍保有强硬尊严。",
+    "body": "身姿紧绷，动作决绝，肩颈线条绷直，呈现被逼到绝境后的爆发感。",
+    "hair": "新婚妇人发髻略带仪式感，因冲突动作而微微散乱。",
+    "distinguishing_features": "脖颈出现新鲜血痕，手中握碎瓷片，红白对比强烈，成为此状态最鲜明标志。"
+  },
+  "costume_override": {
+    "outfit": "新婚后次日的华贵妇人礼服，层叠锦缎长裙与正式发饰完整，但因激烈冲突衣袖与领口略显凌乱。",
+    "color_palette": [
+      "绛红",
+      "金色",
+      "月白",
+      "血色"
+    ]
+  },
+  "visual_reference": "ancient Chinese noble bride in a grand ancestral hall, pale cold skin, elegant but sharp face, red-rimmed stubborn eyes, black hair in formal married updo with ornate gold hairpins slightly loosened, holding a broken porcelain shard to her neck, fresh blood line on her throat, luxurious crimson brocade hanfu, tea ceremony setting overturned, shocked family around her, intense dramatic lighting, tragic and defiant cinematic scene",
+  "emotional_tone": "羞辱中的决绝、玉石俱焚式反抗"
+}

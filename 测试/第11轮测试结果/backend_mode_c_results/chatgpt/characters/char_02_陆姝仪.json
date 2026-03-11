@@ -1,0 +1,66 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "沈家义妹",
+    "小姐"
+  ],
+  "role": "supporting",
+  "age_range": "18-23",
+  "appearance": {
+    "face": "小巧柔美的鹅蛋脸，眉眼温婉含愁，肤色白皙，泪眼盈盈时楚楚动人",
+    "body": "身形纤细单薄，弱柳扶风，病态感明显",
+    "hair": "乌黑柔顺，多梳温柔的少女发髻，配珠花绢花",
+    "distinguishing_features": "一身柔弱气质与能激起保护欲的清丽面容"
+  },
+  "costume": {
+    "typical_outfit": "浅粉、浅绿、月白等柔色襦裙，衣料轻软，像被精心呵护的闺中娇客",
+    "color_palette": [
+      "粉色",
+      "月白",
+      "嫩绿"
+    ]
+  },
+  "casting_tags": [
+    "白月光",
+    "柔弱美人",
+    "表面无害",
+    "绿茶感",
+    "寄人篱下",
+    "重生女配"
+  ],
+  "visual_reference": "Ancient Chinese delicate young woman, gentle beautiful face, watery eyes, fragile slim figure, soft pink hanfu, elegant traditional hairstyle with floral hairpins, vulnerable yet calculating expression, cinematic soft light",
+  "visual_prompt_negative": "modern fashion, bold makeup, short hair, muscular body, tattoo, dark gothic style, armor",
+  "personality": "外柔内韧，擅长示弱求存，表面温婉可怜，实则有强烈求生与占有欲",
+  "desire": "留在自己能掌控或被保护的位置，摆脱被随意婚配、受辱受害的命运",
+  "flaw": "将生存与偏爱混为一谈，习惯通过制造愧疚、误会和牺牲自己来操控局面",
+  "arc": "从前世被命运推着走、死后成为阴影，到今生主动设计婚事与陷害，最终承认自己也是为了求生而越界的人",
+  "scene_presence": "作为隐形导火索贯穿前史，在马球会、受病照拂、婚事危机、高府陷害、满月宴坦白等关键节点推动剧情",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅/义兄妹/暧昧依附",
+      "dynamic": "她依赖他的保护，他对她带有深重补偿与偏爱，关系边界始终模糊",
+      "function": "三角关系核心一角"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌/互为灾厄",
+      "dynamic": "她羡慕又怨恨高令宁占着正妻之位，高令宁则痛恨她夺走丈夫的真心与信任",
+      "function": "女性对照与冲突催化"
+    },
+    {
+      "target": "蒋晟",
+      "type": "设计成婚对象",
+      "dynamic": "她把他当作退而求其次的出路，而非真正情感归宿",
+      "function": "展现其求生策略与代价"
+    },
+    {
+      "target": "沈母",
+      "type": "姨母/家族安排者",
+      "dynamic": "名义庇护，实则随时可将她作为筹码嫁出去",
+      "function": "点明她的寄人篱下处境"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 高府喜堂 - 日",
+  "location": "高府喜堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "第三次提亲成功，婚礼对拜，高令宁心不在焉",
+  "key_dialogue": "",
+  "emotional_peak": "盖头下平静侧脸对峙",
+  "tension_score": 0.55,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "红盖头",
+    "喜堂红烛",
+    "拜堂蒲团",
+    "聘礼箱"
+  ],
+  "dramatic_purpose": "正式成亲，开启夫妻生活"
+}

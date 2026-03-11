@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁闺房",
+  "type": "interior",
+  "era_style": "明代官家小姐闺阁",
+  "description": "精致温婉的女子居室，靠窗设梳妆台，台上摆铜镜、胭脂盒、木梳。床榻为雕花架子床，悬浅色纱帐，床边设绣墩。书桌靠内墙，堆叠诗书，笔墨纸砚齐备。墙上挂刺绣山水屏条，角落立衣架，搭绸缎衣裙。地面铺浅色地毯，窗外可见庭院绿植。整体色调淡雅，光线柔和。",
+  "visual_reference": "Ming Dynasty young lady's boudoir, carved wooden canopy bed with light gauze curtains, dressing table with bronze mirror and cosmetics, writing desk with books and calligraphy tools, embroidered landscape hanging scroll, clothing rack with silk garments, light carpet flooring, soft natural lighting from window overlooking garden, elegant feminine space, warm intimate atmosphere",
+  "atmosphere": "私密、温柔、书卷气",
+  "color_palette": [
+    "米白纱帐",
+    "浅木本色",
+    "淡青绸缎",
+    "柔和日光"
+  ],
+  "lighting": "窗外庭院透入的柔和散射光，室内光线温暖明亮",
+  "key_features": [
+    "雕花架子床",
+    "铜镜梳妆台",
+    "堆书的书桌",
+    "刺绣屏条",
+    "窗外庭院绿意"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "回忆前世痛苦→决心为儿子再嫁的悲凉"
+}

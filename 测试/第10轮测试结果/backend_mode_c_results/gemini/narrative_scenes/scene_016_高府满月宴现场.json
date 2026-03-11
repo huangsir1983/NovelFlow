@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "EXT. 高府宴会厅 - DAY",
+  "location": "高府满月宴现场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "昭昭满月宴，婚后不幸的陆姝仪不请自来，坦白自己也是重生者，因嫉妒和走投无路才设局。女主冷淡回应，沈词在远处旁观不敢靠近。",
+  "key_dialogue": "既然沈家无人为我做主，那我只能自己寻个好夫婿，哪怕……手段下作了些。",
+  "emotional_peak": "陆姝仪盈盈一拜转身离开，沈词试图拉女主衣角却只抓到一片空。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "请帖",
+    "酒杯",
+    "宴席桌椅",
+    "女主的衣角"
+  ],
+  "dramatic_purpose": "解开陆姝仪视角的悬念，收束女配线，展现女主对过去恩怨的彻底超脱。"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "稳婆",
+  "aliases": [
+    "产婆"
+  ],
+  "role": "minor",
+  "age_range": "四十岁至六十岁",
+  "appearance": {
+    "face": "操劳痕迹明显，神情焦急时极具压迫感",
+    "body": "结实干练，动作麻利",
+    "hair": "已婚老妇发髻，利落实用",
+    "distinguishing_features": "产房中焦急而专业的姿态"
+  },
+  "costume": {
+    "typical_outfit": "方便操作的深色布衣或简洁妇人装束",
+    "color_palette": [
+      "深灰",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "产房角色",
+    "命悬一线见证者",
+    "民间专业者"
+  ],
+  "visual_reference": "中国古代稳婆，五十岁左右，神情急切专业，穿深灰与褐色简洁布衣，袖口挽起，站在产房里忙碌，背景烛火摇曳、气氛紧张，古风写实，突出危急感",
+  "visual_prompt_negative": "避免恐怖化、避免滑稽夸张、避免现代医疗装备、避免卡通风、避免脏污过头",
+  "personality": "老练、务实、在危急时直截了当。",
+  "desire": "顺利接生，保住母子。",
+  "flaw": "受制于礼法，关键抉择必须由男主人定夺。",
+  "arc": "无明显弧线。",
+  "scene_presence": "在高令宁早产难产时提出“保大保小”的关键问话。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "接生者",
+      "dynamic": "在生死一线时为其接生",
+      "function": "制造最强戏剧危机"
+    },
+    {
+      "target": "沈词",
+      "type": "向家主询问",
+      "dynamic": "逼迫其做出生死选择",
+      "function": "促成男主情感暴露"
+    }
+  ]
+}

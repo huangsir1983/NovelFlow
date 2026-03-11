@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "id": "scene_003",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:28:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_001",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ]
+  },
+  "data": {
+    "heading": "INT. 婚房/家中室内 - 夜",
+    "location": "婚房",
+    "time_of_day": "night",
+    "description": "封闭室内，层高不高，光源主要来自烛火，明灭不定，红色婚仪陈设简薄，喜气不足反显仓促。室内有婚帐、红绸、烛台等元素，但布置从简，缺少隆重排场，形成表面成婚、内里失衡的视觉反差。",
+    "action": "高令宁身着嫁衣，被送入婚房，坐姿端正却僵硬，双手交握在膝前，指节绷白。婚礼流程匆匆掠过，喜庆声响像隔着一层幕。画面切入婚后，她独坐室内，面上妆容未卸，眼神一点点冷下去，肩膀缓慢塌陷，像是从美梦中骤然跌醒。她抬手扯下繁重饰物，动作发狠，红烛在旁摇晃，映出噩梦般的静寂。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "嫁衣",
+      "红绸",
+      "烛台",
+      "婚帐",
+      "首饰"
+    ],
+    "dramatic_purpose": "揭露前世婚嫁的结果并非圆满，而是噩梦开端，解释高令宁如今羞辱沈词、压抑怨恨的根源。",
+    "tension_score": 0.76,
+    "order": 3
+  }
+}

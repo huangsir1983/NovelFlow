@@ -1,0 +1,266 @@
+[
+  {
+    "id": "shot_0644",
+    "scene_id": "scene_044",
+    "shot_number": 1,
+    "goal": "建立高令宁住处已成被礼法与防卫封锁的恢复空间，交代门外新增守卫与严格限制出入的现状。",
+    "composition": "WS，回廊纵深构图。房门位于画面中轴偏右，门扇紧闭；前景左侧虚化廊柱与垂帘形成遮挡，中景两名守卫分立门外两侧持兵器站定，背景有仆从端补品匣盒穿行但不敢停留，门前留出一块空白区域形成禁区感。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压迫、隔绝、规训感",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.15,
+    "order": 644
+  },
+  {
+    "id": "shot_0645",
+    "scene_id": "scene_044",
+    "shot_number": 2,
+    "goal": "从女主所在内室主观感受外部看守，强调她虽被保护却仍处于被限制的状态。",
+    "composition": "MS，从室内向外拍。前景是虚焦的门框与半垂帘幕，形成狭窄观察缝隙；中景门栓与门缝处透入冷白日光；背景可见守卫下半身与兵器末端偶尔掠过，门缝成为唯一外界信息来源。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "克制中的警惕、静养中的不安",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.1,
+    "order": 645
+  },
+  {
+    "id": "shot_0646",
+    "scene_id": "scene_044",
+    "shot_number": 3,
+    "goal": "交代和离书是当前关系格局变化的核心道具，并暗示高令宁已接受新的边界。",
+    "composition": "CU，案几右下角摊开的和离书占画面主体，左上角压着一枚素净镇纸；前景有一只冷白纤细的手停在纸边未再触碰，背景虚化为药盏与叠放补品盒。光线柔和落在纸面字迹上，周围留白冷静。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "决绝后的冷静、关系切断后的余震",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 646
+  },
+  {
+    "id": "shot_0647",
+    "scene_id": "scene_044",
+    "shot_number": 4,
+    "goal": "首次给到高令宁的状态：人在房中静养，身体虚弱但精神仍清醒克制。",
+    "composition": "MCU，高令宁位于画面右侧靠窗榻边，半身侧坐，肩背仍直；前景左侧虚焦的药碗边沿与一角帘幕压出层次，背景是柔光窗纸与柜边成堆补品。她视线不看门，微垂眼，颈侧淡痕若隐若现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "清冷、自持、带病中的锋利",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 647
+  },
+  {
+    "id": "shot_0648",
+    "scene_id": "scene_044",
+    "shot_number": 5,
+    "goal": "展示补品成批送入且数量过盛，暗示其意义已超出单纯养病，更像一种补偿与姿态。",
+    "composition": "MLS，仆从自画面左向右进入，将成摞补品匣盒放至桌案与柜边；前景右侧已有整齐高叠的盒匣形成压迫，中央留出窄小通道；背景高令宁虚焦坐于更深处，不发一言。入画方向统一朝向房内。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "沉默施压、物质堆叠下的情感失衡",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.15,
+    "order": 648
+  },
+  {
+    "id": "shot_0649",
+    "scene_id": "scene_044",
+    "shot_number": 6,
+    "goal": "细化补品‘明显不止一人用度’的信息，让观众读出送礼背后的焦灼与笨拙补偿。",
+    "composition": "CU，桌案与柜角交界处层层叠叠的昂贵补品包装占满画面，绸带、封签、木盒纹理整齐而过量；画面边缘仅露出一角未喝完的药盏，与成堆补品形成反差。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "过度补偿带来的窒息感",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 649
+  },
+  {
+    "id": "shot_0650",
+    "scene_id": "scene_044",
+    "shot_number": 7,
+    "goal": "将门内柔静与门外来往动静形成听觉与空间上的对照，维持女主主观体验。",
+    "composition": "MS，从高令宁肩后拍向房门。她位于画面左前景虚焦肩线，门在中景居中紧闭；背景门外有脚步影子和抬盒影影绰绰掠过门纸，室内静止，室外影动。画面被门框、屏风分割。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "隔门而治的疏离、被安排的安静",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 650
+  },
+  {
+    "id": "shot_0651",
+    "scene_id": "scene_044",
+    "shot_number": 8,
+    "goal": "引入沈词来到门外，开始外部情感压力线。",
+    "composition": "MLS，回廊侧角度保持180度一致。守卫在画面右侧守门，沈词自画面左侧进入并在门前数步外停下；前景有廊柱半遮，背景回廊深处空荡，强化他被拦在外的处境。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "压抑、试探、来而不得入",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.25,
+    "order": 651
+  },
+  {
+    "id": "shot_0652",
+    "scene_id": "scene_044",
+    "shot_number": 9,
+    "goal": "明确守卫拦阻沈词，建立新的权力边界：他已不能凭身份直接入内。",
+    "composition": "MS，守卫前景右侧横出兵器拦在画面中央形成硬线，沈词位于左侧止步；紧闭房门占据背景中心。三者形成三层纵深，门是最终不可触碰的目标。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "羞辱感、失控前的强压",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 652
+  },
+  {
+    "id": "shot_0653",
+    "scene_id": "scene_044",
+    "shot_number": 10,
+    "goal": "捕捉沈词被拒后的反应，不靠对白而体现其克制下的偏执与无措。",
+    "composition": "MCU，沈词位于画面左三分之一，视线朝右看向门；前景有虚化兵器边缘切入，背景是冷色门板与廊柱。他下颌绷紧，眼尾压住情绪，停顿明显。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被隔绝后的焦灼、克制中的难堪",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 653
+  },
+  {
+    "id": "shot_0654",
+    "scene_id": "scene_044",
+    "shot_number": 11,
+    "goal": "通过女主主观听见却不回应，制造两人之间近在咫尺却隔着礼法的情感距离。",
+    "composition": "CU，高令宁侧脸近景位于画面右侧，耳边碎发与苍白肤色清晰；左侧留白对着门的方向。背景虚焦中可见补品盒边角。她眼神微动，却不转身。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷硬、自保、听见后的不动声色",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 654
+  },
+  {
+    "id": "shot_0655",
+    "scene_id": "scene_044",
+    "shot_number": 12,
+    "goal": "展示沈词只能在门外徘徊等待，交代其行动受限且持续停留。",
+    "composition": "FS，回廊横向构图。房门在右，沈词在门前狭小区域内从左至右再折回，活动范围被廊柱与守卫卡死；守卫始终不动。地面投影形成来回折返的路线。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "无力、耗损、迟疑中自困",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 655
+  },
+  {
+    "id": "shot_0656",
+    "scene_id": "scene_044",
+    "shot_number": 13,
+    "goal": "把‘等待见面’具体化到门这一物理界面上，强调无法跨越的一线之隔。",
+    "composition": "CU，沈词的手停在门板前不足一寸处，占画面左下；门纹与门缝在右侧清晰可见。手最终没有落下，指节微白。背景全虚化，专注于未完成的触碰。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制中的渴求、近而不得",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 656
+  },
+  {
+    "id": "shot_0657",
+    "scene_id": "scene_044",
+    "shot_number": 14,
+    "goal": "回到女主，确认她并非不知情，而是清醒地选择不开放这道门。",
+    "composition": "MCU，正侧混合角度。高令宁位于画面中央偏右，手中捏着和离书一角后又放下；前景桌上补品盒形成模糊遮挡，背景门的方向不入焦。她神情平静，眼底有极轻微的硬度。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "主动设限、冷静掌控",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 657
+  },
+  {
+    "id": "shot_0658",
+    "scene_id": "scene_044",
+    "shot_number": 15,
+    "goal": "以最终客观镜头总结新关系格局：门内是被保护的高令宁，门外是被隔绝的沈词，距离已被制度化。",
+    "composition": "WS，采用门框外的纵深压缩。最前景左侧是沈词静止背影，右侧守卫持兵器站定；中景紧闭房门居中；背景经半透窗纸隐约见到室内案几与堆叠补品的轮廓，但看不清高令宁本人。空间被门框、柱、帘连续切割。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "冷峻定局、情感延宕、后续会面的压力",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 658
+  }
+]

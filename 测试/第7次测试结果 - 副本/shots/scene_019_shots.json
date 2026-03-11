@@ -1,0 +1,332 @@
+[
+  {
+    "id": "shot_0374",
+    "scene_id": "scene_019",
+    "shot_number": 1,
+    "goal": "建立门旁廊下的冷硬对峙空间，明确两人距离极近却情感疏离，压出谈判将升级的基调。",
+    "composition": "女主主观限制视角下的MLS，沈睿立于画面右侧偏中，高令宁立于画面左侧偏前，两人被门旁阴影切到半身；前景左侧虚化廊柱形成遮挡，背景是静止宅门与门槛，衣摆垂直无风，二人之间只留一步空隙，构成近乎对称的对峙线。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "压迫、僵冷、礼貌外壳下的敌意",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 374
+  },
+  {
+    "id": "shot_0375",
+    "scene_id": "scene_019",
+    "shot_number": 2,
+    "goal": "捕捉沈睿听见“表小姐”后的瞬间变脸，触发本场第一轮情绪换挡。",
+    "composition": "高令宁肩后OTS拍沈睿MCU，沈睿位于画面右三分之一，左前景是高令宁模糊肩线与发髻边缘；门框阴影压在他下颌与胸口，背景为木门冷褐纹理，唇线收紧，眼神骤冷。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "察觉他情感偏向时的刺痛与寒意",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.55,
+    "order": 375
+  },
+  {
+    "id": "shot_0376",
+    "scene_id": "scene_019",
+    "shot_number": 3,
+    "goal": "以女主的承受角度接住他第一句指责，建立她不退让的姿态。",
+    "composition": "沈睿肩后OTS拍高令宁MCU，高令宁位于画面左侧偏中，面向右侧；前景右侧是沈睿深色肩背压迫性虚焦，背景留出门槛与一段空白墙面，强化她被逼到边缘却站稳不动。她目光直顶回来，下颌绷紧。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "逆刺、克制中的硬抗",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 376
+  },
+  {
+    "id": "shot_0377",
+    "scene_id": "scene_019",
+    "shot_number": 4,
+    "goal": "让沈睿用克制口气为陆姝仪辩护，暴露他越想压缩关系定义，越显出在意。",
+    "composition": "沈睿CU，正面略侧四分之三角度，位于画面右侧，背景是斜向廊柱与木门接缝形成收束线；画面左侧保留一块冷色留白，像他试图控制的距离。说“我与她只是自小相伴之谊”时眼神短暂下落再抬起。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "辩解中的虚弱感与自我防御",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 377
+  },
+  {
+    "id": "shot_0378",
+    "scene_id": "scene_019",
+    "shot_number": 5,
+    "goal": "用高令宁的反应镜头呈现她识破其说辞，讥讽在眼底成形而未宣之于口。",
+    "composition": "高令宁CU，面部位于画面左二分之一，背景深处是失焦宅门；前景下方有一线门槛虚影切过，像一道边界。她眼底微冷，唇角不动，仅以视线回刺。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "看透、轻蔑、情绪越冷越锋利",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.64,
+    "order": 378
+  },
+  {
+    "id": "shot_0379",
+    "scene_id": "scene_019",
+    "shot_number": 6,
+    "goal": "推进沈睿的自辩逻辑：他以‘未逾矩’为形式证据，实则回避情感层面的越界。",
+    "composition": "回到沈睿MCU，仍保持同侧机位不越线；他位于右侧，胸口以上被门旁阴影分割，前景左边缘高令宁发丝虚化。台词较长，构图稳定不动，靠表演承压。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "烦躁被压在礼法下面，令人更不适",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 379
+  },
+  {
+    "id": "shot_0380",
+    "scene_id": "scene_019",
+    "shot_number": 7,
+    "goal": "首次引入前世碎片，回应“日日怨怼”“睿儿”关键词，把当下谈判的冷意与旧创绑定。",
+    "composition": "高对比柔雾化CU碎片：孩童沈睿苍白小脸位于画面中央偏下，仰视门内争执之外的空处；前景是两道成人衣摆虚化切割，背景烛光糊成暗金斑点。画面边缘轻微拖影降帧。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "短促心悸、宿命感、被旧伤刺穿",
+    "duration_hint": "1s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 380
+  },
+  {
+    "id": "shot_0381",
+    "scene_id": "scene_019",
+    "shot_number": 8,
+    "goal": "回到现实，让沈睿把让步说成施恩，同时抢回姿态主导权。",
+    "composition": "限制性双人MS，二人仍在一步距离内，沈睿居右更靠前半步，高令宁居左稍后；门框阴影压住二人腰线上方。构图略失衡向右倾，强化他说“姝仪的事，我可以答应你，但你也莫要得意”时的压人姿态。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "体面话术里的支配欲",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 381
+  },
+  {
+    "id": "shot_0382",
+    "scene_id": "scene_019",
+    "shot_number": 9,
+    "goal": "切到高令宁反应，显示她并未因让步而软化，反而更清醒地准备听条件。",
+    "composition": "高令宁MCU，画面左侧，眼神平直不闪；前景右侧是沈睿暗色衣领模糊压边，背景廊柱垂直线把她固定在构图中。她的呼吸几乎不可见，像把所有情绪关在里面。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷静到近乎绝情的防守",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.66,
+    "order": 382
+  },
+  {
+    "id": "shot_0383",
+    "scene_id": "scene_019",
+    "shot_number": 10,
+    "goal": "把话题推入婚后安排与前世失败婚姻的核心，完成本场真正的契约宣判起手。",
+    "composition": "沈睿MCU略近，位于右侧中央，镜头轻微前移至更压迫的距离；背景木门纹理清晰，像一块冷硬判词。他说“你我性子相冲，前世日日怨怼，让睿儿死前还在为我们担心”时，视线并不回避，语速平稳得像读判牍。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "被冷静语言割开的残忍感",
+    "duration_hint": "5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.78,
+    "order": 383
+  },
+  {
+    "id": "shot_0384",
+    "scene_id": "scene_019",
+    "shot_number": 11,
+    "goal": "用第二个前世碎片具象化‘死前担心’的伤口，增强台词杀伤力。",
+    "composition": "柔焦降帧CU：一只孩童手抓着虎头帽边缘，帽子垂在床沿；画面右上角有模糊成人身影争执般晃动，暗金烛火被压低。主体偏下，留出大片失焦黑影。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "失去、愧疚、无法回头的钝痛",
+    "duration_hint": "1s",
+    "characters": [],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 384
+  },
+  {
+    "id": "shot_0385",
+    "scene_id": "scene_019",
+    "shot_number": 12,
+    "goal": "回到现实完成契约条款的最关键信息披露：孩子、财产、和离、切断情分。",
+    "composition": "沈睿CU，镜头更近，脸占画面右侧大半，左侧留出高令宁虚化轮廓；门框阴影像刀锋切过他一侧脸颊。说“成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离，别的事情你别痴心妄想”时，嘴唇与下颌是主要动作中心。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷酷、屈辱、关系被彻底降格为交易",
+    "duration_hint": "6-7s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 385
+  },
+  {
+    "id": "shot_0386",
+    "scene_id": "scene_019",
+    "shot_number": 13,
+    "goal": "让高令宁几乎不加思索接下条款，制造对沈睿的反向打击：她根本不稀罕他。",
+    "composition": "高令宁CU正面略侧，位于左侧中央，背景简净只剩冷墙与暗影；她说“本该如此”时眼神不闪，语气平平，甚至比他更像在谈账本。无多余动作，只在尾字时下颌略松。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "反杀式冷淡、尊严回夺",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 386
+  },
+  {
+    "id": "shot_0387",
+    "scene_id": "scene_019",
+    "shot_number": 14,
+    "goal": "捕捉沈睿被她轻易接受激怒后的细微失衡，证明主导权并未真正握稳。",
+    "composition": "沈睿ECU，取眼睛与紧绷唇线，画面右侧压满，只留左侧一条冷白空隙；眉间微紧，神色更沉。背景完全虚化为冷暗色块。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "被刺中的恼怒与自尊受损",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.88,
+    "order": 387
+  },
+  {
+    "id": "shot_0388",
+    "scene_id": "scene_019",
+    "shot_number": 15,
+    "goal": "用他最后一句‘莫要使手段纠缠’把关系彻底推向羞辱边界，逼出女主最终反击。",
+    "composition": "双人MS侧面，二人侧身相对，高令宁在左、沈睿在右，仍守住轴线；中间一步距离像一条窄缝。前景门槛虚焦横切下沿，背景廊柱竖线加剧僵硬。沈睿微前倾半寸，形成压迫。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "侮辱感上升、对峙逼近爆点",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 388
+  },
+  {
+    "id": "shot_0389",
+    "scene_id": "scene_019",
+    "shot_number": 16,
+    "goal": "给予高令宁最锋利的语言反击，完成本场情绪最高点与关系定义的反向封口。",
+    "composition": "高令宁CU，镜头略低一点点，强化她的决绝；她位于画面左中，背景深处是宅门黑色裂缝。说“谁纠缠谁是狗”时，眼底讥讽终于落到唇边，短促、冷、脏得恰到好处。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "痛快、刻薄、把暧昧彻底斩断",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 389
+  },
+  {
+    "id": "shot_0390",
+    "scene_id": "scene_019",
+    "shot_number": 17,
+    "goal": "以动作兑现她的切断：甩身离开、擦肩而过，留下身体上的轻微碰撞与情感上的彻底分裂。",
+    "composition": "MLS侧向，轴线不变。高令宁从画面左侧向右前方出画，甩身时衣袖划出短促弧线；沈睿立于右侧原位，肩线几乎不动，只在她擦肩时微僵。前景廊柱掠过一层窄遮挡，背景宅门静止不动。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "决绝、利落、留下刺耳余响",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 390
+  },
+  {
+    "id": "shot_0391",
+    "scene_id": "scene_019",
+    "shot_number": 18,
+    "goal": "收在沈睿被留在原地的僵立状态，完成冷收尾，并把这场谈判的胜负感做成悬而未决的后劲。",
+    "composition": "沈睿单人MS，位于画面右侧偏中，左侧留出高令宁离开的空走廊与门槛；前景无人物遮挡，空间突然空出来，反显他更孤立。阴影仍压在半身，衣摆静止，目光落在她离开的方向却不追。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "余怒、失控后的空落、被绑定的寒意",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 391
+  }
+]

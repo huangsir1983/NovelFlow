@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "FLASHBACK. 沈府书房与内院 - NIGHT",
+  "location": "沈府书房及内院",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "婢女"
+  ],
+  "core_event": "前世沈词因一个酷似陆姝仪的婢女与我激烈冲突，我口不择言刺激他，他盛怒将我推倒，埋下失胎祸根。",
+  "key_dialogue": "「我看陆姝仪就是被你克死的……」",
+  "emotional_peak": "他失控推我倒地，而我已怀有三个月身孕。",
+  "tension_score": 0.97,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "被毁的画",
+    "身契",
+    "房门"
+  ],
+  "dramatic_purpose": "拆出导致女儿悲剧的直接导火索，强化两人相互伤害的恶性循环。",
+  "visual_reference": "夜里书房门闭合，气氛爆裂，女子冷笑挑衅，男子青筋暴起猛然逼近，画卷碎裂在案旁，怒意和误解把空间压缩到窒息",
+  "visual_prompt_negative": "避免家庭暴力血腥夸张，避免现代室内装潢，避免夸张飞檐武打感",
+  "source_text_start": "是很可笑。陆姝仪死的第十年。",
+  "source_text_end": "因为他在气头上的这一推，伤了胎气。"
+}

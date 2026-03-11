@@ -1,0 +1,52 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-3岁",
+  "appearance": {
+    "face": "漂亮，稚嫩",
+    "body": "幼童体型",
+    "hair": "幼童发型",
+    "distinguishing_features": "活泼可爱"
+  },
+  "costume": {
+    "typical_outfit": "幼童服饰，虎头帽",
+    "color_palette": [
+      "鲜艳色彩"
+    ]
+  },
+  "casting_tags": [
+    "可爱",
+    "聪慧",
+    "活泼"
+  ],
+  "visual_reference": "A cute Chinese toddler girl around 3 years old, bright eyes, colorful traditional children's clothing, playful expression, ancient dynasty",
+  "personality": "活泼开朗，聪明伶俐。能蹦能跳，唐诗三百首倒背如流。喜欢花朵、珠宝，也喜欢研究史论国策。",
+  "desire": "享受童年，得到父母的爱。",
+  "flaw": "年幼无知，不理解父母的复杂关系。",
+  "arc": "早产出生（本应是儿子沈睿）→满月宴→随母亲去江南→三岁时与父亲相认。",
+  "scene_presence": "重生后的新生命，代表希望。关键场景：难产出生、满月宴、江南生活、堆雪人。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母女情深，是母亲的新希望",
+      "function": "情感寄托"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "父女情深，父亲极尽宠爱",
+      "function": "情感纽带"
+    },
+    {
+      "target": "沈睿",
+      "type": "对照",
+      "dynamic": "替代了哥哥的位置出生",
+      "function": "命运转折"
+    }
+  ]
+}

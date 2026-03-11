@@ -1,0 +1,61 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "婴儿时期漂亮白嫩，五官秀气灵动，长大后神情明亮聪慧",
+    "body": "幼童身形圆润灵活，精力旺盛",
+    "hair": "幼时柔软黑发，常梳双髻或简单童发",
+    "distinguishing_features": "明亮鲜活的生命力，与父母压抑人生形成鲜明反差"
+  },
+  "costume": {
+    "typical_outfit": "精致童装、小袄裙、绣花小褂，色彩活泼",
+    "color_palette": [
+      "暖黄",
+      "粉白",
+      "嫩绿"
+    ]
+  },
+  "casting_tags": [
+    "聪慧幼女",
+    "救赎之子",
+    "鲜活生命力",
+    "父母纽带"
+  ],
+  "visual_reference": "Bright Chinese little girl, toddler to age 3, lively eyes, soft black hair in cute buns, colorful traditional child hanfu, cheerful and clever, warm ancient drama style",
+  "personality": "聪慧活泼，学习能力极强，兼具天真与早慧，对花朵珠宝和史论国策都充满兴趣。",
+  "desire": "幼年期主要体现为被爱与陪伴，以及对世界的好奇。",
+  "flaw": "年幼，尚无明显人格缺陷。",
+  "arc": "作为意外出生的女儿打破父母对‘睿儿重来’的既定命运→成为高令宁新的生命支点→也成为沈词持续纠缠、试图修复关系的唯一合法纽带。",
+  "scene_presence": "早产中出生，被稳婆宣告为小千金；沈家欲接回抚养遭高父拒绝；满月宴成为众人汇聚中心；三年后在江南长成聪慧小女孩，认出沈词并与多个‘新爹爹’一起玩雪。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母女相依，昭昭让她真正从前尘执念中活过来",
+      "function": "救赎者"
+    },
+    {
+      "target": "沈词",
+      "type": "情感|利益",
+      "dynamic": "父女关系成为其继续靠近高令宁的核心纽带",
+      "function": "连接线"
+    },
+    {
+      "target": "沈睿",
+      "type": "对照",
+      "dynamic": "现实中的女儿取代了执念中的儿子",
+      "function": "命运反转象征"
+    },
+    {
+      "target": "高父",
+      "type": "情感",
+      "dynamic": "受外祖父保护抚养",
+      "function": "家庭温情支点"
+    }
+  ]
+}

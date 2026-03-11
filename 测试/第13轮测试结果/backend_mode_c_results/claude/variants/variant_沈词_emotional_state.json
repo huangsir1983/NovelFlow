@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 对峙高令宁时",
+  "tags": [
+    "对峙",
+    "冷漠",
+    "恨意"
+  ],
+  "scene_ids": [
+    "scene_004",
+    "scene_011"
+  ],
+  "trigger": "在医馆门外或房间内与高令宁对峙争执时",
+  "appearance_delta": {
+    "face": "面容冷峻，眼神充满恨意和冷漠",
+    "body": "身姿挺拔僵硬，姿态对抗",
+    "hair": "乌黑长发束冠",
+    "distinguishing_features": "眼神如冰湖般冷冽，充满恨意，薄唇紧抿成线"
+  },
+  "costume_override": {
+    "outfit": "青色或墨色长袍",
+    "color_palette": [
+      "墨色",
+      "青色",
+      "冷色调"
+    ]
+  },
+  "visual_reference": "古代男子对峙状态，清冷俊美的面容冷峻严肃，身着墨色或青色长袍，长身玉立，乌黑长发束冠，眼神如冰湖般冷冽充满恨意和对抗，薄唇紧抿成线，身姿挺拔僵硬呈对峙姿态，整体气质冷漠压抑，背景是医馆门外或室内，光线清冷压抑",
+  "visual_prompt_negative": "温和表情，放松姿态，明亮氛围，现代服装",
+  "emotional_tone": "冷漠、恨意、对抗、压抑"
+}

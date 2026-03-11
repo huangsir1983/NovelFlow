@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府书房 - 日",
+  "location": "沈府书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词为陆姝仪择婿焦头烂额,高令宁建议纳她为妾",
+  "key_dialogue": "若你实在心疼,不如便将她纳进来吧",
+  "emotional_peak": "高令宁放弃争斗,沈词否认对陆姝仪有情",
+  "tension_score": 0.6,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "书桌",
+    "毛笔",
+    "书籍",
+    "扇子",
+    "茶具",
+    "文房四宝"
+  ],
+  "dramatic_purpose": "高令宁态度转变,沈词困惑"
+}

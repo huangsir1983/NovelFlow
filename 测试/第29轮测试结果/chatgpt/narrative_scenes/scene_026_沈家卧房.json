@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_026",
+  "order": 25,
+  "heading": "INT. 沈家卧房 - DAY",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "太医"
+  ],
+  "core_event": "开春后我怀孕，太医断为男胎，沈词抱住我试探我是否会因孩子赖在沈府，我则再次声明坐完月子便走。",
+  "key_dialogue": "「我做完月子便走，不会纠缠。」",
+  "emotional_peak": "我淡然谈和离，他却第一次显露无法接受。",
+  "tension_score": 0.71,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "虎头帽",
+    "诊脉手枕",
+    "婴儿针线"
+  ],
+  "dramatic_purpose": "把首段闪前内容落回正叙，并显示沈词态度开始松动。",
+  "visual_reference": "春日卧房温柔明亮，女子低头绣虎头帽，太医退下，男子从门边走近拥住她，下巴抵在发顶，却因她平静谈离开而神色骤冷",
+  "visual_prompt_negative": "避免温馨家庭剧过度甜化，避免现代产检器械，避免儿童已出生",
+  "source_text_start": "开春之时，我有孕了。",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

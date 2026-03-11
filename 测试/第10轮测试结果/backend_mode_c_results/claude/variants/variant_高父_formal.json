@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_01",
+  "variant_type": "formal",
+  "variant_name": "高父 — 四品官服",
+  "tags": [
+    "官员",
+    "正式",
+    "威严"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_006",
+    "scene_007"
+  ],
+  "trigger": "正堂接待媒人提亲时,作为四品官员的正式形象",
+  "appearance_delta": {
+    "face": "表情更严肃,眉头紧锁",
+    "body": "身姿挺拔,官员气度",
+    "hair": "发髻整齐,戴官帽",
+    "distinguishing_features": "官员威严感,但眼神流露对女儿的关切"
+  },
+  "costume_override": {
+    "outfit": "四品官服,补子,腰带,官靴",
+    "color_palette": [
+      "深蓝",
+      "金色"
+    ]
+  },
+  "visual_reference": "middle-aged Chinese official in formal 4th rank robe, dark blue with gold embroidery, official hat, dignified posture, worried eyes, traditional Ming dynasty official costume, indoor formal setting",
+  "emotional_tone": "威严但内心忧虑女儿婚事"
+}

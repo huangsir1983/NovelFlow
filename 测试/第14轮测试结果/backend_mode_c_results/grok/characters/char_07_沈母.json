@@ -1,0 +1,40 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆母"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "端庄贵妇，略带严厉",
+    "body": "富态",
+    "hair": "贵妇髻",
+    "distinguishing_features": "精明眼神"
+  },
+  "costume": {
+    "typical_outfit": "华贵命妇服",
+    "color_palette": [
+      "紫红",
+      "金丝"
+    ]
+  },
+  "casting_tags": [
+    "传统婆母",
+    "势利贵妇"
+  ],
+  "visual_reference": "古代贵妇，端庄面容略带严厉，贵妇发髻，身着紫红华贵命妇服，站在沈府厅堂，写实古风",
+  "visual_prompt_negative": "年轻少女，朴素服装",
+  "personality": "势利护子",
+  "desire": "家族门面与子嗣",
+  "flaw": "偏心青梅",
+  "arc": "理亏退让",
+  "scene_presence": "婚后与产后提及",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "护短",
+      "function": "推动纳妾意图"
+    }
+  ]
+}

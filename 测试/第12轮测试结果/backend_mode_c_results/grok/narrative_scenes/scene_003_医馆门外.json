@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "EXT. 医馆门外 - 日间",
+  "location": "医馆门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦路谈判，双方同意成亲但约定和离处理陆姝仪",
+  "key_dialogue": "你我性子相冲……成亲后我们便和离。",
+  "emotional_peak": "四目相对恨意翻涌",
+  "tension_score": 0.8,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "药包",
+    "沈词手腕勒痕",
+    "医馆招牌",
+    "路边柳树"
+  ],
+  "dramatic_purpose": "确立今生婚约条件与张力"
+}

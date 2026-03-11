@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁闺房",
+  "type": "interior",
+  "era_style": "明代官家小姐闺阁",
+  "description": "精致雅致的闺房，靠窗设梳妆台，铜镜反射柔光。床榻设纱帐，床边小几摆放绣品。墙上挂字画，角落立衣架。房内陈设简洁但精致，多用浅色木质家具，配以刺绣软垫。窗棂雕花，透进斑驳光影。",
+  "visual_reference": "Ming Dynasty young lady's bedroom, elegant wooden dressing table with bronze mirror, canopy bed with silk curtains, embroidery frame, delicate furniture, latticed windows with carved patterns, soft natural lighting, intimate private space, traditional Chinese interior",
+  "atmosphere": "私密、温婉、少女闺阁",
+  "color_palette": [
+    "浅木原色",
+    "米白纱帐",
+    "淡粉绣品"
+  ],
+  "lighting": "窗外柔和日光透过雕花窗棂，形成温暖光斑",
+  "key_features": [
+    "铜镜梳妆台",
+    "纱帐床榻",
+    "绣品架",
+    "雕花窗棂"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "父女对话中的坚定与不解"
+}

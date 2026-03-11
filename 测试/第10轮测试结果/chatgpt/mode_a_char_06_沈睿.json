@@ -1,0 +1,54 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "幼时聪慧秀气，长大后应是眉目清正、神采卓然的天才文臣相貌",
+    "body": "幼年清瘦灵秀，成年后应为文臣式修长体态",
+    "hair": "幼时软黑发，成年后整肃冠发",
+    "distinguishing_features": "天才儿童的沉静聪颖感，言行远超年龄"
+  },
+  "costume": {
+    "typical_outfit": "幼时精致小公子服，成年后朝臣服饰",
+    "color_palette": [
+      "青色",
+      "白色",
+      "墨色"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "早夭名相",
+    "理想之子",
+    "母亲执念"
+  ],
+  "visual_reference": "Chinese prodigy boy to young statesman, delicate intelligent features, calm bright eyes, elegant scholar robes in blue and white, noble and gifted aura, ancient drama style",
+  "personality": "孝顺早慧，善解人意，责任感极强，甚至在病重时仍试图调和父母关系。",
+  "desire": "希望父母停止互相伤害，彼此珍重。",
+  "flaw": "过早承担本不属于孩子的情感责任。",
+  "arc": "前世作为天才长子成就非凡→病重时仍劝和父母→成为双亲重生后的执念与行动起点→今生未能如期出生，只存在于记忆与梦中。",
+  "scene_presence": "在回忆中被描述为一代名相与病榻孝子；高令宁与沈词重生后所有婚姻安排都因他而起；高令宁梦中再次与幼年沈睿对话，完成对执念的某种告别。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母子情深，是她甘愿重入婚姻牢笼的原因",
+      "function": "行动动机核心"
+    },
+    {
+      "target": "沈词",
+      "type": "情感|利益",
+      "dynamic": "儿子既是他深爱的血脉，也是其家族与仕途理想的延续",
+      "function": "初始目标"
+    },
+    {
+      "target": "昭昭",
+      "type": "对照",
+      "dynamic": "未出生的理想儿子与真实出生的女儿构成强烈命运对照",
+      "function": "主题对照"
+    }
+  ]
+}

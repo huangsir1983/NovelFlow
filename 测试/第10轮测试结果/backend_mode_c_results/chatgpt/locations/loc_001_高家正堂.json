@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_001",
+  "name": "高家正堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正堂",
+  "description": "高家正堂为典型三间开间的官宦宅院主礼厅，坐北朝南，空间方正而庄重，正中设高台式主位与长条正堂桌案，案上可陈礼单、茶盏、金银与聘礼文书。后方立高大木质山水屏风，左右对称摆放圈椅与几案，形成严格的礼制轴线。室内梁架外露，深色木构件带有轻微包浆，地面为磨光青砖，门外光线自敞开的格扇门斜入，照亮堂中成排聘礼箱笼、绸缎、木雁与拍案木桌。整体装饰克制，强调士族门户的体面与规矩，留有足够中部空地供媒人、来客与家主对峙，视觉上突出审视、压迫与仪礼冲突。",
+  "visual_reference": "Ming dynasty late period official family main hall, formal Chinese ancestral reception room, symmetrical layout, dark polished wooden beams and columns, central long ceremonial table, tall carved folding screen behind the host seat, paired horseshoe chairs, grey brick floor, open lattice doors with daylight streaming in, stacks of betrothal gift chests wrapped in red silk, bolts of satin, wooden wild goose gift on table, tea cups, gold and silver objects, restrained elite decor, tense marriage negotiation atmosphere, cinematic historical drama, highly detailed",
+  "atmosphere": "礼制森严、压迫、体面下的暗潮",
+  "color_palette": [
+    "深檀木色",
+    "黛青灰",
+    "暗红绸色"
+  ],
+  "lighting": "白日自然光从正门与侧窗进入，形成明暗分区，主位较稳重阴影，聘礼与人物面部被斜光勾亮，强化对峙感。",
+  "key_features": [
+    "正中高大屏风与主位桌案",
+    "成排聘礼箱笼与红绸",
+    "礼制轴线清晰的对称家具布局"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从表面周全的提亲礼数，迅速转入旧恨重逢与当众羞辱的锋利对峙。"
+}

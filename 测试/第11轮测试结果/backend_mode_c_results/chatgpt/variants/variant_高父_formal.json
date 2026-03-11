@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaofu_variant_06",
+  "variant_type": "formal",
+  "variant_name": "高父 — 满月宴上的释然护家者",
+  "tags": [
+    "满月宴",
+    "真相揭晓",
+    "护外孙女",
+    "沉稳见证"
+  ],
+  "scene_ids": [
+    "scene_011"
+  ],
+  "trigger": "昭昭满月宴上，陆姝仪当众坦白重生与设计真相，高父在家宴场合见证女儿多年冤屈被洗清。",
+  "appearance_delta": {
+    "face": "仍有多年忧思留下的皱纹，但神情较此前更沉定，压抑中出现迟来的释然",
+    "body": "姿态恢复士大夫家主的稳重，不再是危机中的仓皇状态",
+    "hair": "束冠整齐，宴席场合比日常更规整",
+    "distinguishing_features": "从单纯担忧女儿，转为作为长辈守住女儿与外孙女名声的沉稳见证者"
+  },
+  "costume_override": {
+    "outfit": "适合家宴待客的整洁文士礼服或规整长衫，保留文官背景的素雅端正",
+    "color_palette": [
+      "藏青",
+      "青灰",
+      "暗青"
+    ]
+  },
+  "visual_reference": "Ancient Chinese middle-aged scholar father at a traditional full-month banquet, slim and dignified, lined but composed face with a trace of relief after long worry, black-and-gray hair neatly crowned, wearing a refined dark blue-gray robe suitable for hosting a family celebration, standing in a decorated banquet hall with red drapery and infant celebration elements, calm, protective, and honorable father-grandfather presence, realistic historical Chinese drama aesthetic",
+  "visual_prompt_negative": "flashy gold armor, exaggerated smile, youthful face, modern banquet hall, glasses, long beard, neon colors, fantasy ornaments",
+  "emotional_tone": "沉稳、释然、护住家人与真相后的安定"
+}

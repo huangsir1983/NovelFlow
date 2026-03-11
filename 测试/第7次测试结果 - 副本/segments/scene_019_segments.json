@@ -1,0 +1,86 @@
+[
+  {
+    "id": "seg_0096",
+    "scene_id": "scene_019",
+    "shot_ids": [
+      "shot_0374",
+      "shot_0375",
+      "shot_0376"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头均处于同一现实时空与同一对峙轴线内，角色集合不变，完成从空间建立到第一轮言语刺入的连续情绪起手；以女主限制视角为主，顺势合并为一个压迫性开场段落。",
+    "order": 96
+  },
+  {
+    "id": "seg_0097",
+    "scene_id": "scene_019",
+    "shot_ids": [
+      "shot_0377",
+      "shot_0378",
+      "shot_0379"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本组镜头完整覆盖沈睿的辩护逻辑与高令宁的无声拆解，情绪弧线从辩解到被识破再到强撑自证，仍属同一轮现实交锋，适合合并为一段针锋相对的反应主导段。",
+    "order": 97
+  },
+  {
+    "id": "seg_0098",
+    "scene_id": "scene_019",
+    "shot_ids": [
+      "shot_0380",
+      "shot_0381",
+      "shot_0382"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以一次短促前世刺入作为情感换挡，再立即回到现实完成‘让步—不领情’的小波峰，既符合时空跳针的结构，也保持了对峙关系不变，形成一个含闪回的过桥段。",
+    "order": 98
+  },
+  {
+    "id": "seg_0099",
+    "scene_id": "scene_019",
+    "shot_ids": [
+      "shot_0383",
+      "shot_0384",
+      "shot_0385"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组构成全场核心宣判：现实判词—前世伤口具象—现实条款落地，时空虽短促切换，但叙事目标高度统一，属于同一情绪峰值，应并为单一重击段落。",
+    "order": 99
+  },
+  {
+    "id": "seg_0100",
+    "scene_id": "scene_019",
+    "shot_ids": [
+      "shot_0386",
+      "shot_0387",
+      "shot_0388",
+      "shot_0389"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段完成本场最大翻转：女主接受交易条款引发男主失衡，继而被其最后羞辱逼出最锋利反击。四镜虽然略超常规，但属于同一连续爆发弧线，必须合并以保留情绪连击的冲击力。",
+    "order": 100
+  },
+  {
+    "id": "seg_0101",
+    "scene_id": "scene_019",
+    "shot_ids": [
+      "shot_0390",
+      "shot_0391"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜是动作兑现与余波收束，角色集合从双人转为单人，形成明确段落边界；合并为结尾段可完整保留‘离开—被留下’的胜负后劲与冷收尾。",
+    "order": 101
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0432",
+    "shot_id": "shot_0455",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands in medium shot at the left third of the frame facing right toward Lu Shuyi; her shoulders and neck are held rigid, lips pressed thin, gaze controlled yet tense, enduring a public confession without speaking. A blurred pale pink sleeve of Lu Shuyi occupies the right foreground as a soft presence anchor; behind Gao Lingning, an ancient banquet hall with defocused wooden screens and drifting noble guests creates the feeling of being watched yet unaided. Side-back light gently traces the faint scar on her neck, with low-saturation gray-blue, old wood brown, and amber candlelight clashing subtly against restrained cool skin tones. cinematic realism, limited subjective perspective, Song dynasty aesthetics, shallow depth of field, emotional pressure, highly detailed costume texture, refined film still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, shallow depth of field, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, side-back light, muted daylight mixed with amber banquet candlelight, soft background falloff"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, modern hairstyle, electric lights, plastic, glass wall, neon, cityscape, cars, phones, text, watermark, logo, subtitles, low quality, blurry face, bad anatomy, extra fingers, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0433",
+    "shot_id": "shot_0456",
+    "prompt_text": "Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, appears in a medium close-up centered slightly right, looking off-frame left toward Gao Lingning; her face is deathly pale, brows lowered at first, then she forces herself to raise her eyes, lips drained of color, posture slightly inward but held with fragile dignity as she begins to confess. A small dark shoulder line of Gao Lingning presses into the left foreground edge; behind Lu Shuyi stand a wooden pillar and one warm golden banquet lantern in a noble interior. The palette stays low-saturation with gray-blue shadows, old wood brown, and amber lamp glow against her cold white complexion. cinematic realism, restrained emotional attack, Song dynasty aesthetic, intimate lensing, subtle film grain, highly detailed silk and skin texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, close character portrait, realistic historical drama",
+      "lighting": "muted warm-cool contrast, soft frontal ambient light with warm amber side lantern, gentle shadow shaping on pale face"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary makeup, modern jewelry, electric bulbs, plastic, microphones, text, watermark, logo, subtitles, low quality, lowres, bad anatomy, malformed hands, oversharpened, oversaturated"
+  },
+  {
+    "id": "sp_0434",
+    "shot_id": "shot_0457",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, fills a close-up from the left side of the frame in a near-frontal angle, looking straight off-frame right with an unmoving, judging stare; she does not answer, her thin lips and chilled face forming a hard refusal to be moved by cheap remorse. The background is pressed into darkness, with only one blurred streak of red silk in the rear right, and deliberate empty space in the direction of her gaze to heighten scrutiny. Low-saturation cool whites, gray-blue shadow, a restrained red accent under 15 percent of the frame, and controlled contrast create severe emotional distance. cinematic realism, limited female subjective viewpoint, austere historical drama portrait, razor-sharp facial detail, shallow depth of field, tense stillness",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, dramatic close-up, realistic historical drama",
+      "lighting": "cool-biased low-saturation light, subdued side light on face, darkened background, minimal warm spill, controlled red accent"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary fashion, modern interior, fluorescent light, text, watermark, logo, subtitles, low quality, blurry, soft face, bad anatomy, distorted eyes, extra limbs, oversaturated red"
+  },
+  {
+    "id": "sp_0435",
+    "shot_id": "shot_0458",
+    "prompt_text": "Over-the-shoulder medium shot of Gao Lingning in the left foreground, seen from behind with the back of her head and shoulder occupying the frame edge, while Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, stands in sharp focus at mid-right; Lu Shuyi draws inward at the shoulders yet forces herself to speak the ugliest truth, her expression fragile, resolved, and near collapse. In the deep corridor background, Shen Ci appears as a blurred isolated figure cut by a doorway frame, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, reduced to a distant vertical silhouette. The noble residence corridor uses old wood brown, gray-blue shadows, muted candle amber, and narrow framing lines from doors and architecture to create ritual restraint and approaching revelation. cinematic realism, limited subjective perspective rooted in Gao Lingning, Song dynasty aesthetics, layered depth, slow dolly feeling, highly detailed costume and architectural texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, over-the-shoulder composition, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, corridor depth lighting, soft natural ambient mixed with distant amber lamp glow, doorway shadow segmentation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern corridor, electric lighting, plastic decor, text, watermark, logo, subtitles, low quality, lowres, bad anatomy, duplicate person, extra limbs, oversaturated colors, sci-fi elements"
+  },
+  {
+    "id": "sp_0436",
+    "shot_id": "shot_0459",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, dominates an extreme intimate close-up, her face occupying most of the frame as her eyes tighten for one instant and her breath seems to stop; the shock is violently suppressed, creating a weightless hollow inside her expression, and at the lower edge of the frame her fingertips curl slightly. The background dissolves completely into abstract gray-cyan and amber bokeh blocks, as if her inner world has suddenly emptied after hearing fatal words. Low-saturation palette, cool skin against blurred amber remnants, precise skin texture, and severe focus isolation heighten the silent realization. cinematic realism, psychological close-up, limited subjective narrative, Song dynasty historical drama, ultra-detailed eyes and lips, fine film grain, emotional rupture held under control",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, extreme close character study, realistic historical drama",
+      "lighting": "soft cool key on face with faint amber ambient contamination, low-saturation contrast, background fully diffused into gray-cyan and amber blur"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary portrait styling, studio backdrop, text, watermark, logo, subtitles, low quality, lowres, bad anatomy, deformed hands, extra fingers, unrealistic skin, oversaturated tones"
+  },
+  {
+    "id": "sp_0437",
+    "shot_id": "shot_0460",
+    "prompt_text": "An extreme close-up memory fragment of a dark lake surface swallowing a woman in ancient Chinese clothing, with wet fabric folding through black water, one loose strand of black hair drifting, and a cold pale wrist flashing briefly before sinking; the image feels broken by ripples, breathless, violent, and incomplete, suggesting Lu Shuyi's past-life drowning without full explanation. The entire frame is filled by dark water and torn reflections, brightness lowered, contrast and shadow density increased, with deep gray-blue, near-black, and faint dead amber highlights. cinematic realism, fragmented traumatic flashback, handheld instability, historical tragedy, harsh water texture, oppressive shadow, highly detailed ripples and soaked silk, sensory memory image",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, extreme close-up, traumatic flashback realism",
+      "lighting": "dim lowered exposure, high shadow density, cold gray-blue water tones with minimal sickly amber reflection, stark contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, swimming pool, modern fabric, scuba gear, boats, city lights, text, watermark, logo, subtitles, low quality, lowres, cartoon, CGI look, bad anatomy, extra limbs, oversaturated colors"
+  }
+]

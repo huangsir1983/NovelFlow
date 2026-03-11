@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "id": "scene_036",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:38"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_009",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_012"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府廊下 - DAY",
+    "location": "高府廊下",
+    "time_of_day": "day",
+    "description": "高府内院廊下，半开敞空间，檐下遮阴，日间自然光自庭院一侧斜照进来，微风穿廊。廊边设坐榻或靠椅，环境安静，带有养胎休养的家居气息。案几上可见新鲜葡萄、细瓷果盘，以及沈睿带来的珍贵补品与玩意。高令宁衣着宽松素净，呈孕期状态，坐姿慵懒，借廊下纳凉。",
+    "action": "高令宁以养胎为由回了娘家，包裹已安置妥当。沈睿下衙后来高府探望，俯身在案前替她剥葡萄，将果肉递到她手边，不时低声询问她吃了什么、是否不适。高令宁半眯着眼，顺势把头靠在他肩上，身体放松欲睡。沈睿侧过脸，动作克制地在她脸侧落下一吻。两人表面亲近，但高令宁神情淡淡，没有回吻，只是闭眼受着风。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "其实上一世，我有许多对不住你的地方。",
+        "subtext": "试图袒露愧疚、修补关系，也是在试探她是否愿意接受他的补偿。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "葡萄",
+      "果盘",
+      "补品礼盒",
+      "包裹"
+    ],
+    "dramatic_purpose": "建立高令宁回娘家后的日常状态，呈现沈睿殷勤补偿与两人表面和缓、内里疏离的关系现状。",
+    "tension_score": 0.34,
+    "dramatic_intensity": -0.32,
+    "order": 36
+  }
+}

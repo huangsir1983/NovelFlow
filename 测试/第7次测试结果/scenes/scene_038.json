@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_038",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:38"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_009",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_012"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府厅堂 - DAY",
+    "location": "高府厅堂",
+    "time_of_day": "day",
+    "description": "同一厅堂，午后光线更亮，窗外日色正盛。空间静止感被小厮的通报打破。门口有侍从进出，带来外界消息。厅内空气由平和转向微妙紧绷。",
+    "action": "午饭后，小厮快步入内通报陆姝仪来访。高父不知内情，随口吩咐将人请入等候。高令宁闻言神情骤变，眼神一滞，像是被前世记忆攫住。她没有亲自起身迎客，而是立刻叫来侍女传话，借孕期倦怠为由拒见。她说话时语速克制，手却压在椅扶上，指尖收紧。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "让人带她进来等着。",
+        "subtext": "把来客当作寻常应酬处理，并未意识到潜在风险。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "午饭残席",
+      "椅扶",
+      "传话侍女"
+    ],
+    "dramatic_purpose": "引入陆姝仪这一不稳定因素，并通过高令宁的回忆与拒见动作制造悬念，预示即将发生的失控事件。",
+    "tension_score": 0.62,
+    "dramatic_intensity": 0.24,
+    "order": 38
+  }
+}

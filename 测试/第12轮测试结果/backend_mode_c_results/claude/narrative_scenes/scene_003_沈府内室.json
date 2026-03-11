@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 沈府内室 - 日（前世回忆）",
+  "location": "沈府内室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世婚后第二日，沈母让陆姝仪给高令宁敬茶要求接受平妻，高令宁砸茶杯自残抹脖子",
+  "key_dialogue": "（无台词，动作戏）",
+  "emotional_peak": "愤怒与绝望",
+  "tension_score": 0.9,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "茶杯",
+    "茶盘",
+    "瓷片",
+    "血迹"
+  ],
+  "dramatic_purpose": "展现前世婚姻的残酷开端，解释女主仇恨根源"
+}

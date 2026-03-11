@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_007",
+  "name": "沈家婚堂",
+  "type": "interior",
+  "era_style": "明代官宦婚礼正堂",
+  "description": "沈家婚礼正堂宽敞喜庆，地面铺红毯，中央拜堂位设香案，两侧高烧喜烛，墙饰红绸与喜字，空间华丽正式，适合成亲对拜仪式。",
+  "visual_reference": "明代官宦婚堂内部，红毯铺地中央拜堂，喜烛红光摇曳，凤冠霞帔与红盖头置于案上，红绸满壁装饰，庄重喜庆明代古风，光影温暖",
+  "visual_prompt_negative": "现代婚礼灯饰、西方教堂元素、塑料花",
+  "atmosphere": "喜庆、心不在焉",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "黑红",
+    "木褐"
+  ],
+  "lighting": "白天自然光混喜烛暖光",
+  "key_features": [
+    "拜堂红毯",
+    "喜烛",
+    "红盖头"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "盖头下无悲无喜的平静"
+}

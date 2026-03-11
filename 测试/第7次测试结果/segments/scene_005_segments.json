@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0017",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0052",
+      "shot_0053",
+      "shot_0054"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成外部压力的建立：先交代深夜新房的冷硬残局，再以叩门打断当前动作，最后揭示门外来者身份。角色集合从室内双人扩展到门外代言者，但仍属同一事件起势，情绪由压抑滑向被侵入，适合合并为单一开场段。",
+    "order": 17
+  },
+  {
+    "id": "seg_0018",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0055",
+      "shot_0056",
+      "shot_0057"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段的核心是外部召唤如何在高令宁体内完成立场转化：先用门板可视化三角压力，再切到她的轻嗤与裹被转身。情绪弧线清晰，从被迫听见到主动封门，属于同一内部反应链条，因此合并。",
+    "order": 18
+  },
+  {
+    "id": "seg_0019",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0058",
+      "shot_0059",
+      "shot_0060"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头围绕一句核心台词展开：高令宁先以背影完成驱离，再把拒绝维持在不回头的画面里，最后落到沈睿的受刺反应。角色集合稳定，情绪从平静驱逐推进到男性自尊被刺中，形成完整对话回合。",
+    "order": 19
+  },
+  {
+    "id": "seg_0020",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0061",
+      "shot_0062",
+      "shot_0063"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是情感弧线的主转折：沈睿的挑衅、她的沉默承压、到最终抛出“和离”致命句，三镜头构成一组完整的攻防与反杀。信息集中、节拍递进明确，必须合并保持冲击力。",
+    "order": 20
+  },
+  {
+    "id": "seg_0021",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0064",
+      "shot_0065"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜功能一致，都是接住“和离”后的余波：先是沈睿的受刺停滞，再以全景把三角关系冻结为不可修复的空间结构。情绪进入冷收尾，不再适合继续拆分。",
+    "order": 21
+  }
+]

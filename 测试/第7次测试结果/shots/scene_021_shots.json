@@ -1,0 +1,272 @@
+[
+  {
+    "id": "shot_0318",
+    "scene_id": "scene_021",
+    "shot_number": 1,
+    "goal": "建立内宅清晨未明却已高压运转的空间状态，交代封闭深宅、冷暖光并存与繁重府务环境。",
+    "composition": "WS，门框式构图。前景左侧为半掩格扇门与垂落帘角形成遮挡，中景右侧桌案上灯盏微亮，账册与钥匙成堆，背景窗纸透入冷青天光，廊下人影偶尔掠过，主体空间被案几、门框和窗棂切割成狭窄条块。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压迫、寒意、秩序森严中的窒息感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 318
+  },
+  {
+    "id": "shot_0319",
+    "scene_id": "scene_021",
+    "shot_number": 2,
+    "goal": "引入高令宁的工作状态，强调她天不亮已端坐案前，接手管家权后处于绝对掌控位置。",
+    "composition": "MLS，高令宁位于画面中右，侧身朝左，坐于堆满账册的长案前；前景下缘虚化的名册与算盘压住画面，背景窗棂冷光切在她肩背，灯火在她面侧留一线暖色，形成冷暖对冲。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "敬畏中带心疼，感到她以秩序压住一切。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.14,
+    "order": 319
+  },
+  {
+    "id": "shot_0320",
+    "scene_id": "scene_021",
+    "shot_number": 3,
+    "goal": "通过手部动作建立她处理家务的熟练与密度，展示账册、钥匙、名册等核心叙事道具。",
+    "composition": "CU，桌案俯斜角。画面中央是高令宁修长手指翻开账册，右下散着钥匙串，左上压着名册，灯盏的暖焰在铜面上反光；纸页与金属形成冷硬质感对比。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "感到事务沉重且具体，压力可触摸。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 320
+  },
+  {
+    "id": "shot_0321",
+    "scene_id": "scene_021",
+    "shot_number": 4,
+    "goal": "展示她一边翻阅一边逐条过问，下人进退有序，确立她强势而细密的管理方式。",
+    "composition": "MS，保持同一轴线。高令宁坐于画面右侧三分之一位置，左侧门口一名下人半俯身候命，仅见身影与手中册页；前景有一盏灯虚化，背景廊道有第二名下人快速经过，构成多层调度。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "紧绷、效率、她不容出错的掌控欲。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 321
+  },
+  {
+    "id": "shot_0322",
+    "scene_id": "scene_021",
+    "shot_number": 5,
+    "goal": "用反应性近景刻画她外表整肃、实则疲惫，埋下身体透支的第一层信号。",
+    "composition": "MCU，高令宁位于画面中央偏右，视线低垂落在账页上；额前发丝纹丝不乱，眼下却有淡淡青意。背景窗棂形成横向暗影压在她颈侧，画面左侧留出一片冷色空白，增强孤绝感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "克制中的疲态，让观众开始担心她撑不了太久。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 322
+  },
+  {
+    "id": "shot_0323",
+    "scene_id": "scene_021",
+    "shot_number": 6,
+    "goal": "强调她对下人的控制方式，不靠高声，而靠极简手势维持秩序。",
+    "composition": "CU，画面中心是她抬起的手，指尖微停示意，下方模糊的人影随即退下；背景为灯盏与成排账册脊线，手势成为唯一清晰焦点。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "感受她权威的冷静与不容置疑。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 323
+  },
+  {
+    "id": "shot_0324",
+    "scene_id": "scene_021",
+    "shot_number": 7,
+    "goal": "把‘府务运转’可视化，显示她不是坐镇摆样子，而是在无间断地被事务包围。",
+    "composition": "MLS，镜头从她背侧斜后方取景。高令宁位于画面中部坐姿挺直，前景左右分别有下人捧册与端物快速掠过形成遮挡，背景门外冷天光更亮，空间纵深中连续有人影进出，所有动线都朝向她汇集。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "繁忙、压迫，观众感到她像被府务吞没。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 324
+  },
+  {
+    "id": "shot_0325",
+    "scene_id": "scene_021",
+    "shot_number": 8,
+    "goal": "出现身体透支的明确征兆：久坐后按压额角，显示她已接近极限。",
+    "composition": "CU，侧面近景。高令宁位于画面左侧，指尖压住额角与太阳穴，眼睫短暂闭合；背景右侧是虚化的账册山与冷白窗纸，压缩出沉重感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众第一次明确意识到她是在拿身体硬撑。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 325
+  },
+  {
+    "id": "shot_0326",
+    "scene_id": "scene_021",
+    "shot_number": 9,
+    "goal": "表现她起身时动作发虚，身体失衡与意志强撑形成冲突，推进悲剧因果。",
+    "composition": "MS，保持同轴。高令宁由坐到起的瞬间位于画面中央，桌案边缘在前景形成斜线，她一手扶案，肩背仍强行挺直，但身体重心明显晃了一下；背景门边下人停顿半步却不敢上前。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "惊险、揪心，观众希望她停下却知她不会停。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 326
+  },
+  {
+    "id": "shot_0327",
+    "scene_id": "scene_021",
+    "shot_number": 10,
+    "goal": "用近景捕捉她强压不适、立刻恢复体面的过程，凸显其性格中的倔强与不肯示弱。",
+    "composition": "MCU，高令宁站定于画面中央偏右，唇色发白，呼吸轻促但几乎不可闻；她抬眼看向门外，眼神重新凝定。前景一角有模糊的钥匙串，背景光线更冷，脸侧暖光正在减弱。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "敬佩与心疼并存，感到她把自己也当成可被调度的物件。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 327
+  },
+  {
+    "id": "shot_0328",
+    "scene_id": "scene_021",
+    "shot_number": 11,
+    "goal": "展示她继续巡视内宅，说明她不会因不适停手，强化控制全局的执拗。",
+    "composition": "FS，廊道纵深构图。高令宁自画面右向左稳步行进，保持场景内统一行进方向；前景有柱廊与屏风边缘切割，背景房门次第打开，下人退让到两侧，视觉引导线把她推向画面深处。",
+    "camera_movement": "steadicam",
+    "framing": "FS",
+    "emotion_target": "持续压迫与隐隐不祥，像一台即将过热却不停机的机关。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 328
+  },
+  {
+    "id": "shot_0329",
+    "scene_id": "scene_021",
+    "shot_number": 12,
+    "goal": "将关键伏笔具象化：她下意识扶住小腹，短暂停顿，直接埋下伤及孩子的因果。",
+    "composition": "CU，腰腹部近景。高令宁行进中的手从袖中探出，轻轻按住小腹，衣料微皱；画面上方只保留半截下颌与绷紧的唇线，下方是步伐停住的裙摆。背景廊柱与门影虚化成冷硬竖线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、预警，观众明确感到危险已在身体内部发生。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 329
+  },
+  {
+    "id": "shot_0330",
+    "scene_id": "scene_021",
+    "shot_number": 13,
+    "goal": "以面部反应确认她察觉到了不适，却选择压下，突显其悲剧性的主动性。",
+    "composition": "CU，高令宁停在画面中央，目光微垂，不看任何人；脸色在冷光下愈发苍白，眼底一瞬闪过迟疑与警觉，随即被压平。背景空出大片暗面，使她像被困在光与影交界处。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她知道代价，却还是要继续。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 330
+  },
+  {
+    "id": "shot_0331",
+    "scene_id": "scene_021",
+    "shot_number": 14,
+    "goal": "表现她立即放手、恢复主母姿态，把个人身体需求重新压到秩序之后。",
+    "composition": "MS，正侧四分之三角度。高令宁位于画面左侧，手自小腹收回，袖口垂落，另一手已抬起指向前方吩咐；画面右侧留给退避的下人和半开的房门，形成她重新掌控空间的视觉证据。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "冷硬、决绝，观众感到她正在主动走向不可逆的后果。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 331
+  },
+  {
+    "id": "shot_0332",
+    "scene_id": "scene_021",
+    "shot_number": 15,
+    "goal": "冷收尾：以背影结束，概括她用透支身体维持内宅秩序的现实，给后续夫妻失衡与悲剧留出余波。",
+    "composition": "MLS，背影镜头。高令宁位于画面中央偏远处，背对镜头走向更深的厅房，身形纤薄却笔直；前景桌案上灯盏将熄未熄，账册与钥匙留在近处，背景冷天光逐渐压过室内残灯，整个空间像将她吞入。人物出画方向延续前镜头由右向左再向深处。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "余寒、无力感与宿命感，像看见悲剧已经开始但无人叫停。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.52,
+    "order": 332
+  }
+]

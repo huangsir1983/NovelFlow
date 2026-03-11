@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT/EXT. 高家 - 白日到傍晚",
+  "location": "高家宅院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "陆姝仪"
+  ],
+  "core_event": "我借养胎回娘家，沈词日日来献殷勤，父亲误以为我们感情转好。傍晚陆姝仪来访失踪，被搜出时与昏迷衣冠不整的蒋晟同处一室。",
+  "key_dialogue": "无",
+  "emotional_peak": "看似和缓的表象瞬间坍塌，一场陷害把所有旧伤重新撕开。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "葡萄",
+    "包裹",
+    "厢房"
+  ],
+  "dramatic_purpose": "制造重大误会事件，推动剧情进入生产与彻底决裂的高潮。",
+  "visual_reference": "白日廊下岁月静好，转至傍晚高府搜查紧张混乱，在厢房中发现不堪场面，空气骤冷。",
+  "visual_prompt_negative": "不要现代别墅，不要侦探悬疑夸张布光，不要艳俗捉奸感。",
+  "source_text_start": "伯爵娘子又登门了。沈词再不行动，陆姝仪的亲事",
+  "source_text_end": "终于在厢房里，寻到了已经昏迷的陆姝仪。和同样昏迷不醒、衣冠不整的蒋晟。"
+}

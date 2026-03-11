@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT/EXT. 高家书房门外与街边 - DAY",
+  "location": "高家书房、门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词"
+  ],
+  "core_event": "高父决定辞官避祸并安排门生相看；高令宁监督父亲写辞官奏折后出门取药，被守候已久的沈词拦下，双方以沈睿为筹码谈婚约条件。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "两人围绕‘必须生下沈睿’达成冷酷交易：先处理陆姝仪，生子后和离。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁留下的勒痕暗示",
+    "衣袖下的手痕"
+  ],
+  "dramatic_purpose": "明确婚约的利益契约本质，也给后续和离埋下白纸黑字般的心理约定。",
+  "source_text_start": "父亲不放心让我嫁入沈家。一夜未睡后，他改了原",
+  "source_text_end": "「谁纠缠谁是狗。」他抿唇，不再说话。四目相对"
+}

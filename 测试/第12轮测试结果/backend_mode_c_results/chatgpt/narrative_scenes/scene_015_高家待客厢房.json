@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家厢房外厅 - DUSK",
+  "location": "高家待客厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "陆姝仪",
+    "蒋晟",
+    "沈词",
+    "小厮"
+  ],
+  "core_event": "陆姝仪借出嫁前叙话到高府，女主拒见；傍晚她失踪，众人搜府后在厢房中发现昏迷且衣冠不整的陆姝仪与蒋晟。",
+  "key_dialogue": "无",
+  "emotional_peak": "高令宁与沈词冰冷对视，意识到一场熟悉的诬陷悲剧正在重演。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "厢房木门",
+    "榻",
+    "凌乱衣物",
+    "香炉/可能迷香痕迹",
+    "灯笼",
+    "门房记录",
+    "帘幔",
+    "桌椅",
+    "茶盘"
+  ],
+  "dramatic_purpose": "引爆全剧最大误会，直接推动产难。"
+}

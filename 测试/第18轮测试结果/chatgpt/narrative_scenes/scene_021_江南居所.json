@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "EXT. 江南宅院 - DAY",
+  "location": "江南居所",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈昭昭"
+  ],
+  "core_event": "高令宁带着昭昭移居江南，过上久违清净日子；昭昭聪慧活泼，沈词则长期通过父亲寄来钱财、珠宝与典籍，维系稀薄联系。",
+  "key_dialogue": "「也只是让他寄钱。」",
+  "emotional_peak": "平静日常中，高令宁第一次真正拥有不围着沈家打转的生活。",
+  "tension_score": 0.35,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "书信",
+    "金银珠宝",
+    "典籍",
+    "孩童读本"
+  ],
+  "dramatic_purpose": "给主线一个情绪缓冲，展示女主独立生活与女儿成长。",
+  "source_text_start": "京城总有人纠缠。我索性带着昭昭去了江南。终于",
+  "source_text_end": "每数个月，我才会回他一封。也只是让他寄钱。"
+}

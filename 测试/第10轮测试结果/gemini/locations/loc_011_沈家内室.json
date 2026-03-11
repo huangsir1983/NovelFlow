@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_011",
+  "name": "沈家内室",
+  "type": "interior",
+  "era_style": "明代世家少夫人起居室",
+  "description": "透着浓厚生活气息却毫无温度的起居室。桌上放着太医留下的红木药箱，一旁的笸箩里装着缝制了一半的婴儿虎头帽和针线。阳光透过窗棂照进来，却照不暖室内冰冷疏离的空气。",
+  "visual_reference": "Interior of an ancient Chinese domestic inner chamber, daylight, a half-sewn baby tiger-head hat and sewing kit in a bamboo basket, a doctor's wooden medical box on a table, elegant wooden furniture, cold and emotionally distant atmosphere, cinematic lighting, 8k.",
+  "atmosphere": "日常、平淡、令人如坠冰窟的冷漠",
+  "color_palette": [
+    "灰青色",
+    "暖白色",
+    "竹木色"
+  ],
+  "lighting": "平淡无奇的白昼自然光，毫无波澜",
+  "key_features": [
+    "婴儿虎头帽",
+    "针线笸箩",
+    "太医的药箱"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从男主以为能用孩子留住妻子的窃喜，到被彻底放下、通知和离的崩溃与疯狂"
+}

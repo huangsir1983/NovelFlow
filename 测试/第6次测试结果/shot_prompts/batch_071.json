@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0426",
+    "shot_id": "shot_0410",
+    "prompt_text": "POV medium shot from Lu Shuyi's perspective, Gao father and Gao Lingning forming a natural protective barrier, on the right foreground a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, stepping half a pace forward with one sleeve extending protectively, on the left rear a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, standing close behind him in stable guarded proximity; a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, only subtly visible through baby items in the back; noble household banquet hall with main table and infant objects faintly visible in the background, old wood brown furnishings, restrained red and gold accents under 15 percent of the frame, low-saturation warm-cool contrast, side backlight and amber candlelight mixed with soft natural daylight, realistic historical drama still, cinematic realism, layered depth, emotionally piercing composition",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, soft daylight mixed with amber candlelight, side backlight, subtle occlusion and layered interior depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electricity, LED lights, plastic, glass curtain wall, contemporary makeup, modern hairstyle, text, subtitle, watermark, logo, low quality, blurry, overexposed, deformed hands, extra fingers, cartoon, anime"
+  },
+  {
+    "id": "sp_0427",
+    "shot_id": "shot_0411",
+    "prompt_text": "Close-up portrait of Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic; her face centered in frame, eyes moist with a slight downward pull at the corners, a very faint bitter smile touching her lips but not reaching her eyes, restrained sorrow hiding a blade beneath softness; background fully blurred into red and gold bokeh like distant banquet noise detached from her, low-saturation warm-cool contrast with old wood brown and gray-blue undertones, red accents controlled and sparse, soft side light with gentle back rim and amber candle glow, highly detailed cinematic realism, shallow depth of field, emotional tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, shallow depth of field, film grain",
+      "lighting": "soft side light, subtle back rim, amber candle glow mixed with cool ambient fill, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry face, oversaturated colors, harsh studio lighting, modern makeup, modern jewelry, cartoon, anime"
+  },
+  {
+    "id": "sp_0428",
+    "shot_id": "shot_0412",
+    "prompt_text": "Medium close-up of Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic; centered in the frame with extra headroom above her to emphasize lightness and isolation, speaking calmly with composed lips and wounded restraint, her gaze directed forward as if addressing Gao Lingning, a blurred shoulder line entering from the left foreground as subjective counterpoint; interior noble banquet hall with muted gray-blue space, old wood brown, dim red and gold highlights kept minimal, soft natural daylight retained with amber candlelight, low-saturation warm-cool contrast, limited subjective narration feel, realistic historical drama image, cinematic realism, precise emotional pressure, elegant composition",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "soft daylight with amber candlelight, low-saturation warm-cool contrast, gentle side illumination, airy negative space"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, microphones, text, watermark, logo, low quality, blurry, oversharpened, contemporary clothing, plastic objects, cartoon, anime"
+  },
+  {
+    "id": "sp_0429",
+    "shot_id": "shot_0413",
+    "prompt_text": "Close-up of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; positioned on the right third of the frame, eyes locked left toward Lu Shuyi with calm scrutiny and guarded alertness, lips set without yielding, a blurred dark sleeve of Gao father crossing the foreground like a protective line that still leaves her visible; background simplified into cool-toned negative space to suppress banquet festivity, low-saturation palette of gray-blue and old wood brown, minimal warm amber from candlelight, side-back lighting shaping her profile and the faint scar at her neck, realistic cinematic portrait, restrained tension, historical drama realism",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, close portrait, film grain",
+      "lighting": "cooler ambient fill with restrained amber candle edge light, side-back lighting, low-saturation warm-cool contrast, reduced festive warmth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blur, oversaturated festive colors, modern cosmetics, modern fabrics, cartoon, anime, extra limbs"
+  },
+  {
+    "id": "sp_0430",
+    "shot_id": "shot_0414",
+    "prompt_text": "Medium shot of Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, cinematic soft light, Song dynasty aesthetic; standing fully visible slightly left of center, one hand holding an invitation card, the other lightly folded before her abdomen, posture defensive and restrained with a slight inward curl of the shoulders, speaking with soft vulnerability that feels dangerously self-fashioned; right foreground blurred banquet table edge and gift boxes pressing into the frame as social objects of pressure, interior noble hall with old wood brown, gray-blue and dark teal base tones, controlled red and gold punctures under 15 percent, low-saturation warm-cool contrast, gentle dolly-like cinematic framing feel, side backlight through interior architecture mixed with amber candlelight, realistic historical drama still, layered blocking, high detail, subtle menace beneath fragility",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "side backlight with amber candlelight, low-saturation warm-cool contrast, interior depth through occlusion and foreground blur"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, printed modern invitation design, text, watermark, logo, low quality, blurry, overexposed, modern banquet decor, plastic wrapping, cartoon, anime"
+  },
+  {
+    "id": "sp_0431",
+    "shot_id": "shot_0415",
+    "prompt_text": "Medium shot along the same axis, left foreground a blurred profile silhouette of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; in the midground right Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, cinematic lighting, body tensing slightly as if wanting to step forward but holding back, expression conflicted and uneasy; background guests in soft focus leaning toward one another in silent whispering motion, noble banquet hall kept within restrictive perspective, muted old wood brown and gray-blue with sparse red and gold accents, low-saturation warm-cool contrast, subtle pan-like observational framing, side light and amber candle glow under cool ambient interior fill, cinematic realism, public pressure building, historical drama atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool ambient interior fill with restrained amber candlelight, side lighting, low-saturation warm-cool contrast, layered crowd depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry crowd, oversaturated colors, modern uniforms, modern chairs, electric lights, cartoon, anime, distorted anatomy"
+  }
+]

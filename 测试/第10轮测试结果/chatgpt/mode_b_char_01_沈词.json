@@ -1,0 +1,82 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词",
+    "沈大人",
+    "姑爷"
+  ],
+  "role": "protagonist",
+  "age_range": "20-35",
+  "appearance": {
+    "face": "面如冠玉，轮廓清隽，眉目冷峻，眼神像冰湖般清冷，偶有压抑深情时眼尾泛红",
+    "body": "高挑挺拔，肩背笔直，文臣气质浓重但并不孱弱",
+    "hair": "墨发整束，常以文官冠饰固定，婚后亦保持一丝不苟的清贵感",
+    "distinguishing_features": "气质端方克制，冷脸时极具压迫感，失控时眼眶发红、指节用力泛白"
+  },
+  "costume": {
+    "typical_outfit": "深色锦袍、官服、素净内袍，婚礼时为赤色喜服，整体审美克制贵重",
+    "color_palette": [
+      "玄黑",
+      "深青",
+      "暗红"
+    ]
+  },
+  "casting_tags": [
+    "清冷权臣",
+    "克制深情",
+    "嘴硬心狠",
+    "高门贵公子",
+    "追妻火葬场"
+  ],
+  "visual_reference": "Ancient Chinese noble scholar-official, handsome cold face, narrow dark eyes, tall lean build, black hair tied in scholar crown, dark embroidered robe, restrained aristocratic aura, cinematic historical drama style",
+  "personality": "克制、骄傲、尖锐、责任感强、极擅压抑情感",
+  "desire": "保住沈睿这一前世之子，护住陆姝仪，维持自己认定的秩序，到后期则转为拼命挽回高令宁",
+  "flaw": "自以为理智，实则情感迟钝且傲慢，擅长伤人不自知，总在失去后才承认在意",
+  "arc": "从带着功利与旧怨重启婚姻，到在相处中逐渐显露愧意与依恋，最终意识到自己真正舍不得的是高令宁，并开始近乎失态地纠缠挽回",
+  "scene_presence": "作为男主贯穿全文，参与提亲、谈判、婚后纠葛、误会爆发、生产抉择、和离追逐等核心场面",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻/宿敌/执念对象",
+      "dynamic": "以孩子为纽带开始，以互相伤害推进，最终变成他单方面难以放手",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅/义妹/暧昧保护对象",
+      "dynamic": "名义克制，行为偏护，长期模糊边界",
+      "function": "制造主婚姻冲突与误会根源"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "既骄傲又愧疚，把儿子视作必须被重新带回世间的人",
+      "function": "推动其重启婚姻"
+    },
+    {
+      "target": "沈昭昭",
+      "type": "父女",
+      "dynamic": "意外降临后由迟疑转为珍重，成为其接近高令宁的新纽带",
+      "function": "改变其执念方向"
+    },
+    {
+      "target": "沈母",
+      "type": "母子",
+      "dynamic": "受家族伦理制约，很多事并未真正摆脱母亲影响",
+      "function": "体现高门结构束缚"
+    },
+    {
+      "target": "高父",
+      "type": "岳父/对立长辈",
+      "dynamic": "从客气到针锋相对，再到低头哀求",
+      "function": "形成和离阶段的现实阻碍"
+    },
+    {
+      "target": "蒋晟",
+      "type": "情敌/被逼婚对象",
+      "dynamic": "从轻视到敌意，象征高令宁可能的替代人生",
+      "function": "激发嫉妒与失控"
+    }
+  ]
+}

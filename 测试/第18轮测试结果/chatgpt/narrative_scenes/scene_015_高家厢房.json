@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家厢房与前厅 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父",
+    "婢女",
+    "小厮"
+  ],
+  "core_event": "陆姝仪上门求见后失踪，傍晚众人搜府，在厢房发现她与昏迷衣冠不整的蒋晟，高令宁震惊，沈词看向她时满面冰霜。",
+  "key_dialogue": "「门房小厮说她进来之后便没再出去。」",
+  "emotional_peak": "厢房门开的一刻，污名与陷阱同时落在高令宁头上。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "厢房房门",
+    "凌乱衣物",
+    "昏迷中的人",
+    "门房证词"
+  ],
+  "dramatic_purpose": "全剧最大误会事件，引爆后续难产、生死与和离。",
+  "source_text_start": "我想起前世。她也是在出嫁前，说想和我叙话。回",
+  "source_text_end": "心里一惊。我转头去看沈词，他也在看我。面若冰霜。"
+}

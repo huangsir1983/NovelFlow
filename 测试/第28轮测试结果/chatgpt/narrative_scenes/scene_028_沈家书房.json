@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_028",
+  "order": 27,
+  "heading": "INT. 沈家书房 - day",
+  "location": "沈家书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词为陆姝仪择婿焦头烂额，我反而替他出主意，让他日后假称病逝将她藏入府中，自己则和离退出。",
+  "key_dialogue": "「等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。」",
+  "emotional_peak": "我第一次主动把他推向别人，不再执着报复。",
+  "tension_score": 0.67,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "折扇",
+    "婚帖名册",
+    "书案"
+  ],
+  "dramatic_purpose": "展示女主彻底厌倦争斗的转向，也暴露沈词的嘴硬与混乱。",
+  "visual_reference": "书房内女子摇扇从容说出惊人安排，男子立在案后盯着她，眼神翻涌，气氛安静却危险",
+  "visual_prompt_negative": "避免轻佻调情感，避免书房杂物太多，避免喜剧感",
+  "source_text_start": "沈词开始给陆姝仪择婿。",
+  "source_text_end": "「从始至终，我只是想要她余生顺遂，是你一直扭曲我们的感情，怨怼于我。」"
+}

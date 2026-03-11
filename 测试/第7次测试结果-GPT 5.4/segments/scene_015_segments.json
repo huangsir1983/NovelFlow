@@ -1,0 +1,60 @@
+[
+  {
+    "id": "seg_0075",
+    "scene_id": "scene_015",
+    "shot_ids": [
+      "shot_0226",
+      "shot_0227",
+      "shot_0228"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成场域建立与关系定位：先交代马球场风尘环境，再落到蒋晟挡风的保护姿态，最后切入女主主观体感，角色集合未变、时空连续、情绪仍处于礼制下的轻微松弛，因此合并为一个起始段落最顺。",
+    "order": 75
+  },
+  {
+    "id": "seg_0076",
+    "scene_id": "scene_015",
+    "shot_ids": [
+      "shot_0229",
+      "shot_0230",
+      "shot_0231"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三个shot围绕同一个生活化动作链：看见葡萄、起意示意、蒋晟立即执行。动作目标单一，情绪从松弛推进到日常亲近，没有情感断裂，适合压成一段连续关系推进。",
+    "order": 76
+  },
+  {
+    "id": "seg_0077",
+    "scene_id": "scene_015",
+    "shot_ids": [
+      "shot_0232",
+      "shot_0233",
+      "shot_0234",
+      "shot_0235"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这四个shot构成完整的照拂高潮：剥皮、递送、接物、女主情绪缓开。虽然数量略多，但都围绕同一微动作与同一情绪弧线——从体贴细节累积到关系升温，为后一段突变制造更清晰反差，因此合并更有效。",
+    "order": 77
+  },
+  {
+    "id": "seg_0078",
+    "scene_id": "scene_015",
+    "shot_ids": [
+      "shot_0236",
+      "shot_0237",
+      "shot_0238",
+      "shot_0239"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "后四个shot形成明确情感转折：从女主主观发现异常，到她面部骤停，再到蒋晟反应并重建保护站位，构成一个完整的悬疑收束段。此处是本场真正的弧线边界，必须单独成段，以保留“女主先知—观众后证实”的反转力量。",
+    "order": 78
+  }
+]

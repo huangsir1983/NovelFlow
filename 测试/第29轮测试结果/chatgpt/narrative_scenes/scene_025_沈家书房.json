@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_025",
+  "order": 24,
+  "heading": "INT. 沈家书房 - DAY",
+  "location": "沈家书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "陆姝仪婚事受阻，我冷眼旁观并主动献策，让沈词假称她病逝后私下纳入府中，彻底暴露自己已厌倦报复。",
+  "key_dialogue": "「等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。」",
+  "emotional_peak": "我第一次真正松开过去的怨气，甚至替他谋划退路。",
+  "tension_score": 0.61,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "折扇",
+    "婚帖名册",
+    "书案"
+  ],
+  "dramatic_purpose": "把我的心态从“阻止他们”进一步推到“随他们”，刺激沈词反常。",
+  "visual_reference": "书房白日安静，女子摇扇坐定神情淡漠，男子站在案前焦躁，听到她冷静安排自己未来婚路时，神色复杂翻涌，气氛诡异失衡",
+  "visual_prompt_negative": "避免甜蜜共谋感，避免现代办公桌，避免戏曲化表演",
+  "source_text_start": "沈词开始给陆姝仪择婿。",
+  "source_text_end": "他盯着我，点墨般的瞳孔里情绪翻涌，不知道在想什么。"
+}

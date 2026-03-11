@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 高家前厅 - DAY",
+  "location": "高家前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈母",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "高家拒绝沈家接走昭昭，沈母被高父以官途名声威胁退让；随后沈词跪求见妻女，面对和离书仍坚持高令宁不会与他和离。",
+  "key_dialogue": "「两个孩子和离后，昭昭归高家。」",
+  "emotional_peak": "高父以鱼死网破护女，彻底封死沈家凭礼法夺人的路。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "和离书",
+    "襁褓中的昭昭",
+    "门槛跪垫",
+    "名帖"
+  ],
+  "dramatic_purpose": "确立女主产后的家族庇护与沈家的失势。",
+  "source_text_start": "……\n我给女儿取名为昭昭。\n只希望她阳光开朗，不必追求琴",
+  "source_text_end": "「不必，」父亲淡道，「我的女儿不愁没人要，我已经备好了"
+}

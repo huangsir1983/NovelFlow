@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_007",
+  "name": "沈府新房",
+  "type": "interior",
+  "era_style": "明代新婚洞房",
+  "description": "喜庆布置的新房，处处贴红色喜字，窗上系红绸带。正中设雕花喜床，铺大红被褥，床帐垂挂。房内摆放梳妆台、衣柜，桌上置红烛成对，烛光摇曳。墙角放水盆架。整体色调以红色为主，营造喜庆氛围。",
+  "visual_reference": "Ming Dynasty wedding chamber, red decorations everywhere, double happiness characters, carved bridal bed with red bedding and curtains, paired red candles, festive atmosphere, warm candlelight, traditional Chinese wedding interior, intimate space",
+  "atmosphere": "喜庆、新婚、红烛摇曳",
+  "color_palette": [
+    "大红喜庆",
+    "金色装饰",
+    "烛光暖黄"
+  ],
+  "lighting": "夜晚红烛为主要光源，营造暧昧温暖氛围",
+  "key_features": [
+    "红色喜字",
+    "雕花喜床",
+    "成对红烛",
+    "红绸装饰"
+  ],
+  "narrative_scenes": [
+    "scene_009",
+    "scene_010"
+  ],
+  "scene_count": 2,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从新婚云雨的冷淡不甘到决绝离开"
+}

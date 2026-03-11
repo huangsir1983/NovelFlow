@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0213",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0660",
+      "shot_0661",
+      "shot_0662"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot均在房外同一时空内，角色集合稳定为无主角出镜的秩序建立段，情绪从压抑到规则落实再到补品送入，适合合并为一个完整的外部封锁开场。",
+    "order": 213
+  },
+  {
+    "id": "seg_0214",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0663",
+      "shot_0664",
+      "shot_0665",
+      "shot_0666"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完成由外到内的时空切换，围绕室内主观空间展开；补品堆积、双份细节、高令宁状态与和离书形成连贯的信息递进，情绪统一为冷静但被压迫的内在控制。",
+    "order": 214
+  },
+  {
+    "id": "seg_0215",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0667",
+      "shot_0668",
+      "shot_0669"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均围绕沈睿首次到门外受阻展开，角色集合从无到单一引入男方，情绪从到来、被拦到内收反应，构成完整的单次碰壁节拍。",
+    "order": 215
+  },
+  {
+    "id": "seg_0216",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0670",
+      "shot_0671",
+      "shot_0672"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段以内门主观到时间压缩为核心，情绪完成‘知道—不应—反复如此’的弧线；虽然包含内外切换，但都服务于同一屏障主题，适合合并为关系切断的中段强化。",
+    "order": 216
+  },
+  {
+    "id": "seg_0217",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0673",
+      "shot_0674",
+      "shot_0675",
+      "shot_0676",
+      "shot_0677"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "后五镜共享同一情节单元：秩序稳固后出现唯一例外，又立刻被重新收回。情绪从静态巩固、有限施予到再次冷绝闭合，形成结尾所需的完整控制弧线，因此合并为收束段。",
+    "order": 217
+  }
+]

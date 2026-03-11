@@ -1,0 +1,250 @@
+[
+  {
+    "id": "shot_0000",
+    "scene_id": "scene_000",
+    "shot_number": 1,
+    "goal": "建立场景空间，展示高家正堂的体面与局促，木雁作为视觉焦点预示冲突",
+    "composition": "正堂全景，木雁居中前景，金银绸缎对称陈列两侧，人物分布：媒人居中，沈词立于其后，高父侧身，女主尚未入画，光线从窗棂斜射形成明暗对比",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑的仪式感，暗藏的不安",
+    "duration_hint": "3-4s",
+    "characters": [
+      "媒人",
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 0
+  },
+  {
+    "id": "shot_0001",
+    "scene_id": "scene_000",
+    "shot_number": 2,
+    "goal": "女主视角锁定木雁，通过眉头微蹙暗示前世记忆触发",
+    "composition": "女主中特写，侧面45度角，视线向下望向画外木雁，眉间微蹙，背景虚化，颈侧疤痕隐约可见",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "隐忍的厌恶与警觉",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.35,
+    "order": 1
+  },
+  {
+    "id": "shot_0002",
+    "scene_id": "scene_000",
+    "shot_number": 3,
+    "goal": "木雁特写，承载前世记忆的物件符号",
+    "composition": "木雁极特写，占据画面中心，雕刻纹理清晰，背景完全虚化，光线勾勒边缘",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "物件的冰冷质感对应情感的僵硬",
+    "duration_hint": "1.5s",
+    "characters": [],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 2
+  },
+  {
+    "id": "shot_0003",
+    "scene_id": "scene_000",
+    "shot_number": 4,
+    "goal": "高父讨好姿态，展示权力关系的不对等",
+    "composition": "高父中景，身体前倾向媒人方向，双手微抬做恭敬状，媒人占据画面右侧1/3，背景沈词虚化但可见轮廓",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "卑微的谄媚与焦虑",
+    "duration_hint": "3s",
+    "characters": [
+      "高父",
+      "媒人",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 3
+  },
+  {
+    "id": "shot_0004",
+    "scene_id": "scene_000",
+    "shot_number": 5,
+    "goal": "沈词的冷漠姿态，垂眼不语强化高门傲慢",
+    "composition": "沈词中全景，长身玉立于画面中心偏后，垂眼望向地面，双手负于身后，月白长袍与深色背景形成对比，媒人背影占据前景左侧",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "疏离的优越感与漠然",
+    "duration_hint": "2.5s",
+    "characters": [
+      "沈词",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.25,
+    "order": 4
+  },
+  {
+    "id": "shot_0005",
+    "scene_id": "scene_000",
+    "shot_number": 6,
+    "goal": "女主入场，脚步声先行（J-cut音效），打破静态平衡",
+    "composition": "女主背影中景，从画面右侧入画走向堂前，沈词位于画面深处正对女主方向但仍垂眼，媒人和高父分列两侧",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "紧张感升级，冲突即将爆发",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词",
+      "媒人",
+      "高父"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 5
+  },
+  {
+    "id": "shot_0006",
+    "scene_id": "scene_000",
+    "shot_number": 7,
+    "goal": "女主推还木雁的决定性动作，冲突爆发点",
+    "composition": "女主手部特写，纤细手指推动木雁向媒人方向，木雁占据前景，背景虚化但可见媒人震惊表情",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "决绝与挑衅",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 6
+  },
+  {
+    "id": "shot_0007",
+    "scene_id": "scene_000",
+    "shot_number": 8,
+    "goal": "沈词骤然抬眼的反应，眼中涟漪暗示情绪波动",
+    "composition": "沈词面部特写，眼睛从垂眼状态抬起的瞬间，瞳孔微缩，眼中涟漪泛起，眉间微蹙，背景完全虚化",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震惊与压抑的怒意",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 7
+  },
+  {
+    "id": "shot_0008",
+    "scene_id": "scene_000",
+    "shot_number": 9,
+    "goal": "高父拍案暴怒，权威崩塌的瞬间",
+    "composition": "高父中景，从坐姿猛然站起，手掌拍击桌面，身体前倾，面部涨红，背景女主背影占据画面右侧",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "恐惧转化为愤怒的失控",
+    "duration_hint": "1.5s",
+    "characters": [
+      "高父",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 8
+  },
+  {
+    "id": "shot_0009",
+    "scene_id": "scene_000",
+    "shot_number": 10,
+    "goal": "媒人试图调解，展示局面的尴尬与紧张",
+    "composition": "媒人中景，双手微抬做安抚状，面向女主方向，表情尴尬，前景木雁虚化，背景高父和沈词分列两侧",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "尴尬与焦虑",
+    "duration_hint": "3s",
+    "characters": [
+      "媒人",
+      "我/女主/高家长女",
+      "高父",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 9
+  },
+  {
+    "id": "shot_0010",
+    "scene_id": "scene_000",
+    "shot_number": 11,
+    "goal": "女主正面对峙，以退为进的挑衅",
+    "composition": "女主中特写，正面直视镜头（代表沈词视角），眉眼冷静带锋芒，嘴角微扬，颈侧疤痕清晰可见，背景完全虚化",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷静的挑衅与报复快感",
+    "duration_hint": "2.5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 10
+  },
+  {
+    "id": "shot_0011",
+    "scene_id": "scene_000",
+    "shot_number": 12,
+    "goal": "沈词压抑怒意的回应，眼中讥诮冷薄",
+    "composition": "沈词中特写，正面直视镜头（代表女主视角），眉间紧蹙，嘴角抿紧，眼神冷峻带讥诮，下颌线紧绷，背景虚化",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "压抑的愤怒与轻蔑",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 11
+  },
+  {
+    "id": "shot_0012",
+    "scene_id": "scene_000",
+    "shot_number": 13,
+    "goal": "正堂全景收尾，四人对峙的权力格局重构",
+    "composition": "正堂全景，女主与沈词对视占据画面中轴线两端，媒人和高父分列两侧显局促，木雁位于前景中心，光线更加阴沉",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑的对峙与暗流涌动",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词",
+      "媒人",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.75,
+    "order": 12
+  }
+]

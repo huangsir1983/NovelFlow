@@ -1,0 +1,289 @@
+```json
+[
+  {
+    "name": "高令宁",
+    "aliases": ["令宁", "高姑娘", "高小姐", "沈夫人"],
+    "role": "protagonist",
+    "age_range": "16-40岁（跨越重生前后）",
+    "appearance": {
+      "face": "未详细描述，但暗示端庄秀丽",
+      "body": "纤细，因操劳过度曾消瘦",
+      "hair": "传统发髻",
+      "distinguishing_features": "眼神坚毅，气质要强"
+    },
+    "costume": {
+      "typical_outfit": "古代女子传统服饰，婚服为红色喜服",
+      "color_palette": ["素色", "红色（婚服）"]
+    },
+    "casting_tags": ["坚韧", "高傲", "争强好胜", "母性"],
+    "visual_reference": "A dignified young Chinese woman in her 20s, traditional hanfu dress, determined eyes, proud posture, ancient dynasty setting",
+    "personality": "争强好胜，自尊心极强，不愿示弱，眼里容不得沙子。重生后变得更加理智冷静，懂得放手。十四岁起管家，能力出众但过于要强。",
+    "desire": "前世追求被认可和真心对待，渴望夫君真心；重生后只想见儿子一面，之后追求自由和解脱。",
+    "flaw": "过于高傲和要强，宁愿对权贵下跪也不向丈夫示弱；防备心重，难以真正信任他人。",
+    "arc": "前世：爱慕沈词→嫁入豪门→以死抗争→操劳成疾→互相怨恨→中年丧子→临终诅咒。重生：冷静算计→为子成婚→坚持和离→放下仇恨→追求自由→获得新生。",
+    "scene_presence": "贯穿全文主线。关键场景：拒绝聘礼、婚礼、洞房、早产难产、和离、江南隐居、与沈词最终纠缠。",
+    "relationships": [
+      {"target": "沈词", "type": "情感+权力", "dynamic": "前世夫妻互相折磨，重生后从怨恨到放下", "function": "核心冲突制造者"},
+      {"target": "沈睿", "type": "情感", "dynamic": "深爱长子，为他愿意再嫁沈词", "function": "行为动机"},
+      {"target": "昭昭", "type": "情感", "dynamic": "母女深情，视为新生希望", "function": "情感寄托"},
+      {"target": "陆姝仪", "type": "对照+利益", "dynamic": "情敌关系，从对抗到理解", "function": "情感障碍"},
+      {"target": "父亲", "type": "情感", "dynamic": "父女情深，父亲全力保护", "function": "情感支撑"}
+    ]
+  },
+  {
+    "name": "沈词",
+    "aliases": ["沈公子", "沈大人", "阿词"],
+    "role": "protagonist",
+    "age_range": "18-42岁（跨越重生前后）",
+    "appearance": {
+      "face": "如玉的面庞，白净，琥珀色眸子",
+      "body": "长身玉立，笔直的脊背",
+      "hair": "传统男子发髻",
+      "distinguishing_features": "冷如冰湖的眼神，端方持重的气质"
+    },
+    "costume": {
+      "typical_outfit": "文官服饰，儒雅长袍",
+      "color_palette": ["青色", "墨色"]
+    },
+    "casting_tags": ["冷峻", "权贵", "矛盾", "深情"],
+    "visual_reference": "A handsome Chinese scholar-official in his late 20s, jade-like features, amber eyes, cold demeanor, traditional official robes, ancient dynasty",
+    "personality": "表面冷淡端正，内心矛盾挣扎。三榜进士，文臣，为人端方持重。对陆姝仪有特殊感情但否认，对高令宁态度复杂从冷漠到执着。重生后更加珍惜但仍傲娇。",
+    "desire": "前世想要陆姝仪和沈睿兼得；重生后想要沈睿出生，后期转变为想要挽回高令宁。",
+    "flaw": "感情不坦诚，口是心非，对陆姝仪的感情暧昧不清，伤害了高令宁却不自知。过于在意家族利益和儿子。",
+    "arc": "前世：娶高令宁为陆姝仪→冷待妻子→陆姝仪死后迁怒→与妻互相折磨→临终守护。重生：算计成婚→冷淡对待→误会加深→女儿出生转变→执着挽回→卑微纠缠。",
+    "scene_presence": "男主角贯穿全文。关键场景：提亲、婚礼、洞房、陆姝仪事件、难产抉择、和离后纠缠、江南追妻。",
+    "relationships": [
+      {"target": "高令宁", "type": "情感+权力", "dynamic": "从算计利用到真心挽回", "function": "核心情感线"},
+      {"target": "陆姝仪", "type": "情感", "dynamic": "青梅竹马，感情暧昧但否认", "function": "情感障碍"},
+      {"target": "沈睿", "type": "情感", "dynamic": "父子情深，为子可舍弃一切", "function": "行为动机"},
+      {"target": "昭昭", "type": "情感", "dynamic": "父女情深，极尽宠爱", "function": "情感转折点"},
+      {"target": "沈母", "type": "权力", "dynamic": "母子关系，受母亲影响", "function": "外部压力"}
+    ]
+  },
+  {
+    "name": "陆姝仪",
+    "aliases": ["姝仪", "表小姐", "义妹"],
+    "role": "antagonist",
+    "age_range": "16-35岁（跨越重生前后）",
+    "appearance": {
+      "face": "温婉清丽，楚楚可怜",
+      "body": "柔弱纤细",
+      "hair": "传统发髻",
+      "distinguishing_features": "泪眼盈盈，惹人怜爱"
+    },
+    "costume": {
+      "typical_outfit": "粉色衣裙，素雅服饰",
+      "color_palette": ["粉色", "素色"]
+    },
+    "casting_tags": ["柔弱", "心机", "可怜", "复杂"],
+    "visual_reference": "A delicate Chinese woman in her early 20s, gentle features, tearful eyes, pink hanfu dress, fragile appearance, ancient dynasty",
+    "personality": "表面柔弱温婉，实则有心机和手段。自小寄人篱下，渴望被爱和安全感。重生后为自保不择手段，但最终承认错误。",
+    "desire": "前世想成为沈词的妻子，得到真正的归属；重生后想要一个好夫婿和安稳生活。",
+    "flaw": "过于依赖他人，为达目的不择手段，陷害高令宁。自怜自艾，将自己的不幸归咎于他人。",
+    "arc": "前世：被沈词救回→住进沈府→被高令宁阻止成为平妻→投湖自尽。重生：继续依附沈家→设计陷害高令宁和蒋晟→嫁给蒋晟→婚后不幸→最终忏悔。",
+    "scene_presence": "关键冲突制造者。出现场景：提亲时、马球会、敬茶事件、心口痛、陷害事件、满月宴忏悔。",
+    "relationships": [
+      {"target": "沈词", "type": "情感", "dynamic": "青梅竹马，单方面深爱", "function": "情感纠葛核心"},
+      {"target": "高令宁", "type": "对照+利益", "dynamic": "从敌对到忏悔", "function": "主要对手"},
+      {"target": "蒋晟", "type": "利益", "dynamic": "设计成婚但婚后冷淡", "function": "命运转折"},
+      {"target": "沈母", "type": "权力", "dynamic": "依附关系", "function": "生存依靠"}
+    ]
+  },
+  {
+    "name": "沈睿",
+    "aliases": ["睿儿", "长子"],
+    "role": "supporting",
+    "age_range": "0-28岁（前世）",
+    "appearance": {
+      "face": "未详细描述，暗示俊秀",
+      "body": "未详细描述",
+      "hair": "传统男子发髻",
+      "distinguishing_features": "天生神童的气质"
+    },
+    "costume": {
+      "typical_outfit": "儒生服饰，官服",
+      "color_palette": ["青色", "官服色"]
+    },
+    "casting_tags": ["神童", "孝顺", "早逝", "才华"],
+    "visual_reference": "A brilliant young Chinese scholar in his 20s, refined features, scholarly robes, gentle demeanor, ancient dynasty official",
+    "personality": "天生神童，聪慧过人，孝顺懂事。三岁吟诗，五岁通史，十五岁中进士。性格温和，关心父母，临终前仍为父母担忧。",
+    "desire": "希望父母和睦，不再争吵；希望母亲不要为自己受委屈。",
+    "flaw": "过于为父母着想，将父母的不和归咎于自己的存在。",
+    "arc": "前世：出生→神童成长→少年成名→朝中权臣→病重→临终劝和父母→二十八岁早逝。重生：尚未出生（以女儿昭昭形式重生）。",
+    "scene_presence": "前世回忆中出现，作为高令宁和沈词重生动机的核心。关键场景：临终劝和父母、梦中送粥。",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "母子情深，是母亲的精神支柱", "function": "情感动机"},
+      {"target": "沈词", "type": "情感", "dynamic": "父子情深，是父亲的骄傲", "function": "行为动机"},
+      {"target": "静好（妹妹）", "type": "情感", "dynamic": "兄妹情深，为妹妹之死痛苦", "function": "家庭悲剧"}
+    ]
+  },
+  {
+    "name": "昭昭",
+    "aliases": ["小千金", "女儿"],
+    "role": "supporting",
+    "age_range": "0-3岁",
+    "appearance": {
+      "face": "漂亮，稚嫩",
+      "body": "幼童体型",
+      "hair": "幼童发型",
+      "distinguishing_features": "活泼可爱"
+    },
+    "costume": {
+      "typical_outfit": "幼童服饰，虎头帽",
+      "color_palette": ["鲜艳色彩"]
+    },
+    "casting_tags": ["可爱", "聪慧", "活泼"],
+    "visual_reference": "A cute Chinese toddler girl around 3 years old, bright eyes, colorful traditional children's clothing, playful expression, ancient dynasty",
+    "personality": "活泼开朗，聪明伶俐。能蹦能跳，唐诗三百首倒背如流。喜欢花朵、珠宝，也喜欢研究史论国策。",
+    "desire": "享受童年，得到父母的爱。",
+    "flaw": "年幼无知，不理解父母的复杂关系。",
+    "arc": "早产出生（本应是儿子沈睿）→满月宴→随母亲去江南→三岁时与父亲相认。",
+    "scene_presence": "重生后的新生命，代表希望。关键场景：难产出生、满月宴、江南生活、堆雪人。",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "母女情深，是母亲的新希望", "function": "情感寄托"},
+      {"target": "沈词", "type": "情感", "dynamic": "父女情深，父亲极尽宠爱", "function": "情感纽带"},
+      {"target": "沈睿", "type": "对照", "dynamic": "替代了哥哥的位置出生", "function": "命运转折"}
+    ]
+  },
+  {
+    "name": "高父",
+    "aliases": ["父亲", "爹爹"],
+    "role": "supporting",
+    "age_range": "40-60岁",
+    "appearance": {
+      "face": "眼角皱纹增多，慈祥",
+      "body": "中年体态",
+      "hair": "花白",
+      "distinguishing_features": "慈父形象"
+    },
+    "costume": {
+      "typical_outfit": "四品官服，后辞官着便服",
+      "color_palette": ["官服色", "素色"]
+    },
+    "casting_tags": ["慈父", "护女", "正直"],
+    "visual_reference": "A middle-aged Chinese father in his 50s, kind face, traditional scholar's robes, protective demeanor, ancient dynasty",
+    "personality": "慈爱护女，正直善良。官居四品，后听女儿劝告辞官。对女儿极其疼爱，宁愿得罪沈家也要保护女儿。",
+    "desire": "希望女儿平安喜乐，觅得良人。",
+    "flaw": "前世卷入党争被流放，连累家人。",
+    "arc": "前世：四品官员→卷入党争→下狱流放→家破人亡。重生：听女儿劝告辞官→保护女儿→对抗沈家→陪女儿去江南。",
+    "scene_presence": "保护女儿的坚实后盾。关键场景：提亲、辞官、对抗沈家、陪女儿去江南。",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "父女情深，全力保护", "function": "情感支撑"},
+      {"target": "沈词", "type": "权力", "dynamic": "从欣赏到失望对抗", "function": "外部压力"},
+      {"target": "蒋晟", "type": "利益", "dynamic": "师徒关系，曾想招为女婿", "function": "备选方案"}
+    ]
+  },
+  {
+    "name": "蒋晟",
+    "aliases": ["蒋公子"],
+    "role": "minor",
+    "age_range": "20-25岁",
+    "appearance": {
+      "face": "老实相貌",
+      "body": "习武之人体格",
+      "hair": "传统男子发髻",
+      "distinguishing_features": "武人气质"
+    },
+    "costume": {
+      "typical_outfit": "儒生服饰",
+      "color_palette": ["素色"]
+    },
+    "casting_tags": ["老实", "武人", "被陷害"],
+    "visual_reference": "An honest young Chinese martial artist in his early 20s, sturdy build, traditional scholar's clothing, sincere expression, ancient dynasty",
+    "personality": "为人老实，家境殷实。习武之人，处处护着高令宁。被陷害后对陆姝仪冷淡。",
+    "desire": "娶高令宁为妻（前期），后被迫娶陆姝仪。",
+    "flaw": "过于老实，容易被利用。",
+    "arc": "高父门生→追求高令宁→马球会护着高令宁→被陷害与陆姝仪失贞→被迫娶陆姝仪→婚后冷待妻子。",
+    "scene_presence": "次要角色，陷害事件的受害者。关键场景：马球会、被陷害、被迫成婚。",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "单方面爱慕，后成为陷害工具", "function": "备选对象"},
+      {"target": "陆姝仪", "type": "利益", "dynamic": "被迫成婚，婚后冷淡", "function": "受害者"},
+      {"target": "高父", "type": "利益", "dynamic": "师徒关系", "function": "引入角色"}
+    ]
+  },
+  {
+    "name": "沈母",
+    "aliases": ["婆婆"],
+    "role": "minor",
+    "age_range": "45-65岁",
+    "appearance": {
+      "face": "未详细描述",
+      "body": "贵妇体态",
+      "hair": "传统发髻",
+      "distinguishing_features": "高门贵妇气质"
+    },
+    "costume": {
+      "typical_outfit": "贵妇服饰",
+      "color_palette": ["华贵色彩"]
+    },
+    "casting_tags": ["势利", "传统", "婆婆"],
+    "visual_reference": "A noble Chinese matriarch in her 50s, elegant traditional robes, authoritative presence, ancient dynasty aristocrat",
+    "personality": "势利眼，看重门第和利益。想让陆姝仪做平妻，被高令宁以死抗争后被吓病。为陆姝仪择婿时只考虑门面。",
+    "desire": "维护沈家利益和面子，希望儿子娶门当户对的妻子。",
+    "flaw": "过于势利，不顾儿媳感受，导致家庭矛盾。",
+    "arc": "前世：让陆姝仪敬茶→被高令宁以死抗争吓病→失去管家权。重生：安排聘礼→想接走孙女→被高父拒绝。",
+    "scene_presence": "次要角色，制造矛盾。关键场景：敬茶事件、为陆姝仪择婿、想接走孙女。",
+    "relationships": [
+      {"target": "沈词", "type": "权力", "dynamic": "母子关系，影响儿子决策", "function": "外部压力"},
+      {"target": "高令宁", "type": "权力", "dynamic": "婆媳矛盾，互相对抗", "function": "冲突制造"},
+      {"target": "陆姝仪", "type": "利益", "dynamic": "姨甥关系，想利用她", "function": "利益工具"}
+    ]
+  },
+  {
+    "name": "静好",
+    "aliases": ["女儿", "妹妹"],
+    "role": "minor",
+    "age_range": "0岁（胎儿/死婴）",
+    "appearance": {
+      "face": "未出生即夭折",
+      "body": "胎儿",
+      "hair": "无",
+      "distinguishing_features": "未能存活"
+    },
+    "costume": {
+      "typical_outfit": "无",
+      "color_palette": []
+    },
+    "casting_tags": ["悲剧", "夭折", "遗憾"],
+    "visual_reference": "An unborn child, tragic loss, ancient dynasty family tragedy",
+    "personality": "未能出生，无法展现性格。",
+    "desire": "无（未能存活）。",
+    "flaw": "无。",
+    "arc": "前世：被孕育→因父母争吵伤了胎气→出生时已无呼吸→成为父母永远的痛。",
+    "scene_presence": "前世回忆中的悲剧。关键场景：父母争吵导致流产、死婴出生。",
+    "relationships": [
+      {"target": "高令宁", "type": "情感", "dynamic": "母女情深但未能相见", "function": "悲剧象征"},
+      {"target": "沈词", "type": "情感", "dynamic": "父女情深但未能相见", "function": "悲剧象征"},
+      {"target": "沈睿", "type": "情感", "dynamic": "兄妹关系，哥哥为妹妹之死痛苦", "function": "家庭悲剧"}
+    ]
+  },
+  {
+    "name": "江南赘婿们",
+    "aliases": ["新夫婿", "赘婿"],
+    "role": "minor",
+    "age_range": "25-35岁",
+    "appearance": {
+      "face": "相貌出众",
+      "body": "未详细描述",
+      "hair": "传统男子发髻",
+      "distinguishing_features": "多人，相貌出众"
+    },
+    "costume": {
+      "typical_outfit": "文人服饰",
+      "color_palette": ["素色"]
+    },
+    "casting_tags": ["工具人", "陪衬"],
+    "visual_reference": "Several handsome young Chinese men in their late 20s, scholar's robes, gentle demeanor, ancient dynasty",
+    "personality": "温和体贴，陪伴高令宁和昭昭。",
+    "desire": "成为高令宁的夫婿。",
+    "flaw": "缺乏个性，只是工具人角色。",
+    "arc": "被高父挑选→住进高家→陪伴高令宁和昭昭→刺激沈词。",
+    "scene_presence": "江南隐居期间出现，作为刺激沈词的工具。关键场景：堆雪人、陪伴高令宁。",
+    "relationships": [
+      {"target": "高令宁", "type": "利益", "dynamic": "备选夫婿，陪伴关系", "function": "刺激沈词"},
+      {"target": "沈词", "type": "对照", "dynamic": "情敌关系", "function": "冲突制造"},
+      {"target": "昭昭", "type": "情感", "dynamic": "陪伴玩耍", "function": "父亲替代"}
+    ]
+  }
+]
+```

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_006",
+  "name": "高府门前",
+  "type": "exterior",
+  "era_style": "明代中晚期京城官宦府邸门前街道",
+  "description": "高府门前是京城大宅典型的门第展示界面，青灰石阶抬升主门，两侧或有抱鼓石与厚重木门，门楣简肃端正。门前街道不宽，能看到街边药铺招牌、来往车马和风吹帘角，说明这是官宅聚集区而非闹市中心。空间重点在台阶与门前停驻区域，人物一上一步下即可构成权力关系。周边环境以灰墙黛瓦、尘土轻扬和车马停靠的短暂混乱感为主，适合冷硬谈判。",
+  "visual_reference": "Late Ming dynasty Beijing official residence gate exterior, stone steps, heavy wooden gate, grey brick walls, nearby herbal medicine shop sign, parked carriage with fluttering curtain, muted urban street, restrained noble facade, tense ex-lovers negotiating at mansion entrance, daylight, cinematic historical realism, detailed architecture and costume scale",
+  "atmosphere": "冷峻、公开对峙、体面之下的决裂",
+  "color_palette": [
+    "青灰石色",
+    "黛瓦灰",
+    "褐色车马木料"
+  ],
+  "lighting": "日间户外自然光直接照射，石阶和门框边缘清晰，风吹帘角带来轻微动态感，整体清冷干燥。",
+  "key_features": [
+    "高宅石阶与厚门",
+    "街边药铺招牌",
+    "车马与风吹帘角"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从门第体面空间转化为婚姻条款化、情感彻底冰封的谈判场。"
+}

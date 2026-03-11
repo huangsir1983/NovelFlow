@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_003",
+  "order": 5,
+  "heading": "INT. 高家前厅 - DAY",
+  "location": "高家前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈府小厮"
+  ],
+  "core_event": "高令宁得知沈词认陆姝仪为义妹，当即放话：只有这位“义妹”先嫁出去，她才答应婚事。",
+  "key_dialogue": "「贵府小姐出嫁后，我才会答应这门亲事。」",
+  "emotional_peak": "女主公开将陆姝仪婚事设为沈家必须完成的前置条件。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "传话帖子",
+    "桌案",
+    "茶盏",
+    "门帘",
+    "小厮腰牌"
+  ],
+  "dramatic_purpose": "升级婚前条件，把情敌问题摆上台面"
+}

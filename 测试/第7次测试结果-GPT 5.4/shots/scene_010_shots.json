@@ -1,0 +1,261 @@
+[
+  {
+    "id": "shot_0159",
+    "scene_id": "scene_010",
+    "shot_number": 1,
+    "goal": "建立寝屋内的封闭压抑关系格局，明确火盆居中、两人分处冷暖边界，预告这场善意将被当众毁弃。",
+    "composition": "FS，门内斜侧视角。前景左侧虚化门框与半垂帘幕形成遮挡，中景中央是火盆，火光为唯一视觉核心；右后方靠火盆处沈词立于画面右三分之一，身形挺直，半张脸被火光切亮；左侧外缘高令宁站在阴影里，占画面左三分之一，手中捧着寝衣与食盒。背景可见案几、针线箩、叠放衣物与墙上烛影，纵深被屏风压缩。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、不祥、关系被礼法与空间切开的窒息感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 159
+  },
+  {
+    "id": "shot_0160",
+    "scene_id": "scene_010",
+    "shot_number": 2,
+    "goal": "以女主主观体感展示她小心摆出修补关系的心意，并交代关键道具。",
+    "composition": "MS，偏高令宁近主观角度看向火盆前地面与矮案。前景是她入画的手与衣袖，从画面左下伸入；中景依次摆开寝衣、鞋子、食盒；火盆在右侧近中景跳动，暖光舔到布料边缘。背景里沈词仅见下摆与站姿，不给正脸，保持审视压迫感。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "克制讨好中的卑微与试探",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 160
+  },
+  {
+    "id": "shot_0161",
+    "scene_id": "scene_010",
+    "shot_number": 3,
+    "goal": "强调高令宁的动作克制与手工心意，给之后的毁弃建立价值落差。",
+    "composition": "CU，寝衣布料与高令宁的手。主体位于画面中央偏左，她指尖抚平衣褶，针脚细密可见；鞋子在下方虚实之间，针线箩压在背景左后。火光从右侧打出暖边，手背却仍偏冷白，形成情绪反差。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心酸、珍重、善意被郑重递出前的脆弱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 161
+  },
+  {
+    "id": "shot_0162",
+    "scene_id": "scene_010",
+    "shot_number": 4,
+    "goal": "交代沈词并未接纳，甚至不愿低头看，建立他冷硬拒绝的起点。",
+    "composition": "MCU，沈词位于画面右侧，肩线朝左，视线却停在高令宁之外的虚空处，不看道具。前景左侧虚化着寝衣边角闯入，构成他主动回避的视觉关系；背景是火光与墙上尖锐影子，将其轮廓切得更硬。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被轻蔑、被拒斥、对方早已预设恶意",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.53,
+    "order": 162
+  },
+  {
+    "id": "shot_0163",
+    "scene_id": "scene_010",
+    "shot_number": 5,
+    "goal": "用女主反应承接台词，先让观众落在她的受刺感，再听到羞辱内容。",
+    "composition": "MCU，高令宁位于画面左中，面朝右。火盆暖光在她眼底闪动，脸部其余部分陷在冷影里；前景右侧有沈词模糊肩线压入，形成被逼问的主观压迫。她唇线绷紧，呼吸极轻，仍维持递出姿态。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "刺痛、难堪、强撑不退",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.6,
+    "order": 163
+  },
+  {
+    "id": "shot_0164",
+    "scene_id": "scene_010",
+    "shot_number": 6,
+    "goal": "正面抛出沈词的羞辱性台词，明确冲突本质不是物，而是不信任与反刺。",
+    "composition": "MCU，标准正反打轴线内。沈词位于画面右三分之一，面向左侧镜外高令宁；火盆下缘进入画面底部，火焰跳动映照他下颌与唇线。背景烛火虚化成两点，像冷眼旁观。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "锋利、羞辱、审判感",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.67,
+    "order": 164
+  },
+  {
+    "id": "shot_0165",
+    "scene_id": "scene_010",
+    "shot_number": 7,
+    "goal": "展示高令宁被当面质疑后的冻结反应，强化她并非辩解而是把痛吞回去。",
+    "composition": "CU，高令宁正面偏侧，位于画面中央稍左，眼睛看向镜外右侧。前景下方仍有她递出的衣袖和食盒边缘；背景火光轻晃，映出她眼尾一点湿亮但不落泪。颈侧淡痕在转头时短暂被光勾出。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "委屈被压住后的倔强与危险平静",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 165
+  },
+  {
+    "id": "shot_0166",
+    "scene_id": "scene_010",
+    "shot_number": 8,
+    "goal": "把沈词的失控从语言升级到动作，展示毁弃善意的决定性瞬间。",
+    "composition": "MS，轴线同侧。沈词从画面右侧俯身入中景，手臂迅速探向画面左下的寝衣与鞋子；火盆占画面中央，形成明确目标。高令宁站在左后方半虚焦，未及反应。动作线从右向中，保持场内方向一致。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "突发、粗暴、关系骤然断裂的惊悚感",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.81,
+    "order": 166
+  },
+  {
+    "id": "shot_0167",
+    "scene_id": "scene_010",
+    "shot_number": 9,
+    "goal": "用近距离物件暴力具象化‘善意被烧毁’，让毁灭不可逆。",
+    "composition": "CU，火盆上方斜俯视。寝衣与鞋子从画面右上被甩入中央火盆，布料边缘瞬间卷曲发黑；火舌吞没针脚与鞋尖。背景全黑，只剩炭火爆亮与灰烬飞起。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "痛感、不可挽回、近乎侮辱性的残酷",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.92,
+    "order": 167
+  },
+  {
+    "id": "shot_0168",
+    "scene_id": "scene_010",
+    "shot_number": 10,
+    "goal": "把火焰的毁灭映入高令宁眼中，完成外部事件到内部创伤的转换。",
+    "composition": "ECU，高令宁单眼与半侧鼻梁占满画面，火光在瞳孔中翻卷，睫毛微颤。画面边缘保留少量冷影，突出她眼中那团火。无需泪落，只表现眼底被灼伤般的僵冷。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "心被烧穿却强行维持体面的剧烈刺痛",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 168
+  },
+  {
+    "id": "shot_0169",
+    "scene_id": "scene_010",
+    "shot_number": 11,
+    "goal": "补足沈词对剩余善意的处理：不是全烧，而是冷冷推开，表明拒绝的是她的靠近本身。",
+    "composition": "CU，食盒位于画面中央偏左，沈词的手从右侧入画，将其猛地推向画面左边缘，盒身碰地轻晃未翻。背景下方仍可见火盆余焰，前景一角是高令宁静止的裙摆。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "轻蔑、否认、把人的心意当作障碍物处理",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 169
+  },
+  {
+    "id": "shot_0170",
+    "scene_id": "scene_010",
+    "shot_number": 12,
+    "goal": "捕捉高令宁冻结后的生理细节，表现她被羞辱后仍不肯退一步的意志。",
+    "composition": "CU，她悬在半空的手占画面中央，指尖朝右，微微发颤；袖口整洁，与背景里翻涌的火光形成强烈对照。画面上方虚化出她下颌线，显示整个人仍挺着，没有垮下去。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "僵直、克制、几乎要折断却硬撑的尊严",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 170
+  },
+  {
+    "id": "shot_0171",
+    "scene_id": "scene_010",
+    "shot_number": 13,
+    "goal": "回到双人关系镜头，确认决裂完成：她不退，他也不收回。",
+    "composition": "MLS，仍保持初始轴线。火盆居中偏下，形成两人之间的明亮隔断；高令宁站画面左侧，手缓缓收回却脚下未动；沈词在右侧背身半侧，对她保持冷硬距离。前景左有针线箩虚化，右后背景是屏风与烛影，整个空间更显狭窄。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "冷战定型、彼此都不肯示弱的绝望",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 171
+  },
+  {
+    "id": "shot_0172",
+    "scene_id": "scene_010",
+    "shot_number": 14,
+    "goal": "以短暂回冷收束本场，让火盆成为关系毁灭后的余烬象征，为下场衔接留余味。",
+    "composition": "CU，火盆内烧焦的寝衣残片塌陷在炭火上，鞋面纹理已焦黑难辨。画面左后虚焦可见高令宁静立的浅色衣摆，右后虚焦是沈词暗色袍角，两人都不再动。火光减弱，阴影反而更尖。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "余烬般的冷、无声的决裂、残局已成",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 172
+  }
+]

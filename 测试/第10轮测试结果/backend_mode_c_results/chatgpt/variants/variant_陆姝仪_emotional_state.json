@@ -1,0 +1,33 @@
+{
+  "variant_id": "lu_shuyi_variant_06",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 失贞风波中的哭诉者",
+  "tags": [
+    "失贞事件",
+    "名声危机",
+    "哭诉",
+    "受害者姿态",
+    "局面操纵"
+  ],
+  "scene_ids": [
+    "scene_016",
+    "scene_017"
+  ],
+  "trigger": "在高府厢房被发现昏迷且衣冠不整后，她于正厅哭诉自己被设计失贞，成为整场名声灾难的中心人物。",
+  "appearance_delta": {
+    "face": "妆容与神情都更狼狈，泪痕清晰，惊惶、羞耻与委屈交织，受害者姿态极强。",
+    "body": "体态虚软，像受惊后站立不稳，整个人呈现被巨变击垮的脆弱感。",
+    "hair": "发髻散乱程度明显高于主设定，鬓边碎发垂落，呼应厢房被发现后的失序。",
+    "distinguishing_features": "衣冠不整后的仓促整理感、手帕拭泪、哭诉时几乎站不住，是这一状态的核心标记。"
+  },
+  "costume_override": {
+    "outfit": "原有衣裙被拉扯弄乱，虽经整理仍显凌乱失序，衣襟袖口不再齐整，强化名节受损的戏剧性。",
+    "color_palette": [
+      "乳白",
+      "浅杏",
+      "粉色"
+    ]
+  },
+  "visual_reference": "young ancient chinese woman after a scandal, delicate soft features, eyes full of tears, pale face with obvious crying marks, fragile body barely standing, traditional hanfu disordered and hastily rearranged, black hair messily loosened with fallen pearl ornaments, clutching a handkerchief, shame and panic mixed with helpless victim posture, chinese hall at night, intense family accusation scene, cinematic dramatic lighting, ultra detailed",
+  "emotional_tone": "惊惶哭诉、脆弱却危险"
+}

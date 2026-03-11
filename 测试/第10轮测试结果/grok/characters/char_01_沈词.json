@@ -1,0 +1,55 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "supporting",
+  "age_range": "20-25",
+  "appearance": {
+    "face": "俊美如玉，清冷端方，薄唇微抿",
+    "body": "长身玉立，气质卓然",
+    "hair": "墨黑长发，以玉冠束起",
+    "distinguishing_features": "琥珀色冷眸，偶尔流露痛色与温柔"
+  },
+  "costume": {
+    "typical_outfit": "深色文人锦袍，配玉佩",
+    "color_palette": [
+      "深蓝",
+      "玄黑",
+      "白"
+    ]
+  },
+  "casting_tags": [
+    "古风冷峻美男",
+    "重生书生",
+    "痴情追妻"
+  ],
+  "visual_reference": "Handsome young Chinese scholar 20-25, cold amber eyes with sharp jawline, elegant pale features, tall slender build, long black hair neatly tied with jade guan, wearing dark blue historical scholar robes with white accents, aloof yet heartbroken expression, cinematic ancient Chinese drama, ultra detailed",
+  "personality": "清冷端正、尖锐刻薄、情感压抑",
+  "desire": "保护儿子、让陆姝仪顺遂、最终挽回妻子",
+  "flaw": "偏执冷漠、不会表达真心、容易误会",
+  "arc": "从冷待报复到疯狂纠缠、跪求不放手",
+  "scene_presence": "贯穿全剧，与女主对戏最多，从提亲到江南深夜爬床",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前世今生妻子",
+      "dynamic": "互相提防到深爱追妻",
+      "function": "情感核心与救赎线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅义妹",
+      "dynamic": "兄妹情谊被误会",
+      "function": "冲突催化剂"
+    },
+    {
+      "target": "昭昭",
+      "type": "女儿",
+      "dynamic": "深沉父爱",
+      "function": "挽留理由"
+    }
+  ]
+}

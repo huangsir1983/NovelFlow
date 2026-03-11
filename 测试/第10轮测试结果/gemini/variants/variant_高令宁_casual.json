@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_04_jiangnan",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南自由时期",
+  "tags": [
+    "慵懒",
+    "素雅",
+    "自由",
+    "松弛"
+  ],
+  "scene_ids": [
+    "scene_018",
+    "scene_019"
+  ],
+  "trigger": "和离三年后在江南生活，拥有了女儿和新夫婿，彻底摆脱过去的阴霾",
+  "appearance_delta": {
+    "face": "面色红润，神态彻底放松，眼神中不再有防备和恨意，对沈词只剩不耐烦与无视",
+    "body": "恢复纤细匀称，姿态慵懒随意",
+    "hair": "不梳复杂发髻，乌黑长发慵懒散落，仅用一根木簪或发带简单挽起",
+    "distinguishing_features": "气质发生翻天覆地的变化，从紧绷的当家主母变成随性洒脱的江南女子"
+  },
+  "costume_override": {
+    "outfit": "素雅宽松的棉麻裙衫，没有繁复的刺绣和装饰，注重舒适度",
+    "color_palette": [
+      "素色",
+      "浅青",
+      "亚麻色"
+    ]
+  },
+  "visual_reference": "A beautiful young ancient Chinese woman living in Jiangnan, completely relaxed and lazy, wearing simple and loose cotton and linen Hanfu dress in pale green and beige, long black hair loosely tied with a simple wooden hairpin, soft natural daylight, snowy courtyard background, peaceful and free atmosphere, 8k resolution, photorealistic.",
+  "emotional_tone": "松弛、自由、对过去的彻底释怀与无视"
+}

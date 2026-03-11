@@ -1,0 +1,40 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-28",
+  "appearance": {
+    "face": "正直阳光，眉目端正",
+    "body": "健壮结实，习武体格",
+    "hair": "短束黑发",
+    "distinguishing_features": "微红脸颊与老实眼神"
+  },
+  "costume": {
+    "typical_outfit": "简朴武士服或常服",
+    "color_palette": [
+      "土黄",
+      "深灰"
+    ]
+  },
+  "casting_tags": [
+    "老实习武青年",
+    "忠厚良配"
+  ],
+  "visual_reference": "honest young Chinese martial artist in simple robes, strong build, kind upright face, short black hair, slightly blushing cheeks, reliable expression, highly detailed",
+  "visual_prompt_negative": "arrogant pose, scholar robes, weak build",
+  "personality": "老实忠厚、护人周到",
+  "desire": "成为良配，保护高令宁",
+  "flaw": "稍显被动",
+  "arc": "从护女主到被设计娶陆姝仪",
+  "scene_presence": "马球会与陷害事件中关键配角",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "追求者/友人",
+      "dynamic": "温柔保护",
+      "function": "衬托沈词嫉妒"
+    }
+  ]
+}

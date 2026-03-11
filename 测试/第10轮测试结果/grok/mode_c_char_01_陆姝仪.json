@@ -1,0 +1,48 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹"
+  ],
+  "role": "antagonist",
+  "age_range": "18-25",
+  "appearance": {
+    "face": "温婉清丽，泪眼楚楚可怜",
+    "body": "柔弱纤细，姿态柔媚",
+    "hair": "柔顺黑发微垂",
+    "distinguishing_features": "粉衣下楚楚动人的柔弱姿态与清泉般泪眼"
+  },
+  "costume": {
+    "typical_outfit": "粉色软烟罗长裙，娇弱风格",
+    "color_palette": [
+      "粉色",
+      "浅白"
+    ]
+  },
+  "casting_tags": [
+    "柔弱心机女",
+    "古典美人",
+    "重生反派"
+  ],
+  "visual_reference": "delicate beautiful young Chinese woman in pink ancient dress, gentle watery tearful eyes, pale fragile face, soft long flowing black hair, pitiful graceful expression, highly detailed realistic 8k",
+  "personality": "外柔内刚、心机深沉、善于示弱",
+  "desire": "获得安全依附与好姻缘",
+  "flaw": "嫉妒陷害、手段下作",
+  "arc": "前世自杀陷害→今生设计失贞→道歉认错退出",
+  "scene_presence": "从提亲前后到满月宴承认重生，推动冲突",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅义兄",
+      "dynamic": "依赖被误会为情",
+      "function": "三角冲突"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "敌对到和解",
+      "function": "催化剂"
+    }
+  ]
+}

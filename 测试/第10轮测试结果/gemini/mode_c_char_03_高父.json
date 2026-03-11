@@ -1,0 +1,41 @@
+{
+  "name": "高父",
+  "aliases": [
+    "高大人",
+    "爹爹"
+  ],
+  "role": "supporting",
+  "age_range": "40-50",
+  "appearance": {
+    "face": "面容慈祥，眼角有皱纹",
+    "body": "中等身材，文官体态",
+    "hair": "半白须发",
+    "distinguishing_features": "忧心忡忡但坚定的老父亲神态"
+  },
+  "costume": {
+    "typical_outfit": "官服或居家常服",
+    "color_palette": [
+      "棕色",
+      "暗红"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "老戏骨",
+    "硬骨头文人"
+  ],
+  "visual_reference": "A middle-aged ancient Chinese official, 45 years old, kind face with wrinkles around the eyes, wearing brown traditional Hanfu, fatherly aura, realistic.",
+  "personality": "开明，疼爱女儿，听劝且有文人骨气",
+  "desire": "女儿能够平安喜乐度过此生",
+  "flaw": "前期对权贵沈家略有忌惮",
+  "arc": "从劝女儿忍让，到为了女儿敢于和权贵沈家鱼死网破",
+  "scene_presence": "提亲、辞官、早产、逼迫沈词和离等关键家庭场景。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "全心全意为女儿着想",
+      "function": "提供剧情转折的支持力"
+    }
+  ]
+}

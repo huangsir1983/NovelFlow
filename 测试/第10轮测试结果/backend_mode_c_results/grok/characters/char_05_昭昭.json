@@ -1,0 +1,45 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩可爱，婴儿脸庞",
+    "body": "娇小柔软",
+    "hair": "细软胎发",
+    "distinguishing_features": "明亮眼睛与笑颜"
+  },
+  "costume": {
+    "typical_outfit": "婴儿襁褓或小裙",
+    "color_palette": [
+      "粉嫩",
+      "浅黄"
+    ]
+  },
+  "casting_tags": [
+    "可爱女婴",
+    "古风萌宝"
+  ],
+  "visual_reference": "adorable Chinese baby girl in ancient swaddling clothes, soft round face, bright curious eyes, tiny hands, highly detailed cinematic ancient drama style, 8k",
+  "personality": "活泼开朗",
+  "desire": "父母陪伴",
+  "flaw": "年幼无知",
+  "arc": "出生后成为和离纽带",
+  "scene_presence": "出生后满月宴与江南雪景",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母亲",
+      "dynamic": "母女深情",
+      "function": "女主新生活核心"
+    },
+    {
+      "target": "沈词",
+      "type": "父亲",
+      "dynamic": "父女牵绊",
+      "function": "男主追妻动力"
+    }
+  ]
+}

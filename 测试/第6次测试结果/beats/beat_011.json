@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_011",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_017"
+    ]
+  },
+  "data": {
+    "title": "在死后反看一生",
+    "description": "前世夫妻曾咒若有来生只做路人，如今竟真有重来机会；女主在极致遗憾中重新审视这段婚姻，情绪坠入复杂而冷静的低谷。",
+    "beat_type": "revelation",
+    "save_the_cat": "Dark Night of the Soul",
+    "emotional_value": -0.7,
+    "dramatic_intensity": -0.7,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续下降",
+    "order": 11
+  }
+}

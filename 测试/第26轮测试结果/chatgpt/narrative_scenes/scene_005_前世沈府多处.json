@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "MONTAGE. 前世沈府与病榻 - day/night",
+  "location": "前世沈府多处",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈睿",
+    "陆姝仪",
+    "父亲"
+  ],
+  "core_event": "前世婚后多年，我与沈词互相怨怼：冷待、分房、误会、父亲下狱、陆姝仪投湖、女方讨好被焚、直到我病重与身后事时，沈词才显露迟来的深情与悔恨。",
+  "key_dialogue": "若有来生，只做路人。",
+  "emotional_peak": "我死后，沈词抱着棺木无声流泪，前世情恨彻底封死。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "火盆里的寝衣鞋袜",
+    "病榻",
+    "棺材",
+    "沈睿的病榻"
+  ],
+  "dramatic_purpose": "完整交代前世婚姻崩坏与残余情感，为今生的相爱相杀提供深层背景。",
+  "visual_reference": "多段式蒙太奇：冷清府邸、焚毁针线、病榻守夜、月下比量瘦削面庞、棺前老泪。",
+  "visual_prompt_negative": "不要现代医院，不要灵异鬼怪效果，不要夸张哭脸，不要玄幻转场",
+  "source_text_start": "4.\n我是恨沈词的。\n恨他算计我，娶我回",
+  "source_text_end": "可谁能想到，真能重来呢？"
+}

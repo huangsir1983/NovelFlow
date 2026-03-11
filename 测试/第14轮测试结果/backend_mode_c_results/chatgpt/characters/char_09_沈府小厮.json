@@ -1,0 +1,31 @@
+{
+  "name": "沈府小厮",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "普通少年面孔，神情谨慎",
+    "body": "瘦小灵活",
+    "hair": "小厮发式",
+    "distinguishing_features": "传话跑腿，存在感低"
+  },
+  "costume": {
+    "typical_outfit": "沈府统一下人短衣",
+    "color_palette": [
+      "灰蓝",
+      "青灰"
+    ]
+  },
+  "casting_tags": [
+    "跑腿小厮",
+    "高门下人"
+  ],
+  "visual_reference": "古代豪门小厮，少年，穿灰蓝短衣，双手捧帖或低头传话，神情谨慎，古风写实",
+  "visual_prompt_negative": "现代制服、夸张喜剧化、科幻元素",
+  "personality": "听命行事，谨慎",
+  "desire": "完成差事不出错",
+  "flaw": "无独立主见",
+  "arc": "无明显弧线",
+  "scene_presence": "传达义妹消息、守门与回报人物动向",
+  "relationships": []
+}

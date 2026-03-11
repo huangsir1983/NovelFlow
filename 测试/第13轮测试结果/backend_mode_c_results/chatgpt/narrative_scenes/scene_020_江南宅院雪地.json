@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_020",
+  "order": 19,
+  "heading": "EXT. 江南院门与雪地 - DAY",
+  "location": "江南宅院雪地",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "昭昭",
+    "沈词"
+  ],
+  "core_event": "冬雪后沈词突然来到江南，看见昭昭与几个被高父安排的‘赘婿人选’玩雪，当场黑脸质问，高令宁故意称那是自己的新夫婿。",
+  "key_dialogue": "「他们是谁？」「我的新夫婿。」",
+  "emotional_peak": "沈词第一次直面‘她真的会有别人’的现实，失控前夜开启。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "雪球",
+    "院门",
+    "雪地玩具",
+    "来信空白回应"
+  ],
+  "dramatic_purpose": "把男主执念推到现实层面的占有危机。",
+  "source_text_start": "冬雪过后, 我推开院门。\n爹爹在江南替我找了几个相貌出众",
+  "source_text_end": "我不耐烦地推开了他：「客房在里面, 去留随意。」"
+}

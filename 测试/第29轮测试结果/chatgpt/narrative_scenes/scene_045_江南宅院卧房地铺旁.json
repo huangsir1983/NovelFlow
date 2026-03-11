@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_045",
+  "order": 44,
+  "heading": "INT. 江南卧房 - LATE NIGHT",
+  "location": "江南宅院卧房地铺旁",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "半梦半醒间，睡在地上的沈词小心握住我的手腕，低声宣告只要活着就会不知羞耻地纠缠我一辈子。",
+  "key_dialogue": "「只要我还活着……我就会恬不知耻地纠缠你一辈子。」",
+  "emotional_peak": "故事以他近乎绝望却执拗的誓言收束。",
+  "tension_score": 0.76,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "手腕",
+    "地铺被褥",
+    "月光"
+  ],
+  "dramatic_purpose": "作为尾声，定格两人新的关系形态：我已走开，他却决定永不放手。",
+  "visual_reference": "静夜将尽，月光落在床边地铺，男子不敢越界，只轻轻握住睡梦中女子的手腕，把脸贴在她背后方向，神情似哭似笑，执念深重",
+  "visual_prompt_negative": "避免强迫亲密画面，避免现代床垫地毯，避免恐怖尾声氛围",
+  "source_text_start": "我不再理他，转睡过去。",
+  "source_text_end": "「我就会恬不知耻地纠缠你一辈子。」"
+}

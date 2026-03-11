@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0207",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0644",
+      "shot_0645",
+      "shot_0646"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并外部封锁、室内主观受限与和离书道具三组信息，均服务于同一叙事任务：建立‘被保护亦被隔离’的新秩序。角色动作极少，情绪维持在压抑冷静区间，适合压缩成一个连续建立段。",
+    "order": 207
+  },
+  {
+    "id": "seg_0208",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0647",
+      "shot_0648",
+      "shot_0649",
+      "shot_0650"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段保持单一角色集合，以女主主观为核心，把‘人’与‘环境道具’绑定：她的病中自持、补品的堆叠、门内外动静反差共同组成恢复期的情绪场。补品段落内部存在轻微递进，但未发生角色线切换，适合合并为一个完整的室内情绪段。",
+    "order": 208
+  },
+  {
+    "id": "seg_0209",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0651",
+      "shot_0652",
+      "shot_0653"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组镜头角色集合切换到男主线，外部情感压力正式开始，且情绪从试探到被拦再到内忍焦灼形成清晰小弧线。空间仍在同一回廊，行动连续，适合合并为单一门外冲突段。",
+    "order": 209
+  },
+  {
+    "id": "seg_0210",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0654",
+      "shot_0655",
+      "shot_0656",
+      "shot_0657"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段以‘听见—徘徊—未触—不回应’构成完整的双向情绪对位，虽在门内外切换，但被同一道门和同一时间连续串联。女主反应优先于男主动作，符合“听者比说者重要”的导演原则，情感上从外部焦灼回收到女主冷静掌控，形成明确弧线。",
+    "order": 210
+  },
+  {
+    "id": "seg_0211",
+    "scene_id": "scene_044",
+    "shot_ids": [
+      "shot_0658"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "结尾镜头承担总结功能，不再需要切分。它从客观层面统一前面所有信息：门内保护、门外隔绝、补品补偿、守卫礼法。单镜停留能让新关系格局被观众完整吸收，作为场景收束最有效。",
+    "order": 211
+  }
+]

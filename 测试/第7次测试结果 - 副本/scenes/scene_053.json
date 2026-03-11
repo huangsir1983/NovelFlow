@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "id": "scene_053",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:04:24"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "昭昭"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家后院卧房 - 日",
+    "location": "高家后院卧房",
+    "time_of_day": "day",
+    "description": "回到同一卧房，白日光线安静地铺在室内，怀中的昭昭成为画面中柔软而脆弱的中心。高令宁坐姿稳定，神态清明。沈睿站在她面前，居高临下却摇摇欲坠，衣衫空荡，脊背不复挺直，脸色惨白。",
+    "action": "沈睿逼近一步，执拗要求高令宁说话算话。高令宁抬眼望着他，神情甚至带着几分迷茫与轻嘲，随后微微歪头，平静说出自己已想开并愿意原谅。话音落下，沈睿像被抽空力气，背脊塌下去，死死盯着她，拼命摇头，近乎失态地拒绝她的原谅。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "高令宁，说话算话。",
+        "subtext": "你既然说过会纠缠我一生，就不能突然抽身。"
+      },
+      {
+        "character": "高令宁",
+        "line": "可是我现在真的已经想开了。",
+        "subtext": "我不再被过去绑住了。"
+      },
+      {
+        "character": "高令宁",
+        "line": "沈词，我原谅你了，我希望余生你也能觅得良人。",
+        "subtext": "我彻底放下你，也把你从我的人生中驱逐出去。"
+      },
+      {
+        "character": "沈睿",
+        "line": "不可以……",
+        "subtext": "你不能停止恨我，因为那意味着你真的不要我了。"
+      },
+      {
+        "character": "沈睿",
+        "line": "高令宁，我不要你原谅我。",
+        "subtext": "比起被恨，我更害怕被你彻底放下。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "昭昭"
+    ],
+    "key_props": [
+      "和离书",
+      "襁褓"
+    ],
+    "dramatic_purpose": "完成本章核心情感反转：高令宁以‘原谅’切断前世纠葛，而沈睿首次暴露自己对恨意依附的情感真相。",
+    "tension_score": 0.9,
+    "dramatic_intensity": 0.8,
+    "order": 53
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_013",
+  "name": "江南院落",
+  "type": "exterior",
+  "era_style": "明代江南水乡私家园林院落",
+  "description": "精致江南小院，雪地中堆雪工具与雪球散落，中央石桌旁珠宝箱与信件，周围回廊与梅花树，地面积雪覆盖，建筑为白墙黑瓦，空间诗意而开阔。",
+  "visual_reference": "Picturesque Ming dynasty Jiangnan water-town private garden courtyard exterior daytime in snow, snow-covered ground with snowball-making tools, central stone table beside jewelry box and letters, surrounding corridors and plum blossom trees, white walls black tiles architecture, poetic wintry atmosphere",
+  "atmosphere": "三年后重逢的复杂心碎",
+  "color_palette": [
+    "雪白",
+    "梅红",
+    "黑瓦灰"
+  ],
+  "lighting": "冬日柔和散射光，雪地反光明亮",
+  "key_features": [
+    "积雪院落",
+    "珠宝箱",
+    "回廊梅树"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词阴沉与心碎"
+}

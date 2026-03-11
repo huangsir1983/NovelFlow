@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_004",
+  "heading": "INT. 沈府书房 - 夜",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 1858,
+  "shot_count": 9,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 81,
+    "output_tokens": 2114,
+    "elapsed_s": 25.14
+  }
+}

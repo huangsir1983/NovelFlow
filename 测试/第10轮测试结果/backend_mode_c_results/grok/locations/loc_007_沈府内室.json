@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_007",
+  "name": "沈府内室",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸内室",
+  "description": "温馨日常的内室，木梁简洁素雅，中央绣架上摆放虎头帽与丝线剪刀，侧边有塌与书桌，墙饰淡雅字画，地面青砖，布局舒适亲密，装饰以绣品和生活用品为主，体现孕期家庭的温情。",
+  "visual_reference": "Cozy daily inner chamber in Ming dynasty mansion, embroidery frame with tiger-head hat project, silk threads and scissors, low couch and desk, subtle calligraphy wall art, blue brick floor, soft intimate daytime atmosphere, highly detailed historical accuracy",
+  "atmosphere": "温馨日常情感张力",
+  "color_palette": [
+    "浅红",
+    "木褐",
+    "丝线彩",
+    "米白"
+  ],
+  "lighting": "白天柔和自然光照射绣架，营造宁静生活感",
+  "key_features": [
+    "虎头帽绣架",
+    "丝线剪刀陈设",
+    "低矮木塌"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "怀孕许诺的温馨到沈词怔愣的复杂情绪"
+}

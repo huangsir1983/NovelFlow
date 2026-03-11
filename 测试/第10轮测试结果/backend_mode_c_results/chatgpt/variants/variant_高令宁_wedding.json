@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 再婚礼成时",
+  "tags": [
+    "再婚",
+    "盛装麻木",
+    "宿命重演",
+    "高门新妇"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012"
+  ],
+  "trigger": "与沈词再次成婚，从高府迎亲到沈府洞房的新婚阶段，外表风光而内心空洞戒备。",
+  "appearance_delta": {
+    "face": "妆容更完整华丽，掩去真实情绪，但眼神空冷、缺乏新嫁娘的喜色。",
+    "body": "身形仍纤细端正，因重礼服与仪式姿态更显庄重克制。",
+    "hair": "婚礼凤冠高髻，乌发梳理严密，婚后洞房时部分发饰卸下，发髻略松。",
+    "distinguishing_features": "满身新嫁华贵与情绪麻木形成强烈反差，是‘表面喜庆、内里赴深渊’的核心视觉。"
+  },
+  "costume_override": {
+    "outfit": "大红喜服、凤冠、盖头、金玉步摇；洞房时可转为卸去部分层饰的红色寝衣与散落喜服。",
+    "color_palette": [
+      "绛红",
+      "金色",
+      "墨黑",
+      "暖烛橙"
+    ]
+  },
+  "visual_reference": "ancient Chinese noble bride during wedding ceremony, pale cool skin, classical oval face, sharp elegant brows, slightly upturned almond eyes with numb restrained expression, black hair in elaborate phoenix crown updo, magnificent crimson and gold wedding hanfu, slim figure, red silk decorations, candles and ceremonial hall, luxurious yet emotionally empty, cinematic Chinese period drama lighting",
+  "emotional_tone": "麻木、戒备、被命运裹挟"
+}

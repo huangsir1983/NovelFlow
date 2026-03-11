@@ -1,0 +1,169 @@
+[
+  {
+    "id": "shot_0126",
+    "scene_id": "scene_012",
+    "shot_number": 1,
+    "goal": "建立空间环境，展现沈府花厅的精致与女主的疏离感",
+    "composition": "远景俯拍，花厅全貌居中，竹影透过窗棂投射在地面，沈词与陆姝仪位于画面右侧上座区域，女主尚未入画",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "营造表面和谐下的压抑氛围",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 126
+  },
+  {
+    "id": "shot_0127",
+    "scene_id": "scene_012",
+    "shot_number": 2,
+    "goal": "展现沈词对陆姝仪的温柔体贴",
+    "composition": "中景侧拍，沈词位于画面左侧，陆姝仪右侧，茶具居中作为视觉焦点，背景虚化竹影",
+    "camera_movement": "dolly_in",
+    "framing": "MS",
+    "emotion_target": "观众感受到沈词的温和关怀",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.3,
+    "order": 127
+  },
+  {
+    "id": "shot_0128",
+    "scene_id": "scene_012",
+    "shot_number": 3,
+    "goal": "捕捉沈词斟茶的亲密动作细节",
+    "composition": "特写，沈词的手将茶盏推向陆姝仪，两人指尖几乎触碰，前景虚化茶壶，背景浅焦陆姝仪的衣袖",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "暗示两人关系的暧昧亲密",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 128
+  },
+  {
+    "id": "shot_0129",
+    "scene_id": "scene_012",
+    "shot_number": 4,
+    "goal": "展现陆姝仪接茶时的柔弱姿态",
+    "composition": "中特写，陆姝仪双手捧茶盏，眉眼低垂，嘴角含笑，背景虚化沈词的身影",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "强化陆姝仪的楚楚可怜形象",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.4,
+    "order": 129
+  },
+  {
+    "id": "shot_0130",
+    "scene_id": "scene_012",
+    "shot_number": 5,
+    "goal": "沈词说出关键台词，确立对陆姝仪的特殊待遇",
+    "composition": "中景正面，沈词居中，眼神温和注视陆姝仪（画面右侧虚焦），光线柔和打在沈词脸上",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "观众感受沈词对陆姝仪的重视",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 130
+  },
+  {
+    "id": "shot_0131",
+    "scene_id": "scene_012",
+    "shot_number": 6,
+    "goal": "切换视角，引入女主的观察位置",
+    "composition": "中全景，从女主POV拍摄，半开的门扉占据画面左侧前景，透过门缝看到沈词与陆姝仪的背影，竹影在门框上摇曳",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "营造偷窥感与隔离感",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 131
+  },
+  {
+    "id": "shot_0132",
+    "scene_id": "scene_012",
+    "shot_number": 7,
+    "goal": "捕捉女主的情绪反应细节",
+    "composition": "特写，女主的手紧握账本，指尖泛白，账本边角被捏出褶皱，背景虚化廊柱",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "通过物理细节外化女主的愤怒与痛苦",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 132
+  },
+  {
+    "id": "shot_0133",
+    "scene_id": "scene_012",
+    "shot_number": 8,
+    "goal": "展现女主压抑情绪后的转身离开",
+    "composition": "中景侧拍，女主位于画面右侧，转身背对镜头，步履僵硬，前景虚化门扉，背景是空荡的廊下",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "观众感受女主的克制与孤独",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.7,
+    "order": 133
+  },
+  {
+    "id": "shot_0134",
+    "scene_id": "scene_012",
+    "shot_number": 9,
+    "goal": "以女主离去的背影结束场景，强化孤立感",
+    "composition": "全景，女主的背影渐行渐远，廊下光影斑驳，竹影摇曳，画面右侧虚焦的门扉内隐约可见沈词与陆姝仪",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "营造悲凉与疏离的情绪余韵",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "fade_out",
+    "dramatic_intensity": 0.6,
+    "order": 134
+  }
+]

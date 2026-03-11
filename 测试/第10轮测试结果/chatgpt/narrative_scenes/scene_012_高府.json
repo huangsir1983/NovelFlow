@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府/沈府传话后 - DAY",
+  "location": "高府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "媒人第三次上门，父亲在压力下同意婚事，叮嘱女儿若受委屈便和离回家。",
+  "key_dialogue": "「受了委屈便和离回家，为父再另为你安排亲事。」",
+  "emotional_peak": "父亲给出明确退路，让婚礼带上“可撤退”的底色。",
+  "tension_score": 0.58,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "成山聘礼",
+    "礼单",
+    "首饰匣",
+    "布匹箱",
+    "座椅",
+    "茶盏",
+    "红绸"
+  ],
+  "dramatic_purpose": "为和离结局预先埋下合法与情感支持。"
+}

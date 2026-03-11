@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0082",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0240",
+      "shot_0241",
+      "shot_0242"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间压迫、主观凝视与落笔动作，角色集合稳定，叙事目标集中于“辞官奏折即将完成”的单一情绪推进；从环境建立到主观逼视再到笔落成文，形成完整的第一拍决断节奏。",
+    "order": 82
+  },
+  {
+    "id": "seg_0083",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0243",
+      "shot_0244",
+      "shot_0245",
+      "shot_0246"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段聚合“施压—陈述风险—父亲承受—正式盖印”的完整对峙弧线，虽然景别变化较多，但角色与空间不变，情绪持续上行并在盖印处达到本场第一峰值，适合压缩成一个连续决断段落。",
+    "order": 83
+  },
+  {
+    "id": "seg_0084",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0247",
+      "shot_0248",
+      "shot_0249"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段的核心是情绪换挡：从“逼退朝局成功”切到“父亲旧疾现实”，并迅速转化为外出行动。角色不变，但情感功能明显改变，故作为独立segment承接上一段高潮后的短暂释放与新的责任驱动。",
+    "order": 84
+  },
+  {
+    "id": "seg_0085",
+    "scene_id": "scene_017",
+    "shot_ids": [
+      "shot_0250",
+      "shot_0251"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "末段承担出场与冷收尾双功能：先完成女主离开、为下一场空间转换铺路，再以静物封存本场政治决定。角色实际出入画造成状态变化，适合作为场景尾段独立收束。",
+    "order": 85
+  }
+]

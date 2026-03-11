@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "id": "scene_007",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会场边步道 - 日",
+    "location": "马球会场边至角落的步道",
+    "time_of_day": "day",
+    "description": "场边人流仍在，视线开放，风沙与日光交织。高令宁与蒋晟从人群边缘缓慢离开，背后仍可感受到来自会场中心的注视。步道通往较偏僻的休憩角落，环境由喧闹转向相对安静。",
+    "action": "高令宁抬脸朝蒋晟露出笑意，故意将手递过去，借口脚崴了，请他扶自己去旁边坐下。蒋晟接过她的手，轻轻托在掌心，耳根发热，动作小心谨慎。高令宁借着他的搀扶，放慢脚步离开。她不回头，却能感觉到背后有一道目光一直追着自己。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+        "subtext": "我要借你做给某个人看，也在试探你是否可靠。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "高令宁主动制造亲近场面反击沈词，进一步加深三角关系的外部可见冲突。",
+    "tension_score": 0.69,
+    "dramatic_intensity": 0.38,
+    "order": 7
+  }
+}

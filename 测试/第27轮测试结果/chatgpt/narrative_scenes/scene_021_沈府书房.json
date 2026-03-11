@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "INT. 沈府书房 - day",
+  "location": "沈府书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "陆姝仪婚事难定，焦头烂额的沈词面前，我提出假死藏人、待和离后扶正她的方案，宣告自己已厌倦报复。",
+  "key_dialogue": "等你我一和离，你给她扶正。",
+  "emotional_peak": "从恨到厌的转折",
+  "tension_score": 0.72,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "折扇",
+    "婚配名单",
+    "书案"
+  ],
+  "dramatic_purpose": "推动女主真正放下执念，也试探沈词对陆姝仪感情的真实状态。",
+  "visual_reference": "书房内男子对着婚配人选烦躁沉思，女子在旁摇扇从容出主意，窗外春光透入，室内气氛却冷而锋利，古风谋局感强",
+  "visual_prompt_negative": "避免书房过于宫廷化、避免夸张反派笑容、避免现代办公桌、避免人设脸谱化",
+  "source_text_start": "沈词开始给陆姝仪择婿。",
+  "source_text_end": "我曾想报复他。\n让他即使重来，也休想与心上人在一起，痛苦一世。"
+}

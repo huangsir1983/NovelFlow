@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁闺房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸闺房",
+  "description": "温馨雅致的女子闺房，空间适中，木梁低矮亲切，墙面饰以淡雅花鸟绢画，一侧置红木绣架和梳妆台，中央有木椅与茶几，书案上摆放父亲奏折，窗边轻纱帘幕轻垂，地面青砖，整体布局私密舒适，装饰以绣品、瓷器和香炉为主，体现闺秀的细腻与书香气息。",
+  "visual_reference": "Intimate boudoir of a young lady in late Ming dynasty official mansion, delicate wooden beams, floral silk wallpaper, rosewood embroidery stand and vanity table, wooden chair and tea set, scholar's desk with memorials, sheer curtains on lattice windows, blue brick floor, soft feminine elegance, highly detailed historical accuracy, cinematic",
+  "atmosphere": "温婉私密雅致",
+  "color_palette": [
+    "粉白",
+    "浅绿",
+    "木褐",
+    "米黄"
+  ],
+  "lighting": "白天柔和的自然光透过窗纱洒入，营造温暖宁静的氛围",
+  "key_features": [
+    "红木绣架",
+    "梳妆台与铜镜",
+    "花鸟绢画墙饰"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "父亲质问的不解到父女默契与前世回忆的温情涌现"
+}

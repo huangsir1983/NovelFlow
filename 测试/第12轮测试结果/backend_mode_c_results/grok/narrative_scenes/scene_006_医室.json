@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 医室塌上 - 日间",
+  "location": "医室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪胃病，沈词哄药，女主冷眼同意提亲",
+  "key_dialogue": "公子还是先操心好表小姐的婚事。",
+  "emotional_peak": "陆姝仪泪眼，女主索然",
+  "tension_score": 0.7,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "药碗",
+    "塌上锦被",
+    "茶盏"
+  ],
+  "dramatic_purpose": "陆姝仪求留府铺垫"
+}

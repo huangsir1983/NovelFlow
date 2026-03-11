@@ -1,0 +1,218 @@
+[
+  {
+    "id": "shot_0578",
+    "scene_id": "scene_038",
+    "shot_number": 1,
+    "goal": "建立正厅礼制空间与待客秩序，提示这场来访发生在规整体面的家族场域内，为后续闯入式消息制造反差。",
+    "composition": "FS，正厅纵深构图。门帘位于画面左后方，微微晃动；待客座椅成对称排布于中景，高父坐于画面右中偏后，高令宁坐于画面左中偏前，二人之间留出礼制性的空位。前景可压入半截桌角与茶盏，背景见屏风与厅柱，形成门框、帘幕、座椅三层切割。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "安静表象下的规训感与隐隐将被打破的秩序感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 578
+  },
+  {
+    "id": "shot_0579",
+    "scene_id": "scene_038",
+    "shot_number": 2,
+    "goal": "引入通报者，小厮入内打破厅内平稳节奏，触发事件。",
+    "composition": "MLS，从厅内朝门口拍。门帘占据左侧前景，小厮自左后方掀帘快步入画，朝右前方主位方向行进；高父与高令宁处于右侧虚焦背景中，维持座次关系不变。帘布的摆动形成斜线，引导视线进入人物动作。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "轻微警觉，感到有事将至。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 579
+  },
+  {
+    "id": "shot_0580",
+    "scene_id": "scene_038",
+    "shot_number": 3,
+    "goal": "明确来客信息：陆姝仪上门，并通过她的言辞预埋来意不纯。",
+    "composition": "MCU，小厮偏左面对主位回话，右侧画外保留高父与高令宁的聆听空间。前景一角仍带门帘虚影，背景是整洁屏风与一列座椅，强调这是正式通报而非私下传话。陆姝仪的台词以画外音方式压入。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "表层客气、内里带刺的不安感。",
+    "duration_hint": "3s",
+    "characters": [],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 580
+  },
+  {
+    "id": "shot_0581",
+    "scene_id": "scene_038",
+    "shot_number": 4,
+    "goal": "表现高父对来访并无戒心，按常礼应对，推动‘放人进来等候’的决定。",
+    "composition": "MCU，高父居画面右侧三分之一，身体朝左，视线投向门口方向。前景左侧虚化出小厮肩背，形成视线对位；背景为深青屏风与厅柱。高父抬手示意，手势进入画面中央，动作简洁而不设防。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "观众对父亲无防备的轻微焦虑与替他不知情的无奈。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 581
+  },
+  {
+    "id": "shot_0582",
+    "scene_id": "scene_038",
+    "shot_number": 5,
+    "goal": "捕捉高令宁在听见‘陆姝仪’名字后的瞬间生理停顿，建立她先知式警惕。",
+    "composition": "CU，高令宁位于画面左中，肩背端正，脸略朝右。前景下方可见她原本正在整理衣袖或扶杯的手，动作停在半途；背景虚化中保留高父的深色身影轮廓。画面留白偏右，给名字带来的冲击留出心理空间。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "寒意骤起，观众直觉她知道更多。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 582
+  },
+  {
+    "id": "shot_0583",
+    "scene_id": "scene_038",
+    "shot_number": 6,
+    "goal": "强化高令宁情绪压下去的过程：不是惊，而是沉下来，带出前世记忆即将刺入的征兆。",
+    "composition": "ECU，只取高令宁的眼与半边眉骨，眼尾微沉，瞳光收紧。颈侧淡痕隐约在焦外边缘可见。背景完全压成冷灰虚化，无其他信息干扰。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "压抑、危险、冷意逼近。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.56,
+    "order": 583
+  },
+  {
+    "id": "shot_0584",
+    "scene_id": "scene_038",
+    "shot_number": 7,
+    "goal": "以主观闪回碎片提示前世同类事件的阴影，但不完整揭露，仅制造记忆刺痛。",
+    "composition": "CU，前世冷灰青调。摇晃的帘影占前景，门口立着一抹淡粉衣影，只见裙摆与袖口，不见全脸；背景昏暗，烛光软散。构图与当前门口方向近似，形成视觉对应。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "似曾相识的恐惧与不祥预感。",
+    "duration_hint": "1s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 584
+  },
+  {
+    "id": "shot_0585",
+    "scene_id": "scene_038",
+    "shot_number": 8,
+    "goal": "回到现实，确认高令宁已迅速做出反应，不让危险进入她的近身范围。",
+    "composition": "MS，侧拍高令宁坐姿未乱，但上身微向一旁转，朝画面右后方唤侍女。高父位于画面右后虚焦，尚未完全察觉她的异常。前景有桌案边缘与茶盏，背景保留厅柱和一角帘幕，仍处礼法空间内。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冷静决断感，观众开始站到她的防线一侧。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 585
+  },
+  {
+    "id": "shot_0586",
+    "scene_id": "scene_038",
+    "shot_number": 9,
+    "goal": "把‘拒见’落实为清晰行动命令，完成本场核心策略反转。",
+    "composition": "MCU，高令宁居中偏左，侍女的耳侧与肩膀占据右前景形成近距离传话关系。高令宁微微俯首，嘴唇几乎不动，目光却冷直，避免张扬。背景中待客座椅整齐排列，形成她拒绝打破礼数、却改写礼数用途的反差。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "锋利克制，像一把藏在袖中的刀。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 586
+  },
+  {
+    "id": "shot_0587",
+    "scene_id": "scene_038",
+    "shot_number": 10,
+    "goal": "展示高父对女儿突兀拒见的迟疑反应，补足客观观察面，避免单线主观。",
+    "composition": "MCU，高父位于画面右侧，视线越过画面左侧虚焦的高令宁肩线看向侍女。眉心轻压，手势尚未完全收回，形成‘原本放行—此刻停顿’的动作残留。背景屏风端正，人物心理却出现轻微错位。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "疑惑、担心，并让观众意识到这一步有违常礼。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 587
+  },
+  {
+    "id": "shot_0588",
+    "scene_id": "scene_038",
+    "shot_number": 11,
+    "goal": "把侍女执行命令与门口空间重新连接，形成拒客动作的外化落点。",
+    "composition": "MLS，从厅内斜拍门口。侍女自画面右向左快步出画，方向与先前小厮入画方向相反，形成信息回推。门帘在左侧中景静待被掀起，座椅仍整齐无一人落座，暗示来客只能止步门外。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "局面已被截断的利落感，伴随门外未知对象的压迫。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.52,
+    "order": 588
+  },
+  {
+    "id": "shot_0589",
+    "scene_id": "scene_038",
+    "shot_number": 12,
+    "goal": "以门外未入之人收束悬念：陆姝仪被挡在礼制门槛之外，危险尚未消失，只是被暂时隔开。",
+    "composition": "MCU，隔着半掀未掀的门帘拍门外。陆姝仪站在画面中央偏左，淡粉衣色柔弱，身形单薄；帘边形成天然遮挡，切去她身体一部分，只露出苍白面容与湿润眼神。背景为日光下的院落浅亮，与厅内冷静暗色形成内外反差。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "柔弱表象下的悬疑与不可信任感。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 589
+  }
+]

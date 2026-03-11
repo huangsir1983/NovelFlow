@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_008",
+  "name": "沈府",
+  "type": "mixed",
+  "era_style": "明代富商府邸",
+  "description": "富商府邸，布局讲究但略显商贾气息。正厅摆放红木家具、茶具，墙上挂字画。庭院有假山水池，廊道连接各房。会客厅陈设华丽，有珍玩古董展示。整体比官宦府邸更显富贵堆砌感。",
+  "visual_reference": "Ming Dynasty wealthy merchant residence, ornate interior, rosewood furniture, tea sets, decorative antiques, courtyard with rockery, covered corridors, luxurious but slightly ostentatious style, traditional Chinese architecture, natural and interior lighting mix",
+  "atmosphere": "富贵、商贾气息、家族府邸",
+  "color_palette": [
+    "红木深色",
+    "金色装饰",
+    "庭院青绿"
+  ],
+  "lighting": "白日庭院光线充足，室内通过门窗采光，略显幽暗",
+  "key_features": [
+    "红木家具",
+    "珍玩陈设",
+    "假山水池",
+    "回廊结构"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "择婿焦虑与纳妾提议的震惊"
+}

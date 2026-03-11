@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府后院 - 日",
+  "location": "高府后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "沈母"
+  ],
+  "core_event": "和离书对峙，沈词跪求，强闯见女",
+  "key_dialogue": "「我不信你肯放过我。」",
+  "emotional_peak": "沈词崩溃与原谅",
+  "tension_score": 0.8,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "和离书、雕花木门、婴儿 cradle"
+  ],
+  "dramatic_purpose": "正式和离与追妻开始"
+}

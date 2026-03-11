@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "id": "scene_006",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈母"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 内宅各处/账房/庭院 - DAWN TO NIGHT",
+    "location": "沈府内宅",
+    "time_of_day": "day",
+    "description": "深宅大院，内宅封闭而层层递进，清晨天光未亮，廊下灯笼和室内烛火是主要光源；白日里账房案几上摊开账册、算盘、名册，庭院中丫鬟婆子来回听命，夜里灯火渐稀，屋内仍留一盏孤灯。空间中充满家务运转痕迹：账本、钥匙、库房册子、托盘、药碗。高令宁衣着端整利落，长期操劳下神色倦乏，步履不停。",
+    "action": "沈母病倒后，高令宁接过管家权，在天未亮时起身穿衣，快步穿过回廊，亲自翻查账册、吩咐下人、核对库房、处理家务。她长时间伏案书写，夜深仍坐在灯下，抬手按压酸胀的额角。怀有身孕时仍强撑着站立理事，忽然扶住桌沿，呼吸发紧，险些站不稳，周围人慌忙上前。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈母"
+    ],
+    "key_props": [
+      "账册",
+      "算盘",
+      "库房钥匙",
+      "药碗",
+      "灯笼"
+    ],
+    "dramatic_purpose": "交代高令宁掌家后的处境与性格，建立她要强、自尊强烈、以劳心换名声的婚后状态，并为后续夫妻裂痕埋下基础。",
+    "tension_score": 0.42,
+    "dramatic_intensity": -0.16,
+    "order": 6
+  }
+}

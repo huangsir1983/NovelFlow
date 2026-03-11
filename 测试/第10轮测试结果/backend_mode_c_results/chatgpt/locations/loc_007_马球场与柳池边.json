@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_007",
+  "name": "马球场与柳池边",
+  "type": "mixed",
+  "era_style": "明代中晚期勋贵社交马球场与园林水岸",
+  "description": "该地点由开阔马球场与相邻园林柳池组成。马球场地势平整，黄土夯实，球赛时沙尘飞扬，周边设临时帷幔、看台席案、软垫坐席和果盘茶点，体现上层社交宴游气息。马匹、马球杆、侍从与贵女观赛区同场并置，动感极强。球场边缘过渡到一处较安静的园林池岸，池水平缓，岸边垂柳低拂，石径蜿蜒，形成视觉与情绪上的反差区域。看台一侧热闹鲜亮，柳池边则更私密柔婉，适合捕捉遥望、误会与嫉妒瞬间。",
+  "visual_reference": "Late Ming dynasty aristocratic polo ground beside a classical Chinese garden pond, dusty riding field with horses and polo mallets, silk canopies, viewing stands with low tables, fruit platters and cushions, elegant noble spectators, transition to willow-lined pond edge with calm water and winding stone path, social festivity contrasting with intimate private tension, bright daylight, cinematic historical realism",
+  "atmosphere": "繁华热闹、暗生嫉妒、表面风雅",
+  "color_palette": [
+    "土黄",
+    "柳绿",
+    "水青",
+    "绛红"
+  ],
+  "lighting": "晴朗白日强光下尘土与衣料颜色都更鲜明，池边则因柳荫出现斑驳阴影，形成情绪落差。",
+  "key_features": [
+    "沙尘飞扬的马球场",
+    "帷幔看台与果盘坐席",
+    "垂柳掩映的池边石径"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从贵族宴游的鲜亮社交场，转为女主被刺痛后的屈辱与妒意翻涌。"
+}

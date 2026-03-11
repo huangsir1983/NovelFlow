@@ -1,0 +1,31 @@
+{
+  "variant_id": "zhaozhao_variant_03",
+  "variant_type": "childhood",
+  "variant_name": "昭昭 — 三岁聪慧启蒙期",
+  "tags": [
+    "三岁",
+    "聪慧早熟",
+    "读本启蒙",
+    "书信往来见证者"
+  ],
+  "scene_ids": [
+    "scene_027"
+  ],
+  "trigger": "江南三年蒙太奇中，昭昭已经成长到三岁左右，伴随书房、庭院、读本、典籍与来往书信出现，体现聪慧成长。",
+  "appearance_delta": {
+    "face": "目光更明亮有神，带明显机灵感，表情活泼而专注",
+    "body": "幼小但更结实灵活，能跑能跳，也能安静坐在书房接触读本",
+    "hair": "软黑发梳成更完整的小髻，发饰比婴儿期与初到江南时更精致",
+    "distinguishing_features": "早慧感增强，既有童真又透出贵气与教养"
+  },
+  "costume_override": {
+    "outfit": "精致小夹袄、小裙或便于活动的幼女襦裙，搭配珠花或红绳发饰，适合书房识字与庭院玩耍",
+    "color_palette": [
+      "嫩绿",
+      "桃粉",
+      "浅金"
+    ]
+  },
+  "visual_reference": "smart ancient chinese little girl aged about three, bright lively eyes, fair skin, soft black hair in small twin buns with delicate bead ornaments, colorful refined hanfu for a noble child, holding a beginner reading book or near letters and scrolls in a Jiangnan study, clever and cheerful, realistic cinematic style, elegant domestic atmosphere, soft daylight",
+  "emotional_tone": "灵动、聪颖、松弛成长"
+}

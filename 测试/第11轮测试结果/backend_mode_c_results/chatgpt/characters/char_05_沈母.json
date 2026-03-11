@@ -1,0 +1,55 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "贵妇面相，保养得宜，眉目精明，笑时和气不达眼底",
+    "body": "体态雍容，举止讲究",
+    "hair": "繁复高髻，饰金玉簪钗",
+    "distinguishing_features": "高门主母式的端庄威压感"
+  },
+  "costume": {
+    "typical_outfit": "华贵锦缎褙子、团花裙、佩玉环和珠钗",
+    "color_palette": [
+      "深紫",
+      "绛色",
+      "金色"
+    ]
+  },
+  "casting_tags": [
+    "高门主母",
+    "封建家长",
+    "精明",
+    "讲体面"
+  ],
+  "visual_reference": "Ancient Chinese aristocratic matriarch, elegant older noblewoman, elaborate hair ornaments, luxurious dark silk robe, authoritative expression, traditional mansion interior",
+  "visual_prompt_negative": "modern dress, casual clothing, tattoo, messy hair, youthful schoolgirl look",
+  "personality": "重门第、重家族体面，擅权衡，护短但更护家族利益",
+  "desire": "稳住沈家名声与传承，以最小代价解决陆姝仪与儿媳矛盾",
+  "flaw": "把女人都当可安排的筹码，缺乏真正共情",
+  "arc": "从想拿捏新媳妇，到在高家强势回击下被迫退让，家族权威受挫",
+  "scene_presence": "主要活在前史回忆与后续婚配、接孙女、对峙高父等关键场景中",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "影响其婚配与对陆姝仪的态度，但也受儿子决定掣肘",
+      "function": "传统秩序代表"
+    },
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "彼此都强势，难以驯服对方",
+      "function": "宅斗张力来源"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姨母与被安置者",
+      "dynamic": "带有亲情，却在利益面前可被牺牲",
+      "function": "推动其婚配悲剧"
+    }
+  ]
+}

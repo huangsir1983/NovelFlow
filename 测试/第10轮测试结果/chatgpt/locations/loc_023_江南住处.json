@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_023",
+  "name": "江南住处",
+  "type": "mixed",
+  "era_style": "明清过渡风格江南水乡宅院",
+  "description": "江南住处应与京城高府形成明显反差：院门轻巧，尺度更亲人，白墙黛瓦，小巧庭院中摆竹椅、花盆与孩童玩具。远景可见水榭或临水廊影，空气湿润，环境宁静。室内外边界更柔软，不再强调门第威压，而是日常生活感。珠宝匣与书册暗示女主虽远离纷争，仍保有体面和独立支配的生活资源。整体应有江南清雅、留白、松弛之感。",
+  "visual_reference": "Jiangnan water-town residence, late imperial Chinese courtyard with white walls and black tiles, modest elegant gate, bamboo chair, potted plants, children's toys, books, jewelry box, distant waterside pavilion visible beyond courtyard, serene domestic life, humid southern atmosphere, calm and airy, historical Chinese realism, highly detailed",
+  "atmosphere": "清静、疗愈、脱离纷争、母女新生",
+  "color_palette": [
+    "白墙素白",
+    "黛瓦灰",
+    "水岸青绿"
+  ],
+  "lighting": "日间光线湿润柔和，空气中带轻微水汽反光，阴影边缘不硬，整体显得安稳平静。",
+  "key_features": [
+    "白墙黛瓦的江南院门",
+    "远处可见的水榭",
+    "竹椅与孩童玩具并置的安宁日常"
+  ],
+  "narrative_scenes": [
+    "scene_026"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从京城权势纠葛彻底抽离，进入轻缓、安稳、可重新生活的情绪状态。"
+}

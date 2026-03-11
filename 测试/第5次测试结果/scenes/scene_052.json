@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "id": "scene_052",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:38:47"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词",
+      "高父"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 江南宅院庭院 - DAY",
+    "location": "江南住处院中廊下与雪地交界",
+    "time_of_day": "day",
+    "description": "廊下背阴，雪地明亮，明暗分界清晰。人物站位形成对峙：高令宁在廊下居高临下，沈词站在雪地中央，几个赘婿分散在昭昭附近，像无声的屏障。空气寒冷，画面带有审视与挑衅。",
+    "action": "沈词抹去脸上的雪，盯着那几个男人，迈步逼近。高令宁却不退，扶着廊柱淡淡看他。昭昭被人轻轻护到身后。沈词压着怒气发问，高令宁故意用最轻描淡写的口吻将对方定义为“新夫婿”，把他的怒意顶到更高处。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "他们是谁？",
+        "subtext": "你身边凭什么有别人？我不接受自己被取代。"
+      },
+      {
+        "character": "高令宁",
+        "line": "我的新夫婿。",
+        "subtext": "我要让你知道你没有资格过问，也要报复你此前的婚讯试探。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "昭昭",
+      "沈词",
+      "高父"
+    ],
+    "key_props": [
+      "廊柱",
+      "积雪",
+      "雪球"
+    ],
+    "dramatic_purpose": "正面确认三角乃至多角关系的竞争结构，强化沈词的危机感与高令宁的防御姿态。",
+    "tension_score": 0.82,
+    "order": 52
+  }
+}

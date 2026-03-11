@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_004",
+  "name": "前世沈府多个空间",
+  "type": "mixed",
+  "era_style": "明代中晚期世家宅邸内院、病榻与灵堂复合空间",
+  "description": "该组空间应作为回忆式蒙太奇统一设计，包含昏暗内院回廊、病中卧房与设白幡的灵堂。卧房内陈设病榻、药碗、账册、低矮灯烛和绣好的寝衣，表现长期操持家务与病体缠身；回廊与过道以深色木构、冷湿青砖和稀疏灯笼构成，强调婚后关系的寒凉疏离；灵堂则以白幡、牌位、火盆、棺材为核心，陈设简肃，烛火与纸灰映得木构阴影浮动。寿衣与棺木的白、病榻旁药碗的暗褐、夜色中的灯烛暖黄形成强烈反差。整体空间不需完全连贯，但建筑语言必须统一为深宅大院的封闭感与宿命感。",
+  "visual_reference": "Late Ming dynasty noble mansion montage spaces, dark inner courtyard corridors, sickroom with low bed, medicine bowl, account books, dim candlelight, funeral hall with white mourning banners, ancestral tablet, brazier, coffin, oppressive aristocratic Chinese residence at night, grief, resentment, fate, realistic historical architecture, cinematic memory sequence",
+  "atmosphere": "衰败沉郁、怨恨缠结、死生反差",
+  "color_palette": [
+    "墨黑",
+    "惨白",
+    "灰褐",
+    "烛黄"
+  ],
+  "lighting": "夜间以灯烛、火盆和局部油灯为主，照度很低，边缘阴影浓重，适合记忆碎片式切换与悲剧宿命感。",
+  "key_features": [
+    "病榻与药碗",
+    "白幡灵堂与棺木",
+    "深宅回廊中的孤灯"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从婚后长期积压的误解与怨怼，延伸到死亡时迟来的守护与失控悲痛。"
+}

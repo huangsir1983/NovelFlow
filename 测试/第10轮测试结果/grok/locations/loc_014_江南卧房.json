@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_014",
+  "name": "江南卧房",
+  "type": "interior",
+  "era_style": "明代江南水乡私家园林卧房",
+  "description": "温馨江南卧室，中央床帐与被枕，窗外可见雷电夜景，小床安置昭昭，墙面挂帘与灯笼，地面木板，空间私密亲密却充满占有张力。",
+  "visual_reference": "Cozy Ming dynasty Jiangnan water-town garden bedroom interior at night, central canopy bed with curtains and pillows, window revealing thunderstorm lightning, small child bed for Zhaozhao, wall drapes and lanterns, wooden floor, intimate yet possessive atmosphere with dramatic storm outside",
+  "atmosphere": "雷雨中的乞求与占有",
+  "color_palette": [
+    "暖烛黄",
+    "深蓝",
+    "木棕"
+  ],
+  "lighting": "窗外雷电闪光与室内烛火交替，剧烈动态光影",
+  "key_features": [
+    "床帐被枕",
+    "昭昭小床",
+    "窗外雷电"
+  ],
+  "narrative_scenes": [
+    "scene_014"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "乞求与占有欲"
+}

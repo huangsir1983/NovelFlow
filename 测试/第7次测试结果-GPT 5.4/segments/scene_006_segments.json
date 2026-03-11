@@ -1,0 +1,90 @@
+[
+  {
+    "id": "seg_0044",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0090",
+      "shot_0091",
+      "shot_0092",
+      "shot_0093"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "拂晓起身到穿衣整束再进入回廊奔行，角色集合未变，时空连续，情绪从压抑清冷推进到效率紧迫，适合合并为一个“掌家一日开始”的开场段落。",
+    "order": 44
+  },
+  {
+    "id": "seg_0045",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0094",
+      "shot_0095",
+      "shot_0096",
+      "shot_0097",
+      "shot_0098"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组均属于白日掌家执行链条：账房核账—庭院调度—库房核对，角色核心始终是高令宁，情绪持续上扬至凌厉高压，没有本质时空断裂，合并可形成高密度的日间工作蒙太奇。",
+    "order": 45
+  },
+  {
+    "id": "seg_0046",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0099",
+      "shot_0100",
+      "shot_0101"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "沈母入场构成角色集合变化，也带来新的权力关系说明；三镜完整组成“病倒—审视—承下”的情绪弧线，适合作为独立段落承接前段的工作蒙太奇并解释高令宁处境来源。",
+    "order": 46
+  },
+  {
+    "id": "seg_0047",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0102",
+      "shot_0103",
+      "shot_0104"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "同一场景同一角色，依靠时间推进形成白日到夜深的消耗感，情绪由漫长透支累积到身体预警，是完整的夜间劳累段落，应合并处理以强化持续性。",
+    "order": 47
+  },
+  {
+    "id": "seg_0048",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0105",
+      "shot_0106",
+      "shot_0107",
+      "shot_0108",
+      "shot_0109",
+      "shot_0110"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组构成明确的危险事件链：孕中强撑—突发不适—扶案失衡—众人涌上—她仍先顾局面。情绪持续攀升至场景峰值，且动作因果强，必须合并为一个连续爆发段落。",
+    "order": 48
+  },
+  {
+    "id": "seg_0049",
+    "scene_id": "scene_006",
+    "shot_ids": [
+      "shot_0111"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "单镜头具备明确的情绪收束功能，与前段爆发形成强烈反差；时空再度跳至夜深，且人物重新回到独自承担的本质状态，适合作为独立尾段。",
+    "order": 49
+  }
+]

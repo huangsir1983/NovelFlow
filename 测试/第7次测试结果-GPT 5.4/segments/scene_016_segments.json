@@ -1,0 +1,70 @@
+[
+  {
+    "id": "seg_0079",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0240",
+      "shot_0241",
+      "shot_0242"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成空间建立与主观窥视的进入：先交代柳池和球场的反差，再落到高令宁的停顿，随即切入她所见的亲昵事实，角色集合稳定，情绪由异样滑入确认，适合合并为一个连续的观察段落。",
+    "order": 79
+  },
+  {
+    "id": "seg_0080",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0243",
+      "shot_0244",
+      "shot_0245"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot集中于‘证实伤害’：先把嫉恨落在高令宁的身体细节，再分别给出陆姝仪的主动与沈词的回应，形成完整的因果闭环。角色未新增，空间未变，情绪持续抬升，适合压缩成一段刺痛加深的VFF。",
+    "order": 80
+  },
+  {
+    "id": "seg_0081",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0246",
+      "shot_0247",
+      "shot_0248"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处出现角色集合变化，蒋晟进入画面并改变场面关系，因此单独成段。该段核心不是再看柳池二人，而是高令宁如何在疼痛中维持体面，情绪从内刺转为克制绷紧，形成明显的小弧线。",
+    "order": 81
+  },
+  {
+    "id": "seg_0082",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0248",
+      "shot_0249",
+      "shot_0250"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "shot_0248-0250构成完整的对视建立过程：沈词察觉、沈词确认、高令宁回视，节拍紧密且必须连贯展示，属于同一情绪爆点。虽有陆姝仪留在前景，但关系核心已转向男女主旧怨重接，因此单独合并最能保留张力。",
+    "order": 82
+  },
+  {
+    "id": "seg_0083",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0251"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一个shot是明显的收束镜头，功能从主观情绪转为客观定格关系版图，情绪进入短暂回冷，因此独立成段，作为后续挑衅动机成立的视觉句号。",
+    "order": 83
+  }
+]

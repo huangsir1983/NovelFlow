@@ -1,0 +1,62 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "沈大人",
+    "阿词"
+  ],
+  "role": "protagonist",
+  "age_range": "18-42岁(跨越两世)",
+  "appearance": {
+    "face": "如玉面庞,清冷俊美,琥珀色眸子",
+    "body": "长身玉立,身姿挺拔",
+    "hair": "乌黑束冠,儒雅",
+    "distinguishing_features": "冷如冰湖的眼神,薄唇微抿时的讥诮"
+  },
+  "costume": {
+    "typical_outfit": "文官朝服,青色儒衫",
+    "color_palette": [
+      "墨青",
+      "玄黑",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "古装男主",
+    "文臣",
+    "冷峻",
+    "深情"
+  ],
+  "visual_reference": "handsome ancient Chinese scholar-official, cold amber eyes, jade-like face, tall elegant figure in dark blue official robes, aloof expression, black hair in traditional style",
+  "personality": "端方持重,冷淡克制,内心深情但不善表达",
+  "desire": "保护陆姝仪,得到沈睿,后期挽回高令宁",
+  "flaw": "感情处理失当,伤害深爱之人",
+  "arc": "从算计婚姻→冷漠相待→后悔→卑微挽回",
+  "scene_presence": "男主角,全剧重要视角",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻",
+      "dynamic": "从利用到真爱,纠缠一生",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅/义妹",
+      "dynamic": "保护但非男女之情",
+      "function": "情感障碍"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "骄傲与愧疚",
+      "function": "情感纽带"
+    },
+    {
+      "target": "昭昭",
+      "type": "父女",
+      "dynamic": "补偿式疼爱",
+      "function": "赎罪对象"
+    }
+  ]
+}

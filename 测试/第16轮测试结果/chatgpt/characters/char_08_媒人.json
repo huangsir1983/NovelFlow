@@ -1,0 +1,44 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "喜庆圆脸，善察言观色，受惊时神情夸张",
+    "body": "中等身形，行动麻利",
+    "hair": "盘髻整齐",
+    "distinguishing_features": "职业性赔笑与调停姿态明显"
+  },
+  "costume": {
+    "typical_outfit": "喜庆体面的媒婆装束",
+    "color_palette": [
+      "枣红",
+      "褐金"
+    ]
+  },
+  "casting_tags": [
+    "媒婆",
+    "喜剧外壳下推动冲突"
+  ],
+  "visual_reference": "古代媒人妇人，圆脸能说会道，穿枣红色体面衣裙，手持礼单或木雁，站在厅堂中赔笑劝和，写实风格",
+  "visual_prompt_negative": "现代职业装、夸张漫画表情、科幻元素、年轻少女化",
+  "personality": "圆滑、世故、趋利避害",
+  "desire": "促成婚事，维护体面",
+  "flaw": "遇强则弱，只会顺势而为",
+  "arc": "无明显成长，为前期婚约博弈的执行者",
+  "scene_presence": "提亲场景核心辅助人物",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "提亲中介",
+      "dynamic": "试图劝她息事宁人",
+      "function": "呈现婚俗压力"
+    },
+    {
+      "target": "沈词",
+      "type": "婚事执行关联",
+      "dynamic": "代表沈家来往高府",
+      "function": "引出提亲冲突"
+    }
+  ]
+}

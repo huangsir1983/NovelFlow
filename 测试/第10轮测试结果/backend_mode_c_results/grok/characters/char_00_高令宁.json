@@ -1,0 +1,61 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高小姐",
+    "高夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-25",
+  "appearance": {
+    "face": "清丽端庄，柳眉杏眼，眼神锐利坚毅",
+    "body": "纤细苗条，姿态优雅挺拔",
+    "hair": "乌黑长发，常盘成精致妇人髻或少女发式",
+    "distinguishing_features": "不屈下巴与冷笑时的锐利目光"
+  },
+  "costume": {
+    "typical_outfit": "精致汉服罗裙，绣花长衫",
+    "color_palette": [
+      "素白",
+      "淡青",
+      "浅粉"
+    ]
+  },
+  "casting_tags": [
+    "重生要强女主",
+    "古风独立美人",
+    "骄傲坚韧女性"
+  ],
+  "visual_reference": "beautiful young Chinese noblewoman in elegant ancient hanfu with flowing sleeves, sharp intelligent determined eyes, long jet black hair in intricate updo with hairpins, pale flawless skin, graceful slender figure, highly detailed cinematic ancient drama style, 8k",
+  "personality": "争强好胜、高傲不屈、聪慧要强",
+  "desire": "重见孩子一面并获得自由生活，不再与前世恩怨纠缠",
+  "flaw": "嫉妒冲动、过度骄傲导致误会与冲突",
+  "arc": "从恨意报复到彻底原谅并独立，却被男主反向纠缠",
+  "scene_presence": "全剧核心，从提亲到江南新生活全程主导",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "前夫",
+      "dynamic": "爱恨交织针锋相对到释然后纠缠",
+      "function": "情感核心冲突与救赎线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "敌对嫉妒",
+      "function": "多次冲突催化剂"
+    },
+    {
+      "target": "高父",
+      "type": "父亲",
+      "dynamic": "相互支持护佑",
+      "function": "后盾与和离助力"
+    },
+    {
+      "target": "昭昭",
+      "type": "女儿",
+      "dynamic": "深沉母爱",
+      "function": "情感寄托与新生活动力"
+    }
+  ]
+}

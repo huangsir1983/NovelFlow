@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 沈府夫人",
+  "tags": [
+    "已婚",
+    "诰命",
+    "冷淡"
+  ],
+  "scene_ids": [
+    "scene_010",
+    "scene_011",
+    "scene_012"
+  ],
+  "trigger": "婚后日常，作为沈府正室夫人",
+  "appearance_delta": {
+    "face": "端庄但疏离，眼神更淡漠",
+    "body": "姿态依然挺拔但略显疲惫",
+    "hair": "已婚妇人发髻，插簪",
+    "distinguishing_features": "笑容更加疏离，眼神放弃争斗"
+  },
+  "costume_override": {
+    "outfit": "诰命夫人服饰，质地考究但色调素雅",
+    "color_palette": [
+      "月白",
+      "青灰",
+      "淡蓝"
+    ]
+  },
+  "visual_reference": "elegant Chinese noblewoman in formal hanfu, married woman's hair bun with jade hairpin, moon-white and grey-blue noble robes, detached cold eyes, tired but upright posture, indifferent expression, ancient Chinese study or courtyard, soft daylight, refined but melancholic atmosphere, cinematic style",
+  "emotional_tone": "疲倦、放弃、冷淡疏离"
+}

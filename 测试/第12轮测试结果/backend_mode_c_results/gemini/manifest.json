@@ -1,0 +1,23 @@
+{
+  "model": "Gemini (gemini-3.1-pro-preview)",
+  "status": "OK",
+  "streaming": false,
+  "total_time_s": 1.64,
+  "num_characters": 0,
+  "num_scenes": 0,
+  "character_names": [],
+  "costs": [
+    {
+      "model": "Gemini (gemini-3.1-pro-preview)",
+      "elapsed_s": 1.64,
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  ],
+  "num_locations": 0,
+  "num_props_total": 0,
+  "num_props_major": 0,
+  "minor_props_with_visual": 0,
+  "num_variants": 0,
+  "pipeline_total_time_s": 3.87
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_020",
+  "order": 19,
+  "heading": "INT. 侯爵府客房外厅 - NIGHT",
+  "location": "侯爵府外厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "在回忆与现实交叠后，我忽然厌倦争这一时之气，松口让沈词翌日正式来提亲，只要求他婚后守约。",
+  "key_dialogue": "「罢了，沈公子明日便来提亲吧。」",
+  "emotional_peak": "我从对抗转为疲惫放下，主动结束僵局。",
+  "tension_score": 0.56,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "团扇",
+    "灯笼",
+    "门帘"
+  ],
+  "dramatic_purpose": "情绪转折场，标志我从复仇心态转向务实地完成交易婚姻。",
+  "visual_reference": "灯下人影稀薄，女主神情疲倦像一夜老了几分，对面男子意外怔住，背景中陆姝仪神色黯淡，空间沉静而带余波",
+  "visual_prompt_negative": "避免和解拥抱，避免热闹群戏，避免过于明亮色调",
+  "source_text_start": "陆姝仪说的对。有些事，强求不得。",
+  "source_text_end": "我轻轻道：「成亲之后，还望公子说话算话。」"
+}

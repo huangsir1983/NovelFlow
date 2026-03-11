@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0109",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0350",
+      "shot_0351",
+      "shot_0352"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间、关系距离与女主主观窒息感，角色集合未变，情绪从客观压抑自然收束到高令宁的抽离体感，适合作为一个连续下沉的开场段落。",
+    "order": 109
+  },
+  {
+    "id": "seg_0110",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0353",
+      "shot_0354",
+      "shot_0355"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕同一礼仪卡顿节点推进：先展示二人同框失序，再以手部细节外化高令宁内在阻滞，最后落到沈词的冷静观察，形成‘她僵住—他看见’的连续情绪链。",
+    "order": 110
+  },
+  {
+    "id": "seg_0111",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0356",
+      "shot_0357",
+      "shot_0358"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段是明确的情感转折点，三镜头构成完整因果：沈词提醒、高令宁惊醒、二人完成错拍的对拜。动作连续、角色不变、情绪由静滞转为被迫回应，适合合并成一个小爆点段落。",
+    "order": 111
+  },
+  {
+    "id": "seg_0112",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0359",
+      "shot_0360",
+      "shot_0361"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "末段以女主主观视线发起，确认男主冷淡，再回到客观全景完成本场落点，形成‘女主先感知—观众被证实—全场定调’的闭环，适合作为本场收束。",
+    "order": 112
+  }
+]

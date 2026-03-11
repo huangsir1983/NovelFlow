@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高家廊下 - 日",
+  "location": "高家廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "回娘家养胎，沈词每日探望剥葡萄道歉前世",
+  "key_dialogue": "其实上一世，我有许多对不住你的地方。",
+  "emotional_peak": "父亲认可感情和美",
+  "tension_score": 0.4,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "葡萄",
+    "肩膀"
+  ],
+  "dramatic_purpose": "短暂温馨与父亲劝和",
+  "source_text_start": "借着养胎为由，收拾包裹回了娘家。",
+  "source_text_end": "父亲是谈到：「如今我看你们感情甚好，又有孩子，那位表小姐也即将出嫁，不如便这般过下去吧。」"
+}

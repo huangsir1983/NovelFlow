@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "id": "scene_016",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:31:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会场 - DAY",
+    "location": "马球会场",
+    "time_of_day": "day",
+    "description": "户外场地开阔明亮，日光直落草场，远处球杆起落，马蹄扬尘。看台与席面设在场边，遮阳帷幔下摆着果盘、点心与酒水。人群衣香鬓影，气氛热闹轻快。高令宁坐在席边，衣裙整洁，蒋晟侍立一侧，动作谨慎周到。",
+    "action": "蒋晟替高令宁挡开拥挤来往的人群，伸手将果盘中的葡萄剥好放到她面前，又不动声色调整她身侧坐具的位置，让她避开烈日和喧闹。高令宁起初只是随意应付，随后神色慢慢放松，偶尔抬眼看场中赛事。两人相处自然，形成旁人眼中颇为登对的画面。",
+    "dialogue": [
+      {
+        "character": "蒋晟",
+        "line": "这边日头烈，我替你挪个位置。",
+        "subtext": "我在意你的舒适，也想以体贴稳妥赢得你的好感。"
+      },
+      {
+        "character": "高令宁",
+        "line": "有劳。",
+        "subtext": "我接受你的照拂，但仍保留分寸，并未真正亲近。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "key_props": [
+      "葡萄",
+      "果盘",
+      "坐具",
+      "遮阳帷幔",
+      "马球杆"
+    ],
+    "dramatic_purpose": "营造轻松表层氛围，展示蒋晟的体贴与可靠，为后续与沈词形成情感与婚配上的鲜明对照。",
+    "tension_score": 0.28,
+    "order": 16
+  }
+}

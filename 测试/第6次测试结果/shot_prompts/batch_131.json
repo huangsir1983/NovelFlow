@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0786",
+    "shot_id": "shot_0786",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, half propping himself up on the floor after being kicked down, seated slightly left of center, face drained pale, hair slightly disordered, stunned and humiliated, eyes reddened with pain and confusion; the bed edge and hanging bed curtains rise in the upper right background with Gao Lingning only as a blurred elevated silhouette, creating a strong high-low power contrast; low camera close to the ground, medium close-up framing, static composition in an aristocratic inner chamber with old wood brown, gray-blue shadows, muted bedding and gauze curtains; low-saturation warm-cool contrast, cold natural sidelight mixed with faint amber candle glow, cinematic realism, highly detailed historical drama still, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cold side daylight with faint amber candlelight, floor-level shadow emphasis, restrained interior contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass windows, modern furniture, text, watermark, logo, low quality, blurry face, bad anatomy, extra limbs, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0787",
+    "shot_id": "shot_0787",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, his hand reaching in from the lower left in desperate reflex, only catching an empty fold of sleeve as Gao Lingning's wrist pulls away from the right edge, the emotional center fixed on the gap between the failed grasp and the withdrawing wrist, futile longing made physical; close-up framing focused on hands, sleeve wrinkles, tension in the fingers, and the empty space between them; background is a cold hard floor with lattice-window shadows cast across it, austere aristocratic chamber textures, no full faces shown; low-saturation warm-cool contrast, cool daylight dominating with minimal amber spill, crisp shadow geometry, cinematic realism, highly detailed, tactile fabric folds, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, macro-detail close-up, subtle film grain",
+      "lighting": "cold lattice-window daylight on the floor with minimal warm candle spill, low-saturation contrast, hard shadow pattern emphasizing separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary sleeves, zippers, buttons, electric lights, text, watermark, logo, low quality, blurry, bad hands, extra fingers, deformed anatomy, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0788",
+    "shot_id": "shot_0788",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, positioned on the left side of the frame and looking upward toward the bed, urgently trying to explain himself, eyes reddened, expression pleading yet dangerously fixated, posture lower than his unseen listener to stress the height difference, his neediness visible before speech; medium close-up framing from Gao Lingning's subjective distance, the right side of the frame intentionally left empty to mark her off-screen presence and emotional distance; diagonal lattice-window light cuts across his face, aristocratic bedchamber in muted gray-blue, dark wood, gauze curtains and sparse warm candle glow; low-saturation warm-cool contrast, natural sidelight with sharp window-shadow bands, cinematic realism, psychological tension, highly detailed historical drama still, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, restrained subjective framing, subtle film grain",
+      "lighting": "cold diagonal window sidelight crossing the face with faint amber candle fill, low-saturation warm-cool balance, controlled contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary interior, electric lights, modern bedding, text, watermark, logo, low quality, blurry face, bad anatomy, extra limbs, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0789",
+    "shot_id": "shot_0789",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, sitting upright on the bed on the right side of the frame, looking down toward the lower left with icy finality, her expression cutting off excuses without mercy; a blurred male shoulder line of her husband remains in the left foreground as silent proof of companionship and replacement, while layered gauze bed curtains and rumpled bedding support her from behind; close-up framing, static axis, aristocratic inner chamber with dim old wood, curtain layers, muted bedding textures; low-saturation warm-cool contrast, cool daylight on her pale face with soft amber candle undertone, background subdued, cinematic realism, highly detailed historical drama portrait, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, intimate portrait framing, subtle film grain",
+      "lighting": "cool side daylight shaping the face with restrained amber candle undertone, low-saturation warm-cool contrast, softened background shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary hairstyle, modern jewelry, electric lights, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0790",
+    "shot_id": "shot_0790",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, facing slightly toward camera with her chin subtly lifted, gaze unwavering, delivering a hard final dismissal, emotion compressed into stillness like a sheathed blade; medium close-up framing continuing the same axis, her face occupying more of the frame, the background pressed into darkness so that only her cold white skin and the faint mark at the side of her neck remain visually prominent; aristocratic bedchamber reduced to dim gauze and shadow, minimal distraction; low-saturation warm-cool contrast, cool pale key light on face and neck with almost no warm fill, severe controlled shadows, cinematic realism, highly detailed, sharp emotional minimalism, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, intense portrait minimalism, subtle film grain",
+      "lighting": "cool focused key light on face and neck, background suppressed into shadow, very restrained amber fill, low-saturation high-contrast interior lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern makeup, contemporary styling, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, oversaturated colors, cartoon, 3d render"
+  },
+  {
+    "id": "sp_0791",
+    "shot_id": "shot_0791",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, standing rigid slightly left of center with his back to the bed, paused in stunned emptiness before slowly turning toward the exit, wounded pride collapsing into numbness; the bed sits elevated in the right rear with blurred still silhouettes behind gauze curtains, while the doorway forms a dark opening at the left rear as the only path out; medium long shot, static diagonal view from the direction of the door, aristocratic chamber space defined by old wood architecture, bed platform height, curtain layers and shadowed floor; low-saturation warm-cool contrast, cool ambient daylight mixed with weak amber candle remnants, negative space and doorway darkness emphasizing abandonment, cinematic realism, highly detailed historical drama still, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, spatial storytelling, subtle film grain",
+      "lighting": "cool ambient daylight with faint amber candle residue, low-saturation warm-cool contrast, doorway darkness and layered interior shadows emphasizing isolation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern doors, contemporary furniture, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, oversaturated colors, cartoon, 3d render"
+  }
+]

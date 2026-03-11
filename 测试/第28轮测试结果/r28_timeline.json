@@ -1,0 +1,50 @@
+[
+  {
+    "event": "pipeline_start",
+    "t": 0.0
+  },
+  {
+    "event": "char_stream_start",
+    "t": 0.0
+  },
+  {
+    "event": "scene_stream_start",
+    "t": 0.47
+  },
+  {
+    "event": "char_stream_done",
+    "t": 222.44
+  },
+  {
+    "event": "scene_stream_done",
+    "t": 291.97
+  },
+  {
+    "event": "props_start",
+    "t": 291.97
+  },
+  {
+    "event": "loc_wait_start",
+    "t": 292.43
+  },
+  {
+    "event": "variants_start",
+    "t": 292.43
+  },
+  {
+    "event": "loc_wait_done",
+    "t": 363.0
+  },
+  {
+    "event": "props_done",
+    "t": 388.78
+  },
+  {
+    "event": "variants_done",
+    "t": 417.62
+  },
+  {
+    "event": "pipeline_done",
+    "t": 417.62
+  }
+]

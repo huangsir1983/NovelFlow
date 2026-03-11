@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_007",
+  "name": "高府会客处",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸前厅会客间",
+  "description": "会客处位于前院与内院之间，是一处尺度较小的过渡性厅室。室内设方形或长方形桌几，旁置简洁坐具，方便收帖、传话、见外客。门帘垂落，隔开内外礼法界线；丫鬟托盘与传话帖子常出现在入口附近，强化信息流动感。装饰不重，墙面、柱身和家具均以素净深木色为主，避免抢夺人物戏份。空间应给人一种不能久留、说完就走的临时性，同时维持世家府邸的规整。",
+  "visual_reference": "Late Ming dynasty reception room in a noble Chinese mansion, modest front parlor with wooden table, teacups, servant tray, message card, hanging curtain separating inner quarters, clean restrained decor, transitional interior for delivering conditions and messages, daylight, subtle tension, historical Chinese realism, finely detailed furniture layout",
+  "atmosphere": "克制、审慎、讯息交锋、冷淡加码",
+  "color_palette": [
+    "深棕木色",
+    "米白纸色",
+    "浅茶褐"
+  ],
+  "lighting": "白昼散射光温和进入，室内明度适中，无强烈戏剧光，适合呈现冷静而锋利的对话。",
+  "key_features": [
+    "门帘后的内外分界",
+    "桌几与茶盏的简洁会客布局",
+    "传话帖子与丫鬟托盘"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从普通会客传话空间上升为女主主动掌控婚事条件的施压场。"
+}

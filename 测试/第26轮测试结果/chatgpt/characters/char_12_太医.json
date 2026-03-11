@@ -1,0 +1,46 @@
+{
+  "name": "太医",
+  "aliases": [
+    "太医"
+  ],
+  "role": "minor",
+  "age_range": "40-65岁",
+  "appearance": {
+    "face": "沉稳严肃，眼下有疲色，医者气质浓厚",
+    "body": "中等身材，举止谨慎",
+    "hair": "整齐束冠，略带灰白",
+    "distinguishing_features": "把脉时神情专注，言语审慎"
+  },
+  "costume": {
+    "typical_outfit": "素净官医袍服，携药箱",
+    "color_palette": [
+      "青灰",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "宫廷医者",
+    "诊脉角色"
+  ],
+  "visual_reference": "中国古代太医形象，中老年文雅医者，神色严谨，穿青灰或素白医官袍服，手持药箱或把脉枕，站在内宅床榻旁，写实古风配角，室内柔暗光线",
+  "visual_prompt_negative": "避免现代医生白大褂、避免江湖郎中邋遢感、避免夸张神棍气质",
+  "personality": "谨慎、专业、寡言",
+  "desire": "准确诊断，尽医者本分",
+  "flaw": "只能处理病症，无法介入人心与礼法",
+  "arc": "无明显弧线",
+  "scene_presence": "曾为高令宁诊出男胎，后在难产时与稳婆一同出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医患",
+      "dynamic": "为其诊脉与照护孕产危机",
+      "function": "确认命运节点——怀孕与难产"
+    },
+    {
+      "target": "沈词",
+      "type": "官员与医者",
+      "dynamic": "向其传达产妇风险",
+      "function": "为男主抉择制造现实压力"
+    }
+  ]
+}

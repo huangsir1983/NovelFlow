@@ -1,0 +1,176 @@
+[
+  {
+    "id": "shot_0057",
+    "scene_id": "scene_005",
+    "shot_number": 1,
+    "goal": "建立黄昏湖景氛围，暗示悲剧即将发生",
+    "composition": "湖面占据画面下半部，暗红余晖倒映水中，低垂柳枝作为前景框架右侧，远景可见府邸轮廓",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "不祥预感、压抑",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 57
+  },
+  {
+    "id": "shot_0058",
+    "scene_id": "scene_005",
+    "shot_number": 2,
+    "goal": "揭示事件痕迹，制造悬念",
+    "composition": "湖岸湿痕占据画面中心，散落的发簪在石板上反射余晖，浅景深虚化背景湖水",
+    "camera_movement": "slow_dolly_in",
+    "framing": "MS",
+    "emotion_target": "不安、疑惑",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.4,
+    "order": 58
+  },
+  {
+    "id": "shot_0059",
+    "scene_id": "scene_005",
+    "shot_number": 3,
+    "goal": "陆姝仪首次入画，展现其决绝状态",
+    "composition": "陆姝仪背影居中偏右，面向府邸方向，柳枝框架左侧，湖面占据下三分之一",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "孤独、绝望",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 59
+  },
+  {
+    "id": "shot_0060",
+    "scene_id": "scene_005",
+    "shot_number": 4,
+    "goal": "捕捉陆姝仪含泪的眼神，传递内心痛苦",
+    "composition": "陆姝仪侧脸特写，眼角泪痕清晰，背景虚化成暗红色光斑",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心碎、悲痛",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 60
+  },
+  {
+    "id": "shot_0061",
+    "scene_id": "scene_005",
+    "shot_number": 5,
+    "goal": "展示陆姝仪解下荷包的动作，象征决裂",
+    "composition": "陆姝仪双手居中，解下腰间荷包的动作，背景浅焦湖面",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "诀别、不舍",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 61
+  },
+  {
+    "id": "shot_0062",
+    "scene_id": "scene_005",
+    "shot_number": 6,
+    "goal": "荷包放置在石凳上的特写，强化遗物意象",
+    "composition": "荷包占据画面中心，石凳纹理清晰，背景虚化陆姝仪身影",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "哀伤、终结感",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 62
+  },
+  {
+    "id": "shot_0063",
+    "scene_id": "scene_005",
+    "shot_number": 7,
+    "goal": "陆姝仪转身走向湖心，推动悲剧高潮",
+    "composition": "陆姝仪背影从画面右侧走向左侧湖心，柳枝前景框架，余晖逆光勾勒轮廓",
+    "camera_movement": "slow_pan_left",
+    "framing": "FS",
+    "emotion_target": "无力阻止的悲剧感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 63
+  },
+  {
+    "id": "shot_0064",
+    "scene_id": "scene_005",
+    "shot_number": 8,
+    "goal": "裙摆入水瞬间，视觉化死亡时刻",
+    "composition": "水面占据画面，月白色裙摆漂浮在暗红湖水中，涟漪扩散",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "震惊、心痛",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "slow_dissolve",
+    "dramatic_intensity": 0.85,
+    "order": 64
+  },
+  {
+    "id": "shot_0065",
+    "scene_id": "scene_005",
+    "shot_number": 9,
+    "goal": "裙摆沉入水中，完成死亡叙事",
+    "composition": "水下视角，裙摆缓慢下沉，水面光影破碎，气泡上升",
+    "camera_movement": "slow_tilt_down",
+    "framing": "MCU",
+    "emotion_target": "绝望、窒息感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "slow_dissolve",
+    "transition_out": "fade_to_black",
+    "dramatic_intensity": 0.9,
+    "order": 65
+  },
+  {
+    "id": "shot_0066",
+    "scene_id": "scene_005",
+    "shot_number": 10,
+    "goal": "远处仆人呼喊声响起，制造悲剧反差",
+    "composition": "空镜：湖面恢复平静，只剩涟漪，远景府邸灯火亮起，石凳上荷包孤零",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "无力回天的悲凉",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "fade_from_black",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.6,
+    "order": 66
+  }
+]

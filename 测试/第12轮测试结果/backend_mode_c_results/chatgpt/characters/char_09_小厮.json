@@ -1,0 +1,34 @@
+{
+  "name": "小厮",
+  "aliases": [
+    "沈府小厮",
+    "门房小厮"
+  ],
+  "role": "minor",
+  "age_range": "14-25",
+  "appearance": {
+    "face": "普通少年或青年仆从面貌，神情谨慎",
+    "body": "瘦小或精干",
+    "hair": "束发包巾",
+    "distinguishing_features": "下人装束明显"
+  },
+  "costume": {
+    "typical_outfit": "粗布短褐或统一家仆服",
+    "color_palette": [
+      "灰蓝",
+      "褐灰"
+    ]
+  },
+  "casting_tags": [
+    "家仆",
+    "传话工具角色"
+  ],
+  "visual_reference": "古代高门家仆少年，身穿灰蓝短褐，头裹巾帽，手持拜帖、灯笼或食盒，站在府门、廊下或门房，神情恭敬紧张，古装写实风",
+  "visual_prompt_negative": "现代制服、卡通夸张表情、耳机、现代鞋、潮流发型",
+  "personality": "谨慎听命",
+  "desire": "完成差事，不惹祸",
+  "flaw": "无独立主见",
+  "arc": "无",
+  "scene_presence": "多次传递消息，串联提亲、来访、失踪等信息节点",
+  "relationships": []
+}

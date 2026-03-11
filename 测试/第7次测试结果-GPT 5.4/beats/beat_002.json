@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "id": "beat_002",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_001"
+    ]
+  },
+  "data": {
+    "title": "试探订亲聘礼并识破重生",
+    "description": "订亲当日，女主在高家正堂看见缩水一半的聘礼和冰冷木雁，立刻意识到沈词也重生了；她当众嫌聘礼太薄、退还木雁，以挑衅逼他露底。",
+    "beat_type": "action",
+    "save_the_cat": "Set-Up",
+    "emotional_value": 0.1,
+    "dramatic_intensity": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 2
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_009",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_018"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会僻静角落 - 日",
+    "location": "马球会无人的休憩角落",
+    "time_of_day": "day",
+    "description": "同一角落，春风拂动发梢，空气安静却压迫感骤升。两人距离近，肢体对峙形成封闭张力。高令宁后退半步，身体绷紧；沈词微微蹙眉后又似笑非笑，神情由克制转为带刺的逼近。",
+    "action": "高令宁从沈词手边抽离，往后退开一步，刻意拉出距离，语气疏冷地强调两人未成婚，不宜有身体接触。沈词盯着她，短促地笑了一下，目光落在她身上不动，随后说出近乎挑衅的旧日亲密之语，将她用礼法筑起的界线当场击碎。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "沈公子，你我还未成婚，不宜有肌肤之亲。",
+        "subtext": "我要用身份和规矩把你挡在外面，也提醒你没有资格再碰我。"
+      },
+      {
+        "character": "沈词",
+        "line": "装什么装？",
+        "subtext": "你我之间早已越过界线，我不接受你现在假作生分。"
+      },
+      {
+        "character": "沈词",
+        "line": "你身上哪里，我没碰过？",
+        "subtext": "我用过去的亲密逼你失守，也是在宣示你仍属于我。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "制造章节核心高潮，以露骨台词刺破表面礼法，强化两人历史纠葛、占有欲与情感战场的危险程度。",
+    "tension_score": 0.94,
+    "dramatic_intensity": 0.88,
+    "order": 9
+  }
+}

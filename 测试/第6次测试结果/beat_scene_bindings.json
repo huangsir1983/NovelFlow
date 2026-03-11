@@ -1,0 +1,243 @@
+{
+  "bindings": [
+    {
+      "beat_id": "beat_000",
+      "beat_title": "当众折辱未婚夫",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "该场景紧接外部退婚风波后的父女对峙，核心就在于承接女主先前当众羞辱沈词所造成的余波，并以此建立二人关系从爱慕转为敌意的反常开局。虽然羞辱行为本身发生在场外，但其叙事功能在此场景中被正式落地。"
+    },
+    {
+      "beat_id": "beat_001",
+      "beat_title": "追问失控缘由",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "场景的戏剧目的正是父亲追问女主为何突然态度大变，并借父女对话抛出婚姻会吞没人一生的主题命题，完全对应Theme Stated的功能。"
+    },
+    {
+      "beat_id": "beat_002",
+      "beat_title": "回忆初恋幻梦",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "在父女对话中，女主对过往爱慕、提亲狂喜与婚前幻想的回看，为人物动机和今昔反差做铺垫，承担Set-Up性质。"
+    },
+    {
+      "beat_id": "beat_003",
+      "beat_title": "揭开前世噩梦",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "该场景中女主态度剧变的真正原因首次被点出，即婚后噩梦式前世经历，这正是推动故事脱离普通退婚冲突、进入重生婚姻创伤框架的催化事件。"
+    },
+    {
+      "beat_id": "beat_004",
+      "beat_title": "坚持仍要再嫁",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "父亲误判她要拒婚，女主却明确表示不是不嫁，而是要掌控嫁法和姿态；这一反逻辑目标在场景中被确立，承担Debate阶段的方向选择。"
+    },
+    {
+      "beat_id": "beat_005",
+      "beat_title": "闯入前世婚局",
+      "scene_ids": [
+        "scene_010",
+        "scene_000"
+      ],
+      "binding_reason": "scene_010开启前世婚后回溯视角，正式进入第二世界；scene_000则把这段回溯具体化到新婚次日的沈家权力结构与平妻布局上，因此二者共同完成从当下到前世婚局的进入。"
+    },
+    {
+      "beat_id": "beat_006",
+      "beat_title": "撞见平妻试探",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "新婚次日敬茶风波中，沈母让陆姝仪入局，女主第一次在婚内权力框架下正面对上她，也第一次看清沈家真正盘算，完全对应B Story的开启。"
+    },
+    {
+      "beat_id": "beat_007",
+      "beat_title": "以自戕方式立威",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "场景的明确戏剧目的就是通过敬茶风波与极端自伤行为，让高令宁从被试探的新妇反转为立住威势的狠角色，正是该节拍的核心实现。"
+    },
+    {
+      "beat_id": "beat_008",
+      "beat_title": "接管沈府却失去婚姻",
+      "scene_ids": [
+        "scene_011",
+        "scene_012",
+        "scene_013"
+      ],
+      "binding_reason": "scene_011展现她得管家权、赢得贤名的外部胜利；scene_012显示夫妻关系并未改善反而持续撕裂；scene_013以陆姝仪之死把这份‘赢了宅斗、输了婚姻’的虚假胜利彻底坐实，因此共同组成Midpoint。"
+    },
+    {
+      "beat_id": "beat_009",
+      "beat_title": "累积数十年夫妻旧怨",
+      "scene_ids": [
+        "scene_010",
+        "scene_011",
+        "scene_012",
+        "scene_013",
+        "scene_014",
+        "scene_030",
+        "scene_031",
+        "scene_032",
+        "scene_033"
+      ],
+      "binding_reason": "这一节拍本质是漫长婚姻中的怨怼蒙太奇，多个场景共同承担：scene_010定下积怨回看基调，scene_011-014呈现内宅劳心、求认同失败、猜疑与焚毁示好，scene_030-033则把长期敌意推进到伤胎、补救幻象与死胎后的不可逆裂痕。"
+    },
+    {
+      "beat_id": "beat_010",
+      "beat_title": "迎来临终迟来温情",
+      "scene_ids": [
+        "scene_015",
+        "scene_016"
+      ],
+      "binding_reason": "scene_015表现沈词守床照料、在病榻前流露迟来的温柔；scene_016则把这种迟到情感推到死亡之后的棺前痛哭，完整构成All Is Lost的情感塌陷。"
+    },
+    {
+      "beat_id": "beat_011",
+      "beat_title": "在死后反看一生",
+      "scene_ids": [
+        "scene_017"
+      ],
+      "binding_reason": "该场景正是从漫长前世回忆抽离出来，在重来一世的前提下重新审视这段婚姻，情绪进入复杂而冷静的低谷，符合Dark Night of the Soul。"
+    },
+    {
+      "beat_id": "beat_012",
+      "beat_title": "推动父亲辞官避祸",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "场景中女主把视线从婚事转向家族命运，主动干预父亲仕途与高家未来，叙事功能正是利用前世经验开始改写宿命，承担Break into Three。"
+    },
+    {
+      "beat_id": "beat_013",
+      "beat_title": "签下成婚和离之约",
+      "scene_ids": [
+        "scene_003",
+        "scene_034",
+        "scene_035"
+      ],
+      "binding_reason": "scene_003完成男女主在高府门旁的冷酷婚约谈判，明确结婚的交易性质与共同目标；scene_034进一步将契约化婚姻在私下谈判中落实；scene_035则从高父与聘礼角度强化这份婚约的冷性与退路意识，三场共同完成Finale式主线协议。"
+    },
+    {
+      "beat_id": "beat_014",
+      "beat_title": "允婚却心如死灰",
+      "scene_ids": [
+        "scene_036",
+        "scene_037",
+        "scene_038"
+      ],
+      "binding_reason": "scene_036完成无温情的婚礼形式缔结，scene_037展示洞房中的敌意和抽离，scene_038则让陆姝仪在新婚夜再度闯入，确认这场婚姻只是重返旧局的开始，共同构成Final Image。"
+    },
+    {
+      "beat_id": "beat_015",
+      "beat_title": "在马球会上反向试探",
+      "scene_ids": [
+        "scene_004",
+        "scene_005",
+        "scene_007"
+      ],
+      "binding_reason": "scene_004先由传信建立女主借婚事反击试探的策略，scene_005在马球会社交场中引入蒋晟作为刺激工具，scene_007则把这种试探外化为女主主动制造亲近场面回击沈词，完整实现该节拍。"
+    },
+    {
+      "beat_id": "beat_016",
+      "beat_title": "撞见偏宠再起旧恨",
+      "scene_ids": [
+        "scene_006",
+        "scene_018",
+        "scene_020",
+        "scene_021"
+      ],
+      "binding_reason": "scene_006以柳池旁的视觉冲击点燃女主旧恨；scene_018-020在医馆通过站位、照料对象和护短行为把‘偏宠’从主观嫉恨变成现实验证；scene_021作为补刀式回忆，解释这种妒恨并非一时而是长期屈辱的复燃。"
+    },
+    {
+      "beat_id": "beat_017",
+      "beat_title": "逼谈陆姝仪婚事",
+      "scene_ids": [
+        "scene_008",
+        "scene_019"
+      ],
+      "binding_reason": "scene_008把马球会的暗流推到私下对峙的入口，scene_019则正式围绕先成婚还是先安置陆姝仪展开立场冲突，双方底线被逼到台前。"
+    },
+    {
+      "beat_id": "beat_018",
+      "beat_title": "提出藏匿扶正方案",
+      "scene_ids": [
+        "scene_009",
+        "scene_019",
+        "scene_020",
+        "scene_022"
+      ],
+      "binding_reason": "该节拍的本质是女主提出一个看似解决、实则逼真心的残酷方案。scene_019承接对峙使方案进入谈判层面，scene_009把台词锋利化为情感战场高潮，scene_020通过陆姝仪下跪和沈词护短让方案的试探意义彻底显形，scene_022则在后续婚事危机中继续回响其核心矛盾。"
+    },
+    {
+      "beat_id": "beat_019",
+      "beat_title": "确认怀孕重临宿命",
+      "scene_ids": [
+        "scene_023",
+        "scene_024"
+      ],
+      "binding_reason": "scene_023以内室和婴儿物件、去留对话正面触及怀孕与未来，完成宿命再临的认知；scene_024则把有孕后的短暂温柔与更深层错位并置，体现两人一面缓和一面提防的状态。"
+    },
+    {
+      "beat_id": "beat_020",
+      "beat_title": "发现厢房失身局",
+      "scene_ids": [
+        "scene_025",
+        "scene_026"
+      ],
+      "binding_reason": "scene_025引入陆姝仪登门和婚事危机，构成事件触发；scene_026则把众人推进搜寻与厢房发现现场，完成旧案似重演、关系全面失控的关键事件。"
+    },
+    {
+      "beat_id": "beat_021",
+      "beat_title": "遭指控后早产生女",
+      "scene_ids": [
+        "scene_039",
+        "scene_040",
+        "scene_041",
+        "scene_042"
+      ],
+      "binding_reason": "scene_039完成当众指控与偏信定性，scene_040把言语冲突转为身体危机，scene_041是保大抉择高潮，scene_042以生女而非男胎收束宿命反差，四场共同完整实现该节拍。"
+    },
+    {
+      "beat_id": "beat_022",
+      "beat_title": "在和离对峙中选择放手",
+      "scene_ids": [
+        "scene_043",
+        "scene_044",
+        "scene_045",
+        "scene_046",
+        "scene_047",
+        "scene_048"
+      ],
+      "binding_reason": "scene_043以梦境和沈睿记忆构成女主放手的情感根源，scene_044-045完成两家正式决裂与和离书压场，scene_046-048则在夫妻正面对峙中让女主真正提出和离并显出释然；scene_047的前世临终记忆则解释她为何终于不再为孩子和旧情勉强。"
+    },
+    {
+      "beat_id": "beat_023",
+      "beat_title": "逼出重生真相",
+      "scene_ids": [
+        "scene_028",
+        "scene_029"
+      ],
+      "binding_reason": "scene_028在满月宴公开场合建立陆姝仪现身对峙的局面，scene_029则完成她承认自己也重生、并坦白前后设计的最大真相揭晓。"
+    },
+    {
+      "beat_id": "beat_024",
+      "beat_title": "在江南迎来死缠烂打的重逢",
+      "scene_ids": [
+        "scene_049",
+        "scene_050"
+      ],
+      "binding_reason": "scene_049先建立三年后江南新生活与沈词入场时的替代刺激，scene_050把重逢冲突推进到私密空间，明确他将以不知羞耻的执念继续纠缠，完整实现该节拍。"
+    }
+  ],
+  "unbound_scenes": [],
+  "unbound_beats": []
+}

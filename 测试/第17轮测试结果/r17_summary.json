@@ -1,0 +1,62 @@
+{
+  "model": "ChatGPT (gpt-5.4)",
+  "status": "OK",
+  "test_round": "R17",
+  "hardening_features": [
+    "response_buffer_cap_500k",
+    "batch_db_flush_5_10",
+    "429_retry_after_respect",
+    "500_503_exponential_backoff",
+    "stream_stall_timeout_60s",
+    "code_fence_strip",
+    "gpt_token_adaptive_1.2x",
+    "event_bus_redis_fallback",
+    "rate_limiter_rpm_tpm",
+    "bounded_thread_pool",
+    "graceful_shutdown"
+  ],
+  "streaming": true,
+  "total_time_s": 281.19,
+  "time_to_first_char_s": 26.59,
+  "num_characters": 10,
+  "num_scenes": 24,
+  "num_chars_streamed": 10,
+  "num_scenes_streamed": 9,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "高父",
+    "蒋晟",
+    "沈母",
+    "沈睿",
+    "昭昭",
+    "媒人",
+    "稳婆"
+  ],
+  "stream_chunks": 14756,
+  "response_buffer_chars": 30702,
+  "buffer_capped": false,
+  "source_text_coverage": {
+    "total": 24,
+    "count_with_start": 24,
+    "count_with_end": 24,
+    "count_with_both": 24,
+    "coverage_pct": 100.0
+  },
+  "r17_gpt_adaptive_tokens": 39518,
+  "num_locations": 24,
+  "num_props_total": 74,
+  "num_props_major": 10,
+  "num_props_minor": 64,
+  "num_variants": 23,
+  "pipeline_total_time_s": 749.8,
+  "r17_major_prop_top_n": 10,
+  "r17_source_text_coverage": {
+    "total": 24,
+    "count_with_start": 24,
+    "count_with_end": 24,
+    "count_with_both": 24,
+    "coverage_pct": 100.0
+  }
+}

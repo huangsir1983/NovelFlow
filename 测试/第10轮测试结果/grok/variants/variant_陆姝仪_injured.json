@@ -1,0 +1,29 @@
+{
+  "variant_id": "lushuyi_variant_05",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 昏迷状态",
+  "tags": [
+    "昏迷",
+    "病弱",
+    "苍白"
+  ],
+  "scene_ids": [
+    "scene_010"
+  ],
+  "trigger": "在高府厢房来访后昏迷，与蒋晟共处场景",
+  "appearance_delta": {
+    "face": "面色苍白憔悴，双眼紧闭无力",
+    "body": "柔弱纤细，虚弱躺卧",
+    "hair": "乌黑长发散乱披散",
+    "distinguishing_features": "苍白脸庞与昏迷虚弱感"
+  },
+  "costume_override": {
+    "outfit": "粉色汉服衣衫略乱",
+    "color_palette": [
+      "粉",
+      "白"
+    ]
+  },
+  "visual_reference": "Delicate beautiful young Chinese woman 18-22, gentle fragile face pale and haggard with eyes closed in unconsciousness, slender frail figure lying weakly, long black hair disheveled and spread out, wearing soft pink Hanfu slightly disheveled, tragic expression in fainted state, in mansion room with medicine dregs, historical drama style, highly detailed",
+  "emotional_tone": "虚弱无助"
+}

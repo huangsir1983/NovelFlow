@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_029",
+  "order": 28,
+  "heading": "INT. 高家厢房 - NIGHT",
+  "location": "高家偏院厢房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "下人"
+  ],
+  "core_event": "傍晚后陆姝仪失踪，众人搜府，最终在厢房里发现她与昏迷且衣冠不整的蒋晟，局面瞬间失控。",
+  "key_dialogue": "面若冰霜。",
+  "emotional_peak": "我与沈词对视时，同时意识到一场大祸已成。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "厢房门锁",
+    "凌乱衣衫",
+    "昏迷两人"
+  ],
+  "dramatic_purpose": "将全篇最致命的误会正式引爆。",
+  "visual_reference": "夜色中众人举灯推开厢房门，屋内两人昏迷倒卧、衣冠凌乱，女主站在门边脸色发白，沈词回首与她冰冷对视，惊惧和怀疑同时炸开",
+  "visual_prompt_negative": "避免露骨不雅画面，避免惊悚恐怖氛围，避免现代旅馆感",
+  "source_text_start": "直到傍晚，沈词脸色铁青地来到高府。",
+  "source_text_end": "我转头去看沈词，他也在看我。面若冰霜。"
+}

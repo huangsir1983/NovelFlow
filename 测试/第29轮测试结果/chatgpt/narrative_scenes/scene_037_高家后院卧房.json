@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_037",
+  "order": 36,
+  "heading": "INT. 高家后院卧房 - DAY",
+  "location": "高家后院卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "沈词强闯后院拿着和离书质问，我平静重申按约和离，并表示已原谅他、祝他另觅良人，这反而令他彻底慌乱。",
+  "key_dialogue": "「我不要你原谅我。」",
+  "emotional_peak": "我放下恨意时，他却像失去最后维系我的绳索般崩塌。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "和离书",
+    "婴儿襁褓",
+    "雕花木门"
+  ],
+  "dramatic_purpose": "揭示情感关系的最终倒转：我抽身，他沉沦。",
+  "visual_reference": "后院卧房静谧，母亲怀抱婴儿坐在窗边，男子狼狈冲入握着和离书，神色由质问转为近乎乞求，阳光照出他空荡瘦削的衣衫",
+  "visual_prompt_negative": "避免家庭狗血撕孩子，避免现代卧室，避免过度哭泣表演",
+  "source_text_start": "下一秒，所有人都震惊地直起腰。",
+  "source_text_end": "我错愕地看着他，哑然失笑。不恨他了……他怎么反而还不乐意了呢？"
+}

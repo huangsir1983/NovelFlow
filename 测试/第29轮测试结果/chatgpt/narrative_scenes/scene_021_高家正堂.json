@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人第三次上门，高家终于应下婚事；父亲忧心我高嫁受轻视，我却把这桩婚姻视作暂住，早晚会回娘家。",
+  "key_dialogue": "「父亲只当女儿去沈家暂住一段时间。」",
+  "emotional_peak": "父亲叮嘱我受委屈便和离回家，我默然承下。",
+  "tension_score": 0.52,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "聘礼箱",
+    "婚书",
+    "父亲的手杖"
+  ],
+  "dramatic_purpose": "将婚事落地，并再次强调父家是我退路。",
+  "visual_reference": "正堂堆满丰厚聘礼，父亲却愁容难掩，女儿在他身后轻轻捶肩安慰，两人之间有沉重又温柔的告别感",
+  "visual_prompt_negative": "避免欢天喜地订婚感，避免现代客厅，避免过度奢华堆满道具",
+  "source_text_start": "媒人第三次上门提亲。",
+  "source_text_end": "上一世，他也说过类似的话。只可惜，当时我没听进去。"
+}

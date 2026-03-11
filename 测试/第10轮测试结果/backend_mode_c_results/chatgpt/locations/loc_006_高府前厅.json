@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_006",
+  "name": "高府前厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸前厅偏厅",
+  "description": "前厅为介于外客与内宅之间的过渡接待空间，尺度较正堂略小，陈设简洁，便于传口信与短时会客。厅内设一张方桌或长案，旁置数把木椅，桌上有茶盏、帖子和简便待客器皿。入口处垂挂门帘，用以区分男女内外；门边常有下人持手炉侍立，体现季节与府中规矩。空间不追求威严，而是讲究整洁、秩序与日常官家气。天光由门外与侧窗进入，家具投影利落，使一句传话显得尤为冷静干脆。",
+  "visual_reference": "Late Ming dynasty official residence front antechamber, modest but refined Chinese reception room, wooden table with message card, porcelain tea cups, hanging doorway curtain, servant holding a hand warmer near entrance, gray brick floor, restrained aristocratic decor, daylight, crisp orderly interior, subtle tension in a message-delivery scene, historical realism",
+  "atmosphere": "克制清冷、短兵相接、条件明确",
+  "color_palette": [
+    "浅褐",
+    "灰青",
+    "月白",
+    "乌木色"
+  ],
+  "lighting": "日间自然光较直接，空间明净，几乎无柔化处理，强调女主传话时的果断与不留余地。",
+  "key_features": [
+    "挂有门帘的入口",
+    "桌案上的口信帖子",
+    "侍立下人与手炉"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "场面不大，却承载了女主精准设限、正面施压的锋利态度。"
+}

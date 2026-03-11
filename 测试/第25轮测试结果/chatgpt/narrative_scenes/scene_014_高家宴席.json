@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高家满月宴 - 日",
+  "location": "高家宴席",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "拿到和离书后我养身体闭门不出，昭昭满月宴上陆姝仪不请自来，坦白她也重生、曾因记恨而投湖并设计蒋晟事件，只为替自己谋出路。",
+  "key_dialogue": "原来，她也重生了。",
+  "emotional_peak": "我终于知道两世误会背后的真相，震惊与释然交织。",
+  "tension_score": 0.82,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "满月宴请帖",
+    "和离书",
+    "衣角"
+  ],
+  "dramatic_purpose": "揭晓另一条重生线，补全真相，消解旧仇。",
+  "visual_reference": "满月宴上宾客散去，柔弱女子独自坦白，远处男人脸色苍白，气氛静而锋利。",
+  "visual_prompt_negative": "不要热闹喜剧感，不要现代宴会厅，不要夸张宫斗站位，不要幼稚表情。",
+  "source_text_start": "拿到和离书后。我开始养身体，闭门不",
+  "source_text_end": "我疏离地对他行了个礼。他伸手想去拉我。却只捉住了我的衣角。"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "阿词",
+    "沈公子",
+    "沈大人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-22",
+  "appearance": {
+    "face": "白净如玉，五官端正，眼眸如冰湖/琥珀",
+    "body": "长身玉立，文臣风骨",
+    "hair": "束发戴冠，一丝不苟",
+    "distinguishing_features": "常年微蹙的眉头与清冷克制的下颌线"
+  },
+  "costume": {
+    "typical_outfit": "剪裁合体的文臣常服或锦缎长袍",
+    "color_palette": [
+      "玄色",
+      "暗纹白",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "清冷系帅哥",
+    "禁欲感",
+    "傲娇嘴硬",
+    "追妻火葬场"
+  ],
+  "visual_reference": "A handsome ancient Chinese male scholar-official, 20 years old, tall and jade-like, cold amber eyes, pale skin, wearing dark blue and white traditional Hanfu, aloof expression, realistic, highly detailed.",
+  "personality": "清冷端方，极度嘴硬，高傲且控制欲强，内心深情但不善表达",
+  "desire": "留住高令宁，生下前世的长子，一家团聚",
+  "flaw": "不长嘴，自以为是，用冷漠和伤人的话语掩饰内心的在意",
+  "arc": "从自以为能掌控一切、高高在上，到失去后防线崩溃、放下尊严卑微乞求",
+  "scene_presence": "贯穿全剧。前期试图用契约掌控婚姻，中期因误会伤害女主，后期彻底沦为卑微的纠缠者。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻/前妻",
+      "dynamic": "强烈的占有欲与隐忍的爱意，因嘴硬导致彻底失去",
+      "function": "核心矛盾驱动"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "义妹",
+      "dynamic": "出于责任与同情的庇护，被自己当成气女主的工具",
+      "function": "制造误会与冲突"
+    },
+    {
+      "target": "昭昭",
+      "type": "父女",
+      "dynamic": "爱屋及乌，试图通过女儿作为纽带挽回女主",
+      "function": "情感羁绊"
+    }
+  ]
+}

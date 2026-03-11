@@ -1,0 +1,57 @@
+[
+  {
+    "id": "seg_0059",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0201",
+      "shot_0202",
+      "shot_0203"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属会面建立段，角色集合未变，时空连续，情绪从礼制平静推进到高令宁开口前的审视压迫，适合合并为一个完整的起势segment。",
+    "order": 59
+  },
+  {
+    "id": "seg_0060",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0204",
+      "shot_0205",
+      "shot_0206"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成完整对话攻势：台词下达、听者反应、手部细节补强。情感弧线集中在‘平稳发刺—压制生效—克制控场’，连续性极强，适合合并。",
+    "order": 60
+  },
+  {
+    "id": "seg_0061",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0207",
+      "shot_0208"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处以角色退场作为天然合并边界。shot_0207与0208共同完成‘压制结果’的空间表达：对方退出、空间回冷、胜负落定前的停顿，适合合并成一个过门段。",
+    "order": 61
+  },
+  {
+    "id": "seg_0062",
+    "scene_id": "scene_014",
+    "shot_ids": [
+      "shot_0209",
+      "shot_0210",
+      "shot_0211"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "后三个shot构成完整情绪反转与收束：确认对手离开、快意浮现、重新归于端稳。情感弧线明显且内部递进完整，是独立终结segment的最佳划分。",
+    "order": 62
+  }
+]

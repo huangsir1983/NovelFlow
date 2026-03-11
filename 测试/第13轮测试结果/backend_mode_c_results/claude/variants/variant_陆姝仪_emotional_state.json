@@ -1,0 +1,30 @@
+{
+  "variant_id": "luxuyi_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 哀求时刻",
+  "tags": [
+    "绝望",
+    "哀求",
+    "泪眼"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "听到高令宁要求她出嫁才同意婚事后，向沈词哀求",
+  "appearance_delta": {
+    "face": "泪水盈眶，梨花带雨，眼神绝望哀求",
+    "body": "身体前倾，姿态卑微",
+    "hair": "因情绪激动而略显凌乱",
+    "distinguishing_features": "泪痕清晰，嘴唇颤抖，眼神中满是无助和恳求"
+  },
+  "costume_override": {
+    "outfit": "素色襦裙，衣袖因擦泪而褶皱",
+    "color_palette": [
+      "浅粉",
+      "素白"
+    ]
+  },
+  "visual_reference": "古代哀求女子，温婉清丽的面容上泪水纵横，梨花带雨，眼神绝望无助又充满恳求，身着素色浅粉襦裙，衣袖因擦拭泪水而褶皱，发丝因情绪激动而散乱，身体微微前倾呈哀求姿态，双手无措地绞在一起或轻拉对方衣袖，嘴唇颤抖欲言又止，站在室内昏暗角落，光线从侧面打来突出泪痕，整体氛围悲凉绝望",
+  "visual_prompt_negative": "坚强表情，干燥面容，整齐装扮，自信姿态，明亮欢快氛围",
+  "emotional_tone": "绝望哀求，楚楚可怜"
+}

@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_023",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府房内 - DAY",
+    "location": "沈府房内",
+    "time_of_day": "day",
+    "description": "室内封闭，白日天光从窗边照入，照亮桌上的针线、衣料、鞋样与食盒。房间陈设端庄，但气氛僵冷。高令宁衣着素净，坐在桌前做针线，动作细致克制。沈睿入内时带着疏离与戒备，像进入一个并不愿久留的空间。",
+    "action": "高令宁将亲手绣好的寝衣、做好的鞋子和备好的饭菜一一摆到桌上，动作小心，眼神停留在沈睿脸上，试图捕捉回应。沈睿走近后却面色冷淡，伸手将这些东西统统扫入火盆。火舌卷起衣料与鞋面，高令宁下意识向前一步，又硬生生停住，只能看着自己费尽心力的示好被焚毁。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "怎么，又想从我身上得到什么？",
+        "subtext": "我已经认定你的示好带着目的，不再相信你的真心。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "寝衣",
+      "鞋子",
+      "饭菜",
+      "火盆",
+      "针线"
+    ],
+    "dramatic_purpose": "呈现高令宁试图修补关系却被彻底拒绝，强化两人之间因陆姝仪之死而形成的不可调和裂痕。",
+    "tension_score": 0.81,
+    "dramatic_intensity": 0.62,
+    "order": 23
+  }
+}

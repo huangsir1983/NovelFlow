@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "id": "scene_043",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:42"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_013",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_019"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高令宁卧房 - LATE NIGHT",
+    "location": "江南宅院卧房",
+    "time_of_day": "night",
+    "description": "同一卧房延续，灯火已熄，只有更冷的月光铺在地面。门口与床边之间多出一床被褥和枕头，地铺临时搭起，强调人物自我降格后的停留。床上高令宁侧身而卧，背对外侧，空间里充满压抑而持续的呼吸声与夜雨雷声后的潮湿静寂。",
+    "action": "沈睿离开后又折返回来，怀里抱着被子和枕头。他站在床边低声请求，见高令宁不回应，便在地上铺开被褥，执意留下。高令宁翻身背对他，闭眼不再理会。夜深后，沈睿从地铺上起身，动作极轻地靠近床边，小心握住她的手腕，又克制地将脸贴在她背后，像在确认她没有彻底消失。他低声呢喃，声音里带着笑意与哭腔交缠的失控感。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "我不放你，我在地上陪你。",
+        "subtext": "哪怕被贬到最低的位置，我也要留在你身边。"
+      },
+      {
+        "character": "沈睿",
+        "line": "高令宁，你永远别想摆脱我。",
+        "subtext": "这不是情话，而是近乎偏执的占有宣告。"
+      },
+      {
+        "character": "沈睿",
+        "line": "只要我还活着……",
+        "subtext": "他把这段关系视为生存执念。"
+      },
+      {
+        "character": "沈睿",
+        "line": "我就会恬不知耻地纠缠你一辈子。",
+        "subtext": "他彻底放弃尊严，以自我羞辱换取继续存在于她生活中的资格。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "被子",
+      "枕头",
+      "地铺"
+    ],
+    "dramatic_purpose": "完成本章核心情感揭示，将沈睿的执念从嫉妒推进到赤裸的纠缠宣言，确立后续关系主轴与情绪基调。",
+    "tension_score": 0.91,
+    "dramatic_intensity": 0.82,
+    "order": 43
+  }
+}

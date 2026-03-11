@@ -1,0 +1,36 @@
+{
+  "name": "沈府小厮",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "普通少年仆役长相",
+    "body": "瘦小伶俐",
+    "hair": "仆役束发",
+    "distinguishing_features": "行动迅速"
+  },
+  "costume": {
+    "typical_outfit": "青灰色下人短打",
+    "color_palette": [
+      "青灰",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "跑腿小厮"
+  ],
+  "visual_reference": "young ancient chinese servant boy, simple work clothes, humble posture",
+  "personality": "听命行事",
+  "desire": "完成差事",
+  "flaw": "无独立判断",
+  "arc": "无",
+  "scene_presence": "传递高令宁关于义妹婚嫁条件的口信",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "主仆",
+      "dynamic": "奉命办事",
+      "function": "信息传递"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT/EXT. 高家廊下 - DAY",
+  "location": "高家廊下与客厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "高令宁借养胎回娘家，沈词每日下衙来照看她，剥葡萄、送珍玩、偶尔示弱道歉，高父甚至误以为两人感情转好。",
+  "key_dialogue": "「其实上一世，我有许多对不住你的地方。」",
+  "emotional_peak": "短暂的日常温柔制造出夫妻或可修复的错觉。",
+  "tension_score": 0.52,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "葡萄",
+    "补品珍玩",
+    "书信与包裹"
+  ],
+  "dramatic_purpose": "制造叙事缓冲与情感错觉，为随后的高府丑闻反转蓄势。",
+  "source_text_start": "10.\n伯爵娘子又登门了。\n沈词再不行动，陆姝仪的亲事怕是要",
+  "source_text_end": "直到午饭过后，小厮来报。\n陆姝仪来了。\n说是即将出嫁，想来"
+}

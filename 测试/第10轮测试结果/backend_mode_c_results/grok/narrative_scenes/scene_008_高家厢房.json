@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 高家厢房 - 日",
+  "location": "高家厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪与蒋晟昏迷被发现，陆哭诉陷害，沈词偏信陆",
+  "key_dialogue": "我本以为你变好了，没想到还这么让我失望了。",
+  "emotional_peak": "女主被冤怒极",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "散乱衣物",
+    "昏迷塌榻",
+    "蒋晟请帖",
+    "厢房屏风"
+  ],
+  "dramatic_purpose": "最大误会高潮与早产导火索"
+}

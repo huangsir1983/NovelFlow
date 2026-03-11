@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_016",
+  "name": "江南宅院",
+  "type": "mixed",
+  "era_style": "明代江南园林式宅院",
+  "description": "优雅江南水乡宅院，白墙黑瓦小院，石桥水池，室内厅堂简洁典籍与信件，庭院花木，适合清净生活与母女相处。",
+  "visual_reference": "明代江南园林宅院日景，优雅白墙黑瓦小院落，石板路与水池花木，厅堂内典籍信件置桌，木窗透光，昭昭蹦跳背景，宁静清新氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "清净温馨、母女和乐",
+  "color_palette": [
+    "白墙灰",
+    "黑瓦黑",
+    "绿植",
+    "木褐"
+  ],
+  "lighting": "白天明亮江南柔光，洒满庭院",
+  "key_features": [
+    "白墙黑瓦庭院",
+    "石桥水池",
+    "典籍信件桌"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "三年清净生活的宁静到昭昭背诗的欢愉"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹"
+  ],
+  "role": "supporting",
+  "age_range": "40-60岁",
+  "appearance": {
+    "face": "眼角皱纹增多，慈祥",
+    "body": "中年体态",
+    "hair": "花白",
+    "distinguishing_features": "慈父形象"
+  },
+  "costume": {
+    "typical_outfit": "四品官服，后辞官着便服",
+    "color_palette": [
+      "官服色",
+      "素色"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "护女",
+    "正直"
+  ],
+  "visual_reference": "A middle-aged Chinese father in his 50s, kind face, traditional scholar's robes, protective demeanor, ancient dynasty",
+  "personality": "慈爱护女，正直善良。官居四品，后听女儿劝告辞官。对女儿极其疼爱，宁愿得罪沈家也要保护女儿。",
+  "desire": "希望女儿平安喜乐，觅得良人。",
+  "flaw": "前世卷入党争被流放，连累家人。",
+  "arc": "前世：四品官员→卷入党争→下狱流放→家破人亡。重生：听女儿劝告辞官→保护女儿→对抗沈家→陪女儿去江南。",
+  "scene_presence": "保护女儿的坚实后盾。关键场景：提亲、辞官、对抗沈家、陪女儿去江南。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "父女情深，全力保护",
+      "function": "情感支撑"
+    },
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "从欣赏到失望对抗",
+      "function": "外部压力"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益",
+      "dynamic": "师徒关系，曾想招为女婿",
+      "function": "备选方案"
+    }
+  ]
+}

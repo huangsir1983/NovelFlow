@@ -1,0 +1,15 @@
+{
+  "name": "昭昭襁褓",
+  "category": "costume",
+  "description": "柔软细棉婴儿襁褓，米白色或浅粉色调，布料轻薄透气，包裹婴儿身形，边缘绣细致小花或云纹，系带固定，质地柔软贴身。",
+  "visual_reference": "古代中国婴儿襁褓布，纯棉柔软米白色面料，包裹着可爱女婴，边缘精致刺绣花纹，温暖母性氛围，柔和金色光线照射，情感细腻，高细节",
+  "visual_prompt_negative": "现代婴儿服、卡通图案、厚重毛毯、合成纤维、鲜艳不当颜色",
+  "narrative_function": "象征女儿昭昭的存在与新生，承载母亲高令宁的母爱与保护欲，推动抚养权和亲情相关情感冲突",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_014",
+    "scene_015",
+    "scene_017"
+  ],
+  "emotional_association": "深沉母爱、希望与不舍"
+}

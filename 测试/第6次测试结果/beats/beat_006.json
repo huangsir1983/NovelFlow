@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_006",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_000"
+    ]
+  },
+  "data": {
+    "title": "撞见平妻试探",
+    "description": "新婚第二日，沈母让陆姝仪敬茶，婚姻主线与情感副线正式交织：女主第一次正面对上陆姝仪，也看清沈家真正的内部结构。",
+    "beat_type": "event",
+    "save_the_cat": "B Story",
+    "emotional_value": -0.8,
+    "dramatic_intensity": -0.8,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 6
+  }
+}

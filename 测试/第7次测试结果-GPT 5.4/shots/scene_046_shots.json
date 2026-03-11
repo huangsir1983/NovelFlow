@@ -1,0 +1,298 @@
+[
+  {
+    "id": "shot_0699",
+    "scene_id": "scene_046",
+    "shot_number": 1,
+    "goal": "建立宴厅内被喧闹包围却因对峙而压低声场的局势，明确高令宁与陆姝仪之间的对立距离及众目环伺的压力。",
+    "composition": "FS，宴厅纵深构图。高令宁立于画面右侧偏前，身形笔直；陆姝仪立于画面左侧偏中，低眉收肩。前景以虚焦宴席杯盏与红绸边角做遮挡，背景隐约可见宾客与高父在后方偏右，形成礼制空间的围观感。二人之间留出明显空场作为对峙距离。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、审视、公开处刑般的窒息感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪",
+      "高父",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 699
+  },
+  {
+    "id": "shot_0700",
+    "scene_id": "scene_046",
+    "shot_number": 2,
+    "goal": "将视角收束到高令宁，建立以女主感知为主的观察轴线，并呈现她克制中的逼问余威。",
+    "composition": "MCU，高令宁位于画面右三分之一，视线向左压住陆姝仪。前景左侧保留一抹虚焦浅粉衣袖作为对手方存在，背景为失焦屏风与宴厅金红陈设，形成冷脸与礼制暖色的反差。颈侧淡痕在侧光下若隐若现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、戒备、等待真相时的悬紧",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 700
+  },
+  {
+    "id": "shot_0701",
+    "scene_id": "scene_046",
+    "shot_number": 3,
+    "goal": "切入陆姝仪的失措与迟疑，显示她并未立刻辩解，而是在众人注视下先承受羞耻。",
+    "composition": "MCU，陆姝仪位于画面左三分之一，低眉垂眼，双手在袖中微微收紧。右侧前景保留高令宁肩背虚焦轮廓，形成压迫。背景是失焦宴席与烛台，光线偏冷，衬出她发白的脸色。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "脆弱中带着将要开口的决绝",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 701
+  },
+  {
+    "id": "shot_0702",
+    "scene_id": "scene_046",
+    "shot_number": 4,
+    "goal": "捕捉陆姝仪抬眼认错的瞬间，将‘是我对不住你’作为正式开闸的情节节点。",
+    "composition": "CU，陆姝仪居中稍偏左，下垂目光缓慢抬起直视镜头方向，近似高令宁主观视角。背景完全压虚，仅留一线暖金屏风边缘。面部病白、唇色浅淡，眼底带湿光但不哭。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "迟来的认罪、锋利而克制的刺痛",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.66,
+    "order": 702
+  },
+  {
+    "id": "shot_0703",
+    "scene_id": "scene_046",
+    "shot_number": 5,
+    "goal": "将认错后的关键内容放在高令宁主观聆听中，让观众先跟随女主接收前世怨恨与投湖动机。",
+    "composition": "MS双人侧对，严格保持180度轴线。高令宁在右前景虚焦肩背，陆姝仪在左中景清晰说话。两人之间空隙由案几边缘与地砖线条导向，强化距离不可跨越。后景宾客完全失焦，仿佛声场被抽离。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "真相一层层剥开时的冷意与不安",
+    "duration_hint": "6-8s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.74,
+    "order": 703
+  },
+  {
+    "id": "shot_0704",
+    "scene_id": "scene_046",
+    "shot_number": 6,
+    "goal": "以闪回碎片具象化‘投湖自尽’的前因，使今世坦白触发前世记忆刺入。",
+    "composition": "CU闪回碎片，冷灰青色调。水面斜切画面，女子苍白手腕没入水中，占据画面下半部；上半部是破碎倒影与一抹暗红衣角。边缘有波纹扭曲，画面不稳。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "创伤、宿命、令人发冷的旧恨",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 704
+  },
+  {
+    "id": "shot_0705",
+    "scene_id": "scene_046",
+    "shot_number": 7,
+    "goal": "回到高令宁，显示她听到‘要让你和沈词之间产生嫌隙’后开始出现生理性的僵滞反应。",
+    "composition": "CU，高令宁位于画面右侧，眼神定住，唇线绷紧。左侧留出大块虚焦空白，仿佛她脑中忽然空掉。背景暖色宴厅被压成冷雾般的失焦块面，眼尾隐隐泛红。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "震动、被旧事击中的失衡感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 705
+  },
+  {
+    "id": "shot_0706",
+    "scene_id": "scene_046",
+    "shot_number": 8,
+    "goal": "补一个客观反应镜头，将高父与周遭沉默作为外部压力，证明这番自白并非私密而是公开撕开旧疮。",
+    "composition": "MS，高父立于背景偏右，神色沉下，前景左侧虚焦是宴席摆设与一角襁褓中的昭昭。空间仍朝向对峙中心收束，众人不语。高父未上前，只以站姿显示分寸与克制。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "家门体面被当众撕裂后的凝固感",
+    "duration_hint": "2s",
+    "characters": [
+      "高父",
+      "昭昭"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 706
+  },
+  {
+    "id": "shot_0707",
+    "scene_id": "scene_046",
+    "shot_number": 9,
+    "goal": "推进第二层反转：陆姝仪主动承认蒋晟之事是自己设计，将她从被动受害者彻底翻转为主动布局者。",
+    "composition": "CU，陆姝仪居中，头微抬，神情反而比前面更平静。背景中一条竖直门框将她与身后宴厅切开，像被礼法钉住。画面右下角保留失焦请帖一角，暗示婚事与谋算的物证关联。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静自戳、破釜沉舟的决绝",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 707
+  },
+  {
+    "id": "shot_0708",
+    "scene_id": "scene_046",
+    "shot_number": 10,
+    "goal": "通过手部细节把‘设计婚事’落到实际筹谋层面，增强算计感与礼制道具的象征功能。",
+    "composition": "ECU，陆姝仪袖中手指紧掐一角请帖，指节发白，纸面边缘微皱。前景是浅粉袖缘，背景虚化成红金宴席色块。请帖斜线切过画面，构成不稳定视觉张力。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "隐忍、算计被戳穿后的锋利不适",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 708
+  },
+  {
+    "id": "shot_0709",
+    "scene_id": "scene_046",
+    "shot_number": 11,
+    "goal": "让陆姝仪继续给出自己的生存逻辑：无人做主，只能自行择路，形成道德辩护而非简单忏悔。",
+    "composition": "MS单人，陆姝仪位于画面左侧，身后屏风与帘幕形成纵深遮挡，像重重门槛。右侧空出朝向高令宁的空间。她站姿仍收，但语气已平直。宴席暖色被压低，人物肤色偏冷白。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "复杂的同情与反感并存",
+    "duration_hint": "5-6s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 709
+  },
+  {
+    "id": "shot_0710",
+    "scene_id": "scene_046",
+    "shot_number": 12,
+    "goal": "在高令宁身上呈现‘你或许还有退路，然而我的路只有这一条’的实际冲击，令她对过往认知发生裂缝。",
+    "composition": "CU近主观反应镜头，高令宁居中偏右，眼神第一次出现明显游移。前景下方虚焦案几边缘像一道横亘的界线，背景是失焦宾客与高父轮廓。她并未开口，呼吸停滞般轻浅。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "认知动摇、愤怒被更复杂情绪打断",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 710
+  },
+  {
+    "id": "shot_0711",
+    "scene_id": "scene_046",
+    "shot_number": 13,
+    "goal": "达到本场情绪峰值：高令宁在关键内容后整个人猛地僵住，外界一切仿佛失声。",
+    "composition": "MCU，高令宁正面偏侧，人物居中，肩颈绷紧，眼睛定住。背景完全压虚，仅剩礼厅暖光斑点。画面极轻微逼近，形成被真相钉住的效果。无他人入画，让她独自承受冲击。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "震骇、失重、世界短暂抽空",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.94,
+    "order": 711
+  },
+  {
+    "id": "shot_0712",
+    "scene_id": "scene_046",
+    "shot_number": 14,
+    "goal": "在高令宁僵住的反应上叠入陆姝仪后半段台词，形成情感上的压迫延续：她知道被厌恶，也准备退场。",
+    "composition": "MS双人同轴。高令宁在右前景静止成半虚焦剪影，陆姝仪在左后景清晰，说出‘以后不会再出现在你面前’。两人仍隔着空场，背景宾客隐没。构图不改轴线，强调关系未解，只是断开。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "残局感、无法回头的冷清",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 712
+  },
+  {
+    "id": "shot_0713",
+    "scene_id": "scene_046",
+    "shot_number": 15,
+    "goal": "以陆姝仪的收尾近景完成她的自断退场，将忏悔、辩护与切割关系三层情绪合并落点。",
+    "composition": "CU，陆姝仪位于画面左侧，视线微垂，不再直看高令宁。背景中一道门框虚焦在她身后，像出口也像判决。唇角无笑，眼底湿意压住未落。画面右侧留白给出她将退场的方向。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "疲惫、认命、最后一次求被理解",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 713
+  },
+  {
+    "id": "shot_0714",
+    "scene_id": "scene_046",
+    "shot_number": 16,
+    "goal": "用高令宁的沉默终结本场，保留真相揭开后的余震而非立即给出判断，为下场戏留出心理延迟。",
+    "composition": "MS，高令宁独立于画面右侧，身后宴席与众人都退成模糊背景；左侧空场是陆姝仪原本站位，如今只剩空位。前景一角隐约可见宴席摆设，日常喜庆与此刻冷场形成反差。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "余震、空落、认知被重写后的寒意",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 714
+  }
+]

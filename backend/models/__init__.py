@@ -7,6 +7,13 @@ from models.character import Character
 from models.location import Location
 from models.knowledge_base import KnowledgeBase
 from models.ai_provider import AIProvider
+from models.import_task import ImportTask
+from models.shot import Shot
+from models.shot_group import ShotGroup
+from models.ai_call_log import AICallLog
+from models.prop import Prop
+from models.character_variant import CharacterVariant
+from models.style_template import StyleTemplate
 
 __all__ = [
     "Base",
@@ -19,4 +26,11 @@ __all__ = [
     "Location",
     "KnowledgeBase",
     "AIProvider",
+    "ImportTask",
+    "Shot",
+    "ShotGroup",
+    "AICallLog",
+    "Prop",
+    "CharacterVariant",
+    "StyleTemplate",
 ]

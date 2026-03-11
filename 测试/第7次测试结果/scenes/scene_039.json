@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "id": "scene_039",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:38"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_009",
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "高父",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_012"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府内院/厅堂 - DUSK",
+    "location": "高府内院及厅堂",
+    "time_of_day": "dusk",
+    "description": "傍晚的高府，天色将暗，庭院光线迅速减弱，室内需借廊灯或烛火照明。门房与内院之间人影匆匆，空气紧绷。沈睿带着寒意闯入，脸色铁青，与暮色和灯影形成压迫感。",
+    "action": "沈睿疾步来到高府，衣袍尚带外头风尘，面色发沉，直接带来消息：陆姝仪并未回沈家。门房小厮回禀，说陆姝仪进府后就没再出去。高令宁强压慌乱，深吸一口气后迅速下令，派人搜遍高府每一处角落。下人们提灯四散奔走，脚步声、呼喊声在院中此起彼伏。高令宁站在廊下，手扶柱子稳住身体，目光追着来往人影。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "高父",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "廊灯",
+      "烛火",
+      "门房名册",
+      "廊柱",
+      "提灯"
+    ],
+    "dramatic_purpose": "将潜在危机明确化，把“拒见来客”的私人选择升级为全府搜人的公共事件，迅速抬升冲突压力与悬念。",
+    "tension_score": 0.79,
+    "dramatic_intensity": 0.58,
+    "order": 39
+  }
+}

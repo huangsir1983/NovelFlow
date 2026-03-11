@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_008",
+  "name": "马球会场地",
+  "type": "exterior",
+  "era_style": "明代中晚期京郊权贵马球会场",
+  "description": "马球会场为开阔的贵族休闲竞技场地，中心是扬尘的黄土地球场，周围设临时看台与帷幕，宾客可坐席垫观赛。场边一侧近柳池，树影婆娑，另一侧停有马匹与放置马球杆的架具。葡萄盘、鞋履、风筝等细节使这场马会兼具春日社交宴游意味。整个空间开阔但视线复杂，适合远距离凝望与刻意亲近的情感戏，人物之间可隔着池岸、帷幕和观赛人群形成视觉上的嫉妒与错位。",
+  "visual_reference": "Late Ming dynasty aristocratic polo ground, dusty open field, elegant spectator mats and canopies, willow-lined pond at one side, horses and mallets, spring leisure gathering of nobles, fruit plates, kites in the distance, bright daylight, cinematic Chinese historical sports social event, emotional tension across distance, highly detailed",
+  "atmosphere": "热闹、春日浮华、暗藏妒意",
+  "color_palette": [
+    "沙土黄",
+    "柳叶绿",
+    "天光白"
+  ],
+  "lighting": "户外晴朗日光，场地高亮，树荫和帷幕下形成局部阴凉，方便构图出远观与偷窥感。",
+  "key_features": [
+    "扬尘马球场",
+    "柳池与水边观望位置",
+    "看台帷幕与春日宴游细节"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "表面的社交欢快之下，翻涌出女主第一次正面直视的嫉妒与试探报复。"
+}

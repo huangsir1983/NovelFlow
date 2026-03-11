@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useEdition, useProjectStore } from '@unrealmake/shared/hooks';
@@ -11,7 +11,7 @@ import { ScriptEditor } from '@unrealmake/shared/components';
 import { ProjectNav, AIAssistant } from '@unrealmake/shared/components';
 import type { WizardStep } from '@unrealmake/shared/components';
 import { fetchAPI } from '@unrealmake/shared/lib';
-import type { Project, Chapter, Beat, Scene, Character, Location } from '@unrealmake/shared/types';
+import type { Project, Chapter, Beat, Scene, Shot, ShotGroup, Character, Location, ImportSSEEvent } from '@unrealmake/shared/types';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 
 const STAGE_TO_STEP: Record<string, number> = {
@@ -33,19 +33,21 @@ const STEP_HINT_KEYS = ['step0', 'step1', 'step2', 'step3', 'step4'] as const;
 const EDITION_KEYS = ['normal', 'canvas', 'hidden', 'ultimate'] as const;
 type EditionKey = typeof EDITION_KEYS[number];
 
-interface ImportResult {
-  chapter_count: number;
-  character_count: number;
-  beat_count: number;
-  scene_count: number;
-  location_count: number;
-  stage: string;
-}
+const PHASE_LABELS: Record<string, string> = {
+  segmenting: '智能分段',
+  scenes: '场景提取',
+  characters: '角色提取与知识库',
+  shots: '分镜拆解',
+  merging: '镜头合并',
+  prompts: '视觉提示词生成',
+};
 
 interface ImportStep {
   id: string;
   label: string;
   status: 'pending' | 'running' | 'done' | 'error';
+  detail?: string;
+  progress?: { current: number; total: number };
 }
 
 export default function ProjectPage() {
@@ -70,7 +72,9 @@ export default function ProjectPage() {
   const [currentStep, setCurrentStep] = useState(0);
   const [importSteps, setImportSteps] = useState<ImportStep[]>([]);
   const [importError, setImportError] = useState<string | null>(null);
+  const [importEntities, setImportEntities] = useState<string[]>([]);
   const [editorContent, setEditorContent] = useState('');
+  const eventSourceRef = useRef<EventSource | null>(null);
 
   const WIZARD_STEPS: WizardStep[] = [
     { id: 'import', label: tStages('import') },
@@ -79,6 +83,13 @@ export default function ProjectPage() {
     { id: 'script', label: tStages('script') },
     { id: 'storyboard', label: tStages('storyboard') },
   ];
+
+  // Cleanup SSE on unmount
+  useEffect(() => {
+    return () => {
+      eventSourceRef.current?.close();
+    };
+  }, []);
 
   // Load project and data
   useEffect(() => {
@@ -98,8 +109,6 @@ export default function ProjectPage() {
             fetchAPI<Location[]>(`/api/projects/${projectId}/locations`),
           ]);
 
-          // Actually fetch chapters from a dedicated endpoint — but since we don't have one yet,
-          // we just set what we have
           store.setBeats(beats);
           store.setScenes(scenes);
           store.setCharacters(characters);
@@ -126,30 +135,187 @@ export default function ProjectPage() {
     return () => store.reset();
   }, [projectId]);
 
-  // Handle file upload & import
+  // Initialize import steps for SSE pipeline
+  const initImportSteps = useCallback(() => {
+    setImportSteps([
+      { id: 'upload', label: tImport('stepUpload'), status: 'done' },
+      { id: 'segmenting', label: PHASE_LABELS.segmenting, status: 'pending' },
+      { id: 'scenes', label: PHASE_LABELS.scenes, status: 'pending' },
+      { id: 'characters', label: PHASE_LABELS.characters, status: 'pending' },
+      { id: 'shots', label: PHASE_LABELS.shots, status: 'pending' },
+      { id: 'merging', label: PHASE_LABELS.merging, status: 'pending' },
+      { id: 'prompts', label: PHASE_LABELS.prompts, status: 'pending' },
+    ]);
+    setImportEntities([]);
+    setImportError(null);
+  }, [tImport]);
+
+  // Update a specific step
+  const updateStep = useCallback((stepId: string, updates: Partial<ImportStep>) => {
+    setImportSteps((prev) =>
+      prev.map((s) => (s.id === stepId ? { ...s, ...updates } : s)),
+    );
+  }, []);
+
+  // Connect to SSE and handle events
+  const connectSSE = useCallback(
+    (taskId: string) => {
+      eventSourceRef.current?.close();
+
+      const url = `http://localhost:8000/api/projects/${projectId}/import/events?task_id=${taskId}`;
+      const es = new EventSource(url);
+      eventSourceRef.current = es;
+
+      es.onmessage = (event) => {
+        try {
+          const data: ImportSSEEvent = JSON.parse(event.data);
+
+          switch (data.type) {
+            case 'phase_start':
+              updateStep(data.phase, { status: 'running' });
+              store.setImportPhase(data.phase);
+              break;
+
+            case 'phase_done':
+              updateStep(data.phase, {
+                status: 'done',
+                detail: data.data
+                  ? Object.entries(data.data).map(([k, v]) => `${k}: ${v}`).join(', ')
+                  : undefined,
+              });
+              break;
+
+            case 'item_ready':
+              if (data.phase === 'characters' && data.data) {
+                const name = data.data.name as string;
+                if (name) {
+                  setImportEntities((prev) => [...prev, name]);
+                }
+                const total = data.data.total as number;
+                const index = (data.data.index as number) + 1;
+                if (total) {
+                  updateStep('characters', {
+                    status: 'running',
+                    progress: { current: index, total },
+                    detail: `${name}`,
+                  });
+                }
+              }
+              break;
+
+            case 'chapter_progress': {
+              const phase = data.phase;
+              const idx = data.index + 1;
+              const total = data.total;
+              updateStep(phase, {
+                status: 'running',
+                progress: { current: idx, total },
+              });
+              break;
+            }
+
+            case 'window_progress': {
+              const phase = data.phase;
+              const idx = data.index + 1;
+              const total = data.total;
+              updateStep(phase, {
+                status: 'running',
+                progress: { current: idx, total },
+                detail: data.scenes_in_window ? `${data.scenes_in_window} scenes` : undefined,
+              });
+              break;
+            }
+
+            case 'scene_progress': {
+              const phase = data.phase;
+              const idx = data.index + 1;
+              const total = data.total;
+              updateStep(phase, {
+                status: 'running',
+                progress: { current: idx, total },
+                detail: data.shots ? `${data.shots} shots` : undefined,
+              });
+              break;
+            }
+
+            case 'pipeline_complete':
+              es.close();
+              eventSourceRef.current = null;
+              store.setImporting(false);
+              store.setProject(store.project ? { ...store.project, stage: 'storyboard' } : null);
+              store.setImportTaskId(null);
+              setCurrentStep(STAGE_TO_STEP['storyboard'] ?? 4);
+              // Reload all data
+              reloadProjectData();
+              break;
+
+            case 'error':
+              es.close();
+              eventSourceRef.current = null;
+              store.setImporting(false);
+              setImportError(data.message);
+              // Mark current running step as error
+              setImportSteps((prev) =>
+                prev.map((s) =>
+                  s.status === 'running' ? { ...s, status: 'error' } : s,
+                ),
+              );
+              break;
+          }
+        } catch (e) {
+          // Skip malformed events
+        }
+      };
+
+      es.onerror = () => {
+        // EventSource auto-reconnects, but if we get an error after close, ignore
+        if (es.readyState === EventSource.CLOSED) {
+          return;
+        }
+      };
+    },
+    [projectId, store, updateStep],
+  );
+
+  // Reload project data after pipeline completion
+  const reloadProjectData = useCallback(async () => {
+    try {
+      const [beats, scenes, characters, locations, shots, shotGroups] = await Promise.all([
+        fetchAPI<Beat[]>(`/api/projects/${projectId}/beats`),
+        fetchAPI<Scene[]>(`/api/projects/${projectId}/scenes`),
+        fetchAPI<Character[]>(`/api/projects/${projectId}/characters`),
+        fetchAPI<Location[]>(`/api/projects/${projectId}/locations`),
+        fetchAPI<Shot[]>(`/api/projects/${projectId}/shots`).catch(() => []),
+        fetchAPI<ShotGroup[]>(`/api/projects/${projectId}/shot-groups`).catch(() => []),
+      ]);
+      store.setBeats(beats);
+      store.setScenes(scenes);
+      store.setCharacters(characters);
+      store.setLocations(locations);
+      store.setShots(shots);
+      store.setShotGroups(shotGroups);
+
+      const kb = await fetchAPI<{ world_building: Record<string, unknown>; style_guide: Record<string, unknown> }>(
+        `/api/projects/${projectId}/knowledge`,
+      ).catch(() => null);
+      if (kb) {
+        store.setWorldBuilding(kb.world_building);
+        store.setStyleGuide(kb.style_guide);
+      }
+    } catch {
+      // ignore reload errors
+    }
+  }, [projectId, store]);
+
+  // Handle file upload — async pipeline
   const handleFileUpload = useCallback(
     async (file: File) => {
       store.setImporting(true);
-      setImportError(null);
-      setImportSteps([
-        { id: 'upload', label: tImport('stepUpload'), status: 'running' },
-        { id: 'chapters', label: tImport('stepChapters'), status: 'pending' },
-        { id: 'characters', label: tImport('stepCharacters'), status: 'pending' },
-        { id: 'beats', label: tImport('stepBeats'), status: 'pending' },
-        { id: 'knowledge', label: tImport('stepKnowledge'), status: 'pending' },
-      ]);
+      initImportSteps();
 
       try {
         const formData = new FormData();
         formData.append('file', file);
-
-        // Mark upload as done, chapters as running
-        setImportSteps((prev) =>
-          prev.map((s) =>
-            s.id === 'upload' ? { ...s, status: 'done' } :
-            s.id === 'chapters' ? { ...s, status: 'running' } : s
-          ),
-        );
 
         const response = await fetch(`http://localhost:8000/api/projects/${projectId}/import/novel`, {
           method: 'POST',
@@ -161,50 +327,53 @@ export default function ProjectPage() {
           throw new Error(err.detail);
         }
 
-        const result: ImportResult = await response.json();
+        const result: { task_id: string; status: string; current_phase: string } = await response.json();
+        store.setImportTaskId(result.task_id);
 
-        // Mark all steps as done
-        setImportSteps((prev) => prev.map((s) => ({ ...s, status: 'done' as const })));
-
-        // Update project stage
-        store.setProject(store.project ? { ...store.project, stage: 'knowledge' } : null);
-        setCurrentStep(1);
-
-        // Reload data
-        const [beats, scenes, characters, locations] = await Promise.all([
-          fetchAPI<Beat[]>(`/api/projects/${projectId}/beats`),
-          fetchAPI<Scene[]>(`/api/projects/${projectId}/scenes`),
-          fetchAPI<Character[]>(`/api/projects/${projectId}/characters`),
-          fetchAPI<Location[]>(`/api/projects/${projectId}/locations`),
-        ]);
-        store.setBeats(beats);
-        store.setScenes(scenes);
-        store.setCharacters(characters);
-        store.setLocations(locations);
-
-        try {
-          const kb = await fetchAPI<{ world_building: Record<string, unknown>; style_guide: Record<string, unknown> }>(
-            `/api/projects/${projectId}/knowledge`,
-          );
-          store.setWorldBuilding(kb.world_building);
-          store.setStyleGuide(kb.style_guide);
-        } catch {
-          // ignore
-        }
+        // Connect SSE for progress
+        connectSSE(result.task_id);
       } catch (err) {
         const message = err instanceof Error ? err.message : 'Import failed';
         setImportError(message);
         setImportSteps((prev) =>
           prev.map((s) =>
-            s.status === 'running' ? { ...s, status: 'error' } : s
+            s.status === 'running' ? { ...s, status: 'error' } : s,
           ),
         );
-      } finally {
         store.setImporting(false);
       }
     },
-    [projectId, store, tImport],
+    [projectId, store, initImportSteps, connectSSE],
   );
+
+  // Handle retry
+  const handleRetry = useCallback(async () => {
+    const taskId = store.importTaskId;
+    if (!taskId) return;
+
+    store.setImporting(true);
+    setImportError(null);
+    // Reset errored steps to pending
+    setImportSteps((prev) =>
+      prev.map((s) => (s.status === 'error' ? { ...s, status: 'pending' } : s)),
+    );
+
+    try {
+      const response = await fetch(
+        `http://localhost:8000/api/projects/${projectId}/import/retry?task_id=${taskId}`,
+        { method: 'POST' },
+      );
+      if (!response.ok) {
+        const err = await response.json().catch(() => ({ detail: 'Retry failed' }));
+        throw new Error(err.detail);
+      }
+      connectSSE(taskId);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Retry failed';
+      setImportError(message);
+      store.setImporting(false);
+    }
+  }, [projectId, store, connectSSE]);
 
   // Handle knowledge confirm → advance to beat_sheet
   const handleConfirmKnowledge = useCallback(async () => {
@@ -224,7 +393,6 @@ export default function ProjectPage() {
   const handleAIAction = useCallback(
     (action: string, text: string) => {
       // Copy text to AI assistant panel (for workspace mode)
-      // For wizard mode, we could open a modal
     },
     [],
   );
@@ -264,7 +432,12 @@ export default function ProjectPage() {
             <h2 className="mb-6 text-center text-xl font-bold text-white">{tImport('title')}</h2>
             {importSteps.length > 0 ? (
               <div className="mx-auto max-w-md">
-                <ImportProgress steps={importSteps} error={importError} />
+                <ImportProgress
+                  steps={importSteps}
+                  error={importError}
+                  entities={importEntities}
+                  onRetry={importError && store.importTaskId ? handleRetry : undefined}
+                />
               </div>
             ) : (
               <FileUpload
@@ -365,7 +538,12 @@ export default function ProjectPage() {
           <div className="w-full max-w-lg">
             <h2 className="mb-6 text-center text-xl font-bold text-white">{tImport('title')}</h2>
             {importSteps.length > 0 ? (
-              <ImportProgress steps={importSteps} error={importError} />
+              <ImportProgress
+                steps={importSteps}
+                error={importError}
+                entities={importEntities}
+                onRetry={importError && store.importTaskId ? handleRetry : undefined}
+              />
             ) : (
               <FileUpload
                 onFileSelect={handleFileUpload}

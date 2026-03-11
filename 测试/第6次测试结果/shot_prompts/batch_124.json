@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0744",
+    "shot_id": "shot_0728",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated steadily on the right edge of a bed holding Zhaozhao in her arms; Zhaozhao, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, resting quietly in her embrace; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, standing on the left foreground-midground and leaning in with controlled pressure, yet not truly dominating the frame. A restricted female POV full shot with a slight side angle, half-dropped curtain in the foreground creating occlusion, bed frame and doorway compressing the depth, old wooden screen and side-backlit lattice window behind, a divorce paper barely visible on the corner of a low table by the bed. Low-saturation warm-cool contrast, gray-blue, dark black, aged wood brown, faint amber candle glow mixed with cool daylight rim light, cinematic realism, tense domestic power imbalance, historical drama still, shallow atmospheric depth, subtle film grain, highly detailed texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, side-backlight from lattice window, faint amber lamplight, curtain occlusion, screen and doorframe shadow compression"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitle, low quality, blurry, deformed hands, extra fingers, bad anatomy, oversaturated colors, modern furniture, electric lights, plastic, contemporary hairstyle, modern makeup, phone, camera, glass window, neon"
+  },
+  {
+    "id": "sp_0745",
+    "shot_id": "shot_0729",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, seen from Gao Lingning's eye level in a medium shot, occupying the center-left of the frame; his shoulders still try to stay straight but show a slight collapse, the robe across his chest and abdomen hanging with hollow folds, his face unusually pale, his expression controlled yet visibly emptied out. The blurred right foreground shows Gao Lingning's shoulder and the edge of Zhaozhao's swaddling, forming a subjective confrontation line. Cool daylight in the background washes over him, with muted interior shadows, old room depth barely visible. Low-saturation warm-cool contrast, cold sky light against subdued amber indoor tone, cinematic restrained tension, realistic historical interior, shallow depth of field, delicate textile detail, filmic realism.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "cool daylight dominant on face, subdued warm interior fill, low-saturation contrast, soft side-back light with shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, extra limbs, deformed face, oversaturated colors, electric lighting, modern fabrics, zipper, buttons, plastic objects, phone, eyeglasses, contemporary room decor"
+  },
+  {
+    "id": "sp_0746",
+    "shot_id": "shot_0730",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, in a frontal medium close-up at near eye level, staring intensely toward Gao Lingning off camera; his lips and jawline are sharply defined, his gaze fixed and pressing, anxiety beginning to slip through his restraint, the top headroom compressed to create pressure. Behind him, the vertical lines of an old wooden screen resemble bars, with dim interior depth and cool ambient daylight edging the silhouette. Low-saturation warm-cool contrast, gray-blue and aged wood palette, faint amber interior warmth under cool side-back window light, oppressive historical domestic atmosphere, cinematic realism, fine skin texture, subtle film grain, tightly framed psychological pressure.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "side-back window light with cool daylight edge, minimal warm interior fill, compressed shadows, low-saturation warm-cool palette"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, extra fingers, deformed eyes, modern hairstyle, electric light fixtures, contemporary clothing details, plastic, neon, phone, sunglasses, studio backdrop"
+  },
+  {
+    "id": "sp_0747",
+    "shot_id": "shot_0731",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, placed on the right third of the frame in a medium close-up, holding Zhaozhao close in the lower foreground; Zhaozhao, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, calm and still in the swaddle. Gao Lingning slightly lifts her eyes toward Shen Ci off frame left, her face cut by cool side-backlight into a cold white contour, the faint scar on her neck barely visible, her expression detached, quiet, and no longer emotionally engaged. Background kept sparse with broad negative space and only an old wooden bedpost remaining. Low-saturation warm-cool contrast, pale daylight against muted amber interior tone, restrained aristocratic room, cinematic realism, emotional distance, delicate silk texture, subtle film grain, highly detailed historical portrait.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "cool side-backlight shaping pale facial contour, soft warm indoor fill, low-saturation warm-cool contrast, restrained negative space"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, malformed hands, extra limbs, oversaturated colors, modern cradle, electric lights, synthetic fabric, contemporary jewelry, phone, makeup glam, modern window frame"
+  },
+  {
+    "id": "sp_0748",
+    "shot_id": "shot_0732",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown only through her calm hands in close-up; one hand firmly supports Zhaozhao while the other rests naturally on the swaddling edge, fingers relaxed and without tension. Zhaozhao, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, lies quietly and steadily in the swaddle. In the lower left corner, a divorce paper appears as a softly blurred partial edge, secondary and out of focus. The visual center of gravity is low, emphasizing emotional withdrawal. Low-saturation warm-cool contrast, soft amber lamplight over moon-white silk with cool ambient daylight lingering in the room, aged wood and muted domestic tones, cinematic realism, intimate detail shot, shallow depth of field, fine textile and skin texture, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro realism, film grain",
+      "lighting": "soft amber lamplight on hands and silk, cool ambient daylight in shadows, low-saturation warm-cool contrast, shallow focus"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, extra fingers, deformed hands, modern paper print, pen, plastic baby wrap, synthetic fabric, hospital objects, electric lighting, contemporary manicure"
+  },
+  {
+    "id": "sp_0749",
+    "shot_id": "shot_0733",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a close-up with her face occupying the right half of the frame, making a slight head tilt while keeping her gaze directed left toward Shen Ci off screen; her expression remains calm, distant, and unnervingly disengaged, the psychological shift already complete. A small portion of Zhaozhao's swaddling edge remains in the lower foreground, while the background window light diffuses softly into the room. The tilted head creates an unstable diagonal against her emotional stillness. Low-saturation warm-cool contrast, cool soft window backlight with minimal amber interior warmth, muted gray-blue and aged wood palette, cinematic realism, subtle uncanny chill, shallow depth of field, delicate skin detail, fine film grain, highly detailed historical drama portrait.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft diffused cool window backlight, minimal warm indoor fill, low-saturation warm-cool contrast, gentle atmospheric haze"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, deformed face, extra limbs, oversaturated colors, modern hairstyle, electric light, plastic accessories, phone, contemporary portrait retouching, studio lighting setup"
+  }
+]

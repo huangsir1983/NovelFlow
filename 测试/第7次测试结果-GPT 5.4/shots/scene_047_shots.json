@@ -1,0 +1,283 @@
+[
+  {
+    "id": "shot_0746",
+    "scene_id": "scene_047",
+    "shot_number": 1,
+    "goal": "建立宴厅出口处的新关系格局，明确陆姝仪离场、高令宁停滞、沈词已在数步之外听见一切，形成三角对峙的空间信息。",
+    "composition": "FS，宴厅出口纵深构图。画面左前景为半虚化的朱红席案与喜庆绸花，右中景高令宁立于画面偏右三分之一处，背脊挺直却僵住；左后方陆姝仪正朝出口方向转身，衣袂将出画；画面深处偏左，门框内沈词静立，面色苍白。门框、垂帘与红绸构成纵向切割，三人形成不稳定三角构图，中间留出明显空隙作为情感距离。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到礼制场面的体面未散，但人物关系已骤然裂开。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 746
+  },
+  {
+    "id": "shot_0747",
+    "scene_id": "scene_047",
+    "shot_number": 2,
+    "goal": "交代陆姝仪以礼收尾后离开，确认她已从冲突中心抽身，把后果留给高令宁与沈词。",
+    "composition": "MLS，机位仍在轴线同侧，陆姝仪位于画面左侧近中景，向右前方的高令宁盈盈一拜；高令宁仅以肩背和半侧脸留在画面右前景，保持主观压迫感。背景是明亮宴厅和模糊宾客色块，陆姝仪拜下时袖口与裙摆轻垂，姿态柔顺但抽离。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到一种看似温顺、实则把残局留给别人的冷意。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 747
+  },
+  {
+    "id": "shot_0748",
+    "scene_id": "scene_047",
+    "shot_number": 3,
+    "goal": "从女主近主观角度确认陆姝仪离去，强调高令宁短暂无法反应，注意力被抽空。",
+    "composition": "MS，高令宁肩后视角看向出口。左侧前景是高令宁虚焦肩线与发髻，陆姝仪在中景背向镜头缓步出画，门外高光泛白，形成轻微过曝的离场口。红帘与门框像礼法的夹缝，将离去动作裁得很窄。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "制造被留下者的失重感和迟来的空白。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.31,
+    "order": 748
+  },
+  {
+    "id": "shot_0749",
+    "scene_id": "scene_047",
+    "shot_number": 4,
+    "goal": "回到高令宁，呈现她仍未从震惊中抽离，但已经开始强行自持。",
+    "composition": "MCU，高令宁占画面右侧，视线仍停在左外画。背景为失焦的喜幛、席面金红光斑，衬得她冷白面色更薄。颈侧淡痕在转头间若隐若现，嘴唇微抿，呼吸被压住。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众贴近她被刺中后的克制与压抑。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 749
+  },
+  {
+    "id": "shot_0750",
+    "scene_id": "scene_047",
+    "shot_number": 5,
+    "goal": "揭示沈词已听见全部，并通过他与喜庆背景的反差明确情感后果已落到他身上。",
+    "composition": "MCU，沈词位于画面左侧三分之一，身体微前倾却停住，脸色发白。背景是宴厅内红绸、金饰、灯彩的模糊暖色，形成冷暖冲撞；右侧留出大片负空间，指向高令宁所在方向。浅景深压缩空间，让两人虽只隔数步却像被挤在无法靠近的平面上。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众看到一个惯常克制的人第一次明显失守。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 750
+  },
+  {
+    "id": "shot_0751",
+    "scene_id": "scene_047",
+    "shot_number": 6,
+    "goal": "建立高令宁与沈词之间的现实距离，强调短短几步却不可跨越。",
+    "composition": "MLS，双人同框但不对称。高令宁在画面右前侧，半身侧向左；沈词在画面左后侧，站在门框阴影边缘。中间留出一条空地，地砖线条直接引导视线穿过这段距离。前景下沿掠过虚焦席案边缘，提示场合仍是满月宴，体面未散而情感已破。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众直观看到‘近在咫尺，远如隔世’。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 751
+  },
+  {
+    "id": "shot_0752",
+    "scene_id": "scene_047",
+    "shot_number": 7,
+    "goal": "拍高令宁从震惊中收口，把私人情绪迅速折叠回礼制动作里，开始与沈词划开距离。",
+    "composition": "CU，高令宁正面偏侧，眼神从失焦缓慢收紧，视线落向更低处后再抬起。背景完全虚化成暖色斑块，她面部冷白、眼尾微红，神情从恍惚过渡到锋利。画面上方留少量压迫性头顶空间。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到她不是软下去，而是更冷地立起来。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 752
+  },
+  {
+    "id": "shot_0753",
+    "scene_id": "scene_047",
+    "shot_number": 8,
+    "goal": "表现高令宁对沈词行疏离之礼，用最体面的动作表达最明确的拒绝。",
+    "composition": "MS，轴线保持稳定。高令宁位于画面右侧，向左前方的沈词敛袖行礼；沈词仅以左前景虚焦肩背入画，形成女主主观压迫。高令宁动作标准、幅度克制，背脊绷紧。背景仍是喜庆厅堂，但因景深浅而像隔绝噪音的幕布。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到礼比刀更冷。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 753
+  },
+  {
+    "id": "shot_0754",
+    "scene_id": "scene_047",
+    "shot_number": 9,
+    "goal": "给沈词反应镜头，捕捉他在被礼貌推开的一瞬间的迟疑与慌乱。",
+    "composition": "CU，沈词位于画面中央略偏左，视线直指右外画的高令宁。下颌微紧，喉结有轻微吞咽动作，眉眼原本的克制出现裂缝。背景暖红虚化，脸色更显病白，像从喜宴里被抽空了血色。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众体会到他想补救却已慢半拍的失控前兆。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 754
+  },
+  {
+    "id": "shot_0755",
+    "scene_id": "scene_047",
+    "shot_number": 10,
+    "goal": "表现高令宁转身离开，明确她主动结束这一刻，不给解释空间。",
+    "composition": "MLS，高令宁从画面右侧向左前方转身，衣摆带出一个干净利落的弧线，沿着先前陆姝仪离开的方向行进。沈词留在后景左侧，身体微向前，却未能立刻跟上。门框、帘幕和地砖线共同形成出画导向。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她的离开是决定，不是试探。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 755
+  },
+  {
+    "id": "shot_0756",
+    "scene_id": "scene_047",
+    "shot_number": 11,
+    "goal": "抓住沈词下意识伸手的瞬间，让补偿冲动先于理智发生。",
+    "composition": "MS偏近，沈词位于画面左侧迅速向右伸手，手臂切入画面中央；右侧是高令宁将离开的背影边缘。构图刻意让他的身体未能完全进入女主空间，只剩一只手越界，强调迟到与仓促。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "让观众在一瞬间生出‘他终于动了’的紧绷期待。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 756
+  },
+  {
+    "id": "shot_0757",
+    "scene_id": "scene_047",
+    "shot_number": 12,
+    "goal": "把关系断裂外化为核心动作：他没能抓住她，只勾住了衣角。",
+    "composition": "ECU，画面几乎只见沈词修长发白的手指与高令宁月白衣角。衣料从指间滑过，只有一点布角被勾住，拉力极轻，无法形成真正停留。背景化成抽象的暖金红色流光，令这一触成为全场唯一清晰信息。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到刺痛：他碰到了，却留不住。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 757
+  },
+  {
+    "id": "shot_0758",
+    "scene_id": "scene_047",
+    "shot_number": 13,
+    "goal": "延续动作后果，表现高令宁并未回头，衣角从他指间脱开。",
+    "composition": "CU接近手部与腰侧，高令宁衣摆向画面左前方继续运动，沈词的手停在右下角，指尖空悬，勾住的布料滑脱。动作结束后画面留下短暂空隙，手与衣之间出现可见距离。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众体验到希望落空后的冷空。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 758
+  },
+  {
+    "id": "shot_0759",
+    "scene_id": "scene_047",
+    "shot_number": 14,
+    "goal": "给高令宁一个不回头的反应，确认她对这次触碰的态度是彻底抽离。",
+    "composition": "MCU背侧三分之二侧脸，高令宁位于画面右侧向左行进，肩背笔直，目光不回。她的下颌线冷硬，唇线收紧。左侧前景虚焦掠过一线沈词的手，随后落空退出焦面，形成动作余波。",
+    "camera_movement": "steadicam",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她连回头确认都不愿给。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 759
+  },
+  {
+    "id": "shot_0760",
+    "scene_id": "scene_047",
+    "shot_number": 15,
+    "goal": "收在沈词的失手后状态，完成这一场的情感落点：他第一次明确感到留不住。",
+    "composition": "MCU，沈词独处画面中央，手仍悬在半空后缓慢垂下。背景里红绸和灯彩失焦成大片模糊暖色，反衬其面色惨白。画面右侧保留高令宁刚出画的空位，像一个刚刚关闭的缺口。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众把这一刻记成‘失手’而非‘错过’，留下钝痛余味。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.76,
+    "order": 760
+  }
+]

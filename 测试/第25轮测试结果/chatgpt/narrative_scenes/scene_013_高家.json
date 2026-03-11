@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家卧房与前院 - 日",
+  "location": "高家",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈母",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "产后我梦见前世儿子劝我别再为他牺牲；醒来后给女儿取名昭昭，父亲强硬拒绝沈家接孩子，逼迫和离，沈词跪求见面并闯入后院，我正式提出按约和离并说已原谅他。",
+  "key_dialogue": "沈词，我原谅你了。",
+  "emotional_peak": "我放下前世执念，彻底从爱恨纠缠中抽身，反令沈词崩溃。",
+  "tension_score": 0.91,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "粥碗梦境",
+    "和离书",
+    "婴儿襁褓",
+    "赘婿人选"
+  ],
+  "dramatic_purpose": "完成女主精神解脱，同时把男主推入失去控制的深渊。",
+  "visual_reference": "产后卧房宁静，前院跪求与后院对峙形成对照，女子抱婴平静，男子失态。",
+  "visual_prompt_negative": "不要现代月子中心，不要夸张哭喊，不要过分人海场面，不要玄幻托梦特效。",
+  "source_text_start": "我做了个梦。床头，小小的沈睿捧着一",
+  "source_text_end": "我错愕地看着他，哑然失笑。不恨他了……他怎么反而还不乐意了呢？"
+}

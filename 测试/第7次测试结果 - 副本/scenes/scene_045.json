@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "id": "scene_045",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:43"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪",
+      "高父",
+      "昭昭",
+      "蒋晟"
+    ],
+    "related_beats": [
+      "beat_017"
+    ]
+  },
+  "data": {
+    "heading": "INT. 宴厅 - 日",
+    "location": "昭昭满月宴宴厅",
+    "time_of_day": "day",
+    "description": "开阔的宴会厅，宾客往来，桌案齐列，满月宴陈设喜庆，红绸、酒席与贺礼映出表面热闹。主位附近视线集中，高父与高令宁所在位置形成被护持的中心。门口方向出现不速之客，陆姝仪持请帖入内，身形单薄，面色发白，和喜宴氛围形成鲜明反差。人群的目光成为无形压力。",
+    "action": "昭昭满月宴上，宾客正聚集祝贺。陆姝仪拿着蒋晟的请帖自行入场，步伐轻缓，身形比从前更消瘦。高父见到她后脸色骤沉，抬手示意下人上前驱赶。高令宁出声制止，令场面暂时停住。陆姝仪站在众目睽睽之下，看着高父护在高令宁身前，嘴角弯起一丝笑意，眼里带着复杂情绪。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "陆姝仪",
+      "高父",
+      "昭昭",
+      "蒋晟"
+    ],
+    "key_props": [
+      "满月宴请帖",
+      "酒席",
+      "贺礼",
+      "红绸宴饰"
+    ],
+    "dramatic_purpose": "建立公开对峙场域，让陆姝仪主动闯入高令宁的安全区，制造人群注视下的紧张局面，并为她后续自白铺设舞台。",
+    "tension_score": 0.63,
+    "dramatic_intensity": 0.26,
+    "order": 45
+  }
+}

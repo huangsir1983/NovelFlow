@@ -1,0 +1,74 @@
+[
+  {
+    "id": "seg_0091",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0264",
+      "shot_0265",
+      "shot_0266"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属门边遭遇的建立段：先交代空间拦截关系，再跟随女主接近并受阻，最后落到她的第一反应，角色集合稳定、时空连续、情绪从发现到收束形成完整起拍。",
+    "order": 91
+  },
+  {
+    "id": "seg_0092",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0267",
+      "shot_0268",
+      "shot_0269"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段集中完成男主压迫感建立：人物状态、身体细节、实质拦路动作一气呵成。三镜头叙事目标一致，都是把‘久候不是偶遇’升级为‘有预谋的逼谈’。",
+    "order": 92
+  },
+  {
+    "id": "seg_0093",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0270",
+      "shot_0271",
+      "shot_0272"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是第一个情绪爆点，围绕‘母亲/睿儿’形成从现实刺痛到前世旧忆闪回的完整弧线。虽出现记忆碎片，但其功能属于女主当下主观受击，适合合并为一个心理冲击段。",
+    "order": 93
+  },
+  {
+    "id": "seg_0094",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0273",
+      "shot_0274",
+      "shot_0275"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成道德勒索的核心出牌与女主的生理反应，并用双人构图封住退路，形成‘旧伤揭开—强压失态—进入僵局’的完整情感转折，适合作为一段。",
+    "order": 94
+  },
+  {
+    "id": "seg_0095",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0276",
+      "shot_0277",
+      "shot_0278",
+      "shot_0279",
+      "shot_0280"
+    ],
+    "segment_number": 5,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "后五镜围绕同一情绪弧线：女主让步、立条件、男主受制、冷收尾。虽超过6秒目标，但该段是场内第二次权力翻转，必须保留完整的出牌与反应链，适合合并为一个12秒收束段，避免切碎削弱‘答应婚事却夺规则权’的戏剧力度。",
+    "order": 95
+  }
+]

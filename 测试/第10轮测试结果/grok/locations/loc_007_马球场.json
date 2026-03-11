@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_007",
+  "name": "马球场",
+  "type": "exterior",
+  "era_style": "明代贵族马球场",
+  "description": "开阔草地马球场，四周木栏围场，远处可见看台与旗帜，地面平整草坪，场边摆放葡萄架与风筝道具，空间辽阔适合骑射活动。",
+  "visual_reference": "Vast Ming dynasty noble polo field exterior daytime, open grassy arena enclosed by wooden railings, distant viewing pavilion with banners, smooth turf ground, side grape trellis and kite props, expansive space for horseback activity, bright sunny atmosphere with period accuracy",
+  "atmosphere": "热闹欢快却暗藏嫉妒",
+  "color_palette": [
+    "草绿",
+    "土黄",
+    "旗红"
+  ],
+  "lighting": "强烈日光照射全场，产生明亮高对比光影",
+  "key_features": [
+    "木栏马场",
+    "葡萄架",
+    "马球杆道具"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "嫉妒与挑衅"
+}

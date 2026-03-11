@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0684",
+    "shot_id": "shot_0624",
+    "prompt_text": "A stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, shown in close-up on the left side of the frame facing right, forcing a brittle polite smile with stiffened lips, shallow unsteady breathing, wounded pride and suffocated embarrassment in her eyes, interior of a noble mansion with a blurred doorframe and a single diagonal beam of light in the background, side backlight emphasizing her cheekbones, nasolabial folds and downturned eye corners, low-saturation warm-cool contrast palette of gray-blue, dark wood brown and amber highlights, shallow depth of field, cinematic historical drama realism, highly detailed skin texture, restrained tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, natural daylight mixed with muted amber interior light, side backlight through doorway, soft shadows, constrained interior atmosphere"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass office furniture, smartphones, text, watermark, logo, low quality, blurry face, extra fingers, distorted anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0685",
+    "shot_id": "shot_0625",
+    "prompt_text": "A stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, shown in medium close-up in the left third of the frame, leaning slightly forward, fingertips lightly touching the chair edge or her sleeve, trying to maintain authority while her expression reveals weakening control and restrained anxiety, a blurred tea cup pressing along the lower foreground edge, empty guest seats and a cold wooden screen behind her emphasizing that she speaks on another family's ground, low-saturation gray-blue and old wood tones with sparse amber warmth, static formal composition, cinematic realism, subtle film grain, tense and powerless aristocratic confrontation",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft natural daylight with cool undertones, faint amber interior spill, controlled side light, low saturation, gentle contrast, restrained household tension"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lamps, plastic, metal cutlery, smartphones, text, watermark, logo, low quality, blurry image, bad hands, distorted anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0686",
+    "shot_id": "shot_0626",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in medium close-up on the right side of the frame pressing slightly forward toward the camera, shoulder line closer than before to create intimidation, gaze fixed sharply toward the reverse-shot direction, interrupting without giving the other side space to finish speaking, firm mouth and decisive expression, vertical screen lines behind him like bars, table edge and sleeve hem cutting hard geometric lines across the frame, low-saturation warm-cool contrast with gray-blue shadows and dark wood browns, slight dolly-in pressure, cinematic historical realism, tense political family confrontation",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool natural daylight with subtle amber interior undertone, side backlight and screen-filtered shadows, medium contrast, oppressive interior light shaping"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, neon light, plastic, office decor, smartphones, text, watermark, logo, low quality, deformed hands, distorted anatomy, oversaturated colors, cartoon style"
+  },
+  {
+    "id": "sp_0687",
+    "shot_id": "shot_0627",
+    "prompt_text": "A porcelain tea cup on an old wooden table, placed slightly left of center in close-up, the water surface trembling faintly, a nearby robe sleeve entering the edge of the frame without lifting the cup, background blurred into two dark opposing figures, a thin cold line of daylight reflecting across the glazed ceramic surface, coarse aged wood grain clearly visible, silence stretched to the breaking point, low-saturation warm-cool contrast palette with gray-blue daylight and muted brown wood, shallow depth of field, cinematic macro realism, restrained historical drama symbolism, tactile detail and quiet menace",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama, macro detail",
+      "lighting": "cold natural daylight accent on porcelain, muted ambient amber interior fill, low saturation, crisp highlight line, soft dark background separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern tea set, stainless steel, plastic, contemporary tabletop items, text, watermark, logo, low quality, blurry macro, noisy image, oversaturated colors, cartoon rendering"
+  },
+  {
+    "id": "sp_0688",
+    "shot_id": "shot_0628",
+    "prompt_text": "A stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, shown in close-up on the left side of the frame facing right, face drained pale and lips losing color, eyes caught between disbelief and humiliation as composure begins to crack, a blurred table edge cuts across the foreground like a rigid ceremonial barrier trapping her, overbright doorway daylight behind her makes her skin appear even more bloodless, her coiffure and jade hairpins remain perfectly neat yet feel rigid and brittle, low-saturation warm-cool contrast palette, gray-blue daylight against old wood and faint amber interior tones, cinematic historical realism, shallow depth of field, suffocating aristocratic collapse",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "bright doorway backlight with cool bias, minimal amber interior fill, low saturation, facial shadow modeling, visual restraint with high emotional pressure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary makeup, electric lights, plastic accessories, smartphones, text, watermark, logo, low quality, blurry face, distorted anatomy, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0689",
+    "shot_id": "shot_0629",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in medium shot on the right side of the frame seated or half-rising, body leaning forward with stronger pressure, one hand slightly tightened near his chest while still keeping formal restraint, delivering a final ultimatum with cold resolve and controlled menace, the left side of the frame left open for the unseen opponent, table and master seat back forming a stable triangle of power, side backlight carving deep facial shadow, low-saturation warm-cool contrast of gray-blue, dark wood brown and faint amber highlights, cinematic historical drama realism, hard emotional cutoff, ominous stillness before a storm",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "side backlight with cool daylight dominance, subtle amber interior edge light, stronger contrast and deeper shadows, restrained noble-house tension"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lighting, plastic, modern fabrics, smartphones, text, watermark, logo, low quality, blurry image, bad proportions, distorted anatomy, oversaturated colors"
+  }
+]

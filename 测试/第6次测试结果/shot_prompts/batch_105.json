@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0630",
+    "shot_id": "shot_0567",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, centered in a close-up frontal view. Her face is deathly pale, her eyes lose focus and fail to align, lips slightly parted as if calling out through dizziness, breath fading, expression suspended between shock and collapse. Blurred arms and flowing sleeves sweep across the foreground edges as partial occlusion, while the background figures and doorway dissolve into soft smeared color blocks, only a harsh white flare at the door remains. Low-saturation warm-cool contrast, gray-cyan shadows, old wood brown interior, amber candle remnants against cold daylight, side-backlight and doorway glare, handheld subjective instability, shallow depth of field, oppressive ancient Chinese noble hall, cinematic realism, highly detailed, film still quality",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, cold daylight from doorway with amber interior spill, side-backlight, harsh door highlight, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern furniture, plastic, glass windows, contemporary hairstyle, modern makeup, text, watermark, logo, subtitles, low quality, blurry face, deformed hands, extra fingers, duplicate person, overexposed skin, cartoon, anime"
+  },
+  {
+    "id": "sp_0631",
+    "shot_id": "shot_0568",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, occupies the left foreground in half profile; Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, realistic ancient aristocratic setting, stands in the right rear turning sharply; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, is squeezed into the deeper background; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, appears as a wavering back figure in the center. Shen Ci instinctively reaches a hand forward, Jiang Sheng whips around in alarm, Lu Shuyi looks startled and crowded by the chaos, all sightlines converge on Gao Lingning, while a Shen household servant in the corridor depth turns to run. Noble hall corridor with old wood pillars and curtain edges, low-saturation warm-cool contrast, gray-cyan ambient tone, old wood brown, controlled amber candlelight mixed with pale daylight from the doorway, slight motion blur from a panning camera, spatial disorder exploding in multiple directions, cinematic realism, layered blocking, high-detail film still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, muted daylight and amber interior candlelight, side-backlight, partial doorway highlights, soft shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern hallway, plastic, metal rails, contemporary clothing, text, watermark, logo, subtitles, low quality, bad anatomy, extra limbs, duplicate faces, cartoon, anime"
+  },
+  {
+    "id": "sp_0632",
+    "shot_id": "shot_0569",
+    "prompt_text": "A Shen household servant in ancient Chinese livery, lean young male attendant in plain dark robe and cloth belt, rushes across the frame from left to right in a medium long shot, his robe hem flying upward as he sprints out of the corridor. He is captured mid-run with urgent forward momentum, body pitched ahead, arms driving, no hesitation. The corridor runs diagonally from left foreground to right background; a curtain corner and wooden pillar are knocked aside in the foreground, and another servant in the deep background has just been pulled into turning around. Bright daylight from outside draws a long strip of light across the old wooden floor, guiding the direction of escape. Ancient Chinese noble mansion interior, low-saturation warm-cool palette with gray-cyan shadows and old wood brown, limited amber interior glow against stronger natural doorway light, steadicam clarity with kinetic urgency, cinematic realism, historical drama texture, highly detailed environmental storytelling",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, pale natural daylight streaking in from the doorway, subdued amber interior fill, directional floor highlight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, sneakers, zippers, plastic fabric, electric lamps, text, watermark, logo, subtitles, low quality, motion artifacts, bad anatomy, extra limbs, cartoon, anime"
+  },
+  {
+    "id": "sp_0633",
+    "shot_id": "shot_0570",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, fills a medium close-up from the torso upward as her body tilts from left to right into collapse. Her final support gives way, jaw pale and tight, the faint scar at her neck caught by light, breath emptied, balance lost; a hand rushing in from the right side enters the foreground but has not touched her yet, creating the feeling of being a fraction too late. The background figures are pressed into darkness, reduced to obscured silhouettes, while a wooden pillar and a blown-out doorway highlight form vertical pressure behind her. Ancient Chinese noble hall, low-saturation warm-cool contrast, old wood brown and gray-cyan shadows, cold side-backlight cutting her profile against dim amber interior, handheld urgency, shallow depth of field, cinematic realism, highly detailed dramatic film still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cold side-backlight with dim amber interior fill, low-saturation warm-cool contrast, strong doorway highlight, background suppression into shadow"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, modern accessories, text, watermark, logo, subtitles, low quality, bad hands, extra fingers, deformed anatomy, duplicate person, cartoon, anime"
+  },
+  {
+    "id": "sp_0634",
+    "shot_id": "shot_0571",
+    "prompt_text": "Subjective falling view from Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, as the world tips violently downward. Doorframes, beams, wooden pillars, and blurred faces all slide along steep diagonals; Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, and Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, lunge in from the upper edge but are stretched and blurred by the collapse; Jiang Sheng and Lu Shuyi are distorted among the sliding figures. A rapidly expanding dark mass fills the center, old wooden floor brown and black robe shadows swallowing the field of view. Low-saturation warm-cool contrast, gray-cyan gloom, old wood brown, faint amber interior remnants against cold natural light, handheld disorientation, Dutch-angle subjective fall, motion smear, cinematic realism, oppressive ancient hall, high-detail psychological film still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, collapsing daylight and weak amber spill, heavy shadow density, subjective motion blur"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary architecture, electric lights, text, watermark, logo, subtitles, low quality, bad anatomy, duplicate limbs, distorted faces from poor rendering, cartoon, anime"
+  },
+  {
+    "id": "sp_0635",
+    "shot_id": "shot_0572",
+    "prompt_text": "Extreme close-up of darkness swallowing the frame from Gao Lingning's fading subjective view, with no clear figure visible. A thin line of white doorway light clings to the upper edge and rapidly narrows as if eyelids are closing, while a final blurred black hem of clothing sweeps across the lower edge before vanishing. The image is nearly all shadow, suffocating and abstracted but still grounded in an ancient interior space, with the last trace of door light extinguished. Low-saturation warm-cool contrast reduced almost entirely to black and cold white, static frame, minimal visual information, cinematic realism, tactile film grain, high-detail blackout transition, historical drama atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "near-total darkness with a single cold doorway slit of light, minimal amber residue, high shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, subtitles, low quality, noisy artifacts, posterization, cartoon, anime, futuristic light sources, modern interior details"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_036",
+  "order": 35,
+  "heading": "FLASHBACK. 沈家病房 - day",
+  "location": "沈家病房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈睿"
+  ],
+  "core_event": "昏迷中我梦见前世的沈睿端粥来劝我保重，并自责若非为他，爹娘本可早早和离，各自得活。",
+  "key_dialogue": "「若有来生，娘亲别再生下我。」",
+  "emotional_peak": "亡子用最温柔的方式，替我松开了执念。",
+  "tension_score": 0.71,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "粥碗",
+    "小手",
+    "病榻"
+  ],
+  "dramatic_purpose": "让女主真正放下“非要再生睿儿”的执念，情感方向转向女儿。",
+  "visual_reference": "柔和梦境中，小男孩踮脚捧着热粥，神情懂事得令人心碎，病弱母亲抬手摸他的脸，画面温柔而悲凉",
+  "visual_prompt_negative": "避免鬼魅恐怖感，避免过度虚化，避免夸张哭脸",
+  "source_text_start": "我做了个梦。 床头，小小的沈睿捧着一碗粥，",
+  "source_text_end": "他朝我磕了个头：「若有来生，娘亲别再生下我，让妹妹代替我承欢膝下，侍奉您终老。」"
+}

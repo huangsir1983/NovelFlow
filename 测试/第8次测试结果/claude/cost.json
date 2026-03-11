@@ -1,0 +1,51 @@
+{
+  "total_api_calls": 54,
+  "total_input_tokens": 3241,
+  "total_output_tokens": 110961,
+  "total_tokens": 114202,
+  "total_api_elapsed_s": 1582.4,
+  "stages": {
+    "1": {
+      "input_tokens": 62,
+      "output_tokens": 1583,
+      "elapsed_s": 31.16,
+      "api_calls": 1
+    },
+    "2": {
+      "input_tokens": 164,
+      "output_tokens": 3373,
+      "elapsed_s": 61.69,
+      "api_calls": 4
+    },
+    "3": {
+      "input_tokens": 544,
+      "output_tokens": 9959,
+      "elapsed_s": 184.58,
+      "api_calls": 7
+    },
+    "4": {
+      "input_tokens": 232,
+      "output_tokens": 12495,
+      "elapsed_s": 158.98000000000002,
+      "api_calls": 4
+    },
+    "5": {
+      "input_tokens": 22,
+      "output_tokens": 1796,
+      "elapsed_s": 25.61,
+      "api_calls": 1
+    },
+    "6": {
+      "input_tokens": 1191,
+      "output_tokens": 39566,
+      "elapsed_s": 541.8699999999999,
+      "api_calls": 19
+    },
+    "7": {
+      "input_tokens": 1026,
+      "output_tokens": 42189,
+      "elapsed_s": 578.53,
+      "api_calls": 18
+    }
+  }
+}

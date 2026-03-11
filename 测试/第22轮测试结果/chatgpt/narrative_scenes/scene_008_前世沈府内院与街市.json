@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT./MONTAGE. 前世沈府（再回忆） - NIGHT",
+  "location": "前世沈府内院与街市",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈睿"
+  ],
+  "core_event": "高令宁回忆前世陆姝仪死后十年，沈词仍找来相似婢女，引发争执和流产悲剧，之后两人短暂试图缓和关系，却最终失去女儿静好。",
+  "key_dialogue": "「琴瑟在御，莫不静好。」",
+  "emotional_peak": "产房里死婴出生后，夫妻相对无言，眼中都是要杀死对方的恨。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "被毁的生辰画",
+    "身契",
+    "安胎药",
+    "鱼龙灯"
+  ],
+  "dramatic_purpose": "解释女主后期对争一时意气的厌倦，也让观众理解她为何最终愿意放手",
+  "source_text_start": "是很可笑。\n陆姝仪死的第十年。",
+  "source_text_end": "这一世，我与他迟早要一拍两散的。\n既如此。"
+}

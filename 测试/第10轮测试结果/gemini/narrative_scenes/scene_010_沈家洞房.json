@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈家洞房 - NIGHT",
+  "location": "沈家洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "新婚之夜，两人略过繁文缛节直接圆房，沈词言语羞辱，高令宁冷漠催促，事后陆姝仪派人来叫，高令宁直接赶走沈词。",
+  "key_dialogue": "夫人，这一世在床榻之上，你还是这么没用啊。再快点吧，我困了。",
+  "emotional_peak": "高令宁闭眼催促“再快点”，彻底剥夺了沈词在情事上的征服感。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "红盖头",
+    "丝带",
+    "红烛",
+    "喜床",
+    "被子"
+  ],
+  "dramatic_purpose": "解构传统的洞房花烛夜，展现女主在身体交合时的灵魂抽离，对男主造成极大的心理挫败。"
+}

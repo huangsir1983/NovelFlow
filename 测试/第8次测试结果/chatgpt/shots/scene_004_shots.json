@@ -1,0 +1,269 @@
+[
+  {
+    "id": "shot_0058",
+    "scene_id": "scene_004",
+    "shot_number": 1,
+    "goal": "建立正堂内礼制秩序仍在表面维持、但视线已开始向聘礼处汇聚的空间关系，为木雁成为焦点做铺垫。",
+    "composition": "FS对称构图。正堂纵深被门框与案几分隔，案几置于画面中后景偏右，上有聘礼堆与木雁；父亲居后景左侧主位，媒人居中偏右，沈词在后景右侧略后，‘我’自前景左侧向中景聘礼方向走入。窗棂侧逆光从画面右后方切入，在地面和案几上形成硬边光带，人物面部保留阴影。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到体面场面下暗潮骤起、秩序即将裂开。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "沈词",
+      "父亲",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 58
+  },
+  {
+    "id": "shot_0059",
+    "scene_id": "scene_004",
+    "shot_number": 2,
+    "goal": "明确‘我’主动走向聘礼，不是被动应对，而是有意识地发动局势改变。",
+    "composition": "MLS侧面三分构图，‘我’占画面左三分之一，向右前方案几移动；前景虚化的丝绸聘礼边角形成压迫性遮挡，中景为‘我’的稳定步态，背景可见媒人与父亲静止，形成动静对比。视觉引导线由地砖缝与案几边缘指向木雁。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她的冷静与决绝，比情绪爆发更危险。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我",
+      "父亲",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 59
+  },
+  {
+    "id": "shot_0060",
+    "scene_id": "scene_004",
+    "shot_number": 3,
+    "goal": "把木雁从聘礼堆中抽离出来，确立其作为退亲动作的礼制符号与视觉核心。",
+    "composition": "CU俯角近物。木雁位于画面中心偏右，压在绸缎与礼盒之间；‘我’的手从左下方入画，指尖稳稳扣住木雁。前景是浅虚化的红绸，背景是冷色案几木纹，暖冷对撞突出木、丝触感差异。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众意识到这一拿不是小动作，而是对礼制的直接改写。",
+    "duration_hint": "2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.48,
+    "order": 60
+  },
+  {
+    "id": "shot_0061",
+    "scene_id": "scene_004",
+    "shot_number": 4,
+    "goal": "展示‘我’将木雁递还给媒人的明确姿态，完成第一次公开越矩。",
+    "composition": "MS斜侧双人构图。‘我’位于画面左侧前景半身，手臂平稳伸向右侧；媒人位于画面右侧中景，双手僵在半空未接住。木雁位于画面中央，成为视觉交点。背景右后方虚化可见沈词，左后方可见父亲坐于案旁，所有视线汇向木雁。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到克制中的羞辱感与场面骤停的窒息。",
+    "duration_hint": "3s",
+    "characters": [
+      "我",
+      "媒人",
+      "沈词",
+      "父亲"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 61
+  },
+  {
+    "id": "shot_0062",
+    "scene_id": "scene_004",
+    "shot_number": 5,
+    "goal": "给出媒人失态反应，说明她首先意识到体面即将失控。",
+    "composition": "MCU正面反应镜头。媒人占画面中央，双手悬停在下半画幅，眼神盯住木雁与‘我’之间。前景边缘保留一小块失焦木雁轮廓，背景是正堂暗木屏风，压缩空间感。嘴唇微张，正欲开口。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到尴尬、慌乱，以及礼数被撕开的第一道口子。",
+    "duration_hint": "2s",
+    "characters": [
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.52,
+    "order": 62
+  },
+  {
+    "id": "shot_0063",
+    "scene_id": "scene_004",
+    "shot_number": 6,
+    "goal": "用沈词的猛然抬眼确认他对这一举动极其敏感，并暗示两人之间有超出常理的认知交锋。",
+    "composition": "CU。沈词位于画面右侧，起始视线微垂，随后猛地抬眼看向画外左侧的‘我’；背景是被窗棂切割的冷光与暗影，半张脸陷在阴影里，眼神像刀锋一样落出画。构图留出左侧负空间承接他注视的对象。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "让观众感到一记无声对撞，带着危险的识破感。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 63
+  },
+  {
+    "id": "shot_0064",
+    "scene_id": "scene_004",
+    "shot_number": 7,
+    "goal": "回到‘我’的主观限制感知，承接沈词目光，展示‘我’接受并顶住这道审视。",
+    "composition": "CU正侧三分之二脸。‘我’位于画面左侧，眼神平稳望向画外右侧沈词，下巴微抬，唇线压平。前景右边缘有一条虚焦木雁轮廓，背景是被切碎的堂内光影，形成冷硬层次。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到女主的控制力与挑衅并存，不靠高声，只靠姿态。",
+    "duration_hint": "2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 64
+  },
+  {
+    "id": "shot_0065",
+    "scene_id": "scene_004",
+    "shot_number": 8,
+    "goal": "用父亲拍案起身把暗潮推向明面，显示家内权威被公开触怒。",
+    "composition": "MS。案几占画面下半部前景，父亲居中偏左，手掌重拍案面后霍然起身；茶盏与案上小件轻震。背景右侧可见媒人与沈词静止成对照。案几水平线构成权威边界，被父亲动作打破。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到压迫骤然落下，家庭威权开始介入。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "父亲",
+      "媒人",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.78,
+    "order": 65
+  },
+  {
+    "id": "shot_0066",
+    "scene_id": "scene_004",
+    "shot_number": 9,
+    "goal": "呈现父亲训斥，明确他在乎的是门第与体面，而非女儿意愿。",
+    "composition": "MCU略低机位，父亲占据画面中心，向画外右侧斥责‘我’。前景下沿保留案几边缘，形成压迫性前挡；背景深处是暗色屏风，人物两鬓白发与法令纹被硬光勾出。嘴型与目光都朝向固定方向，保持视线轴。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到家法、门第和焦虑一起压到女主身上。",
+    "duration_hint": "3s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 66
+  },
+  {
+    "id": "shot_0067",
+    "scene_id": "scene_004",
+    "shot_number": 10,
+    "goal": "让媒人急忙收拾场面，说明所有人都在抢救体面，而‘我’是唯一继续往前推的人。",
+    "composition": "MS双人偏群像。媒人位于画面右前景，身体微向左前倾，对着‘我’劝说；‘我’位于左侧中景，站姿纹丝不动，只给出半侧脸。背景后方父亲立于案旁，沈词坐在更深处保持沉静。构图层次清楚，媒人的动作与‘我’的静形成强烈对比。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到场面忙乱却无济于事，体面越补越裂。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "媒人",
+      "我",
+      "父亲",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 67
+  },
+  {
+    "id": "shot_0068",
+    "scene_id": "scene_004",
+    "shot_number": 11,
+    "goal": "给出‘我’温和笑意与锋利台词的反差，正式把“退亲”抛向沈词，完成局势重定向。",
+    "composition": "MCU正面。‘我’位于画面中央略偏左，嘴角有极浅笑意，目光越过镜头右侧看向沈词；木雁被她持在下方画面边缘，若隐若现。背景虚化的正堂陈设整齐，形成表面端庄、话语见血的反差。留白在右侧，给出她将选择权抛出去的空间。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感到寒意与快感并存：她在自污名声，却是为了逼出真意。",
+    "duration_hint": "4s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 68
+  },
+  {
+    "id": "shot_0069",
+    "scene_id": "scene_004",
+    "shot_number": 12,
+    "goal": "以沈词的第一句回应稳住局面，但保留他内里的快速权衡与不退之意。",
+    "composition": "MCU。沈词位于画面右侧三分之一，朝画外左侧回答“姑娘说笑了”。前景左边缘是一块虚化的深红衣袖，暗示‘我’在其视线对面。背景冷色窗棂光切过他的肩线，神情已从震惊收敛为克制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到危险人物重新把面具戴好，真正的博弈开始了。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 69
+  },
+  {
+    "id": "shot_0070",
+    "scene_id": "scene_004",
+    "shot_number": 13,
+    "goal": "通过一组更完整的正面回应，确认沈词不会退亲，并接受了这次试探。",
+    "composition": "MS坐姿半身。沈词居中偏右，肩背挺直，视线稳定投向画外左侧；他开口承诺回去商议加聘礼。前景是案几边缘与一角礼盒，背景深处模糊可见父亲与媒人都在听，空间关系未乱但权力重心已转移到他与‘我’的对话上。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到他不是退让，而是接招；两人的关系从婚仪协商转为彼此识别后的对峙。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "父亲",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 70
+  },
+  {
+    "id": "shot_0071",
+    "scene_id": "scene_004",
+    "shot_number": 14,
+    "goal": "用女主的静默反应收束场景，确认她达到了试探目的，同时留下后续更深层博弈的余震。",
+    "composition": "CU。‘我’位于画面左侧，视线落向画外右侧沈词，笑意已淡去，只剩沉静评估。前景下方是木雁的一小段轮廓，背景被窗棂光切成明暗两半，半边脸留在阴影中。构图简洁，所有杂音都退去，只剩两人之间看不见的锋刃。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到短暂平静下的更深不安：这一局没有结束，只是刚刚开始。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 71
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "EXT. 马球会僻静角落 - day",
+  "location": "马球会角落席边",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我脚伤独坐时，沈词追来要抱我回去，两人因身体边界与前世夫妻记忆爆发尖锐羞辱式对话。",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "身体记忆被粗暴揭开",
+  "tension_score": 0.92,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "肿起的脚踝",
+    "席凳"
+  ],
+  "dramatic_purpose": "强化两人之间最难切割的亲密与怨恨混合感。",
+  "visual_reference": "僻静角落里女子扶着肿胀脚踝起身欲走，男子几步外站定，冷着脸伸手拦住，风吹动发梢，两人距离极近却疏离，古风近景，情欲与敌意并存",
+  "visual_prompt_negative": "避免露骨色情、避免拥抱成功、避免嬉笑表情、避免现代医疗用品",
+  "source_text_start": "再抬头时，蒋晟已经不在身边。",
+  "source_text_end": "「装什么装？」\n「你身上哪里，我没碰过？」"
+}

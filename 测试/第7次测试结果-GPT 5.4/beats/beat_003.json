@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "id": "beat_003",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_002"
+    ]
+  },
+  "data": {
+    "title": "翻转拒婚判断并宣告执意要嫁",
+    "description": "回到家后，父亲以为她羞辱沈词是想拒婚；女主却回忆少女时的憧憬与前世婚后噩梦，冷笑承认自己就是要让他难堪，但最终抛出关键反转：不是不嫁，而是一定要嫁，还要风光大嫁。",
+    "beat_type": "revelation",
+    "save_the_cat": "Catalyst",
+    "emotional_value": 0.2,
+    "dramatic_intensity": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 3
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "id": "scene_056",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:26:34"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪",
+      "昭昭"
+    ]
+  },
+  "data": {
+    "heading": "INT. 昭昭满月宴现场 - DAY",
+    "location": "昭昭满月宴现场",
+    "time_of_day": "day",
+    "description": "宴厅开阔，席面铺陈齐整，白日天光自门窗照入，整体明亮却被压低的社交气氛笼罩。婴儿相关陈设与酒席器皿并置，象征喜庆场合。入口处形成视觉焦点，来宾目光易于集中。高令宁作为主人一方处于厅内中心区域，高父站位更靠前，带有防御姿态。",
+    "action": "昭昭的满月宴进行中，陆姝仪手持蒋晟的请帖出现在门口，不请自来。她身形比从前更显单薄，步伐虚浮，衣着虽整洁却难掩病弱。众人侧目，气氛骤然收紧。高父上前欲将她当场赶出，动作强硬，身体挡在高令宁前方。高令宁抬手制止，压下驱逐决定，让局面从公开冲突转为压抑对峙。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "这里不欢迎你，出去。",
+        "subtext": "我不会允许任何再伤害我女儿的人靠近。"
+      },
+      {
+        "character": "高令宁",
+        "line": "父亲，让她说。",
+        "subtext": "我要亲自确认她此来的目的，也不愿再靠旁人替我裁断。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪",
+      "昭昭"
+    ],
+    "key_props": [
+      "请帖",
+      "宴席器皿",
+      "昭昭的满月陈设"
+    ],
+    "dramatic_purpose": "制造旧怨双方被迫重逢的高压场面，并通过高令宁主动制止驱逐，开启真相对谈的入口。",
+    "tension_score": 0.68,
+    "order": 56
+  }
+}

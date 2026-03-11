@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_014",
+  "name": "高府后院",
+  "type": "exterior",
+  "era_style": "明代中晚期官宦府邸后院",
+  "description": "高府后院花园式庭院，石板小径环绕假山鱼池，中央凉亭与花木，围墙环绕，空间感私密幽静，适合闯入质问与和离坚持。",
+  "visual_reference": "明代中晚期官宦府邸高府后院，外景古典中式庭院，石板小径假山鱼池，凉亭花木环绕，围墙环绕，日光洒落幽静氛围，高清写实细节，古代中国风格",
+  "visual_prompt_negative": "现代景观、汽车、霓虹灯、西方花园、塑料材质",
+  "atmosphere": "幽静绝望坚持",
+  "color_palette": [
+    "翠绿",
+    "石灰",
+    "木棕",
+    "水蓝"
+  ],
+  "lighting": "明亮日光洒落庭院，营造清晰却悲伤的白天氛围",
+  "key_features": [
+    "石板小径假山",
+    "凉亭花木",
+    "围墙鱼池"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词闯入质问到高令宁坚持放手的脊背弯曲摇头"
+}

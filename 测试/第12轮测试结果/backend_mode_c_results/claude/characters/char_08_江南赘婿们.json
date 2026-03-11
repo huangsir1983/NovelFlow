@@ -1,0 +1,46 @@
+{
+  "name": "江南赘婿们",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "20-30岁",
+  "appearance": {
+    "face": "相貌出众",
+    "body": "各有特色",
+    "hair": "束发",
+    "distinguishing_features": "温柔体贴的神态"
+  },
+  "costume": {
+    "typical_outfit": "儒生或富家公子服饰",
+    "color_palette": [
+      "浅色系"
+    ]
+  },
+  "casting_tags": [
+    "赘婿",
+    "工具人",
+    "陪衬"
+  ],
+  "visual_reference": "古代青年男子，二十五岁左右，相貌清秀俊美，身着浅色儒袍，束发整齐，神态温柔体贴，陪伴女主和幼童玩耍，在江南庭院雪景中，整体氛围温馨和谐",
+  "visual_prompt_negative": "丑陋、凶恶、现代装、冷漠、粗鲁",
+  "personality": "温柔体贴，听话顺从",
+  "desire": "成为高令宁的夫婿",
+  "flaw": "工具人属性",
+  "arc": "作为备选夫婿出现→刺激沈词",
+  "scene_presence": "极少出现，工具人",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "备选夫婿",
+      "dynamic": "温柔照顾",
+      "function": "刺激沈词"
+    },
+    {
+      "target": "昭昭",
+      "type": "准继父",
+      "dynamic": "陪伴玩耍",
+      "function": "温馨氛围"
+    }
+  ]
+}

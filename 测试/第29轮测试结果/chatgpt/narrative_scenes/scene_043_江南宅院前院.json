@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_043",
+  "order": 42,
+  "heading": "EXT. 江南宅院雪地 - DAY",
+  "location": "江南宅院前院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭",
+    "沈词",
+    "数名赘婿人选"
+  ],
+  "core_event": "冬雪后沈词突然来到江南，却撞见我与父亲安排的几个赘婿和昭昭一起堆雪，他的试探婚讯换来的是更直接的危机。",
+  "key_dialogue": "「他们是谁？」「我的新夫婿。」",
+  "emotional_peak": "他亲眼看见自己被替代的可能，脸色当场沉下。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 105,
+  "key_props": [
+    "雪球",
+    "雪人",
+    "江南院门"
+  ],
+  "dramatic_purpose": "把沈词长期隐忍的危机感推到现实层面。",
+  "visual_reference": "雪后的江南小院罕见清寒，女童与几位年轻男子堆雪嬉闹，女子在旁悠闲嗑瓜子，远道而来的男子被雪球砸中肩头，笑意瞬间僵冷",
+  "visual_prompt_negative": "避免北方大雪场景过度夸张，避免现代羽绒服，避免多人像喜剧综艺",
+  "source_text_start": "这次书信寄过去，宛如石沉大海。",
+  "source_text_end": "我眨了眨眼：「我的新夫婿。」"
+}

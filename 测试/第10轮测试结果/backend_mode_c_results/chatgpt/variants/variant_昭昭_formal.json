@@ -1,0 +1,31 @@
+{
+  "variant_id": "zhaozhao_variant_02",
+  "variant_type": "formal",
+  "variant_name": "昭昭 — 满月宴婴孩",
+  "tags": [
+    "满月宴",
+    "礼装",
+    "贵气童婴",
+    "宴厅焦点"
+  ],
+  "scene_ids": [
+    "scene_027"
+  ],
+  "trigger": "高府为昭昭举办满月宴时，她作为宴席中心出现，承载高家喜庆氛围与剧情真相揭晓的反差。",
+  "appearance_delta": {
+    "face": "仍是婴儿面容，但比初生期更有精神，眼神更亮，表情更灵动",
+    "body": "依旧幼小软糯，但比初生时略显舒展，不再只是紧紧裹住的一团",
+    "hair": "细软黑发稍长，可露出额前柔软碎发",
+    "distinguishing_features": "喜庆华美却不失天真，是满月宴中最纯净无辜的存在"
+  },
+  "costume_override": {
+    "outfit": "满月宴专用的精致中式婴孩礼装，小袄或锦缎包被，配吉祥纹样与虎头帽、满月礼饰",
+    "color_palette": [
+      "朱红",
+      "鹅黄",
+      "金色"
+    ]
+  },
+  "visual_reference": "ancient chinese baby girl at a full moon celebration, bright round eyes, soft pale skin, slightly fuller baby face, fine black hair, dressed in festive traditional infant outfit with red and yellow silk, subtle golden embroidery, tiger-head hat, surrounded by elegant banquet hall decor, moon celebration gifts, warm ceremonial lighting, adorable and noble, cinematic detailed character concept art",
+  "emotional_tone": "喜庆、珍贵、被珍爱"
+}

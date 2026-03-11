@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - 日",
+  "location": "高令宁闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "父亲不解女儿为何刁难沈家,高令宁回忆前世婚姻",
+  "key_dialogue": "我一定要嫁",
+  "emotional_peak": "高令宁决心再嫁沈词只为见儿子",
+  "tension_score": 0.5,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "闺房家具",
+    "妆台",
+    "铜镜",
+    "绣品",
+    "书籍"
+  ],
+  "dramatic_purpose": "交代前世恩怨和重生动机"
+}

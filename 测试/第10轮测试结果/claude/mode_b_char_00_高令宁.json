@@ -1,0 +1,69 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高姑娘",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-40岁(跨越两世)",
+  "appearance": {
+    "face": "清秀端庄,眉眼间带着不服输的倔强",
+    "body": "纤细但不柔弱,姿态挺拔",
+    "hair": "乌黑长发,梳传统发髻",
+    "distinguishing_features": "眼神坚定锐利,笑容疏离冷淡"
+  },
+  "costume": {
+    "typical_outfit": "素雅襦裙,婚后着诰命夫人服饰",
+    "color_palette": [
+      "月白",
+      "青灰",
+      "淡粉"
+    ]
+  },
+  "casting_tags": [
+    "古装女主",
+    "坚韧",
+    "高傲",
+    "重生复仇"
+  ],
+  "visual_reference": "elegant Chinese woman in hanfu, determined eyes, proud posture, traditional updo hairstyle, pale complexion, slender figure, cold beauty, ancient costume drama aesthetic",
+  "personality": "争强好胜,自尊心极强,不愿示弱,理性果决,重生后看透一切变得疏离",
+  "desire": "重见儿子沈睿,改变家族命运,摆脱不幸婚姻",
+  "flaw": "过于要强导致无法在婚姻中示弱,自尊心阻碍沟通",
+  "arc": "从爱慕→失望怨恨→重生报复→最终放下选择自由",
+  "scene_presence": "全剧主视角,贯穿始终",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻",
+      "dynamic": "相爱相杀,互相折磨又互相牵挂",
+      "function": "核心情感线"
+    },
+    {
+      "target": "沈睿",
+      "type": "母子",
+      "dynamic": "深爱但因早逝而痛彻心扉",
+      "function": "情感驱动力"
+    },
+    {
+      "target": "昭昭",
+      "type": "母女",
+      "dynamic": "温柔疼爱,寄托希望",
+      "function": "新生与救赎"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌",
+      "dynamic": "从受害者到施害者的复杂对立",
+      "function": "婚姻矛盾催化剂"
+    },
+    {
+      "target": "父亲",
+      "type": "父女",
+      "dynamic": "相互依靠,父亲护女心切",
+      "function": "情感支撑"
+    }
+  ]
+}

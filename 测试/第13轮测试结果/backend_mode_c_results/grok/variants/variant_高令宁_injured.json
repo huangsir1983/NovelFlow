@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 马球脚伤",
+  "tags": [
+    "受伤",
+    "痛苦",
+    "要强"
+  ],
+  "scene_ids": [
+    "scene_006",
+    "scene_007"
+  ],
+  "trigger": "马球会后脚崴伤，在休息区拒绝沈词抱扶时",
+  "appearance_delta": {
+    "face": "眉头微蹙显痛楚，清冷眼神带隐忍",
+    "body": "苗条纤细",
+    "hair": "乌黑长发盘髻略乱",
+    "distinguishing_features": "脚踝红肿，姿态略僵硬"
+  },
+  "costume_override": {
+    "outfit": "浅蓝色襦裙",
+    "color_palette": [
+      "浅蓝",
+      "粉白"
+    ]
+  },
+  "visual_reference": "一位17岁左右清丽古代少女，瓜子脸杏眼，眉眼倔强蹙眉显痛楚，皮肤白皙，乌黑长发盘髻略显凌乱，身穿浅蓝色襦裙坐在马球休息塌上，一只脚微微抬起踝部红肿，拒绝他人靠近的坚定姿态，古典光影带紧张氛围，写实风格",
+  "visual_prompt_negative": "现代服装、短发、浓妆、卡通风格、无痛楚表情、过分甜美",
+  "emotional_tone": "酸楚嫉恨与要强隐忍"
+}

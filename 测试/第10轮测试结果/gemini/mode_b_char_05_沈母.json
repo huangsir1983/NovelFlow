@@ -1,0 +1,40 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "精明，高高在上",
+    "body": "富态",
+    "hair": "华丽的诰命夫人发髻，满头珠翠",
+    "distinguishing_features": "势利眼的微表情"
+  },
+  "costume": {
+    "typical_outfit": "华贵的当家主母服饰",
+    "color_palette": [
+      "正红",
+      "金黄"
+    ]
+  },
+  "casting_tags": [
+    "恶婆婆",
+    "势利",
+    "贵妇"
+  ],
+  "visual_reference": "1woman, middle-aged ancient chinese noblewoman, luxurious clothes, gold hairpins, snobbish expression, 8k",
+  "personality": "门第观念重，自私势利",
+  "desire": "维持沈家体面与血脉",
+  "flaw": "缺乏人情味",
+  "arc": "无",
+  "scene_presence": "前世回忆、抢夺孙女",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "儿媳",
+      "dynamic": "打压与轻视",
+      "function": "封建礼教的具象化"
+    }
+  ]
+}

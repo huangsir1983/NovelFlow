@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_047",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:38:47"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "昭昭"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 京城城门外官道 - DAY",
+    "location": "京城外通往江南的官道",
+    "time_of_day": "day",
+    "description": "冬去春来的官道向南延伸，城门在远处渐渐退入薄雾。道路开阔，车辙清晰，天光自上方均匀落下。简朴马车载着行李箱笼、包袱和孩子用品，昭示仓促却长期的迁居决定。氛围带有主动抽离京城纠缠后的决绝与松气。",
+    "action": "高令宁带着昭昭登上马车，亲手放下车帘，不再回望京城。昭昭依偎在她身侧，被裹在斗篷里。车轮启动，母女随车南下，正式离开是非之地。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "昭昭"
+    ],
+    "key_props": [
+      "马车",
+      "行李箱笼",
+      "包袱",
+      "车帘"
+    ],
+    "dramatic_purpose": "建立故事起点，交代高令宁为躲避京城纠缠而携女南下，开启江南阶段的相对平静生活。",
+    "tension_score": 0.25,
+    "order": 47
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿",
+    "长子"
+  ],
+  "role": "supporting",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "幼年聪慧清秀，成年应承袭父母优点，眉眼明朗，气质早熟沉静",
+    "body": "幼时清瘦灵动，成年应为文臣式修长身形",
+    "hair": "孩童双髻或束发，成年冠发端整",
+    "distinguishing_features": "神童气质，眼神过分懂事"
+  },
+  "costume": {
+    "typical_outfit": "幼时锦袍小褂，成年官服或文士长袍",
+    "color_palette": [
+      "青色",
+      "月白",
+      "墨色"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "白月光儿子",
+    "短命名相",
+    "懂事早慧"
+  ],
+  "visual_reference": "brilliant ancient chinese boy scholar, clear intelligent eyes, elegant child in hanfu, later a refined young minister, tragic genius, realistic historical style",
+  "personality": "聪慧仁厚，孝顺懂事，过早成熟",
+  "desire": "希望父母和睦，家宅安宁",
+  "flaw": "把父母关系的重担压在自己身上",
+  "arc": "以前世回忆与梦境形式存在，是父母执念中心；现实中未如预期出生，成为失落的命运幻影",
+  "scene_presence": "主要存在于回忆、梦境、谈判动机中，是全篇最重要的缺席角色之一。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "母亲为他重入婚局，情感极深",
+      "function": "女主动机核心"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "父亲以其未来为由布局人生",
+      "function": "男主动机核心"
+    },
+    {
+      "target": "昭昭",
+      "type": "未出生命运替位的兄妹关系",
+      "dynamic": "梦境中让妹妹代自己尽孝",
+      "function": "命运转向的象征"
+    }
+  ]
+}

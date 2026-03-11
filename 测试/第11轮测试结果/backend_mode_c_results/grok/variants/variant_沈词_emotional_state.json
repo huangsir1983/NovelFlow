@@ -1,0 +1,30 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 跪求崩溃",
+  "tags": [
+    "绝望",
+    "深情",
+    "跪地求复合"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "高家后院和离书后跪地质问女主不要原谅",
+  "appearance_delta": {
+    "face": "拼命摇头痛苦",
+    "body": "脊背弯曲跪姿",
+    "hair": "墨黑长发，束玉冠",
+    "distinguishing_features": "黑眸爱恨交织破碎"
+  },
+  "costume_override": {
+    "outfit": "文官袍服",
+    "color_palette": [
+      "玄黑",
+      "素白"
+    ]
+  },
+  "visual_reference": "handsome tall Chinese scholar-official in dark scholar robes kneeling with bent spine, jade-like pale skin, cold piercing black eyes filled with desperate pain and love, refined features twisted in agony shaking head, long black hair tied with jade crown, pleading posture, highly detailed 8k",
+  "visual_prompt_negative": "standing upright, aloof elegant posture, smiling warmly, casual modern wear, beard, calm expression",
+  "emotional_tone": "崩溃的深情死缠与隐忍破碎"
+}

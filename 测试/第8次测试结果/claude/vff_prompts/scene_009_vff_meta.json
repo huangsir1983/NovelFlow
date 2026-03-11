@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_009",
+  "heading": "INT. 沈府/高府 - 日（回忆/旁白）",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 1118,
+  "shot_count": 5,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 61,
+    "output_tokens": 1206,
+    "elapsed_s": 24.76
+  }
+}

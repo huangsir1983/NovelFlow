@@ -1,0 +1,15 @@
+{
+  "name": "屏风",
+  "category": "furniture",
+  "description": "四扇连折式中式木屏风，主结构为深色乌木或酸枝木，木框厚实，整体展开宽约220厘米、高约185厘米。屏心采用绢本裱面或半透纱绢，底色为旧米白偏暖灰，绘有淡墨山石、寒枝、疏竹或折枝花鸟，画面留白充足，色彩以墨黑、灰青、枯茶色为主。边框有低调回纹与如意云头浅浮雕，铜制小铰件连接各扇，边角打磨圆润。表面略有岁月磨痕，背面木纹清晰，既有分隔空间的实用性，也具内宅私密感与窥视感。",
+  "visual_reference": "Traditional Chinese folding screen, four-panel hardwood screen, dark rosewood frame, 185cm tall and 220cm wide unfolded, silk panels with ink wash painting of rocks, bamboo and bare branches, muted beige-gray ground, subtle carved geometric border, antique brass hinges, noble household interior, late imperial China aesthetic, cinematic historical realism, soft diffused room light, highly detailed prop sheet",
+  "narrative_function": "屏风承担空间分隔、遮蔽视线与制造内宅层次的作用，常强化室内的秘密、礼法与情欲边界。它既能遮掩不欲示人的场景，也象征人物关系中的隔阂、伪饰与被压住的真相。",
+  "is_motif": true,
+  "scenes_present": [
+    "scene_001",
+    "scene_019",
+    "scene_021",
+    "scene_031"
+  ],
+  "emotional_association": "遮掩、隔阂与窥视"
+}

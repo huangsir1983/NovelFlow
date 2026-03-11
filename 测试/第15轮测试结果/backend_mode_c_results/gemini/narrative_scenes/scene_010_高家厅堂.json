@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高家厅堂 - NIGHT",
+  "location": "高家厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "沈词不信高令宁的清白，并出言威胁。高令宁激愤之下要告上京兆府，沈词再次威胁，高令宁怒而掌掴沈词，导致情绪激动引发早产。",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "高令宁掌掴沈词，随后腹中剧痛，剧情达到生死关头的顶点。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "桌椅"
+  ],
+  "dramatic_purpose": "矛盾总爆发，将所有人物关系推向绝境，直接导致了孩子的早产和后续的生死抉择。",
+  "source_text_start": "陆姝仪哭着要自尽。\n她跪在我面前，哽咽：「夫人，您便这般恨我吗？」\n「我不日将成婚，您设计我失贞，",
+  "source_text_end": "眼前是深不见底的黑。"
+}

@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_001",
+  "heading": "INT. 沈家正厅 - DAY",
+  "model": "gpt-5.4",
+  "vff_text_length": 5815,
+  "shot_count": 20,
+  "cost": {
+    "model": "gpt-5.4",
+    "input_tokens": 10208,
+    "output_tokens": 4632,
+    "elapsed_s": 105.83
+  }
+}

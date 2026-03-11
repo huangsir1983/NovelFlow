@@ -1,0 +1,98 @@
+[
+  {
+    "id": "seg_0250",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0725",
+      "shot_0726",
+      "shot_0727"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "开场三镜共同承担空间建立与人物入场功能，角色集合从高令宁单人自然扩展到母子同框，情绪仍处于压抑与怜惜的同一弧线上，适合合并为一个梦境建立段。",
+    "order": 250
+  },
+  {
+    "id": "seg_0251",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0728",
+      "shot_0729",
+      "shot_0730"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜为同一动作链：喂粥试探—母亲无反应—孩子观察神色。叙事目标连续，人物关系与空间位置不变，情绪从恳求滑入无力和自责，构成清晰的小弧线。",
+    "order": 251
+  },
+  {
+    "id": "seg_0252",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0731",
+      "shot_0732",
+      "shot_0733"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完整覆盖从家庭创伤信息揭示到希望消散、再到自责落点的第一轮情绪换挡。粥碗作为叙事道具在三镜中持续发挥作用，适合并段强化‘照顾失败—转向求恳’的节拍。",
+    "order": 252
+  },
+  {
+    "id": "seg_0253",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0734",
+      "shot_0735",
+      "shot_0736"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是明显的行为升级段：自责转为自罚，再被母亲开口制止。三镜动作与情绪紧密闭环，构成一次完整爆点，合并可保留冲击力与反打保护感。",
+    "order": 253
+  },
+  {
+    "id": "seg_0254",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0737",
+      "shot_0738",
+      "shot_0739"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头围绕同一信息层推进：婚姻真相揭示、母亲反应、情感重心转向怜悯母亲。没有时空与角色变化，情绪持续加深，适合合并为真相刺入段。",
+    "order": 254
+  },
+  {
+    "id": "seg_0255",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0740",
+      "shot_0741",
+      "shot_0742"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是全场情绪峰值与唯一缓和点的完整闭环：最重台词爆发—母亲主动回应—短暂抚慰。若拆开会削弱情绪回收力，因此合并为高潮段最合适。",
+    "order": 255
+  },
+  {
+    "id": "seg_0256",
+    "scene_id": "scene_048",
+    "shot_ids": [
+      "shot_0743"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "收尾镜头承担明确的余韵与梦境消散功能，道具主导叙事，情绪已从高潮回落到空寂余痛。作为独立尾段有助于保留冷收尾的后劲。",
+    "order": 256
+  }
+]

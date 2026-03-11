@@ -1,0 +1,41 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹"
+  ],
+  "role": "supporting",
+  "age_range": "45-65岁",
+  "appearance": {
+    "face": "慈祥但有威严,眼角皱纹",
+    "body": "中年发福",
+    "hair": "花白头发",
+    "distinguishing_features": "护女心切的严肃表情"
+  },
+  "costume": {
+    "typical_outfit": "四品官服,后期便服",
+    "color_palette": [
+      "深蓝",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "护短",
+    "正直"
+  ],
+  "visual_reference": "middle-aged Chinese official, kind but stern face, graying hair, traditional official robes, protective father demeanor",
+  "personality": "疼爱女儿,正直但不擅权谋",
+  "desire": "女儿幸福平安",
+  "flaw": "官场不够圆滑",
+  "arc": "从卷入党争→辞官→护女",
+  "scene_presence": "重要配角,女儿的支撑",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "深爱护短",
+      "function": "情感避风港"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 沈府高令宁房间 - 日",
+  "location": "高令宁房间",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "太医"
+  ],
+  "core_event": "高令宁怀孕，太医诊断是男孩",
+  "key_dialogue": "我做完月子便走，不会纠缠",
+  "emotional_peak": "沈词的不可置信",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "虎头帽",
+    "针线",
+    "脉枕",
+    "药箱"
+  ],
+  "dramatic_purpose": "怀孕但坚持和离"
+}

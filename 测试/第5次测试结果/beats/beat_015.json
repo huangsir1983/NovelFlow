@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_015",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "借满月宴揭开陆姝仪也重生的真相",
+    "description": "昭昭满月宴上，陆姝仪携请帖现身，自白前世投湖前故意挑拨、今生设计蒋晟之事，只因无人替她做主。至此揭晓她同样重生，过往婚姻裂痕被重新定义；几步之外的沈词听完一切，脸色惨白，而我只以疏离礼节相待。",
+    "beat_type": "revelation",
+    "save_the_cat": "Finale",
+    "emotional_value": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 15
+  }
+}

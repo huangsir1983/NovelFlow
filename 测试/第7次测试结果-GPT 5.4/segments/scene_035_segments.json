@@ -1,0 +1,44 @@
+[
+  {
+    "id": "seg_0179",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0542",
+      "shot_0543",
+      "shot_0544"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属空间建立与行动起始：先交代封闭安静的卧房，再以包裹/衣物/汤药的秩序化并置强化‘有条理撤离’，最后完整显出高令宁本人，角色集合不变、时空连续、情绪保持冷静决绝，适合合并为一个建立性segment。",
+    "order": 179
+  },
+  {
+    "id": "seg_0180",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0545",
+      "shot_0546",
+      "shot_0547"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三个shot形成清晰的内在情绪节拍：手部执行——空间扫视——面部停顿，均围绕同一角色的内化情绪展开，没有角色变化与时空跳转，且符合‘女主近景主观视角为主’的风格，合并后能更集中地表现她把情绪掐断的过程。",
+    "order": 180
+  },
+  {
+    "id": "seg_0181",
+    "scene_id": "scene_035",
+    "shot_ids": [
+      "shot_0549",
+      "shot_0550",
+      "shot_0551"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "后三个shot构成完整离场弧线：提包执行、走向门口、空间留空收尾。人物在第二段完成情绪压制后，这里进入行动闭合，情感从短暂刺痛回落为冷静撤退；最后一个空镜虽无人物，但与离场动作强连续，合并能形成更完整的结尾余韵。",
+    "order": 181
+  }
+]

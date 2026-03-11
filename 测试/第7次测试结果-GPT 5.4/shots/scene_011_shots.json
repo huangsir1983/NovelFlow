@@ -1,0 +1,226 @@
+[
+  {
+    "id": "shot_0173",
+    "scene_id": "scene_011",
+    "shot_number": 1,
+    "goal": "建立病房空间、封闭气息与守夜状态，交代沈词整夜未离、两人处于病榻这一亲密却压抑的关系场域。",
+    "composition": "WS。机位设在门内偏外侧，以门框作前景遮挡，右前景半虚化的门框与垂帘切割画面；中景中央偏左是病床，高令宁陷在被褥中，仅露出清瘦侧脸；床右侧偏下方沈词坐守床沿，身形前倾。左后景窗缝斜入一道月光，右后景烛台昏黄，床边药炉、铜盆、药碗围出一个低矮而逼仄的照护区域。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压抑、窒息中带一丝不易言说的守护感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 173
+  },
+  {
+    "id": "shot_0174",
+    "scene_id": "scene_011",
+    "shot_number": 2,
+    "goal": "从高令宁近主观角度感知沈词的守夜行为，明确他并非作态，而是在重复具体照料动作。",
+    "composition": "MS。以高令宁枕边视角拍向床侧，画面左前景虚焦为她散落的鬓发与被角，形成主观遮挡；中景右侧沈词半跪或俯身于床边，手在铜盆中拧湿帕，烛火落在其袖口与指节上；背景药炉微微冒气，墙面阴影被烛火拉长。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众先于情绪判断地看到他的补偿与疲惫",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 174
+  },
+  {
+    "id": "shot_0175",
+    "scene_id": "scene_011",
+    "shot_number": 3,
+    "goal": "细化照料动作，把关系变化落到礼制克制下的手部劳动，而非言语表白。",
+    "composition": "CU。画面下半部是铜盆边缘与溢出的水光，上半部是沈词双手用力拧帕，袖口未整、指节发白；背景虚化中可见烛台一点暖光与床沿木纹。手势占据画面中央，水滴沿帕角坠落形成视觉节奏。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制、迟来的体贴、疲惫",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 175
+  },
+  {
+    "id": "shot_0176",
+    "scene_id": "scene_011",
+    "shot_number": 4,
+    "goal": "补足守夜连续性，交代他喂药、掖被角这些长时间的重复照顾，形成“整夜守着”的时间感。",
+    "composition": "MCU。机位仍维持床侧同一轴线，避免越线。画面左侧为高令宁被褥中的肩颈与病白下颌，右侧沈词俯身将药碗递近她唇边，另一只手轻扶被角。药碗、湿帕、他的袖摆在前中景形成三角构图，背景是窗缝月光的冷线条。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "在冷硬关系中生出不适的温柔与迟疑",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 176
+  },
+  {
+    "id": "shot_0177",
+    "scene_id": "scene_011",
+    "shot_number": 5,
+    "goal": "展示沈词体力与意志都逼近极限，但仍不真正离开床边，强化其守夜的执拗。",
+    "composition": "MLS。病床占左侧三分之二，沈词伏在床沿睡去，身体蜷在右下方，仍有一只手搭在床褥边缘。前景桌角上药碗与将熄未熄的烛台虚焦，背景窗缝月光稍亮，时间已更深。画面重心偏低，压出疲惫感。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "心酸、耗竭、无声的执念",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.26,
+    "order": 177
+  },
+  {
+    "id": "shot_0178",
+    "scene_id": "scene_011",
+    "shot_number": 6,
+    "goal": "由高令宁主观触发骤变，表现她从噩梦中惊醒，体感先于信息，延续“女主先知”的悬疑主观。",
+    "composition": "CU。高令宁正面偏侧躺于画面中央，枕边留有大面积暗部；她猛然睁眼，眼尾湿红，呼吸紊乱，几缕碎发贴在冷白脸颊。背景极虚，仅有摇晃烛火形成不稳定光斑，强化惊醒感。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "惊惧、失重、梦魇余震",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 178
+  },
+  {
+    "id": "shot_0179",
+    "scene_id": "scene_011",
+    "shot_number": 7,
+    "goal": "把惊醒转化为身体本能反应，高令宁无意识抓住沈词，关系在动作层面突然越过敌意的礼防。",
+    "composition": "CU。画面左侧是高令宁从被褥中探出的手，右侧是沈词被抓住的前臂与袖口；她双手死死箍住他的胳膊，指节发白，布料被攥出褶皱。背景仅剩床褥与暗色衣料，剥离环境干扰，让抓握成为唯一信息点。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "失控、依赖与抗拒并存的本能",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 179
+  },
+  {
+    "id": "shot_0180",
+    "scene_id": "scene_011",
+    "shot_number": 8,
+    "goal": "给出沈词被抓住后的第一反应，强调他不是立刻安抚，而是先被这一依附刺中、愣住。",
+    "composition": "MCU。仍在床侧轴线内，沈词位于画面右侧三分之一，肩颈微僵，低头看向画外左下方的高令宁；左下前景虚焦是她抓着他衣袖的手。背景月光切过他半边脸，另一半隐在烛光阴影中，形成冷暖撕裂。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "怔住、心口一沉、克制将裂未裂",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 180
+  },
+  {
+    "id": "shot_0181",
+    "scene_id": "scene_011",
+    "shot_number": 9,
+    "goal": "回到高令宁近主观，观众从她的脆弱视角看见沈词低头凝视自己，建立情感反转前的主观确认。",
+    "composition": "MCU。仰拍自枕边，高令宁视线所及中，沈词俯身进入画面上方中央，脸被月光勾出冷白轮廓，眼神向下，呼吸压得很轻。前景边缘是被褥与她鬓发形成软遮挡，视觉上像她意识未清时的狭窄视野。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "恍惚中的不确定、安全与危险并置",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 181
+  },
+  {
+    "id": "shot_0182",
+    "scene_id": "scene_011",
+    "shot_number": 10,
+    "goal": "将沈词的情感动作具象化：他想碰她，却不敢碰，关系的深层牵连通过距离被拍出来。",
+    "composition": "CU。画面右侧是沈词缓缓抬起的手掌，停在空中；左侧前景虚焦为高令宁瘦削的侧脸轮廓。月光落在手背与她脸颊边线之间，形成一道极窄的空气缝隙。背景完全压暗，仅留一点烛火暖边，突出“未触及”的悬停。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "迟疑、痛惜、近乎冒犯又克制到极致的温柔",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 182
+  },
+  {
+    "id": "shot_0183",
+    "scene_id": "scene_011",
+    "shot_number": 11,
+    "goal": "把悬停动作推至情绪高点，强调他比量的是她病中消瘦的脸，停顿本身就是无法说出口的情感证据。",
+    "composition": "ECU。高令宁病白的脸颊边线占画面左半，沈词手掌轮廓占右半，二者之间仅余一线月光。可见她睫毛微颤、眼角未干泪意，以及他指尖微不可察的停顿。画面极端压缩，空间近乎窒息。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、压抑、观众被迫直面未断之情",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.81,
+    "order": 183
+  },
+  {
+    "id": "shot_0184",
+    "scene_id": "scene_011",
+    "shot_number": 12,
+    "goal": "在情绪高点后短暂回冷，不给明确和解，只留下抓握与守着的现实，完成复杂关系的落点。",
+    "composition": "MLS。回到床侧客观观察，病床横贯画面左至中部，高令宁仍抓着沈词胳膊不放，沈词坐在床沿未动，抬起的手已慢慢落回自己膝上。前景药碗与湿帕安静横置，背景窗缝月光与烛火同在，冷暖并存但彼此不相融。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "余痛、未解、关系被重新定义后的沉默重量",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.46,
+    "order": 184
+  }
+]

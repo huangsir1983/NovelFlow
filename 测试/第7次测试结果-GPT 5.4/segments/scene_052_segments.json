@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0261",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0798",
+      "shot_0799",
+      "shot_0800"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成场面建立与女主POV导入：先交代双方空间对立，再切入高令宁已松弛下来的状态，最后顺着她的视线确认沈词正在塌陷。角色集合稳定，无时空跳转，情绪仍处于压抑观察阶段，适合合并为一个起势段。",
+    "order": 261
+  },
+  {
+    "id": "seg_0262",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0801",
+      "shot_0802",
+      "shot_0803"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕高令宁第一句“想开了”展开：说者、听者、生理动作三连，形成清晰的情绪节拍。女主发言后立刻拍男主反应，再用抱稳孩子的物理动作外化她的立场稳定，符合‘听者比说者重要’与‘心理外化’原则。",
+    "order": 262
+  },
+  {
+    "id": "seg_0263",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0804",
+      "shot_0805",
+      "shot_0806"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成本场核心反转的前半：先用双人构图确认‘原谅’的空间含义，再以女主近景落台词刀锋，最后拍男主后知后觉的生理崩塌。情感从平静切割推进到病态无法承受，属于同一情绪弧线的持续升级。",
+    "order": 263
+  },
+  {
+    "id": "seg_0264",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0807",
+      "shot_0808",
+      "shot_0809",
+      "shot_0810"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是明确的情绪爆点，男主从内裂到失控否认，再反打女主的即时反应，最后用道具补一记现实锚点。虽然包含4个shot，但都服务于同一次爆发，且J-cut与道具插入能在6秒内形成高密度情绪高潮。",
+    "order": 264
+  },
+  {
+    "id": "seg_0265",
+    "scene_id": "scene_052",
+    "shot_ids": [
+      "shot_0811",
+      "shot_0812"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜属于同一收束弧线：先给女主一个认清真相后的冷笑，再用全景封存关系终局。角色集合稳定，情绪从高潮回落到余寒，形成完整结尾，适合单独作为终止段。",
+    "order": 265
+  }
+]

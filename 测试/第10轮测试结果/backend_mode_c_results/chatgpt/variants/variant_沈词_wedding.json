@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_03",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 再婚礼成期",
+  "tags": [
+    "婚仪",
+    "端方官公子",
+    "宿命再临",
+    "表面庄重"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012"
+  ],
+  "trigger": "与高令宁正式再婚、完成婚礼与洞房时出现。外在是完美合礼的新郎形象，内里却仍充满交易与旧怨。",
+  "appearance_delta": {
+    "face": "面容依旧清俊白净，但婚礼场合比平时更端肃，神情克制得近乎无波，缺少寻常新郎的喜意。",
+    "body": "肩背挺直，仪态无可挑剔，礼制感极强，像把自己包裹进规矩与身份中。",
+    "hair": "发式比平日更正式严整，婚仪配冠，丝毫不乱，强化其冷肃自持的气质。",
+    "distinguishing_features": "一身盛礼却无温色，在最亲密的新婚场景中仍保留距离与锋利，是此状态的最大反差。"
+  },
+  "costume_override": {
+    "outfit": "隆重古制婚服，层叠喜袍、礼冠、宽袖与华贵纹样完整齐备；入洞房后外层礼服可卸去，但仍保留深红婚服内袍与整肃气场。",
+    "color_palette": [
+      "大红",
+      "玄黑",
+      "金"
+    ]
+  },
+  "visual_reference": "ancient Chinese groom, pale handsome aristocratic face, cold dark eyes, tall slim figure, black hair arranged under formal wedding crown, luxurious red wedding hanfu with gold details, rigid posture, ceremonial hall and bridal chamber atmosphere, elegant but emotionally distant, cinematic historical romance style",
+  "emotional_tone": "庄重、宿命、克制、亲密中的疏离"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "孩童时清秀聪慧，后成年俊朗如父",
+    "body": "前世成年瘦高文人",
+    "hair": "童子发髻，后官帽束发",
+    "distinguishing_features": "神童聪慧眼神与病弱时哀求表情"
+  },
+  "costume": {
+    "typical_outfit": "孩童小袍或官服",
+    "color_palette": [
+      "浅蓝",
+      "白"
+    ]
+  },
+  "casting_tags": [
+    "神童儿子",
+    "情感动机",
+    "继承者原型"
+  ],
+  "visual_reference": "Genius young Chinese boy age 7-15 in memory, delicate intelligent face with wise eyes like father, slender build, black hair in child bun, wearing light blue scholar robe, pleading expression, ancient Chinese setting, highly detailed masterpiece",
+  "personality": "天生神童、孝顺懂事、劝父母和好",
+  "desire": "父母和睦、家族荣耀",
+  "flaw": "英年早逝（前世）",
+  "arc": "起点：前世劝父母和好 → 转变：梦中托梦 → 终点：作为女主重生动机",
+  "scene_presence": "前世回忆、梦中出现、标题提及",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母子深情，女主重生核心动力",
+      "function": "引导"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "父子骄傲",
+      "function": "引导"
+    }
+  ]
+}

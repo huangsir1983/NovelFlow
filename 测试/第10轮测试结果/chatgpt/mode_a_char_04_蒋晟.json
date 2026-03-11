@@ -1,0 +1,60 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-28",
+  "appearance": {
+    "face": "相貌端正，眉骨舒展，神情老实坦荡，容易脸红",
+    "body": "身形健硕挺拔，有习武之人的力量感与稳定步态",
+    "hair": "黑发高束，装束利落",
+    "distinguishing_features": "武人式可靠感与笨拙温厚并存"
+  },
+  "costume": {
+    "typical_outfit": "简洁利落的公子常服或轻武装束，方便行动，不浮夸",
+    "color_palette": [
+      "靛蓝",
+      "褐色",
+      "墨黑"
+    ]
+  },
+  "casting_tags": [
+    "老实良配",
+    "习武公子",
+    "备选夫婿",
+    "温吞正派"
+  ],
+  "visual_reference": "Young Chinese martial gentleman, early to late 20s, upright handsome face, sturdy athletic build, tied black hair, simple dark blue traditional outfit, honest and dependable aura, ancient drama style",
+  "personality": "老实厚道，待人细心周到，保护欲强，但不够机敏，在复杂权谋与情感博弈中显得被动。",
+  "desire": "求得安稳婚配，真心对待高令宁，过平稳日子。",
+  "flaw": "过于单纯迟钝，缺乏识局能力，容易被更复杂的人利用和推入局中。",
+  "arc": "以潜在良配身份登场→与高令宁短暂亲近，成为刺激沈词的工具→被卷入陆姝仪设局，失去主动权→不得不上门提亲并娶陆姝仪→婚后冷淡分居，成为另一桩错配婚姻的受害者。",
+  "scene_presence": "受高父安排与高令宁相见；陪同参加马球会，扶住险些跌倒的高令宁，剥葡萄示好；脚伤后愧疚自责；在高府后院事件中与陆姝仪同被发现衣冠不整；被沈词要求次日提亲；后以请帖形式间接出现在昭昭满月宴。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感|对照",
+      "dynamic": "曾是可能给予她安稳生活的良配，但终究只是错过的备选",
+      "function": "理想婚姻对照组"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益|情感",
+      "dynamic": "被设计绑定成婚的夫妻，婚后情感疏离",
+      "function": "陆姝仪改命的承接对象"
+    },
+    {
+      "target": "沈词",
+      "type": "对照|冲突",
+      "dynamic": "作为情敌与替代者刺激沈词，占据镜像位置",
+      "function": "男性竞争镜像"
+    },
+    {
+      "target": "高父",
+      "type": "利益",
+      "dynamic": "受其赏识，被视作合适女婿",
+      "function": "婚配方案载体"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "variant_id": "shen_ci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 江南雷雨痴缠",
+  "tags": [
+    "痴情",
+    "占有欲",
+    "表白"
+  ],
+  "scene_ids": [
+    "scene_014"
+  ],
+  "trigger": "江南卧房雷雨夜爬床纠缠表白永不放手",
+  "appearance_delta": {
+    "face": "清冷脸庞湿润疯狂，琥珀眸痛色与温柔痴恋交织",
+    "body": "长身玉立贴近床帐",
+    "hair": "墨黑长发散落湿透",
+    "distinguishing_features": "雨水痕迹，强烈情感外露与乞求"
+  },
+  "costume_override": {
+    "outfit": "湿透的深色文人锦袍",
+    "color_palette": [
+      "深蓝",
+      "玄黑"
+    ]
+  },
+  "visual_reference": "Handsome young Chinese scholar 20-25, cold amber eyes with intense desperate possessive love and pleading during thunderstorm, sharp jawline, elegant pale features wet and glistening, tall slender build, long black hair loose and soaked clinging to face, wearing soaked dark blue historical scholar robes, obsessive begging expression in bedroom, cinematic ancient Chinese drama, ultra detailed",
+  "emotional_tone": "乞求与占有欲"
+}

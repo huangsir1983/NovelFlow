@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "陆姝仪来高府说要临嫁前相见，却在厢房中与昏迷、衣冠不整的蒋晟一同被发现，局面骤然失控。",
+  "key_dialogue": "「我转头去看沈词，他也在看我。面若冰霜。」",
+  "emotional_peak": "高令宁瞬间意识到自己再次可能被推成罪人，而沈词投来的冰冷目光让她寒心。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "厢房门闩",
+    "凌乱衣衫",
+    "请见传话"
+  ],
+  "dramatic_purpose": "引爆全剧最大误会事件，把之前所有隐患集中点燃。",
+  "source_text_start": "陆姝仪来了。\n说是即将出嫁，想来见我一面。\n父亲不",
+  "source_text_end": "心里一惊。\n我转头去看沈词，他也在看我。\n面若冰霜。"
+}

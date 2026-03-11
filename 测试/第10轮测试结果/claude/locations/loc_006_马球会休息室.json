@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_006",
+  "name": "马球会休息室",
+  "type": "interior",
+  "era_style": "明代临时休息厢房",
+  "description": "临时搭建的休息空间，设屏风分隔内外。室内摆放床榻供休息，小几上放医药箱、药碗。墙上挂灯笼，傍晚时分灯火摇曳。家具简单实用，布置以功能为主。",
+  "visual_reference": "Ming Dynasty temporary rest chamber, folding screen divider, simple daybed, medical supplies on small table, hanging lanterns, dusk lighting, functional interior, warm candlelight, intimate healing space",
+  "atmosphere": "临时、私密、医疗照护",
+  "color_palette": [
+    "暖黄灯光",
+    "木质家具",
+    "白色药布"
+  ],
+  "lighting": "傍晚时分，灯笼烛火为主要光源，形成温暖昏黄氛围",
+  "key_features": [
+    "分隔屏风",
+    "床榻",
+    "医药箱",
+    "摇曳灯火"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "照护与跪求的楚楚可怜"
+}

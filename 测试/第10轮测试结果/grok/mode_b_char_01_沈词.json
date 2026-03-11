@@ -1,0 +1,54 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词"
+  ],
+  "role": "supporting",
+  "age_range": "20-27",
+  "appearance": {
+    "face": "如玉俊脸，冷峻白净，琥珀色眸子",
+    "body": "长身玉立，修长挺拔",
+    "hair": "黑发束冠，端方整齐",
+    "distinguishing_features": "冰湖般冷冽眼神与偶尔流露的痛色"
+  },
+  "costume": {
+    "typical_outfit": "文官深袍或常服",
+    "color_palette": [
+      "玄黑",
+      "深青",
+      "银"
+    ]
+  },
+  "casting_tags": [
+    "冷峻重生男主",
+    "文臣贵公子",
+    "痴情纠缠"
+  ],
+  "visual_reference": "handsome young Chinese scholar-official in ancient hanfu, jade-like pale face, cold piercing amber eyes, tall slender build, black hair neatly tied with guan, aloof and refined expression, wearing dark elegant robes, cinematic ancient Chinese drama style, highly detailed, 8k",
+  "personality": "清冷尖锐、克制隐忍、外冷内热",
+  "desire": "保护长子沈睿、挽回妻子并维持家庭",
+  "flaw": "偏执误解、冷酷护短、对陆姝仪兄妹情执着",
+  "arc": "从冷漠提防到后悔痴缠、拒绝被原谅",
+  "scene_presence": "从提亲到江南夜爬床，贯穿情感冲突与最终纠缠",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前世夫妻",
+      "dynamic": "互相提防到深爱不放",
+      "function": "情感核心"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅义妹",
+      "dynamic": "兄妹护短",
+      "function": "制造误会冲突"
+    },
+    {
+      "target": "昭昭",
+      "type": "父女",
+      "dynamic": "深情守护",
+      "function": "和离后纠缠理由"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaofu_emotional_01",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 震怒护女",
+  "tags": [
+    "暴怒",
+    "护女狂魔",
+    "决裂"
+  ],
+  "scene_ids": [
+    "scene_013",
+    "scene_016"
+  ],
+  "trigger": "冲入厢房目睹女儿被推倒早产，以及在正堂强硬拒绝沈词求和时",
+  "appearance_delta": {
+    "face": "目眦欲裂，满脸惊恐与极度的愤怒，额头青筋暴起，彻底失去平日的温和",
+    "body": "肌肉紧绷，呈绝对的保护性姿态挡在女儿身前，爆发出惊人的力量感",
+    "hair": "因惊慌奔跑和情绪激动导致网巾略微歪斜，发丝凌乱",
+    "distinguishing_features": "触及底线后展现出文人的铮铮铁骨，眼神充满对沈词的敌意与防备"
+  },
+  "costume_override": {
+    "outfit": "略显凌乱的深灰色居家常服，衣摆可能因奔跑而带有褶皱",
+    "color_palette": [
+      "深灰",
+      "暗褐"
+    ]
+  },
+  "visual_reference": "A 50-year-old ancient Chinese father, slightly chubby, wearing a slightly messy dark grey casual ancient robe. Half-white hair slightly disheveled. Face showing extreme shock, explosive anger, and fierce protectiveness, glaring furiously at an unseen enemy. Dramatic high-contrast lighting, intense cinematic atmosphere, highly detailed, photorealistic.",
+  "emotional_tone": "极度震惊，暴怒，决绝"
+}

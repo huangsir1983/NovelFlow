@@ -1,0 +1,45 @@
+[
+  {
+    "id": "seg_0041",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0149",
+      "shot_0150",
+      "shot_0151"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot均服务于同一叙事任务：从环境建立、现场骚动到主观逼近真相，角色核心尚未正式亮相，情绪连续由寒意推进到不安，适合合并为一个悬疑导入段落。",
+    "order": 41
+  },
+  {
+    "id": "seg_0042",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0152",
+      "shot_0153",
+      "shot_0154"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕高令宁成为情感承受中心展开：她入场、身体应激、真相被证实。角色集合从人群转入明确的主角—尸身关系，情绪从逼近转为确认冲击，是清晰的合并边界。",
+    "order": 42
+  },
+  {
+    "id": "seg_0043",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0155",
+      "shot_0156",
+      "shot_0157",
+      "shot_0158"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "后四个shot构成同一情绪弧线：死亡细节压近、反打高令宁、再以主观确认现场、最终落在她的心理定格。虽然为4个shot，但都属于‘混乱后骤冷’的同一段情绪收束，适合作为结尾长段，完成重大转折的余震。",
+    "order": 43
+  }
+]

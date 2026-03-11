@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_007",
+  "name": "沈家洞房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸洞房",
+  "description": "喜庆华丽的新婚洞房，红烛高照，床帐挂红绸丝带与盖头，大红喜字与鸳鸯绣被，家具红木雕花，空间温馨暧昧，适合亲热与突发事件。",
+  "visual_reference": "明代官宦府邸洞房夜景，喜庆红调室内，大红床帐挂丝带与盖头，红烛摇曳照亮鸳鸯被与喜字，红木雕花家具，墙挂喜联，地面红毯，温暖暧昧光影，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "喜庆暧昧、突生变故",
+  "color_palette": [
+    "大红色",
+    "金黄色",
+    "烛光橙",
+    "深木褐"
+  ],
+  "lighting": "夜晚红烛温暖摇曳光，投下暧昧长影",
+  "key_features": [
+    "红烛与喜字",
+    "红绸丝带与盖头",
+    "鸳鸯绣床"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "洞房亲热的温情到陆婢女闹事的尴尬与催促"
+}

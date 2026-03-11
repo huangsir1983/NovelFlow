@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 高府正堂 - 日(前世回忆)",
+  "location": "沈府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世新婚第二日，沈母让陆姝仪敬茶，高令宁自杀未遂",
+  "key_dialogue": "你怎么敢打阿词？",
+  "emotional_peak": "高令宁的愤怒与绝望",
+  "tension_score": 0.9,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "茶杯",
+    "瓷片",
+    "茶盘",
+    "血迹",
+    "帕子"
+  ],
+  "dramatic_purpose": "展现前世矛盾根源"
+}

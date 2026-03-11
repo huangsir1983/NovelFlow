@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_004",
+  "name": "高府正堂",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸正堂",
+  "description": "高大开阔的正堂，中央长桌与太师椅对称摆放，四周陈列金银绸缎与聘礼箱，墙面挂红烛与木雁装饰，地面青砖，梁柱雕刻精美，入口处有高门槛，整体富丽堂皇。",
+  "visual_reference": "Opulent Ming dynasty late period Chinese official mansion main hall interior daytime, grand central long table flanked by majestic armchairs, displayed gold silver brocades and wedding gift chests, red candles and wooden goose decorations on walls, blue brick floor, intricately carved beams and columns, high threshold entrance, luxurious formal setting, bright natural light",
+  "atmosphere": "喜庆中透着紧张对峙",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "木棕"
+  ],
+  "lighting": "充足日光从多扇格窗涌入，照亮聘礼与红烛",
+  "key_features": [
+    "聘礼木雁",
+    "金银绸缎堆",
+    "中央长桌"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "沈词震惊与讥诮"
+}

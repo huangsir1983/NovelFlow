@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_037",
+  "order": 36,
+  "heading": "EXT. 江南院门与雪地 - day",
+  "location": "江南居所前院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭",
+    "沈词",
+    "几位赘婿人选"
+  ],
+  "core_event": "冬雪后沈词突然赶到江南，却正撞见几个住进来的赘婿陪昭昭堆雪，被我轻描淡写地称作新夫婿。",
+  "key_dialogue": "他们是谁？——我的新夫婿。",
+  "emotional_peak": "吃醋与挑衅在雪地正面相撞",
+  "tension_score": 0.89,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "雪球",
+    "院门",
+    "雪堆"
+  ],
+  "dramatic_purpose": "把男女主的关系从书信拉回现实对峙，并让沈词彻底失去体面。",
+  "visual_reference": "江南雪后院落里小女孩与几位年轻男子堆雪，女子在廊下悠闲嗑瓜子，风尘仆仆的男子推门而入，肩头忽被雪球砸中，神色骤沉，古风生活喜剧表层下的情感冲突",
+  "visual_prompt_negative": "避免滑稽夸张、避免现代羽绒服、避免北方宫苑雪景、避免卡通雪球效果",
+  "source_text_start": "冬雪过后, 我推开院门。",
+  "source_text_end": "我不耐烦地推开了他：「客房在里面, 去留随意。」"
+}

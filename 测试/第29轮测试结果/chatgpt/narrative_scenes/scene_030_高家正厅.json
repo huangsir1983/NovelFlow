@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_030",
+  "order": 29,
+  "heading": "INT. 高家正厅 - NIGHT",
+  "location": "高家正厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "下人"
+  ],
+  "core_event": "陆姝仪哭诉我设计她失贞，沈词当场选择相信她，并命蒋晟次日提亲，公开将罪名压到我头上。",
+  "key_dialogue": "「从头到尾，你都是这般恶毒跋扈的妇人。」",
+  "emotional_peak": "我再次被最亲近的人指认为恶毒主谋。",
+  "tension_score": 0.98,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "桌案",
+    "证人下人",
+    "衣角"
+  ],
+  "dramatic_purpose": "让旧日冤屈在今生重演，把我逼到无路可退。",
+  "visual_reference": "正厅灯火惨白，陆姝仪跪地哭诉，蒋晟衣衫未整脸色苍白，沈词站在中央冷面裁决，女主立于厅中被众目包围，孤立感极强",
+  "visual_prompt_negative": "避免法庭现代感，避免群演情绪过火，避免喜剧误会风",
+  "source_text_start": "陆姝仪哭着要自尽。",
+  "source_text_end": "我站在原地，浑身发颤地看着他凉薄的面容。"
+}

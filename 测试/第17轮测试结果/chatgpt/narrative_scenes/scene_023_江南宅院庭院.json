@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_023",
+  "order": 22,
+  "heading": "EXT. 江南雪院 - DAY",
+  "location": "江南宅院庭院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "昭昭",
+    "沈词"
+  ],
+  "core_event": "冬雪后，高父安排的数位赘婿候选陪昭昭堆雪，沈词突然赶来，被雪球砸中，又从高令宁口中得知这些人是她的“新夫婿”，脸色顿沉。",
+  "key_dialogue": "「他们是谁？」「我的新夫婿。」",
+  "emotional_peak": "沈词第一次直面自己被真正替代的可能。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "雪球",
+    "院门",
+    "堆雪工具",
+    "来客行囊"
+  ],
+  "dramatic_purpose": "把男主追妻执念推向明面，制造最终夜戏前的外部刺激。",
+  "source_text_start": "冬雪过后, 我推开院门。\n爹爹在江南替我找了几个相貌出众的",
+  "source_text_end": "我不耐烦地推开了他：「客房在里面, 去留随意。」"
+}

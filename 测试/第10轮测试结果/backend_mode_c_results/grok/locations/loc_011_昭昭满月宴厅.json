@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_011",
+  "name": "昭昭满月宴厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸宴厅",
+  "description": "喜庆的满月宴厅，宽敞空间布置酒席桌椅，请帖与拜礼陈设，中央主桌华丽，墙饰喜庆灯笼与绸缎，地面青砖，布局热闹对称，装饰以红色织物和宴席器具为主，适合家族聚会。",
+  "visual_reference": "Festive full-month banquet hall in Ming dynasty mansion, spacious with banquet tables and chairs, invitation cards and ceremonial gifts, ornate central table, red lanterns and silk drapes, blue brick floor, celebratory daytime atmosphere, highly detailed historical",
+  "atmosphere": "喜庆却暗藏惊雷",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "宴席白瓷",
+    "木褐"
+  ],
+  "lighting": "白天自然光结合灯笼的明亮喜庆光线",
+  "key_features": [
+    "满月酒席桌椅",
+    "请帖拜礼陈设",
+    "喜庆灯笼绸缎"
+  ],
+  "narrative_scenes": [
+    "scene_011"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "不请自来坦白的震惊到女主释然的解脱"
+}

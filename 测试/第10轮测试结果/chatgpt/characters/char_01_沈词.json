@@ -1,0 +1,76 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词",
+    "姑爷",
+    "沈大人"
+  ],
+  "role": "protagonist",
+  "age_range": "18-35",
+  "appearance": {
+    "face": "面容白净如玉，轮廓清隽，眉眼深邃冷淡，黑眸如冰湖，偶尔在情绪松动时显出琥珀般柔光，薄唇锐利",
+    "body": "身量修长挺拔，文臣气质清贵，举止克制端方，后期因心力交瘁略显清瘦",
+    "hair": "乌发整齐束冠，青年时期为书生式高束发，入仕后冠带严整",
+    "distinguishing_features": "冷感强、气质压人、眼神疏离讥诮，极具世家公子与权臣气场"
+  },
+  "costume": {
+    "typical_outfit": "素色或深色广袖圆领袍、官服、玉冠，私下多着质地上等的深青或玄色长袍",
+    "color_palette": [
+      "玄黑",
+      "墨青",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "清冷权臣",
+    "克制深情",
+    "高门公子",
+    "口是心非",
+    "追妻火葬场"
+  ],
+  "visual_reference": "handsome ancient chinese scholar-official, pale refined face, cold dark eyes, black hair tied in guan, tall slim build, aristocratic robe, restrained expression, cinematic historical drama style, ultra realistic",
+  "personality": "克制冷硬，理智自负，嘴毒，责任感强，情感表达扭曲",
+  "desire": "保住长子沈睿的命运，同时维持自己认定的秩序，后期转为挽回高令宁与家庭",
+  "flaw": "自以为是，情感迟钝又嘴硬，不愿直面自己真实感情，常以控制和误判伤人",
+  "arc": "最初带着目的与防备重启婚姻，始终否认情感；在误会、早产与失去风险中崩塌，最终沦为执着追妻的一方",
+  "scene_presence": "从提亲、谈判、婚后、误会爆发到后期追妻全程关键存在，是所有主要转折的引发者与承受者。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻/爱恨纠葛",
+      "dynamic": "彼此都不肯示弱，误会与旧怨层层叠加，后期立场逆转",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅/义妹/旧情投射",
+      "dynamic": "以兄妹名义深度照拂，情感边界暧昧，造成婚姻破裂根源",
+      "function": "三角冲突与误解来源"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "以儿子为重生婚姻的共同目标，也被其命运束缚",
+      "function": "促成重婚与坚持关系的重要理由"
+    },
+    {
+      "target": "昭昭",
+      "type": "父女",
+      "dynamic": "女儿出生打碎其预设命运，也成为他后期维系关系的纽带",
+      "function": "角色情感转折催化剂"
+    },
+    {
+      "target": "高父",
+      "type": "岳父/对立者",
+      "dynamic": "从被认可到被防备、阻拦，形成外部婚姻阻力",
+      "function": "现实层面的婚姻裁决者"
+    },
+    {
+      "target": "蒋晟",
+      "type": "情敌/嫌恶对象",
+      "dynamic": "从潜在替代者到被迫成为姝仪夫婿，激发嫉妒与失控",
+      "function": "制造男主情绪失衡"
+    }
+  ]
+}

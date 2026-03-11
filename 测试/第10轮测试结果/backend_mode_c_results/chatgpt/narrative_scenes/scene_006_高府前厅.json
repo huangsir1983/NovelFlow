@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 高府前厅 - DAY",
+  "location": "高府前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈府小厮"
+  ],
+  "core_event": "高令宁得知沈词认了陆姝仪为义妹，当即传话：只有等这位‘小姐’出嫁，她才答应婚事。",
+  "key_dialogue": "「贵府小姐出嫁后，我才会答应这门亲事。」",
+  "emotional_peak": "女主把准入条件直接钉在陆姝仪婚事上，正面卡住男主最不愿触碰的问题。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "口信帖子",
+    "桌案",
+    "茶盏",
+    "门帘",
+    "下人手炉"
+  ],
+  "dramatic_purpose": "升级婚前条件，推动陆姝仪线进入明面"
+}

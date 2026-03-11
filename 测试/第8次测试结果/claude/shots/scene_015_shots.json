@@ -1,0 +1,127 @@
+[
+  {
+    "id": "shot_0150",
+    "scene_id": "scene_015",
+    "shot_number": 1,
+    "goal": "建立场景空间和时间氛围，展示冷清的主卧环境",
+    "composition": "窗纸占据画面右侧1/3，晨光透过形成柔和光斑，左侧药箱和脉枕在桌上形成视觉焦点，前景虚化床帐一角",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷清疏离感，暗示夫妻关系的距离",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 150
+  },
+  {
+    "id": "shot_0151",
+    "scene_id": "scene_015",
+    "shot_number": 2,
+    "goal": "展示大夫收拾诊脉工具的动作，引出诊断结果",
+    "composition": "大夫双手占据画面中心，收起脉枕的动作，背景虚化桌面药箱，手部特写突出职业感",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "专业仪式感，为即将宣布的结果铺垫",
+    "duration_hint": "2s",
+    "characters": [
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 151
+  },
+  {
+    "id": "shot_0152",
+    "scene_id": "scene_015",
+    "shot_number": 3,
+    "goal": "捕捉大夫宣布性别时的表情和姿态",
+    "composition": "大夫位于画面右侧，侧身45度角，捋须微笑，背景是窗纸透光，左侧留白暗示沈词的站位",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "恭贺喜悦，但观众知道这喜悦背后的残酷",
+    "duration_hint": "3-4s",
+    "characters": [
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.5,
+    "order": 152
+  },
+  {
+    "id": "shot_0153",
+    "scene_id": "scene_015",
+    "shot_number": 4,
+    "goal": "捕捉沈词听到「男孩」时的反应——眉头舒展但目光回避",
+    "composition": "沈词占据画面左侧2/3，侧面轮廓，眉头从紧蹙到舒展的微妙变化，目光看向画面右侧（大夫方向），前景虚化女主肩膀一角",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "男性权力者的满足与对妻子的情感冷漠形成对比",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 153
+  },
+  {
+    "id": "shot_0154",
+    "scene_id": "scene_015",
+    "shot_number": 5,
+    "goal": "女主视角——看到沈词目光未落在自己身上的冷漠",
+    "composition": "女主主观镜头，画面中心是沈词的侧脸轮廓，他的视线越过镜头看向大夫，前景虚化女主自己的手腕",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "被忽视的孤独和心寒",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.7,
+    "order": 154
+  },
+  {
+    "id": "shot_0155",
+    "scene_id": "scene_015",
+    "shot_number": 6,
+    "goal": "女主垂眸看自己手腕的动作——情感内化的关键时刻",
+    "composition": "女主手腕占据画面中心，脉搏跳动处的浅痕清晰可见，背景虚化衣袖和床帐，构图紧凑压抑",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "自我审视和悲凉，身体成为工具的物化感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 155
+  },
+  {
+    "id": "shot_0156",
+    "scene_id": "scene_015",
+    "shot_number": 7,
+    "goal": "女主面部特写——压抑情绪下的微表情",
+    "composition": "女主脸部占据画面中心偏下，垂眸姿态，睫毛投影在脸颊，背景虚化窗纸光斑，冷色调主导",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制的悲伤和清醒的绝望",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.9,
+    "order": 156
+  }
+]

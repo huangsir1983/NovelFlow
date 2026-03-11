@@ -1,0 +1,33 @@
+{
+  "variant_id": "lu_shuyi_variant_05",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 失贞疑案哭诉时",
+  "tags": [
+    "失贞疑案",
+    "哭诉",
+    "被害者姿态",
+    "局势失控",
+    "高压对峙"
+  ],
+  "scene_ids": [
+    "scene_018",
+    "scene_019"
+  ],
+  "trigger": "高府厢房事件后，陆姝仪衣冠不整卷入疑案，并在正厅哭诉自己被高令宁设计失贞。",
+  "appearance_delta": {
+    "face": "面上惊惶失措，哭得更狠，眼鼻泛红，呈现强烈受害者神态",
+    "body": "体态更狼狈，因惊吓与哭诉显得摇摇欲坠",
+    "hair": "发髻散乱程度明显，符合厢房事件后被撞见的混乱状态",
+    "distinguishing_features": "散乱衣襟与失控落泪形成极具冲击力的受害现场感，也是她操纵同情的重要外化"
+  },
+  "costume_override": {
+    "outfit": "原本清雅的浅色襦裙在厢房风波后变得衣襟凌乱、不够整齐，保留世家小姐底色但带事故痕迹",
+    "color_palette": [
+      "素白",
+      "浅粉",
+      "凌乱灰粉"
+    ]
+  },
+  "visual_reference": "realistic historical chinese drama style, distressed ancient chinese beauty in disheveled pale hanfu, pale skin, red-rimmed watery eyes, tear-streaked face, slim fragile body, messy black hair and loosened bun, clothing slightly disordered after a scandal, standing in a tense noble hall at night, appearing victimized yet secretly strategic, dramatic candlelight",
+  "emotional_tone": "惊惶哭诉"
+}

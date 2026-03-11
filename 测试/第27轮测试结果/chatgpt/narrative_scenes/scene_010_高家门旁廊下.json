@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "EXT. 高家门旁 - day",
+  "location": "高家门旁廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词堵在门边，以长子沈睿的未来逼我成婚，并提出孩子出生后便和离的冷酷契约。",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+  "emotional_peak": "孩子成为双方最致命的筹码",
+  "tension_score": 0.93,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "活雁留下的勒痕",
+    "药铺钱袋",
+    "婚约口头约定"
+  ],
+  "dramatic_purpose": "明确两人今生结合的唯一共同目标是孩子，而非情爱。",
+  "visual_reference": "门旁狭窄廊下，女子欲出门，男子拦住去路，眼下泛青、指尖带勒痕，两人低声交锋却杀气腾腾，背景是高门与街巷的交界，压迫感强，古风写实对峙",
+  "visual_prompt_negative": "避免肢体暧昧、避免甜宠凝视、避免人群围观过多、避免玄幻服化道",
+  "source_text_start": "我松了口气，浑身轻松。",
+  "source_text_end": "四目相对，只剩恨意。"
+}

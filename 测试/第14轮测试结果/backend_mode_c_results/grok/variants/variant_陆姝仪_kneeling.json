@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_01",
+  "variant_type": "kneeling",
+  "variant_name": "陆姝仪 — 跪求留府",
+  "tags": [
+    "跪姿",
+    "乞求",
+    "黯然"
+  ],
+  "scene_ids": [
+    "scene_008"
+  ],
+  "trigger": "马球会休息处夜晚  ，陆姝仪挣扎着下跪求留府",
+  "appearance_delta": {
+    "face": "神色黯然，泪眼盈盈，更显疲倦楚楚",
+    "body": "跪姿纤弱身躯微微颤抖",
+    "hair": "柔顺垂肩略显凌乱",
+    "distinguishing_features": "双手拉扯衣角的乞求姿态，粉衣下柔弱转为恳求"
+  },
+  "costume_override": {
+    "outfit": "粉色襦裙略微凌乱",
+    "color_palette": [
+      "粉红",
+      "浅白"
+    ]
+  },
+  "visual_reference": "一位古代温柔女子陆姝仪，温婉清丽脸庞泪眼婆娑神色黯然楚楚可怜，跪在地上双手紧紧拉着粉色衣角，纤弱柔美身姿微微颤抖，柔顺黑发垂肩略乱，古典休息处夜晚灯火昏黄，光影凄美柔弱",
+  "visual_prompt_negative": "站立姿态、强势表情、艳丽妆容、现代服装、粗壮体型、明亮光线",
+  "emotional_tone": "疲倦乞求与释然"
+}

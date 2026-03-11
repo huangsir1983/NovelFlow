@@ -1,0 +1,281 @@
+[
+  {
+    "id": "dl_0087",
+    "scene_id": "scene_030",
+    "character_id": "char_高令宁",
+    "line": "送到窑子里去了。",
+    "subtext": "她故意用最恶毒的说法刺激沈词，借此报复他对那名酷似陆姝仪的婢女的偏爱，并试探自己在他心中的位置。",
+    "emotion_intensity": 0.84,
+    "order": 0
+  },
+  {
+    "id": "dl_0088",
+    "scene_id": "scene_030",
+    "character_id": "char_沈词",
+    "line": "你真以为沈家全由你做主了？",
+    "subtext": "他并非只是在问人去哪了，而是在愤怒地警告高令宁不要越界，强调沈家真正的权力仍在自己手里。",
+    "emotion_intensity": 0.9,
+    "order": 1
+  },
+  {
+    "id": "dl_0089",
+    "scene_id": "scene_030",
+    "character_id": "char_沈词",
+    "line": "若非看你为我生下了睿儿，我定要休了你，绝不让你这种毒妇祸害我沈家。",
+    "subtext": "他借狠话羞辱她，宣称自己对这段婚姻毫无珍惜，只因孩子才勉强容忍她，同时把对她的厌恶彻底说穿。",
+    "emotion_intensity": 0.94,
+    "order": 2
+  },
+  {
+    "id": "dl_0090",
+    "scene_id": "scene_030",
+    "character_id": "char_高令宁",
+    "line": "休我？",
+    "subtext": "她先以反问表达震惊与不屑，质疑沈词是否真有资格抛弃自己，也是在为接下来的反击蓄势。",
+    "emotion_intensity": 0.71,
+    "order": 3
+  },
+  {
+    "id": "dl_0091",
+    "scene_id": "scene_030",
+    "character_id": "char_高令宁",
+    "line": "你扪心自问，我可有半点对不住你沈家？没有我为你打理产业，打点亲朋，你能在朝中心无旁骛地为官？",
+    "subtext": "她强调自己对沈家和沈词的实际贡献，揭穿他所谓休妻的道德高地不过是忘恩负义。",
+    "emotion_intensity": 0.88,
+    "order": 4
+  },
+  {
+    "id": "dl_0092",
+    "scene_id": "scene_030",
+    "character_id": "char_沈词",
+    "line": "谁知道你私下里做了多少孽。",
+    "subtext": "他没有正面回应她的付出，而是以道德指控抹黑她，说明他早已用恶意看待她的一切行为。",
+    "emotion_intensity": 0.82,
+    "order": 5
+  },
+  {
+    "id": "dl_0093",
+    "scene_id": "scene_030",
+    "character_id": "char_高令宁",
+    "line": "沈词，你真不要脸。",
+    "subtext": "她彻底撕下夫妻体面，直接指认他的虚伪与无耻，不再维持任何表面和气。",
+    "emotion_intensity": 0.91,
+    "order": 6
+  },
+  {
+    "id": "dl_0094",
+    "scene_id": "scene_030",
+    "character_id": "char_高令宁",
+    "line": "祸害了我，祸害了陆姝仪，还想祸害别人？若不是睿儿，你以为我愿意与你过到今天？",
+    "subtext": "她把多年婚姻里的怨恨一次性倾泻出来，说明自己留在这段关系里不是因为爱，而只是因为孩子。",
+    "emotion_intensity": 0.97,
+    "order": 7
+  },
+  {
+    "id": "dl_0095",
+    "scene_id": "scene_030",
+    "character_id": "char_高令宁",
+    "line": "我看陆姝仪就是被你克死的……",
+    "subtext": "她故意拿陆姝仪的死刺他最痛的地方，用最诛心的话报复他的偏执与恨意。",
+    "emotion_intensity": 0.99,
+    "order": 8
+  },
+  {
+    "id": "dl_0096",
+    "scene_id": "scene_032",
+    "character_id": "char_沈词",
+    "line": "就叫静好吧。",
+    "subtext": "他在短暂的温情里为未出生的孩子命名，试图修补夫妻间裂痕，也寄托对这个孩子与家庭圆满的幻想。",
+    "emotion_intensity": 0.58,
+    "order": 9
+  },
+  {
+    "id": "dl_0097",
+    "scene_id": "scene_032",
+    "character_id": "char_沈词",
+    "line": "琴瑟在御，莫不静好。",
+    "subtext": "他引用诗句，不只是解释名字，更是在试图描绘一个和顺安宁的夫妻与家庭图景，表达罕见的柔软期待。",
+    "emotion_intensity": 0.52,
+    "order": 10
+  },
+  {
+    "id": "dl_0098",
+    "scene_id": "scene_034",
+    "character_id": "char_高令宁",
+    "line": "罢了，沈公子明日便来提亲吧。",
+    "subtext": "她选择停止纠缠前尘恩怨，接受这场婚事，不是因为原谅，而是因为看清强求无用，转而以清醒姿态进入既定命运。",
+    "emotion_intensity": 0.48,
+    "order": 11
+  },
+  {
+    "id": "dl_0099",
+    "scene_id": "scene_034",
+    "character_id": "char_沈词",
+    "line": "你又想做什么？",
+    "subtext": "他对她的突然退让毫无信任，默认她每一步都可能另有算计，语气里充满戒备和怀疑。",
+    "emotion_intensity": 0.63,
+    "order": 12
+  },
+  {
+    "id": "dl_0100",
+    "scene_id": "scene_034",
+    "character_id": "char_高令宁",
+    "line": "成亲之后，还望公子说话算话。",
+    "subtext": "她真正关心的不是婚事本身，而是婚后约定与边界，暗示自己接受成亲是有条件的。",
+    "emotion_intensity": 0.44,
+    "order": 13
+  },
+  {
+    "id": "dl_0101",
+    "scene_id": "scene_035",
+    "character_id": "char_高父",
+    "line": "沈家豪门显贵，又是京中数一数二的富户，你嫁过去若受轻视可怎么办？",
+    "subtext": "他担心门第悬殊让女儿在夫家受委屈，言语背后是不放心与无力保护的父亲心态。",
+    "emotion_intensity": 0.68,
+    "order": 14
+  },
+  {
+    "id": "dl_0102",
+    "scene_id": "scene_035",
+    "character_id": "char_高令宁",
+    "line": "无妨。",
+    "subtext": "她表面安抚父亲，实则已对这场婚姻不抱幻想，因此对可能的轻视并不在意。",
+    "emotion_intensity": 0.29,
+    "order": 15
+  },
+  {
+    "id": "dl_0103",
+    "scene_id": "scene_035",
+    "character_id": "char_高令宁",
+    "line": "父亲只当女儿去沈家暂住一段时间，早晚要回来的。",
+    "subtext": "她其实已经预设这段婚姻终将结束，言外之意是自己不会再像前世那样把一生耗死在沈家。",
+    "emotion_intensity": 0.47,
+    "order": 16
+  },
+  {
+    "id": "dl_0104",
+    "scene_id": "scene_035",
+    "character_id": "char_高父",
+    "line": "齐大非偶，",
+    "subtext": "他先点破门不当户不对的现实，为后面的叮嘱铺垫，表达对这门婚事本能的不安。",
+    "emotion_intensity": 0.45,
+    "order": 17
+  },
+  {
+    "id": "dl_0105",
+    "scene_id": "scene_035",
+    "character_id": "char_高父",
+    "line": "你不必逼着自己一定让沈家满意，受了委屈便和离回家，为父再另为你安排亲事。",
+    "subtext": "他给女儿留后路，明确表示娘家永远接纳她，不必为了体面忍辱负重。",
+    "emotion_intensity": 0.76,
+    "order": 18
+  },
+  {
+    "id": "dl_0106",
+    "scene_id": "scene_036",
+    "character_id": "char_沈词",
+    "line": "咳",
+    "subtext": "这声轻咳是在提醒她回神完成婚礼礼数，也隐含对她走神失仪的不动声色的催促。",
+    "emotion_intensity": 0.12,
+    "order": 19
+  },
+  {
+    "id": "dl_0107",
+    "scene_id": "scene_037",
+    "character_id": "char_沈词",
+    "line": "这张嘴不是挺厉害吗？怎么现在连一句完整的话都说不出？",
+    "subtext": "他借调情般的羞辱反击她先前的锋利言辞，试图在新婚夜重新掌控二人之间的主导权。",
+    "emotion_intensity": 0.73,
+    "order": 20
+  },
+  {
+    "id": "dl_0108",
+    "scene_id": "scene_037",
+    "character_id": "char_沈词",
+    "line": "夫人，这一世在床榻之上，你还是这么没用啊。",
+    "subtext": "他故意以最亲密的称呼说最刻薄的话，把身体关系当作羞辱她、发泄积怨的战场。",
+    "emotion_intensity": 0.86,
+    "order": 21
+  },
+  {
+    "id": "dl_0109",
+    "scene_id": "scene_037",
+    "character_id": "char_高令宁",
+    "line": "……畜生。",
+    "subtext": "她的反击极短，却是对他言语和行为最直接的厌恶与鄙夷，毫无夫妻柔情可言。",
+    "emotion_intensity": 0.83,
+    "order": 22
+  },
+  {
+    "id": "dl_0110",
+    "scene_id": "scene_037",
+    "character_id": "char_沈词",
+    "line": "要不是睿儿，你以为我想碰你？",
+    "subtext": "他强调自己与她的肉体接触并非出于欲望或情感，而是因为孩子与既有牵连，借此进一步伤她。",
+    "emotion_intensity": 0.88,
+    "order": 23
+  },
+  {
+    "id": "dl_0111",
+    "scene_id": "scene_037",
+    "character_id": "char_沈词",
+    "line": "再敢骂人，信不信我让他们进来再换一次水？",
+    "subtext": "他以更羞耻的方式威胁她闭嘴，本质是在用礼俗和旁人目光压制她的尊严。",
+    "emotion_intensity": 0.79,
+    "order": 24
+  },
+  {
+    "id": "dl_0112",
+    "scene_id": "scene_037",
+    "character_id": "char_高令宁",
+    "line": "再快点吧，我困了。",
+    "subtext": "她以近乎冷漠的配合彻底拒绝情绪纠缠，把这场夫妻之事降格为尽快结束的任务，以此反制他的羞辱。",
+    "emotion_intensity": 0.62,
+    "order": 25
+  },
+  {
+    "id": "dl_0113",
+    "scene_id": "scene_038",
+    "character_id": "char_陆姝仪的婢女",
+    "line": "公子，小姐喝醉了酒，直说心口痛，您……您去看看吧。",
+    "subtext": "她表面是传话求助，实则替陆姝仪把沈词从新婚夜叫走，利用他的牵挂和责任感。",
+    "emotion_intensity": 0.66,
+    "order": 26
+  },
+  {
+    "id": "dl_0114",
+    "scene_id": "scene_038",
+    "character_id": "char_高令宁",
+    "line": "你去吧。",
+    "subtext": "她看穿这一套后不再争抢，主动放行，既是冷眼旁观，也是对这段关系彻底不抱期待的表现。",
+    "emotion_intensity": 0.36,
+    "order": 27
+  },
+  {
+    "id": "dl_0115",
+    "scene_id": "scene_038",
+    "character_id": "char_高令宁",
+    "line": "也不必回来了。",
+    "subtext": "她不只是让他去照顾陆姝仪，更是在用冷淡切断新婚夜应有的亲密，表达自己根本不稀罕他的回来。",
+    "emotion_intensity": 0.69,
+    "order": 28
+  },
+  {
+    "id": "dl_0116",
+    "scene_id": "scene_038",
+    "character_id": "char_沈词",
+    "line": "怎么，又想等我姝仪那里后，再去我父亲母亲前告状？",
+    "subtext": "他认定她会像前世一样借长辈施压，语带讥讽，说明他对她的印象始终停留在互相算计上。",
+    "emotion_intensity": 0.74,
+    "order": 29
+  },
+  {
+    "id": "dl_0117",
+    "scene_id": "scene_038",
+    "character_id": "char_高令宁",
+    "line": "你我早晚要和离，我费那心思做什么？",
+    "subtext": "她明确表明自己根本不打算经营这段婚姻，也不屑再为争风吃醋耗费精力，因为结局在她心里早已注定。",
+    "emotion_intensity": 0.72,
+    "order": 30
+  }
+]

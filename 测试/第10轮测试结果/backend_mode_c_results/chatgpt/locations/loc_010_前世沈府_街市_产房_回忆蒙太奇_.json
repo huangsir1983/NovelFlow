@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_010",
+  "name": "前世沈府、街市、产房（回忆蒙太奇）",
+  "type": "mixed",
+  "era_style": "明代中晚期世家宅邸内院、夜市街巷与产房复合记忆空间",
+  "description": "这一地点是强烈碎片化回忆场域，需统一为同一时代下的不同空间切片：沈府卧房与内院呈暗色木构、低照度、药碗与安胎药并置；夜间街市则以悬挂花灯、鱼龙灯、摊铺与潮湿石板路构成短暂的暖色幻象；产房则最为压迫，狭窄闷热，布帘低垂，铜盆中的血水、包裹死婴的布、凌乱药碗和襁褓形成残酷中心。画卷碎片、婢女身契等物件可作为近景象征性出现，强化误会与伤害的起点。三类空间应共享一种被记忆撕裂后的不稳定质感：景别跳跃、情绪断裂、暖色稍纵即逝，最终坠入产房的冷硬绝望。",
+  "visual_reference": "Fragmented memory montage in late Ming dynasty China: dark noble mansion bedroom and courtyard, night market street with glowing lanterns and wet stone pavement, oppressive childbirth room with hanging curtains, bloodied basin, swaddled stillborn infant bundle, medicine bowls, torn painting fragments, servant contract paper, alternating warmth and trauma, cinematic historical realism, emotionally devastating, highly detailed",
+  "atmosphere": "回忆破碎、短暂温软、最终绝望",
+  "color_palette": [
+    "灯市暖橙",
+    "深靛蓝",
+    "血褐",
+    "苍白"
+  ],
+  "lighting": "夜景以灯笼与室内烛光为主，街市部分温暖流动，产房部分则局促昏黄且残忍清晰，形成梦幻与噩梦的急剧断层。",
+  "key_features": [
+    "夜市华灯与湿润石板路",
+    "产房血水与襁褓",
+    "画卷碎片和身契等记忆象征物"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从伤胎后的补偿与短暂和缓，坠入死胎降生后彻底撕裂的仇恨深渊。"
+}

@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_011",
+  "name": "高家厅堂",
+  "type": "interior",
+  "era_style": "明代官宦府邸厅堂",
+  "description": "高家厅堂与正堂相近但稍小，桌椅对称，茶盏摆放，和离书预备于桌，木柱雕花，适合激烈对质与争执。",
+  "visual_reference": "明代高家厅堂，桌椅整齐对称，茶盏与和离书置于中央，雕花门窗，柔和日光，紧张对质古风氛围",
+  "visual_prompt_negative": "现代家具、霓虹装饰",
+  "atmosphere": "对质、气愤、发颤",
+  "color_palette": [
+    "木褐",
+    "茶黄",
+    "红",
+    "黑"
+  ],
+  "lighting": "白天自然光",
+  "key_features": [
+    "和离书",
+    "桌椅",
+    "茶盏"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "对质哭诉到女主扇耳光的激烈"
+}

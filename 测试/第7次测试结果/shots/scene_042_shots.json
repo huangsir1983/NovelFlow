@@ -1,0 +1,282 @@
+[
+  {
+    "id": "shot_0645",
+    "scene_id": "scene_042",
+    "shot_number": 1,
+    "goal": "建立卧房封闭、压抑且已存在双人就寝痕迹的私人空间，预置‘闯入即越界’的叙事前提。",
+    "composition": "FS，机位位于床尾偏窗侧，床榻占画面右后方三分之二，凌乱锦被与双枕清晰可见；左侧前景是半虚焦屏风边框，背景窗棂斜切进冷白月光，在地面与床沿形成条状光带，床边留出可供人物靠近的暗部动线。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到静得过分的不安，以及私人领地被侵犯前的脆弱边界。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 645
+  },
+  {
+    "id": "shot_0646",
+    "scene_id": "scene_042",
+    "shot_number": 2,
+    "goal": "以高令宁近主观限制信息，表现有人悄悄靠近床榻，制造夜半闯入的惊惧。",
+    "composition": "MS，低机位贴近床沿，前景右侧是虚焦被角和高令宁肩颈轮廓，左下方一只手搭上床沿，沈睿半身从画面左侧暗处缓慢探入；背景仍是窗棂冷光，人物脸大半陷在阴影里。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众与女主同步感到突兀、被冒犯和本能戒备。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 646
+  },
+  {
+    "id": "shot_0647",
+    "scene_id": "scene_042",
+    "shot_number": 3,
+    "goal": "交代高令宁惊醒的瞬间，并以她的表情完成‘认出来人后不是惊喜而是厌恶’的态度转折。",
+    "composition": "CU，高令宁位于画面中央略偏右，半张脸被月光切亮，眉心骤蹙；前景下缘是被褥抬起形成遮挡，背景保持纯暗，剥离环境以突出情绪判断。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "把惊醒迅速转成冷怒，让观众明确她的拒斥并非误会。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 647
+  },
+  {
+    "id": "shot_0648",
+    "scene_id": "scene_042",
+    "shot_number": 4,
+    "goal": "用一个明确肢体动作完成驱逐，直接将冲突从潜入升级为越界遭反击。",
+    "composition": "MS，侧拍床沿，画面右侧高令宁从被中猛然抬腿，动作线朝左；沈睿身体失衡向画面左下跌出床沿，前景是翻起的锦被，背景有冷白光带掠过床脚，动作方向清晰。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "制造短促爆发感和失控感，让观众感到这段关系已不剩体面。",
+    "duration_hint": "1-1.5s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 648
+  },
+  {
+    "id": "shot_0649",
+    "scene_id": "scene_042",
+    "shot_number": 5,
+    "goal": "补足床上并非只有高令宁一人的信息，揭示另一侧男子的存在，从而彻底改变三人关系张力。",
+    "composition": "MCU，床另一侧男子从画面左后方坐起，仍半倚床头；前景右侧是高令宁凌乱发丝和被角虚焦，男子伸手替她掖被，手部动作落在画面中心，背景是深色床帐暗面，压低空间。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到局势翻转后的冷刺感——闯入者已成真正局外人。",
+    "duration_hint": "2s",
+    "characters": [
+      "弟妹",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.62,
+    "order": 649
+  },
+  {
+    "id": "shot_0650",
+    "scene_id": "scene_042",
+    "shot_number": 6,
+    "goal": "以一句平静的照顾台词，占据床边合法位置，形成无声宣示。",
+    "composition": "CU，弟妹位于画面左侧三分之一，视线向右下看高令宁，嘴唇平静开合；前景底部仍保留掖好的被角，背景是一条月光边缘勾出他侧脸线条，神态克制。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "营造礼貌而锋利的压迫，令观众体会到‘温柔本身就是排斥’。",
+    "duration_hint": "2s",
+    "characters": [
+      "弟妹"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 650
+  },
+  {
+    "id": "shot_0651",
+    "scene_id": "scene_042",
+    "shot_number": 7,
+    "goal": "给出沈睿被踹下床后的受辱状态与心理空白，承接他接下来的辩解。",
+    "composition": "MS，沈睿站定于床边月光带中，位于画面中央偏左，脸色发白；画面右侧前景是床栏与垂落被角，形成他无法再进入的视觉阻隔，背景暗处是屏风，压缩退路。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到他的难堪与执拗并存，不是可怜，而是危险地不肯退。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.66,
+    "order": 651
+  },
+  {
+    "id": "shot_0652",
+    "scene_id": "scene_042",
+    "shot_number": 8,
+    "goal": "通过沈睿的辩解台词揭示其自我合理化——以关心之名，行越界之实。",
+    "composition": "MCU，维持同轴线正面略侧角，沈睿占画面中央，肩后可见床榻边缘和一角月白衣料，暗示他正对床上二人；光线将他眼下阴影加深，嘴上措辞温和，神情却紧绷。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众识别他的借口感，生出不适与警惕。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 652
+  },
+  {
+    "id": "shot_0653",
+    "scene_id": "scene_042",
+    "shot_number": 9,
+    "goal": "表现高令宁不与他正面接触，而是立刻选择后撤和借位，明确她的边界感与站队。",
+    "composition": "MS，从床外侧拍向床头，高令宁从画面右侧迅速躲向左侧弟妹身后，二人形成前后层次；弟妹坐姿稳定占住前景中轴，高令宁半张脸从他肩后露出，沈睿虚焦于画面左前缘，形成被隔绝关系。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的拒绝不是口头，是身体本能上的回避与切割。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "弟妹",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 653
+  },
+  {
+    "id": "shot_0654",
+    "scene_id": "scene_042",
+    "shot_number": 10,
+    "goal": "用伸手落空这一动作具象化沈睿失去位置、失去触碰资格的现实。",
+    "composition": "CU，画面中央是沈睿伸出的手，停在月光里；右侧边缘高令宁衣袖迅速撤出画框，只留一缕衣摆残影，背景是床榻暗面和弟妹模糊轮廓，空落感突出。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造刺痛式落空，让观众感到这不是错过，而是被明确剥夺。",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈睿",
+      "高令宁",
+      "弟妹"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 654
+  },
+  {
+    "id": "shot_0655",
+    "scene_id": "scene_042",
+    "shot_number": 11,
+    "goal": "给出高令宁的正面拒绝台词，以冷静短句完成关系宣判。",
+    "composition": "CU，高令宁位于画面右侧，面孔从弟妹肩后探出，视线斜指画外左侧沈睿；前景左侧是弟妹肩背虚焦形成保护屏障，背景是冷硬窗棂影切过床帐，嘴唇线条清楚、神情冷白。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的拒绝锋利而不需提高音量，越冷越伤人。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "弟妹"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 655
+  },
+  {
+    "id": "shot_0656",
+    "scene_id": "scene_042",
+    "shot_number": 12,
+    "goal": "在一句‘我已经有人陪了’后，捕捉沈睿被替代认知刺中的瞬间。",
+    "composition": "CU，沈睿正面近景，位于中央，眼神先僵住后轻微下沉；背景虚化成冷白与木褐色块，对应床与月光，不再给他任何实质空间，脸色更白，呼吸压住。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众看到他受创后的空白与不甘，形成危险的静默。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.84,
+    "order": 656
+  },
+  {
+    "id": "shot_0657",
+    "scene_id": "scene_042",
+    "shot_number": 13,
+    "goal": "用第二句更直接的逐客令完成场面主导权封口，不留回旋空间。",
+    "composition": "MCU，仍以高令宁为主，弟妹的肩线占左前景，构成半遮挡；高令宁目光不闪，身体仍缩在后方但语气完全居高，背景床头暗沉，光线落在她的眼和唇线上。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到体面被彻底收回，只剩冷硬边界。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "弟妹"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 657
+  },
+  {
+    "id": "shot_0658",
+    "scene_id": "scene_042",
+    "shot_number": 14,
+    "goal": "表现沈睿沉默片刻后的退场决定，把情感失控压回到一种更令人不安的克制里。",
+    "composition": "MLS，机位仍在床侧，床榻与二人占画面右半，沈睿站在左半月光带中短暂停住，随后转身朝画面左后方暗处离开；其出画方向与先前入画方向保持一致反向，形成完整退场逻辑，床上的二人不追视。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感到危机暂时退去，但执念没有结束，留下寒意。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁",
+      "弟妹"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 658
+  },
+  {
+    "id": "shot_0659",
+    "scene_id": "scene_042",
+    "shot_number": 15,
+    "goal": "以冷收尾回到卧房空间，确认闯入被驱逐后留下的裂痕与压抑余波。",
+    "composition": "FS，重回建立机位但更靠近床侧，左侧门口暗处空了，沈睿已出画；右侧床榻上高令宁被遮在弟妹身后，只见被角与两人模糊轮廓，窗棂月光仍冷冷切在地面，凌乱锦被未被完全抚平，空间像什么都没发生过却已无法复原。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "留下压抑、冷硬和未尽后患，为后续情感纠缠续压。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "弟妹"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 659
+  }
+]

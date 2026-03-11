@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0078",
+    "shot_id": "shot_0007",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands motionless at the left-middle foreground as the stable axis of the frame; a young male servant of a noble household in plain dark traditional robe retreats from the right rear toward the right doorway, body angled away, respectful and hurried, keeping the exit direction consistent, while she does not turn, does not step forward, and holds a calm commanding posture. Interior noble mansion room with still wooden table and chairs in the foreground, right-side doorway blown out with slightly overexposed daylight creating strong contrast between dim interior and bright exterior, old wood brown, gray-blue shadows, muted warm-cool collision, controlled side backlight and doorway spill, realistic ancient Chinese aristocratic setting, medium long shot, subtle pan feeling, cinematic realism, restrained tension, highly detailed textures, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "low-saturation warm-cool contrast, dim interior with gray-blue and old wood tones, bright slightly overexposed doorway daylight, soft side backlight, layered shadow detail"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, glass curtain wall, modern furniture, modern hairstyle, modern makeup, neon lights, cars, phones, text, watermark, logo, low quality, blurry, deformed hands, extra fingers, bad anatomy"
+  },
+  {
+    "id": "sp_0079",
+    "shot_id": "shot_0008",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, occupies the center slightly left in close-up; her gaze lowers slightly then lifts, and the corner of her lips presses into an almost imperceptible arc, controlled, dangerous, quietly satisfied rather than wounded. The background doorway is now empty with only a thin bright edge of daylight, interior shadows remain soft and layered, side rim light tracing her hair bun, cheek, and jawline while preserving depth in the eyes, low-saturation gray-blue and amber-brown tones, intimate limited-subjective perspective, close-up framing, subtle dolly intimacy, cinematic realism, fine facial detail, restrained psychological tension, highly detailed skin and silk texture, film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "low-saturation warm-cool contrast, side backlight outlining hair and cheek, soft doorway edge light, preserved eye shadow detail, muted interior ambient light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, modern jewelry, modern hairstyle, modern makeup, neon lights, phones, text, watermark, logo, low quality, blurry, oversmoothed face, bad anatomy"
+  },
+  {
+    "id": "sp_0080",
+    "shot_id": "shot_0009",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands at the left third of the frame facing the right doorway, body completely still, sleeves and hem hanging straight, posture upright and controlled, expression unreadable but already calculating the next move. A large empty area fills the right side as the direction of departure, calm window light in the background, wooden writing table and chair back forming quiet geometric lines, old mansion interior restored to surface stillness yet holding residual pressure, gray-blue, dark ink, old wood brown palette with restrained amber hints, medium shot, static composition, cinematic realism, minimalism with suspense, highly detailed historical textures, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "soft natural window light with muted cool-warm balance, stable interior illumination, gentle shadow layering, restrained contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, modern interior decor, modern hairstyle, neon lights, vehicles, phones, text, watermark, logo, low quality, blurry, distorted anatomy"
+  },
+  {
+    "id": "sp_0081",
+    "shot_id": "shot_0087",
+    "prompt_text": "A sweeping ancient Chinese polo ground seen from a high oblique aerial angle, galloping horses and polo riders crossing horizontally through the middle and background, lively spectators and attendants scattered along the field, no single character dominant; wind lifts sand and dust across the lower foreground, blurred colorful banners whip in the gusts, and a corner of the viewing stand with a tea-and-fruit table appears at the lower right, a plate of grapes barely visible. Harsh overhead sunlight bleaches the ground, suspended dust creates atmospheric layers, the scene feels festive on the surface yet oppressive under the glaring noon heat and wind, low-saturation palette with pale earth, faded banner colors, chalky highlights, ancient aristocratic sports gathering, wide shot, crane-like establishing perspective, cinematic realism, historical drama scale, textured air, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "harsh top light at noon, sun-bleached ground, dusty atmospheric haze, low-saturation outdoor contrast with bright highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, stadium lights, metal fences, modern sports gear, plastic cups, sneakers, modern saddles, vehicles, phones, text, watermark, logo, low quality, blurry, CGI look"
+  },
+  {
+    "id": "sp_0082",
+    "shot_id": "shot_0088",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands upright near the center-right of the frame, composed and alert; beside her on the outer side stands a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, half a step ahead of her to shield her from the wind with quiet restraint rather than intimacy. Seen from her eye-level side perspective, the left foreground holds a wind-blown curtain corner and the edge of the seating mat and table, the background is a softly blurred polo field with moving guests and dust, low-saturation environment where her robe remains subtly prominent, dry wind, drifting sand, pale daylight, ancient Chinese noble viewing area, medium long shot, steadicam immediacy, cinematic realism, limited subjective tone, highly detailed fabric and dust particles, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "bright natural daylight with dusty haze, muted cool-warm outdoor balance, soft diffusion through windblown particles, restrained saturation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern sportswear, plastic tent, sunglasses, microphones, vehicles, phones, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs"
+  },
+  {
+    "id": "sp_0083",
+    "shot_id": "shot_0089",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands at the left third facing right, her face steady and slightly surprised by the protection; a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, occupies the right foreground in profile, raising one hand between her forehead and the incoming wind, his arm forming a protective diagonal, awkward but instinctive and sincere. Dust skims the lens edge in the foreground, the polo field behind them glitters with high sunlight and blurred motion, dry wind, faded outdoor colors, low-saturation warm-cool contrast, ancient Chinese polo gathering, medium close-up two-shot, fixed 180-degree side composition, static camera feeling, cinematic realism, emotional restraint, highly detailed skin, fabric, and airborne dust, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic historical drama, film grain",
+      "lighting": "bright overhead daylight with reflective highlights from the field, dusty atmospheric diffusion, restrained saturation, subtle facial modeling despite harsh sun"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern gloves, sunglasses, sports helmets, plastic, vehicles, phones, text, watermark, logo, low quality, blurry, deformed hands, extra fingers, bad anatomy"
+  }
+]

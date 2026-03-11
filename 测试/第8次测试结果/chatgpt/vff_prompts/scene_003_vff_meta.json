@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_003",
+  "heading": "INT. 正堂 - 日",
+  "model": "gpt-5.4",
+  "vff_text_length": 3966,
+  "shot_count": 12,
+  "cost": {
+    "model": "gpt-5.4",
+    "input_tokens": 7680,
+    "output_tokens": 3116,
+    "elapsed_s": 65.48
+  }
+}

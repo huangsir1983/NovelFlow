@@ -1,0 +1,31 @@
+{
+  "variant_id": "shen_ci_variant_03",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 提亲官员",
+  "tags": [
+    "官服",
+    "正式",
+    "端方"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_007"
+  ],
+  "trigger": "正式提亲场合",
+  "appearance_delta": {
+    "face": "表情端方持重，不露情绪",
+    "body": "身姿笔直，仪态严谨",
+    "hair": "束发戴冠，一丝不苟",
+    "distinguishing_features": "冷如冰湖的眼神，官员气质"
+  },
+  "costume_override": {
+    "outfit": "官服朝服，腰佩玉带",
+    "color_palette": [
+      "玄黑",
+      "墨青",
+      "月白"
+    ]
+  },
+  "visual_reference": "handsome Chinese official in formal black court robe with jade belt, cold lake-like eyes, jade face, hair in perfect topknot with official hat, upright posture, dignified expression, traditional scholar official aesthetic, period drama",
+  "emotional_tone": "端方持重，理性克制"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "EXT. 江南庭院 - DAY (三年后)",
+  "location": "高令宁在江南的住所庭院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "昭昭",
+    "赘婿们"
+  ],
+  "core_event": "三年后，沈词来到江南，看到高令宁身边围绕着赘婿，与女儿其乐融融。他因高令宁称赘婿为“新夫婿”而脸色阴沉。",
+  "key_dialogue": "我的新夫婿。",
+  "emotional_peak": "沈词看到自己被完全替代，高令宁过上了没有他的幸福生活，嫉妒与失落交织。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "雪球",
+    "瓜子",
+    "沈词寄来的信件和礼物"
+  ],
+  "dramatic_purpose": "展现时间跳转后的新格局，高令宁已经开始新生活，而沈词的追妻之路变得更加艰难，为最终的结局做铺垫。",
+  "source_text_start": "我辗转难眠一夜。\n次日，沉重地提笔回他：「祝你和新夫人百年好合……婚后莫忘寄钱。」",
+  "source_text_end": "我不耐烦地推开了他：「客房在里面，去留随意。」"
+}

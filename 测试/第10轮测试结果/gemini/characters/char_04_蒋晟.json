@@ -1,0 +1,40 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "minor",
+  "age_range": "18-22岁",
+  "appearance": {
+    "face": "老实憨厚，容易脸红",
+    "body": "习武之人，结实挺拔",
+    "hair": "利落的武人束发",
+    "distinguishing_features": "面对女主时局促害羞的神态"
+  },
+  "costume": {
+    "typical_outfit": "劲装或干练的常服",
+    "color_palette": [
+      "墨绿",
+      "赭石"
+    ]
+  },
+  "casting_tags": [
+    "忠犬",
+    "老实人",
+    "武生"
+  ],
+  "visual_reference": "A sturdy young ancient Chinese martial artist, honest and slightly shy face, wearing dark green practical clothes, cinematic lighting.",
+  "personality": "老实本分，体贴入微，但防备心差",
+  "desire": "娶高令宁为妻",
+  "flaw": "过于老实容易被算计",
+  "arc": "从爱慕女主到被陆姝仪算计无奈接盘",
+  "scene_presence": "马球会、捉奸现场",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "爱慕者",
+      "dynamic": "小心翼翼地讨好与保护",
+      "function": "刺激沈词嫉妒心的工具人"
+    }
+  ]
+}

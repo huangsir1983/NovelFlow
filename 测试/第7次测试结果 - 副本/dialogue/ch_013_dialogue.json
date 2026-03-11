@@ -1,0 +1,146 @@
+[
+  {
+    "id": "dl_0116",
+    "scene_id": "scene_041",
+    "character_id": "char_沈睿",
+    "line": "母亲已经为我挑选好一大家闺秀, 不日成亲。",
+    "subtext": "借成亲消息试探高令宁是否在意自己，表面是在陈述近况，实际上是在逼她表态。",
+    "emotion_intensity": 0.63,
+    "order": 0
+  },
+  {
+    "id": "dl_0117",
+    "scene_id": "scene_041",
+    "character_id": "char_沈睿",
+    "line": "那姑娘与我脾气契合, 想来成亲后定能举案齐眉，子孙满堂，和和美美……你若不愿意便写信告知我, 我可以考虑回绝。",
+    "subtext": "故意描绘美满婚后图景来刺激高令宁，同时给她留下挽留自己的机会，核心诉求是想听到她说不愿意。",
+    "emotion_intensity": 0.79,
+    "order": 1
+  },
+  {
+    "id": "dl_0118",
+    "scene_id": "scene_041",
+    "character_id": "char_高令宁",
+    "line": "祝你和新夫人百年好合……婚后莫忘寄钱。",
+    "subtext": "嘴上祝福，实则以冷淡和讽刺回避真实情绪；后半句继续谈钱，是故意拉开距离，不肯示弱挽留。",
+    "emotion_intensity": 0.72,
+    "order": 2
+  },
+  {
+    "id": "dl_0119",
+    "scene_id": "scene_041",
+    "character_id": "char_昭昭",
+    "line": "爹爹！",
+    "subtext": "孩子本能地认出并呼唤父亲，语气里带着亲近与惊喜。",
+    "emotion_intensity": 0.84,
+    "order": 3
+  },
+  {
+    "id": "dl_0120",
+    "scene_id": "scene_041",
+    "character_id": "char_沈睿",
+    "line": "他们是谁？",
+    "subtext": "表面是询问身份，实际上是强烈的嫉妒、占有欲和危机感发作，无法接受高令宁身边出现别的男人。",
+    "emotion_intensity": 0.81,
+    "order": 4
+  },
+  {
+    "id": "dl_0121",
+    "scene_id": "scene_041",
+    "character_id": "char_高令宁",
+    "line": "我的新夫婿。",
+    "subtext": "故意以最刺激他的方式回答，借此划清界限，也是在报复和试探他的反应。",
+    "emotion_intensity": 0.76,
+    "order": 5
+  },
+  {
+    "id": "dl_0122",
+    "scene_id": "scene_041",
+    "character_id": "char_高令宁",
+    "line": "客房在里面, 去留随意。",
+    "subtext": "明确拒绝亲近，不给他任何特殊待遇；看似客气，实则是冷淡驱逐。",
+    "emotion_intensity": 0.68,
+    "order": 6
+  },
+  {
+    "id": "dl_0123",
+    "scene_id": "scene_042",
+    "character_id": "char_高令宁",
+    "line": "沈词, 你有病吗？",
+    "subtext": "对他深夜擅闯的强烈愤怒与防备，直接斥责他的越界行为。",
+    "emotion_intensity": 0.89,
+    "order": 7
+  },
+  {
+    "id": "dl_0124",
+    "scene_id": "scene_042",
+    "character_id": "char_旁白",
+    "line": "别着凉。",
+    "subtext": "身后的夫婿在示好与照顾，也是在无声宣示自己此刻陪在高令宁身边。",
+    "emotion_intensity": 0.41,
+    "order": 8
+  },
+  {
+    "id": "dl_0125",
+    "scene_id": "scene_042",
+    "character_id": "char_沈睿",
+    "line": "令宁, 方才窗外打雷了，我知道你会害怕，就想来陪陪你……",
+    "subtext": "以关心为借口靠近她，试图合理化自己的闯入，本质上是在挽回关系、争取留下。",
+    "emotion_intensity": 0.74,
+    "order": 9
+  },
+  {
+    "id": "dl_0126",
+    "scene_id": "scene_042",
+    "character_id": "char_高令宁",
+    "line": "我已经有人陪了。",
+    "subtext": "刻意强调自己并不需要他，直击他的嫉妒和失落，继续拒绝他的靠近。",
+    "emotion_intensity": 0.77,
+    "order": 10
+  },
+  {
+    "id": "dl_0127",
+    "scene_id": "scene_042",
+    "character_id": "char_高令宁",
+    "line": "你走吧。",
+    "subtext": "不给任何转圜余地，要求他立刻退出自己的私人空间和情感关系。",
+    "emotion_intensity": 0.71,
+    "order": 11
+  },
+  {
+    "id": "dl_0128",
+    "scene_id": "scene_043",
+    "character_id": "char_沈睿",
+    "line": "我不放你, 我在地上陪你。",
+    "subtext": "表面退让到睡地上，实则坚持不肯离开；是在以低姿态乞求一个继续守着她的资格。",
+    "emotion_intensity": 0.86,
+    "order": 12
+  },
+  {
+    "id": "dl_0129",
+    "scene_id": "scene_043",
+    "character_id": "char_沈睿",
+    "line": "高令宁，你永远别想摆脱我。",
+    "subtext": "将自己的执念彻底摊开，既是威胁也是近乎绝望的告白，表明不会放手。",
+    "emotion_intensity": 0.94,
+    "order": 13
+  },
+  {
+    "id": "dl_0130",
+    "scene_id": "scene_043",
+    "character_id": "char_沈睿",
+    "line": "只要我还活着……",
+    "subtext": "把纠缠上升到生命长度，强调自己的执着不会因羞耻、拒绝或时间而终止。",
+    "emotion_intensity": 0.9,
+    "order": 14
+  },
+  {
+    "id": "dl_0131",
+    "scene_id": "scene_043",
+    "character_id": "char_沈睿",
+    "line": "我就会恬不知耻地纠缠你一辈子。",
+    "subtext": "主动承认自己的卑微与不体面，只为表明无论她怎样拒绝，他都决定死缠到底。",
+    "emotion_intensity": 0.97,
+    "order": 15
+  }
+]

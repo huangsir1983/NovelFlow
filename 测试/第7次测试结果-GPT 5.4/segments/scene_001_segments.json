@@ -1,0 +1,88 @@
+[
+  {
+    "id": "seg_0013",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0070",
+      "shot_0071",
+      "shot_0072"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "开场三镜头共同服务于同一叙事任务：建立空间、突出木雁、说明高家在婚事中的失衡姿态。角色集合未发生实质变化，情绪仍处于礼数包裹下的压抑铺垫，因此合并为一个起始segment最顺。",
+    "order": 13
+  },
+  {
+    "id": "seg_0014",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0073",
+      "shot_0074",
+      "shot_0075",
+      "shot_0076"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕‘女主入场并锁定目标’展开，虽然角色集合增加了@char_高令宁，但这是一个完整入场动作弧线：先看沈词的冷，再切入女主主观，再落到她占位。情绪从压抑观察过渡到主动控制，仍属于同一试探起手。",
+    "order": 14
+  },
+  {
+    "id": "seg_0015",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0077",
+      "shot_0078",
+      "shot_0079"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头是一个完整动作—反应—宣言链条：退木雁、媒人接木雁、女主表态。没有时空跳转，情绪持续上扬至首次爆点，合并后能保持仪式性冒犯的完整节拍。",
+    "order": 15
+  },
+  {
+    "id": "seg_0016",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0080",
+      "shot_0081",
+      "shot_0082",
+      "shot_0083"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里形成一个明确的情感弧线：高父爆发、女主承压、媒人救场、女主反向加码。虽然人物反应层次增多，但叙事核心仍是‘旧秩序压回去失败，女主把矛头转向沈词’，适合合并为一个升级段落。",
+    "order": 16
+  },
+  {
+    "id": "seg_0017",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0084",
+      "shot_0085",
+      "shot_0086"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是明确的情感转折点：从女主的试探得到男主的瞬间证实，再到双方在公共场合恢复表层体面。三镜头共同完成‘观众后证实’的悬疑闭环，必须连成一气。",
+    "order": 17
+  },
+  {
+    "id": "seg_0018",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0087",
+      "shot_0088",
+      "shot_0089"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜头构成标准的收束节拍：男主给出条件式让步，女主完成信息确认，再以全景重述被改写的空间权力关系。情绪由高点回落，但叙事完成度最高，适合作为尾段。",
+    "order": 18
+  }
+]

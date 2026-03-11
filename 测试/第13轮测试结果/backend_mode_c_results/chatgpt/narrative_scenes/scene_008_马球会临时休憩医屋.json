@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会医屋 - NIGHT",
+  "location": "马球会临时休憩医屋",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "大夫"
+  ],
+  "core_event": "大夫为高令宁正骨，另一边陆姝仪犯胃病被沈词温柔照料；高令宁坚持不退让，陆姝仪当众下跪求留沈家，沈词再度护她。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪泪跪、沈词揽她入怀，女主再次被公开排除在‘偏爱’之外。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "药碗",
+    "塌榻",
+    "衣袖",
+    "衣角",
+    "正骨药具"
+  ],
+  "dramatic_purpose": "把女主前世创伤现场化，推动她从争一口气转向疲惫妥协。",
+  "source_text_start": "大夫来看过了我的伤。\n脚踝错位，正骨完便好了。\n蒋晟垂首",
+  "source_text_end": "良久。\n他痛苦地闭上眼，脸色和我一样苍白。\n……\n陆姝仪说的"
+}

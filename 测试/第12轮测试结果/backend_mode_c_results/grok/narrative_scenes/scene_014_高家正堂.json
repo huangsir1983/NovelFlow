@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高家正堂 - 日间",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高父",
+    "沈母"
+  ],
+  "core_event": "沈母上门要孙女，父亲拒绝对峙",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "沈母难看脸色",
+  "tension_score": 0.65,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "官帽",
+    "茶盏",
+    "昭昭襁褓"
+  ],
+  "dramatic_purpose": "家族对峙"
+}

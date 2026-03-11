@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "id": "scene_013",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:08"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "沈府小厮"
+    ],
+    "related_beats": [
+      "beat_008",
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府内院/湖边 - 黄昏",
+    "location": "沈府内院及湖边",
+    "time_of_day": "dusk",
+    "description": "傍晚天色将暗，湖面反光冷灰，院落由明转暗，气氛骤然阴沉。白日谈话后的余温未散，转场到湖边时空间开阔却空寂，水面成为危险视觉中心。环境中的晚风、岸边石阶与静止水面共同构成不祥预兆。",
+    "action": "白日里陆姝仪刚与高令宁说过话，至傍晚却传来投湖自尽的消息。高令宁匆忙赶至湖边，裙摆拖地，呼吸急促，停在岸边失神望向水面。人群骚动中，沈词赶来，神色骤冷，目光越过湖面直接钉在高令宁身上。高令宁抬手欲解释，又在他充满怀疑的注视下僵住。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "沈府小厮"
+    ],
+    "key_props": [
+      "湖水",
+      "岸边石阶",
+      "灯笼"
+    ],
+    "dramatic_purpose": "制造夫妻关系的重大转折点，以陆姝仪之死引爆不可修复的猜疑与怨恨。",
+    "tension_score": 0.85,
+    "dramatic_intensity": 0.7,
+    "order": 13
+  }
+}

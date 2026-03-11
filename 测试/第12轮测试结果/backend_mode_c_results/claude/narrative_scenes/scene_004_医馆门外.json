@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 医馆门外 - 日",
+  "location": "医馆门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦住高令宁，提出为了儿子沈睿必须成亲，高令宁提出条件要先处理陆姝仪",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次",
+  "emotional_peak": "对峙与妥协",
+  "tension_score": 0.8,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "医馆招牌",
+    "街道",
+    "沈词手上的勒痕"
+  ],
+  "dramatic_purpose": "揭示双方重生动机都是为了儿子，达成交易"
+}

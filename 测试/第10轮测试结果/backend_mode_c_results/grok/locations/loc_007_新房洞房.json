@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_007",
+  "name": "新房洞房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸新房",
+  "description": "喜庆华丽的洞房新房，中央红罗帐床铺设锦被，喜烛摇曳照亮丝带手腕道具。水盆置于床侧，门外有陆婢女叩门痕迹，整体红色调为主，私密而暧昧。",
+  "visual_reference": "Luxurious wedding night bridal chamber in late Ming dynasty mansion, ornate red silk canopy bed with embroidered drapes, flickering red candles, silk ribbon props, water basin stand, intimate red-dominated interior with carved furniture, soft candlelight glow, highly detailed cinematic",
+  "atmosphere": "暧昧紧张、讥诮催促",
+  "color_palette": [
+    "喜红",
+    "金丝",
+    "深紫"
+  ],
+  "lighting": "夜间喜烛温暖摇曳光线，营造亲密氛围",
+  "key_features": [
+    "红罗帐床",
+    "喜烛与丝带",
+    "水盆侧桌"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "圆房后的讥诮对峙到女主催促困倦"
+}

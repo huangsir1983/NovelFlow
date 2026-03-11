@@ -1,0 +1,236 @@
+[
+  {
+    "id": "shot_0561",
+    "scene_id": "scene_040",
+    "shot_number": 1,
+    "goal": "建立厅堂门口与内室过道相连的压迫空间关系，交代门口明暗交界与仆从奔走造成的失序环境，同时把观众置于高令宁即将失控的主观感知里。",
+    "composition": "门框居中形成压景，前景右侧虚焦掠过仆从深色衣摆，地面与门槛斜切入画；中景是明亮门口向昏暗内室过道灌入的天光，高令宁位于画面左中偏后，身形微晃；背景过道纵深里人影来回穿梭，留白集中在门内昏暗区域，形成被吞没感。",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "让观众先感到空间失衡与即将出事的压迫感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 561
+  },
+  {
+    "id": "shot_0562",
+    "scene_id": "scene_040",
+    "shot_number": 2,
+    "goal": "把危机明确落到高令宁身体上，显示她已从言语对峙转入生理失控。",
+    "composition": "高令宁腹部占画面中心偏下，月白与黛青衣料被手指死死攥皱；前景是她垂落发丝和一截袖口，背景完全压成模糊的旧木棕与移动人影，只保留门外一条刺眼高光切在衣褶边缘。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众直接感到疼痛与失控的突发性。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 562
+  },
+  {
+    "id": "shot_0563",
+    "scene_id": "scene_040",
+    "shot_number": 3,
+    "goal": "主观化高令宁的失衡感，表现她腿下一软、站立系统开始崩塌。",
+    "composition": "镜头低位贴近她的裙摆与足下，门槛横贯画面下方，左侧一只绣鞋虚晃后失去重心；前景被扫过的衣摆遮挡，背景是斜倾的廊道线条与慌乱后撤的脚步，视觉地平线不稳定。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "让观众在身体层面感到踉跄与坠落前兆。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 563
+  },
+  {
+    "id": "shot_0564",
+    "scene_id": "scene_040",
+    "shot_number": 4,
+    "goal": "交代高父闯入这一新的力量源，推进事件从内部对峙升级为家庭应急。",
+    "composition": "门外高光中高父自右向左跨入门槛，半身被门框切割；前景左侧是虚焦晃动的人肩，形成窥视感；中景高父脚步急切，衣袍下摆掠过门槛；背景昏暗厅内散立众人尚未完全让开，明暗反差压在高父脸上。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "引发观众对救援希望与更大惊变同时到来的紧张感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高父",
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 564
+  },
+  {
+    "id": "shot_0565",
+    "scene_id": "scene_040",
+    "shot_number": 5,
+    "goal": "表现高父刚看清局面的瞬间认知冲击，为他的呼喊建立情绪动机。",
+    "composition": "高父面部置于画面右侧三分之一，视线指向左外；前景门框暗边压住他半边肩膀，背景是厅中失焦人群与一抹高令宁的冷色身影，门外天光勾出他眼周皱纹与骤然收紧的法令纹。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到父亲的惊惧是被硬生生击穿的，不是戏剧化夸张。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.71,
+    "order": 565
+  },
+  {
+    "id": "shot_0566",
+    "scene_id": "scene_040",
+    "shot_number": 6,
+    "goal": "用高父的呼喊把危机正式命名，并将情绪顶起。",
+    "composition": "高父略前扑，口型张开，位于画面中央偏右；左侧留出大块空位作为他呼喊指向，高亮门口轮廓线与室内阴影交界切过他的脸，背景人影顿住半拍。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众听见并感到父爱失控的刺痛。",
+    "duration_hint": "1s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 566
+  },
+  {
+    "id": "shot_0567",
+    "scene_id": "scene_040",
+    "shot_number": 7,
+    "goal": "回到高令宁主观层面，展现她在呼喊中视线迅速失焦，外界开始远去。",
+    "composition": "高令宁正面近距离占画面中央，脸色惨白，眼神对不到焦；前景边缘有快速掠过的模糊手臂与衣袖形成遮挡，背景人物与门框全部被拉成柔糊色块，仅剩门口高光一团刺眼白斑。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众进入晕眩、缺氧、听觉变远的主观体验。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 567
+  },
+  {
+    "id": "shot_0568",
+    "scene_id": "scene_040",
+    "shot_number": 8,
+    "goal": "给出有限他人反应，强化厅内秩序瞬间崩裂，而非单纯围观。",
+    "composition": "沈词位于画面左前景半侧身，手已下意识前探；蒋晟在右后方猛然转身，陆姝仪被挤在更后景、神色失措；画面中心留给摇晃的高令宁背影，形成众人视线汇聚。过道纵深里一名沈府小厮转身欲跑。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到场面不是静止悲剧，而是瞬间炸开的多向慌乱。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.79,
+    "order": 568
+  },
+  {
+    "id": "shot_0569",
+    "scene_id": "scene_040",
+    "shot_number": 9,
+    "goal": "明确仆从奔去请稳婆与太医，完成剧情跳转到生产抢救通道。",
+    "composition": "过道斜线自左前方延伸至右后方，一名沈府小厮自左向右冲出画面，衣摆飞起；前景是被撞开的帘角与木柱，背景深处另一名仆从被带动转身。门外光在地面拉出长条亮带，引导出画方向。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众感到事件已不可逆地进入紧急处理阶段。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 569
+  },
+  {
+    "id": "shot_0570",
+    "scene_id": "scene_040",
+    "shot_number": 10,
+    "goal": "回到高令宁身体崩塌的关键一秒，表现她向下栽去前的最后支撑断裂。",
+    "composition": "镜头贴近高令宁上身，身体由左向右倾斜侵入画面，颈侧淡痕与苍白下颌被侧逆光挑出；前景有一只赶来扶她的手从右侧闯入但尚未碰到，背景人物全被压暗，仅剩木柱与门口高光形成垂直压迫。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "制造‘来不及’的惊惧与心口一坠。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 570
+  },
+  {
+    "id": "shot_0571",
+    "scene_id": "scene_040",
+    "shot_number": 11,
+    "goal": "从高令宁的坠落主观延伸出世界倾倒感，把厅堂视觉秩序彻底打碎。",
+    "composition": "画面随她视角向下翻斜，门框、梁柱、人脸全部沿对角线滑移；高父与沈词从画面上方边缘扑近却被拉长模糊，中央是一片迅速扩大的暗部，地面旧木棕与衣摆黑影吞没视野。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "让观众直接经历失重、耳鸣、意识塌陷。",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁",
+      "高父",
+      "沈词",
+      "蒋晟",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.97,
+    "order": 571
+  },
+  {
+    "id": "shot_0572",
+    "scene_id": "scene_040",
+    "shot_number": 12,
+    "goal": "以视觉坠入黑暗结束本场，完成从家庭对峙到抢救悬念的断崖式切断。",
+    "composition": "极近的暗部吞满画面，仅保留一线门口白光在上缘迅速收窄消失，像眼睑闭合；无明确人物，仅有最后一缕模糊衣摆黑影掠过下缘。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众在窒息与悬空中被强行截断，带着危机进入下一场。",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 572
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金",
+    "女儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-3岁",
+  "appearance": {
+    "face": "漂亮可爱，像母亲",
+    "body": "幼儿体态",
+    "hair": "乌黑短发，扎小辫",
+    "distinguishing_features": "活泼可爱的笑容"
+  },
+  "costume": {
+    "typical_outfit": "幼儿襦裙，虎头帽",
+    "color_palette": [
+      "红色",
+      "粉色",
+      "彩色"
+    ]
+  },
+  "casting_tags": [
+    "可爱",
+    "聪慧",
+    "活泼"
+  ],
+  "visual_reference": "古代幼儿女孩，漂亮可爱的面容，乌黑短发扎着小辫，身着彩色襦裙和虎头帽，笑容活泼灿烂，眼神聪慧灵动，整体气质天真可爱，背景是庭院或雪地，光线明亮温暖",
+  "visual_prompt_negative": "现代服装，成人体态，忧郁神态",
+  "personality": "活泼聪慧，讨人喜欢",
+  "desire": "父母陪伴，快乐成长",
+  "flaw": "年幼无知",
+  "arc": "从新生儿到三岁幼童",
+  "scene_presence": "后期重要角色",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "被母亲疼爱",
+      "function": "情感寄托"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "父亲渴望陪伴",
+      "function": "情感纽带"
+    }
+  ]
+}

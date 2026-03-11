@@ -1,0 +1,47 @@
+{
+  "name": "小厮",
+  "aliases": [
+    "沈府小厮",
+    "门房小厮"
+  ],
+  "role": "minor",
+  "age_range": "15-30",
+  "appearance": {
+    "face": "普通家仆面容，谨慎畏缩",
+    "body": "瘦小或中等身形",
+    "hair": "简洁小厮发式",
+    "distinguishing_features": "随时听命、传话奔走"
+  },
+  "costume": {
+    "typical_outfit": "普通家仆短打或统一仆役服",
+    "color_palette": [
+      "灰色",
+      "青色"
+    ]
+  },
+  "casting_tags": [
+    "传话家仆",
+    "功能角色"
+  ],
+  "visual_reference": "古代府中小厮，穿灰青色短打，站在门前传话或低头听令，神情恭谨，古风写实",
+  "visual_prompt_negative": "现代制服、夸张漫画表情、华服",
+  "personality": "谨慎、听命",
+  "desire": "把差事办妥不挨罚",
+  "flaw": "无独立判断力",
+  "arc": "无",
+  "scene_presence": "传递义妹消息、门房证词、阻拦闯院等场合出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "听命与传话",
+      "dynamic": "执行她的指令",
+      "function": "推进信息流"
+    },
+    {
+      "target": "沈词",
+      "type": "服侍主家",
+      "dynamic": "执行其往来探视与阻拦场面",
+      "function": "推进场面转换"
+    }
+  ]
+}

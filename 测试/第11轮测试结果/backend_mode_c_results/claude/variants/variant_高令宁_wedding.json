@@ -1,0 +1,30 @@
+{
+  "variant_id": "gao_lingning_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 出嫁大婚",
+  "tags": [
+    "新嫁娘",
+    "凤冠霞帔",
+    "隐忍",
+    "大红嫁衣"
+  ],
+  "scene_ids": [],
+  "trigger": "今生再嫁沈词之日，明知前世婚姻是一场灾难，仍为再见儿子沈睿而穿上嫁衣，表面端庄喜庆，眼底却是清醒的冷意",
+  "appearance_delta": {
+    "face": "施薄妆，唇点朱红，杏眼被喜庆妆容衬得更大更亮，但眼神并无新嫁娘的羞怯与期待，反而沉静如水、暗藏审视",
+    "body": "与主设定一致，纤细挺拔，因嫁衣层叠厚重显得身形更为纤弱",
+    "hair": "全部挽起高髻，以凤冠固定，无散发垂肩，露出纤长脖颈",
+    "distinguishing_features": "脖颈处疤痕今生已消失，但凤冠下她仍下意识以手指触碰颈侧；双手微微攥紧盖头边缘"
+  },
+  "costume_override": {
+    "outfit": "大红织金交领嫁衣，凤冠霞帔全套，裙摆曳地，腰系金丝绦带，内衬红色中衣，足蹬绣花红缎鞋",
+    "color_palette": [
+      "正红",
+      "金色",
+      "朱红"
+    ]
+  },
+  "visual_reference": "A young Chinese woman around 17 years old in a full traditional Chinese wedding dress, bright red cross-collar wedding hanfu with gold embroidery, elaborate phoenix crown (fengguan) with dangling pearl ornaments, red xiapei draped over shoulders, hair fully pinned up in a high bun under the crown, exposing a slender neck, sharp almond eyes with light bridal makeup but an unusually calm and cold gaze devoid of joy, thin lips painted red yet slightly pursed, one hand subtly touching the side of her neck, standing in a red-decorated traditional Chinese wedding hall with hanging lanterns, cinematic lighting with warm red tones, highly detailed, 8k",
+  "visual_prompt_negative": "modern clothing, white wedding dress, Western veil, smile, happy expression, glasses, tattoo, heavy fantasy armor, wings, loose hair",
+  "emotional_tone": "隐忍赴局——表面端庄合礼，内心清醒冷静，带着赌上一切的决绝与对命运的不甘"
+}

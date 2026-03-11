@@ -1,0 +1,40 @@
+{
+  "name": "伯爵娘子",
+  "aliases": [
+    "侯爵娘子"
+  ],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "贵妇面容，社交笑意浓",
+    "body": "保养得体",
+    "hair": "繁复贵妇发髻",
+    "distinguishing_features": "宴会主人式的体面与热络"
+  },
+  "costume": {
+    "typical_outfit": "讲究的贵妇宴会装束",
+    "color_palette": [
+      "金色",
+      "石榴红",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "社交贵妇",
+    "宴会推动者"
+  ],
+  "visual_reference": "Ancient Chinese noble lady hostess, elegant luxurious hanfu, sophisticated expression, aristocratic event setting",
+  "personality": "周旋有术、看重门第往来",
+  "desire": "维持社交圈体面",
+  "flaw": "对他人悲剧缺乏切身感",
+  "arc": "无明显弧线",
+  "scene_presence": "马球会与婚事背景信息中出场",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "社交圈人物",
+      "dynamic": "提供马球会场域",
+      "function": "制造偶遇与对照戏"
+    }
+  ]
+}

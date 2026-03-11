@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 养胎归家时",
+  "tags": [
+    "孕期",
+    "短暂温柔",
+    "强撑硬气",
+    "娘家休养"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "她借养胎回娘家，沈词每日探望时出现；此时夫妻关系短暂呈现出近乎能重来的温柔假象。",
+  "appearance_delta": {
+    "face": "神情较主设定稍微放松，锋利感被孕期的疲惫与短暂安宁削弱；眉眼仍有戒心，但偶尔显出年轻时更柔软的一面。",
+    "body": "怀孕后体态明显柔和，腹部已有孕相，坐卧姿态偏谨慎，但肩背仍习惯性挺直，显出强撑出的硬气。",
+    "hair": "婚后妇人髻，偏低髻或稳妥高髻，简洁簪钗，不以华丽取胜，适合在娘家廊下休养。",
+    "distinguishing_features": "手扶小腹、倚躺靠枕时仍不显脆弱；即使被照料，也像随时准备抽身，不完全交付信任。"
+  },
+  "costume_override": {
+    "outfit": "舒适宽松但仍体面的妇人常服，层次柔和，适合养胎休憩、廊下起居和待客。",
+    "color_palette": [
+      "月白",
+      "藕荷",
+      "淡青"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noble married woman resting during pregnancy in her parental courtyard, elegant oval face, pale cool-toned skin, sharp yet softened eyes, black hair in a simple refined married woman's low bun with understated hairpins, slim body with visible gentle pregnancy curve, upright posture even while reclining, Song dynasty inspired hanfu in moon white, pale lotus, and soft teal, seated on a lounge chair with cushions under a corridor, grapes and tonic gifts nearby, restrained tenderness, cinematic daylight, tranquil courtyard flowers and wind chimes",
+  "visual_prompt_negative": "modern maternity wear, exposed belly, heavy jewelry, fantasy palace, exaggerated smile, short hair, western furniture focus, sexualized pregnancy pose",
+  "emotional_tone": "疲惫中带试探性的安稳，温柔只是暂借"
+}

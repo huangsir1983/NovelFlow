@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词",
+    "媒人"
+  ],
+  "core_event": "媒人提亲，聘礼木雁被拒，高令宁抬价",
+  "key_dialogue": "「聘礼太薄，我不满意。」",
+  "emotional_peak": "沈词震惊与讥诮",
+  "tension_score": 0.75,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "金银绸缎、木雁、聘礼箱、红烛、正堂桌椅"
+  ],
+  "dramatic_purpose": "重生后首次对峙与权力反转"
+}

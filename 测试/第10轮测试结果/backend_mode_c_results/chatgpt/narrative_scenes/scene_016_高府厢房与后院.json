@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 高府厢房 - DUSK",
+  "location": "高府厢房与后院",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "陆姝仪",
+    "蒋晟",
+    "沈词"
+  ],
+  "core_event": "陆姝仪借将出嫁为名来高府求见，后失踪。众人搜寻后，在厢房发现昏迷、衣冠不整的陆姝仪和蒋晟，高令宁震惊，沈词亦面若冰霜。",
+  "key_dialogue": "无",
+  "emotional_peak": "厢房门被推开的一瞬间，所有人都明白一场足以毁掉名声和婚事的灾难已经发生。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "厢房木门",
+    "凌乱衣衫",
+    "床榻",
+    "散乱帷帐",
+    "熏香炉",
+    "昏迷的两人",
+    "灯笼",
+    "门房回话",
+    "后院回廊"
+  ],
+  "dramatic_purpose": "引爆故事最大误会与生产危机前奏"
+}

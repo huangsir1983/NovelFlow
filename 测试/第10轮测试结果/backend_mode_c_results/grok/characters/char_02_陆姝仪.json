@@ -1,0 +1,47 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "18-23",
+  "appearance": {
+    "face": "温婉清丽，柔弱楚楚",
+    "body": "纤弱柔美",
+    "hair": "柔顺长发，粉衣配饰",
+    "distinguishing_features": "泪眼盈盈的清泉般眸子"
+  },
+  "costume": {
+    "typical_outfit": "粉色轻纱汉服",
+    "color_palette": [
+      "粉红",
+      "浅白"
+    ]
+  },
+  "casting_tags": [
+    "楚楚可怜情敌",
+    "重生反派",
+    "古风柔弱美人"
+  ],
+  "visual_reference": "delicate beautiful young Chinese woman in soft pink ancient hanfu, gentle watery eyes, soft- 雪夜卧房内，沈词握腕低语，执念达峰  </think>  fragile features, pale skin, long flowing hair with subtle ornaments, highly detailed cinematic ancient drama style, 8k",
+  "personality": "表面柔弱倔强，内心算计",
+  "desire": "获得稳定归宿与沈词庇护",
+  "flaw": "心机设计、利用柔弱",
+  "arc": "从陷害到坦白并退出",
+  "scene_presence": "前半冲突核心，义妹身份引发多场对峙",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "义兄",
+      "dynamic": "依赖与被庇护",
+      "function": "制造误会"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "敌对设计",
+      "function": "推动剧情冲突"
+    }
+  ]
+}

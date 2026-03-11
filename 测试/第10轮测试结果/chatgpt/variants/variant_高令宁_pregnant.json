@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 养胎期主母态",
+  "tags": [
+    "怀孕",
+    "养胎",
+    "主母",
+    "短暂温柔",
+    "待和离"
+  ],
+  "scene_ids": [
+    "scene_016",
+    "scene_017"
+  ],
+  "trigger": "太医诊出有孕后，她一边绣虎头帽、一边明确表示产后和离；随后回高府养胎，接受沈词探望与示好时出现。",
+  "appearance_delta": {
+    "face": "比主设定更柔和疲倦，气血稍弱，但目光不再全然尖锐，偶有平静与松动",
+    "body": "孕期腹部明显，身形带母性圆润感，同时因心力消耗而显出轻微虚弱",
+    "hair": "多为已婚妇人高髻或较松的居家发髻，减少繁复首饰，方便养胎",
+    "distinguishing_features": "手边常有针线、虎头帽、靠枕等物，行动较慢，整个人呈现从争斗转向倦怠放下的阶段感"
+  },
+  "costume_override": {
+    "outfit": "质地上乘但不浮夸的主母服饰，或适合居家养胎的素雅宽松长裙，外披薄衫",
+    "color_palette": [
+      "月白",
+      "黛青",
+      "浅绛"
+    ]
+  },
+  "visual_reference": "pregnant ancient Chinese noblewoman, Song dynasty style, elegant oval face, pale cool-toned skin, bright eyes softened by exhaustion, black hair in a dignified married updo or relaxed indoor bun, visible pregnancy, refined but understated hanfu in moon white and dark teal, sitting by a couch embroidering a tiger hat, gentle daylight in a noble courtyard, realistic cinematic lighting, proud woman in temporary fragile calm",
+  "emotional_tone": "疲惫、克制、短暂松弛中的清醒"
+}

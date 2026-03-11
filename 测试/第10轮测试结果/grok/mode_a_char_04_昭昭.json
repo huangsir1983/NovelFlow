@@ -1,0 +1,46 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩婴儿脸，后长成可爱圆脸，眼睛灵动",
+    "body": "婴儿期娇小，后蹦跳活泼",
+    "hair": "细软黑发，扎小揪或散开",
+    "distinguishing_features": "阳光开朗的笑脸与聪明灵动的眼神"
+  },
+  "costume": {
+    "typical_outfit": "婴儿襁褓或孩童小袄",
+    "color_palette": [
+      "粉红",
+      "嫩黄"
+    ]
+  },
+  "casting_tags": [
+    "可爱女儿",
+    "情感锚点",
+    "天真孩童"
+  ],
+  "visual_reference": "Adorable Chinese toddler girl age 3, chubby pink cheeks with bright intelligent eyes and fair skin, soft black hair in small buns, wearing colorful toddler hanfu jacket, sunny cheerful smile, ancient Chinese noble family setting, highly detailed masterpiece",
+  "personality": "活泼开朗、聪明好学、喜欢花朵珠宝与史论",
+  "desire": "与父母团聚、玩耍学习",
+  "flaw": "年幼依赖父母",
+  "arc": "起点：早产出生 → 转变：江南成长活泼 → 终点：堆雪认爹爹",
+  "scene_presence": "生产后出生、满月宴、高江南生活、堆雪认父",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母女亲密",
+      "function": "引导"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "父女亲情，沈词宠爱送礼",
+      "function": "引导"
+    }
+  ]
+}

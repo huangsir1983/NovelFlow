@@ -1,0 +1,226 @@
+[
+  {
+    "id": "shot_0240",
+    "scene_id": "scene_016",
+    "shot_number": 1,
+    "goal": "建立柳池与马球场的空间反差，并交代高令宁是从较远处偶然看见这一幕的观察者。",
+    "composition": "WS，右侧前景以半虚的柳枝垂入画面形成遮挡，中景左侧为水面反光轻晃的柳池，远中景偏右可见陆姝仪与沈词相对而立，陆姝仪手中风筝形成视觉焦点；画面最左后方留出一小块球场沙尘与旗影，形成动静反差。高令宁位于画面右后侧边缘，半身被回廊立柱与柳丝切割，呈隐蔽观察姿态。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到这份春日静美中的异样与不祥，意识到高令宁被隔在画面之外。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 240
+  },
+  {
+    "id": "shot_0241",
+    "scene_id": "scene_016",
+    "shot_number": 2,
+    "goal": "切入高令宁主观感知，明确她的注意力被柳池旁的二人牢牢吸住。",
+    "composition": "MS，高令宁置于画面右三分之一，肩背平直却僵住，左侧大面积留白朝向柳池方向；前景下方可见她停住的手部动作一角，背景虚化为浅亮水面与粉色衣影。目光线从她的眼睛指向画外左侧。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "制造心口一滞的瞬间，让观众进入她压住情绪的第一层震动。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 241
+  },
+  {
+    "id": "shot_0242",
+    "scene_id": "scene_016",
+    "shot_number": 3,
+    "goal": "呈现高令宁视线中的对象：陆姝仪向沈词展示风筝，二人关系并未真正疏远。",
+    "composition": "MLS，采用高令宁主观POV轴线。陆姝仪位于画面左侧，微微侧身，双手抬起风筝至胸前偏高位置；沈词站在画面右侧，前倾半步，视线向下落在风筝与陆姝仪之间。二人之间距离近，背后是柔亮池水，垂柳自上方向下包裹，画面边缘略有柳丝遮挡，形成偷看的窥视感。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众与高令宁一同确认‘亲昵’不是误会，而是看得见的事实。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 242
+  },
+  {
+    "id": "shot_0243",
+    "scene_id": "scene_016",
+    "shot_number": 4,
+    "goal": "强化高令宁的生理性受刺反应，表现她动作停住的瞬间。",
+    "composition": "CU，高令宁停住的手占画面下半部中心，指尖原本在整理或持握之物，此刻僵住；上半部虚化可见她衣袖与腰间配饰。背景为浅亮失焦水光，冷白手指与暗纹衣料形成对比。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "把嫉恨先落在身体细节上，传递压抑而尖锐的刺痛。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 243
+  },
+  {
+    "id": "shot_0244",
+    "scene_id": "scene_016",
+    "shot_number": 5,
+    "goal": "展示陆姝仪的讨好与期待，明确她在主动经营这一刻的亲密氛围。",
+    "composition": "MCU，陆姝仪位于画面左中，风筝占据前景右上角斜切入画，形成柔软而刻意的展示姿态；她微侧脸朝向画外右侧的沈词，眼神湿润上扬，唇边有克制笑意。背景是失焦柳丝与水光，色调偏软。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到一种无害外表下的刺目侵入，替高令宁加深不适。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 244
+  },
+  {
+    "id": "shot_0245",
+    "scene_id": "scene_016",
+    "shot_number": 6,
+    "goal": "给出沈词的回应，证明他的神情确实柔和，并非单方面错觉。",
+    "composition": "MCU，沈词位于画面右中，视线向下落至画外左侧，眉眼松弛，唇边有极轻微笑；前景左侧以虚焦风筝边角和陆姝仪袖口切入，制造贴近感。背景保留池水冷亮反光与一缕垂柳。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到这份温柔的确存在，因此更替高令宁感到旧伤被翻开。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 245
+  },
+  {
+    "id": "shot_0246",
+    "scene_id": "scene_016",
+    "shot_number": 7,
+    "goal": "回到高令宁脸上，承接她看见沈词神情后的心理刺痛与克制失衡。",
+    "composition": "CU，高令宁置于画面中央略偏右，背景完全虚化，仅留水面冷亮斑点；她眼尾微红却不动声色，唇线收紧，颈侧淡痕在侧光下若隐若现。画面左侧留出她目光所向的空位，形成被抽空感。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众贴近她不肯外露的疼与恨，感到情绪正在内里翻涌。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 246
+  },
+  {
+    "id": "shot_0247",
+    "scene_id": "scene_016",
+    "shot_number": 8,
+    "goal": "补入蒋晟作为在场旁观者，交代高令宁并非孤立无依，同时增强她此刻不能失态的礼制压力。",
+    "composition": "MS，蒋晟位于画面左侧，身体朝向高令宁，目光察觉她异常却未贸然靠近；右侧前景虚焦为高令宁半边肩背，形成保护性但克制的空间关系。背景远处仍能见柳池亮面与垂柳。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "给观众一点外部张力：她被看见了，却仍必须端住。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 247
+  },
+  {
+    "id": "shot_0248",
+    "scene_id": "scene_016",
+    "shot_number": 9,
+    "goal": "用视线反应切换，让沈词像是感知到有人在看，开始从陆姝仪身上抽离。",
+    "composition": "MCU，沈词仍位于画面右中，原本向下的目光停顿后缓慢抬起，视线转向镜头方向；前景左侧风筝与粉色袖口仍在，但开始失去关注中心。背景水光变冷，柳丝轻摆。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "制造一丝骤然紧绷的察觉感，预告关系格局将被打破。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 248
+  },
+  {
+    "id": "shot_0249",
+    "scene_id": "scene_016",
+    "shot_number": 10,
+    "goal": "完成隔空对视的建立，确认沈词看见了高令宁。",
+    "composition": "CU，沈词正面略侧，眼神穿过镜头直直望来，唇边笑意已收，神情在柔和与迟疑之间停住。背景虚化为亮水与柳影，不再见陆姝仪。构图中央压实，制造目光压迫。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到被点破的窒息与危险：这不是单向窥视，而是旧情旧怨突然接通。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 249
+  },
+  {
+    "id": "shot_0250",
+    "scene_id": "scene_016",
+    "shot_number": 11,
+    "goal": "切回高令宁，完成正反打式对视，表现她没有躲开。",
+    "composition": "CU，高令宁正面略偏左，目光直视画外右侧，眼神冷硬到几乎发亮，面部极少动作；背景压暗，水光只留稀薄反射。画面中下部可见她微微绷紧的肩颈线条。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她的恨意与清醒同时抬头，不是受伤后的退让，而是带刺的迎视。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 250
+  },
+  {
+    "id": "shot_0251",
+    "scene_id": "scene_016",
+    "shot_number": 12,
+    "goal": "以更客观的空间镜头收束这一刻：三人关系被重新钉死，高令宁的挑衅动机已经成立。",
+    "composition": "FS，镜头沿对视轴线稍偏侧面。右前景为高令宁与蒋晟，二人立于回廊/岸边阴影处；左中景为柳池旁的沈词与陆姝仪，陆姝仪仍持风筝但被置于稍后位置，沈词已抬眼望向右侧。池水横向分隔两组人物，柳丝与岸线形成天然界线，画面层次清晰，礼法式距离感被空间具体化。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "留下冷而锋利的余味，让观众清楚看见这场无声对峙的关系版图。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 251
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "variant_id": "shenci_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 江南追妻",
+  "tags": [
+    "三年后",
+    "痴缠",
+    "执着"
+  ],
+  "scene_ids": [
+    "scene_018",
+    "scene_019"
+  ],
+  "trigger": "三年后江南院落雪地来访及夜闯卧房爬床纠缠时",
+  "appearance_delta": {
+    "face": "俊美如玉眼神阴沉深邃，似哭似笑",
+    "body": "长身玉立姿态强势",
+    "hair": "黑发束冠微散",
+    "distinguishing_features": "黑眸充满疯狂痴情与不舍"
+  },
+  "costume_override": {
+    "outfit": "深色锦袍外披氅衣",
+    "color_palette": [
+      "墨黑",
+      "深蓝"
+    ]
+  },
+  "visual_reference": "一位25岁左右古代年轻文官在江南雪地或卧房，俊美面容阴沉带笑，剑眉星目眼神似哭似笑痴缠，黑发束冠略散，身穿深蓝色锦袍外披厚氅，姿态强势贴近或站立雪中，雪球或雷雨窗背景，压抑执着氛围，写实风格，高清细节，古风氛围",
+  "visual_prompt_negative": "现代西装、胡须过多、胖脸、笑容过多甜腻、卡通风格、轻松表情",
+  "emotional_tone": "痴缠不舍，深情疯狂"
+}

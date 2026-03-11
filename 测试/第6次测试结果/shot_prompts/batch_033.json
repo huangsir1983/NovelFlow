@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0198",
+    "shot_id": "shot_0210",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, strides urgently from right to left with robes driven by wind, expression tense and hardening, while frightened male servants in ancient household livery recoil in the right foreground, only their backs and shoulders visible, one carrying a lantern that partially blocks the frame, all nearby gazes converging toward the same off-screen point, medium long shot, partially occluded corridor passage opening in the middle ground, lakeside and low dim covered walkway in the background, low-saturation cold lake tones against weak amber lantern light, side-back light carving his silhouette and deep folds of fabric, restrained red accents only in distant lantern glow, cinematic historical drama realism, dynamic pan feel, layered composition, high detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cold lakeside ambient light with weak amber lantern glow, side-back lighting, dim corridor shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, blurry face, distorted anatomy, extra limbs, contemporary clothing, electric lights, plastic, metal railings, cars, phones, neon, modern hairstyle"
+  },
+  {
+    "id": "sp_0199",
+    "shot_id": "shot_0211",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, in a close-up he has just seen the scene before him, his gaze passes beyond the camera and then fixes sharply, urgency collapsing into a cold cutting stare, under-eye shadows deepened, the outer corners of his eyes slightly reddened yet his expression becomes harder and more judgmental, centered slightly to the right of frame, background blurred into a cold blue-gray lake surface with a small smear of warm lantern light, low-saturation warm-cool collision, side rim light and backlight pressing shadow into his features, intimate oppressive cinematic realism, shallow depth of field, fine skin texture, emotional tension, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, shallow depth of field, historical drama realism, subtle film grain",
+      "lighting": "cold blue-gray ambient lake light with a faint amber lantern accent, side-back lighting, deepened eye shadows, low-saturation contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, overexposed, flat lighting, cartoon, anime, contemporary fashion, electric lamps, jewelry out of period, extra fingers, malformed eyes"
+  },
+  {
+    "id": "sp_0200",
+    "shot_id": "shot_0212",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, and A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, over-the-shoulder reverse shot from behind the woman, her shoulder and neck softly out of focus in the left foreground, the man stands in the middle ground slightly right of center staring past the death scene directly at her, his posture rigid and controlled, accusation landing silently in his eyes, medium shot, the lake spreads horizontally behind him, the crowd reduced to the far background edges, an empty space left between them like an uncrossable waterline, low-saturation cold lake palette with faint amber lantern spill, side-back lighting, dim corridor shadows, restrained red limited to distant lantern tint, cinematic historical realism, emotional fracture, high detail, shallow focus layering",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, over-the-shoulder composition, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cold lakeside ambient light, faint amber lantern highlights, side-back lighting, soft shadow separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, split screen, modern makeup, modern fabric patterns, electric lights, plastic props, cars, phones, city skyline, distorted perspective, low detail"
+  },
+  {
+    "id": "sp_0201",
+    "shot_id": "shot_0213",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, in a close-up from a slightly low angle, her eyes shift from the lake toward the off-screen right, shock tightening into wary defense as she realizes she is being suspected, her lips tense, breath caught, a blurred dark human silhouette presses into the upper left of the frame to create a feeling of looming scrutiny, low-saturation cold palette with a weak lantern warmth barely touching one edge of her face, side-back light emphasizing cheekbone, throat, and the faint scar on her neck, shadowed background, oppressive intimate historical drama realism, subtle handheld tension, shallow depth of field, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, intimate close-up, historical drama realism, subtle film grain",
+      "lighting": "cold ambient lakeside light with minimal amber lantern warmth, side-back lighting, deep shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, beauty filter, glossy modern makeup, contemporary accessories, electric lighting, plastic hairpins, blurred features, deformed hands, extra limbs"
+  },
+  {
+    "id": "sp_0202",
+    "shot_id": "shot_0214",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, medium close-up, centered in frame, she instinctively lifts her right hand from below into the area before her chest as if about to explain, but the gesture stalls halfway, her expression caught between urgency and restraint, words trapped in her throat, behind her on the right a newly lit lantern glows weak amber, on the left a broad cold dark lake fills the background, warm and cool tones colliding yet the warm light remains powerless, side-back lighting, low saturation, dim night air, historical drama realism, clean composition, emotional suspension, highly detailed fabric texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, medium close-up, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, weak amber lantern on one side against cold dark lakeside ambient light, side-back lighting, soft shadow depth"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, cropped hand, extra fingers, contemporary clothing, electric lantern, LED light, modern jewelry, plastic textures, oversaturated colors, anime style"
+  },
+  {
+    "id": "sp_0203",
+    "shot_id": "shot_0215",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, close-up nearly frontal and dominating the frame, his eyes lock toward the left side of the image, silent and unyielding, the outer corners of his eyes faintly red yet his expression remains colder and more severe, grief compressed into judgment and resentment, background completely blurred into cold gray with a trace of dark red lantern shadow, low-saturation palette, strong side-back light shaping the bridge of his nose and jawline, deep shadow around the eyes, oppressive intimate historical drama realism, shallow depth of field, emotional violence through stillness, ultra detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, intense close-up, historical drama realism, subtle film grain",
+      "lighting": "cold gray ambient light with a faint dark red lantern trace, side-back lighting, deep eye shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, soft cute expression, smiling, contemporary hairstyle, electric lights, modern costume, plastic, oversaturated red, low detail, distorted face, extra eyes"
+  }
+]

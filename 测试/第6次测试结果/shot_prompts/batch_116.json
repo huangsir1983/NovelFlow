@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0696",
+    "shot_id": "shot_0630",
+    "prompt_text": "A stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, seated on the left side slightly set back in a medium shot, her posture subtly collapsed at the shoulders, hands still, lips pressed tight, silent and humiliated, staring toward the unseen right side with no way to respond; a table corner and an untouched tea cup in the foreground create separation, a doorway in the background frames an exit she does not take, interior of a noble mansion hall with gray-blue shadows, old wood brown, low-saturation warm-cool contrast, hardening daylight entering from the side and back, restrained natural light with faint amber indoor warmth, static composition with large empty negative space on the right; cinematic historical drama realism, Song dynasty aesthetic, highly detailed, subtle film grain, emotionally cold defeat",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, side-back daylight with faint amber interior fill, hard natural light, doorway framing shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lights, glass windows, plastic, modern makeup, printed text, subtitles, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, deformed hands"
+  },
+  {
+    "id": "sp_0697",
+    "shot_id": "shot_0631",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, positioned steady in the right rear main seat, and A stern aristocratic Chinese noble matriarch in ancient hanfu, late 50s, thin face with deep nasolabial folds, sharp downturned eyes, neat high bun with jade hairpins, dark embroidered brocade robe in deep green and maroon, dignified yet cold, placed lower and closer to the doorway on the left side in a full shot, both holding still after confrontation, the father calm and dominant, the mother diminished and cornered, neither touching the guest seats or tea cups; the noble mansion hall appears colder and emptier than before, untouched seats and tea cups emphasize the failed negotiation, slanting lattice window shadows stretch across the floor, a clear depth corridor is left open near the doorway as if someone will soon burst in, gray-blue daylight grows harder against old wood brown interiors, low-saturation warm-cool contrast with restrained empty space; cinematic historical drama realism, static wide framing, tense architectural composition, highly detailed, subtle film grain, cold ending with looming storm",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "hardening natural daylight, low-saturation cool daylight against muted warm wood, slanted window-shadow pattern, restrained interior fill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary decor, electric fixtures, plastic, glass tableware, modern architecture, printed text, subtitles, watermark, logo, low quality, blurry, overexposed, cartoon, anime, distorted anatomy"
+  },
+  {
+    "id": "sp_0698",
+    "shot_id": "shot_0682",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, kneeling upright near the left lower center, and A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, seated or standing slightly back on the right side, with a historical mansion servant in plain dark robe pressed into the left rear background maintaining order; from a restrictive near-subjective female eye-level viewpoint inside the front hall, the blurred edge of a doorway passes across the lower foreground, a divorce document on the ground at center is cut by a shaft of daylight and becomes the visual focus, the young man kneels rigidly facing forward in suppressed desperation, the father remains controlled and immovable, a half-closed carved wooden door in the right rear leads toward the back courtyard, bright exterior light beyond the door creates a stark interior-exterior contrast, the hall is oppressive with old wood columns and ritual space blocking movement, low-saturation gray-blue, dark ink-black, aged wood brown palette with restrained amber traces; cinematic historical drama realism, static full shot, layered depth, architectural pressure, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "natural daylight slicing across the floor, side-back light, strong bright-dark contrast at the half-closed carved door, low-saturation warm-cool balance"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, metal railings, modern paper, printed text, calligraphy readable text, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, bad perspective"
+  },
+  {
+    "id": "sp_0699",
+    "shot_id": "shot_0683",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a close downward view while kneeling, only his knees and the hanging hem of his robe entering from the upper left, his body visibly gaunt through the looseness of the fabric; a divorce document lies at the lower center of the frame as the main focus, one paper corner lifted slightly by a faint indoor breeze, on the upper right the robe hem and steady hand of A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, pin the page in place, floor tile lines guide the eye toward the document, the hall remains austere and airless, muted gray-blue and old wood brown tones, cold daylight falling across the paper with soft shadow around it; cinematic historical drama realism, static close-up, precise symbolic composition, highly detailed texture, subtle film grain, ruthless emotional restraint",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "focused natural daylight on the document, muted side light, soft interior shadow, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, printed text, readable text, modern stationery, electric lighting, plastic, watermark, logo, low quality, blurry, noisy, cartoon, anime, extra fingers, distorted hands"
+  },
+  {
+    "id": "sp_0700",
+    "shot_id": "shot_0684",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, kneeling in the left third of the frame in a medium close-up, body straight yet clearly thin, lifting his head toward the unseen right side as if pleading with controlled restraint, dark circles under his eyes visible, a few strands of black hair slightly loosened, his expression stubborn and quietly breaking beneath composure; behind him are dim wooden pillars and a broad area of shadow left empty at the frame edge, side-back light from the doorway outlines his cheekbone, jawline, and loose hair strands, the hall is heavy with gray-blue darkness and aged wood brown, low-saturation warm-cool contrast, restrictive noble interior space; cinematic historical drama realism, subtle dolly-in feeling, highly detailed skin and fabric texture, shallow depth of field, film grain, aching restraint",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "side-back doorway daylight outlining the face, dim interior shadows, low-saturation cool-warm contrast, restrained natural fill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary hairstyle, electric lamps, plastic, zipper, printed text, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, deformed anatomy"
+  },
+  {
+    "id": "sp_0701",
+    "shot_id": "shot_0685",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, positioned in the right third of the frame in a medium close-up from a slightly elevated angle, one hand still pressing on the table edge, expression severe and controlled, looking toward the unseen kneeling young man with an unshakable refusal; the blurred shoulder and back outline of A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, remain in the left foreground to preserve the confrontation axis, behind the father stand a deep teal wooden screen and layered shadow, the noble hall is rigid and formal, muted gray-blue, dark teal, old wood brown palette, low-saturation warm-cool contrast, compressed space and stillness intensify paternal authority; cinematic historical drama realism, static shot-reverse-shot composition, highly detailed, subtle film grain, cold oppressive authority",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "controlled side light with deep shadow behind, low-saturation cool daylight mixed with faint warm interior undertone, screen-divided contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electric lights, plastic, printed text, subtitles, watermark, logo, low quality, blurry, oversaturated, cartoon, anime, distorted perspective, bad hands"
+  }
+]

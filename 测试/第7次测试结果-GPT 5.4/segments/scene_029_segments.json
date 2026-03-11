@@ -1,0 +1,87 @@
+[
+  {
+    "id": "seg_0140",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0432",
+      "shot_0433",
+      "shot_0434"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属内宅建立段，角色集合稳定，时空未变，情绪从环境压迫自然推进到画作受损与沈睿受伤，构成单一完整的冲突起点，适合合并为一段6秒建立场。",
+    "order": 140
+  },
+  {
+    "id": "seg_0141",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0435",
+      "shot_0436",
+      "shot_0438"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot围绕‘女主先看见挑衅—压住怒意—先收拾残局’展开，视角统一以高令宁为主导，情感从警觉到克制接管，未发生时空变化，适合整合为一个主观控制段。",
+    "order": 141
+  },
+  {
+    "id": "seg_0142",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0439",
+      "shot_0440",
+      "shot_0441"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头形成明确的小情绪弧线：处理残局的动作、动作中显露的决断、孩子接收到保护信号后的反应。角色不变、地点不变，重点是情感联结建立，适合合并。",
+    "order": 142
+  },
+  {
+    "id": "seg_0143",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0437",
+      "shot_0438",
+      "shot_0442",
+      "shot_0443"
+    ],
+    "segment_number": 4,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "此处虽包含室内到门外的小空间迁移，但叙事动作连续且核心仍是‘高令宁接管局面并将人带离’，情绪从冷审视升级为实际处置，适合并成一段较长的局势骤变段。",
+    "order": 143
+  },
+  {
+    "id": "seg_0144",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0444",
+      "shot_0445",
+      "shot_0446",
+      "shot_0447",
+      "shot_0448"
+    ],
+    "segment_number": 5,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成完整的回廊处置段：先主观识别、再内心定判、亮出身契、婢女反噬、最终交付。时空一致，情绪持续上升到本场最高点，适合合并成一个完整高潮段。",
+    "order": 144
+  },
+  {
+    "id": "seg_0145",
+    "scene_id": "scene_029",
+    "shot_ids": [
+      "shot_0449"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一镜承担全场收束功能，角色重心转回沈睿，情绪由高潮回冷，且无进一步动作需要切分，单独成段最能保留余韵与后续叙事钩子。",
+    "order": 145
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "total_api_calls": 257,
+  "total_input_tokens": 1167255,
+  "total_output_tokens": 600544,
+  "total_tokens": 1767799,
+  "total_api_elapsed_s": 11945.4,
+  "stages": {
+    "6": {
+      "input_tokens": 173295,
+      "output_tokens": 179333,
+      "elapsed_s": 3408.7699999999995,
+      "api_calls": 51
+    },
+    "7": {
+      "input_tokens": 171545,
+      "output_tokens": 58085,
+      "elapsed_s": 1337.4700000000003,
+      "api_calls": 51
+    },
+    "8": {
+      "input_tokens": 19327,
+      "output_tokens": 19793,
+      "elapsed_s": 395.70000000000005,
+      "api_calls": 12
+    },
+    "9": {
+      "input_tokens": 766486,
+      "output_tokens": 305833,
+      "elapsed_s": 6001.070000000001,
+      "api_calls": 134
+    },
+    "10": {
+      "input_tokens": 36602,
+      "output_tokens": 37500,
+      "elapsed_s": 802.4100000000001,
+      "api_calls": 9
+    }
+  }
+}

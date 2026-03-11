@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_01",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 重生初期（冷漠拒婚）",
+  "tags": [
+    "重生",
+    "冷漠",
+    "拒绝",
+    "未婚"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_003",
+    "scene_004"
+  ],
+  "trigger": "重生后首次面对沈家提亲，拒绝木雁聘礼到提出苛刻条件",
+  "appearance_delta": {
+    "face": "眼神冷淡疏离，带着前世的疲惫和决绝",
+    "body": "姿态挺直，防御性强",
+    "hair": "未婚女子发髻，简洁利落",
+    "distinguishing_features": "眼中藏着不为人知的痛苦和算计"
+  },
+  "costume_override": {
+    "outfit": "未婚女子襦裙，朴素端庄",
+    "color_palette": [
+      "青色",
+      "月白色"
+    ]
+  },
+  "visual_reference": "young Chinese woman in simple hanfu, unmarried hairstyle, cold distant eyes with hidden pain, proud defensive posture, rejecting gesture, ancient China interior, natural lighting, determined expression, delicate features with resolute character",
+  "emotional_tone": "冷漠、防备、隐忍的痛苦"
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高府正堂 - DAY",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "沈家上门提亲，高令宁嫌弃聘礼太薄，当众退回木雁，给沈词难堪。",
+  "key_dialogue": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+  "emotional_peak": "高令宁退回木雁时，沈词震惊且带有寒意的对视。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "木雁",
+    "金银绸缎",
+    "茶盏",
+    "媒人的红手帕"
+  ],
+  "dramatic_purpose": "建立双重生设定，展现女主今生不再委曲求全的强硬态度，确立男女主剑拔弩张的关系基调。"
+}

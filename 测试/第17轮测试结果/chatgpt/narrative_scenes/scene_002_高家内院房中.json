@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - DAY",
+  "location": "高家内院房中",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "高父质问高令宁为何突然为难沈词，高令宁表明自己不是不嫁，而是一定要嫁。",
+  "key_dialogue": "「谁说我不想嫁？我一定要嫁。」",
+  "emotional_peak": "高令宁压下怨恨与算计，坚定选择重走婚路。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "发钗",
+    "家中屏风与坐榻",
+    "茶盏"
+  ],
+  "dramatic_purpose": "明确女主再嫁不是爱情而是带着目的进入棋局。",
+  "source_text_start": "2.\n回到屋内。\n父亲绕着我转圈，不理解极了：「你发什么疯",
+  "source_text_end": "」\n父亲愣住了。\n我低声说：「我一定要嫁。」"
+}

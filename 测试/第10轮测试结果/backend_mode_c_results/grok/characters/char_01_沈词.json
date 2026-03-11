@@ -1,0 +1,53 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词"
+  ],
+  "role": "supporting",
+  "age_range": "21-27",
+  "appearance": {
+    "face": "白净如玉，俊朗清冷，五官端正",
+    "body": "长身玉立，修长挺拔",
+    "hair": "黑发以玉冠束起",
+    "distinguishing_features": "琥珀色冷眸与讥诮冷笑"
+  },
+  "costume": {
+    "typical_outfit": "深色文人长袍，官服或常服",
+    "color_palette": [
+      "墨黑",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "冷峻男主",
+    "重生追妻",
+    "古风学者官员"
+  ],
+  "visual_reference": "handsome aloof Chinese scholar-official in ancient dynasty, cold amber piercing eyes, refined pale face, tall slender build, black hair tied with jade guan, dark elegant robes, highly detailed cinematic ancient drama style, 8k",
+  "personality": "清冷尖锐、端方持重、内心复杂",
+  "desire": "挽回妻子与女儿，弥补前世遗憾",
+  "flaw": "误会冷待、尖锐伤人、不善表达",
+  "arc": "从恨到后悔追妻，从冷漠到恬不知耻纠缠",
+  "scene_presence": "与女主对戏核心，从提亲到江南深夜爬床",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "前妻",
+      "dynamic": "爱恨纠缠到执着挽回",
+      "function": "情感救赎与张力源头"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "义妹",
+      "dynamic": "兄妹情谊被误解",
+      "function": "冲突催化"
+    },
+    {
+      "target": "昭昭",
+      "type": "女儿",
+      "dynamic": "深沉父爱",
+      "function": "和离后牵绊"
+    }
+  ]
+}

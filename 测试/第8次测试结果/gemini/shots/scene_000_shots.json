@@ -1,0 +1,184 @@
+[
+  {
+    "id": "shot_0000",
+    "scene_id": "scene_000",
+    "shot_number": 1,
+    "goal": "建立场景环境与反讽基调。用死板的木雁与华丽聘礼的对比，暗示这场婚姻的虚伪与廉价。",
+    "composition": "画面中央为红木托盘与雕工死板的木雁，占据视觉焦点。背景虚化（浅景深），隐约可见错落的红底金边聘礼箱。冷调自然光从画左（大门方向）切入，形成强烈的明暗交界线（Chiaroscuro）。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压抑、荒诞、冷漠",
+    "duration_hint": "3s",
+    "characters": [],
+    "transition_in": "fade_in",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 0
+  },
+  {
+    "id": "shot_0001",
+    "scene_id": "scene_000",
+    "shot_number": 2,
+    "goal": "交代次要人物关系与阶级落差。展示父亲的谄媚与高家在这场联姻中的卑微姿态。",
+    "composition": "双人构图。父亲居画左，身体前倾，含胸赔笑；媒人居画右中景。两人处于室内较暗的区域，父亲脸上的法令纹在顶光下显得局促而市侩。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "轻蔑、不适",
+    "duration_hint": "4s",
+    "characters": [
+      "父亲",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.2,
+    "order": 1
+  },
+  {
+    "id": "shot_0002",
+    "scene_id": "scene_000",
+    "shot_number": 3,
+    "goal": "沈词初登场。建立其置身事外、高高在上的旁观者姿态，为后续的震惊做铺垫。",
+    "composition": "利用深焦镜头，媒人的肩膀作为画右虚化的前景。沈词居画面偏左三分之一处，身姿笔挺，被窗棂的阴影切割。冷月白长衫在暗调背景中极为惹眼，眼眸微垂，完全不看聘礼。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "疏离、神秘、压迫感",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "flash_cut",
+    "dramatic_intensity": 0.3,
+    "order": 2
+  },
+  {
+    "id": "shot_0003",
+    "scene_id": "scene_000",
+    "shot_number": 4,
+    "goal": "女主视角的觉醒。打破前世温顺人设的心理转折点。",
+    "composition": "高姑娘面部特写。一半脸庞隐在幽蓝冷影中，一半被门外天光照亮。眼神如刀般锐利，毫无波澜。背景完全陷入纯黑。",
+    "camera_movement": "steadicam",
+    "framing": "CU",
+    "emotion_target": "肃杀、决绝、屏息",
+    "duration_hint": "3s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "flash_cut (夹杂1帧过曝暗红色的前世死亡闪回)",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.5,
+    "order": 3
+  },
+  {
+    "id": "shot_0004",
+    "scene_id": "scene_000",
+    "shot_number": 5,
+    "goal": "动作爆发。高姑娘主动出击，打破场景内原本虚伪的平衡。",
+    "composition": "高姑娘从画左强行入画，动作利落地抓起托盘里的木雁，直接塞入画右媒人的怀中。媒人惊慌失措，身体后倾破坏了原本的构图平衡。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "震惊、爽感、突兀",
+    "duration_hint": "2s",
+    "characters": [
+      "高姑娘",
+      "媒人"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 4
+  },
+  {
+    "id": "shot_0005",
+    "scene_id": "scene_000",
+    "shot_number": 6,
+    "goal": "捕捉沈词的心理防线被击穿的瞬间。确认女主的异常。",
+    "composition": "极特写。沈词的眼部占据满屏。原本低垂的睫毛猛地抬起，瞳孔在冷光下微缩，原本的漫不经心被瞬间撕裂。",
+    "camera_movement": "zoom",
+    "framing": "ECU",
+    "emotion_target": "悬疑、倒吸一口凉气",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 5
+  },
+  {
+    "id": "shot_0006",
+    "scene_id": "scene_000",
+    "shot_number": 7,
+    "goal": "展现父权的无能狂怒，作为男女主心理博弈的背景音。",
+    "composition": "父亲在画面中后景（主位），猛地拍击茶几霍然起身，手指指向画外（镜头方向）。前景留白，强调他的色厉内荏与对失去攀附机会的极度恐慌。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "厌恶、烦躁",
+    "duration_hint": "2.5s",
+    "characters": [
+      "父亲"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.6,
+    "order": 6
+  },
+  {
+    "id": "shot_0007",
+    "scene_id": "scene_000",
+    "shot_number": 8,
+    "goal": "高姑娘的终极试探。直接向沈词下战书，台词字字诛心。",
+    "composition": "高姑娘居画左，微微扬起下巴。光线完美勾勒出她高折叠度的骨相。嘴角勾起一抹讥诮的冷笑，视线越过镜头，死死锁定画右前方的沈词。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "掌控感、极度危险",
+    "duration_hint": "4s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 7
+  },
+  {
+    "id": "shot_0008",
+    "scene_id": "scene_000",
+    "shot_number": 9,
+    "goal": "沈词的接招与反击。双重生身份的隐秘确认。",
+    "composition": "正反打（匹配上一镜）。沈词居画右。眼底的震惊已经完全褪去，化作冰冷的审视。他微微侧头，面部肌肉极度克制，嘴角扯出一个没有温度的弧度。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "棋逢对手的战栗感",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 8
+  },
+  {
+    "id": "shot_0009",
+    "scene_id": "scene_000",
+    "shot_number": 10,
+    "goal": "定格两人之间剑拔弩张的宿命感，正式拉开今生博弈的序幕。",
+    "composition": "侧面双人对峙构图。高姑娘在左，沈词在右。两人之间隔着被退回的木雁（前景下边缘）。背景的父亲和媒人被完全虚化。两人身姿同样笔挺，视线在半空中交汇，犹如两柄出鞘的冷剑。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "窒息感、期待感（对后续剧情的渴望）",
+    "duration_hint": "5s",
+    "characters": [
+      "高姑娘",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "fade_out",
+    "dramatic_intensity": 0.9,
+    "order": 9
+  }
+]

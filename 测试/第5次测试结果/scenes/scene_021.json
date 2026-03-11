@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "id": "scene_021",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ]
+  },
+  "data": {
+    "heading": "INT. 诊治休息处 - DAY",
+    "location": "诊治休息处",
+    "time_of_day": "day",
+    "description": "室内封闭，层高普通，光线自窗侧斜照入内，照出药箱、矮榻、木椅与地面散落的衣摆阴影。空间一侧用于正骨诊治，另一侧可见临时安置病人的塌位。空气里有药味，气氛压抑而克制。",
+    "action": "高令宁坐在榻边或椅上，脚踝被大夫托住正骨，疼得肩背绷紧，手指死死攥住身下布料。蒋晟守在一旁，身体前倾，几次想上前又忍住，低声解释未能护住她的缘由，神色愧疚。大夫专注按压、扶正、包扎她的脚踝。高令宁脸色发白，额角沁汗，强忍不出声，只在骨头复位时短促吸气。",
+    "dialogue": [
+      {
+        "character": "蒋晟",
+        "line": "是我没护住你。",
+        "subtext": "他在自责，也试图弥补自己在她面前的失职。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "key_props": [
+      "药箱",
+      "绷带",
+      "木榻",
+      "木椅"
+    ],
+    "dramatic_purpose": "建立高令宁受伤后的脆弱处境与蒋晟的愧疚，为后续离开与立场靠拢做情绪铺垫。",
+    "tension_score": 0.35,
+    "order": 21
+  }
+}

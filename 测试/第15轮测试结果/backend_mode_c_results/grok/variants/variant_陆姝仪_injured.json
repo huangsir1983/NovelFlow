@@ -1,0 +1,31 @@
+{
+  "variant_id": "陆姝仪_variant_01",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 胃病发作",
+  "tags": [
+    "病弱",
+    "发作",
+    "柔弱"
+  ],
+  "scene_ids": [
+    "scene_006",
+    "scene_007"
+  ],
+  "trigger": "马球会临时歇脚处，胃病发作时沈词照顾，以及随后挣扎下榻跪求暂留时",
+  "appearance_delta": {
+    "face": "脸色苍白，额头冒汗，泪眼盈盈带痛楚",
+    "body": "纤细柔弱，略微蜷缩或挣扎",
+    "hair": "乌发柔顺略显凌乱",
+    "distinguishing_features": "虚弱喘息，手捂胃部"
+  },
+  "costume_override": {
+    "outfit": "粉色轻纱衣裙略显凌乱",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "十九岁左右古代柔弱少女，温婉清丽脸庞略显苍白额头细汗，细长柳眉水汪汪杏眼含泪带痛楚，皮肤白嫩带病态，身材纤细楚楚可怜，穿着粉色轻纱襦裙略乱，长发柔顺披肩但几缕贴脸，躺在榻上或挣扎下榻姿态，临时歇脚处室内背景，药碗道具，柔光写实，高清细腻",
+  "visual_prompt_negative": "强壮身材、浓妆、现代服装、卡通、西方五官、强势表情、健康红润脸色",
+  "emotional_tone": "虚弱痛苦"
+}

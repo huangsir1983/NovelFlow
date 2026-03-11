@@ -1,0 +1,32 @@
+{
+  "variant_id": "lu_shuyi_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "陆姝仪 — 前世新婚敬茶时",
+  "tags": [
+    "新婚",
+    "柔弱美人",
+    "被逼敬茶",
+    "表面无害",
+    "高压处境"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "前世沈府新婚第二日，沈母逼她给高令宁敬茶，试探高令宁是否容忍平妻，她作为被安排与被摆布的一方出现在正厅与婚房场景中。",
+  "appearance_delta": {
+    "face": "较主设定更显惊惶与无措，眼中含泪，面色苍白，楚楚可怜感更强",
+    "body": "身形愈发拘谨单薄，站姿收缩，呈现被压迫下的脆弱感",
+    "hair": "温婉少女发式更正式，配合新婚场合整理得更齐整，饰以浅色绢花或细小簪饰",
+    "distinguishing_features": "手捧茶盘或近茶盏时的顺从姿态、泪眼与受惊神情形成强烈迷惑性"
+  },
+  "costume_override": {
+    "outfit": "偏新婚礼制感的浅粉或藕荷色精致襦裙，较日常更正式，搭配柔软披帛与小巧首饰，整体仍维持清雅不张扬",
+    "color_palette": [
+      "粉",
+      "藕荷",
+      "浅杏"
+    ]
+  },
+  "visual_reference": "ancient chinese gentle young woman at a wedding tea ceremony, fragile and delicate beauty, watery tearful eyes, pale complexion, slim weak figure, soft pink and lotus hanfu with elegant embroidery, light silk shawl, small refined hairpins and pale silk flowers, standing timidly in a candlelit manor hall, holding tea tray, vulnerable yet deceptive expression, cinematic period drama, dramatic tension, detailed costume, soft warm lantern light",
+  "emotional_tone": "被安排与求生本能交缠的惊惶隐忍"
+}

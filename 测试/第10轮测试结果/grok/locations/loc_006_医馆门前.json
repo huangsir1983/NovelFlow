@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_006",
+  "name": "医馆门前",
+  "type": "exterior",
+  "era_style": "明代市井医馆门前",
+  "description": "临街医馆入口，木门框上挂药旗与招牌，门前石阶与药包堆放，墙面贴膏药广告，地面青石板，旁边可见街巷行人，空间狭窄却具有市井气息。",
+  "visual_reference": "Bustling Ming dynasty street-front herbal clinic entrance daytime, wooden doorframe with hanging medicine banner and signboard, stone steps piled with herbal packages, wall posters of plasters, blue stone pavement, narrow alleyway feel with passing pedestrians, authentic period street details",
+  "atmosphere": "紧张对峙的市井氛围",
+  "color_palette": [
+    "灰青",
+    "药褐",
+    "木黄"
+  ],
+  "lighting": "明亮日光直射门前，投下清晰阴影",
+  "key_features": [
+    "药旗招牌",
+    "木门框",
+    "药包石阶"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "恨意对视"
+}

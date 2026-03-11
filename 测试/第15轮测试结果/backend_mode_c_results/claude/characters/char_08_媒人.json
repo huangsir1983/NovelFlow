@@ -1,0 +1,32 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-50岁",
+  "appearance": {
+    "face": "圆润和气",
+    "body": "微胖",
+    "hair": "发髻整齐",
+    "distinguishing_features": "笑容满面，能言善辩"
+  },
+  "costume": {
+    "typical_outfit": "普通妇人服饰",
+    "color_palette": [
+      "红色",
+      "粉色"
+    ]
+  },
+  "casting_tags": [
+    "媒婆",
+    "圆滑",
+    "工具人"
+  ],
+  "visual_reference": "古代媒婆，面容圆润和气，笑容满面，身着红色或粉色妇人服饰，发髻整齐，手持红绸或礼单，姿态圆滑讨好，整体气质热情能言，背景为宅院正堂",
+  "visual_prompt_negative": "现代服装，年轻面容，严肃表情，朴素服饰",
+  "personality": "圆滑能言，见风使舵",
+  "desire": "促成婚事赚取酬劳",
+  "flaw": "势利眼",
+  "arc": "工具人，完成提亲任务",
+  "scene_presence": "提亲场景出现",
+  "relationships": []
+}

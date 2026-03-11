@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_007",
+  "order": 11,
+  "heading": "INT. 高家厅堂 - 日间",
+  "location": "高家厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "对质陆哭诉，沈词责怪女主，女主气极扇耳光",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "女主浑身发颤",
+  "tension_score": 0.95,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "桌椅",
+    "茶盏",
+    "和离书预备"
+  ],
+  "dramatic_purpose": "冲突巅峰导致早产"
+}

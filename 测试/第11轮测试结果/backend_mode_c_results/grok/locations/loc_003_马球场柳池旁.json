@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_003",
+  "name": "马球场柳池旁",
+  "type": "exterior",
+  "era_style": "明代江南园林马球场与柳树池塘",
+  "description": "开阔平整的马球草场，毗邻清澈柳池。池边种植数株垂柳，枝条婀娜拂水。草地边缘有石板小径和观景凉亭，远处可见园林围墙或假山。空间自然开阔，适合户外活动和社交，池水倒映柳影和天空。",
+  "visual_reference": "Vibrant daytime scene of Ming dynasty polo field beside a willow pond in Jiangnan garden, lush green grass pitch for polo, graceful weeping willows lining the clear pond, stone pathways, distant traditional pavilions, bright sunny weather, historical Chinese landscape, detailed foliage and water reflections",
+  "visual_prompt_negative": "modern sports equipment, vehicles, contemporary clothing, urban elements, blurry, low resolution, fantasy elements",
+  "atmosphere": "明媚休闲, 暗流涌动",
+  "color_palette": [
+    "嫩绿草地",
+    "柳绿",
+    "池水蓝",
+    "土黄石径"
+  ],
+  "lighting": "明媚的白天阳光普照，柳树投下斑驳树影，水面波光粼粼",
+  "key_features": [
+    "垂柳池水",
+    "马球草坪",
+    "石径凉亭"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "马球会的欢快社交到女主故意亲昵与沈词嫉妒的紧张对峙"
+}

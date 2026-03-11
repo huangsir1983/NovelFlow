@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "id": "scene_038",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 正厅 - DAY",
+    "location": "高府正厅",
+    "time_of_day": "day",
+    "description": "厅内仍是午后光线，门口有小厮入内回话，门帘微动。待客区域整洁，椅凳齐备，显示高门接客礼数。",
+    "action": "饭后不久，小厮快步入内通报陆姝仪上门。高父不知内情，抬手示意放人进来等候。高令宁听见名字后动作一顿，目光发沉，随即叫来侍女，命其代为传话，拒绝见客。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "即将出嫁，想来见我一面。",
+        "subtext": "她以出嫁前叙旧为由登门，真实目的并不单纯。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "门帘",
+      "待客座椅"
+    ],
+    "dramatic_purpose": "引出关键来客与危机触发点，同时唤起高令宁对前世相同事件的警惕。",
+    "tension_score": 0.58,
+    "dramatic_intensity": 0.16,
+    "order": 38
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 马球场休息室 - DUSK",
+  "location": "马球场休息室",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "陆姝仪装胃病下跪求情，沈词极力护短，高令宁看透一切，突然妥协同意提亲。",
+  "key_dialogue": "罢了，沈公子明日便来提亲吧。成亲之后，还望公子说话算话。",
+  "emotional_peak": "高令宁疲倦叹气同意提亲，沈词非但没有喜悦反而错愕不安。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "药碗",
+    "软榻",
+    "灯火"
+  ],
+  "dramatic_purpose": "女主心理防线彻底转变，从想报复转为彻底厌倦，男主开始失去对局面的掌控感。"
+}

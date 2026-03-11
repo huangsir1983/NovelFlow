@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 前世绝望",
+  "tags": [
+    "绝望",
+    "自杀",
+    "血迹"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "前世回忆中新婚第二日在沈府正堂，用瓷片自杀未遂",
+  "appearance_delta": {
+    "face": "泪痕满面，眼神绝望愤怒",
+    "body": "虚弱颤抖",
+    "hair": "发髻凌乱，发钗歪斜",
+    "distinguishing_features": "手腕血迹，握碎的瓷片，苍白面容"
+  },
+  "costume_override": {
+    "outfit": "新妇服饰，衣襟染血",
+    "color_palette": [
+      "月白",
+      "血红",
+      "暗灰"
+    ]
+  },
+  "visual_reference": "desperate Chinese woman in disheveled hanfu with blood on wrist, broken porcelain shards in hand, tears streaming down face, messy hair with tilted hairpins, pale complexion, eyes full of rage and despair, ancient China interior, tragic atmosphere",
+  "emotional_tone": "极度绝望愤怒，崩溃边缘"
+}

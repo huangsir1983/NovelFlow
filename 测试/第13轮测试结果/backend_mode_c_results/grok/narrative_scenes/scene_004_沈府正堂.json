@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 沈府正堂 - 日",
+  "location": "沈府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "前世婚后第二天陆姝仪敬茶，高令宁砸杯自伤立威",
+  "key_dialogue": "沈母吓得连话都说不出来",
+  "emotional_peak": "沈词抱住阻止自尽",
+  "tension_score": 0.85,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "茶杯",
+    "瓷片"
+  ],
+  "dramatic_purpose": "揭示前世立威与夫妻裂痕起点",
+  "source_text_start": "我嫁过去的第二日。沈母便让陆姝仪给我敬茶。",
+  "source_text_end": "自那后，再没人敢在我面前提陆姝仪三个字。"
+}

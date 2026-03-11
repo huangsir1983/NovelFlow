@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "id": "scene_035",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_013"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家厅堂 - 日",
+    "location": "高家厅堂",
+    "time_of_day": "day",
+    "description": "家宅厅堂，半开阔室内，白日自然光从门窗照入。厅中摆放成堆聘礼，形成明显视觉压力。高父面对如山聘礼，神情忧重。高令宁立于其后或身侧，动作轻缓克制。",
+    "action": "媒人第三次上门后，婚事终于定下。高父望着堆叠的聘礼发愁，眉头紧锁。高令宁走到他身后，轻轻为他捶肩，面带笑意安抚，语气却透着抽离。高父转头叮嘱她若受委屈便和离回家，神态是掩不住的担忧与不舍。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "沈家豪门显贵，又是京中数一数二的富户，你嫁过去若受轻视可怎么办？",
+        "subtext": "我答应婚事并不安心，我怕你在高门里吃苦。"
+      },
+      {
+        "character": "高令宁",
+        "line": "无妨。父亲只当女儿去沈家暂住一段时间，早晚要回来的。",
+        "subtext": "我从未把这门婚事当作归宿。"
+      },
+      {
+        "character": "高父",
+        "line": "齐大非偶，你不必逼着自己一定让沈家满意，受了委屈便和离回家，为父再另为你安排亲事。",
+        "subtext": "家门永远给你留退路，不必在那边死撑。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "聘礼"
+    ],
+    "dramatic_purpose": "建立高家父女的情感支撑与退路，也强化高令宁对婚姻结局的清醒认知。",
+    "tension_score": 0.36,
+    "dramatic_intensity": -0.28,
+    "order": 35
+  }
+}

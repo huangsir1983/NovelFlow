@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "FLASHBACK. 沈府病榻与灵堂 - night",
+  "location": "沈府寝房及灵堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "前世临终与身后事中，明明彼此咒过对方早死，沈词却衣不解带照料、亲自殓我并在棺前无声流泪。",
+  "key_dialogue": "若有来生，只做路人。",
+  "emotional_peak": "死别中显露迟来的真心与荒凉",
+  "tension_score": 0.79,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "病榻",
+    "寿衣",
+    "棺材"
+  ],
+  "dramatic_purpose": "为当下复杂情感埋根，说明恨意之外仍有无法斩断的羁绊。",
+  "visual_reference": "月光照进病榻，瘦弱妇人抱着男人手臂醒来，随后转入灵堂，男人亲自替她穿寿衣、伏在棺前无声落泪，冷白月光与烛火交错，极度克制的悲伤古风画面",
+  "visual_prompt_negative": "避免恐怖灵异效果、避免哭喊夸张、避免鲜艳喜色、避免现代殡葬元素",
+  "source_text_start": "我太高傲，他太尖锐。",
+  "source_text_end": "可谁能想到，真能重来呢？"
+}

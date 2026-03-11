@@ -1,0 +1,264 @@
+[
+  {
+    "id": "shot_0601",
+    "scene_id": "scene_036",
+    "shot_number": 1,
+    "goal": "建立高府廊下的日常休养环境，交代高令宁回娘家后的安置状态，并预置表面安宁下的克制气氛。",
+    "composition": "FS，门框式构图。镜头自廊道一端斜望入内，右侧为半开庭院与斜照入廊的自然光，左侧檐柱形成重复纵线。中景偏右位置，高令宁半倚坐榻，身形被案几与栏杆轻微切割；案几上葡萄、细瓷果盘、补品礼盒清晰可见，靠后处一角隐约可见已安置的包裹。前景以一根虚焦廊柱遮挡，背景留有安静庭院。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "营造体面、安静、略带凉意的休养氛围，让观众先进入一种被礼貌包裹的疏离感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.46,
+    "order": 601
+  },
+  {
+    "id": "shot_0602",
+    "scene_id": "scene_036",
+    "shot_number": 2,
+    "goal": "从女主近主观角度建立她此刻的身体状态与情绪基调：疲倦、放松，但并不真正柔软。",
+    "composition": "MS，高令宁位于画面左三分之一，身体朝右，侧脸受庭院反射冷光，檐下阴影压住眼窝。前景下方虚化的葡萄盘占一角，背景是木栏与被风拂动的帘角。留白集中在她视线前方，暗示等待或被动承受。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众靠近她的疲惫与冷淡，感到她看似安生，实则心门未开。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.42,
+    "order": 602
+  },
+  {
+    "id": "shot_0603",
+    "scene_id": "scene_036",
+    "shot_number": 3,
+    "goal": "引入沈睿的到来，但不做全知展示，而是以女主所见建立他殷勤探望的姿态。",
+    "composition": "MLS，保持轴线。镜头仍从高令宁视线方向看向廊外来路，沈睿自画面右侧入画，沿廊向左靠近案几，方向与后续保持一致。前景为案几边缘与果盘虚焦，形成女主视角的观察感；背景是檐柱和院光，沈睿由亮入暗。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "制造一种温和靠近中的轻微压迫感：他是来照料，也是来试探。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.34,
+    "order": 603
+  },
+  {
+    "id": "shot_0604",
+    "scene_id": "scene_036",
+    "shot_number": 4,
+    "goal": "用道具和动作交代沈睿的补偿性殷勤，强调他在努力扮演体贴丈夫。",
+    "composition": "MCU，案几高度平视。画面中心是沈睿修长的手剥开葡萄皮，左下角果盘与补品礼盒同框，右侧边缘保留高令宁衣袖与膝前褶皱，暗示她在场但不主动参与。光线从右后侧切入，手部动作清晰克制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到照料细致，却也隐隐像在补作业，温情里带有迟来的不自然。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.26,
+    "order": 604
+  },
+  {
+    "id": "shot_0605",
+    "scene_id": "scene_036",
+    "shot_number": 5,
+    "goal": "呈现两人同框关系状态：身体距离缩短，心理距离仍在。",
+    "composition": "MS 双人侧面构图。高令宁坐于画面左侧偏后，沈睿位于右侧偏前，俯身靠案几替她递果肉。两人头部高度错落，沈睿形成向她倾斜的斜线，高令宁仅微抬手接过，不看他。前景有一串虚焦葡萄，背景木栏外庭院亮部形成冷暖对冲。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "观众应同时感到亲近的表象与不对等的情感温度差。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 605
+  },
+  {
+    "id": "shot_0606",
+    "scene_id": "scene_036",
+    "shot_number": 6,
+    "goal": "捕捉高令宁对照料的接受方式：顺势、节能、无意回应情感。",
+    "composition": "CU，高令宁三分之二侧脸位于画面左侧，手边入画一颗剥好的葡萄。她半眯着眼，目光不落在沈睿脸上，只垂向手边。背景为柔虚的沈睿衣襟暗色块，形成她被包围却不真正靠近的视觉关系。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她接受照顾只是因为疲惫，不是因为原谅。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.12,
+    "order": 606
+  },
+  {
+    "id": "shot_0607",
+    "scene_id": "scene_036",
+    "shot_number": 7,
+    "goal": "通过反应镜头展示沈睿的谨慎与试探，他在观察她是否肯松动。",
+    "composition": "MCU，沈睿位于画面右侧，身体朝左俯向她，目光下落。左侧前景以高令宁发髻和肩线虚焦压住画面，保持女主主观限制。背景是廊柱阴影和一角礼盒，强化他带着补偿而来。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众看到他的克制真诚里混着不安，形成微妙怜悯但不完全信任。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.06,
+    "order": 607
+  },
+  {
+    "id": "shot_0608",
+    "scene_id": "scene_036",
+    "shot_number": 8,
+    "goal": "把身体接触升级到靠肩，推进表面和缓的亲密状态。",
+    "composition": "MS 双人近侧。高令宁从画面左侧微微向右倾，头靠上沈睿肩头；沈睿身体有一瞬僵住后稳住。两人居中偏左，右侧留出被风吹动的廊外空白。案几下沿仍在前景，提醒此刻亲密仍处于礼法与日常之间。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "制造短暂的柔软错觉，同时保留观众对这份柔软是否真实的怀疑。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 608
+  },
+  {
+    "id": "shot_0609",
+    "scene_id": "scene_036",
+    "shot_number": 9,
+    "goal": "从女主的疲倦体感出发，强化她此刻更像借一个支点歇息，而非主动示好。",
+    "composition": "CU，高令宁靠在肩上的近景，脸位于画面下左，眼睫低垂，风掠过鬓边碎发。右上角仅入一段沈睿肩颈线条，不给完整双人甜蜜画面。背景是过曝柔亮的庭院边缘，与她面上的冷白形成对照。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "观众应感到她的松弛带着消耗后的空，亲密里没有热度。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.06,
+    "order": 609
+  },
+  {
+    "id": "shot_0610",
+    "scene_id": "scene_036",
+    "shot_number": 10,
+    "goal": "引入沈睿的台词，以反应先行的方式让他的愧疚显得迟到而沉重。",
+    "composition": "MCU，沈睿侧脸近景，位于画面右侧朝左，下方仍保留高令宁发顶虚焦。光从背后庭院切出侧轮廓，眼神低垂，唇线绷紧后开口。背景暗处木褐色压实，减少抒情感。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众听见一句本该动人的忏悔，却先感到不合时宜与危险：他终于说了，但她未必还要听。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 610
+  },
+  {
+    "id": "shot_0611",
+    "scene_id": "scene_036",
+    "shot_number": 11,
+    "goal": "承接台词内容，捕捉高令宁听见“上一世”时的极细微内在震动，但外表不破。",
+    "composition": "CU，高令宁正侧脸，位于画面左侧，眼睛仍闭着，唯有睫毛轻颤、嘴角无动。右侧前景是一片深色衣料虚焦，像压力贴近。背景风动帘影掠过她脸侧，形成瞬时切割。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一句话刺中了旧伤，但她把所有反应压回体内，冷意反而更深。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 611
+  },
+  {
+    "id": "shot_0612",
+    "scene_id": "scene_036",
+    "shot_number": 12,
+    "goal": "以限制性细节镜头完成情绪换挡：沈睿在她脸侧落下一吻，动作克制，像补偿也像确认。",
+    "composition": "MCU偏近，双人局部。画面左侧是高令宁侧脸与耳际，右侧是沈睿俯近的脸和肩。接触点位于画面中心略下，不给完整拥吻，只给克制、短暂的脸侧一吻。前景保留一缕发丝虚焦，背景彻底压暗，突出动作本身。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "营造一瞬间的亲密冲高，但必须让观众立刻意识到这不是和解，而是试探边界。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 612
+  },
+  {
+    "id": "shot_0613",
+    "scene_id": "scene_036",
+    "shot_number": 13,
+    "goal": "给出关键反应：高令宁不回吻、不回应，只是闭眼受风，明确两人关系的内里疏离。",
+    "composition": "CU，高令宁脸部占画面大半，位置居中偏左。吻后她神情仍淡，眼未睁，唇线平直。右边缘有沈睿退开的模糊轮廓，像一段未被接住的情感。背景是一块安静的亮庭院虚面，风吹过发丝是唯一流动。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众明确感受到冷收尾：她没有推开，却也没有接纳，比拒绝更伤人。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 613
+  },
+  {
+    "id": "shot_0614",
+    "scene_id": "scene_036",
+    "shot_number": 14,
+    "goal": "收束整场，回到表面平静的双人状态，同时留下更深裂痕：日常仍继续，关系未真正修补。",
+    "composition": "MLS，回到先前轴线的双人侧面。高令宁仍靠着，但更像睡去或不愿开口；沈睿静坐不动，手停在案几边，剥开的葡萄搁置未再递出。案几上的果盘、补品礼盒与后方包裹再次同框，形成视觉记忆闭环。前景廊柱半遮，背景庭院风动，空间宽而冷。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "给观众留下克制、体面、无声受挫的余味：一切看似安宁，裂痕却更清晰。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 614
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 产房难产",
+  "tags": [
+    "难产",
+    "虚弱",
+    "痛苦"
+  ],
+  "scene_ids": [
+    "scene_014"
+  ],
+  "trigger": "早产难产在高家产房，沈词选择保大人时",
+  "appearance_delta": {
+    "face": "脸色苍白憔悴汗湿，眼神痛苦却坚韧倔强",
+    "body": "苗条身材因生产汗湿虚弱",
+    "hair": "乌黑长发散乱粘在脸颊颈部",
+    "distinguishing_features": "紧抓床单，痛苦表情"
+  },
+  "costume_override": {
+    "outfit": "宽松凌乱中衣或产裙",
+    "color_palette": [
+      "白色",
+      "浅蓝"
+    ]
+  },
+  "visual_reference": "一位二十岁古代汉族女子产房中，清秀脸庞因痛苍白憔悴，柳眉紧皱杏眼含泪眼神倔强坚毅，皮肤白皙汗湿，身材苗条虚弱躺在产床上，穿着浅色宽松中衣，头发散乱贴脸，紧紧抓床单，产房昏暗紧张光影，写实风格，细腻皮肤纹理，高清细节",
+  "visual_prompt_negative": "现代服装、整齐发髻、笑容、浓妆、卡通、西方面孔、肥胖、明亮喜庆光影",
+  "emotional_tone": "剧痛中的坚韧意志"
+}

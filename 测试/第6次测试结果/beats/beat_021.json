@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "id": "beat_021",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_039",
+      "scene_040",
+      "scene_041",
+      "scene_042"
+    ]
+  },
+  "data": {
+    "title": "遭指控后早产生女",
+    "description": "陆姝仪哭诉失贞、沈词偏信并恶语相向，女主情绪爆裂后腹痛昏厥早产；而沈词最终选择保大，孩子出生却不是他笃定的儿子。",
+    "beat_type": "event",
+    "save_the_cat": "N/A",
+    "emotional_value": -0.4,
+    "dramatic_intensity": -0.4,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 21
+  }
+}

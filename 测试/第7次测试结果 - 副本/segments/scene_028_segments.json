@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0141",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0407",
+      "shot_0408",
+      "shot_0409"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间关系、女主身体处境与蒋晟赔罪起点，角色集合稳定，情绪从局促羞辱推进到歉意落地，属于同一叙事单元。",
+    "order": 141
+  },
+  {
+    "id": "seg_0142",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0410",
+      "shot_0411",
+      "shot_0412"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段集中处理‘道歉—解释—她不再听’的情绪换挡，角色仍限于高令宁与蒋晟，核心转折在女主视线偏移，适合作为独立心理过桥段。",
+    "order": 142
+  },
+  {
+    "id": "seg_0143",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0413",
+      "shot_0414",
+      "shot_0415"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完整呈现女主主观所见的‘刺点’：先见整体关系，再放大陆姝仪病弱，最后确认沈睿的照拂事实。角色集合切换，且情绪明显从冷观察升级为被精准刺伤，因此单独成段。",
+    "order": 143
+  },
+  {
+    "id": "seg_0144",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0416",
+      "shot_0417",
+      "shot_0418"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是情感弧线的明显转折：由被刺痛转为自我切断，再落实为‘回家’的行动决定。角色重新收束到高令宁与蒋晟，形成一个完整的换挡段落。",
+    "order": 144
+  },
+  {
+    "id": "seg_0145",
+    "scene_id": "scene_028",
+    "shot_ids": [
+      "shot_0419",
+      "shot_0420"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "末段以动作收束：先完成借力起身，再用离场全景回扣空间对照。虽然背景重现另外两人，但叙事目标已转为冷收尾，适合与起身动作合并成一个终结段。",
+    "order": 145
+  }
+]

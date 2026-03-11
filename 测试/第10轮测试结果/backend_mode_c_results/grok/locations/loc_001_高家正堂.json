@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_001",
+  "name": "高家正堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正堂",
+  "description": "宽敞高大的正厅，木结构梁架高耸，红漆圆柱支撑，中央对称摆放红木雕花八仙桌与太师椅，四周墙壁悬挂祖先画像和'高风亮节'匾额，两侧雕花落地屏风分隔，茶几上陈设精致瓷器茶具，地面为光滑青砖铺就，后方有通往内院的垂花门，整体布局严谨对称，装饰典雅庄重。",
+  "visual_reference": "Grand Ming dynasty Chinese official residence main hall interior, high carved wooden beams and red lacquered pillars, formal huanghuali wood table and armchairs symmetrically arranged, ancestor portraits and calligraphy plaques on walls, ornate wooden screens, blue brick floor, lattice windows with paper, soft natural daylight, highly detailed historical accuracy, cinematic composition",
+  "atmosphere": "庄严肃穆正式",
+  "color_palette": [
+    "朱红",
+    "金黄",
+    "深褐木色",
+    "青灰"
+  ],
+  "lighting": "白天柔和自然光透过花窗纸漫射进来，形成均匀明亮却不刺眼的光影，增强庄重感",
+  "key_features": [
+    "红漆雕花梁柱",
+    "祖先画像与匾额",
+    "红木八仙桌太师椅"
+  ],
+  "narrative_scenes": [
+    "scene_001"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "正式提亲的紧张庄重到震惊对峙的情绪爆发"
+}

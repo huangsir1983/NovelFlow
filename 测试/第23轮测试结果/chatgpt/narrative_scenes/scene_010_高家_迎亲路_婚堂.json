@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高家正堂与婚礼现场 - DAY",
+  "location": "高家、迎亲路、婚堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词",
+    "媒人"
+  ],
+  "core_event": "在多次提亲和重压下，父亲答应婚事。高令宁风光出嫁，却全程心不在焉，婚礼上甚至走神，沈词轻咳提醒。",
+  "key_dialogue": "父亲只当女儿去沈家暂住一段时间，早晚要回来的。",
+  "emotional_peak": "喜庆婚礼之下，女主与父亲都清楚这是一场有期限的婚姻。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "聘礼箱笼",
+    "红盖头",
+    "喜堂婚书",
+    "八抬大轿"
+  ],
+  "dramatic_purpose": "完成正式婚配，进入夫妻实战关系阶段。",
+  "source_text_start": "媒人第三次上门提亲。种种压力下，父亲应下了",
+  "source_text_end": "还是沈词不轻不重地轻咳一声，我才回过神来。隔着盖头，我能看见他平静的侧脸。"
+}

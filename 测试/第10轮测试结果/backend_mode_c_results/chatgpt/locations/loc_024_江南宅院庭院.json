@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_024",
+  "name": "江南宅院庭院",
+  "type": "exterior",
+  "era_style": "明代中晚期江南民居冬日庭院",
+  "description": "庭院为江南宅院的开敞中心，白墙围合，院门简洁，地面积雪未化，雪人、雪球和孩童玩具散在其间。几名男子的冬衣与披风在雪地中形成成年男性存在感，暖手炉则带出冬日生活细节。空间不大却足够容纳堆雪、追逐和突然对视，院门一开，外来者便能一眼看见院中的“新生活”构图。整个画面以冬雪的洁白衬托情感上的嫉妒与突兀。",
+  "visual_reference": "Late Ming dynasty Jiangnan courtyard in winter, white walls, simple courtyard gate, fresh snow on the ground, snowman and snowballs, child’s toys, men in winter robes and cloaks, hand warmers, lively domestic courtyard scene interrupted by a returning man, emotional jealousy, cinematic Chinese historical drama, highly detailed",
+  "atmosphere": "冬日明亮、生活气、突如其来的嫉妒",
+  "color_palette": [
+    "积雪白",
+    "黛青灰",
+    "冬衣深褐"
+  ],
+  "lighting": "冬日白昼光线清冽，雪地高反光让人物表情和动作更清楚，整体明亮却带寒意。",
+  "key_features": [
+    "积雪庭院与雪人雪球",
+    "院门推开即见的全景构图",
+    "孩童玩具与男子冬衣同框"
+  ],
+  "narrative_scenes": [
+    "scene_030"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从平静有趣的冬日家庭画面，突然刺入男主对她新生活的真实恐慌。"
+}

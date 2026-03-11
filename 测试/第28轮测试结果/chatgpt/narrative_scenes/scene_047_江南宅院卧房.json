@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_047",
+  "order": 46,
+  "heading": "INT. 江南卧房 - night",
+  "location": "江南宅院卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "赘婿候选"
+  ],
+  "core_event": "深夜沈词爬上我的床，借打雷为由求陪伴，被我一脚踹下后仍抱着被褥睡在地上，哀求又固执地宣告会继续纠缠一辈子。",
+  "key_dialogue": "「只要我还活着……我就会恬不知耻地纠缠你一辈子。」",
+  "emotional_peak": "故事终点不是和解，而是他终于承认自己愿意卑微地爱与纠缠。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "被褥",
+    "枕头",
+    "床榻"
+  ],
+  "dramatic_purpose": "以极具人物本性的行动收束关系：女主抽身，男主执念不休。",
+  "visual_reference": "深夜卧房月光冷白，女子躺在床上冷眼看向被踹到地上的男子，另一侧有人替她掖被角；男子抱着被褥坐在地上，神情狼狈又执拗，尾声感强烈",
+  "visual_prompt_negative": "避免三角艳情暧昧化，避免滑稽喜剧感，避免现代卧室元素",
+  "source_text_start": "深夜。 有人爬上了我的床。",
+  "source_text_end": "「只要我还活着……」 「我就会恬不知耻地纠缠你一辈子。」"
+}

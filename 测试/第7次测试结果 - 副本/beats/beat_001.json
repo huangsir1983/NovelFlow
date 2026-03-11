@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_001",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_000",
+      "scene_018",
+      "scene_019"
+    ]
+  },
+  "data": {
+    "title": "点明重生不是重圆而是清醒利用",
+    "description": "文本核心主题被明确提出：两人重新订亲不是因为旧情复燃，而是围绕睿儿、家族命运与现实利益进行冷静博弈，婚姻将成为交易与复仇的战场。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Theme Stated",
+    "emotional_value": -0.1,
+    "dramatic_intensity": -0.1,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 1
+  }
+}

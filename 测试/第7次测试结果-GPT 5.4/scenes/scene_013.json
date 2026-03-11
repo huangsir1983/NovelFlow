@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "id": "scene_013",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_000",
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 不明空间 - 回忆尽头/意识中 - NIGHT",
+    "location": "意识空间",
+    "time_of_day": "night",
+    "description": "非现实化空间，四周空茫，像从黑暗中浮现出的前尘片段。无明确物理边界，只有残留的月光、棺影、火光等记忆意象交叠闪现，氛围带有宿命感与重来的悬停感。",
+    "action": "高令宁像从漫长回忆中抬起头，眼前闪过她与沈词争执、冷战、守病、停棺的零碎画面。她停住，像终于意识到一切已成前世，呼吸微滞。那些画面逐一暗下，只留下“若有来生，只做路人”的余音，随即被“真能重来”的认知打断。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "记忆意象",
+      "月光",
+      "棺影",
+      "火光"
+    ],
+    "dramatic_purpose": "收束前尘回忆，明确“重来一次”的叙事前提，把前世怨偶关系转化为今生故事的情感起点。",
+    "tension_score": 0.63,
+    "dramatic_intensity": 0.26,
+    "order": 13
+  }
+}

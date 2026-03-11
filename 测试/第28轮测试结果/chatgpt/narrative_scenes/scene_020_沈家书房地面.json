@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_020",
+  "order": 19,
+  "heading": "FLASHBACK. 沈家书房 - night",
+  "location": "沈家书房地面",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我言语刺中沈词痛处，他怒推我倒地，却不知我已怀胎三月，这一推埋下女儿夭折的祸根。",
+  "key_dialogue": "「我看陆姝仪就是被你克死的……」",
+  "emotional_peak": "一时恶言与一记失手，改写了另一个孩子的命运。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 65,
+  "key_props": [
+    "桌角",
+    "地砖"
+  ],
+  "dramatic_purpose": "明确女儿悲剧的直接起点，建立后文更深仇恨。",
+  "visual_reference": "激烈争执后的瞬间，女子被推倒在冰冷地面，男子脸上怒意未消又隐隐僵住，画面定格在失控的一秒",
+  "visual_prompt_negative": "避免夸张武侠飞摔，避免血浆效果，避免杂乱背景",
+  "source_text_start": "每一个字，都像针一样戳在沈词的心口。",
+  "source_text_end": "因为他在气头上的这一推，伤了胎气。"
+}

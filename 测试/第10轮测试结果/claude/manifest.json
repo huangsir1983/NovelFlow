@@ -1,0 +1,74 @@
+{
+  "version": "mode_c_v2",
+  "generated_at": "2026-03-10T16:57:47",
+  "summary": {
+    "characters": 10,
+    "narrative_scenes": 14,
+    "locations": 9,
+    "props_total": 49,
+    "props_major": 2,
+    "props_minor": 47,
+    "variants": 15
+  },
+  "directories": {
+    "characters": "characters/",
+    "narrative_scenes": "narrative_scenes/",
+    "locations": "locations/",
+    "props": "props/",
+    "variants": "variants/"
+  },
+  "files": {
+    "timeline": "narrative_scenes/_timeline.json",
+    "location_index": "locations/_index.json",
+    "props_index": "props/prop_index.json",
+    "manifest": "manifest.json"
+  },
+  "cost": [
+    {
+      "stage": "2A_locations",
+      "model": "claude-opus-4-6",
+      "input_tokens": 0,
+      "output_tokens": 3631,
+      "elapsed_s": 61.93
+    },
+    {
+      "stage": "2C_props",
+      "model": "claude-opus-4-6",
+      "input_tokens": 0,
+      "output_tokens": 604,
+      "elapsed_s": 13.84
+    },
+    {
+      "stage": "3_variants",
+      "character": "沈词",
+      "model": "claude-opus-4-6",
+      "input_tokens": 0,
+      "output_tokens": 1605,
+      "elapsed_s": 21.98
+    },
+    {
+      "stage": "3_variants",
+      "character": "高令宁",
+      "model": "claude-opus-4-6",
+      "input_tokens": 0,
+      "output_tokens": 1703,
+      "elapsed_s": 37.66
+    },
+    {
+      "stage": "3_variants",
+      "character": "陆姝仪",
+      "model": "claude-opus-4-6",
+      "input_tokens": 0,
+      "output_tokens": 1592,
+      "elapsed_s": 28.43
+    },
+    {
+      "stage": "3_variants",
+      "character": "高父",
+      "model": "claude-opus-4-6",
+      "input_tokens": 0,
+      "output_tokens": 1185,
+      "elapsed_s": 24.66
+    }
+  ]
+}

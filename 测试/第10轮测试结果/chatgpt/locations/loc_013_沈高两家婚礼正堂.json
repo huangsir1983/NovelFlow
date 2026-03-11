@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_013",
+  "name": "沈高两家婚礼正堂",
+  "type": "interior",
+  "era_style": "明代中晚期士族婚礼喜堂",
+  "description": "婚礼正堂建立在传统礼制厅堂基础上，以喜庆陈设覆盖原有肃穆结构。正中铺设交拜蒲团，前方设司仪唱礼位置与礼册，四周垂挂大面积喜堂红绸，梁柱间点缀双喜纹样。喜烛成对燃烧，桌面摆金杯与喜糖果盘，八抬大轿余饰堆放一侧，形成婚礼刚完成迎亲程序的视觉痕迹。空间中轴仍然严格，但红色过多会制造一种压迫的隆重感，不是轻快婚庆，而是被礼法和宿命撑满的喜堂。",
+  "visual_reference": "Late Ming dynasty Chinese wedding hall, ceremonial main hall draped with red silk, paired wedding candles, kneeling mats for bowing ritual, master of ceremonies holding ritual book, golden cups, candy trays, remnants of sedan chair decorations, strict symmetrical architecture beneath festive decor, joyous setting with emotionally detached bride and groom, cinematic historical realism, ultra detailed",
+  "atmosphere": "热闹外壳、压抑内里、礼成如刑",
+  "color_palette": [
+    "喜庆大红",
+    "鎏金色",
+    "深木褐"
+  ],
+  "lighting": "日间厅光与喜烛暖光并存，红绸反射出温热色调，但人物神情可显得格外冷清，形成强反差。",
+  "key_features": [
+    "满堂红绸与喜烛",
+    "交拜蒲团",
+    "八抬大轿余饰与司仪礼册"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "表层是婚礼繁盛，实质是双方心如死灰的压抑成婚。"
+}

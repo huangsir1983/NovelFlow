@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家厅堂 - NIGHT",
+  "location": "高家厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "陆姝仪当众哭诉被高令宁设计失贞，沈词直接站队她、斥高令宁恶毒；高令宁坚持报官查清，沈词竟以‘若姝仪再为你而死我杀了你’相逼，两人彻底决裂。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "高令宁一巴掌扇过去，情绪与信任双双崩塌。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "证人名单",
+    "桌案",
+    "衣角",
+    "掌掴声",
+    "登门鼓威胁"
+  ],
+  "dramatic_purpose": "完成男女主关系的毁灭性断裂，将误会推至不可收拾。",
+  "source_text_start": "陆姝仪哭着要自尽。\n她跪在我面前，哽咽：「夫人，您便这般",
+  "source_text_end": "话音落下，巴掌声清脆地响起。\n看着我发抖的双手，陆姝仪尖叫"
+}

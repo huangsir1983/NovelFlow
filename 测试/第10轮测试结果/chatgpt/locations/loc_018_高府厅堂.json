@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_018",
+  "name": "高府厅堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸夜间审问厅堂",
+  "description": "高府厅堂在夜间应呈现为临时公断空间，桌案居中，茶盏仍在桌面，说明事件发生仓促。门帘后聚着证言的小厮与丫鬟，形成旁观与压力来源。高堂烛火沿两侧摆放，把人物面孔照得明暗分裂。蒋晟凌乱衣冠、衣角散乱等细节让厅堂从日常会客厅转为几乎像审讯场。空间保持高府原本的规整，但此刻秩序被愤怒和指控侵蚀。",
+  "visual_reference": "Late Ming dynasty official mansion hall at night, central wooden table with tea cups, witnesses gathered behind hanging curtains, bright candle stands casting dramatic shadows, disheveled male clothing details, improvised family tribunal atmosphere, tense accusation scene, historical Chinese drama realism, cinematic candlelight, ultra detailed interior",
+  "atmosphere": "审判感、愤怒、误解、崩塌前夜",
+  "color_palette": [
+    "烛火金",
+    "深棕黑",
+    "灰红暗影"
+  ],
+  "lighting": "完全依赖高堂烛火，光源集中且摇曳，人物面部一半明一半暗，极适合表现立场对立和失控时刻。",
+  "key_features": [
+    "高堂成列烛火",
+    "桌案前的对峙站位",
+    "门帘后作证的婢女小厮群像"
+  ],
+  "narrative_scenes": [
+    "scene_019"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "由家中厅堂瞬间变成指控与威胁的战场，并最终导向身体崩溃。"
+}

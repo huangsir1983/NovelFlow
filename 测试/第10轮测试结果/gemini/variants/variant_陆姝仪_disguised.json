@@ -1,0 +1,29 @@
+{
+  "variant_id": "lu_shuyi_disheveled",
+  "variant_type": "disguised",
+  "variant_name": "陆姝仪 — 捉奸现场",
+  "tags": [
+    "衣衫不整",
+    "陷害",
+    "心机"
+  ],
+  "scene_ids": [
+    "scene_013"
+  ],
+  "trigger": "在厢房内设计与蒋晟发生暧昧被抓包，借机反咬高令宁。",
+  "appearance_delta": {
+    "face": "满脸惊恐与委屈，泪流满面，但眼神深处藏着算计的精光",
+    "body": "瑟瑟发抖，紧紧抱住自己，呈现出受惊吓的防卫姿态",
+    "hair": "发髻完全散乱，长发披散在肩头，珠花掉落",
+    "distinguishing_features": "凌乱不堪的伪装受害者形象"
+  },
+  "costume_override": {
+    "outfit": "外衣脱落，仅穿藕粉色肚兜与凌乱的中衣，香肩半露",
+    "color_palette": [
+      "藕粉",
+      "纯白"
+    ]
+  },
+  "visual_reference": "A cunning young ancient Chinese woman in disheveled inner garments, outer robe slipping off her shoulder, messy long dark hair, tear-stained face with fake panic, sitting on a messy bed, dramatic indoor lighting, 8k.",
+  "emotional_tone": "看似惊恐委屈，实则阴险算计"
+}

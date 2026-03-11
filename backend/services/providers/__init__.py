@@ -4,11 +4,17 @@ from services.providers.base import ProviderAdapter, AIResponse
 from services.providers.anthropic_adapter import AnthropicAdapter
 from services.providers.gemini_adapter import GeminiAdapter, ImageResponse
 from services.providers.openai_compat_adapter import OpenAICompatAdapter
+from services.providers.responses_api_adapter import ResponsesAPIAdapter
+from services.providers.grok_video_adapter import GrokVideoAdapter, VideoResponse
+from services.providers.nanobanana_adapter import NanoBananaAdapter
 
 ADAPTER_REGISTRY: dict[str, type[ProviderAdapter]] = {
     "anthropic": AnthropicAdapter,
     "gemini": GeminiAdapter,
     "openai_compat": OpenAICompatAdapter,
+    "responses_api": ResponsesAPIAdapter,
+    "grok_video": GrokVideoAdapter,
+    "nanobanana": NanoBananaAdapter,
 }
 
 
@@ -30,9 +36,13 @@ __all__ = [
     "ProviderAdapter",
     "AIResponse",
     "ImageResponse",
+    "VideoResponse",
     "AnthropicAdapter",
     "GeminiAdapter",
     "OpenAICompatAdapter",
+    "ResponsesAPIAdapter",
+    "GrokVideoAdapter",
+    "NanoBananaAdapter",
     "create_adapter",
     "ADAPTER_REGISTRY",
 ]

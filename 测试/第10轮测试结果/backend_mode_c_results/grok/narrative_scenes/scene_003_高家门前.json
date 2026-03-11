@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "EXT. 高家门前 - 日",
+  "location": "高家门前",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦路谈判，提及前世睿儿并要求处理陆姝仪",
+  "key_dialogue": "你何必对姝仪苦苦相逼？",
+  "emotional_peak": "双方恨意对视",
+  "tension_score": 0.8,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "门前台阶",
+    "沈词手勒痕",
+    "医馆药包"
+  ],
+  "dramatic_purpose": "男女主约定婚姻条件与陆姝仪冲突埋线"
+}

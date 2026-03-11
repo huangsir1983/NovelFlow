@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "id": "scene_018",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:14"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "陆姝仪",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "INT. 医馆厢房 - 夜",
+    "location": "医馆厢房",
+    "time_of_day": "night",
+    "description": "封闭内室，层高中等，灯火自室内案几与壁侧灯盏投下暖黄光线，光源偏侧上方，人物面部明暗分明。屋内设有供病人歇息的榻、矮案、药碗与诊治后留下的包扎物。高令宁脚伤刚被正骨，行动受限；蒋晟垂首立于近旁，身体前倾，呈搀扶姿态。几步之外，陆姝仪蜷缩在榻上，面色苍白，衣衫微乱，显出病态。沈词端药立在榻边，注意力完全落在陆姝仪身上，形成明显的情感站位对比。",
+    "action": "高令宁坐或半靠着，脚踝经诊治后不便落地；蒋晟低着头，不敢直视她，口中道歉。高令宁的视线越过蒋晟，落在远处榻上的陆姝仪与沈词身上，停顿片刻后收回目光，神色冷淡。她压低声音提出回家，蒋晟立刻上前，小心扶她起身，二人转身欲离开。",
+    "dialogue": [
+      {
+        "character": "蒋晟",
+        "line": "是我没护好你。",
+        "subtext": "我对你的受伤负有责任，也在试图挽回信任。"
+      },
+      {
+        "character": "蒋晟",
+        "line": "方才有同窗寻我，推脱不得，我才……",
+        "subtext": "我在解释自己为何不在场，希望减轻过失。"
+      },
+      {
+        "character": "高令宁",
+        "line": "我们回家吧。",
+        "subtext": "我不想继续留在这里看他们，也不想再参与这场关系纠葛。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "陆姝仪",
+      "沈词"
+    ],
+    "key_props": [
+      "药碗",
+      "病榻",
+      "灯盏",
+      "包扎物"
+    ],
+    "dramatic_purpose": "建立伤后处境与四人关系格局，通过站位和照料对象明确高令宁被忽视、陆姝仪被偏护的情感现实，为后续正面冲突蓄压。",
+    "tension_score": 0.45,
+    "dramatic_intensity": -0.1,
+    "order": 18
+  }
+}

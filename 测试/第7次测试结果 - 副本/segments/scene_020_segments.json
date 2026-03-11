@@ -1,0 +1,76 @@
+[
+  {
+    "id": "seg_0086",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0311",
+      "shot_0312",
+      "shot_0313"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共享同一礼制建立阶段，角色集合稳定，空间关系与主观视线连续递进：先立空间权力，再压入女主，再落到奉茶动作，适合作为一个完整的压抑起势段落。",
+    "order": 86
+  },
+  {
+    "id": "seg_0087",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0314",
+      "shot_0315",
+      "shot_0316",
+      "shot_0317"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕‘临界点’展开：道具茶盏成为羞辱载体，女主情绪逼近爆发，再用两位旁观者反应延迟爆点。角色虽未变化，但情绪由压抑转为危险，构成爆发前完整蓄力段。",
+    "order": 87
+  },
+  {
+    "id": "seg_0088",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0318",
+      "shot_0319",
+      "shot_0320",
+      "shot_0321"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四镜头构成同一爆发动作链：砸杯—碎裂—捡瓷—抹颈，时间连续且情绪单向升级，没有角色出入，必须合并为一个高强度段落以保持冲击完整性。",
+    "order": 88
+  },
+  {
+    "id": "seg_0089",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0322",
+      "shot_0323",
+      "shot_0324",
+      "shot_0325"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组由‘众人反应’过渡到‘唯一有效干预’，情绪从冻结转为动作性救援。虽然镜头主语切换频繁，但都围绕同一转折点——沈睿介入——因此合并成一个反应与拦截并举的高潮段最稳。",
+    "order": 89
+  },
+  {
+    "id": "seg_0090",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0326",
+      "shot_0327",
+      "shot_0328",
+      "shot_0329"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一组从动作高潮后的身体接触、伤口确认，到沈睿无言反应，再到残局全貌，形成完整收尾弧线。角色集合重新稳定，情绪从爆裂回落为寒意与余震，适合作为结段。",
+    "order": 90
+  }
+]

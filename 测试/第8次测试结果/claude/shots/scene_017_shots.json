@@ -1,0 +1,167 @@
+[
+  {
+    "id": "shot_0165",
+    "scene_id": "scene_017",
+    "shot_number": 1,
+    "goal": "建立场景延续性，展现沉默的压迫感",
+    "composition": "双人中景，女主居左前景略虚，沈词居右背景实焦，中轴线偏右形成不稳定构图，窗格光影切割画面",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "窒息般的静默张力",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 165
+  },
+  {
+    "id": "shot_0166",
+    "scene_id": "scene_017",
+    "shot_number": 2,
+    "goal": "捕捉女主内心决绝的瞬间",
+    "composition": "女主中特写，侧面45度，眼神线向下后缓缓抬起，背景虚化至纯色，颈侧疤痕隐约可见",
+    "camera_movement": "slow_dolly_in",
+    "framing": "MCU",
+    "emotion_target": "平静表象下的决绝意志",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.85,
+    "order": 166
+  },
+  {
+    "id": "shot_0167",
+    "scene_id": "scene_017",
+    "shot_number": 3,
+    "goal": "强化摇头动作的斩钉截铁",
+    "composition": "女主特写，正面构图，头部占据画面中心，摇头动作幅度小但清晰，眼神坚定",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "不可撼动的决心",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 167
+  },
+  {
+    "id": "shot_0168",
+    "scene_id": "scene_017",
+    "shot_number": 4,
+    "goal": "传达台词的重量感",
+    "composition": "女主中特写，微侧角度，唇部居画面下三分之一，眼神线越过镜头看向沈词方向",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷静而不容商量",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.85,
+    "order": 168
+  },
+  {
+    "id": "shot_0169",
+    "scene_id": "scene_017",
+    "shot_number": 5,
+    "goal": "捕捉沈词的震惊反应",
+    "composition": "沈词中特写，正面偏15度，瞳孔微缩特写，眉头瞬间紧蹙，背景虚化",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "预期被打破的震撼",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 169
+  },
+  {
+    "id": "shot_0170",
+    "scene_id": "scene_017",
+    "shot_number": 6,
+    "goal": "展现沈词身体前倾的本能反应",
+    "composition": "沈词中景，侧面70度，身体重心前移，手臂微抬但未完全伸出，前景女主肩部虚化",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "失控边缘的克制",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 170
+  },
+  {
+    "id": "shot_0171",
+    "scene_id": "scene_017",
+    "shot_number": 7,
+    "goal": "建立正反打，沈词发问",
+    "composition": "沈词中特写，正面构图，眼神锐利直视镜头方向，下颌线紧绷",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "质疑与不解",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 171
+  },
+  {
+    "id": "shot_0172",
+    "scene_id": "scene_017",
+    "shot_number": 8,
+    "goal": "捕捉女主的反应镜头",
+    "composition": "女主中特写，微侧角度，眼神平静对视，唇角无波澜，光影在脸部形成明暗对比",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "无需解释的坚定",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "slow_dissolve",
+    "dramatic_intensity": 0.85,
+    "order": 172
+  },
+  {
+    "id": "shot_0173",
+    "scene_id": "scene_017",
+    "shot_number": 9,
+    "goal": "拉开距离展现两人对峙的空间关系",
+    "composition": "双人全景，女主居左沈词居右，中间留白形成情感鸿沟，窗格光影切割空间，鸟鸣声源方向在画外右侧",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "无法弥合的距离感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "slow_dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 173
+  }
+]

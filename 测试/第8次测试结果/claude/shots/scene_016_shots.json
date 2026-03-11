@@ -1,0 +1,147 @@
+[
+  {
+    "id": "shot_0157",
+    "scene_id": "scene_016",
+    "shot_number": 1,
+    "goal": "建立大夫离开后的空间氛围转变，从医疗场景过渡到夫妻对峙",
+    "composition": "房门从画面右侧缓缓关闭，门缝光线逐渐收窄，前景虚化的床榻一角，背景可见女主坐姿剪影",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "封闭感、即将到来的压迫",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 157
+  },
+  {
+    "id": "shot_0158",
+    "scene_id": "scene_016",
+    "shot_number": 2,
+    "goal": "捕捉沈词转身的决定性瞬间，展现其情绪转折",
+    "composition": "沈词背影居中，肩线占据画面上三分之一，窗棂光影投射在月白袍上，头部开始转动",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "不安、转折前的停顿",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.4,
+    "order": 158
+  },
+  {
+    "id": "shot_0159",
+    "scene_id": "scene_016",
+    "shot_number": 3,
+    "goal": "展现沈词眼中的如释重负与冷漠并存",
+    "composition": "沈词正面中特写，眼睛位于画面上三分之一线，侧光勾勒轮廓，眼神先松弛后迅速冷却",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "复杂情绪的微妙变化、疏离感",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 159
+  },
+  {
+    "id": "shot_0160",
+    "scene_id": "scene_016",
+    "shot_number": 4,
+    "goal": "建立女主的反应镜头，形成正反打基础",
+    "composition": "女主坐于床沿，画面左侧，视线方向留白占右侧三分之二，背景床帐虚化",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "被动、等待宣判",
+    "duration_hint": "1.5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 160
+  },
+  {
+    "id": "shot_0161",
+    "scene_id": "scene_016",
+    "shot_number": 5,
+    "goal": "捕捉女主手部细节，外化内心压抑",
+    "composition": "女主双手交叠于膝上的特写，指尖微微收紧，衣料褶皱，背景虚化",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制的紧张、隐忍",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.6,
+    "order": 161
+  },
+  {
+    "id": "shot_0162",
+    "scene_id": "scene_016",
+    "shot_number": 6,
+    "goal": "沈词宣判式台词的主镜头",
+    "composition": "沈词站立，画面右侧，视线投向左侧（女主方向），窗光从背后勾边，面部半明半暗",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冷酷、不容置疑的决断",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 162
+  },
+  {
+    "id": "shot_0163",
+    "scene_id": "scene_016",
+    "shot_number": 7,
+    "goal": "女主接收台词冲击的反应镜头",
+    "composition": "女主正面中特写，眼神先是微颤后迅速平静，下颌线紧绷，背景床帐纹理",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被刺痛后的自我封闭",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.8,
+    "order": 163
+  },
+  {
+    "id": "shot_0164",
+    "scene_id": "scene_016",
+    "shot_number": 8,
+    "goal": "拉开距离展现两人的空间关系，强化情感隔阂",
+    "composition": "双人全景，沈词立于画面右三分之一，女主坐于左三分之一，中间大片留白，床榻分隔两人",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "疏离、无法跨越的鸿沟",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女",
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 164
+  }
+]

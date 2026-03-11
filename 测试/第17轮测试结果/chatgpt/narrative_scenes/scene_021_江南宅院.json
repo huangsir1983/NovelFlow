@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "EXT. 江南宅院 - DAY",
+  "location": "江南宅院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "昭昭"
+  ],
+  "core_event": "高令宁带着昭昭远走江南，一晃三年。昭昭聪明活泼，沈词持续来信送钱送物，维持远距离联系。",
+  "key_dialogue": "「也只是让他寄钱。」",
+  "emotional_peak": "女主终于过上久违的清净日子，情绪转为平和。",
+  "tension_score": 0.35,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "书信",
+    "金银珠宝与典籍包裹",
+    "唐诗书册"
+  ],
+  "dramatic_purpose": "展示女主脱离旧秩序后的新生活与昭昭成长，作为后续追来江南的情感缓冲。",
+  "source_text_start": "13.\n京城总有人纠缠。\n我索性带着昭昭去了江南。\n终于过了段",
+  "source_text_end": "每数个月，我才会回他一封。\n也只是让他寄钱。"
+}

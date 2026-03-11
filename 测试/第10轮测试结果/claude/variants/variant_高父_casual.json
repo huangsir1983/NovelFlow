@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_02",
+  "variant_type": "casual",
+  "variant_name": "高父 — 居家便服",
+  "tags": [
+    "便服",
+    "慈父",
+    "温情"
+  ],
+  "scene_ids": [
+    "scene_002",
+    "scene_008",
+    "scene_013"
+  ],
+  "trigger": "在家中与女儿私下交谈时的居家形象",
+  "appearance_delta": {
+    "face": "慈祥温和，眼角皱纹明显",
+    "body": "放松姿态，中年发福明显",
+    "hair": "花白头发，简单束发",
+    "distinguishing_features": "慈父神态，担忧关切的眼神"
+  },
+  "costume_override": {
+    "outfit": "深色便服长袍，布鞋",
+    "color_palette": [
+      "褐色",
+      "深灰色"
+    ]
+  },
+  "visual_reference": "middle-aged Chinese father in casual brown traditional robes, kind worried expression, graying hair, gentle fatherly demeanor, sitting or standing in private family quarters, warm lighting, protective caring eyes with wrinkles",
+  "emotional_tone": "慈爱担忧，父女情深的温情"
+}

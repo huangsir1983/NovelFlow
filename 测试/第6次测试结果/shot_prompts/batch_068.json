@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0396",
+    "shot_id": "shot_0392",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, stands on the left side of the corridor in a full-body side view, posture straight and dignified yet halted, stopping just outside an invisible line marked by the guards' polearms, unable to step forward; the closed bedroom door and guarding figures occupy the right side of the frame as a hard vertical barrier, with a deliberate empty strip of floor between him and the threshold to show forbidden distance; ancient mansion corridor with old wooden pillars, weathered wooden door, gray-blue shadows, muted brown timber, low-saturation warm-cool contrast, cold daylight slanting under the eaves mixed with faint amber interior spill, lateral framing, static composition, cinematic historical drama realism, restrained tension, fine fabric texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, cool sidelight from the corridor, faint amber interior bounce, doorway and pillars creating visual confinement"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, glass windows, modern furniture, modern hairstyle, modern makeup, text, watermark, logo, low quality, blurry, noisy, overexposed, deformed hands, extra limbs, bad anatomy"
+  },
+  {
+    "id": "sp_0397",
+    "shot_id": "shot_0393",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, shown in a medium close-up slightly left of center in side profile facing the bedroom door, shoulders and back held rigid, under-eyes faintly shadowed, lip line tightened, gaze fixed on the door without moving, visibly restraining the urge to approach; a blurred section of a guard's polearm intrudes from the right foreground, behind him an old closed wooden door and cold daylight cutting diagonally into the corridor, muted gray-blue and old wood brown palette with a trace of amber warmth, slow intimate tension, shallow depth of field, cinematic realism, delicate facial detail, restrained emotional pressure, filmic texture",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, film grain",
+      "lighting": "cool diagonal daylight under the eaves with faint warm reflected lamplight, low saturation, soft contrast on the face, oppressive corridor shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, modern weapons, modern furniture, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0398",
+    "shot_id": "shot_0394",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, highly detailed, steps out from behind a corridor pillar at the right rear and stops near the center before the closed door, deliberately cutting off the straight line between Shen Ci and the room; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, appears only as a blurred shoulder and back in the left foreground; the sealed wooden door fills the rear space so Gao Father becomes a new visual bolt in front of it, ancient corridor with old timber columns, gray-blue ambient shadow, cool daylight from one side, slight amber interior residue, medium shot, controlled pan feeling, cinematic historical realism, quiet authority, elegant blocking, low-saturation warm-cool contrast",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "cool side daylight in corridor, muted amber spill from interior, low-saturation warm-cool clash, door and pillar framing for pressure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, modern decor, text, watermark, logo, low quality, blurry, distorted anatomy, extra limbs, overprocessed, cartoon"
+  },
+  {
+    "id": "sp_0399",
+    "shot_id": "shot_0395",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, highly detailed, faces the camera in a medium close-up at the center of the frame, expression hard and immovable, one hand slightly raised in a clear gesture to stop, protective and authoritative rather than loud; a blurred corner of a ceremonial gift box appears along the lower foreground edge, while the closed wooden door completely fills the background so his body and the door read as one guarding wall, muted gray-blue, dark teal, old wood brown, very restrained red absence, low-saturation warm-cool contrast, cool daylight from the corridor side with a faint amber interior undertone, static composition, cinematic realism, paternal protection, sharp textile detail, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, portrait lens, film grain",
+      "lighting": "cool side daylight with faint warm interior bounce, low-saturation palette, flat closed-door background emphasizing authority"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, plastic, electric lights, modern accessories, text, watermark, logo, low quality, blurry, bad anatomy, duplicate body parts, oversaturated, CGI look"
+  },
+  {
+    "id": "sp_0400",
+    "shot_id": "shot_0396",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, highly detailed, stands in the left half of the frame in a rigid half-body stance, courteous yet tense, gaze fixed across the empty space; Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, highly detailed, occupies the right half in an equally firm half-body stance, calm but implacable, blocking all approach; neither man crosses the center line, a deliberate strip of blank corridor floor and the edge of the doorframe separate them, a guard's polearm presses into the lower foreground, and the closed wooden door remains shut in the background, silent courtroom tension in an ancient corridor, old wood pillars, gray-blue shadow, cool daylight under the eaves and faint amber spill from inside, low-saturation warm-cool contrast, static medium shot, cinematic historical drama realism, restrained hostility under formal manners, balanced confrontational composition, fine detail and film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, symmetrical tension, film grain",
+      "lighting": "cool corridor daylight against faint amber interior warmth, low-saturation contrast, hard verticals from doorframe and pillars creating pressure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, firearms, electric lighting, plastic, modern architecture, text, watermark, logo, low quality, blur, bad anatomy, extra limbs, exaggerated expressions, fantasy armor"
+  },
+  {
+    "id": "sp_0401",
+    "shot_id": "shot_0397",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, highly detailed, shown in close-up on the right side of the frame with her face turned left, listening intently toward the door, eyes held still, breathing light, body unmoving and refusing to rise, fully aware of the visitor outside yet choosing not to cross the distance; a layer of semi-transparent bed gauze veils the foreground, while the background softly blurs into a dark doorway silhouette, interior chamber quiet and enclosed, muted white fabric, gray-blue shadow, old wood brown, faint amber lamplight meeting cool natural light, low-saturation warm-cool contrast, static intimate framing, cinematic historical realism, delicate skin texture, emotional restraint, soft depth, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, intimate close-up, film grain",
+      "lighting": "soft cool daylight filtered into the chamber with dim amber lamplight, gauze diffusion, low-saturation warm-cool balance, restrained interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, plastic, modern bedding, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, overexposed skin, heavy modern makeup"
+  }
+]

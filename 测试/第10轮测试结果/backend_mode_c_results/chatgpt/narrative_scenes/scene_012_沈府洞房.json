@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 沈府新房 - NIGHT",
+  "location": "沈府洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪婢女"
+  ],
+  "core_event": "新婚夜，沈词与高令宁完成夫妻之实，言语间仍充满冷嘲与交易意味。此时陆姝仪婢女敲门称她醉酒心口痛，高令宁冷淡放行，表示他不必再回来。",
+  "key_dialogue": "「你我早晚要和离，我费那心思做什么？」",
+  "emotional_peak": "最亲密的身体接触中，两人仍用伤人的话互刺，婚姻从一开始就没有温存可言。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "喜床",
+    "喜帐",
+    "龙凤喜烛",
+    "解开的腕间丝带",
+    "热水铜盆",
+    "帕子",
+    "散落衣衫",
+    "门外叩门声",
+    "床榻被褥"
+  ],
+  "dramatic_purpose": "奠定婚后关系的肉身亲密与情感疏离"
+}

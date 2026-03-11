@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0050",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0173",
+      "shot_0174",
+      "shot_0175"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头均处于同一时空与同一守夜动作链内，从客观建立空间转入女主近主观，再压到手部劳动细节，角色集合稳定，情绪统一为压抑中的补偿与守护，适合合并为一个起始段落。",
+    "order": 50
+  },
+  {
+    "id": "seg_0051",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0176",
+      "shot_0177"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "两镜共同完成“整夜守着”的时间压缩：先是持续照料，再是极限疲惫下仍不离床边。角色与场域不变，情绪从迟来的温柔自然滑向耗竭执念，形成完整小弧线。",
+    "order": 51
+  },
+  {
+    "id": "seg_0052",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0178",
+      "shot_0179",
+      "shot_0180"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是明确情感转折点，惊醒、抓住、愣住构成连续爆点动作链，需合并保持冲击力。前两镜以女主主观体感推进，第三镜切到男主反应，符合“听者比说者重要”和悬疑主观的风格要求。",
+    "order": 52
+  },
+  {
+    "id": "seg_0053",
+    "scene_id": "scene_011",
+    "shot_ids": [
+      "shot_0181",
+      "shot_0182",
+      "shot_0183",
+      "shot_0184"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四镜头共同完成本场核心情感揭示：女主主观确认、男主迟疑抬手、极致未触、再回到沉默现实。虽然数量较多，但同属单一情绪高点后的回冷，不宜拆散，否则会削弱“想碰却不敢碰”的完整张力。",
+    "order": 53
+  }
+]

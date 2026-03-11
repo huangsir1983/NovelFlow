@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_012",
+  "name": "高家正厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸正厅",
+  "description": "正式议事正厅，中央桌案与椅，拳头可击桌，墙挂字画，空间较大适合争执与哭诉指责。",
+  "visual_reference": "明代官宦府邸正厅夜景室内，庄重议事大厅，中央桌案与椅，墙挂字画对联，红木家具坚固，青砖地，夜色中烛光与月光交织，紧张争执氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "激烈争执、冰霜指责",
+  "color_palette": [
+    "深红",
+    "木褐",
+    "烛橙",
+    "青灰"
+  ],
+  "lighting": "夜晚烛光与外月光，投下锐利阴影",
+  "key_features": [
+    "中央桌案",
+    "拳头击打痕迹",
+    "字画对联"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "陆哭诉指责到沈词冰霜面容的争执升级"
+}

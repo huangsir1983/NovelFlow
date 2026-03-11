@@ -1,0 +1,40 @@
+{
+  "name": "伯爵府三公子",
+  "aliases": [
+    "三公子"
+  ],
+  "role": "minor",
+  "age_range": "30-40",
+  "appearance": {
+    "face": "油滑或疲态重，贵公子却带不正之气",
+    "body": "中等偏虚浮",
+    "hair": "贵族束发",
+    "distinguishing_features": "一眼可见的不堪与轻浮"
+  },
+  "costume": {
+    "typical_outfit": "华贵却浮夸的公子装",
+    "color_palette": [
+      "金褐",
+      "深红"
+    ]
+  },
+  "casting_tags": [
+    "劣质婚配对象",
+    "纨绔"
+  ],
+  "visual_reference": "Ancient Chinese dissolute nobleman, flashy rich robe, smug expression, decadent aristocratic look",
+  "visual_prompt_negative": "modern suit, armor, clean scholarly aura, tattoo",
+  "personality": "生性不堪",
+  "desire": "占有年轻美貌的妻子",
+  "flaw": "品行恶劣",
+  "arc": "无明显弧线",
+  "scene_presence": "作为陆姝仪婚配威胁被提及",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "潜在婚配对象",
+      "dynamic": "代表她被迫嫁入火坑的命运",
+      "function": "压迫陆姝仪采取极端手段"
+    }
+  ]
+}

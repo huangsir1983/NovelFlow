@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_006",
+  "name": "侯爵府厢房",
+  "type": "interior",
+  "era_style": "明代贵族府邸客房",
+  "description": "简洁雅致的厢房，靠墙设木床，床上铺素色被褥。房内置圆桌与椅凳，桌上摆茶具与药碗。墙上挂山水画，角落设衣架。窗户木格，窗外可见廊檐。地面铺木地板，房内设烛台与油灯。帕子搭在椅背，灯火摇曳。",
+  "visual_reference": "Ming Dynasty aristocratic guest room at night, simple elegant interior, wooden bed with plain bedding, round table with tea set and medicine bowl, landscape painting on wall, lattice windows, wooden floor, candlelight and oil lamps, cloth draped on chair, intimate nighttime atmosphere, traditional Chinese interior",
+  "atmosphere": "静谧、病弱、紧张",
+  "color_palette": [
+    "暖黄灯光",
+    "木本色",
+    "素白布色"
+  ],
+  "lighting": "夜晚烛火与油灯照明,光线昏黄摇曳,投下长影",
+  "key_features": [
+    "药碗",
+    "烛台油灯",
+    "素色床榻",
+    "山水画"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "坚持与哀求的对抗"
+}

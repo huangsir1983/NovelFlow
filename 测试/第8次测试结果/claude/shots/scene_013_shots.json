@@ -1,0 +1,128 @@
+[
+  {
+    "id": "shot_0135",
+    "scene_id": "scene_013",
+    "shot_number": 1,
+    "goal": "建立空间氛围，展现深夜独自工作的孤寂感",
+    "composition": "俯视广角，书房全景，女主位于画面右下三分之一处，账册堆叠占据左侧前景形成视觉重量，烛火在画面中心偏左形成唯一光源",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "孤独、压迫感、决心",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 135
+  },
+  {
+    "id": "shot_0136",
+    "scene_id": "scene_013",
+    "shot_number": 2,
+    "goal": "展现女主专注状态和工作细节",
+    "composition": "侧面中景，女主位于画面右侧，面向左侧画面空间，账册堆叠在左侧前景虚化，烛火在背景形成轮廓光",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "专注、克制的决心",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 136
+  },
+  {
+    "id": "shot_0137",
+    "scene_id": "scene_013",
+    "shot_number": 3,
+    "goal": "强调前世记忆的重要性——商路图特写",
+    "composition": "顶部俯拍特写，商路图铺满画面，女主手指入画指向关键节点，墨迹和烛光在纸面形成明暗对比",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "紧张、关键信息的重量感",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 137
+  },
+  {
+    "id": "shot_0138",
+    "scene_id": "scene_013",
+    "shot_number": 4,
+    "goal": "展现女主利用前世知识勾画新路线的行动",
+    "composition": "侧面中特写，女主手持毛笔在纸上勾画，手部占据画面中心，商路图在下方，烛火在背景形成温暖光晕",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "掌控感、智慧的运用",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 138
+  },
+  {
+    "id": "shot_0139",
+    "scene_id": "scene_013",
+    "shot_number": 5,
+    "goal": "捕捉女主停笔的关键动作——思考转折点",
+    "composition": "正面中特写，女主手部停笔动作占据画面下方三分之一，毛笔尖悬停在纸面上方，墨迹未干，背景虚化",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "悬念、决策前的停顿",
+    "duration_hint": "1-2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.6,
+    "order": 139
+  },
+  {
+    "id": "shot_0140",
+    "scene_id": "scene_013",
+    "shot_number": 6,
+    "goal": "展现女主抬头瞬间的决心——情绪高点",
+    "composition": "正面特写，女主面部占据画面中心，眼神直视镜头方向（看向未来/命运），烛火在侧面形成半边脸的强烈明暗对比，颈侧疤痕隐约可见",
+    "camera_movement": "slow dolly in",
+    "framing": "CU",
+    "emotion_target": "坚定、重生者的觉悟、冷静的野心",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.8,
+    "order": 140
+  },
+  {
+    "id": "shot_0141",
+    "scene_id": "scene_013",
+    "shot_number": 7,
+    "goal": "收束场景，强化孤独奋战的意象",
+    "composition": "高角度中全景，女主重新低头伏案，身影在烛火中显得渺小但坚定，账册堆叠形成前景框架，画面四周暗影包围",
+    "camera_movement": "crane up slowly",
+    "framing": "MLS",
+    "emotion_target": "孤独中的坚韧、悲壮感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "fade_to_black",
+    "dramatic_intensity": 0.4,
+    "order": 141
+  }
+]

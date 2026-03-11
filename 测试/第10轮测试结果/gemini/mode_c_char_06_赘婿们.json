@@ -1,0 +1,39 @@
+{
+  "name": "赘婿们",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "20-25",
+  "appearance": {
+    "face": "相貌出众，各有千秋",
+    "body": "匀称修长",
+    "hair": "风流倜傥的束发",
+    "distinguishing_features": "温顺听话的姿态"
+  },
+  "costume": {
+    "typical_outfit": "江南风格的飘逸长衫",
+    "color_palette": [
+      "浅灰",
+      "竹青"
+    ]
+  },
+  "casting_tags": [
+    "男团脸",
+    "温顺"
+  ],
+  "visual_reference": "Handsome young ancient Chinese men, various styles, wearing elegant Hanfu, realistic.",
+  "personality": "温顺，体贴",
+  "desire": "讨好高令宁",
+  "flaw": "无",
+  "arc": "平",
+  "scene_presence": "结尾江南场景出场，陪昭昭堆雪人、给女主盖被子。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "雇佣/伴侣",
+      "dynamic": "服从与照顾",
+      "function": "刺激沈词的终极道具"
+    }
+  ]
+}

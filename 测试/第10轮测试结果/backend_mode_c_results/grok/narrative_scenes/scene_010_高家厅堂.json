@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高家厅堂 - 日",
+  "location": "高家厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "沈母"
+  ],
+  "core_event": "沈母索孙女被拒，沈词跪求见女，和离书谈判爆发",
+  "key_dialogue": "我们性情不合，强行活在一处，只会互相折磨。",
+  "emotional_peak": "沈词脊背弯曲不可置信",
+  "tension_score": 0.85,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "和离书",
+    "跪垫",
+    "沈母华服",
+    "昭昭襁褓"
+  ],
+  "dramatic_purpose": "和离正式确立与男主崩溃"
+}

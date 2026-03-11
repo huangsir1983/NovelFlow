@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_017",
+  "name": "高家厅堂（满月宴）",
+  "type": "interior",
+  "era_style": "明代官邸宴会厅堂",
+  "description": "为庆祝婴儿满月而布置的喜庆厅堂。四处悬挂着红绸，圆桌上摆满了精致的酒杯与红色的请帖。阳光充足，宾客散去后的厅堂显得有些空旷。喜庆的红色背景与人物之间苍白、无力的拉扯形成鲜明对比。",
+  "visual_reference": "Ancient Chinese banquet hall interior, decorated with red silk for a baby's one-month celebration, delicate wine cups and red invitations on round tables, bright daylight, slightly empty and echoing space, festive but emotionally complex atmosphere, cinematic, 8k.",
+  "atmosphere": "喜庆余韵、空旷、宿命感",
+  "color_palette": [
+    "喜庆红",
+    "琉璃金",
+    "苍白色"
+  ],
+  "lighting": "明朗的白昼光线，将厅堂照得透亮，无处遁形",
+  "key_features": [
+    "满月宴红绸",
+    "红色请帖",
+    "散落的酒杯"
+  ],
+  "narrative_scenes": [
+    "scene_017"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从女配坦白重生的释然，到男主试图挽留却只抓到一片虚空的无力与绝望"
+}

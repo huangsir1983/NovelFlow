@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaofu_variant_02",
+  "variant_type": "casual",
+  "variant_name": "高父 — 误以为女儿婚姻转暖的居家父亲",
+  "tags": [
+    "家居长衫",
+    "养胎回娘家",
+    "稍见宽慰",
+    "慈父"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "高令宁回娘家养胎期间，沈词日日来探，高父误以为夫妻关系渐好，因此在家中呈现出较放松、略带宽慰的状态。",
+  "appearance_delta": {
+    "face": "愁容比主设定略淡，神情更柔和，像是短暂放下心事",
+    "body": "姿态更居家化，少了正式待客时的挺拔威压",
+    "hair": "仍束冠整齐，但比正式场合稍显日常",
+    "distinguishing_features": "眼神里出现久违的安心与撮合之意，体现他一度仍希望女儿婚姻可继续维系"
+  },
+  "costume_override": {
+    "outfit": "素色长衫，偏家居文士装束，简洁而不失士大夫身份",
+    "color_palette": [
+      "青灰",
+      "褐色",
+      "素青"
+    ]
+  },
+  "visual_reference": "Ancient Chinese middle-aged scholar father at home, slim and slightly frail from years of desk work, kind face with visible fine wrinkles, black-and-gray hair neatly bound, wearing a plain muted long robe in blue-gray and brown tones, standing under a traditional corridor in a refined courtyard, expression softened with cautious relief, gentle but thoughtful fatherly presence, realistic historical Chinese domestic setting",
+  "visual_prompt_negative": "official court armor, bright red ceremonial clothing, long exaggerated beard, modern furniture, muscular physique, glasses, vivid fantasy colors",
+  "emotional_tone": "短暂宽慰、温和、带着误判后的希望"
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_024",
+  "order": 23,
+  "heading": "MONTAGE. 高府内外 - DAY",
+  "location": "高府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "昭昭",
+    "高父"
+  ],
+  "core_event": "拿到和离书后，高令宁闭门养身，沈词持续送来昂贵补品和给昭昭的东西，却被高父严防死守，只能偶尔见面。",
+  "key_dialogue": "无",
+  "emotional_peak": "昔日高高在上的沈公子被拒之门外，转为卑微等待。",
+  "tension_score": 0.55,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "补品礼盒",
+    "药材匣",
+    "婴儿衣物",
+    "守门家丁",
+    "门锁",
+    "信物",
+    "小儿玩具"
+  ],
+  "dramatic_purpose": "过渡到和离后关系新常态。"
+}

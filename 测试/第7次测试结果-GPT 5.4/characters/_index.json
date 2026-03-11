@@ -1,0 +1,174 @@
+{
+  "count": 24,
+  "updated_at": "2026-03-08T22:37:06",
+  "entries": [
+    {
+      "id": "char_高令宁",
+      "name": "高令宁",
+      "role": "protagonist",
+      "filename": "高令宁.json",
+      "description": "一个带着前世婚姻与丧女丧家记忆重来的高门闺秀，以再嫁为局、以和离为刃，誓要为自己与孩子夺回命运主动权"
+    },
+    {
+      "id": "char_沈词",
+      "name": "沈词",
+      "role": "protagonist",
+      "filename": "沈词.json",
+      "description": "一个把爱误写成控制、把愧疚扭曲成纠缠的重生高门公子。"
+    },
+    {
+      "id": "char_高父",
+      "name": "高父",
+      "role": "supporting",
+      "filename": "高父.json",
+      "description": "一个被朝局与父爱同时撕扯、最终选择站在女儿身后的清正文臣父亲。"
+    },
+    {
+      "id": "char_沈睿",
+      "name": "沈睿",
+      "role": "supporting",
+      "filename": "沈睿.json",
+      "description": "一个尚未真正登场却牵动两世婚约的“命运之子”，既是父母重返旧局的理由，也是他们创伤与补偿欲的投射核心"
+    },
+    {
+      "id": "char_陆姝仪",
+      "name": "陆姝仪",
+      "role": "antagonist",
+      "filename": "陆姝仪.json",
+      "description": "以柔弱为盔甲、以处境为筹码，在被命运碾压后学会主动搅乱婚局的重生表妹。"
+    },
+    {
+      "id": "char_沈母",
+      "name": "沈母",
+      "role": "supporting",
+      "filename": "沈母.json",
+      "description": "以家族体面为名操控儿媳命运、偏袒陆姝仪并制造内宅压迫的世家主母。"
+    },
+    {
+      "id": "char_蒋晟",
+      "name": "蒋晟",
+      "role": "supporting",
+      "filename": "蒋晟.json",
+      "description": "高父门下最像“正常人生”出口的青年良配，却因过于正直老实，被卷入主角群前世纠葛与今生算局之中。"
+    },
+    {
+      "id": "char_昭昭",
+      "name": "昭昭",
+      "role": "supporting",
+      "filename": "昭昭.json",
+      "description": "她是高令宁与沈词之间从‘宿命之子’偏轨而生的女儿，也是将怨偶关系从复仇叙事扭转为重新认识彼此的关键生"
+    },
+    {
+      "id": "char_静好",
+      "name": "静好",
+      "role": "minor",
+      "filename": null,
+      "description": "前世夭折的未出世女儿"
+    },
+    {
+      "id": "char_伯爵娘子",
+      "name": "伯爵娘子",
+      "role": "minor",
+      "filename": null,
+      "description": "推动陆姝仪婚事的贵妇"
+    },
+    {
+      "id": "char_伯爵府三公子",
+      "name": "伯爵府三公子",
+      "role": "minor",
+      "filename": null,
+      "description": "沈母欲配给姝仪恶婿"
+    },
+    {
+      "id": "char_侯爵娘子",
+      "name": "侯爵娘子",
+      "role": "minor",
+      "filename": null,
+      "description": "举办马球会的贵妇"
+    },
+    {
+      "id": "char_媒人",
+      "name": "媒人",
+      "role": "minor",
+      "filename": null,
+      "description": "多次登门撮合婚事"
+    },
+    {
+      "id": "char_大夫",
+      "name": "大夫",
+      "role": "minor",
+      "filename": null,
+      "description": "诊脚伤断男胎的大夫"
+    },
+    {
+      "id": "char_太医",
+      "name": "太医",
+      "role": "minor",
+      "filename": null,
+      "description": "为女主诊孕接生的太医"
+    },
+    {
+      "id": "char_稳婆",
+      "name": "稳婆",
+      "role": "minor",
+      "filename": null,
+      "description": "早产时接生报喜"
+    },
+    {
+      "id": "char_小厮",
+      "name": "小厮",
+      "role": "minor",
+      "filename": null,
+      "description": "传递认义妹等消息"
+    },
+    {
+      "id": "char_婢女",
+      "name": "婢女",
+      "role": "minor",
+      "filename": null,
+      "description": "貌似姝仪引爆夫妻旧怨"
+    },
+    {
+      "id": "char_侍女",
+      "name": "侍女",
+      "role": "minor",
+      "filename": null,
+      "description": "高府传话搜查的下人"
+    },
+    {
+      "id": "char_门房",
+      "name": "门房",
+      "role": "minor",
+      "filename": null,
+      "description": "提供陆姝仪出入信息"
+    },
+    {
+      "id": "char_权贵",
+      "name": "权贵",
+      "role": "minor",
+      "filename": null,
+      "description": "女主曾跪求援手对象"
+    },
+    {
+      "id": "char_皇帝",
+      "name": "皇帝",
+      "role": "minor",
+      "filename": null,
+      "description": "前世器重沈睿的君主"
+    },
+    {
+      "id": "char_赘婿们",
+      "name": "赘婿们",
+      "role": "minor",
+      "filename": null,
+      "description": "江南陪伴昭昭的候选男子"
+    },
+    {
+      "id": "char_高家弟妹",
+      "name": "高家弟妹",
+      "role": "minor",
+      "filename": null,
+      "description": "前世高家遭祸的家人"
+    }
+  ]
+}

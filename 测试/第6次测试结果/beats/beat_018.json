@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "id": "beat_018",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_009",
+      "scene_019",
+      "scene_020",
+      "scene_022"
+    ]
+  },
+  "data": {
+    "title": "提出藏匿扶正方案",
+    "description": "女主冷静提出可先让陆姝仪假死、待自己和离后再扶正，表面是解决方案，实则把沈词的真实情感逼到台前。",
+    "beat_type": "dialogue",
+    "save_the_cat": "N/A",
+    "emotional_value": -0.2,
+    "dramatic_intensity": -0.2,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 18
+  }
+}

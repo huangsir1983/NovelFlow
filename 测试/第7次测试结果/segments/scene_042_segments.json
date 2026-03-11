@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0199",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0710",
+      "shot_0711",
+      "shot_0712"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成同一情绪起点：先建立封闭私域，再让闯入者进入边界，最后落到女主认出来人后的态度判断。角色集合仅从无人物到女主与沈睿进入，仍属同一‘潜入被察觉’动作链，适合合并为一个起势段。",
+    "order": 199
+  },
+  {
+    "id": "seg_0200",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0713",
+      "shot_0714",
+      "shot_0715"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成一次明确的情势翻转：高令宁身体驱逐、第三人现身、弟妹以照顾行为和台词占位。角色集合在此发生关键变化，弟妹正式入场并改写三角张力，因此作为独立segment最清晰。",
+    "order": 200
+  },
+  {
+    "id": "seg_0201",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0716",
+      "shot_0717",
+      "shot_0718"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段围绕沈睿的自我合理化与高令宁的身体拒绝展开，角色集合稳定不变，但情绪从受辱停滞推进到言语试探，再被女主以躲避动作切断。三shot形成完整的‘辩解—听者反应—站队确认’节拍，适合合并。",
+    "order": 201
+  },
+  {
+    "id": "seg_0202",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0719",
+      "shot_0720",
+      "shot_0721",
+      "shot_0722"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这四个shot共同完成本场核心宣判：触碰落空、关系替代、受创反应、明确逐客。情绪弧线连续攀升到顶点，没有角色变化与时空跳转，适合作为一个高压终判段，时长也接近目标上限。",
+    "order": 202
+  },
+  {
+    "id": "seg_0203",
+    "scene_id": "scene_042",
+    "shot_ids": [
+      "shot_0723",
+      "shot_0724"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两shot同属余波段：沈睿退场与空间冷收尾。冲突主动作已结束，情绪由高压转为寒意残留，角色集合从三人退回床上二人，形成清晰的段落收束，因此单独成段最稳。",
+    "order": 203
+  }
+]

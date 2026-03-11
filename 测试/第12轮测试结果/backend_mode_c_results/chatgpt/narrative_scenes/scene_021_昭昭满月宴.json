@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "INT. 高家满月宴厅 - DAY",
+  "location": "昭昭满月宴",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词",
+    "昭昭",
+    "高父"
+  ],
+  "core_event": "陆姝仪不请自来，在满月宴上向高令宁坦白自己也重生，承认设计蒋晟一事源于前世不甘与今生无路可走；沈词在一旁听见，神色惨白。",
+  "key_dialogue": "「蒋晟的事，是我设计。」",
+  "emotional_peak": "真相迟到揭开，高令宁终于洗去关键污名，却已物是人非。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "满月宴席面",
+    "请帖",
+    "贺礼匣子",
+    "婴儿摇篮/襁褓",
+    "酒盏",
+    "糕点果盘",
+    "屏风",
+    "宾客席"
+  ],
+  "dramatic_purpose": "解除最大误会，进一步压实男主悔恨无可挽回。"
+}

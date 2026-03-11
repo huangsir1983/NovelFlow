@@ -1,0 +1,14 @@
+{
+  "name": "烛台",
+  "category": "furniture",
+  "description": "中式单枝或双枝铜制烛台，通体为旧金色偏暗的黄铜质感，高约32至45厘米，底座圆形或莲瓣形，重心稳固，立柱纤长，顶部烛托边缘带浅浅卷叶纹。表面可见氧化后的深褐斑驳与长期擦拭留下的亮面，工艺为铸造后手工修整，细节不繁缛但有宅邸用具的考究感。配细长白蜡或浅黄蜡烛，烛泪凝结在托盘边缘，整体视觉带有夜室照明特有的冷暖反差与不安感。",
+  "visual_reference": "Antique Chinese brass candle holder, 32-45cm tall, aged brass with dark patina, round or lotus-petal base, slender stem, subtle engraved leaf motifs, white wax candle with dripping wax, noble interior night scene prop, late imperial China, moody cinematic lighting, realistic metal texture, highly detailed historical prop design",
+  "narrative_function": "烛台主要用于塑造夜间场景的光源逻辑与情绪氛围。摇曳烛光会放大人物神色、欲言又止与危险感，强化秘密对话、内心动荡或暧昧压迫的张力。",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_003",
+    "scene_005",
+    "scene_029"
+  ],
+  "emotional_association": "不安与暧昧的阴影"
+}

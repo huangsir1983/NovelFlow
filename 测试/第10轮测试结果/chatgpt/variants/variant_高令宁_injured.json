@@ -1,0 +1,37 @@
+{
+  "variant_id": "gaolingning_variant_05",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 早产病弱产后态",
+  "tags": [
+    "早产",
+    "产房",
+    "病中",
+    "失控后余生",
+    "脆弱"
+  ],
+  "scene_ids": [
+    "scene_019",
+    "scene_020",
+    "scene_021",
+    "scene_022",
+    "scene_023",
+    "scene_024"
+  ],
+  "trigger": "蒋晟误会局后在厅堂受刺激腹痛发作，继而早产难产、产后卧床、梦见沈睿并在高府与沈家展开抚养与和离拉扯时出现。",
+  "appearance_delta": {
+    "face": "病中明显苍白，眼下倦色重，唇色浅淡，情绪激动后更显脆弱；梦醒后则多了释怀后的沉静",
+    "body": "产后虚弱感强，身形消瘦，抱孩子或卧床时更突出气力不足",
+    "hair": "多为病榻上的松散发髻或半散长发，少饰物，产后不复先前一丝不乱",
+    "distinguishing_features": "被褥、药碗、襁褓相伴，脆弱中仍保留冷静意志；颈部旧伤痕在病弱状态下更容易成为视觉记忆点"
+  },
+  "costume_override": {
+    "outfit": "产房与病榻阶段以素雅中衣、宽松寝衣、月子期披衣为主，便于卧床与抱婴",
+    "color_palette": [
+      "月白",
+      "素灰",
+      "淡黛"
+    ]
+  },
+  "visual_reference": "postpartum ancient Chinese noblewoman, Song dynasty historical drama style, pale fragile beauty, elegant oval face, reddened tired eyes, thin pale lips, black hair loosely tied or half undone on a sickbed, wrapped in soft light-colored robes, holding or beside a swaddled newborn girl, medicine bowl and bedding nearby, faint scar on neck, quiet but resolute expression, cinematic soft low light, realistic emotional portrait",
+  "emotional_tone": "虚弱、释怀、冷静决断"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "赘婿候选人们",
+  "aliases": [
+    "新夫婿们",
+    "几个男人"
+  ],
+  "role": "minor",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "相貌出众，各有斯文或俊秀之态",
+    "body": "体态健康，青年感明显",
+    "hair": "整齐束发",
+    "distinguishing_features": "作为群像存在，衬托沈词的危机感"
+  },
+  "costume": {
+    "typical_outfit": "江南雅致青年装束",
+    "color_palette": [
+      "月白",
+      "湖蓝",
+      "竹青"
+    ]
+  },
+  "casting_tags": [
+    "群像男性",
+    "情敌群像"
+  ],
+  "visual_reference": "Several handsome ancient Chinese young men in elegant Jiangnan robes, refined and gentle, warm courtyard family scene",
+  "visual_prompt_negative": "modern clothing, armor, fantasy costumes, tattoos",
+  "personality": "温和体面",
+  "desire": "进入高家成为赘婿",
+  "flaw": "人物功能性强，个体信息有限",
+  "arc": "无明显弧线",
+  "scene_presence": "江南雪景场景中出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "赘婿候选",
+      "dynamic": "作为她人生新选择的象征",
+      "function": "刺激男主，呈现女主脱离旧婚姻后的可能性"
+    },
+    {
+      "target": "沈词",
+      "type": "情敌群像",
+      "dynamic": "让其彻底失态",
+      "function": "强化追妻修罗场"
+    }
+  ]
+}

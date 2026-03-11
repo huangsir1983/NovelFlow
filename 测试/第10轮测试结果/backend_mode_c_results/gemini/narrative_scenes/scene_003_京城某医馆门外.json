@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "EXT. 医馆门外 - DAY",
+  "location": "京城某医馆门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "高令宁为父亲抓药出门被沈词堵截，沈词用前世长子沈睿逼迫她成亲，两人达成契约婚姻的共识。",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+  "emotional_peak": "沈词提到沈睿戳中女主痛处，女主强忍泪水答应，但提出必须处理掉陆姝仪。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "药包",
+    "沈词指尖的勒痕",
+    "街道背景的行人"
+  ],
+  "dramatic_purpose": "交待两人重生的共同羁绊（儿子沈睿），达成生下孩子就和离的冰冷交易。"
+}

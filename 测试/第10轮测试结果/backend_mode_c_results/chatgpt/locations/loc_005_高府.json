@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_005",
+  "name": "高府",
+  "type": "mixed",
+  "era_style": "明代中晚期京城官员府邸内院宅院",
+  "description": "高府整体为规整的多进四合院式官宅，前厅、书房、回廊、卧房与内院彼此以雕花木门和抄手游廊串联。书案、奏折、官印与宣纸显示主人官身；廊下坐榻、小几、靠枕与风铃又带出家庭日常。白日院中开阔，青砖地面整洁，家丁守门，女眷区域更为安静，适合养胎与避居。后期补品礼盒、药材、燕窝、葡萄盘与婴儿用品逐渐堆入空间，使这座府邸从政治性的父家府宅，转化为母女栖身之所。整体格局端正稳妥，不奢靡，带有文官家庭的克制与保护性。",
+  "visual_reference": "Late Ming dynasty Beijing official residence, multi-courtyard siheyuan layout, scholar-official household, study with writing desk, inkstone, memorial papers and seal, covered corridors with carved wooden railings, side couches under eaves, guards at the gate, inner chambers for pregnancy care, tonic gift boxes, herbs, bird's nest soup, grape plate, baby items, grey brick courtyard, elegant but restrained, cinematic historical Chinese drama",
+  "atmosphere": "庇护、家常、表面平静下的防备",
+  "color_palette": [
+    "青砖灰",
+    "胡桃木色",
+    "米杏色"
+  ],
+  "lighting": "以通透日光为主，院落明亮，廊下与内室偏柔和阴影，形成内外有别的安全层次。",
+  "key_features": [
+    "多进院落与抄手游廊",
+    "官员书案与奏折文房",
+    "后期堆叠的补品和婴儿用品"
+  ],
+  "narrative_scenes": [
+    "scene_005",
+    "scene_017",
+    "scene_026"
+  ],
+  "scene_count": 3,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从筹谋保全父家命运，到短暂温情，再到和离后的坚决疏离，始终是女主重掌主动权的核心空间。"
+}

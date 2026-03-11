@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 沈家卧房 - day",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "重生后二人成婚次年，我怀上前世同样的男胎，沈词提出为孩子继续维持婚姻，我却决定按约定和离。",
+  "key_dialogue": "「还是按约定和离吧。」",
+  "emotional_peak": "我平静拒绝与他再纠缠一生。",
+  "tension_score": 0.78,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "孕脉诊断",
+    "绣活",
+    "床榻"
+  ],
+  "dramatic_purpose": "以结果性现状开篇，建立重生婚约与和离核心矛盾。",
+  "visual_reference": "古代高门卧房，女子有孕静坐，男子立于榻边神情克制冷淡，室内光线清冷，气氛压抑，锦帐与木窗投下柔光，二人关系疏离而复杂",
+  "visual_prompt_negative": "避免现代家具，避免夸张玄幻特效，避免喜庆婚房气氛，避免多人围观",
+  "source_text_start": "我和沈词的长子成了一代名相。",
+  "source_text_end": "大概是因为这次，不想再与他纠缠一生了吧。"
+}

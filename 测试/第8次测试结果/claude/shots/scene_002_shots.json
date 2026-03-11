@@ -1,0 +1,321 @@
+[
+  {
+    "id": "shot_0020",
+    "scene_id": "scene_002",
+    "shot_number": 1,
+    "goal": "建立场景空间感，展示正堂的压抑氛围和权力结构",
+    "composition": "高角度俯拍，矮几居中，陆姝仪跪姿占据画面下三分之一，周围仆从形成包围感，晨光从右侧窗棂斜射形成明暗对比",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压迫感、仪式性的冷漠",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪",
+      "沈母",
+      "仆从"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 20
+  },
+  {
+    "id": "shot_0021",
+    "scene_id": "scene_002",
+    "shot_number": 2,
+    "goal": "聚焦陆姝仪的柔弱与隐忍",
+    "composition": "侧面中景，陆姝仪跪姿占据画面右侧，双手捧茶盏居中，脊背挺直与柔弱形成对比，背景虚化",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "同情与紧张",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 21
+  },
+  {
+    "id": "shot_0022",
+    "scene_id": "scene_002",
+    "shot_number": 3,
+    "goal": "展示女主的冷漠与内心波动",
+    "composition": "仰角中特写，女主站立占据画面中心偏上，目光向下看茶盏，晨光从侧面勾勒轮廓，背景暗部",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷峻与不安",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 22
+  },
+  {
+    "id": "shot_0023",
+    "scene_id": "scene_002",
+    "shot_number": 4,
+    "goal": "捕捉女主手指收紧的细节，预示爆发",
+    "composition": "极特写，女主手指占据画面中心，指节泛白，背景虚化成光斑",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "紧张与不祥预感",
+    "duration_hint": "1-2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 23
+  },
+  {
+    "id": "shot_0024",
+    "scene_id": "scene_002",
+    "shot_number": 5,
+    "goal": "女主突然上前打翻茶盏的爆发动作",
+    "composition": "中景，女主从画面上方快速入画，手臂挥动轨迹形成对角线，陆姝仪在画面下方，茶盏居中",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "震惊与暴力美感",
+    "duration_hint": "1s",
+    "characters": [
+      "我/女主/高家长女",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.85,
+    "order": 24
+  },
+  {
+    "id": "shot_0025",
+    "scene_id": "scene_002",
+    "shot_number": 6,
+    "goal": "茶盏碎裂瞬间的视觉冲击",
+    "composition": "极特写，瓷片四溅占据画面，慢动作捕捉碎片轨迹，光线穿透瓷片形成晶莹质感",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "暴力美学与破碎感",
+    "duration_hint": "1-2s",
+    "characters": [],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 25
+  },
+  {
+    "id": "shot_0026",
+    "scene_id": "scene_002",
+    "shot_number": 7,
+    "goal": "女主捡起碎瓷的决绝动作",
+    "composition": "中景，女主弯腰占据画面中心，手伸向地面碎片，背景陆姝仪惊恐表情虚化",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "恐惧与不可挽回感",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 26
+  },
+  {
+    "id": "shot_0027",
+    "scene_id": "scene_002",
+    "shot_number": 8,
+    "goal": "碎瓷横向脖颈的自残瞬间",
+    "composition": "特写，女主侧脸占据画面右侧，碎瓷片从左侧入画划向颈部，焦点在瓷片锋利边缘",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "极度震惊与心痛",
+    "duration_hint": "1s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 1.0,
+    "order": 27
+  },
+  {
+    "id": "shot_0028",
+    "scene_id": "scene_002",
+    "shot_number": 9,
+    "goal": "沈母的惊恐反应",
+    "composition": "中特写，沈母正面占据画面中心，瞪大眼睛，嘴巴张开，背景虚化",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "恐惧传染",
+    "duration_hint": "1s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 28
+  },
+  {
+    "id": "shot_0029",
+    "scene_id": "scene_002",
+    "shot_number": 10,
+    "goal": "女主身体后倒的失控瞬间",
+    "composition": "中全景，女主身体向后倾倒占据画面中心，周围人物开始移动但动作滞后，形成时间差",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "无力感与悲剧性",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女",
+      "陆姝仪",
+      "沈母",
+      "仆从"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 29
+  },
+  {
+    "id": "shot_0030",
+    "scene_id": "scene_002",
+    "shot_number": 11,
+    "goal": "沈词从侧门冲入的救赎动作",
+    "composition": "中景，沈词从画面左侧快速入画，身体前倾形成冲刺感，女主倒地身影在画面右侧",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "紧迫感与希望",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 30
+  },
+  {
+    "id": "shot_0031",
+    "scene_id": "scene_002",
+    "shot_number": 12,
+    "goal": "沈词抱住女主手腕的关键接触",
+    "composition": "特写，沈词的手紧握女主手腕占据画面中心，碎瓷片夹在两人手间，血珠开始渗出",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "痛苦与亲密的矛盾",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.9,
+    "order": 31
+  },
+  {
+    "id": "shot_0032",
+    "scene_id": "scene_002",
+    "shot_number": 13,
+    "goal": "血珠顺颈流下的残酷美感",
+    "composition": "极特写，女主颈部占据画面，血珠沿皮肤纹理缓慢流淌，光线勾勒液体质感",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "疼痛与脆弱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 32
+  },
+  {
+    "id": "shot_0033",
+    "scene_id": "scene_002",
+    "shot_number": 14,
+    "goal": "沈词将女主抱入怀中的保护姿态",
+    "composition": "中景，沈词抱住女主占据画面中心，两人形成紧密构图，周围环境虚化成暗部",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "复杂的爱恨交织",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 33
+  },
+  {
+    "id": "shot_0034",
+    "scene_id": "scene_002",
+    "shot_number": 15,
+    "goal": "沈词凝视伤口的内心挣扎",
+    "composition": "中特写，沈词侧脸占据画面右侧，视线向下看女主颈部伤口，眉头紧蹙，女主脸部虚化在画面左下",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "愧疚与隐秘情感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 34
+  },
+  {
+    "id": "shot_0035",
+    "scene_id": "scene_002",
+    "shot_number": 16,
+    "goal": "沈词嘴唇微张又闭上的欲言又止",
+    "composition": "特写，沈词唇部占据画面中心，微张的唇形成犹豫感，背景虚化",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压抑与无声的痛苦",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.65,
+    "order": 35
+  },
+  {
+    "id": "shot_0036",
+    "scene_id": "scene_002",
+    "shot_number": 17,
+    "goal": "全景收尾，展示事件后的静止与余波",
+    "composition": "全景，沈词抱着女主占据画面中心偏下，周围人物呆立，晨光依旧斜射，形成静止画面感",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "悲剧性的沉默与无解",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "我/女主/高家长女",
+      "沈母",
+      "陆姝仪",
+      "仆从"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "fade_out",
+    "dramatic_intensity": 0.5,
+    "order": 36
+  }
+]

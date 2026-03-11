@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "id": "scene_004",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "related_beats": [
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 日",
+    "location": "高府室内",
+    "time_of_day": "day",
+    "description": "室内空间相对封闭，日光自门窗一侧照入，光线明亮平稳。室内陈设为闺阁或会客角落，桌案、座椅齐备。高令宁神色克制地立于室内，沈府小厮在下首回话，传信氛围表面平静，实则暗流涌动。",
+    "action": "沈府小厮传来沈家公子认义妹并议亲的消息。高令宁面色不变，抬眼淡淡吩咐对方回话，明确表示要等沈府小姐出嫁后才答应婚事。小厮领命退出。高令宁站在原地，唇角压着一丝快意，显出借话试探、故意激怒对方的姿态。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "麻烦你回去告诉沈家公子，贵府小姐出嫁后，我才会答应这门亲事。",
+        "subtext": "我知道你们所谓义妹关系暧昧不清；我在设限，也在逼沈词表态。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "建立高令宁对沈词与陆姝仪关系的警惕与反击姿态，明确她以婚事为筹码进行试探。",
+    "tension_score": 0.48,
+    "dramatic_intensity": -0.04,
+    "order": 4
+  }
+}

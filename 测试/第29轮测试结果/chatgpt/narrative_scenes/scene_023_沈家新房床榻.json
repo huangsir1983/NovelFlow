@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_023",
+  "order": 22,
+  "heading": "INT. 沈家洞房 - NIGHT",
+  "location": "沈家新房床榻",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "洞房夜里，沈词以尖刻言语与我圆房，夫妻间只有熟悉的敌意、肉体关系和对亡子的共同目的。",
+  "key_dialogue": "「要不是睿儿，你以为我想碰你？」",
+  "emotional_peak": "我闭上眼催他快点，把最私密的时刻变成最冷的交易。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "丝带",
+    "喜被",
+    "床帐"
+  ],
+  "dramatic_purpose": "强化这段婚姻的扭曲亲密：身体靠近，心却更远。",
+  "visual_reference": "红烛洞房，喜帐半垂，女子眼角有泪却神情麻木，男子俯身言语尖刻，动作克制但情绪凶狠，喜庆颜色被压成窒闷的暗红",
+  "visual_prompt_negative": "避免露骨色情，避免现代卧室，避免甜宠新婚氛围",
+  "source_text_start": "入夜后，喧嚣如水退去。",
+  "source_text_end": "可我只是闭上眼，催促：「再快点吧，我困了。」"
+}

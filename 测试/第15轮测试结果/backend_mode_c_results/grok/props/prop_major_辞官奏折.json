@@ -1,0 +1,13 @@
+{
+  "name": "辞官奏折",
+  "category": "document",
+  "description": "宣纸折叠奏折，墨迹新颖刚劲，内容为辞官陈情，尺寸30cm×15cm，格式严谨并附个人印鉴。",
+  "visual_reference": "古代辞官奏折，宣纸毛笔书写辞呈，字体端庄配官印，置于笔墨旁，书房古风氛围，写实光影",
+  "visual_prompt_negative": "现代辞职信、打印文档、字迹潦草、彩色纸张、破旧发黄",
+  "narrative_function": "关键转折道具，推动父亲为女主角辞官的牺牲情节，改变家庭命运轨迹与情感高潮",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_003"
+  ],
+  "emotional_association": "决心与深情父爱"
+}

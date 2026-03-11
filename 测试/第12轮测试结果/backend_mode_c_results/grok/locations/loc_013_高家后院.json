@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_013",
+  "name": "高家后院",
+  "type": "exterior",
+  "era_style": "明代官宦府邸后院",
+  "description": "高家私密后院，雕花木门通往厢房，石径环绕，庭院简洁，适合跪求与争执场景，和离书与襁褓可置于门前。",
+  "visual_reference": "明代高家后院庭院，雕花木门半开，和离书与昭昭襁褓置于石阶，青砖墙与石径，日光照射紧张氛围，写实古风",
+  "visual_prompt_negative": "现代庭院景观、彩灯",
+  "atmosphere": "恳求、坚持、拒绝",
+  "color_palette": [
+    "青灰",
+    "木红",
+    "绿",
+    "白"
+  ],
+  "lighting": "白天自然光",
+  "key_features": [
+    "雕花木门",
+    "和离书",
+    "昭昭襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_015",
+    "scene_016"
+  ],
+  "scene_count": 2,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "跪求不可置信到拼命摇头拒绝"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "陆姝仪婢女",
+  "aliases": [
+    "婢女"
+  ],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "普通清秀，神色怯弱慌张",
+    "body": "瘦小",
+    "hair": "丫鬟双髻或低髻",
+    "distinguishing_features": "始终依附主子行动"
+  },
+  "costume": {
+    "typical_outfit": "素色丫鬟服",
+    "color_palette": [
+      "浅青",
+      "灰白"
+    ]
+  },
+  "casting_tags": [
+    "贴身丫鬟",
+    "报信者"
+  ],
+  "visual_reference": "古代小丫鬟，清秀瘦小，穿浅青色丫鬟服，跪在新房外急切报信，神情惶恐，写实古风",
+  "visual_prompt_negative": "现代女仆装、浓妆、夸张表情、卡通风",
+  "personality": "怯懦、听命行事",
+  "desire": "完成主子命令，避免受责",
+  "flaw": "缺乏主见",
+  "arc": "无",
+  "scene_presence": "新婚夜前来叩门报陆姝仪心口痛",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "对主子高度服从",
+      "function": "执行陆姝仪戏码"
+    }
+  ]
+}

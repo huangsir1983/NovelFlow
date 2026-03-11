@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "EXT. 马球场 - 日",
+  "location": "马球场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "马球会，高令宁与蒋晟亲昵，沈词目睹陆姝仪献风筝",
+  "key_dialogue": "「你身上哪里，我没碰过？」",
+  "emotional_peak": "嫉妒与挑衅",
+  "tension_score": 0.85,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "马球杆、风筝、葡萄、蒋晟手、马匹"
+  ],
+  "dramatic_purpose": "三角关系升级与脚伤"
+}

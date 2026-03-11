@@ -1,0 +1,46 @@
+{
+  "name": "伯爵府三公子",
+  "aliases": [
+    "三公子"
+  ],
+  "role": "minor",
+  "age_range": "30-40",
+  "appearance": {
+    "face": "面相油滑，气色浮躁，带有酒色过度后的疲态",
+    "body": "中年男子体态，保养尚可但缺乏正气",
+    "hair": "整束发冠，但细节流于浮华",
+    "distinguishing_features": "一眼可见的不堪与轻浮感"
+  },
+  "costume": {
+    "typical_outfit": "伯爵府公子华贵却俗气的锦衣",
+    "color_palette": [
+      "赭红",
+      "金棕"
+    ]
+  },
+  "casting_tags": [
+    "恶劣联姻对象",
+    "纨绔",
+    "婚配威胁"
+  ],
+  "visual_reference": "Chinese nobleman in his 30s or 40s, slick and morally dubious look, ornate brocade robe in reddish gold tones, decadent aristocratic vibe, ancient drama style",
+  "personality": "生性不堪，品行恶劣，属于典型的门第联姻风险对象。",
+  "desire": "娶一个无依无靠、容易拿捏的妻子以延续自身生活方式。",
+  "flaw": "人品败坏，缺乏责任感。",
+  "arc": "作为被提及的联姻对象出现，构成陆姝仪求生焦虑的重要外部压力。",
+  "scene_presence": "在陆姝仪婚配线中被沈母选中，成为逼迫她铤而走险的重要诱因。",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "利益|阻碍",
+      "dynamic": "被安排的可怕婚配对象，象征她无法接受的命运",
+      "function": "外部威胁"
+    },
+    {
+      "target": "沈母",
+      "type": "利益",
+      "dynamic": "由沈母出于门面与现实考量挑选",
+      "function": "制度婚配工具"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+<think>
+Identifying locations- Extract unique shooting locations from the provided scene summary for JSON output.
+- List includes 17 distinct locations like 高家正堂, 高家闺房, and 江南院子.
+- Assign sequential location IDs starting from loc_001 for each entry in the JSON array.
+- Determine type as interior, exterior, or mixed based on location nature.
+- Infer era_style as "明代中晚期江南官宦府邸" for most locations, varying slightly for outdoor sites like 马球会场.
+- Categorize each location's type: e.g., 高家正堂 as interior, main hall; 沈家内院 as mixed due to semi-open courtyard elements.
+- Plan detailed Chinese descriptions for visual_reference, ensuring suitability for AI drawing tools.
+Generating visual archives- Craft era_style like "明代中晚期官宦府邸正厅" for 高家正堂, specifying architectural details.
+[Agent 2][AgentThink] 我已经分析了所有地点。共有17个独特拍摄地点。我建议统一时代风格为“明代中晚期官宦世家府邸”对于高家和沈家场景；马球场为“明代贵族马球场”；江南院子为“明代江南私家园林院落”。类型分类：正堂/闺房/正房/婚堂/洞房/内室/厢房/产房/厅堂 为 interior；门前/马球会场/后院 为 exterior；内院/廊下/江南院子/休息处 为 mixed 或 exterior。需要为每个生成详细中文 description 和 visual_reference（适合Midjourney/SD的详细提示）。我可以先生成几个样本发给你确认风格一致性，或者直接生成全JSON？你想怎么分工？
+- Team suggests unifying era style across locations for consistency.
+[Agent 1][WebSearch] 明代官宦府邸正堂 建筑风格 装饰细节
+- Decide on "明代中晚期官宦世家府邸" as the unified era style for all family locations to ensure visual consistency.
+[Agent 1][WebSearch] 明代江南宅院 闺房 洞房 装修风格
+[Agent 1][WebSearch] 古代中国马球场 会场 休息处 描述
+- Collaborate with Benjamin to divide tasks for generating detailed visual archives across all 17 locations.
+[Grok][AgentThink] 统一时代风格：高家和沈家所有室内/庭院场景使用“明代中晚期江南官宦世家府邸”，马球会场/休息处使用“明代贵族马球游乐场馆”，江南院子使用“明代江南水乡私家园林宅院”。类型按以下分类：正堂/闺房/正房/婚堂/洞房/内室/厢房/产房/厅堂/休息处 = interior；门前/马球会场/后院 = exterior；内院/廊下/江南院子/马球会休息处 = mixed。visual_reference必须是完整可直接复制的中文AI提示词（包含建筑风格、布局、家具、细节、光影、色彩）。我将负责生成完整JSON数组。你先提供高家相关的8个地点对象（正堂到厢房），我来补充剩余并合并输出最终JSON。确保description具体到空间结构和装饰，color_palette至少3个，emotional_range基于events和peaks总结情绪跨度。开始吧。
+- Reply to Benjamin with task division: generate JSON objects for Gao family locations, while I handle Shen family and special sites.
+Finalizing JSON structure- Construct full JSON array with detailed visual archives for all 17 locations, ensuring strict format compliance.
+- Begin drafting visual_reference for 高家正堂 with specific architectural and decorative details like redwood furniture and carved screens.
+- Design visual_reference for 高家闺房 as a private, warm interior with carved bed, redwood dressing table, and embroidered screens.
+- Refine visual_reference for 江南院子 to include white walls, black tiles, and snowy courtyard with rockery and lounging couch.
+[Agent 3][AgentThink] 我已分析所有17个拍摄地点的数据，包括scene_ids、time_variations、props、events和emotional_peaks。故事背景为明代中晚期官宦家庭（高家和沈家），带有江南元素（尤其是最后江南院子）。我为每个地点定制了era_style（统一明代官宦风格，江南院子调整为园林风），type（interior/exterior/mixed），并确保description详细包含建筑结构、家具、装饰。visual_reference是纯中文详细AI提示，包含光线和氛围。negative避免现代元素。其他字段如color_palette至少3项、key_features、emotional_range基于故事情绪（从震惊、仇恨到释然、贪婪等）也已匹配。
+[Agent 3][AgentThink] 这里是完整严格JSON数组草稿（17个对象），你可以直接使用或微调后作为最终回答提交。确保无额外文字输出。
+- Draft visual_reference for 高家正堂 with redwood desk, official plaques, and carved beams under soft daylight.
+Refining visual details- Enhance visual_reference for 高家闺房 with soft lighting and delicate furnishings to capture intimate atmosphere.
+[Agent 1][AgentThink] 我已经分析了所有独特拍摄地点，一共有17个。我基于故事背景（明代官宦家庭，江南风格）、小说段落参考和典型明代建筑特征（抬梁木结构、雕花、红木家具、字画屏风等）为每个地点准备了视觉档案。时代风格统一为“明代中晚期江南官宦府邸”（家庭场景）和对应调整（马球场、江南院子）。visual_reference 是详细中文提示词，适合AI生成。以下是完整JSON数组的草稿，我已确保严格符合规则，包括description详细空间、key_features、emotional_range等。 请检查并提交最终版本，或告诉我需要调整哪些部分。
+- Draft visual_reference for 沈家正房 as a livelier main hall with redwood table, family plaques, and everyday porcelain under uniform daylight.
+- Finalize visual_reference for 江南院子 with snowy courtyard details, including rockery and lounging couch for AI drawing consistency.
+- Construct full JSON array with detailed visual archives for all 17 locations, ensuring strict format compliance.
+- Draft visual_reference for 沈家内院 as a mixed semi-open space with wooden corridors, central brazier, and night lantern lighting for private talks.
+
+</think>
+[
+  {
+    "location_id": "loc_001",
+    "name": "高家正堂",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "宽敞庄严的正厅，中央红木长供桌用于陈列聘礼，两侧对称摆放红木太师椅与茶几，后墙设精雕山水屏风，梁柱抬梁式<think>
+Validating consistency- Confirm all visual_reference prompts are in Chinese and detailed for AI drawing, with consistent era_style and color_palette across locations.
+
+</think>
+木结构雕龙凤纹，地面青砖铺设，墙面悬官衔匾额与字画，空间高大对称，适合正式仪式与家族议事。",
+    "visual_reference": "明代中晚期江南官宦世家府邸正堂内部，宽敞高大空间，抬梁木结构梁柱雕刻精美龙凤纹饰，中央红木供桌摆放木雁与金银绸缎聘礼堆叠，左右对称红木太师椅与茶几围坐，墙壁悬挂金字官衔匾额和淡雅山水字画，后方大型雕花屏风，青砖地面光洁，反射柔和日光，窗棂细密雕花，整体庄重典雅古典氛围",
+    "visual_prompt_negative": "现代家具、玻璃窗、电灯、西方装饰、霓虹灯、卡通风格、模糊细节",
+    "atmosphere": "庄严肃穆、正式对峙",
+    "color_palette": ["深红木色", "金黄色", "墨青色"],
+    "lighting": "白天自然日光从侧面雕花窗棂均匀洒入，形成柔和光影，突出中央供桌区域",
+    "key_features": ["红木供桌", "官衔金匾", "雕花屏风"],
+    "narrative_scenes": ["scene_001"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "媒人提亲的正式仪式到女主退木雁逼增聘礼的震惊冷眸对峙"
+  },
+  {
+    "location_id": "loc_002",
+    "name": "高家闺房",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "精致私密的闺房，中央雕花架子床挂纱帐，旁置红木梳妆台与茶几，墙边绣墩与小书架，窗前置小圆桌，空间紧凑优雅，地面花砖铺设，装饰以绣品为主，适合父女私谈。",
+    "visual_reference": "明代中晚期江南官宦世家府邸闺房内部，温馨私密小空间，雕花架子床挂浅色纱帐，红木梳妆台与茶几摆茶盏，墙壁贴绣花屏风和淡雅字画，窗棂糊纸透柔光，地面花砖细腻，家具线条柔美，整体淡雅温馨古典",
+    "visual_prompt_negative": "现代家具、明亮LED灯、奢华水晶、西方风格、卡通元素",
+    "atmosphere": "私密温馨、父女对峙",
+    "color_palette": ["浅木褐色", "粉白色", "淡青色"],
+    "lighting": "白天柔和自然光从窗纸透入，营造柔软温馨光影",
+    "key_features": ["雕花架子床", "红木梳妆台", "绣品屏风"],
+    "narrative_scenes": ["scene_002"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "父亲质问闹事的严肃到女主坚持风光出嫁的坚定不解"
+  },
+  {
+    "location_id": "loc_003",
+    "name": "沈家正房",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "沈家主室正房，中央红木桌椅用于家庭聚会，墙悬家训匾额，地面青砖，梁柱简约雕花，空间较正堂更生活化，适合婚后仪式与冲突场面。",
+    "visual_reference": "明代中晚期江南官宦世家府邸正房内部，生活化主厅空间，红木桌椅中央摆瓷片与茶杯，墙面悬挂家训匾额和卷轴字画，梁柱简约木雕，青砖地面，窗格透日光，整体庄重带家庭温馨却暗藏张力",
+    "visual_prompt_negative": "现代家具、彩色灯光、西方装饰、卡通风格",
+    "atmosphere": "家庭冲突、强势立威",
+    "color_palette": ["褐红色", "米白色", "深灰色"],
+    "lighting": "白天均匀自然日光照射，略带压抑的明暗对比",
+    "key_features": ["红木桌椅", "家训匾额", "瓷器陈设"],
+    "narrative_scenes": ["scene_003"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "前世敬茶立威的强势到气红眼自杀未遂的激烈仇恨"
+  },
+  {
+    "location_id": "loc_004",
+    "name": "沈家内院",
+    "type": "mixed",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "半开放内院廊道连接寝室，中央火盆取暖，周围木廊环绕，石板地面，夜间灯笼照明，空间私密冷清，适合夫妻争执。",
+    "visual_reference": "明代中晚期江南官宦世家府邸内院混合空间，木廊环绕半开放庭院，中央火盆与寝衣摆设，背景寝室雕花门窗，石板地面，夜间月光与灯笼光影交织，冷清压抑古典氛围",
+    "visual_prompt_negative": "现代灯光、鲜艳色彩、西方庭院、卡通元素",
+    "atmosphere": "冷战仇恨、压抑对视",
+    "color_palette": ["深灰木色", "火红色", "墨黑色"],
+    "lighting": "夜晚月光与火盆暖光交织，形成冷暖对比的阴郁光影",
+    "key_features": ["中央火盆", "木廊环绕", "雕花寝室门"],
+    "narrative_scenes": ["scene_004"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "女儿死后夫妻互相推责的冷战到推倒伤胎的仇恨对视"
+  },
+  {
+    "location_id": "loc_005",
+    "name": "高家门前",
+    "type": "exterior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "高大朱漆大门，石狮镇守两侧，门前石阶宽阔，门楣悬匾额，背景府墙与照壁，空间开阔正式，适合偶遇与谈判。",
+    "visual_reference": "明代中晚期江南官宦世家府邸大门外部，高大朱漆木门，左右威严石狮镇守，门前宽阔石阶与照壁，门楣悬官府匾额，背景白墙黑瓦府墙，日光下庄严气派古典",
+    "visual_prompt_negative": "现代汽车、金属门、霓虹灯、西方建筑",
+    "atmosphere": "紧张偶遇、恨意对视",
+    "color_palette": ["朱红色", "石灰白", "墨黑色"],
+    "lighting": "白天明亮自然日光，突出石狮与大门轮廓",
+    "key_features": ["朱漆大门", "镇宅石狮", "官府匾额"],
+    "narrative_scenes": ["scene_005"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "父亲辞官后遇沈词的意外到同意嫁但要求处理陆的恨意四目"
+  },
+  {
+    "location_id": "loc_006",
+    "name": "马球会场",
+    "type": "exterior",
+    "era_style": "明代贵族马球竞技场",
+    "description": "开阔绿草坪马球场，四周木栏杆围护，远处观礼凉亭与旗杆，背景山景，地面平整草地，适合竞技与社交。",
+    "visual_reference": "明代贵族马球竞技场外部，广阔绿草坪场地，四周木栏杆与旗帜飘扬，远处观礼凉亭与马厩，背景江南远山，日光充足开阔，场边散落葡萄与风筝道具，古典贵族游乐氛围",
+    "visual_prompt_negative": "现代体育场、汽车、霓虹灯、西方马球场",
+    "atmosphere": "热闹竞技、酸楚嫉妒",
+    "color_palette": ["翠绿色", "土黄色", "旗帜红色"],
+    "lighting": "白天强烈自然日光，草坪明亮开阔",
+    "key_features": ["绿草马球场", "木栏旗杆", "观礼凉亭"],
+    "narrative_scenes": ["scene_006"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "见沈陆亲密到女主脚滑被扶的酸楚嫉妒"
+  },
+  {
+    "location_id": "loc_007",
+    "name": "马球会休息处",
+    "type": "mixed",
+    "era_style": "明代贵族马球竞技场",
+    "description": "马球场旁半开放休息凉亭，木柱支撑，内设桌椅与药碗陈设，周边绿植环绕，适合短暂休息与对峙。",
+    "visual_reference": "明代贵族马球场休息凉亭混合空间，木柱支撑半开放亭阁，内设红木桌椅摆药碗，周边绿植与马球场相连，日光透过亭顶洒入，古典优雅却带张力",
+    "visual_prompt_negative": "现代帐篷、金属桌椅、霓虹灯",
+    "atmosphere": "对峙冷眼、索然无味",
+    "color_palette": ["木褐色", "绿植色", "药碗白瓷"],
+    "lighting": "白天亭内柔和散射光，外部强日光对比",
+    "key_features": ["木柱凉亭", "红木桌椅", "药碗陈设"],
+    "narrative_scenes": ["scene_007"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "脚伤后陆胃病沈哄药到女主冷眼对峙的索然"
+  },
+  {
+    "location_id": "loc_008",
+    "name": "休息处",
+    "type": "mixed",
+    "era_style": "明代贵族马球竞技场",
+    "description": "夜间马球场附近休息凉阁，木结构半开放，内设软榻与衣角细节，灯笼照明，空间私密适合跪求与让步。",
+    "visual_reference": "明代贵族马球场夜间休息处混合空间，木结构半开放凉阁，内设软榻与衣角摆设，周边灯笼暖光，背景马球场暗影，古典夜景温馨却疲倦",
+    "visual_prompt_negative": "现代灯光、鲜艳色彩、卡通",
+    "atmosphere": "疲倦释然、私密谈判",
+    "color_palette": ["灯笼橙红", "木褐色", "夜灰色"],
+    "lighting": "夜晚灯笼暖光与月光混合，柔和私密",
+    "key_features": ["木凉阁", "软榻陈设", "灯笼照明"],
+    "narrative_scenes": ["scene_008"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "陆跪求留府到女主让步同意提亲的疲倦释然"
+  },
+  {
+    "location_id": "loc_009",
+    "name": "沈家婚堂",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "喜庆婚堂，中央红毯拜堂区，两侧喜字灯笼与花卉，墙挂红绸，地面青砖，空间正式喜庆。",
+    "visual_reference": "明代中晚期江南官宦世家府邸婚堂内部，喜庆正厅，中央红毯拜堂区，两侧高挂红绸喜字灯笼与鲜花，墙面红木雕饰，青砖地面，盖头置于案上，整体红调古典婚礼氛围",
+    "visual_prompt_negative": "现代婚礼装饰、西式教堂、霓虹灯",
+    "atmosphere": "喜庆却心不在焉",
+    "color_palette": ["大红色", "金黄色", "木褐色"],
+    "lighting": "白天结合红灯笼暖光与自然日光，喜庆明亮",
+    "key_features": ["红毯拜堂区", "喜字灯笼", "红绸垂饰"],
+    "narrative_scenes": ["scene_009"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "成亲拜堂的仪式到女主心不在焉的无悲无喜"
+  },
+  {
+    "location_id": "loc_010",
+    "name": "洞房",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "传统洞房，中央雕花大床挂红绸喜帐，红烛台与喜果，地上撒五谷，空间私密喜庆却带冷淡。",
+    "visual_reference": "明代中晚期江南官宦世家府邸洞房内部，私密喜庆空间，雕花大床挂红绸喜帐与丝带，红烛高照，案上喜果，地上撒五谷，窗帘遮光，整体红暖古典却隐冷清",
+    "visual_prompt_negative": "现代卧室、LED灯、西方婚床",
+    "atmosphere": "喜庆转冷淡、轻嗤无所谓",
+    "color_palette": ["喜庆红色", "烛光橙黄", "深木色"],
+    "lighting": "夜晚红烛暖光为主，柔和暧昧却孤寂",
+    "key_features": ["雕花喜床", "红烛台", "喜绸帐幔"],
+    "narrative_scenes": ["scene_010"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "洞房后陆婢女来叫到女主催沈去的轻嗤无所谓"
+  },
+  {
+    "location_id": "loc_011",
+    "name": "沈家内室",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "沈家私密内室，中央床榻与虎头帽陈设，墙挂字画，空间用于日常休憩与和离谈判。",
+    "visual_reference": "明代中晚期江南官宦世家府邸内室内部，私密休憩空间，雕花床榻摆虎头帽，红木桌椅，墙面字画装饰，窗透日光，整体简洁温馨古典",
+    "visual_prompt_negative": "现代家具、明亮灯具、卡通",
+    "atmosphere": "和离谈判、潋滟一笑",
+    "color_palette": ["暖木色", "浅灰色", "虎头红"],
+    "lighting": "白天自然柔光，平静却带张力",
+    "key_features": ["雕花床榻", "虎头帽陈设", "字画墙饰"],
+    "narrative_scenes": ["scene_011"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "沈为陆择婿失败到女主怀孕谈和离的复杂情绪"
+  },
+  {
+    "location_id": "loc_012",
+    "name": "高家廊下",
+    "type": "mixed",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "高家回廊下半开放空间，长廊木柱，旁设石凳与葡萄篮，连接正堂与闺房，适合日常探望与道歉。",
+    "visual_reference": "明代中晚期江南官宦世家府邸廊下混合空间，长廊木柱雕花，旁置石凳与葡萄篮，背景府内庭院绿植，日光透过廊檐洒入，古典优雅日常氛围",
+    "visual_prompt_negative": "现代走廊、金属栏杆、霓虹",
+    "atmosphere": "温馨探望、昏昏欲睡",
+    "color_palette": ["木褐色", "葡萄紫", "绿植色"],
+    "lighting": "白天廊檐下柔和散射光，舒适亲密",
+    "key_features": ["雕花长廊", "石凳坐席", "葡萄篮"],
+    "narrative_scenes": ["scene_012"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "回娘家养胎沈每日探望剥葡萄道歉到昏昏欲睡亲吻"
+  },
+  {
+    "location_id": "loc_013",
+    "name": "高家厢房",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "厢房私室，中央床榻与桌案摆和离书，墙饰简约，空间用于发现事件与冲突，早产场景。",
+    "visual_reference": "明代中晚期江南官宦世家府邸厢房内部，私密厢室空间，雕花床榻旁桌案摆和离书与衣冠，墙面简单字画，青砖地面，窗光柔和，古典却紧张氛围",
+    "visual_prompt_negative": "现代卧室、强光灯、西方家具",
+    "atmosphere": "震惊冲突、剧痛发颤",
+    "color_palette": ["深木色", "和离白纸", "血红点缀"],
+    "lighting": "白天柔和窗光，突显桌案细节",
+    "key_features": ["厢房床榻", "和离书桌案", "简约墙饰"],
+    "narrative_scenes": ["scene_013", "scene_014"],
+    "scene_count": 2,
+    "time_variations": ["day"],
+    "emotional_range": "发现陆蒋昏迷陷害的震惊心惊到扇巴掌早产的剧痛发颤"
+  },
+  {
+    "location_id": "loc_014",
+    "name": "产房",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "临时改作产房的厢室，中央大床铺床单，旁置接生用具，空间紧迫私密，适合生产与落泪场景。",
+    "visual_reference": "明代中晚期江南官宦世家府邸产房内部，紧迫私密空间，雕花大床铺床单，旁置接生巾与铜盆，墙面简洁，夜间烛光摇曳，古典紧张却温情古典",
+    "visual_prompt_negative": "现代医院设备、强光手术灯、卡通",
+    "atmosphere": "生死紧张、血色落泪",
+    "color_palette": ["床单白色", "烛光橙", "深红血色"],
+    "lighting": "夜晚烛火与油灯暖光，摇曳压抑",
+    "key_features": ["产床床单", "接生铜盆", "紧闭窗帘"],
+    "narrative_scenes": ["scene_015"],
+    "scene_count": 1,
+    "time_variations": ["night"],
+    "emotional_range": "早产保大人到昭昭出生沈词落泪的血色通红双眼"
+  },
+  {
+    "location_id": "loc_015",
+    "name": "高家厅堂",
+    "type": "interior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "高家正式厅堂，类似正堂但更宽敞，中央桌案摆和离书，座椅对置，适合家族谈判与跪求。",
+    "visual_reference": "明代中晚期江南官宦世家府邸厅堂内部，宽敞正式空间，红木桌案摆和离书，左右座椅对置，墙悬匾额，青砖地，日光庄严，古典家族议事氛围",
+    "visual_prompt_negative": "现代家具、彩灯、西方风格",
+    "atmosphere": "家族对峙、僵硬短笑",
+    "color_palette": ["红木色", "和离白", "金匾黄"],
+    "lighting": "白天自然日光，正式明亮",
+    "key_features": ["和离书桌案", "家族座椅", "官匾墙饰"],
+    "narrative_scenes": ["scene_016"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "父亲拒要孙女到沈词跪求和离书的僵硬短笑"
+  },
+  {
+    "location_id": "loc_016",
+    "name": "高家后院",
+    "type": "exterior",
+    "era_style": "明代中晚期江南官宦世家府邸",
+    "description": "后院私密庭院，假山绿植环绕，中央石桌摆和离书，适合闯入争执与原谅场景。",
+    "visual_reference": "明代中晚期江南官宦世家府邸后院外部，私密小庭院，假山绿植环绕，中央石桌摆和离书，木廊连接，背景白墙，日光洒落古典幽静",
+    "visual_prompt_negative": "现代花园、喷泉、霓虹",
+    "atmosphere": "争执释怀、摇头不愿",
+    "color_palette": ["石灰白", "绿植色", "和离白"],
+    "lighting": "白天柔和庭院光，幽静自然",
+    "key_features": ["假山石桌", "和离书陈设", "后院绿植"],
+    "narrative_scenes": ["scene_017"],
+    "scene_count": 1,
+    "time_variations": ["day"],
+    "emotional_range": "沈词闯入争和离书到女主原谅却不愿的脊背弯下摇头"
+  },
+  {
+    "location_id": "loc_017",
+    "name": "江南院子",
+    "type": "mixed",
+    "era_style": "明代江南水乡私家园林宅院",
+    "description": "江南小院，白墙黑瓦，雪天景，中央石榻摆被枕与雪球，假山池塘，木窗小楼，空间温馨私密适合夜爬床纠缠。",
+    "visual_reference": "明代江南水乡私家园林宅院混合空间，白墙黑瓦小院，雪景覆盖，中央石榻摆被枕与雪球，假山池塘环绕，木窗小楼背景，暮色柔光古典诗意江南氛围",
+    "visual_prompt_negative": "现代别墅、热带植物、霓虹灯、卡通雪",
+    "atmosphere": "雪夜温馨、贪婪纠缠",
+    "color_palette": ["雪白色", "黑瓦灰", "木褐色"],
+    "lighting": "黄昏暮色柔和洒落，雪景冷暖对比",
+    "key_features": ["白墙黑瓦", "雪中石榻", "假山池塘"],
+    "narrative_scenes": ["scene_018"],
+    "scene_count": 1,
+    "time_variations": ["dusk"],
+    "emotional_range": "三年后江南雪天见赘婿候选到夜爬床纠缠的似哭似笑贪婪贴背"
+  }
+]

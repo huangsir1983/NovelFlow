@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_014",
+  "name": "高府满月宴现场",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸庭院",
+  "description": "喜气洋洋的宴会现场，设在宽敞的庭院或大厅中。摆满了铺着红布的宴席桌椅，桌上有精致的酒杯与佳肴。宾客的请帖散落。远处有回廊，适合角色在角落旁观。",
+  "visual_reference": "A festive full moon baby banquet in a grand ancient Chinese manor courtyard. Round tables covered in red cloth, delicate wine cups, festive decorations. A distant corridor for observation. Daylight, vibrant colors, bustling yet with isolated emotional moments, cinematic.",
+  "atmosphere": "喧闹喜庆中的孤独与冷漠",
+  "color_palette": [
+    "#DC143C",
+    "#FFD700",
+    "#C0C0C0"
+  ],
+  "lighting": "明亮的白天，全景光照充足，但特定人物处于建筑的阴影中。",
+  "key_features": [
+    "红布宴席桌椅",
+    "精致的酒杯",
+    "远处的旁观角落"
+  ],
+  "narrative_scenes": [
+    "scene_016"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "坦白真相的释然与抓不住衣角的无力感。"
+}

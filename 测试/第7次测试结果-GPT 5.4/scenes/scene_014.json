@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "id": "scene_014",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:20"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_006"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 日",
+    "location": "高府内宅",
+    "time_of_day": "day",
+    "description": "内宅空间规整安静，日光自窗棂斜照入室，光线明亮但克制。室内陈设为官宦人家闺阁格局，桌案、绣凳、茶盏齐备。高令宁端坐，神色平静，传话小厮立于下首，气氛表面客气，内里带刺。",
+    "action": "高令宁面不改色地坐在案前，抬眼看向来传话的沈府小厮，语调平稳地回绝婚事条件。小厮低头领命后退出。高令宁待人走远，唇角略扬，神情明显转松，显出报复得逞后的快意。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "麻烦你回去告诉沈家公子，贵府小姐出嫁后，我才会答应这门亲事。",
+        "subtext": "我知道你们在拖延和试探，我也要反过来拿捏沈词，并借陆姝仪刺他。"
+      }
+    ],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "茶盏",
+      "桌案"
+    ],
+    "dramatic_purpose": "建立高令宁对沈词与沈家的主动反制，明确双方关系已进入拉扯与试探阶段。",
+    "tension_score": 0.42,
+    "dramatic_intensity": -0.16,
+    "order": 14
+  }
+}

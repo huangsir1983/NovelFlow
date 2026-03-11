@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "id": "scene_032",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 府外街市 - 夜",
+    "location": "府外街市",
+    "time_of_day": "night",
+    "description": "夜间街市开阔热闹，宝马雕车穿行，灯火连成片，摊贩与行人构成流动背景。鱼龙灯在孩子手中晃动，光点游走，市井烟火气与人物心事形成反差。高令宁被带出府散心，步伐缓慢；沈词站在街边，面容清减，目光追着一群提灯奔跑的孩童，神色短暂松动又迅速沉下去。",
+    "action": "沈词像新婚时那样牵着高令宁的手出门散心。两人停在人流旁，静看孩子们举着鱼龙灯嬉笑跑过。沈词盯着那群孩子看了很久，随后垂下眼，低声为未出生的女儿取名。高令宁听着，没有反驳，只将这名字收下。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "就叫静好吧。琴瑟在御，莫不静好。",
+        "subtext": "我想留住这个孩子，也想假装我们还能回到体面的安稳里。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "鱼龙灯",
+      "街市车马"
+    ],
+    "dramatic_purpose": "短暂制造温情与和解假象，赋予‘静好’这一名字情感重量，以增强后续死胎带来的反噬力度。",
+    "tension_score": 0.4,
+    "dramatic_intensity": -0.2,
+    "order": 32
+  }
+}

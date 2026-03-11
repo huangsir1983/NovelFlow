@@ -1,0 +1,61 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹"
+  ],
+  "role": "antagonist",
+  "age_range": "16-35岁（跨越重生前后）",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜",
+    "body": "柔弱纤细",
+    "hair": "传统发髻",
+    "distinguishing_features": "泪眼盈盈，惹人怜爱"
+  },
+  "costume": {
+    "typical_outfit": "粉色衣裙，素雅服饰",
+    "color_palette": [
+      "粉色",
+      "素色"
+    ]
+  },
+  "casting_tags": [
+    "柔弱",
+    "心机",
+    "可怜",
+    "复杂"
+  ],
+  "visual_reference": "A delicate Chinese woman in her early 20s, gentle features, tearful eyes, pink hanfu dress, fragile appearance, ancient dynasty",
+  "personality": "表面柔弱温婉，实则有心机和手段。自小寄人篱下，渴望被爱和安全感。重生后为自保不择手段，但最终承认错误。",
+  "desire": "前世想成为沈词的妻子，得到真正的归属；重生后想要一个好夫婿和安稳生活。",
+  "flaw": "过于依赖他人，为达目的不择手段，陷害高令宁。自怜自艾，将自己的不幸归咎于他人。",
+  "arc": "前世：被沈词救回→住进沈府→被高令宁阻止成为平妻→投湖自尽。重生：继续依附沈家→设计陷害高令宁和蒋晟→嫁给蒋晟→婚后不幸→最终忏悔。",
+  "scene_presence": "关键冲突制造者。出现场景：提亲时、马球会、敬茶事件、心口痛、陷害事件、满月宴忏悔。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "青梅竹马，单方面深爱",
+      "function": "情感纠葛核心"
+    },
+    {
+      "target": "高令宁",
+      "type": "对照+利益",
+      "dynamic": "从敌对到忏悔",
+      "function": "主要对手"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益",
+      "dynamic": "设计成婚但婚后冷淡",
+      "function": "命运转折"
+    },
+    {
+      "target": "沈母",
+      "type": "权力",
+      "dynamic": "依附关系",
+      "function": "生存依靠"
+    }
+  ]
+}

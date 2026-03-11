@@ -1,0 +1,241 @@
+{
+  "model": "ChatGPT",
+  "model_id": "gpt-5.4",
+  "mode_c": {
+    "mode": "C_pipeline",
+    "streaming": true,
+    "total_time_s": 360.67,
+    "time_to_first_char_s": 30.85,
+    "char_export_log": [
+      {
+        "name": "高令宁",
+        "time_s": 30.85
+      },
+      {
+        "name": "沈词",
+        "time_s": 52.62
+      },
+      {
+        "name": "陆姝仪",
+        "time_s": 68.69
+      },
+      {
+        "name": "高父",
+        "time_s": 82.16
+      },
+      {
+        "name": "蒋晟",
+        "time_s": 95.64
+      },
+      {
+        "name": "沈母",
+        "time_s": 108.02
+      },
+      {
+        "name": "沈睿",
+        "time_s": 121.8
+      },
+      {
+        "name": "昭昭",
+        "time_s": 133.03
+      },
+      {
+        "name": "媒人",
+        "time_s": 141.78
+      },
+      {
+        "name": "沈府小厮",
+        "time_s": 147.9
+      },
+      {
+        "name": "陆姝仪的婢女",
+        "time_s": 153.46
+      },
+      {
+        "name": "稳婆",
+        "time_s": 159.05
+      },
+      {
+        "name": "太医",
+        "time_s": 163.76
+      }
+    ],
+    "scene_export_log": [
+      {
+        "scene_id": "scene_001",
+        "location": "高府正堂",
+        "time_s": 171.19
+      },
+      {
+        "scene_id": "scene_002",
+        "location": "高令宁房中",
+        "time_s": 177.02
+      },
+      {
+        "scene_id": "scene_003",
+        "location": "前世沈府正厅",
+        "time_s": 184.25
+      },
+      {
+        "scene_id": "scene_004",
+        "location": "前世沈府、街巷、病榻等回忆空间",
+        "time_s": 192.89
+      },
+      {
+        "scene_id": "scene_005",
+        "location": "高府书房与门边",
+        "time_s": 197.96
+      },
+      {
+        "scene_id": "scene_006",
+        "location": "高府门前",
+        "time_s": 203.89
+      },
+      {
+        "scene_id": "scene_007",
+        "location": "高府会客处",
+        "time_s": 208.63
+      },
+      {
+        "scene_id": "scene_008",
+        "location": "侯爵娘子举办的马球会",
+        "time_s": 214.17
+      },
+      {
+        "scene_id": "scene_009",
+        "location": "马球场旁无人角落",
+        "time_s": 219.63
+      },
+      {
+        "scene_id": "scene_010",
+        "location": "侯府内室诊伤处",
+        "time_s": 224.66
+      },
+      {
+        "scene_id": "scene_011",
+        "location": "前世沈府内院、街市、产房",
+        "time_s": 231.95
+      },
+      {
+        "scene_id": "scene_012",
+        "location": "高府",
+        "time_s": 236.12
+      },
+      {
+        "scene_id": "scene_013",
+        "location": "沈高两家婚礼正堂",
+        "time_s": 242.08
+      },
+      {
+        "scene_id": "scene_014",
+        "location": "沈府新婚洞房",
+        "time_s": 251.63
+      },
+      {
+        "scene_id": "scene_015",
+        "location": "沈府",
+        "time_s": 254.27
+      },
+      {
+        "scene_id": "scene_016",
+        "location": "沈府内室",
+        "time_s": 259.88
+      },
+      {
+        "scene_id": "scene_017",
+        "location": "高府",
+        "time_s": 265.25
+      },
+      {
+        "scene_id": "scene_018",
+        "location": "高府会客与后院厢房",
+        "time_s": 271.33
+      },
+      {
+        "scene_id": "scene_019",
+        "location": "高府厅堂",
+        "time_s": 276.43
+      },
+      {
+        "scene_id": "scene_020",
+        "location": "高府产房",
+        "time_s": 282.36
+      },
+      {
+        "scene_id": "scene_021",
+        "location": "梦境空间",
+        "time_s": 290.13
+      },
+      {
+        "scene_id": "scene_022",
+        "location": "高府",
+        "time_s": 295.52
+      },
+      {
+        "scene_id": "scene_023",
+        "location": "高府前院、后院卧房",
+        "time_s": 306.55
+      },
+      {
+        "scene_id": "scene_024",
+        "location": "高府",
+        "time_s": 315.2
+      },
+      {
+        "scene_id": "scene_025",
+        "location": "高府宴厅",
+        "time_s": 321.94
+      },
+      {
+        "scene_id": "scene_026",
+        "location": "江南住处",
+        "time_s": 328.76
+      },
+      {
+        "scene_id": "scene_027",
+        "location": "江南宅院书房、庭院",
+        "time_s": 335.0
+      },
+      {
+        "scene_id": "scene_028",
+        "location": "江南宅院书房",
+        "time_s": 341.75
+      },
+      {
+        "scene_id": "scene_029",
+        "location": "江南宅院前院",
+        "time_s": 349.54
+      },
+      {
+        "scene_id": "scene_030",
+        "location": "江南宅院卧房",
+        "time_s": 357.55
+      }
+    ],
+    "num_characters": 13,
+    "num_characters_streamed": 13,
+    "num_scenes": 30,
+    "num_scenes_streamed": 30,
+    "character_names": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "蒋晟",
+      "沈母",
+      "沈睿",
+      "昭昭",
+      "媒人",
+      "沈府小厮",
+      "陆姝仪的婢女",
+      "稳婆",
+      "太医"
+    ],
+    "stream_chunks": 15044,
+    "num_locations": 27,
+    "num_props_total": 216,
+    "num_props_major": 6,
+    "num_variants": 31,
+    "pipeline_total_time_s": 1005.31
+  }
+}

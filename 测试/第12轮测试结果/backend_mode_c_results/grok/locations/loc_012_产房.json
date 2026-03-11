@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_012",
+  "name": "产房",
+  "type": "interior",
+  "era_style": "明代官宦府邸产房",
+  "description": "临时产房私密压抑，产床铺垫，稳婆药包与血巾散放，襁褓准备一旁，烛光昏黄，空间局促适合难产抉择。",
+  "visual_reference": "明代产房内部，产床凌乱血巾，稳婆药包与襁褓放置，烛光昏黄映照，紧张压抑明代古风，细节真实",
+  "visual_prompt_negative": "现代医院设备、白色墙面",
+  "atmosphere": "痛苦、落泪、选择",
+  "color_palette": [
+    "血红",
+    "烛黄",
+    "白布",
+    "木褐"
+  ],
+  "lighting": "夜晚昏黄烛光",
+  "key_features": [
+    "产床",
+    "血巾",
+    "襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "早产难产到保大人落泪"
+}

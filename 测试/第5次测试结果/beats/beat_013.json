@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_013",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "以梦境和早产后的现实正式发动和离战",
+    "description": "在关于沈睿的梦里，我听见孩子请求‘来生别再生下我’，彻底确认继续维系婚姻只会复制悲剧。现实中女儿昭昭出生，高父挡回沈家来人，沈母登门争孩子未果；沈词跪求见妻女，高父直接甩出和离书，双方矛盾彻底公开化。",
+    "beat_type": "event",
+    "save_the_cat": "Finale",
+    "emotional_value": -0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 13
+  }
+}

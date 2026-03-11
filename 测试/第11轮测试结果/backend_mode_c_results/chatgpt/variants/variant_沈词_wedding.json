@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 前世新婚时期的年轻夫君",
+  "tags": [
+    "前世",
+    "新婚",
+    "家族压力",
+    "冷眼旁观"
+  ],
+  "scene_ids": [
+    "scene_002"
+  ],
+  "trigger": "前世新婚第二日，沈家厅堂中陆姝仪给高令宁敬茶、婚姻裂痕初现时出现。",
+  "appearance_delta": {
+    "face": "比主线时期更年轻，清俊感更明显，神情仍冷，但少了后期的疲惫与病态，更多是年轻权贵的锋利与自负",
+    "body": "身量挺拔清瘦，处于年轻新婚阶段，姿态更硬，尚未被婚姻消磨出狼狈感",
+    "hair": "发式严整，可能配合新婚礼制使用更正式的冠饰，整体比平日更庄重",
+    "distinguishing_features": "置身喜堂红意之间仍显得格外冷，和喜庆环境形成鲜明反差，像一块不化的寒玉"
+  },
+  "costume_override": {
+    "outfit": "前世新婚次日的礼制袍服或偏正式婚后常礼服，保留世家新婚的庄重感，但颜色压得较深",
+    "color_palette": [
+      "深红",
+      "墨黑",
+      "暗金"
+    ]
+  },
+  "visual_reference": "Ancient Chinese newlywed noble husband in a traditional wedding hall, handsome refined young man with pale skin, cold restrained expression, tall slender build, black hair tied under a formal crown, dark red and black ceremonial hanfu with subtle gold trim, standing in a festive interior with red silk decorations and tea set, elegant but emotionally distant, cinematic Chinese period drama, high detail",
+  "visual_prompt_negative": "modern wedding suit, smiling groom, western wedding, beard, messy hairstyle, bright cheerful mood, fantasy costume, armor",
+  "emotional_tone": "喜色表层下的冷漠与疏离，婚姻裂痕的起点"
+}

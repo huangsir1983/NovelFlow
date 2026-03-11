@@ -1,0 +1,48 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-28（前世）",
+  "appearance": {
+    "face": "幼时聪慧秀气，眉眼像沈词，神情温和懂事；病中则瘦弱苍白",
+    "body": "童年清瘦，少年气质卓然，成年后为清贵权臣风骨",
+    "hair": "不同年龄对应童髻与士子冠发",
+    "distinguishing_features": "超越年龄的沉静与神童气质"
+  },
+  "costume": {
+    "typical_outfit": "幼时精致童装，少年士子服，成年官服",
+    "color_palette": [
+      "月白",
+      "青蓝",
+      "玄色"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "白月光儿子",
+    "早夭天才",
+    "命运执念"
+  ],
+  "visual_reference": "brilliant ancient Chinese boy scholar, intelligent gentle eyes, elegant child in traditional robe, later powerful young minister, bittersweet memory tone, cinematic detail",
+  "personality": "孝顺、聪慧、仁厚、早熟",
+  "desire": "希望父母和睦，家庭不再彼此折磨",
+  "flaw": "过度懂事，把父母的痛苦内化为自己的责任",
+  "arc": "主要存在于回忆与执念中，从父母重新结合的理由，变成母亲最终学会放下的伤口",
+  "scene_presence": "以前世回忆、病榻遗言、梦境等方式出现，是两位主角重生选择的核心驱动力",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "她最深的爱与痛",
+      "function": "推动女主再婚与后续觉醒"
+    },
+    {
+      "target": "沈词",
+      "type": "父子",
+      "dynamic": "父亲寄予厚望，儿子却更关注父母关系",
+      "function": "推动男主重启婚姻"
+    }
+  ]
+}

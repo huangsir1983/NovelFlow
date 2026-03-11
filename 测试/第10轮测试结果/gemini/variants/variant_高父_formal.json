@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaofu_formal_01",
+  "variant_type": "formal",
+  "variant_name": "高父 — 威严文官",
+  "tags": [
+    "四品文官",
+    "端庄",
+    "慈父"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_005"
+  ],
+  "trigger": "接待沈家提亲使者，以及在书房被女儿劝说写下辞官奏折时",
+  "appearance_delta": {
+    "face": "表情端庄肃穆，但看向女儿时眉宇间会不自觉流露出关切与纵容",
+    "body": "端正挺拔，微胖的身躯显得稳重",
+    "hair": "头戴乌纱官帽，发丝收拢得一丝不苟",
+    "distinguishing_features": "带有古代士大夫的体面与官威，但缺乏权臣的狠厉"
+  },
+  "costume_override": {
+    "outfit": "明代四品文官绯色圆领袍，胸前绣有云雁补子，腰系革带",
+    "color_palette": [
+      "绯色",
+      "黑色"
+    ]
+  },
+  "visual_reference": "A 50-year-old ancient Chinese official, slightly chubby, wearing a dark red Ming dynasty official round-collar robe with a bird rank badge and a black official hat. Kind face with wrinkles, looking dignified but with a hint of gentle concern in his eyes. Cinematic lighting, rich colors, 8k resolution, photorealistic.",
+  "emotional_tone": "稳重，威严中带着忧虑"
+}

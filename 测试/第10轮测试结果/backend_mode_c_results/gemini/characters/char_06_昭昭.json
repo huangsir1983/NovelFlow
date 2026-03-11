@@ -1,0 +1,39 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉雕玉琢，阳光开朗",
+    "body": "圆润可爱",
+    "hair": "双丫髻",
+    "distinguishing_features": "笑容极具感染力"
+  },
+  "costume": {
+    "typical_outfit": "富贵人家的精致童装，佩戴珠宝",
+    "color_palette": [
+      "明黄",
+      "水红"
+    ]
+  },
+  "casting_tags": [
+    "萌娃",
+    "治愈系"
+  ],
+  "visual_reference": "1girl, ancient chinese toddler, cute, chubby cheeks, bright smile, wearing colorful silk clothes and jewelry, masterpiece",
+  "personality": "活泼，聪明，无忧无虑",
+  "desire": "玩耍，学习",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "江南生活时期",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "女主的新生与希望",
+      "function": "象征女主摆脱过去，获得真正的静好"
+    }
+  ]
+}

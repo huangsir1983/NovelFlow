@@ -1,0 +1,62 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "中年文官面相，眉间常有愁纹，眼角皱纹明显，神情慈和中带疲惫",
+    "body": "身形略瘦，年纪渐长，偶有胸口旧疾",
+    "hair": "黑发夹杂灰白，束发规整",
+    "distinguishing_features": "总带忧色的父亲神态，退让却护犊的底色鲜明"
+  },
+  "costume": {
+    "typical_outfit": "四品文官常服、居家长衫",
+    "color_palette": [
+      "深青",
+      "灰褐",
+      "藏蓝"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "传统文官",
+    "护女长辈",
+    "晚年清醒"
+  ],
+  "visual_reference": "middle-aged ancient Chinese official, tired but kind face, scholar robe, slight illness, protective father aura, realistic historical drama style",
+  "personality": "传统、顾家、爱女心切，早期慕强逐势，后期果断护女",
+  "desire": "女儿平安喜乐，有归宿，家族避开朝堂祸患",
+  "flaw": "早先对高门过于敬畏，容易在门第面前自卑退让",
+  "arc": "从默认高嫁是福，到主动辞官、成为女儿最坚实后盾，最终敢与沈家对抗到底",
+  "scene_presence": "在提亲、辞官、相看、早产风波、阻拦沈家夺女、安排赘婿等事件中发挥关键作用",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "深情保护，给予退路，是她回头的家",
+      "function": "女主情感安全区"
+    },
+    {
+      "target": "沈词",
+      "type": "岳父与女婿",
+      "dynamic": "由客气礼让转为冷硬对峙",
+      "function": "代表女方家族立场"
+    },
+    {
+      "target": "沈母",
+      "type": "亲家对立",
+      "dynamic": "明面客套，实则寸步不让",
+      "function": "孩子归属与和离谈判"
+    },
+    {
+      "target": "蒋晟",
+      "type": "师生",
+      "dynamic": "信任器重，曾视作女婿备选",
+      "function": "替代婚配线"
+    }
+  ]
+}

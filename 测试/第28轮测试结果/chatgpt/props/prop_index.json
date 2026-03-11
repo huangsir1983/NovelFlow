@@ -1,0 +1,676 @@
+{
+  "major": {
+    "药碗": {
+      "count": 4,
+      "scenes": [
+        "scene_010",
+        "scene_017",
+        "scene_018",
+        "scene_034"
+      ]
+    },
+    "襁褓": {
+      "count": 4,
+      "scenes": [
+        "scene_022",
+        "scene_035",
+        "scene_038",
+        "scene_042"
+      ]
+    },
+    "床榻": {
+      "count": 3,
+      "scenes": [
+        "scene_001",
+        "scene_026",
+        "scene_047"
+      ]
+    },
+    "病榻": {
+      "count": 3,
+      "scenes": [
+        "scene_010",
+        "scene_036",
+        "scene_039"
+      ]
+    },
+    "葡萄": {
+      "count": 3,
+      "scenes": [
+        "scene_014",
+        "scene_015",
+        "scene_030"
+      ]
+    },
+    "和离书": {
+      "count": 3,
+      "scenes": [
+        "scene_038",
+        "scene_040",
+        "scene_041"
+      ]
+    },
+    "发钗": {
+      "count": 2,
+      "scenes": [
+        "scene_003",
+        "scene_004"
+      ]
+    },
+    "茶盏": {
+      "count": 2,
+      "scenes": [
+        "scene_003",
+        "scene_013"
+      ]
+    },
+    "茶杯": {
+      "count": 2,
+      "scenes": [
+        "scene_005",
+        "scene_037"
+      ]
+    },
+    "团扇": {
+      "count": 2,
+      "scenes": [
+        "scene_008",
+        "scene_023"
+      ]
+    }
+  },
+  "minor": {
+    "毛笔": {
+      "count": 2,
+      "scenes": [
+        "scene_011",
+        "scene_045"
+      ]
+    },
+    "衣角": {
+      "count": 2,
+      "scenes": [
+        "scene_018",
+        "scene_032"
+      ]
+    },
+    "房门": {
+      "count": 2,
+      "scenes": [
+        "scene_019",
+        "scene_027"
+      ]
+    },
+    "座椅": {
+      "count": 2,
+      "scenes": [
+        "scene_024",
+        "scene_037"
+      ]
+    },
+    "被褥": {
+      "count": 2,
+      "scenes": [
+        "scene_027",
+        "scene_047"
+      ]
+    },
+    "书案": {
+      "count": 2,
+      "scenes": [
+        "scene_028",
+        "scene_044"
+      ]
+    },
+    "请帖": {
+      "count": 2,
+      "scenes": [
+        "scene_042",
+        "scene_043"
+      ]
+    },
+    "孕脉诊断": {
+      "count": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    "绣活": {
+      "count": 1,
+      "scenes": [
+        "scene_001"
+      ]
+    },
+    "木雁": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "聘礼箱笼": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "金银绸缎": {
+      "count": 1,
+      "scenes": [
+        "scene_002"
+      ]
+    },
+    "嫁妆账册": {
+      "count": 1,
+      "scenes": [
+        "scene_003"
+      ]
+    },
+    "丝帕": {
+      "count": 1,
+      "scenes": [
+        "scene_004"
+      ]
+    },
+    "瓷片": {
+      "count": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    "敬茶托盘": {
+      "count": 1,
+      "scenes": [
+        "scene_005"
+      ]
+    },
+    "账册": {
+      "count": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    "钥匙串": {
+      "count": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    "家印": {
+      "count": 1,
+      "scenes": [
+        "scene_006"
+      ]
+    },
+    "求助名帖": {
+      "count": 1,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    "未封奏疏": {
+      "count": 1,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    "灯盏": {
+      "count": 1,
+      "scenes": [
+        "scene_007"
+      ]
+    },
+    "栏杆": {
+      "count": 1,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    "荷花": {
+      "count": 1,
+      "scenes": [
+        "scene_008"
+      ]
+    },
+    "寝衣": {
+      "count": 1,
+      "scenes": [
+        "scene_009"
+      ]
+    },
+    "鞋子": {
+      "count": 1,
+      "scenes": [
+        "scene_009"
+      ]
+    },
+    "火盆": {
+      "count": 1,
+      "scenes": [
+        "scene_009"
+      ]
+    },
+    "寿衣": {
+      "count": 1,
+      "scenes": [
+        "scene_010"
+      ]
+    },
+    "辞官奏折": {
+      "count": 1,
+      "scenes": [
+        "scene_011"
+      ]
+    },
+    "案几": {
+      "count": 1,
+      "scenes": [
+        "scene_011"
+      ]
+    },
+    "活雁勒痕": {
+      "count": 1,
+      "scenes": [
+        "scene_012"
+      ]
+    },
+    "药方": {
+      "count": 1,
+      "scenes": [
+        "scene_012"
+      ]
+    },
+    "门槛": {
+      "count": 1,
+      "scenes": [
+        "scene_012"
+      ]
+    },
+    "口信帖": {
+      "count": 1,
+      "scenes": [
+        "scene_013"
+      ]
+    },
+    "马球杆": {
+      "count": 1,
+      "scenes": [
+        "scene_014"
+      ]
+    },
+    "帕子": {
+      "count": 1,
+      "scenes": [
+        "scene_014"
+      ]
+    },
+    "风筝": {
+      "count": 1,
+      "scenes": [
+        "scene_015"
+      ]
+    },
+    "扶手": {
+      "count": 1,
+      "scenes": [
+        "scene_015"
+      ]
+    },
+    "肿胀脚踝": {
+      "count": 1,
+      "scenes": [
+        "scene_016"
+      ]
+    },
+    "廊柱": {
+      "count": 1,
+      "scenes": [
+        "scene_016"
+      ]
+    },
+    "诊包": {
+      "count": 1,
+      "scenes": [
+        "scene_017"
+      ]
+    },
+    "塌": {
+      "count": 1,
+      "scenes": [
+        "scene_017"
+      ]
+    },
+    "灯火": {
+      "count": 1,
+      "scenes": [
+        "scene_018"
+      ]
+    },
+    "画作碎片": {
+      "count": 1,
+      "scenes": [
+        "scene_019"
+      ]
+    },
+    "身契": {
+      "count": 1,
+      "scenes": [
+        "scene_019"
+      ]
+    },
+    "桌角": {
+      "count": 1,
+      "scenes": [
+        "scene_020"
+      ]
+    },
+    "地砖": {
+      "count": 1,
+      "scenes": [
+        "scene_020"
+      ]
+    },
+    "鱼龙灯": {
+      "count": 1,
+      "scenes": [
+        "scene_021"
+      ]
+    },
+    "药包": {
+      "count": 1,
+      "scenes": [
+        "scene_021"
+      ]
+    },
+    "手": {
+      "count": 1,
+      "scenes": [
+        "scene_021"
+      ]
+    },
+    "产床": {
+      "count": 1,
+      "scenes": [
+        "scene_022"
+      ]
+    },
+    "血水盆": {
+      "count": 1,
+      "scenes": [
+        "scene_022"
+      ]
+    },
+    "灯影": {
+      "count": 1,
+      "scenes": [
+        "scene_023"
+      ]
+    },
+    "聘礼山": {
+      "count": 1,
+      "scenes": [
+        "scene_024"
+      ]
+    },
+    "婚书": {
+      "count": 1,
+      "scenes": [
+        "scene_024"
+      ]
+    },
+    "红盖头": {
+      "count": 1,
+      "scenes": [
+        "scene_025"
+      ]
+    },
+    "喜绸": {
+      "count": 1,
+      "scenes": [
+        "scene_025"
+      ]
+    },
+    "婚礼案台": {
+      "count": 1,
+      "scenes": [
+        "scene_025"
+      ]
+    },
+    "丝带": {
+      "count": 1,
+      "scenes": [
+        "scene_026"
+      ]
+    },
+    "喜被": {
+      "count": 1,
+      "scenes": [
+        "scene_026"
+      ]
+    },
+    "叩门声": {
+      "count": 1,
+      "scenes": [
+        "scene_027"
+      ]
+    },
+    "折扇": {
+      "count": 1,
+      "scenes": [
+        "scene_028"
+      ]
+    },
+    "婚帖名册": {
+      "count": 1,
+      "scenes": [
+        "scene_028"
+      ]
+    },
+    "虎头帽": {
+      "count": 1,
+      "scenes": [
+        "scene_029"
+      ]
+    },
+    "脉枕": {
+      "count": 1,
+      "scenes": [
+        "scene_029"
+      ]
+    },
+    "诊方": {
+      "count": 1,
+      "scenes": [
+        "scene_029"
+      ]
+    },
+    "补品礼盒": {
+      "count": 1,
+      "scenes": [
+        "scene_030"
+      ]
+    },
+    "廊椅": {
+      "count": 1,
+      "scenes": [
+        "scene_030"
+      ]
+    },
+    "厢房门": {
+      "count": 1,
+      "scenes": [
+        "scene_031"
+      ]
+    },
+    "昏迷熏香痕迹": {
+      "count": 1,
+      "scenes": [
+        "scene_031"
+      ]
+    },
+    "衣衫": {
+      "count": 1,
+      "scenes": [
+        "scene_031"
+      ]
+    },
+    "桌案": {
+      "count": 1,
+      "scenes": [
+        "scene_032"
+      ]
+    },
+    "证人仆役": {
+      "count": 1,
+      "scenes": [
+        "scene_032"
+      ]
+    },
+    "巴掌": {
+      "count": 1,
+      "scenes": [
+        "scene_033"
+      ]
+    },
+    "门框": {
+      "count": 1,
+      "scenes": [
+        "scene_033"
+      ]
+    },
+    "腹部血色隐痛": {
+      "count": 1,
+      "scenes": [
+        "scene_033"
+      ]
+    },
+    "床单": {
+      "count": 1,
+      "scenes": [
+        "scene_034"
+      ]
+    },
+    "稳婆剪刀": {
+      "count": 1,
+      "scenes": [
+        "scene_034"
+      ]
+    },
+    "泪滴": {
+      "count": 1,
+      "scenes": [
+        "scene_035"
+      ]
+    },
+    "粥碗": {
+      "count": 1,
+      "scenes": [
+        "scene_036"
+      ]
+    },
+    "小手": {
+      "count": 1,
+      "scenes": [
+        "scene_036"
+      ]
+    },
+    "襁褓名帖": {
+      "count": 1,
+      "scenes": [
+        "scene_037"
+      ]
+    },
+    "雕花木门": {
+      "count": 1,
+      "scenes": [
+        "scene_038"
+      ]
+    },
+    "覆眼的手": {
+      "count": 1,
+      "scenes": [
+        "scene_039"
+      ]
+    },
+    "婴儿襁褓": {
+      "count": 1,
+      "scenes": [
+        "scene_040"
+      ]
+    },
+    "补品": {
+      "count": 1,
+      "scenes": [
+        "scene_041"
+      ]
+    },
+    "房门守卫": {
+      "count": 1,
+      "scenes": [
+        "scene_041"
+      ]
+    },
+    "满月酒席": {
+      "count": 1,
+      "scenes": [
+        "scene_042"
+      ]
+    },
+    "回廊栏杆": {
+      "count": 1,
+      "scenes": [
+        "scene_043"
+      ]
+    },
+    "唐诗书卷": {
+      "count": 1,
+      "scenes": [
+        "scene_044"
+      ]
+    },
+    "珠宝匣": {
+      "count": 1,
+      "scenes": [
+        "scene_044"
+      ]
+    },
+    "书信": {
+      "count": 1,
+      "scenes": [
+        "scene_045"
+      ]
+    },
+    "烛台": {
+      "count": 1,
+      "scenes": [
+        "scene_045"
+      ]
+    },
+    "雪球": {
+      "count": 1,
+      "scenes": [
+        "scene_046"
+      ]
+    },
+    "院门": {
+      "count": 1,
+      "scenes": [
+        "scene_046"
+      ]
+    },
+    "雪地": {
+      "count": 1,
+      "scenes": [
+        "scene_046"
+      ]
+    },
+    "枕头": {
+      "count": 1,
+      "scenes": [
+        "scene_047"
+      ]
+    }
+  },
+  "total_unique": 107,
+  "major_count": 10,
+  "minor_count": 97
+}

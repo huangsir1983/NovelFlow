@@ -1,0 +1,29 @@
+{
+  "variant_id": "高令宁_variant_03",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 临产时刻",
+  "tags": [
+    "生产",
+    "母性",
+    "痛苦"
+  ],
+  "scene_ids": [
+    "scene_011"
+  ],
+  "trigger": "高府产房夜里，早产难产，沈词选择保母、昭昭出生时",
+  "appearance_delta": {
+    "face": "清  丽脸庞因痛扭曲苍白，汗水淋漓，眼神倔强带着母爱",
+    "body": "纤细苗条但腹部高隆，姿态虚弱蜷曲在产床上",
+    "hair": "乌黑长发汗湿散乱，简单束起",
+    "distinguishing_features": "咬紧嘴唇、泪痕满面、手抓床单"
+  },
+  "costume_override": {
+    "outfit": "凌乱白色中衣，裹血巾",
+    "color_palette": [
+      "白",
+      "红"
+    ]
+  },
+  "visual_reference": "Elegant young Chinese woman 18-23, sharp determined eyes filled with pain and deep maternal resolve, delicate fair features pale and contorted with sweat, long jet-black hair matted with sweat and loosely tied, slender graceful figure with prominent pregnant belly lying weakly on birthing bed, wearing disheveled white undergarment stained with blood, chaotic delivery room with midwives, medicine bowls and blood towels, cinematic historical drama style, highly detailed face, dramatic candle lighting, expression of intense labor pain and fierce protection",
+  "emotional_tone": "生死抉择中的母爱与泪水"
+}

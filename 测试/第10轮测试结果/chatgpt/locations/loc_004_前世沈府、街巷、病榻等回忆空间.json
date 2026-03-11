@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_004",
+  "name": "前世沈府、街巷、病榻等回忆空间",
+  "type": "mixed",
+  "era_style": "明代中晚期京城世家内宅与市井回忆蒙太奇空间",
+  "description": "这是由多组前世碎片化场景组成的复合视觉空间：沈府内宅以深院回廊、账房书案、病榻床帐、火盆与药碗构成长期压抑的日常；街巷部分则是窄长青石路、低檐民宅、牢房探视口与寒湿空气；临水空间以湖水涟漪、风吹衣角和岸边空寂形成突兀的死亡意象；丧葬部分则出现寿衣、棺材、白布、守灵烛火。各子空间之间并非完整连续，而是像记忆切片般以道具和情绪连接：奏折、账册、钥匙串、绣好的寝衣、药碗、棺木等成为命运压身的反复母题。整体视觉应有旧梦感、闪回感和破碎叙事感。",
+  "visual_reference": "Late Ming dynasty Chinese memory montage, fragmented spaces of a noble mansion inner court, narrow city alleys, sickbed chamber, prison visitation corner, lakeside ripples, funeral room with coffin, account books, medicine bowls, memorial documents, brazier fire, embroidered nightwear, muted and tragic atmosphere, layered cinematic flashback, poetic realism, highly detailed historical Chinese settings",
+  "atmosphere": "破碎回忆、宿命压身、长期窒息、迟来的悲悔",
+  "color_palette": [
+    "旧纸褐",
+    "病弱灰蓝",
+    "烛火昏黄"
+  ],
+  "lighting": "整体以记忆化散射光和局部高反差为主，白日片段偏惨淡，病榻与守棺片段偏烛火低照，画面可有轻微雾化与褪色感。",
+  "key_features": [
+    "病榻床帐与药碗",
+    "湖水涟漪与临水死亡意象",
+    "守棺空间中的棺材与白布"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从琐碎操持、求助无门一路滑向病亡与守棺，覆盖漫长婚姻中的怨、苦、悔与迟到的爱。"
+}

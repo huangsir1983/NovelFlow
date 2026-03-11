@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_008",
+  "name": "新房",
+  "type": "interior",
+  "era_style": "明代官宦新婚洞房",
+  "description": "新婚洞房私密浪漫，中央喜床铺锦被与丝带，红烛高照，旁设水盆与妆台，墙挂红绸，空间温馨却带压抑，适合亲密与打断场景。",
+  "visual_reference": "明代新婚洞房，喜床锦被华丽铺陈，红烛摇曳映照丝带与水盆，红绸满室，夜色窗外，温暖烛光亲密氛围，细节精美写实",
+  "visual_prompt_negative": "现代卧室家具、LED灯、玻璃窗",
+  "atmosphere": "亲密、讥诮、打断",
+  "color_palette": [
+    "喜红",
+    "烛黄",
+    "锦金",
+    "深褐"
+  ],
+  "lighting": "夜晚温暖红烛光，映照喜庆红调",
+  "key_features": [
+    "喜床锦被",
+    "红烛",
+    "丝带"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "催促困倦到讥诮的亲密冲突"
+}

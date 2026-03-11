@@ -1,0 +1,33 @@
+{
+  "variant_id": "gaolingning_variant_05",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 怀孕养胎时",
+  "tags": [
+    "有孕",
+    "短暂柔和",
+    "将为人母",
+    "放下怨恨"
+  ],
+  "scene_ids": [
+    "scene_014",
+    "scene_015"
+  ],
+  "trigger": "诊出有孕后，在沈府与高府养胎、绣虎头帽、廊下休养的阶段，情绪一度平静，开始把重心转向孩子与自己。",
+  "appearance_delta": {
+    "face": "神情比前期略柔和，眉眼中的攻击性收敛，因怀孕与休养气色稍回暖，但底色仍清冷。",
+    "body": "身形开始显出孕态，动作更稳更缓，体态偏柔，整体比闺中时期更温静。",
+    "hair": "多为已婚妇人发髻，居家养胎时更松软实用，发饰减少。",
+    "distinguishing_features": "轻抚腹部、绣婴儿物件、披帛柔软宽松，显出强烈母性与暂时松弛感。"
+  },
+  "costume_override": {
+    "outfit": "柔软宽松的浅色家常衣、披帛或宽袖长裙，适合养胎与廊下静坐，配针线笸箩或虎头帽半成品。",
+    "color_palette": [
+      "月白",
+      "浅青",
+      "淡杏",
+      "柔和绛红"
+    ]
+  },
+  "visual_reference": "pregnant ancient Chinese noblewoman resting under a courtyard corridor, pale refined skin, elegant sharp features softened by motherhood, black hair in a simple married updo, slim body with early pregnancy silhouette, loose light-colored hanfu in moon white and pale green, holding unfinished baby tiger hat embroidery, gentle breeze, grapes and tea on a small table, serene cinematic daylight, calm yet bittersweet maternal aura",
+  "emotional_tone": "克制温柔、清醒放下、母性渐强"
+}

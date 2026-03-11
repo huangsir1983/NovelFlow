@@ -1,0 +1,90 @@
+[
+  {
+    "id": "seg_0056",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0180",
+      "shot_0181",
+      "shot_0182",
+      "shot_0183"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "四个shot共同完成同一情绪起点：建立空间关系、女主主观重心、男主注视压力与绣活边界。角色集合未变，时空连续，情绪仍处于压抑静压阶段，适合合并为一个建立性segment。",
+    "order": 56
+  },
+  {
+    "id": "seg_0057",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0184",
+      "shot_0185",
+      "shot_0186"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头构成完整身体试探弧线：靠近、拥抱、被拒。情绪从静压转为入侵与排斥，是明确的情感换挡边界，因此独立成段。",
+    "order": 57
+  },
+  {
+    "id": "seg_0058",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0187",
+      "shot_0188",
+      "shot_0189",
+      "shot_0190"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段完成从对峙格局建立到第一轮台词交锋，并落在女主明确提出‘做完月子便走’这一阶段性目标上。叙事连续，情绪逐级升高但仍属同一回合试探与切断。",
+    "order": 58
+  },
+  {
+    "id": "seg_0059",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0191",
+      "shot_0192",
+      "shot_0193"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成完整的情绪回合：男方短暂裂缝、女方彻底夺回叙事主动、男方否认现实。是从试探转向控制的明显弧线，因此合并成一段。",
+    "order": 59
+  },
+  {
+    "id": "seg_0060",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0194",
+      "shot_0195",
+      "shot_0196"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头完成一轮清晰的刺激—无效—暴露真意结构。陆姝仪话题是新的情绪杠杆，男主由挑衅转为暴露‘宁可你恨我’的核心需求，属于新的情感转折点。",
+    "order": 60
+  },
+  {
+    "id": "seg_0061",
+    "scene_id": "scene_009",
+    "shot_ids": [
+      "shot_0197",
+      "shot_0198",
+      "shot_0199",
+      "shot_0200",
+      "shot_0201"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段是全场高潮与收尾，动作断线、致命台词、男主失控反转、高潮逼问、静物冷尾构成完整闭环。虽然包含5个shot，但都服务于同一情绪爆点与尾声回落，必须合并以保证高潮连贯性。",
+    "order": 61
+  }
+]

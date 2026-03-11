@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府内宅 - 白日",
+  "location": "沈家内院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "婚后沈词为陆姝仪择婿，屡嫌不满意。我厌倦纠缠，甚至主动提议假死后纳她入府。随后我怀孕，太医断定是男孩，和前世完全重合。",
+  "key_dialogue": "「我做完月子便走，不会纠缠。」",
+  "emotional_peak": "我面对腹中前世的儿子，依然坚持未来离开，令沈词意外失衡。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "折扇",
+    "男胎诊断",
+    "虎头帽"
+  ],
+  "dramatic_purpose": "把婚姻从报复推进到履约阶段，同时埋下沈词态度变化。",
+  "visual_reference": "高门内院，女子摇扇平静出主意，后又在窗边绣虎头帽，男子从门口凝视，情绪复杂。",
+  "visual_prompt_negative": "不要现代B超，不要夸张狗血表情，不要过多背景群演。",
+  "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他总嫌薄了陆",
+  "source_text_end": "话音落下，一片冷然的寂静。『高令宁，』他盯着我，冷硬的语气有几分不可置信，『谁准你想开了？』"
+}

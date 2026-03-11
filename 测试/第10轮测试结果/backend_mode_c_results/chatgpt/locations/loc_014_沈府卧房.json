@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_014",
+  "name": "沈府卧房",
+  "type": "interior",
+  "era_style": "明代中晚期世家夫妇卧房",
+  "description": "卧房为日常夫妻起居空间，相比洞房减少喜庆装饰，更显长期生活痕迹。房内设主床、软枕、门框清晰的出入口、床边小几与针线笸箩，一只绣了一半的虎头帽是极具叙事性的焦点道具，暗示未出世孩子的存在。诊脉时可在床边置脉枕、药箱，太医可坐于床侧。家具仍以硬木为主，但布置趋于温和实用，帐幔和床品色彩较收敛。空间需要体现一种看似安稳的家庭氛围，却被“孩子出生后和离”的谈话撕开，温情和终局并存。",
+  "visual_reference": "Late Ming dynasty noble couple's bedroom, lived-in Chinese interior with wooden bed, soft pillows, half-embroidered tiger hat, sewing basket, pulse pillow for physician visit, medicine chest, modest canopy drapes, practical refined furniture, daylight, intimate domestic atmosphere mixed with emotional fracture, cinematic historical realism, detailed textures",
+  "atmosphere": "表面安稳、暗含离意、温柔失控",
+  "color_palette": [
+    "浅棕",
+    "月白",
+    "淡蓝灰",
+    "暖米"
+  ],
+  "lighting": "柔和日光照入卧房，整体温润平静，适合将‘有孕’的喜讯与‘和离’的冷意同时放进同一画面。",
+  "key_features": [
+    "绣了一半的虎头帽",
+    "床侧诊脉区域与脉枕",
+    "具有生活气息的针线笸箩"
+  ],
+  "narrative_scenes": [
+    "scene_014"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从似乎终于迎来希望的平静孕期，转为对真正放下与被放下的痛苦冲突。"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "阿词",
+    "沈大人"
+  ],
+  "role": "supporting",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "如玉般白净俊美，五官端正，表情冷峻，眸子漆黑如冰湖偶现琥珀暖光",
+    "body": "长身玉立，身高约180cm，瘦高文人体态，气质清冷端方",
+    "hair": "墨黑长发，束玉冠或官帽",
+    "distinguishing_features": "冷冽冰湖般的眼神与偶尔含笑的琥珀眸光，形成强烈反差"
+  },
+  "costume": {
+    "typical_outfit": "深色文官袍服或长衫，官服时佩玉带",
+    "color_palette": [
+      "深蓝",
+      "玄黑",
+      "银灰"
+    ]
+  },
+  "casting_tags": [
+    "冷峻男主",
+    "重生文臣",
+    "统治者原型",
+    "痴情后期",
+    "俊美贵公子"
+  ],
+  "visual_reference": "Handsome young Chinese scholar-official mid-20s, jade-like pale refined face with sharp cold black eyes that soften to amber warmth, tall slender build, long black hair tied with jade guan, wearing dark blue official hanfu robes, aloof noble temperament, ancient Chinese imperial setting, highly detailed masterpiece",
+  "personality": "清冷端方、尖锐刻薄、表面漠然内心深情、重情义却不善表达、前世冷待妻今生逐渐痴缠",
+  "desire": "保护义妹陆姝仪余生顺遂、与高令宁修补关系共同抚养子女、维持官途与家族荣耀",
+  "flaw": "过于理性尖锐易误会妻子、不善情感表达、执着于前世愧疚导致反复伤害",
+  "arc": "起点：重生后冷淡提亲、极力护义妹 → 转变：目睹妻生产险情后情感崩塌、跪求不和离 → 终点：被和离后彻底痴缠、恬不知耻追妻江南",
+  "scene_presence": "提亲、成亲、入府、护陆姝仪、陪产、和离跪求、江南追妻等关键情节多次出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "前世互相提防针锋相对，今生从冷战到深爱不舍",
+      "function": "镜像/引导"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情感",
+      "dynamic": "兄妹情深、极力护佑",
+      "function": "助攻"
+    },
+    {
+      "target": "沈母",
+      "type": "权力",
+      "dynamic": "孝顺但不盲从",
+      "function": "对照"
+    },
+    {
+      "target": "沈睿",
+      "type": "情感",
+      "dynamic": "父爱骄傲，为其重生娶妻",
+      "function": "引导"
+    },
+    {
+      "target": "昭昭",
+      "type": "情感",
+      "dynamic": "宠爱送礼追女",
+      "function": "引导"
+    },
+    {
+      "target": "蒋晟",
+      "type": "权力",
+      "dynamic": "厌恶其与妻亲近",
+      "function": "阻碍"
+    }
+  ]
+}

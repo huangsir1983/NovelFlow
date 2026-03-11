@@ -1,0 +1,37 @@
+{
+  "name": "沈府小厮",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "15-25",
+  "appearance": {
+    "face": "普通少年面容，神色恭谨",
+    "body": "清瘦灵活",
+    "hair": "小厮发式",
+    "distinguishing_features": "负责传话跑腿"
+  },
+  "costume": {
+    "typical_outfit": "沈府下人短打",
+    "color_palette": [
+      "灰蓝",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "传话小厮"
+  ],
+  "visual_reference": "中国古代高门小厮，年轻，穿灰蓝短打，神情恭谨，手持口信或礼盒，在门前候命，古风写实",
+  "visual_prompt_negative": "现代制服、夸张搞笑、动漫风",
+  "personality": "谨慎听命",
+  "desire": "完成差事不惹祸",
+  "flaw": "缺乏主见",
+  "arc": "无",
+  "scene_presence": "主要承担义妹消息传递与通报功能",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "主仆",
+      "dynamic": "听命办事",
+      "function": "信息传递"
+    }
+  ]
+}

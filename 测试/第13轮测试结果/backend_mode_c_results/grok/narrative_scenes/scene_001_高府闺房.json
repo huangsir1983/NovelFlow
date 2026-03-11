@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高府闺房 - 夜",
+  "location": "高府闺房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁"
+  ],
+  "core_event": "高令宁重生后决定嫁沈词只为见儿子一面",
+  "key_dialogue": "我一定要嫁。",
+  "emotional_peak": "想起前世棺材中冰冷尸体",
+  "tension_score": 0.4,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "辞官奏折",
+    "药包"
+  ],
+  "dramatic_purpose": "确立主角重生动机与和离约定",
+  "source_text_start": "是以父亲让我和他的得意门生相见一番时，我同意了。",
+  "source_text_end": "四目相对，只剩恨意。我冷哼一声，转身离开。"
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家正厅 - 夜",
+  "location": "高家正厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "父亲"
+  ],
+  "core_event": "陆哭诉指责，高令宁被指恶毒，争执升级",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "沈词面若冰霜指责",
+  "tension_score": 1.0,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "桌案",
+    "拳头"
+  ],
+  "dramatic_purpose": "误会顶峰与巴掌冲突",
+  "source_text_start": "陆姝仪哭着要自尽。她跪在我面前，哽咽：「夫人，您便这般恨我吗？」",
+  "source_text_end": "他面无表情地逼近，紧紧地盯住我的眼睛：「这一世姝仪若再为你而死，信不信我杀了你？」"
+}

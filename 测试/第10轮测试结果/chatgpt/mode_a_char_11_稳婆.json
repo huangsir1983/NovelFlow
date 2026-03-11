@@ -1,0 +1,44 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-60",
+  "appearance": {
+    "face": "劳碌妇人面容，神情焦急，经验丰富",
+    "body": "普通中年妇人体态",
+    "hair": "简单包发，便于接生",
+    "distinguishing_features": "生产场中高压下的专业与慌乱"
+  },
+  "costume": {
+    "typical_outfit": "朴素便于行动的深色布衣",
+    "color_palette": [
+      "深灰",
+      "藏青"
+    ]
+  },
+  "casting_tags": [
+    "稳婆",
+    "生产场角色",
+    "命运见证者"
+  ],
+  "visual_reference": "Experienced Chinese midwife, middle-aged to elderly, anxious but capable face, simple dark working clothes, practical hair wrap, tense childbirth scene, ancient drama style",
+  "personality": "专业务实，在危急关头极度焦急但仍按规矩行事。",
+  "desire": "尽可能保住产妇与孩子。",
+  "flaw": "受封建结构制约，关键决策只能听夫家男人。",
+  "arc": "无明显弧线。",
+  "scene_presence": "高令宁早产难产时出现，逼问沈词保大保小，并在孩子出生后宣布是位小千金。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "利益",
+      "dynamic": "负责接生，直接介入其生死时刻",
+      "function": "命运转折执行者"
+    },
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "依制度向丈夫征询保大保小决定",
+      "function": "揭示父权结构"
+    }
+  ]
+}

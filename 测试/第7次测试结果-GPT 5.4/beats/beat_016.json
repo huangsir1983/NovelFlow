@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_016",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_053",
+      "scene_054",
+      "scene_055"
+    ]
+  },
+  "data": {
+    "title": "南下避世却被纠缠到天涯",
+    "description": "女主带昭昭远赴江南三年，过上表面平静的新生活，并让‘赘婿’人选进入家门；沈词以试探婚讯逼她表态，随后亲赴江南，在昭昭叫出‘爹爹’、夜里赖在她床边后坦白：只要活着就会纠缠她一辈子。故事终像从怨偶走向漫长纠缠的新阶段。",
+    "beat_type": "event",
+    "save_the_cat": "Final Image",
+    "emotional_value": 0.2,
+    "dramatic_intensity": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 16
+  }
+}

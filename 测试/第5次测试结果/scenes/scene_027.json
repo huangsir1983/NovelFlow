@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_027",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:33:22"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "静好"
+    ]
+  },
+  "data": {
+    "heading": "INT. 产房 - NIGHT",
+    "location": "前世产房",
+    "time_of_day": "night",
+    "description": "产房封闭逼仄，烛火昏暗，床榻、热水盆、药碗与换下的血污布巾构成沉重视觉。室内人声压低，死气与药气混杂。希望与绝望并存于这一狭小空间。",
+    "action": "高令宁躺在榻上，面色灰白，发丝被冷汗打湿，双手无力抓着被褥。沈词在床边四处张罗，召名医、压低嗓音劝慰，甚至提起给未出生的女儿取名“静好”。他的动作急切而补救，试图挽回先前造成的伤害。可最终屋内气氛沉下去，孩子死产。高令宁偏过脸，不再看他；沈词站在榻边，手悬在半空，无处可落。两人之间只剩无法填平的恨意。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "若是女儿，就叫静好。",
+        "subtext": "他试图用未来和温情修补裂缝，但为时已晚。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "静好"
+    ],
+    "key_props": [
+      "床榻",
+      "药碗",
+      "热水盆",
+      "血污布巾",
+      "被褥"
+    ],
+    "dramatic_purpose": "把前世伤害推进到最深的生命代价，解释高令宁此刻让步背后的彻悟与断念。",
+    "tension_score": 0.98,
+    "order": 27
+  }
+}

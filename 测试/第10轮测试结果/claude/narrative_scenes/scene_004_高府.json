@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 高府 - 日",
+  "location": "高府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈府小厮"
+  ],
+  "core_event": "高令宁要求陆姝仪出嫁后才答应婚事",
+  "key_dialogue": "贵府小姐出嫁后，我才会答应这门亲事",
+  "emotional_peak": "高令宁的强硬态度",
+  "tension_score": 0.6,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "书信",
+    "茶具",
+    "家具"
+  ],
+  "dramatic_purpose": "高令宁设置婚姻条件"
+}

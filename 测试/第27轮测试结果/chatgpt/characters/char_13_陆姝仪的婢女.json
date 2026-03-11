@@ -1,0 +1,47 @@
+{
+  "name": "陆姝仪的婢女",
+  "aliases": [
+    "婢女"
+  ],
+  "role": "minor",
+  "age_range": "十几岁",
+  "appearance": {
+    "face": "清秀普通，神情怯懦焦急",
+    "body": "瘦小",
+    "hair": "低阶婢女发式，整齐简单",
+    "distinguishing_features": "跪地传话时的慌张感"
+  },
+  "costume": {
+    "typical_outfit": "素净婢女衣裙，颜色低调",
+    "color_palette": [
+      "浅灰",
+      "淡青"
+    ]
+  },
+  "casting_tags": [
+    "贴身婢女",
+    "传话工具人",
+    "柔弱侍从"
+  ],
+  "visual_reference": "中国古代贴身婢女，十六七岁，神情怯懦焦急，穿浅灰与淡青色素净婢女衣裙，跪在新房门外或廊下传话，古风写实",
+  "visual_prompt_negative": "避免浓妆、避免华贵如主子、避免卡通风、避免现代装",
+  "personality": "胆小、忠心、看主子脸色行事。",
+  "desire": "服侍好陆姝仪，避免受罚。",
+  "flaw": "缺乏独立判断，容易成为操弄局面的延伸。",
+  "arc": "无明显弧线。",
+  "scene_presence": "在新婚夜前来通报陆姝仪“心口痛”，直接打断洞房后的平静。",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "受其指使传递求救信息",
+      "function": "辅助制造三角冲突"
+    },
+    {
+      "target": "沈词",
+      "type": "通报对象",
+      "dynamic": "把陆姝仪的状况递给他",
+      "function": "触发男主离席抉择"
+    }
+  ]
+}

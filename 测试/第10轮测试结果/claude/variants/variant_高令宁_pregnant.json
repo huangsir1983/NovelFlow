@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_03",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 怀孕期",
+  "tags": [
+    "孕妇",
+    "温柔",
+    "坚定",
+    "已婚"
+  ],
+  "scene_ids": [
+    "scene_012",
+    "scene_013"
+  ],
+  "trigger": "怀上沈睿后在娘家养胎，手做虎头帽",
+  "appearance_delta": {
+    "face": "面容柔和但眼神依然坚定",
+    "body": "腹部隆起，动作谨慎",
+    "hair": "已婚妇人发髻，简洁舒适",
+    "distinguishing_features": "手持针线做虎头帽，母性光辉与决绝并存"
+  },
+  "costume_override": {
+    "outfit": "宽松舒适的孕妇襦裙，诰命夫人服饰简化版",
+    "color_palette": [
+      "淡粉色",
+      "月白色",
+      "浅青色"
+    ]
+  },
+  "visual_reference": "pregnant Chinese woman in loose comfortable hanfu, married woman hairstyle, gentle face with determined eyes, holding embroidered tiger-head hat, sitting in courtyard with grapes nearby, soft maternal glow mixed with resolute character, ancient China noble house",
+  "emotional_tone": "温柔中带着坚定，母爱与决绝共存"
+}

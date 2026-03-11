@@ -1,0 +1,31 @@
+{
+  "variant_id": "gao_lingning_variant_05",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 放下释然",
+  "tags": [
+    "通透",
+    "独立",
+    "释然",
+    "成长",
+    "淡然"
+  ],
+  "scene_ids": [],
+  "trigger": "角色弧光终点：经历重生后的报复、纠缠、厌倦，最终真正放下对沈词的执念与怨恨，选择独立生活，不再为婚姻定义自我价值，神情从清冷转为通透平和",
+  "appearance_delta": {
+    "face": "杏眼依旧明亮但不再凌厉，眉峰舒展不再紧蹙，薄唇微微放松不再紧抿，整体神情从清冷倔强转为一种历经风雨后的平和通透，偶有淡淡笑意",
+    "body": "产后恢复，身形仍纤细但不再是孕期的病态消瘦，肩背挺直且自然舒展",
+    "hair": "乌黑长发以银簪半挽回归日常，但整体打理更为从容整洁，发质恢复顺滑",
+    "distinguishing_features": "不再频繁触碰颈侧，双手自然垂落或轻抱女儿沈昭昭"
+  },
+  "costume_override": {
+    "outfit": "浅青交领襦裙搭配银灰褙子，风格依旧素净简洁但比此前更添几分从容气度，腰系细绦，佩一枚小巧玉坠作为唯一饰物",
+    "color_palette": [
+      "浅青",
+      "银灰",
+      "淡玉白"
+    ]
+  },
+  "visual_reference": "A young Chinese woman around 19 years old in a light cyan cross-collar ruqun with a silver-grey outer beizi, black hair half-pinned with a silver hairpin with the rest falling smoothly over her shoulders, sharp almond eyes now softened with a serene and clear gaze showing inner peace and quiet strength, thin lips relaxed with the faintest hint of a calm smile, slender upright posture with naturally relaxed shoulders, a small jade pendant at her waist, standing at the entrance of a traditional Chinese courtyard looking outward toward an open road with morning sunlight streaming in, warm yet gentle lighting, soft breeze, cinematic composition, highly detailed, 8k",
+  "visual_prompt_negative": "angry expression, cold gaze, pursed lips, tears, dark lighting, gloomy atmosphere, heavy makeup, bright red clothing, wedding dress, modern clothing, glasses, tattoo, Western features, fantasy armor, wings",
+  "emotional_tone": "释然通透——放下执念后的轻盈与自由，不再被怨恨或婚姻定义，是角色弧光的最高点，带着淡淡的温暖与对未来的平静期许"
+}

@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "MONTAGE. 前世后宅与街市回忆 - NIGHT/DAY",
+  "location": "前世沈府内院、街市、产房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "沈睿"
+  ],
+  "core_event": "高令宁联想到前世沈词因像陆姝仪的婢女与自己爆发冲突，失手推倒已怀孕的她，后又费尽心思保胎并为未出生女儿取名静好，最终仍产下死胎。",
+  "key_dialogue": "「琴瑟在御，莫不静好。」",
+  "emotional_peak": "产房里死去的女婴与夫妻彼此欲杀的目光叠加成巨大创伤。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 260,
+  "key_props": [
+    "画卷残片",
+    "身契",
+    "床榻",
+    "药汤",
+    "名医药箱",
+    "街市鱼龙灯",
+    "孩童花灯",
+    "产床",
+    "血水盆",
+    "襁褓"
+  ],
+  "dramatic_purpose": "强化女主对执念与争斗的厌倦，促成她暂时让步。"
+}

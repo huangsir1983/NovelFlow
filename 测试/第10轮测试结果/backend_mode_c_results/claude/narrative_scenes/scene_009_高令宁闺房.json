@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 高府闺房 - 日",
+  "location": "高令宁闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "父亲担心女儿嫁入沈家受委屈，高令宁安慰父亲",
+  "key_dialogue": "父亲只当女儿去沈家暂住一段时间，早晚要回来的",
+  "emotional_peak": "父女情深",
+  "tension_score": 0.4,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "嫁妆",
+    "衣物",
+    "首饰盒"
+  ],
+  "dramatic_purpose": "展现父女感情，铺垫后续和离"
+}

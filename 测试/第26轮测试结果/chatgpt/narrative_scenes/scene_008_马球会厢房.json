@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会休憩厢房 - dusk",
+  "location": "马球会厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为我正骨，蒋晟自责不已，而不远处沈词正细心照顾胃病发作的陆姝仪。双方就婚事与陆姝仪去留再度争执，陆姝仪下跪装弱，沈词公开护她。",
+  "key_dialogue": "不退。",
+  "emotional_peak": "陆姝仪跪地求怜，沈词将她揽入怀中，我的屈辱与酸楚被彻底唤醒。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "正骨药箱",
+    "药碗",
+    "衣角",
+    "跪地的姿态"
+  ],
+  "dramatic_purpose": "将前世创伤在今生重演，推动女主从对抗走向疲惫让步。",
+  "visual_reference": "灯火下病弱美人跪地落泪，男子俯身相护，另一侧女子扶着伤脚冷冷旁观。",
+  "visual_prompt_negative": "不要夸张宫斗表情，不要现代诊室，不要狗血泼洒镜头，不要二次元风",
+  "source_text_start": "7.\n大夫来看过了我的伤。\n脚踝错位，正骨完",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

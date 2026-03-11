@@ -1,0 +1,116 @@
+{
+  "model": "ChatGPT (gpt-5.4)",
+  "status": "OK",
+  "test_round": "R28",
+  "r28_architecture": "fine_grained_scene_split",
+  "r28_optimizations": [
+    "scene_fine_split_35_50_corrected",
+    "flashback_independent",
+    "emotion_turn_split",
+    "scene_max_tokens_36k",
+    "char_scene_parallel_stream",
+    "progressive_loc_card_firing",
+    "event_decoupled_props",
+    "event_decoupled_variants",
+    "elastic_concurrency_10",
+    "variant_sem_4"
+  ],
+  "streaming": true,
+  "num_characters": 12,
+  "num_scenes": 47,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "高父",
+    "蒋晟",
+    "沈睿",
+    "昭昭",
+    "沈母",
+    "侯爵娘子",
+    "媒人",
+    "稳婆",
+    "太医"
+  ],
+  "char_stream_time_s": 222.42,
+  "char_stream_chunks": 8437,
+  "char_stream_chars": 14034,
+  "time_to_first_char_s": 44.95,
+  "scene_stream_time_s": 291.47,
+  "scene_stream_chunks": 14190,
+  "scene_stream_chars": 28264,
+  "source_text_coverage": {
+    "total": 47,
+    "count_with_start": 47,
+    "count_with_end": 47,
+    "count_with_both": 47,
+    "coverage_pct": 100.0
+  },
+  "loc_batches_fired": 10,
+  "num_locations": 40,
+  "num_props_total": 107,
+  "num_props_major": 10,
+  "num_props_minor": 97,
+  "num_variants": 24,
+  "pipeline_total_time_s": 417.62,
+  "char_done_at_s": 222.44,
+  "scenes_done_at_s": 291.97,
+  "r20_major_prop_top_n": 10,
+  "r20_source_text_coverage": {
+    "total": 47,
+    "count_with_start": 47,
+    "count_with_end": 47,
+    "count_with_both": 47,
+    "coverage_pct": 100.0
+  },
+  "r28_timeline": [
+    {
+      "event": "pipeline_start",
+      "t": 0.0
+    },
+    {
+      "event": "char_stream_start",
+      "t": 0.0
+    },
+    {
+      "event": "scene_stream_start",
+      "t": 0.47
+    },
+    {
+      "event": "char_stream_done",
+      "t": 222.44
+    },
+    {
+      "event": "scene_stream_done",
+      "t": 291.97
+    },
+    {
+      "event": "props_start",
+      "t": 291.97
+    },
+    {
+      "event": "loc_wait_start",
+      "t": 292.43
+    },
+    {
+      "event": "variants_start",
+      "t": 292.43
+    },
+    {
+      "event": "loc_wait_done",
+      "t": 363.0
+    },
+    {
+      "event": "props_done",
+      "t": 388.78
+    },
+    {
+      "event": "variants_done",
+      "t": 417.62
+    },
+    {
+      "event": "pipeline_done",
+      "t": 417.62
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "18-- 按时间顺序，先前世茶礼，再今生提亲、马球、和离、江南  </think> 22",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜，泪眼盈盈",
+    "body": "柔弱纤细",
+    "hair": "乌黑长发，松散垂肩或粉衣配饰",
+    "distinguishing_features": "柔弱倔强眼神与泪痕"
+  },
+  "costume": {
+    "typical_outfit": "粉色柔美汉服",
+    "color_palette": [
+      "粉",
+      "白"
+    ]
+  },
+  "casting_tags": [
+    "古风柔弱美人",
+    "绿茶情敌",
+    "重生反派"
+  ],
+  "visual_reference": "Delicate beautiful young Chinese woman 18-22, gentle fragile face with tearful pitiful eyes, slender frail figure, long black hair loosely draped, wearing soft pink flowing Hanfu, tragic yet manipulative expression, historical drama style, highly detailed",
+  "personality": "柔弱外表下心机深沉、善于示弱",
+  "desire": "嫁入沈家或寻得良婿",
+  "flaw": "心机与陷害他人",
+  "arc": "从被护到设计陷害再承认并退出",
+  "scene_presence": "关键冲突制造者，出场于马球会、跪求、昏迷事件、满月宴",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅义兄",
+      "dynamic": "依赖与被误会恋情",
+      "function": "三角冲突"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "嫉恨陷害",
+      "function": "推动和离"
+    }
+  ]
+}

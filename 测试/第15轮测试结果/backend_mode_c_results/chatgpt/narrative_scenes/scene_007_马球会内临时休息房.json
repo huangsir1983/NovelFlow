@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 马球会客房/医室 - DAY",
+  "location": "马球会内临时休息房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "大夫"
+  ],
+  "core_event": "高令宁崴脚正骨，隔壁却是沈词亲手喂药安抚胃痛的陆姝仪。离开时双方再次就婚期与陆姝仪的去留针锋相对，陆姝仪跪求留下，沈词当众护她。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪跪地哭求“就拿我当奴婢，当宠物”，沈词将她揽入怀中，彻底刺痛高令宁。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "药碗",
+    "正骨用布带",
+    "软榻",
+    "衣角"
+  ],
+  "dramatic_purpose": "把前世正妻之耻与今生局面重叠，让女主意识到争一时意气已无意义。",
+  "source_text_start": "大夫来看过了我的伤。\n脚踝错位，正骨完便好了",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

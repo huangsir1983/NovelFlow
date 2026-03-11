@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "id": "scene_035",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:36"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_007",
+      "beat_014"
+    ]
+  },
+  "data": {
+    "heading": "INT. 产房 - NIGHT",
+    "location": "高府产房",
+    "time_of_day": "night",
+    "description": "同一产房内，烛光仍暗，但危机暂解。婴儿被抱离床边，房中人群动作由慌乱转为忙碌庆贺。高令宁虚弱躺在榻上，面色苍白却尚有呼吸。沈睿站在榻边，肩背微塌，情绪明显失控后回落。",
+    "action": "婴儿啼哭后，众人围向新生儿。沈睿像骤然清醒，俯身伸出发颤的手，探高令宁鼻息，确认她还活着后长长吐气，眼角滑下一滴泪。稳婆喜气洋洋地抱喜，称生了个漂亮的小千金。沈睿脸上刚浮起的笑意瞬间僵住，转头看向稳婆，难以置信地追问。",
+    "dialogue": [
+      {
+        "character": "稳婆",
+        "line": "沈大人，快来看看小千金，漂亮得很呢！",
+        "subtext": "报喜并默认父亲期待见到孩子。"
+      },
+      {
+        "character": "沈睿",
+        "line": "你说什么？",
+        "subtext": "孩子的性别与其预期不符，震惊压过了刚刚脱险的松弛。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "襁褓",
+      "床榻",
+      "烛火"
+    ],
+    "dramatic_purpose": "在生死危机后用‘生女’结果制造新的情绪转折，为后续人物关系与期待落差埋下戏剧钩子。",
+    "tension_score": 0.68,
+    "dramatic_intensity": 0.36,
+    "order": 35
+  }
+}

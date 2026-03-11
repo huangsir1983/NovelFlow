@@ -1,0 +1,186 @@
+{
+  "count": 20,
+  "updated_at": "2026-03-09T00:04:12",
+  "entries": [
+    {
+      "id": "beat_000",
+      "filename": "beat_000.json",
+      "title": "回望前世订亲并预告破局",
+      "beat_type": "revelation",
+      "save_the_cat": "Opening Image",
+      "emotional_value": 0.1,
+      "order": 0
+    },
+    {
+      "id": "beat_001",
+      "filename": "beat_001.json",
+      "title": "点明重生不是重圆而是清醒利用",
+      "beat_type": "dialogue",
+      "save_the_cat": "Theme Stated",
+      "emotional_value": -0.1,
+      "order": 1
+    },
+    {
+      "id": "beat_002",
+      "filename": "beat_002.json",
+      "title": "当堂试探聘礼确认双重重生",
+      "beat_type": "event",
+      "save_the_cat": "Set-Up",
+      "emotional_value": -0.3,
+      "order": 2
+    },
+    {
+      "id": "beat_003",
+      "filename": "beat_003.json",
+      "title": "揭开婚后噩梦触发再度选择",
+      "beat_type": "revelation",
+      "save_the_cat": "Catalyst",
+      "emotional_value": -0.6,
+      "order": 3
+    },
+    {
+      "id": "beat_004",
+      "filename": "beat_004.json",
+      "title": "在愿嫁与不甘之间反复权衡",
+      "beat_type": "dialogue",
+      "save_the_cat": "Debate",
+      "emotional_value": -0.2,
+      "order": 4
+    },
+    {
+      "id": "beat_005",
+      "filename": "beat_005.json",
+      "title": "翻出前尘旧怨建立主冲突",
+      "beat_type": "revelation",
+      "save_the_cat": "Set-Up",
+      "emotional_value": -0.8,
+      "order": 5
+    },
+    {
+      "id": "beat_006",
+      "filename": "beat_006.json",
+      "title": "与沈词立下成婚生子后和离之约",
+      "beat_type": "event",
+      "save_the_cat": "Break into Two",
+      "emotional_value": -0.1,
+      "order": 6
+    },
+    {
+      "id": "beat_007",
+      "filename": "beat_007.json",
+      "title": "确立睿儿作为副线情感锚点",
+      "beat_type": "revelation",
+      "save_the_cat": "B Story",
+      "emotional_value": 0.2,
+      "order": 7
+    },
+    {
+      "id": "beat_008",
+      "filename": "beat_008.json",
+      "title": "目睹偏爱重演并被迫答应成亲",
+      "beat_type": "event",
+      "save_the_cat": "Fun and Games",
+      "emotional_value": -0.5,
+      "order": 8
+    },
+    {
+      "id": "beat_009",
+      "filename": "beat_009.json",
+      "title": "踏入新婚冷局并被旧情搅局",
+      "beat_type": "event",
+      "save_the_cat": "Midpoint",
+      "emotional_value": -0.4,
+      "order": 9
+    },
+    {
+      "id": "beat_010",
+      "filename": "beat_010.json",
+      "title": "在陆姝仪婚事与有孕宿命中相互逼近",
+      "beat_type": "revelation",
+      "save_the_cat": "Bad Guys Close In",
+      "emotional_value": 0.1,
+      "order": 10
+    },
+    {
+      "id": "beat_011",
+      "filename": "beat_011.json",
+      "title": "被一句不准想开搅乱情感平衡",
+      "beat_type": "dialogue",
+      "save_the_cat": "Bad Guys Close In",
+      "emotional_value": 0.3,
+      "order": 11
+    },
+    {
+      "id": "beat_012",
+      "filename": "beat_012.json",
+      "title": "在修补假象中爆出失贞风波",
+      "beat_type": "event",
+      "save_the_cat": "All Is Lost",
+      "emotional_value": -0.9,
+      "order": 12
+    },
+    {
+      "id": "beat_013",
+      "filename": "beat_013.json",
+      "title": "在指控与早产中坠入绝境",
+      "beat_type": "event",
+      "save_the_cat": "Dark Night of the Soul",
+      "emotional_value": -1.0,
+      "order": 13
+    },
+    {
+      "id": "beat_014",
+      "filename": "beat_014.json",
+      "title": "因保母抉择与生女反转重组认知",
+      "beat_type": "revelation",
+      "save_the_cat": "Break into Three",
+      "emotional_value": 0.4,
+      "order": 14
+    },
+    {
+      "id": "beat_015",
+      "filename": "beat_015.json",
+      "title": "梦见睿儿劝放手并真正决定和离",
+      "beat_type": "revelation",
+      "save_the_cat": "Finale",
+      "emotional_value": 0.2,
+      "order": 15
+    },
+    {
+      "id": "beat_016",
+      "filename": "beat_016.json",
+      "title": "当庭拒复合逼出沈词崩塌",
+      "beat_type": "dialogue",
+      "save_the_cat": "Finale",
+      "emotional_value": -0.1,
+      "order": 16
+    },
+    {
+      "id": "beat_017",
+      "filename": "beat_017.json",
+      "title": "在满月宴揭开重生与陷害真相",
+      "beat_type": "revelation",
+      "save_the_cat": "Finale",
+      "emotional_value": 0.1,
+      "order": 17
+    },
+    {
+      "id": "beat_018",
+      "filename": "beat_018.json",
+      "title": "带女南下却被婚讯与闯入重新牵动",
+      "beat_type": "event",
+      "save_the_cat": "Finale",
+      "emotional_value": -0.2,
+      "order": 18
+    },
+    {
+      "id": "beat_019",
+      "filename": "beat_019.json",
+      "title": "在深夜纠缠中定格未断前缘",
+      "beat_type": "action",
+      "save_the_cat": "Final Image",
+      "emotional_value": 0.3,
+      "order": 19
+    }
+  ]
+}

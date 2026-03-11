@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaofu_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 产房外忧惧到极致的父亲",
+  "tags": [
+    "难产之夜",
+    "极度忧思",
+    "苍老感加重",
+    "守护女儿"
+  ],
+  "scene_ids": [
+    "scene_009"
+  ],
+  "trigger": "高令宁急火攻心早产难产，高父在高家产房相关场景中直面女儿生死未卜的时刻。",
+  "appearance_delta": {
+    "face": "忧思重到显得明显苍老，眼下疲惫，神情紧绷，面容比主设定更憔悴",
+    "body": "清瘦感更突出，像在漫长等待中被抽空力气",
+    "hair": "黑白掺杂的发色更显眼，整齐中透出一夜惊惧后的沉重",
+    "distinguishing_features": "慈父愁容达到顶点，整个人像被女儿安危压弯了精神"
+  },
+  "costume_override": {
+    "outfit": "家中长衫外出入产房区域，衣着仍守礼但不再讲究完整仪容",
+    "color_palette": [
+      "暗青",
+      "灰褐",
+      "藏青"
+    ]
+  },
+  "visual_reference": "Ancient Chinese middle-aged father outside a childbirth chamber at night, slim and scholarly, deeply worried face aged by fear, pronounced wrinkles and exhausted eyes, black-and-gray hair neatly tied, wearing a dark plain traditional long robe in muted blue-gray and brown, standing beside candlelight and folding screens in a tense household interior, protective and anguished father aura, realistic historical Chinese emotional portrait",
+  "visual_prompt_negative": "smiling expression, bright festive colors, armor, messy barbaric look, modern hospital, beard too long, muscular build, glasses",
+  "emotional_tone": "恐惧、煎熬、几近被忧惧压垮的父爱"
+}

@@ -1,0 +1,30 @@
+{
+  "variant_id": "父亲_variant_01",
+  "variant_type": "formal",
+  "variant_name": "父亲 — 官服提亲",
+  "tags": [
+    "官服",
+    "威严",
+    "犹豫"
+  ],
+  "scene_ids": [
+    "scene_001"
+  ],
+  "trigger": "媒人提亲场景，在高家正堂正式场合",
+  "appearance_delta": {
+    "face": "威严更显  ，眉头微皱带着审视",
+    "body": "站姿端正挺拔",
+    "hair": "花白束冠配官帽",
+    "distinguishing_features": "官威十足，眼神犹豫门第"
+  },
+  "costume_override": {
+    "outfit": "四品官服",
+    "color_palette": [
+      "深灰",
+      "褐色"
+    ]
+  },
+  "visual_reference": "五十岁左右古代四品官员，面容慈祥却威严，眼角皱纹明显，皮肤微黄，身材中等微胖，花白头发束冠戴官帽，穿着深灰四品官袍，站在高家正堂，手持礼单审视聘礼，神情担忧中带护女犹豫，光影温暖家庭感但正式严肃，写实风格",
+  "visual_prompt_negative": "年轻无皱、现代西装、卡通、西方面孔、常服休闲",
+  "emotional_tone": "威严担忧与门第犹豫"
+}

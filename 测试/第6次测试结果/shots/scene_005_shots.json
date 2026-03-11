@@ -1,0 +1,241 @@
+[
+  {
+    "id": "shot_0087",
+    "scene_id": "scene_005",
+    "shot_number": 1,
+    "goal": "建立马球会场的空间关系、天气质感与社交氛围，同时交代这是一个外表热闹但带有压迫感的场域。",
+    "composition": "高位斜俯WS，马球场占画面中后部，奔马与击球人群横向掠过；前景下沿是被风卷起的沙尘和模糊晃动的彩幡，右下角留出观赛席的一角与茶果案，葡萄盘隐约可见；强烈顶光让地面发白，空气中浮尘形成层次。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "先感受到热闹，再隐约察觉日光与风沙带来的不适和压迫。",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.35,
+    "order": 87
+  },
+  {
+    "id": "shot_0088",
+    "scene_id": "scene_005",
+    "shot_number": 2,
+    "goal": "将观众带入高令宁的限制性主观感受，交代她身处场边观赛区，并被蒋晟贴身护在外侧。",
+    "composition": "从高令宁视线高度的侧向MLS，画面左侧前景是被风吹动的帘角和席案边缘，中央偏右为高令宁，站姿挺直、衣色在低饱和环境中仍醒目；蒋晟位于她右侧更靠外缘，身体略前半步，形成挡风屏障；背景是虚化的赛场与走动宾客。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "感受到她被照拂，也感受到礼法距离下的克制陪伴。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.28,
+    "order": 88
+  },
+  {
+    "id": "shot_0089",
+    "scene_id": "scene_005",
+    "shot_number": 3,
+    "goal": "具体展示蒋晟的体贴：他不是口头殷勤，而是本能地替她挡风沙。",
+    "composition": "中近距离MCU双人侧面构图，保持180度轴线：高令宁在画面左侧三分之一，面朝右；蒋晟在画面右侧前景，抬手挡在她额前与风向之间，手臂形成斜线；前景有浮尘掠过镜头边缘，背景赛场高光闪烁。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众对蒋晟产生可靠、笨拙但真诚的好感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.22,
+    "order": 89
+  },
+  {
+    "id": "shot_0090",
+    "scene_id": "scene_005",
+    "shot_number": 4,
+    "goal": "通过高令宁的细微反应说明她注意到了这份照料，但仍保持克制，不轻易表露态度。",
+    "composition": "高令宁CU，位于画面左中，身后是被日光洗亮的虚焦赛场；蒋晟抬起的手臂只留一段模糊前景遮挡在右上角，形成半保护式框景；她眼睫轻抬，风沙过后视线短暂停驻。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "观众读到她并非无感，只是习惯把情绪压住。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 90
+  },
+  {
+    "id": "shot_0091",
+    "scene_id": "scene_005",
+    "shot_number": 5,
+    "goal": "借高令宁视线引出关键道具葡萄，为蒋晟下一步照顾动作建立因果。",
+    "composition": "主观视角MS，观赛案几位于画面下半部，茶盏、果碟、时令葡萄排列整齐；一串葡萄在正中央略偏左，被阳光照得半透；背景是模糊移动的人影与衣摆，表现社交场上的流动性。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "在纷杂环境中给出一个短暂、生活化的柔软落点。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.2,
+    "order": 91
+  },
+  {
+    "id": "shot_0092",
+    "scene_id": "scene_005",
+    "shot_number": 6,
+    "goal": "展示蒋晟捕捉到她未出口的心思，体现他观察细、行动快。",
+    "composition": "蒋晟MCU，位于画面右侧，微低头看向案上葡萄，耳侧受光微红；前景左下是虚化的葡萄串，高令宁肩线虚化占据左侧边缘，暗示镜头仍围绕她的在场感；背景保留沙场与帐幔的暖冷对撞。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到一种不张扬的用心和略带拘谨的好意。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.12,
+    "order": 92
+  },
+  {
+    "id": "shot_0093",
+    "scene_id": "scene_005",
+    "shot_number": 7,
+    "goal": "用动作细节强化蒋晟作为‘良配候选’的可见价值：周到、稳妥、讲分寸。",
+    "composition": "手部CU，画面中央是蒋晟指节分明的手，低头剥开葡萄皮；果肉与薄皮在强日光下有微微湿润反光，背景完全虚化，只剩流动金白色高光和沙色底；手势克制，不显亲昵过界。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "用微小照料动作制造温和的亲密感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 93
+  },
+  {
+    "id": "shot_0094",
+    "scene_id": "scene_005",
+    "shot_number": 8,
+    "goal": "完成递葡萄动作，并保持礼法分寸，展现两人关系尚在试探与观望阶段。",
+    "composition": "双手MS，画面左侧是高令宁垂落袖口与半抬未抬的手，右侧是蒋晟递来已剥好的葡萄，距离她指尖仅半寸；中间留出一小块空气作为克制的礼法间隔；背景下方为案几边缘，上方为虚焦人群。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到暧昧未明、克制而得体的温度。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.05,
+    "order": 94
+  },
+  {
+    "id": "shot_0095",
+    "scene_id": "scene_005",
+    "shot_number": 9,
+    "goal": "给出高令宁接受照顾后的微反应，同时让她的注意力开始从身边人转向场内。",
+    "composition": "高令宁MCU正侧四分之三角度，位于画面中央偏左；她接过葡萄，目光却未完全落在手上，而是越过镜头右侧看向赛场深处；蒋晟只以肩背虚焦留在右前景，仍形成保护性遮挡。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "从轻微松弛过渡到若有所思，情绪开始收紧。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 95
+  },
+  {
+    "id": "shot_0096",
+    "scene_id": "scene_005",
+    "shot_number": 10,
+    "goal": "交代她所看到的热闹场面，并通过主观视角把外部繁盛与内心抽离形成对照。",
+    "composition": "高令宁主观WS，马球场上奔马横向穿过，观赛席上衣香鬓影、笑谈举杯；画面右侧有侯爵娘子与一众女眷在席间的模糊轮廓，但不作为明确信息点，只作为社交阶层氛围；尘土与日光让远处略发白，视觉上热闹却不亲近。",
+    "camera_movement": "pan",
+    "framing": "WS",
+    "emotion_target": "让观众感到场面繁华，但她的情绪正从参与感滑向隔膜。",
+    "duration_hint": "3s",
+    "characters": [
+      "侯爵娘子"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 96
+  },
+  {
+    "id": "shot_0097",
+    "scene_id": "scene_005",
+    "shot_number": 11,
+    "goal": "捕捉高令宁情绪凝滞的临界点：热闹之外，她突然被某个念头或联想钉住。",
+    "composition": "高令宁CU，镜头更近，脸位于画面中央偏右，左侧留出大片被日光冲白的留白；她唇线微收，眼神停住，呼吸似有一瞬顿挫；背景人群声音仍在，但视觉上彻底虚化，仅剩移动色块。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众明确感到她的内心忽然沉下去，气氛轻微变冷。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 97
+  },
+  {
+    "id": "shot_0098",
+    "scene_id": "scene_005",
+    "shot_number": 12,
+    "goal": "用蒋晟的反应补足关系信息：他察觉她情绪变化，却不越界追问，体现稳重与分寸。",
+    "composition": "蒋晟MCU，位于画面右侧，视线落向高令宁；左侧前景是她虚焦的肩颈线条和一缕被风吹动的发丝；他的姿态略前倾又克制停住，像准备再挡一次风，却先观察她神色。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "增强观众对蒋晟可靠性的认知，同时感到两人之间尚有未说破的距离。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 98
+  },
+  {
+    "id": "shot_0099",
+    "scene_id": "scene_005",
+    "shot_number": 13,
+    "goal": "以一个克制的双人收束镜头完成场景功能：表面是得体相伴，底层则埋下后续对照与嫉妒的情感伏笔。",
+    "composition": "侧逆光MLS，二人并立于画面左半部，高令宁在内侧，蒋晟在外侧，位置关系稳定；前景为席案与葡萄盘，后景是被阳光与沙尘模糊掉的赛场和女眷席位；风再起时蒋晟微侧身替她挡住，二人未对视，高令宁仍望向远处。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "留下‘可被选择的安稳’与‘她并未真正松开防备’的双重余味。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "侯爵娘子"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.1,
+    "order": 99
+  }
+]

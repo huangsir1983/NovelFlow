@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_008",
+  "name": "休息塌上",
+  "type": "interior",
+  "era_style": "明代郊外马球场休息塌",
+  "description": "马球休息区内专用软塌区，木框架软塌铺锦垫与靠枕，周围纱帘环绕，旁设矮几摆药碗，空间感私密舒适，位于凉亭深处，适合跪求与妥协场景。",
+  "visual_reference": "明代郊外马球休息塌上，古典中式软塌特写与周边，木框架软塌铺织锦垫与靠枕，纱帘半围，矮几上药碗与衣角细节，日光斑驳洒入，温馨却带哭求氛围，高清写实细节，古代中国风格",
+  "visual_prompt_negative": "现代家具、电灯、霓虹灯、西方装饰、塑料材质",
+  "atmosphere": "温馨哭求妥协",
+  "color_palette": [
+    "织锦红",
+    "米白",
+    "木棕",
+    "浅黄"
+  ],
+  "lighting": "柔和斑驳日光透过纱帘，营造亲密却情感复杂的白天氛围",
+  "key_features": [
+    "锦垫软塌",
+    "环绕纱帘",
+    "矮几药碗"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "陆哭拽衣角与沈词护抱的妥协情绪"
+}

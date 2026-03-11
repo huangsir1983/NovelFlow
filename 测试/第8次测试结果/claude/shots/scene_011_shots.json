@@ -1,0 +1,258 @@
+[
+  {
+    "id": "shot_0112",
+    "scene_id": "scene_011",
+    "shot_number": 1,
+    "goal": "建立环境，展示平静水面与即将发生的危机形成对比",
+    "composition": "水面占据画面下2/3，杨柳枝条从画面右上角垂入形成自然框架，阳光在水面形成碎金般光斑",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "虚假的宁静感，为突发事件做铺垫",
+    "duration_hint": "1.5-2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.1,
+    "order": 112
+  },
+  {
+    "id": "shot_0113",
+    "scene_id": "scene_011",
+    "shot_number": 2,
+    "goal": "突然打破宁静，陆姝仪落水的瞬间冲击",
+    "composition": "水花从画面中心爆发，占据大部分画面，背景虚化的岸边杨柳",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "惊愕、紧张",
+    "duration_hint": "1s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 113
+  },
+  {
+    "id": "shot_0114",
+    "scene_id": "scene_011",
+    "shot_number": 3,
+    "goal": "展示陆姝仪在水中挣扎的危急状态",
+    "composition": "水下视角，陆姝仪的身体在画面中央挣扎，阳光从水面透射形成光束，气泡上浮",
+    "camera_movement": "handheld",
+    "framing": "MLS",
+    "emotion_target": "窒息感、绝望",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 114
+  },
+  {
+    "id": "shot_0115",
+    "scene_id": "scene_011",
+    "shot_number": 4,
+    "goal": "沈词发现险情的反应镜头",
+    "composition": "沈词位于画面右侧，视线投向画面左侧水面方向，背景是岸边杨柳，三分法构图",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "警觉、决断",
+    "duration_hint": "1s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 115
+  },
+  {
+    "id": "shot_0116",
+    "scene_id": "scene_011",
+    "shot_number": 5,
+    "goal": "沈词纵身跃入水中的英雄式救援动作",
+    "composition": "侧面视角，沈词从岸边跃起的弧线轨迹，身体呈流线型，背景是天空与水面的分界线",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "果敢、力量感",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.6,
+    "order": 116
+  },
+  {
+    "id": "shot_0117",
+    "scene_id": "scene_011",
+    "shot_number": 6,
+    "goal": "水下救援，沈词托起陆姝仪",
+    "composition": "水下视角，沈词从画面下方游入，双手托住陆姝仪腰部，两人身体形成对角线构图，光束从上方照射",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "紧迫中的温柔、英雄救美",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.7,
+    "order": 117
+  },
+  {
+    "id": "shot_0118",
+    "scene_id": "scene_011",
+    "shot_number": 7,
+    "goal": "两人破水而出的瞬间",
+    "composition": "低角度仰拍，水花四溅，沈词托着陆姝仪从水面冲出，逆光形成剪影效果",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "解脱、重生感",
+    "duration_hint": "1.5s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 118
+  },
+  {
+    "id": "shot_0119",
+    "scene_id": "scene_011",
+    "shot_number": 8,
+    "goal": "上岸后陆姝仪虚弱状态的特写",
+    "composition": "陆姝仪脸部占据画面中心，湿发贴在脸颊，嘴唇发紫，眼神涣散，背景虚化",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "怜惜、脆弱美",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 119
+  },
+  {
+    "id": "shot_0120",
+    "scene_id": "scene_011",
+    "shot_number": 9,
+    "goal": "沈词脱下外袍的动作细节",
+    "composition": "中景，沈词双手解开腰带，外袍从肩头滑落的动作，画面右侧是虚化的陆姝仪背影",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "体贴、绅士风度",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 120
+  },
+  {
+    "id": "shot_0121",
+    "scene_id": "scene_011",
+    "shot_number": 10,
+    "goal": "沈词为陆姝仪披上外袍的温柔动作",
+    "composition": "过肩镜头（从陆姝仪肩后拍摄），沈词的手将外袍轻柔地披在她肩上，手指短暂停留在肩头，前景是陆姝仪湿透的发丝",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "温柔、暧昧的亲密感",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 121
+  },
+  {
+    "id": "shot_0122",
+    "scene_id": "scene_011",
+    "shot_number": 11,
+    "goal": "沈词整理外袍衣襟的细致动作特写",
+    "composition": "极特写，沈词修长手指拉拢外袍衣襟的动作，指尖与布料的质感，背景虚化成色块",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "细腻、克制的情感流露",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 122
+  },
+  {
+    "id": "shot_0123",
+    "scene_id": "scene_011",
+    "shot_number": 12,
+    "goal": "陆姝仪仰视沈词的感激眼神",
+    "composition": "低角度，陆姝仪泪眼朦胧地仰望，画面上方是沈词虚化的下颌线轮廓，光线从侧面打亮她的半边脸",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "感激、依恋、楚楚可怜",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 123
+  },
+  {
+    "id": "shot_0124",
+    "scene_id": "scene_011",
+    "shot_number": 13,
+    "goal": "沈词的反应镜头，展示他的温柔表情",
+    "composition": "正面中特写，沈词眉眼柔和，嘴角微微上扬，眼神专注温柔，与平时的冷漠形成对比",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "反差感、情感冲突的种子",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 124
+  },
+  {
+    "id": "shot_0125",
+    "scene_id": "scene_011",
+    "shot_number": 14,
+    "goal": "双人构图，建立两人间的情感联系",
+    "composition": "中景双人镜头，沈词站立在画面左侧，陆姝仪坐在右侧岸边，两人之间留有适当距离但视线相连，背景是波光粼粼的水面",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "暧昧的情感张力、第三者危机感",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.7,
+    "order": 125
+  }
+]

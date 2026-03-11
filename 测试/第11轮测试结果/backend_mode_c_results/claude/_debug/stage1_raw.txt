@@ -1,0 +1,53 @@
+
+
+```json
+{
+  "characters": [
+    {
+      "name": "高令宁",
+      "aliases": ["令宁", "高姑娘", "高小姐", "高家长女", "沈夫人"],
+      "role": "protagonist",
+      "age_range": "16-19（今生主线），前世回忆跨至中老年",
+      "appearance": {
+        "face": "杏眼明亮，眉峰微挑，下颌线条利落，神情倔强中带几分清冷，生气时薄唇紧抿、目光如刀",
+        "body": "纤细但不柔弱，肩背挺直，体态端庄，孕期后略显消瘦",
+        "hair": "乌黑长发，日常以银簪半挽，余发垂肩，发质顺滑",
+        "distinguishing_features": "脖颈处一道极淡的旧疤痕（前世以瓷片自伤留下，今生重生后消失但她本人仍会下意识触碰该位置）"
+      },
+      "costume": {
+        "typical_outfit": "素色交领襦裙，外罩淡色褙子，腰系细绦，风格端庄简洁不尚奢华；出嫁时凤冠霞帔大红嫁衣；孕期居家着宽松月白或浅青衫裙",
+        "color_palette": ["月白", "浅青", "银灰"]
+      },
+      "casting_tags": ["古装女主", "重生复仇", "要强隐忍", "清冷美人", "情感克制"],
+      "visual_reference": "A young Chinese woman in ancient hanfu, around 17 years old, sharp almond eyes with a cold yet proud gaze, thin lips slightly pursed, black hair half-pinned with a silver hairpin, wearing a pale blue cross-collar ruqun with a light outer beizi, slender upright posture, standing in a traditional Chinese courtyard, cinematic lighting, highly detailed, 8k",
+      "visual_prompt_negative": "modern clothing, glasses, tattoo, heavy makeup, Western features, smile, bright colors, fantasy armor, wings",
+      "personality": "争强好胜、自尊心极强、外冷内热、嘴硬心软，重生后多了一层看透世事的疲倦与通透",
+      "desire": "再见儿子沈睿一面；不再重蹈前世覆辙，守住自我尊严与家人平安",
+      "flaw": "过度自尊导致无法示弱求助，情感表达匮乏，习惯用攻击代替沟通",
+      "arc": "从前世的执念怨恨 → 重生初期的报复心态 → 逐渐厌倦纠缠 → 真正放下与原谅 → 选择独立生活，不再为婚姻定义自我价值",
+      "scene_presence": "全程在场，第一人称叙述者，贯穿所有场景",
+      "relationships": [
+        {"target": "沈词", "type": "夫妻/前夫妻", "dynamic": "相看两厌却深层纠缠，互相伤害又无法彻底割舍，今生她主动放手他反而不肯", "function": "核心情感张力来源"},
+        {"target": "高父", "type": "父女", "dynamic": "父亲是她唯一的安全港湾，今生她反过来保护父亲", "function": "情感支撑与退路"},
+        {"target": "陆姝仪", "type": "情敌/对照", "dynamic": "前世嫉恨，今生从对抗到疲倦再到某种理解", "function": "三角关系中的催化剂"},
+        {"target": "沈睿", "type": "母子", "dynamic": "前世丧子之痛是她重嫁沈词的唯一动力", "function": "推动婚姻成立的核心动机"},
+        {"target": "沈昭昭", "type": "母女", "dynamic": "意外降生的女儿，寄托了她对新生活的希望", "function": "打破前世命运轨迹的象征"},
+        {"target": "蒋晟", "type": "备选姻缘/工具人", "dynamic": "父亲安排的门生，她对他无情感投入", "function": "刺激沈词嫉妒、推动情节的功能性角色"}
+      ]
+    },
+    {
+      "name": "沈词",
+      "aliases": ["阿词", "沈公子", "沈大人", "姑爷"],
+      "role": "protagonist",
+      "age_range": "18-22（今生主线），前世回忆跨至苍老",
+      "appearance": {
+        "face": "面如冠玉，眉目冷峻，琥珀色瞳孔，薄唇常抿成一线，下颌棱角分明，不笑时如冰湖般疏离",
+        "body": "长身玉立，肩宽腰窄，身形修长挺拔，文人体态但不文弱",
+        "hair": "墨黑长发束冠，鬓角整齐，发丝如缎",
+        "distinguishing_features": "指尖常有细细勒痕（捉雁所致），眼下泛青（常年操劳或失眠），情绪激动时额头青筋暴起"
+      },
+      "costume": {
+        "typical_outfit": "深色圆领官袍或素色直裰长衫，腰束玉带，足蹬皂靴，风格端方持重；提亲时着正式礼服",
+        "color_palette": ["墨青", "玄色", "冷白"]
+      },
+      "casting_tags": ["古装男主", "重生", "

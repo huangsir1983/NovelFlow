@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_021",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府内宅 - DAWN",
+    "location": "沈府内宅",
+    "time_of_day": "dawn",
+    "description": "封闭的深宅院落与厅房相连，清晨天色未明，冷色天光从窗纸外透进来，内宅灯火未熄。账册、钥匙、名册与杂务器物堆满桌案，显示繁重家务运转。高令宁衣着整肃，发髻一丝不乱，却显疲惫。下人往来，形成高压运转的府务气氛。",
+    "action": "高令宁天不亮便起身，披衣坐到案前，翻账册、点钥匙、召人问事，抬手示意下人进退，凡事逐条过问。她久坐后按压额角，起身时动作发虚，又强撑着继续巡视内宅。她在忙碌间下意识扶住小腹，短暂停顿后又立刻放手，继续处理事务，显示她以透支身体维持掌控。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "账册",
+      "钥匙",
+      "名册",
+      "灯盏"
+    ],
+    "dramatic_purpose": "展示高令宁接手管家权后的强势与要强，也埋下因过度操劳而伤及孩子的悲剧因果，推动夫妻关系进一步失衡。",
+    "tension_score": 0.55,
+    "dramatic_intensity": 0.1,
+    "order": 21
+  }
+}

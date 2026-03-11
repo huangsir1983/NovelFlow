@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "FLASHBACK. 沈家病榻 - NIGHT",
+  "location": "沈家病房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "前世我重病将死时，日夜守在床前的人只有沈词，他在月光下照料我，暴露出迟到而压抑的感情。",
+  "key_dialogue": "无声守候胜过任何辩白。",
+  "emotional_peak": "我在梦醒时紧抱他的胳膊，他却只黯然比量我消瘦的脸。",
+  "tension_score": 0.63,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "病榻",
+    "药碗",
+    "月光窗棂"
+  ],
+  "dramatic_purpose": "在恨意之外补入复杂情感，为今生纠缠埋下余韵。",
+  "visual_reference": "深夜病房，月色冷白，病弱女子瘦削躺在榻上，男子衣不解带守在床边，手掌停在她脸侧，眼神克制而苍凉，室内极静",
+  "visual_prompt_negative": "避免煽情落泪特写过多，避免现代医疗器械，避免恐怖病态妆",
+  "source_text_start": "可是。我重病之时，还是只有他守在床前。",
+  "source_text_end": "他垂着眼，横着手掌，在月光下黯然地比量我日渐消瘦的脸。"
+}

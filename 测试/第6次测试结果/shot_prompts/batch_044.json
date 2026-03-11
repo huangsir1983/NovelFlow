@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0264",
+    "shot_id": "shot_0264",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated on the left; Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, standing slightly forward on the right. Jiang Sheng lowers his head and speaks toward the off-screen lower left, mouth mid-explanation, posture hesitant and belated; Gao Lingning sits still, emotionally withdrawn, gaze no longer engaged, calm but distant. In the far background, near the couch, blurred silhouettes remain visible as silent pressure. Interior of an aristocratic Song-dynasty chamber, old wood, screen partitions, muted gray-blue and dark brown palette with small amber lamp highlights, shallow depth of field, side backlight and frame-within-frame composition, medium shot, static camera, restrained dramatic tension, cinematic realism, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, gray-blue ambient fill with amber lamplight accents, soft side backlight, shallow depth of field"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass windows, modern furniture, text, watermark, logo, low quality, lowres, blurry face, deformed hands, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0265",
+    "shot_id": "shot_0265",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. She faces forward with a slight angle, slowly withdrawing her gaze from the right side of the frame into a neutral downward look, lips pressed into a thin line, her expression calm, decisive, and emotionally detached rather than wounded; the faint scar on her neck appears subtly under the sidelight. Aristocratic interior reduced to soft blur, a deliberate dark empty space on the right side of the frame like a severed line of sight, muted old-wood tones and cool gray-blue shadows with restrained amber spill, close-up, static camera, precise negative space, intimate psychological portrait, cinematic realism, highly detailed skin texture and fabric",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, psychological close-up, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side light revealing the neck scar, cool shadow mass on frame right, gentle amber background diffusion"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary makeup, modern hairstyle, text, watermark, logo, low quality, lowres, blurry, oversharpened, exaggerated expression, extra fingers, deformed anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0266",
+    "shot_id": "shot_0266",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura. She occupies the center of the frame, seated yet dominant, lips slightly moving as if quietly saying 'let us go home', eyes steady and calm, posture upright, expression controlled and final beneath formal courtesy. Background softly blurred into warm yellow amber tones, no foreground distraction, noble chamber atmosphere with old wood and screen shapes dissolved by shallow focus, camera placed slightly below eye level to preserve authority, close-up, static shot, restrained but cutting emotional force, cinematic realism, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama close-up, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft frontal fill with slight side light, warm amber blurred background, controlled indoor lamplight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, lowres, blurry, exaggerated crying, open-mouth shouting, modern interior design, electric lamps, plastic materials, oversaturated colors, deformed anatomy"
+  },
+  {
+    "id": "sp_0267",
+    "shot_id": "shot_0267",
+    "prompt_text": "Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears. He snaps his gaze upward from the right side, startled for an instant, then leans forward as if about to help someone stand, shoulders and back dominating the frame, movement and body direction consistently toward the left, urgency arriving too late in his face and posture. Behind him, a few small warm lamp bokeh flicker against a dim aristocratic interior, muted gray-blue shadows, amber highlights, medium close-up, static camera, compressed emotional reaction, cinematic realism, highly detailed fabric folds and restrained expression",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, reaction shot, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side light on face, dim gray-blue interior with small amber lamp bokeh"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, lowres, blurry, cartoon style, exaggerated action pose, modern haircut, contemporary costume, oversaturated colors, deformed hands"
+  },
+  {
+    "id": "sp_0268",
+    "shot_id": "shot_0268",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura; Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears. Side view of the two in a medium shot: Gao Lingning pushes herself up using the couch edge, keeping her injured foot off the floor, her body accepting support without emotional return; Jiang Sheng reaches from the right, one arm supporting her elbow and the other at her back, careful and urgent, trying to make up lost ground. In the foreground, a medicine bowl and bandaging cloth blur past on a low table; in the deep background, the couch area sinks into soft focus, creating layers of withdrawal from the previous emotional space. Ancient noble chamber with old wood, screen dividers, muted gray-blue, dark brown, and restrained amber candlelight, slight dolly feel implied in composition, cinematic realism, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side backlight, amber lamplight accents, layered depth with foreground blur and subdued background"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, lowres, blurry faces, modern medical tools, electric lights, plastic bowl, contemporary furniture, oversaturated colors, deformed limbs, extra arms"
+  },
+  {
+    "id": "sp_0269",
+    "shot_id": "shot_0269",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression; Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression. From beside the couch looking back toward the doorway in a medium shot: in the right foreground sit a medicine bowl and Shen Ci's half figure, his gaze briefly lifting toward the direction of departure; on the left, Lu Shuyi remains on the couch in sickly stillness, pale and unmoving. In the blurred background, Jiang Sheng supports Gao Lingning as they turn away to leave. Doorframe and screen edges divide the image into restrained segments, emphasizing being seen yet not stopped. Aristocratic interior with old wood, muted gray-blue shadows, dark brown furnishings, soft amber lamp glow, shallow depth of field keeping narrative focus centered on the departure, cinematic realism, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic, highly detailed",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft interior lamplight with amber accents, cool gray-blue ambient shadows, segmented composition through doorframe and screen"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, lowres, blurry, modern hospital props, electric lighting, plastic, contemporary decor, oversaturated colors, deformed anatomy, extra limbs"
+  }
+]

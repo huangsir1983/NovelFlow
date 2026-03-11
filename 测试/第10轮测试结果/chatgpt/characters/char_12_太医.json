@@ -1,0 +1,36 @@
+{
+  "name": "太医",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-65",
+  "appearance": {
+    "face": "年长医者，神情审慎",
+    "body": "清瘦",
+    "hair": "束冠夹杂花白",
+    "distinguishing_features": "沉稳医者气质"
+  },
+  "costume": {
+    "typical_outfit": "医官袍服",
+    "color_palette": [
+      "深蓝",
+      "灰白"
+    ]
+  },
+  "casting_tags": [
+    "宫廷医者"
+  ],
+  "visual_reference": "ancient chinese imperial physician, older scholarly doctor, cautious expression, traditional robe, realistic",
+  "personality": "严谨",
+  "desire": "如实诊断",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "诊出男胎、难产现场等功能性出场。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医患",
+      "dynamic": "负责诊脉与救治",
+      "function": "情节信息确认"
+    }
+  ]
+}

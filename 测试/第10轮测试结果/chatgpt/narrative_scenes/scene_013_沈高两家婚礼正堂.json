@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 婚堂 - DAY",
+  "location": "沈高两家婚礼正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "沈母",
+    "媒人"
+  ],
+  "core_event": "两人成婚，高令宁全程心不在焉，连夫妻对拜都险些失神，婚礼在压抑中完成。",
+  "key_dialogue": "无",
+  "emotional_peak": "热闹婚礼之下，两位新人都无喜色，形成强烈反差。",
+  "tension_score": 0.65,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "红盖头",
+    "喜烛",
+    "喜堂红绸",
+    "八抬大轿余饰",
+    "交拜蒲团",
+    "司仪唱礼册",
+    "金杯",
+    "喜糖果盘"
+  ],
+  "dramatic_purpose": "完成仪式性绑定，为洞房冲突蓄势。"
+}

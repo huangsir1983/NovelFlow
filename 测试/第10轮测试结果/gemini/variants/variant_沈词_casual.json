@@ -1,0 +1,31 @@
+{
+  "variant_id": "shenci_variant_03",
+  "variant_type": "casual",
+  "variant_name": "沈词 — 卑微疯批",
+  "tags": [
+    "疯批",
+    "偏执",
+    "卑微",
+    "追妻火葬场"
+  ],
+  "scene_ids": [
+    "scene_018",
+    "scene_019"
+  ],
+  "trigger": "三年后在江南寻得女主，面对女主的新生活与新夫婿彻底破防，深夜爬床打地铺，抛弃所有尊严死缠烂打。",
+  "appearance_delta": {
+    "face": "阴沉且病态，表情似哭似笑，眼神中透着绝望的贪婪",
+    "body": "姿态卑微到尘埃里，如同摇尾乞怜的丧家之犬，紧紧贴附着女主",
+    "hair": "未戴发冠，长发披散，显得落魄且疯狂",
+    "distinguishing_features": "抛弃所有高傲，眼神中只剩下病态的占有欲和恬不知耻的执拗"
+  },
+  "costume_override": {
+    "outfit": "单薄凌乱的内衫/单衣（深夜打地铺时），或沾染江南风雪的黯淡披风",
+    "color_palette": [
+      "素白",
+      "褪色的灰青"
+    ]
+  },
+  "visual_reference": "A handsome young ancient Chinese man in a humble and obsessive state, pale skin, crazy and greedy amber eyes, long messy loose hair, a bitter smile mixed with tears, wearing simple and slightly messy white inner robes, lying low on the floor hugging a quilt, obsessive and pathetic demeanor, dimly lit room with moonlight, 8k.",
+  "emotional_tone": "偏执、疯狂、卑微、病态的占有欲"
+}

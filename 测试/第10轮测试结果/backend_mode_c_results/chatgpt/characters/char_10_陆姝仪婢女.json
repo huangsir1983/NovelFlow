@@ -1,0 +1,36 @@
+{
+  "name": "陆姝仪婢女",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "14-20",
+  "appearance": {
+    "face": "年轻丫鬟，神色焦急",
+    "body": "纤细",
+    "hair": "双丫髻或简洁婢女发式",
+    "distinguishing_features": "常以跪地禀报姿态出现"
+  },
+  "costume": {
+    "typical_outfit": "浅色婢女服",
+    "color_palette": [
+      "浅绿",
+      "米白"
+    ]
+  },
+  "casting_tags": [
+    "贴身丫鬟"
+  ],
+  "visual_reference": "ancient chinese maid, anxious expression, simple pastel servant clothes",
+  "personality": "顺从、慌张",
+  "desire": "照顾主子，求主子无事",
+  "flaw": "容易被主子情绪裹挟",
+  "arc": "无",
+  "scene_presence": "新婚夜跪门外请沈词去看陆姝仪",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "高度依附",
+      "function": "触发新婚夜插曲"
+    }
+  ]
+}

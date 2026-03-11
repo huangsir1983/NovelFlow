@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_004",
+  "name": "马球会场",
+  "type": "exterior",
+  "era_style": "明代郊外马球场",
+  "description": "开阔的马球场地，沙地为主，旁有柳池水面，远处可见葡萄架和风筝飘飞，场边有观众席或遮阳棚，马场围栏，沙尘飞扬，适合贵族娱乐活动。",
+  "visual_reference": "明代马球会场广阔场景，沙尘飞扬的马场，旁有柳池清澈水面，葡萄盘摆放，空中风筝飞舞，马球杆散落，贵族服饰人物，春日明亮阳光，动态古风氛围",
+  "visual_prompt_negative": "现代体育场、汽车、塑料物品",
+  "atmosphere": "热闹、嫉妒、沙尘",
+  "color_palette": [
+    "沙黄",
+    "柳绿",
+    "天蓝",
+    "葡萄紫"
+  ],
+  "lighting": "明亮白天阳光，沙尘中略带朦胧",
+  "key_features": [
+    "柳池",
+    "马场沙尘",
+    "葡萄盘"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "亲近与目睹宠溺的嫉妒交织"
+}

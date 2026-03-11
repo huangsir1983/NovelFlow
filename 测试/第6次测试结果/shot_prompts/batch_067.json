@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0408",
+    "shot_id": "shot_0386",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen only as a restrained subjective presence from inside the bedchamber, watching the closed door in silence with wary clarity and suffocating calm. Half-open gauze curtain and bed canopy edge blur across the foreground, a shut wooden door sits in the midground, a thin line of cold light leaks under the door, faint moving guard shadows pass outside in the background. Ancient Chinese noble bedchamber, gray-cyan tones, aged wood brown, muted fabrics, side-backlight and doorway spill light, screened and veiled composition emphasizing confinement and protection at once. cinematic realism, low saturation warm-cool contrast, precise historical drama production design, shallow depth of field, subtle film grain, tense and restrained atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, cold slit light under the door, soft amber interior dimness, side-backlight through gauze, veiled and obstructed framing"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern furniture, plastic, glass windows, neon, contemporary clothing, modern hairstyle, text, watermark, logo, low quality, blurry face, deformed anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0409",
+    "shot_id": "shot_0387",
+    "prompt_text": "Stacks of ancient Chinese tonic gift boxes and medicinal tribute packages dominate the lower half of the frame, arranged in layered rows from the left foreground to the right background, pressing visually into the room; a steaming porcelain soup tureen sits in the upper right, untouched, implying repeated formal offerings. The scene is unpeopled, emphasizing ritual turned intrusion. A writing table and floor are crowded with lacquered boxes, folded gift wrappings, and herbal containers, with a plain noble bed corner and a screen in the background. Ancient aristocratic bedchamber interior, gray-cyan, dark charcoal, old wood brown, faint amber warmth from indoor lamplight but overall cool restraint, low saturation, orderly yet oppressive arrangement. cinematic realism, controlled pan-like composition, Song dynasty aesthetic, high detail on porcelain steam and layered boxes, subtle film grain, elegant but suffocating visual pressure",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical still-life realism",
+      "lighting": "low-saturation warm-cool contrast, soft amber lamplight on objects, restrained natural ambient light, gentle side light with muted shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern packaging, plastic wrap, metal thermos, printed labels, contemporary furniture, text, watermark, logo, low quality, cluttered digital artifacts, oversaturated colors"
+  },
+  {
+    "id": "sp_0410",
+    "shot_id": "shot_0388",
+    "prompt_text": "Two matching ancient Chinese porcelain soup tureens are placed side by side at the center of a table, symmetrical and deliberately paired; the left tureen releases denser medicinal steam, the right has the same lid pattern, suggesting a calculated double portion rather than tenderness. A corner of a gift list intrudes into the foreground, while blurred stacked boxes fill the background. The arrangement is balanced but emotionally cold, formal, and unsettling. Noble interior tabletop in muted gray-cyan and old wood brown, low saturation, soft cool ambient light mixed with a faint amber indoor glow, clean close-up with shallow depth of field, controlled symmetry, subtle steam texture. cinematic realism, highly detailed porcelain and paper texture, historical drama still-life, restrained obsession conveyed through composition, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical close-up realism",
+      "lighting": "low-saturation warm-cool contrast, soft side light on porcelain, faint amber indoor warmth, cool ambient fill, non-romantic symmetrical illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern bowls, stainless steel, plastic, printed text, watermark, logo, low quality, oversharpened, oversaturated, cartoon style"
+  },
+  {
+    "id": "sp_0411",
+    "shot_id": "shot_0389",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, half reclining against the bedhead on the right third of the frame, gazing diagonally down toward the table with fatigue, vigilance, and refusal rather than softness. The blurred rim of a soup tureen presses into the foreground, while plain bed curtains and pale side-backlight carve out her wan outline in the background; the faint scar on her neck catches the light subtly. Ancient Chinese noble bedchamber, restrained fabrics, gray-cyan shadows, old wood tones, low saturation, side-backlight and curtain diffusion emphasizing distance and guarded emotion. cinematic realism, intimate MCU portrait, shallow depth of field, precise historical costume texture, subtle film grain, emotionally cold and defensive atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical portrait realism",
+      "lighting": "low-saturation warm-cool contrast, pale side-backlight outlining the face and neck, soft dim amber interior fill, curtain-diffused shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern makeup, contact lenses, contemporary bedding, plastic, text, watermark, logo, low quality, distorted hands, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0412",
+    "shot_id": "shot_0390",
+    "prompt_text": "A delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, cinematic realism, sleeping quietly in swaddling or on a soft pillow in the lower left of the frame; above her in the upper right, a blurred hand of A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, hovers near the child without fully touching, forming a protective distance. The background holds only a trace of warm color, overall low saturation and hush. Ancient noble bedchamber interior, soft textiles, muted gray-cyan and pale blush, faint amber lamplight tempered by cool shadows, intimate close-up emphasizing fragility and boundary. cinematic realism, shallow depth of field, delicate skin and silk textures, subtle film grain, tender but restrained emotional tone",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical intimate realism",
+      "lighting": "low-saturation warm-cool contrast, very soft amber lamplight on the infant, cool shadowed background, gentle diffused indoor light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, baby bottle, stroller, modern blanket patterns, plastic toys, text, watermark, logo, low quality, deformed baby, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0413",
+    "shot_id": "shot_0391",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, appears only partially at the far left edge as a dark robe hem and accompanying shadow; before him, a household servant of a noble mansion carries stacked tonic gift boxes from left to right through the corridor, while a guard stands motionless by the door on the right. The gift arrives visually before the man, emphasizing ritual repetition and distance. Exterior covered corridor of an ancient Chinese mansion, old wood pillars, muted stone floor, gray-cyan daylight, dark charcoal and old brown architecture, low saturation, controlled movement feeling, doorway barrier clear in frame. cinematic realism, historical drama mise-en-scene, restrained tension, subtle film grain, layered blocking showing repeated stalemate and exclusion",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, cool natural corridor daylight, soft shadow under eaves, slight reflected warmth from wood surfaces, clear barrier lighting near the doorway"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern corridor, electric lamps, plastic boxes, suitcases, sneakers, text, watermark, logo, low quality, motion blur artifacts, oversaturated colors"
+  }
+]

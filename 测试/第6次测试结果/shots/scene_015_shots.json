@@ -1,0 +1,282 @@
+[
+  {
+    "id": "shot_0218",
+    "scene_id": "scene_015",
+    "shot_number": 1,
+    "goal": "建立病榻前的封闭夜室环境，交代冷暖交杂的光线、久病气息与病榻作为视觉中心，为后续亲密动作奠定压抑基调。",
+    "composition": "WS，机位略高，病榻置于画面右中偏后，窗棂月光自左后方斜切入室，在地面与床沿形成冷色斜线；床边残烛在右前形成暖色光点。前景左下虚焦压入药碗与湿帕，床下散落换下衣物。沈词坐守床前位于画面右下，背略弓，成为病榻的附属轮廓；高令宁卧于床上，仅见苍白侧脸与被褥起伏。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "营造静默、窒息、久守不去的夜病氛围，让观众先感到冷清与疲惫。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 218
+  },
+  {
+    "id": "shot_0219",
+    "scene_id": "scene_015",
+    "shot_number": 2,
+    "goal": "从高令宁限制性主观出发，确认守在床前的人是沈词，并突出他长时间陪护后的疲惫失序。",
+    "composition": "MS，女主卧床视角低位仰看，沈词位于画面中央偏左，俯身近床沿，衣衫未解、发髻微乱，眼下阴影明显。前景右侧以虚焦被褥边缘遮挡，形成病中视野受限感；背景是暗木床柱与一段冷月光，烛火从侧下方勾出他下颌与手背轮廓。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "唤起观众对“他一直没走”的迟疑认知，先有意外，再生出压下去的酸涩。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 219
+  },
+  {
+    "id": "shot_0220",
+    "scene_id": "scene_015",
+    "shot_number": 3,
+    "goal": "通过照料细节传达沈词的克制与熟练，说明他已陪护许久，不是偶然停留。",
+    "composition": "CU，画面下半部是高令宁胸前被褥，沈词双手自左侧入画，轻轻掖好被角；右下角可见湿帕和药碗边缘，左上方一缕月光压在他手指关节上。人物脸部不入画，只保留动作与布料褶皱。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众从手部动作中感受到隐忍照料，比言语更沉的关切。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 220
+  },
+  {
+    "id": "shot_0221",
+    "scene_id": "scene_015",
+    "shot_number": 4,
+    "goal": "继续用动作补足陪护过程，推进照料的连贯性与时间感。",
+    "composition": "CU，床边案几位于画面左前，药碗半满；沈词的手从右侧取起湿帕，拧水后折好，再向镜头前方女主方向递进。背景虚焦里残烛轻晃，暖光与窗外冷蓝在帕子边缘交叠。",
+    "camera_movement": "pan",
+    "framing": "CU",
+    "emotion_target": "增强细节真实感，让观众感到这份照料已重复过无数次，生出低回的心疼。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 221
+  },
+  {
+    "id": "shot_0222",
+    "scene_id": "scene_015",
+    "shot_number": 5,
+    "goal": "以病中触感建立两人身体距离，展示沈词探额温的谨慎和压抑情绪。",
+    "composition": "MCU，女主主观近距仰角，沈词俯身占据画面上半部，手背自画面右侧缓慢靠近镜头并轻触额头。前景边缘有虚焦发丝和被褥，背景只留模糊窗棂，月光从他侧脸擦过，眼神向下却不与镜头正对。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "制造轻微亲密与紧张并存的情绪，让观众感觉这触碰既温柔又克制得近乎疼。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 222
+  },
+  {
+    "id": "shot_0223",
+    "scene_id": "scene_015",
+    "shot_number": 6,
+    "goal": "切回高令宁，展现她病中昏沉与梦中惊动前的脆弱状态，为惊醒做预备。",
+    "composition": "CU，高令宁侧卧于画面右侧，脸占画面三分之一，肤色冷白，唇微干，睫毛轻颤；左侧大面积留黑，只有月光在鼻梁与颈侧淡痕处拉出细线。背景深处烛光暖斑虚化，与她脸上的冷光形成对撞。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众第一次真正贴近她的虚弱与防备松脱状态，生出不安与怜惜。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 223
+  },
+  {
+    "id": "shot_0224",
+    "scene_id": "scene_015",
+    "shot_number": 7,
+    "goal": "呈现高令宁从梦中骤然惊醒的瞬间，形成场内第一个明显波峰。",
+    "composition": "MCU，仍保持女主近距离主观逻辑但改为侧前机位，高令宁猛然睁眼并抬肩，头从画面右侧向中央冲出，被褥在下方被带起褶皱；背景烛火轻晃，月光切在她眼角泪意上，形成突兀高光。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "带出惊醒的失控和噩梦余悸，让观众产生瞬时惊惧与心口一紧。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 224
+  },
+  {
+    "id": "shot_0225",
+    "scene_id": "scene_015",
+    "shot_number": 8,
+    "goal": "用本能动作而非对白揭示她在脆弱时仍下意识抓住沈词，暴露未断的情感联结。",
+    "composition": "CU，画面中心是高令宁苍白的双手死死抱住沈词前臂，指节因用力发白；沈词深色衣袖从左向右延伸，构成稳定水平线。下方被褥凌乱，上方一滴泪落在他袖口附近。背景全虚，突出抓握关系。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众直接感到情感真相在本能里泄露，酸楚骤升。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 225
+  },
+  {
+    "id": "shot_0226",
+    "scene_id": "scene_015",
+    "shot_number": 9,
+    "goal": "切看沈词的反应，不让场面落入机械正反打，而是捕捉他被抓住后压住的情绪震动。",
+    "composition": "CU，沈词面部位于画面左中，视线下垂看向被抱住的手臂，眼尾微红却未抬眼。右前景虚焦是高令宁的发顶与手臂，形成遮挡。月光从后侧勾出面部轮廓，烛火从下侧给唇线一点暖色，冷暖在他脸上分裂。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众看到他不是无动于衷，而是把震动强行压回沉默里，生出钝痛。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 226
+  },
+  {
+    "id": "shot_0227",
+    "scene_id": "scene_015",
+    "shot_number": 10,
+    "goal": "回到高令宁的感知层面，呈现她泪光中的茫然与依恋并存，不用解释便让情绪成立。",
+    "composition": "CU，镜头贴近高令宁正侧脸，眼睛位于画面上三分之一，泪光浮而未落，呼吸急促后渐缓。画面左侧边缘压入沈词衣袖的暗色块，暗示她仍抓着他。背景只剩模糊帐影和一枚暖色烛斑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "强化病中失防后的脆弱与依赖，让观众感到她自己或许也来不及分辨这份本能。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 227
+  },
+  {
+    "id": "shot_0228",
+    "scene_id": "scene_015",
+    "shot_number": 11,
+    "goal": "将情绪由惊醒波峰过渡到沉默凝视，铺垫沈词之后极轻的抚量动作。",
+    "composition": "MS，两人同框，病榻横贯画面下部，高令宁半撑起身靠在画面右侧，双手仍抱住沈词手臂；沈词坐于左侧床沿，身体前倾却没有挣脱。窗棂月光在两人之间形成一道冷色空隙，像未说出口的隔阂；烛火在后景右侧微弱跳动。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众同时看见两人的距离与连接，感到怨与情并存、谁都没有越过去。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 228
+  },
+  {
+    "id": "shot_0229",
+    "scene_id": "scene_015",
+    "shot_number": 12,
+    "goal": "突出沈词“垂眼不语”的决定性沉默，将情绪由外部动作收进内心疼痛。",
+    "composition": "MCU，沈词上身占据画面左侧三分之二，头微低，视线落在高令宁脸上但不直视她的眼；前景右下虚焦是她抓着他的手。背景是床帐暗面与一线月光，整体压低亮度，强调沉默重量。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众听见沉默本身的声音，感到疲惫、心痛与无法言说的歉意被一起压住。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 229
+  },
+  {
+    "id": "shot_0230",
+    "scene_id": "scene_015",
+    "shot_number": 13,
+    "goal": "呈现本场最关键的情感动作：沈词缓缓横起手掌，在月光下比量她消瘦的脸，具象化他的心疼与不敢触碰。",
+    "composition": "CU，画面右侧是高令宁苍白侧脸，左侧是沈词抬起的手掌，掌缘与她面颊之间留一指宽空隙，没有真正碰上。月光正好落在手掌与脸之间的缝隙里，形成一条冷亮边线；背景完全压暗，只留轮廓。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "制造几乎停滞的柔痛感，让观众清楚感知到爱意仍在，却被旧怨和克制阻隔。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 230
+  },
+  {
+    "id": "shot_0231",
+    "scene_id": "scene_015",
+    "shot_number": 14,
+    "goal": "落到高令宁对这一动作的感受，维持限制性主观，让观众停留在她被这样注视和比量的一瞬。",
+    "composition": "ECU，高令宁眼部与半边脸占满画面，前景左侧虚化是沈词停在近处的手掌边缘，像一层未落下的抚摸。她瞳中反射一线月光与模糊手影，泪意更明显，但表情未崩。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "把情绪推到最私密处，让观众感到她也意识到这份沉默的疼，却无力开口。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 231
+  },
+  {
+    "id": "shot_0232",
+    "scene_id": "scene_015",
+    "shot_number": 15,
+    "goal": "以双人静止构图收束本场，保留未说破的情感联结，作为后续死亡与哀悼的反差伏笔。",
+    "composition": "MLS，机位退至床侧斜前方，两人同框：高令宁靠在病榻右侧，仍攥着沈词手臂；沈词坐在左侧床沿，另一只手悬在她脸旁后缓缓停住。前景床边药碗与湿帕重新入画，背景窗棂月光与残烛继续冷暖对撞，空间不变，人心已变。画面整体留出上方暗部留白，压住结尾。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众在静止里吞下余味：他们没有和解，但情未死，因而更痛。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.62,
+    "order": 232
+  }
+]

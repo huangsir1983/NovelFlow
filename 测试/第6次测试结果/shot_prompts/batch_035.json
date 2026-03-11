@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0210",
+    "shot_id": "shot_0196",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, seen from Gao Lingning's side of the 180-degree line; his hand in the center of the frame grabs a silk sleeping robe with swift, almost brutal force, beginning to throw it toward a brazier on the right, his movement sharp and rejecting. In the deep background stands A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, leaning forward slightly from the shadows but not yet moving, a passive witness. Foreground lower left shows the edge of a wooden table with disordered dishes and food, the brazier on the right gaping open, ready to consume. Low-saturation warm-cool contrast, gray-blue and old wood brown interior, amber firelight against cold shadow, side-back lighting and deep shadow separation, tense historical chamber, medium shot, cinematic realism, emotionally suspended destruction, fine fabric texture, highly detailed film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, amber brazier light cutting through gray-blue shadow, side-back lighting, deep interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, plastic, contemporary furniture, modern clothing, modern hairstyle, glass windows, neon, cityscape, text, subtitle, watermark, logo, low quality, blurry, oversaturated, deformed hands, bad anatomy"
+  },
+  {
+    "id": "sp_0211",
+    "shot_id": "shot_0197",
+    "prompt_text": "An embroidered silk sleeping robe and delicate cloth shoes falling from above into a bronze brazier, captured at the instant the fire curls up and bites into the fine embroidery; sparks burst in the foreground, the fabric pattern being swallowed by flame, the action irreversible and violent. The brazier fills the lower half of the frame, the garments descend from above as if seen from a woman's eye level standing too close to stop it. Background completely black, isolating the destruction and the burning textures of silk, thread, and flame. Low-saturation warm-cool palette with concentrated amber fire, high contrast against darkness, intimate close-up, cinematic realism, tactile textile detail, emotional humiliation made physical, highly detailed film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, macro historical realism",
+      "lighting": "intense amber firelight against pure black background, high contrast, localized glow, low-saturation surrounding tones"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, synthetic fabrics, zippers, modern shoes, plastic, text, watermark, logo, low quality, blurry, CGI look, oversaturated flames, bad composition"
+  },
+  {
+    "id": "sp_0212",
+    "shot_id": "shot_0198",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, stepping half a pace out of the shadows at the center-left of the frame; her body carries obvious forward momentum, but her feet stop hard before crossing the line of firelight on the floor, her expression tight with pain and restraint, dignity forcing her still. In the right foreground, firelight flickers in soft blur; in the left rear background, the table has already been disturbed and thrown into disorder. The chamber is dim, divided by a band of amber light and cold darkness, making her halted body feel split in two. Medium shot, subtle dolly-in feeling, low-saturation warm-cool contrast, gray-blue shadows, old wood brown interior, amber brazier light, realistic historical drama texture, cinematic emotional tension, highly detailed film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "amber firelight forming a boundary line on the floor, cold gray-blue shadow around the figure, side lighting with soft falloff"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern interior decor, text, watermark, logo, low quality, blurry, oversaturated, bad anatomy, extra limbs"
+  },
+  {
+    "id": "sp_0213",
+    "shot_id": "shot_0199",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, shown in a close-up of her hand hidden inside her sleeve; her fingers twist the soft fabric so tightly that the cloth wrinkles deeply and her knuckles turn white, all emotion compressed into this painful gesture of self-control. The hand sits slightly below center frame, with occasional warm firelight flashing across the foreground and colliding with the cold pale skin on the back of her hand. Background is reduced to a blurred skirt hem and dark wooden floor, no other visual distractions. Low-saturation warm-cool contrast, intimate close-up, highly tactile silk texture, restrained historical realism, cinematic emotional pressure, highly detailed film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, macro historical realism",
+      "lighting": "brief amber fire flicker against cool pale skin, dim shadowed background, soft directional side light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, nail polish, modern manicure, rings of modern design, text, watermark, logo, low quality, blurry, bad hands, extra fingers, deformed anatomy"
+  },
+  {
+    "id": "sp_0214",
+    "shot_id": "shot_0200",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, framed on the right side facing left in a medium close-up; his gaze presses directly toward Gao Lingning offscreen, his lips curved in a faint cold sneer as he delivers a cutting accusation, his expression harsher than the violence before it. A brazier occupies the lower foreground in soft blur, unstable firelight slicing one half of his face while the other half sinks into cold shadow, emphasizing judgment and emotional rupture. Background stripped of unnecessary objects to focus entirely on his interrogating posture. Low-saturation warm-cool contrast, gray-blue darkness against amber flame, side-lit face with sharp shadow division, historical chamber atmosphere, cinematic realism, emotionally cruel stillness, highly detailed film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama portraiture",
+      "lighting": "unstable amber firelight cutting across one side of the face, the other side in cold gray shadow, strong contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern haircut, modern makeup, text, subtitle, watermark, logo, low quality, blurry, oversaturated, bad anatomy"
+  },
+  {
+    "id": "sp_0215",
+    "shot_id": "shot_0201",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, shown in a close-up from the front with a slight angle, positioned on the left side of the frame and looking toward Shen Ci offscreen right; firelight rises from below and from the side, washing her face pale, her lips pressed into a razor-thin line, no tears falling, only the smallest tremor at the outer corner of her eye, as if the accusation has drained all warmth from her. Behind her, the background is nearly black except for one narrow vertical line of a doorframe, pinning her in place like ritual, marriage, and propriety made visible. Low-saturation warm-cool contrast, cold white skin against amber fire, severe negative space, intimate historical drama realism, cinematic emotional injury, highly detailed film still.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama close-up",
+      "lighting": "amber firelight from below and the side against a black background, cold overall tone with sharp facial highlights, strong contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern cosmetics, contact lenses, text, watermark, logo, low quality, blurry, oversaturated, bad anatomy, distorted face"
+  }
+]

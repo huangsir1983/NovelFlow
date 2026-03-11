@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "id": "scene_045",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:13:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "沈词",
+      "高父",
+      "沈府小厮"
+    ],
+    "related_beats": [
+      "beat_022"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家前厅/院门处 - 日",
+    "location": "高家前厅与通往后院的门口",
+    "time_of_day": "day",
+    "description": "前厅与院门相连，空间半开敞，门外天光明亮，门内气压低沉。地面中央摆着一纸和离书，形成视觉焦点。沈词跪在高父面前，衣衫明显消瘦空荡，神色憔悴，声音沙哑。沈府小厮在侧试图维持秩序。由前厅通往后院的雕花木门是下一步行动的物理阻隔。",
+    "action": "沈词笔直跪地，抬头争辩，试图以子嗣和婚姻责任说服高父。高父将和离书置于他面前，冷静驳回，并直接提及已备好赘婿人选。沈词身体猛地一僵，慢慢站起，弯腰发出短促冷笑，随后突然甩开阻拦，不顾沈府小厮阻止，强行朝后院闯去。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "爹，令宁不会与我和离的。",
+        "subtext": "我仍想抓住这段关系，不接受她主动离开。"
+      },
+      {
+        "character": "沈词",
+        "line": "至于陆姝仪，她已经嫁给蒋晟为妇，我也告诫了她，婚后不得再回沈府。",
+        "subtext": "我已经切断外部祸源，你们该给我机会。"
+      },
+      {
+        "character": "沈词",
+        "line": "爹，我与令宁已有子嗣，应共同抚育她长大……孩子怎能没有爹爹？",
+        "subtext": "我借孩子为理由，实则不愿失去令宁。"
+      },
+      {
+        "character": "高父",
+        "line": "不必，我的女儿不愁没人要，我已经备好了赘婿人选，昭昭同样不会缺爹爹疼爱。",
+        "subtext": "你的位置随时可被替代，你已出局。"
+      }
+    ],
+    "characters_present": [
+      "沈词",
+      "高父",
+      "沈府小厮"
+    ],
+    "key_props": [
+      "和离书",
+      "雕花木门"
+    ],
+    "dramatic_purpose": "将沈词从克制逼到失控，完成由家族层面对峙向夫妻正面交锋的推进。",
+    "tension_score": 0.81,
+    "dramatic_intensity": 0.62,
+    "order": 45
+  }
+}

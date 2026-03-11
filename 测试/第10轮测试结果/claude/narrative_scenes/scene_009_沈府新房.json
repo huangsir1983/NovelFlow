@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 沈府婚房 - 夜",
+  "location": "沈府新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "新婚之夜，高令宁心不在焉，沈词云雨",
+  "key_dialogue": "再快点吧，我困了",
+  "emotional_peak": "高令宁的冷淡和沈词的不甘",
+  "tension_score": 0.7,
+  "estimated_duration_s": 600,
+  "key_props": [
+    "红盖头",
+    "喜床",
+    "红烛",
+    "喜字",
+    "丝带",
+    "水盆"
+  ],
+  "dramatic_purpose": "展现婚姻的冷漠本质"
+}

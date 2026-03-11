@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "EXT. 侯爵娘子马球会场地 - 日",
+  "location": "马球会场地",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "马球会上高令宁脚崴，蒋晟扶持，沈词目睹",
+  "key_dialogue": "蒋公子，我脚好像崴了",
+  "emotional_peak": "沈词看到高令宁与蒋晟亲昵的嫉妒",
+  "tension_score": 0.7,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "马球",
+    "柳树",
+    "风筝",
+    "葡萄",
+    "场地围栏",
+    "观众席"
+  ],
+  "dramatic_purpose": "展现三角关系，沈词陆姝仪的亲密刺激高令宁"
+}

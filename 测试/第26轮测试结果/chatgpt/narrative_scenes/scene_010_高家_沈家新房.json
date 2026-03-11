@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高家与沈家婚礼/洞房 - day/night",
+  "location": "高家、沈家新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "陆姝仪的婢女"
+  ],
+  "core_event": "在压力下婚事终定，父亲叮嘱受委屈便回家；我心不在焉地完成婚礼，洞房中与沈词冷嘲热讽地完成夫妻之事，陆姝仪照前世旧例醉酒心痛来搅局，我反而主动放人离开。",
+  "key_dialogue": "你去吧，也不必回来了。",
+  "emotional_peak": "新婚之夜不是缱绻，而是带着旧恨的履约。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 220,
+  "key_props": [
+    "如山聘礼",
+    "盖头",
+    "丝带",
+    "洞房门外传话"
+  ],
+  "dramatic_purpose": "完成婚姻绑定，同时显现两人对身体亲密与情感疏离的扭曲状态。",
+  "visual_reference": "红烛洞房里新妇神情冷淡，郎君带着讥诮逼近，门外婢女跪地传话，暧昧与冷意并存。",
+  "visual_prompt_negative": "不要露骨色情，不要现代婚纱，不要低俗镜头，不要粉色泡泡恋爱风",
+  "source_text_start": "8.\n媒人第三次上门提亲。\n种种压力下，父",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

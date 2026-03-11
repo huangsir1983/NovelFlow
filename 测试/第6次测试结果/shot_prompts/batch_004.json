@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0000",
+    "shot_id": "shot_0028",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, moving from the right side of the frame toward the left in a controlled pacing arc; A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, standing still in the left rear background, silent and upright, not fully blocked by him, tense confrontation escalating; interior of an ancient noblewoman's chamber, a chair back cutting diagonally into the foreground as a visual barrier, dressing table and old wooden furnishings, layered spatial control, window light and amber candlelight colliding in low-saturation gray-blue, dark charcoal, aged wood brown tones, subtle red accents only, side-back lighting and partial occlusion emphasizing ritual pressure; cinematic historical drama realism, medium long shot, same-axis composition, panning feel, highly detailed fabric texture, restrained emotional intensity, shallow atmospheric depth, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, gray-blue daylight mixed with amber candlelight, side-back lighting, interior shadow layering"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary furniture, electric lights, plastic, glass skyscrapers, modern hairstyle, modern makeup, text, watermark, logo, subtitle, low quality, blurry, deformed hands, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0001",
+    "shot_id": "shot_0029",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, framed in a close-up with her face slightly left of center; her eyes sharpen and the corner of her lips begins to form a cold smile, concealed hatred surfacing with dangerous restraint, faint mark on the side of her neck barely visible, gaze steady and calculating; blurred background dissolved into mixed warm and cool bokeh inside an ancient chamber, a tiny hairpin highlight in the right rear background like a needle point, muted gray-blue and amber palette, low saturation, soft side light defining eyes and lips with cold reflective highlights; cinematic historical drama realism, close-up portrait, subtle dolly-in intimacy, razor focus on eyes and mouth, highly detailed skin and silk, tense stillness, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side light on face, cool reflective highlights, amber and gray-blue bokeh"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary jewelry design, electric lights, plastic, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, overprocessed skin, oversaturated colors"
+  },
+  {
+    "id": "sp_0002",
+    "shot_id": "shot_0030",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, stopped in the center of the frame in a medium close-up; his raised hand falls back down, breath slightly uneven, expression shifting from anger to helpless concern, brows tightened with protective sorrow; behind him, wooden window lattice forms vertical divisions like invisible bars, the left side of the frame holds a soft blurred empty space suggesting his daughter's position, interior chamber in muted gray-blue daylight and amber candle glow, low-saturation palette with dark wood and shadow-heavy upper frame; cinematic historical drama realism, static medium close-up, restrained emotional portrait, detailed facial lines and robe texture, subtle symbolic composition, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, window side light mixed with dim amber candlelight, soft shadows, barred backlight effect"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern windows, plastic, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, exaggerated expression, oversaturated colors"
+  },
+  {
+    "id": "sp_0003",
+    "shot_id": "shot_0031",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen over the shoulder of A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness; the father's shoulder and back occupy the right foreground as pressure, while Gao Lingning in the left middle frame lifts her eyes and finally lets a thin cold smile fully form, her gaze utterly without warmth, poised before a sharp verbal counterattack; the edge of a dressing table aligns horizontally with her sightline, ancient boudoir interior with old wood, dim curtain layers, gray-blue daylight and amber candlelight in low saturation, spatial compression through foreground obstruction; cinematic historical drama realism, over-the-shoulder medium close-up, static tension, precise composition, detailed silk and hair ornaments, psychological duel, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, side light from window mixed with subdued candlelight, foreground shadow pressure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern interior design, plastic, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0004",
+    "shot_id": "shot_0032",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a close-up facing slightly toward camera; her lips part softly as if saying a low deliberate sentence, eyes looking past the viewer toward her father, the expression cold, abnormal, and intentional, controlled revenge revealed without raising her voice; the edge of a bronze mirror in the background catches a cold bright ring like a blade, ancient private chamber with minimal visual noise, nearly airless stillness, low-saturation gray-blue and amber tones, cool metallic highlight against dim warm interior shadows; cinematic historical drama realism, static close-up, extremely steady frame, sharp focus on eyes and lips, refined skin texture and fabric detail, oppressive silence, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, soft frontal-side light, cold metallic highlight from bronze mirror, dim amber ambient fill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern mirror frame, plastic, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, oversaturated colors, glamour retouching"
+  },
+  {
+    "id": "sp_0005",
+    "shot_id": "shot_0033",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, positioned on the right side of the frame in a medium close-up; his brow tightens and his eyes pause in brief confusion, hearing only stubbornness while failing to grasp the deeper secret, expression shifting toward a gentler attempt to persuade; the left side of the frame remains empty toward his daughter's direction, dark curtains hanging in the background lower the upper frame and create emotional pressure, interior noble chamber in muted gray-blue and dark wood with amber candle traces, low-saturation shadows pressing downward; cinematic historical drama realism, static medium close-up, asymmetrical composition, subtle reaction shot, detailed age lines and robe folds, restrained dramatic tension, fine film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side daylight with dim amber candle residue, top-shadow pressure from dark drapery"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern curtain fabric, plastic, text, watermark, logo, subtitle, low quality, blurry, bad anatomy, exaggerated cinematic flare, oversaturated colors"
+  }
+]

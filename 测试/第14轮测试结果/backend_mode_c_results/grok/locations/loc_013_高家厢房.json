@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_013",
+  "name": "高家厢房",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "厢房私室，中央床榻与桌案摆和离书，墙饰简约，空间用于发现事件与冲突，早产场景。",
+  "visual_reference": "明代中晚期江南官宦世家府邸厢房内部，私密厢室空间，雕花床榻旁桌案摆和离书与衣冠，墙面简单字画，青砖地面，窗光柔和，古典却紧张氛围",
+  "visual_prompt_negative": "现代卧室、强光灯、西方家具",
+  "atmosphere": "震惊冲突、剧痛发颤",
+  "color_palette": [
+    "深木色",
+    "和离白纸",
+    "血红点缀"
+  ],
+  "lighting": "白天柔和窗光，突显桌案细节",
+  "key_features": [
+    "厢房床榻",
+    "和离书桌案",
+    "简约墙饰"
+  ],
+  "narrative_scenes": [
+    "scene_013",
+    "scene_014"
+  ],
+  "scene_count": 2,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "发现陆蒋昏迷陷害的震惊心惊到扇巴掌早产的剧痛发颤"
+}

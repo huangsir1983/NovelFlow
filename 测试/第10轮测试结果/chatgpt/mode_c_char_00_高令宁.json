@@ -1,0 +1,77 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "夫人",
+    "令宁"
+  ],
+  "role": "protagonist",
+  "age_range": "16-30+",
+  "appearance": {
+    "face": "鹅蛋脸，肤色白净偏冷，眉骨清晰，眼尾微挑，眸光锐利时带压迫感，病中则显得苍白脆弱；年轻时明艳端丽，盛怒时眼圈泛红",
+    "body": "身量中上，骨架纤细却挺拔，仪态端正，有主母气场；孕期与病中略显消瘦",
+    "hair": "乌黑浓密，常梳高髻或端庄妇人髻，发丝整齐，少量珠钗点缀",
+    "distinguishing_features": "清冷锋利的眼神与极强的自尊气场，脖颈曾有自伤血痕记忆点"
+  },
+  "costume": {
+    "typical_outfit": "未嫁时多穿精致但不张扬的闺秀襦裙，婚后偏华贵规整的大宅主母服饰，回娘家后衣着简净雅致",
+    "color_palette": [
+      "月白",
+      "藕荷",
+      "黛青",
+      "绛红"
+    ]
+  },
+  "casting_tags": [
+    "古装大女主",
+    "重生",
+    "强势主母",
+    "清醒狠厉",
+    "外冷内伤",
+    "高门婚姻博弈"
+  ],
+  "visual_reference": "ancient Chinese noblewoman, elegant but sharp-featured face, pale skin, dark almond eyes, black traditional updo, slim yet poised figure, Song dynasty style hanfu, cold dignified temperament, cinematic lighting, highly detailed",
+  "personality": "争强好胜，聪明清醒，自尊极强，爱憎分明，不肯受制于人",
+  "desire": "改写家破人亡命运，保全父亲与家族，再见并留住自己的孩子，摆脱畸形婚姻",
+  "flaw": "过度要强，不肯示弱，情绪上头时锋芒过盛，常以硬碰硬替代沟通",
+  "arc": "从执念于报复与重得长子，到逐渐看透强求无用，最终选择原谅过去、脱离纠缠、重建自我与女儿的人生",
+  "scene_presence": "贯穿全篇。经历拒聘、议婚、前世回忆、婚后怀孕、被诬陷早产、和离、抚养女儿、江南新生活，并成为所有关系张力的中心",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻/前世宿怨/重生博弈",
+      "dynamic": "相爱相杀，互相刺伤又彼此牵绊，从仇恨、利用走向失衡追逐",
+      "function": "核心情感与命运对抗线"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "父亲真心护女，给予退路，是她少有的稳定安全感来源",
+      "function": "家族线与情感支点"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌/镜像女性",
+      "dynamic": "互相敌视，各自都在男权与婚配秩序里争夺生路",
+      "function": "推动婚姻冲突与误会真相"
+    },
+    {
+      "target": "沈睿",
+      "type": "母子",
+      "dynamic": "深切思念与执念来源，长子既是爱也是枷锁",
+      "function": "重生后再婚动机的核心"
+    },
+    {
+      "target": "昭昭",
+      "type": "母女",
+      "dynamic": "温柔守护，将自己失去的希望转化为新的生命方向",
+      "function": "主角完成情感重建的落点"
+    },
+    {
+      "target": "蒋晟",
+      "type": "相看对象/被卷入者",
+      "dynamic": "原本可作良配，却被各方算计拖入风波",
+      "function": "替代婚配可能性与误会引爆器"
+    }
+  ]
+}

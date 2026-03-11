@@ -1,0 +1,57 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高姑娘",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-20",
+  "appearance": {
+    "face": "清丽端庄，眼神清冷坚毅，不怒自威",
+    "body": "身姿挺拔，纤细但不羸弱",
+    "hair": "乌黑长发，前期简约发髻，后期主母盘发",
+    "distinguishing_features": "看透一切的冷漠眼神与极其理智的微表情"
+  },
+  "costume": {
+    "typical_outfit": "质地优良的明制汉服，前期清雅，后期沉稳",
+    "color_palette": [
+      "月白",
+      "淡蓝",
+      "青绿"
+    ]
+  },
+  "casting_tags": [
+    "大青衣",
+    "外柔内刚",
+    "清冷倔强",
+    "主母气场"
+  ],
+  "visual_reference": "A beautiful ancient Chinese noblewoman, 18 years old, elegant and dignified, clear and resolute eyes, wearing pale blue traditional Hanfu, subtle makeup, realistic, cinematic lighting.",
+  "personality": "清醒理智，争强好胜，眼里揉不得沙子，爱恨分明，行动力极强",
+  "desire": "摆脱前世与沈词的恩怨纠缠，保全家人，获得真正的自由与平安喜乐",
+  "flaw": "前世过于要强不留余地，今生情感封闭拒绝沟通",
+  "arc": "从充满怨恨、为了生下长子委曲求全，到彻底放下执念、获得自由并重获新生",
+  "scene_presence": "全剧核心，贯穿始终。从退回聘礼立威，到冷漠应对婚姻，再到果断和离远走江南。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻/前夫",
+      "dynamic": "前世相爱相杀，今生女主冷漠疏离，男主从高高在上到卑微纠缠",
+      "function": "核心矛盾驱动"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "父亲无条件支持与包容女儿",
+      "function": "提供情感避风港与后盾"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌/仇人",
+      "dynamic": "前世被其所害，今生冷眼看其作茧自缚",
+      "function": "推动男女主信任破裂与决裂"
+    }
+  ]
+}

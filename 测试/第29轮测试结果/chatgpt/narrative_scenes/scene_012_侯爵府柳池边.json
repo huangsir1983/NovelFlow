@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "EXT. 柳池旁 - DAY",
+  "location": "侯爵府柳池边",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "我撞见沈词含笑看陆姝仪放风筝，嫉怒之下故意与蒋晟亲近；沈词隔空看见，暗流顿起。",
+  "key_dialogue": "「真该死啊。」",
+  "emotional_peak": "我见到他从未给过我的宠溺眼神，旧恨再起。",
+  "tension_score": 0.78,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "风筝",
+    "柳枝",
+    "扶手"
+  ],
+  "dramatic_purpose": "以视觉冲击重燃我的嫉恨，也让沈词首次显露介意。",
+  "visual_reference": "柳池春水，粉衣少女举着风筝笑意温婉，年轻官员低头含笑，远处女主停步怔住，身侧蒋晟扶住她，几组人物在同一画面形成尖锐情感对照",
+  "visual_prompt_negative": "避免现代公园感，避免过度浪漫滤镜，避免群演过多遮挡主角",
+  "source_text_start": "春光如泄，我站在原地，忽然怔了片刻。",
+  "source_text_end": "余光里，沈词的目光落到我身上，面无表情地眯起眼睛。"
+}

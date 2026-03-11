@@ -1,0 +1,14 @@
+{
+  "name": "药碗",
+  "category": "medical",
+  "description": "传统陶制药碗，灰褐色粗陶材质，碗口直径12cm，深腹造型，碗壁较厚实，表面素净带有使用痕迹和轻微药汁残留染色。",
+  "visual_reference": "古风中药碗，宋明陶器风格，深褐色手工粗陶，圆润深腹，内壁可见药渍痕迹，质朴真实，置于木盘或桌面上，昏黄室内灯光，生活化细节丰富",
+  "visual_prompt_negative": "精致瓷碗、装饰华丽、现代碗具、干净无痕、塑料或金属材质",
+  "narrative_function": "出现在休养场景，与锦被搭配，象征人物身体恢复过程，体现家庭关怀与脆弱状态",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_006",
+    "scene_007"
+  ],
+  "emotional_association": "病痛中的照料与希望"
+}

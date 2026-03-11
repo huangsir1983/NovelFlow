@@ -1,0 +1,40 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "0-28",
+  "appearance": {
+    "face": "神童俊秀，聪明灵动",
+    "body": "幼时瘦弱，长大挺拔",
+    "hair": "童子发或束冠",
+    "distinguishing_features": "早慧眼神"
+  },
+  "costume": {
+    "typical_outfit": "幼童锦衣或官袍",
+    "color_palette": [
+      "宝蓝",
+      "金边"
+    ]
+  },
+  "casting_tags": [
+    "天才幼子",
+    "孝顺儿子"
+  ],
+  "visual_reference": "古代神童男孩，俊秀聪明面容，黑发童子髻，身穿宝蓝锦衣，跪捧粥碗或读书姿态，温馨光影，写实",
+  "visual_prompt_negative": "成年模样，凶恶表情",
+  "personality": "早慧孝顺、忧心父母",
+  "desire": "父母和睦",
+  "flaw": "早逝（前世）",
+  "arc": "前世劝和，今世提及推动和解",
+  "scene_presence": "前世回忆与梦中出场",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母子",
+      "dynamic": "孝顺牵绊",
+      "function": "情感羁绊"
+    }
+  ]
+}

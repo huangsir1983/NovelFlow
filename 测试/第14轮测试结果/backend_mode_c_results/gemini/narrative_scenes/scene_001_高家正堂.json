@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "媒人"
+  ],
+  "core_event": "沈家前来提亲，高令宁重生后第一次与沈词交锋，当众以聘礼太薄为由，拒绝了象征性的木雁，给沈词难堪。",
+  "key_dialogue": "聘礼太薄，我不满意。",
+  "emotional_peak": "高令宁当众拒绝，沈词震惊而冰冷的眼神。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "聘礼（金银绸缎）",
+    "木雁",
+    "太师椅"
+  ],
+  "dramatic_purpose": "建立主角重生后的新性格和决心，开启与男主的全新博弈关系，制造第一个冲突点。",
+  "source_text_start": "媒人来提亲时，聘礼比前世少了一半。 我便知道，沈词也重生了。 正堂内，金银绸缎，倒也不算寒酸。",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

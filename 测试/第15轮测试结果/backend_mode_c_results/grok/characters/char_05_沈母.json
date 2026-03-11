@@ -1,0 +1,40 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆婆"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "威严端庄",
+    "body": "富态",
+    "hair": "盘髻华簪",
+    "distinguishing_features": "管家权威气势"
+  },
+  "costume": {
+    "typical_outfit": "贵妇华服",
+    "color_palette": [
+      "紫红",
+      "金"
+    ]
+  },
+  "casting_tags": [
+    "传统婆婆",
+    "推动纳妾"
+  ],
+  "visual_reference": "五十岁左右古代贵妇，面容端庄威严，皮肤保养得宜，身材富态，头发高髻插金簪，穿着紫红华服，坐在堂上神情不满，光影古典室内",
+  "visual_prompt_negative": "年轻少女、现代服、卡通",
+  "personality": "势利管家",
+  "desire": "家族门面与子嗣",
+  "flaw": "偏心纳妾",
+  "arc": "从立威到理亏退让",
+  "scene_presence": "婚后与产后谈判",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "对立",
+      "function": "家庭压力"
+    }
+  ]
+}

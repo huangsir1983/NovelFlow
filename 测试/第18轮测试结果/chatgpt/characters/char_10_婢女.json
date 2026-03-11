@@ -1,0 +1,49 @@
+{
+  "name": "婢女",
+  "aliases": [
+    "侍女",
+    "陆姝仪婢女",
+    "府内婢女"
+  ],
+  "role": "minor",
+  "age_range": "14-30",
+  "appearance": {
+    "face": "年轻丫鬟面容，神情恭顺或惶急",
+    "body": "轻巧纤细",
+    "hair": "双丫髻或简洁侍女发式",
+    "distinguishing_features": "跪门、传话、端药等动作明显"
+  },
+  "costume": {
+    "typical_outfit": "简朴侍女服，便于走动侍候",
+    "color_palette": [
+      "浅青",
+      "灰蓝"
+    ]
+  },
+  "casting_tags": [
+    "侍女",
+    "传信者",
+    "见证人"
+  ],
+  "visual_reference": "古代年轻婢女，双丫髻，穿浅青灰蓝侍女服，跪在门外传话或端药，神情惶急，古风写实",
+  "visual_prompt_negative": "现代女仆装、浓妆、性感化、夸张动漫风",
+  "personality": "顺从、谨慎",
+  "desire": "服侍好主子保全自己",
+  "flaw": "容易受主家情势裹挟",
+  "arc": "无",
+  "scene_presence": "新婚夜通报、作证、服侍病人与产房混乱中出现",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "为其传病情、传消息",
+      "function": "推动关键转场"
+    },
+    {
+      "target": "高令宁",
+      "type": "主仆",
+      "dynamic": "传话、作证、服侍",
+      "function": "补充现场信息"
+    }
+  ]
+}

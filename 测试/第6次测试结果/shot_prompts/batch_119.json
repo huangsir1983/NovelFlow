@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0714",
+    "shot_id": "shot_0710",
+    "prompt_text": "An interior ancient Chinese noble bedroom seen from inside, a carved wooden door dominating the left third of the frame as it is violently pushed open, Shen Ci entering as an intrusive force, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, caught in abrupt motion with slight disorder and aggressive momentum; in the blurred right foreground, the soft outline of Gao Lingning’s sleeve and one corner of a moon-white swaddle suggest a mother holding her child, while the bed and daybed sit in the right rear background out of focus; a blade of daylight cuts through the door crack into the grey-blue and old wood brown room, side backlight, doorway compression, low-saturation warm-cool contrast, restrained historical drama realism, cinematic composition, shallow depth of field, high detail",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, natural daylight slicing through the doorway, side backlight, soft ambient room light, old wood brown and grey-blue palette"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, glass windows in modern style, contemporary furniture, modern hairstyle, modern makeup, text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, cropped body, oversaturated colors"
+  },
+  {
+    "id": "sp_0715",
+    "shot_id": "shot_0711",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, bursting half into the room with his hair slightly loosened and robe disordered, expression on the edge of losing control, gripping a wrinkled divorce letter tightly in the near foreground, clear folded paper corners and crushed creases, white knuckles, his body angled forward in a threatening intrusion; the door hinge and wooden door panel fill the left near foreground, the soft daylight of the bedroom and old brown wooden wall behind him on the right, handheld urgency, low-saturation warm-cool contrast, cinematic mid shot, realistic texture, tense historical drama frame",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, handheld realism, film grain",
+      "lighting": "natural soft daylight inside the room, low-saturation warm-cool contrast, warm old wood tones against cool ambient light, slight side illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, printed modern paper, fountain pen, contemporary architecture, electric fixtures, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, deformed hands, oversharpened, oversaturated"
+  },
+  {
+    "id": "sp_0716",
+    "shot_id": "shot_0712",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, holding Zhaozhao, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, cinematic realism, seated steadily at the edge of a bed or couch, lifting her eyes toward the unseen doorway on the left, calm, self-possessed, protective, the baby resting low against her chest in a moon-white swaddle; side backlight from the left rear window or doorway touches her face and the swaddle, bed curtains and a folding screen behind her, empty negative space on the left reserved for the intruder’s direction, grey-blue, old wood brown, muted white and dark teal palette, low-saturation warm-cool contrast, quiet but defensive historical drama realism, shallow depth of field, cinematic mid shot",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "soft side backlight from the left rear, natural daylight with gentle warm interior bounce, low-saturation warm-cool contrast, restrained grey-blue and old wood brown atmosphere"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern baby blanket, stroller, contemporary nursery items, electric lighting, text, watermark, logo, low quality, bad anatomy, extra fingers, distorted infant face, oversaturated colors, cartoon style"
+  },
+  {
+    "id": "sp_0717",
+    "shot_id": "shot_0713",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, cinematic lighting, shown in close-up with her face placed right-center, looking to the left with clear, controlled, unyielding eyes, no panic, only cool recognition, the edge of the swaddle and her fingers blurred in the lower shallow-focus foreground, the faint scar along her neck just visible; the background dissolves into grey-blue bed curtains and one soft beam of light, low-saturation warm-cool contrast, intimate historical drama realism, delicate skin texture, cinematic close portrait, high detail",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic portrait photography, film grain, historical drama realism",
+      "lighting": "soft side backlight with gentle facial wrap, muted cool-grey curtains and warm subtle highlights, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern jewelry, contemporary beauty makeup, text, watermark, logo, low quality, blurry eyes, plastic skin, deformed face, extra features, oversaturated colors"
+  },
+  {
+    "id": "sp_0718",
+    "shot_id": "shot_0714",
+    "prompt_text": "Over-shoulder view from behind Gao Lingning and the swaddled child, their shoulder line and moon-white swaddle blurred in the right foreground, while Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, advances from the left-center toward the camera with an invasive forward lean, holding the divorce letter half raised, expression hard and pressing, trying to reclaim control; the doorframe remains behind him as vertical bars of constraint, the ancient bedroom beyond softened in restrained daylight, low-saturation warm-cool contrast, grey-blue, old wood brown, muted white and dark teal palette, cinematic over-shoulder composition, tense historical drama realism, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, dolly-style composition, film grain, historical drama realism",
+      "lighting": "soft natural daylight from doorway and window, side backlight structure, low-saturation warm-cool contrast, restrained interior bounce light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern paper document, contemporary door hardware, electric lights, text, watermark, logo, low quality, motion smear, bad anatomy, extra limbs, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0719",
+    "shot_id": "shot_0715",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, shown frontally in a medium close-up slightly left of center, clutching the divorce letter against his chest with whitening knuckles, the paper tense and creased, the corners of his eyes faintly red yet he forces a cold smile, wounded pride hidden inside accusation; to the right rear, soft bedroom light and blurred bed curtains oppose his disorder with calm domestic order, old wood brown walls, grey-blue curtain haze, low-saturation warm-cool contrast, realistic skin and fabric texture, oppressive historical drama portrait, cinematic clarity",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic portrait photography, film grain, historical drama realism",
+      "lighting": "soft natural interior daylight, subtle side illumination, warm old wood against cool ambient curtain tones, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern document styling, electric fixtures, text, watermark, logo, low quality, blurry, bad anatomy, deformed hands, extra fingers, waxy skin, oversaturated colors"
+  }
+]

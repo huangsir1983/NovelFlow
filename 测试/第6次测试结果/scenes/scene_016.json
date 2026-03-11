@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "id": "scene_016",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:08"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "沈词",
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_010"
+    ]
+  },
+  "data": {
+    "heading": "INT. 停灵处 - 夜",
+    "location": "停灵处",
+    "time_of_day": "night",
+    "description": "停灵空间肃穆封闭，白幡低垂，烛火惨白，棺木居中，四周空旷得近乎回音可闻。寿衣、净水器具等后事用品构成强烈死亡视觉。沈词独自处在棺木前，空间巨大却显得他愈发苍老羸弱。",
+    "action": "高令宁死后，沈词亲手替她清洗遗体、换上寿衣，不假手于人。后续停灵时，他独自坐在棺前，双手抱住头，肩背微微发抖，却没有发出声音。良久后他抬起通红的眼，看向棺木，又重新垂下，整个人像被抽空，只剩沉默的崩塌。",
+    "dialogue": [],
+    "characters_present": [
+      "沈词",
+      "高令宁"
+    ],
+    "key_props": [
+      "棺材",
+      "寿衣",
+      "白幡",
+      "烛台",
+      "净水器具"
+    ],
+    "dramatic_purpose": "将前文的互相诅咒反转为失去后的迟来悲痛，完成这段夫妻关系最沉重的情感落点。",
+    "tension_score": 0.9,
+    "dramatic_intensity": 0.8,
+    "order": 16
+  }
+}

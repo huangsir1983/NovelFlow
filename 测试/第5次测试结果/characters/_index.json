@@ -1,0 +1,153 @@
+{
+  "count": 21,
+  "updated_at": "2026-03-07T23:11:46",
+  "entries": [
+    {
+      "id": "char_高令宁",
+      "name": "高令宁",
+      "role": "protagonist",
+      "filename": "高令宁.json",
+      "description": "一个带着前世婚姻创伤重来一世、表面冷静持礼实则执拗到近乎决绝的高门女子。"
+    },
+    {
+      "id": "char_沈词",
+      "name": "沈词",
+      "role": "protagonist",
+      "filename": "沈词.json",
+      "description": "一个以理性和责任伪装自己、实则被愧疚与执念反复撕扯的重生世家男主。"
+    },
+    {
+      "id": "char_沈睿",
+      "name": "沈睿",
+      "role": "supporting",
+      "filename": "沈睿.json",
+      "description": "一个未真正长大却已成为父母前世执念与今生婚约核心理由的“宿命之子”。"
+    },
+    {
+      "id": "char_陆姝仪",
+      "name": "陆姝仪",
+      "role": "antagonist",
+      "filename": "陆姝仪.json",
+      "description": "一个以柔弱为外壳、以生存与归属为执念，在旧情、身份坍塌与重生怨念中不断自我扭曲的“青梅白月光型”角色"
+    },
+    {
+      "id": "char_高父",
+      "name": "高父",
+      "role": "supporting",
+      "filename": "高父.json",
+      "description": "一个在门第体面与骨肉安危之间最终选择女儿的传统士大夫父亲。"
+    },
+    {
+      "id": "char_沈母",
+      "name": "沈母",
+      "role": "supporting",
+      "filename": "沈母.json",
+      "description": "以体面与家族利益为最高准则、擅长借礼法包装控制的沈家主母。"
+    },
+    {
+      "id": "char_蒋晟",
+      "name": "蒋晟",
+      "role": "supporting",
+      "filename": "蒋晟.json",
+      "description": "一个本可通往安稳人生的正派良配，却被卷入女主与沈词前世纠葛中的现实对照者。"
+    },
+    {
+      "id": "char_昭昭",
+      "name": "昭昭",
+      "role": "supporting",
+      "filename": "昭昭.json",
+      "description": "她不是单纯的孩子，而是母亲重获新生的情感归宿、父亲无法切断的血缘入口，也是整段婚姻残局中最温柔却最有"
+    },
+    {
+      "id": "char_静好",
+      "name": "静好",
+      "role": "minor",
+      "filename": null,
+      "description": "未出生女儿，前世悲剧象征"
+    },
+    {
+      "id": "char_媒人",
+      "name": "媒人",
+      "role": "minor",
+      "filename": null,
+      "description": "往来提亲，传话劝和"
+    },
+    {
+      "id": "char_大夫",
+      "name": "大夫",
+      "role": "minor",
+      "filename": null,
+      "description": "为高姑娘正骨诊治"
+    },
+    {
+      "id": "char_太医",
+      "name": "太医",
+      "role": "minor",
+      "filename": null,
+      "description": "诊出女主有孕男胎"
+    },
+    {
+      "id": "char_老管家",
+      "name": "老管家",
+      "role": "minor",
+      "filename": null,
+      "description": "沈府事务人物，前世被提及"
+    },
+    {
+      "id": "char_权贵",
+      "name": "权贵",
+      "role": "minor",
+      "filename": null,
+      "description": "女主前世求助周旋对象"
+    },
+    {
+      "id": "char_沈府小厮",
+      "name": "沈府小厮",
+      "role": "minor",
+      "filename": null,
+      "description": "替女主向沈府带话"
+    },
+    {
+      "id": "char_侯爵娘子",
+      "name": "侯爵娘子",
+      "role": "minor",
+      "filename": null,
+      "description": "举办马球会的贵妇"
+    },
+    {
+      "id": "char_陆姝仪的婢女",
+      "name": "陆姝仪的婢女",
+      "role": "minor",
+      "filename": null,
+      "description": "新婚夜传话请走沈词"
+    },
+    {
+      "id": "char_肖似陆姝仪的婢女",
+      "name": "肖似陆姝仪的婢女",
+      "role": "minor",
+      "filename": null,
+      "description": "前世引发夫妻冲突的替身"
+    },
+    {
+      "id": "char_伯爵府三公子",
+      "name": "伯爵府三公子",
+      "role": "minor",
+      "filename": null,
+      "description": "沈母为陆姝仪选的夫婿"
+    },
+    {
+      "id": "char_伯爵夫人",
+      "name": "伯爵夫人",
+      "role": "minor",
+      "filename": null,
+      "description": "相中陆姝仪的主母"
+    },
+    {
+      "id": "char_几个赘婿",
+      "name": "几个赘婿",
+      "role": "minor",
+      "filename": null,
+      "description": "高父为女主物色的陪伴者"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_010",
+  "name": "高府厢房",
+  "type": "interior",
+  "era_style": "明代晚期官宦府邸厢房",
+  "description": "侧厢卧室空间，中央床铺散乱衣物与昏迷身体，桌椅翻倒，地面散落药渣与血迹痕迹，墙面简单装饰，空间杂乱显示突发事件。",
+  "visual_reference": "Disordered Ming dynasty late period official mansion side chamber interior daytime, central bed with disheveled clothes and unconscious figure, overturned tables and chairs, scattered medicine dregs and blood traces on floor, plain wall decor, chaotic post-incident atmosphere",
+  "atmosphere": "混乱冤屈与震惊",
+  "color_palette": [
+    "暗红",
+    "灰褐",
+    "白"
+  ],
+  "lighting": "日光从侧窗照入，突出凌乱细节",
+  "key_features": [
+    "凌乱床铺",
+    "翻倒桌椅",
+    "药渣地面"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "冤屈与巴掌"
+}

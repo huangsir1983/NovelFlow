@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "id": "scene_009",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 沈府湖边 - DUSK",
+    "location": "沈府湖边",
+    "time_of_day": "dusk",
+    "description": "暮色中的湖边开阔而阴冷，天光将尽，水面发暗，岸边栏杆、假山、树影交错。周围下人聚拢，气氛混乱。湿冷的环境与突发死讯形成强烈视觉冲击。",
+    "action": "湖边骤然骚动，下人们慌张奔走，有人指向水面，有人跪在岸边。陆姝仪被打捞上岸，衣裙湿透，发丝贴在苍白面颊上，一动不动。高令宁赶到湖边，脚步骤停，袖中的手猛地攥紧。她看着被围拢的尸身，脸色一点点褪尽血色。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "湖水",
+      "栏杆",
+      "湿透的衣裙"
+    ],
+    "dramatic_purpose": "完成重大转折事件：陆姝仪之死，把前一场的隐忧推至现实，触发高令宁与沈词关系的彻底恶化。",
+    "tension_score": 0.86,
+    "dramatic_intensity": 0.72,
+    "order": 9
+  }
+}

@@ -1,0 +1,295 @@
+[
+  {
+    "id": "shot_0109",
+    "scene_id": "scene_007",
+    "shot_number": 1,
+    "goal": "建立厅堂内两人对峙的空间关系、距离感与冷硬气氛，明确高令宁占据观察者位置，沈睿处于烦躁失衡状态。",
+    "composition": "门框式构图。前景左侧虚化的门框与半截帘幕形成遮挡，中景右后三分之一处沈睿立于桌案旁，身形偏侧，衣袖微乱；左前三分之一处高令宁坐于椅上，手持团扇，姿态端正。两人中间留出明显空白带，桌案与茶盏位于画面中央偏下，窗棂侧光在地面与人物衣袍上切出条状阴影，背景为厅堂深处的木构与暗部留白。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到体面表层下的冰冷拉锯与无形压迫。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 109
+  },
+  {
+    "id": "shot_0110",
+    "scene_id": "scene_007",
+    "shot_number": 2,
+    "goal": "切入女主限制性视角，建立她对沈睿状态的审视：他已被陆姝仪之事逼到烦躁边缘。",
+    "composition": "从高令宁肩后拍向沈睿的过肩镜头。前景左侧为高令宁虚焦的肩线与团扇边缘，沈睿位于画面右侧中部，半身入镜，手压在桌案边，指节微紧，衣袖褶皱清晰可见；茶盏位于下前景偏右，形成隔阂。背景窗光勾出他脸侧冷边。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众先站在高令宁的位置上，冷静而尖锐地看穿他的失态。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 110
+  },
+  {
+    "id": "shot_0111",
+    "scene_id": "scene_007",
+    "shot_number": 3,
+    "goal": "呈现高令宁开口前的克制与掌控，她不是冲动攻击，而是有意试探。",
+    "composition": "高令宁单人近景，位于画面左三分之一，脸略朝右，目光平直投向画外沈睿。团扇占据下前景一角，扇面缓慢掠过胸前。背景为窗棂光斜切过墙面，右侧留出较大负空间给她即将出口的话。发髻和肩线整肃，神情平静带冷意。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她的冷静比愤怒更危险，像一把未出鞘的刀。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.34,
+    "order": 111
+  },
+  {
+    "id": "shot_0112",
+    "scene_id": "scene_007",
+    "shot_number": 4,
+    "goal": "完成第一轮试探性出招，高令宁以平静语气抛出“纳进来”的建议，撕开两人心知肚明却未明说的遮羞布。",
+    "composition": "延续高令宁同轴线正反打，主体仍在左三分之一，镜头略更近。扇柄靠近唇下，扇面轻摇；背景深处桌案边缘与空椅形成横向切割，强调她与对方的情感距离。画面右侧保持沈睿的画外空间。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "以礼貌措辞制造刺痛感，让观众感到她的提议像温柔的逼供。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 112
+  },
+  {
+    "id": "shot_0113",
+    "scene_id": "scene_007",
+    "shot_number": 5,
+    "goal": "捕捉沈睿听到提议后的即时反应：冷笑、防御、被戳中的恼意。",
+    "composition": "沈睿单人近景，位于画面右三分之一，身体朝左。前景右下有桌案边角虚焦切入，背景左侧窗光将他的侧脸与肩颈勾亮，另一半沉入暗部。嘴角短促牵起，眼神却未松开，形成表情上的分裂。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到他被刺中后第一反应不是解释，而是反击与不信。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.48,
+    "order": 113
+  },
+  {
+    "id": "shot_0114",
+    "scene_id": "scene_007",
+    "shot_number": 6,
+    "goal": "通过沈睿的台词表明他不接受高令宁的善意姿态，并立即将其定义为讥讽。",
+    "composition": "沈睿中近景，主体仍在右三分之一，脸朝左画外。衣袖褶皱、胸前呼吸起伏与微乱领口被纳入画面。背景保留一条暗色立柱，像将他钉在原地。左侧留白承接高令宁的位置与压力。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到他嘴上讥讽，实则慌于被看穿。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.53,
+    "order": 114
+  },
+  {
+    "id": "shot_0115",
+    "scene_id": "scene_007",
+    "shot_number": 7,
+    "goal": "插入团扇这一关键道具，强调高令宁表面从容、实则掌控节奏的状态。",
+    "composition": "团扇与手部特写。画面中央偏左为高令宁握扇的手，指节稳定，扇面慢慢一停。背景虚化中可见桌案边线与一只茶盏轮廓。冷白手肤与暗色扇柄形成对比，扇停即代表她下一句话更锋利。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造一种她已决定把话说透的冰冷决绝感。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.5,
+    "order": 115
+  },
+  {
+    "id": "shot_0116",
+    "scene_id": "scene_007",
+    "shot_number": 8,
+    "goal": "高令宁进一步提出‘假死入府、和离扶正’的完整方案，将隐秘欲望与婚姻权力结构同时摊开。",
+    "composition": "高令宁中近景，主体居左，面朝右；镜头比前一条略低，增强她话语的压迫。前景下方虚化茶盏边缘形成一道隔挡；背景右侧留空，仿佛给她描绘出的未来位置。扇子此时不再摇动，只垂于胸前，面部平静，眼神锋利。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她不是赌气，而是在冷静拆解这段关系的全部虚伪。",
+    "duration_hint": "6-7s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 116
+  },
+  {
+    "id": "shot_0117",
+    "scene_id": "scene_007",
+    "shot_number": 9,
+    "goal": "用反应镜头呈现沈睿真正被逼到核心处：他不再立刻回嘴，而是被这份‘让位’与直指欲望的话击中。",
+    "composition": "沈睿半身中景，位于右三分之一，原本略侧的身体慢慢转正朝左，目光抬起。前景左侧有高令宁模糊的肩部轮廓，形成对峙压迫。背景窗棂光更硬地切在他眼下与肩上，暗部吞没下半身。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到空气忽然变沉，真正危险的不是吵闹，而是他开始沉默。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 117
+  },
+  {
+    "id": "shot_0118",
+    "scene_id": "scene_007",
+    "shot_number": 10,
+    "goal": "把对峙推到视觉高点：沈睿抬眼长久盯住高令宁，沉默成为反击。",
+    "composition": "沈睿面部特写，主体居中略偏右，视线直射画外左侧。眼神阴沉，冷笑已褪去，只剩压住的怒意与被戳中的狼狈。背景几乎全虚，只有一道窗光斜线横过后方，像刀痕。镜头停住不让他逃离。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造逼视感与窒息感，让观众体会到沉默比台词更具攻击性。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.79,
+    "order": 118
+  },
+  {
+    "id": "shot_0119",
+    "scene_id": "scene_007",
+    "shot_number": 11,
+    "goal": "回到高令宁，显示她接住这份目光而不后退，完成心理上的抽离与审判。",
+    "composition": "高令宁近景，主体位于左三分之一，正面略侧向右，眼神稳定。前景下方团扇边缘静止，背景暗部吞没椅背与墙角，只有脸侧一条冷光。她微抬下颌，不做任何情绪外泄，右侧留白承接沈睿的压迫性视线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她已不再求证答案，她只是看着他露出原形。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 119
+  },
+  {
+    "id": "shot_0120",
+    "scene_id": "scene_007",
+    "shot_number": 12,
+    "goal": "以衣袖动作替代爆发，显示沈睿在沉默后强行恢复体面、压住真实情绪。",
+    "composition": "沈睿手部与衣袖特写。画面中央为他低头拂平袖口的手，动作缓慢却带力，布料被抹顺后仍有折痕。背景虚化为桌案木纹与暗金茶盏边缘，光落在袖口与指节上，突出‘整理体面’这一动作含义。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到他在用礼法与自控缝补被戳开的裂口。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.68,
+    "order": 120
+  },
+  {
+    "id": "shot_0121",
+    "scene_id": "scene_007",
+    "shot_number": 13,
+    "goal": "沈睿明确否认男女之情，把争论从欲望拉回道德立场，试图重掌定义权。",
+    "composition": "沈睿中近景，主体在右侧，低头后缓缓抬起视线但不完全看向镜头。左侧大面积负空间留给高令宁。衣袖已被理顺，形象恢复整肃，然而眼下疲色仍在。背景暗色立柱与窗光交界线经过肩后，形成两难状态的视觉隐喻。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他否认得越平静，越像在对自己申辩。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.61,
+    "order": 121
+  },
+  {
+    "id": "shot_0122",
+    "scene_id": "scene_007",
+    "shot_number": 14,
+    "goal": "继续推进他的辩解：将矛头转向高令宁，试图把冲突归因为她的扭曲与怨怼。",
+    "composition": "延续同轴线但略微推进，沈睿面部更近，位于画面右中。嘴唇线条压紧后张开，眼神不再闪避而带控诉。前景左下角可虚入一角茶盏，像一道礼制边界。背景更暗，人物被剥离出来，强调此刻他只剩话语防御。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到他在夺回道德高地，但也暴露出长期压抑的不耐与自我中心。",
+    "duration_hint": "5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 122
+  },
+  {
+    "id": "shot_0123",
+    "scene_id": "scene_007",
+    "shot_number": 15,
+    "goal": "用高令宁的沉默反应收住这一轮交锋，暗示她对这套说辞已不再投入情绪，只剩更深的冷意与抽离。",
+    "composition": "高令宁单人中近景，主体居左，微低头后再抬眼，扇面半遮在下颌以下但未遮住眼睛。前景右侧是沈睿虚焦肩线，表明仍在同一轴线对峙中。背景窗棂光切过墙面，椅背线条将她框在其中。她不回嘴，眼神像结冰。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到真正的裂痕不是争吵，而是她开始从这段关系中抽身。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.57,
+    "order": 123
+  },
+  {
+    "id": "shot_0124",
+    "scene_id": "scene_007",
+    "shot_number": 16,
+    "goal": "以空间收尾重申两人仍在同一厅堂，却已站在无法跨越的两端，为后续和离动机埋下视觉结论。",
+    "composition": "回到较远的双人全景，但比开场更冷、更空。高令宁仍在左侧坐位，扇子已静；沈睿在右侧桌案旁站立，袖口整齐。两人之间的桌案、茶盏与大片地面空白形成不可逾越的距离。窗光位置未变，但人物都更靠近各自暗部，门框前景再次压缩空间。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "留下礼貌未破、关系已断的寒意，让观众预感这场婚姻正在走向形式上的终局。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.44,
+    "order": 124
+  }
+]

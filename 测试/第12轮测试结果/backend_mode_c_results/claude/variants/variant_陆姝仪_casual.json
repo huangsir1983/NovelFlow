@@ -1,0 +1,31 @@
+{
+  "variant_id": "lu_shuyi_variant_04",
+  "variant_type": "casual",
+  "variant_name": "陆姝仪 — 马球会观赏",
+  "tags": [
+    "日常",
+    "柔美",
+    "看风筝"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "侯爵府马球会上，与沈词一起在柳树旁看风筝",
+  "appearance_delta": {
+    "face": "温婉恬静，带着淡淡笑意",
+    "body": "姿态轻盈，站在柳树旁",
+    "hair": "发髻精致，插粉色花簪",
+    "distinguishing_features": "仰头看风筝，侧脸柔美"
+  },
+  "costume_override": {
+    "outfit": "浅粉色襦裙，外罩薄纱，腰系绣花带",
+    "color_palette": [
+      "浅粉",
+      "米白",
+      "嫩绿"
+    ]
+  },
+  "visual_reference": "古代少女，十八岁，温婉恬静面容带淡淡笑意，身着浅粉色襦裙外罩薄纱，腰系绣花带，发髻精致插粉色花簪，姿态轻盈站在柳树旁，仰头看天空风筝，侧脸柔美，白天阳光明媚，马球场边柳树下，氛围轻松柔和，春日气息",
+  "visual_prompt_negative": "严肃表情、华丽盛装、室内场景、昏暗光线、现代服装、哭泣悲伤",
+  "emotional_tone": "恬静、柔美、温婉"
+}

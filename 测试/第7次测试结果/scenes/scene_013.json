@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "id": "scene_013",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:03"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 府外街道 - 夜",
+    "location": "府外街道",
+    "time_of_day": "night",
+    "description": "开阔的市井街道，夜色中灯火璀璨，街面有车马、灯影与人流。鱼龙灯摇晃掠过，孩童奔跑带出流动光斑。外部世界热闹鲜活，与二人关系中的冷寂形成反差。沈词与高令宁并肩立于街边，短暂回到新婚般的表象平静。",
+    "action": "沈词拉着高令宁的手走到街上。两人停在路边，看一群孩子举着鱼龙灯欢快跑过。沈词站定，视线追着孩子们远去，片刻后垂下眼，低声为未出世的孩子取名。高令宁没有回应激烈情绪，只安静看着他。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "",
+        "subtext": ""
+      },
+      {
+        "character": "高令宁",
+        "line": "",
+        "subtext": ""
+      }
+    ],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "鱼龙灯",
+      "街市车马灯火"
+    ],
+    "dramatic_purpose": "提供一段脆弱的和解幻象，让观众看到两人关系曾短暂趋于柔软，从而放大后续丧女的毁灭性。",
+    "tension_score": 0.35,
+    "dramatic_intensity": -0.3,
+    "order": 13
+  }
+}

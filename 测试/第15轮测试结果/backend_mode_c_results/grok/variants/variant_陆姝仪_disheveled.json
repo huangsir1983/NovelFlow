@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_03",
+  "variant_type": "disheveled",
+  "variant_name": "陆姝仪 — 衣衫不整昏迷",
+  "tags": [
+    "昏迷",
+    "衣冠不整",
+    "失贞"
+  ],
+  "scene_ids": [
+    "scene_012"
+  ],
+  "trigger": "高家厢房与蒋晟昏迷后衣冠不整被发现时",
+  "appearance_delta": {
+    "face": "脸色苍白，昏迷无意识",
+    "body": "纤细柔弱，姿势凌乱",
+    "hair": "乌发散乱披散",
+    "distinguishing_features": "衣衫凌乱，头发散开"
+  },
+  "costume_override": {
+    "outfit": "粉色轻纱衣裙衣冠不整",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "十九岁左右古代柔弱少女，温婉清丽脸庞，细长柳眉闭眼昏迷，皮肤白嫩，身材纤细楚楚可怜，穿着粉色轻纱襦裙衣衫凌乱敞开，长发散乱，躺在厢房昏迷姿态，室内昏暗光线，写实，高清细腻",
+  "visual_prompt_negative": "强壮身材、浓妆、现代服装、卡通、西方五官、清醒表情、整齐服装",
+  "emotional_tone": "无助昏迷"
+}

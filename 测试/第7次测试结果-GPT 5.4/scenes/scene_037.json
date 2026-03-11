@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "id": "scene_037",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 正厅/饭后坐处 - DAY",
+    "location": "高府正厅",
+    "time_of_day": "day",
+    "description": "厅内开阔，白日天光自门窗进入，饭后茶盏未撤，桌上仍留有用膳痕迹。环境规整稳重，具有父女私谈的家宅秩序感。",
+    "action": "高父坐定与高令宁说话，语气缓和，观察她与沈词如今相处融洽。高令宁安静听着，听到劝和之言后停顿片刻，抬眼反问，神情克制。两人对坐而谈，气氛表面平静，底下却各怀判断。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "姑爷看起来，是把你捧在心尖上的。",
+        "subtext": "他认为女儿婚后处境已有改善，试图缓和她对这段婚姻的抗拒。"
+      },
+      {
+        "character": "高父",
+        "line": "如今我看你们感情甚好，又有孩子，那位表小姐也即将出嫁，不如便这般过下去吧。",
+        "subtext": "他希望局势就此稳定，不再生变，劝女儿接受现实婚姻。"
+      },
+      {
+        "character": "高父",
+        "line": "至亲至疏夫妻，世间夫妻不大都如此吗？",
+        "subtext": "他以世俗经验劝解，降低高令宁对夫妻亲密与理解的期待。"
+      },
+      {
+        "character": "高令宁",
+        "line": "爹爹不觉得我和姑爷性子太左，难以磨合吗？",
+        "subtext": "她并未真正放下，对这段关系仍存根本性质疑，试探父亲立场。"
+      },
+      {
+        "character": "高父",
+        "line": "先前我正是担心，才不希望你嫁入沈家，不过我未曾想，你们成亲后，和之前比起来，竟都变了许多。",
+        "subtext": "他承认旧有顾虑，但现在愿意相信二人已有转机。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "茶盏",
+      "饭后桌案"
+    ],
+    "dramatic_purpose": "通过父女对话明确外界对这段婚姻的判断，与高令宁内心的不信任形成反差，强化人物立场冲突。",
+    "tension_score": 0.45,
+    "dramatic_intensity": -0.1,
+    "order": 37
+  }
+}

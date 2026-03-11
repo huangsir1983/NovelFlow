@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 临时药室 - 日",
+  "location": "临时药室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫诊脚伤，陆姝仪胃病发作，沈词哄药，高令宁冷眼旁观后让步",
+  "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+  "emotional_peak": "陆姝仪跪求与沈词护妹心疼",
+  "tension_score": 0.7,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "药碗汤匙",
+    "药箱",
+    "塌床",
+    "茶盏"
+  ],
+  "dramatic_purpose": "女主暂退一步，推进婚事"
+}

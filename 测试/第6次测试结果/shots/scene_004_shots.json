@@ -1,0 +1,188 @@
+[
+  {
+    "id": "shot_0000",
+    "scene_id": "scene_004",
+    "shot_number": 1,
+    "goal": "建立高府室内礼法秩序与封闭氛围，明确高令宁居上位、沈府小厮居下首的空间关系，为后续试探性回话奠定权力结构。",
+    "composition": "FS。门窗在画面右后方斜射入日光，形成侧逆光带；高令宁立于画面左中偏前，身形挺直，占据视觉重心；沈府小厮位于画面右下偏后，微躬身回话。前景以半虚化屏风边框压景，背景可见桌案与座椅，留出中间空地形成两人之间的礼法距离。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到表面平静、实则隔阂森严的对峙感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 0
+  },
+  {
+    "id": "shot_0001",
+    "scene_id": "scene_004",
+    "shot_number": 2,
+    "goal": "将叙事重心拉近至高令宁的主观感知，呈现她听闻消息后外表无波的控制力。",
+    "composition": "MS。高令宁位于画面左三分之一，面朝右侧；右侧前景保留一小块虚焦的小厮肩背，暗示她正在听对方回话。背景是冷色木格窗与一角桌案，侧光勾出她的颧骨与发髻线条，脖颈淡痕若隐若现。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众贴近她压住情绪的冷静，感受到危险的克制。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 1
+  },
+  {
+    "id": "shot_0002",
+    "scene_id": "scene_004",
+    "shot_number": 3,
+    "goal": "交代传信者视角下的消息重量，突出“认义妹并议亲”对现场空气的微妙改变。",
+    "composition": "MCU。沈府小厮位于画面右中，朝左回话；左前景以高令宁的肩颈和衣袖虚化压住画面边缘，保持女主视角中心。背景留有门框竖线，将小厮框在较窄空间里，强化其受压姿态。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到消息虽经由仆从说出，却带着来自沈府的无形压迫。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈府小厮",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 2
+  },
+  {
+    "id": "shot_0003",
+    "scene_id": "scene_004",
+    "shot_number": 4,
+    "goal": "捕捉高令宁在听完消息后的微反应，表明她并非不在意，而是在迅速判断与布局。",
+    "composition": "CU。高令宁面部居中略偏左，视线向右上轻抬；背景大面积虚化，仅保留窗格高光。光线切在她一侧眼眶和鼻梁，另一侧略沉，形成冷暖对撞。唇线压平，眼尾微挑，情绪被锁死在细节里。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众察觉她心中已起锋刃，进入试探前的静默蓄力。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.12,
+    "order": 3
+  },
+  {
+    "id": "shot_0004",
+    "scene_id": "scene_004",
+    "shot_number": 5,
+    "goal": "以女主发话的起始动作建立对白主导权，显示她主动掌控局面而非被动回应。",
+    "composition": "MS。高令宁仍在画面左侧，身形端正不动，仅下颌微抬；右侧中景可见小厮恭听的轮廓。桌案边缘在下方形成水平线，稳住画面。留白集中在她视线前方，给台词留出压迫空间。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众感到她开口越平静，威压越明显。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 4
+  },
+  {
+    "id": "shot_0005",
+    "scene_id": "scene_004",
+    "shot_number": 6,
+    "goal": "突出关键台词中的条件设限——“贵府小姐出嫁后”——明确高令宁是在借婚事逼沈词表态。",
+    "composition": "CU。高令宁嘴唇、下颌与一侧眼神占满画面，构图略偏左，右侧保留少量虚焦空间。侧光让她唇线与眼神更锋利，语气礼貌但攻击性埋在措辞中。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感受到话语像针一样刺出去，礼貌外壳之下全是试探与挑衅。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 5
+  },
+  {
+    "id": "shot_0006",
+    "scene_id": "scene_004",
+    "shot_number": 7,
+    "goal": "给出小厮的受压反应，证明高令宁的话击中了敏感处，也为信息回流沈府埋下后果。",
+    "composition": "MCU。小厮位于画面右侧偏中，闻言明显一滞，眼神下压后迅速应命；左前景仍保留高令宁肩部虚焦，维持视线方向一致。背景门框与屏风夹出狭窄纵深，使其像被困在规矩里。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众体会到这句回话并非普通传达，而是被迫带回去的一封战书。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈府小厮",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 6
+  },
+  {
+    "id": "shot_0007",
+    "scene_id": "scene_004",
+    "shot_number": 8,
+    "goal": "完成对话收束与人物调度，小厮退出，留下高令宁独处后的真实余波。",
+    "composition": "MLS。高令宁立于画面左中前景不动，成为稳定轴心；小厮从画面右后方向右侧门口退去，保持出画方向一致。门外亮光略过曝，形成内外空间反差；前景桌椅静止，强化她不送客、不挪步的掌控姿态。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "让观众感到她一句话便送走对方，局面已被她重新定义。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 7
+  },
+  {
+    "id": "shot_0008",
+    "scene_id": "scene_004",
+    "shot_number": 9,
+    "goal": "在独处瞬间揭示高令宁真正的情绪落点：不是失态，而是压住的一丝快意与算计得手后的冷意。",
+    "composition": "CU。高令宁独占画面中央略偏左，背景门口已空，只余一条亮边。她目光微垂后再轻抬，唇角极轻地压出一丝弧度，几乎不易察觉。侧逆光勾出发髻与脸颊轮廓，眼底暗部保留层次。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感到她并非单纯受伤，而是在主动出招，带着克制的胜意与危险。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 8
+  },
+  {
+    "id": "shot_0009",
+    "scene_id": "scene_004",
+    "shot_number": 10,
+    "goal": "冷收本场，留下高令宁仍立于原地的余韵，强调这场平静传话已成为关系博弈的起手式。",
+    "composition": "MS。高令宁位于画面左三分之一，面朝右侧门口，身体未动，衣摆垂顺；右侧大面积空景为离开的方向，背景窗光平稳，桌案与椅背形成沉静几何线条。空间看似恢复平静，实则留有未散的压力。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众带着悬念离场：她已出手，真正的回击还在后面。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.06,
+    "order": 9
+  }
+]

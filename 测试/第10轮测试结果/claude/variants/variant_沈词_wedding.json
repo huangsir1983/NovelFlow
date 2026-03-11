@@ -1,0 +1,31 @@
+{
+  "variant_id": "shen_ci_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 新婚夜",
+  "tags": [
+    "新郎",
+    "婚服",
+    "压抑"
+  ],
+  "scene_ids": [
+    "scene_009",
+    "scene_010"
+  ],
+  "trigger": "新婚之夜在婚房内，面对冷淡的妻子",
+  "appearance_delta": {
+    "face": "如玉面庞，眼神复杂矛盾",
+    "body": "长身玉立，姿态略显僵硬",
+    "hair": "束发戴冠，新郎发饰",
+    "distinguishing_features": "琥珀色眸子中透出不甘与困惑"
+  },
+  "costume_override": {
+    "outfit": "大红新郎礼服，绣金纹",
+    "color_palette": [
+      "大红",
+      "金色",
+      "墨色"
+    ]
+  },
+  "visual_reference": "handsome Chinese groom in red wedding robes with gold embroidery, jade-like cold features, amber eyes showing conflict and frustration, traditional wedding headpiece, ancient China wedding night, red candles background, elegant but tense posture",
+  "emotional_tone": "压抑的欲望与不甘"
+}

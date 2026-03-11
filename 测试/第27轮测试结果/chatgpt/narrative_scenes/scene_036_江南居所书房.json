@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_036",
+  "order": 35,
+  "heading": "INT. 江南书房 - night",
+  "location": "江南居所书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我"
+  ],
+  "core_event": "收到沈词来信称母亲为他挑好新妻，问我若不愿可回绝，我辗转一夜后回信祝他百年好合，却仍让他记得寄钱。",
+  "key_dialogue": "祝你和新夫人百年好合……婚后莫忘寄钱。",
+  "emotional_peak": "表面放下，内里最后一次试探",
+  "tension_score": 0.71,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "书信",
+    "毛笔",
+    "烛台"
+  ],
+  "dramatic_purpose": "以书信试探彼此心意，也为沈词亲赴江南制造动机。",
+  "visual_reference": "冬夜书房烛火微弱，女子反复读信、提笔又停，窗外风雪未化，桌上信纸展开，神情复杂而克制，古风夜读与回信场景",
+  "visual_prompt_negative": "避免现代台灯、避免过度哭戏、避免暖甜氛围、避免场景过于空旷",
+  "source_text_start": "直到一次，他特意在信里写道：「母亲已经为我挑选好一大家闺秀",
+  "source_text_end": "这次书信寄过去，宛如石沉大海。\n久久没有回信。"
+}

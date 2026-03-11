@@ -1,0 +1,48 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "18-23",
+  "appearance": {
+    "face": "温婉清丽，梨涡浅笑，楚楚可怜",
+    "body": "纤细柔弱",
+    "hair": "柔顺青丝轻挽",
+    "distinguishing_features": "泪眼盈盈如清泉般的眸子"
+  },
+  "costume": {
+    "typical_outfit": "粉色罗裙",
+    "color_palette": [
+      "粉红",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "柔弱心机女",
+    "青梅情敌",
+    "楚楚可怜"
+  ],
+  "visual_reference": "一位19岁左右的古代柔弱少女，温婉清丽鹅蛋脸，梨涡浅笑眼神楚楚可怜，身材纤细，身穿粉色罗裙侧坐在柳池边或塌上，手持风筝或药碗，柔和光影营造可怜氛围，写实风格，高清细节",
+  "visual_prompt_negative": "强壮身材、浓妆、现代服饰、强势姿态、卡通风格",
+  "personality": "表面温婉柔弱，实则心机嫉妒",
+  "desire": "嫁给沈词或寻得良配",
+  "flaw": "嫉恨陷害他人",
+  "arc": "重生后自食恶果，从受害者到主动设计",
+  "scene_presence": "多次关键出场制造冲突，从马球会到高家陷害再到满月宴告白",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅义兄妹",
+      "dynamic": "依赖宠爱",
+      "function": "三角关系冲突源"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "嫉恨陷害",
+      "function": "推动女主情绪转折"
+    }
+  ]
+}

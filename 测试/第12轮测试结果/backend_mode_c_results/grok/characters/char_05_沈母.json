@@ -1,0 +1,40 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆母"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "贵妇端庄，略带威严",
+    "body": "富态",
+    "hair": "盘髻戴金钗",
+    "distinguishing_features": "保养得宜的贵气面容"
+  },
+  "costume": {
+    "typical_outfit": "华贵夫人袍",
+    "color_palette": [
+      "金黄",
+      "紫红"
+    ]
+  },
+  "casting_tags": [
+    "传统婆母",
+    "势利贵妇"
+  ],
+  "visual_reference": "一位50岁左右的古代贵妇，端庄面容保养得宜，身材富态，黑发盘髻戴金钗，身穿金黄色华贵袍服，站在沈家厅堂表情略带陪笑，室内烛光写实风格",
+  "visual_prompt_negative": "年轻少女脸、朴素衣着、凶恶表情、卡通风格",
+  "personality": "势利护子、传统门第观",
+  "desire": "孙辈传宗接代",
+  "flaw": "轻视低门媳妇",
+  "arc": "从立威到理亏退让",
+  "scene_presence": "上门争昭昭时短暂出现",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "宠爱",
+      "function": "推动纳妾冲突"
+    }
+  ]
+}

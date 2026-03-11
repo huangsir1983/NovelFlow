@@ -1,0 +1,222 @@
+[
+  {
+    "id": "shot_0053",
+    "scene_id": "scene_003",
+    "shot_number": 1,
+    "goal": "建立婚礼礼堂的礼制空间与压迫气氛，同时将观众限制在新娘所处的人群包围感中，而非全知视角。",
+    "composition": "WS，机位略偏高但仍在人群高度内。画面前景左右被晃动的红绸与宾客肩背虚化遮挡，中景正前方礼案端正居中，红烛成对高悬形成纵向视觉引导，背景喜幛铺满。新郎新娘位于画面中轴偏后，彼此相对却被礼器和人群切割，空间封闭。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "热闹中的寒意，体面仪式下的窒闷感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 53
+  },
+  {
+    "id": "shot_0054",
+    "scene_id": "scene_003",
+    "shot_number": 2,
+    "goal": "切入高令宁的限制性主观感知，交代她被红盖头遮蔽、看不清现实，只能捕捉对面模糊轮廓。",
+    "composition": "MCU主观镜头。画面四周被半透明红纱自然晕染成暗红边框，中央偏右仅见沈睿模糊而端正的站姿轮廓，礼案边角和红烛火苗在下方与侧后方虚化闪动。留白偏多，人物被纱幕与浅景深隔开。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "失真、隔膜、如梦未醒的不安。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 54
+  },
+  {
+    "id": "shot_0055",
+    "scene_id": "scene_003",
+    "shot_number": 3,
+    "goal": "落回高令宁本人，明确她在仪式中心却精神抽离，身体僵直。",
+    "composition": "MCU，机位位于高令宁正侧前方45度，遵守轴线使她面向画面右侧的沈睿。前景下沿为红盖头垂下的纱边，主体占左三分之一，肩背挺直但手部僵硬垂于身前。背景是虚化的喜幛与晃动人影，烛光在她身后形成冷暖对冲的边缘光。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "她人在场中，心却不在；克制之下的抽离。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.02,
+    "order": 55
+  },
+  {
+    "id": "shot_0056",
+    "scene_id": "scene_003",
+    "shot_number": 4,
+    "goal": "用礼声催促制造外部压力，强调高令宁迟迟没有动作，仪式开始失衡。",
+    "composition": "MS，仍在同一轴线侧。高令宁位于画面左侧，沈睿位于右侧偏后，中间留出礼制距离。前景有一角礼案和红烛火焰，背景宾客虚化成一片暗红噪声。两人都站定，只有环境在催促他们完成动作。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "公开场合下的尴尬与逼迫感。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 56
+  },
+  {
+    "id": "shot_0057",
+    "scene_id": "scene_003",
+    "shot_number": 5,
+    "goal": "给出沈睿的反应：他没有失态，只是克制地观察与等待。",
+    "composition": "MCU，沈睿位于画面右三分之一，身体朝左面对高令宁。前景左侧保留一片红纱虚影作为高令宁主观联系，背景为暗金喜幛与一支竖直红烛，构图规整，线条压住他的情绪。侧脸平静，眼神略低，几乎无波。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷静、分寸、压住情绪的体面。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 57
+  },
+  {
+    "id": "shot_0058",
+    "scene_id": "scene_003",
+    "shot_number": 6,
+    "goal": "把高令宁的迟滞推到最明显一刻：她对外界催促反应慢半拍，失神被看见。",
+    "composition": "CU，高令宁脸部被红盖头半遮，主体居中略偏左。纱下眼部轮廓隐约可见，目光没有聚焦。前景无，背景完全压成暗红与烛点散景，使观众被迫盯住她的停顿。微弱呼吸带动纱面。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "空白、眩晕、心神脱位。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 58
+  },
+  {
+    "id": "shot_0059",
+    "scene_id": "scene_003",
+    "shot_number": 7,
+    "goal": "用一个极小动作打破僵局：沈睿轻咳，既是提醒，也是替她兜住场面。",
+    "composition": "CU，沈睿侧脸占画面右半，嘴唇与下颌线清晰，喉结轻动。前景左侧仍保留一层红纱虚化，形成对高令宁的空间指向。背景红烛火苗竖立不动，与这一声轻咳的克制形成反差。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "微刺般的提醒，冷静中的控制力。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.34,
+    "order": 59
+  },
+  {
+    "id": "shot_0060",
+    "scene_id": "scene_003",
+    "shot_number": 8,
+    "goal": "呈现高令宁被这一声拉回现实，完成从失神到被迫配合的心理转折。",
+    "composition": "CU，高令宁纱下的眼部微微一颤，头部极轻地转向右侧。主体居中，前景是盖头边缘，背景烛光轻微晃动。镜头仍紧贴她，不给任何逃离空间。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "惊醒、收束、自我压回礼制之内。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 60
+  },
+  {
+    "id": "shot_0061",
+    "scene_id": "scene_003",
+    "shot_number": 9,
+    "goal": "交代两人终于进入夫妻对拜动作，但姿态不是默契而是机械完成。",
+    "composition": "MLS，双人对称构图。高令宁在左，沈睿在右，礼案下沿横切画面前景，红烛居中偏后形成轴心。两人同时俯身，但高令宁的动作略慢半拍，身体线条僵硬；沈睿动作标准、克制。背景宾客仍虚化，不夺主。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "礼成而情不成，表面整齐下的错拍。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 61
+  },
+  {
+    "id": "shot_0062",
+    "scene_id": "scene_003",
+    "shot_number": 10,
+    "goal": "用动作细节强化高令宁的机械感和心不在焉，而不是靠表演空说。",
+    "composition": "ECU，高令宁交叠在身前的双手与袖口占据画面中央，手指收紧后才迟缓地下沉行礼。前景一缕红纱扫过，背景只有失焦的暗金与烛红。动作带一点不自然的停顿。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "压抑、自控、身体服从而心神拒绝。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 62
+  },
+  {
+    "id": "shot_0063",
+    "scene_id": "scene_003",
+    "shot_number": 11,
+    "goal": "给沈睿一个反应镜头，说明他注意到她的异常，却仍选择维持体面，不追问。",
+    "composition": "MCU，沈睿行礼后起身，位于画面右侧，视线落向左侧的高令宁，停留极短。前景下沿是礼案一角，背景喜幛平整，画面结构压得很稳。表情近乎没有变化，只有眼神收了一下。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "克制中的洞察，礼貌外壳下的冷静评估。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.06,
+    "order": 63
+  },
+  {
+    "id": "shot_0064",
+    "scene_id": "scene_003",
+    "shot_number": 12,
+    "goal": "冷收尾：婚礼流程继续，场面恢复秩序，但观众已经看清这段婚姻从一开始就带着裂缝。",
+    "composition": "MS偏主观回落。画面仍透过高令宁红纱边缘看向对面的沈睿，他的轮廓重新变得稍有距离感。礼案与红烛稳稳压在中线，人群声势回到背景。高令宁不入正脸，只让遮蔽本身成为她的情绪。空间看似归位，隔阂被保留。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "礼成后的更深冷意，关系被体面封存。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.04,
+    "order": 64
+  }
+]

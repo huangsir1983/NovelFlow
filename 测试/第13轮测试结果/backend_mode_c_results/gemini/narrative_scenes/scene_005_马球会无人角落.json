@@ -1,0 +1,20 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "EXT. 马球会角落 - DAY",
+  "location": "马球会无人角落",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词找到假装崴脚的高令宁，两人发生言语冲突，沈词言语轻佻，强行要抱她回去，被高令宁以礼教拒绝。",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "沈词用前世的亲密关系来羞辱高令宁，两人间的张力达到顶点。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 70,
+  "key_props": [],
+  "dramatic_purpose": "展现沈词在被刺激后的失控和攻击性，以及高令宁坚守底线的态度。",
+  "source_text_start": "寻了个无人的角落，我坐下揉了揉脚。\n很痛。",
+  "source_text_end": "「你身上哪里，我没碰过？」"
+}

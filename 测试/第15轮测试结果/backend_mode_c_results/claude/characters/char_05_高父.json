@@ -1,0 +1,42 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹"
+  ],
+  "role": "supporting",
+  "age_range": "40-60岁",
+  "appearance": {
+    "face": "慈祥温和，眼角有皱纹",
+    "body": "中年发福",
+    "hair": "花白头发",
+    "distinguishing_features": "护女心切的神态"
+  },
+  "costume": {
+    "typical_outfit": "四品官服或居家长袍",
+    "color_palette": [
+      "深蓝",
+      "褐色"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "四品官",
+    "护女"
+  ],
+  "visual_reference": "古代中年官员，面容慈祥温和，眼角有皱纹，头发花白，身着深蓝色四品官服或褐色居家长袍，腰佩官印，站姿稳重，眼神慈爱又带着忧虑，整体气质温和儒雅，背景为官府或家宅",
+  "visual_prompt_negative": "现代西装，年轻面容，严厉表情，华丽服饰",
+  "personality": "慈爱护女，温和谨慎，明智果断",
+  "desire": "女儿幸福平安",
+  "flaw": "过于谨慎保守",
+  "arc": "从支持女儿高嫁到保护女儿和离",
+  "scene_presence": "关键场景出现，提供支持",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "深爱护持",
+      "function": "情感支撑"
+    }
+  ]
+}

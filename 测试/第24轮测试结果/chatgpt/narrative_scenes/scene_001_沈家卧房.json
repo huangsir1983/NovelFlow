@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 沈府内宅 - 夜",
+  "location": "沈家卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "成亲第二年我怀孕，大夫断定是男孩，沈词提出为了未来的儿子继续维持婚姻，我却提出按约定和离。",
+  "key_dialogue": "「还是按约定和离吧。」",
+  "emotional_peak": "我在怀着孩子时仍决意斩断与沈词的一生纠葛。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "诊脉结果",
+    "婚约约定",
+    "腹中胎儿"
+  ],
+  "dramatic_purpose": "以结果场开篇，抛出重生婚姻的核心矛盾与和离主题。",
+  "visual_reference": "古代高门内宅夜色沉沉，女子孕中平静决绝，男子克制震惊，烛光下气氛冰冷压抑。",
+  "visual_prompt_negative": "不要现代元素，不要夸张仙侠风，不要霓虹灯，不要卡通感，不要西式家具。",
+  "source_text_start": "我和沈词的长子成了一代名相。是以双双重生",
+  "source_text_end": "我想了想。大概是因为这次，不想再与他纠缠一生了吧。"
+}

@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_03",
+  "variant_type": "casual",
+  "variant_name": "高父 — 书房辞官时的退守家门形象",
+  "tags": [
+    "辞官",
+    "书房",
+    "避祸",
+    "家族支柱"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "在高府书房中，高父受女儿劝说写下辞官奏折，正式从官场退一步，以求保住家业与家人性命。",
+  "appearance_delta": {
+    "face": "脸色更沉，忧思更重，带有下定决心后的疲惫与清醒",
+    "body": "伏案书写时更显清瘦，胸口旧疾与精神压力让他略有虚弱感",
+    "hair": "发髻整肃但因久坐书写略显凝滞沉重，鬓边白发存在感更强",
+    "distinguishing_features": "手边辞官奏折强化其从文臣到退守父亲角色的转变，文弱外表下显出关键时刻的担当"
+  },
+  "costume_override": {
+    "outfit": "便于书写处理家事的深色家常长袍或半正式文臣袍服，袖口利落，整体低调",
+    "color_palette": [
+      "深青",
+      "灰蓝",
+      "墨褐"
+    ]
+  },
+  "visual_reference": "middle-aged ancient Chinese scholar-official writing a resignation memorial in a study, thin and weary father, kind worried face with pronounced wrinkles, slightly graying temples, neat topknot, dark muted scholar robe in deep teal and gray-blue, seated at a desk with brush, inkstone and paper, solemn decision to leave office, restrained historical realism, cinematic study interior",
+  "emotional_tone": "沉重、果决、护家"
+}

@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 医馆门外 - 日",
+  "location": "医馆门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦住高令宁，提出为沈睿而婚的条件",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次",
+  "emotional_peak": "痛苦与妥协",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "大雁勒痕"
+  ],
+  "dramatic_purpose": "揭示沈睿的重要性，确立婚约条件",
+  "source_text_start": "想起他胸口痛的老毛病，我想到医馆为他开一帖药。",
+  "source_text_end": "「谁纠缠谁是狗。」他抿唇，不再说话。四目相对，只剩恨意。"
+}

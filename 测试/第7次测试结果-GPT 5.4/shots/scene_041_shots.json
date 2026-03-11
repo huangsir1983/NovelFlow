@@ -1,0 +1,224 @@
+[
+  {
+    "id": "shot_0616",
+    "scene_id": "scene_041",
+    "shot_number": 1,
+    "goal": "建立厢房封闭、失序且危险的空间气氛，预告现场将成为误会核心。",
+    "composition": "门外回廊斜侧视角，房门占画面右侧三分之一，左侧为昏暗回廊与急促逼近的人影；前景有门框与垂落帘角形成遮挡，门缝中漏出一线残光，地面可见散落衣角延伸向室内，视觉引导线指向门内黑暗。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "压迫、不祥、窥见禁忌前的一瞬屏息",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 616
+  },
+  {
+    "id": "shot_0617",
+    "scene_id": "scene_041",
+    "shot_number": 2,
+    "goal": "通过推门动作触发揭示，强调下人发现现场的突然性。",
+    "composition": "机位贴近门内，房门自左向右猛地撞开，占据前景大面积暗色块；门外人影被压在门框内，残光从门后切入屋内，照亮凌乱地面上的衣物与翻倒小几一角，空间纵深被门框切割得狭窄。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "惊吓、冒犯感、闯入禁地的不安",
+    "duration_hint": "1-2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 617
+  },
+  {
+    "id": "shot_0618",
+    "scene_id": "scene_041",
+    "shot_number": 3,
+    "goal": "以女主主观视角首次看见现场，但只给出碎片信息，先制造感知冲击而不完全证实。",
+    "composition": "主观POV从门口望入，前景下方虚化为门槛与散乱裙裾，中景是床榻边垂落的衣带、半掀褥角与两道交叠的人体轮廓，背景窗缝残光切在地面，故意不见完整面容；画面左侧留出大片阴影，让观众自行补全关系。",
+    "camera_movement": "dolly",
+    "framing": "FS",
+    "emotion_target": "震惊、嫌恶、难以置信",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 618
+  },
+  {
+    "id": "shot_0619",
+    "scene_id": "scene_041",
+    "shot_number": 4,
+    "goal": "补足失序证据，明确这是挣扎或局势失控后的现场，而非单纯暧昧画面。",
+    "composition": "低机位掠过地面，前景是被踩乱的绣鞋与衣物，中央是翻倒的小几和扯断的系带，背景虚化出床榻腿与拖曳痕迹；对角线构图让凌乱痕迹通向画外人物位置。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "不适、疑窦、现场异常的刺感",
+    "duration_hint": "1-2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 619
+  },
+  {
+    "id": "shot_0620",
+    "scene_id": "scene_041",
+    "shot_number": 5,
+    "goal": "完整揭示陆姝仪与蒋晟失去意识且衣冠不整地倒在一处，完成本场核心视觉信息。",
+    "composition": "从门口正轴稍偏左的客观角度拍床榻与地面交界，两人横陈于画面中下部，陆姝仪偏左、蒋晟偏右，身体形成危险的靠近关系；前景门框暗压，背景窗缝残光勾出两人轮廓，衣襟散乱但避免直接色情化，床榻高低差强化失控感。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "强烈误会、道德危机、权力秩序被玷污的冲击",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 620
+  },
+  {
+    "id": "shot_0621",
+    "scene_id": "scene_041",
+    "shot_number": 6,
+    "goal": "切到高令宁的受击反应，表现她在礼法与情绪之间骤然冻结。",
+    "composition": "高令宁位于画面右侧三分之一，身形在门外停住，肩背仍端直但脚步已止；前景左侧为虚化门框，背景是暗廊与跟随而来的模糊人影，侧脸被门内残光切出冷白轮廓，眼尾微红未失控。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "心口骤坠、克制中的刺痛与寒意",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 621
+  },
+  {
+    "id": "shot_0622",
+    "scene_id": "scene_041",
+    "shot_number": 7,
+    "goal": "通过细微动作确认高令宁并非单纯震惊，而是在迅速判断局势与责任归属。",
+    "composition": "高令宁眼部与下颌的近特写，眼睛位于画面上方偏左，视线自房内扫向右侧画外；前景有一缕贴颊碎发，背景完全虚化成冷暗色块，保留颈侧淡痕一线，强化危险与清醒并存。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷怒、审判欲、压住爆发前的锋利",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 622
+  },
+  {
+    "id": "shot_0623",
+    "scene_id": "scene_041",
+    "shot_number": 8,
+    "goal": "交代她目光转向沈词，将现场的‘丑闻’升级为人物关系与权力博弈。",
+    "composition": "过肩镜头，从高令宁后肩拍向沈词，保持180度轴线；高令宁肩背占前景右侧虚焦，沈词立于画面左中，半身被门框切割，面容冷硬，身后暗墙压实空间，二人之间留出一道空隙，像不可跨越的礼法裂缝。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "对质前夜、关系骤冷、空气凝结",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 623
+  },
+  {
+    "id": "shot_0624",
+    "scene_id": "scene_041",
+    "shot_number": 9,
+    "goal": "呈现沈词的第一反应：并非慌乱辩解，而是压至极致的冷硬与失控前兆。",
+    "composition": "沈词正面微侧特写，位于画面中央偏左，眼神直指画外高令宁；前景下方有虚化门框边缘像一道刀口，背景为深暗室内，无其他人物干扰，颧侧冷光压出骨相，唇线绷紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "寒意、危险、情绪被死死压住的压迫",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.91,
+    "order": 624
+  },
+  {
+    "id": "shot_0625",
+    "scene_id": "scene_041",
+    "shot_number": 10,
+    "goal": "补一记沈词视角的主观确认，将高令宁的冷眼变成对他的无声指控。",
+    "composition": "沈词主观POV，高令宁站在门外残光里，居中略偏右，身后众人模糊成压迫背景；门框形成天然竖线将她困在一格中，她不前进也不后退，只以冷眼回望，画面下方保留门槛，强调两人被空间和事实隔开。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "误解成形、信任断裂、审视与反刺",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 625
+  },
+  {
+    "id": "shot_0626",
+    "scene_id": "scene_041",
+    "shot_number": 11,
+    "goal": "以双人对望完成无对白对峙，冻结本场最高压时刻。",
+    "composition": "轴线上对称双人构图，高令宁在右前景三分之一，沈词在左中景三分之一，中间留出空白与门框暗线；背景深处虚化出床榻上两道失序身影，作为二人关系断裂的证据悬在中央，四层纵深同时成立。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "窒息、无可辩驳、关系坠入陷局",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 626
+  },
+  {
+    "id": "shot_0627",
+    "scene_id": "scene_041",
+    "shot_number": 12,
+    "goal": "以静止的现场作为收束，留下误会已不可逆扩散的余波。",
+    "composition": "回到更远的门外客观全景，房门洞开，众人堵在门口成一圈沉默剪影，室内床榻与两具昏迷身体在深处可见；门框、帘幕、人物层层遮挡，形成被礼法审判的 tableau，画面中央留一块空地像无形深坑。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "余寒、定罪感、风暴前的死寂",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 627
+  }
+]

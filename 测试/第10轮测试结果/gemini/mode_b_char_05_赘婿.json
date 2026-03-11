@@ -1,0 +1,40 @@
+{
+  "name": "赘婿",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "20-25",
+  "appearance": {
+    "face": "相貌出众，温和",
+    "body": "匀称",
+    "hair": "披散或半束",
+    "distinguishing_features": "极度顺从体贴的姿态"
+  },
+  "costume": {
+    "typical_outfit": "江南文人长衫",
+    "color_palette": [
+      "素白",
+      "浅灰"
+    ]
+  },
+  "casting_tags": [
+    "男宠",
+    "温润如玉",
+    "工具人"
+  ],
+  "visual_reference": "A handsome young ancient Chinese scholar, gentle and submissive, wearing light grey hanfu.",
+  "personality": "温柔体贴，安分守己",
+  "desire": "伺候好高令宁",
+  "flaw": "无独立主见",
+  "arc": "无",
+  "scene_presence": "江南雪地，卧室",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "妻子/金主",
+      "dynamic": "顺从伺候",
+      "function": "彻底击溃男主心理防线的终极工具"
+    }
+  ]
+}

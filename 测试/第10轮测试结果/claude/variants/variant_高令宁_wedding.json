@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 新婚之夜",
+  "tags": [
+    "新娘",
+    "红妆",
+    "冷淡",
+    "已婚"
+  ],
+  "scene_ids": [
+    "scene_009",
+    "scene_010"
+  ],
+  "trigger": "与沈词成婚当晚，穿戴新娘礼服但内心疏离",
+  "appearance_delta": {
+    "face": "妆容精致但眼神疲倦冷淡",
+    "body": "新娘姿态但缺乏喜悦",
+    "hair": "新娘发髻，插满金钗珠翠",
+    "distinguishing_features": "红盖头下的漠然表情，眼中无波澜"
+  },
+  "costume_override": {
+    "outfit": "大红色新娘礼服，绣金凤凰，层层叠叠",
+    "color_palette": [
+      "大红",
+      "金色",
+      "朱红"
+    ]
+  },
+  "visual_reference": "Chinese bride in elaborate red wedding hanfu with golden phoenix embroidery, ornate bridal hairstyle with gold hairpins, red veil, tired indifferent eyes, sitting on wedding bed with red candles, luxurious but emotionally cold atmosphere, ancient China wedding chamber",
+  "emotional_tone": "疲倦、冷淡、敷衍、心不在焉"
+}

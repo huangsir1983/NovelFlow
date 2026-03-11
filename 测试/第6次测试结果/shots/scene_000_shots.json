@@ -1,0 +1,380 @@
+[
+  {
+    "id": "shot_0041",
+    "scene_id": "scene_000",
+    "shot_number": 1,
+    "goal": "建立正厅的礼法空间与权力结构，明确沈母居上、高令宁被置于受礼位置、陆姝仪跪地敬茶的失礼局面。",
+    "composition": "WS对称构图，厅门方向为镜头轴线末端，沈母居画面上中偏后主位，形成制高点；高令宁坐于画面右侧下首，沈词立于其后偏右；陆姝仪跪在画面中央偏下，手托茶盏与茶托，成为众目焦点。前景留出空阔地面与茶案一角，侧窗斜光切开地面，门框与梁柱形成压景。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压迫、不适、礼法外壳下的羞辱感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 41
+  },
+  {
+    "id": "shot_0042",
+    "scene_id": "scene_000",
+    "shot_number": 2,
+    "goal": "切入高令宁主观感知，强调她被迫接受这一安排时的愤怒与瞬间失控前的压抑。",
+    "composition": "MCU，高令宁位于画面右三分之一，肩背挺直但下颌微绷，视线斜切向画面左下；前景虚化掠过陆姝仪的发髻与茶盏边缘，背景是沈府深色木构与一线冷光，面颊被侧光打出发红与阴影对撞。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "窒息、屈辱、怒意上涌",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 42
+  },
+  {
+    "id": "shot_0043",
+    "scene_id": "scene_000",
+    "shot_number": 3,
+    "goal": "以主观压迫视角确认陆姝仪的跪姿与敬茶行为，强化高令宁认知中的羞辱对象。",
+    "composition": "MS偏俯视，陆姝仪跪在画面中央偏左，双手托茶盏举至胸前，身形单薄，衣袖素淡；前景底部是高令宁衣摆虚焦，背景上方压着沈母座椅腿与茶案边缘，构成从上到下的挤压。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "刺痛、失衡、被逼到墙角的敌意",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 43
+  },
+  {
+    "id": "shot_0044",
+    "scene_id": "scene_000",
+    "shot_number": 4,
+    "goal": "交代沈母的默许与掌控，点明这不是误会而是安排。",
+    "composition": "MCU，沈母端坐画面中央略偏左，背后高椅与屏风形成垂直压迫线；前景右下角虚化的是跪地人影与举起的茶盏轮廓。沈母目光下压，嘴唇紧抿，手扶椅臂不动。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷酷、权威、规训感",
+    "duration_hint": "2s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 44
+  },
+  {
+    "id": "shot_0045",
+    "scene_id": "scene_000",
+    "shot_number": 5,
+    "goal": "交代沈词在场但未阻止，形成高令宁主观上的背叛与逼迫。",
+    "composition": "MCU，沈词位于画面左侧，身形笔直，目光落向画面外右下；前景是一道虚化的红色袖缘掠过，暗示高令宁位置。背景为厅柱与暗部，脸部半明半暗，唇线收紧却未动作。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "失望、寒意、压抑的危险感",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 45
+  },
+  {
+    "id": "shot_0046",
+    "scene_id": "scene_000",
+    "shot_number": 6,
+    "goal": "聚焦敬茶动作临门一脚，制造爆发前的时间拉紧。",
+    "composition": "CU，茶盏与茶托位于画面中央，陆姝仪的纤细手指发白，盏中茶面微颤；背景虚化中可见高令宁深色衣襟与膝边轮廓。斜光打亮杯沿，瓷白与茶色形成脆弱对比。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "悬着一口气、预感失控",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 46
+  },
+  {
+    "id": "shot_0047",
+    "scene_id": "scene_000",
+    "shot_number": 7,
+    "goal": "表现高令宁决断瞬间，完成她第一次主动反击的起手。",
+    "composition": "CU，高令宁的眼与半边脸占据画面右侧，眼神死死锁定画外左下；前景左侧虚化茶盏边缘切入。她呼吸发紧，脸色泛红，眉骨与眼尾被侧光拉锐。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "决绝、燃点被点燃",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.65,
+    "order": 47
+  },
+  {
+    "id": "shot_0048",
+    "scene_id": "scene_000",
+    "shot_number": 8,
+    "goal": "直接呈现打翻茶杯的动作爆点，打断礼法秩序。",
+    "composition": "MS侧面构图，高令宁在画面右侧猛然起手横扫，手臂形成清晰动作线；陆姝仪跪于画面左下，手中茶盏被击离。茶盏与茶托飞出画面中央，茶水在斜光中散开，背景是厅堂深暗木墙。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "震惊、突兀、礼崩",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 48
+  },
+  {
+    "id": "shot_0049",
+    "scene_id": "scene_000",
+    "shot_number": 9,
+    "goal": "强调瓷杯坠地碎裂的不可逆，作为后续自伤的物理引信。",
+    "composition": "CU俯拍，茶盏砸在地面中央炸裂，碎瓷向四周飞溅，茶水铺开成不规则深色痕迹；前景一片碎瓷大块停在画面下方，背景模糊可见跪地衣摆与站立鞋尖。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、危险、事态失控",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 49
+  },
+  {
+    "id": "shot_0050",
+    "scene_id": "scene_000",
+    "shot_number": 10,
+    "goal": "展示高令宁没有后退而是进一步夺回局面，抓起碎瓷片。",
+    "composition": "MS偏低机位，高令宁迅速俯身，占据画面右侧大半，袖摆垂落；她的手伸向画面中央地面上一片锋利碎瓷。背景左侧虚化可见陆姝仪惊退，沈词身形开始前倾。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "危险升级、不可预测",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 50
+  },
+  {
+    "id": "shot_0051",
+    "scene_id": "scene_000",
+    "shot_number": 11,
+    "goal": "给出自伤动作的关键细节，让观众在极短时间内理解她真正攻击的对象是自己。",
+    "composition": "ECU，高令宁手指攥住带血茶水的锋利瓷片，指节发白，瓷锋反光冷亮；背景完全虚化，只剩一抹颈侧冷白皮肤在画面上缘待入。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "惊惧、寒意、决绝",
+    "duration_hint": "0.8-1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 51
+  },
+  {
+    "id": "shot_0052",
+    "scene_id": "scene_000",
+    "shot_number": 12,
+    "goal": "完成她反手划向颈侧的核心动作，确立宁折不弯的人物极端性。",
+    "composition": "MCU近主观角度，高令宁位于画面中央偏右，反手将碎瓷贴向自己左侧颈部；她的肩颈线绷成一条紧弓。背景深处沈母与陆姝仪模糊失焦，世界像瞬间退远。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "震撼、窒息、悲烈",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 52
+  },
+  {
+    "id": "shot_0053",
+    "scene_id": "scene_000",
+    "shot_number": 13,
+    "goal": "让沈词的反应形成爆发式介入，说明他来不及思考只剩本能阻止。",
+    "composition": "MS斜侧构图，沈词从画面左侧高速闯入，身体前扑，手臂直取高令宁手腕；高令宁位于画面右侧后退半步，碎瓷离颈只余寸许。背景座椅与梁柱被运动拖出模糊线条。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "骤然救险、强制介入的压迫",
+    "duration_hint": "1s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 53
+  },
+  {
+    "id": "shot_0054",
+    "scene_id": "scene_000",
+    "shot_number": 14,
+    "goal": "交代截停成功但已见血，保留动作代价。",
+    "composition": "CU，高令宁的手腕被沈词死死扣在画面中央，碎瓷片停在颈侧皮肤前方，细细血痕已渗出一线红；两人的衣袖一深一浅纠缠在前景，背景完全压暗。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "后怕、疼痛、纠缠感",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 54
+  },
+  {
+    "id": "shot_0055",
+    "scene_id": "scene_000",
+    "shot_number": 15,
+    "goal": "完成身体控制关系的逆转：沈词强行将人拽入怀中，高令宁仍不肯软下。",
+    "composition": "MLS，沈词位于画面中央偏左，以一臂锁住高令宁肩背，另一手压住她持瓷的手腕；高令宁被拽入他怀中却仍身体前顶、颈项紧绷，位于画面中央偏右。地面碎瓷与泼茶留在下方前景，形成残局见证。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "窒息的控制、对抗未止",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 55
+  },
+  {
+    "id": "shot_0056",
+    "scene_id": "scene_000",
+    "shot_number": 16,
+    "goal": "以高令宁状态特写呈现她没有崩塌，而是在伤口与喘息中继续硬撑。",
+    "composition": "CU，高令宁被圈在画面中央，脸侧贴近沈词胸前衣料边缘但眼神仍向外，颈间血痕清晰，唇微张急促换气；背景被压成深色虚空，只留一线窗光切过她颈侧与下颌。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "悲烈、自尊未折、令人心疼的狠劲",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 56
+  },
+  {
+    "id": "shot_0057",
+    "scene_id": "scene_000",
+    "shot_number": 17,
+    "goal": "给出有限他人反应，体现这一举动对沈母权威的直接冲击。",
+    "composition": "MCU，沈母位于画面中央，身体僵直，手仍停在椅臂上，指尖失力；背景主位屏风纹样端严不动，反衬她面色骤白。前景下方虚化带过一抹晃动的人影。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "失声、威权被击穿的惊惶",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 57
+  },
+  {
+    "id": "shot_0058",
+    "scene_id": "scene_000",
+    "shot_number": 18,
+    "goal": "交代陆姝仪受惊昏倒，完成这场礼法戏中另一方的彻底失势。",
+    "composition": "MS，陆姝仪位于画面左侧，从跪姿向侧面软倒，衣袖与发丝散开；地面茶水与碎瓷在她身旁形成危险边界。背景右侧模糊可见高令宁与沈词纠缠的身影，视觉重心仍然偏向后者。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "混乱、余震、脆弱崩塌",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪",
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 58
+  },
+  {
+    "id": "shot_0059",
+    "scene_id": "scene_000",
+    "shot_number": 19,
+    "goal": "回到情感核心，表现沈词低头看伤口却最终无言，只剩占有式拥紧。",
+    "composition": "MCU双人，高令宁在画面右侧前景，后脑与颈侧伤痕清晰；沈词在左后侧低头贴近她颈边，眼神落在血痕上，嘴唇微动却未发声，手臂收得更紧。背景彻底虚化，只剩厅堂冷暖交界的光斑。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "复杂、克制、危险又暧昧的沉默",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 59
+  },
+  {
+    "id": "shot_0060",
+    "scene_id": "scene_000",
+    "shot_number": 20,
+    "goal": "以残局收束场面，确认高令宁已用血与失控打断沈家秩序，完成第一次立威。",
+    "composition": "FS，镜头回到稍高位全景但不再对称：地面中央是碎瓷、泼茶与倒地的陆姝仪；画面右侧沈词仍抱着高令宁，形成新的权力焦点；沈母孤坐上位却显得遥远失措。斜光照在地上的血线与碎瓷上，红色极少却刺目。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "余悸、改写秩序后的冷厉震荡",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.62,
+    "order": 60
+  }
+]

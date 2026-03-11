@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_010",
+  "name": "高家厅堂",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸厅堂",
+  "description": "正式谈判的厅堂，宽敞布局与正堂相似但更开阔，中央置和离书桌与跪垫，侧边昭昭襁褓摇篮，墙挂家训匾额，地面青砖，装饰以红木家具和华服道具为主，体现家族冲突场景。",
+  "visual_reference": "Formal negotiation hall in late Ming dynasty official mansion, spacious with central table for divorce papers and kneeling cushion, baby cradle nearby, family motto plaque on wall, rosewood furniture, blue brick floor, dramatic daytime light, highly detailed cinematic",
+  "atmosphere": "正式冲突激烈",
+  "color_palette": [
+    "朱红",
+    "金黄",
+    "深褐",
+    "白襁褓"
+  ],
+  "lighting": "白天自然光均匀照亮整个厅堂，增强谈判张力",
+  "key_features": [
+    "和离书桌与跪垫",
+    "昭昭襁褓摇篮",
+    "家训匾额"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "索孙被拒的对抗到沈词跪求不可置信的崩溃"
+}

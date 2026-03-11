@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 沈府 - 日（前世回忆）",
+  "location": "沈府",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世婚后第二日，陆姝仪敬茶，高令宁自残抗议",
+  "key_dialogue": "你们都漏算了一步",
+  "emotional_peak": "愤怒与绝望",
+  "tension_score": 0.9,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "茶杯",
+    "瓷片"
+  ],
+  "dramatic_purpose": "展现前世矛盾的起点",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。那是他母亲的侄女",
+  "source_text_end": "包括沈词。"
+}

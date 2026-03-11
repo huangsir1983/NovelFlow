@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_035",
+  "order": 34,
+  "heading": "INT. 高家正堂 - DAY",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "父亲",
+    "沈母"
+  ],
+  "core_event": "产后沈家想接走昭昭，父亲强硬拒绝，并以沈词与义妹暧昧险些害死发妻为筹码，威胁若纠缠便对簿公堂。",
+  "key_dialogue": "「两个孩子和离后，昭昭归高家。」",
+  "emotional_peak": "父亲第一次彻底站到沈家对立面，为我和孩子封死回头路。",
+  "tension_score": 0.81,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "孙女探视请求",
+    "公堂威胁",
+    "茶案"
+  ],
+  "dramatic_purpose": "巩固高家作为我与女儿的保护堡垒。",
+  "visual_reference": "高家正堂气氛冷峻，父亲端坐如山，沈母陪笑却脸色难看，双方围绕孩子去留寸步不让，家族利益与母女安危正面碰撞",
+  "visual_prompt_negative": "避免婆媳撕扯戏码，避免现代家长里短感，避免过多下人围观",
+  "source_text_start": "我给女儿取名为昭昭。",
+  "source_text_end": "沈母只得退了一步。没再提要将昭昭带走的事。"
+}

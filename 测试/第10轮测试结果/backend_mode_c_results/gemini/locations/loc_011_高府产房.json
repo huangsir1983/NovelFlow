@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_011",
+  "name": "高府产房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸",
+  "description": "充满血腥气与紧张感的房间。床榻上是染血的床单，旁边架子上搭着多条毛巾，地上放着几个冒着热气的铜盆。昏暗的夜间，几盏油灯将人影拉得长长的。",
+  "visual_reference": "Interior of an ancient Chinese delivery room at night. Blood-stained white sheets on a wooden bed, steaming copper basins of hot water, towels hanging on racks. Dim oil lamps casting long, dramatic shadows. Tense, frantic atmosphere, cinematic, highly detailed.",
+  "atmosphere": "生死一线、血腥、极度紧张",
+  "color_palette": [
+    "#8A0303",
+    "#B8860B",
+    "#1A1A1A"
+  ],
+  "lighting": "昏暗且摇晃的油灯光，光线集中在床榻和热水盆周围，四周陷入无尽的黑暗。",
+  "key_features": [
+    "染血的床单",
+    "冒热气的铜盆",
+    "襁褓中的婴儿"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "濒死的绝望、保大人的怒吼到得知生女的双重震惊。"
+}

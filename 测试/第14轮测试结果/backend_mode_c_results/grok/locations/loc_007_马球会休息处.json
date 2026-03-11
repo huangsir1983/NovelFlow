@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_007",
+  "name": "马球会休息处",
+  "type": "mixed",
+  "era_style": "明代贵族马球竞技场",
+  "description": "马球场旁半开放休息凉亭，木柱支撑，内设桌椅与药碗陈设，周边绿植环绕，适合短暂休息与对峙。",
+  "visual_reference": "明代贵族马球场休息凉亭混合空间，木柱支撑半开放亭阁，内设红木桌椅摆药碗，周边绿植与马球场相连，日光透过亭顶洒入，古典优雅却带张力",
+  "visual_prompt_negative": "现代帐篷、金属桌椅、霓虹灯",
+  "atmosphere": "对峙冷眼、索然无味",
+  "color_palette": [
+    "木褐色",
+    "绿植色",
+    "药碗白瓷"
+  ],
+  "lighting": "白天亭内柔和散射光，外部强日光对比",
+  "key_features": [
+    "木柱凉亭",
+    "红木桌椅",
+    "药碗陈设"
+  ],
+  "narrative_scenes": [
+    "scene_007"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "脚伤后陆胃病沈哄药到女主冷眼对峙的索然"
+}

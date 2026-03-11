@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0438",
+    "shot_id": "shot_0416",
+    "prompt_text": "Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, positioned right-center in a medium close-up; his brows tightly furrowed, lips pressed flat to suppress anger, torso subtly leaning toward his daughter in a shielding posture, gaze fixed with disgust and vigilance toward Lu Shuyi behind him. In the left rear background, Lu Shuyi appears out of focus, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression. Interior noble banquet hall with subdued red-and-gold decor blurred into soft bokeh, low-saturation warm-cool contrast, amber candlelight mixed with cooler side backlight, compressed ceremonial space, tense historical drama realism, cinematic portrait quality, shallow depth of field, highly detailed fabric and facial texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, amber candlelight with cool side backlight, soft background red-gold bokeh, restrained high-pressure interior lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, smartphones, microphones, printed text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0439",
+    "shot_id": "shot_0417",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a clean medium close-up slightly right of center; facing mostly forward with a slight angle, silent and composed, her gaze sharpened in rational judgment, restrained anger gathering at the brink, the faint scar on her neck barely visible in the side backlight, posture upright as if stepping out from her father's protection. Background banquet decorations are dimmed and unobtrusive, with no foreground obstruction, warm ceremonial reds reduced into dark soft blur. Ancient Chinese banquet hall interior, low-saturation warm-cool contrast, cool rim light outlining her profile against muted amber hall light, cinematic realism, emotional precision, shallow focus, highly detailed skin, silk texture, and controlled composition.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, clean composition, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, cool side backlight revealing the faint neck scar, dim amber ambient banquet light, background darkened for emotional isolation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, smartphones, microphones, printed text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0440",
+    "shot_id": "shot_0418",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, framed in a close-up slightly right of center; eyes fierce and unwavering, looking off-screen left, lips forming a sharp direct accusation, expression cutting through false sentiment with lucid anger, no obstruction in the foreground, her face visually separated from the room. The background is a darkened warm blur of banquet reds and ambers, soft and abstract, pulling her forward from the environment. Ancient Chinese noble banquet interior, low-saturation warm-cool contrast, warm defocused background with a cool edge light shaping her cheek and neck, intense cinematic realism, confrontation at peak clarity, shallow depth of field, highly detailed facial features, silk, and dramatic texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, dramatic close-up, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, darkened warm amber-red background blur, cool side rim light on face and neck, focused high-tension portrait lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, smartphones, microphones, printed text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0441",
+    "shot_id": "shot_0419",
+    "prompt_text": "Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, shown in a close-up at left-center; her eyes pause for a split second, the faint smile retreating by half, a tiny crack appearing in her carefully maintained composure, one hand still holding a formal invitation card whose corner enters the lower frame, preserving her outward dignity. Behind her, the red-and-gold banquet background falls into heavier blur, like festive noise pressing inward. Ancient Chinese banquet hall interior, low-saturation warm-cool contrast, warm amber and muted crimson bokeh with slight cool shadow shaping the face, cinematic realism, tension under restraint, shallow depth of field, highly detailed skin tone, watery eyes, silk gauze, and subtle emotional fracture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, expressive close-up, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, warm amber and muted red banquet glow with gentle cool shadow contouring, dense background bokeh for psychological pressure"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, smartphones, microphones, printed text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0442",
+    "shot_id": "shot_0420",
+    "prompt_text": "A full-shot confrontation in an ancient Chinese banquet hall: on the left stands Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression; on the right stands Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stepping half a pace forward from beside her father to face Lu Shuyi directly. Slightly behind her at right rear is Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, restrained authority mixed with deep paternal tenderness, forming a protective background presence. Jiang Sheng, a tall, upright young Chinese man from a historical drama, athletic but not bulky, honest and restrained expression, clear long eyes, straight nose, neat black topknot, dark indigo round-collar robe with light armor-like riding details, humble yet dependable aura, slight blush on ears, and Zhaozhao, a delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, appear within the surrounding group space. Guests, gift boxes, and banquet tables form an invisible court of judgment around them, while a clear empty strip of floor separates the two women like a severed bond. Low-saturation warm-cool contrast, red and gold used sparingly as puncture colors, amber candlelight mixed with cooler ambient edge light, static balanced axis, cinematic historical drama realism, highly detailed costumes, ceremonial textures, and layered spatial tension.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, ensemble blocking, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, restrained amber banquet light with cooler edge fill, sparse red-gold accents, balanced formal hall lighting with tense spatial separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, smartphones, microphones, printed text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0443",
+    "shot_id": "shot_0454",
+    "prompt_text": "A wide shot of an ancient Chinese banquet hall side corridor: in the left-middle ground stands Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown from a back-side angle; opposite her on the right-middle ground stands Lu Shuyi, a frail young noblewoman in ancient Chinese attire, pale skin, watery downturned almond eyes, slim delicate figure, black hair in an elegant traditional updo, light pink silk hanfu with gauze layers, fragile yet calculating expression, facing her with a visible gap between them. In the distant background within the doorway stands Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, body straight and still as if nailed in place. The right foreground holds a small blurred portion of banquet table and red table covering, creating a ceremonial and noisy frame pressing inward, while the boundary between warm hall light and cooler corridor light cuts across the three figures. Low-saturation warm-cool contrast, frozen relationship tension, static composition, cinematic realism, architectural framing, shallow atmospheric depth, highly detailed silk, wood, doorway, and restrained historical drama mood.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, architectural wide shot, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, amber banquet light meeting cooler corridor light at the character line, dim ceremonial glow with emotional vacuum in the passage"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, smartphones, microphones, printed text, subtitles, watermark, logo, low quality, blurry face, deformed hands, extra fingers, bad anatomy, oversaturated colors"
+  }
+]

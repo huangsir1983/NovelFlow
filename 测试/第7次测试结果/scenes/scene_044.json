@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "id": "scene_044",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:43"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府内宅 - 日",
+    "location": "高府内宅，高令宁房外与房内",
+    "time_of_day": "day",
+    "description": "封闭的内宅空间，房门紧闭，门外有加强守卫的家丁把守，形成明确的隔绝感。室内以静养为主，光线从窗侧斜入，空气安静压抑。案几上堆放着成色昂贵的补品礼盒、药材包与食盒，数量明显过多，暗示持续不断地被送入。房内陈设规整，带有产后调养的生活痕迹。",
+    "action": "高令宁闭门不出，留在房中静养。家丁守在门口，阻断外人进入。补品被一趟趟送入房内，在桌案边堆积起来，其中分量明显是大人和婴孩双份。沈睿多次来到沈府探望，却被拦在门外，只能在门外停步等待，无法靠近。高令宁始终不露面，只在自己愿意时才允许沈睿见女儿一面。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "和离书",
+      "补品礼盒",
+      "药材包",
+      "食盒",
+      "房门"
+    ],
+    "dramatic_purpose": "交代和离后的新秩序：高令宁与沈睿关系被切断，高父介入保护，高令宁掌握会面主动权，为后续公开场合重逢与真相揭开建立情境基础。",
+    "tension_score": 0.42,
+    "dramatic_intensity": -0.16,
+    "order": 44
+  }
+}

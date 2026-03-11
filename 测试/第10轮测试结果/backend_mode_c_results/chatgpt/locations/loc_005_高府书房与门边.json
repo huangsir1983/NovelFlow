@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_005",
+  "name": "高府书房与门边",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸书房及内宅门廊",
+  "description": "书房为典型文官宅邸空间，尺度不大但格局雅正，一面临窗，设长书案、砚台、毛笔架、宣纸、卷轴与少量药方文书，桌面留有辞官奏折等关键文本。书架或多宝阁陈列有限，以实用为主。室外连接廊柱与门槛，门边过渡区是人物拦截对话的重要场域，地面为青砖，门框厚重，半掩的门扉与柱影制造压迫感。‘活雁留下的痕迹’可体现为门边泥痕、羽毛或抓痕一类微妙视觉暗示。整体从书房的理性秩序过渡到门边的情感对峙，形成内外空间张力。",
+  "visual_reference": "Late Ming dynasty scholar-official mansion study and doorway, elegant Chinese study with long writing desk, xuan paper, inkstone, brushes, memorial document, herbal prescription papers, wooden shelves, daylight through lattice window, adjacent corridor with timber columns, stone threshold, subtle traces of a live wild goose near the doorway, tense confrontation space, historical Chinese realism, cinematic framing",
+  "atmosphere": "理性压抑、命运转折、逼迫交易",
+  "color_palette": [
+    "胡桃木色",
+    "米白纸色",
+    "青砖灰",
+    "黯青"
+  ],
+  "lighting": "书房内为清晰柔亮的日光，门边廊下则因屋檐遮挡形成半明半暗效果，利于表现对话中的威逼与试探。",
+  "key_features": [
+    "堆有奏折药方的书案",
+    "廊柱与高门槛的过渡空间",
+    "门边微妙的活雁痕迹暗示"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从避祸求稳的书房决策，骤然进入以孩子为筹码的残酷婚约谈判。"
+}

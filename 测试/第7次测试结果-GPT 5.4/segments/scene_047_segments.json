@@ -1,0 +1,61 @@
+[
+  {
+    "id": "seg_0232",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0746",
+      "shot_0747",
+      "shot_0748"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成同一叙事单元：先建立新的三角关系格局，再以陆姝仪一拜离场完成角色退出，情绪从礼制体面滑入被留下者的失重感。角色集合在段内保持连续，空间未跳转，适合合并为一个开场segment。",
+    "order": 232
+  },
+  {
+    "id": "seg_0233",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0749",
+      "shot_0750",
+      "shot_0751"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot围绕‘后果落到男女主关系上’展开：先拍女主压住震惊，再证实男主已听见，再用双人空间关系把情感距离实体化。情绪弧线连贯上升，角色集合稳定，为同一关系建立段落。",
+    "order": 233
+  },
+  {
+    "id": "seg_0234",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0752",
+      "shot_0753",
+      "shot_0754"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完整呈现一个情感转折：高令宁收口、自持、行疏离之礼，随后切到沈词承受这记‘礼刀’的反应。以女主主观推进、男主反应收束，符合‘听者比说者重要’与情绪递进逻辑。",
+    "order": 234
+  },
+  {
+    "id": "seg_0235",
+    "scene_id": "scene_047",
+    "shot_ids": [
+      "shot_0755",
+      "shot_0756",
+      "shot_0757",
+      "shot_0758",
+      "shot_0759",
+      "shot_0760"
+    ],
+    "segment_number": 4,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "最后六个shot围绕同一个核心动作链展开：转身离开—伸手挽留—勾住衣角—滑脱—不回头—失手余波。动作连续、时间压缩、情绪从决绝推至刺痛后余冷，必须合并为一个完整高潮段，才能让‘没能握住，只勾住衣角’成为整场的视觉钉子。",
+    "order": 235
+  }
+]

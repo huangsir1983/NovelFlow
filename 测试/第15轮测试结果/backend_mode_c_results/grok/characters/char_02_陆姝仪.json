@@ -1,0 +1,48 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "17-23",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜",
+    "body": "纤细柔弱",
+    "hair": "乌发柔顺",
+    "distinguishing_features": "泪眼盈盈的柔弱气质"
+  },
+  "costume": {
+    "typical_outfit": "粉色轻纱衣裙",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "casting_tags": [
+    "柔弱心机女配",
+    "青梅竹马",
+    "楚楚可怜美人"
+  ],
+  "visual_reference": "十九岁左右古代柔弱少女，温婉清丽脸庞，细长柳眉水汪汪杏眼，皮肤白嫩，身材纤细楚楚可怜，穿着粉色轻纱襦裙，长发柔顺披肩或半挽，跪地或依偎姿态，庭院柳池背景，柔光写实，高清细腻",
+  "visual_prompt_negative": "强壮身材、浓妆、现代服装、卡通、西方五官、强势表情",
+  "personality": "柔弱外表下心机重",
+  "desire": "获得真心夫婿与庇护",
+  "flaw": "心机陷害、利用柔弱",
+  "arc": "从设计陷害到坦白重生后退出",
+  "scene_presence": "多次关键冲突与坦白",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅义兄",
+      "dynamic": "依恋利用",
+      "function": "三角关系制造者"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "嫉恨陷害",
+      "function": "冲突推动"
+    }
+  ]
+}

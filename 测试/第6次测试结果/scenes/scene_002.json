@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "id": "scene_002",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:45"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_004",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_012"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府厅堂 - 晨",
+    "location": "高府厅堂",
+    "time_of_day": "day",
+    "description": "厅堂封闭肃静，晨光从窗棂斜照进来，落在案几和铺开的文书上。室内陈设端正，书案上有笔墨、奏折纸张，空气里带着一夜未眠后的沉闷。高父面容疲惫，眼角皱纹明显，坐于案前；高令宁立在一侧，视线始终盯着案上文书，气氛克制而压抑。",
+    "action": "高父一夜未睡，坐在案前改了主意，沉声劝女儿不要嫁入沈家。高令宁沉默站立，望着父亲眼角新增的皱纹，呼吸微滞。她提出条件，要求父亲辞官远离朝堂。高父提笔写辞官奏折，笔锋迟缓却坚定。高令宁站在案旁，直到看见最后一笔落下，肩背才微微松开，长出一口气。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "沈家势大，只怕你嫁过去会受委屈。",
+        "subtext": "我后悔了，不愿拿你的婚事去换门第与利益。"
+      },
+      {
+        "character": "高父",
+        "line": "为父生养你十余年，不求你高嫁为家族争光，但求你觅得良人，平安喜乐度过此生。",
+        "subtext": "你的安稳比高门婚配更重要。"
+      },
+      {
+        "character": "高令宁",
+        "line": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了，否则稍有不慎，便是抄家灭门之灾。",
+        "subtext": "我知道未来凶险，必须逼你立刻抽身自保。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "辞官奏折",
+      "笔墨纸砚",
+      "书案"
+    ],
+    "dramatic_purpose": "建立高父对婚事的顾虑与父女情感，同时交代高令宁主动干预家族命运、为后续婚约谈判奠定动机基础。",
+    "tension_score": 0.48,
+    "dramatic_intensity": -0.04,
+    "order": 2
+  }
+}

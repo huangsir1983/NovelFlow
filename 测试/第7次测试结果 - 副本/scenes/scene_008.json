@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "id": "scene_008",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:02:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_008",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_007",
+      "beat_010"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 高令宁房内 - DAY",
+    "location": "沈府高令宁房内",
+    "time_of_day": "day",
+    "description": "春日白昼，内室温暖明亮，窗边光线柔和。房内陈设细致，针线笸箩、绣绷、彩线、半成的虎头帽摆在手边，家庭气息明显。高令宁坐于榻边或案前，衣着宽松，已有孕态。气氛表面安静，却带着命运重复的阴影。",
+    "action": "太医为高令宁诊出喜脉，确认怀有男胎，场面形成一种被命运验证的静默冲击。随后高令宁低头专心缝制婴儿虎头帽，针线在指间来回穿梭，以具体动作承接她对孩子的情感投射与未来打算。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "虎头帽",
+      "针线笸箩",
+      "绣绷"
+    ],
+    "dramatic_purpose": "完成章节转折：从陆姝仪婚事转入高令宁怀孕这条主线，强化前世今生重合的宿命感，并抬高她在婚姻与去留问题上的赌注。",
+    "tension_score": 0.58,
+    "dramatic_intensity": 0.16,
+    "order": 8
+  }
+}

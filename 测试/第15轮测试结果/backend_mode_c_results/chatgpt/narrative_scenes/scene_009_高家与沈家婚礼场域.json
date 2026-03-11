@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 高家正堂/婚礼现场 - DAY",
+  "location": "高家与沈家婚礼场域",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词",
+    "媒人"
+  ],
+  "core_event": "媒人第三次上门后，父亲在压力下应婚。大婚隆重完成，高父仍反复叮嘱若受委屈就和离回家。",
+  "key_dialogue": "「受了委屈便和离回家。」",
+  "emotional_peak": "高令宁在拜堂时恍惚失神，象征她对婚姻再无浪漫幻想，只剩目的与疲惫。",
+  "tension_score": 0.68,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "如山聘礼",
+    "盖头",
+    "喜服",
+    "八抬大轿"
+  ],
+  "dramatic_purpose": "完成再婚入局，强调娘家已成为女主的可回归之地。",
+  "source_text_start": "媒人第三次上门提亲。\n种种压力下，父亲应下了",
+  "source_text_end": "还是沈词不轻不重地轻咳一声，我才回过神来。"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "圆熟世故，笑容殷勤，擅察言观色",
+    "body": "中等身形",
+    "hair": "梳利落发髻",
+    "distinguishing_features": "说话圆滑，常带职业性笑容"
+  },
+  "costume": {
+    "typical_outfit": "体面但不逾矩的妇人外衫",
+    "color_palette": [
+      "褐红",
+      "灰蓝"
+    ]
+  },
+  "casting_tags": [
+    "市井能人",
+    "圆场型角色"
+  ],
+  "visual_reference": "Middle-aged Chinese matchmaker woman, shrewd smiling face, modest traditional dress, lively social energy, historical drama",
+  "personality": "圆滑、见风使舵、会说场面话",
+  "desire": "促成婚事，保住差事与脸面",
+  "flaw": "缺乏立场，只求息事宁人",
+  "arc": "无明显弧线",
+  "scene_presence": "主要出现在开篇提亲场面中",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "婚事中介",
+      "dynamic": "试图劝服女主低头",
+      "function": "推动首场冲突爆发"
+    },
+    {
+      "target": "沈词",
+      "type": "婚事中介",
+      "dynamic": "代沈家出面促成婚约",
+      "function": "外化家族求亲动作"
+    }
+  ]
+}

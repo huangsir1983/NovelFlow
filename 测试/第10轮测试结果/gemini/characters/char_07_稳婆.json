@@ -1,0 +1,32 @@
+{
+  "name": "稳婆",
+  "aliases": [
+    "接生婆"
+  ],
+  "role": "minor",
+  "age_range": "50岁左右",
+  "appearance": {
+    "face": "满头大汗，焦急",
+    "body": "粗壮",
+    "hair": "盘发包巾",
+    "distinguishing_features": "双手沾血"
+  },
+  "costume": {
+    "typical_outfit": "粗布麻衣，围裙",
+    "color_palette": [
+      "灰褐",
+      "暗红"
+    ]
+  },
+  "casting_tags": [
+    "市井妇人",
+    "群演"
+  ],
+  "visual_reference": "An older ancient Chinese midwife, sweating, wearing rough clothes and an apron stained with blood, anxious expression, cinematic lighting.",
+  "personality": "尽职，遵守封建礼教",
+  "desire": "顺利接生拿到赏钱",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "产房保大场景",
+  "relationships": []
+}

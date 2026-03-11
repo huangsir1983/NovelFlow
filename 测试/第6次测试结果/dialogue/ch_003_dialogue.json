@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dl_0000",
+    "scene_id": "scene_012",
+    "character_id": "char_沈词",
+    "line": "你究竟是我沈家妇，还是高家女？",
+    "subtext": "他质问高令宁为何在家族危机前仍将自己排除在外，真实意图是指责她不信任自己，也是在逼她在娘家与夫家身份之间表态。",
+    "emotion_intensity": 0.88,
+    "order": 0
+  },
+  {
+    "id": "dl_0001",
+    "scene_id": "scene_012",
+    "character_id": "char_沈词",
+    "line": "你这般防我，可曾把我当作你的夫婿？",
+    "subtext": "表面是在责问，实则是在表达受伤与愤怒：他认为她始终不肯依赖自己，不肯承认夫妻一体，这让他感到被拒绝和被羞辱。",
+    "emotion_intensity": 0.9,
+    "order": 1
+  },
+  {
+    "id": "dl_0002",
+    "scene_id": "scene_014",
+    "character_id": "char_沈词",
+    "line": "怎么，又想从我身上得到什么？",
+    "subtext": "他将高令宁的示好解读为带有目的的讨好，真正表达的是对她的不信任、对过往积怨的防备，以及故意用讥讽拒绝她的靠近。",
+    "emotion_intensity": 0.84,
+    "order": 2
+  }
+]

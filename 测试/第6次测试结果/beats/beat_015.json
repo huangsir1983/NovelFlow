@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "id": "beat_015",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_004",
+      "scene_005",
+      "scene_007"
+    ]
+  },
+  "data": {
+    "title": "在马球会上反向试探",
+    "description": "女主借“等贵府小姐出嫁后再议亲事”回击沈词，并在马球会上用蒋晟刺激他，情感副线与主线再度缠紧，关系进入公开试探阶段。",
+    "beat_type": "action",
+    "save_the_cat": "N/A",
+    "emotional_value": 0.2,
+    "dramatic_intensity": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 15
+  }
+}

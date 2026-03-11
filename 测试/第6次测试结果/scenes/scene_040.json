@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "id": "scene_040",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:13:00"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_009",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "沈词",
+      "陆姝仪",
+      "蒋晟",
+      "沈府小厮"
+    ],
+    "related_beats": [
+      "beat_021"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府厅堂门口/内室过道 - DAY",
+    "location": "高府厅堂门口及通往内室的过道",
+    "time_of_day": "day",
+    "description": "厅堂与过道相连，光线由外向内灌入，门口处明暗交界。空间动线混乱，仆从来回奔走。高父从门外急步踏入，看到厅中异样。高令宁面色惨白，身体摇晃，周围人骤然失序。",
+    "action": "高令宁捂住腹部，腿下一软，踉跄数步。高父跨进门槛，刚看清局面便神色骤变，急声呼喊女儿。厅内众人慌乱围拢，仆从奔跑去请稳婆与太医，高令宁的视线迅速失焦，身体向下栽去，画面坠入黑暗。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "女儿！",
+        "subtext": "看到高令宁骤然出事，惊惧失控。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "沈词",
+      "陆姝仪",
+      "蒋晟",
+      "沈府小厮"
+    ],
+    "key_props": [
+      "门槛",
+      "廊道",
+      "衣摆"
+    ],
+    "dramatic_purpose": "将言语冲突转化为身体危机，完成从家庭对峙到生产抢救的戏剧跳转。",
+    "tension_score": 0.88,
+    "dramatic_intensity": 0.76,
+    "order": 40
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "variant_id": "lu_shuyi_variant_05",
+  "variant_type": "formal",
+  "variant_name": "陆姝仪 — 被逼婚前的待嫁来客",
+  "tags": [
+    "待嫁",
+    "婚事难定",
+    "受摆布",
+    "求见",
+    "隐忍不安"
+  ],
+  "scene_ids": [
+    "scene_013",
+    "scene_016"
+  ],
+  "trigger": "婚事难定后，沈母最终替她看中伯爵府三公子；她又以将出嫁为名赴高府求见，处于被安排婚嫁的关键阶段。",
+  "appearance_delta": {
+    "face": "表情更沉静克制，眼底有被婚事压迫后的惶惑与决绝，不再只是单纯柔弱。",
+    "body": "仪态比平时更规整，小心维持待嫁女子应有的体面，但仍掩不住纤弱。",
+    "hair": "发式比日常更成熟郑重，装饰略增，向待嫁身份靠拢。",
+    "distinguishing_features": "一身体面却压抑的待嫁气质，像被推向命运关口的柔弱棋子。"
+  },
+  "costume_override": {
+    "outfit": "比平日更正式的内宅出行装束，绣纹更整齐细致，兼具小姐体面与寄居身份的克制，不见大红大紫。",
+    "color_palette": [
+      "藕荷",
+      "浅杏",
+      "乳白"
+    ]
+  },
+  "visual_reference": "young ancient chinese noblewoman before an arranged marriage, delicate soft face with anxious restrained eyes, pale skin, frail slim body, refined formal hanfu in light lotus, apricot and ivory, elegant traditional hairstyle slightly more mature with pearl ornaments, standing in a courtyard or noble residence corridor, gentle but tense expression, feeling of being controlled by family fate, cinematic realism, ultra detailed",
+  "emotional_tone": "受迫待嫁、隐忍求生"
+}

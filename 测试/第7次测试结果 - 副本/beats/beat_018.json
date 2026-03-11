@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_018",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_041",
+      "scene_042"
+    ]
+  },
+  "data": {
+    "title": "带女南下却被婚讯与闯入重新牵动",
+    "description": "女主带昭昭定居江南三年，表面清净，实则仍接受沈词持续供养。沈词来信称母亲为他定下新婚事，试探她是否阻止；她口是心非祝他百年好合。随后沈词突然现身江南，看见院中赘婿与昭昭叫他‘爹爹’，嫉意与执念全面爆发。",
+    "beat_type": "event",
+    "save_the_cat": "Finale",
+    "emotional_value": -0.2,
+    "dramatic_intensity": -0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 18
+  }
+}

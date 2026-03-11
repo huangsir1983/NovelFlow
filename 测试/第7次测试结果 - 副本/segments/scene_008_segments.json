@@ -1,0 +1,45 @@
+[
+  {
+    "id": "seg_0034",
+    "scene_id": "scene_008",
+    "shot_ids": [
+      "shot_0125",
+      "shot_0126",
+      "shot_0127"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均处于同一时空与同一动作链条：建立房内氛围—收束到候诊状态—落到诊脉动作。角色核心始终锁定@char_高令宁高令宁，太医仅作为限制性画面元素存在，未形成新的主叙事角色集合。情绪从表面平静递进到悬置紧绷，适合合并为一个连续的等待段落。",
+    "order": 34
+  },
+  {
+    "id": "seg_0035",
+    "scene_id": "scene_008",
+    "shot_ids": [
+      "shot_0128",
+      "shot_0129",
+      "shot_0130"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成单一情感弧线：诊断前停顿—结果揭示—结果落地后的第一反应。虽出现太医的双人构图，但叙事重心始终是@char_高令宁高令宁对结果的承受，且信息揭示后立即转入她的内收反应，构成完整的‘验证’段落，适合作为一段6秒左右的情绪峰值。",
+    "order": 35
+  },
+  {
+    "id": "seg_0036",
+    "scene_id": "scene_008",
+    "shot_ids": [
+      "shot_0131",
+      "shot_0132",
+      "shot_0133",
+      "shot_0134"
+    ],
+    "segment_number": 3,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "此处发生明确情感转折：从结果冲击转入自我收束，因此作为新segment。四镜共享同一动作目的——缝制虎头帽，将心理变化外化为可拍摄行为，且在空间内无角色变化、无时空跳转，形成完整的‘压情绪—做打算—冷收尾’段落。虽然时长扩展至12秒，但符合结尾收束段需要，通过动作仪式感和空间回环完成视觉记忆点锁定。",
+    "order": 36
+  }
+]

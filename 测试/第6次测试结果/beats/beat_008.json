@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "id": "beat_008",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_011",
+      "scene_012",
+      "scene_013"
+    ]
+  },
+  "data": {
+    "title": "接管沈府却失去婚姻",
+    "description": "立威后女主获得管家权与贤名，看似赢下宅斗局面，实则夫妻关系持续崩坏、陆姝仪之死阴影笼罩，形成一种虚假的胜利。",
+    "beat_type": "revelation",
+    "save_the_cat": "Midpoint",
+    "emotional_value": -0.3,
+    "dramatic_intensity": -0.3,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 8
+  }
+}

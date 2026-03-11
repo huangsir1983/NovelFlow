@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_007",
+  "name": "沈府洞房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸",
+  "description": "充满喜庆却气氛诡异的新房。大红色的喜床挂满百子帐，锦被上绣着龙凤呈祥。桌上放着未动过的交杯酒具和红烛。床边有热水盆和散落的红盖头、绑手腕的丝带。",
+  "visual_reference": "Interior of an ancient Chinese bridal chamber. A large red wedding bed with embroidered silk quilts and canopy. Red candles burning on the table. A discarded red bridal veil and silk ribbons on the floor. A basin of hot water. High contrast lighting, moody, tension, 8k resolution.",
+  "atmosphere": "喜庆色彩下的冷漠与机械",
+  "color_palette": [
+    "#FF0000",
+    "#000000",
+    "#FFD700"
+  ],
+  "lighting": "刺眼的红烛光，照亮喜床区域，四周角落隐没在黑暗中，强化戏剧冲突。",
+  "key_features": [
+    "大红喜床",
+    "散落的红盖头",
+    "绑手腕的丝带"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "毫无感情的机械圆房到被羞辱后的冷笑。"
+}

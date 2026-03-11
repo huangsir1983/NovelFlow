@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0144",
+    "shot_id": "shot_0138",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in an intense close-up centered slightly right; his face is nearer to camera, eyes fixed forward in oppressive proximity, emotion barely rising under control, the outer corners of his eyes slightly reddened, jaw tight, dangerous persistence after being pushed back, while a blurred female shoulder line remains on the left edge to imply intimate confrontation; heavy shadowed background, stronger facial contrast, low-saturation warm-cool collision palette with gray-blue, ink black, old wood brown, a faint slice of cold daylight mixed with muted amber reflected light, side-back lighting deepening the eye sockets and cheek structure; cinematic historical drama realism, restricted female-subjective viewpoint, shallow depth of field, subtle dolly-in tension, highly detailed skin and fabric texture, filmic composition",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, side-back light with deepened shadows, cold daylight mixed with faint amber bounce, high facial contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, blurry face, deformed hands, extra fingers, bad anatomy, contemporary hairstyle, electric lights, plastic, glass office buildings, modern furniture, modern makeup, jewelry out of period, smartphone, camera, microphone"
+  },
+  {
+    "id": "sp_0145",
+    "shot_id": "shot_0139",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a medium close-up on the same axis with more of his upper body visible; shoulders steady, chin slightly drawn tight, speaking with restrained certainty that feels like judgment rather than comfort, maintaining pressure without raising his voice, while the blurred side of Gao Lingning's face lightly occupies the far left edge to create a sense of continued enclosure; set in a secluded wooden corridor of an ancient polo club, old timber railings and sparse spring branches softly out of focus, negative space behind him limited by pillars and rails, low-saturation gray-blue and old wood tones with a small amount of cold daylight and dim amber reflection, side-rear light shaping his robe folds and jawline; cinematic realism, historical drama texture, female-centered subjective framing, static camera feel, shallow depth of field, oppressive intimate distance, highly detailed fabric and facial features",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "natural cold daylight filtered through corridor, soft amber reflected fill, side-rear light, restrained contrast with shadow density"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, bad anatomy, extra limbs, blurred eyes, contemporary clothing, modern corridor, electric lamps, plastic materials, modern accessories, smartphone, visible crew, subtitles"
+  },
+  {
+    "id": "sp_0146",
+    "shot_id": "shot_0140",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a frontal close-up; she stares directly ahead at him without speaking, anger and the shame of being seen through held rigidly across her face, jaw tightened, breath subtly trembling, eyes hard and unyielding, emotional release suppressed into dangerous stillness; behind her, a bright plane of daylight cuts through the darker corridor like an unreachable exit, with shadowed old wood and soft architectural blur, low-saturation cool-warm contrast in gray-blue, dark teal, old wood brown, controlled natural daylight with restrained amber undertone; cinematic historical drama realism, static composition, shallow depth of field, female emotional subjectivity, highly detailed skin texture, quiet suspense, filmic tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool natural daylight cut against darker interior shadows, slight warm ambient reflection, side-back emphasis with a bright sliced background plane"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, bad anatomy, soft cartoon style, modern makeup, artificial neon light, plastic hair ornaments, smartphone, contemporary background, extra fingers, distorted face"
+  },
+  {
+    "id": "sp_0147",
+    "shot_id": "shot_0151",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, placed in the left foreground third with her back shoulder softly blurred; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands in the right midground facing her at very close distance, both held in a tense standoff with almost no space between them; an empty wooden corridor of an ancient polo club surrounds them, sparse spring branches beyond, a patch of apparent retreat space in the right rear is sliced into closed grids by pillars and railings, wind lightly lifts strands near Gao Lingning's temple, visual leading lines press inward toward the narrow gap between them, low-saturation gray-blue, ink black, old wood brown palette with natural spring daylight and controlled shadow, warm-cool collision kept restrained; cinematic historical drama realism, female-subjective pressure, medium long shot, static camera, layered depth, architectural compression, highly detailed costume and wood texture, filmic suspense",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft natural daylight in a semi-enclosed corridor, cool ambient tone with faint warm wood reflection, side-back light, segmented shadows from pillars and railings"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, bad anatomy, urban modern architecture, plastic surfaces, electric fixtures, contemporary fashion, modern hairstyle, neon colors, smartphone, lens flare overload, cartoon rendering"
+  },
+  {
+    "id": "sp_0148",
+    "shot_id": "shot_0152",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seen from a close female-subjective angle in a medium shot as she pulls her sleeve and wrist away from contact and withdraws half a step; her upper body leans back, shoulder and neck held rigidly straight, the faint scar on her neck barely visible in side-rim light, controlled defense and bodily tension overriding composure; Shen Ci's dark sleeve remains stopped at the right foreground edge like a pressure frame; background softly blurred into old wooden railings and a narrow beam of cool daylight, low-saturation palette of gray-blue, dark teal, black, old wood brown, natural light with cold emphasis and minimal amber reflection; cinematic realism, subtle dolly movement feeling, historical drama texture, shallow depth of field, tactile silk sleeve motion, restrained but urgent tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool side-rim daylight with soft shadowed interior, slight warm wood bounce, low-saturation contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, motion blur overload, bad anatomy, extra hands, deformed wrist, contemporary clothing, electric lighting, modern railing design, smartphone, visible zipper, synthetic fabric shine"
+  },
+  {
+    "id": "sp_0149",
+    "shot_id": "shot_0153",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, in a close-up positioned on the right third of the frame, looking left offscreen toward Shen Ci; her jaw is tightened, lips pressed into a straight line, shoulders and back held impeccably upright yet visibly stiff, forcing a formal posture rather than making a calm retreat, with a few wind-lifted strands crossing near the lens edge and oppressive empty space on the left reserved for the unseen other to invade; the background is the dark blurred face of corridor pillars, low-saturation gray-blue and old wood tones, natural daylight kept cool with slight warm residue, shadows denser around the architecture to hold back emotion; cinematic historical drama realism, static shot, female emotional subjectivity, shallow depth of field, restrained tension, highly detailed portrait texture, suspended conflict",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "cool natural side light with soft back edge, dense corridor shadows, restrained warm reflection from aged wood"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, low quality, bad anatomy, cartoon look, overexposed face, modern cosmetics, plastic accessories, electric lights, smartphone, contemporary corridor, distorted eyes, extra limbs"
+  }
+]

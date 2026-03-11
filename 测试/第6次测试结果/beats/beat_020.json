@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_020",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_025",
+      "scene_026"
+    ]
+  },
+  "data": {
+    "title": "发现厢房失身局",
+    "description": "陆姝仪临嫁前进高家后失踪，最终被发现与蒋晟同处一室、衣冠不整，旧案似乎重演，众人关系瞬间被推入失控边缘。",
+    "beat_type": "event",
+    "save_the_cat": "N/A",
+    "emotional_value": -0.8,
+    "dramatic_intensity": -0.8,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 20
+  }
+}

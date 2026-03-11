@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高府厢房 - 日",
+  "location": "高府厢房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "发现陆姝仪与蒋晟昏迷衣冠不整，陷害事件爆发",
+  "key_dialogue": "事情不调查清楚，今日你们谁都别想走。",
+  "emotional_peak": "沈词指责女主恶毒",
+  "tension_score": 0.9,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "昏迷塌床",
+    "散乱衣物",
+    "搜查灯笼"
+  ],
+  "dramatic_purpose": "高潮冲突，转折点"
+}

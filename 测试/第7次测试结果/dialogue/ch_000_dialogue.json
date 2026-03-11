@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dl_0016",
+    "scene_id": "scene_001",
+    "character_id": "char_高父",
+    "line": "被沈家看中，是小女的福气。",
+    "subtext": "他在主动放低姿态，强调高家对这门婚事的珍视，也是在向沈家与媒人示好，默认这桩婚事是高家高攀，不容有失。",
+    "emotion_intensity": 0.43,
+    "order": 1
+  },
+  {
+    "id": "dl_0017",
+    "scene_id": "scene_001",
+    "character_id": "char_媒人",
+    "line": "高姑娘，这是……",
+    "subtext": "她对退还木雁的举动十分意外，话未说尽，实则是在质问高令宁为何当众为难这门亲事，并试图立刻阻止局面失控。",
+    "emotion_intensity": 0.56,
+    "order": 2
+  },
+  {
+    "id": "dl_0018",
+    "scene_id": "scene_001",
+    "character_id": "char_高令宁",
+    "line": "聘礼太薄，我不满意。",
+    "subtext": "表面上是在嫌聘礼不够，实际上是在试探沈词是否也重生，并借机夺回谈判主动权，拒绝像前世那样被轻慢地推进婚事。",
+    "emotion_intensity": 0.72,
+    "order": 3
+  },
+  {
+    "id": "dl_0019",
+    "scene_id": "scene_001",
+    "character_id": "char_高父",
+    "line": "胡闹！沈家什么门第，岂容你拿乔？",
+    "subtext": "他并非单纯斥责女儿任性，而是在维护这门他眼中的高攀婚事，担心高令宁的举动触怒沈家，导致婚约生变，损及家族利益。",
+    "emotion_intensity": 0.82,
+    "order": 4
+  },
+  {
+    "id": "dl_0020",
+    "scene_id": "scene_001",
+    "character_id": "char_媒人",
+    "line": "高小姐，此时不可闹姑娘脾气，这门亲事不易，若沈家一气之下反悔……",
+    "subtext": "她是在施压，提醒高令宁这门婚事来之不易，若继续坚持便可能失去婚约；未说完的部分正是在利用'被退亲'的后果逼她让步。",
+    "emotion_intensity": 0.67,
+    "order": 5
+  },
+  {
+    "id": "dl_0021",
+    "scene_id": "scene_001",
+    "character_id": "char_高令宁",
+    "line": "我便是这般贪慕虚荣的人，沈公子可要退亲？",
+    "subtext": "她故意自污，把自己说成嫌贫爱富之人，实则是在公开逼问沈词的真实态度：若他也重生并厌弃这门婚事，此刻正可顺势退亲；这是一记带刺的试探与反击。",
+    "emotion_intensity": 0.84,
+    "order": 6
+  },
+  {
+    "id": "dl_0022",
+    "scene_id": "scene_001",
+    "character_id": "char_沈词",
+    "line": "姑娘说笑了。",
+    "subtext": "他表面维持体面与克制，否认退亲之意，实际上是在压下被看穿后的震动，也是在告诉高令宁：自己不会在众目睽睽下遂她的意。",
+    "emotion_intensity": 0.45,
+    "order": 7
+  },
+  {
+    "id": "dl_0023",
+    "scene_id": "scene_001",
+    "character_id": "char_沈词",
+    "line": "我回去会再和父母商议聘礼，必定让姑娘满意。",
+    "subtext": "他口头上承诺补足聘礼，维持婚约与场面，真实意图是接受这场心照不宣的博弈：他已听懂高令宁的试探，并选择继续把亲事推进下去，而非当场翻脸。",
+    "emotion_intensity": 0.52,
+    "order": 8
+  }
+]

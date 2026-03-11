@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "id": "scene_014",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:03"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 产房 - 日",
+    "location": "沈府产房",
+    "time_of_day": "day",
+    "description": "封闭低矮的产房，空气滞重，帷帐、产榻、血污痕迹和包裹婴孩的襁褓构成核心视觉。光线惨白，人物面色失血。空间静得反常，没有新生儿哭声，死寂成为最强环境元素。高令宁与沈词隔着夭折女婴的事实对坐，彼此像被抽空。",
+    "action": "高令宁躺或坐在产榻上，发丝凌乱，面色苍白。沈词同样脸色惨白，坐在对面，视线死死停留在她或孩子身上。两人长久沉默，不靠近、不触碰，只用目光对峙。最终沈词痛苦地闭上眼，身体微微塌下去。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "产榻",
+      "襁褓"
+    ],
+    "dramatic_purpose": "完成夫妻关系的情感断裂：孩子夭折使此前所有补救失效，双方仇恨彻底定型，为之后的分离决定奠基。",
+    "tension_score": 0.95,
+    "dramatic_intensity": 0.9,
+    "order": 14
+  }
+}

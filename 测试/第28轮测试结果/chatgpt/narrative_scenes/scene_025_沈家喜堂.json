@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_025",
+  "order": 24,
+  "heading": "INT. 沈家喜堂 - day",
+  "location": "沈家喜堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "宾客"
+  ],
+  "core_event": "成亲当天我全程心不在焉，连夫妻对拜都险些错过，婚礼在表面隆重中透露出彻底的冷感。",
+  "key_dialogue": "无",
+  "emotional_peak": "这场婚礼从开始就不像缔结，而像执行一纸契约。",
+  "tension_score": 0.57,
+  "estimated_duration_s": 65,
+  "key_props": [
+    "红盖头",
+    "喜绸",
+    "婚礼案台"
+  ],
+  "dramatic_purpose": "将正式婚姻落地，并以冷婚礼反衬关系畸形。",
+  "visual_reference": "高门喜堂红绸遍布，新娘盖头下神思游离，新郎侧脸平静近乎冷漠，宾客模糊喧腾，中心却像一片真空",
+  "visual_prompt_negative": "避免甜蜜婚礼笑容，避免现代婚礼布置，避免闹洞房杂乱",
+  "source_text_start": "成亲的全程，我心不在焉。",
+  "source_text_end": "隔着盖头，我能看见他平静的侧脸。 无悲无喜。"
+}

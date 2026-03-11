@@ -1,0 +1,155 @@
+[
+  {
+    "id": "dl_0036",
+    "scene_id": "scene_002",
+    "character_id": "char_高父",
+    "line": "沈家势大，只怕你嫁过去会受委屈。",
+    "subtext": "他改变了原先支持婚事的态度，真正担心的不是门第是否显赫，而是女儿进入高门后会被压制、受苦。",
+    "emotion_intensity": 0.72,
+    "order": 0
+  },
+  {
+    "id": "dl_0037",
+    "scene_id": "scene_002",
+    "character_id": "char_高父",
+    "line": "为父生养你十余年，不求你高嫁为家族争光，但求你觅得良人，平安喜乐度过此生。",
+    "subtext": "他在明确表态：女儿的幸福比家族利益和攀附权势更重要，也是在为自己先前可能动过的高嫁念头补偿与表白。",
+    "emotion_intensity": 0.84,
+    "order": 1
+  },
+  {
+    "id": "dl_0038",
+    "scene_id": "scene_002",
+    "character_id": "char_高令宁",
+    "line": "爹爹年纪大了，官居四品，是时候思退了，别再掺合朝堂的浑水了，否则稍有不慎，便是抄家灭门之灾。",
+    "subtext": "她表面是在劝父亲辞官保身，实则是基于前世惨痛记忆强行扭转命运，想提前切断家门覆灭的风险。",
+    "emotion_intensity": 0.88,
+    "order": 2
+  },
+  {
+    "id": "dl_0039",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "我以为，你不算个好妻子，但还算个好母亲。",
+    "subtext": "他先贬后褒，用最刺痛人的方式逼她面对孩子这一软肋；真正目的是动摇她拒婚的意志，让她因母性而妥协。",
+    "emotion_intensity": 0.78,
+    "order": 3
+  },
+  {
+    "id": "dl_0040",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "这一世若你我不成亲，便等于再杀睿儿一次。",
+    "subtext": "他在以沈睿的存在和命运进行道德绑架，核心意思是：为了孩子，你必须嫁给我。",
+    "emotion_intensity": 0.93,
+    "order": 4
+  },
+  {
+    "id": "dl_0041",
+    "scene_id": "scene_003",
+    "character_id": "char_高令宁",
+    "line": "我可以嫁。",
+    "subtext": "她明确让步，不是出于对沈词的感情，而是为了重新拥有见到孩子、保住孩子命运的机会。",
+    "emotion_intensity": 0.69,
+    "order": 5
+  },
+  {
+    "id": "dl_0042",
+    "scene_id": "scene_003",
+    "character_id": "char_高令宁",
+    "line": "但是，你要先处理好那位表小姐。",
+    "subtext": "她接受婚事的前提是切断陆姝仪这个隐患；真正诉求是先掌握婚姻主动权，避免重演前世三人纠葛。",
+    "emotion_intensity": 0.77,
+    "order": 6
+  },
+  {
+    "id": "dl_0043",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "你何必对姝仪苦苦相逼？",
+    "subtext": "他表面指责高令宁咄咄逼人，实则是在维护陆姝仪，表达自己不愿她受委屈，也暗含对高令宁的不满。",
+    "emotion_intensity": 0.74,
+    "order": 7
+  },
+  {
+    "id": "dl_0044",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "我与她只是自小相伴之谊。",
+    "subtext": "他在为自己与陆姝仪的关系降级定性，试图撇清男女私情，降低高令宁的警惕与指控。",
+    "emotion_intensity": 0.57,
+    "order": 8
+  },
+  {
+    "id": "dl_0045",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "你不让我纳她，我便没再提过此事，你可曾见过我与她有逾矩之处？",
+    "subtext": "他在强调自己已经退让、守了分寸，借此反过来指责高令宁无理取闹，并要求她停止追究。",
+    "emotion_intensity": 0.71,
+    "order": 9
+  },
+  {
+    "id": "dl_0046",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "若是你为我的妻子……",
+    "subtext": "这是他对陆姝仪牌位的叹息，暴露出内心深处对另一种婚姻可能的留恋与遗憾，说明感情并非全然清白无私。",
+    "emotion_intensity": 0.86,
+    "order": 10
+  },
+  {
+    "id": "dl_0047",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "姝仪的事，我可以答应你，但你也莫要得意。",
+    "subtext": "他在条件式让步：可以处理陆姝仪，但不是因为认同高令宁，而是要保留姿态与控制权，警告她别因此自以为占了上风。",
+    "emotion_intensity": 0.68,
+    "order": 11
+  },
+  {
+    "id": "dl_0048",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "你我性子相冲，前世日日怨怼，让睿儿死前还在为我们担心。",
+    "subtext": "他把前世婚姻失败归结为彼此不合，也借孩子的临终牵挂施压，提前为未来划清情感界限。",
+    "emotion_intensity": 0.82,
+    "order": 12
+  },
+  {
+    "id": "dl_0049",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离，别的事情你别痴心妄想。",
+    "subtext": "他把婚姻定义为生子的临时契约：孩子出生后就结束关系，并警告她不要期待感情、名分之外的更多东西。",
+    "emotion_intensity": 0.89,
+    "order": 13
+  },
+  {
+    "id": "dl_0050",
+    "scene_id": "scene_003",
+    "character_id": "char_高令宁",
+    "line": "本该如此。",
+    "subtext": "她冷静接受这份交易式安排，既表示自己同样无意与他做真夫妻，也是在以同等冷酷回应他的轻蔑。",
+    "emotion_intensity": 0.63,
+    "order": 14
+  },
+  {
+    "id": "dl_0051",
+    "scene_id": "scene_003",
+    "character_id": "char_沈词",
+    "line": "你莫要使手段纠缠。",
+    "subtext": "他仍旧不信任她，提前堵死她未来可能以感情、名分或孩子为筹码继续维系关系的可能。",
+    "emotion_intensity": 0.66,
+    "order": 15
+  },
+  {
+    "id": "dl_0052",
+    "scene_id": "scene_003",
+    "character_id": "char_高令宁",
+    "line": "谁纠缠谁是狗。",
+    "subtext": "她用近乎发誓的狠话表达彻底厌弃，既是否认自己会对他死缠烂打，也是在反击他的自作多情与羞辱。",
+    "emotion_intensity": 0.87,
+    "order": 16
+  }
+]

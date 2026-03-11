@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_027",
+  "order": 26,
+  "heading": "INT. 高家厅堂 - night",
+  "location": "高家厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "父亲"
+  ],
+  "core_event": "我坚持要上京兆府查明真相，沈词却以“若她再为你而死就杀了你”相威胁，我愤而甩他一巴掌，当场动了胎气。",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "爱恨彻底崩裂成生命威胁",
+  "tension_score": 1.0,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "巴掌声",
+    "门鼓威胁",
+    "床单前兆"
+  ],
+  "dramatic_purpose": "将夫妻关系推入无法回头的深渊，并直接引发生产危机。",
+  "visual_reference": "厅堂近景中女子泪光发狠，一巴掌甩向逼近的男子，旁边陆姝仪尖叫，下一刻女子脸色惨白捂住腹部，父亲冲入门内，场面骤乱，古风高压戏剧瞬间",
+  "visual_prompt_negative": "避免武打感、避免血腥夸张、避免慢动作偶像剧风、避免多余角色抢焦点",
+  "source_text_start": "良久，我深吸一口气：「事情不调查清楚，今日你们谁都别想走。」",
+  "source_text_end": "记忆的最后，父亲踏入门内，脸色一变：「女儿！」"
+}

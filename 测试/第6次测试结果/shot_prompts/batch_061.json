@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0378",
+    "shot_id": "shot_0350",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated left of frame facing right in a medium close-up. She lifts her eyes for the first true direct look toward her father, calm but piercing, lips slightly parted as if delivering a quiet rhetorical question, posture upright and controlled, emotion restrained yet edged like a blade. Behind her, a wooden lattice window forms diagonal leading lines toward her eyes, no foreground obstruction, interior of an old noble household hall with gray-green and aged wood tones, soft natural daylight mixed with warm amber lamplight, low-saturation warm-cool contrast, subtle side backlight shaping her cheek and neck scar. cinematic historical drama realism, Song dynasty aesthetics, shallow depth of field, precise composition, highly detailed fabric texture, refined facial detail, filmic tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft natural daylight with warm amber interior lamplight, low-saturation warm-cool contrast, subtle side backlight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, distorted anatomy, extra limbs, bad hands, oversaturated colors, modern furniture, electric lights, plastic, glass office windows, contemporary hairstyle"
+  },
+  {
+    "id": "sp_0379",
+    "shot_id": "shot_0351",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in a close-up on the right side of frame. He is briefly caught off guard by his daughter's question, eyes lowered for a beat before lifting again, deep nasolabial folds and fatigue lines clearly visible, expression hesitant and trying to soften into explanation rather than confrontation. A tea cup slightly blocks the lower edge of his sleeve in the foreground, creating the feeling that his words are interrupted, the background kept dim and unobtrusive to isolate his face, old family hall interior in muted gray-blue and dark wood, soft ambient daylight fading into warm amber shadows. cinematic realism, historical family drama portrait, low-saturation warm-cool palette, controlled depth of field, highly detailed skin texture, subtle film grain, restrained emotional tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama portrait",
+      "lighting": "dim interior with soft side light, muted natural daylight and warm amber shadow contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, exaggerated expression, extra fingers, bad anatomy, modern ceramics, electric fixtures, contemporary clothing, neon colors"
+  },
+  {
+    "id": "sp_0380",
+    "shot_id": "shot_0352",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, in focus on the right side of a medium shot, speaking with measured certainty; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, slightly out of focus on the left side, listening in stillness. An low wooden table divides father and daughter, emphasizing distance within kinship, the hall door remains open in the deep background as a visual omen, orderly household interior with aged timber, gray-green walls, sparse refined furnishings, natural daylight entering from afar with a soft warm interior glow, low-saturation warm-cool contrast preserving a fragile surface calm. cinematic historical drama realism, balanced blocking, restrained tension, Song dynasty aesthetics, subtle depth layering, highly detailed textiles and wood grain, filmic composition",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft natural daylight from open doorway mixed with warm interior lamplight, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, flat lighting, modern doors, plastic items, electric lamps, contemporary props, oversaturated red, bad anatomy"
+  },
+  {
+    "id": "sp_0381",
+    "shot_id": "shot_0353",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown as a half-body back view in the right foreground; Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, in the left midground turning his head sharply toward the hall door; a young male servant from the Shen household appears at the distant doorway, cut by the doorframe, intruding into the calm. Interior axis maintained in a medium long shot, the outer courtyard beyond the doorway is noticeably brighter, creating a sudden visual invasion from outside, old noble residence hall with dark wood, open threshold, layered depth, muted gray-blue interior against washed pale daylight outdoors. cinematic realism, historical suspense drama, low-saturation warm-cool contrast, subtle motion implied by the father turning and camera pan feel, strong doorframe composition, film grain, tense spatial storytelling",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "dim warm interior contrasted with brighter cool daylight from the courtyard, side backlight and threshold spill"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry faces, bad perspective, modern courtyard, electric lighting, plastic, contemporary servant uniform, motion artifacts, extra limbs"
+  },
+  {
+    "id": "sp_0382",
+    "shot_id": "shot_0354",
+    "prompt_text": "A young male servant from the Shen household in plain but neat ancient Chinese servant attire, slim build, humble posture, standing one step inside the threshold in a medium shot, positioned slightly right of center. He reports upward respectfully with urgency, shoulders slightly tense, hands gathered in formal deference, expression uneasy as if bringing unwelcome news. The blurred shoulder of Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, appears at the left foreground edge to establish hierarchy. Behind the servant, the front courtyard is washed bright by daylight, while the threshold acts as a sharp visual boundary between interior order and incoming trouble, ancient wooden doorway, muted gray-green and dark brown architecture, low-saturation palette with cool exterior light pressing into warm amber interior shadows. cinematic historical drama realism, precise threshold composition, subtle suspense, Song dynasty aesthetics, detailed fabric folds and wood texture, film grain, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "bright cool courtyard daylight against warm dim interior, threshold contrast, soft directional spill light"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, bad anatomy, modern servant outfit, microphones, electrical fixtures, plastic, cars, contemporary architecture, oversharpened"
+  },
+  {
+    "id": "sp_0383",
+    "shot_id": "shot_0355",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in a medium close-up, body slightly turned toward the off-screen doorway. His brow is only faintly furrowed rather than alarmed, reacting as if to an ordinary visitor announcement, expression natural and unguarded, unaware of the danger understood by his daughter. The household table remains steady in the foreground, familiar domestic furnishings in the background reinforce routine hospitality logic, old hall interior in dark wood and gray-green tones, gentle daylight and warm amber fill preserving surface normalcy. cinematic historical drama realism, low-saturation warm-cool contrast, restrained emotional framing, detailed mature facial texture, subtle film grain, calm before crisis atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "soft mixed daylight and warm interior lamplight, low-saturation warm-cool contrast, even domestic illumination"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, text, watermark, logo, low quality, blurry, exaggerated drama, modern interior decor, electric bulbs, plastic, contemporary clothing, bad hands, distorted face"
+  }
+]

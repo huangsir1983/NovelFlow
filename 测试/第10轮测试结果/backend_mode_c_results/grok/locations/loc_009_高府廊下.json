@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_009",
+  "name": "高府廊下",
+  "type": "mixed",
+  "era_style": "明代晚期官宦府邸廊下",
+  "description": "府邸长廊下半开放空间，藤椅摆放供休憩，旁置葡萄盘与补品礼盒。廊柱雕花，连接内外庭院，藤蔓缠绕，空间闲适养胎氛围。",
+  "visual_reference": "Semi-open covered corridor of late Ming dynasty official mansion, rattan lounge chairs, grape platter and tonic gift boxes on low tables, carved pillars with vines, connecting inner courtyard, relaxed daylight setting, detailed Ming architecture",
+  "atmosphere": "闲适忏悔、温柔亲吻",
+  "color_palette": [
+    "藤绿",
+    "葡萄紫",
+    "木褐"
+  ],
+  "lighting": "白天廊檐过滤的柔和光影",
+  "key_features": [
+    "廊下藤椅",
+    "葡萄盘",
+    "补品礼盒"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "回娘家养胎的忏悔到女主借肩昏睡与小心亲吻"
+}

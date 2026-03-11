@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_004",
+  "name": "前世沈府多处",
+  "type": "mixed",
+  "era_style": "明代中晚期世家府邸病榻与治丧空间蒙太奇",
+  "description": "该地点并非单一房间，而是前世沈府内宅多个区域的压缩视觉：有长期病榻所在的寝室，窗棂漏入冷月光，火盆与汤药碗置于床边；有掌家账房般的半私密空间，账本、钥匙、饭菜托盘与鞋履堆叠出多年劳心的痕迹；最终过渡到停灵治丧处，棺材与寿衣占据画面中心，周遭陈设空旷，仆役退避，声息极轻。整体建筑仍是深宅高墙、木柱连廊与层门递进，但在镜头中更强调衰败、清冷与死亡临近的空寂感。",
+  "visual_reference": "Late Ming dynasty noble mansion montage, sickroom and mourning hall, moonlight through lattice window, dying woman's bed with medicine bowl and brazier, ledgers and household keys on side table, meal tray left untouched, transition to coffin hall with burial robes, dark timber architecture, layered corridors, cold night atmosphere, restrained sorrow, cinematic period drama, highly detailed",
+  "atmosphere": "清冷、迟暮、死别前的隐忍",
+  "color_palette": [
+    "月白灰",
+    "炭黑",
+    "枯木褐"
+  ],
+  "lighting": "冷月光与盆火、药灯交织，局部温光仅勉强维持生命感，至棺前则转为大片阴影中的微弱灯笼光。",
+  "key_features": [
+    "病榻旁火盆与汤药",
+    "账本钥匙象征掌家劳役",
+    "棺材与寿衣的停灵构图"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从漫长婚后消磨，到临终守榻与棺前落泪，情绪由怨怼沉淀为迟来的牵挂。"
+}

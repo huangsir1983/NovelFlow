@@ -1,0 +1,109 @@
+[
+  {
+    "model": "ChatGPT (gpt-5.4)",
+    "status": "OK",
+    "streaming": true,
+    "total_time_s": 332.45,
+    "time_to_first_char_s": 32.72,
+    "num_characters": 16,
+    "num_scenes": 12,
+    "num_chars_streamed": 16,
+    "num_scenes_streamed": 12,
+    "character_names": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "蒋晟",
+      "沈母",
+      "沈睿",
+      "沈昭昭",
+      "媒人",
+      "沈府小厮",
+      "陆姝仪婢女",
+      "稳婆",
+      "太医",
+      "侯爵娘子",
+      "伯爵府三公子",
+      "赘婿候选人们"
+    ],
+    "stream_chunks": 16685,
+    "num_locations": 0,
+    "num_props_total": 95,
+    "num_props_major": 1,
+    "minor_props_with_visual": 94,
+    "num_variants": 18,
+    "pipeline_total_time_s": 682.14
+  },
+  {
+    "model": "Claude (claude-opus-4-6)",
+    "status": "OK",
+    "streaming": true,
+    "total_time_s": 41.78,
+    "time_to_first_char_s": 34.58,
+    "num_characters": 1,
+    "num_scenes": 0,
+    "num_chars_streamed": 1,
+    "num_scenes_streamed": 0,
+    "character_names": [
+      "高令宁"
+    ],
+    "stream_chunks": 632,
+    "num_locations": 0,
+    "num_props_total": 0,
+    "num_props_major": 0,
+    "minor_props_with_visual": 0,
+    "num_variants": 5,
+    "pipeline_total_time_s": 376.96
+  },
+  {
+    "model": "Gemini (gemini-3.1-pro-preview)",
+    "status": "OK",
+    "streaming": false,
+    "total_time_s": 2.61,
+    "num_characters": 0,
+    "num_scenes": 0,
+    "character_names": [],
+    "costs": [
+      {
+        "model": "Gemini (gemini-3.1-pro-preview)",
+        "elapsed_s": 2.61,
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    ],
+    "num_locations": 0,
+    "num_props_total": 0,
+    "num_props_major": 0,
+    "minor_props_with_visual": 0,
+    "num_variants": 0,
+    "pipeline_total_time_s": 4.78
+  },
+  {
+    "model": "Grok (grok-4.20-beta)",
+    "status": "OK",
+    "streaming": true,
+    "total_time_s": 95.86,
+    "time_to_first_char_s": 55.34,
+    "num_characters": 7,
+    "num_scenes": 8,
+    "num_chars_streamed": 7,
+    "num_scenes_streamed": 8,
+    "character_names": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "蒋晟",
+      "昭昭",
+      "沈母"
+    ],
+    "stream_chunks": 5905,
+    "num_locations": 8,
+    "num_props_total": 30,
+    "num_props_major": 0,
+    "minor_props_with_visual": 30,
+    "num_variants": 10,
+    "pipeline_total_time_s": 399.09
+  }
+]

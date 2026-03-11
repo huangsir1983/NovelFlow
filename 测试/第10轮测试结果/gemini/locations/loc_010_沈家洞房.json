@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_010",
+  "name": "沈家洞房",
+  "type": "interior",
+  "era_style": "明代世家大族婚房",
+  "description": "布置得极其繁复喜庆的洞房。满室挂满红色的绸缎丝带，巨大的拔步喜床铺着百子千孙被。儿臂粗的红烛燃烧着，流下殷红的烛泪。大红盖头被随意丢弃在床榻一角。极度的喜庆与人物间冰冷机械的互动形成强烈的讽刺感。",
+  "visual_reference": "Interior of an ancient Chinese bridal chamber at night, large traditional marriage bed with embroidered quilts, red silk ribbons hanging from the ceiling, thick burning red candles dripping wax, a discarded red bridal veil on the bed, festive decor contrasting with a cold emotional atmosphere, dramatic lighting, highly detailed, 8k.",
+  "atmosphere": "喜庆却冰冷、讽刺、机械",
+  "color_palette": [
+    "正红色",
+    "暗金色",
+    "深邃黑"
+  ],
+  "lighting": "摇曳的红烛光，在墙上投下巨大而扭曲的阴影",
+  "key_features": [
+    "燃烧的红烛",
+    "百子千孙喜床",
+    "丢弃的红盖头"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从男主试图征服的羞辱，到被女主绝对冷漠反杀的挫败与难堪"
+}

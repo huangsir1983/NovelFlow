@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0660",
+    "shot_id": "shot_0614",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a medium close-up over-the-shoulder shot from an elderly midwife. The midwife's shoulder and the swaddled infant occupy the left foreground in soft blur, while Shen Ci stands in the middle ground slightly right of center, just lifting his head a little, his expression still suspended between post-fear relief and incomplete comprehension. Behind him, layered bed curtains and a bed frame create depth and invisible pressure, with a few amber candle flames flickering in the background. Low-saturation warm-cool contrast, gray-blue shadows, dark wood, amber candlelight, side-back lighting, restrained historical drama atmosphere, cinematic realism, shallow depth of field, highly detailed textures, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, film grain",
+      "lighting": "low-saturation warm-cool contrast, amber candlelight against cool gray-blue shadows, side-back lighting with curtain occlusion"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary clothing, modern hairstyle, modern furniture, hospital equipment, text, watermark, logo, low quality, blurry face, deformed hands, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0661",
+    "shot_id": "shot_0615",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a tight close-up with his face centered. His relaxed brows and eyes abruptly freeze at the words \"little daughter\", his lip line tightening and pupils slightly shrinking, the moment of internal shock landing in silence. A single candle flame trembles on the right side of the background, while the left side falls into heavy shadowed negative space to emphasize his arrested expression. Low-saturation warm-cool contrast, cool dark tones pressing against a small amber light source, cinematic zoom-in feeling, realistic skin texture, emotional tension, highly detailed historical drama portrait, fine film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, close-up portrait realism, film grain",
+      "lighting": "focused amber candlelight on one side, deep cool shadow on the other, low-saturation warm-cool contrast, dramatic side lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary clothing, modern hairstyle, modern makeup, text, watermark, logo, low quality, blurry eyes, distorted face, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0662",
+    "shot_id": "shot_0616",
+    "prompt_text": "A delicate premature baby girl from ancient Chinese nobility, big luminous dark eyes, pale soft skin, tiny fragile body wrapped in moon-white and blush pink silk, fine black baby hair, subtle jade charm, warm indoor lamplight, tender yet fateful presence, seen from a subjective point-of-view medium shot. The swaddled infant is held by an elderly midwife in the center-left of the frame, wrapped in layered white cloth, with only a slightly reddened cheek and tiny brows visible; the midwife's smiling mouth and chin enter only partially from the top edge. Blurred household figures gather in the background, out of focus, while warm candlelight concentrates on the swaddling cloth like a visual island, and the surrounding room falls into cooler dimness. Low-saturation warm-cool contrast, old wooden interior, soft amber highlights against gray-blue darkness, limited information framing, cinematic realism, shallow depth of field, highly detailed silk folds, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, subjective POV realism, shallow depth of field, film grain",
+      "lighting": "localized amber candlelight focused on the swaddled infant, cool dim falloff around the edges, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic baby items, hospital blanket, incubator, contemporary nursery, text, watermark, logo, low quality, deformed baby, extra limbs, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0663",
+    "shot_id": "shot_0617",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a close-up lying weakly on her side against a pillow. Her lashes are heavy, her breathing is faint but visible in a slight rise of the chest, and she appears exhausted yet alive. In the left foreground, the blurred white corner of a swaddling cloth passes through the frame, while side-back light gently traces the extremely fine pale scar along her neck, hinting at old injury and lingering fate. The background remains soft and dim, with dark bedding, curtains, and old wood tones. Low-saturation warm-cool contrast, restrained amber candlelight mixed with cool gray shadows, intimate historical drama realism, delicate skin texture, cinematic stillness, subtle film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, intimate close-up realism, film grain",
+      "lighting": "soft side-back candlelight outlining the neck and face, cool shadowed bedding, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, hospital bed, modern cosmetics, contemporary fabrics, text, watermark, logo, low quality, distorted anatomy, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0664",
+    "shot_id": "shot_0618",
+    "prompt_text": "A tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, shown in a medium close-up as he suddenly snaps his gaze upward and leans slightly forward to the left, his eyes locked on the midwife. His body tenses mid-motion, his expression breaking from restraint into shocked demand, as if the words \"what did you say\" are about to leave his mouth. The center line of the frame is slightly left-shifted to preserve the direction of his movement, and vertical bedposts rise behind him, intensifying the sudden rigidity of his posture. Low-saturation warm-cool contrast, handheld immediacy, dark wood and curtain textures, amber candlelight cut by cool gray-blue shadow, cinematic realism, emotional instability, highly detailed historical costume, subtle motion tension, film grain.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, handheld drama realism, film grain",
+      "lighting": "amber candlelight against cool gray-blue shadows, side lighting with strong vertical bedpost shadows, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, contemporary clothing, modern room decor, text, watermark, logo, low quality, distorted anatomy, extra fingers, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0665",
+    "shot_id": "shot_0619",
+    "prompt_text": "An elderly midwife holding a swaddled newborn in the left foreground, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, standing frozen in the right middle ground, and a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lying weakly on the bed in the far right background. The composition clearly separates three planes of space: newborn, father, mother. The midwife's joy has not faded, Shen Ci remains rigid and unable to step forward, and Gao Lingning is weak but present on the bed behind. Flickering candlelight glows at the lower foreground, while white swaddling cloth collides visually with dark old wood and shadowed curtains, creating a cold conclusion beneath the surface of good news. Low-saturation warm-cool contrast, amber candlelight and cool gray-blue darkness, layered depth, static medium-long shot, cinematic realism, highly detailed Song-style historical interior, subtle film grain, restrained yet ominous atmosphere.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, layered tableau realism, film grain",
+      "lighting": "flickering amber candlelight in foreground, cool gray-blue shadows in surrounding space, side-back illumination through curtains, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, hospital equipment, contemporary clothing, modern furniture, text, watermark, logo, low quality, blurry subjects, distorted anatomy, extra fingers, oversaturated colors, cartoon, anime"
+  }
+]

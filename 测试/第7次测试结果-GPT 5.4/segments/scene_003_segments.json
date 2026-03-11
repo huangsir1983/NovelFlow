@@ -1,0 +1,69 @@
+[
+  {
+    "id": "seg_0008",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0026",
+      "shot_0027"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "两镜均用于建立同一室内礼制空间与父女站位关系，角色集合连续，由环境压抑过渡到父坐女立的对峙，适合合并为开场段完成空间、权力和情绪前提铺设。",
+    "order": 8
+  },
+  {
+    "id": "seg_0009",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0028",
+      "shot_0029",
+      "shot_0030"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此组三镜构成完整对话动作链：高父开口、强调反对缘由、高令宁听后的第一层反应。情绪从克制担忧微升至被刺中的停顿，角色不变且时空连续，适合合并为一段。",
+    "order": 9
+  },
+  {
+    "id": "seg_0010",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0031",
+      "shot_0032",
+      "shot_0033"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "手部细节、双人关系和父亲特写共同完成高父由家主立场退到父亲立场的情绪弧线，属于单一情感推进单元。三镜合并能形成从动作外化到台词落点再到情感高峰的连续节拍。",
+    "order": 10
+  },
+  {
+    "id": "seg_0011",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0034",
+      "shot_0035",
+      "shot_0036"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这三镜构成明确的主观心理事件链：观察皱纹—触发旧忆—回到现实失语。中间存在短暂时空跳转，但属于同一内心反应的完整闭环，必须合并以保留触发与回落的冲击力。",
+    "order": 11
+  },
+  {
+    "id": "seg_0012",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0037"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一镜承担场景收束功能，情绪从内在震动回冷为沉重静止，没有新动作只强化关系结果与未答悬念，单独成段可作为本场尾钩与后续对白/场景的缓冲出口。",
+    "order": 12
+  }
+]

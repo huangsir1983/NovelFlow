@@ -1,0 +1,26 @@
+{
+  "model": "Gemini (gemini-3.1-pro-preview)",
+  "status": "OK",
+  "streaming": true,
+  "total_time_s": 153.73,
+  "time_to_first_char_s": 59.45,
+  "num_characters": 7,
+  "num_scenes": 18,
+  "num_chars_streamed": 7,
+  "num_scenes_streamed": 18,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "高父",
+    "蒋晟",
+    "沈睿",
+    "昭昭"
+  ],
+  "stream_chunks": 126,
+  "num_locations": 16,
+  "num_props_total": 57,
+  "num_props_major": 0,
+  "num_variants": 11,
+  "pipeline_total_time_s": 378.59
+}

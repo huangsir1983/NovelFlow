@@ -1,0 +1,82 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "高姑娘",
+    "高小姐",
+    "夫人",
+    "令宁"
+  ],
+  "role": "protagonist",
+  "age_range": "18-30",
+  "appearance": {
+    "face": "鹅蛋脸，眉眼清艳凌厉，眼尾微挑，肤色白净，情绪激烈时眼眶泛红，病中则显得苍白憔悴但仍有锋芒",
+    "body": "身形纤秀匀称，少女时轻盈，婚后因操劳显出清减，孕中带有柔和的母性线条",
+    "hair": "乌黑浓密的长发，常作古典闺阁发髻，婚嫁时为繁复高髻",
+    "distinguishing_features": "气质强势矜傲，目光带刺，脖颈曾有自戕留下的血痕记忆点"
+  },
+  "costume": {
+    "typical_outfit": "高门闺秀式襦裙与披帛，婚后多着端庄华贵的主母服饰，色调清雅但不失贵气",
+    "color_palette": [
+      "月白",
+      "绛红",
+      "黛青"
+    ]
+  },
+  "casting_tags": [
+    "清冷美人",
+    "强势主母",
+    "重生复仇",
+    "刀子嘴豆腐心",
+    "古典贵女"
+  ],
+  "visual_reference": "Ancient Chinese noblewoman, sharp beautiful eyes, pale porcelain skin, elegant oval face, black long hair in traditional updo, slim figure, Song dynasty hanfu, cold proud expression, cinematic lighting, dramatic emotional realism",
+  "personality": "要强、自尊极高、聪明果决、嘴硬心软、爱憎分明",
+  "desire": "改写前世悲剧，保全家人，重新见到儿子，并最终挣脱不幸婚姻的束缚",
+  "flaw": "过度骄傲，不愿示弱，情感表达总以讥讽和对抗代替，容易因恨意做出极端反击",
+  "arc": "从执着于与沈词互相折磨、为前世不甘复仇，到逐渐看透执念，放下怨恨，选择女儿与自我人生，最终获得主动权",
+  "scene_presence": "贯穿全篇，主导提亲、婚配、怀孕、难产、和离、南下等关键事件，是全剧情绪与视角中心",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "夫妻/宿敌/前世纠缠对象",
+      "dynamic": "相爱相杀、互相误伤、因孩子和前世恩怨强行绑定",
+      "function": "核心情感冲突与主线动力"
+    },
+    {
+      "target": "高父",
+      "type": "父女",
+      "dynamic": "深厚保护与现实担忧并存，是她最可靠的退路",
+      "function": "提供原生支持与和离后的庇护"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情敌/镜像女性",
+      "dynamic": "前世今生互相伤害，本质都是被婚姻与门第挤压的女子",
+      "function": "制造婚姻裂痕与误会真相"
+    },
+    {
+      "target": "沈睿",
+      "type": "母子",
+      "dynamic": "深切思念与愧疚，是她再嫁的真正原因",
+      "function": "驱动重生后婚姻选择"
+    },
+    {
+      "target": "沈昭昭",
+      "type": "母女",
+      "dynamic": "温柔守护，寄托新生希望",
+      "function": "重建人生的情感落点"
+    },
+    {
+      "target": "蒋晟",
+      "type": "相亲对象/误卷入者",
+      "dynamic": "曾可能成为良配，却被他人设计卷入风波",
+      "function": "对比沈词，并推动陷害事件爆发"
+    },
+    {
+      "target": "沈母",
+      "type": "婆媳",
+      "dynamic": "彼此戒备，权力与体面博弈不断",
+      "function": "强化宅门压迫与婚姻结构性矛盾"
+    }
+  ]
+}

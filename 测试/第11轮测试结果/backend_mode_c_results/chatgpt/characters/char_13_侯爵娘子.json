@@ -1,0 +1,34 @@
+{
+  "name": "侯爵娘子",
+  "aliases": [
+    "伯爵娘子"
+  ],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "贵妇姿态，妆容体面",
+    "body": "富态端庄",
+    "hair": "精致高髻",
+    "distinguishing_features": "社交场上的显赫主办者形象"
+  },
+  "costume": {
+    "typical_outfit": "华贵宴会服饰",
+    "color_palette": [
+      "金色",
+      "朱红",
+      "紫色"
+    ]
+  },
+  "casting_tags": [
+    "贵妇",
+    "社交主办人"
+  ],
+  "visual_reference": "Ancient Chinese noble lady hosting polo gathering, luxurious silk robe, elegant jewelry, aristocratic demeanor",
+  "visual_prompt_negative": "modern gown, western hat, tattoo, casual dress",
+  "personality": "世故，讲排场",
+  "desire": "维系社交圈与门第来往",
+  "flaw": "缺少对个体命运的关照",
+  "arc": "无明显弧线",
+  "scene_presence": "马球会与陆姝仪婚配背景",
+  "relationships": []
+}

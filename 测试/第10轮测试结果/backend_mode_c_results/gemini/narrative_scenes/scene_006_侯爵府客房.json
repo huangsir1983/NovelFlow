@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 侯爵府客房 - DUSK",
+  "location": "侯爵府客房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为女主正骨后，女主看到沈词温柔喂陆姝仪喝药。女主欲走被拦，陆姝仪下跪求情，沈词护短。",
+  "key_dialogue": "有我在，没人能赶你走。",
+  "emotional_peak": "陆姝仪哭求留在沈家，沈词将其揽入怀中，女主冷眼旁观感到索然无味。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "药碗",
+    "榻",
+    "陆姝仪的眼泪",
+    "灯火"
+  ],
+  "dramatic_purpose": "重现前世的偏心名场面，让女主彻底对沈词的感情死心，坚定和离的决心。"
+}

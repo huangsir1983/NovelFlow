@@ -1,0 +1,63 @@
+{
+  "model": "ChatGPT (gpt-5.4)",
+  "status": "OK",
+  "test_round": "R26",
+  "r26_architecture": "event_decoupled_pipeline",
+  "r26_optimizations": [
+    "char_scene_parallel_stream",
+    "progressive_loc_card_firing",
+    "event_decoupled_props",
+    "event_decoupled_variants",
+    "elastic_concurrency_10",
+    "variant_sem_4"
+  ],
+  "streaming": true,
+  "num_characters": 13,
+  "num_scenes": 16,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "高父",
+    "蒋晟",
+    "沈睿",
+    "昭昭",
+    "沈母",
+    "媒人",
+    "沈府小厮",
+    "陆姝仪的婢女",
+    "稳婆",
+    "太医"
+  ],
+  "char_stream_time_s": 205.05,
+  "char_stream_chunks": 8610,
+  "char_stream_chars": 14444,
+  "time_to_first_char_s": 29.31,
+  "scene_stream_time_s": 110.49,
+  "scene_stream_chunks": 5601,
+  "scene_stream_chars": 10557,
+  "source_text_coverage": {
+    "total": 16,
+    "count_with_start": 16,
+    "count_with_end": 16,
+    "count_with_both": 16,
+    "coverage_pct": 100.0
+  },
+  "loc_batches_fired": 4,
+  "num_locations": 16,
+  "num_props_total": 59,
+  "num_props_major": 10,
+  "num_props_minor": 49,
+  "num_variants": 16,
+  "pipeline_total_time_s": 301.38,
+  "char_done_at_s": 205.06,
+  "scenes_done_at_s": 111.02,
+  "r20_major_prop_top_n": 10,
+  "r20_source_text_coverage": {
+    "total": 16,
+    "count_with_start": 16,
+    "count_with_end": 16,
+    "count_with_both": 16,
+    "coverage_pct": 100.0
+  }
+}

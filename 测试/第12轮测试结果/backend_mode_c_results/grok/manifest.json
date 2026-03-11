@@ -1,0 +1,28 @@
+{
+  "model": "Grok (grok-4.20-beta)",
+  "status": "OK",
+  "streaming": true,
+  "total_time_s": 116.76,
+  "time_to_first_char_s": 64.0,
+  "num_characters": 8,
+  "num_scenes": 19,
+  "num_chars_streamed": 7,
+  "num_scenes_streamed": 11,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父",
+    "沈母",
+    "昭昭",
+    "沈睿"
+  ],
+  "stream_chunks": 6933,
+  "num_locations": 16,
+  "num_props_total": 54,
+  "num_props_major": 6,
+  "minor_props_with_visual": 48,
+  "num_variants": 16,
+  "pipeline_total_time_s": 509.1
+}

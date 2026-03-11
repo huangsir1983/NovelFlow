@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "id": "scene_015",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:20"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "related_beats": [
+      "beat_006"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会场 - 日",
+    "location": "侯爵娘子马球会场地",
+    "time_of_day": "day",
+    "description": "开阔的马球场沙尘飞扬，春日阳光明亮直射，场地边缘设有观赛歇脚处与席案，远处人声、马蹄声与风声交杂。风大，尘土随时卷起。蒋晟随行护在高令宁身侧，衣着利落，体格结实，行动带有习武之人的警觉。高令宁在场边停留，衣裙在风中微扬。",
+    "action": "蒋晟始终站在高令宁侧前方替她挡风，注意她的步伐与周遭飞尘。高令宁看向席上的果盘，随口提到想吃葡萄，蒋晟便低头替她剥皮后再递到她手边。高令宁接过葡萄，原本神情轻松，随后视线越过场地，动作骤然一顿，笑意凝住。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "key_props": [
+      "葡萄",
+      "果盘",
+      "马球器具"
+    ],
+    "dramatic_purpose": "铺陈蒋晟作为‘良配’候选人的体贴与稳定，形成与沈词的对照，并为后续三角对峙制造舞台。",
+    "tension_score": 0.36,
+    "dramatic_intensity": -0.28,
+    "order": 15
+  }
+}

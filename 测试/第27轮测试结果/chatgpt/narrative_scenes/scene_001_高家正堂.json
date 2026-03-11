@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 高家正堂 - day",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人上门提亲，聘礼明显比前世寒酸，我从木雁判断沈词也已重生，双方在沉默中试探彼此。",
+  "key_dialogue": "聘礼比前世少了一半。",
+  "emotional_peak": "旧恨与确认重生的寒意同时涌起",
+  "tension_score": 0.73,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "聘礼箱笼",
+    "木雁",
+    "金银绸缎"
+  ],
+  "dramatic_purpose": "建立双重生前提，点明两人关系从一开始就带着前世阴影。",
+  "visual_reference": "高家正堂内，红木案几前堆着金银绸缎和聘礼箱笼，正中一只木雁格外刺眼，少女立于堂前神情冷静，少年贵公子立在媒人身后面色淡漠，父亲陪笑，室内礼制森严却暗流汹涌，古风写实电影镜头",
+  "visual_prompt_negative": "避免现代家具、避免卡通风、避免夸张玄幻光效、避免人物表情过于夸张、避免婚礼现场喜庆过头",
+  "source_text_start": "我和沈词的长子成了一代名相。",
+  "source_text_end": "只是放在正中的木雁，我怎么看都觉得刺眼。"
+}

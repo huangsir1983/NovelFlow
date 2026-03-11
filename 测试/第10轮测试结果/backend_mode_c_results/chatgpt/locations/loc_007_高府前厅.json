@@ -1,0 +1,32 @@
+{
+  "location_id": "loc_007",
+  "name": "高府前厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸会客前厅",
+  "description": "高府前厅是半公共会客空间，面阔开敞，正中设主位与前厅桌案，两侧分布成组桌椅，便于接待媒人、沈府来客与家仆侍立。厅内屏风或门帘将外廊与内室轻微分隔，保持礼数上的层次。桌案上常见传话帖子、名帖、茶具、礼单与礼盒，后期可堆放红绸、聘礼堆箱或襁褓旁摆件，使空间在不同场景中从婚事交涉场转为儿女归属争执之地。傍晚时门帘与室内阴影加深压迫感，白日则更显表面体面与规矩。",
+  "visual_reference": "Late Ming dynasty official residence front reception hall, formal guest hall with host seat, long wooden tables, matching chairs, servants standing aside, message cards and name slips on table, tea set, gift boxes with red silk ribbons, stacked betrothal chests, doorway curtains, interior of a scholar-official mansion, adaptable family negotiation setting, daylight to dusk variations, cinematic historical Chinese drama",
+  "atmosphere": "体面、博弈、隐忍撕裂",
+  "color_palette": [
+    "栗木色",
+    "浅茶白",
+    "绛红"
+  ],
+  "lighting": "白日时前厅受天井反光与门口自然光照亮；傍晚则室内偏暗，桌案与人物被局部灯火或余晖切割，气氛更冷。",
+  "key_features": [
+    "主位与前厅桌案构成的会客礼制",
+    "门帘后的半公开空间层次",
+    "礼盒红绸与聘礼堆箱"
+  ],
+  "narrative_scenes": [
+    "scene_007",
+    "scene_012",
+    "scene_018",
+    "scene_023"
+  ],
+  "scene_count": 4,
+  "time_variations": [
+    "day",
+    "dusk"
+  ],
+  "emotional_range": "从婚前试探与施压，到婚约达成，再到不祥预感与公然撕破脸，情绪逐步加码。"
+}

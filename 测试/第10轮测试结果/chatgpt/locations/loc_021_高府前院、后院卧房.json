@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_021",
+  "name": "高府前院、后院卧房",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸前院与产后卧房",
+  "description": "前院以石路、雕花木门、守门小厮和临时跪垫构成外来者被阻拦的空间，视线可直指后院却难以进入。后院卧房则安置小摇篮、婴儿襁褓、床榻与安静内饰，形成强烈的内外落差。和离书在前院是关键道具，像一道书面化的门槛；后院卧房则以婴儿生活痕迹和产后静养布置强调母女世界已经自成一体。空间调度上应突出从门外失控闯入，到内室平静决断的层层推进。",
+  "visual_reference": "Late Ming dynasty official mansion front yard and postpartum rear bedroom, stone path leading to carved wooden doors, servant blocking entrance, kneeling mat on ground, divorce paper in foreground, then a quiet inner room with bed, baby cradle, swaddled infant, intimate maternal refuge beyond guarded threshold, emotional confrontation, historical Chinese drama realism, highly detailed",
+  "atmosphere": "阻隔、闯入、哀求、平静切断",
+  "color_palette": [
+    "石路灰",
+    "木门深褐",
+    "婴儿布料乳白"
+  ],
+  "lighting": "日间自然光下，前院较明且公开，后院卧房则更柔和安静，形成从激烈外部到冷静内部的光感转折。",
+  "key_features": [
+    "院中石路通向后院雕花木门",
+    "和离书与跪垫",
+    "卧房中的小摇篮与襁褓"
+  ],
+  "narrative_scenes": [
+    "scene_023"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从门外卑微求见的崩溃，进入内室后变成彻底告别与关系倒转。"
+}

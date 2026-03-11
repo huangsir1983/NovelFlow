@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "FLASHBACK. 沈府廊下灵前 - DUSK",
+  "location": "沈府牌位前",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "陆姝仪死后，沈词将她的死归咎于我，我试图用绣衣做鞋与饭菜修补关系，却被他尽数烧掉。",
+  "key_dialogue": "「怎么，又想从我身上得到什么？」",
+  "emotional_peak": "他把我所有示好投入火盆，彻底斩断温情。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "寝衣",
+    "鞋子",
+    "火盆",
+    "牌位"
+  ],
+  "dramatic_purpose": "具体化两人感情破裂的不可逆转时刻。",
+  "visual_reference": "暮色廊下，火盆映红两人侧脸，亲手缝制的寝衣鞋袜被丢入火中，灵位在后景若隐若现，女子强撑体面，男子冷笑尖刻",
+  "visual_prompt_negative": "避免大火灾难感，避免现代灵堂元素，避免艳丽饱和色",
+  "source_text_start": "后来，我也曾想修补我们的关系。",
+  "source_text_end": "他不再领情，统统丢入火盆之中，冷笑着讥讽我。"
+}

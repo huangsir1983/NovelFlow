@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "id": "scene_036",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 高府 - 廊下 - DAY",
+    "location": "高府廊下",
+    "time_of_day": "day",
+    "description": "半开敞廊道，通风良好，日光被檐角切碎后落在廊板上。廊边摆有坐榻与果盘，葡萄盛在白瓷盘中，四周安静，带有宅院午后的闲适感。",
+    "action": "沈词下衙后先来高府探望高令宁，俯身细问她一日饮食起居，把珍贵物件一一捧到她面前。两人并肩坐在廊下，高令宁眯着眼倚上他的肩，沈词低头替她剥葡萄，停顿片刻后开口认错，随后侧脸，在她额侧轻轻落下一吻。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "其实上一世，我有许多对不住你的地方。",
+        "subtext": "他试图示弱和补偿，借坦白过去换取高令宁的松动与接纳。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "葡萄",
+      "白瓷果盘",
+      "珍贵玩意"
+    ],
+    "dramatic_purpose": "展示二人表面修复中的亲密日常，同时埋下沈词愧疚与补偿心理，为后续关系判断制造复杂性。",
+    "tension_score": 0.4,
+    "dramatic_intensity": -0.2,
+    "order": 36
+  }
+}

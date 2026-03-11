@@ -1,0 +1,46 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "粉嫩可爱，眉眼似母",
+    "body": "幼小圆润",
+    "hair": "细软黑发",
+    "distinguishing_features": "活泼明亮的眼睛"
+  },
+  "costume": {
+    "typical_outfit": "婴孩襁褓或小襦裙",
+    "color_palette": [
+      "粉红",
+      "浅黄"
+    ]
+  },
+  "casting_tags": [
+    "可爱女童",
+    "阳光开朗"
+  ],
+  "visual_reference": "adorable 3-year-old Chinese girl in tiny hanfu, big bright eyes like her mother, soft black hair, chubby cheeks, joyful smile, highly detailed",
+  "visual_prompt_negative": "adult features, sad expression",
+  "personality": "活泼开朗、聪慧",
+  "desire": "父母陪伴",
+  "flaw": "年幼无知",
+  "arc": "从新生到满月宴活跃",
+  "scene_presence": "出生后与和离、江南场景中出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "亲密依赖",
+      "function": "女主情感寄托"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "沈词痴缠对象",
+      "function": "推动男主追妻"
+    }
+  ]
+}

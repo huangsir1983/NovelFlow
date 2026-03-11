@@ -1,0 +1,58 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹",
+    "小姐"
+  ],
+  "role": "supporting",
+  "age_range": "16-28",
+  "appearance": {
+    "face": "面容温婉清丽，五官柔和秀美，眼眸含水，哭时尤其楚楚动人，笑时带几分柔弱无害",
+    "body": "身形纤细柔弱，病态感明显，给人需要保护的印象",
+    "hair": "乌发柔顺，多为温婉发髻，配粉白系珠花发饰",
+    "distinguishing_features": "我见犹怜的脆弱感与清秀面孔，极具白月光气质"
+  },
+  "costume": {
+    "typical_outfit": "浅粉、素白、藕荷色襦裙，衣料轻柔，装束清雅不张扬",
+    "color_palette": [
+      "浅粉",
+      "素白",
+      "藕荷"
+    ]
+  },
+  "casting_tags": [
+    "白月光",
+    "柔弱美人",
+    "寄人篱下",
+    "心机隐忍",
+    "重生配角"
+  ],
+  "visual_reference": "delicate ancient chinese beauty, soft watery eyes, pale skin, slim fragile body, pink hanfu, gentle but calculating expression, tragic romantic aura, realistic historical drama style",
+  "personality": "表面温柔忍让，实则敏感、自卑、擅长以弱示人，有求生与攀附的算计",
+  "desire": "得到安稳归宿与被偏爱的地位，不再重蹈前世所嫁非人的悲剧",
+  "flaw": "边界感薄弱，习惯借他人庇护与同情达成目的，遇绝境时不择手段",
+  "arc": "从被保护的青梅、婚姻冲突导火索，到揭露自己同样重生并曾主动设计命运，最终退场认错",
+  "scene_presence": "主要出现在婚前义妹事件、马球会、婚后逼婚与失贞疑案、满月宴坦白等关键节点。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅/义兄妹/暧昧依赖",
+      "dynamic": "长期接受其保护，情感界限模糊，引发他人敌意",
+      "function": "核心第三者张力"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌/加害与被加害",
+      "dynamic": "两人互视彼此为自己不幸的根源，充满隐痛与比较",
+      "function": "推动误会与反转"
+    },
+    {
+      "target": "蒋晟",
+      "type": "丈夫/算计对象",
+      "dynamic": "以设计换婚姻，婚后关系冷淡疏离",
+      "function": "展现其生存策略代价"
+    }
+  ]
+}

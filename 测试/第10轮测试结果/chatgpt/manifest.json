@@ -1,0 +1,90 @@
+{
+  "version": "mode_c_v2",
+  "generated_at": "2026-03-10T16:53:46",
+  "summary": {
+    "characters": 13,
+    "narrative_scenes": 30,
+    "locations": 27,
+    "props_total": 216,
+    "props_major": 6,
+    "props_minor": 210,
+    "variants": 31
+  },
+  "directories": {
+    "characters": "characters/",
+    "narrative_scenes": "narrative_scenes/",
+    "locations": "locations/",
+    "props": "props/",
+    "variants": "variants/"
+  },
+  "files": {
+    "timeline": "narrative_scenes/_timeline.json",
+    "location_index": "locations/_index.json",
+    "props_index": "props/prop_index.json",
+    "manifest": "manifest.json"
+  },
+  "cost": [
+    {
+      "stage": "2A_locations",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 14735,
+      "elapsed_s": 351.82
+    },
+    {
+      "stage": "2C_props",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 2981,
+      "elapsed_s": 92.54
+    },
+    {
+      "stage": "3_variants",
+      "character": "沈词",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 2972,
+      "elapsed_s": 68.45
+    },
+    {
+      "stage": "3_variants",
+      "character": "高令宁",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 3520,
+      "elapsed_s": 79.65
+    },
+    {
+      "stage": "3_variants",
+      "character": "陆姝仪",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 3129,
+      "elapsed_s": 62.8
+    },
+    {
+      "stage": "3_variants",
+      "character": "高父",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 3190,
+      "elapsed_s": 77.98
+    },
+    {
+      "stage": "3_variants",
+      "character": "蒋晟",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 2113,
+      "elapsed_s": 42.53
+    },
+    {
+      "stage": "3_variants",
+      "character": "昭昭",
+      "model": "gpt-5.4",
+      "input_tokens": 0,
+      "output_tokens": 2236,
+      "elapsed_s": 42.5
+    }
+  ]
+}

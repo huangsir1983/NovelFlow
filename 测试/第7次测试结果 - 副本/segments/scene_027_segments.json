@@ -1,0 +1,69 @@
+[
+  {
+    "id": "seg_0126",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0435",
+      "shot_0436"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前两镜均为同一空间内的建立与收束，没有角色变化与时空跳转，情绪仍停留在‘冷压迫’起点，适合合并为一个开场段，先交代场域，再把视觉重心压向棺木。",
+    "order": 126
+  },
+  {
+    "id": "seg_0127",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0437",
+      "shot_0438",
+      "shot_0439"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜角色集合不变，仍处于同一情绪阶段：从外部静止到内部松动。以‘听者比说者重要’和‘环境即角色’策略，先看人，再看烛，再回到人，将压抑感转化为可感知的生理临界点。",
+    "order": 127
+  },
+  {
+    "id": "seg_0128",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0440",
+      "shot_0441"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是明确的情感弧线转折点：从压抑静立进入无声崩塌，因此单独成段。两镜动作连续、空间一致，合并后形成完整的‘撑不住—抱头封闭’情绪换挡。",
+    "order": 128
+  },
+  {
+    "id": "seg_0129",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0442",
+      "shot_0443",
+      "shot_0444"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均为崩溃峰值的细部拆解，角色与时空不变，情绪持续上扬直至顶点。采用由脸到泪到背的递进，把心理痛感外化为可拍摄的细节与身体反应，避免煽情喊哭。",
+    "order": 129
+  },
+  {
+    "id": "seg_0130",
+    "scene_id": "scene_027",
+    "shot_ids": [
+      "shot_0445",
+      "shot_0446"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜均承担冷收尾功能，从近处情绪峰值抽回到命运视角，没有新动作与角色变化，合并后形成完整的‘人仍在痛，世界已归于沉默’终止句。",
+    "order": 130
+  }
+]

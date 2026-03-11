@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 马球会游玩",
+  "tags": [
+    "户外",
+    "活动",
+    "受伤",
+    "未婚"
+  ],
+  "scene_ids": [
+    "scene_005",
+    "scene_006"
+  ],
+  "trigger": "参加侯爵娘子马球会，脚崴被蒋晟扶持",
+  "appearance_delta": {
+    "face": "因疼痛微微蹙眉，但强忍不适",
+    "body": "单脚受伤，需要搀扶",
+    "hair": "户外活动发髻，略显凌乱",
+    "distinguishing_features": "脚踝受伤，被男子搀扶的尴尬与倔强"
+  },
+  "costume_override": {
+    "outfit": "适合户外活动的轻便襦裙",
+    "color_palette": [
+      "青色",
+      "淡粉色"
+    ]
+  },
+  "visual_reference": "young Chinese woman in light hanfu for outdoor activities, slightly disheveled hair, wincing from ankle injury, being supported by someone, proud but pained expression, outdoor polo field setting with willow trees, ancient China sports event",
+  "emotional_tone": "疼痛、尴尬、倔强不愿示弱"
+}

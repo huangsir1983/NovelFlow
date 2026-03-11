@@ -1,0 +1,57 @@
+[
+  {
+    "id": "seg_0074",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0252",
+      "shot_0253",
+      "shot_0254"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属夜谈建立段，角色集合不变，持续围绕“她看见父亲熬夜后的变化”这一认知推进。情绪从空间压抑过渡到女儿体察与内里紧绷，尚未进入台词转折，因此合并为一个连续的观察段最稳。",
+    "order": 74
+  },
+  {
+    "id": "seg_0075",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0255",
+      "shot_0256"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段核心是第一句台词的完整发出与女儿第一反应，情感弧线从“沉重铺垫”进入“话终于说破”。虽包含案头细节，但其功能直接服务台词开口，因此与父亲说话、女儿听后的反应合并为一个完整节拍。",
+    "order": 75
+  },
+  {
+    "id": "seg_0076",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0258",
+      "shot_0259"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "双人关系镜头与父亲第二句核心台词属于同一情感推进：先确认父女站位未变、情感重心却在靠近，再推进到父亲价值立场的明确转折。此处是场内主要情绪上扬点，适合合并成一段完整的“父亲告白”。",
+    "order": 76
+  },
+  {
+    "id": "seg_0077",
+    "scene_id": "scene_016",
+    "shot_ids": [
+      "shot_0260",
+      "shot_0261",
+      "shot_0262",
+      "shot_0263"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组从女儿被触动的面部反应，到手部动作外化，再到父女对视和冷收尾，构成完整的回应段。角色集合未变，但情绪从内里波动逐步回落到更冷的悬置，正好以一个段落完成“关系已改写、答案仍未说尽”的收束。",
+    "order": 77
+  }
+]

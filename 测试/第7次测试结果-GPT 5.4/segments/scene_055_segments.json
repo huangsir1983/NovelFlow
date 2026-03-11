@@ -1,0 +1,87 @@
+[
+  {
+    "id": "seg_0275",
+    "scene_id": "scene_055",
+    "shot_ids": [
+      "shot_0813",
+      "shot_0814",
+      "shot_0815"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并开场建立、女主主观感知门外动静、男主折返现身三个相邻shot，叙事动作连续且仍处在同一情绪起点：压抑静默中新的侵入开始。以女主背身主观为核心，再补一记客观确认，完成空间、角色、道具和危机预告。",
+    "order": 275
+  },
+  {
+    "id": "seg_0276",
+    "scene_id": "scene_055",
+    "shot_ids": [
+      "shot_0816",
+      "shot_0817",
+      "shot_0818"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头构成完整的第一次情感交锋：位置关系建立、男主低声求留、女主以沉默拒绝。角色集合稳定，情绪弧线从试探到冷拒，适合作为单独segment收束在女主的反应上，符合‘听者比说者重要’。",
+    "order": 276
+  },
+  {
+    "id": "seg_0277",
+    "scene_id": "scene_055",
+    "shot_ids": [
+      "shot_0819",
+      "shot_0820",
+      "shot_0821"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成‘留在地上陪你’的物理落实：铺地铺、细节符号化、重建上下层关系。动作连贯，情绪由请求过渡为黏附式守候，没有时空断裂，适合合并成一个空间行为段落。",
+    "order": 277
+  },
+  {
+    "id": "seg_0278",
+    "scene_id": "scene_055",
+    "shot_ids": [
+      "shot_0822",
+      "shot_0823",
+      "shot_0824",
+      "shot_0825"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里存在明确的小时间跳转，因此以0822为新段起点最合适。之后三个shot构成完整的潜伏侵入动作链：静默过渡、起身、触腕、女主感知。情绪持续上扬且主观悬疑感统一，适合压缩为一个高张力segment。",
+    "order": 278
+  },
+  {
+    "id": "seg_0279",
+    "scene_id": "scene_055",
+    "shot_ids": [
+      "shot_0826",
+      "shot_0827",
+      "shot_0828",
+      "shot_0829"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这四个shot共同构成全场情绪高潮与主题明示：身体侵入、神情失控、誓言出口、控制落实。情感弧线高度一致，且对白跨镜延续明显，必须合并以保持压迫连续性与窒息感。",
+    "order": 279
+  },
+  {
+    "id": "seg_0280",
+    "scene_id": "scene_055",
+    "shot_ids": [
+      "shot_0830",
+      "shot_0831"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "高潮之后进入明确的冷收束，角色集合不变但情绪功能改变：从侵入与宣告转为冻结与余压。用女主无声近景接终景全景，既遵循主观视角优先，也为后续关系留下稳定而寒冷的空间基调。",
+    "order": 280
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 马球会客舍 - DAY",
+  "location": "马球会临时歇脚处",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为高令宁正骨，另一边陆姝仪犯胃病，沈词细致照料。高令宁坚持不退让，要求先解决陆姝仪婚事，陆姝仪跪地哀求，沈词当众护她。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪跪下说“就拿我当奴婢，当宠物”，沈词将她揽入怀中，彻底刺痛高令宁。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "伤药与夹板",
+    "药碗",
+    "衣袖擦泪",
+    "灯火下的榻席"
+  ],
+  "dramatic_purpose": "把三人情感边界问题摆到明面，逼女主看清自己曾经强求的荒谬",
+  "source_text_start": "大夫来看过了我的伤。\n脚踝错位，正骨完便",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

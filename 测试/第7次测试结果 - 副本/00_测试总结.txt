@@ -1,0 +1,59 @@
+======================================================================
+  第7轮测试报告 — Phase A/B/C 三阶段Pipeline + VFF
+  多模型适配 + 中文VFF视觉融合流
+======================================================================
+  小说: 《我和沈词的长子》 (13181 字)
+  模型: gpt-5.4, claude-opus-4-6, gemini, grok
+
+  数据库统计 (11张表):
+    chapters: 13 条
+    characters: 7 条
+    scenes: 54 条
+    beats: 20 条
+    knowledge: 1 条
+    shots: 835 条
+    character_states: 136 条
+    dialogue: 191 条
+    shot_prompts: 0 条
+    segments: 267 条
+    vff_prompts: 267 条
+
+  chapters/: 14 文件
+  characters/: 9 文件
+  scenes/: 55 文件
+  beats/: 21 文件
+  knowledge/: 3 文件
+  visual/: 1 文件
+  shots/: 55 文件
+  character_states/: 55 文件
+  dialogue/: 14 文件
+  shot_prompts/: 不存在
+  segments/: 55 文件
+  vff_prompts/: 55 文件
+
+  成本统计:
+    总API调用: 222 次
+    总Token: 1517347 (985285in + 532062out)
+    总API耗时: 11635.1s
+
+  各阶段成本:
+    Stage  1 (章节分割): 1次调用, 13352tokens (12206in+1146out), 23.6s
+    Stage  2 (摘要+扫描): 14次调用, 32915tokens (23417in+9498out), 265.2s
+    Stage  3 (角色详情+知识库): 8次调用, 92479tokens (73689in+18790out), 493.4s
+    Stage  4 (场景+节拍): 14次调用, 68039tokens (32757in+35282out), 760.7s
+    Stage  5 (绑定): 1次调用, 16678tokens (13951in+2727out), 53.1s
+    Stage  6 (Shot拆分): 54次调用, 365998tokens (176636in+189362out), 3927.1s
+    Stage  7 (VFF生成): 54次调用, 597063tokens (433817in+163246out), 3431.4s
+    Stage  8 (角色状态): 54次调用, 213866tokens (160651in+53215out), 1405.0s
+    Stage  9 (对白提取): 13次调用, 39790tokens (19924in+19866out), 416.4s
+    Stage 10 (视觉评估): 9次调用, 77167tokens (38237in+38930out), 859.3s
+
+  R6 vs R7 对比:
+    旧 Stage 9 (英文image prompt): 134次调用, ~1.07M tokens
+    新 Stage 7 (中文VFF): 54次调用, 597063tokens
+    VFF segments: 267 段
+    VFF prompts: 267 条
+
+======================================================================
+  流水线执行完毕
+======================================================================

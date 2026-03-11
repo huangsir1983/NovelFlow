@@ -1,0 +1,80 @@
+{
+  "name": "我",
+  "aliases": [
+    "高家长女",
+    "重生女主",
+    "沈夫人(前)"
+  ],
+  "role": "protagonist",
+  "age_range": "18-22",
+  "appearance": {
+    "face": "精致鹅蛋脸，丹凤眼锐利深邃透\n着重生后的睿智与决绝，柳眉微挑，唇形坚定，肤色白皙如凝脂，带着一丝隐忍后的锋芒",
+    "body": "身材修长匀称，怀孕后腰肢略丰盈但姿态优雅挺拔，举止间融合大家闺秀端庄与管家女子的干练果敢",
+    "hair": "乌黑浓密长发，通常梳成精致妇人髻，饰以金步摇或玉簪，散开时如瀑布般顺直光滑",
+    "distinguishing_features": "眼神中藏着前世沧桑与今生坚定的光芒，脖颈线条优美（前世自残记忆敏感点）"
+  },
+  "costume": {
+    "typical_outfit": "华贵古代汉服，宽袖交领长裙绣凤凰牡丹纹样，象征高贵与重生新生",
+    "color_palette": [
+      "深红",
+      "金黄",
+      "墨绿"
+    ],
+    "texture_keywords": [
+      "上等丝绸",
+      "精致刺绣",
+      "锦缎"
+    ]
+  },
+  "casting_tags": [
+    "重生贵女",
+    "坚强独立女性",
+    "古代复仇女主",
+    "决绝少妇",
+    "孕期贵妇"
+  ],
+  "visual_reference": "Beautiful young Chinese noblewoman in luxurious ancient hanfu with phoenix embroidery, elegant oval face, sharp phoenix eyes full of determination and reborn wisdom, long jet-black hair in intricate updo with jade and gold hairpins, fair porcelain skin, slender graceful pregnant figure, resolute expression, highly detailed, dramatic lighting, ancient Chinese palace interior",
+  "description": "重生后决定与沈词和离、摆脱前世纠缠、追求独立与家族复兴的坚强女主角。",
+  "personality": "争强好胜、眼里容不得沙子、隐忍算计后果断决绝，典型行为：表面克制内心锋利，一旦下定决心绝不妥协（如前世立威自残、今生坚定和离）",
+  "desire": "严格按前世约定与沈词和离，避免一生纠缠，保护家族兴旺并开启不受命运束缚的自由人生",
+  "flaw": "极强的控制欲与复仇心，可能导致极端行动或忽略孩子情感纽带",
+  "arc": "起点：重生后怀怨联姻并重振家族；转变触发：怀上睿儿后沈词提议续婚；终点：坚定和离，彻底解脱走向独立新章",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感/权力",
+      "dynamic": "相看两厌的重生联姻伴侣，充满张力：他冷漠建议为子维系，她坚决拒绝，共享重生秘密却情感疏离",
+      "function": "前夫、主要冲突源、命运对照者"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "对照/利益冲突",
+      "dynamic": "沈词青梅义妹，前世被用来立威羞辱对象，今生其存在强化女主对婚姻的厌弃与和离决心",
+      "function": "情敌与性格对照，推动女主独立弧线"
+    },
+    {
+      "target": "睿儿",
+      "type": "情感",
+      "dynamic": "未出生长子（前世名相），成为沈词挽留理由，但女主仍选择分离以获自由，情感复杂羁绊",
+      "function": "关键抉择点与未来伏笔"
+    },
+    {
+      "target": "父亲",
+      "type": "情感/家庭",
+      "dynamic": "父亲质问婚事时她从回忆爱慕转为复仇决心，坚定要风光大嫁，体现家族纽带下的个人意志主导",
+      "function": "家庭支持者与早期质疑者"
+    },
+    {
+      "target": "沈母",
+      "type": "权力/对抗",
+      "dynamic": "前世试图拿陆姝仪立威的婆婆，女主通过和离摆脱其控制，今生或延续张力",
+      "function": "反派长辈、立威对象"
+    },
+    {
+      "target": "大夫",
+      "type": "利益/信息",
+      "dynamic": "确诊胎儿为男孩，推动婚姻决断转折，提供关键剧情节点信息",
+      "function": "辅助叙事功能者"
+    }
+  ]
+}

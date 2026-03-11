@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_002",
+  "name": "高令宁闺房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸内宅",
+  "description": "精致温婉的千金闺房，以黄花梨木家具为主。靠窗处设有一张精美的红木梳妆台，台上摆放着菱花铜镜与首饰盒。床榻挂着轻柔的纱帐，多宝阁上陈列着瓷器与古玩。空间透着幽静与私密感。",
+  "visual_reference": "Interior of a wealthy ancient Chinese noblewoman's boudoir, Ming dynasty style. A delicate rosewood vanity table with a bronze mirror by the window, soft silk curtains, elegant wooden furniture, embroidered silk handkerchiefs. Soft natural light, serene and private atmosphere, highly detailed, cinematic.",
+  "atmosphere": "幽静、私密、暗藏锋芒",
+  "color_palette": [
+    "#E6C2C0",
+    "#D2B48C",
+    "#F0E68C"
+  ],
+  "lighting": "柔和的日间散射光透过轻纱窗棂，照在铜镜与梳妆台上，形成温润的高光。",
+  "key_features": [
+    "黄花梨梳妆台",
+    "菱花铜镜",
+    "半透明的纱帐"
+  ],
+  "narrative_scenes": [
+    "scene_002"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从平静的梳妆到决绝冷笑的复仇宣言。"
+}

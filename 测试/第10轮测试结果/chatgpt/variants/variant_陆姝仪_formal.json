@@ -1,0 +1,32 @@
+{
+  "variant_id": "lu_shuyi_variant_06",
+  "variant_type": "formal",
+  "variant_name": "陆姝仪 — 满月宴坦白重生真相",
+  "tags": [
+    "满月宴",
+    "重生坦白",
+    "真相揭露",
+    "认错退场前",
+    "苍白决绝"
+  ],
+  "scene_ids": [
+    "scene_025"
+  ],
+  "trigger": "昭昭满月宴上，陆姝仪不请自来，当众承认自己也重生，并坦白失贞局是自己设计。",
+  "appearance_delta": {
+    "face": "神色由柔弱转为苍白冷静，仍有脆弱底色，但多了认命与决绝",
+    "body": "身形依旧纤细，却比以往少了单纯依附姿态，站得更硬撑",
+    "hair": "发髻保持得体完整，显示她是有准备而来，不再是事故中的凌乱状态",
+    "distinguishing_features": "在喜庆宴厅中呈现格格不入的苍白感，柔弱外表下终于显露主动设计命运的锋利真相"
+  },
+  "costume_override": {
+    "outfit": "赴宴用的清雅正式浅色襦裙，依旧不张扬，但较日常更整齐庄重，以适配满月宴场合",
+    "color_palette": [
+      "素白",
+      "浅粉",
+      "冷藕荷"
+    ]
+  },
+  "visual_reference": "realistic historical chinese drama style, delicate ancient chinese woman at a full moon banquet, pale skin, soft watery eyes but calm resigned expression, slim fragile body, elegant neat bun with subtle pearl ornaments, formal pale pink and off-white hanfu, festive red banquet hall in background, carrying the aura of confession and tragic calculation, gentle beauty with hidden sharpness",
+  "emotional_tone": "苍白坦然"
+}

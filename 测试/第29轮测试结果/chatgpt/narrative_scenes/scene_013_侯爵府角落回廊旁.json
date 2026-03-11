@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "EXT. 马球会僻静角落 - DAY",
+  "location": "侯爵府角落回廊旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我因脚伤独处时，沈词追来要抱我回去，我拒绝，他却以夫妻旧事轻薄讥讽，激起我强烈反感。",
+  "key_dialogue": "「你身上哪里，我没碰过？」",
+  "emotional_peak": "他一句越界的旧情话，让我瞬间从疏离变为厌恶。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "肿起脚踝",
+    "回廊栏杆",
+    "衣袖"
+  ],
+  "dramatic_purpose": "呈现两人关系中暧昧与侮辱并存的危险张力。",
+  "visual_reference": "僻静角落，女子扶着廊柱忍痛站起，男子挡在去路前，目光冷而逼近，空间狭窄压迫感强，风吹衣摆，气氛暧昧又带攻击性",
+  "visual_prompt_negative": "避免拥吻，避免轻喜剧误会感，避免现代暧昧姿势",
+  "source_text_start": "再抬头时，蒋晟已经不在身边。",
+  "source_text_end": "「装什么装？」「你身上哪里，我没碰过？」"
+}

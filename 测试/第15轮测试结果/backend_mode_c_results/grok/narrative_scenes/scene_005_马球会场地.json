@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "EXT. 马球会场地 - 日",
+  "location": "马球会场地",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "马球会见沈词宠陆姝仪，高令宁扭脚蒋晟照顾",
+  "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+  "emotional_peak": "沈词眯眼嫉妒",
+  "tension_score": 0.75,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "马球杆"
+  ],
+  "dramatic_purpose": "触发醋意与肌肤之亲对话",
+  "source_text_start": "想到沈词愠怒的神情，我心情大好，应了侯爵娘子的马球会。",
+  "source_text_end": "沈词似乎笑了下：「装什么装？你身上哪里，我没碰过？」"
+}

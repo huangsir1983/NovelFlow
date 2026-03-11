@@ -1,0 +1,200 @@
+[
+  {
+    "id": "shot_0037",
+    "scene_id": "scene_003",
+    "shot_number": 1,
+    "goal": "建立时间（天未明）和女主操劳状态的起点",
+    "composition": "窗棂剪影占据画面左侧1/3，透过窗格可见天色微亮，右侧烛光照亮账房一角，女主背影居中偏右",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "孤独、压抑",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 37
+  },
+  {
+    "id": "shot_0038",
+    "scene_id": "scene_003",
+    "shot_number": 2,
+    "goal": "展现账册堆积如山的工作量",
+    "composition": "俯拍45度角，账册堆叠占据前景，女主手指在账本上快速移动，烛台位于画面右上角提供侧光",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "焦虑、紧迫感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 38
+  },
+  {
+    "id": "shot_0039",
+    "scene_id": "scene_003",
+    "shot_number": 3,
+    "goal": "通过眼下青黑展现疲惫程度",
+    "composition": "正面特写，眼睛位于画面上1/3处，烛光从下方打亮面部，眼下阴影明显，背景虚化",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "疲惫、倔强",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.4,
+    "order": 39
+  },
+  {
+    "id": "shot_0040",
+    "scene_id": "scene_003",
+    "shot_number": 4,
+    "goal": "转场至厨房，建立空间变化",
+    "composition": "厨房全景，灶台占据前景，女主从画面右侧入画，管事和厨子分列两侧，蒸汽弥漫中景",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "威严、掌控",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 40
+  },
+  {
+    "id": "shot_0041",
+    "scene_id": "scene_003",
+    "shot_number": 5,
+    "goal": "展现女主检查菜品的严苛",
+    "composition": "侧面中景，女主手持筷子位于画面左侧，菜碟占据前景右侧，背景管事低头候立",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "紧张、压迫",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 41
+  },
+  {
+    "id": "shot_0042",
+    "scene_id": "scene_003",
+    "shot_number": 6,
+    "goal": "捕捉女主不满的表情和训斥动作",
+    "composition": "正面中特写，女主眉头紧锁居中，手指指向画面外（管事方向），背景虚化",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "愤怒、不满",
+    "duration_hint": "2s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.5,
+    "order": 42
+  },
+  {
+    "id": "shot_0043",
+    "scene_id": "scene_003",
+    "shot_number": 7,
+    "goal": "转场至库房，延续操劳蒙太奇",
+    "composition": "库房纵深构图，货架形成透视线，女主背影位于画面中央走向深处，两侧堆满物资",
+    "camera_movement": "dolly_in",
+    "framing": "MLS",
+    "emotion_target": "疲惫累积",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 43
+  },
+  {
+    "id": "shot_0044",
+    "scene_id": "scene_003",
+    "shot_number": 8,
+    "goal": "展现清点物资的细致和额头汗水",
+    "composition": "侧面特写，女主侧脸占据画面右侧2/3，额头汗珠清晰可见，左侧前景为账本和算盘",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "辛劳、坚持",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.5,
+    "order": 44
+  },
+  {
+    "id": "shot_0045",
+    "scene_id": "scene_003",
+    "shot_number": 9,
+    "goal": "建立夜深时分的时间跳跃和孤独氛围",
+    "composition": "远景俯拍，女主孤零零坐在烛光圈中，周围大片暗影，桌案占据画面下1/3",
+    "camera_movement": "crane_down",
+    "framing": "WS",
+    "emotion_target": "孤独、渺小",
+    "duration_hint": "4-5s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 45
+  },
+  {
+    "id": "shot_0046",
+    "scene_id": "scene_003",
+    "shot_number": 10,
+    "goal": "捕捉手抚小腹的关键动作（伏笔）",
+    "composition": "中景侧面，女主坐姿占据画面中央，右手轻抚小腹，左手持笔悬停，烛光从左侧照亮半边脸",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "疲惫中的温柔",
+    "duration_hint": "3s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 46
+  },
+  {
+    "id": "shot_0047",
+    "scene_id": "scene_003",
+    "shot_number": 11,
+    "goal": "通过面部表情展现疲惫与倔强的矛盾",
+    "composition": "正面特写，眼神疲惫但嘴角紧抿显示倔强，烛光在瞳孔中形成光点，背景全黑",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心疼、敬佩",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我/女主/高家长女"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.7,
+    "order": 47
+  }
+]

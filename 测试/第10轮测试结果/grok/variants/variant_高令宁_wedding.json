@@ -1,0 +1,29 @@
+{
+  "variant_id": "高令宁_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 洞房新娘",
+  "tags": [
+    "喜服",
+    "新婚",
+    "红妆"
+  ],
+  "scene_ids": [
+    "scene_009"
+  ],
+  "trigger": "沈府洞房花烛夜，夫妻独处、陆婢女打断前，云雨后冷漠时刻",
+  "appearance_delta": {
+    "face": "清丽精致，脸颊微红潮热，眼神锐利中带冷漠疲惫",
+    "body": "纤细苗条，姿态高傲却略显僵硬紧张",
+    "hair": "精致妇人髻插凤凰钗，红盖头半掀",
+    "distinguishing_features": "红唇微抿，骄傲下巴微垂，颈间红痕"
+  },
+  "costume_override": {
+    "outfit": "大红绣金喜服长裙，红盖头，丝带缠腕",
+    "color_palette": [
+      "红",
+      "金"
+    ]
+  },
+  "visual_reference": "Elegant young Chinese woman 18-23, sharp determined eyes with proud chin slightly lowered and complex coldness, delicate fair features flushed, long jet-black hair in intricate bridal updo with phoenix hairpin and red veil partially lifted, slender graceful figure, wearing flowing red embroidered wedding Hanfu with gold accents and red sash, in candlelit bridal chamber with red candles and happy bed, cinematic historical drama style, highly detailed face, warm red candle lighting, expression of reluctance and hidden turmoil after intimacy",
+  "emotional_tone": "云雨后的冷漠与隐忍厌倦"
+}

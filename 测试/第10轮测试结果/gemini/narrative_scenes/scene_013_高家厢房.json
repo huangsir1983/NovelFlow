@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "INT. 高家厢房 - DUSK",
+  "location": "高家厢房",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "陆姝仪设计与蒋晟衣冠不整被抓包，反咬高令宁陷害。沈词不分青红皂白护着陆姝仪，推倒高令宁导致其早产。",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "沈词一巴掌打在高令宁手上，高令宁踉跄倒地腹痛难忍，高父冲入惊呼。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "散落的衣物",
+    "凌乱的床铺",
+    "桌椅"
+  ],
+  "dramatic_purpose": "全剧最大冲突点，沈词的偏执与愚蠢达到顶峰，亲手毁掉了挽回女主的最后机会。"
+}

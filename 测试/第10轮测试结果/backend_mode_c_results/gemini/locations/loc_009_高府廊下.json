@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_009",
+  "name": "高府廊下",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸",
+  "description": "连接高府前后院的曲折回廊。红漆柱子，雕花栏杆。廊下摆放着一张铺着软垫的长椅，旁边小几上有剥好的葡萄和团扇。微风吹过，廊外的庭院花草摇曳。",
+  "visual_reference": "A winding covered corridor in an ancient Chinese manor. Red wooden pillars, carved railings. A wooden bench with soft cushions, a small table with peeled grapes and a round fan. Gentle breeze, garden plants visible outside. Warm daylight, romantic yet melancholic vibe, highly detailed.",
+  "atmosphere": "慵懒、宁静、迟来的温情",
+  "color_palette": [
+    "#CD5C5C",
+    "#E8E8E8",
+    "#6B8E23"
+  ],
+  "lighting": "阳光透过廊檐斜射进来，形成规律的光斑，微风带来光影的晃动。",
+  "key_features": [
+    "走廊长椅",
+    "精致的果盘",
+    "红漆廊柱"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "昏昏欲睡的慵懒与小心翼翼的偷吻。"
+}

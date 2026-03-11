@@ -1,0 +1,54 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐"
+  ],
+  "role": "antagonist",
+  "age_range": "16-22岁",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜，眼眸如含泪清泉，常带凄苦之色",
+    "body": "身姿柔弱纤细，仿佛风吹即倒",
+    "hair": "发丝细软，常配素雅的珠花",
+    "distinguishing_features": "随时能凝结在眼眶的泪水和示弱的姿态"
+  },
+  "costume": {
+    "typical_outfit": "材质轻柔的裙衫，不张扬但极具保护欲暗示",
+    "color_palette": [
+      "藕粉色",
+      "素白色"
+    ]
+  },
+  "casting_tags": [
+    "白莲花",
+    "绿茶女配",
+    "生存挣扎者",
+    "小白花长相"
+  ],
+  "visual_reference": "1girl, 19 years old, ancient chinese girl, delicate and fragile appearance, pale pink hanfu, teary eyes, gentle and pitiful expression, soft lighting, ethereal --ar 9:16",
+  "personality": "极度利己、擅长利用弱者身份进行道德绑架与雌竞。本质是父权社会下为求生存不择手段的藤蔓植物。",
+  "desire": "寻找最强大的男性庇护，获取阶级地位与安全感。",
+  "flaw": "缺乏独立人格，将命运完全依附于男性，为达目的没有底线。",
+  "arc": "伪善的白月光（前世） → 狗急跳墙的施计者（重生后） → 认命的深宅怨妇（结局）",
+  "scene_presence": "马球会展示风筝、装病求留府、设计蒋晟失贞、满月宴坦白真相",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "利益",
+      "dynamic": "寄生与利用，以退为进",
+      "function": "阻碍（男主道德枷锁的具象化）"
+    },
+    {
+      "target": "高令宁",
+      "type": "权力",
+      "dynamic": "暗中嫉妒与雌竞陷害",
+      "function": "对照（依附者与独立者的对比）"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益",
+      "dynamic": "算计与绑架",
+      "function": "助攻（自食恶果的闭环）"
+    }
+  ]
+}

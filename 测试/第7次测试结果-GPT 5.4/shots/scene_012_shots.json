@@ -1,0 +1,298 @@
+[
+  {
+    "id": "shot_0185",
+    "scene_id": "scene_012",
+    "shot_number": 1,
+    "goal": "建立灵堂空间、礼制秩序与死亡事实，明确棺木、殓葬用品和空寂氛围，为后续私人悲痛置于公开礼制空间中做铺垫。",
+    "composition": "WS对称构图，棺材居中置于画面中轴，白幡自上垂落形成纵向切割；前景左侧虚焦掠过一角白幡，右下角压入净水铜盆与叠好的白布，背景门窗透入冷白天光，空间深处留大量空白，沈词位于画面左后侧小比例入画，几乎被空间吞没。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "肃杀、空寂、礼法压人",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 185
+  },
+  {
+    "id": "shot_0186",
+    "scene_id": "scene_012",
+    "shot_number": 2,
+    "goal": "交代沈词亲自处理遗体，不假手于人，确立其补偿性行动的起点。",
+    "composition": "MLS侧面构图，镜头保持在停棺处一侧，前景是半遮挡的白幡边缘，沈词在画面右侧俯身抱起高令宁遗体，遗体横向占据其臂弯形成沉重横线；左侧留出净身处与铜盆位置，形成明确动作去向。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "克制中的决绝、沉重",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 186
+  },
+  {
+    "id": "shot_0187",
+    "scene_id": "scene_012",
+    "shot_number": 3,
+    "goal": "强调抱起遗体时身体接触的真实重量与沈词的谨慎，传达这不是仪式动作而是私人照料。",
+    "composition": "MCU斜侧近距离，沈词胸肩占据右半画面，高令宁苍白的侧脸与垂落的手在左下方进入画面；背景虚化为冷白窗光，白幡模糊成竖线。视觉重心落在他托住她后背与膝弯的双手。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "触目惊心的亲密、迟来的珍重",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.47,
+    "order": 187
+  },
+  {
+    "id": "shot_0188",
+    "scene_id": "scene_012",
+    "shot_number": 4,
+    "goal": "展示他将她放至净身处的动作完整性，强调‘稳而缓’而非失控粗暴。",
+    "composition": "MS平侧构图，净身案占据画面中下部横线，沈词从右向左将高令宁轻放其上，保持场景方向一致；前景左下为铜盆边缘，背景悬挂白幡与空堂留白，人物轮廓被侧逆光勾出冷边。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "压抑、谨慎、近乎赎罪的温柔",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 188
+  },
+  {
+    "id": "shot_0189",
+    "scene_id": "scene_012",
+    "shot_number": 5,
+    "goal": "以礼制细节切入，明确净身流程开始，突出动作代替语言。",
+    "composition": "CU俯拍铜盆与双手，铜盆居中偏下，水面冷白反光；沈词的手从画面右侧拧起白布，水滴坠回盆中形成唯一动态，背景只保留寿衣一角的白色织物纹理。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "安静到近乎残酷的仪式感",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.56,
+    "order": 189
+  },
+  {
+    "id": "shot_0190",
+    "scene_id": "scene_012",
+    "shot_number": 6,
+    "goal": "突出‘一寸寸擦净’的具体过程，让补偿行为具备时间重量。",
+    "composition": "ECU极近特写，高令宁冰冷的手置于画面中央偏左，沈词持白布的手从右侧进入，缓慢擦过指节与掌心；背景彻底虚化，仅保留冷灰色调，皮肤与白布形成近乎同色的死亡质感。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "心口发紧、无声刺痛",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.61,
+    "order": 190
+  },
+  {
+    "id": "shot_0191",
+    "scene_id": "scene_012",
+    "shot_number": 7,
+    "goal": "将动作推进到面部，确认他对她的照料已跨过礼数进入最私密的告别。",
+    "composition": "CU侧俯角，高令宁脸部位于画面左侧三分之二区域，眼睑闭合、肤色病白；沈词的手与白布从画面上方缓慢擦过她额角与脸侧，右侧留出冷白空白。背景仅有模糊窗格线条。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "迟来的亲近、不可挽回",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.67,
+    "order": 191
+  },
+  {
+    "id": "shot_0192",
+    "scene_id": "scene_012",
+    "shot_number": 8,
+    "goal": "首次给到沈词的正面情绪控制状态，显示他在动作中仍死死压住崩溃。",
+    "composition": "MCU正侧面，沈词位于画面右侧，低头看向画外左下的高令宁；前景一条虚焦白幡自上垂落切过左侧，像礼法隔断。背景是空白墙面与一扇冷光窗，他的眼下疲惫阴影明显，肩线开始下塌。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "强忍、失血般的疲惫",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 192
+  },
+  {
+    "id": "shot_0193",
+    "scene_id": "scene_012",
+    "shot_number": 9,
+    "goal": "交代替她穿寿衣的过程，强化他亲手完成所有后事的叙事信息。",
+    "composition": "MLS斜俯构图，净身案从画面左下延至右中，沈词半跪在右侧，展开寿衣覆盖高令宁身体；寿衣的大面积白色铺陈在画面中部，与背景白幡形成层层白色包围。铜盆已退至前景边缘，提示流程推进。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "沉默、执拗、补偿",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 193
+  },
+  {
+    "id": "shot_0194",
+    "scene_id": "scene_012",
+    "shot_number": 10,
+    "goal": "用手部细节收束穿衣动作，表现他对每一处褶皱都不肯敷衍。",
+    "composition": "CU定点，寿衣领口与高令宁颈侧位于画面中央，沈词双手从两侧轻轻整理衣襟，指尖停顿于颈侧一瞬；背景是浅景深的白布纹理，视觉引导集中在那一下停顿。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "痛感骤紧、触碰禁区",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 194
+  },
+  {
+    "id": "shot_0195",
+    "scene_id": "scene_012",
+    "shot_number": 11,
+    "goal": "将动作段落结束，转入结果展示：她已被整理妥当，而他被空堂与棺木逼入孤绝位置。",
+    "composition": "FS纵深构图，前景右侧为已净身着寿衣的高令宁轮廓虚焦，沈词立于中景中央背对镜头，面向棺材；棺材在背景中轴，白幡从顶端垂下压迫空间，人物被夹在遗体与棺木之间。",
+    "camera_movement": "dolly",
+    "framing": "FS",
+    "emotion_target": "完成后的更深空虚",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 195
+  },
+  {
+    "id": "shot_0196",
+    "scene_id": "scene_012",
+    "shot_number": 12,
+    "goal": "正式进入崩溃前的静止，交代他独自站在棺前的状态与肩背塌陷。",
+    "composition": "MLS背面构图，沈词位于画面中心偏下，背对镜头站在棺前，肩背明显塌下；棺材占据前方中轴，门窗冷光在其左右对称展开。前景下方留出大片空地，压出人物渺小与无处可退。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "无声失重、将倾未倾",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 196
+  },
+  {
+    "id": "shot_0197",
+    "scene_id": "scene_012",
+    "shot_number": 13,
+    "goal": "捕捉他抱住头的动作，将心理防线崩裂具象化。",
+    "composition": "MS三分侧后角度，沈词位于画面右侧，双手缓慢抬起抱住头，身体前屈；左侧保留棺材边缘与一段白幡，下方留黑，形成压缩空间。动作方向保持朝向棺材不变。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "窒息、终于压不住的内爆",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 197
+  },
+  {
+    "id": "shot_0198",
+    "scene_id": "scene_012",
+    "shot_number": 14,
+    "goal": "进入失控核心，用微颤的身体表现他哭而不出声的崩坏方式。",
+    "composition": "MCU背侧近景，镜头贴近沈词肩颈，双手抱头占据画面两侧，后颈与颤动的肩线成为视觉中心；背景棺木与白幡彻底虚化，仅剩冷白斑块。构图极紧，让观众被迫贴近他的失态。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "贴身的不安、压抑性悲恸",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 198
+  },
+  {
+    "id": "shot_0199",
+    "scene_id": "scene_012",
+    "shot_number": 15,
+    "goal": "以最小动作完成情感爆点：泪水终于坠落但仍无声，落实人物性格中的克制与偏执。",
+    "composition": "CU侧脸特写，沈词脸部占右侧三分之二，眼睫低垂，泪沿下颌线坠落；左侧是冷白虚空，不给任何安慰性元素。光线从上后方勾出泪痕与鼻梁，嘴唇死死抿紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "极致心碎、无声比嚎哭更重",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 199
+  },
+  {
+    "id": "shot_0200",
+    "scene_id": "scene_012",
+    "shot_number": 16,
+    "goal": "在情绪峰值后回到客观空间，收束本场：灵堂依旧空寂，悲痛无人见证，留下‘若有来生’的回响空间。",
+    "composition": "WS高位远观，棺材仍居中，沈词缩成中轴前的一小团暗色，仍立于棺前未动；前景白幡模糊垂落形成遮挡，背景冷光不变，净身用品散置一侧，显示仪式已完成而人未完成告别。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "余震、苍凉、命运性空白",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.84,
+    "order": 200
+  }
+]

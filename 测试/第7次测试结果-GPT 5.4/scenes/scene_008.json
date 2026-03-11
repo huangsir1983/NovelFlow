@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "id": "scene_008",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:38:15"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_004"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府 - 内宅会客处 - AFTERNOON",
+    "location": "沈府内宅会客处",
+    "time_of_day": "day",
+    "description": "内宅会客空间半封闭，午后光线从窗棂照进来，安静得近乎压抑。桌上有茶盏、未动的点心，气氛表面平静，暗里不安。高令宁与陆姝仪分坐两侧，彼此保持礼貌距离。",
+    "action": "陆姝仪坐在椅中，指尖摩挲茶盏边缘，目光游移，神色恍惚。高令宁端坐应对，留意着她的反应，偶尔抬眼观察。两人交谈后，陆姝仪起身离开，裙摆拂过门槛，背影单薄。高令宁留在原地，望着她离开的方向，神情凝住。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "茶盏",
+      "点心",
+      "桌案"
+    ],
+    "dramatic_purpose": "建立陆姝仪死亡前最后一次接触，为随后的误解与指控提供因果连接，同时制造不祥预感。",
+    "tension_score": 0.58,
+    "dramatic_intensity": 0.16,
+    "order": 8
+  }
+}

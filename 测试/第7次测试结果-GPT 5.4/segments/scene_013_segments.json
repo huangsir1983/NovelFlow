@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0063",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0212",
+      "shot_0213",
+      "shot_0214"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以建立意识空间到女主重新聚焦，再顺势触发第一组争执记忆，三镜头都围绕女主主观醒转展开，角色集合虽从单人扩展到双人，但仍属于同一段‘回忆被激活’的连续认知动作，适合合并为开场段。",
+    "order": 63
+  },
+  {
+    "id": "seg_0064",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0215",
+      "shot_0216",
+      "shot_0217"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕第一组争执的余震展开：先给男主失控边缘，再拍女主受击反应，随后推进到更深层的长期冷战记忆。三镜头在情绪上由尖锐冲突转向冰冷隔阂，形成完整的压抑弧线，且仍以女主被旧忆刺穿的主观体验串联。",
+    "order": 64
+  },
+  {
+    "id": "seg_0065",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0218",
+      "shot_0219",
+      "shot_0220"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头构成明确的因果递进：从守病补偿，到身体接触细节，再到停棺终局。情绪由酸冷转为死亡既成，属于同一条‘迟来的照料已无法挽回’的记忆弧线，适合合并为一个中强度爆点段落。",
+    "order": 65
+  },
+  {
+    "id": "seg_0066",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0221",
+      "shot_0222",
+      "shot_0223"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段完成从男主迟来崩裂到女主主观断念的情感坠落。先给有限客观观察男主，再回到女主认定‘已成前世’，最后用抽象空茫承接誓言余音，三镜头共同构成本场最低谷，边界清晰。",
+    "order": 66
+  },
+  {
+    "id": "seg_0067",
+    "scene_id": "scene_013",
+    "shot_ids": [
+      "shot_0224",
+      "shot_0225"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜构成明确反转：从誓言余音的最低谷骤然跳到‘可以重来’的锋利认知，再落到女主接受前提、重整姿态的冷静收束。角色单一、时空统一、情感弧线完整，是结尾独立段落。",
+    "order": 67
+  }
+]

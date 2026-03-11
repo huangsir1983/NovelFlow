@@ -1,0 +1,61 @@
+{
+  "model": "ChatGPT (gpt-5.4)",
+  "status": "OK",
+  "test_round": "R25",
+  "r24_architecture": "dual_stream_pipeline",
+  "r24_optimizations": [
+    "char_scene_parallel_stream",
+    "progressive_loc_card_firing",
+    "elastic_concurrency_10",
+    "variant_sem_4"
+  ],
+  "streaming": true,
+  "num_characters": 13,
+  "num_scenes": 17,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "高父",
+    "蒋晟",
+    "沈母",
+    "沈睿",
+    "昭昭",
+    "伯爵府三公子",
+    "侯爵娘子",
+    "媒人",
+    "大夫",
+    "小厮与婢女群体"
+  ],
+  "char_stream_time_s": 211.82,
+  "char_stream_chunks": 9004,
+  "char_stream_chars": 15132,
+  "time_to_first_char_s": 30.6,
+  "scene_stream_time_s": 109.71,
+  "scene_stream_chunks": 5356,
+  "scene_stream_chars": 10415,
+  "source_text_coverage": {
+    "total": 17,
+    "count_with_start": 17,
+    "count_with_end": 17,
+    "count_with_both": 17,
+    "coverage_pct": 100.0
+  },
+  "loc_batches_fired": 4,
+  "num_locations": 16,
+  "num_props_total": 54,
+  "num_props_major": 10,
+  "num_props_minor": 44,
+  "num_variants": 16,
+  "pipeline_total_time_s": 322.78,
+  "phase1_time_s": 211.83,
+  "phase2_time_s": 110.95,
+  "r20_major_prop_top_n": 10,
+  "r20_source_text_coverage": {
+    "total": 17,
+    "count_with_start": 17,
+    "count_with_end": 17,
+    "count_with_both": 17,
+    "coverage_pct": 100.0
+  }
+}

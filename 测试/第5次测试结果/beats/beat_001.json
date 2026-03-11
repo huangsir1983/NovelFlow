@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_001",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:56"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "抛出为谁而活的婚姻命题",
+    "description": "前情中直接抛出核心主题：若婚姻只是为延续一个孩子、挽回既定结果、或偿还前世恩怨，那么人是否还应继续被困在关系里；尤其我在未来明确拒绝为睿儿维持婚姻，奠定全剧对“命运、执念、自由”的追问。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Theme Stated",
+    "emotional_value": -0.1,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 1
+  }
+}

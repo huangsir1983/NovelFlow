@@ -1,0 +1,36 @@
+{
+  "variant_id": "gaolingning_variant_06",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南和离后自在母亲态",
+  "tags": [
+    "江南",
+    "和离后",
+    "母亲",
+    "自在",
+    "余情未了"
+  ],
+  "scene_ids": [
+    "scene_026",
+    "scene_027",
+    "scene_028",
+    "scene_029",
+    "scene_030"
+  ],
+  "trigger": "带昭昭移居江南后，在清净宅院中抚养女儿、与沈词书信往来、雪日再见以及夜里被其纠缠时出现。",
+  "appearance_delta": {
+    "face": "较此前更平和舒展，少了长期紧绷的戾气，仍保留高自尊的清冷；收到试探婚讯时会显出藏不住的失眠倦意",
+    "body": "产后恢复后身形重新匀称，但比少女时更成熟沉稳，带单独抚养孩子后的从容感",
+    "hair": "江南居家多为简洁妇人髻或低挽发髻，簪饰减少，更偏生活化",
+    "distinguishing_features": "气质从强势主母转为清冷自持的独居贵妇与母亲，身边常有书册、书信、算盘、孩童玩具等生活痕迹"
+  },
+  "costume_override": {
+    "outfit": "江南宅院中的素雅宽松长裙、披风或家常汉服，材质舒适，兼具体面与日常感；雪天加厚披风",
+    "color_palette": [
+      "月白",
+      "黛青",
+      "烟青"
+    ]
+  },
+  "visual_reference": "ancient Chinese divorced noblewoman living in Jiangnan, Song dynasty style casual hanfu, elegant oval face, pale cool skin, sharp bright eyes now calmer, black hair in a simple graceful low married bun, understated moon-white and smoky teal robes, scholarly courtyard with books, letters, child toys and winter snow, mature and self-possessed motherly aura, cinematic natural light, realistic serene beauty with hidden lingering emotion",
+  "emotional_tone": "平静、自持、松弛中带未断情丝"
+}

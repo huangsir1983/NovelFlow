@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "INT. 马球会休息处 - 日傍晚",
+  "location": "马球会休息室",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "蒋晟",
+    "陆姝仪",
+    "大夫"
+  ],
+  "core_event": "陆姝仪胃病，沈词照顾；高令宁正骨后要离开",
+  "key_dialogue": "还望高姑娘，言出必行",
+  "emotional_peak": "陆姝仪跪求高令宁的楚楚可怜",
+  "tension_score": 0.8,
+  "estimated_duration_s": 360,
+  "key_props": [
+    "药碗",
+    "床榻",
+    "灯火",
+    "医药箱",
+    "屏风"
+  ],
+  "dramatic_purpose": "矛盾激化，陆姝仪示弱，高令宁妥协"
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "id": "shot_0604",
+    "scene_id": "scene_039",
+    "shot_number": 1,
+    "goal": "建立内室与厅外传话处的空间关系，强调内室昏暗封闭、与外部明亮礼制空间相隔，预示高令宁主动拒客的姿态。",
+    "composition": "FS。机位在厅外传话处偏门侧，画面右前景是半垂的内室门帘与门框形成遮挡，左侧留出一块明亮厅外走道；侍女立于门边偏左中景位置候命，门帘后深处可见高令宁坐在内室右后方的案边或榻侧，仅有模糊冷白侧影，明暗对比明确，纵深由门框与帘幕切割。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压抑、隔绝、礼法下的冷拒感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 604
+  },
+  {
+    "id": "shot_0605",
+    "scene_id": "scene_039",
+    "shot_number": 2,
+    "goal": "将观众拉入女主的当下状态，明确她没有起身见客，而是静坐压住情绪。",
+    "composition": "MS。机位进入内室，门帘边缘作为左前景虚化遮挡，高令宁坐在画面右三分之一处，身形端直却微微收着肩，背后是暗色屏风与低照度墙面，左侧留出大片空位形成心理空场；侧逆光勾出发髻与脸部轮廓，面部一半落入阴影。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "克制、冷硬、自我封闭",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 605
+  },
+  {
+    "id": "shot_0606",
+    "scene_id": "scene_039",
+    "shot_number": 3,
+    "goal": "外化前世记忆被触发的身体信号，建立衣袖作为情绪与决断的关键道具。",
+    "composition": "CU。高令宁手部置于画面中央偏下，指尖缓慢收紧衣袖褶纹，袖口丝绸暗纹在低光下起伏；上方仅保留一小片模糊身躯与膝头，背景完全压暗，视觉集中在布料被攥出的张力。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "不安、压制、旧痛回刺",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.34,
+    "order": 606
+  },
+  {
+    "id": "shot_0607",
+    "scene_id": "scene_039",
+    "shot_number": 4,
+    "goal": "以今世动作触发前世旧忆，传达高令宁为何对会面产生本能警惕。",
+    "composition": "CU。前世闪回：同样构图位置的手，但肤色更病白、袖色冷灰，指节收得更紧，袖缘沾有一线暗红，背景是模糊烛光与软边阴影；画面整体低饱和冷灰青，形成可量化时空区分。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "宿命重压、危险逼近感",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 607
+  },
+  {
+    "id": "shot_0608",
+    "scene_id": "scene_039",
+    "shot_number": 5,
+    "goal": "回到今世，落在高令宁面部凝住的神色上，确认她已做出不见客的判断。",
+    "composition": "MCU。高令宁位于画面右侧，视线斜向左前方门口，眼神停住不动；左前景仍有轻微虚化的帘幕边缘，背景暗而空，颈侧淡痕在侧光里若隐若现，嘴唇收紧。留白朝向门外，构成她与来客之间的无形阻隔。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "清醒、决绝、带刺的自保",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 608
+  },
+  {
+    "id": "shot_0609",
+    "scene_id": "scene_039",
+    "shot_number": 6,
+    "goal": "通过侍女的等待与视线，补足传话动作即将发生的空间动因，建立主仆关系中的命令链条。",
+    "composition": "MS。机位靠近门边，侍女站在画面左侧偏前，身体朝内室，头微低；右后方深处虚焦中能见高令宁坐姿轮廓。门框竖线将两人隔开，门帘下摆占据上方前景，形成压顶感。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "紧绷、恭顺中的不敢多问",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 609
+  },
+  {
+    "id": "shot_0610",
+    "scene_id": "scene_039",
+    "shot_number": 7,
+    "goal": "展现高令宁开口前的微小停顿，把拒绝从情绪反应提升为冷静布置。",
+    "composition": "CU。高令宁侧脸占画面右侧三分之二，嘴唇与下颌线清晰，眼睛视线略垂不看人；左侧虚化是门口方向的亮面，形成冷暖、明暗对比。她呼吸极浅，口唇将启未启。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静谋断、压住波澜",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.38,
+    "order": 610
+  },
+  {
+    "id": "shot_0611",
+    "scene_id": "scene_039",
+    "shot_number": 8,
+    "goal": "完成核心情节动作：高令宁低声吩咐侍女去前厅传话，以孕期倦怠为由拒见陆姝仪。",
+    "composition": "MCU。仍在高令宁一侧，画面右侧是她的面与肩，左前景可见侍女模糊侧影进入下方边缘，构成主从轴线；高令宁不抬眼，口型清楚但声量压低，背景保持暗沉。对白信息由她的静与低声形成反刺力度。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "锋利、疏离、主动切断的控制感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 611
+  },
+  {
+    "id": "shot_0612",
+    "scene_id": "scene_039",
+    "shot_number": 9,
+    "goal": "用侍女受命的反应确认命令已被执行，同时避免机械正反打，通过反应镜头承接高令宁的决定分量。",
+    "composition": "MCU。侍女位于画面左中，低头应声后微抬眼看向内室深处，神情谨慎；右侧前景是门帘与暗部，画外保持高令宁所在方向。亮处来自厅外，照在侍女脸侧，形成内外两个世界。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "谨慎、执行命令时的肃然",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 612
+  },
+  {
+    "id": "shot_0613",
+    "scene_id": "scene_039",
+    "shot_number": 10,
+    "goal": "以侍女离去动作把拒绝具体落实到空间上，表现高令宁成功将来客隔在门外。",
+    "composition": "MLS。机位维持在门内侧，侍女从画面中部向左前方明亮走道出画，方向统一为由内向外；右后方暗处高令宁仍坐着不动，仅见静止剪影。门帘轻晃成为中景层，门框像一道封印。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "冷拒落地、关系被礼法截断",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 613
+  },
+  {
+    "id": "shot_0614",
+    "scene_id": "scene_039",
+    "shot_number": 11,
+    "goal": "在侍女离开后回到高令宁，强调她并未因此放松，切断危险链条的决定反而让旧忆更沉。",
+    "composition": "MS。高令宁独坐画面右下，门口明亮区域占左上，形成斜向压迫；她的手仍扣在袖上，身体纹丝不动。背景屏风与暗壁无装饰感，突出空、冷、静。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "余悸未消、孤决、自我承担",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 614
+  },
+  {
+    "id": "shot_0615",
+    "scene_id": "scene_039",
+    "shot_number": 12,
+    "goal": "以最终细部收束场景，把拒见的行为落回高令宁内心——不是任性，而是警惕地自救。",
+    "composition": "ECU。高令宁眼部与眉骨占满画面，视线微偏门口后缓缓落下，眼尾有极轻的红意但不失控；一缕碎发贴颊，侧光在眼中形成细冷反光，背景全黑化。镜头留出极短停顿供剪辑转场。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "寒意、先知般的戒备、危险被暂时挡在门外的短暂回冷",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.26,
+    "order": 615
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "variant_id": "高令宁_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 成亲嫁衣",
+  "tags": [
+    "新娘",
+    "嫁衣",
+    "无悲无喜"
+  ],
+  "scene_ids": [
+    "scene_009",
+    "scene_010"
+  ],
+  "trigger": "沈家婚堂拜堂成亲及洞房花烛夜期间，女主心不在焉",
+  "appearance_delta": {
+    "face": "眼神锐利但透着无悲无喜的淡漠，心不在焉",
+    "body": "苗条挺拔",
+    "hair": "乌黑长发精致盘髻配凤冠",
+    "distinguishing_features": "身披红盖头  或半掀，姿态挺拔却神情淡然"
+  },
+  "costume_override": {
+    "outfit": "华丽红色嫁衣，凤冠霞帔",
+    "color_palette": [
+      "大红",
+      "金色"
+    ]
+  },
+  "visual_reference": "一位20岁左右古代女子，瓜子脸柳眉杏眼眼神锐利坚定却略显空洞无喜，苗条挺拔身材，乌黑秀发精致盘髻戴凤冠，身穿华丽大红色嫁衣，盖头轻掀站在婚堂，姿态挺拔自信中带淡漠，红烛摇曳光影古典柔和，古代中国风",
+  "visual_prompt_negative": "现代服装、短发、浓妆、笑容甜美、柔弱姿态、淡青色衣服",
+  "emotional_tone": "无悲无喜，淡漠释然"
+}

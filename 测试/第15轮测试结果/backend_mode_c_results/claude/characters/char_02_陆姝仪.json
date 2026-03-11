@@ -1,0 +1,57 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹"
+  ],
+  "role": "antagonist",
+  "age_range": "16-20岁",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜",
+    "body": "纤细柔弱",
+    "hair": "乌黑柔顺，简单发髻",
+    "distinguishing_features": "泪眼盈盈，柔弱倔强的神态"
+  },
+  "costume": {
+    "typical_outfit": "素色襦裙，粉色衣裙",
+    "color_palette": [
+      "粉色",
+      "浅蓝",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "柔弱",
+    "心机",
+    "白莲花",
+    "重生女配"
+  ],
+  "visual_reference": "古代孤女，面容温婉清丽，眼神楚楚可怜带着泪光，身着素雅的粉色或浅蓝色襦裙，发髻简单，身姿纤弱柔软，常作跪姿或低头状，整体气质柔弱无助又暗藏心机，背景为庭院或闺房，光线柔和朦胧",
+  "visual_prompt_negative": "现代服装，浓妆，华丽服饰，强势姿态，开朗笑容，短发",
+  "personality": "表面柔弱，内心坚韧，善于示弱，手段隐晦",
+  "desire": "嫁给沈词，摆脱孤女身份，获得安稳生活",
+  "flaw": "过于依赖他人，手段下作",
+  "arc": "从被动牺牲到主动设计，重生后为自己谋出路",
+  "scene_presence": "前期频繁出现，中后期减少",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅竹马",
+      "dynamic": "依赖仰慕，界限模糊",
+      "function": "情感纠葛源头"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "明争暗斗",
+      "function": "制造冲突"
+    },
+    {
+      "target": "蒋晟",
+      "type": "夫妻",
+      "dynamic": "冷淡疏离",
+      "function": "悲剧结局"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "shot_0312",
+    "scene_id": "scene_024",
+    "shot_number": 1,
+    "goal": "建立廊下的表面和美日常与礼法空间秩序，交代两人处于一个看似安稳、实则被框限的相处环境中。",
+    "composition": "FS，固定机位。画面右侧三分之一为坐榻与栏杆，高令宁倚坐于右中位置，沈词坐在她左侧稍低处。前景左侧以廊柱虚化压景，背景透出庭院柔光与少量风动枝叶；果盘与葡萄置于两人之间偏下方，形成家庭日常的视觉锚点。廊柱与栏杆横纵线条构成稳定但拘束的框架。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先进入一种温柔、松弛却隐含距离感的表象。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.42,
+    "order": 312
+  },
+  {
+    "id": "shot_0313",
+    "scene_id": "scene_024",
+    "shot_number": 2,
+    "goal": "把观众拉入女主限制性主观，强调沈词正在以细致殷勤的动作靠近她。",
+    "composition": "MCU，女主视角侧拍沈词的手。画面下方中央是沈词修长手指剥开葡萄皮，果肉透亮；前景右侧虚化为高令宁的衣袖与膝边，背景是旧木栏杆与漫入的侧光。葡萄汁水在指尖微微反光，细节强化照料意味。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传达一种被照顾的温柔，同时让观众意识到这份温柔是主动经营出来的。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.36,
+    "order": 313
+  },
+  {
+    "id": "shot_0314",
+    "scene_id": "scene_024",
+    "shot_number": 3,
+    "goal": "呈现高令宁表面的松弛与内里的冷静观察，明确本场的情绪主轴是‘外柔内拒’。",
+    "composition": "CU，高令宁位于画面右侧偏中，身体朝左，眼睛半眯，面部沐在柔和侧光里。前景左侧保留一小块虚化的沈词肩线作为陪伴存在，背景为廊柱阴影与庭院留白。她脖颈细痕若隐若现，形成潜在旧伤提示。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她并未真正沉浸在温情里，而是在安静地衡量。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": -0.28,
+    "order": 314
+  },
+  {
+    "id": "shot_0315",
+    "scene_id": "scene_024",
+    "shot_number": 4,
+    "goal": "引出沈词的关键台词，建立其‘迟来补偿’的主动表达。",
+    "composition": "MCU，沈词位于画面左侧偏中，朝右看向高令宁，肩背挺直但姿态放轻。前景右下角保留葡萄盘边缘，背景是廊柱与庭院柔亮虚景，形成他从规整礼法空间中向私人情感迈出的视觉关系。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到他的克制、诚恳与压抑的愧意。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.12,
+    "order": 315
+  },
+  {
+    "id": "shot_0316",
+    "scene_id": "scene_024",
+    "shot_number": 5,
+    "goal": "捕捉高令宁听到‘上一世’后的细微反应，暗示她的真实心理被刺中但并未外露。",
+    "composition": "CU，高令宁仍在画面右侧，眼睫微颤，视线不正面回望，而是略向下偏左。前景左侧虚化的沈词轮廓保持方向连续，背景光线比上一镜略冷，栏杆线条横切在她肩后，像无声界限。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造一种细针般的刺痛感：她听懂了，却不愿回应。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 316
+  },
+  {
+    "id": "shot_0317",
+    "scene_id": "scene_024",
+    "shot_number": 6,
+    "goal": "展示她顺势靠上肩头的动作，说明关系在外部看来亲近和缓。",
+    "composition": "MS，双人同框。高令宁位于右侧，缓慢将头靠向左侧的沈词肩头；沈词身体微微收紧后放松。前景下方果盘与剥开的葡萄皮清晰可见，背景是廊下开口处的柔亮天光与风动帘角。两人之间形成一条稳定对角线，亲密但不热烈。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到表层关系似乎被安抚，同时隐约察觉这是女主主动经营出来的姿态。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 317
+  },
+  {
+    "id": "shot_0318",
+    "scene_id": "scene_024",
+    "shot_number": 7,
+    "goal": "从女主近距离主观感受沈词被靠近后的情绪变化，强化他的珍视与误判。",
+    "composition": "CU，沈词左侧脸与肩部占据画面左中，高令宁的发髻与额角虚化地贴近在右前景。沈词微侧脸，眼神向下，呼吸放轻。背景只保留暖冷交界的廊下阴影与天光，空间被压缩为亲密距离。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感受到沈词以为自己终于靠近她时那一瞬的柔软与侥幸。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 318
+  },
+  {
+    "id": "shot_0319",
+    "scene_id": "scene_024",
+    "shot_number": 8,
+    "goal": "揭示高令宁并未真正被打动，她只是借困倦姿态掩饰审视与疏离。",
+    "composition": "ECU，高令宁闭着的眼与微绷的唇角占据画面右侧大部，沈词肩部布料虚化在左侧前景。她虽靠着他，眉心却有极轻微的紧意。背景消失为浅景深，只留柔光扫过睫毛。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众与女主站在同一侧，清楚看见这份亲近只是表层。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 319
+  },
+  {
+    "id": "shot_0320",
+    "scene_id": "scene_024",
+    "shot_number": 9,
+    "goal": "表现沈词轻轻亲她一下的动作，将表层温情推进到更亲密的一步。",
+    "composition": "MCU，双人侧面同框，沈词从左向右轻侧过脸，在高令宁额角或发际处落下极轻一吻。高令宁位于右侧，几乎不动。前景下方有一颗未剥完的葡萄停在沈词指间，背景为廊柱与天光形成柔和分层，动作被完整看清但保持克制。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "营造一瞬温柔亲密，同时让细敏观众察觉这温柔没有得到真正回应。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 320
+  },
+  {
+    "id": "shot_0321",
+    "scene_id": "scene_024",
+    "shot_number": 10,
+    "goal": "用女主反应镜头完成反刃：她接受动作，却没有情感回流，错位关系被坐实。",
+    "composition": "CU，高令宁仍靠在肩上，眼睛缓缓睁开一线，视线冷静地朝前，不落在沈词身上。她位于画面右中，左前景是沈词的下颌与肩线虚化。背景庭院留白更亮，反衬她眼神的冷。构图在她视线前方留出空白，暗示心不在此处。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一种轻微却清晰的寒意：亲近是真的，回头是假的。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 321
+  },
+  {
+    "id": "shot_0322",
+    "scene_id": "scene_024",
+    "shot_number": 11,
+    "goal": "收束全场，保留表面和美的画面外壳，同时让错位感沉淀为悬而未决的关系张力。",
+    "composition": "MLS，侧后方双人背三分之二同框。两人仍坐于廊下，姿态亲近，高令宁靠在沈词肩头。前景以廊柱再度压景，背景庭院微风吹动树影，果盘留在画面下方一角。人物被栏杆与柱子分割出多个空间层次，像在同一画面却不在同一心境。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "留下平静外表下的冷收感，让观众意识到这段关系只是暂时停在一层礼貌的假象上。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.06,
+    "order": 322
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "shot_0226",
+    "scene_id": "scene_015",
+    "shot_number": 1,
+    "goal": "建立马球会场的空间关系、风势与尘土环境，交代高令宁与蒋晟所处位置，为蒋晟‘挡风护人’的行为提供客观场域。",
+    "composition": "WS，横向开阔构图。画面右下为观赛歇脚处与席案，果盘隐约可见；中景偏右是高令宁与蒋晟，蒋晟站在她左前方半步，形成遮挡；左侧与远处是奔驰的马匹和挥杆人影，沙尘斜向卷过画面，地平线压低，天空明亮留白增强风感。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到礼制场合下的明亮开阔与轻微不安，意识到环境并不温柔。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.42,
+    "order": 226
+  },
+  {
+    "id": "shot_0227",
+    "scene_id": "scene_015",
+    "shot_number": 2,
+    "goal": "明确蒋晟始终站在高令宁侧前方替她挡风，建立他作为‘良配候选人’的保护姿态。",
+    "composition": "MLS，机位位于二人正前偏右，保持180度线。蒋晟占画面左前景三分之一，高大肩背形成实质屏障；高令宁在右后方，半被他遮住，衣裙下摆与发丝被风掀起。背景虚化为马球场活动人影，前景偶有尘土掠过镜头边缘。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众感到蒋晟的稳妥、克制与分寸感，而非张扬示好。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.36,
+    "order": 227
+  },
+  {
+    "id": "shot_0228",
+    "scene_id": "scene_015",
+    "shot_number": 3,
+    "goal": "从女主近景主观体感切入，传达她在风中被照拂的实际感受与当下的轻松状态。",
+    "composition": "MCU，高令宁位于画面右侧三分之一，面朝左前；蒋晟的肩背与袖口虚化占据左前景，成为天然挡风体。背景是被压缩的赛场与飞尘，阳光打在她冷白面庞与微扬发丝上，颈侧线条若隐若现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众靠近高令宁的感知，体会她暂时放松却仍带克制的情绪底色。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.31,
+    "order": 228
+  },
+  {
+    "id": "shot_0229",
+    "scene_id": "scene_015",
+    "shot_number": 4,
+    "goal": "交代高令宁视线落向席案果盘，触发‘想吃葡萄’这一生活化试探动作。",
+    "composition": "POV式MS，从高令宁视角看向席案。果盘位于画面下中部，几串葡萄在风中轻轻晃动；案角压着帕子，背景上沿虚化可见马球器具与经过的侍从身影。画面右侧留出空位，暗示人物即将进入取物动作。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "以细小欲望降低防备，让观众感到关系里有一点日常温度。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.26,
+    "order": 229
+  },
+  {
+    "id": "shot_0230",
+    "scene_id": "scene_015",
+    "shot_number": 5,
+    "goal": "表现高令宁随口提出想吃葡萄，不用对白也传达她对蒋晟的自然使唤与微妙试探。",
+    "composition": "MCU，高令宁仍在画面右侧，微偏头看向案上，再抬眼向蒋晟方向，唇角有一点松动的笑意。左前景保留蒋晟肩线虚焦，形成对话对象的存在感；背景为明亮赛场，风吹动她鬓边碎发。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "观众应感到关系中的轻巧试探与她难得显出的松弛。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.2,
+    "order": 230
+  },
+  {
+    "id": "shot_0231",
+    "scene_id": "scene_015",
+    "shot_number": 6,
+    "goal": "展示蒋晟没有迟疑地俯身取葡萄，体现他对她意图的即时接收与补位能力。",
+    "composition": "MS，蒋晟从左前方进入画面中心，俯身至席案前；高令宁站在右后景，安静看着他。果盘处于画面下部视觉重心，蒋晟伸出的手与葡萄形成动作线，背景马场被中长焦压平。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "观众感到此人稳、实、可靠，体贴不是做样子，而是条件反射般的照应。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.14,
+    "order": 231
+  },
+  {
+    "id": "shot_0232",
+    "scene_id": "scene_015",
+    "shot_number": 7,
+    "goal": "用手部细节强调蒋晟的体贴程度——不仅取葡萄，还低头剥皮后再递。",
+    "composition": "CU，蒋晟双手占据画面中央，深色袖口衬出浅绿葡萄与剥开的果肉；风带起一角衣料掠过前景。背景彻底虚化，只留高令宁浅色衣裙的柔亮色块在右后方，突出服务动作本身。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众被细节打动，意识到这是足以构成‘良配’印象的分寸型温柔。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.08,
+    "order": 232
+  },
+  {
+    "id": "shot_0233",
+    "scene_id": "scene_015",
+    "shot_number": 8,
+    "goal": "捕捉蒋晟递葡萄时的眼神与姿态，突出他诚实、不逾矩的靠近方式。",
+    "composition": "MCU，蒋晟位于画面左中，略低头抬手递向画面右侧外；视线并不逼视高令宁，而是先落在手边，后短暂抬眼确认。右侧保留留白，作为高令宁接物的空间。背景是逆光尘粒与模糊看台边缘。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他的真诚与克制，形成安全感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.02,
+    "order": 233
+  },
+  {
+    "id": "shot_0234",
+    "scene_id": "scene_015",
+    "shot_number": 9,
+    "goal": "完成递接动作，表现二人之间自然成立的照拂关系。",
+    "composition": "CU，画面中央是高令宁伸出的手与蒋晟递来的剥皮葡萄，手指短暂接近但不触碰；高令宁月白袖缘在右，蒋晟深青袖口在左，色彩对照清晰。下方果盘虚化成柔软前景，背景完全压暗虚掉，突出礼法之内的微小亲密。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一种克制的亲近与‘若无其事却很动人’的关系推进。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.04,
+    "order": 234
+  },
+  {
+    "id": "shot_0235",
+    "scene_id": "scene_015",
+    "shot_number": 10,
+    "goal": "展现高令宁接过葡萄后的轻松神情，作为后续骤停前的情绪缓冲与对照。",
+    "composition": "MCU，高令宁位于画面中央偏右，手边葡萄进入下框，唇角微弯，眼神短暂松开。左侧前景保留蒋晟模糊肩线作为陪伴感，背景风尘依旧，但此刻被压为柔和层次。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众短暂相信此刻安全、平顺，形成之后反转的落差。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 235
+  },
+  {
+    "id": "shot_0236",
+    "scene_id": "scene_015",
+    "shot_number": 11,
+    "goal": "用女主主观视线突然越过场地，启动‘女主先知—观众后证实’的悬疑机制。",
+    "composition": "POV式FS，从高令宁视角越过赛场望向远处。前景有疾驰掠过的马匹与扬起的尘墙遮挡，中远景人群、席棚与旗影被风切割得支离；画面中心并不给出明确目标，只留下一个视觉可疑区域。地面斜向蹄印与围栏线条引导目光深入。",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "让观众先于信息确认而感到异样：她看见了什么，但我们还没被允许看清。",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 236
+  },
+  {
+    "id": "shot_0237",
+    "scene_id": "scene_015",
+    "shot_number": 12,
+    "goal": "直接呈现高令宁动作骤然一顿、笑意凝住，完成情绪反转落点。",
+    "composition": "CU，高令宁脸占画面右半，眼睛定在左前方画外，原本松开的唇线慢慢收紧；手中葡萄停在下框未入口。左前景一道虚化的风尘掠过，像刀锋般切过画面，背景彻底压缩成冷亮色块。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她体内某根弦突然绷紧，轻松感被瞬间抽走。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 237
+  },
+  {
+    "id": "shot_0238",
+    "scene_id": "scene_015",
+    "shot_number": 13,
+    "goal": "通过蒋晟的反应镜头补充关系信息：他立刻察觉她的变化，并进入警觉状态。",
+    "composition": "MCU，蒋晟位于画面左侧，先看向高令宁，再顺着她视线转向远处画外；肩背微绷，身体本能向前半步。右侧留白对应她的位置，背景风中的赛场被压缩成冷硬层次。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他确实在护她，不只是体贴，更有随时应对变故的习武警觉。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 238
+  },
+  {
+    "id": "shot_0239",
+    "scene_id": "scene_015",
+    "shot_number": 14,
+    "goal": "以二人同框的空间关系收束本场，保留女主所见未明的悬念，同时巩固蒋晟与她的‘挡在前方’关系。",
+    "composition": "MLS，二人站于画面右侧，蒋晟重新前移半步挡在高令宁身前，高令宁视线越过他肩侧投向远处。左侧大面积留给空旷赛场与翻卷尘土，席案果盘留在右下前景，未吃完的葡萄构成悬停动作的余波。远景人群与旗影模糊，不交代答案。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众在稳定外观下感到潜流已起：体贴仍在，局势却开始变味。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.18,
+    "order": 239
+  }
+]

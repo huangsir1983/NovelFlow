@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_003",
+  "name": "沈家正房",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "沈家主室正房，中央红木桌椅用于家庭聚会，墙悬家训匾额，地面青砖，梁柱简约雕花，空间较正堂更生活化，适合婚后仪式与冲突场面。",
+  "visual_reference": "明代中晚期江南官宦世家府邸正房内部，生活化主厅空间，红木桌椅中央摆瓷片与茶杯，墙面悬挂家训匾额和卷轴字画，梁柱简约木雕，青砖地面，窗格透日光，整体庄重带家庭温馨却暗藏张力",
+  "visual_prompt_negative": "现代家具、彩色灯光、西方装饰、卡通风格",
+  "atmosphere": "家庭冲突、强势立威",
+  "color_palette": [
+    "褐红色",
+    "米白色",
+    "深灰色"
+  ],
+  "lighting": "白天均匀自然日光照射，略带压抑的明暗对比",
+  "key_features": [
+    "红木桌椅",
+    "家训匾额",
+    "瓷器陈设"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "前世敬茶立威的强势到气红眼自杀未遂的激烈仇恨"
+}

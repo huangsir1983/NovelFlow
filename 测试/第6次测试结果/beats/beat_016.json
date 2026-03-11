@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "id": "beat_016",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:53"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_006",
+      "scene_018",
+      "scene_020",
+      "scene_021"
+    ]
+  },
+  "data": {
+    "title": "撞见偏宠再起旧恨",
+    "description": "女主看见沈词在柳池旁含笑照看陆姝仪，想到前世他从未如此待己，妒恨与屈辱被重新点燃，婚前较量迅速恶化。",
+    "beat_type": "revelation",
+    "save_the_cat": "N/A",
+    "emotional_value": -0.6,
+    "dramatic_intensity": -0.6,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 16
+  }
+}

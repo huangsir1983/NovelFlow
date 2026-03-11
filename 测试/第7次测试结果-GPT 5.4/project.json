@@ -1,0 +1,14 @@
+{
+  "id": "novel_shenCi_v7",
+  "name": "我和沈词的长子",
+  "novel_path": "G:\\涛项目\\claude版\\测试\\我和沈词的长子.txt",
+  "created_at": "2026-03-08T22:32:23",
+  "default_model": "gpt-5.4",
+  "available_models": [
+    "gpt-5.4",
+    "claude-opus-4-6",
+    "gemini",
+    "grok"
+  ],
+  "pipeline_version": "round7"
+}

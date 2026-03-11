@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高府廊下 - 日",
+  "location": "高府廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "高令宁养胎回娘家,沈词每日来看望,态度温柔",
+  "key_dialogue": "其实上一世,我有许多对不住你的地方",
+  "emotional_peak": "沈词示好,高令宁冷淡",
+  "tension_score": 0.4,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "廊柱",
+    "葡萄",
+    "茶具",
+    "坐垫",
+    "花草"
+  ],
+  "dramatic_purpose": "沈词转变,高令宁不为所动"
+}

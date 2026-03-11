@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_039",
+  "order": 38,
+  "heading": "INT. 高家满月宴厅 - DAY",
+  "location": "高家宴厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪",
+    "父亲",
+    "宾客"
+  ],
+  "core_event": "昭昭满月宴上，陆姝仪不请自来，先以身世可怜示弱，再承认前世和今生都曾出于恨意与求生心设计陷害我。",
+  "key_dialogue": "「蒋晟的事，是我设计。」",
+  "emotional_peak": "我终于知道今生高家失贞局并非意外，而是她主动布下。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "满月请帖",
+    "宴席酒盏",
+    "女儿长命锁"
+  ],
+  "dramatic_purpose": "揭开误会真相，也交代陆姝仪同样重生。",
+  "visual_reference": "满月宴热闹背景被隔出一角冷场，柔弱妇人独自站着，女主抱子而立，双方低声对质，笑宴灯彩与暗处真相形成反差",
+  "visual_prompt_negative": "避免大型婚宴舞台感，避免泼妇争吵，避免现代宴会桌布风格",
+  "source_text_start": "再见陆姝仪，是在昭昭的满月宴上。",
+  "source_text_end": "原来，她也重生了。我震惊地站在原地。"
+}

@@ -1,0 +1,31 @@
+{
+  "variant_id": "高令宁_variant_02",
+  "variant_type": "pregnant",
+  "variant_name": "高令宁 — 怀孕养胎",
+  "tags": [
+    "孕妇",
+    "回娘家",
+    "要强温柔"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012"
+  ],
+  "trigger": "怀孕后回高家廊下养胎，沈词每日探望剥葡萄时",
+  "appearance_delta": {
+    "face": "瓜子脸略显圆润，眼神坚定中带一丝疲倦温柔",
+    "body": "苗条身材但腹部明显隆起",
+    "hair": "乌黑长发盘髻略显松散",
+    "distinguishing_features": "手轻抚腹部，姿态仍旧高傲挺拔"
+  },
+  "costume_override": {
+    "outfit": "宽松淡雅襦裙",
+    "color_palette": [
+      "淡青",
+      "粉白"
+    ]
+  },
+  "visual_reference": "一位20岁左右古代贵女，瓜子脸柳眉杏眼眼神锐利坚定略带温柔疲惫，脸颊微圆，苗条身材腹部隆起怀孕，乌黑长发松盘髻，身穿宽松淡青色襦裙坐在高家廊下，手抚腹部，姿态挺拔，古典光影柔和，古代中国风",
+  "visual_prompt_negative": "现代服装、短发、浓妆、瘦弱无孕肚、甜美笑容",
+  "emotional_tone": "坚定要强中带短暂和美疲倦"
+}

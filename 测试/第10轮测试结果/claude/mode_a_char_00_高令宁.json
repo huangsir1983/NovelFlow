@@ -1,0 +1,68 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高姑娘",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-40岁（跨越重生前后）",
+  "appearance": {
+    "face": "未详细描述，但暗示端庄秀丽",
+    "body": "纤细，因操劳过度曾消瘦",
+    "hair": "传统发髻",
+    "distinguishing_features": "眼神坚毅，气质要强"
+  },
+  "costume": {
+    "typical_outfit": "古代女子传统服饰，婚服为红色喜服",
+    "color_palette": [
+      "素色",
+      "红色（婚服）"
+    ]
+  },
+  "casting_tags": [
+    "坚韧",
+    "高傲",
+    "争强好胜",
+    "母性"
+  ],
+  "visual_reference": "A dignified young Chinese woman in her 20s, traditional hanfu dress, determined eyes, proud posture, ancient dynasty setting",
+  "personality": "争强好胜，自尊心极强，不愿示弱，眼里容不得沙子。重生后变得更加理智冷静，懂得放手。十四岁起管家，能力出众但过于要强。",
+  "desire": "前世追求被认可和真心对待，渴望夫君真心；重生后只想见儿子一面，之后追求自由和解脱。",
+  "flaw": "过于高傲和要强，宁愿对权贵下跪也不向丈夫示弱；防备心重，难以真正信任他人。",
+  "arc": "前世：爱慕沈词→嫁入豪门→以死抗争→操劳成疾→互相怨恨→中年丧子→临终诅咒。重生：冷静算计→为子成婚→坚持和离→放下仇恨→追求自由→获得新生。",
+  "scene_presence": "贯穿全文主线。关键场景：拒绝聘礼、婚礼、洞房、早产难产、和离、江南隐居、与沈词最终纠缠。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感+权力",
+      "dynamic": "前世夫妻互相折磨，重生后从怨恨到放下",
+      "function": "核心冲突制造者"
+    },
+    {
+      "target": "沈睿",
+      "type": "情感",
+      "dynamic": "深爱长子，为他愿意再嫁沈词",
+      "function": "行为动机"
+    },
+    {
+      "target": "昭昭",
+      "type": "情感",
+      "dynamic": "母女深情，视为新生希望",
+      "function": "情感寄托"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "对照+利益",
+      "dynamic": "情敌关系，从对抗到理解",
+      "function": "情感障碍"
+    },
+    {
+      "target": "父亲",
+      "type": "情感",
+      "dynamic": "父女情深，父亲全力保护",
+      "function": "情感支撑"
+    }
+  ]
+}

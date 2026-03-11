@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 医馆门口 - 日",
+  "location": "医馆门口",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦住高令宁，提出为沈睿着想应该成亲",
+  "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次",
+  "emotional_peak": "沈词的威胁与高令宁的痛苦",
+  "tension_score": 0.8,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "医馆招牌",
+    "药箱",
+    "街道",
+    "行人"
+  ],
+  "dramatic_purpose": "揭示沈词也重生，建立交易关系"
+}

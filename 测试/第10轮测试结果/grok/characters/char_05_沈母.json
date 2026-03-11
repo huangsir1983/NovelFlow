@@ -1,0 +1,38 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "端庄威严",
+    "body": "富态",
+    "hair": "盘髻",
+    "distinguishing_features": "官夫人气势"
+  },
+  "costume": {
+    "typical_outfit": "贵妇锦袍",
+    "color_palette": [
+      "金",
+      "紫"
+    ]
+  },
+  "casting_tags": [
+    "古风严婆婆"
+  ],
+  "visual_reference": "Middle-aged Chinese noblewoman, stern dignified face, plump figure, hair in elaborate bun, wearing luxurious gold-purple Hanfu, authoritative expression",
+  "personality": "势利、护子",
+  "desire": "沈家门楣",
+  "flaw": "偏心表侄女",
+  "arc": "从立威到理亏退让",
+  "scene_presence": "提亲、要孙女、被高父警告",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母亲",
+      "dynamic": "溺爱",
+      "function": "次要冲突"
+    }
+  ]
+}

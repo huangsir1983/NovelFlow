@@ -1,0 +1,38 @@
+{
+  "name": "伯爵娘子",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "富贵气重，带审视与挑拣神色",
+    "body": "丰润或保养得宜",
+    "hair": "贵妇发髻",
+    "distinguishing_features": "门第算计明显"
+  },
+  "costume": {
+    "typical_outfit": "富贵府第女眷礼服",
+    "color_palette": [
+      "酱红",
+      "金棕"
+    ]
+  },
+  "casting_tags": [
+    "权贵夫人",
+    "婚配压力源"
+  ],
+  "visual_reference": "中国古代伯爵府贵妇，神情挑剔，穿酱红色华服，配金饰，坐于厅中谈婚论嫁，古风写实",
+  "visual_prompt_negative": "现代礼服、夸张卡通",
+  "personality": "势利、现实",
+  "desire": "为家中子嗣挑选可控的新妇",
+  "flaw": "轻贱弱势女子",
+  "arc": "功能型人物",
+  "scene_presence": "作为陆姝仪婚事压力具象出现",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "潜在婆家",
+      "dynamic": "看中其孤女身份便于拿捏",
+      "function": "逼迫陆姝仪采取行动"
+    }
+  ]
+}

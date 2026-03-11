@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "id": "scene_015",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:03"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_005",
+      "beat_008"
+    ]
+  },
+  "data": {
+    "heading": "INT. 室内 - 日",
+    "location": "室内",
+    "time_of_day": "day",
+    "description": "安静的室内会面空间，氛围冷淡克制。两人对坐或一立一坐，距离明确，关系疏离。环境不强调繁复陈设，视觉重心在高令宁疲倦后的决断，以及对面之人的迟疑与戒备。",
+    "action": "高令宁长长吐出一口气，神情倦怠，像终于放下争执。她开口让对方明日来提亲。对方闻言一怔，身体明显顿住，随即追问她又想做什么。高令宁语气很轻，不再争辩，只要求成亲之后对方守诺。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "罢了，沈公子明日便来提亲吧。",
+        "subtext": "我不再与你纠缠过去，我接受这桩婚事，但这是一场带着条件和清醒算计的决定。"
+      },
+      {
+        "character": "沈睿",
+        "line": "你又想做什么？",
+        "subtext": "我不信你会无缘无故退让，我怀疑你另有打算。"
+      },
+      {
+        "character": "高令宁",
+        "line": "什么都不做。成亲之后，还望公子说话算话。",
+        "subtext": "我愿意进入这段关系，但前提是你必须履行承诺；我已经不再寄望情爱。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "以冷静决断收束前文惨烈回忆，推进当下婚事主线，确立高令宁接受成亲并非出于爱情，而是出于看透后的选择。",
+    "tension_score": 0.6,
+    "dramatic_intensity": 0.2,
+    "order": 15
+  }
+}

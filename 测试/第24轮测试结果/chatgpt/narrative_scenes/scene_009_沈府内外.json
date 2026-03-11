@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 前世沈府卧房与街市蒙太奇 - 多时段",
+  "location": "沈府内外",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈睿",
+    "女儿静好（未出生）",
+    "相似婢女"
+  ],
+  "core_event": "我回忆前世沈词因陆姝仪之死，找来相似婢女引发新冲突，我被推倒伤胎，夫妻短暂缓和后女儿夭折，最终彻底心死。",
+  "key_dialogue": "「就叫静好吧。」",
+  "emotional_peak": "女儿出生即死，夫妻对坐成仇，我终于意识到这段关系强求不得。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 190,
+  "key_props": [
+    "画作",
+    "身契",
+    "安胎药",
+    "鱼龙灯"
+  ],
+  "dramatic_purpose": "解释我为何在今生选择退让并促成婚事，不再执着斗气。",
+  "visual_reference": "古代家庭悲剧蒙太奇：掐脖、推倒、安胎、夜市短暂温柔、产房死寂，层层递进的宿命感。",
+  "visual_prompt_negative": "不要现代婴儿房，不要过度血腥，不要奇幻特效，不要甜宠风。",
+  "source_text_start": "是很可笑。陆姝仪死的第十年。沈词依旧没忘了",
+  "source_text_end": "我轻轻道：「成亲之后，还望公子说话算话。」"
+}

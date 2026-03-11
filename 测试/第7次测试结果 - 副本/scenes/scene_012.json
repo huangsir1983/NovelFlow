@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "id": "scene_012",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:03"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_006",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府卧房 - 日",
+    "location": "沈府卧房",
+    "time_of_day": "day",
+    "description": "封闭卧房，药气沉沉，帷帐低垂，采光柔弱。床榻、药碗、汤药、可能的诊脉用具构成核心环境。高令宁卧床保胎，面色虚弱。沈词明显消瘦，行动谨慎，始终围绕床前活动，形成照料与补偿的视觉关系。",
+    "action": "高令宁卧床不动，手按腹部，气息虚浮。沈词守在床边，端药、盯着她喝下，一次次更换药方或请医问诊。他人瘦了一圈，眼下发青，动作克制，不再与她争执，处处退让。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "药碗",
+      "汤药",
+      "床榻"
+    ],
+    "dramatic_purpose": "展现冲突后的补救阶段，揭示沈词的愧疚与挽回，也为后续短暂和缓及更大悲剧做情感蓄力。",
+    "tension_score": 0.45,
+    "dramatic_intensity": -0.1,
+    "order": 12
+  }
+}

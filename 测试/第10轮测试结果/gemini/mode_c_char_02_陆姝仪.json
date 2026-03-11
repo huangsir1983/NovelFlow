@@ -1,0 +1,47 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "表小姐",
+    "姝仪"
+  ],
+  "role": "supporting",
+  "age_range": "16-18",
+  "appearance": {
+    "face": "温婉清丽，双眼如含泪清泉，楚楚可怜",
+    "body": "纤细柔弱，仿佛风一吹就倒",
+    "hair": "简单的少女发髻，配以素雅发饰",
+    "distinguishing_features": "总是泪眼盈盈的无辜神态"
+  },
+  "costume": {
+    "typical_outfit": "材质轻柔的裙装",
+    "color_palette": [
+      "浅粉",
+      "素白"
+    ]
+  },
+  "casting_tags": [
+    "小白花长相",
+    "绿茶感",
+    "柔弱心机"
+  ],
+  "visual_reference": "A delicate ancient Chinese young woman, 17 years old, gentle and beautiful, tearful eyes, wearing soft pink traditional Hanfu, pitiful and fragile appearance, realistic.",
+  "personality": "外表柔弱，内心极度利己，为达目的不择手段，嫉妒心强",
+  "desire": "寻得好夫婿，改变前世所嫁非人的悲惨命运",
+  "flaw": "自私自利，缺乏底线",
+  "arc": "从依附沈词装可怜，到主动出击设计蒋晟，最终坦白真相认命",
+  "scene_presence": "关键冲突节点出场。马球会争宠、高家设计蒋晟、满月宴坦白真相。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "义兄",
+      "dynamic": "利用其同情心寻求庇护",
+      "function": "绿茶女配"
+    },
+    {
+      "target": "蒋晟",
+      "type": "算计对象/丈夫",
+      "dynamic": "为了利益强行绑定，婚后貌合神离",
+      "function": "推动高潮事件"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "location_id": "loc_006",
+  "name": "高府到沈府",
+  "type": "exterior",
+  "era_style": "明代婚礼迎亲街道",
+  "description": "街道两侧贴满红色喜字，店铺挂红灯笼。花轿队伍行进在青石板路上，轿身朱红描金，轿顶插花。随行有吹鼓手、提灯笼的仆从。沿途围观百姓，孩童追逐。从高府到沈府，街景从官宦区过渡到更显赫的府邸区，建筑愈发气派。天色明亮，喜庆气氛浓厚。",
+  "visual_reference": "Ming Dynasty wedding procession street, red double happiness characters on walls, red lanterns hanging from shops, ornate red and gold sedan chair with flowers on top, musicians and lantern-bearing servants, onlookers and children along blue stone street, transition from official residence area to grander mansion district, bright daylight, festive celebratory atmosphere, traditional Chinese wedding parade",
+  "atmosphere": "喜庆、热闹、仪式感",
+  "color_palette": [
+    "朱红喜色",
+    "金色装饰",
+    "青石灰",
+    "人群杂色"
+  ],
+  "lighting": "明亮日光，红灯笼和喜字反射暖色调",
+  "key_features": [
+    "朱红花轿",
+    "红喜字装饰",
+    "吹鼓手队伍",
+    "围观人群",
+    "红灯笼街景"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "表面喜庆下的内心冷漠与心不在焉"
+}

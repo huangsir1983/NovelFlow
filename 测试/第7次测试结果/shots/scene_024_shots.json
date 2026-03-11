@@ -1,0 +1,256 @@
+[
+  {
+    "id": "shot_0366",
+    "scene_id": "scene_024",
+    "shot_number": 1,
+    "goal": "建立湖边事发现场的冷寂环境，预示死亡已发生且现场刚被惊动过。",
+    "composition": "WS，湖面占画面下半部，残光被风切碎；右侧岸线斜切入画，左前景虚化的芦苇轻晃，岸边留有模糊鞋印与一角湿透的浅色衣料，远处无人群，只留大片空寂留白。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "突兀静默、寒意、死亡后现场的空洞感",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 366
+  },
+  {
+    "id": "shot_0367",
+    "scene_id": "scene_024",
+    "shot_number": 2,
+    "goal": "把观众注意力从环境收束到‘遗留痕迹’，强化陆姝仪投湖并非传闻而是已成事实。",
+    "composition": "CU，岸边泥地偏左下方是一只沾水的绣鞋，鞋尖朝向湖面；右侧有被拖拽打捞留下的凌乱水痕，背景是失焦发灰的湖水，画面上方留出压迫性空白。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "不安、证据感、迟来的寒栗",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 367
+  },
+  {
+    "id": "shot_0368",
+    "scene_id": "scene_024",
+    "shot_number": 3,
+    "goal": "在限制视角下引入沈睿被带到现场，建立他与湖面的空间关系与主观冲击起点。",
+    "composition": "MLS，从高令宁身后偏侧主观望去，沈睿自画面右侧入画停在岸边中轴偏右，背对镜头；左前景是高令宁半虚化的肩颈与衣袖，形成视线遮挡，背景为阴沉湖面。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "压抑、迟疑、即将意识到真相的窒塞",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 368
+  },
+  {
+    "id": "shot_0369",
+    "scene_id": "scene_024",
+    "shot_number": 4,
+    "goal": "捕捉沈睿视线下坠的瞬间，让观众进入他被事实刺中的心理落差。",
+    "composition": "MCU，沈睿右侧后45度，脸占画面右侧三分之一，目光向下落到画外水边；左侧是冷灰湖面与模糊打捞痕迹，逆光勾出他紧绷的下颌线。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "心口发沉、隐忍崩裂前的钝痛",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 369
+  },
+  {
+    "id": "shot_0370",
+    "scene_id": "scene_024",
+    "shot_number": 5,
+    "goal": "展示沈睿所见之物，将‘死亡’从抽象消息落实为冰冷现场。",
+    "composition": "CU，画面下部是被水泡深的泥地与凌乱脚印，中间横切一道打捞绳痕，左上角残留半截湿帕；水线在背景轻晃，构图刻意无人物，像一处被抽空的证言。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "事实压顶、无可辩驳的冷硬",
+    "duration_hint": "2s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 370
+  },
+  {
+    "id": "shot_0371",
+    "scene_id": "scene_024",
+    "shot_number": 6,
+    "goal": "切回高令宁主观下的沈睿反应，明确他开始把沉默转化为归咎。",
+    "composition": "MCU，沈睿仍背对高令宁，站在画面中央偏右，肩背笔直却僵硬；前景左侧是高令宁抬起又停住的手，入画不全；背景湖面暗沉，人物之间留出一道明显空隙。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "关系骤冷、隔绝感",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 371
+  },
+  {
+    "id": "shot_0372",
+    "scene_id": "scene_024",
+    "shot_number": 7,
+    "goal": "给出高令宁的第一次解释冲动，但让她的体面与失措同时暴露。",
+    "composition": "MCU，高令宁位于画面左侧三分之一，身体微微前倾，手抬到胸前又悬住；右侧大片失焦是沈睿的黑色背影边缘，形成压迫。她面色冷白，唇未开全，眼里有急却压着。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "委屈、克制、说不出口的慌乱",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.69,
+    "order": 372
+  },
+  {
+    "id": "shot_0373",
+    "scene_id": "scene_024",
+    "shot_number": 8,
+    "goal": "插入陆姝仪的前世碎片记忆，让死亡与高令宁此前谈话形成危险因果联想，但保持信息不对称。",
+    "composition": "CU，降帧感的碎片闪回：陆姝仪苍白侧脸占画面右侧，鬓边碎发被风吹起，眼眶含雾；左侧是一抹高令宁月白衣袖掠过前景，背景只有发白湖光，边缘轻雾化。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "疑云、误会的成形、脆弱与危险并存",
+    "duration_hint": "1-2s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 373
+  },
+  {
+    "id": "shot_0374",
+    "scene_id": "scene_024",
+    "shot_number": 9,
+    "goal": "回到现实，抓住沈睿脸色一点点沉下去的关键变化，确认他已在内心定案。",
+    "composition": "CU，沈睿正侧脸位于画面右半部，下眼睑绷紧，唇线压平；左半部是灰冷水面反光，像将他面部切成冷暖两块。人物几乎不动，只剩呼吸变化。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "寒心、决绝、情感撤退",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.83,
+    "order": 374
+  },
+  {
+    "id": "shot_0375",
+    "scene_id": "scene_024",
+    "shot_number": 10,
+    "goal": "通过正反打建立高令宁对沈睿的解释失败，强化她无法进入他判断体系。",
+    "composition": "MS，高令宁在画面左侧向右前一步，沈睿背影占右前景近处且不回头；二人同框却不对视，中间隔着一段湿泥与那只遗落绣鞋，视觉上像一道证据鸿沟。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "无力、冤屈、被事实与偏见同时推开",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.87,
+    "order": 375
+  },
+  {
+    "id": "shot_0376",
+    "scene_id": "scene_024",
+    "shot_number": 11,
+    "goal": "放大高令宁‘手抬起又放下’的失败动作，将未出口的话转化为身体语言。",
+    "composition": "CU，仅拍高令宁手部与腰侧衣纹，纤白手指先抬起停在半空，随后慢慢落回身侧，袖口被风掀动；背景是失焦的深色男子衣袍边缘，形成明显拒斥关系。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "窒息感、体面破碎前的自我收束",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.79,
+    "order": 376
+  },
+  {
+    "id": "shot_0377",
+    "scene_id": "scene_024",
+    "shot_number": 12,
+    "goal": "制造短促但锋利的主观误认：沈睿把她的沉默与陆姝仪之死直接连成因果。",
+    "composition": "ECU，沈睿眼部特写，瞳孔里倒映晃动的湖光；下一瞬前景掠过一抹高令宁的月白衣色，像一把冷刀划开倒影。背景彻底虚化，压缩为纯感知镜头。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "偏执成形、误会钉死的瞬间刺痛",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.92,
+    "order": 377
+  },
+  {
+    "id": "shot_0378",
+    "scene_id": "scene_024",
+    "shot_number": 13,
+    "goal": "让高令宁在近景中真正意识到‘他不会信’，完成她情绪从急解释到冷硬自持的换挡。",
+    "composition": "CU，高令宁正面略偏右，脸处于画面中央，背景是灰青天空与湖面交界线；她眼神先追向画外沈睿，随后轻微定住，唇线收紧，面部情绪被风和暮色抽干。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "受伤后的强行收束、清醒、冰冷自保",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 378
+  },
+  {
+    "id": "shot_0379",
+    "scene_id": "scene_024",
+    "shot_number": 14,
+    "goal": "以空间关系完成二人关系断裂的视觉宣判，为长期冷战与敌对埋下明确终点。",
+    "composition": "FS，沈睿站在画面右侧面向湖水，高令宁停在左后方，二人之间保留大块空地与遗留物；天光压低，湖岸线横贯全景，人物被景物吞没，没有任何接触与回头。",
+    "camera_movement": "crane",
+    "framing": "FS",
+    "emotion_target": "彻底疏离、命运分岔、无可挽回",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.88,
+    "order": 379
+  }
+]

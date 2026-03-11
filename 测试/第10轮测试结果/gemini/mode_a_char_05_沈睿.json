@@ -1,0 +1,40 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "7-10岁（梦境中），28岁（前世记忆）",
+  "appearance": {
+    "face": "清秀苍白，眼神有着超越年龄的成熟与哀伤",
+    "body": "病骨支离，瘦弱",
+    "hair": "总角或少年束发",
+    "distinguishing_features": "病态中透着惊才绝艳的聪慧"
+  },
+  "costume": {
+    "typical_outfit": "精致但略显空荡的锦衣",
+    "color_palette": [
+      "月白色",
+      "浅灰色"
+    ]
+  },
+  "casting_tags": [
+    "天才病弱少年",
+    "意难平",
+    "懂事得让人心疼"
+  ],
+  "visual_reference": "1boy, 8 years old, ancient chinese noble child, pale and sickly, mature and intelligent eyes, light blue hanfu, soft sad lighting --ar 9:16",
+  "personality": "极度懂事、孝顺、慧极必伤。承担了父母婚姻悲剧的全部精神重压。",
+  "desire": "父母能够停止互相伤害，各自安好。",
+  "flaw": "过度共情，将父母的过错揽在自己身上。",
+  "arc": "无",
+  "scene_presence": "前世记忆中临终劝父母、今生梦境中端粥祈求",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "反向照顾母亲的情绪",
+      "function": "引导（促使女主重生的核心动力与放下的契机）"
+    }
+  ]
+}

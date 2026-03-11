@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "id": "scene_015",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:31:57"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "蒋晟"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府正厅 - DAY",
+    "location": "高府正厅",
+    "time_of_day": "day",
+    "description": "正厅开阔，厅门敞亮，白日天光自门外漫入，照亮主位与两侧圈椅。厅内陈设端肃，几上摆着茶盘与拜帖，出行前的仆从在厅外候命。高父居中而坐，蒋晟立于下首，身量挺拔，衣着利落，带着习武之人的沉稳。",
+    "action": "高令宁步入正厅，神情比先前舒展。高父简单交代出行事宜，示意蒋晟陪同赴马球会。蒋晟抱拳应下，站姿端正，不多话，只在高令宁经过时微微侧身让路。高令宁略一点头，算是接受安排。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "你既应了侯爵娘子的帖子，便去散散心。蒋晟陪你一道，也好照应。",
+        "subtext": "我有意让你接触这个可靠的年轻人，也借机替你留一条婚配退路。"
+      },
+      {
+        "character": "蒋晟",
+        "line": "晚辈遵命。",
+        "subtext": "我会尽责护送，也愿意在高家长辈面前表现稳妥可靠。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "蒋晟"
+    ],
+    "key_props": [
+      "拜帖",
+      "茶盘"
+    ],
+    "dramatic_purpose": "交代高令宁赴马球会的动机与随行关系，正式引入蒋晟作为现实层面的“良配”对照。",
+    "tension_score": 0.32,
+    "order": 15
+  }
+}

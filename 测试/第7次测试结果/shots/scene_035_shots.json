@@ -1,0 +1,221 @@
+[
+  {
+    "id": "shot_0547",
+    "scene_id": "scene_035",
+    "shot_number": 1,
+    "goal": "建立危机刚过后的产房秩序变化：人群从慌乱转向围拢婴儿，床榻上的高令宁仍虚弱未醒，沈睿留在她身边，与众人的喜气形成第一次情绪分叉。",
+    "composition": "门框式中远景，机位略偏榻尾，床榻占画面右侧三分之一，高令宁虚弱平躺于右后景；沈睿站在榻边偏中右，身形微弯；左前景有模糊晃动的人影与襁褓经过，形成遮挡；背景烛火低照，屏风与帘幕切割空间，视觉引导线由人群流向左侧婴儿，再反压回沈睿与床榻。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众先感到劫后余生中的冷清与不对称，热闹并未真正落到主角身上。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 547
+  },
+  {
+    "id": "shot_0548",
+    "scene_id": "scene_035",
+    "shot_number": 2,
+    "goal": "把叙事重心从人群庆贺收束到沈睿，表现他像从失控中骤然醒来，只关心高令宁是否还活着。",
+    "composition": "沈睿位于画面左中，半侧背对镜头，俯身压向右侧床榻；右侧画面内高令宁仅露出苍白下颌与鼻尖，保持限制性信息；前景有一缕虚焦帘角掠过，背景烛火在沈睿肩后形成低亮边缘光，突出肩背塌下的疲惫感。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众贴近他后怕未散的本能，感到呼吸都被压住。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 548
+  },
+  {
+    "id": "shot_0549",
+    "scene_id": "scene_035",
+    "shot_number": 3,
+    "goal": "具体呈现沈睿探鼻息这一关键动作，明确他此刻判断的唯一标准是高令宁是否存活。",
+    "composition": "手部特写，沈睿发颤的手自左入画，停在高令宁鼻下；高令宁苍白的唇与鼻梁占画面右侧，床褥的月白褶皱充满下半部；背景完全压暗，只留烛光在指节上跳动，强化触感与脆弱。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造悬停感与细针般的紧张，让观众跟着他一起等待那一点活气。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 549
+  },
+  {
+    "id": "shot_0550",
+    "scene_id": "scene_035",
+    "shot_number": 4,
+    "goal": "以高令宁尚有呼吸的细微证据完成危机暂解，给出这场生死关头的第一口气。",
+    "composition": "高令宁面部近景，头部偏右下，留出左上大面积暗部；鼻息极轻，发丝汗湿贴鬓，唇色发白但胸口有极弱起伏；画面边缘可见沈睿手指尚停在下方，形成视觉证词；背景为柔暗床帐，无其他干扰。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到薄如纸的一线生机，松弛中仍带后怕。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 550
+  },
+  {
+    "id": "shot_0551",
+    "scene_id": "scene_035",
+    "shot_number": 5,
+    "goal": "捕捉沈睿确认她活着后的生理性卸力：吐气、泪落、情绪失控后的回落。",
+    "composition": "沈睿正面近景，占画面中轴略偏左；他低头后缓慢抬眼，肩线仍塌，眼角一滴泪沿右侧滑下；右侧边缘保留高令宁模糊床帐作为空间锚点，背景烛火化成冷暖交错的小亮点，不浪漫化，只强调眩晕后的失重。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众短暂共情他的真实后怕，形成一瞬人性松软。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.08,
+    "order": 551
+  },
+  {
+    "id": "shot_0552",
+    "scene_id": "scene_035",
+    "shot_number": 6,
+    "goal": "把稳婆的报喜声先于画面推进来，用声音打断沈睿的私人情绪，开启新的戏剧转折。",
+    "composition": "维持产房同轴线的中景，沈睿位于右侧前景三分之一，仍靠近床榻；左后景稳婆抱着襁褓被众人围住，从虚焦中稍显出来；前景床帐形成竖向遮挡，人物被礼制空间分隔。稳婆面带喜色朝右前方招呼，襁褓是画面最亮的移动点。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "让观众感到情绪被粗暴切换：刚松下一口气，世俗喜庆便立刻挤进来。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.16,
+    "order": 552
+  },
+  {
+    "id": "shot_0553",
+    "scene_id": "scene_035",
+    "shot_number": 7,
+    "goal": "完整交代稳婆的报喜内容，并明确关键信息‘小千金’，为下一镜沈睿的僵住提供因果。",
+    "composition": "稳婆中近景，位于画面左中，怀中襁褓横向占据下半部；她身体朝右，目光与台词都投向画外的沈睿；前景下方有模糊的人肩形成围拢感，背景烛火与木格屏风切出条状阴影；婴儿不必正露全脸，只露襁褓边角与一小段细软发丝，保持信息限制。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "表层是报喜，深层是让观众先一步意识到这句话会出问题，生出微妙的不安。",
+    "duration_hint": "3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.24,
+    "order": 553
+  },
+  {
+    "id": "shot_0554",
+    "scene_id": "scene_035",
+    "shot_number": 8,
+    "goal": "展示沈睿脸上刚浮起的笑意如何被‘小千金’四字瞬间冻结，完成本场核心反转的情绪落点。",
+    "composition": "沈睿面部近景，位于画面中央略偏右；他原本松开的嘴角停在未成形的弧度上，眼神向左侧画外稳婆处迅速定住；背景压暗，仅留一簇烛火在后方轻晃，像笑意被风掐灭；画面右边缘仍保留床帐暗纹，提醒他与高令宁的关系仍在场。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到笑意凝固的刺感：温度还没起来，已经掉回更冷的现实。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 554
+  },
+  {
+    "id": "shot_0555",
+    "scene_id": "scene_035",
+    "shot_number": 9,
+    "goal": "用一个带方向性的转头动作，把沈睿从床榻一侧拉回到婴儿与稳婆一侧，显示他心理重心的突变。",
+    "composition": "半侧面中近景，沈睿占画面右侧，先看向下方床榻，再猛地转头看向左侧画外；左侧留出大量空白作为他视线的落点；前景有一缕虚焦烛火晃动，形成瞬间遮挡；背景木格线条强化转头的切割感。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "制造突兀、冷硬的心理折返，让观众体会到他的震惊压过了刚才的庆幸。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 555
+  },
+  {
+    "id": "shot_0556",
+    "scene_id": "scene_035",
+    "shot_number": 10,
+    "goal": "以限制性双视角完成对峙起点：稳婆抱喜在左，沈睿震惊在右，空间关系清晰且不越线。",
+    "composition": "双人中景，镜头站在床榻外侧同一轴线上；稳婆抱襁褓位于左前景偏中，沈睿位于右中景，身体前倾半步；两人之间留出一段空隙，像被那句‘小千金’撑开的裂缝；背景下方可见床榻一角与垂落床帐，提醒此刻一切发生在高令宁仍虚弱在侧的前提下。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众看到这并非单纯喜讯，而是礼貌语境下突然冒出的冲突核。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 556
+  },
+  {
+    "id": "shot_0557",
+    "scene_id": "scene_035",
+    "shot_number": 11,
+    "goal": "落到台词爆点，表现沈睿对‘生女’结果的难以置信，并把新的悬念明确抛出。",
+    "composition": "沈睿正面特写，脸部略偏右，目光直刺左侧画外，眉心紧锁，唇线绷住后吐出短句‘你说什么？’；下方微微保留他未完全抬起的肩，显示身体还停留在方才卸力后的余势中；背景烛光更低，空气像被抽空。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到一句话把劫后余生再度翻成寒意，留下更复杂的人物判断。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 557
+  },
+  {
+    "id": "shot_0558",
+    "scene_id": "scene_035",
+    "shot_number": 12,
+    "goal": "用高令宁的静默存在做冷收尾：她活着，但并未真正迎来安稳，新的裂痕已在她身边生成。",
+    "composition": "回到高令宁近景主观倾向的收束镜头，机位贴近床侧；高令宁苍白面容位于画面右下，似昏似醒，前景左侧虚焦中可见襁褓与人影晃动，右上方更远处沈睿的身形模糊僵立；烛火在背景形成冷暖割裂，床帐像一层薄薄隔膜，把她与外界喧声隔开。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "留给观众一种冷冷的余震：命保住了，关系却在下一瞬开始坏掉。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 558
+  }
+]

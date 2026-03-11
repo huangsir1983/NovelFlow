@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "EXT. 柳池旁 - 黄昏",
+  "location": "柳池旁",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拽住脚伤女主，讥讽肌肤之亲",
+  "key_dialogue": "装什么装？你身上哪里，我没碰过？",
+  "emotional_peak": "女主疏离后退",
+  "tension_score": 0.75,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "沈词衣袖",
+    "池边柳枝",
+    "女主绣鞋"
+  ],
+  "dramatic_purpose": "情感挑衅加深误会"
+}

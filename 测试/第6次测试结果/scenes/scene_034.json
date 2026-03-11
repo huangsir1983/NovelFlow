@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "id": "scene_034",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_013"
+    ]
+  },
+  "data": {
+    "heading": "INT. 室内 - 夜",
+    "location": "高家内室",
+    "time_of_day": "night",
+    "description": "安静的内室，封闭空间，光线柔弱，偏烛光或夜灯。氛围疲惫冷静，像在重大决定前的最后谈判。两人站或坐相对，距离不远却情绪隔绝。",
+    "action": "高令宁长叹一口气，神色疲惫，像终于放弃争一时胜负。她平静开口，允诺让沈词次日来提亲。沈词微微怔住，随即警惕追问。高令宁语气平直，不再争执，只提醒他婚后说话算话。",
+    "dialogue": [
+      {
+        "character": "高令宁",
+        "line": "罢了，沈公子明日便来提亲吧。",
+        "subtext": "我接受这桩婚事，但不是因为爱，而是因为我已看清结局。"
+      },
+      {
+        "character": "沈词",
+        "line": "你又想做什么？",
+        "subtext": "我不信你会轻易让步，我怀疑你另有算计。"
+      },
+      {
+        "character": "高令宁",
+        "line": "成亲之后，还望公子说话算话。",
+        "subtext": "这是一桩带条件的交易，不是情投意合。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [],
+    "dramatic_purpose": "推动主线进入正式婚嫁阶段，并明确这场婚姻从一开始就是双方心知肚明的冷性契约。",
+    "tension_score": 0.6,
+    "dramatic_intensity": 0.2,
+    "order": 34
+  }
+}

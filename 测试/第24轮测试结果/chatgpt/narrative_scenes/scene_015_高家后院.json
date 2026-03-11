@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家后院卧房 - 白日",
+  "location": "高家后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "沈词闯入后院，拿着和离书质问我。我平静重申按约定和离，并说自己已经原谅他，希望他余生觅得良人，反令他崩溃失态。",
+  "key_dialogue": "「我不要你原谅我。」",
+  "emotional_peak": "当我真正放下时，最无法接受的人反而成了沈词。",
+  "tension_score": 0.91,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "和离书",
+    "襁褓中的昭昭",
+    "前世誓言"
+  ],
+  "dramatic_purpose": "完成人物关系反转：女主从执念中抽身，男主却开始沦陷。",
+  "visual_reference": "女子抱着婴儿坐在屋内，男子手持和离书闯入，情绪从质问到失控，空气凝滞。",
+  "visual_prompt_negative": "不要现代家庭伦理剧布景，不要夸张泪崩，不要偶像剧过曝。",
+  "source_text_start": "雕花木门吱呀一声被推开。我抱着女儿，有些讶异",
+  "source_text_end": "我错愕地看着他，哑然失笑。不恨他了……他怎么反而还不乐意了呢？"
+}

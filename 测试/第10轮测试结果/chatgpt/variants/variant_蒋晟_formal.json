@@ -1,0 +1,31 @@
+{
+  "variant_id": "jiangsheng_variant_01",
+  "variant_type": "formal",
+  "variant_name": "蒋晟 — 相看时的稳重门生",
+  "tags": [
+    "相看对象",
+    "正派",
+    "克制",
+    "门生身份"
+  ],
+  "scene_ids": [
+    "scene_005"
+  ],
+  "trigger": "高父安排女儿相看门生蒋晟时，蒋晟以较为正式、得体的姿态出现在高府书房与门厅场景中。",
+  "appearance_delta": {
+    "face": "神情比日常更拘谨端正，带一点相看场合下的局促与老实感，容易显出微微脸红",
+    "body": "依旧高大结实，但站姿更收敛，显得克己守礼",
+    "hair": "黑发高束，整理得更齐整利落",
+    "distinguishing_features": "书生门生与习武之人并存的气质更明显，给人可靠、稳妥的第一印象"
+  },
+  "costume_override": {
+    "outfit": "比平日更整饬的深色简洁长袍或半正式劲装，束腰清晰，护腕与腰带收拾妥帖，符合上门相看与拜见长辈的礼数",
+    "color_palette": [
+      "靛蓝",
+      "深灰",
+      "棕色"
+    ]
+  },
+  "visual_reference": "ancient chinese young male suitor, sturdy honest warrior-scholar, broad shoulders, clean tied black hair, neat dark blue and charcoal robe with simple belt and bracers, respectful posture in a noble mansion study doorway, realistic period drama, dependable aura, restrained and slightly shy expression",
+  "emotional_tone": "稳重、谨慎、带些相看时的不自在"
+}

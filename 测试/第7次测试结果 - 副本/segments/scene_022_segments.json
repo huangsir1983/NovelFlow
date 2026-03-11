@@ -1,0 +1,62 @@
+[
+  {
+    "id": "seg_0102",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0281",
+      "shot_0282",
+      "shot_0283"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均处于同一空间关系建立段内：先用限制性全景交代婚内疏离，再迅速切入女主身体状态，最后以坐起动作把被动受压转成即将对峙的姿态。角色集合未变，情绪从压抑过渡到强撑，适合合并为一个起势segment。",
+    "order": 102
+  },
+  {
+    "id": "seg_0103",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0284",
+      "shot_0285",
+      "shot_0286",
+      "shot_0287"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段完成一次明确情绪换挡：由女主身体失控切向男主冷眼旁观，再推进到第一句身份质问。虽然镜头主客体转换，但叙事动作连续且围绕同一爆点展开，适合合并为一个完整的‘失稳—审视—发问’段落。",
+    "order": 103
+  },
+  {
+    "id": "seg_0104",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0288",
+      "shot_0289",
+      "shot_0290",
+      "shot_0291"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头围绕第一句质问后的心理余震展开：先拍女主反应，再用限制性双人关系确认空间僵持，随后引入主观失焦，最后以烛火插镜完成节奏顿挫，为第二轮台词蓄压。情绪线统一且连续，属于同一轮刺痛后的内收段。",
+    "order": 104
+  },
+  {
+    "id": "seg_0105",
+    "scene_id": "scene_022",
+    "shot_ids": [
+      "shot_0292",
+      "shot_0293",
+      "shot_0294",
+      "shot_0295",
+      "shot_0296"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段构成完整的高潮与冷收尾：第二句台词是情绪高点，随后立即切女主反应与身体极限，最终回到空间关系完成冷落版结尾。虽然包含5个shot，但在视频逻辑上属于同一轮爆发后的连锁反应，合并可保持冲突的持续压迫感与结尾余震。",
+    "order": 105
+  }
+]

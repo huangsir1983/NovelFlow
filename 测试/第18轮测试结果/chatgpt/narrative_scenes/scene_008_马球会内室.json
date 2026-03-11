@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会休憩内室 - DUSK",
+  "location": "马球会内室",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为高令宁正骨，旁边陆姝仪胃病发作，沈词亲自喂药安抚；高令宁提出离开，沈词与她再次就陆姝仪婚事对峙，陆姝仪跪地哭求留下。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪跪地拽衣角、沈词将她护入怀中，高令宁被迫再次看见自己婚姻中的‘旁观者位置’。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "正骨药酒与包扎布",
+    "药碗",
+    "衣角",
+    "扇子"
+  ],
+  "dramatic_purpose": "把男女主旧怨具象化，并再次强化陆姝仪作为无法回避的障碍。",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了。",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

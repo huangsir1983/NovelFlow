@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_007",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_000"
+    ]
+  },
+  "data": {
+    "title": "以自戕方式立威",
+    "description": "女主砸杯取瓷片抹颈，以近乎自毁的方式震慑沈母、陆姝仪与沈词，从被算计的新妇反转为无人敢轻欺的狠角色。",
+    "beat_type": "action",
+    "save_the_cat": "Fun and Games",
+    "emotional_value": 0.2,
+    "dramatic_intensity": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 7
+  }
+}

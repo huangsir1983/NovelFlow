@@ -1,0 +1,67 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "沈大人",
+    "阿词"
+  ],
+  "role": "protagonist",
+  "age_range": "18-42岁（跨越重生前后）",
+  "appearance": {
+    "face": "如玉的面庞，白净，琥珀色眸子",
+    "body": "长身玉立，笔直的脊背",
+    "hair": "传统男子发髻",
+    "distinguishing_features": "冷如冰湖的眼神，端方持重的气质"
+  },
+  "costume": {
+    "typical_outfit": "文官服饰，儒雅长袍",
+    "color_palette": [
+      "青色",
+      "墨色"
+    ]
+  },
+  "casting_tags": [
+    "冷峻",
+    "权贵",
+    "矛盾",
+    "深情"
+  ],
+  "visual_reference": "A handsome Chinese scholar-official in his late 20s, jade-like features, amber eyes, cold demeanor, traditional official robes, ancient dynasty",
+  "personality": "表面冷淡端正，内心矛盾挣扎。三榜进士，文臣，为人端方持重。对陆姝仪有特殊感情但否认，对高令宁态度复杂从冷漠到执着。重生后更加珍惜但仍傲娇。",
+  "desire": "前世想要陆姝仪和沈睿兼得；重生后想要沈睿出生，后期转变为想要挽回高令宁。",
+  "flaw": "感情不坦诚，口是心非，对陆姝仪的感情暧昧不清，伤害了高令宁却不自知。过于在意家族利益和儿子。",
+  "arc": "前世：娶高令宁为陆姝仪→冷待妻子→陆姝仪死后迁怒→与妻互相折磨→临终守护。重生：算计成婚→冷淡对待→误会加深→女儿出生转变→执着挽回→卑微纠缠。",
+  "scene_presence": "男主角贯穿全文。关键场景：提亲、婚礼、洞房、陆姝仪事件、难产抉择、和离后纠缠、江南追妻。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感+权力",
+      "dynamic": "从算计利用到真心挽回",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "情感",
+      "dynamic": "青梅竹马，感情暧昧但否认",
+      "function": "情感障碍"
+    },
+    {
+      "target": "沈睿",
+      "type": "情感",
+      "dynamic": "父子情深，为子可舍弃一切",
+      "function": "行为动机"
+    },
+    {
+      "target": "昭昭",
+      "type": "情感",
+      "dynamic": "父女情深，极尽宠爱",
+      "function": "情感转折点"
+    },
+    {
+      "target": "沈母",
+      "type": "权力",
+      "dynamic": "母子关系，受母亲影响",
+      "function": "外部压力"
+    }
+  ]
+}

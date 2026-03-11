@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_000",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_012",
+      "scene_013"
+    ]
+  },
+  "data": {
+    "title": "揭示前世怨偶结局",
+    "description": "以总述式前情开场：前世夫妻相看两厌、因儿子睿儿维系婚姻，后续又牵出义妹、和离约定、家门重振等信息，奠定这是一个带着旧恨与现实算计重来的故事。",
+    "beat_type": "revelation",
+    "save_the_cat": "Opening Image",
+    "emotional_value": -0.2,
+    "dramatic_intensity": -0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 0
+  }
+}

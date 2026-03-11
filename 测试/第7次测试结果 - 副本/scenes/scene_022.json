@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "id": "scene_022",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_005"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈府房内 - NIGHT",
+    "location": "沈府房内",
+    "time_of_day": "night",
+    "description": "封闭室内，夜色沉沉，烛火偏低，光线集中在床榻与桌边，周围阴影浓重。房内陈设规整却压抑，带有分房而居后的疏离感。高令宁面色憔悴，身体虚弱。沈睿立于暗处或桌边，姿态冷硬，与她保持明显距离。",
+    "action": "高令宁因劳心过度而虚弱卧床，额上有汗，呼吸不稳。她强撑着坐起，却又因眩晕扶住床沿。沈睿冷着脸站在不远处，视线压向她。两人之间无人靠近，空气紧绷，显出婚内长期积怨已将关切挤压成质问。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "你究竟是我沈家妇，还是高家女？",
+        "subtext": "你始终不信任我，也始终没有把自己真正放进这段婚姻里。"
+      },
+      {
+        "character": "沈睿",
+        "line": "你这般防我，可曾把我当作你的夫婿？",
+        "subtext": "我愤怒的不只是你的隐瞒，更是你从未向我示弱、求助与交心。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "床榻",
+      "烛台"
+    ],
+    "dramatic_purpose": "将夫妻矛盾由表层礼法与家务争夺，推进到身份归属与情感信任的核心冲突，揭示两人互相防备的本质。",
+    "tension_score": 0.78,
+    "dramatic_intensity": 0.56,
+    "order": 22
+  }
+}

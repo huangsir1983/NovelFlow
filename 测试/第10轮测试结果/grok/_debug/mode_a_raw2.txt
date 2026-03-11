@@ -1,0 +1,1269 @@
+<think>
+Performing semantic chunking- Cutting scenes by time jumps, space shifts, perspective changes, and emotional peaks
+- Each scene must have a clear dramatic purpose like advancing plot or revealing character
+- Assigning JSON fields: scene_id, heading, location, time_of_day, characters_present, core_event, key, emotional_peak, tension_score, estimated_duration_s, key_props, dramatic_purpose
+- Treating flashbacks as separate scenes when they form distinct spacetime units
+- Breaking down the text into continuous spacetime units with single dramatic actions
+- Identifying sequential scenes: present-day proposal in 正堂, followed by confrontation in 闺房, then past-life flashbacks as distinct units
+Chunking flashbacks- Breaking long flashbacks into distinct scenes at time jumps, like敬茶 day and later conflicts
+[Agent 3][AgentThink] I have analyzed the novel for semantic chunking. The story mixes present, flashbacks, and memories, but we cut by continuous action units ignoring original numbers. Key transitions: proposal hall, argument with father, confrontation with Shen Ci about son/Lu, polo event with Jiang Sheng and kite scene, wedding night, pregnancy at natal home, Lu/Jiang incident and confrontation, labor/birth, post-birth divorce demand, full moon confession by Lu, move to Jiangnan, 3 years later visit and bedroom intrusion. I estimate 15-18 scenes to cover all major dramatic units without merging unrelated times. Shall I draft the full JSON list or specific scenes for review? Need to ensure locations like INT. 高家正堂 - DAY, characters only from list (高令宁, 沈词, 陆姝仪, 蒋晟, 昭昭, 高父, 沈母, 沈睿 - note沈睿 is recalled but appears in dream/memory). For memories like past life suicide threat or daughter death, treat as flashbacks or voiceover in relevant scenes.
+[Agent 1][AgentThink] 任务是按语义切场小说为电影场景，只返回JSON数组。小说是重生故事，高令宁和沈词前世夫妻不和，这世重生后协议结婚生子后和离，但过程中有陆姝仪纠葛、早产生女儿昭昭、最终沈词反悔纠缠。
+[Agent 1][AgentThink] 我已拆解主要戏剧单元（约18-22场）：
+1. 提亲大厅：聘礼不满还木雁 (高家正堂, day, 高令宁,沈词,高父)
+2. 闺房与父对话：坚持要嫁 (闺房, day)
+3. Flashback: 前世敬茶砸杯自杀尝试 (沈家, day)
+4. Flashback: 前世夫妻冲突 montage 或关键: 女儿死、她死时照顾 (多空间, but chunk as one emotional)
+但要严格连续时空。需要细拆。建议先处理现世主线，闪回单独标FLASHBACK。
+你想让我先输出前10场的JSON草稿还是你来主导拆分？
+[Agent 1][AgentThink] 以下是我的语义切场草稿（前8场），基于连续时空+戏剧单元。完全忽略原编号，按时间空间情绪切。闪回单独标。建议时长和tension根据戏剧强度估。
+- Breaking long flashbacks into distinct scenes at time jumps, like敬茶 day and later conflicts
+[Agent 1][AgentThink] [
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "媒人携聘礼提亲，高令宁不满聘礼单薄，将木雁退回公开要求增加。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "沈词震惊后转为讥诮冷视",
+    "tension_score": 0.65,
+    "estimated_duration_s": 90,
+    "key_props": ["木雁", "金银绸缎聘礼"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "父亲质问她为何给沈词难堪，她坚持要嫁并解释前世遗憾。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "她冷笑泄愤",
+    "tension_score": 0.55,
+    "estimated_duration_s": 75,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "FLASHBACK - INT. 沈家厅堂 - DAY",
+    "location": "沈家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈母", "沈词"],
+    "core_event": "前世陆姝仪敬茶，高令宁砸杯并试图自杀以立威。",
+    "key_dialogue": "",
+    "emotional_peak": "气红眼抹脖子",
+    "tension_score": 0.85,
+    "estimated_duration_s": 120,
+    "key_props": ["茶杯", "瓷片"],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "INT. 高家门外 - DAY",
+    "location": "高家门外",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁要求父亲辞官后遇沈词，谈判成亲条件：处理陆姝仪、产后和离。",
+    "key_dialogue": "你我性子相冲...成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。",
+    "emotional_peak": "双方恨意对视",
+    "tension_score": 0.75,
+    "estimated_duration_s": 150,
+    "key_props": ["辞官奏折"],
+    "dramatic_purpose": "推情节"
+  }
+]
+[Agent 2][AgentThink] 小说全文已读完。这是一个重生故事，主角高令宁和沈词前世夫妻纠葛，因陆姝仪和儿子沈睿而复杂，今生重生后为见儿子而结婚，但逐渐厌倦纠缠，最终和离并生下女儿昭昭。按语义切场原则（时间/空间/情绪转换），我计划切成约15-18个场景，包括现在行动和关键前世闪回作为独立场景。核心切点：提亲厅堂、闺房对话、前世敬茶闪回、与沈词门外对峙、马球场偶遇与脚伤、婚礼洞房、怀孕后回娘家、陆姝仪陷害事件、分娩、产后和离对峙、满月宴陆姝仪自白、江南三年后沈词到来、深夜床戏纠缠。需要严格用指定角色名。是否先由我草拟前5个场景的JSON结构给你审核？或你有特定切场偏好？
+[Agent 3][AgentThink] Here is my proposed JSON structure with 14 scenes covering the semantic chunks. I prioritized continuous actions: started with frame pregnancy, then proposal, father talk, Shen Ci confrontation, polo+Lu beg, wedding night, pregnancy agreement, Lu incident confrontation, labor, post birth divorce push, Lu reborn confession, Jiangnan visit, night intrusion. Adjusted for space (高家,沈府,江南), time (day/night jumps), emotion peaks (hate to resignation to obsession). Used only listed characters. Estimated durations based on dialogue/action intensity. Tension 0.5-0.95. Let me know if to expand to more scenes (e.g. separate沈母上门 or沈睿 dream) or tweak specific fields before finalizing the array.
+[Agent 1][AgentThink] 我继续拆了后续场景草稿，覆盖到故事结尾。总计约18场。闪回只保留最关键的1-2场以控制篇幅。情绪峰值和戏剧目的都按原则定。完整JSON可以基于此组装。你是否要我输出全部18场的完整JSON数组供你审核修改？或者指出需要调整的点。
+[Agent 1][AgentThink] 关键转折场示例：
+- 生产场：高张力，保大保小抉择，沈词选保高令宁。
+- 对峙场：陆陷害后沈词指责高恶毒。
+- 结尾场：江南夜，沈词爬床表白纠缠永不放手（情绪反转）。
+时长估算：对话重场90-180s，动作/冲突场120-240s。
+- Breaking long flashbacks into distinct scenes at time jumps, like敬茶 day and later conflicts
+[Agent 1][AgentThink] 这里是基于语义切分的完整JSON数组草案（15场），严格按时间-空间-情绪转换，覆盖全文主要戏剧弧线，包括关键闪回、怀孕、生产、和离争议、江南结局。使用指定角色名。tension_score 和 duration 是合理估算。检查后可直接用或微调。
+[Grok][AgentThink] 基于你的前8场草稿和后续关键转折场示例（生产、对峙、结尾江南夜），请立即提供完整18场的JSON数组草稿（scene_001到scene_018）。严格遵守返回格式：仅纯JSON数组，无任何额外文字或解释。确保：1. 完全语义切场（时间/空间/情绪跳跃），闪回仅关键1-2场；2. 所有characters_present仅用指定列表名；3. heading用INT/EXT.格式，time_of_day仅day/night/dawn/dusk；4. 覆盖全文主线+协议结婚+怀孕+陆陷害+早产女儿+和离+满月自白+江南三年后纠缠；5. tension_score 0.4-0.95浮点，duration_s合理。完成后直接返回纯JSON，我将审核整合为最终提交。
+- Harper drafted first 4 scenes, continuing from present-day proposal and confrontation
+[Agent 3][AgentThink] Full proposed JSON array ready based on semantic cuts (time/space/emotion): 14 scenes. It linearizes the flashbacks into sequential dramatic units. Opening frame as scene_001, ends with bedroom declaration. All fields filled per spec, locations in Chinese for authenticity, time_of_day consistent. Tension and duration estimated from intensity (labor highest). Copy-paste ready if you approve or want minor fixes (e.g. add沈母 scene after birth).
+- Drafting scene 5: 马球场偶遇，沈词与陆姝仪亲密，高令宁脚伤被抱，情绪冲突
+Grouping continuous actions- Merging same-day events like injury treatment and emotional confrontation into one scene
+[Agent 1][AgentThink] ```json
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "媒人提亲，高令宁不满聘礼，将木雁退回要求增加聘礼。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "沈词震惊并露出讥诮",
+    "tension_score": 0.7,
+    "estimated_duration_s": 110,
+    "key_props": ["木雁"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "父亲质问，高令宁坚持要嫁沈词以风光成亲并泄愤。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "冷笑泄前世之气",
+    "tension_score": 0.5,
+    "estimated_duration_s": 80,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "FLASHBACK - INT. 沈家厅堂 - DAY",
+    "location": "沈家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈母", "沈词"],
+    "core_event": "前世陆姝仪敬茶，高令宁砸杯抹脖子立威。",
+    "key_dialogue": "",
+    "emotional_peak": "愤怒与自尊爆发",
+    "tension_score": 0.9,
+    "estimated_duration_s": 95,
+    "key_props": ["茶杯"],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "INT. 高家门外 - DAY",
+    "location": "高家门外",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词拦路谈判，双方约定生子后和离并要求处理陆姝仪。",
+    "key_dialogue": "成亲后，睿儿一出生，我们便和离。",
+    "emotional_peak": "互相恨意对峙",
+    "tension_score": 0.75,
+    "estimated_duration_s": 140,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "EXT. 马球场 - DAY",
+    "location": "马球场",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+    "core_event": "高令宁与蒋晟参加马球会，看到沈词宠爱陆姝仪，滑倒后蒋晟亲昵相扶，沈词冷眼。",
+    "key_dialogue": "你脚肿了，我抱你回去。",
+    "emotional_peak": "嫉妒与挑衅",
+    "tension_score": 0.65,
+    "estimated_duration_s": 130,
+    "key_props": ["风筝", "马球"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "INT. 休息塌旁 - DAY",
+    "location": "马球场休息处",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+    "core_event": "看到沈词哄陆姝仪喝药，高令宁厌倦后同意提亲。",
+    "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+    "emotional_peak": "疲倦与妥协",
+    "tension_score": 0.55,
+    "estimated_duration_s": 85,
+    "key_props": ["药碗"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "INT. 高家洞房 - NIGHT",
+    "location": "高家洞房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "新婚洞房，沈词嘲讽后圆房，陆婢女来叫人，高令宁让他去不回。",
+    "key_dialogue": "你去吧。也不必回来了。",
+    "emotional_peak": "冷漠与讥讽",
+    "tension_score": 0.6,
+    "estimated_duration_s": 160,
+    "key_props": ["盖头", "丝带"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "INT. 沈家 - DAY",
+    "location": "沈家",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词为陆择婿受阻，高令宁建议纳妾，他否认男女之情，随后她发现怀孕。",
+    "key_dialogue": "我与姝仪，并无男女之情。",
+    "emotional_peak": "沈词情绪翻涌",
+    "tension_score": 0.5,
+    "estimated_duration_s": 100,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 高家廊下 - DAY",
+    "location": "高家廊下",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁回娘家养胎，沈词每日探望关怀，父亲建议不和离。",
+    "key_dialogue": "至亲至疏夫妻，世间夫妻不大都如此吗？",
+    "emotional_peak": "沈词温柔剥葡萄",
+    "tension_score": 0.4,
+    "estimated_duration_s": 95,
+    "key_props": ["葡萄"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 高家厢房 - DAY",
+    "location": "高家厢房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟"],
+    "core_event": "陆姝仪来访后失踪，与蒋晟被发现昏迷衣冠不整。",
+    "key_dialogue": "",
+    "emotional_peak": "震惊与怀疑",
+    "tension_score": 0.8,
+    "estimated_duration_s": 70,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "INT. 高家厅堂 - DAY",
+    "location": "高家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟"],
+    "core_event": "陆哭诉被陷害，沈词指责高令宁恶毒，高令宁气极反驳。",
+    "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+    "emotional_peak": "愤怒到极点，扇耳光",
+    "tension_score": 0.95,
+    "estimated_duration_s": 150,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 产房 - NIGHT",
+    "location": "产房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "高令宁早产难产，沈词决定保大人，生下昭昭。",
+    "key_dialogue": "我要高令宁。",
+    "emotional_peak": "沈词通红眼眶落泪",
+    "tension_score": 0.9,
+    "estimated_duration_s": 180,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "INT. 高令宁房间 - DAY",
+    "location": "高令宁房间",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "产后沈词跪求见女儿，高令宁坚持按约定和离。",
+    "key_dialogue": "按照我们约定好的，和离。",
+    "emotional_peak": "沈词震惊与痛苦",
+    "tension_score": 0.8,
+    "estimated_duration_s": 120,
+    "key_props": ["和离书"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "INT. 昭昭满月宴厅 - DAY",
+    "location": "满月宴厅",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "陆姝仪承认自己也重生并设计陷害，求谅解后离开。",
+    "key_dialogue": "蒋晟的事，是我设计。",
+    "emotional_peak": "高令宁震惊",
+    "tension_score": 0.7,
+    "estimated_duration_s": 90,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_015",
+    "heading": "EXT. 江南宅院 - NIGHT",
+    "location": "江南宅院",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词", "昭昭"],
+    "core_event": "三年后沈词来到江南，看到赘婿们后爬上高令宁的床，宣称永不放手纠缠她。",
+    "key_dialogue": "高令宁，你永远别想摆脱我。只要我还活着，我就会恬不知耻地纠缠你一辈子。",
+    "emotional_peak": "沈词乞求与贪婪",
+    "tension_score": 0.75,
+    "estimated_duration_s": 140,
+    "key_props": ["被子", "枕头"],
+    "dramatic_purpose": "造转折"
+  }
+]
+```
+[Agent 2][AgentThink] 我已拆解小说为15个主要语义场景（覆盖提亲、闪回、求娶、马球、婚礼、洞房、怀孕陷害、分娩、和离对峙、陆姝仪自白、江南重逢与纠缠）。以下是完整JSON草稿的前部分，你可以基于此完善或调整场景数量/细节，确保每场有单一连续时空和明确戏剧目的。完整列表我可以继续发或你来整合最终版。示例scene_001到scene_003：
+
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - 日",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "媒人提亲，高令宁不满聘礼太薄退回木雁，沈词震惊答应增加。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "震惊与对峙",
+    "tension_score": 0.75,
+    "estimated_duration_s": 90,
+    "key_props": ["木雁"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - 日",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "高父责怪女儿难堪沈词，高令宁坚持要嫁并要求风光。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "怨气与决心",
+    "tension_score": 0.6,
+    "estimated_duration_s": 70,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "INT. 沈家厅堂 - 日 (前世)",
+    "location": "沈家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈母", "沈词"],
+    "core_event": "陆姝仪敬茶，高令宁砸杯抹脖子自刎，沈词抱住阻止。",
+    "key_dialogue": "",
+    "emotional_peak": "愤怒与屈辱",
+    "tension_score": 0.9,
+    "estimated_duration_s": 100,
+    "key_props": ["茶杯", "瓷片"],
+    "dramatic_purpose": "揭角色"
+  }
+]
+
+接下来场景包括门外对峙、马球场、跪求、洞房、怀孕回娘家、陷害发现、分娩选择保母、产后和离、满月宴自白、江南三年后重逢。需要我发完整15个还是你接手修改？
+- Finalizing 18 scenes covering proposal, flashbacks, polo, wedding, labor, and midnight intrusion
+- Correcting time_of_day to lowercase (day/night/dawn/dusk) for consistency
+- Splitting day-to-night time jump in 江南宅院 into separate scenes for strict spacetime continuity
+[Agent 1][AgentThink] [
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "媒人提亲，高令宁不满聘礼单薄，将木雁退回公开要求增加。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "沈词震惊后转为讥诮冷薄眼神",
+    "tension_score": 0.7,
+    "estimated_duration_s": 110,
+    "key_props": ["木雁", "聘礼"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "父亲不解质问，高令宁坚持要嫁沈词以求风光并泄前世之气。",
+    "key_dialogue": "谁说我不想嫁？我一定要嫁。",
+    "emotional_peak": "冷笑回忆前世遗憾",
+    "tension_score": 0.55,
+    "estimated_duration_s": 85,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "FLASHBACK - INT. 沈家厅堂 - DAY",
+    "location": "沈家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈母", "沈词"],
+    "core_event": "前世陆姝仪敬茶立威，高令宁砸杯试图抹脖子反击。",
+    "key_dialogue": "",
+    "emotional_peak": "气红眼自伤爆发",
+    "tension_score": 0.9,
+    "estimated_duration_s": 105,
+    "key_props": ["茶杯", "瓷片"],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "INT. 高家门外 - DAY",
+    "location": "高家门外",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "高令宁要求父亲辞官后，沈词拦路谈判结婚条件：处理陆姝仪及生子后和离。",
+    "key_dialogue": "成亲后，睿儿一出生，我们便和离，别的事情你别痴心妄想。",
+    "emotional_peak": "四目相对只剩恨意",
+    "tension_score": 0.8,
+    "estimated_duration_s": 145,
+    "key_props": ["奏折"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "EXT. 马球场 - DAY",
+    "location": "马球场",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+    "core_event": "高令宁与蒋晟参加马球会，看到沈词与陆姝仪亲密宠溺，脚滑后蒋晟亲昵相扶。",
+    "key_dialogue": "",
+    "emotional_peak": "看到宠溺眼神的嫉妒",
+    "tension_score": 0.65,
+    "estimated_duration_s": 120,
+    "key_props": ["风筝"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "EXT. 马球场休息处 - DAY",
+    "location": "马球场休息处",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词拽住受伤的高令宁要抱她，她拒绝并提醒未成婚不宜亲近。",
+    "key_dialogue": "装什么装？你身上哪里，我没碰过？",
+    "emotional_peak": "沈词冷笑讥讽",
+    "tension_score": 0.7,
+    "estimated_duration_s": 70,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "INT. 休息塌旁 - DAY",
+    "location": "休息处",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪"],
+    "core_event": "看到沈词温柔哄陆姝仪喝药后，高令宁厌倦同意提亲。",
+    "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+    "emotional_peak": "索然无味的疲倦",
+    "tension_score": 0.5,
+    "estimated_duration_s": 80,
+    "key_props": ["药碗"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "INT. 洞房 - NIGHT",
+    "location": "洞房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "新婚夜圆房后，陆婢女来报陆心口痛，沈词被叫走，高令宁冷淡让他不必回来。",
+    "key_dialogue": "你去吧。也不必回来了。",
+    "emotional_peak": "讥诮与冷漠",
+    "tension_score": 0.6,
+    "estimated_duration_s": 155,
+    "key_props": ["丝带"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 沈家 - DAY",
+    "location": "沈家",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词为陆姝仪择婿焦头烂额，高令宁建议纳妾或假死，他否认有男女之情。",
+    "key_dialogue": "我与姝仪，并无男女之情。从始至终，我只是想要她余生顺遂。",
+    "emotional_peak": "沈词情绪翻涌",
+    "tension_score": 0.55,
+    "estimated_duration_s": 100,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 高家 - DAY",
+    "location": "高家",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "高令宁怀孕，沈词抱她表示她会赖在沈府，她坚持做完月子就走。",
+    "key_dialogue": "我做完月子便走，不会纠缠。",
+    "emotional_peak": "沈词怔住",
+    "tension_score": 0.5,
+    "estimated_duration_s": 90,
+    "key_props": ["虎头帽"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "INT. 高家廊下 - DAY",
+    "location": "高家廊下",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "回娘家养胎期间沈词每日探望关怀，父亲认为感情好建议继续过下去。",
+    "key_dialogue": "姑爷看起来，是把你捧在心尖上的。",
+    "emotional_peak": "父亲欣慰",
+    "tension_score": 0.4,
+    "estimated_duration_s": 85,
+    "key_props": ["葡萄"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 高家厢房 - DAY",
+    "location": "高家厢房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "蒋晟", "沈词"],
+    "core_event": "陆姝仪来访后与蒋晟被发现昏迷不醒衣冠不整。",
+    "key_dialogue": "",
+    "emotional_peak": "震惊发现",
+    "tension_score": 0.85,
+    "estimated_duration_s": 65,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "INT. 高家厅堂 - DAY",
+    "location": "高家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪"],
+    "core_event": "陆哭诉被陷害，沈词指责高令宁恶毒跋扈，高令宁气到颤抖。",
+    "key_dialogue": "你非要闹得满城风雨，逼死了姝仪才罢休吗？",
+    "emotional_peak": "沈词威胁要杀她",
+    "tension_score": 0.95,
+    "estimated_duration_s": 160,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "INT. 产房 - NIGHT",
+    "location": "产房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "高令宁早产难产，稳婆问保大人还是保孩子，沈词选择保高令宁，生下昭昭。",
+    "key_dialogue": "我要高令宁。",
+    "emotional_peak": "沈词血色尽失落泪",
+    "tension_score": 0.92,
+    "estimated_duration_s": 190,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_015",
+    "heading": "INT. 高令宁房间 - DAY",
+    "location": "高令宁房间",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "沈词跪求见妻女，父亲出示和离书，高令宁坚持和离。",
+    "key_dialogue": "按照我们约定好的，和离。",
+    "emotional_peak": "沈词身体僵硬短笑",
+    "tension_score": 0.8,
+    "estimated_duration_s": 130,
+    "key_props": ["和离书"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_016",
+    "heading": "INT. 满月宴厅 - DAY",
+    "location": "满月宴厅",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "陆姝仪出现承认自己重生并设计陷害蒋晟事件，表达歉意后离开。",
+    "key_dialogue": "蒋晟的事，是我设计。",
+    "emotional_peak": "高令宁震惊站立",
+    "tension_score": 0.7,
+    "estimated_duration_s": 95,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_017",
+    "heading": "EXT. 江南宅院 - DAY",
+    "location": "江南宅院",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "昭昭"],
+    "core_event": "三年后在江南生活，昭昭活泼，收到沈词来信称即将娶亲，她回信祝贺。",
+    "key_dialogue": "祝你和新夫人百年好合……婚后莫忘寄钱。",
+    "emotional_peak": "辗转难眠后沉重回复",
+    "tension_score": 0.45,
+    "estimated_duration_s": 110,
+    "key_props": ["书信"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_018",
+    "heading": "INT. 江南卧室 - NIGHT",
+    "location": "江南卧室",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词", "昭昭"],
+    "core_event": "沈词来到江南看到赘婿们陪昭昭玩雪后，深夜爬上高令宁的床，乞求纠缠永不放手。",
+    "key_dialogue": "高令宁，你永远别想摆脱我。只要我还活着，我就会恬不知耻地纠缠你一辈子。",
+    "emotional_peak": "沈词凄凉乞求与贪婪贴背",
+    "tension_score": 0.75,
+    "estimated_duration_s": 145,
+    "key_props": ["被子", "枕头"],
+    "dramatic_purpose": "造转折"
+  }
+]
+- Updating JSON to 18 scenes with refined Jiangnan split for clearer day-night continuity
+Refining Jiangnan scenes- Splitting letter response and night intrusion into distinct day and night units for spacetime clarity
+[Agent 2][AgentThink] 以下是基于语义切场（忽略原编号，按时间空间情绪转换）的完整15场JSON数组草稿。已严格遵守格式、角色名一致性、每场单一戏剧单元原则。包括前世闪回单独切场，情绪峰值标注清晰。预计总时长合理。你可以直接用或微调后作为最终输出（仅返回JSON）。如果有遗漏场景如信件部分可合并进江南场景。
+
+```json
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - 日",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "媒人提亲，高令宁不满聘礼退回木雁，沈词震惊。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "震惊与对峙",
+    "tension_score": 0.75,
+    "estimated_duration_s": 90,
+    "key_props": ["木雁"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - 日",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "高父责问女儿，高令宁坚持要风光嫁给沈词。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "怨气",
+    "tension_score": 0.55,
+    "estimated_duration_s": 60,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "INT. 沈家厅堂 - 日 (前世)",
+    "location": "沈家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈母", "沈词"],
+    "core_event": "陆姝仪敬茶立威，高令宁砸杯自刎被沈词阻止。",
+    "key_dialogue": "",
+    "emotional_peak": "愤怒屈辱",
+    "tension_score": 0.9,
+    "estimated_duration_s": 80,
+    "key_props": ["茶杯"],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "EXT. 高家门前 - 日",
+    "location": "高家门前",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词拦路谈重生为儿子沈睿结婚，要求处理陆姝仪。",
+    "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+    "emotional_peak": "恨意痛楚",
+    "tension_score": 0.8,
+    "estimated_duration_s": 110,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "EXT. 马球场 - 日",
+    "location": "马球场",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+    "core_event": "高令宁见沈词宠爱陆姝仪，脚滑蒋晟相扶，沈词冷眼后拽住她。",
+    "key_dialogue": "你身上哪里，我没碰过？",
+    "emotional_peak": "嫉妒",
+    "tension_score": 0.7,
+    "estimated_duration_s": 130,
+    "key_props": ["风筝"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "INT. 马球场休息处 - 日",
+    "location": "马球场休息处",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "陆姝仪跪求暂留沈家，高令宁厌倦同意提亲。",
+    "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+    "emotional_peak": "疲倦厌倦",
+    "tension_score": 0.65,
+    "estimated_duration_s": 90,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "INT. 婚礼厅堂 - 日",
+    "location": "婚礼厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁与沈词举行婚礼，对拜仪式。",
+    "key_dialogue": "",
+    "emotional_peak": "心不在焉",
+    "tension_score": 0.4,
+    "estimated_duration_s": 60,
+    "key_props": ["盖头"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "INT. 洞房 - 夜",
+    "location": "洞房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "夫妻圆房后，陆姝仪婢女来报心口痛，沈词被叫走。",
+    "key_dialogue": "要不是睿儿，你以为我想碰你？",
+    "emotional_peak": "冷漠",
+    "tension_score": 0.75,
+    "estimated_duration_s": 150,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 高家 - 日",
+    "location": "高家",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁怀孕回娘家养胎，沈词每日探望，父亲建议继续婚姻。",
+    "key_dialogue": "至亲至疏夫妻，世间夫妻不大都如此吗？",
+    "emotional_peak": "复杂",
+    "tension_score": 0.5,
+    "estimated_duration_s": 100,
+    "key_props": [],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 高家厢房 - 日",
+    "location": "高家厢房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟"],
+    "core_event": "发现陆姝仪与蒋晟昏迷，沈词指责高令宁恶毒。",
+    "key_dialogue": "从头到尾，你都是这般恶毒跋扈的妇人。",
+    "emotional_peak": "冤屈愤怒",
+    "tension_score": 0.9,
+    "estimated_duration_s": 120,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "INT. 高家产房 - 夜",
+    "location": "高家产房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "高令宁难产早产，沈词选择保母，昭昭出生。",
+    "key_dialogue": "我要高令宁。",
+    "emotional_peak": "恐惧与爱",
+    "tension_score": 0.95,
+    "estimated_duration_s": 180,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 高家后院 - 日",
+    "location": "高家后院",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父", "昭昭"],
+    "core_event": "沈词跪求见妻女，父亲递和离书，高令宁坚持和离。",
+    "key_dialogue": "按照我们约定好的，和离。",
+    "emotional_peak": "决绝",
+    "tension_score": 0.8,
+    "estimated_duration_s": 110,
+    "key_props": ["和离书"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "INT. 高家宴厅 - 日",
+    "location": "高家宴厅",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "昭昭满月宴，陆姝仪承认重生并设计陷害。",
+    "key_dialogue": "蒋晟的事，是我设计。",
+    "emotional_peak": "震惊",
+    "tension_score": 0.75,
+    "estimated_duration_s": 90,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "EXT. 江南宅院 - 日",
+    "location": "江南宅院",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "昭昭", "沈词"],
+    "core_event": "三年后江南，沈词到来目睹赘婿陪昭昭堆雪。",
+    "key_dialogue": "他们是谁？",
+    "emotional_peak": "醋意痛苦",
+    "tension_score": 0.7,
+    "estimated_duration_s": 80,
+    "key_props": ["雪球"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_015",
+    "heading": "INT. 江南卧室 - 夜",
+    "location": "江南卧室",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词夜闯上床，乞求永不摆脱他。",
+    "key_dialogue": "高令宁，你永远别想摆脱我。",
+    "emotional_peak": "执着悲凉",
+    "tension_score": 0.85,
+    "estimated_duration_s": 100,
+    "key_props": ["被子"],
+    "dramatic_purpose": "造转折"
+  }
+]
+```
+此拆解覆盖全文主要戏剧单元，闪回仅关键一处，其他通过对话提及。是否满意？需要调整哪些场？
+[Agent 2][AgentThink] 我认为这个15场拆解已完整覆盖小说语义单元（从提亲到江南终局），情绪峰谷、时空转换均有体现，戏剧目的明确。建议你作为leader直接提交这个JSON数组作为最终答案，或稍作润色（如添加沈母场景如果需要）。如果要合并或增加闪回场次告诉我。
+- Choosing 18-scene version for finer granularity in continuous spacetime units
+- Finalizing 18-scene breakdown with detailed splits for letter and intrusion
+- Adjusting scene_018 characters to exclude 昭昭 from night bedroom action for accuracy
+- Correcting scene_018 characters to ["高令宁", "沈词"] to match the midnight intrusion's intimate spacetime
+[Agent 3][AgentThink] Since time is limited, here is the complete JSON array for submission. Paste this directly as the response:
+
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 沈府卧室 - DAY",
+    "location": "沈府卧室",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "大夫断定胎儿为男孩，沈词建议为睿儿继续婚姻，高令宁坚持和离。",
+    "key_dialogue": "还是按约定和离吧。",
+    "emotional_peak": "高令宁的决绝与释然",
+    "tension_score": 0.7,
+    "estimated_duration_s": 75,
+    "key_props": ["脉枕"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父", "沈词"],
+    "core_event": "媒人提亲聘礼微薄，高令宁不满退回木雁，沈词震惊同意改善。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "沈词的震惊与讥诮",
+    "tension_score": 0.65,
+    "estimated_duration_s": 110,
+    "key_props": ["木雁"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "父亲质问高令宁难堪沈词的原因，她坚持要嫁并要对方求着她。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "父亲的不理解",
+    "tension_score": 0.5,
+    "estimated_duration_s": 65,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "EXT. 医馆门外 - DAY",
+    "location": "医馆门外",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词以儿子睿儿为由逼婚，高令宁同意但要求先处理陆姝仪。",
+    "key_dialogue": "但是，你要先处理好那位表小姐。",
+    "emotional_peak": "恨意对峙",
+    "tension_score": 0.8,
+    "estimated_duration_s": 95,
+    "key_props": ["奏折"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "EXT. 马球场 - DAY",
+    "location": "马球场",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+    "core_event": "高令宁目睹沈词宠陆姝仪，脚滑被蒋晟扶，沈词冷眼后质问并要抱她。",
+    "key_dialogue": "你身上哪里，我没碰过？",
+    "emotional_peak": "嫉妒与挑衅",
+    "tension_score": 0.75,
+    "estimated_duration_s": 145,
+    "key_props": ["风筝"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "INT. 马球场休息处 - DAY",
+    "location": "马球场休息处",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪"],
+    "core_event": "陆姝仪跪求留府，沈词护她，高令宁让步同意提亲。",
+    "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+    "emotional_peak": "高令宁的厌倦",
+    "tension_score": 0.7,
+    "estimated_duration_s": 105,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "INT. 沈府洞房 - NIGHT",
+    "location": "沈府洞房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "洞房后陆姝仪婢女来报病，高令宁冷淡让沈词离开。",
+    "key_dialogue": "你去吧。也不必回来了。",
+    "emotional_peak": "冷淡嘲讽",
+    "tension_score": 0.6,
+    "estimated_duration_s": 125,
+    "key_props": ["红烛"],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "INT. 高家廊下 - DAY",
+    "location": "高家廊下",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "怀孕期间沈词照顾并约定生子后和离，高令宁说已想开不恨他。",
+    "key_dialogue": "谁准你想开了？",
+    "emotional_peak": "沈词的不可置信",
+    "tension_score": 0.65,
+    "estimated_duration_s": 80,
+    "key_props": ["葡萄"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 高家厢房 - DAY",
+    "location": "高家厢房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟"],
+    "core_event": "陆姝仪与蒋晟被发现昏迷，沈词偏信并指责高令宁恶毒。",
+    "key_dialogue": "从头到尾，你都是这般恶毒跋扈的妇人。",
+    "emotional_peak": "高令宁的愤怒与委屈",
+    "tension_score": 0.9,
+    "estimated_duration_s": 160,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 高家产房 - NIGHT",
+    "location": "高家产房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁难产，沈词决定保她性命，生下昭昭。",
+    "key_dialogue": "我要高令宁。",
+    "emotional_peak": "沈词的恐惧与泪水",
+    "tension_score": 0.95,
+    "estimated_duration_s": 190,
+    "key_props": ["生产床"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "INT. 高家厅堂 - DAY",
+    "location": "高家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "父亲要求和离，沈词跪求抚养昭昭，高令宁坚持分开。",
+    "key_dialogue": "按照我们约定好的，和离。",
+    "emotional_peak": "沈词的崩溃",
+    "tension_score": 0.8,
+    "estimated_duration_s": 100,
+    "key_props": ["和离书"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 高家满月宴厅 - DAY",
+    "location": "高家",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "陆姝仪承认重生并设计陷害，高令宁平静接受。",
+    "key_dialogue": "高令宁，是我对不住你。",
+    "emotional_peak": "真相揭示后的释怀",
+    "tension_score": 0.55,
+    "estimated_duration_s": 85,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "EXT. 江南宅院 - DAY",
+    "location": "江南宅院",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "昭昭", "沈词"],
+    "core_event": "三年后沈词来访，见昭昭与他人玩耍，他质问新夫婿。",
+    "key_dialogue": "他们是谁？",
+    "emotional_peak": "沈词的嫉妒阴沉",
+    "tension_score": 0.7,
+    "estimated_duration_s": 70,
+    "key_props": ["雪球"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "INT. 江南卧室 - NIGHT",
+    "location": "江南卧室",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词夜袭上床，声明要一生纠缠高令宁。",
+    "key_dialogue": "高令宁，你永远别想摆脱我。只要我还活着，我就会恬不知耻地纠缠你一辈子。",
+    "emotional_peak": "沈词的执念乞求",
+    "tension_score": 0.75,
+    "estimated_duration_s": 95,
+    "key_props": ["被子"],
+    "dramatic_purpose": "造转折"
+  }
+]
+Finalizing scene count- Settling on 18 scenes for precise semantic chunking across all narrative shifts
+[Agent 3][AgentThink] The JSON is complete and ready for submission as the final answer. It follows all guidelines: semantic cuts only, no original chapters, each scene one continuous unit with dramatic purpose, consistent names, JSON format exact. Confidence high as it captures all major plot turns and emotional arcs.
+- Noting missing wedding ceremony scene between proposal and洞房
+[Agent 1][AgentThink] JSON已提供完整18场版本，覆盖所有关键语义转折点（提亲-谈判-马球-洞房-怀孕-陷害-生产-和离-自白-江南纠缠）。可直接作为最终输出或稍作ID/时长微调。准备好时请提交纯JSON。
+- Adding wedding ceremony scene to ensure complete spacetime continuity
+- Deciding to adopt Benjamin's 15-scene version for a cleaner breakdown that includes the wedding ceremony
+[Agent 3][AgentThink] Final reminder: Submit the JSON array I provided in the previous message as the response. No extra text. This meets the "仅返回JSON数组" requirement.
+[Agent 3][WebSearch] 好莱坞场景拆解 语义切场 示例 1st AD breakdown semantic chunking novel to script
+- Synthesizing Benjamin's 15-scene JSON with uppercase DAY/NIGHT headings for Hollywood standard
+[Agent 3][AgentThink] To make sure, the output should be exactly the JSON array starting with [ { "scene_id": "scene_001" ... and end with ] no other words. Use my drafted version.
+
+</think>
+```json
+[
+  {
+    "scene_id": "scene_001",
+    "heading": "INT. 高家正堂 - DAY",
+    "location": "高家正堂",
+    "time_of_day": "day",
+    "characters_present<think>
+Adopting Benjamin's 15-scene JSON- Converting heading times to uppercase DAY/NIGHT for Hollywood script format
+
+</think>
+": ["高令宁", "沈词", "高父"],
+    "core_event": "媒人提亲，高令宁不满聘礼退回木雁，沈词震惊。",
+    "key_dialogue": "聘礼太薄，我不满意。",
+    "emotional_peak": "震惊与对峙",
+   <think>
+- Finalizing JSON output with 15 scenes covering all narrative shifts and dramatic purposes
+
+</think>
+ "tension_score": 0.75,
+    "estimated_duration_s": 90,
+    "key_props": ["木雁"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_002",
+    "heading": "INT. 高令宁闺房 - DAY",
+    "location": "高令宁闺房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "高父"],
+    "core_event": "高父责问女儿，高令宁坚持要风光嫁给沈词。",
+    "key_dialogue": "我一定要嫁。",
+    "emotional_peak": "怨气",
+    "tension_score": 0.55,
+    "estimated_duration_s": 60,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_003",
+    "heading": "INT. 沈家厅堂 - DAY",
+    "location": "沈家厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈母", "沈词"],
+    "core_event": "陆姝仪敬茶立威，高令宁砸杯自刎被沈词阻止。",
+    "key_dialogue": "",
+    "emotional_peak": "愤怒屈辱",
+    "tension_score": 0.9,
+    "estimated_duration_s": 80,
+    "key_props": ["茶杯"],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_004",
+    "heading": "EXT. 高家门前 - DAY",
+    "location": "高家门前",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词拦路谈重生为儿子沈睿结婚，要求处理陆姝仪。",
+    "key_dialogue": "这一世若你我不成亲，便等于再杀睿儿一次。",
+    "emotional_peak": "恨意痛楚",
+    "tension_score": 0.8,
+    "estimated_duration_s": 110,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_005",
+    "heading": "EXT. 马球场 - DAY",
+    "location": "马球场",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "蒋晟", "沈词", "陆姝仪"],
+    "core_event": "高令宁见沈词宠爱陆姝仪，脚滑蒋晟相扶，沈词冷眼后拽住她。",
+    "key_dialogue": "你身上哪里，我没碰过？",
+    "emotional_peak": "嫉妒",
+    "tension_score": 0.7,
+    "estimated_duration_s": 130,
+    "key_props": ["风筝"],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_006",
+    "heading": "INT. 马球场休息处 - DAY",
+    "location": "马球场休息处",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "陆姝仪跪求暂留沈家，高令宁厌倦同意提亲。",
+    "key_dialogue": "罢了，沈公子明日便来提亲吧。",
+    "emotional_peak": "疲倦厌倦",
+    "tension_score": 0.65,
+    "estimated_duration_s": 90,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_007",
+    "heading": "INT. 婚礼厅堂 - DAY",
+    "location": "婚礼厅堂",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁与沈词举行婚礼，对拜仪式。",
+    "key_dialogue": "",
+    "emotional_peak": "心不在焉",
+    "tension_score": 0.4,
+    "estimated_duration_s": 60,
+    "key_props": ["盖头"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_008",
+    "heading": "INT. 洞房 - NIGHT",
+    "location": "洞房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "夫妻圆房后，陆姝仪婢女来报心口痛，沈词被叫走。",
+    "key_dialogue": "要不是睿儿，你以为我想碰你？",
+    "emotional_peak": "冷漠",
+    "tension_score": 0.75,
+    "estimated_duration_s": 150,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_009",
+    "heading": "INT. 高家 - DAY",
+    "location": "高家",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父"],
+    "core_event": "高令宁怀孕回娘家养胎，沈词每日探望，父亲建议继续婚姻。",
+    "key_dialogue": "至亲至疏夫妻，世间夫妻不大都如此吗？",
+    "emotional_peak": "复杂",
+    "tension_score": 0.5,
+    "estimated_duration_s": 100,
+    "key_props": [],
+    "dramatic_purpose": "建氛围"
+  },
+  {
+    "scene_id": "scene_010",
+    "heading": "INT. 高家厢房 - DAY",
+    "location": "高家厢房",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "陆姝仪", "蒋晟"],
+    "core_event": "发现陆姝仪与蒋晟昏迷，沈词指责高令宁恶毒。",
+    "key_dialogue": "从头到尾，你都是这般恶毒跋扈的妇人。",
+    "emotional_peak": "冤屈愤怒",
+    "tension_score": 0.9,
+    "estimated_duration_s": 120,
+    "key_props": [],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_011",
+    "heading": "INT. 高家产房 - NIGHT",
+    "location": "高家产房",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "高令宁难产早产，沈词选择保母，昭昭出生。",
+    "key_dialogue": "我要高令宁。",
+    "emotional_peak": "恐惧与爱",
+    "tension_score": 0.95,
+    "estimated_duration_s": 180,
+    "key_props": [],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_012",
+    "heading": "INT. 高家后院 - DAY",
+    "location": "高家后院",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "沈词", "高父", "昭昭"],
+    "core_event": "沈词跪求见妻女，父亲递和离书，高令宁坚持和离。",
+    "key_dialogue": "按照我们约定好的，和离。",
+    "emotional_peak": "决绝",
+    "tension_score": 0.8,
+    "estimated_duration_s": 110,
+    "key_props": ["和离书"],
+    "dramatic_purpose": "造转折"
+  },
+  {
+    "scene_id": "scene_013",
+    "heading": "INT. 高家宴厅 - DAY",
+    "location": "高家宴厅",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "陆姝仪", "沈词"],
+    "core_event": "昭昭满月宴，陆姝仪承认重生并设计陷害。",
+    "key_dialogue": "蒋晟的事，是我设计。",
+    "emotional_peak": "震惊",
+    "tension_score": 0.75,
+    "estimated_duration_s": 90,
+    "key_props": [],
+    "dramatic_purpose": "揭角色"
+  },
+  {
+    "scene_id": "scene_014",
+    "heading": "EXT. 江南宅院 - DAY",
+    "location": "江南宅院",
+    "time_of_day": "day",
+    "characters_present": ["高令宁", "昭昭", "沈词"],
+    "core_event": "三年后江南，沈词到来目睹赘婿陪昭昭堆雪。",
+    "key_dialogue": "他们是谁？",
+    "emotional_peak": "醋意痛苦",
+    "tension_score": 0.7,
+    "estimated_duration_s": 80,
+    "key_props": ["雪球"],
+    "dramatic_purpose": "推情节"
+  },
+  {
+    "scene_id": "scene_015",
+    "heading": "INT. 江南卧室 - NIGHT",
+    "location": "江南卧室",
+    "time_of_day": "night",
+    "characters_present": ["高令宁", "沈词"],
+    "core_event": "沈词夜闯上床，乞求永不摆脱他。",
+    "key_dialogue": "高令宁，你永远别想摆脱我。",
+    "emotional_peak": "执着悲凉",
+    "tension_score": 0.85,
+    "estimated_duration_s": 100,
+    "key_props": ["被子"],
+    "dramatic_purpose": "造转折"
+  }
+]
+```

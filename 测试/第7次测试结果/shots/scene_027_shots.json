@@ -1,0 +1,218 @@
+[
+  {
+    "id": "shot_0407",
+    "scene_id": "scene_027",
+    "shot_number": 1,
+    "goal": "建立灵堂空间秩序与压迫感，明确棺材居中、沈睿独自守灵的关系，奠定‘死后独哀’的场域。",
+    "composition": "WS，门外或门槛内侧限制性视角，前景左右两侧以虚焦门框和垂落白幡形成框景；中景区域棺材居画面中心偏下，白烛分列两侧；沈睿立于棺前偏右后方，身形被烛影与棺木边线切割；背景是层层白幔与幽暗墙面，顶部留出大面积压迫性黑空。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到礼制空间的冰冷、空旷与死亡的不可逆。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 407
+  },
+  {
+    "id": "shot_0408",
+    "scene_id": "scene_027",
+    "shot_number": 2,
+    "goal": "将视觉重心收束到棺木，强调它在情感上对沈睿形成的中心压迫。",
+    "composition": "FS，棺材正中横向占据画面中部，前景下沿是正在燃烧的纸钱火盆，火光偶尔遮掩镜头下缘；沈睿仅以半身或下半身站在棺前上方区域，面容不完全清晰，人物被道具压到次位；背景白幔垂直线条向中心汇聚。",
+    "camera_movement": "dolly",
+    "framing": "FS",
+    "emotion_target": "让观众感到死亡实体的沉默威压大于活人本身。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 408
+  },
+  {
+    "id": "shot_0409",
+    "scene_id": "scene_027",
+    "shot_number": 3,
+    "goal": "首次贴近沈睿，交代他久久不动、情绪被强行压住的状态。",
+    "composition": "MLS，机位保持棺材同侧，不越180度线；沈睿立于画面右三分之一，面向左侧棺木，肩背笔直却僵硬；左侧前景虚化烛火跳动，背景白幔与棺角形成斜向压线，人物头顶仍留压抑留白。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众读到克制先于崩塌，悲伤还被礼法与自持封住。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 409
+  },
+  {
+    "id": "shot_0410",
+    "scene_id": "scene_027",
+    "shot_number": 4,
+    "goal": "通过细节传达时间停滞与哀悼无声进行，增强灵堂的感官真实。",
+    "composition": "CU，白烛火焰位于画面左下，烛泪顺着烛身缓慢流下；右后方虚焦中可见沈睿站立的深色轮廓与棺木一角。火焰的晃动成为唯一动态，背景整体冷暗。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到时间被拉长，哀伤像烛泪一样缓慢消耗。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 410
+  },
+  {
+    "id": "shot_0411",
+    "scene_id": "scene_027",
+    "shot_number": 5,
+    "goal": "捕捉沈睿情绪将要失守的前兆，从静止转向身体微弱失控。",
+    "composition": "MCU，沈睿侧背三分之二面，位于画面右侧，视线仍垂向左前方棺木；前景左侧是一支虚焦白烛，背景是棺木暗面与白幡。下方火光从画外反射到他下颌和衣袖，勾出疲惫纹理与苍白肤色。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "让观众察觉他并非无动于衷，而是在竭力不让自己碎掉。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.63,
+    "order": 411
+  },
+  {
+    "id": "shot_0412",
+    "scene_id": "scene_027",
+    "shot_number": 6,
+    "goal": "呈现‘像支撑不住般弯下身’这一动作转折，完成场内第一次情绪换挡。",
+    "composition": "MS，沈睿从画面右侧站姿缓慢向前下方塌陷，仍朝左向棺材；棺木保持画面左中部稳定存在，成为他崩塌的参照物。前景地面散落纸钱，背景白幔垂落，人物弯折动作在竖直礼制线条中显得格外失衡。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "让观众感到他终于扛不住了，但仍是无声的、向内坍塌的。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 412
+  },
+  {
+    "id": "shot_0413",
+    "scene_id": "scene_027",
+    "shot_number": 7,
+    "goal": "强调他的身体姿态已进入自我封闭，双手抱头成为迟来悔恨的具象动作。",
+    "composition": "MCU，侧后角度，沈睿蹲伏或半弯在画面右下区域，双手抱住头部，脊背形成紧绷弧线；左上方保留棺木边缘和一支白烛，构成持续压迫。背景无他人，无救援，无回应。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到他的孤绝与羞于放声的崩溃。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 413
+  },
+  {
+    "id": "shot_0414",
+    "scene_id": "scene_027",
+    "shot_number": 8,
+    "goal": "用极近距离呈现无声哭泣的证据，避免外放煽情，落实‘没有哭出声’。",
+    "composition": "CU，沈睿半遮在手掌与袖口之后，画面集中在一只眼、颧骨与颤抖的鼻翼；下方袖口吸入泪痕，火光在泪水边缘闪一下即灭。背景彻底虚化，仅保留暖冷交错光感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众靠近他的克制性痛苦，而非被哭喊推动。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 414
+  },
+  {
+    "id": "shot_0415",
+    "scene_id": "scene_027",
+    "shot_number": 9,
+    "goal": "把泪落到袖口与地面的动作具象化，完成情绪从内部到外部痕迹的落地。",
+    "composition": "ECU，画面下部是深色袖口布料，泪滴砸落晕开；随后一滴滑落到地砖，旁边有半焦纸钱灰烬。构图中不见完整人物，只见痛苦留下的痕迹。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众感到悲伤终于有了声音的替代物——不是哭声，是落地的泪。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 415
+  },
+  {
+    "id": "shot_0416",
+    "scene_id": "scene_027",
+    "shot_number": 10,
+    "goal": "展示肩背无声颤抖，将克制中的失控推至场景峰值。",
+    "composition": "CU，纯后背构图，沈睿肩胛占据画面大部分，肩线在轻微却清晰地颤动；画面左侧边缘保留一条棺木冷硬竖线，右侧有漂浮白幡虚影。人物被夹在死与礼之间。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众体会到压着嗓子的崩塌比嚎哭更难受。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.97,
+    "order": 416
+  },
+  {
+    "id": "shot_0417",
+    "scene_id": "scene_027",
+    "shot_number": 11,
+    "goal": "从近处抽离，重申‘活人再痛，死者与棺木依旧沉默’，形成命运闭环感。",
+    "composition": "FS，机位略低，棺材重新稳居画面中心，沈睿弯伏在其前偏右下位置，身形明显缩小；前景火盆与烛火在下缘跳动，背景白幔平直垂落，整个空间像把他包围吞没。纵深中没有任何第二人进入。",
+    "camera_movement": "dolly",
+    "framing": "FS",
+    "emotion_target": "让观众感到悔恨再深，也只能在死亡面前独自承受。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 417
+  },
+  {
+    "id": "shot_0418",
+    "scene_id": "scene_027",
+    "shot_number": 12,
+    "goal": "以冷收尾结束本场：空间恢复静止，余痛悬而不解，为‘若有来生’留下宿命余韵。",
+    "composition": "WS，回到限制性门框视角，但比开场更远；沈睿仍伏在棺前，几乎被白幔、棺木和黑暗吞没。前景门框更重，像旁观者隔着一层世界观看；烛火细小，灵堂中央却仍被棺木占满，形成最后的视觉句点。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众在极冷的静止里感到迟来的悲哀与无法挽回的宿命。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.68,
+    "order": 418
+  }
+]

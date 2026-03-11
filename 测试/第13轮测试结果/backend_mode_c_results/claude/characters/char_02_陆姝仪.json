@@ -1,0 +1,50 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹"
+  ],
+  "role": "antagonist",
+  "age_range": "16-20岁",
+  "appearance": {
+    "face": "温婉清丽，楚楚可怜",
+    "body": "纤细柔弱",
+    "hair": "乌黑长发，简单发饰",
+    "distinguishing_features": "泪眼盈盈的柔弱神态"
+  },
+  "costume": {
+    "typical_outfit": "粉色襦裙，素雅装扮",
+    "color_palette": [
+      "粉色",
+      "素色"
+    ]
+  },
+  "casting_tags": [
+    "柔弱",
+    "可怜",
+    "心机",
+    "悲剧"
+  ],
+  "visual_reference": "古代女子，温婉清丽的面容，楚楚可怜的神态，身着粉色襦裙，身形纤细柔弱，眼中常含泪光，发饰简单素雅，整体气质柔弱无助又带着隐藏的倔强，背景是古代庭院或湖边，光线柔和朦胧",
+  "visual_prompt_negative": "现代服装，强势气场，华丽装扮，健康体态",
+  "personality": "表面柔弱温顺，内心倔强求生",
+  "desire": "留在沈家，获得安全感和归属",
+  "flaw": "手段不择，伤害无辜",
+  "arc": "从被保护者到设计者，最终嫁给蒋晟",
+  "scene_presence": "重要配角，前期频繁出现",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "青梅竹马",
+      "dynamic": "依赖与被保护",
+      "function": "矛盾触发点"
+    },
+    {
+      "target": "高令宁",
+      "type": "情敌",
+      "dynamic": "从对抗到坦白",
+      "function": "冲突制造者"
+    }
+  ]
+}

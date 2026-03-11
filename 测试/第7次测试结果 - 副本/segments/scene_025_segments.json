@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0111",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0347",
+      "shot_0348",
+      "shot_0349"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共享同一时空与角色集合，情绪从环境压抑递进到女主惊醒和含泪反应，构成完整的开场建立段。以空间建立切入限制性主观，再落到女主反应，符合‘以女主近景主观视角为主’且保持信息不对称。",
+    "order": 111
+  },
+  {
+    "id": "seg_0112",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0350",
+      "shot_0351",
+      "shot_0352"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这三镜构成一个清晰的动作-反应-推进链条：女主无意识抓住男主，男主不抽手，再进一步做出比量脸廓的核心动作。角色不变、空间不变、情绪从依赖暴露推进到克制的疼惜，适合合并为一个6秒关系推进段。",
+    "order": 112
+  },
+  {
+    "id": "seg_0113",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0353",
+      "shot_0354",
+      "shot_0355"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是本场情绪高点，围绕同一核心动作做‘放大—感知—反应’。先极致放大心理冲击，再遵循‘听者比说者重要’回到女主感知，最后补足男主的自抑层次，形成完整的高峰段。",
+    "order": 113
+  },
+  {
+    "id": "seg_0114",
+    "scene_id": "scene_025",
+    "shot_ids": [
+      "shot_0356",
+      "shot_0357",
+      "shot_0358"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜完成从情绪高点回落到冷收尾：先确认两人关系在空间中的真实状态，再让道具承担叙事，最后用远一些的封闭构图压回现实。角色与时空均未变化，但情绪完成‘短暂刺破—沉默回收—命运停顿’的收束，因此合并为结尾段。",
+    "order": 114
+  }
+]

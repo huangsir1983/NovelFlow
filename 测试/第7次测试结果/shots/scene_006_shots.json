@@ -1,0 +1,182 @@
+[
+  {
+    "id": "shot_0099",
+    "scene_id": "scene_006",
+    "shot_number": 1,
+    "goal": "建立陆姝仪房内的封闭压抑环境，交代她所处的寄人篱下处境与被婚事笼罩的现实威胁。",
+    "composition": "门框式构图，镜头从外间隔着半掩的门看入内室。陆姝仪位于画面右后三分之一，蜷缩在床榻边缘，身形很小；左前景是虚焦门框与垂落帘角，形成遮挡；背景为窗棂冷光斜切入室，在地面与床沿形成条状阴影，妆台静置于画面左后方，房内陈设规整却空寂，中央留出明显负空间压迫人物。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众先感到闷、冷、被规训的压迫感，而非直接煽情。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 99
+  },
+  {
+    "id": "shot_0100",
+    "scene_id": "scene_006",
+    "shot_number": 2,
+    "goal": "把观众带近人物状态，明确陆姝仪正在失声痛哭且不敢外露。",
+    "composition": "陆姝仪位于画面右侧，背微弓，额头几乎抵着榻沿；左侧留出大片冷色留白，像无形逼近的压力。前景下方压入床榻木框，背景是斜照窗光与暗部墙面交界，光线只擦到她半张苍白侧脸，泪痕在阴影边缘发亮。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众靠近她的窒息感与无处申辩的屈辱。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 100
+  },
+  {
+    "id": "shot_0101",
+    "scene_id": "scene_006",
+    "shot_number": 3,
+    "goal": "建立帕子这一核心道具，传达她把情绪全部压进无声动作里。",
+    "composition": "极近距离拍她双手，帕子被攥在掌心中央，皱褶层层堆起。双手位于画面中下部，袖口月白与藕粉叠在冷灰底色中；背景完全虚化，只剩床榻边木纹和一点窗光反射。指节因用力泛白，布料被反复拧紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "把委屈转化为可见的身体性压抑，制造细密刺痛感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.36,
+    "order": 101
+  },
+  {
+    "id": "shot_0102",
+    "scene_id": "scene_006",
+    "shot_number": 4,
+    "goal": "呈现她哭到气息不稳的生理状态，强调病弱感与长期忍耐。",
+    "composition": "侧面近景，陆姝仪面部位于画面右侧三分之一，鬓边碎发散落，嘴唇轻颤却发不出完整哭声；左侧是压暗的床帐边缘作为前景遮挡。背景中窗棂影子斜切过她肩颈，形成束缚感。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她不是宣泄，而是被逼到连哭都要克制。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 102
+  },
+  {
+    "id": "shot_0103",
+    "scene_id": "scene_006",
+    "shot_number": 5,
+    "goal": "通过视线与空间关系暗示她不敢出门争辩，外部世界构成无形威逼。",
+    "composition": "从她肩后拍向房门方向，形成限制性主观。陆姝仪虚焦肩背占据画面右前景，门口位于画面中央偏左，门缝透进更亮却更冷的白日光，门外看不见任何人，空无一物反而更有压迫。地上窗棂影与门框线条共同指向出口，但她没有起身。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "唤起一种‘明明有门，却无路可走’的绝望。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 103
+  },
+  {
+    "id": "shot_0104",
+    "scene_id": "scene_006",
+    "shot_number": 6,
+    "goal": "回到人物反应，交代她对沈母权威的畏惧已经内化为身体收缩。",
+    "composition": "正侧四分之三角度中近景，陆姝仪抱住自己膝侧，身体缩成一团，占据画面下半部中央；上半部是大片空墙和窗影，形成沉重压顶感。妆台铜镜在背景左侧只露出一角，映出模糊的光斑，不给完整自我形象。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她不是一时受伤，而是长期被规训到自动退让。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 104
+  },
+  {
+    "id": "shot_0105",
+    "scene_id": "scene_006",
+    "shot_number": 7,
+    "goal": "通过镜中碎片化倒影强化她身份不稳、处境被切割的主题。",
+    "composition": "妆台铜镜反射构图，镜中只见陆姝仪半张含泪的脸与蜷缩肩线，真实人物身体虚焦地占据画面左前景边缘。镜面位于中央，周围是素净木框与梳妆物件，冷光在镜面上形成一道不完整反射，使面容被截断。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造自我撕裂与无助感，带一点危险的脆弱。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.61,
+    "order": 105
+  },
+  {
+    "id": "shot_0106",
+    "scene_id": "scene_006",
+    "shot_number": 8,
+    "goal": "把情绪推至本场高点，正面捕捉她无声崩溃的瞬间。",
+    "composition": "正面特写，陆姝仪脸部居中略偏下，眼尾微垂，泪水挂在下睫，鼻尖与唇色发白；她用帕子压住唇，像强行吞回哭声。背景完全压暗，只剩窗棂冷光在一侧勾出轮廓，前景无阻隔，第一次让观众直视她的崩裂。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "直击怜惜与窒息，让观众切身感到她被婚事逼到临界。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 106
+  },
+  {
+    "id": "shot_0107",
+    "scene_id": "scene_006",
+    "shot_number": 9,
+    "goal": "用更私密的细节表现她连呼吸都失控，完成情绪峰值后的余震。",
+    "composition": "极特写拍眼与鼻翼区域，泪珠积在下睫后滑落，鼻翼轻颤，帕子边缘从画面下方轻微抖动。画面只保留皮肤苍白、潮湿眼眶与冷光反射，空间信息几乎消失，强调主观窒息。",
+    "camera_movement": "handheld",
+    "framing": "ECU",
+    "emotion_target": "把情绪压到极近距离，令观众产生不适与心疼并存的体验。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 107
+  },
+  {
+    "id": "shot_0108",
+    "scene_id": "scene_006",
+    "shot_number": 10,
+    "goal": "情绪回落中重新交代外部婚事作为无形压力仍然悬在房内，为后续相关对话提供动机基础。",
+    "composition": "缓慢拉远到中全景，陆姝仪仍伏在榻边未动，身形缩在画面右下角；妆台、床榻、案几重新进入画面，窗棂光影像牢笼覆盖整个室内。左侧大面积空房形成冰冷留白，人物被环境吞没。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众在高点后感到更深的无力：哭过也改变不了局势。",
+    "duration_hint": "4s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.46,
+    "order": 108
+  }
+]

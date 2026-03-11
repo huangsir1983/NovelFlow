@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "id": "scene_033",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_009"
+    ]
+  },
+  "data": {
+    "heading": "INT. 产房 - 日",
+    "location": "沈府产房",
+    "time_of_day": "day",
+    "description": "封闭产房，空气闷重，光线偏白冷，可能由窗纸透入日光与室内烛火混合形成。床榻凌乱，生产后的痕迹明显。空间中失去新生的喜气，只剩死寂与耗竭。两人对坐，彼此面色惨白。",
+    "action": "女儿出生时已无呼吸。高令宁虚弱地躺靠在床上，脸色惨白，呼吸浅促。沈词坐在不远处，身体僵硬，眼眶发红，却一言不发。两人隔着死寂对视，目光里都是恨意与耗尽后的空洞。良久，沈词闭上眼，肩线塌下去，像是终于被击垮。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "产床",
+      "襁褓（死婴）"
+    ],
+    "dramatic_purpose": "完成两人关系中最致命的情感断裂，将婚姻彻底推入不可挽回的仇恨状态。",
+    "tension_score": 0.96,
+    "dramatic_intensity": 0.92,
+    "order": 33
+  }
+}

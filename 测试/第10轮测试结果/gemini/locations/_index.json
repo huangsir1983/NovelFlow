@@ -1,0 +1,157 @@
+{
+  "total_locations": 19,
+  "locations": [
+    {
+      "location_id": "loc_001",
+      "name": "高家正堂",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_001"
+      ]
+    },
+    {
+      "location_id": "loc_002",
+      "name": "高令宁闺房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_002"
+      ]
+    },
+    {
+      "location_id": "loc_003",
+      "name": "沈家正堂",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_003"
+      ]
+    },
+    {
+      "location_id": "loc_004",
+      "name": "沈家病榻",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_004"
+      ]
+    },
+    {
+      "location_id": "loc_005",
+      "name": "高家书房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_005"
+      ]
+    },
+    {
+      "location_id": "loc_006",
+      "name": "高家大门外",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_006"
+      ]
+    },
+    {
+      "location_id": "loc_007",
+      "name": "马球场柳池旁",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_007"
+      ]
+    },
+    {
+      "location_id": "loc_008",
+      "name": "马球场偏僻角落",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_008"
+      ]
+    },
+    {
+      "location_id": "loc_009",
+      "name": "马球场休息室",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_009"
+      ]
+    },
+    {
+      "location_id": "loc_010",
+      "name": "沈家洞房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_010"
+      ]
+    },
+    {
+      "location_id": "loc_011",
+      "name": "沈家内室",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_011"
+      ]
+    },
+    {
+      "location_id": "loc_012",
+      "name": "高家廊下",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_012"
+      ]
+    },
+    {
+      "location_id": "loc_013",
+      "name": "高家厢房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_013"
+      ]
+    },
+    {
+      "location_id": "loc_014",
+      "name": "高家产房",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_014"
+      ]
+    },
+    {
+      "location_id": "loc_015",
+      "name": "模糊的房间",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_015"
+      ]
+    },
+    {
+      "location_id": "loc_016",
+      "name": "高家正堂转后院",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_016"
+      ]
+    },
+    {
+      "location_id": "loc_017",
+      "name": "高家厅堂（满月宴）",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_017"
+      ]
+    },
+    {
+      "location_id": "loc_018",
+      "name": "江南院落",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_018"
+      ]
+    },
+    {
+      "location_id": "loc_019",
+      "name": "江南高令宁卧室",
+      "scene_count": 1,
+      "narrative_scenes": [
+        "scene_019"
+      ]
+    }
+  ]
+}

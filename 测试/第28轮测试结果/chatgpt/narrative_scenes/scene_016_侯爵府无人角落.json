@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "EXT. 侯府角落廊下 - day",
+  "location": "侯爵府无人角落",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "蒋晟离开后，沈词追来要抱我回去，我以未婚男女有别拒绝，他却拿前世夫妻身体亲密来羞辱我。",
+  "key_dialogue": "「你身上哪里，我没碰过？」",
+  "emotional_peak": "前世的肉身记忆被恶意拖到当下，令我既狼狈又愤怒。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "肿胀脚踝",
+    "廊柱"
+  ],
+  "dramatic_purpose": "强化男女主之间无法体面相处的刺伤式亲密。",
+  "visual_reference": "安静廊下，女子一瘸一拐欲走，男子伸手拦住，距离逼仄，风吹动衣角，暧昧与羞辱并存，镜头聚焦双方对峙的眼神",
+  "visual_prompt_negative": "避免强制拥抱成偶像剧，避免旁人围观，避免轻松调情感",
+  "source_text_start": "再抬头时，蒋晟已经不在身边。",
+  "source_text_end": "「装什么装？」 「你身上哪里，我没碰过？」"
+}

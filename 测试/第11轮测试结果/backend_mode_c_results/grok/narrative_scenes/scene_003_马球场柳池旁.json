@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_003",
+  "order": 3,
+  "heading": "EXT. 马球场柳池旁 - DAY",
+  "location": "马球场柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "马球会上女主见沈词宠溺陆姝仪展示风筝，脚滑被蒋晟扶住，沈词冷眼注视",
+  "key_dialogue": "你脚肿了，我抱你回去。",
+  "emotional_peak": "沈词眯眼如芒在背，女主故意亲昵蒋晟",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "马球杆",
+    "粉色风筝",
+    "葡萄篮",
+    "柳树池水"
+  ],
+  "dramatic_purpose": "引发嫉妒与肌肤之亲冲突"
+}

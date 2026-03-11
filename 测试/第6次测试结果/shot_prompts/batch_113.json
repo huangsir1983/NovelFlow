@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0678",
+    "shot_id": "shot_0674",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, kneeling beside the bed on the left side of the frame, lifting his face upward from a low angle, eyes glossy with restrained tears, expression shaken yet controlled, looking toward his mother; on the right edge, the bed frame and one hanging corner of Gao Lingning's muted white and dark teal sleeping robe as the endpoint of his gaze, dark wooden screen with vertical slats in the background like invisible bars, low-saturation warm-cool contrast, old wood brown, gray-blue and charcoal tones, amber candlelight mixed with faint cold window light, cinematic medium close-up, subtle upward tilt feeling, realistic historical drama, highly detailed skin texture, emotional tension, Song dynasty aesthetics, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "low-saturation warm-cool contrast, amber candle side light mixed with faint cold window fill, soft rim light, shadowed interior with screen-bar separation"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass windows, modern furniture, text, watermark, logo, low quality, blurry face, extra fingers, deformed hands, overexposed, oversaturated, cartoon, anime"
+  },
+  {
+    "id": "sp_0679",
+    "shot_id": "shot_0675",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, facing forward in a centered close-up, gaze no longer evasive, speaking with unsettling calm, red-rimmed eyes held steady, lips composed, a painful clarity in a child's face, a small area of empty space left below for breath, background reduced to soft blurred amber firelight and cool window light crossing behind him, visually split between warmth and cold, low-saturation gray-blue, old wood brown and candle amber palette, static intimate framing, cinematic realism, high emotional sharpness, fine facial detail, shallow depth of field, Song dynasty aesthetics",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "intersecting amber candle glow and cool window light, soft frontal falloff, low-saturation warm-cool contrast, restrained interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, neon, plastic, modern interiors, text, watermark, logo, low quality, blurry, bad anatomy, extra limbs, oversaturated colors, cartoon, anime"
+  },
+  {
+    "id": "sp_0680",
+    "shot_id": "shot_0676",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a close-up positioned right-center of the frame, looking downward toward the bedside, moisture gathering in her eyes without falling, face struck by her son's words yet still holding together, the pain visible under controlled composure; in the blurred foreground, the soft silhouette of Shen Rui's shoulder and hair crown creating distance between mother and son, dark bed curtains and shadowed canopy closing around her like a trapped interior space, low-saturation palette of gray-blue, dark teal, old wood brown and amber candlelight, static composition, cinematic historical realism, delicate skin detail, restrained sorrow, shallow depth of field, Song dynasty aesthetics",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft amber candle side light with cool shadow fill, dim enclosed bedchamber lighting, low-saturation warm-cool contrast, curtain-shadow compression"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lamps, plastic, modern bedding, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, deformed face, oversaturated, cartoon, anime"
+  },
+  {
+    "id": "sp_0681",
+    "shot_id": "shot_0677",
+    "prompt_text": "Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, extreme close close-up filling the frame, eyes reddened but fiercely steady, mouth trembling slightly, looking upward as if asking for judgment, heartbreak held inside discipline, his youthful features carrying unbearable resolve; background almost completely crushed into darkness, only a very faint warm rim light outlining his face and hair, dialogue suspended in blackness, low-saturation tones with minimal amber edge glow, intimate static framing, cinematic realism, ultra-detailed facial texture, emotional peak, Song dynasty aesthetics, very shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "nearly black background with faint amber rim light, extreme low-key lighting, low-saturation warm edge against deep shadow"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lighting, studio backdrop, plastic, text, watermark, logo, low quality, blurry, bad anatomy, distorted eyes, extra limbs, oversaturated, cartoon, anime"
+  },
+  {
+    "id": "sp_0682",
+    "shot_id": "shot_0678",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown from shoulder and neck to her raised hand in a close-up, her hand slowly emerging from the bedding on the right side and reaching toward the unseen left, fingers trembling slightly from weakness, the gesture fragile yet heavy with maternal restraint; a blurred strand of bed curtain in the foreground, dim bedchamber headboard and dark canopy behind, the hand as the only clear moving point, low-saturation old wood brown, gray-blue and candle amber palette, subtle forward dolly feeling, cinematic historical realism, highly detailed hand texture, shallow depth of field, Song dynasty aesthetics",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft amber candlelight on hand and sleeve, muted cool ambient shadow, enclosed low-saturation bedchamber lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, modern bedroom objects, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, malformed hand, oversaturated, cartoon, anime"
+  },
+  {
+    "id": "sp_0683",
+    "shot_id": "shot_0679",
+    "prompt_text": "Gao Lingning's slender pale fingertips from the right gently touching Shen Rui's left cheek, Shen Rui, a delicate ancient Chinese noble boy prodigy, pale skin, bright restrained dark eyes, elegant oval face, neat black hair tied with jade crown, slim scholarly build, moon-white hanfu with subtle brocade, calm and painfully mature expression, shown in an extreme close-up with skin, eyelashes and the curve of his cheek sharply visible, the mother's touch feather-light and protective, both filling the frame with no visible background, a suspended instant of tenderness and pain; only flowing amber candlelight across fingertips, lashes and cheek, low-saturation warm-cool restrained palette reduced to skin tones and soft amber highlights, dreamlike stillness, cinematic historical realism, ultra-fine texture detail, shallow depth of field, Song dynasty aesthetics",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft amber candlelight grazing fingertips and cheek, background fully suppressed, intimate low-saturation micro-contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lighting, plastic, visible modern makeup, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, deformed hand, oversaturated, cartoon, anime"
+  }
+]

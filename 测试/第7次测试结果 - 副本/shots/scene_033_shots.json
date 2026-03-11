@@ -1,0 +1,481 @@
+[
+  {
+    "id": "shot_0534",
+    "scene_id": "scene_033",
+    "shot_number": 1,
+    "goal": "建立厅堂内对峙的空间关系，明确门口是唯一离场动线，高令宁已先一步拦住去路。",
+    "composition": "门扇位于画面右后方形成明亮出口，高令宁站在中前景偏右，侧身横拦门线；沈睿位于左中景，身体已朝门口转出半步；陆姝仪贴在沈睿右后侧，呈依附站位；蒋晟僵立左后景近桌案处。前景以桌案一角压住下沿，窗棂侧光切出人物硬边轮廓，留出门口亮部作为视觉牵引。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "压迫感与局势一触即发的窒息感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.35,
+    "order": 534
+  },
+  {
+    "id": "shot_0535",
+    "scene_id": "scene_033",
+    "shot_number": 2,
+    "goal": "进入女主限制性主观，强调她用身体堵住出口，不再容许对方体面离场。",
+    "composition": "高令宁位于画面中央偏左的MCU，肩背挺直但微微发颤，背景右侧虚焦处是门口亮光与门框线；她的一只手已抬起拦截，前景左缘掠过沈睿深色衣袖形成压迫。侧光打亮她冷白面颊，另一侧落入阴影。",
+    "camera_movement": "steadicam",
+    "framing": "MCU",
+    "emotion_target": "决绝中的脆弱与硬撑",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 535
+  },
+  {
+    "id": "shot_0536",
+    "scene_id": "scene_033",
+    "shot_number": 3,
+    "goal": "用动作节点呈现高令宁主动升级冲突：她直接伸手拽住沈睿。",
+    "composition": "画面聚焦两人之间的手部，中央是高令宁手指死死攥住沈睿袖口，衣料被拽出明显褶皱；上方虚焦可见沈睿停住的身体，下方是她袖口轻颤。背景为木地与门槛线，形成被强行截停的视觉意味。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "失控前一秒的紧绷感",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.5,
+    "order": 536
+  },
+  {
+    "id": "shot_0537",
+    "scene_id": "scene_033",
+    "shot_number": 4,
+    "goal": "交代高令宁的台词立场：要求把话说清，不肯再吞下污名。",
+    "composition": "高令宁正面偏侧MCU，位于画面右侧三分位，目光斜向左上盯住沈睿；前景左侧虚化为沈睿深色肩背，形成对峙轴线。背景是厅堂木柱与一段冷灰墙面，留白压缩她的退路。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、逼问、把遮羞布撕开",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 537
+  },
+  {
+    "id": "shot_0538",
+    "scene_id": "scene_033",
+    "shot_number": 5,
+    "goal": "通过沈睿的简短回应建立权力压制姿态，他拒绝解释，只要求服从。",
+    "composition": "沈睿MCU占据画面左侧，肩线略前压，视线向右下俯视高令宁；右前景虚焦可见高令宁半边鬓发与手臂，保持180度规则。背景中陆姝仪以浅色模糊贴近他肩后，形成他被默认支持的权力背书。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷暴力式的压迫与轻蔑",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿",
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 538
+  },
+  {
+    "id": "shot_0539",
+    "scene_id": "scene_033",
+    "shot_number": 6,
+    "goal": "插入陆姝仪与蒋晟的反应，说明厅中旁观者存在却无人真正制止，孤立高令宁。",
+    "composition": "MS双人反应镜，陆姝仪在右侧稍前，手指紧攥披帛，目光越过镜头投向高令宁；蒋晟在左后方僵站近桌案，肩背绷紧，欲言又止。桌案角与茶盏位于前景下沿，构成礼制空间的冷硬秩序。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "旁观的失语与伪弱者的潜伏",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.48,
+    "order": 539
+  },
+  {
+    "id": "shot_0540",
+    "scene_id": "scene_033",
+    "shot_number": 7,
+    "goal": "沈睿以“怀孕”为名否定高令宁说话资格，表面克制，实则控制。",
+    "composition": "限制性双人MS，沈睿位于左前景背侧，高令宁位于右中景正面；二人之间留出一线狭窄空隙。门口亮部仍在高令宁身后，像被她身体堵死。沈睿略低头说话，形成居高临下姿态。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "被冠以关心名义的羞辱",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 540
+  },
+  {
+    "id": "shot_0541",
+    "scene_id": "scene_033",
+    "shot_number": 8,
+    "goal": "捕捉高令宁听到“怀着孕”时的瞬间反应，压住情绪继续站稳。",
+    "composition": "高令宁CU，画面中央，眼神先是一滞后更冷；下画幅边缘虚焦可见她另一只手靠近腹部却未完全护住。背景完全压暗，仅余窗棂切出的冷亮线条横过脸侧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "屈辱被刺中后的更深决绝",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 541
+  },
+  {
+    "id": "shot_0542",
+    "scene_id": "scene_033",
+    "shot_number": 9,
+    "goal": "让沈睿彻底定性她“恶毒跋扈”，将偏见说出口，完成言语羞辱升级。",
+    "composition": "沈睿CU偏正面，位于左侧三分位，视线稳定压向镜头右外；右侧前景是一抹高令宁模糊肩线。背景中陆姝仪的浅色衣襟若隐若现，形成他评判的隐性动机。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冰冷审判感与旧成见的恶意",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿",
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 542
+  },
+  {
+    "id": "shot_0543",
+    "scene_id": "scene_033",
+    "shot_number": 10,
+    "goal": "高令宁公开宣告：高府查不清，她便去京兆府击鼓鸣冤，把私域冲突推向公域。",
+    "composition": "由MCU推至MS，高令宁站在画面中央，后方门口亮部正对她，像一条被她反向占有的出路；她扬声时下颌抬起，肩背绷直。左前景是沈睿半身深色虚影，右后景隐约有陆姝仪收缩的身形，形成被她话语逼退的空间效果。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "破釜沉舟、把体面砸碎后的锋利快感",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 543
+  },
+  {
+    "id": "shot_0544",
+    "scene_id": "scene_033",
+    "shot_number": 11,
+    "goal": "显示这句话对陆姝仪的刺激，她瞬间意识到事态可能失控外溢。",
+    "composition": "陆姝仪CU位于画面右侧，眼中迅速蓄出惊惧，唇微张；左前景是沈睿深色肩线遮挡她部分面孔，强化她依附其后的站位。背景浅冷，病态淡粉衣领微微发亮。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "柔弱外壳下的惊惧与算计",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 544
+  },
+  {
+    "id": "shot_0545",
+    "scene_id": "scene_033",
+    "shot_number": 12,
+    "goal": "沈睿情绪第一次明显失控，开始用“逼死姝仪”进行道德绑架。",
+    "composition": "双人MS维持对峙轴线，沈睿从左侧向前逼近半步，高令宁被压到画面右侧近门框位置；两人之间距离显著缩短。背景门框垂直线像把她钉住，前景轻微晃动带出压迫。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "威压逼脸的窒息与不安",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 545
+  },
+  {
+    "id": "shot_0546",
+    "scene_id": "scene_033",
+    "shot_number": 13,
+    "goal": "强调沈睿攥拳的危险信号，身体暴力已在语言之下浮现。",
+    "composition": "拳头CU位于画面左下中心，指节发白，袖口绷紧；上方虚焦中能见到高令宁衣摆与门槛线。侧光在骨节上打出冷亮边缘，背景压暗。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "暴力将落未落的惊惧",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.84,
+    "order": 546
+  },
+  {
+    "id": "shot_0547",
+    "scene_id": "scene_033",
+    "shot_number": 14,
+    "goal": "用近距离正面压迫完成威胁台词，他将陆姝仪的命置于高令宁之上。",
+    "composition": "超近双人构图，沈睿CU占画面左侧大半，低头逼近；高令宁CU位于右侧，几乎被挤到边框，二人鼻尖距离极近。背景完全虚掉，只剩硬冷侧光划过两人脸廓，世界被压缩成纯粹敌对。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "心理凌虐与情感背叛的刺痛",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 547
+  },
+  {
+    "id": "shot_0548",
+    "scene_id": "scene_033",
+    "shot_number": 15,
+    "goal": "捕捉高令宁在威胁后短暂的静止——不是退缩，而是决断落下前的真空。",
+    "composition": "高令宁CU正面，位于画面中央，眼神冷到发亮，呼吸变浅；前景左缘是一道沈睿模糊下颌线，提示距离仍未拉开。她的右肩有极轻微后撤，形成挥手前的蓄力。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "决绝、厌恶、心死后的清醒",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.92,
+    "order": 548
+  },
+  {
+    "id": "shot_0549",
+    "scene_id": "scene_033",
+    "shot_number": 16,
+    "goal": "完成耳光动作的爆发，言语冲突正式越过身体边界。",
+    "composition": "中近景动态镜，画面右侧高令宁手臂横甩进入左侧，击中沈睿侧脸；动作在画面中央完成，沈睿头部被打偏。陆姝仪在后景失焦但明显一震。门口亮部与人物暗衣形成高反差，耳光轨迹清晰可见。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "突发、痛快、同时带着灾难将至的惊悚",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 549
+  },
+  {
+    "id": "shot_0550",
+    "scene_id": "scene_033",
+    "shot_number": 17,
+    "goal": "给耳光落点一个余震镜头，让羞辱反噬到沈睿身上。",
+    "composition": "沈睿CU，脸被打向右侧后缓慢回正，颊侧迅速泛红；画面左边缘残留高令宁手掌撤出的模糊影。背景完全压暗，突出这一击的后果。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震怒前的失神与危险沉默",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.94,
+    "order": 550
+  },
+  {
+    "id": "shot_0551",
+    "scene_id": "scene_033",
+    "shot_number": 18,
+    "goal": "陆姝仪失声尖叫，迅速抢占道德解释权，把耳光定义为高令宁的暴行。",
+    "composition": "陆姝仪MCU位于右侧，身体前倾，嘴唇失控张开；左前景是沈睿被打偏后的肩背，形成她冲出的遮挡关系。背景中蒋晟更僵，像被这场戏钉死。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "刺耳、做戏与真惊并存的扰乱感",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪",
+      "沈睿",
+      "蒋晟"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 551
+  },
+  {
+    "id": "shot_0552",
+    "scene_id": "scene_033",
+    "shot_number": 19,
+    "goal": "高令宁在爆发后立即遭遇身体反噬，首次明确她的不适来自腹部。",
+    "composition": "高令宁MCU由清晰迅速轻微失焦再拉回，主观性眩晕感增强；她位于画面中央偏右，身形晃了一下，手下意识护向腹部。背景门框与窗棂线条出现短暂重影，世界开始不稳。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "从痛快骤坠为身体性恐慌",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.91,
+    "order": 552
+  },
+  {
+    "id": "shot_0553",
+    "scene_id": "scene_033",
+    "shot_number": 20,
+    "goal": "用主观感受镜头表现她眼前发黑、站立不稳，危机从名节转入生理。",
+    "composition": "女主主观视角，沈睿与陆姝仪在中景处略微摇晃变形，四周渐生暗角，门口亮光刺眼。桌案边角和地面线条倾斜，空间失去稳定水平。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "眩晕、失控、濒临倒下的恐惧",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 553
+  },
+  {
+    "id": "shot_0554",
+    "scene_id": "scene_033",
+    "shot_number": 21,
+    "goal": "回到客观限制视角，明确她几乎站不住，旁人却仍未真正接住她。",
+    "composition": "MS，高令宁在画面右侧踉跄后撤，左手扶空未及门框，右手紧护腹部；沈睿站在左侧近前景，身体僵住并未伸手；陆姝仪缩在其后；蒋晟在后景迈出半步又停。门口亮部成为她可能倒向的危险区域。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "被孤立的生理危机与寒心",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.95,
+    "order": 554
+  },
+  {
+    "id": "shot_0555",
+    "scene_id": "scene_033",
+    "shot_number": 22,
+    "goal": "给腹部保护动作以明确叙事强调，提示早产风险已被触发。",
+    "composition": "腹部与手部CU，高令宁纤白手指死死按住衣料，褶皱深陷，呼吸带动布面急促起伏。下画幅可见她身体轻颤，背景完全虚化成冷灰。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "母体受创的直接痛感",
+    "duration_hint": "1s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.97,
+    "order": 555
+  },
+  {
+    "id": "shot_0556",
+    "scene_id": "scene_033",
+    "shot_number": 23,
+    "goal": "高父匆匆入门，利用门口动线完成权威人物闯入，同时把危机从私密撕裂转为家族震动。",
+    "composition": "门口FS，高父自右后方亮处疾步冲入，衣袍掀起，脸色骤变；前景左侧虚焦是高令宁摇晃的肩背，形成他目之所及。门扇半开，外院冷光灌入，与厅内暗色形成明显断层。",
+    "camera_movement": "pan",
+    "framing": "FS",
+    "emotion_target": "救援姗姗来迟的惊惧",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.89,
+    "order": 556
+  },
+  {
+    "id": "shot_0557",
+    "scene_id": "scene_033",
+    "shot_number": 24,
+    "goal": "以父亲的呼喊收束场面，确认他首先看到的不是耳光，而是女儿身体出了问题。",
+    "composition": "高父MCU位于画面中央偏左，眉心陡紧，目光直射画面外右侧；背景仍见门口亮光，呼应他刚进入的路径。前景右侧有一道虚化的高令宁衣袖晃动，构成视线牵引。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "父性惊痛与事态失控的确认",
+    "duration_hint": "2s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 557
+  },
+  {
+    "id": "shot_0558",
+    "scene_id": "scene_033",
+    "shot_number": 25,
+    "goal": "用高令宁濒倒的终点镜头把本场推进到生死危机门槛，为下一场早产承接。",
+    "composition": "高令宁CU偏俯，她位于画面下半部，脸色惨白，视线开始涣散；上方背景中人物只剩模糊色块与门口冷光。她唇微张，呼吸急促，身体正向画面下方坠去但未完全倒下，留出悬念。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "坠落感、心惊与无可挽回的预兆",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.98,
+    "order": 558
+  }
+]

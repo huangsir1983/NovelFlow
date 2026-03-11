@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_015",
+  "name": "模糊的房间",
+  "type": "interior",
+  "era_style": "超现实梦境空间（古代元素）",
+  "description": "一个没有明确边界的超现实梦境空间。四周的墙壁和家具都隐没在白色的雾气中，边缘模糊不清。视觉中心只有一只极其清晰的白瓷碗，里面盛着寡淡的白粥。空间中回荡着空灵的磕头声。",
+  "visual_reference": "Surreal dream-like ancient Chinese room, blurry and misty edges, ethereal atmosphere, visual focus on a clear white porcelain bowl filled with plain white porridge, soft glowing omnidirectional light, cinematic, highly detailed focal point, 8k.",
+  "atmosphere": "空灵、悲凉、超现实",
+  "color_palette": [
+    "迷雾白",
+    "骨瓷白",
+    "虚无灰"
+  ],
+  "lighting": "无方向性的柔和泛光，没有阴影，宛如置身云端或迷雾",
+  "key_features": [
+    "清晰的白瓷碗",
+    "寡淡的白粥",
+    "模糊的雾气边界"
+  ],
+  "narrative_scenes": [
+    "scene_015"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从母子相见的悲恸，到前世长子祈求不要出生的极致哀求与心碎"
+}

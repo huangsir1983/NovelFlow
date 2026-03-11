@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "id": "beat_002",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_001"
+    ]
+  },
+  "data": {
+    "title": "当堂试探聘礼确认双重重生",
+    "description": "媒人携减半聘礼与木雁上门，女主从与前世活雁、厚礼的对比中瞬间确认沈词也重生；父亲与媒人施压，她当众退木雁、索更重聘礼，以“贪慕虚荣”激将，逼沈词显露态度。",
+    "beat_type": "event",
+    "save_the_cat": "Set-Up",
+    "emotional_value": -0.3,
+    "dramatic_intensity": -0.3,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_004",
+  "order": 5,
+  "heading": "INT. 高家婚堂 - DAY",
+  "location": "高家婚堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "第三次提亲后成亲拜堂，女主心不在焉，沈词轻咳提醒",
+  "key_dialogue": "（夫妻对拜）",
+  "emotional_peak": "盖头下沈词平静侧脸，女主怔愣",
+  "tension_score": 0.5,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "红盖头",
+    "拜堂红毯",
+    "喜烛",
+    "木雁替代物"
+  ],
+  "dramatic_purpose": "婚礼仪式推进时间线"
+}

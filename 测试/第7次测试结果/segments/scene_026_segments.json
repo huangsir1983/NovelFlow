@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0131",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0392",
+      "shot_0393",
+      "shot_0394"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成空间建立、死亡确认与守灵者状态引入，角色集合稳定，无时空跳转，情绪从肃穆推进到压抑自责，适合合并为单一开场段。",
+    "order": 131
+  },
+  {
+    "id": "seg_0132",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0395",
+      "shot_0396",
+      "shot_0397"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕同一行动链“准备帕子—抱起—身体无回应—放平”展开，动作连续且情绪持续上扬，属于一个完整身体接触段，合并后更能形成重量感。",
+    "order": 132
+  },
+  {
+    "id": "seg_0133",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0399",
+      "shot_0400",
+      "shot_0401"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头构成“照料动作—反应镜头—动作延续”的标准情绪回环，符合听者比说者重要与反应优先原则，情绪由温柔推至悔意，再落回徒劳的照料。",
+    "order": 133
+  },
+  {
+    "id": "seg_0134",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0402",
+      "shot_0403",
+      "shot_0404"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "更衣是本场最核心的情感峰值，三镜头形成完整高潮弧线：艰难执行、覆盖瞬间、峰后停顿。角色与空间不变，但情绪完成明显上冲后回落，因此单独成段最有效。",
+    "order": 134
+  },
+  {
+    "id": "seg_0135",
+    "scene_id": "scene_026",
+    "shot_ids": [
+      "shot_0405",
+      "shot_0406"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜由道具细节落回整体空间，完成余哀收束与孤绝定格。情绪已过峰值，进入冷静封存阶段，适合作为结尾段独立存在。",
+    "order": 135
+  }
+]

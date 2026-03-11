@@ -1,0 +1,78 @@
+[
+  {
+    "id": "seg_0089",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0268",
+      "shot_0269",
+      "shot_0270"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属单人建立段，角色集合稳定，仅有高令宁；叙事功能连续完成‘空间孤立—身体脆弱—伤情证据’的递进，适合合并为一个开场segment，为后续人物入场和边界冲突奠基。",
+    "order": 89
+  },
+  {
+    "id": "seg_0090",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0271",
+      "shot_0272",
+      "shot_0273"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段以沈词入场为合并边界，角色集合由单人变双人；情绪从隐痛转为骤然警觉与撤离，三个shot构成完整的‘发现—起身—绕开’动作链，叙事连续且适合一段完成主观压迫建立。",
+    "order": 90
+  },
+  {
+    "id": "seg_0091",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0274",
+      "shot_0275",
+      "shot_0276",
+      "shot_0277",
+      "shot_0278",
+      "shot_0279"
+    ],
+    "segment_number": 3,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot围绕同一冲突事件——手腕被拽住后，沈词以伤势为由提出越界照料——角色、时空完全连续，情绪从身体失守推进到第一次正面言语交锋。为保留动作-目光-台词的因果完整性，将6个shot合并成一个12秒对峙段最能形成窒息感。",
+    "order": 91
+  },
+  {
+    "id": "seg_0092",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0280",
+      "shot_0281",
+      "shot_0282",
+      "shot_0283"
+    ],
+    "segment_number": 4,
+    "target_duration": "9s",
+    "target_model": "grok",
+    "merge_rationale": "此段围绕第二轮对话博弈，情感弧线从沈词继续施压转为高令宁祭出礼法，再到沈词被刺中的危险停顿，属于同一情绪板块。合并后能突出‘后退—称呼变化—情绪裂缝’的递进关系。",
+    "order": 92
+  },
+  {
+    "id": "seg_0093",
+    "scene_id": "scene_018",
+    "shot_ids": [
+      "shot_0284",
+      "shot_0285",
+      "shot_0286",
+      "shot_0287",
+      "shot_0288"
+    ],
+    "segment_number": 5,
+    "target_duration": "10s",
+    "target_model": "grok",
+    "merge_rationale": "最后5个shot构成场景最强爆点与收束：逼近、羞辱性台词、先拍女主反应、终极揭伤、余震静止。它们情绪上是一个完整高潮波形，不能拆断，否则会削弱‘听者比说者重要’与爆后回冷的导演逻辑。",
+    "order": 93
+  }
+]

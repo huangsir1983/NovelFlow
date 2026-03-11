@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_017",
+  "name": "高府会客与后院厢房",
+  "type": "mixed",
+  "era_style": "明代中晚期官宦府邸前厅与后院厢房",
+  "description": "此地点由前院会客处与后院厢房构成强烈对照。前部会客区尚保持体面，有会客帖、灯笼、提灯丫鬟与规整座次；后院厢房则更封闭偏僻，靠近院落角落，门闩结实，床榻简单，适合作客暂歇也最容易成为陷阱发生地。黄昏时分，院中脚印、半掩门扇、散乱衣襟和昏迷药迹暗示使现场具有突发失控的侦查感。整个空间的关键是从前院礼貌等待，到后院发现不堪现场的急转。",
+  "visual_reference": "Late Ming dynasty official mansion reception area and rear side chamber at dusk, front parlor with invitation card and maid holding lantern, then a secluded rear room with simple bed, barred door latch, disordered clothing, traces suggesting drugging, footprints in courtyard, paper lanterns glowing in dim blue evening, suspenseful historical Chinese drama, cinematic realism, highly detailed",
+  "atmosphere": "黄昏不安、陷阱感、体面崩塌、骤然失控",
+  "color_palette": [
+    "暮蓝灰",
+    "灯笼暖橙",
+    "旧木褐"
+  ],
+  "lighting": "傍晚天色将暗，院中以残余天光配合灯笼提灯照明，厢房内部昏沉，适合营造发现现场时的压抑与错愕。",
+  "key_features": [
+    "提灯搜索的后院动线",
+    "半掩门闩的厢房",
+    "院中脚印与散乱衣襟"
+  ],
+  "narrative_scenes": [
+    "scene_018"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "从礼数性的拒见和等待，骤转为重演噩梦般的阴谋现场。"
+}

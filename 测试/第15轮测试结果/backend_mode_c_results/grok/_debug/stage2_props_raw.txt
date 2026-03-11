@@ -1,0 +1,372 @@
+<think>
+Generating visual archives- Output must be a JSON array of prop objects with description, visual_reference, narrative_function, and is_motif fields.
+- Each prop gets a unique object with name, category, and detailed visual specs.
+- is_motif applies only to props that repeat and carry symbolic meaning, like the wooden goose for reincarnation.
+- Categories assigned: 葡萄 as food, 药碗 as medical, 请帖 as document, 木雁 as symbolic, 金银绸缎聘礼 as symbolic, 媒人礼单 as document, 茶盏 as container, 父亲奏折 and 辞官奏折 as document, 笔墨 as stationery.
+- Scenes_present must match the provided list, e.g., 葡萄 uses ["scene_005", "scene_011"].
+- visual_reference must be in Chinese, detailed for AI drawing, with ancient Chinese style and no modern elements.
+- visual_prompt_negative: "现代塑料葡萄、人工色素、卡通风格、变形水果、现代包装"
+[Agent 1][WebSearch] 古代中国婚礼 木雁 聘礼 含义
+[Agent 1][WebSearch] 古代中国 奏折 外观 材质
+[Agent 1][WebSearch] 中国古代 药碗 样式 视觉描述
+- 药碗的 narrative_function 聚焦于病痛与关怀，scenes_present 为 ["scene_006", "scene_007"]，emotional_association 为 "病痛与照顾的温暖"，is_motif 为 false。
+- 木雁的 visual_reference 强调中国木雕风格，narrative_function 揭示重生记忆与命运反抗，is_motif 为 true，emotional_association 为 "震惊与觉醒"。
+- 金银绸缎聘礼的 visual_reference 突出金银与绸缎的奢华堆叠，narrative_function 对比前世推动拒绝婚事，emotional_association 为 "不满与觉醒"。
+- 媒人礼单的 visual_reference 采用宣纸卷轴形式，narrative_function 记录聘礼推动媒人提亲，scenes_present 为 ["scene_001"]，emotional_association 为 "正式与对比"。
+- 父亲奏折的 visual_reference 采用黄绫包裹的奏本，narrative_function 揭示官场事务与女儿关切，scenes_present 为 ["scene_002"]，emotional_association 为 "敬畏与关切"。
+[Agent 1][AgentThink] 任务是生成严格JSON数组的道具视觉档案。基于小说上下文（重生，古风婚恋，官员家庭），我已研究了历史背景：木雁是古代纳采用的传统聘礼象征（忠贞、夫唱妇随），活雁难寻常用木雁替代。葡萄与剥葡萄动作关联关怀。奏折是折叠官用文书。药碗为陶瓷中药碗。我可以生成详细描述，但你作为leader来最终编译JSON。请告诉我需要我生成哪些具体道具的draft，还是我提供所有？
+[Agent 3][AgentThink] 我已根据小说上下文和道具要求，为所有10个道具生成了详细视觉档案。以下是完整的JSON数组草稿，请检查是否符合严格格式、描述精确性和叙事关联，并直接作为最终输出提交（或稍作调整）。所有visual_reference均为中文提示词，narrative_function和emotional_association结合了重生、亲密、婚姻象征等元素。is_motif仅对葡萄（反复亲密动作+象征关怀）和木雁（婚姻象征关键）设为true。
+- 笔墨的 narrative_function 聚焦于书写辞官奏折，推动角色决绝与深情，scenes_present 为 ["scene_003"]，emotional_association 为 "决绝与深情"，is_motif 为 false。
+- 葡萄的 visual_reference 突出紫红果皮与剥皮场景，narrative_function 体现关怀与亲密，emotional_association 为 "甜蜜与温情"。
+- 葡萄的 visual_reference 突出紫红果皮与剥皮场景，narrative_function 体现关怀与亲密，emotional_association 为 "甜蜜与温情"。
+- 请帖的 visual_reference 采用古体墨笔书写与红色绸带，narrative_function 推动社交与家庭事件，emotional_association 为 "意外冲突与家族庆典"。
+- 金银绸缎聘礼的 visual_reference 强调金元宝与红色绸缎的奢华堆叠，narrative_function 揭示门第对比与情感觉醒，emotional_association 为 "不满与对比觉醒"。
+- 媒人礼单的 visual_reference 采用宣纸卷轴形式，narrative_function 记录聘礼推动媒人提亲，scenes_present 为 ["scene_001"]，emotional_association 为 "正式与对比"。
+- 辞官奏折的 visual_reference 采用宣纸折本与刚劲墨迹，narrative_function 象征父爱牺牲与情节高潮，emotional_association 为 "感动与深情父爱"。
+[Agent 3][AgentThink] [
+  {
+    "name": "葡萄",
+    "category": "food",
+    "description": "一串新鲜饱满的紫色葡萄，每颗果实直径约2-3厘米，表面覆盖自然白霜，果皮薄而光滑，果蒂连接翠绿藤蔓，颗粒圆润紧凑。",
+    "visual_reference": "古代中国历史剧风格，一串新鲜晶莹的紫葡萄，颗粒饱满多汁表面带白霜，藤蔓翠绿新鲜，摆放在精致青瓷盘中或被剥皮递出，写实光影，细节丰富，柔和自然光，宫廷庭院背景",
+    "visual_prompt_negative": "现代包装塑料葡萄、卡通风格、过于光亮蜡质、西方水果篮、破损腐烂",
+    "narrative_function": "通过沈词亲自剥皮递葡萄的动作，推动亲密关系重建，揭示角色悔悟与温柔关怀",
+    "is_motif": true,
+    "scenes_present": ["scene_005", "scene_011"],
+    "emotional_association": "温柔体贴与情感修复"
+  },
+  {
+    "name": "药碗",
+    "category": "medical",
+    "description": "传统青瓷或黑陶药碗，直径12厘米，深度8厘米，碗壁厚实略带手工痕迹，内壁残留少量褐色药渣，外表素面或简单青花纹饰，碗沿有轻微使用磨损。",
+    "visual_reference": "中国古代医疗道具，盛满深褐色苦药的青瓷药碗，碗身古朴有裂纹纹理，热气缓缓升起，放置在木质矮桌上，昏黄灯光写实风格，细节真实",
+    "visual_prompt_negative": "现代陶瓷碗、金属容器、干净无痕迹、卡通医疗用品、彩色塑料",
+    "narrative_function": "体现女主身体状况或产后调养，承载父亲与沈词的照顾情节",
+    "is_motif": false,
+    "scenes_present": ["scene_006", "scene_007"],
+    "emotional_association": "担忧关怀与家庭温暖"
+  },
+  {
+    "name": "请帖",
+    "category": "document",
+    "description": "红色喜庆请帖，由上等宣纸折叠而成，大小15x20厘米，表面手绘或烫金梅花云纹，内页墨书宴会邀请文字，用细红丝带系封，边缘微卷。",
+    "visual_reference": "古代中国红色请帖，宣纸材质烫金装饰，精美手写墨字邀请内容，红丝带封口，摊开或密封状态，古风精致工艺，暖光照明",
+    "visual_prompt_negative": "现代印刷卡片、塑料封面、西式邀请函、脏污破损、电脑字体",
+    "narrative_function": "用于满月宴场景，推动陆姝仪不请自来引发冲突，揭示人物关系张力",
+    "is_motif": false,
+    "scenes_present": ["scene_012", "scene_016"],
+    "emotional_association": "社交紧张与嫉妒对比"
+  },
+  {
+    "name": "木雁",
+    "category": "symbolic",
+    "description": "手工精雕的木质大雁，高约28厘米，翅膀微展姿态，羽毛纹理细腻，用红木或核桃木雕刻，表面打磨光滑自然，底部有稳定底座。",
+    "visual_reference": "中国古代婚聘象征物，精美木雕大雁，古朴红木材质，羽翼雕刻生动细节丰富，姿态庄重，放置在聘礼中央，历史古风光影",
+    "visual_prompt_negative": "活体大雁、塑料玩具、现代艺术雕塑、金属材质、卡通化",
+    "narrative_function": "对比前世活雁聘礼，象征沈词重生后的变化，推动女主拒绝并揭示重生设定",
+    "is_motif": true,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "震惊警惕与婚姻决断"
+  },
+  {
+    "name": "金银绸缎聘礼",
+    "category": "symbolic",
+    "description": "堆叠华丽的金色与银色绸缎布匹，绣有龙凤花鸟纹样，旁边配金银元宝和首饰盒，绸缎质地光滑厚实，色彩鲜艳富贵。",
+    "visual_reference": "古代中国聘礼堆，金银丝绸布料层层叠放，华丽刺绣金线闪耀，配金银器皿和锦盒，奢华古风，红色礼布包裹，细节丰富光泽自然",
+    "visual_prompt_negative": "廉价化纤布、现代礼品、杂乱堆放、塑料包装、西式礼物",
+    "narrative_function": "展示聘礼规格，女主借此察觉沈词重生并对比前世，体现门第与情感变化",
+    "is_motif": false,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "审视与不满"
+  },
+  {
+    "name": "媒人礼单",
+    "category": "document",
+    "description": "长卷宣纸媒人礼单，墨笔工整列出各项聘礼条目，盖有媒人朱红印章，纸张略带泛黄，卷轴或折叠形式。",
+    "visual_reference": "古代媒人礼单，宣纸手写墨字清单，书法优美配红色官印，摊开于桌上，古色古香宫廷风格",
+    "visual_prompt_negative": "现代打印纸、电子表格、破损严重、随意涂写",
+    "narrative_function": "正式提亲仪式道具，女主通过礼单评估婚姻并做出拒绝决定",
+    "is_motif": false,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "正式与权力对比"
+  },
+  {
+    "name": "茶盏",
+    "category": "container",
+    "description": "精致白瓷或青花茶盏，高8厘米直径6厘米，薄胎透光，杯身绘简洁花卉或山水，配同款茶托，杯沿圆润光滑。",
+    "visual_reference": "中国古代青花瓷茶盏，盛满清茶杯壁薄透图案淡雅，放在木茶几上，热气升腾，宁静古风写实",
+    "visual_prompt_negative": "玻璃茶杯、现代马克杯、厚重粗陶、艳俗图案",
+    "narrative_function": "父亲与女主闲谈场景道具，承载家庭对话与情感交流",
+    "is_motif": false,
+    "scenes_present": ["scene_002"],
+    "emotional_association": "亲情信任与平静"
+  },
+  {
+    "name": "父亲奏折",
+    "category": "document",
+    "description": "正式黄色绫边奏折，用上等宣纸折叠，内页小楷书写奏事内容，盖有鲜红官印，长度约35厘米，庄重正式。",
+    "visual_reference": "古代官员奏折，黄色宣纸折子工整墨书，朱砂印章清晰，摊开在书案上，严肃历史宫廷氛围",
+    "visual_prompt_negative": "现代文件纸、打印文字、随意折叠、破旧不堪",
+    "narrative_function": "体现父亲朝堂身份与家庭支柱，推动女主生活背景设定",
+    "is_motif": false,
+    "scenes_present": ["scene_002"],
+    "emotional_association": "尊敬依靠与责任"
+  },
+  {
+    "name": "辞官奏折",
+    "category": "document",
+    "description": "与父亲奏折相似风格的辞官折子，纸张洁净，墨迹新颖，内容为辞呈，格式严谨并有印章。",
+    "visual_reference": "古代辞官奏折，宣纸书写辞职内容，字体端庄配官印，置于笔墨旁，庄严肃穆古风",
+    "visual_prompt_negative": "随意信纸、现代辞职书、字迹潦草、彩色纸张",
+    "narrative_function": "关键转折道具，推动角色辞官决定，改变家庭与个人命运轨迹",
+    "is_motif": false,
+    "scenes_present": ["scene_003"],
+    "emotional_association": "决心与新生"
+  },
+  {
+    "name": "笔墨",
+    "category": "stationery",
+    "description": "一套文房用具，包括竹杆狼毫毛笔、黑色墨锭、石质砚台，笔尖细柔，墨条压印有字，砚台磨痕自然。",
+    "visual_reference": "中国古代笔墨纸砚，毛笔竖立笔架上，黑墨锭与石砚并排，墨汁浓黑，书案宣纸铺开，古风书房光影细腻",
+    "visual_prompt_negative": "钢笔圆珠笔、现代墨水瓶、塑料文具、廉价仿制品",
+    "narrative_function": "用于书写辞官奏折，象征文官身份与关键行动时刻",
+    "is_motif": false,
+    "scenes_present": ["scene_003"],
+    "emotional_association": "严肃与关键抉择"
+  }
+]
+- 葡萄的 is_motif 设为 true，因其反复出现并象征关怀与亲密。
+[Agent 2][AgentThink] 我已根据小说上下文为所有道具设计了视觉档案。严格遵循规则：description包含材质颜色尺寸工艺；visual_reference是详细中文提示词；narrative_function结合段落分析（如木雁的拒绝象征、葡萄的剥皮温柔）；is_motif只给葡萄（反复出现+情感）和木雁（核心象征）设为true。以下是完整JSON数组（已优化一致性、古风细节）：
+
+[
+  {
+    "name": "葡萄",
+    "category": "food",
+    "description": "新鲜紫红色葡萄串，每颗果实饱满圆润约2-3cm直径，表面覆盖薄薄自然白霜，果蒂翠绿新鲜，果肉晶莹多汁，一小串长度约15-20cm。",
+    "visual_reference": "中国古代贵族生活场景，一串新鲜饱满的紫红色葡萄，果粒晶莹剔透圆润多汁，表面有轻薄自然白霜，绿叶藤蔓缠绕，放在精致青花瓷浅盘中，光影柔和写实，历史剧道具风格，高清细腻纹理",
+    "visual_prompt_negative": "现代塑料葡萄、包装袋、卡通风格、过饱和颜色、腐烂或损伤果实、金属光泽",
+    "narrative_function": "推动情节中沈词为女主剥葡萄展现温柔体贴，揭示角色从上一世愧疚到今生补偿的转变，承载情感亲密与和解",
+    "is_motif": true,
+    "scenes_present": ["scene_005", "scene_011"],
+    "emotional_association": "温柔关怀与情感修复"
+  },
+  {
+    "name": "药碗",
+    "category": "medical",
+    "description": "传统青瓷药碗，碗身略深口径15cm高8cm，釉色青翠带浅褐药渍痕迹，碗壁薄透简朴工艺，可能有细微开片纹，盛有深褐色汤药。",
+    "visual_reference": "古代中国医药道具，青瓷药碗内盛深色中药汤药，碗沿有轻微药汁残留痕迹，表面光滑釉质反光，置于木质托盘或矮几上，昏暗室内光线，历史古装剧真实写实风格，细腻质感",
+    "visual_prompt_negative": "现代陶瓷碗、不锈钢容器、塑料材质、过于干净无痕迹、卡通",
+    "narrative_function": "关联女主身体不适场景，推动情节中家人或丈夫的照顾关怀，体现家庭亲情与恢复过程",
+    "is_motif": false,
+    "scenes_present": ["scene_006", "scene_007"],
+    "emotional_association": "关怀照顾与病痛恢复"
+  },
+  {
+    "name": "请帖",
+    "category": "document",
+    "description": "红色宣纸请帖，尺寸20cm×15cm折叠形式，外封红色烫金或丝带装饰，内页毛笔楷书书写宴会细节（如满月宴），边框有精美云纹工艺。",
+    "visual_reference": "中国古风红色请帖或喜帖，红纸材质金色或黑字毛笔书法，折叠精致带丝带封口，上面书写满月宴邀请内容，纹饰优雅，置于漆盘或手中，历史剧道具，高清细节真实光影",
+    "visual_prompt_negative": "现代打印请柬、英文文字、塑料卡片、白纸、简陋设计",
+    "narrative_function": "蒋晟请帖推动陆姝仪不请自来场景，揭示人物关系对比与冲突，建立女主优越生活与他人羡慕的张力",
+    "is_motif": false,
+    "scenes_present": ["scene_012", "scene_016"],
+    "emotional_association": "社交张力与羡慕嫉妒"
+  },
+  {
+    "name": "木雁",
+    "category": "symbolic",
+    "description": "精雕木质大雁，采用深棕色硬木（楠木或紫檀），高度约35cm，羽毛纹理和翅膀细节雕刻细腻，眼睛黑亮，站立姿态底座稳固，古朴庄重。",
+    "visual_reference": "中国古代婚聘礼仪木雁道具，深棕色木雕大雁，羽毛层层精致雕琢，姿态优雅站立，木质纹理自然，置于聘礼正中位置，古代正堂提亲场景，古风光影真实，历史剧风格",
+    "visual_prompt_negative": "现代雕刻、塑料玩具、卡通动物、金属材质、鲜艳涂色、活体动物",
+    "narrative_function": "核心象征物：女主通过拒绝木雁（对比前世活雁）揭示重生后对沈词婚姻的不满，推动剧情转折与门第情感冲突",
+    "is_motif": true,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "拒绝觉醒与不满"
+  },
+  {
+    "name": "金银绸缎聘礼",
+    "category": "symbolic",
+    "description": "多匹金色与银色织锦绸缎，丝质光滑闪耀，织有祥云或花鸟纹样，每匹长度数米，叠放整齐华丽，可能伴随小金银饰品盒展示富贵。",
+    "visual_reference": "古代中国聘礼金银绸缎，华丽金色银色丝绸织锦，层层叠放光泽柔美，绣有传统纹饰，置于红木托盘或礼箱中，提亲正堂场景，富贵堂皇光影，历史剧写实道具",
+    "visual_prompt_negative": "现代合成布料、褪色脏旧、塑料包装、简陋棉布",
+    "narrative_function": "作为聘礼核心部分，与前世对比显示数量减少一半，揭示沈词重生后变化，推动女主警觉与拒绝情节",
+    "is_motif": false,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "富贵对比与不满"
+  },
+  {
+    "name": "媒人礼单",
+    "category": "document",
+    "description": "红色或米黄宣纸礼单，长卷或折页形式，长约50cm，毛笔工整楷书列出聘礼清单，墨色浓淡适宜，盖有媒人或官印。",
+    "visual_reference": "古代媒婆礼单，红纸黑字毛笔书法详细清单，书法端正可能有印章，平铺或半卷在桌上，旁边有聘礼，古代提亲场景，真实纸张纹理和墨迹",
+    "visual_prompt_negative": "现代打印纸、电脑字体、白色A4纸、凌乱书写",
+    "narrative_function": "列出具体聘礼细节，帮助女主确认沈词重生事实（聘礼缩减），揭示角色认知与剧情推进",
+    "is_motif": false,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "警觉与确认"
+  },
+  {
+    "name": "茶盏",
+    "category": "container",
+    "description": "精致青瓷茶盏带盖，直径8cm高10cm，釉色青翠通透，杯身薄胎，可能饰有简约兰草或云纹，做工细腻优雅。",
+    "visual_reference": "中国古代青瓷茶盏，带盖精美釉面，杯身优雅曲线，盛有清茶，置于茶托上，书房或厅堂柔光，历史古装剧道具风格，细腻瓷器质感",
+    "visual_prompt_negative": "玻璃杯、现代茶具、塑料、粗糙陶器",
+    "narrative_function": "日常亲子互动场景道具，承载父亲与女主对话氛围，辅助奏折讨论的温馨家庭背景",
+    "is_motif": false,
+    "scenes_present": ["scene_002"],
+    "emotional_association": "亲情温馨"
+  },
+  {
+    "name": "父亲奏折",
+    "category": "document",
+    "description": "传统黄色绫面奏折，折叠册状尺寸30cm×20cm，内页白宣纸毛笔小楷书写朝政内容，封面题字庄重，系红色丝带。",
+    "visual_reference": "古代官员奏折，黄绫封面折叠整齐，内页密密麻麻工整小楷汉字，置于书案上，书房昏黄灯光，古风历史剧真实细节",
+    "visual_prompt_negative": "现代文件、打印纸张、英文文字、破损严重",
+    "narrative_function": "体现父亲朝臣身份与家庭决策背景，推动与女主对话场景，揭示家族立场",
+    "is_motif": false,
+    "scenes_present": ["scene_002"],
+    "emotional_association": "敬重与家族责任"
+  },
+  {
+    "name": "辞官奏折",
+    "category": "document",
+    "description": "宣纸折叠奏折，墨迹较新书写流畅，内容为辞官陈情，尺寸同标准奏折，纸张略带情绪起伏笔触，附个人印鉴。",
+    "visual_reference": "中国古代辞官奏折，宣纸毛笔书写辞呈，字迹工整中带情感，折叠置于书桌，旁边笔墨纸砚，书房古风氛围，写实光影",
+    "visual_prompt_negative": "整洁无情绪、现代打印、破旧发黄",
+    "narrative_function": "关键决策道具，推动角色为情感放弃官位的情节，揭示重生后优先级转变与牺牲",
+    "is_motif": false,
+    "scenes_present": ["scene_003"],
+    "emotional_association": "决心与情感牺牲"
+  },
+  {
+    "name": "笔墨",
+    "category": "stationery",
+    "description": "狼毫毛笔笔杆竹制漆黑光滑，笔头尖细柔韧；石质砚台方正，墨条乌黑；配套笔架与墨池，做工传统文人风格。",
+    "visual_reference": "古代文房笔墨，毛笔竖于笔架，石砚旁放黑墨条，墨汁浓黑欲滴，置于书案上，书房古朴光线，中国历史剧道具，细腻材质纹理",
+    "visual_prompt_negative": "圆珠笔、现代钢笔、塑料文具、颜色鲜艳",
+    "narrative_function": "用于书写辞官奏折的工具，象征文人身份与关键抉择时刻，辅助情节决策呈现",
+    "is_motif": false,
+    "scenes_present": ["scene_003"],
+    "emotional_association": "思虑与决断"
+  }
+]
+[Agent 1][AgentThink] 我已根据小说段落和历史研究（木雁传统象征忠贞，前世活雁 vs 今世木雁关键对比；葡萄象征关怀）准备了所有10个道具的详细字段草稿。以下是完整JSON数组草案，你可以直接使用或调整后提交作为最终答案。确保所有visual_reference是详细中文提示词，description含材质颜色尺寸工艺。is_motif只对葡萄(true,反复关怀)和木雁(true,象征意义)设置true，其他false。
+- 葡萄与木雁的 is_motif 设为 true，体现反复出现与象征意义，合并团队共识。
+
+</think>
+[
+  {
+    "name": "葡萄",
+    "category": "food",
+    "description": "新鲜紫红色葡萄串，每颗果实饱满圆润直径2-3cm，表面覆盖薄薄自然白霜，果蒂翠绿新鲜，果肉晶莹多汁，一小串长度约15-20cm。",
+    "visual_reference": "中国古代贵族生活场景，一串新鲜饱满的紫红色葡萄<think>
+- 葡萄的 visual_reference 采用紫红葡萄串与剥皮动作，narrative_function 体现关怀与亲密，emotional_association 为 "甜蜜与温情"。
+
+</think>
+，果粒晶莹剔透圆润多汁，表面有轻薄自然白霜，绿叶藤蔓缠绕，放在精致青花瓷浅盘中，光影柔和写实，历史剧道具风格，高清细腻纹理",
+    "visual_prompt_negative": "现代塑料葡萄、包装袋、卡通风格、过饱和颜色、腐烂或损伤果实、金属光泽",
+    "narrative_function": "通过沈词（或蒋晟）亲自剥皮递葡萄的动作，推动亲密关系重建与对比，推动情节中温柔体贴，揭示角色从上一世愧疚到今生补偿的转变，承载情感亲密与和解",
+    "is_motif": true,
+    "scenes_present": ["scene_005", "scene_011"],
+    "emotional_association": "温柔关怀与情感修复"
+  },
+  {
+    "name": "药碗",
+    "category": "medical",
+    "description": "传统青瓷药碗，碗身略深口径12cm高8cm，釉色青翠带浅褐药渍痕迹，碗壁薄透简朴工艺，内壁残留少量深褐色药渣，碗沿有轻微使用磨损。",
+    "visual_reference": "古代中国医药道具，盛满深褐色苦药的青瓷药碗，碗身古朴有开片纹理，热气缓缓升起，放置在木质矮桌上，昏黄灯光写实风格，细节真实",
+    "visual_prompt_negative": "现代陶瓷碗、金属容器、塑料材质、干净无痕迹、卡通医疗用品、彩色塑料",
+    "narrative_function": "体现女主角身体不适或产后调养场景，推动情节中父亲与沈词的照顾关怀，承载家庭温暖与恢复过程",
+    "is_motif": false,
+    "scenes_present": ["scene_006", "scene_007"],
+    "emotional_association": "担忧关怀与家庭温暖"
+  },
+  {
+    "name": "请帖",
+    "category": "document",
+    "description": "红色宣纸请帖，尺寸20cm×15cm折叠形式，外封红色烫金花纹与丝带装饰，内页毛笔楷书书写宴会细节（如满月宴），边框有精美云纹工艺。",
+    "visual_reference": "古代中国红色喜帖，宣纸材质烫金装饰，精美手写墨字邀请内容，红丝带封口，摊开或密封状态，古风精致工艺，暖光照明",
+    "visual_prompt_negative": "现代打印请柬、塑料卡片、西式邀请函、脏污破损、电脑字体",
+    "narrative_function": "用于蒋晟请帖推动满月宴场景，陆姝仪不请自来引发冲突，揭示人物关系张力与社交对比",
+    "is_motif": false,
+    "scenes_present": ["scene_012", "scene_016"],
+    "emotional_association": "社交紧张与羡慕嫉妒"
+  },
+  {
+    "name": "木雁",
+    "category": "symbolic",
+    "description": "手工精雕木质大雁，高约30cm，采用深棕色楠木，羽毛纹理和翅膀细节雕刻细腻，姿态优雅站立，底部有稳定木托，表面打磨光滑自然。",
+    "visual_reference": "中国古代婚聘象征物，精美木雕大雁，古朴红木材质，羽翼雕刻生动细节丰富，姿态庄重，放置在聘礼中央，历史古风光影",
+    "visual_prompt_negative": "活体大雁、塑料玩具、现代艺术雕塑、金属材质、卡通化、鲜艳涂色",
+    "narrative_function": "对比前世活雁聘礼的核心象征物，女主角拒绝木雁揭示重生记忆与不满，推动剧情转折与命运反抗",
+    "is_motif": true,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "震惊觉醒与婚姻决断"
+  },
+  {
+    "name": "金银绸缎聘礼",
+    "category": "symbolic",
+    "description": "堆叠华丽的金银绸缎聘礼，包括光泽纯正的金锭银锭与多匹红色绣花丝绸织锦，绸缎质地光滑厚实，整体堆放约1平方米面积，奢华富贵。",
+    "visual_reference": "古代中国聘礼堆，金银丝绸布料层层叠放，华丽刺绣金线闪耀，配金银器皿和锦盒，奢华古风，红色礼布包裹，细节丰富光泽自然",
+    "visual_prompt_negative": "廉价化纤布、现代礼品、塑料包装、杂乱堆放、西方风格",
+    "narrative_function": "展示聘礼规格（比前世少一半），与木雁共同揭示沈词重生，推动女主角警觉与拒绝的情节，体现门第情感变化",
+    "is_motif": false,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "富贵对比与不满"
+  },
+  {
+    "name": "媒人礼单",
+    "category": "document",
+    "description": "长卷宣纸媒人礼单，长约40cm，墨笔工整列出各项聘礼条目，字迹清晰，盖有红色媒人官印，纸张略带泛黄，卷轴形式。",
+    "visual_reference": "古代媒人礼单，宣纸手写墨字清单，书法优美配红色官印，摊开于桌上，古色古香宫廷风格",
+    "visual_prompt_negative": "现代打印纸、电子表格、破损严重、随意涂写、无印章",
+    "narrative_function": "正式提亲仪式道具，女主角通过礼单评估聘礼缩减确认沈词重生，推动拒绝婚事决策",
+    "is_motif": false,
+    "scenes_present": ["scene_001"],
+    "emotional_association": "正式审视与警觉"
+  },
+  {
+    "name": "茶盏",
+    "category": "container",
+    "description": "精致白瓷茶盏，直径8cm高4cm，薄胎白釉透光，杯身绘淡雅青花花卉纹饰，杯沿圆润光滑，内有茶水残留。",
+    "visual_reference": "中国古代青花瓷茶盏，盛满清茶杯壁薄透图案淡雅，放在木茶几上，热气升腾，宁静古风写实",
+    "visual_prompt_negative": "现代玻璃杯、塑料材质、厚重粗陶、艳俗图案、金属杯",
+    "narrative_function": "父亲与女主闲谈场景道具，承载家庭亲情对话与情感交流，辅助奏折讨论的温馨氛围",
+    "is_motif": false,
+    "scenes_present": ["scene_002"],
+    "emotional_association": "亲情信任与平静"
+  },
+  {
+    "name": "父亲奏折",
+    "category": "document",
+    "description": "黄色绫边奏折，折叠册状尺寸30cm×15cm，内页白宣纸毛笔小楷书写朝政内容，盖有鲜红官印，封面庄重。",
+    "visual_reference": "古代官员奏折，黄绫封面折叠整齐，内页密密麻麻工整小楷汉字，置于书案上，书房昏黄灯光，古风历史剧真实细节",
+    "visual_prompt_negative": "现代文件、打印纸张、随意折叠、破损不堪、英文文字",
+    "narrative_function": "体现父亲朝臣身份与家庭支柱，推动女主观察家庭背景与亲子对话场景",
+    "is_motif": false,
+    "scenes_present": ["scene_002"],
+    "emotional_association": "敬重依靠与家族责任"
+  },
+  {
+    "name": "辞官奏折",
+    "category": "document",
+    "description": "宣纸折叠奏折，墨迹新颖刚劲，内容为辞官陈情，尺寸30cm×15cm，格式严谨并附个人印鉴。",
+    "visual_reference": "古代辞官奏折，宣纸毛笔书写辞呈，字体端庄配官印，置于笔墨旁，书房古风氛围，写实光影",
+    "visual_prompt_negative": "现代辞职信、打印文档、字迹潦草、彩色纸张、破旧发黄",
+    "narrative_function": "关键转折道具，推动父亲为女主角辞官的牺牲情节，改变家庭命运轨迹与情感高潮",
+    "is_motif": false,
+    "scenes_present": ["scene_003"],
+    "emotional_association": "决心与深情父爱"
+  },
+  {
+    "name": "笔墨",
+    "category": "stationery",
+    "description": "一套文房四宝：狼毫毛笔竹杆漆黑光滑、黑色墨锭、石质端砚磨痕自然、配套宣纸，做工传统文人风格。",
+    "visual_reference": "中国古代文房笔墨，毛笔竖立笔架，黑墨锭与石砚并排墨汁浓黑，宣纸铺开待书，古风书房光影细腻",
+    "visual_prompt_negative": "现代钢笔圆珠笔、塑料文具、化学墨水、颜色鲜艳、廉价仿制品",
+    "narrative_function": "用于书写辞官奏折的工具，象征文官身份与关键行动时刻，辅助情节决策呈现",
+    "is_motif": false,
+    "scenes_present": ["scene_003"],
+    "emotional_association": "严肃思虑与决断"
+  }
+]

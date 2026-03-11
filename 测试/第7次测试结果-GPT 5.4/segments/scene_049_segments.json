@@ -1,0 +1,70 @@
+[
+  {
+    "id": "seg_0245",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0715",
+      "shot_0716",
+      "shot_0717"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot均用于建立同一礼制空间内的主客对峙关系，角色集合稳定，无时空跳转，情绪处于压迫铺垫阶段；合并为一段可先总后分，完成场面调度与双方地位的清晰建构。",
+    "order": 245
+  },
+  {
+    "id": "seg_0246",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0718",
+      "shot_0719"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是一轮完整的攻防：高父抛出毁灭性威胁，沈母即时受击。对话与反应紧密相连，依据“听者比说者重要”合并为同一段，突出语言落点与受击效果。",
+    "order": 246
+  },
+  {
+    "id": "seg_0247",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0720",
+      "shot_0721",
+      "shot_0722"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "沈母提出血脉诉求、高父以沉默施压再作最终裁决，三镜头构成一个完整情绪单元：试探—停顿—定论。角色与空间不变，但情感弧线明显上提，适合合并为同一连续视频段落。",
+    "order": 247
+  },
+  {
+    "id": "seg_0248",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0723",
+      "shot_0724",
+      "shot_0725"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是全场情绪峰值，先给沈母失守前兆，再由高父升级为公开撕破脸的威胁，最后兑现到沈母的生理性僵住。情绪连续且递进清晰，应合并成高潮段。",
+    "order": 248
+  },
+  {
+    "id": "seg_0249",
+    "scene_id": "scene_049",
+    "shot_ids": [
+      "shot_0726",
+      "shot_0727"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜从情绪高潮转入结果确认，既有沈母动作性的认输，也有场面关系上的总结镜头。角色集合不变，情感由爆点回冷，形成一段清晰的收束。",
+    "order": 249
+  }
+]

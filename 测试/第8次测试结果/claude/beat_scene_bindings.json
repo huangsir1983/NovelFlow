@@ -1,0 +1,159 @@
+{
+  "bindings": [
+    {
+      "beat_id": "beat_000",
+      "beat_title": "重生觉醒：双方确认重生身份",
+      "scene_ids": [
+        "scene_009",
+        "scene_010",
+        "scene_000"
+      ],
+      "binding_reason": "scene_009建立前世记忆背景，scene_010展现订亲矛盾，scene_000通过聘礼减半确认双方重生"
+    },
+    {
+      "beat_id": "beat_001",
+      "beat_title": "命运改写：救回青梅与重振家族",
+      "scene_ids": [
+        "scene_011",
+        "scene_012",
+        "scene_013"
+      ],
+      "binding_reason": "scene_011沈词救陆姝仪，scene_012展现对义妹疼爱，scene_013女主重振家业"
+    },
+    {
+      "beat_id": "beat_002",
+      "beat_title": "怀孕诊断：确认腹中男孩",
+      "scene_ids": [
+        "scene_015"
+      ],
+      "binding_reason": "大夫诊断胎儿性别的直接场景"
+    },
+    {
+      "beat_id": "beat_003",
+      "beat_title": "沈词提议：为儿子维持婚姻",
+      "scene_ids": [
+        "scene_016"
+      ],
+      "binding_reason": "沈词提出维持婚姻条件的对话场景"
+    },
+    {
+      "beat_id": "beat_004",
+      "beat_title": "女主拒绝：坚持和离约定",
+      "scene_ids": [
+        "scene_017",
+        "scene_018"
+      ],
+      "binding_reason": "scene_017女主拒绝，scene_018内心独白揭示深层原因"
+    },
+    {
+      "beat_id": "beat_005",
+      "beat_title": "聘礼减半：确认重生信号",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "木雁替代活雁，聘礼减半的具体展现"
+    },
+    {
+      "beat_id": "beat_006",
+      "beat_title": "当众拒绝：聘礼太薄不满意",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "女主当众拒绝聘礼的核心冲突场景"
+    },
+    {
+      "beat_id": "beat_007",
+      "beat_title": "沈词妥协：承诺重新商议",
+      "scene_ids": [
+        "scene_000"
+      ],
+      "binding_reason": "沈词在正堂承诺重新商议聘礼"
+    },
+    {
+      "beat_id": "beat_008",
+      "beat_title": "父亲质问：态度转变之谜",
+      "scene_ids": [
+        "scene_001"
+      ],
+      "binding_reason": "父女对话揭示女主态度转变和前世记忆"
+    },
+    {
+      "beat_id": "beat_009",
+      "beat_title": "前世婚姻真相：青梅算计与平妻羞辱",
+      "scene_ids": [
+        "scene_002"
+      ],
+      "binding_reason": "陆姝仪敬茶与女主自残反抗的直接场景"
+    },
+    {
+      "beat_id": "beat_010",
+      "beat_title": "掌家立威：强势手腕与流产危机",
+      "scene_ids": [
+        "scene_003"
+      ],
+      "binding_reason": "蒙太奇展现女主过度操劳掌家的状态"
+    },
+    {
+      "beat_id": "beat_011",
+      "beat_title": "父亲流放：党争受害与求助无门",
+      "scene_ids": [
+        "scene_004"
+      ],
+      "binding_reason": "女主不愿向沈词低头求助，夫妻信任破裂"
+    },
+    {
+      "beat_id": "beat_012",
+      "beat_title": "陆姝仪之死：投湖自尽与误解加深",
+      "scene_ids": [
+        "scene_005",
+        "scene_006"
+      ],
+      "binding_reason": "scene_005陆姝仪投湖，scene_006沈词烧毁女主示好物品"
+    },
+    {
+      "beat_id": "beat_013",
+      "beat_title": "信任崩塌：沈词质问与讥讽",
+      "scene_ids": [
+        "scene_004",
+        "scene_006"
+      ],
+      "binding_reason": "两场景均展现沈词对女主的质问和不信任"
+    },
+    {
+      "beat_id": "beat_014",
+      "beat_title": "生前诅咒：来生只做路人",
+      "scene_ids": [
+        "scene_007"
+      ],
+      "binding_reason": "深夜女主抱紧沈词手臂，暗示深层情感未断的矛盾"
+    },
+    {
+      "beat_id": "beat_015",
+      "beat_title": "重病守护：日夜料理与抱棺痛哭",
+      "scene_ids": [
+        "scene_007",
+        "scene_008"
+      ],
+      "binding_reason": "scene_007病床守护，scene_008灵堂抱棺痛哭"
+    },
+    {
+      "beat_id": "beat_016",
+      "beat_title": "重生抉择：拒绝重蹈覆辙",
+      "scene_ids": [
+        "scene_017",
+        "scene_018"
+      ],
+      "binding_reason": "女主坚持和离的决心源于前世噩梦的回忆"
+    },
+    {
+      "beat_id": "beat_017",
+      "beat_title": "Theme Stated（隐含）：爱与尊严的选择",
+      "scene_ids": [
+        "scene_017",
+        "scene_018",
+        "scene_001"
+      ],
+      "binding_reason": "女主拒绝维持形式婚姻的决定贯穿这些场景，体现主题"
+    }
+  ]
+}

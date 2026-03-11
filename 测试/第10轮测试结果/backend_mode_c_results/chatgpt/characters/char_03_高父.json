@@ -1,0 +1,62 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "爹爹",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-60",
+  "appearance": {
+    "face": "中年文官面相，额头与眼角皱纹明显，神情常带忧思，眉宇温厚",
+    "body": "体型微瘦，略有年长文臣的清癯感，偶有胸口旧疾不适",
+    "hair": "鬓角微白，发髻整肃",
+    "distinguishing_features": "慈父气质浓厚，愁眉不展时格外显老"
+  },
+  "costume": {
+    "typical_outfit": "四品官员常服、家中多穿朴素雅致长袍，颜色沉稳",
+    "color_palette": [
+      "褐色",
+      "深青",
+      "灰蓝"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "正直文官",
+    "护女狂魔",
+    "家族长辈"
+  ],
+  "visual_reference": "middle-aged ancient chinese official, kind worried face, slightly graying hair, scholar robe, dignified but tired, warm fatherly presence",
+  "personality": "温厚、审慎、疼爱女儿，虽有官场经验却不愿拿女儿换门第荣光",
+  "desire": "保住家业与性命，让女儿平安喜乐，远离高门受委屈",
+  "flaw": "早年仍对高嫁有期待，对权势判断不够果决，容易被门第压制",
+  "arc": "从认可沈家婚事到彻底看清其风险，成为女儿和外孙女最坚定的后盾，甚至准备赘婿重建家庭秩序",
+  "scene_presence": "提亲、劝女、辞官、婚前叮嘱、早产救场、拒沈家接女、逼签和离、后期安排江南生活等重要节点出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "深度保护与尊重她的决定，是她退路的实体化",
+      "function": "家庭支柱与情感缓冲"
+    },
+    {
+      "target": "沈词",
+      "type": "岳父与女婿/后对立",
+      "dynamic": "最初客气，后因女儿险死彻底失望并强硬阻断",
+      "function": "道德审判者与现实阻力"
+    },
+    {
+      "target": "沈母",
+      "type": "姻亲对立",
+      "dynamic": "在外孙女归属与名声问题上寸步不让",
+      "function": "家族博弈代表"
+    },
+    {
+      "target": "蒋晟",
+      "type": "门生",
+      "dynamic": "曾视作可能的良配",
+      "function": "提供替代婚配线"
+    }
+  ]
+}

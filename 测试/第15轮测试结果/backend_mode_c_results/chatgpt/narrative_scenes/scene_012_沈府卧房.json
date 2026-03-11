@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 沈府卧房 - DAY",
+  "location": "沈府卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "太医"
+  ],
+  "core_event": "高令宁怀孕，太医断言是男孩。她一边绣虎头帽，一边再次申明生子后就走，甚至表示即使沈词续娶自己也无所谓。沈词听到“想开了”反而失控。",
+  "key_dialogue": "「高令宁，谁准你想开了？」",
+  "emotional_peak": "男主第一次明面上对女主的抽离表现出不合逻辑的愤怒与慌张。",
+  "tension_score": 0.85,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "太医脉案",
+    "虎头帽针线",
+    "门框",
+    "发端轻吻"
+  ],
+  "dramatic_purpose": "男主情感失控初显，反转其此前“只为儿子”的自我叙述。",
+  "source_text_start": "不过很快，我也无暇顾及。\n开春之时，我有孕了",
+  "source_text_end": "话音落下，一片冷然的寂静。\n「高令宁，」他盯着我"
+}

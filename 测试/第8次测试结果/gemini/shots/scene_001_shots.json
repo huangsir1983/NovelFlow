@@ -1,0 +1,205 @@
+[
+  {
+    "id": "shot_0010",
+    "scene_id": "scene_001",
+    "shot_number": 1,
+    "goal": "建立压抑冷清的环境基调，交代大夫诊脉的动作结束。",
+    "composition": "高对比度明暗交界（Chiaroscuro）。前景为床头小几上的脉枕与大夫的手，中景是高姑娘半靠在拔步床上的暗影，背景窗棂透入一道幽蓝冷调的光柱，空气中微尘悬浮。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "传递一种毫无生机、例行公事般的压抑感与冷漠感。",
+    "duration_hint": "4s",
+    "characters": [
+      "高姑娘",
+      "大夫"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.2,
+    "order": 10
+  },
+  {
+    "id": "shot_0011",
+    "scene_id": "scene_001",
+    "shot_number": 2,
+    "goal": "大夫宣布喜讯，交代核心事件（确诊男胎）。",
+    "composition": "大夫居中起身作揖，面带讨好。画面右侧后景是虚焦的沈词（负手而立，身着冷月白常服）。大夫的动作打破了画面的静态。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "通过大夫的谄媚与环境的冷清形成对比，暗示这个“喜讯”的荒谬与工具性。",
+    "duration_hint": "3s",
+    "characters": [
+      "大夫",
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.3,
+    "order": 11
+  },
+  {
+    "id": "shot_0012",
+    "scene_id": "scene_001",
+    "shot_number": 3,
+    "goal": "展现高姑娘对“喜讯”的真实心理反应，凸显其清醒与理智。",
+    "composition": "高姑娘面部特写，脸庞被屏风阴影切割，一半在暗一半在冷光中。眼神深邃锐利，毫无初为人母的喜悦，眼睑缓缓垂下。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感受到女主内心的城府、克制以及对这段婚姻的彻底死心。",
+    "duration_hint": "3s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 12
+  },
+  {
+    "id": "shot_0013",
+    "scene_id": "scene_001",
+    "shot_number": 4,
+    "goal": "强调高姑娘对腹中胎儿的复杂情感（前世母子情分），动作细节刻画。",
+    "composition": "极特写。高姑娘苍白纤细的手掌轻轻覆在墨绿织金锦缎的平坦小腹上，暗金色的刺绣纹理在冷光下泛着微光。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "唤起一丝隐秘的母性悲凉，同时确立她独立保护孩子的决心。",
+    "duration_hint": "2.5s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 13
+  },
+  {
+    "id": "shot_0014",
+    "scene_id": "scene_001",
+    "shot_number": 5,
+    "goal": "展现沈词得知继承人有着落后的如释重负，暴露其将婚姻视为交易的本质。",
+    "composition": "沈词中特写，处于画面右侧三分之一处。紧绷的下颌线明显放松，长呼一口气，随后不耐烦地挥手（手部出画）。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "引发观众对男主功利态度的反感，为后续女主的反击积蓄情绪。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.3,
+    "order": 14
+  },
+  {
+    "id": "shot_0015",
+    "scene_id": "scene_001",
+    "shot_number": 6,
+    "goal": "大夫退下，建立两人独处时的空间关系与巨大的心理鸿沟。",
+    "composition": "中全景。画面左侧是拔步床上的高姑娘，右侧是圆桌旁的沈词，中间留白极大。一道斜射的冷光柱像楚河汉界般将画面一分为二。背景传来沉闷的关门声。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "营造极度压抑、冷漠、剑拔弩张的窒息感（暴风雨前的宁静）。",
+    "duration_hint": "4s",
+    "characters": [
+      "高姑娘",
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 15
+  },
+  {
+    "id": "shot_0016",
+    "scene_id": "scene_001",
+    "shot_number": 7,
+    "goal": "沈词抛出维持现状的提议，展现其居高临下的傲慢。",
+    "composition": "过肩镜头（带高姑娘左肩前景）。沈词在画面右侧，眼神毫无温度地俯视，姿态挺拔如剑，冷月白衣袍不染尘埃。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "强化男主的掌控欲与理所当然，压迫感拉满。",
+    "duration_hint": "3.5s",
+    "characters": [
+      "沈词",
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.6,
+    "order": 16
+  },
+  {
+    "id": "shot_0017",
+    "scene_id": "scene_001",
+    "shot_number": 8,
+    "goal": "高姑娘的核心反击，打破男主的掌控，确立全剧矛盾。",
+    "composition": "正反打过肩镜头（带沈词右肩前景）。高姑娘抬眼直视镜头方向（沈词），眼神清明且带有讥诮。缓慢而坚定地摇头。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "极度舒适的爽感与震撼，展现大女主不容置疑的决绝与力量。",
+    "duration_hint": "4s",
+    "characters": [
+      "高姑娘",
+      "沈词"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 17
+  },
+  {
+    "id": "shot_0018",
+    "scene_id": "scene_001",
+    "shot_number": 9,
+    "goal": "展现沈词的防线被击溃，极度意外与不解。",
+    "composition": "沈词面部特写。他猛地向前迈出半步（身体变大占据画面），眉头紧锁，原本的疏离感碎裂，眼神中闪过错愕。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众体验到男主失去掌控后的慌乱，释放前序积累的张力。",
+    "duration_hint": "2.5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 18
+  },
+  {
+    "id": "shot_0019",
+    "scene_id": "scene_001",
+    "shot_number": 10,
+    "goal": "高姑娘的心理胜利与彻底释然，完成情感上的剥离。",
+    "composition": "高姑娘特写。她不再看沈词，而是转头看向画面左侧的窗外光柱，面部迎向冷光，嘴角勾起一抹极淡的、嘲弄又释然的浅笑。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "传递一种历经沧桑后的通透与彻底放下，余韵悠长。",
+    "duration_hint": "4s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 19
+  },
+  {
+    "id": "shot_0020",
+    "scene_id": "scene_001",
+    "shot_number": 11,
+    "goal": "视觉隐喻：情感的终结与自我意识的觉醒。",
+    "composition": "极特写。高姑娘的手指在冷光中无意识地摩挲着硬挺的锦被边缘，微尘在指尖上方的光柱中静静飞舞。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "将高潮后的情绪沉淀为一种冷峻、静水流深的心理惊悚感。",
+    "duration_hint": "3s",
+    "characters": [
+      "高姑娘"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.6,
+    "order": 20
+  }
+]

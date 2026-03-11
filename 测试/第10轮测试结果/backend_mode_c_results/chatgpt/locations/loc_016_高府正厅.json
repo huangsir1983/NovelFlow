@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_016",
+  "name": "高府正厅",
+  "type": "interior",
+  "era_style": "明代中晚期官员府邸夜间主厅",
+  "description": "高府正厅在夜间呈现出与白日截然不同的威压感。地砖冷硬，桌案与椅子围成审讯般的对峙格局，门外灯笼透过门槛投来偏橙的光，室内则更深沉。帕子、泪痕衣袖、证词口供散置桌上与手边，形成半公开裁断的氛围。空间宽阔却寒凉，人物往往分列两侧，中间留出压迫性的空地，如同临时公堂。没有过多装饰，重点是夜色、沉默与当众偏信所造成的断裂。",
+  "visual_reference": "Late Ming dynasty official residence main hall at night, cold tiled floor, confrontation around wooden table and chairs, lanterns glowing outside the doorway, threshold clearly visible, cloth handkerchief, tear-stained sleeve, written testimonies on the table, improvised family tribunal atmosphere, dramatic emotional rupture, cinematic Chinese historical drama, highly detailed",
+  "atmosphere": "审判感、寒意、公开背弃",
+  "color_palette": [
+    "冷灰",
+    "暗木褐",
+    "灯笼橙"
+  ],
+  "lighting": "主要依赖门外灯笼与少量室内烛火，人物侧脸受光，厅堂深处保持昏暗，增强语言伤害的冷度。",
+  "key_features": [
+    "如公堂般的桌椅对峙布局",
+    "门外灯笼投射进来的夜光",
+    "桌上的证词口供"
+  ],
+  "narrative_scenes": [
+    "scene_020"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从辩白挣扎到彻底心死，最终爆发为一记耳光与身体剧痛。"
+}

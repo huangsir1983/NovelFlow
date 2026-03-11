@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_014",
+  "heading": "INT. 沈府卧房 - 夜（成亲后第二年）",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 1895,
+  "shot_count": 8,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 10,
+    "output_tokens": 2247,
+    "elapsed_s": 32.3
+  }
+}

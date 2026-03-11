@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 高家产房 - 夜",
+  "location": "高家产房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "女主早产难产，沈词果断保母，女儿昭昭出生",
+  "key_dialogue": "我要高令宁。",
+  "emotional_peak": "沈词血色尽失落泪",
+  "tension_score": 0.95,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "产床血巾",
+    "稳婆药盆",
+    "婴儿襁褓",
+    "烛火"
+  ],
+  "dramatic_purpose": "生产生死转折与沈词救妻转折"
+}

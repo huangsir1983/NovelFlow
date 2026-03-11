@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "id": "scene_048",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:13:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "related_beats": [
+      "beat_022"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家后院卧房 - 日",
+    "location": "高家后院卧房",
+    "time_of_day": "day",
+    "description": "仍在同一私密卧房内，日光未变，但气氛由尖锐质问转为更诡异的失衡。高令宁抱着昭昭，姿态放松，甚至微微歪头，显出真正的抽离。沈词站在她面前，身形高却失去支撑，脊背塌下去，衣衫空荡，整个人像被抽空。",
+    "action": "沈词居高临下逼迫高令宁兑现“说话算话”，试图激起她的恨。高令宁先是迷茫地看着他，随后歪头，平静说自己已经想开并原谅了他，还祝他余生另觅良人。沈词盯着她，肩背一点点垮下，拼命摇头，近乎失态地拒绝这份原谅。高令宁错愕失笑，怀中的昭昭始终被稳稳抱着。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "高令宁，说话算话。",
+        "subtext": "你既说过要纠缠我一生，就不能现在抽身。"
+      },
+      {
+        "character": "高令宁",
+        "line": "可是我现在真的已经想开了。",
+        "subtext": "我已不再被过去绑住。"
+      },
+      {
+        "character": "高令宁",
+        "line": "沈词，我原谅你了，我希望余生你也能觅得良人。",
+        "subtext": "我彻底放下你，也退出你的命运。"
+      },
+      {
+        "character": "沈词",
+        "line": "不可以……",
+        "subtext": "我无法接受你不再恨我，因为那意味着你彻底不要我了。"
+      },
+      {
+        "character": "沈词",
+        "line": "高令宁，我不要你原谅我。",
+        "subtext": "比起被宽恕，我更需要与你继续纠缠。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "昭昭"
+    ],
+    "key_props": [
+      "襁褓中的昭昭",
+      "和离书"
+    ],
+    "dramatic_purpose": "完成本章核心反转：高令宁从执念中脱身，而沈词反而沦为执念的囚徒。",
+    "tension_score": 0.9,
+    "dramatic_intensity": 0.8,
+    "order": 48
+  }
+}

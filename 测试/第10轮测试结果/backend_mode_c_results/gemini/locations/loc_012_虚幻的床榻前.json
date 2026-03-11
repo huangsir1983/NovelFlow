@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_012",
+  "name": "虚幻的床榻前",
+  "type": "interior",
+  "era_style": "虚幻/前世记忆边缘",
+  "description": "充满柔光与雾气的虚幻空间，隐约可见一张古朴的床榻。周围没有明确的墙壁，只有白茫茫的微光。床头放着一碗冒着热气的清粥，一切显得不真实却又无比温柔。",
+  "visual_reference": "An illusory, dreamlike ancient Chinese bedroom. A simple wooden bed surrounded by soft glowing mist and white light. No clear walls, ethereal atmosphere. A bowl of steaming hot porridge on a bedside table. Soft focus, angelic lighting, surreal, masterpiece.",
+  "atmosphere": "虚幻、温柔、充满救赎感",
+  "color_palette": [
+    "#FFFFFF",
+    "#F0F8FF",
+    "#FFFACD"
+  ],
+  "lighting": "无源的柔和漫反射光，自带发光效果，没有明显的阴影。",
+  "key_features": [
+    "弥漫的白雾",
+    "孤零零的床榻",
+    "一碗热粥"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "跨越生死的悲伤告别与灵魂枷锁的解脱。"
+}

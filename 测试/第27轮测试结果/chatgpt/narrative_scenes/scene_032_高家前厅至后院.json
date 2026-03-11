@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_032",
+  "order": 31,
+  "heading": "INT. 高家前厅与后院 - day",
+  "location": "高家前厅至后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "沈词",
+    "父亲",
+    "我",
+    "昭昭",
+    "小厮"
+  ],
+  "core_event": "父亲把和离书摆到沈词面前，他不肯接受，竟失态闯入后院质问我为何真要按约定和离。",
+  "key_dialogue": "按照我们约定好的，和离。",
+  "emotional_peak": "男主第一次公开失态",
+  "tension_score": 0.9,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "和离书",
+    "雕花木门",
+    "襁褓中的昭昭"
+  ],
+  "dramatic_purpose": "正式进入和离主线，证明沈词已从“想散”变成“不肯散”。",
+  "visual_reference": "前厅里男子跪在长辈面前，和离书摊在地上；下一镜他强闯后院推开雕花木门，看见女子抱着婴儿安静坐着，狼狈与宁静形成巨大反差，古风强情绪戏",
+  "visual_prompt_negative": "避免暴力打斗、避免现代纸质公文感、避免婴儿哭闹抢戏、避免偶像剧慢镜头过多",
+  "source_text_start": "唯有沈词。",
+  "source_text_end": "我平静地看着他：「按照我们约定好的，和离。」"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "EXT. 高家门旁 - DAY",
+  "location": "高家府门侧廊",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词拦住我，以长子沈睿的未来相逼，提出为孩子暂时合作成婚，并约定生子后和离。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "我们以亡子为筹码，谈妥一段冷酷婚约。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "活雁勒痕",
+    "药方",
+    "门槛"
+  ],
+  "dramatic_purpose": "明确今生婚姻的交易性动机：为了再见孩子，而非再续旧情。",
+  "visual_reference": "府门侧廊安静冷清，男子眼下青黑、手上有捉雁勒痕，挡住女子去路，两人近距离冷谈亡子与婚约，空气如冬日般锋利",
+  "visual_prompt_negative": "避免拥抱和解，避免热闹街景干扰，避免现代门禁元素",
+  "source_text_start": "想起他胸口痛的老毛病，我想到医馆为他开一帖药。",
+  "source_text_end": "四目相对，只剩恨意。我冷哼一声，转身离开。"
+}

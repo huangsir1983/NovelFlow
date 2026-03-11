@@ -1,0 +1,84 @@
+[
+  {
+    "id": "seg_0169",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0506",
+      "shot_0507"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "两镜共同承担空间建立与女主主观切入，角色集合未变，情绪从客观死寂推进到主观刺痛，形成同一叙事单元的自然合并。",
+    "order": 169
+  },
+  {
+    "id": "seg_0170",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0508",
+      "shot_0509",
+      "shot_0510"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜是完整的人物关系确认段：先女主、后男主、再双人对坐，全属同一情绪层级的压抑建立，没有时空跳转，适合合并为一个关系定型segment。",
+    "order": 170
+  },
+  {
+    "id": "seg_0171",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0511",
+      "shot_0512",
+      "shot_0513"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜构成标准的无声交锋段落：女主发出目光、男主承接、再以越肩拉长沉默重量，情感连续升级，核心仍是同一对视动作，因此合并。",
+    "order": 171
+  },
+  {
+    "id": "seg_0172",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0514",
+      "shot_0515",
+      "shot_0516"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处情绪从男主裂缝显露转到女主确认，无新增角色或空间变化，且遵循“听者比说者重要”的反应逻辑，以女主见证完成该微弧线，适合并为一段。",
+    "order": 172
+  },
+  {
+    "id": "seg_0173",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0517",
+      "shot_0518"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "先以死胎重置冲突核心，再以男主肩后看女主延长沉默压力，二者共同服务于最终崩断前的蓄力，情感连续且节拍完整。",
+    "order": 173
+  },
+  {
+    "id": "seg_0174",
+    "scene_id": "scene_033",
+    "shot_ids": [
+      "shot_0519",
+      "shot_0520",
+      "shot_0521"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是明确的结局弧线：男主崩断、女主见证、客观收束，情绪完成从高压到冰封的闭环，应作为场景最终segment整体保留。",
+    "order": 174
+  }
+]

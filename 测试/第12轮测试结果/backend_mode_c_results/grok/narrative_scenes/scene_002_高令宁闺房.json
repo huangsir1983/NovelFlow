@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高令宁闺房 - 日间",
+  "location": "高令宁闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父"
+  ],
+  "core_event": "父亲质问女主为何退礼，女主坚持嫁人泄恨",
+  "key_dialogue": "就是要他难堪。",
+  "emotional_peak": "父亲长叹担忧，女主冷笑",
+  "tension_score": 0.6,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "绣花屏风",
+    "妆台铜镜",
+    "茶盏",
+    "父亲奏折"
+  ],
+  "dramatic_purpose": "展现女主复仇决心与父女情感"
+}

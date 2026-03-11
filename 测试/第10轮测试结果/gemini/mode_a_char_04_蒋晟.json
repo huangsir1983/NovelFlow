@@ -1,0 +1,46 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-25岁",
+  "appearance": {
+    "face": "面容端正憨厚，容易脸红",
+    "body": "习武之人，身形健硕宽阔",
+    "hair": "简单的武人束发",
+    "distinguishing_features": "老实巴交的直男气质"
+  },
+  "costume": {
+    "typical_outfit": "便于行动的劲装或简单的书生服",
+    "color_palette": [
+      "灰褐色",
+      "墨绿色"
+    ]
+  },
+  "casting_tags": [
+    "忠犬男配",
+    "老实人",
+    "冤大头"
+  ],
+  "visual_reference": "1boy, 21 years old, ancient chinese martial artist, sturdy build, honest and shy face, brown robes, warm sunlight --ar 9:16",
+  "personality": "老实本分、体贴细致、缺乏城府与防备心。",
+  "desire": "娶一位贤妻，安稳度日。",
+  "flaw": "过于单纯，容易被绿茶手段蒙蔽和算计。",
+  "arc": "殷勤的追求者 → 被算计的接盘侠 → 冷漠的丈夫",
+  "scene_presence": "马球会护花、高府客房被算计",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "仰慕与呵护",
+      "function": "助攻（引发男主嫉妒的工具人）"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益",
+      "dynamic": "被动绑定，婚后冷暴力",
+      "function": "对照（恶人自有恶人磨）"
+    }
+  ]
+}

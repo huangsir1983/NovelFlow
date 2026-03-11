@@ -1,0 +1,29 @@
+{
+  "variant_id": "lushuyi_variant_03",
+  "variant_type": "casual",
+  "variant_name": "陆姝仪 — 马球献风筝",
+  "tags": [
+    "马球会",
+    "户外",
+    "献礼"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "今生马球场上向沈词献风筝时",
+  "appearance_delta": {
+    "face": "泪眼盈盈带温柔微笑，倔强眼神",
+    "body": "柔弱纤细，略显动态姿态",
+    "hair": "乌黑长发松散垂肩配粉饰",
+    "distinguishing_features": "手持风筝，柔弱中显主动"
+  },
+  "costume_override": {
+    "outfit": "粉色柔美汉服适合户外活动",
+    "color_palette": [
+      "粉",
+      "白"
+    ]
+  },
+  "visual_reference": "Delicate beautiful young Chinese woman 18-22, gentle fragile face with tearful eyes and soft smile showing determination, slender frail figure, long black hair loosely draped over shoulders with pink accessories, holding a kite, wearing soft pink flowing Hanfu for outdoor, tragic yet manipulative expression, daytime at polo field, historical drama style, highly detailed",
+  "emotional_tone": "示弱与挑衅"
+}

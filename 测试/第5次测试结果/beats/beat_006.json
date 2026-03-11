@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_006",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:56"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "铺展陆姝仪副线引爆三角宿怨",
+    "description": "陆姝仪作为青梅、平妻候选人、误会导火索与后来投湖身亡的核心人物被正式抬上台面；她与沈词的旧谊、与我之间的敌意、以及她死后持续支配婚姻的阴影，构成全剧最重要的情感副线。",
+    "beat_type": "revelation",
+    "save_the_cat": "B Story",
+    "emotional_value": -0.4,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 6
+  }
+}

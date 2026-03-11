@@ -1,0 +1,40 @@
+{
+  "name": "江南赘婿",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "20-25岁",
+  "appearance": {
+    "face": "相貌出众，眉眼温顺，毫无攻击性",
+    "body": "修长匀称",
+    "hair": "半束发，随意披散",
+    "distinguishing_features": "极具服务意识的温顺姿态"
+  },
+  "costume": {
+    "typical_outfit": "质地柔软舒适的江南常服",
+    "color_palette": [
+      "竹青色",
+      "米白色"
+    ]
+  },
+  "casting_tags": [
+    "男宠",
+    "情绪价值提供者",
+    "温顺奶狗"
+  ],
+  "visual_reference": "1boy, 22 years old, ancient chinese handsome youth, bamboo green robes, gentle and submissive expression, warm lighting --ar 9:16",
+  "personality": "温贴、顺从、有眼力见，提供绝对的情绪价值。",
+  "desire": "讨好女主，获得安稳优渥的生活。",
+  "flaw": "缺乏独立主见（但在此设定下是优点）。",
+  "arc": "无",
+  "scene_presence": "江南院落陪昭昭堆雪人、深夜为女主盖被子",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "利益",
+      "dynamic": "绝对服从的供需关系",
+      "function": "助攻（彻底击溃男主心理防线的最后一击）"
+    }
+  ]
+}

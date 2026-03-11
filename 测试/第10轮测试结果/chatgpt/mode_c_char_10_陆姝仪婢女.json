@@ -1,0 +1,37 @@
+{
+  "name": "陆姝仪婢女",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "14-25",
+  "appearance": {
+    "face": "普通侍女长相，神色急切",
+    "body": "瘦弱灵活",
+    "hair": "侍女双髻",
+    "distinguishing_features": "常在关键时刻叩门、通报陆姝仪病情"
+  },
+  "costume": {
+    "typical_outfit": "浅色侍女服",
+    "color_palette": [
+      "浅绿",
+      "灰粉"
+    ]
+  },
+  "casting_tags": [
+    "侍女",
+    "传讯工具人"
+  ],
+  "visual_reference": "ancient Chinese maid, worried expression, simple pastel servant dress",
+  "personality": "听命、慌张",
+  "desire": "服侍主子",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "新婚夜叩门传唤、辅助陆姝仪线",
+  "relationships": [
+    {
+      "target": "陆姝仪",
+      "type": "主仆",
+      "dynamic": "忠于主子",
+      "function": "推动暧昧冲突"
+    }
+  ]
+}

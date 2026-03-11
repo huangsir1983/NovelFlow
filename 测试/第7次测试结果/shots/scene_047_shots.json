@@ -1,0 +1,304 @@
+[
+  {
+    "id": "shot_0727",
+    "scene_id": "scene_047",
+    "shot_number": 1,
+    "goal": "建立出口附近的离场动线与三人站位关系，明确陆姝仪即将退场、情感冲突将转移。",
+    "composition": "FS，门框式构图。画面右后方为宴厅出口与被人群让出的通道，通道形成透视引导线。陆姝仪站在通道前端偏中右，身形单薄；高令宁位于画面左前中景，半侧身对向陆姝仪；沈睿在画面右后偏中，被前景宾客肩背与礼器局部遮挡。背景仍可见宴席桌案、红绸与烛火，但虚化压低存在感。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "体面秩序下的寒意与即将断裂的压迫感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 727
+  },
+  {
+    "id": "shot_0728",
+    "scene_id": "scene_047",
+    "shot_number": 2,
+    "goal": "进入女主限制性视角，锁定陆姝仪的认罪姿态与语气冷静中的孤注一掷。",
+    "composition": "MS，主观偏近景轴线保持在高令宁一侧。陆姝仪位于画面中间略偏右，低眉垂眼，肩线收拢；左侧前景有一抹虚焦的高令宁衣肩作为视点锚点。背景是出口方向的冷光与宴厅暗金烛影对冲，陆姝仪脸侧受切割状侧逆光。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到她的柔弱外壳下，其实是决绝的自我处刑",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.38,
+    "order": 728
+  },
+  {
+    "id": "shot_0729",
+    "scene_id": "scene_047",
+    "shot_number": 3,
+    "goal": "用特写承接关键台词“蒋晟的事，是我设计”，完成真相落锤。",
+    "composition": "CU，陆姝仪脸占画面右二分之一，左侧保留冷色留白。眼尾湿润却不落泪，唇线发白。背景仅留模糊人影和一点暗金烛火，压缩空间感，强化她在众目睽睽下独自承担。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、意外后的冷硬确认",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 729
+  },
+  {
+    "id": "shot_0730",
+    "scene_id": "scene_047",
+    "shot_number": 4,
+    "goal": "给出高令宁的克制反应，不让情绪外放，但让观众看到她的审视与厌弃并存。",
+    "composition": "MCU，高令宁位于画面左中，身姿笔直，视线指向画外右侧陆姝仪。前景右侧有虚焦的浅粉披帛边缘，形成对峙关系。背景是木柱和暗下去的宴席陈设，硬边界少景深处理。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷、稳、拒绝被带入对方的求生叙事",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 730
+  },
+  {
+    "id": "shot_0731",
+    "scene_id": "scene_047",
+    "shot_number": 5,
+    "goal": "继续推进陆姝仪将算计包装为求生的辩词，同时交代她与高令宁生存位置的差异。",
+    "composition": "MS双人限制构图。高令宁左前虚焦背肩占画面三分之一，陆姝仪在中右清晰，始终不抬头，只在说“我只能自己寻个好夫婿”时略微抬颌。通道在她身后像一道被迫选定的单向路。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "不是求饶，而是带刺的自辩，逼观众感到难堪",
+    "duration_hint": "4-5s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 731
+  },
+  {
+    "id": "shot_0732",
+    "scene_id": "scene_047",
+    "shot_number": 6,
+    "goal": "插入沈睿的听后反应，说明他并非不知情的旁观者，而是被真相钉住的人。",
+    "composition": "MCU，沈睿位于画面右侧，身体僵直，脸色发白。左前景虚焦是陆姝仪的一点衣影，右后背景是出口冷光，人物被夹在暖烛和冷光之间。视线明确越过前景，落向高令宁方向，不看陆姝仪。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "迟到的震动与难堪的失语",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 732
+  },
+  {
+    "id": "shot_0733",
+    "scene_id": "scene_047",
+    "shot_number": 7,
+    "goal": "以三角构图强调陆姝仪的最后陈述将她自己送出场，也把情感战场留给另外两人。",
+    "composition": "MLS，三人同框但层次分明。高令宁在左前，沈睿在右后，陆姝仪居中稍前，三人之间形成窄而明显的情感断层。人群退成两侧框边，像无声围观。陆姝仪说“以后不会再出现在你面前”时处在视觉中心。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "礼数仍在，关系已碎",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 733
+  },
+  {
+    "id": "shot_0734",
+    "scene_id": "scene_047",
+    "shot_number": 8,
+    "goal": "完成陆姝仪对高令宁的盈盈一拜，作为她的体面退场动作。",
+    "composition": "MS，陆姝仪位于画面中，缓慢俯身行礼；高令宁仅以左侧半身入画，未回礼，保持直立。背景出口方向比宴席区域更亮，像把陆姝仪向外抽离。前景下缘可带到她手中微皱的请帖一角，强化礼制和事件余波。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "一种近乎自毁的体面",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 734
+  },
+  {
+    "id": "shot_0735",
+    "scene_id": "scene_047",
+    "shot_number": 9,
+    "goal": "让陆姝仪离开画面，完成她的叙事退场，并把视线焦点自然交给沈睿与高令宁。",
+    "composition": "MLS，镜头留在原地，陆姝仪从中右向右后出口方向出画，保持场景出画方向一致。高令宁留在左侧静止，沈睿在右中前一步未动。通道空出来后，人物之间的距离显得更赤裸。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "人走了，裂痕反而更显眼",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "陆姝仪",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 735
+  },
+  {
+    "id": "shot_0736",
+    "scene_id": "scene_047",
+    "shot_number": 10,
+    "goal": "切入两人关系主冲突，先给沈睿目光中的停滞和求和冲动。",
+    "composition": "CU，沈睿正面偏侧，位于画面右中，视线向左望向高令宁。背景几乎清空，只余冷色门边和一条竖直阴影切过他的肩颈。下颌微绷，呼吸停住般的僵硬。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "狼狈、后悔、却仍想抓住什么",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 736
+  },
+  {
+    "id": "shot_0737",
+    "scene_id": "scene_047",
+    "shot_number": 11,
+    "goal": "给出高令宁的疏离回应，她不是失态离开，而是以规整礼数划清界限。",
+    "composition": "MS，高令宁位于画面左中，完整看见她调整衣袖与身形，规整地向画外右侧沈睿行礼。前景右下虚焦可见沈睿衣摆边缘，证明两人距离很近却不相接。背景木柱形成纵向切割，像一道无形隔断。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "克制到锋利的拒绝",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 737
+  },
+  {
+    "id": "shot_0738",
+    "scene_id": "scene_047",
+    "shot_number": 12,
+    "goal": "用双人中景展现关键空间关系：短短几步，却已不是可以靠近的距离。",
+    "composition": "MLS，遵守180度轴线。高令宁在左前向左后退半步，沈睿在右前向左伸手。两人之间留出明显空隙，通道中央形成视觉断裂。两侧人群与屏风成狭长夹道，逼仄感加强。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "观众预感到接触将失败，关系断裂即将被具象化",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 738
+  },
+  {
+    "id": "shot_0739",
+    "scene_id": "scene_047",
+    "shot_number": 13,
+    "goal": "把‘伸手去拉’作为爆点动作，呈现沈睿的本能越界。",
+    "composition": "MCU，画面右侧是沈睿前冲半步的上身与伸出的手，左侧前景是高令宁退开的肩背残影，轻微运动模糊。背景烛火拉成散乱光点，现实感仍硬，不做浪漫化。",
+    "camera_movement": "handheld",
+    "framing": "MCU",
+    "emotion_target": "瞬间失控、迟来的挽留",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 739
+  },
+  {
+    "id": "shot_0740",
+    "scene_id": "scene_047",
+    "shot_number": 14,
+    "goal": "以动作反应镜头说明高令宁先一步退开，主动拒绝身体接触。",
+    "composition": "MCU，高令宁位于画面左中，身体向后撤，肩背仍挺直，脸转向画外右侧，眼神冷而不乱。右侧前景是一只闯入画面的手，未触及她身体主体。衣料边缘被带起，提示下一镜的接触点。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "边界感明确，不给误会留余地",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 740
+  },
+  {
+    "id": "shot_0741",
+    "scene_id": "scene_047",
+    "shot_number": 15,
+    "goal": "用道具化动作完成场景核心意象：他最终只捉住她的一角衣袖。",
+    "composition": "ECU，画面中央是沈睿手指攥住高令宁衣袖一角，布料被拉出细小褶皱，接触面积极小。背景完全虚化为冷灰与暗金，袖口纹样清晰可辨，成为关系残片的视觉锚点。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、徒劳、关系只剩边角余温",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 741
+  },
+  {
+    "id": "shot_0742",
+    "scene_id": "scene_047",
+    "shot_number": 16,
+    "goal": "收束在沈睿手停在半空的无能为力上，完成本场冷收尾。",
+    "composition": "CU，镜头略低，沈睿的手悬在画面中下部，衣角已从指间滑脱；焦点缓慢转到他苍白僵住的脸。画面左侧留出高令宁离开的负空间，她已出画，方向保持一致。背景通道空冷，宴厅热闹声成为远处残响。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "空落、迟来的失去、没有挽回余地",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.82,
+    "order": 742
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_02_past_wedding",
+  "variant_type": "wedding|injured",
+  "variant_name": "高令宁 — 前世惨烈新娘",
+  "tags": [
+    "破碎感",
+    "决绝",
+    "流血",
+    "怨恨"
+  ],
+  "scene_ids": [
+    "scene_003"
+  ],
+  "trigger": "前世新婚次日，面对婆母与情敌的刁难，砸碎茶杯抹脖子反击的闪回场景",
+  "appearance_delta": {
+    "face": "面色苍白，眼神充满极致的怨恨、屈辱与同归于尽的疯狂",
+    "body": "紧绷，因情绪激动而微微颤抖",
+    "hair": "新妇发髻略显凌乱，有发丝垂落",
+    "distinguishing_features": "脖颈处有刚用碎瓷片划破的伤口，鲜血流出，触目惊心"
+  },
+  "costume_override": {
+    "outfit": "华丽但略显凌乱的古代新娘喜服/敬茶吉服",
+    "color_palette": [
+      "正红",
+      "暗金"
+    ]
+  },
+  "visual_reference": "A beautiful young ancient Chinese bride in a gorgeous red traditional wedding Hanfu, messy hair, pale face with an extremely resentful and crazy expression, holding a broken porcelain piece, fresh blood dripping from a cut on her neck, cinematic lighting, dramatic shadows, tragic and broken atmosphere, 8k resolution, photorealistic.",
+  "emotional_tone": "极致的怨恨、屈辱与刚烈"
+}

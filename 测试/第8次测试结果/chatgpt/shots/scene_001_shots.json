@@ -1,0 +1,385 @@
+[
+  {
+    "id": "shot_0014",
+    "scene_id": "scene_001",
+    "shot_number": 1,
+    "goal": "建立沈家正厅的礼制空间与压迫秩序，交代敬茶仪式即将成为权力施压的场域。",
+    "composition": "WS对称构图。厅堂中央留出大片空地作为敬茶位置，地面跪垫与明暗分界线落在画面中轴。前景左下虚化茶托与茶盏，中央偏下为空出的跪拜区，背景正中高位上沈母端坐；右侧稍后位置立着沈词，左侧中前景站着“我”，下方中央跪着陆姝仪。门框与案几形成纵深分隔，侧窗硬光切出地面光带。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众感到体面表象下的森严、冰冷与即将压下来的羞辱。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "沈词",
+      "陆姝仪",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 14
+  },
+  {
+    "id": "shot_0015",
+    "scene_id": "scene_001",
+    "shot_number": 2,
+    "goal": "把礼制物件明确成冲突核心，强调这场压制是借茶礼完成的。",
+    "composition": "CU俯角近拍茶托与茶杯，置于画面下中部，陆姝仪颤抖的指尖从右侧托住杯盏；背景虚化可见绛红裙裾与深色坐席形成冷暖对撞。瓷白与托盘木纹被硬边光勾亮。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众意识到‘茶’不是礼，而是刀口前的静物。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 15
+  },
+  {
+    "id": "shot_0016",
+    "scene_id": "scene_001",
+    "shot_number": 3,
+    "goal": "以第一人称限制视角强调‘我’对陆姝仪的审视与压抑情绪的起点。",
+    "composition": "MCU主观感受式镜头，陆姝仪跪在画面中央偏下，仰起的脸停在光影分界处，不肯低头；前景左侧虚出一截我的袖缘，形成主观占位。背景高位虚化沈母的身影像压顶的暗块。",
+    "camera_movement": "slow dolly in",
+    "framing": "MCU",
+    "emotion_target": "让观众感到凝视中的敌意、试探，以及女主把对方看穿的冷意。",
+    "duration_hint": "3s",
+    "characters": [
+      "陆姝仪",
+      "我",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.35,
+    "order": 16
+  },
+  {
+    "id": "shot_0017",
+    "scene_id": "scene_001",
+    "shot_number": 4,
+    "goal": "交代沈母以一句话定局，用规矩公开施压并宣布陆姝仪的位置。",
+    "composition": "MCU正面略低机位拍沈母，人物居中偏上，背后屏风暗纹与高座形成权威背景。前景底部轻微带入模糊的茶盏边缘。她的坐姿笔直，双手稳放扶手。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到来自家法与长辈权威的冷硬压迫。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 17
+  },
+  {
+    "id": "shot_0018",
+    "scene_id": "scene_001",
+    "shot_number": 5,
+    "goal": "呈现“我”表面克制、内里已被激怒的第一层裂缝。",
+    "composition": "CU拍‘我’的脸，位于画面右侧三分之一处，视线向左下锁定陆姝仪。侧逆光只照亮半张脸，另一半陷在阴影中；背景虚化成厅内深色木构。眼眶微红但下颌绷紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到危险的克制，比直接发怒更锋利。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 18
+  },
+  {
+    "id": "shot_0019",
+    "scene_id": "scene_001",
+    "shot_number": 6,
+    "goal": "补足沈词的位置与沉默态度，显示他在场却未阻止，形成情感背刺。",
+    "composition": "MCU侧拍沈词，位于画面左侧，身形端正立于阴影边缘，目光投向中央敬茶区。前景右侧虚化一角我的肩线，背景深处是高位沈母的模糊轮廓，三人关系被压缩在同一视觉层次。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到失望、寒意，以及沉默比表态更伤人。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "我",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 19
+  },
+  {
+    "id": "shot_0020",
+    "scene_id": "scene_001",
+    "shot_number": 7,
+    "goal": "展示陆姝仪‘柔弱却不低头’的姿态，令局面更像一场精心摆出的羞辱。",
+    "composition": "CU拍陆姝仪的手与下半张脸，茶托在画面中央，她指节发白却仍端稳；嘴唇轻抿，呼吸细乱。背景是地面冷白光带与深色砖面，形成压迫性的水平分割。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众既感到她的可怜，又察觉她的存在本身就是挑衅。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 20
+  },
+  {
+    "id": "shot_0021",
+    "scene_id": "scene_001",
+    "shot_number": 8,
+    "goal": "把‘我’的生理反应推到临界点，预告即将打破体面。",
+    "composition": "ECU拍‘我’的眼与鼻梁一线，眼眶迅速泛红，睫毛颤动；光从左侧切入，泪意不落。背景完全虚化成黑红色块，只保留极细的金饰反光。",
+    "camera_movement": "slow dolly in",
+    "framing": "ECU",
+    "emotion_target": "让观众进入女主呼吸变急、理智绷断前一瞬的窒息感。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 21
+  },
+  {
+    "id": "shot_0022",
+    "scene_id": "scene_001",
+    "shot_number": 9,
+    "goal": "用动作爆点改写礼制秩序——‘我’挥手打落茶杯。",
+    "composition": "MS侧面构图，‘我’站在画面右侧向左挥臂，陆姝仪跪在左侧中景，茶杯从中央被击飞出轨迹；背景高位沈母与后方沈词同框，但都被动作切割成静止见证者。衣袖形成强烈斜线引导视觉。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "让观众感到压抑被猛然撕开，失控来得又狠又准。",
+    "duration_hint": "1-1.5s",
+    "characters": [
+      "我",
+      "陆姝仪",
+      "沈母",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.82,
+    "order": 22
+  },
+  {
+    "id": "shot_0023",
+    "scene_id": "scene_001",
+    "shot_number": 10,
+    "goal": "把瓷杯碎裂视觉化为礼制破裂的明确符号。",
+    "composition": "CU俯拍地面，瓷杯坠地在画面中央炸开，瓷白碎片向四周飞溅，一滴茶水掠过明暗分界线。前景有一角绛红裙摆切入，背景只有砖地纹理。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众获得一种清脆、冷酷、不可回收的断裂感。",
+    "duration_hint": "1s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 23
+  },
+  {
+    "id": "shot_0024",
+    "scene_id": "scene_001",
+    "shot_number": 11,
+    "goal": "表现‘我’不是冲动失手，而是立刻做出更极端、更主动的反击选择。",
+    "composition": "MCU低机位跟拍‘我’俯身，画面右侧是她探下去的手，中央近处是一片反光锋利的瓷片，左侧后景虚化陆姝仪后退的身形。地面光带切过她袖口与手背。",
+    "camera_movement": "dolly down",
+    "framing": "MCU",
+    "emotion_target": "让观众意识到真正可怕的不是失控，而是女主清醒地选择失控。",
+    "duration_hint": "2s",
+    "characters": [
+      "我",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 24
+  },
+  {
+    "id": "shot_0025",
+    "scene_id": "scene_001",
+    "shot_number": 12,
+    "goal": "完成场面最高危动作——瓷片压向自己颈侧。",
+    "composition": "CU侧面拍‘我’的颈部与下半张脸，瓷片从画面下方斜压至颈侧，瓷白与肤白几乎同色，唯有一线血红开始浮出。背景虚化成深黑木构与一抹暗金。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众感到震惊、寒毛竖起，以及女主决绝到不惜毁身的狠意。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "我"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.98,
+    "order": 25
+  },
+  {
+    "id": "shot_0026",
+    "scene_id": "scene_001",
+    "shot_number": 13,
+    "goal": "用他人失态反证女主这一击的有效性，尤其是沈母权威被瞬间击穿。",
+    "composition": "MCU拍沈母，原本端坐的身体明显前倾，手抓住座椅扶手，嘴唇发抖。画面右下前景虚化一道瓷白寒光，暗示瓷片仍在‘我’手中。背景屏风纹样依旧端整，与她的失态形成反差。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众获得反压迫的快感，同时看到权力第一次慌乱。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 26
+  },
+  {
+    "id": "shot_0027",
+    "scene_id": "scene_001",
+    "shot_number": 14,
+    "goal": "补足陆姝仪的惊惧与身体崩塌，说明局势已彻底失控。",
+    "composition": "MS斜侧拍陆姝仪，人物位于画面左侧，茶托已倾斜滑落，她向后软倒，脸色惨白。前景散落碎瓷与茶水，背景是高厅空旷的暗面，增强她的孤弱。",
+    "camera_movement": "tilt down",
+    "framing": "MS",
+    "emotion_target": "让观众感到脆弱者被卷入更大权力暴风中的无力与狼狈。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 27
+  },
+  {
+    "id": "shot_0028",
+    "scene_id": "scene_001",
+    "shot_number": 15,
+    "goal": "让沈词第一次从旁观者变成介入者，动作上完成立场转移。",
+    "composition": "MLS侧向构图，沈词从画面右后方向左前方疾步切入，直奔‘我’而来；‘我’位于左前景半跪/俯身姿态，瓷片仍抵颈。沈母留在后景高位，形成被抛下的权威。运动方向保持场景一致。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "让观众感到局面终于有人出手，但这个迟来的动作带着复杂的补救意味。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词",
+      "我",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 28
+  },
+  {
+    "id": "shot_0029",
+    "scene_id": "scene_001",
+    "shot_number": 16,
+    "goal": "完成实质阻止——沈词扣住我的手腕，截断自戕动作。",
+    "composition": "CU聚焦手部，画面中央是沈词的手自右侧猛然扣住‘我’持瓷片的腕子，我的袖口绛红、他的袖口墨青形成对撞。瓷片卡在两人手之间，边缘染上一点血。背景完全虚化。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "让观众感到身体性的拦截、力量对抗与危险被强行定格。",
+    "duration_hint": "1-1.5s",
+    "characters": [
+      "我",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 1.0,
+    "order": 29
+  },
+  {
+    "id": "shot_0030",
+    "scene_id": "scene_001",
+    "shot_number": 17,
+    "goal": "将极端对抗转入极近距离的情感困局——他把‘我’揽进怀里。",
+    "composition": "MS半侧面，两人占据画面中央，沈词从右侧将‘我’拽入怀中，我身体仍绷着未完全卸力。前景下方有碎瓷，背景高位沈母和倒地的陆姝仪都被压到失焦边缘，世界只剩两人冲突性的亲密。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "让观众感到安全与窒息并存：被救下，却并未被真正安慰。",
+    "duration_hint": "3s",
+    "characters": [
+      "我",
+      "沈词",
+      "沈母",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 30
+  },
+  {
+    "id": "shot_0031",
+    "scene_id": "scene_001",
+    "shot_number": 18,
+    "goal": "强调伤口细节与沈词的情绪裂缝，制造欲言又止的暧昧与亏欠。",
+    "composition": "CU拍沈词视线落点：‘我’颈侧一线渗血位于画面左下，沈词下半张脸和微动唇角位于右上，焦点先在血线后轻微转到他唇边。背景是暗色衣料与模糊厅堂。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到疼、迟到的在意，以及那句说不出口的话比说出口更重。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "我",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 31
+  },
+  {
+    "id": "shot_0032",
+    "scene_id": "scene_001",
+    "shot_number": 19,
+    "goal": "回到第一人称核心，确认‘我’已用见血的方式夺回主动权，且不会退让。",
+    "composition": "CU拍‘我’从沈词怀中抬起的脸，位于画面中央偏左，眼里仍有红意但神色已冷下来，视线越过镜头看向高位方向。背景右侧虚化沈词肩线作为框架，后方暗处隐约是沈母的坐席轮廓。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到女主不是受害后的脆弱，而是以伤口立威后的冷硬胜势。",
+    "duration_hint": "2s",
+    "characters": [
+      "我",
+      "沈词",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 32
+  },
+  {
+    "id": "shot_0033",
+    "scene_id": "scene_001",
+    "shot_number": 20,
+    "goal": "以残局总览收束场面，展示体面已毁、权力格局被迫重排的结果。",
+    "composition": "FS横向分层构图。前景中央是碎瓷、茶水与一道血滴；中景左侧沈词护着‘我’，右侧陆姝仪软倒；背景中央沈母僵坐高位。明暗分界线横贯地面，把所有人分在不同权力与情感区间内。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众在余震中看清这一场敬茶已经从礼制仪式变成无声宣战。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "我",
+      "沈词",
+      "陆姝仪",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.55,
+    "order": 33
+  }
+]

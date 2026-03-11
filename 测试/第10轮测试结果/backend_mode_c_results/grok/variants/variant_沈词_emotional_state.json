@@ -1,0 +1,29 @@
+{
+  "variant_id": "沈词_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 和离跪求",
+  "tags": [
+    "崩溃",
+    "跪姿",
+    "不可置信"
+  ],
+  "scene_ids": [
+    "scene_010"
+  ],
+  "trigger": "高家厅堂，和离谈判爆发时跪求见妻女",
+  "appearance_delta": {
+    "face": "俊朗清冷转为震惊扭曲，琥珀眸不可置信",
+    "body": "长身玉立转为弯曲跪姿",
+    "hair": "黑发以玉冠束起",
+    "distinguishing_features": "脊背弯曲的卑微姿态与恳求眼神"
+  },
+  "costume_override": {
+    "outfit": "深色文人长袍",
+    "color_palette": [
+      "墨黑",
+      "深蓝"
+    ]
+  },
+  "visual_reference": "handsome Chinese scholar-official kneeling desperately in ancient hall, shocked devastated expression with wide amber eyes in disbelief, pale refined face, tall slender build bent over, black hair tied with jade guan, dark elegant robes, pleading posture on knees, highly detailed cinematic ancient drama style, 8k",
+  "emotional_tone": "崩溃与强烈不甘"
+}

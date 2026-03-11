@@ -1,0 +1,51 @@
+{
+  "name": "江南赘婿们",
+  "aliases": [
+    "新夫婿",
+    "赘婿"
+  ],
+  "role": "minor",
+  "age_range": "25-35岁",
+  "appearance": {
+    "face": "相貌出众",
+    "body": "未详细描述",
+    "hair": "传统男子发髻",
+    "distinguishing_features": "多人，相貌出众"
+  },
+  "costume": {
+    "typical_outfit": "文人服饰",
+    "color_palette": [
+      "素色"
+    ]
+  },
+  "casting_tags": [
+    "工具人",
+    "陪衬"
+  ],
+  "visual_reference": "Several handsome young Chinese men in their late 20s, scholar's robes, gentle demeanor, ancient dynasty",
+  "personality": "温和体贴，陪伴高令宁和昭昭。",
+  "desire": "成为高令宁的夫婿。",
+  "flaw": "缺乏个性，只是工具人角色。",
+  "arc": "被高父挑选→住进高家→陪伴高令宁和昭昭→刺激沈词。",
+  "scene_presence": "江南隐居期间出现，作为刺激沈词的工具。关键场景：堆雪人、陪伴高令宁。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "利益",
+      "dynamic": "备选夫婿，陪伴关系",
+      "function": "刺激沈词"
+    },
+    {
+      "target": "沈词",
+      "type": "对照",
+      "dynamic": "情敌关系",
+      "function": "冲突制造"
+    },
+    {
+      "target": "昭昭",
+      "type": "情感",
+      "dynamic": "陪伴玩耍",
+      "function": "父亲替代"
+    }
+  ]
+}

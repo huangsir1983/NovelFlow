@@ -1,0 +1,62 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-28",
+  "appearance": {
+    "face": "五官端正，眉目敦厚，神情坦率，带练武之人的阳刚正气",
+    "body": "高大结实，肩背宽阔，动作干净利落",
+    "hair": "黑发高束，常作利落发髻",
+    "distinguishing_features": "武人气质明显，表情容易因羞涩而微红"
+  },
+  "costume": {
+    "typical_outfit": "便于行动的锦袍或窄袖劲装，外披轻便斗篷",
+    "color_palette": [
+      "深蓝",
+      "棕色",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "可靠备选男主",
+    "武人",
+    "老实人",
+    "温厚",
+    "被牵连"
+  ],
+  "visual_reference": "Ancient Chinese young martial gentleman, upright handsome features, strong tall build, tied black hair, simple fitted traditional robe, honest and protective expression, realistic cinematic style",
+  "visual_prompt_negative": "modern clothes, armor fantasy style, long beard, tattoo, messy punk hair, glasses",
+  "personality": "老实厚道，照顾人，行动比言辞更直接",
+  "desire": "求一门安稳婚事，也希望得到自己能真心照顾的人",
+  "flaw": "过于被动，不擅处理复杂宅斗与阴谋，对他人恶意缺乏防备",
+  "arc": "从可能的良配沦为局中棋子，最终与陆姝仪成婚却感情冷淡，成为整场重生纠葛的代价承担者",
+  "scene_presence": "在相亲、马球会、脚伤陪伴、高府厢房事件、后续与陆姝仪婚配中发挥关键作用",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "相亲对象/可能良配",
+      "dynamic": "真诚照顾，却始终没真正进入她的内心",
+      "function": "对照沈词，提供另一种人生选择"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "被设计成婚夫妻",
+      "dynamic": "婚姻始于算计与丑闻，婚后冷淡疏离",
+      "function": "呈现女性求生手段的受害面"
+    },
+    {
+      "target": "高父",
+      "type": "师生",
+      "dynamic": "受器重的门生，品行是被认可的",
+      "function": "婚配资源与道德参照"
+    },
+    {
+      "target": "沈词",
+      "type": "潜在情敌",
+      "dynamic": "其存在不断刺激沈词的占有欲和危机感",
+      "function": "三角对抗中的男性对照"
+    }
+  ]
+}

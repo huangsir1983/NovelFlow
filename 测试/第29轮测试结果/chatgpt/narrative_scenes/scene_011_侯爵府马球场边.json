@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "EXT. 马球会场 - DAY",
+  "location": "侯爵府马球场边",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟"
+  ],
+  "core_event": "我带着蒋晟赴马球会，故意享受他的体贴照拂，以此为自己预留另一种婚姻可能。",
+  "key_dialogue": "「蒋公子，我脚好像崴了。」",
+  "emotional_peak": "我在蒋晟身边短暂感受到被温柔对待。",
+  "tension_score": 0.45,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "葡萄",
+    "马球杆",
+    "帕子"
+  ],
+  "dramatic_purpose": "引入蒋晟，构建与沈词截然不同的择偶对照。",
+  "visual_reference": "春日马球场尘土飞扬，武人青年体格挺拔，细心替女子剥葡萄、挡风护沙，女子衣袂轻扬，画面明亮却带一丝试探性的疏离",
+  "visual_prompt_negative": "避免现代运动服，避免西式马术装备，避免过多观众拥堵",
+  "source_text_start": "沈家公子认了位义妹。",
+  "source_text_end": "他处处护着我，生怕我被风沙吹到。"
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "EXT. 侯爵府马球场 - DAY",
+  "location": "马球会场地",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "沈府小厮"
+  ],
+  "core_event": "高令宁要求沈家先把“义妹”嫁出去才肯成亲，随后赴马球会，故意与蒋晟亲近；她又撞见沈词与陆姝仪在柳池旁眉目含情，妒火与报复心被同时挑起。",
+  "key_dialogue": "「贵府小姐出嫁后，我才会答应这门亲事。」",
+  "emotional_peak": "高令宁脚滑被蒋晟扶住，隔空与沈词对视，嫉妒、试探与挑衅同步拉满。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "马球杆与球",
+    "请帖"
+  ],
+  "dramatic_purpose": "建立四角关系外化场面，展示女主主动挑衅与男主明显妒意。",
+  "source_text_start": "沈家公子认了位义妹。\n消息传到我耳中，我面不",
+  "source_text_end": "蒋晟接过我伸过来的手，轻轻置于掌心，脸色微红。"
+}

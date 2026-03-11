@@ -1,0 +1,47 @@
+{
+  "name": "媒人",
+  "aliases": [
+    "媒婆"
+  ],
+  "role": "minor",
+  "age_range": "35-60岁",
+  "appearance": {
+    "face": "面相喜庆圆润，嘴角常带职业性的笑，眉眼精明会察言观色。",
+    "body": "中等偏丰，行动麻利。",
+    "hair": "盘整妇人发髻，插简洁簪花。",
+    "distinguishing_features": "笑意殷勤、说话圆滑。"
+  },
+  "costume": {
+    "typical_outfit": "鲜亮但不失体面的妇人装束，便于登门议亲。",
+    "color_palette": [
+      "枣红",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "媒人",
+    "圆滑妇人",
+    "议亲角色"
+  ],
+  "visual_reference": "中国古代媒人妇人形象，中年，面容圆润喜庆，神情殷勤精明，穿枣红与墨绿色妇人袄裙，手捧礼单或聘礼册，站在正堂中陪笑说话，古风写实，生活气息浓",
+  "visual_prompt_negative": "避免年轻少女感、避免高门贵妇过度华丽、避免凶恶泼妇脸、避免现代化妆感",
+  "personality": "圆滑机敏，趋利避害，善劝和。",
+  "desire": "促成婚事，维护自己职业体面。",
+  "flaw": "过于势利。",
+  "arc": "无明显弧线。",
+  "scene_presence": "在提亲场景中发挥推动作用，是重生识破的重要见证者。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "议亲对象",
+      "dynamic": "试图劝服其收下婚事",
+      "function": "推动开篇冲突"
+    },
+    {
+      "target": "沈词",
+      "type": "男方说客",
+      "dynamic": "协助其完成提亲流程",
+      "function": "连接两家婚事"
+    }
+  ]
+}

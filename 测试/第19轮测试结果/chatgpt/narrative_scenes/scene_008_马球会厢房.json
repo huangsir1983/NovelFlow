@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会厢房/临时医处 - NIGHT",
+  "location": "马球会厢房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为高令宁正骨，另一边陆姝仪犯胃病，沈词细心喂药。高令宁坚持要回家，离开前又与沈词就婚期和陆姝仪去留发生激烈冲突，陆姝仪当众下跪装可怜，沈词护她入怀。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪跪地哭求“拿我当奴婢，当宠物”，沈词当众袒护，她的前世屈辱感全面复燃。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "正骨药箱",
+    "药碗",
+    "衣角",
+    "塌榻"
+  ],
+  "dramatic_purpose": "再度确认三人纠葛无解，也促使女主对“争”产生疲惫。",
+  "source_text_start": "大夫来看过了我的伤。\n脚踝错位，正骨完便好了。",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

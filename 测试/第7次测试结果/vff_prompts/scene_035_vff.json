@@ -1,0 +1,89 @@
+[
+  {
+    "id": "vff_0156",
+    "segment_id": "seg_0156",
+    "scene_id": "scene_035",
+    "continuity": "开场镜头，无前序承接。",
+    "time_scene_props": "时间：夜\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\n物品：襁褓、床榻、烛火、床帐",
+    "vff_body": "[中远景] 门框式构图下的@scene_035 INT. 产房 - NIGHT，左侧人影与襁褓晃动着从慌乱转为围拢庆贺，右侧床榻上@char_高令宁 高令宁苍白静卧，@char_沈睿 沈睿独自守在榻边，与人群喜气形成冷硬分叉(Fixed) {Focus: 床榻边未被庆贺吞没的@char_沈睿 沈睿}\n>> [中景] 镜头顺势收束到@char_沈睿 沈睿半侧背俯向床榻，肩背塌下，发颤的手伸向@char_高令宁 高令宁面前(Dolly in) {Focus: 探向鼻息的手与他骤然清醒的本能}\n>> [近景/特写] 指尖停在@char_高令宁 高令宁鼻下，烛光在指节轻跳；随即切到她汗湿苍白的面容与极轻鼻息、胸口微弱起伏(Fixed) {Focus: 一线活气}",
+    "character_refs": [
+      "@char_高令宁 高令宁",
+      "@char_沈睿 沈睿"
+    ],
+    "scene_refs": [
+      "@scene_035 INT. 产房 - NIGHT"
+    ],
+    "merge_rationale": "合并危机暂解的同一动作链：产房秩序变化→沈睿回神→探鼻息→确认高令宁尚活。角色集合未变，空间未跳转，情绪从压抑悬停过渡到薄弱松气，适合压成一个连续呼吸式segment。",
+    "style_metadata": {
+      "aspect_ratio": "16:9",
+      "target_model": "grok",
+      "mood": "劫后余生、悬停、冷静后怕"
+    },
+    "raw_text": "{\n  \"segment_number\": 1,\n  \"shot_ids\": [\n    \"shot_0522\",\n    \"shot_0523\",\n    \"shot_0524\",\n    \"shot_0525\"\n  ],\n  \"target_duration\": \"6s\",\n  \"continuity\": \"开场镜头，无前序承接。\",\n  \"time_scene_props\": \"时间：夜\\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\\n物品：襁褓、床榻、烛火、床帐\",\n  \"vff_body\": \"[中远景] 门框式构图下的@scene_035 INT. 产房 - NIGHT，左侧人影与襁褓晃动着从慌乱转为围拢庆贺，右侧床榻上@char_高令宁 高令宁苍白静卧，@char_沈睿 沈睿独自守在榻边，与人群喜气形成冷硬分叉(Fixed) {Focus: 床榻边未被庆贺吞没的@char_沈睿 沈睿}\\n>> [中景] 镜头顺势收束到@char_沈睿 沈睿半侧背俯向床榻，肩背塌下，发颤的手伸向@char_高令宁 高令宁面前(Dolly in) {Focus: 探向鼻息的手与他骤然清醒的本能}\\n>> [近景/特写] 指尖停在@char_高令宁 高令宁鼻下，烛光在指节轻跳；随即切到她汗湿苍白的面容与极轻鼻息、胸口微弱起伏(Fixed) {Focus: 一线活气}\",\n  \"character_refs\": [\n    \"@char_高令宁 高令宁\",\n    \"@char_沈睿 沈睿\"\n  ],\n  \"scene_refs\": [\n    \"@scene_035 INT. 产房 - NIGHT\"\n  ],\n  \"merge_rationale\": \"合并危机暂解的同一动作链：产房秩序变化→沈睿回神→探鼻息→确认高令宁尚活。角色集合未变，空间未跳转，情绪从压抑悬停过渡到薄弱松气，适合压成一个连续呼吸式segment。\",\n  \"style_metadata\": {\n    \"aspect_ratio\": \"16:9\",\n    \"target_model\": \"grok\",\n    \"mood\": \"劫后余生、悬停、冷静后怕\"\n  }\n}"
+  },
+  {
+    "id": "vff_0157",
+    "segment_id": "seg_0157",
+    "scene_id": "scene_035",
+    "continuity": "承接上一段末尾@char_高令宁 高令宁鼻息被确认的状态，画面从床侧的一线生机切回@char_沈睿 沈睿卸力后的面部。",
+    "time_scene_props": "时间：夜\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\n物品：襁褓、床榻、烛火、床帐",
+    "vff_body": "[近景] @char_沈睿 沈睿低头长长吐气，眼角一滴泪顺着脸侧滑下，右侧仍留床帐暗影作为@char_高令宁 高令宁的空间锚点(Fixed) {Focus: 泪与吐气后的生理性卸力}\n>> [中景] 稳婆报喜声先闯入，镜头沿同轴轻摇，带出左后景被众人围住的襁褓与稳婆，右前景的@char_沈睿 沈睿仍贴在床边，私人情绪被世俗喜庆硬生生打断(Pan) {Focus: 从@char_沈睿 沈睿转移到襁褓}\n>> [中近景] 稳婆抱着襁褓朝画外的@char_沈睿 沈睿笑着报喜：‘沈大人，快来看看小千金，漂亮得很呢！’婴儿只露边角与细软发丝，信息被克制呈现(Fixed) {Focus: “小千金”与怀中襁褓}",
+    "character_refs": [
+      "@char_高令宁 高令宁",
+      "@char_沈睿 沈睿"
+    ],
+    "scene_refs": [
+      "@scene_035 INT. 产房 - NIGHT"
+    ],
+    "merge_rationale": "此段核心是情绪换挡：从确认人还活着后的松软，骤然被报喜声切断，并明确抛出‘小千金’信息。虽然稳婆入画，但主叙事重心仍通过沈睿的反应被组织，属于同一转折段。",
+    "style_metadata": {
+      "aspect_ratio": "16:9",
+      "target_model": "grok",
+      "mood": "短暂松弛、被打断、喜气里的不安"
+    },
+    "raw_text": "{\n  \"segment_number\": 2,\n  \"shot_ids\": [\n    \"shot_0526\",\n    \"shot_0527\",\n    \"shot_0528\"\n  ],\n  \"target_duration\": \"6s\",\n  \"continuity\": \"承接上一段末尾@char_高令宁 高令宁鼻息被确认的状态，画面从床侧的一线生机切回@char_沈睿 沈睿卸力后的面部。\",\n  \"time_scene_props\": \"时间：夜\\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\\n物品：襁褓、床榻、烛火、床帐\",\n  \"vff_body\": \"[近景] @char_沈睿 沈睿低头长长吐气，眼角一滴泪顺着脸侧滑下，右侧仍留床帐暗影作为@char_高令宁 高令宁的空间锚点(Fixed) {Focus: 泪与吐气后的生理性卸力}\\n>> [中景] 稳婆报喜声先闯入，镜头沿同轴轻摇，带出左后景被众人围住的襁褓与稳婆，右前景的@char_沈睿 沈睿仍贴在床边，私人情绪被世俗喜庆硬生生打断(Pan) {Focus: 从@char_沈睿 沈睿转移到襁褓}\\n>> [中近景] 稳婆抱着襁褓朝画外的@char_沈睿 沈睿笑着报喜：‘沈大人，快来看看小千金，漂亮得很呢！’婴儿只露边角与细软发丝，信息被克制呈现(Fixed) {Focus: “小千金”与怀中襁褓}\",\n  \"character_refs\": [\n    \"@char_高令宁 高令宁\",\n    \"@char_沈睿 沈睿\"\n  ],\n  \"scene_refs\": [\n    \"@scene_035 INT. 产房 - NIGHT\"\n  ],\n  \"merge_rationale\": \"此段核心是情绪换挡：从确认人还活着后的松软，骤然被报喜声切断，并明确抛出‘小千金’信息。虽然稳婆入画，但主叙事重心仍通过沈睿的反应被组织，属于同一转折段。\",\n  \"style_metadata\": {\n    \"aspect_ratio\": \"16:9\",\n    \"target_model\": \"grok\",\n    \"mood\": \"短暂松弛、被打断、喜气里的不安\"\n  }\n}"
+  },
+  {
+    "id": "vff_0158",
+    "segment_id": "seg_0158",
+    "scene_id": "scene_035",
+    "continuity": "承接上一段末尾稳婆说出‘小千金’，画面立即回到@char_沈睿 沈睿脸上那一瞬未完成的笑意。",
+    "time_scene_props": "时间：夜\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\n物品：襁褓、床榻、烛火、床帐",
+    "vff_body": "[近景] @char_沈睿 沈睿嘴角刚浮起的弧度瞬间冻住，目光向左侧画外钉死，烛火在暗处轻晃，像把那点暖意掐灭(Fixed) {Focus: 笑意冻结的脸}\n>> [中近景] 他从床榻方向猛地转头，身体还残留方才卸力后的余势，心理重心却已被‘小千金’硬生生拽走(Pan) {Focus: 突兀转头}\n>> [中景] 限制性双视角里，抱着襁褓的稳婆在左，@char_沈睿 沈睿前倾半步立在右，两人之间被一句报喜撑开出礼貌而冰冷的裂缝，床榻与床帐仍压在背景中(Fixed) {Focus: 襁褓与@char_沈睿 沈睿的对峙关系}\n>> [特写] @char_沈睿 沈睿正面逼视画外，眉心紧锁，短促吐出：‘你说什么？’空气像被抽空(Fixed) {Focus: 质问}",
+    "character_refs": [
+      "@char_沈睿 沈睿"
+    ],
+    "scene_refs": [
+      "@scene_035 INT. 产房 - NIGHT"
+    ],
+    "merge_rationale": "四个shot构成完整反转链：冻结→转头→对峙空间建立→台词爆点。情绪从松气瞬间坠入震惊，且动作与视线连续紧密，适合整合为一个爆点segment。",
+    "style_metadata": {
+      "aspect_ratio": "16:9",
+      "target_model": "grok",
+      "mood": "震惊、冷硬、礼貌语境下的冲突"
+    },
+    "raw_text": "{\n  \"segment_number\": 3,\n  \"shot_ids\": [\n    \"shot_0529\",\n    \"shot_0530\",\n    \"shot_0531\",\n    \"shot_0532\"\n  ],\n  \"target_duration\": \"6s\",\n  \"continuity\": \"承接上一段末尾稳婆说出‘小千金’，画面立即回到@char_沈睿 沈睿脸上那一瞬未完成的笑意。\",\n  \"time_scene_props\": \"时间：夜\\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\\n物品：襁褓、床榻、烛火、床帐\",\n  \"vff_body\": \"[近景] @char_沈睿 沈睿嘴角刚浮起的弧度瞬间冻住，目光向左侧画外钉死，烛火在暗处轻晃，像把那点暖意掐灭(Fixed) {Focus: 笑意冻结的脸}\\n>> [中近景] 他从床榻方向猛地转头，身体还残留方才卸力后的余势，心理重心却已被‘小千金’硬生生拽走(Pan) {Focus: 突兀转头}\\n>> [中景] 限制性双视角里，抱着襁褓的稳婆在左，@char_沈睿 沈睿前倾半步立在右，两人之间被一句报喜撑开出礼貌而冰冷的裂缝，床榻与床帐仍压在背景中(Fixed) {Focus: 襁褓与@char_沈睿 沈睿的对峙关系}\\n>> [特写] @char_沈睿 沈睿正面逼视画外，眉心紧锁，短促吐出：‘你说什么？’空气像被抽空(Fixed) {Focus: 质问}\",\n  \"character_refs\": [\n    \"@char_沈睿 沈睿\"\n  ],\n  \"scene_refs\": [\n    \"@scene_035 INT. 产房 - NIGHT\"\n  ],\n  \"merge_rationale\": \"四个shot构成完整反转链：冻结→转头→对峙空间建立→台词爆点。情绪从松气瞬间坠入震惊，且动作与视线连续紧密，适合整合为一个爆点segment。\",\n  \"style_metadata\": {\n    \"aspect_ratio\": \"16:9\",\n    \"target_model\": \"grok\",\n    \"mood\": \"震惊、冷硬、礼貌语境下的冲突\"\n  }\n}"
+  },
+  {
+    "id": "vff_0159",
+    "segment_id": "seg_0159",
+    "scene_id": "scene_035",
+    "continuity": "承接上一段末尾@char_沈睿 沈睿的质问声，画面从他的爆点反切回床侧，把冲突余震落到@char_高令宁 高令宁的静默存在上。",
+    "time_scene_props": "时间：夜\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\n物品：襁褓、床榻、烛火、床帐",
+    "vff_body": "[中景] 贴近床侧的限制性收尾中，@char_高令宁 高令宁苍白面容伏在画面右下，似昏似醒；左侧虚焦里襁褓与人影仍在轻晃，远处@char_沈睿 沈睿的身形僵立成一团模糊阴影，床帐像薄膜般把她与刚刚炸开的喜讯和寒意隔开(Fixed) {Focus: @char_高令宁 高令宁的静默与前景襁褓的冷压迫}",
+    "character_refs": [
+      "@char_高令宁 高令宁",
+      "@char_沈睿 沈睿"
+    ],
+    "scene_refs": [
+      "@scene_035 INT. 产房 - NIGHT"
+    ],
+    "merge_rationale": "单独成段作为冷收尾。角色关系未变，但情绪功能发生明显转折：从正面冲突转为余震凝视，用高令宁的被动在场外化‘命保住了，裂痕却开始生成’的戏剧尾音。",
+    "style_metadata": {
+      "aspect_ratio": "16:9",
+      "target_model": "grok",
+      "mood": "余震、隔膜、命保住而关系转冷"
+    },
+    "raw_text": "{\n  \"segment_number\": 4,\n  \"shot_ids\": [\n    \"shot_0533\"\n  ],\n  \"target_duration\": \"6s\",\n  \"continuity\": \"承接上一段末尾@char_沈睿 沈睿的质问声，画面从他的爆点反切回床侧，把冲突余震落到@char_高令宁 高令宁的静默存在上。\",\n  \"time_scene_props\": \"时间：夜\\n场景：高府产房 (@scene_035 INT. 产房 - NIGHT)\\n物品：襁褓、床榻、烛火、床帐\",\n  \"vff_body\": \"[中景] 贴近床侧的限制性收尾中，@char_高令宁 高令宁苍白面容伏在画面右下，似昏似醒；左侧虚焦里襁褓与人影仍在轻晃，远处@char_沈睿 沈睿的身形僵立成一团模糊阴影，床帐像薄膜般把她与刚刚炸开的喜讯和寒意隔开(Fixed) {Focus: @char_高令宁 高令宁的静默与前景襁褓的冷压迫}\",\n  \"character_refs\": [\n    \"@char_高令宁 高令宁\",\n    \"@char_沈睿 沈睿\"\n  ],\n  \"scene_refs\": [\n    \"@scene_035 INT. 产房 - NIGHT\"\n  ],\n  \"merge_rationale\": \"单独成段作为冷收尾。角色关系未变，但情绪功能发生明显转折：从正面冲突转为余震凝视，用高令宁的被动在场外化‘命保住了，裂痕却开始生成’的戏剧尾音。\",\n  \"style_metadata\": {\n    \"aspect_ratio\": \"16:9\",\n    \"target_model\": \"grok\",\n    \"mood\": \"余震、隔膜、命保住而关系转冷\"\n  }\n}"
+  }
+]

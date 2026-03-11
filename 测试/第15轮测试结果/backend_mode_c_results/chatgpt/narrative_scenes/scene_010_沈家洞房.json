@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 新房 - NIGHT",
+  "location": "沈家洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪的婢女"
+  ],
+  "core_event": "新婚夜，两人带着前世记忆完成冷酷而熟悉的夫妻之事。正当结束时，陆姝仪借醉酒心口痛来截人，高令宁却冷淡放行，表明自己无意再争。",
+  "key_dialogue": "「你去吧。也不必回来了。」",
+  "emotional_peak": "最亲密的身体接触中，两人说的却是最伤人的话，亲密与仇恨彻底并置。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "盖头与丝带",
+    "喜床被褥",
+    "热水",
+    "房门外通传"
+  ],
+  "dramatic_purpose": "呈现重生后婚姻关系的病态亲密：身体熟悉，心却更远。",
+  "source_text_start": "入夜后，喧嚣如水退去。\n月光照亮了我潮红无神",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

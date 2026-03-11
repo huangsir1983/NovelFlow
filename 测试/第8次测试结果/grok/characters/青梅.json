@@ -1,0 +1,79 @@
+{
+  "name": "青梅",
+  "aliases": [
+    "义妹",
+    "落水青梅",
+    "沈词义妹"
+  ],
+  "role": "supporting",
+  "age_range": "16-19",
+  "appearance": {
+    "face": "瓜子脸，大而水灵的杏眼，眼尾微垂带楚楚可怜之态，眉目清秀温柔，唇瓣\n薄粉，面色苍白如瓷",
+    "body": "纤细娇小，身材柔弱纤瘦，给人强烈的保护欲",
+    "hair": "乌黑顺直长发，常松散披肩或编成简单垂辫，偶尔插素雅发钗",
+    "distinguishing_features": "水汪汪的大眼睛与病态苍白的肤色，极易唤起怜爱与疼惜"
+  },
+  "costume": {
+    "typical_outfit": "淡色襦裙配轻纱披帛，裙摆轻盈，腰带简约，整体柔软飘逸",
+    "color_palette": [
+      "粉白",
+      "浅蓝",
+      "淡绿"
+    ],
+    "texture_keywords": [
+      "轻纱",
+      "软绸",
+      "素雅"
+    ]
+  },
+  "casting_tags": [
+    "病弱美人",
+    "温柔义妹",
+    "依赖少女",
+    "青梅竹马"
+  ],
+  "visual_reference": "Beautiful delicate young Chinese woman in ancient hanfu, pale porcelain skin, large innocent watery almond eyes with pitiful expression, long silky black hair in loose braids, slender fragile petite body, soft pastel flowing dress, gentle grateful smile, highly detailed face, soft cinematic lighting, ancient Chinese style",
+  "description": "沈词从落水中救回并极尽疼爱的义妹，前世早逝的青梅竹马，今生成为他情感寄托的温柔脆弱少女。",
+  "personality": "温柔顺从、体贴乖巧、略带稚嫩依赖，行为模式为黏着沈词寻求保护与认可，偶尔流露纯真任性。",
+  "desire": "永远留在沈词身边，获得他专属的疼爱与庇护，潜意识中希望取代高姑娘的位置。",
+  "flaw": "过度情感依赖与脆弱性，导致缺乏独立意志，易无意间激化沈词婚姻中的矛盾。",
+  "arc": "起点：落水濒死被救的弱者 → 转变触发：沈词的极尽疼爱与家庭融入 → 终点：面对沈词婚姻危机时，从依附走向可能的自我觉醒或更深纠缠。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "救命恩人与义兄对她极尽疼爱呵护，她回报以深厚依恋与亲密，形成强烈情感纽带，与他对高姑娘的冷漠形成鲜明张力。",
+      "function": "情感支柱与婚姻冲突催化剂"
+    },
+    {
+      "target": "高姑娘",
+      "type": "对照",
+      "dynamic": "作为沈词宠爱的义妹，与高姑娘在婚姻中的疏离地位构成强烈对比，推动高姑娘坚定和离决心。",
+      "function": "叙事张力制造者与潜在情敌"
+    },
+    {
+      "target": "睿儿",
+      "type": "潜在情感",
+      "dynamic": "可能在睿儿出生后成为辅助养育者或孩子眼中的温柔义姑，间接影响家庭结构。",
+      "function": "家庭动态影响者"
+    },
+    {
+      "target": "父亲",
+      "type": "间接",
+      "dynamic": "通过沈词与高家联姻间接关联，无直接互动但可能受家庭影响。",
+      "function": "背景角色"
+    },
+    {
+      "target": "媒人",
+      "type": "间接",
+      "dynamic": "无直接互动，仅作为婚事背景可能见证其存在。",
+      "function": "叙事背景"
+    },
+    {
+      "target": "大夫",
+      "type": "间接",
+      "dynamic": "无直接互动，仅可能因沈词府邸生活而间接接触。",
+      "function": "叙事背景"
+    }
+  ]
+}

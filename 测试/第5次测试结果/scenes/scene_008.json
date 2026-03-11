@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "id": "scene_008",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-07T23:29:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "visual_readiness",
+      "storyboard",
+      "shot_design",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_002",
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "沈母",
+      "陆姝仪"
+    ]
+  },
+  "data": {
+    "heading": "INT. 沈家正厅/内宅会客处 - DAY",
+    "location": "沈家内宅正厅",
+    "time_of_day": "day",
+    "description": "风波后的厅堂一片狼藉，碎瓷与泼洒的茶水留在地面，血迹细而醒目。室内仍是白日冷光，但所有人都被刚才的失控事件钉在原地，氛围从礼法秩序坠入沉默震慑。",
+    "action": "沈词仍扶着高令宁，手上力道未松。高令宁站稳后慢慢抽回手，颈侧带血，神色冷硬，不再解释也不退让。沈母坐在原处，惊魂未定，面色发白，连斥责都说不出来。陆姝仪被人扶住或瘫倒在旁，失去先前敬茶时维持的姿态。高令宁以沉默和带伤的站姿占据上风，厅内无人再敢逼她认下这桩安排。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈词",
+      "沈母",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "碎瓷",
+      "茶渍",
+      "颈间血痕"
+    ],
+    "dramatic_purpose": "展示立威后的结果：沈家被震住，权力关系在婚后第二日即被强行改写，也为后续沈词与陆姝仪、高令宁之间长期纠葛定下基调。",
+    "tension_score": 0.74,
+    "order": 8
+  }
+}

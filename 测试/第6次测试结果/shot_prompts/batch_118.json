@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0708",
+    "shot_id": "shot_0692",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, in medium close-up at the center of the frame, bends sharply forward with one hand half-covering the corner of his mouth, releasing a short cold laugh, a single loose strand falling from his topknot, his composure visibly cracking; behind him stands Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, remaining clear and motionless in the background; inside a noble mansion hall with dark old wood architecture, muted gray-blue and brown tones, side backlight and amber candle glow colliding with cooler natural daylight, tense domestic space framed by shadow and stillness; cinematic historical drama realism, handheld energy, low saturation warm-cool contrast, shallow depth of field, highly detailed textures, filmic tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "low-saturation warm-cool contrast, side backlight, amber candlelight mixed with cool daylight, shadow-heavy interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric lights, plastic, glass office windows, vehicles, phones, screens, text, watermark, logo, subtitle, low quality, blurry face, extra limbs, distorted hands, cartoon, anime"
+  },
+  {
+    "id": "sp_0709",
+    "shot_id": "shot_0693",
+    "prompt_text": "Shen manor servant, a young ancient Chinese male servant in plain dark brown and muted gray hanfu with a simple tied hairstyle, anxious and hurried, rushes in from the left rear into the midground, stretching his arm toward Shen Ci's shoulder to stop him; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, stands in the right foreground with his back partly to the camera, tense and already moving out of restraint; Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, remains farther back; the carved wooden door is centered in the rear background as the clear destination of all action, inside a noble residence hall of dark carved wood, gray-blue and old brown palette, cool daylight filtering from the doorway against dim amber interior light; cinematic realism, panning shot composition, controlled chaos, low saturation warm-cool collision, crisp spatial staging, highly detailed historical textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "muted cool daylight from doorway mixed with dim amber indoor light, low-saturation warm-cool contrast, layered shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary clothing, electric fixtures, plastic, metal zippers, modern furniture, vehicles, phones, screens, text, watermark, logo, subtitle, low quality, oversaturated colors, deformed anatomy, cartoon, anime"
+  },
+  {
+    "id": "sp_0710",
+    "shot_id": "shot_0694",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, dominates the right foreground in a close action view, violently flinging his arm outward, his sleeve carving a sharp arc through the frame, his movement abrupt and explosive; the Shen manor servant, a young ancient Chinese male servant in plain dark brown and muted gray hanfu with a simple tied hairstyle, is pulled off balance and recoils toward the left side, stumbling backward in shock; stable vertical doorframe lines remain in the background, emphasizing the sudden violence, the sweeping sleeve passing toward the direction of the divorce paper; interior of a noble mansion with dark carved wood, compressed space, cool gray-blue shadows and old brown wood, side light and doorway backlight with faint amber candle warmth; cinematic historical drama realism, handheld immediacy, dynamic motion blur on fabric only, low saturation warm-cool contrast, sharp action staging, highly detailed",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "side-lit dark interior with cool ambient daylight and restrained amber candle warmth, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary fashion, electric light bulbs, plastic items, modern paper props, vehicles, phones, screens, text, watermark, logo, subtitle, low quality, bad hands, duplicated limbs, cartoon, anime"
+  },
+  {
+    "id": "sp_0711",
+    "shot_id": "shot_0695",
+    "prompt_text": "Gao Father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, in medium close-up on the right side of the frame, snaps his head toward the off-screen left, his deep nasolabial folds hardening, protective fury and anger rising at once; in the left foreground, the blurred dark figure of Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, streaks across as an oppressive obstruction; dark interior wood and bright doorway light pinch Gao Father's face between shadow and brightness, emphasizing violated household order; noble mansion hall, old carved wood, muted gray-blue, dark brown, amber highlights, strong contrast between interior dimness and exterior pale light; cinematic realism, static reaction shot, pressure-filled composition, low saturation warm-cool contrast, sharply detailed facial texture, restrained but explosive emotional tension",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "high-contrast doorway rim light with dark wood shadows and subtle amber interior glow, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern hairstyles, electric lamps, plastic, chrome, vehicles, phones, screens, text, watermark, logo, subtitle, low quality, blurry portrait, bad anatomy, cartoon, anime"
+  },
+  {
+    "id": "sp_0712",
+    "shot_id": "shot_0696",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, is seen from an interior tracking perspective, charging fast toward the carved wooden door at the center-left of the frame, his body driven forward with dangerous resolve; the Shen manor servant, a young ancient Chinese male servant in plain dark brown and muted gray hanfu with a simple tied hairstyle, chases from the rear right but cannot reach him; on the floor in the rear lower center lies the divorce paper left behind, while the doorway ahead is edged with bright daylight, the doorframe cutting the front hall and rear courtyard into two separate worlds like a vertical blade; noble mansion interior of dark old wood, muted gray-blue and dark brown palette, pale outdoor light clashing with dim amber indoor glow, strong linear perspective and spatial urgency; cinematic historical drama realism, steadicam pursuit composition, low saturation warm-cool contrast, suspenseful forward motion, highly detailed architecture and costume textures",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "bright natural daylight at doorway against dim amber-lit interior, low-saturation warm-cool contrast, directional depth lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary doors, electric lighting, plastic, modern flooring, vehicles, phones, screens, text, watermark, logo, subtitle, low quality, distorted perspective, malformed limbs, cartoon, anime"
+  },
+  {
+    "id": "sp_0713",
+    "shot_id": "shot_0697",
+    "prompt_text": "A carved wooden door fills most of the frame in a large close-up, dense wood grain and intricate relief carving dominating the image; from the left side, Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, crashes into frame only by his shoulder and hand, his dark sleeve taut, fingers strained with force as he slams against the door; a narrow crack in the door leaks brighter white daylight from the unseen rear courtyard, while the space beyond remains hidden to preserve suspense; ancient noble residence details, dark carved wood, compressed threshold, muted gray-blue shadows and old brown tones, stark contrast between dim interior and the brighter light beyond; cinematic historical drama realism, static close-up, claustrophobic suspense, low saturation warm-cool contrast, tactile textures, highly detailed wood and fabric",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, realistic historical drama",
+      "lighting": "dim shadowed interior with bright white daylight leaking through the door crack, low-saturation warm-cool contrast, threshold backlight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, contemporary hardware, electric lights, plastic, metal security door, vehicles, phones, screens, text, watermark, logo, subtitle, low quality, bad hands, extra fingers, cartoon, anime"
+  }
+]

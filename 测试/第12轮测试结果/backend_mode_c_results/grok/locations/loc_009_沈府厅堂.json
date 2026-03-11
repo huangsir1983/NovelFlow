@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_009",
+  "name": "沈府厅堂",
+  "type": "interior",
+  "era_style": "明代官宦府邸厅堂",
+  "description": "沈府厅堂正式对称，中央桌椅摆放茶盏，墙挂扇子与择婿名单，木雕梁柱简洁，空间用于家事讨论，氛围正式却带释然。",
+  "visual_reference": "明代沈府厅堂，木桌椅对称排列，茶盏与扇子、择婿名单置于桌上，雕花装饰简雅，日光透过窗棂，正式古风氛围",
+  "visual_prompt_negative": "现代办公家具、荧光灯",
+  "atmosphere": "正式、失笑、释然",
+  "color_palette": [
+    "木褐",
+    "茶绿",
+    "红褐",
+    "金"
+  ],
+  "lighting": "白天柔和日光",
+  "key_features": [
+    "择婿名单",
+    "茶盏",
+    "扇子"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "建议纳妾被拒到怀孕消息的释然"
+}

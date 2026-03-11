@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_011",
+  "heading": "EXT. 河边/湖畔 - 日",
+  "model": "claude-opus-4-6",
+  "vff_text_length": 2871,
+  "shot_count": 14,
+  "cost": {
+    "model": "claude-opus-4-6",
+    "input_tokens": 62,
+    "output_tokens": 3167,
+    "elapsed_s": 48.02
+  }
+}

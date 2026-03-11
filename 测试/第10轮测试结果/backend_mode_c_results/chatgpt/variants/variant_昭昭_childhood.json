@@ -1,0 +1,31 @@
+{
+  "variant_id": "zhaozhao_variant_03",
+  "variant_type": "childhood",
+  "variant_name": "昭昭 — 江南成长时期",
+  "tags": [
+    "三岁",
+    "江南童年",
+    "聪慧萌娃",
+    "诗书珠宝"
+  ],
+  "scene_ids": [
+    "scene_028"
+  ],
+  "trigger": "高令宁带昭昭南下江南，三年流逝后，昭昭在安稳环境中长成聪明活泼、对诗书与珠宝花朵都感兴趣的小女孩。",
+  "appearance_delta": {
+    "face": "从婴儿圆润过渡为灵动聪明的幼童面容，眼神更机敏，笑意更鲜活",
+    "body": "三岁幼童体态，轻快活泼，走动跑跳都带着孩童的灵巧感",
+    "hair": "黑发比婴儿时期丰厚，梳成童趣发髻或小揪揪，保留柔软蓬松感",
+    "distinguishing_features": "像小太阳一样明亮，既有书卷气的聪慧，又有孩童天然的活泼好奇"
+  },
+  "costume_override": {
+    "outfit": "江南日常童装，小袄裙或轻便襦裙，便于玩耍与识字，可能搭配精巧小荷包",
+    "color_palette": [
+      "鹅黄",
+      "朱红",
+      "嫩绿"
+    ]
+  },
+  "visual_reference": "adorable ancient chinese little girl about three years old, bright intelligent eyes, soft black hair styled into playful twin buns, lively smile, wearing colorful traditional Jiangnan child clothes in warm yellow and soft red, holding a small book or standing near flowers and a jewelry box, elegant southern chinese courtyard, sunlight, lively and clever, warm healing mood, highly detailed character design",
+  "emotional_tone": "明朗、自由、充满生机"
+}

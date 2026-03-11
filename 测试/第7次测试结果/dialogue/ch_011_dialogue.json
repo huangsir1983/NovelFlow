@@ -1,0 +1,281 @@
+[
+  {
+    "id": "dl_0160",
+    "scene_id": "scene_048",
+    "character_id": "char_沈睿",
+    "line": "娘，这是儿子亲自熬的，求您喝一点吧。",
+    "subtext": "他表面是在劝母亲喝粥，实际是在竭力照顾母亲、挽回家中破碎后的失序，也带着孩子式的讨好与惶恐。",
+    "emotion_intensity": 0.76,
+    "order": 0
+  },
+  {
+    "id": "dl_0161",
+    "scene_id": "scene_048",
+    "character_id": "char_沈睿",
+    "line": "妹妹……走后，您和爹爹总是把自己关起来，不吃不喝，儿子真的很担心您的身体。",
+    "subtext": "他在表达担忧的同时，也在试图唤起母亲继续活下去、照顾自己的意志；孩子早已察觉父母沉浸在丧女之痛中无法自拔。",
+    "emotion_intensity": 0.84,
+    "order": 1
+  },
+  {
+    "id": "dl_0162",
+    "scene_id": "scene_048",
+    "character_id": "char_沈睿",
+    "line": "都是儿子不好。",
+    "subtext": "他把家庭的不幸归咎于自己，暴露出长期承受的自责与被家庭关系异化后形成的错误负担感。",
+    "emotion_intensity": 0.88,
+    "order": 2
+  },
+  {
+    "id": "dl_0163",
+    "scene_id": "scene_048",
+    "character_id": "char_高令宁",
+    "line": "与你何干？",
+    "subtext": "她在否认儿子自责的合理性，想立刻切断孩子把父母悲剧揽到自己身上的念头。",
+    "emotion_intensity": 0.58,
+    "order": 3
+  },
+  {
+    "id": "dl_0164",
+    "scene_id": "scene_048",
+    "character_id": "char_沈睿",
+    "line": "若非为了儿子，爹娘早就和离，各自生活，而非像现在这般互相将就。",
+    "subtext": "他看透了父母婚姻早已名存实亡，并将自己视作维系这段痛苦关系的枷锁，带着过分早熟的悲观认知。",
+    "emotion_intensity": 0.9,
+    "order": 4
+  },
+  {
+    "id": "dl_0165",
+    "scene_id": "scene_048",
+    "character_id": "char_沈睿",
+    "line": "娘亲为我，受了太多委屈。",
+    "subtext": "他在为母亲多年隐忍与牺牲作证，也是在向母亲表达愧疚和心疼。",
+    "emotion_intensity": 0.87,
+    "order": 5
+  },
+  {
+    "id": "dl_0166",
+    "scene_id": "scene_048",
+    "character_id": "char_沈睿",
+    "line": "若有来生，娘亲别再生下我，让妹妹代替我承欢膝下，侍奉您终老。",
+    "subtext": "他不仅否定自己的存在价值，甚至希望用自己被替代来换母亲幸福，流露出极深的自我厌弃和牺牲愿望。",
+    "emotion_intensity": 0.98,
+    "order": 6
+  },
+  {
+    "id": "dl_0167",
+    "scene_id": "scene_049",
+    "character_id": "char_高父",
+    "line": "高家虽然门第低，却也并非好欺负的，贵公子与义妹关系暧昧，差点害得发妻一事两命，这若传出去，沈公子的官途要是不要？",
+    "subtext": "他是在严厉警告沈家：高家不会再退让，如果再纠缠，他会把丑事公开，直接毁掉沈词前程。",
+    "emotion_intensity": 0.86,
+    "order": 7
+  },
+  {
+    "id": "dl_0168",
+    "scene_id": "scene_049",
+    "character_id": "char_沈母",
+    "line": "可是，昭昭毕竟是我们沈家的血脉……",
+    "subtext": "她试图借血缘和宗族名义索取孩子，实则是在为沈家争回部分控制权和颜面。",
+    "emotion_intensity": 0.49,
+    "order": 8
+  },
+  {
+    "id": "dl_0169",
+    "scene_id": "scene_049",
+    "character_id": "char_高父",
+    "line": "我高家还养得起一个小姑娘，",
+    "subtext": "他直接否定沈家以抚养为名夺孩子的理由，强调高家有足够能力保护并抚养昭昭。",
+    "emotion_intensity": 0.67,
+    "order": 9
+  },
+  {
+    "id": "dl_0170",
+    "scene_id": "scene_049",
+    "character_id": "char_高父",
+    "line": "两个孩子和离后，昭昭归高家。",
+    "subtext": "他在正式划定边界：婚姻可以结束，但孩子必须留在高家，态度不容协商。",
+    "emotion_intensity": 0.81,
+    "order": 10
+  },
+  {
+    "id": "dl_0171",
+    "scene_id": "scene_049",
+    "character_id": "char_高父",
+    "line": "沈家若执意纠缠，那便闹上公堂，鱼死网破。",
+    "subtext": "这是最后通牒：若沈家不退，他愿意以两败俱伤的方式彻底撕破脸。",
+    "emotion_intensity": 0.9,
+    "order": 11
+  },
+  {
+    "id": "dl_0172",
+    "scene_id": "scene_050",
+    "character_id": "char_沈词",
+    "line": "爹，令宁不会与我和离的。",
+    "subtext": "他表面在陈述判断，实则是在抓住过去高令宁对他的执念，自欺也自保，不肯接受关系已终结。",
+    "emotion_intensity": 0.72,
+    "order": 12
+  },
+  {
+    "id": "dl_0173",
+    "scene_id": "scene_050",
+    "character_id": "char_沈词",
+    "line": "至于陆姝仪，她已经嫁给蒋晟为妇，我也告诫了她，婚后不得再回沈府。",
+    "subtext": "他试图切割与陆姝仪的纠葛，以此证明问题已经处理，想换取高家让步和高令宁回头。",
+    "emotion_intensity": 0.63,
+    "order": 13
+  },
+  {
+    "id": "dl_0174",
+    "scene_id": "scene_050",
+    "character_id": "char_沈词",
+    "line": "爹，我与令宁已有子嗣，应共同抚育她长大……孩子怎能没有爹爹？",
+    "subtext": "他借孩子之名挽留婚姻，真正诉求不是单纯抚养权，而是不愿被彻底排除在高令宁与女儿的人生之外。",
+    "emotion_intensity": 0.78,
+    "order": 14
+  },
+  {
+    "id": "dl_0175",
+    "scene_id": "scene_050",
+    "character_id": "char_高父",
+    "line": "不必，",
+    "subtext": "他毫不犹豫地否决沈词的说辞，表示对其作为丈夫和父亲的资格都已不再认可。",
+    "emotion_intensity": 0.55,
+    "order": 15
+  },
+  {
+    "id": "dl_0176",
+    "scene_id": "scene_050",
+    "character_id": "char_高父",
+    "line": "我的女儿不愁没人要，我已经备好了赘婿人选，昭昭同样不会缺爹爹疼爱。",
+    "subtext": "他故意用最刺痛沈词的方式宣告：高令宁和昭昭即使没有沈词，也能拥有新的完整家庭。",
+    "emotion_intensity": 0.88,
+    "order": 16
+  },
+  {
+    "id": "dl_0177",
+    "scene_id": "scene_051",
+    "character_id": "char_沈词",
+    "line": "高令宁，你什么意思？",
+    "subtext": "他是在质问和施压，无法接受高令宁真的主动结束关系，潜藏着被背弃后的愤怒与失控。",
+    "emotion_intensity": 0.8,
+    "order": 17
+  },
+  {
+    "id": "dl_0178",
+    "scene_id": "scene_051",
+    "character_id": "char_高令宁",
+    "line": "按照我们约定好的，和离。",
+    "subtext": "她冷静重申双方曾有的约定，表明这不是报复，而是她清醒后的正式决定。",
+    "emotion_intensity": 0.62,
+    "order": 18
+  },
+  {
+    "id": "dl_0179",
+    "scene_id": "scene_051",
+    "character_id": "char_高令宁",
+    "line": "我们性情不合，强行活在一处，只会互相折磨。",
+    "subtext": "她在用理性语言为这段婚姻盖棺定论，真正意思是两人之间早已没有继续下去的可能。",
+    "emotion_intensity": 0.71,
+    "order": 19
+  },
+  {
+    "id": "dl_0180",
+    "scene_id": "scene_051",
+    "character_id": "char_沈词",
+    "line": "别装了。",
+    "subtext": "他拒绝相信她的平静与决绝，认为这只是姿态；本质上是不愿面对她已不再围着自己转的现实。",
+    "emotion_intensity": 0.74,
+    "order": 20
+  },
+  {
+    "id": "dl_0181",
+    "scene_id": "scene_051",
+    "character_id": "char_沈词",
+    "line": "我不信你肯放过我。",
+    "subtext": "他认定她对自己恨意深重，反而把这种纠缠视为两人仍有联系的证明；害怕的其实是她真正抽离。",
+    "emotion_intensity": 0.82,
+    "order": 21
+  },
+  {
+    "id": "dl_0182",
+    "scene_id": "scene_051",
+    "character_id": "char_沈词",
+    "line": "你忘了前世你死时，说了什么吗？",
+    "subtext": "他搬出她临终诅咒，试图证明她不可能轻易放下，同时也透露自己一直被那句话困住。",
+    "emotion_intensity": 0.83,
+    "order": 22
+  },
+  {
+    "id": "dl_0183",
+    "scene_id": "scene_052",
+    "character_id": "char_高令宁",
+    "line": "我就算死了……",
+    "subtext": "她在生命尽头仍以恨意支撑自己，表明自己哪怕死也不会让这个男人安宁。",
+    "emotion_intensity": 0.95,
+    "order": 23
+  },
+  {
+    "id": "dl_0184",
+    "scene_id": "scene_052",
+    "character_id": "char_高令宁",
+    "line": "也会一直缠着你，让你痛苦一生。",
+    "subtext": "这不是单纯诅咒，而是她对被毁一生的最终控诉：她要把自己的痛苦变成他终身的负担。",
+    "emotion_intensity": 1.0,
+    "order": 24
+  },
+  {
+    "id": "dl_0185",
+    "scene_id": "scene_052",
+    "character_id": "char_沈词",
+    "line": "我等着。",
+    "subtext": "他以冷静回应她的诅咒，表面是无动于衷，深层却像是在接受这种被她纠缠的命运，甚至把它当作与她唯一不断裂的连接。",
+    "emotion_intensity": 0.78,
+    "order": 25
+  },
+  {
+    "id": "dl_0186",
+    "scene_id": "scene_053",
+    "character_id": "char_沈词",
+    "line": "高令宁，说话算话。",
+    "subtext": "他咄咄逼人地要求她兑现曾经的恨，实则是在乞求她不要真的从情感上与他切断联系。",
+    "emotion_intensity": 0.81,
+    "order": 26
+  },
+  {
+    "id": "dl_0187",
+    "scene_id": "scene_053",
+    "character_id": "char_高令宁",
+    "line": "可是我现在真的已经想开了。",
+    "subtext": "她是在宣告自己终于从前世与这段婚姻的执念中脱身，不再把生命系在他身上。",
+    "emotion_intensity": 0.66,
+    "order": 27
+  },
+  {
+    "id": "dl_0188",
+    "scene_id": "scene_053",
+    "character_id": "char_高令宁",
+    "line": "沈词，我原谅你了，我希望余生你也能觅得良人。",
+    "subtext": "她给出的不是示好，而是彻底告别；原谅意味着不再追索，也意味着她决定把他从自己人生里清除出去。",
+    "emotion_intensity": 0.74,
+    "order": 28
+  },
+  {
+    "id": "dl_0189",
+    "scene_id": "scene_053",
+    "character_id": "char_沈词",
+    "line": "不可以……",
+    "subtext": "他无法接受她的放下，因为她一旦原谅，他就失去了与她最后那条由愧疚和恨维系的纽带。",
+    "emotion_intensity": 0.9,
+    "order": 29
+  },
+  {
+    "id": "dl_0190",
+    "scene_id": "scene_053",
+    "character_id": "char_沈词",
+    "line": "高令宁，我不要你原谅我。",
+    "subtext": "他宁愿背负她的恨，也不愿被她轻轻放过；真正诉求是留在她心里，哪怕以罪人的方式存在。",
+    "emotion_intensity": 0.96,
+    "order": 30
+  }
+]

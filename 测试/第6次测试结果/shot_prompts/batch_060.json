@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0360",
+    "shot_id": "shot_0322",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, beside Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, seen in a medium long shot from the side-rear with both figures framed together, seated closely under a covered corridor, Gao Lingning leaning her head on Shen Ci's shoulder, their posture intimate yet emotionally distant, backs shown in three-quarter view. Foreground corridor pillar partially blocks the frame, lower corner includes a fruit plate left behind, railings and pillars divide the two figures into layered compartments, courtyard in the background with soft wind moving tree shadows. Low-saturation warm-cool contrast, gray-blue, dark ink, aged wood brown, restrained daylight with subtle amber warmth, side-back natural light, calm surface beauty with unresolved relational tension, realistic historical drama, cinematic photography, highly detailed textures, shallow depth of field, film still realism",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft natural side-back daylight with low-saturation warm-cool contrast, gray-blue ambient tones, aged wood shadows, restrained highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern furniture, plastic, glass windows, neon, contemporary hairstyle, modern makeup, text, watermark, logo, low quality, blurry face, distorted anatomy, oversaturated colors"
+  },
+  {
+    "id": "sp_0361",
+    "shot_id": "shot_0345",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, seated across from Gao Fu, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, both facing each other across a low table in a full shot, stable oppositional axis, formal post-meal conversation, composed and restrained. Foreground lower left shows a half-blurred tea cup and corner of the table, middle ground centers the father and daughter in orderly symmetrical spacing, background right leaves an open hall doorway to the front courtyard framed by wood, screen and timber columns divide the interior into disciplined sections, side daylight entering the hall. Low-saturation warm-cool contrast, gray-green wall tones, dark wood brown, pale daylight with controlled amber residue from the house interior, neat domestic aristocratic space that can be interrupted from outside, cinematic realism, Song dynasty aesthetics, precise composition, subtle emotional pressure beneath calm order",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft side daylight entering a traditional hall, low-saturation warm-cool contrast, cool gray-blue ambient fill with restrained warm wood reflections"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, modern tableware, plastic, glass curtain wall, contemporary interior design, text, watermark, logo, low quality, low resolution, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0362",
+    "shot_id": "shot_0346",
+    "prompt_text": "Gao Fu, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in a medium close-up on the right third of the frame, looking toward off-screen left at his daughter, expression concerned yet gently admonishing, calm fatherly persuasion carrying invisible pressure. Foreground left edge keeps a blurred anchor of Gao Lingning's shoulder line and black low bun, subjective female point of view, background with old wooden screen and stable daylight, composition upright and formal, the domestic authority of the father emphasized through stillness and spacing. Low-saturation warm-cool contrast, gray-blue daylight against aged wood brown, clean historical interior, restrained side light, realistic skin texture, cinematic historical drama, intimate but disciplined framing, film still realism",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "stable natural side daylight, cool-gray ambient tones balanced with muted warm wood reflections, low-saturation contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric light fixtures, modern clothing, plastic, neon, text, watermark, logo, low quality, blurry, bad anatomy, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0363",
+    "shot_id": "shot_0347",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a close-up on the left side of the frame, face slightly turned right, eyes lowered to the rim of a tea cup instead of looking at her father, fingertips subtly drawn in, surface acceptance masking inner refusal, emotion pressed down and unsaid. Foreground lower frame includes the tea cup and her restrained fingers on the table, background softened into wooden pillar and gray-blue hall wall, side-back light outlines her cold pale complexion and the faint scar on her neck. Low-saturation warm-cool contrast, cool white skin against aged wood and muted cyan-gray interior, natural daylight with delicate edge light, aristocratic domestic tension, highly detailed cinematic realism, shallow depth of field, refined historical drama still",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft side-back daylight, cool pale facial highlights with muted warm wood undertones, low-saturation restrained contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric kettle, modern porcelain patterns, plastic, contemporary makeup, text, watermark, logo, low quality, blurred eyes, distorted face, oversaturated colors"
+  },
+  {
+    "id": "sp_0364",
+    "shot_id": "shot_0348",
+    "prompt_text": "Gao Fu, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, seated fully visible on the right side in a medium shot, speaking with calm realism and gentle insistence, his posture composed but immovable, marriage advice landing as soft pressure. Foreground left keeps Gao Lingning's back shoulder out of focus as a subjective anchor, a low table and tea cups stretch across the lower frame as a ritual boundary, background doorframe and folding screen form rigid vertical lines like invisible discipline, composition stable and mildly oppressive, slight forward dolly sensation implied by spatial compression. Low-saturation warm-cool contrast, cool daylight layered with subdued amber interior reflections, gray-green and old wood palette, formal household order, cinematic historical realism, finely detailed costume textures, emotionally restrained yet pressuring atmosphere",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "controlled side daylight with muted warm interior bounce, low-saturation warm-cool contrast, vertical shadows from doorframe and screen"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, modern cups, plastic, stainless steel, modern architecture, text, watermark, logo, low quality, low detail, bad hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0365",
+    "shot_id": "shot_0349",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in a medium close-up slightly left of center, back and shoulders upright but chin subtly drawn in, expression tightening beneath perfect manners as she silently measures the pressure of her father's words, preparing a restrained counterquestion. Foreground right is pressed by a blurred edge of her father's sleeve, background holds a cool negative space, steam from the tea cup has mostly faded to suggest the after-meal warmth disappearing, the room feels quieter and colder. Low-saturation warm-cool contrast, gray-blue emptiness and old wood brown, natural daylight with restrained cool emphasis, soft residual warmth nearly gone, cinematic psychological realism, historical drama still, refined detail, shallow depth of field, tension under a courteous surface",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, film grain, historical drama realism",
+      "lighting": "soft natural side daylight with cooler ambient fill, very restrained warm residue, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric appliances, modern fabrics, plastic, contemporary interior decor, text, watermark, logo, low quality, blurry, deformed anatomy, oversaturated colors"
+  }
+]

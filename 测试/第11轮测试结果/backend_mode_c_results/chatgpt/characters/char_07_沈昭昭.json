@@ -1,0 +1,57 @@
+{
+  "name": "沈昭昭",
+  "aliases": [
+    "昭昭",
+    "小千金",
+    "小姑娘"
+  ],
+  "role": "minor",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "婴儿时漂亮白嫩，眉眼灵动；幼童时活泼可爱，神情聪颖",
+    "body": "小小软糯，三岁后能跑能跳",
+    "hair": "婴儿胎发细软，幼童梳双丫髻或小发髻",
+    "distinguishing_features": "明亮机灵，带着脱离父母阴影的新生命感"
+  },
+  "costume": {
+    "typical_outfit": "绣花小袄、小裙、软底绣鞋，节庆时佩金铃或长命锁",
+    "color_palette": [
+      "鹅黄",
+      "桃粉",
+      "嫩绿",
+      "大红"
+    ]
+  },
+  "casting_tags": [
+    "治愈系女儿",
+    "聪明萌娃",
+    "新生希望"
+  ],
+  "visual_reference": "Ancient Chinese little girl, bright lively eyes, cute traditional hairstyle, embroidered child hanfu, joyful and intelligent expression, warm family atmosphere",
+  "visual_prompt_negative": "modern kids clothes, short hair, plastic toys, western nursery setting, tattoo",
+  "personality": "聪明、开朗、好学",
+  "desire": "孩童阶段以亲近父母、探索世界为主",
+  "flaw": "年幼，尚无明显人格缺陷",
+  "arc": "她的出生打破“必须生下沈睿”的宿命预设，成为女主开启新生活、男主继续纠缠的纽带",
+  "scene_presence": "出生、被争夺抚养权、满月宴、江南成长等节点出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "女主真正选择的未来",
+      "function": "治愈与新生象征"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "是他靠近前妻的唯一合法借口，也是情感投射对象",
+      "function": "持续联系纽带"
+    },
+    {
+      "target": "高父",
+      "type": "外祖父与外孙女",
+      "dynamic": "被高家全力保护",
+      "function": "强化高家阵营"
+    }
+  ]
+}

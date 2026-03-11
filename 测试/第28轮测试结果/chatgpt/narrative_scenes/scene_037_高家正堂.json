@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_037",
+  "order": 36,
+  "heading": "INT. 高家正堂 - day",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "父亲",
+    "沈母"
+  ],
+  "core_event": "女儿取名昭昭后，沈母上门想接走孩子，被父亲强硬驳回，并表明将来和离后昭昭归高家。",
+  "key_dialogue": "「两个孩子和离后，昭昭归高家。」",
+  "emotional_peak": "父亲终于替我在沈家面前把话说绝。",
+  "tension_score": 0.76,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "襁褓名帖",
+    "座椅",
+    "茶杯"
+  ],
+  "dramatic_purpose": "强化高家立场，为和离争女埋下制度与情感支撑。",
+  "visual_reference": "高家正堂中年父亲神色冷沉坐于上首，贵妇赔笑而难堪，厅堂气压极低，家庭权力对峙明显",
+  "visual_prompt_negative": "避免宫斗夸张感，避免多人插科打诨，避免热闹宾客",
+  "source_text_start": "我给女儿取名为昭昭。",
+  "source_text_end": "沈母只得退了一步。 没再提要将昭昭带走的事。"
+}

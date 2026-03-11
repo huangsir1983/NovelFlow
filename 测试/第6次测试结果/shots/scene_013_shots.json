@@ -1,0 +1,260 @@
+[
+  {
+    "id": "shot_0204",
+    "scene_id": "scene_013",
+    "shot_number": 1,
+    "goal": "建立黄昏下沈府内院与湖边相连的空间关系，明确环境由白日余温转入不祥冷意，预告湖面将成为危险中心。",
+    "composition": "WS，画面上部是迅速变暗的灰蓝天色，右侧前景悬着一盏未完全点亮的灯笼，左侧中景为院门与回廊，视觉引导线延伸向画面深处的湖边石阶；湖面位于画面中央偏下，冷灰反光占据大片留白，四周人物仅为稀薄剪影。",
+    "camera_movement": "crane",
+    "framing": "WS",
+    "emotion_target": "压出空间开阔却空寂的寒意，让观众先感到事情已经失控。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 204
+  },
+  {
+    "id": "shot_0205",
+    "scene_id": "scene_013",
+    "shot_number": 2,
+    "goal": "以高令宁的匆忙赶来切入主观叙事，传达她是在突发消息后仓促抵达，而非从容旁观。",
+    "composition": "MLS，机位略低，前景虚化掠过回廊柱影，高令宁自画面左侧冲入并向右前方湖边奔去，裙摆拖过地面形成斜线；背景可见零散小厮朝同一方向聚拢，灯笼暖色被冷天光压暗。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众进入她的呼吸与慌乱，感到事情来得太快。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 205
+  },
+  {
+    "id": "shot_0206",
+    "scene_id": "scene_013",
+    "shot_number": 3,
+    "goal": "强化高令宁身体上的急迫状态，让她的情绪先于台词成立。",
+    "composition": "CU，高令宁面部位于画面右侧三分之一，左侧留出她所奔向的空间；鬓边发丝被风吹乱，呼吸明显，背景湖边人影与石阶全部压成浅景深模糊块面。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "焦灼、心口发紧，观众应与她同步失衡。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 206
+  },
+  {
+    "id": "shot_0207",
+    "scene_id": "scene_013",
+    "shot_number": 4,
+    "goal": "揭示她停在岸边并第一次直面湖面，完成信息焦点转移：危险不再是消息，而是眼前的水。",
+    "composition": "MS，背拍高令宁，她居中略偏左站在石阶顶端，前景是被风掀动的裙摆边缘，画面下方石阶斜切入湖面，湖水占据右半与下半大面积空间，平静得异常；远处人群散落成弧形。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "失神、寒意、某种来不及阻止的空白。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 207
+  },
+  {
+    "id": "shot_0208",
+    "scene_id": "scene_013",
+    "shot_number": 5,
+    "goal": "以限制性主观方式凝视湖面，把陆姝仪之死转化为高令宁感知中的恐怖中心，而不直接过度展示尸体。",
+    "composition": "FS，镜头贴近高令宁视线高度俯向湖面，冷灰水纹占满画面，中央偏下有一片不自然的深色与漂浮衣料边缘，岸边石阶只在左下角切入，形成压迫性斜线；无完整人物正脸进入。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "让观众感到窒息和不祥，而非猎奇。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 208
+  },
+  {
+    "id": "shot_0209",
+    "scene_id": "scene_013",
+    "shot_number": 6,
+    "goal": "回到高令宁的反应，表现她一瞬间被钉住，既惊又无法立刻做出有效反应。",
+    "composition": "MCU，正面略侧拍高令宁，她站在画面左侧，右侧是大片失焦湖面反光；她眼神发直，嘴唇微启却无声，颈侧细痕被侧逆光扫出一道冷线。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "惊惧中夹杂失语，让观众看到她不是算计者而是被突变击中的人。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.74,
+    "order": 209
+  },
+  {
+    "id": "shot_0210",
+    "scene_id": "scene_013",
+    "shot_number": 7,
+    "goal": "通过人群骚动与脚步声引入沈词的到来，把情节从事故现场推进到关系对峙。",
+    "composition": "MLS，前景右侧是慌乱后退的小厮肩背与灯笼，形成遮挡；中景通道被让开，沈词自画面右向左疾步而来，衣摆压风，背景仍是湖边与低暗回廊，所有视线都朝向同一处。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "让观众感到另一次更具杀伤力的冲击正在逼近。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 210
+  },
+  {
+    "id": "shot_0211",
+    "scene_id": "scene_013",
+    "shot_number": 8,
+    "goal": "捕捉沈词在看清现场后神色骤冷的瞬间，确认他对这一切的情绪并非单纯悲痛，而是迅速转向判断与指认。",
+    "composition": "CU，沈词位于画面中央偏右，背景是模糊的冷色湖面与一抹灯笼暖光；他的目光先越过镜头前方，再明显定住，眼下阴影被侧逆光压深，表情从急切收成锋利。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "制造被审视、被判定的压迫感。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 211
+  },
+  {
+    "id": "shot_0212",
+    "scene_id": "scene_013",
+    "shot_number": 9,
+    "goal": "建立沈词与高令宁之间的视线关系，明确他的目光不是停在湖面，而是越过死亡直接钉向她，完成怀疑的落点。",
+    "composition": "MS，采用高令宁肩后反打，前景左侧是她失焦的肩颈轮廓，沈词站在中景正中偏右，身后湖面横向铺开；人群退成背景边缘，留出两人之间的空场，像一条无法跨越的水线。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "让观众清楚感到关系断裂就在这一眼里发生。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 212
+  },
+  {
+    "id": "shot_0213",
+    "scene_id": "scene_013",
+    "shot_number": 10,
+    "goal": "回到高令宁的主观受压状态，表现她意识到沈词正在怀疑自己。",
+    "composition": "CU，高令宁正面略仰角，画面左上方压入模糊的深色人影边缘，形成被逼视感；她眼神从湖面移向镜头外右侧，脸上的震惊开始收紧成防备。",
+    "camera_movement": "handheld",
+    "framing": "CU",
+    "emotion_target": "刺出委屈与不敢置信，让观众体会她被误读的第一秒。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 213
+  },
+  {
+    "id": "shot_0214",
+    "scene_id": "scene_013",
+    "shot_number": 11,
+    "goal": "通过一个带动作起势的中近景，表现高令宁下意识想解释，说明她仍试图挽回这一刻。",
+    "composition": "MCU，高令宁位于画面中央，右手从下方抬起进入胸前区域，动作被半途截住；背景右侧是一盏刚被点起的灯笼，暖色微弱，左侧是大片冷暗湖面，形成暖冷对撞但暖色无力。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感到她想说却来不及说，情绪被卡在喉间。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.93,
+    "order": 214
+  },
+  {
+    "id": "shot_0215",
+    "scene_id": "scene_013",
+    "shot_number": 12,
+    "goal": "用沈词的无声注视压断她的解释，把怀疑和怨恨从潜流推到明确的情感伤害。",
+    "composition": "CU，沈词几乎正面占据画面，眼神向画面左侧锁定高令宁；背景完全虚化，只保留一层冷灰与一点暗红灯影，突出他眼尾微红却更显冷硬的矛盾状态。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷暴力式的压迫，让观众感到解释在这目光前毫无效力。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 215
+  },
+  {
+    "id": "shot_0216",
+    "scene_id": "scene_013",
+    "shot_number": 13,
+    "goal": "完成高令宁动作僵住的关键节点，落实夫妻关系转折点：她不仅被怀疑，还在此刻失去被相信的可能。",
+    "composition": "ECU，高令宁抬起的手停在半空，指尖微颤，画面边缘带入她下颌与绷紧的唇线；背景完全化为冷色虚光，人物空间被压扁，像被困住。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "心口骤停般的刺痛，观众应感到这段关系在无声里裂开。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.98,
+    "order": 216
+  },
+  {
+    "id": "shot_0217",
+    "scene_id": "scene_013",
+    "shot_number": 14,
+    "goal": "以二人同框的冷收镜头锁定新的关系格局：一人被疑，一人判定，中间隔着死亡与湖面。",
+    "composition": "FS，侧向构图，高令宁站在画面左侧石阶上，手已缓缓垂下；沈词站在画面右侧更靠后位置，两人都不靠近对方，中间横着大片湖面反光与空场；前景下方有模糊石阶，背景远处小厮围拢成低矮黑影，灯笼成为零星暖点。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "冷收、悬断、不可修复的预感，为后续怨恨埋钉。",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词",
+      "沈府小厮"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.86,
+    "order": 217
+  }
+]

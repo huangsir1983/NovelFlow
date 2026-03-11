@@ -55,6 +55,9 @@ export interface Scene {
   dialogue: SceneDialogue[];
   order: number;
   tension_score?: number;
+  characters_present?: string[];
+  key_props?: string[];
+  dramatic_purpose?: string;
 }
 
 export interface SceneDialogue {
@@ -68,20 +71,20 @@ export interface Shot {
   scene_id: string;
   project_id: string;
   shot_number: number;
-  shot_size: string;
+  goal: string;
+  composition: string;
   camera_angle: string;
   camera_movement: string;
-  duration: number;
+  framing: string;
+  duration_estimate: string;
+  characters_in_frame: string[];
+  emotion_target: string;
+  dramatic_intensity: number;
+  transition_in: string;
+  transition_out: string;
   description: string;
-  dialogue?: string;
-  sound_narrative?: Record<string, unknown>;
-  mise_en_scene?: Record<string, unknown>;
-  tension_score?: number;
-  visual_motifs?: Record<string, unknown>;
-  cultural_preset?: string;
-  thrill_type?: string;
-  thrill_visual_strategy?: Record<string, unknown>;
-  visual_prompt?: string;
+  visual_prompt: string;
+  order: number;
 }
 
 export interface Character {
@@ -94,6 +97,23 @@ export interface Character {
   personality: string;
   arc: string;
   relationships: CharacterRelationship[];
+  // Extended fields
+  age_range?: string;
+  appearance?: {
+    face?: string;
+    body?: string;
+    hair?: string;
+    distinguishing_features?: string;
+  };
+  costume?: {
+    typical_outfit?: string;
+    color_palette?: string[];
+    texture_keywords?: string[];
+  };
+  casting_tags?: string[];
+  visual_reference?: string;
+  desire?: string;
+  flaw?: string;
 }
 
 export interface CharacterRelationship {
@@ -109,6 +129,9 @@ export interface Location {
   description: string;
   visual_description: string;
   mood: string;
+  chapter_id?: string;
+  sensory?: string;
+  narrative_function?: string;
 }
 
 export interface KnowledgeBase {
@@ -119,3 +142,44 @@ export interface KnowledgeBase {
   world_building: Record<string, unknown>;
   style_guide: Record<string, unknown>;
 }
+
+export interface ShotGroup {
+  id: string;
+  project_id: string;
+  scene_id?: string;
+  shot_ids: string[];
+  segment_number: number;
+  duration: string;
+  transition_type: string;
+  emotional_beat: string;
+  continuity: string;
+  vff_body: string;
+  merge_rationale: string;
+  style_metadata: Record<string, unknown>;
+  visual_prompt_positive: string;
+  visual_prompt_negative: string;
+  style_tags: string[];
+  order: number;
+}
+
+// Import task types for async pipeline
+export interface ImportTaskInfo {
+  task_id: string;
+  status: 'pending' | 'running' | 'completed' | 'failed';
+  current_phase: string;
+}
+
+export interface ImportStatusInfo extends ImportTaskInfo {
+  progress: Record<string, number>;
+  error?: string | null;
+}
+
+export type ImportSSEEvent =
+  | { type: 'phase_start'; phase: string }
+  | { type: 'phase_done'; phase: string; data?: Record<string, unknown> }
+  | { type: 'item_ready'; phase: string; sub?: string; data?: Record<string, unknown> }
+  | { type: 'chapter_progress'; phase: string; index: number; total: number; beats?: number; scenes?: number }
+  | { type: 'window_progress'; phase: string; index: number; total: number; scenes_in_window?: number }
+  | { type: 'scene_progress'; phase: string; index: number; total: number; shots?: number }
+  | { type: 'pipeline_complete'; summary: Record<string, number> }
+  | { type: 'error'; message: string; phase?: string; retryable?: boolean };

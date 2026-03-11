@@ -1,0 +1,39 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "沈夫人"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "端庄贵气，略显刻薄",
+    "body": "富态",
+    "hair": "贵妇发髻",
+    "distinguishing_features": "威严眼神"
+  },
+  "costume": {
+    "typical_outfit": "华贵夫人服饰",
+    "color_palette": [
+      "绛红",
+      "金黄"
+    ]
+  },
+  "casting_tags": [
+    "古风婆母",
+    "次要反派"
+  ],
+  "visual_reference": "middle-aged wealthy Chinese matriarch in luxurious ancient robes, dignified yet stern face, elaborate hairdo with jewels, highly detailed cinematic ancient drama style, 8k",
+  "personality": "势利护子",
+  "desire": "家族门楣",
+  "flaw": "偏心义妹",
+  "arc": "理亏退让",
+  "scene_presence": "和离后索孙女",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母亲",
+      "dynamic": "宠溺",
+      "function": "家庭压力"
+    }
+  ]
+}

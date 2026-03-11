@@ -1,0 +1,39 @@
+{
+  "name": "昭昭",
+  "aliases": [
+    "小千金"
+  ],
+  "role": "minor",
+  "age_range": "3-5",
+  "appearance": {
+    "face": "粉雕玉琢，阳光开朗",
+    "body": "圆润可爱",
+    "hair": "双丫髻",
+    "distinguishing_features": "无忧无虑的笑容"
+  },
+  "costume": {
+    "typical_outfit": "色彩鲜艳的冬装/童装",
+    "color_palette": [
+      "明黄",
+      "大红"
+    ]
+  },
+  "casting_tags": [
+    "萌娃",
+    "治愈系"
+  ],
+  "visual_reference": "1girl, ancient chinese toddler, cute, bright smile, red winter clothes, playing in snow, 8k",
+  "personality": "活泼，聪明",
+  "desire": "玩耍",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "江南生活",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母亲",
+      "dynamic": "被宠爱",
+      "function": "女主新生的象征"
+    }
+  ]
+}

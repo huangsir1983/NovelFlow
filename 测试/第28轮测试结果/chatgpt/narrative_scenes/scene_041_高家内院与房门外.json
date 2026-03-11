@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_041",
+  "order": 40,
+  "heading": "INT. 高家内院 - day",
+  "location": "高家内院与房门外",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "拿到和离书后我闭门养身，父亲严防沈词，只让他偶尔见女儿；他则继续流水般送补品，试图维持联系。",
+  "key_dialogue": "无",
+  "emotional_peak": "和离已成事实，但情感与责任的纠缠并未断开。",
+  "tension_score": 0.52,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "补品",
+    "房门守卫",
+    "和离书"
+  ],
+  "dramatic_purpose": "过渡到新生活阶段，表现沈词的持续追索。",
+  "visual_reference": "内院安静，守卫在门外，侍从把成箱补品送入院中，房门紧闭，男子远远站着无法靠近，疏离感明确",
+  "visual_prompt_negative": "避免宫廷后宫感，避免拥挤送礼队伍，避免喜庆气氛",
+  "source_text_start": "拿到和离书后。 我开始养身体，闭门不出",
+  "source_text_end": "只能等我什么时候心情好了，放他和女儿见一面。"
+}

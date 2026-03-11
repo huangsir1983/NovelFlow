@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_015",
+  "name": "高家厅堂",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "高家正式厅堂，类似正堂但更宽敞，中央桌案摆和离书，座椅对置，适合家族谈判与跪求。",
+  "visual_reference": "明代中晚期江南官宦世家府邸厅堂内部，宽敞正式空间，红木桌案摆和离书，左右座椅对置，墙悬匾额，青砖地，日光庄严，古典家族议事氛围",
+  "visual_prompt_negative": "现代家具、彩灯、西方风格",
+  "atmosphere": "家族对峙、僵硬短笑",
+  "color_palette": [
+    "红木色",
+    "和离白",
+    "金匾黄"
+  ],
+  "lighting": "白天自然日光，正式明亮",
+  "key_features": [
+    "和离书桌案",
+    "家族座椅",
+    "官匾墙饰"
+  ],
+  "narrative_scenes": [
+    "scene_016"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "父亲拒要孙女到沈词跪求和离书的僵硬短笑"
+}

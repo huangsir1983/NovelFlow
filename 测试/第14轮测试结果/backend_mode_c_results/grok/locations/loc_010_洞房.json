@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_010",
+  "name": "洞房",
+  "type": "interior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "传统洞房，中央雕花大床挂红绸喜帐，红烛台与喜果，地上撒五谷，空间私密喜庆却带冷淡。",
+  "visual_reference": "明代中晚期江南官宦世家府邸洞房内部，私密喜庆空间，雕花大床挂红绸喜帐与丝带，红烛高照，案上喜果，地上撒五谷，窗帘遮光，整体红暖古典却隐冷清",
+  "visual_prompt_negative": "现代卧室、LED灯、西方婚床",
+  "atmosphere": "喜庆转冷淡、轻嗤无所谓",
+  "color_palette": [
+    "喜庆红色",
+    "烛光橙黄",
+    "深木色"
+  ],
+  "lighting": "夜晚红烛暖光为主，柔和暧昧却孤寂",
+  "key_features": [
+    "雕花喜床",
+    "红烛台",
+    "喜绸帐幔"
+  ],
+  "narrative_scenes": [
+    "scene_010"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "洞房后陆婢女来叫到女主催沈去的轻嗤无所谓"
+}

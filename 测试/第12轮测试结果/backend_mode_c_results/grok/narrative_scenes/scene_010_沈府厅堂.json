@@ -1,0 +1,22 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府厅堂 - 日间",
+  "location": "沈府厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词为陆择婿，女主建议纳妾被拒，怀孕消息",
+  "key_dialogue": "我与姝仪并无男女之情。",
+  "emotional_peak": "女主失笑想开",
+  "tension_score": 0.5,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "扇子",
+    "茶盏",
+    "择婿名单"
+  ],
+  "dramatic_purpose": "孕期情感缓和"
+}

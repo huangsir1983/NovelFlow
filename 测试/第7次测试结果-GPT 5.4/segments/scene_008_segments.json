@@ -1,0 +1,47 @@
+[
+  {
+    "id": "seg_0030",
+    "scene_id": "scene_008",
+    "shot_ids": [
+      "shot_0112",
+      "shot_0113",
+      "shot_0114"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间、关系格局与异常征兆，角色集合不变，情绪从表面平静递进到可被看见的心神不宁，适合压缩为同一段连续观察；以环境到人物再到手部细节，符合‘女主先知—观众后证实’的悬疑主观铺垫。",
+    "order": 30
+  },
+  {
+    "id": "seg_0031",
+    "scene_id": "scene_008",
+    "shot_ids": [
+      "shot_0115",
+      "shot_0116",
+      "shot_0117",
+      "shot_0118",
+      "shot_0119"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段合并中段所有‘试探—察觉—物证化’镜头，情绪弧线稳定上升但尚未转折，角色与空间均未变化，适合作为一个完整的高压慢燃单元；同时遵循‘听者比说者重要’，重点放在高令宁的观察反应和环境道具的叙事功能上。",
+    "order": 31
+  },
+  {
+    "id": "seg_0032",
+    "scene_id": "scene_008",
+    "shot_ids": [
+      "shot_0120",
+      "shot_0121",
+      "shot_0122",
+      "shot_0123"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处出现明确情感转折与动作转折：由压抑对坐进入离场空落，因此作为独立段落处理。四个shot共享同一离场事件链，空间连续、角色集合在尾端收束为高令宁独留，完成因果钩子与悬疑余波，适合作为结段。",
+    "order": 32
+  }
+]

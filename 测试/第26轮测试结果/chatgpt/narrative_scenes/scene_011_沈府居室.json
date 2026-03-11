@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 沈府居室 - day",
+  "location": "沈府居室",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈母",
+    "太医"
+  ],
+  "core_event": "婚后沈词为陆姝仪择婿焦头烂额，我甚至替他出主意把陆姝仪假死纳入府中，但他仍嘴硬否认情意。随后我怀孕，太医诊出是男孩，沈词以为我会借子赖在沈府，我却明确表示做完月子就走。",
+  "key_dialogue": "以后都不会恨你了。",
+  "emotional_peak": "我宣布不再恨他，反而让沈词失措失控。",
+  "tension_score": 0.83,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "折扇",
+    "虎头帽",
+    "太医诊脉",
+    "怀孕消息"
+  ],
+  "dramatic_purpose": "将关系从相互敌视推进到一方突然放下，制造新的情感失衡。",
+  "visual_reference": "春日室内，女子绣虎头帽，男子从门边走来相拥却被疏离，空气里有奇异冷暖反差。",
+  "visual_prompt_negative": "不要现代婴儿用品，不要甜宠偶像剧滤镜，不要浮夸表演，不要玄幻妆造",
+  "source_text_start": "9.\n沈词开始给陆姝仪择婿。\n那些青年，他",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分不可置信，「谁准你想开了？」"
+}

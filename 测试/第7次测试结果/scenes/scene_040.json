@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "id": "scene_040",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:38"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_009",
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "related_beats": [
+      "beat_012"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府厢房 - DUSK",
+    "location": "高府厢房",
+    "time_of_day": "dusk",
+    "description": "高府偏僻厢房，封闭狭窄，傍晚光线昏暗，门一开只见外头提灯的暖黄光切进室内。屋内空气滞重，床榻与屏风杂乱，显示出曾有人在此失控停留。人物倒卧其中，形成强烈视觉冲击。",
+    "action": "搜查的下人推开厢房门，众人终于在房内找到陆姝仪与蒋晟。陆姝仪昏迷不醒，衣衫凌乱；蒋晟同样失去意识，衣冠不整，倒在近旁。高令宁赶到门口，脚步骤停，神色骤然发白，呼吸一窒。她猛地转头去看沈睿。沈睿站在门边，面若冰霜，也正盯着她，眼神冷硬而复杂。屋内无人说话，只有下人压低的惊呼与急促呼吸声。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "沈睿",
+      "陆姝仪",
+      "蒋晟"
+    ],
+    "key_props": [
+      "床榻",
+      "屏风",
+      "提灯",
+      "凌乱衣物"
+    ],
+    "dramatic_purpose": "制造章节核心转折与危机揭示，以强烈视觉证据引爆“失贞风波”，同时把矛头、误解与后续责任追索全部推向高令宁与沈睿。",
+    "tension_score": 0.95,
+    "dramatic_intensity": 0.9,
+    "order": 40
+  }
+}

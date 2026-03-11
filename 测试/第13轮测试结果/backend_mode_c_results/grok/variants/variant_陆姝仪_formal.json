@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_01",
+  "variant_type": "formal",
+  "variant_name": "陆姝仪 — 敬茶侍奉",
+  "tags": [
+    "敬茶",
+    "正式",
+    "谦卑"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "前世婚后第二天在沈府正堂为高令宁敬  茶时",
+  "appearance_delta": {
+    "face": "温婉清丽，泪眼盈盈带着谦卑紧张",
+    "body": "柔弱纤细，姿态恭顺",
+    "hair": "柔顺黑发整齐轻挽",
+    "distinguishing_features": "双手捧茶杯，低头侍奉"
+  },
+  "costume_override": {
+    "outfit": "粉色端庄衣裙",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "一位温婉清丽的古代少女，穿着粉色端庄衣裙站在沈府正堂，脸庞清丽柔弱，杏眼含泪楚楚可怜，黑发整齐轻挽，身姿纤细微微躬身双手捧着茶杯敬茶，光影柔美略带紧张与忧伤",
+  "visual_prompt_negative": "强势表情、现代装、浓妆、壮实身材、随意动作、欢快表情",
+  "emotional_tone": "谦卑紧张"
+}

@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "id": "scene_038",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:12:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_007",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_014"
+    ]
+  },
+  "data": {
+    "heading": "INT. 新房 - 夜",
+    "location": "沈家新婚洞房门口及房内",
+    "time_of_day": "night",
+    "description": "同一婚房夜景，室内红烛未尽，床榻凌乱，房门外有婢女叩门。内外空间形成明显分隔：房内余温未退，门外跪着传话人，带来另一名女子的召唤。气氛由私密迅速转为讽刺与冷战。",
+    "action": "门外突然传来叩门声。婢女跪在门外，隔着门板禀报陆姝仪喝醉心口痛，请沈词过去。高令宁在床上拉好被子，发出一声轻嗤，神态冷眼旁观。她背对沈词，直接让他去，并说不必回来了。沈词站在床边，盯着她的背影，神色讥诮，提起她前世告状之事。高令宁不回头，只淡淡表示反正早晚和离，不值得费心。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "",
+        "subtext": "未出场但通过召唤打断新婚夜，宣示她对沈词的情感控制力。"
+      },
+      {
+        "character": "沈府小厮",
+        "line": "",
+        "subtext": "本场未出场。"
+      },
+      {
+        "character": "高令宁",
+        "line": "你去吧。也不必回来了。",
+        "subtext": "我不阻拦你，也不再争你。"
+      },
+      {
+        "character": "沈词",
+        "line": "怎么，又想等我去姝仪那里后，再去我父亲母亲前告状？",
+        "subtext": "我默认你会吃醋闹事，也在防备你借题发挥。"
+      },
+      {
+        "character": "高令宁",
+        "line": "你我早晚要和离，我费那心思做什么？",
+        "subtext": "我对你已无占有欲，只把这段婚姻视为必然终结。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "房门",
+      "被子",
+      "红烛"
+    ],
+    "dramatic_purpose": "新婚夜立刻引入第三者压力，确认三角关系的旧模式仍在延续，同时凸显女主这一世的态度转变。",
+    "tension_score": 0.74,
+    "dramatic_intensity": 0.48,
+    "order": 38
+  }
+}

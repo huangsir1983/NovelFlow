@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0048",
+    "shot_id": "shot_0015",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, medium close-up, facing along the established dialogue axis, seen from a slightly low angle below eye level. He sits behind a scholar's desk with his shoulder line slightly collapsed from fatigue, his expression gentle yet guilty, as if offering belated protection to his daughter; his lips soften but his brow remains faintly burdened. Blurred official documents occupy the lower foreground like a barrier between him and his daughter. Interior of an ancient noble hall, old wood desk, muted gray-teal and dark ink tones, low-saturation warm-cool contrast, soft natural window light mixed with dim amber interior glow, side-back light shaping the wrinkles at his eyes and the weariness in his face. cinematic historical drama realism, Song dynasty aesthetic, restrained emotional tension, shallow depth of field, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side window light with faint amber interior fill, gentle backlight, restrained natural daylight in a noble household interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern furniture, electricity, LED lights, glass office windows, contemporary clothing, plastic, metal pens, printed text, watermark, logo, subtitles, low quality, blurry face, bad anatomy, extra fingers, deformed hands, oversaturated colors"
+  },
+  {
+    "id": "sp_0049",
+    "shot_id": "shot_0016",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, medium close-up, positioned on the right side of the frame with empty eyeline space to the left. She is visibly moved for one brief moment, then suppresses it; her back and shoulders remain upright, her throat shows a slight rise of breath, her gaze shifts from her father's eye wrinkles toward the blank memorial paper, turning from tenderness into resolve. A blurred glossy inkstone catches black reflections in the foreground corner like compressed emotion. Ancient noble study hall interior, deep charcoal background, old wood textures, muted teal, ink black, cold white skin tones, low-saturation warm-cool contrast, natural window light with minimal amber interior warmth, controlled shadows and preserved negative space. cinematic historical drama realism, Song dynasty aesthetic, psychologically restrained, shallow depth of field, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft natural side window light, cool ambient shadows with faint amber interior undertone, restrained and clean negative space"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern jewelry design, electric lamps, plastic, contemporary makeup style, printed text, watermark, logo, subtitles, low quality, blurry image, bad anatomy, deformed hands, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0050",
+    "shot_id": "shot_0017",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, and a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, medium shot in a side-profile two-shot across a desk. Gao Lingning stands in the left foreground at a slightly higher position, leaning forward half a step as she speaks with polite pressure and cold precision; the father sits on the right, lifting his eyes toward her, receiving the sharpened condition. A scholar's desk runs horizontally through the midground as a boundary line. Lattice window light cuts them into different zones of brightness and shadow, visualizing confrontation while preserving the 180-degree axis. Ancient noble hall interior, old wood desk, memorial papers, muted gray-teal, dark black, old brown wood, a touch of amber glow, low-saturation warm-cool contrast, natural daylight and divided shadow planes, tense stillness. cinematic historical drama realism, Song dynasty aesthetic, restrained power struggle, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain, composed blocking",
+      "lighting": "low-saturation warm-cool contrast, split window light through lattice, side-back natural daylight with faint amber interior warmth, controlled shadow division across the characters"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern room design, contemporary props, electric light fixtures, plastic, wristwatch, printed text, watermark, logo, subtitles, low quality, blurry, bad anatomy, extra fingers, malformed faces, oversaturated red"
+  },
+  {
+    "id": "sp_0051",
+    "shot_id": "shot_0018",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, close-up in a three-quarter side view. His eyes lift and freeze upward, his brows draw inward, the impact of a grave realization passing through him; shock, hesitation, and heavy understanding settle into his face, with a faint wet reflection in his eyes. The blurred lower-right foreground is the sleeve edge of his daughter, pressing into the frame like silent pressure. Background remains dark, with a single narrow strip of window light illuminating only part of his face and catching the moisture in his gaze. Ancient noble interior, muted gray-teal, charcoal black, old wood brown, low-saturation warm-cool contrast, sparse light and dense shadow, severe emotional stillness. cinematic historical drama realism, Song dynasty aesthetic, intense emotional realism, shallow depth of field, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, close portrait, shallow depth of field, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, narrow side window light against a dark background, minimal amber fill, strong shadow density with a single reflective catchlight"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern eyewear, electric lights, plastic materials, printed text, watermark, logo, subtitles, low quality, blurry face, bad anatomy, deformed features, extra limbs, oversaturated colors"
+  },
+  {
+    "id": "sp_0052",
+    "shot_id": "shot_0019",
+    "prompt_text": "A dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, close-up of his hand writing with a traditional calligraphy brush. The brush enters from the lower right and moves toward the upper left, laying down uneven ink strokes across paper that fills the frame; the pace feels slow and hesitant, the knuckles slightly tense, the dark teal sleeve pressing against the desk edge. Light cuts diagonally from above, casting a long thin shadow from the brush tip across the memorial paper. Ancient scholar's desk setting, old xuan paper, wet black ink with visible density changes, muted gray-teal and old wood brown, low-saturation warm-cool contrast, solemn natural light with restrained amber undertone, tactile realism. cinematic historical drama realism, macro-like detail, Song dynasty aesthetic, decision and sacrifice embodied through action, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, close detail shot, tactile texture, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, diagonal top light with soft natural window influence, restrained amber ambient fill, crisp brush shadow on paper"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, fountain pen, ballpoint pen, printed paper, modern desk, plastic, electric lamp, printed text, watermark, logo, subtitles, low quality, blurry, bad anatomy, deformed hand, extra fingers, oversaturated colors"
+  },
+  {
+    "id": "sp_0053",
+    "shot_id": "shot_0020",
+    "prompt_text": "A tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, medium close-up positioned on the left side of the frame. She looks downward toward the desk below, waiting in taut silence; her hands are folded before her body, but her fingertips secretly tighten inside her sleeves, and her expression remains controlled, tense, and unable to relax before the final stroke is complete. In the lower-right foreground, the moving brush tip is blurred, indicating the father still writing. The background recedes into a dark, near-empty hall, deep charcoal negative space making her pale face appear colder and more suspended in time. Ancient noble hall interior, muted gray-teal, dark ink black, old wood brown, low-saturation warm-cool contrast, soft natural window light with faint amber interior residue, restrained depth and silence. cinematic historical drama realism, Song dynasty aesthetic, emotional suspension, shallow depth of field, highly detailed, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, shallow depth of field, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, soft side window light, cool ambient darkness with very faint amber interior warmth, strong negative space and restrained contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lighting, modern furniture, plastic, contemporary fabrics, printed text, watermark, logo, subtitles, low quality, blurry image, bad anatomy, extra fingers, malformed hands, oversaturated colors"
+  }
+]

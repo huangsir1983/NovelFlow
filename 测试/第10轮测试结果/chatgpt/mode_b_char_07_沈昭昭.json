@@ -1,0 +1,55 @@
+{
+  "name": "沈昭昭",
+  "aliases": [
+    "昭昭",
+    "小千金",
+    "女儿"
+  ],
+  "role": "supporting",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "婴儿时期粉雕玉琢，眼睛明亮，长大后活泼灵动，眉眼机敏",
+    "body": "幼童圆润健康，行动利落",
+    "hair": "细软乌发，后期梳简单童髻",
+    "distinguishing_features": "聪明早慧，笑起来灿烂，带来明亮生命力"
+  },
+  "costume": {
+    "typical_outfit": "婴儿小襁褓、绣花小袄、江南童装",
+    "color_palette": [
+      "嫩黄",
+      "粉白",
+      "水绿"
+    ]
+  },
+  "casting_tags": [
+    "治愈系萌娃",
+    "早慧女儿",
+    "新生希望"
+  ],
+  "visual_reference": "Ancient Chinese little girl, bright lively eyes, adorable child in colorful traditional clothes, warm sunlight, hopeful family drama tone",
+  "personality": "聪颖、活泼、亲人、好奇心强",
+  "desire": "孩童式地渴望被爱与陪伴",
+  "flaw": "年幼，尚未形成明显缺陷",
+  "arc": "从意外降生替代了父母执念中的沈睿，到成为高令宁新人生的中心，也成为沈词持续追索家庭的纽带",
+  "scene_presence": "出生、满月、江南成长与雪地玩耍等段落出现，象征新人生",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "彼此治愈，女主将全部新生寄托于她",
+      "function": "重塑女主人生价值"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "带来迟来的柔软与纠缠借口",
+      "function": "维系男女主后续联系"
+    },
+    {
+      "target": "高父",
+      "type": "外祖父与外孙女",
+      "dynamic": "被外祖家坚定保护",
+      "function": "象征高家新核心"
+    }
+  ]
+}

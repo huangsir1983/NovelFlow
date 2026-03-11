@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "EXT. 侯爵娘子马球会 - 日",
+  "location": "马球会场地",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁与蒋晟亲密，沈词目睹，高令宁脚崴",
+  "key_dialogue": "蒋公子，我脚好像崴了",
+  "emotional_peak": "嫉妒与试探",
+  "tension_score": 0.6,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "风筝",
+    "葡萄"
+  ],
+  "dramatic_purpose": "展现三角关系，制造误会",
+  "source_text_start": "沈家公子认了位义妹。消息传到我耳中，我面不改色地道",
+  "source_text_end": "风拂过发梢。沈词似乎笑了下：「装什么装？」「你身上哪里，我没碰过？」"
+}

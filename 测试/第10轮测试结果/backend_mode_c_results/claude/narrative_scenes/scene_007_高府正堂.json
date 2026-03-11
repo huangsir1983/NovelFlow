@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "媒人",
+    "沈词"
+  ],
+  "core_event": "媒人第三次提亲,聘礼如山,高令宁同意婚事",
+  "key_dialogue": "罢了,沈公子明日便来提亲吧",
+  "emotional_peak": "高令宁疲倦地妥协",
+  "tension_score": 0.6,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "如山聘礼",
+    "活雁",
+    "金银珠宝",
+    "绸缎",
+    "茶具"
+  ],
+  "dramatic_purpose": "婚事敲定,高令宁放弃争斗"
+}

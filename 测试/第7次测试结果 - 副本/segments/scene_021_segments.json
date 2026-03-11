@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0106",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0359",
+      "shot_0360",
+      "shot_0361"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot处于同一案前时空与同一情绪建立段，先交代封闭深宅与高压府务环境，再自然推进到高令宁进入工作状态，最后落到手部与道具细节，形成从空间到人物到执行动作的连续建立，适合作为一个完整开场segment。",
+    "order": 106
+  },
+  {
+    "id": "seg_0107",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0362",
+      "shot_0363",
+      "shot_0364",
+      "shot_0365"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot都围绕案前管理展开，角色集合未变，情绪从效率掌控滑向疲态初现，但仍属同一管理节拍。合并后可形成‘问事—反应—示意—再压下疲惫’的内部起伏，符合听者反应优先与权威建立逻辑。",
+    "order": 107
+  },
+  {
+    "id": "seg_0108",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0365",
+      "shot_0366",
+      "shot_0367",
+      "shot_0368"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段从持续掌控推进到事务吞没，再在末尾完成情绪转折——由强势管理切到身体预警。虽包含重复的疲态镜头，但在VFF中以节奏递进方式重组，可让压迫累积后落到按压额角这一明确节点，作为后续起身段落的边界。",
+    "order": 108
+  },
+  {
+    "id": "seg_0109",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0369",
+      "shot_0370",
+      "shot_0371"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里是明显的情感弧线转折：从案前静态高压进入起身失衡后的强撑前行，同时发生小型空间迁移。三个shot共同构成‘失衡—恢复体面—继续巡视’的完整动作链，应合并为一个过桥segment，强化她不会停手的性格。",
+    "order": 109
+  },
+  {
+    "id": "seg_0110",
+    "scene_id": "scene_021",
+    "shot_ids": [
+      "shot_0370",
+      "shot_0371",
+      "shot_0372",
+      "shot_0373"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后四个shot构成全场真正的情绪落点：扶腹预警、面部确认、主动压下、背影冷收。虽略超6秒常规容量，但它们在因果上不可拆分，属于同一悲剧性主动选择的完整段落，也是场景核心戏眼，必须保留连续性与余波。",
+    "order": 110
+  }
+]

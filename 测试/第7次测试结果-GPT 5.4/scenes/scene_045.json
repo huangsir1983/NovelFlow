@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "id": "scene_045",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:42"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_013",
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪",
+      "昭昭"
+    ],
+    "related_beats": [
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "INT. 宴厅 - DAY",
+    "location": "昭昭满月宴宴厅",
+    "time_of_day": "day",
+    "description": "开阔的宴会厅，宾客往来，陈设喜庆，满月宴的布置鲜明。厅内光线明亮，人群形成半公开的社交场域。高父靠近高令宁一侧，站位具有明显保护姿态。陆姝仪持请帖进入，身形单薄，面色偏白，与热闹的宴席氛围形成反差。",
+    "action": "昭昭满月宴上，陆姝仪手持蒋晟的请帖不请自来，穿过宾客视线走入宴厅。高父见状脸色骤沉，抬手示意下人将她赶出去。高令宁出声制止。陆姝仪停下脚步，看向高父护在高令宁身前的姿态，嘴角牵起一丝笑意。",
+    "dialogue": [
+      {
+        "character": "陆姝仪",
+        "line": "我真羡慕你，有亲人相护。",
+        "subtext": "她在点出自己缺乏依靠，同时以自身不幸为后续辩解铺路。"
+      },
+      {
+        "character": "陆姝仪",
+        "line": "不似我自小父母离世，寄人篱下，除了阿词，无人肯真心待我。",
+        "subtext": "她试图将自己的所作所为置于可被同情的处境中，并强调自己曾将沈词视作唯一依靠。"
+      },
+      {
+        "character": "高令宁",
+        "line": "这就是你陷害我的理由？",
+        "subtext": "高令宁直接撕开表面寒暄，逼问她为恶的真正动机。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父",
+      "陆姝仪",
+      "昭昭"
+    ],
+    "key_props": [
+      "满月宴席面",
+      "请帖"
+    ],
+    "dramatic_purpose": "制造正面交锋的公开场域，引出陆姝仪的主动现身与坦白，为真相揭露做铺垫。",
+    "tension_score": 0.68,
+    "dramatic_intensity": 0.36,
+    "order": 45
+  }
+}

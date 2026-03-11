@@ -1,0 +1,72 @@
+[
+  {
+    "id": "seg_0208",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0645",
+      "shot_0646",
+      "shot_0647"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共同完成空间建立与入侵预告：先交代礼制场域，再回到女主主观确认安全区，最后以请帖替人物先入场，情绪由表面热闹滑入冷意。角色集合尚未真正变化，适合合并为一个‘闯入前’连续段落。",
+    "order": 208
+  },
+  {
+    "id": "seg_0209",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0648",
+      "shot_0649",
+      "shot_0650"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头构成完整的‘入场—被看见—被主角确认’动作链。新角色正式入场，角色集合变化明显，且情绪从潜伏冷意进入公开注视压力，因此独立成段最清晰。",
+    "order": 209
+  },
+  {
+    "id": "seg_0210",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0651",
+      "shot_0652",
+      "shot_0653"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头都服务于高父从识别到下令再到执行的同一情绪弧线，冲突明确升级但尚未被打断，是一个完整的父权反应段。角色关系未变，动作连续性极强，适合合并。",
+    "order": 210
+  },
+  {
+    "id": "seg_0211",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0654",
+      "shot_0655",
+      "shot_0656"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这里出现明确情感换挡：从驱赶动作转入高令宁制止，再落到全场静止对峙。高令宁接管局面是转折点，但人物阵营未变，且后两镜都在放大这一制止的后果，因此合并为一个‘止动成势’段落。",
+    "order": 211
+  },
+  {
+    "id": "seg_0212",
+    "scene_id": "scene_045",
+    "shot_ids": [
+      "shot_0657",
+      "shot_0658",
+      "shot_0659"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜头完成从群体审视到个人情绪读解，再到女主回应的冷收束，属于同一心理对峙段。动作已停，叙事重心转为眼神与潜台词，合并后能形成明确的尾钩，为后续自白铺台。",
+    "order": 212
+  }
+]

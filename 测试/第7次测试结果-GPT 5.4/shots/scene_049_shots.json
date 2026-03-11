@@ -1,0 +1,239 @@
+[
+  {
+    "id": "shot_0715",
+    "scene_id": "scene_049",
+    "shot_number": 1,
+    "goal": "建立高家前厅的礼制空间与主客对峙格局，明确高父居中坐镇、沈母入厅求见却处于下风。",
+    "composition": "FS对称构图，前景以门框形成天然遮挡，门外斜照日光切入地面；中景偏后位置为厅堂主位，高父居中端坐，座椅与案几构成稳定横轴；沈母立于画面右侧中前景，距离主位有明显空隙，形成礼制上的隔断；左侧留白与侧窗光束强调厅内半封闭压迫感。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、拘束、来者不善却无从发力的冷硬气氛。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 715
+  },
+  {
+    "id": "shot_0716",
+    "scene_id": "scene_049",
+    "shot_number": 2,
+    "goal": "交代高父在空间与气场上的绝对主导地位，为后续语言压制建立视觉依据。",
+    "composition": "MLS正面微低机位，高父位于画面中央略偏左，背后主位屏风和整齐陈设形成垂直线条；前景虚化带入案几边角，强化层次；高父肩背不动，双手稳置扶手或膝上，视线直指画外沈母。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "稳、硬、不可撼动的威压。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.34,
+    "order": 716
+  },
+  {
+    "id": "shot_0717",
+    "scene_id": "scene_049",
+    "shot_number": 3,
+    "goal": "呈现沈母表面含笑、内里紧绷的试探姿态，说明她此行并非占优一方。",
+    "composition": "MS三分之二侧面构图，沈母立于画面右侧，面朝左望向高父；前景左侧虚化带入高父肩线，保持180度轴线；背景为侧窗与暗色厅壁，斜光打在她半边面上，另一半落入阴影，唇角笑意勉强悬着。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "体面之下的焦灼与被迫周旋。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.31,
+    "order": 717
+  },
+  {
+    "id": "shot_0718",
+    "scene_id": "scene_049",
+    "shot_number": 4,
+    "goal": "以对话正打镜头输出高父第一轮压制，抛出足以毁掉沈家体面的把柄。",
+    "composition": "MCU正面略低角度，高父位于画面中央，肩线平稳；背景屏风纹样简洁，不分散注意力；画面右下留少量空隙给视线方向，体现他在对画外人施压。嘴唇动作克制，眉心川字纹收紧。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷硬、审判感、话语像钉子一样一寸寸压下去。",
+    "duration_hint": "6-8s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 718
+  },
+  {
+    "id": "shot_0719",
+    "scene_id": "scene_049",
+    "shot_number": 5,
+    "goal": "捕捉沈母在听到“官途要是不要”时的第一层反应，显示她被击中命门却还要维持贵妇仪态。",
+    "composition": "CU反应镜头，沈母位于画面右侧，朝左看；前景下方可见她攥紧帕子或衣袖的一角，背景虚化成侧窗冷光；唇角仍试图维持上扬，但眼尾和法令纹明显绷紧。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "被刺痛后的强自镇定、体面摇晃。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 719
+  },
+  {
+    "id": "shot_0720",
+    "scene_id": "scene_049",
+    "shot_number": 6,
+    "goal": "让沈母提出‘昭昭毕竟是沈家的血脉’，把谈判焦点明确落到孩子归属与家族控制权上。",
+    "composition": "MCU正反打，沈母位于画面右侧偏中，微微前倾但不失礼；前景左侧虚化保留高父肩部轮廓；背景线条竖直，人物被窗框和柱线切割，强调她受礼法与处境束缚。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "试探性争取、最后一层体面上的要价。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.49,
+    "order": 720
+  },
+  {
+    "id": "shot_0721",
+    "scene_id": "scene_049",
+    "shot_number": 7,
+    "goal": "用高父的沉默与不动先于回答，体现他根本不接受讨价还价的态度。",
+    "composition": "CU高父反应镜头，画面中心略偏左，目光平直压向画外；前景有案几边缘虚焦，背景沉暗；他不立刻开口，只是眼神更冷，呼吸极轻，形成语前压迫。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "无可转圜、压得人心里发沉。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 721
+  },
+  {
+    "id": "shot_0722",
+    "scene_id": "scene_049",
+    "shot_number": 8,
+    "goal": "明确高家对昭昭抚养权的硬性宣告，并点明和离后的归属已由高家定下。",
+    "composition": "MCU正面高父，略微推进后的更近景别；人物仍居中，肩背不动，只有唇线与目光收得更紧；背景主位线条稳定如判词。台词落在‘昭昭归高家’时，画面静止形成重量。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "裁决感、不可更改的定论。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 722
+  },
+  {
+    "id": "shot_0723",
+    "scene_id": "scene_049",
+    "shot_number": 9,
+    "goal": "展示沈母在‘昭昭归高家’之后笑意开始失守，谈判已明显走向失败。",
+    "composition": "CU沈母，面部占据画面中央偏右，朝左看；斜光照出她眼下疲态与唇边轻微抽动；前景中下方的手指微收，指节泛白。背景留出一块冷色空墙，突出她的孤立。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "难堪、失控前的强撑。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.71,
+    "order": 723
+  },
+  {
+    "id": "shot_0724",
+    "scene_id": "scene_049",
+    "shot_number": 10,
+    "goal": "以更具压迫性的近景给出最后通牒‘闹上公堂，鱼死网破’，将博弈从体面交涉推到公开撕破脸的边缘。",
+    "composition": "CU高父，画面略偏低角，人物占比更满；背景被压缩得更近，主位椅背像一道硬线托住他；台词重点落在‘鱼死网破’时，眼神直刺镜外，不闪不避。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "威胁具象化、令人窒息的最后压制。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 724
+  },
+  {
+    "id": "shot_0725",
+    "scene_id": "scene_049",
+    "shot_number": 11,
+    "goal": "放大沈母在听到‘鱼死网破’时的生理性僵住，完成情绪高潮的反应兑现。",
+    "composition": "ECU沈母下半张脸与眼部组合，嘴角笑意彻底挂不住，唇线发僵；眼神短促一滞，呼吸卡住；背景完全虚化，仅剩冷光边缘。镜头距离侵入，强调失态被看见。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "刺痛、羞怒、终于明白自己已无退路。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 725
+  },
+  {
+    "id": "shot_0726",
+    "scene_id": "scene_049",
+    "shot_number": 12,
+    "goal": "通过动作而非台词显示沈母收势退让，不再坚持带走昭昭。",
+    "composition": "MS侧面，沈母位于画面右侧中景，原本微微前倾的身体向后收，视线下落，手中帕子慢慢放松；前景左侧虚化保留高父端坐轮廓不动，形成一动一静的胜负关系；背景门口亮处在她身后，像退路却并不体面。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "败退、咽下屈辱、不得不让。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈母",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 726
+  },
+  {
+    "id": "shot_0727",
+    "scene_id": "scene_049",
+    "shot_number": 13,
+    "goal": "回到客观关系镜头，总结本场结果：高父不动如山，沈母在空间上已被压回边缘，昭昭归属之争暂时尘埃落定。",
+    "composition": "MLS横向对峙构图，高父仍居中坐于主位，沈母站在画面右侧更靠后的位置，身体朝出口方向略偏；前景留出空荡地面，强化她与主位的距离；侧窗光与门外光将两人分隔成两个光区，礼法与权势的壁垒清晰可见。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷却后的余压、胜负已分但怨气未消。",
+    "duration_hint": "3s",
+    "characters": [
+      "高父",
+      "沈母"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 727
+  }
+]

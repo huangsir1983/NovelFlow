@@ -1,0 +1,43 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-60",
+  "appearance": {
+    "face": "经验丰富的年长妇人，神色紧张时额头见汗",
+    "body": "敦实利索",
+    "hair": "挽紧发髻",
+    "distinguishing_features": "生产场面中语速快、极具压迫感"
+  },
+  "costume": {
+    "typical_outfit": "便于行动的深色布衣",
+    "color_palette": [
+      "深褐",
+      "藏蓝"
+    ]
+  },
+  "casting_tags": [
+    "生产婆子",
+    "危机现场角色"
+  ],
+  "visual_reference": "Ancient Chinese midwife, older practical woman, dark working clothes, tense childbirth room atmosphere, historical drama realism",
+  "personality": "专业、焦急、现实",
+  "desire": "保住产妇与孩子",
+  "flaw": "受制于男权决策结构",
+  "arc": "无明显弧线",
+  "scene_presence": "早产难产高潮戏核心辅助人物",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "生产照料者",
+      "dynamic": "在生死关头努力救治",
+      "function": "制造抉择张力"
+    },
+    {
+      "target": "沈词",
+      "type": "请示对象",
+      "dynamic": "被迫要求其决定保大保小",
+      "function": "逼出男主真实选择"
+    }
+  ]
+}

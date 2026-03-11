@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_033",
+  "order": 32,
+  "heading": "INT. 高家产房 - NIGHT",
+  "location": "高家产房床前",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "稳婆"
+  ],
+  "core_event": "在令人窒息的沉默后，沈词红着眼明确选择保我，随后婴儿啼哭响起，却被告知生下的是女儿而非他苦等的沈睿。",
+  "key_dialogue": "「我要她活着。」",
+  "emotional_peak": "他第一次毫不犹豫选择了我，而命运却给了所有人一个意外答案。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "新生儿啼哭",
+    "血汗湿发",
+    "襁褓"
+  ],
+  "dramatic_purpose": "颠覆两人重生设定中的既定目标，让故事真正偏离前世轨道。",
+  "visual_reference": "产房中男子双目通红指向产妇，几乎失声地做出选择，下一秒婴儿哭声刺破夜色，众人松气后又愕然，男子表情从释然瞬间转为震惊",
+  "visual_prompt_negative": "避免过于欢乐迎新生，避免现代婴儿床，避免血腥细节特写",
+  "source_text_start": "我缓缓闭上眼睛。耳旁仿佛有人低声呢喃：「高令宁……」",
+  "source_text_end": "沈词的笑意凝固在脸上，不可置信：「你说什么？」"
+}

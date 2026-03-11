@@ -1,0 +1,73 @@
+[
+  {
+    "id": "seg_0099",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0304",
+      "shot_0305",
+      "shot_0306"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并建立空间关系、女主受阻体感与沈词出声叫停，三镜头在同一动作链内完成‘欲离开—被叫停—控制局面’的起势，角色集合稳定，情绪由压迫转为冻结，适合作为首段完整开场。",
+    "order": 99
+  },
+  {
+    "id": "seg_0100",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0307",
+      "shot_0308",
+      "shot_0309"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段聚焦第一次正面对峙的成形：高令宁回头、双方同框确立战线、沈词以守诺施压。情绪线连贯递进，仍处于言语控制阶段，适合合并为一段完整的‘守诺逼迫’节拍。",
+    "order": 100
+  },
+  {
+    "id": "seg_0101",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0310",
+      "shot_0311",
+      "shot_0312"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段以女主主观反击为核心，先用身体站稳外化内心决意，再完成台词刺破，最后立刻给陆姝仪反应作为‘先知—后证实’。情绪完成一次明显翻刺转折，适合作为单独段落。",
+    "order": 101
+  },
+  {
+    "id": "seg_0102",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0313",
+      "shot_0314",
+      "shot_0315"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同构成沈词的情绪弧线：被刺中、逼近、失言暴露。角色关系未变，但情感已从礼貌施压转为带侵略性的恳逼，是明确的情绪升级节点，因此单独成段。",
+    "order": 102
+  },
+  {
+    "id": "seg_0103",
+    "scene_id": "scene_020",
+    "shot_ids": [
+      "shot_0316",
+      "shot_0317",
+      "shot_0318",
+      "shot_0319"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "终段需要完成回答前的支撑、女主决断表情、正式回绝以及事后冷场收束，四镜头虽略超常规但同属一个完整高潮—余震单元。情绪在一句‘不退’处落刀，随后以客观全景封住关系裂痕，适合作为场景结尾整段。",
+    "order": 103
+  }
+]

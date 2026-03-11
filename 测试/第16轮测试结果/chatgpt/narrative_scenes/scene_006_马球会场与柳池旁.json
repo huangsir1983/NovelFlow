@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "EXT. 侯爵府马球会 - DAY",
+  "location": "马球会场与柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁故意应约马球会，与蒋晟亲近示人；同时撞见沈词与陆姝仪暧昧相处，旧恨翻涌。她崴脚后借蒋晟刺激沈词，引发后者醋意。",
+  "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+  "emotional_peak": "高令宁看见沈词宠溺注视陆姝仪，愤怒与酸楚同时爆发。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "葡萄",
+    "风筝",
+    "马球杆",
+    "团扇"
+  ],
+  "dramatic_purpose": "让四角关系首次同场碰撞，显露沈词占有欲与女主嫉恨。",
+  "source_text_start": "沈家公子认了位义妹。消息传到我耳中，我面不",
+  "source_text_end": "沈公子，你我还未成婚，不宜有肌肤之亲。」风"
+}

@@ -1,0 +1,29 @@
+{
+  "variant_id": "lushuyi_variant_04",
+  "variant_type": "emotional_state",
+  "variant_name": "陆姝仪 — 跪求暂留",
+  "tags": [
+    "跪求",
+    "乞怜",
+    "示弱"
+  ],
+  "scene_ids": [
+    "scene_008"
+  ],
+  "trigger": "在客栈厢房跪地乞求沈词让她暂留时",
+  "appearance_delta": {
+    "face": "极致楚楚可怜，泪痕斑斑",
+    "body": "柔弱纤细，跪姿低伏",
+    "hair": "乌黑长发微乱垂落",
+    "distinguishing_features": "跪地姿态，泪眼仰视"
+  },
+  "costume_override": {
+    "outfit": "粉色柔美汉服略显凌乱",
+    "color_palette": [
+      "粉",
+      "白"
+    ]
+  },
+  "visual_reference": "Delicate beautiful young Chinese woman 18-22, gentle fragile face extremely pitiful with tear stains and pleading eyes, slender frail figure in kneeling submissive pose, long black hair slightly messy and falling, wearing soft pink flowing Hanfu slightly disheveled, tragic manipulative begging expression, inside inn room, historical drama style, highly detailed",
+  "emotional_tone": "乞怜算计"
+}

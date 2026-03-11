@@ -1,0 +1,212 @@
+[
+  {
+    "id": "shot_0135",
+    "scene_id": "scene_010",
+    "shot_number": 1,
+    "goal": "建立封闭压迫的沈府内宅空间，并以被毁的画作为场景核心信息，提示这不是普通管教而是触及旧情与主母权威的事件。",
+    "composition": "FS。门框式构图，自外间向内宅望入；前景左侧为半虚化门框与垂帘，形成窥视感；中景右侧窗棂斜光切入，在地面与案几上投下条状阴影；画面中部偏后为案几与悬挂处的毁坏画作，裂痕与破损处正落在光带里；高令宁立于画面右三分之一主位附近，身姿挺直；婢女站画面左三分之一，站位不退；两名下人压在后景暗处，维持秩序压力。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "营造体面秩序下的冷压迫感，让观众立刻意识到这场处置牵涉更深的婚姻裂痕。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 135
+  },
+  {
+    "id": "shot_0136",
+    "scene_id": "scene_010",
+    "shot_number": 2,
+    "goal": "将毁坏的画单独提出，明确它是本场戏的导火索，并暗示画中人/旧情在这个家中仍有幽灵般的存在。",
+    "composition": "CU。画面中央为破损画作的撕裂边缘与污痕，画轴或案上展开的绢面占满画框；前景下缘可见案几木纹与一角压纸镇；背景虚化为冷暗室内。斜光掠过画面，破损处高亮，未毁部分隐约可见柔弱女性轮廓色块，但不完全交代。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到不安与刺痛，意识到损毁的不是物件本身，而是被人小心保存的旧情证据。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.2,
+    "order": 136
+  },
+  {
+    "id": "shot_0137",
+    "scene_id": "scene_010",
+    "shot_number": 3,
+    "goal": "切入高令宁的主观观察位置，建立她作为全场控制者的冷静审视，并让观众跟随她看见‘倚仗宠信’的婢女。",
+    "composition": "MS。高令宁位于画面右前景肩背半入画，形成限制性主观视角；焦点落在左中景的婢女身上。婢女站在光影交界处，下巴微扬，双手未作明显请罪姿态；后景暗处下人低头不动。窗棂阴影横切婢女身前，像未真正落下的刑具。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "制造审判前的静默紧绷，强调婢女的逾矩与高令宁的克制。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 137
+  },
+  {
+    "id": "shot_0138",
+    "scene_id": "scene_010",
+    "shot_number": 4,
+    "goal": "展示高令宁的反应——她先看画，再把判断落到人身上，完成从‘物证’到‘处置对象’的情节推进。",
+    "composition": "MCU。高令宁位于画面中央略偏右，肩背笔直，脸侧被窗边逆侧光切出冷白轮廓；前景左下角虚化为画作破损边缘，形成视线牵引；背景为暗色屏风与规整陈设，突出她对秩序的掌控。她眼神微垂后平移，完成视线落点变化。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "传达她不是愤怒失控，而是将怒意压进决定里的冷硬感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.34,
+    "order": 138
+  },
+  {
+    "id": "shot_0139",
+    "scene_id": "scene_010",
+    "shot_number": 5,
+    "goal": "正面建立婢女的态度：她不认错、不退让，仗着主君宠信与主母对视，直接点燃对峙层级。",
+    "composition": "MCU。婢女居中偏左，头部略抬，下颌线被光勾出，眼神直视镜头方向；前景右侧可有高令宁衣袖一角虚化入画，保持视线轴一致；背景为暗色博古架或帘幕，避免分散注意。她站姿稳，没有低头屈膝动作。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "激起观众对僭越的反感，同时强化高令宁处境中的屈辱感。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 139
+  },
+  {
+    "id": "shot_0140",
+    "scene_id": "scene_010",
+    "shot_number": 6,
+    "goal": "完成高令宁与婢女之间的限制性双视角对峙，突出双方都不退，但主导权始终在高令宁手上。",
+    "composition": "MLS。保持180度轴线，高令宁在画面右侧前景略高位，婢女在左侧中景，两人之间留出一段空白地带，案几和被毁画作落在两人中间偏后，像一条不可回避的裂缝；后景下人静立，成为权力执行的阴影。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "让观众感受到表面安静、实则刀锋相抵的紧张局势。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 140
+  },
+  {
+    "id": "shot_0141",
+    "scene_id": "scene_010",
+    "shot_number": 7,
+    "goal": "把高令宁的情绪推至决断点，用最小动作完成最大的权力宣告：她不争辩，只处置。",
+    "composition": "CU。高令宁面部占画面中央，眼神微冷，唇线收紧；前景下缘可见她一只手从袖中轻抬，手势极轻，背景完全压暗，仅保留一条窗棂高光边线；构图留少量头顶空间，形成压迫。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造寒意与压制感，让观众感到真正可怕的是她不需高声。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 141
+  },
+  {
+    "id": "shot_0142",
+    "scene_id": "scene_010",
+    "shot_number": 8,
+    "goal": "交代执行动作开始，下人领会主母示意，上前控制婢女，推动事件从对峙进入不可逆的处置。",
+    "composition": "MS。镜头仍站在高令宁一侧轴线内，婢女位于画面左中，两个下人自后景暗处进入，一左一右逼近；画面右缘保留高令宁半身虚焦，像无形压力源。婢女身体首次出现后仰或转身受限的变化。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "让观众感到秩序机器启动时的冷酷与迅速。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 142
+  },
+  {
+    "id": "shot_0143",
+    "scene_id": "scene_010",
+    "shot_number": 9,
+    "goal": "补入关键道具‘婢女身契’，明确这不是临时责罚，而是从府中彻底清除，完成情节信息闭环。",
+    "composition": "CU。案几上摊开或被递起的身契占据画面大部，纸张边缘整肃，朱印与姓名位置处在焦点上；一只下人手从左侧入画取起，另一只冷白纤细的手指自右上轻点纸面后撤开，暗示高令宁的最终裁定；背景虚化保留破损画作轮廓。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "强化决断的制度性与不可回头，让观众感到这是一刀切断。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 143
+  },
+  {
+    "id": "shot_0144",
+    "scene_id": "scene_010",
+    "shot_number": 10,
+    "goal": "呈现婢女被带走，兑现‘不再出现在府中’这一动作结果，并让高令宁始终留在原地，显示她无需追看。",
+    "composition": "MLS。门口方向构图，婢女由画面左向右被带离，保持前文出画方向一致；她被两名下人挟持至门框处，身体仍有不服的挣动；高令宁留在画面右后景主位附近，未动，只以侧身轮廓存在。前景可有帘幕或屏风边缘遮挡，形成礼制空间的冷切割。",
+    "camera_movement": "pan",
+    "framing": "MLS",
+    "emotion_target": "让观众感受到处置落地后的冷清与不容置疑。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 144
+  },
+  {
+    "id": "shot_0145",
+    "scene_id": "scene_010",
+    "shot_number": 11,
+    "goal": "在行动结束后回到高令宁的反应，揭示她的怨不是冲着婢女本身，而是更深处那幅画代表的旧情与婚姻羞辱。",
+    "composition": "MCU。高令宁位于画面右侧，目光并不追门口，而是重新落回左侧前景虚化的毁坏画作；侧逆光将她半张脸压入阴影，另一半冷白清晰；背景空下来后，室内显得更静更冷。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "唤起观众对她长期压抑怨恨的理解，而非单纯把她看作严苛主母。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 145
+  },
+  {
+    "id": "shot_0146",
+    "scene_id": "scene_010",
+    "shot_number": 12,
+    "goal": "冷收尾：留下被毁的画与空下来的室内，作为沈词旧情未断的现实证据，也为后续夫妻正面冲突埋下视觉钩子。",
+    "composition": "MS。空镜但仍保持限制性主观余韵：画面中心为被毁画作，右侧下方留出高令宁离场后空出的主位区域；窗棂斜光仍切在画面上，尘埃可见；室内整齐如旧，只有画的破损与刚刚发生的处置形成余震。无人物正面入画，空间本身承担情绪。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "留下寒意、余恨与即将爆发的婚姻冲突预感。",
+    "duration_hint": "2-3s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 146
+  }
+]

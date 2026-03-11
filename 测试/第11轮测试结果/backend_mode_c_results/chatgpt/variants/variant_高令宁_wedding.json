@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_variant_02",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 前世新婚立威时",
+  "tags": [
+    "新妇",
+    "喜堂冲突",
+    "自毁式反抗",
+    "烈性"
+  ],
+  "scene_ids": [
+    "scene_002"
+  ],
+  "trigger": "前世新婚第二日，沈母逼陆姝仪敬茶、意图做平妻时出现；她以极端方式在沈家喜堂上立威。",
+  "appearance_delta": {
+    "face": "面容更年轻饱满，仍有新嫁娘的清艳，但神色被激怒后变得狠厉，眼尾发红，带强烈羞辱感与杀气。",
+    "body": "新婚时期体态最纤细，肩背笔直，动作决绝，仿佛一根绷到极限的弦。",
+    "hair": "新婚高髻更华贵整肃，可保留喜庆簪饰，但因冲突可能略有散乱，形成失控边缘感。",
+    "distinguishing_features": "手持碎瓷片抵颈，颈侧见血痕，红与白的对比极强；眼神近乎以命相逼，震慑全场。"
+  },
+  "costume_override": {
+    "outfit": "前世新婚妇人礼服，喜庆但端正，不是夸张凤冠霞帔式，而是高门新妇的正式红色装束，适合喜堂敬茶场面。",
+    "color_palette": [
+      "绛红",
+      "月白",
+      "金"
+    ]
+  },
+  "visual_reference": "Ancient Chinese noble bride in a wedding hall, elegant oval face, pale skin, sharp uplifted eyes reddened with fury, black hair in a formal bridal updo with refined red and gold ornaments, slim upright body, Song dynasty inspired aristocratic wedding hanfu in deep crimson and ivory, holding a broken porcelain shard to her own neck, thin blood line on pale skin, fierce defiant expression, red wedding drapery, tea set, ceremonial hall, cinematic dramatic lighting",
+  "visual_prompt_negative": "modern wedding dress, western veil, fantasy crown, heavy makeup, smiling bride, short hair, armor, comedic expression, gore exaggeration",
+  "emotional_tone": "羞怒、决绝、宁折不弯"
+}

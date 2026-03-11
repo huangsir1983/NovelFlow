@@ -1,0 +1,53 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆婆"
+  ],
+  "role": "minor",
+  "age_range": "45-65岁",
+  "appearance": {
+    "face": "威严的贵妇面容",
+    "body": "富态",
+    "hair": "精致发髻",
+    "distinguishing_features": "高傲的神态"
+  },
+  "costume": {
+    "typical_outfit": "华贵诰命夫人服饰",
+    "color_palette": [
+      "深红",
+      "紫色",
+      "金色"
+    ]
+  },
+  "casting_tags": [
+    "贵妇",
+    "婆婆",
+    "势利"
+  ],
+  "visual_reference": "noble Chinese matriarch, dignified appearance, luxurious hanfu, authoritative expression",
+  "personality": "势利眼,重门第,护短",
+  "desire": "维护沈家利益",
+  "flaw": "偏心陆姝仪",
+  "arc": "前世被吓病→重生后依然偏心",
+  "scene_presence": "沈府场景",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母子",
+      "dynamic": "溺爱但也施压",
+      "function": "制造矛盾"
+    },
+    {
+      "target": "高令宁",
+      "type": "婆媳",
+      "dynamic": "看不起但被震慑",
+      "function": "家庭矛盾"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "姨甥",
+      "dynamic": "偏爱",
+      "function": "矛盾根源"
+    }
+  ]
+}

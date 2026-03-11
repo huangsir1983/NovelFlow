@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dl_0010",
+    "scene_id": "scene_036",
+    "character_id": "char_沈睿",
+    "line": "其实上一世，我有许多对不住你的地方。",
+    "subtext": "他在主动承认自己前世对高令宁的亏欠，试图以坦白和示弱换取她的理解与原谅，也在为两人关系修补寻找入口。",
+    "emotion_intensity": 0.75,
+    "order": 0
+  },
+  {
+    "id": "dl_0011",
+    "scene_id": "scene_037",
+    "character_id": "char_高父",
+    "line": "姑爷看起来，是把你捧在心尖上的。",
+    "subtext": "高父在根据表面相处判断女儿婚后受宠，含有安慰、放心，也是在劝女儿接受眼下看似和美的婚姻状态。",
+    "emotion_intensity": 0.42,
+    "order": 1
+  },
+  {
+    "id": "dl_0012",
+    "scene_id": "scene_038",
+    "character_id": "char_高父",
+    "line": "如今我看你们感情甚好，又有孩子，那位表小姐也即将出嫁，不如便这般过下去吧。",
+    "subtext": "他希望女儿停止纠结过往与隐患，珍惜现有局面，以孩子和陆姝仪将出嫁为理由，劝她维持婚姻。",
+    "emotion_intensity": 0.5,
+    "order": 2
+  },
+  {
+    "id": "dl_0013",
+    "scene_id": "scene_038",
+    "character_id": "char_高父",
+    "line": "至亲至疏夫妻，世间夫妻不大都如此吗？",
+    "subtext": "他在用世俗婚姻观开解女儿：夫妻关系本就复杂，不必苛求全然契合，重点是日子能过下去。",
+    "emotion_intensity": 0.44,
+    "order": 3
+  },
+  {
+    "id": "dl_0014",
+    "scene_id": "scene_038",
+    "character_id": "char_高令宁",
+    "line": "爹爹不觉得我和姑爷性子太左，难以磨合吗？",
+    "subtext": "她并未真正被说服，借性格不合发问，实则是在试探父亲是否看出这段婚姻根本问题，也是在表达自己仍想抽离。",
+    "emotion_intensity": 0.56,
+    "order": 4
+  },
+  {
+    "id": "dl_0015",
+    "scene_id": "scene_038",
+    "character_id": "char_高父",
+    "line": "先前我正是担心，才不希望你嫁入沈家，不过我未曾想，你们成亲后，和之前比起来，竟都变了许多。",
+    "subtext": "他承认自己曾反对这门亲事，但现在认为二人已有成长和转圜，因此进一步劝女儿放下戒备，接受现状。",
+    "emotion_intensity": 0.48,
+    "order": 5
+  }
+]

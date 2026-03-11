@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT./EXT. 高家书房门外 - DAY",
+  "location": "高家书房与门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词"
+  ],
+  "core_event": "高令宁劝父亲辞官避祸后出门，遇见守候已久的沈词。沈词以“再杀睿儿一次”相逼，提出先成婚生子后和离的交易，高令宁也提出先处理陆姝仪。",
+  "key_dialogue": "「成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。」",
+  "emotional_peak": "两人把婚姻谈成一纸冷酷契约，表面理智实则字字戳心。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 200,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁留下的勒痕暗示",
+    "衣袖下受伤的指尖"
+  ],
+  "dramatic_purpose": "正式确立今生婚姻的交易条件与双方共同目标",
+  "source_text_start": "父亲不放心让我嫁入沈家。\n一夜未睡后，",
+  "source_text_end": "四目相对，只剩恨意。\n我冷哼一声，转身离开。"
+}

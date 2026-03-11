@@ -1,0 +1,260 @@
+[
+  {
+    "id": "shot_0010",
+    "scene_id": "scene_002",
+    "shot_number": 1,
+    "goal": "建立厅堂封闭肃静的空间关系，交代晨光、书案、文书与一夜未眠后的沉闷气息，并明确父女对峙的站位。",
+    "composition": "WS，机位位于厅堂侧后方，门框作前景压景，右侧窗棂斜射晨光切入画面中央，光斑落在书案与铺开的文书上。高父居中偏右坐于案前，高令宁立于左后侧三分之一处，二人之间隔着书案形成礼法距离。背景为整肃陈设与暗部留白，强化压抑。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "克制、沉闷、事态已在夜里发生变化的不安感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.22,
+    "order": 10
+  },
+  {
+    "id": "shot_0011",
+    "scene_id": "scene_002",
+    "shot_number": 2,
+    "goal": "把观众拉入女主主观感知，强调她首先注意到的不是父亲的话，而是案上文书与未竟决定。",
+    "composition": "MS偏近，书案占画面下半部，奏折纸张、砚台、毛笔横向铺陈形成视觉引导线。高令宁的月白袖口虚焦进入左前景，高父胸前与手部在背景中偏虚，焦点落在改动过的文书字迹与停顿的笔上。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "审视、警觉、风向已变的微妙松紧",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.1,
+    "order": 11
+  },
+  {
+    "id": "shot_0012",
+    "scene_id": "scene_002",
+    "shot_number": 3,
+    "goal": "呈现高令宁注意到父亲的疲惫与新增皱纹，建立她沉默背后的心疼与防备并存。",
+    "composition": "CU，高父面部位于画面右侧，顺着窗侧逆光勾出眼角与法令纹纹理；左侧留出虚空作为高令宁视线位置。背景压暗，只有窗棂高光和肩头旧木色边缘。父亲微垂眼，倦意明显。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "心酸、迟滞、亲情刺痛",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.02,
+    "order": 12
+  },
+  {
+    "id": "shot_0013",
+    "scene_id": "scene_002",
+    "shot_number": 4,
+    "goal": "让高父第一句劝阻落地，明确他已经改了主意，不愿女儿嫁入沈家。",
+    "composition": "MCU正反打之一，机位落在高令宁肩后，保留她后脑与肩线作左前景，高父位于画面中右，书案边缘横切下框。晨光打在他半张脸上，另一半陷在阴影里，体现犹豫后下定决心。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "迟来的保护、沉重的父爱",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.15,
+    "order": 13
+  },
+  {
+    "id": "shot_0014",
+    "scene_id": "scene_002",
+    "shot_number": 5,
+    "goal": "捕捉高令宁听到父亲退让后的即时反应，表现她呼吸微滞但并未放松警惕。",
+    "composition": "CU，高令宁位于画面左中，视线略向右下盯向案面而非父亲。背景浅焦中可见父亲深色衣袍一角。她下颌收紧，脖颈那道极细淡痕在侧逆光中若隐若现，唇线紧绷。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压住波动、理智先行的自我控制",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 14
+  },
+  {
+    "id": "shot_0015",
+    "scene_id": "scene_002",
+    "shot_number": 6,
+    "goal": "承接第二句台词，深化高父不是权衡门第而是真心护女，抬高父女情感基底。",
+    "composition": "MCU延续父亲轴线，机位略低于眼平，突出其文臣身份与父权姿态，但肩线塌陷显出疲态。案上文书虚焦于前景下方，像横在他与女儿之间的现实阻碍。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "温柔中的愧疚，迟来的补偿感",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 15
+  },
+  {
+    "id": "shot_0016",
+    "scene_id": "scene_002",
+    "shot_number": 7,
+    "goal": "以反应镜头展示高令宁被触动，却很快把情感压回去，准备翻刃谈真正条件。",
+    "composition": "MCU，高令宁位于画面右侧，左侧留出父亲所处的对视空间。前景一角有虚焦的砚台黑亮反光，像压住情绪的墨色。她肩背挺直，但喉间轻微起伏，眼神从父亲眼角皱纹移向奏折空白。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "被爱刺中却不能沉溺，转入决绝",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.28,
+    "order": 16
+  },
+  {
+    "id": "shot_0017",
+    "scene_id": "scene_002",
+    "shot_number": 8,
+    "goal": "通过女主开口提出辞官条件，完成对白翻刃：婚事危机转向家族命运危机。",
+    "composition": "MS双人侧面构图，书案横贯中景作为边界。高令宁站于左侧前景略高位，身体前倾半步；高父坐于右侧，抬眼看她。窗棂光将二人分别切在不同明暗区，形成意见交锋。保持180度轴线不变。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "礼貌外壳下的施压、冷静中的锋利",
+    "duration_hint": "6-7s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 17
+  },
+  {
+    "id": "shot_0018",
+    "scene_id": "scene_002",
+    "shot_number": 9,
+    "goal": "强调高父听见‘抄家灭门’后的受击感，显示他意识到女儿并非任性，而是看见了更大的危险。",
+    "composition": "CU，高父面部正三分之二侧，眼神上抬定住，眉间收拢。右下前景虚焦为高令宁袖摆，构成压迫。背景暗，只有一条窗光打亮他眼中微湿的反射。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "震动、迟疑、被点破后的沉重",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 18
+  },
+  {
+    "id": "shot_0019",
+    "scene_id": "scene_002",
+    "shot_number": 10,
+    "goal": "用动作替代多余言语，表现高父真正做出决定的瞬间：提笔写辞官奏折。",
+    "composition": "CU手部特写，毛笔位于画面右下向左上行笔，纸张铺满画面，墨迹浓淡不一，显出迟缓与犹疑。高父袖口深青压在桌边，指节微紧。光从上方斜切，笔尖投下细长影子。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "决断形成时的肃穆与代价感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 19
+  },
+  {
+    "id": "shot_0020",
+    "scene_id": "scene_002",
+    "shot_number": 11,
+    "goal": "把女主的等待放入时间感里，表现她不敢提前松气，只能盯着每一笔是否真的落成。",
+    "composition": "MCU，高令宁位于画面左侧，目光垂向下方案面；右下前景是虚焦笔锋移动。背景为厅堂深处黛黑留白，衬托她面色冷白。她双手交叠于身前，指尖却暗自掐紧袖内。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "紧绷、悬置、只差最后一步的不安",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "高父"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.44,
+    "order": 20
+  },
+  {
+    "id": "shot_0021",
+    "scene_id": "scene_002",
+    "shot_number": 12,
+    "goal": "完成‘最后一笔落下’这一剧情节点，用视觉句号确认高父辞官已成事实。",
+    "composition": "ECU，笔尖在纸面收尾，最后一顿一提，墨色在尾锋处略微积重。纸上‘辞官奏折’关键字样不必完整读清，但能辨出官样文书格式。画面极简，只有笔、墨、纸与光。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "落槌感、命运被硬生生改写的一瞬静默",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高父"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 21
+  },
+  {
+    "id": "shot_0022",
+    "scene_id": "scene_002",
+    "shot_number": 13,
+    "goal": "释放高令宁的第一层身体反应：肩背微松、长出一口气，显示她此举并非冷酷，而是背负巨大压力后的短暂松动。",
+    "composition": "CU侧后角度，焦点在高令宁肩颈线与半张侧脸，随着她缓慢吐气，肩线极轻地下沉。背景中书案与父亲虚化成暖冷交错的色块，仍未完全安全。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "迟来的松气、克制中的脆弱",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 22
+  },
+  {
+    "id": "shot_0023",
+    "scene_id": "scene_002",
+    "shot_number": 14,
+    "goal": "以收束镜头落回父女关系和新的现实：决定已写下，但厅堂依旧沉重，后续风暴未止。",
+    "composition": "MLS，机位回到与开场同轴但更近。书案居中，高父坐于右侧低头看奏折，高令宁立于左侧稍退半步。晨光仍压在案上，二人都未触碰彼此。前景门框与背景屏风形成双重分割，像礼法与命运的框架。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冷收、暂时止血后的余寒与悬念",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高父",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.04,
+    "order": 23
+  }
+]

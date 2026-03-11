@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_035",
+  "order": 34,
+  "heading": "INT. 高家产房 - night",
+  "location": "高家产房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "稳婆"
+  ],
+  "core_event": "孩子顺利落地，众人一度欢喜，但当稳婆说生下的是千金时，沈词脸上的期待瞬间凝固。",
+  "key_dialogue": "「沈大人，快来看看小千金，漂亮得很呢！」",
+  "emotional_peak": "命运偏离前世轨迹，所有人的期待都被女儿的啼哭改写。",
+  "tension_score": 0.82,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "襁褓",
+    "泪滴"
+  ],
+  "dramatic_purpose": "让“重来一次也无法复制前世”的命题真正落地。",
+  "visual_reference": "婴儿啼哭划破长夜，众人松气围向襁褓，只有男子脸上的笑意僵住，女子虚弱睁眼，命运转向感强烈",
+  "visual_prompt_negative": "避免重男轻女脸谱化夸张，避免卡通婴儿，避免过亮温馨滤镜",
+  "source_text_start": "下一秒。 孩童的啼哭划破了如墨的长夜。",
+  "source_text_end": "沈词的笑意凝固在脸上，不可置信：「你说什么？」"
+}

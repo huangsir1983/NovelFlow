@@ -1,0 +1,49 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "沈大人",
+    "阿词"
+  ],
+  "role": "supporting",
+  "age_range": "20-28",
+  "appearance": {
+    "face": "面如冠玉，冷峻英俊，剑眉星目",
+    "body": "长身玉立，挺拔修长",
+    "hair": "黑发束玉冠",
+    "distinguishing_features": "冰湖般冷冽黑眸带讥诮"
+  },
+  "costume": {
+    "typical_outfit": "文人青衫或深色官服",
+    "color_palette": [
+      "深蓝",
+      "墨黑"
+    ]
+  },
+  "casting_tags": [
+    "冷峻书生",
+    "重生男主",
+    "权臣俊杰"
+  ],
+  "visual_reference": "一位22岁左右的古代年轻文官，俊美如玉面容冷峻，剑眉星目眼神冰冷带讥诮，黑发整齐束冠，身穿深蓝色锦袍，姿态挺拔站在堂前或柳池边，窗光洒入带来复杂柔情，写实风格，高清细节，古风氛围",
+  "visual_prompt_negative": "现代西装、胡须过多、胖脸、笑容过多甜腻、卡通风格",
+  "personality": "清冷端方、尖锐护短、深情隐忍",
+  "desire": "护义妹顺遂、保住儿子、最终挽回妻子",
+  "flaw": "情感压抑尖刻，易偏信伤人",
+  "arc": "从冷待利用到后悔追妻火葬场",
+  "scene_presence": "从提亲到江南夜闯床皆有关键出场，推动情感冲突与转折",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻",
+      "dynamic": "前世恨爱交织，此生从对峙到不舍纠缠",
+      "function": "情感主线张力来源"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "义妹青梅",
+      "dynamic": "兄妹情深护短",
+      "function": "制造误会冲突"
+    }
+  ]
+}

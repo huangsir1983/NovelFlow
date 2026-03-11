@@ -1,0 +1,60 @@
+[
+  {
+    "id": "seg_0172",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0601",
+      "shot_0602",
+      "shot_0603"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属环境建立与人物入场段落，先以女主独处状态建立回娘家后的静养氛围，再在同一空间轴线上引入沈睿的到来。角色集合由单人扩展到双人，正好构成第一段合并边界，情绪仍保持低烈度的体面疏离。",
+    "order": 172
+  },
+  {
+    "id": "seg_0173",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0604",
+      "shot_0605",
+      "shot_0606",
+      "shot_0607"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot动作连续，核心是‘照料—接受—观察反应’的完整小情绪回合，角色集合稳定为双人，时空不变，适合合并为一个连续段。段内情绪从表面体贴缓慢抬升到微妙试探，为后续身体靠近作铺垫。",
+    "order": 173
+  },
+  {
+    "id": "seg_0174",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0608",
+      "shot_0609",
+      "shot_0610",
+      "shot_0611"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段形成明确情感转折：从表面亲近升级到语言层面的旧伤刺入。靠肩与忏悔之间存在连续的情绪递进，且女主反应是关键落点，因此合并为一段能保留‘柔软错觉—台词刺入—内里更冷’的节拍。",
+    "order": 174
+  },
+  {
+    "id": "seg_0175",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0612",
+      "shot_0613",
+      "shot_0614"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜构成完整收束：试探性亲吻、女主冷反应、回到全局静止状态。情绪在吻时短暂冲高，随后迅速冷收，形成本场戏最关键的关系定义，因此作为独立收尾段最稳妥。",
+    "order": 175
+  }
+]

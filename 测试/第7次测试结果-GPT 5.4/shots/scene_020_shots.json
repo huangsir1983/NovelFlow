@@ -1,0 +1,307 @@
+[
+  {
+    "id": "shot_0304",
+    "scene_id": "scene_020",
+    "shot_number": 1,
+    "goal": "建立医馆门口与狭长廊间的对峙空间关系，交代高令宁被搀扶欲离开、沈词在后方拦路、陆姝仪仍留在内室的三层人物位置。",
+    "composition": "FS，机位设在门口斜前方偏外侧，廊柱形成纵深切割。画面左前景是半掀的门帘，右侧中景高令宁被蒋晟搀扶着缓慢向外，二人朝画面右侧去；背景中央偏左的廊间深处，沈词立于灯影与逆光交界处，轮廓冷硬；更深背景内室门洞里，陆姝仪靠榻边坐着，仅被一盏暖灯勾出黯淡侧影。门外夜色压黑，室内灯火从人物身后打出轮廓光。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "压迫、礼法切割下的窒息感，预示冲突即将正面爆发。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "J-cut",
+    "dramatic_intensity": 0.32,
+    "order": 304
+  },
+  {
+    "id": "shot_0305",
+    "scene_id": "scene_020",
+    "shot_number": 2,
+    "goal": "用女主近景主观体感捕捉“叫停”瞬间，让观众先站在高令宁的受阻感中。",
+    "composition": "MS，机位贴近高令宁右后侧，形成半主观跟随。高令宁在画面左中，蒋晟扶着她的手臂占右前景一角；她刚迈出的步子停住，肩背轻绷。背景深处虚焦的沈词立在廊中正轴，成为阻断去路的黑色竖线。门帘在左边缘轻晃，强化停顿。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "突遭控制、身体先于言语感到不适与戒备。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词"
+    ],
+    "transition_in": "J-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.4,
+    "order": 305
+  },
+  {
+    "id": "shot_0306",
+    "scene_id": "scene_020",
+    "shot_number": 3,
+    "goal": "呈现沈词以一句“二位留步”冻结局面，确立他试图掌控现场的姿态。",
+    "composition": "MCU，正面略低机位拍沈词，占画面中央偏右，背后暖灯形成边缘逆光，面部大半落在冷影里。左前景虚化的是廊柱与门帘边缘，像礼制与空间共同构成的屏障。沈词目光越过镜头直压向前方离去的二人。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "感受他压着情绪的强势与不容回避。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.45,
+    "order": 306
+  },
+  {
+    "id": "shot_0307",
+    "scene_id": "scene_020",
+    "shot_number": 4,
+    "goal": "交代高令宁听到叫停后的身体反应：病弱却不失控制，回头不是退让而是迎战准备。",
+    "composition": "MCU，机位在高令宁正侧前方，画面左侧是她苍白的面容与颈侧淡痕，右侧近景保留蒋晟扶着她的手。她先停、再极轻地回头，眼神从下垂抬起。背景是被灯火压亮的廊壁，形成冷白面色与暖色背景的对冲。",
+    "camera_movement": "pan",
+    "framing": "MCU",
+    "emotion_target": "脆弱外壳下的冷硬意志，观众对她“不会退”的预感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.48,
+    "order": 307
+  },
+  {
+    "id": "shot_0308",
+    "scene_id": "scene_020",
+    "shot_number": 5,
+    "goal": "将对峙双方首次纳入同一轴线，明确蒋晟是支撑者而非主导者，冲突核心仍是高令宁与沈词。",
+    "composition": "MLS，沿廊中轴侧拍，保持180度规则。画面右侧前景高令宁侧身站稳，蒋晟在她身后半步扶持；画面左侧中景沈词立定不动，两人之间留出一段被廊柱切割的空白距离。背景最深处内室门洞中，陆姝仪虚焦可见，像对话中未出口的真实动机。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "感到这不是普通争执，而是关系排序的公开审判。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 308
+  },
+  {
+    "id": "shot_0309",
+    "scene_id": "scene_020",
+    "shot_number": 6,
+    "goal": "表现沈词以“守诺”施压，话语克制但真实意图是逼迫高令宁按他安排退让。",
+    "composition": "CU，沈词位于画面中央，眼睛落在上三分之一线。前景无阻挡，让他的视线直接穿透镜头；背景暖灯虚化成一团，形成他外冷内灼的反差。说“还望高姑娘，言出必行”时下颌微收，语气平整但眼压很重。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "感到被礼貌包装的逼迫，冷而锋利。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 309
+  },
+  {
+    "id": "shot_0310",
+    "scene_id": "scene_020",
+    "shot_number": 7,
+    "goal": "捕捉高令宁在病态中重新站稳的动作，表明她不再依附任何人的决定。",
+    "composition": "MS，机位偏低，画面左侧是她收回半个重心、脚下微调站稳的身姿，右前景是蒋晟下意识扶紧又克制放松的手。高令宁占画面中心偏左，轻轻侧身，肩线转向沈词；背景廊柱将她与沈词隔开，形成一条视觉战线。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "从虚弱中升起的自持，带一丝硬撑的危险美感。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 310
+  },
+  {
+    "id": "shot_0311",
+    "scene_id": "scene_020",
+    "shot_number": 8,
+    "goal": "通过女主近景主观反击，第一次戳穿沈词提亲背后的真实优先级——陆姝仪。",
+    "composition": "CU，高令宁正面略侧拍，脸在画面中央偏右，左侧留出朝向沈词的负空间。她眼尾微红却稳，唇线薄而清晰；背景深处虚焦里能隐约见到内室灯火与一抹浅色衣影，呼应“表小姐的婚事”。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷静刺入、以最轻的语气造成最重的羞辱。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.72,
+    "order": 311
+  },
+  {
+    "id": "shot_0312",
+    "scene_id": "scene_020",
+    "shot_number": 9,
+    "goal": "用被点名的陆姝仪反应，后证实高令宁所言并非无的放矢，形成‘女主先知—观众后证实’。",
+    "composition": "MCU，内室门洞框住陆姝仪，画面中央偏左。她坐在榻边，被暖灯从侧后方照亮，神情一滞，手指不自觉攥住衣料。前景门框与帘角虚化，像旁人不愿明说却无法回避的事实。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "观众确认刺点命中，感到关系真相浮出水面时的冷意。",
+    "duration_hint": "2s",
+    "characters": [
+      "陆姝仪"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 312
+  },
+  {
+    "id": "shot_0313",
+    "scene_id": "scene_020",
+    "shot_number": 10,
+    "goal": "展现沈词被戳破后的失控前兆：拂袖、吸气、情绪从克制滑向逼近。",
+    "composition": "MS，沈词位于画面中央，袖摆从左向右掠过形成短暂遮挡；他拂袖后压着怒意深吸一口气，肩背仍直，但胸口起伏明显。背景灯影摇动，廊柱在他两侧形成挤压，像把他情绪束在礼数壳里。",
+    "camera_movement": "handheld",
+    "framing": "MS",
+    "emotion_target": "感到他控制正在失手，危险开始逼近。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 313
+  },
+  {
+    "id": "shot_0314",
+    "scene_id": "scene_020",
+    "shot_number": 11,
+    "goal": "以半步逼近打破原本距离，强调沈词开始从言语施压转向空间侵入。",
+    "composition": "MLS，侧向双人构图。画面左侧沈词向前半步进入廊中空白区，右侧高令宁站定不退，蒋晟在她身后半步形成隐性屏障。两人之间距离缩短，但仍被一根廊柱边缘切出紧张缝隙。人物方向保持一致：沈词自左向右逼近，高令宁自右向左迎视。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "空间被侵占的压迫感，对峙进入实质升级。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词",
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 314
+  },
+  {
+    "id": "shot_0315",
+    "scene_id": "scene_020",
+    "shot_number": 12,
+    "goal": "让沈词将自身困境包装成高令宁的‘相逼’，暴露他的道德挪移与真实优先项。",
+    "composition": "CU，沈词略偏侧面，画面左侧留出朝向高令宁的视线空间。他说“你何必如此苦苦相逼”“时间来不及为姝仪慢慢择婿，你就不能退一步吗”时，眉心终于出现细小褶皱，眼神第一次有近乎恳逼的裂口。背景是虚化的暖金灯火，反衬其言辞中的自我合理化。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "复杂的不适：既看见他的失控与补偿，也更清楚他真正维护的是谁。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 315
+  },
+  {
+    "id": "shot_0316",
+    "scene_id": "scene_020",
+    "shot_number": 13,
+    "goal": "补一个蒋晟的反应镜头，确认场上第三人的立场与对沈词逼迫的警觉，但不抢主冲突。",
+    "composition": "MCU，蒋晟在画面右侧，左前景虚化是高令宁的肩与发髻。他没有开口，只将扶持的手更稳地托住她，目光越过她看向沈词，克制但戒备。背景廊壁冷暗，突出他作为稳定支撑点的存在。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "给予观众短暂支点，同时放大高令宁此刻并非孤身却仍需自己作答的分量。",
+    "duration_hint": "2s",
+    "characters": [
+      "蒋晟",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 316
+  },
+  {
+    "id": "shot_0317",
+    "scene_id": "scene_020",
+    "shot_number": 14,
+    "goal": "在最终回绝前，捕捉高令宁极轻的嘴角动作，显示她已看透且不再参与这套交换逻辑。",
+    "composition": "ECU，聚焦高令宁的眼与唇。画面右侧是她微微提起的唇角，左侧是冷亮而不闪躲的眼；颈侧淡痕在焦外边缘若隐若现。背景完全化成暖冷交杂的虚光，世界退去，只剩判断。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "冷绝、清醒，像刀锋出鞘前的寂静。",
+    "duration_hint": "1-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 317
+  },
+  {
+    "id": "shot_0318",
+    "scene_id": "scene_020",
+    "shot_number": 15,
+    "goal": "用最短最硬的回答完成权力关系反转：高令宁明确拒绝继续被牺牲。",
+    "composition": "CU，正面拍高令宁，人物居中略偏右，左侧朝沈词的负空间足够。她稳住身形，只吐出“ 不退 ”二字，声音不高，表情几乎不动。右下角保留蒋晟扶持手的一点边缘，提示她身体仍弱，但立场极稳。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "斩断感、决绝感，让观众感到这一刀终于落下。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "蒋晟"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 318
+  },
+  {
+    "id": "shot_0319",
+    "scene_id": "scene_020",
+    "shot_number": 16,
+    "goal": "以客观收束镜头留住对峙后的冷场，显示冲突虽暂止，关系已不可回到原位。",
+    "composition": "FS，回到廊间整体。画面右侧高令宁与蒋晟仍朝外，但已停成一体；左侧沈词僵立在原地，未再逼近；深背景门洞中的陆姝仪沉在灯下。门帘垂落，廊柱与门框把四人分割成彼此不能相让的格子。外头夜色更重，室内灯火却显得更冷。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "余震、寒意与无可挽回的裂痕。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 319
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_009",
+  "name": "马球场休息室",
+  "type": "interior",
+  "era_style": "明代园林休憩水榭",
+  "description": "临时供贵族休憩的华丽水榭。室内铺设着柔软的地毯，中央摆放着一张铺着锦缎的软榻。黄昏降临，四周的八角宫灯已被点亮，散发着昏黄的光。小几上放着一碗冒着热气的汤药。空间虽小但极其奢靡。",
+  "visual_reference": "Interior of a luxurious ancient Chinese resting pavilion at dusk, soft couches covered in silk brocade, warm light from octagonal palace lanterns, a steaming medicine bowl on a small wooden table, elegant carved screens, tense emotional atmosphere, cinematic lighting, 8k.",
+  "atmosphere": "昏黄、奢靡、充满疲惫感",
+  "color_palette": [
+    "昏黄色",
+    "暗金黄",
+    "沉木色"
+  ],
+  "lighting": "宫灯散发的暖黄色人造光，与窗外幽蓝的暮色形成冷暖对比",
+  "key_features": [
+    "锦缎软榻",
+    "八角宫灯",
+    "冒热气的药碗"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "从绿茶作祟的喧闹，到女主看透一切的疲倦妥协，以及男主意料之外的错愕恐慌"
+}

@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "id": "beat_002",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-07T23:39:56"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": []
+  },
+  "data": {
+    "title": "试探聘礼确认沈词也已重生",
+    "description": "高家正堂中媒人提亲，聘礼比前世少了一半，活雁变木雁，我立刻从礼制反差中确认沈词同样保有前世记忆；父亲看重门第、媒人劝和、我借“聘礼太薄”主动发难，完成主角关系、家族立场、前世创伤的集中铺陈。",
+    "beat_type": "event",
+    "save_the_cat": "Set-Up",
+    "emotional_value": -0.3,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 2
+  }
+}

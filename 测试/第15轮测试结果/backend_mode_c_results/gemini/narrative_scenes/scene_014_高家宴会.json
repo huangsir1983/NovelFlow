@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "EXT. 高家满月宴 - DAY",
+  "location": "高家宴会",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "在昭昭的满月宴上，陆姝仪不请自来，向高令宁坦白自己也是重生者，并承认了陷害蒋晟的全部阴谋。沈词在不远处听到了真相。",
+  "key_dialogue": "高令宁，是我对不住你。",
+  "emotional_peak": "陆姝仪坦白自己也是重生者，并揭示了所有阴谋，高令宁和沈词都深受震动。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "请帖",
+    "酒杯"
+  ],
+  "dramatic_purpose": "解开所有谜团，让沈词彻底明白自己错得有多离谱，为他后来的追妻火葬场提供了最终的动机。",
+  "source_text_start": "再见陆姝仪，是在昭昭的满月宴上。\n她拿了蒋晟的请帖，不请自来。\n本来纤细的身子貌似更柔弱了些。",
+  "source_text_end": "却只捉住了我的衣角。"
+}

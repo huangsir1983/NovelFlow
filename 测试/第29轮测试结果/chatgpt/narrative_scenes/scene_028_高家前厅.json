@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_028",
+  "order": 27,
+  "heading": "INT. 高家前厅 - DUSK",
+  "location": "高家前厅",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "父亲",
+    "下人",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪以上门辞行为名进入高家，我因前世阴影拒见她，埋下失踪疑云。",
+  "key_dialogue": "「我孕期倦怠，不想见客。」",
+  "emotional_peak": "我本能回避她，害怕重演前世“见面后即寻死”的噩梦。",
+  "tension_score": 0.66,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "传话侍女",
+    "客座茶盏",
+    "门房记录"
+  ],
+  "dramatic_purpose": "为即将爆发的诬陷事件做悬念铺垫。",
+  "visual_reference": "傍晚前厅光线渐暗，门外通传，粉衣女子被带入厅中等待，女主在内院停步不见，父亲尚不知危险将至，气氛隐隐不安",
+  "visual_prompt_negative": "避免直接冲突，避免现代门厅，避免人物过多站位混乱",
+  "source_text_start": "直到午饭过后，小厮来报。陆姝仪来了。",
+  "source_text_end": "我托侍女传话，说自己孕期倦怠，不想见客。"
+}

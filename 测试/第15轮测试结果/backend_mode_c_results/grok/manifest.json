@@ -1,0 +1,49 @@
+{
+  "model": "Grok (grok-4.20-beta)",
+  "status": "OK",
+  "streaming": true,
+  "total_time_s": 92.3,
+  "time_to_first_char_s": 45.09,
+  "num_characters": 7,
+  "num_scenes": 18,
+  "num_chars_streamed": 6,
+  "num_scenes_streamed": 8,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "父亲",
+    "蒋晟",
+    "沈母",
+    "昭昭"
+  ],
+  "stream_chunks": 7100,
+  "source_text_coverage": {
+    "total": 18,
+    "count_with_start": 18,
+    "count_with_end": 18,
+    "count_with_both": 18,
+    "coverage_pct": 100.0
+  },
+  "num_locations": 17,
+  "num_props_total": 36,
+  "num_props_major": 10,
+  "num_props_minor": 26,
+  "minor_props_with_visual": 0,
+  "num_variants": 16,
+  "pipeline_total_time_s": 326.67,
+  "r14_major_prop_top_n": 10,
+  "r13_source_text_coverage": {
+    "total": 18,
+    "count_with_start": 18,
+    "count_with_end": 18,
+    "count_with_both": 18,
+    "coverage_pct": 100.0
+  },
+  "r14_fixes": [
+    "unified_streaming_pipeline",
+    "clean_scene_files",
+    "parallel_stage2",
+    "prop_top_n"
+  ]
+}

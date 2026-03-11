@@ -1,0 +1,50 @@
+{
+  "name": "静好",
+  "aliases": [
+    "女儿",
+    "妹妹"
+  ],
+  "role": "minor",
+  "age_range": "0岁（胎儿/死婴）",
+  "appearance": {
+    "face": "未出生即夭折",
+    "body": "胎儿",
+    "hair": "无",
+    "distinguishing_features": "未能存活"
+  },
+  "costume": {
+    "typical_outfit": "无",
+    "color_palette": []
+  },
+  "casting_tags": [
+    "悲剧",
+    "夭折",
+    "遗憾"
+  ],
+  "visual_reference": "An unborn child, tragic loss, ancient dynasty family tragedy",
+  "personality": "未能出生，无法展现性格。",
+  "desire": "无（未能存活）。",
+  "flaw": "无。",
+  "arc": "前世：被孕育→因父母争吵伤了胎气→出生时已无呼吸→成为父母永远的痛。",
+  "scene_presence": "前世回忆中的悲剧。关键场景：父母争吵导致流产、死婴出生。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "情感",
+      "dynamic": "母女情深但未能相见",
+      "function": "悲剧象征"
+    },
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "父女情深但未能相见",
+      "function": "悲剧象征"
+    },
+    {
+      "target": "沈睿",
+      "type": "情感",
+      "dynamic": "兄妹关系，哥哥为妹妹之死痛苦",
+      "function": "家庭悲剧"
+    }
+  ]
+}

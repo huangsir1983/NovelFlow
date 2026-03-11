@@ -1,0 +1,45 @@
+{
+  "name": "赘婿们",
+  "aliases": [
+    "新夫婿"
+  ],
+  "role": "minor",
+  "age_range": "20-30岁",
+  "appearance": {
+    "face": "相貌出众",
+    "body": "各异",
+    "hair": "束发",
+    "distinguishing_features": "温和体贴"
+  },
+  "costume": {
+    "typical_outfit": "儒生服饰",
+    "color_palette": [
+      "素雅"
+    ]
+  },
+  "casting_tags": [
+    "温柔",
+    "体贴",
+    "工具人"
+  ],
+  "visual_reference": "handsome young Chinese men, gentle demeanor, scholar robes, caring expressions",
+  "personality": "温柔体贴",
+  "desire": "照顾高令宁",
+  "flaw": "无",
+  "arc": "陪伴者",
+  "scene_presence": "江南场景",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "赘婿",
+      "dynamic": "照顾陪伴",
+      "function": "刺激沈词"
+    },
+    {
+      "target": "昭昭",
+      "type": "继父",
+      "dynamic": "陪玩",
+      "function": "家庭氛围"
+    }
+  ]
+}

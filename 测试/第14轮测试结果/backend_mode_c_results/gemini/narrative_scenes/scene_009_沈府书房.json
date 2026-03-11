@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 沈府书房 - DAY",
+  "location": "沈府书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "高令宁怀孕后，沈词态度软化。高令宁主动为沈词出主意，让他将陆姝仪“病逝”后接入府中，以便日后扶正。沈词震惊，并否认对陆姝仪有男女之情。",
+  "key_dialogue": "我与姝仪，并无男女之情。",
+  "emotional_peak": "高令宁的“大度”提议让沈词措手不及，他盯着高令宁，情绪翻涌。",
+  "tension_score": 0.6,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "扇子",
+    "虎头帽（刺绣）"
+  ],
+  "dramatic_purpose": "进一步强化女主的“放手”姿态，并首次让男主开始怀疑和不适，为他后续的情感转变埋下种子。",
+  "source_text_start": "沈词为此焦头烂额。 我看了半晌，淡道：「若你实在心疼，不如便将她纳进来吧。」 「你此时倒做上好人了，」",
+  "source_text_end": "怔了下，我摇头。 并不懂他此刻嘴硬的用意。"
+}

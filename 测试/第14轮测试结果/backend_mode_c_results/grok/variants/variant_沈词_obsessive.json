@@ -1,0 +1,30 @@
+{
+  "variant_id": "沈词_variant_04",
+  "variant_type": "obsessive",
+  "variant_name": "沈词 — 江南雪夜纠缠",
+  "tags": [
+    "执着",
+    "贪婪",
+    "雪夜"
+  ],
+  "scene_ids": [
+    "scene_018"
+  ],
+  "trigger": "三年后江南院子雪天夜里爬床纠缠女主时",
+  "appearance_delta": {
+    "face": "俊美脸庞似哭似笑，眼神贪婪柔情",
+    "body": "长身玉立贴近床边",
+    "hair": "墨发微散",
+    "distinguishing_features": "黑眸湿润带着疯狂执着与柔情"
+  },
+  "costume_override": {
+    "outfit": "冬日便袍",
+    "color_palette": [
+      "深蓝",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "一位25岁古代俊美文臣，长身玉立白净脸庞，冷峻黑眸转为似哭似笑的贪婪深情，穿着深色冬袍，夜间在江南院子雪地中爬窗上床纠缠，雪花飘落月光皎洁，姿态贪婪贴背，氛围暧昧执着",
+  "visual_prompt_negative": "现代西装、胡须、粗犷、笑容灿烂、明亮日光、轻松表情",
+  "emotional_tone": "痴缠执着"
+}

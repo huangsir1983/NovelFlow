@@ -23,8 +23,9 @@ router = APIRouter(tags=["ai"])
 
 class AIOperateRequest(BaseModel):
     text: str
-    operation: str  # rewrite | expand | condense | dialogue_optimize
+    operation: str  # rewrite|expand|condense|dialogue_optimize|visualize|tone_shift|continue_3way|scene_detail|subtext|dialogue_rhythm
     context: str = ""  # additional context
+    tone: str = ""  # for tone_shift operation
 
 
 class GenerateBeatsRequest(BaseModel):
@@ -40,19 +41,38 @@ def ai_operate(project_id: str, data: AIOperateRequest, db: Session = Depends(ge
     if not project:
         raise HTTPException(status_code=404, detail="Project not found")
 
-    valid_ops = {"rewrite": "改写", "expand": "扩写", "condense": "缩写", "dialogue_optimize": "对话优化"}
+    valid_ops = {
+        "rewrite": "改写", "expand": "扩写", "condense": "缩写", "dialogue_optimize": "对话优化",
+        "visualize": "视觉化", "tone_shift": "换语气", "continue_3way": "AI续写三方向",
+        "scene_detail": "补充场景描写", "subtext": "补充潜台词", "dialogue_rhythm": "调整对白节奏",
+    }
     if data.operation not in valid_ops:
         raise HTTPException(status_code=400, detail=f"Invalid operation. Allowed: {', '.join(valid_ops.keys())}")
 
     from services.ai_engine import ai_engine
     from services.prompt_templates import render_prompt
 
-    prompt = render_prompt(
-        "P12_REWRITE",
-        text=data.text,
-        operation=valid_ops[data.operation],
-        context=data.context or "无额外上下文",
-    )
+    # Map operations to prompt templates
+    template_map = {
+        "rewrite": "P12_REWRITE", "expand": "P12_REWRITE", "condense": "P12_REWRITE",
+        "dialogue_optimize": "P12_REWRITE",
+        "visualize": "P14_VISUALIZE", "tone_shift": "P15_TONE_SHIFT",
+        "continue_3way": "P16_CONTINUE_3WAY", "scene_detail": "P17_SCENE_DETAIL",
+        "subtext": "P18_SUBTEXT", "dialogue_rhythm": "P19_DIALOGUE_RHYTHM",
+    }
+    template_id = template_map[data.operation]
+
+    # Build render kwargs
+    render_kwargs = {
+        "text": data.text,
+        "context": data.context or "无额外上下文",
+    }
+    if data.operation in ("rewrite", "expand", "condense", "dialogue_optimize"):
+        render_kwargs["operation"] = valid_ops[data.operation]
+    if data.operation == "tone_shift":
+        render_kwargs["tone"] = data.tone or "紧张/悬疑"
+
+    prompt = render_prompt(template_id, **render_kwargs)
 
     def event_stream():
         try:

@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_001",
+  "heading": "INT. 屋内 - 日",
+  "model": "grok",
+  "vff_text_length": 3018,
+  "shot_count": 11,
+  "cost": {
+    "model": "grok-4.20-beta",
+    "input_tokens": 0,
+    "output_tokens": 8814,
+    "elapsed_s": 125.86
+  }
+}

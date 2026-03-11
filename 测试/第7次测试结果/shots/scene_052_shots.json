@@ -1,0 +1,208 @@
+[
+  {
+    "id": "shot_0810",
+    "scene_id": "scene_052",
+    "shot_number": 1,
+    "goal": "建立临终卧房的压抑空间关系，交代高令宁垂危、沈睿守在床边的冷峙状态，并限定观众信息在女主可感知范围内。",
+    "composition": "门框式构图，画面左前景为虚焦垂落床幔与暗色木柱，中央偏右是床榻上平躺的高令宁，仅见她苍白侧脸与起伏艰难的胸口；右侧中景站着沈睿的下半身与垂落袖摆，脸部被上方阴影切去一半。背景只有一盏低弱灯火在画面深处左后方跳动，形成冷暖对冲与条状阴影。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "窒息、寒意、关系失衡",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 810
+  },
+  {
+    "id": "shot_0811",
+    "scene_id": "scene_052",
+    "shot_number": 2,
+    "goal": "切入高令宁的濒死主观感受，强化她身体濒临崩塌却仍强撑意志的状态。",
+    "composition": "镜头位于床侧靠近高令宁头部，画面中央偏左是她冷白灰败的脸，眼窝深陷，唇色发青；右前景虚焦压入沈睿垂下的深色衣袖边缘，像一道压迫性竖线。背景灯火被压成模糊光斑，床褥纹理清晰可见，留白集中在她头顶上方。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "疼痛中的执拗、将死未屈",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.56,
+    "order": 811
+  },
+  {
+    "id": "shot_0812",
+    "scene_id": "scene_052",
+    "shot_number": 3,
+    "goal": "用关键肢体动作触发对峙，明确高令宁主动抓住沈睿，恨意先于死亡发力。",
+    "composition": "画面下方中央是高令宁枯瘦的手从被褥中猛然探出，死死扣住沈睿手腕；沈睿手腕位于右侧，骨节冷白，袖口墨暗。被褥褶皱从左下角向右上形成视觉引导线，背景只剩模糊床单与灯影，无多余信息。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "惊刺感、最后一搏的控制欲",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 812
+  },
+  {
+    "id": "shot_0813",
+    "scene_id": "scene_052",
+    "shot_number": 4,
+    "goal": "展示沈睿对这次抓握的反应不是挣脱，而是低头承受，为后续“我等着”埋下冷静接受的底色。",
+    "composition": "从高令宁视线高度仰拍，沈睿位于画面中央偏右，身形垂直稳定；他的脸被侧逆光切成明暗两半，目光向下，神情几乎无波。左下前景虚焦是高令宁的额角和手臂边缘，形成主观限制。背景为暗木床柱与窗棂阴影。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "冷酷、不可撼动、令人发寒",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.62,
+    "order": 813
+  },
+  {
+    "id": "shot_0814",
+    "scene_id": "scene_052",
+    "shot_number": 5,
+    "goal": "承接高令宁开口前的艰难呼吸，给台词爆发以身体代价和死亡逼近感。",
+    "composition": "高令宁面部占画面左半，嘴唇与鼻尖在焦内，额角汗意细微；右侧前景是她攥紧的手背虚实交界。背景完全压暗，仅剩远处一线暖色灯火贴着画面边缘。留白压在右上，形成呼吸被挤压之感。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "濒死、憋闷、恨意即将穿透身体",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.71,
+    "order": 814
+  },
+  {
+    "id": "shot_0815",
+    "scene_id": "scene_052",
+    "shot_number": 6,
+    "goal": "完成高令宁诅咒式台词的主体表达，让观众牢牢记住‘死也缠着你’这一因果誓言。",
+    "composition": "镜头更近，画面中央是高令宁的眼睛与嘴，眼神直刺画外上方的沈睿；她脸部略偏左，右侧留出一块黑暗空位，像她台词投向的深渊。下方边缘保留一点被角与她抓握的手的模糊轮廓，维持动作连续性。",
+    "camera_movement": "dolly",
+    "framing": "ECU",
+    "emotion_target": "决绝、怨毒、誓言成咒",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.89,
+    "order": 815
+  },
+  {
+    "id": "shot_0816",
+    "scene_id": "scene_052",
+    "shot_number": 7,
+    "goal": "给出沈睿听完后的完整反应，不以反击而以近乎温驯的冷静接住恨意，揭示关系核心：恨即联结。",
+    "composition": "沈睿位于画面中央，肩线平稳，低头看向镜头下方；左侧前景虚焦是高令宁抬起的手背轮廓，形成空间连接。背后窗棂投下斜切阴影，灯火在他肩后形成一圈极弱暖边，但不足以软化面部。构图严格保持床在左、沈睿在右的轴线。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "不安、被接受的恨比反驳更可怕",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.77,
+    "order": 816
+  },
+  {
+    "id": "shot_0817",
+    "scene_id": "scene_052",
+    "shot_number": 8,
+    "goal": "用动作替代情绪宣泄：沈睿缓慢抬手覆眼，既像安抚也像终结，完成支配关系的最终落点。",
+    "composition": "从高令宁视角看，沈睿的手自画面右上缓慢进入，掌心向下覆盖而来；高令宁一只眼位于画面左下，仍死盯着他，另一侧已被阴影吞没。手掌形成最大的视觉面，背景是模糊灯火与暗色床帐，动作方向明确压向镜头。",
+    "camera_movement": "dolly",
+    "framing": "ECU",
+    "emotion_target": "被迫熄灭、侵入感、最终失控",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.93,
+    "order": 817
+  },
+  {
+    "id": "shot_0818",
+    "scene_id": "scene_052",
+    "shot_number": 9,
+    "goal": "在遮眼动作持续时让沈睿说出‘我等着’，把恨转化为他主动接受的长期羁绊。",
+    "composition": "半遮挡构图，沈睿的手占据画面左半并虚化，高令宁视野被压缩；右半焦内是沈睿的下半张脸与平静唇线，他微垂眼，几乎没有表情。背景全暗，仅保留一丝侧逆光勾边，让台词像从黑处落下。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "冷到极致的回应、宿命感、悚然",
+    "duration_hint": "2s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "L-cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 818
+  },
+  {
+    "id": "shot_0819",
+    "scene_id": "scene_052",
+    "shot_number": 10,
+    "goal": "表现高令宁意识被黑暗吞没前的最后感知，完成临终誓言的封印感。",
+    "composition": "画面几乎全黑，仅在中央偏下保留高令宁被掌心压闭的眼部轮廓和颤动的睫毛，边缘有一点暖色灯火残光迅速失焦。手掌纹理清晰，占据上方三分之二，向下压实。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "窒息、终止、怨念未散",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 1.0,
+    "order": 819
+  },
+  {
+    "id": "shot_0820",
+    "scene_id": "scene_052",
+    "shot_number": 11,
+    "goal": "冷收尾，回到较远距离，确认动作已结束而关系余震仍在，给后续‘原谅’的反冲留出空白。",
+    "composition": "回到床侧中景，床榻横贯画面左侧，高令宁静卧不动，沈睿仍站在床边，手刚从她眼上移开，垂落身侧；灯火在后景更弱，房间显得比开场更空。前景床幔再次形成遮挡，但较开场更贴近镜头，压缩空间。人物位置与第一镜保持一致，形成镜像闭环。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "冷寂、因果钉死、余波回响",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 820
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "variant_id": "gaofu_variant_03",
+  "variant_type": "emotional_state",
+  "variant_name": "高父 — 焦虑担忧",
+  "tags": [
+    "担忧",
+    "焦虑",
+    "护女"
+  ],
+  "scene_ids": [
+    "scene_014"
+  ],
+  "trigger": "陆姝仪失踪事件发生，担心女儿安危时的紧张状态",
+  "appearance_delta": {
+    "face": "眉头紧锁，焦虑神色",
+    "body": "紧张站立或来回踱步",
+    "hair": "略显凌乱",
+    "distinguishing_features": "焦急的眼神，护女心切的紧张感"
+  },
+  "costume_override": {
+    "outfit": "便服，略显匆忙",
+    "color_palette": [
+      "深褐色",
+      "灰色"
+    ]
+  },
+  "visual_reference": "worried middle-aged Chinese father in dark robes, anxious furrowed brow, tense posture, protective stance, concerned eyes, slightly disheveled appearance, indoor setting with urgent atmosphere, traditional Chinese home interior",
+  "emotional_tone": "焦虑紧张，父亲的保护欲和担忧"
+}

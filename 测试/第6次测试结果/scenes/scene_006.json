@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "id": "scene_006",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会柳池旁 - 日",
+    "location": "马球会内柳池边",
+    "time_of_day": "day",
+    "description": "柳池一带较场边安静，水面反光，柳枝轻垂，春风拂动。陆姝仪穿粉衣立于池边，手持风筝，侧脸温婉清丽。沈词站在她面前，垂眼看风筝，神情松弛，眼底带笑。远处高令宁与蒋晟处于另一侧视线范围内，形成隔空对望的视觉关系。",
+    "action": "高令宁停下脚步，隔着人群与景物看见陆姝仪向沈词展示自己做的风筝。沈词低头看她，嘴角和眼神都放松下来。高令宁目光骤冷，站在原地不动。沈词似有所觉，抬眼朝她的方向看过来。视线交汇的一瞬，高令宁脚下一滑，身体失衡前倾。蒋晟立刻伸手扶住她，将她稳稳托住，两人姿态因此贴近。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "沈词",
+      "陆姝仪"
+    ],
+    "key_props": [
+      "风筝"
+    ],
+    "dramatic_purpose": "以视觉冲击揭开高令宁对沈词、陆姝仪关系的情绪痛点，同时制造沈词目睹她与蒋晟亲近的刺激点，触发后续正面冲突。",
+    "tension_score": 0.72,
+    "dramatic_intensity": 0.44,
+    "order": 6
+  }
+}

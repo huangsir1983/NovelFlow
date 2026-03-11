@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "FLASHBACK. 沈家新房外厅 - day",
+  "location": "沈家新婚次日外厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世新婚第二日，沈母安排陆姝仪给我敬茶，试图逼我接受平妻格局，我当场砸杯以瓷片割颈反击。",
+  "key_dialogue": "我气红了眼。",
+  "emotional_peak": "以命相逼的爆裂反抗",
+  "tension_score": 0.97,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "茶杯",
+    "瓷片",
+    "敬茶托盘"
+  ],
+  "dramatic_purpose": "展示女主性格底色与前世婚姻的第一道裂痕，也说明她为何绝不肯退让。",
+  "visual_reference": "古代高门厅堂内，柔弱少女跪地敬茶，主母高坐，年轻新妇突然砸碎茶杯，手持瓷片抵住自己脖颈，鲜血渗出，众人惊骇，沈词疾步上前阻拦，场面失控而凌厉",
+  "visual_prompt_negative": "避免血腥过度、避免武侠打斗感、避免宫斗脸谱化、避免人物过多遮挡主动作",
+  "source_text_start": "上一世。",
+  "source_text_end": "他将我抱在怀中，目光落在我脖颈间的血痕上，划过一丝痛色。"
+}

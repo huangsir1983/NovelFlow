@@ -1,0 +1,38 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆婆"
+  ],
+  "role": "minor",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "端庄严肃",
+    "body": "富态",
+    "hair": "妇人髻",
+    "distinguishing_features": "权势姿态"
+  },
+  "costume": {
+    "typical_outfit": "华贵命妇服",
+    "color_palette": [
+      "紫红",
+      "金"
+    ]
+  },
+  "casting_tags": [
+    "强势婆婆"
+  ],
+  "visual_reference": "middle-aged Chinese noble matron in luxurious purple robes, stern dignified face, elaborate hair bun with gold accessories",
+  "personality": "势利强势",
+  "desire": "门第利益",
+  "flaw": "偏心义妹",
+  "arc": "理亏退让",
+  "scene_presence": "上门要孙女、婚事压力",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "母亲儿子",
+      "dynamic": "管教与压力",
+      "function": "次要冲突"
+    }
+  ]
+}

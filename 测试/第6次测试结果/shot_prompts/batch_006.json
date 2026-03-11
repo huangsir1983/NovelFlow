@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0036",
+    "shot_id": "shot_0040",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands in the left foreground with a steadier grounded posture, silent and emotionally controlled; Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, has stopped in the right background, no longer pacing, facing her in heavy silence. A stool and chair separate them, a narrow strip of daylight between their bodies, enclosed ancestral room with old wood furnishings and compressed negative space, medium long shot, both figures in frame, changed spatial power balance, static camera, low-saturation warm-cool contrast, gray-green and dark wood palette with restrained morning daylight cutting through the room, side backlight and doorway-like spatial pressure, cinematic historical drama realism, highly detailed textures, subtle film grain, tense suspended ending",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "low-saturation warm-cool contrast, restrained natural daylight, side backlight, narrow daylight slit, enclosed interior shadows"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electricity, modern furniture, plastic, glass office windows, contemporary hairstyle, modern makeup, text, watermark, logo, low quality, blurry, deformed hands, extra fingers, cropped face, oversaturated colors"
+  },
+  {
+    "id": "sp_0037",
+    "shot_id": "shot_0010",
+    "prompt_text": "Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, sits slightly right of center at a writing desk after a sleepless night, still and heavy with fatigue; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, stands in the left rear third of the hall, composed and distant, facing him across the desk with formal separation. Wide shot from the side rear of a closed ancestral hall, doorframe in foreground creating pressure framing, morning light slants in from right lattice window and falls across the center onto the writing desk, unfolded documents, inkstone and brush, disciplined furnishings and dark negative space in the background, old wood browns, gray-green tones, low-saturation warm-cool contrast, static composition emphasizing ritual distance and suffocating silence, cinematic realism, highly detailed production design, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "cool morning daylight through lattice window, low-saturation warm-cool contrast, side light with deep interior shadows, doorframe compression"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lamps, modern paper clips, ballpoint pens, plastic, contemporary interior design, text, watermark, logo, low quality, blurry, oversharpened, distorted anatomy, extra limbs"
+  },
+  {
+    "id": "sp_0038",
+    "shot_id": "shot_0011",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, is present only as a softly blurred moon-white sleeve entering the left foreground, her attention fixed and alert; Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, appears in the background with chest and hands slightly out of focus. Medium close framing on the writing desk occupying the lower half of the frame, memorial papers, edited brush calligraphy, inkstone and resting brush laid horizontally to create guiding lines, focus locked on altered handwriting and the paused brush as the unresolved decision, subtle dolly-in feeling, enclosed hall interior with slanting morning light from the side window, low-saturation gray-green and old wood palette, natural daylight against muted shadow, subjective cinematic realism, highly detailed paper fibers and ink textures, restrained tension, shallow depth of field",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, macro-realistic historical detail, subtle film grain",
+      "lighting": "soft cool morning side light on documents, low-saturation warm-cool contrast, controlled interior shadow, shallow focus"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, printed typography, fountain pen, modern desk accessories, plastic, text overlay, watermark, logo, low quality, noisy image, blurry focal subject, distorted perspective, extra fingers"
+  },
+  {
+    "id": "sp_0039",
+    "shot_id": "shot_0012",
+    "prompt_text": "Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, shown in close-up on the right side of the frame, eyes slightly lowered, visible exhaustion, new lines at the eyes and nasolabial folds, expression softened by buried sorrow and restraint. The left side of the frame is left empty as Gao Lingning's implied gaze space, background pressed into darkness with only lattice-window highlights and a faint old-wood edge light on his shoulder, side backlight carving facial texture, cool morning daylight mixed with muted warm interior tones, low-saturation warm-cool contrast, static intimate framing, cinematic historical drama realism, highly detailed skin texture, subtle film grain, quiet emotional sting",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic close-up portrait, subtle film grain",
+      "lighting": "side backlight from lattice window, low-saturation warm-cool contrast, dark background isolation, textured facial highlights"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, studio backdrop, modern portrait lighting rigs, text, watermark, logo, low quality, beauty filter, oversmoothed skin, cartoon style, extra facial features"
+  },
+  {
+    "id": "sp_0040",
+    "shot_id": "shot_0013",
+    "prompt_text": "Gao father, a dignified middle-aged ancient Chinese scholar-official father, lean build, stern square face with tired kind eyes, streaks of gray hair in a neat topknot, dark teal traditional robe, subtle chest-pain gesture, restrained authority mixed with deep paternal tenderness, delivers his first firm attempt to stop the marriage, seated mid-right in frame with solemn resolve, half his face illuminated and half in shadow; Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, is seen from behind as a shoulder and back-of-head foreground silhouette on the left, listening in silence. Medium close over-the-shoulder composition, desk edge cutting across the lower frame, enclosed hall interior with writing desk and documents, slanting morning light from the right lattice window, low-saturation gray-green, dark wood and muted amber undertones, static reverse shot, restrained paternal protectiveness under formal pressure, cinematic realism, highly detailed costume fabric and facial texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, subtle film grain",
+      "lighting": "morning side light across half the face, low-saturation warm-cool contrast, deep shadow on opposite side, enclosed hall interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern office desk, electric light, plastic, contemporary clothing details, text, watermark, logo, low quality, blurred face, distorted anatomy, extra limbs, overexposed highlights"
+  },
+  {
+    "id": "sp_0041",
+    "shot_id": "shot_0014",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up at the left-center of the frame, gaze angled slightly down to the desk rather than at her father, breathing subtly arrested, jaw tightened, lips pressed into a tense line, the faint scar on her neck barely visible in side backlight, controlled but not relieved. In the shallow-focus background, only a dark corner of Gao father's robe is visible, enclosed ancestral hall atmosphere, muted old wood and gray-green palette, low-saturation warm-cool contrast, soft morning daylight from the side window carving her profile, static intimate framing, psychological restraint, cinematic historical drama realism, highly detailed skin, silk and hair texture, subtle film grain",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, realistic close-up portrait, subtle film grain",
+      "lighting": "soft side backlight from morning lattice window, low-saturation warm-cool contrast, shallow depth of field, restrained interior shadow"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, modern jewelry, contemporary hairstyle, text, watermark, logo, low quality, blurry eyes, overprocessed skin, cartoon rendering, extra fingers, distorted neck"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "35-55",
+  "appearance": {
+    "face": "圆滑喜庆，笑意职业化，见风使舵",
+    "body": "中等身形",
+    "hair": "妇人发髻",
+    "distinguishing_features": "说媒时夸张客套的表情"
+  },
+  "costume": {
+    "typical_outfit": "体面喜庆的妇人装束",
+    "color_palette": [
+      "红色",
+      "紫色"
+    ]
+  },
+  "casting_tags": [
+    "说媒人",
+    "功能角色"
+  ],
+  "visual_reference": "ancient Chinese matchmaker woman, colorful clothing, persuasive smile, bustling marriage proposal scene",
+  "personality": "圆滑、会说场面话",
+  "desire": "促成婚事，维持体面",
+  "flaw": "势利，偏向高门",
+  "arc": "无明显弧线",
+  "scene_presence": "主要出现在提亲场景中，见证高令宁退雁拒聘",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "说媒双方",
+      "dynamic": "劝她不要闹脾气",
+      "function": "烘托拒聘冲突"
+    },
+    {
+      "target": "沈词",
+      "type": "说媒执行者",
+      "dynamic": "代表沈家体面",
+      "function": "婚事推进工具"
+    }
+  ]
+}

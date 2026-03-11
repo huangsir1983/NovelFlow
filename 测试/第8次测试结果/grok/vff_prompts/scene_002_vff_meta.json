@@ -1,0 +1,13 @@
+{
+  "scene_id": "scene_002",
+  "heading": "INT. 沈府正厅 - 日",
+  "model": "grok",
+  "vff_text_length": 2658,
+  "shot_count": 11,
+  "cost": {
+    "model": "grok-4.20-beta",
+    "input_tokens": 0,
+    "output_tokens": 7680,
+    "elapsed_s": 103.13
+  }
+}

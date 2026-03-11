@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_031",
+  "order": 30,
+  "heading": "INT. 高家正厅 - NIGHT",
+  "location": "高家正厅中央",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "我坚持要报官查清真相，沈词却以“若她再为你而死便杀了你”威胁，我愤怒之下当众给了他一巴掌。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "那一巴掌打碎了我们之间最后一层体面。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "巴掌",
+    "登闻鼓之言",
+    "拳头"
+  ],
+  "dramatic_purpose": "将两人的情绪冲突推到极限，并直接引发身体危机。",
+  "visual_reference": "厅中众人僵住，男子逼近，女子含泪却强硬反抗，清脆巴掌落下瞬间所有人表情凝固，灯火与阴影形成戏剧性断裂",
+  "visual_prompt_negative": "避免武打片风格，避免夸张飞身效果，避免现代警局元素",
+  "source_text_start": "良久，我深吸一口气：「事情不调查清楚，今日你们谁都别想走。」",
+  "source_text_end": "话音落下，巴掌声清脆地响起。"
+}

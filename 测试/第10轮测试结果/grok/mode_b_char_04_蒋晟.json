@@ -1,0 +1,39 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "22-28",
+  "appearance": {
+    "face": "端正老实，浓眉大眼",
+    "body": "健壮习武身材",
+    "hair": "短束发或简单发髻",
+    "distinguishing_features": "护人时的红脸与坚定眼神"
+  },
+  "costume": {
+    "typical_outfit": "简朴武士服",
+    "color_palette": [
+      "灰",
+      "褐"
+    ]
+  },
+  "casting_tags": [
+    "老实武将门生",
+    "护妻型"
+  ],
+  "visual_reference": "handsome sturdy young Chinese martial artist, honest square face, strong build, short tied hair, wearing simple warrior hanfu, protective warm expression, ancient Chinese style, highly detailed, 8k",
+  "personality": "老实忠厚、护人周到",
+  "desire": "娶良配、保护高令宁",
+  "flaw": "易被陷害",
+  "arc": "从门生到陆姝仪夫婿",
+  "scene_presence": "马球会护送、陷害事件后娶陆姝仪",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "门生与友人",
+      "dynamic": "守护",
+      "function": "辅助线"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "笔墨",
+  "category": "stationery",
+  "description": "一套文房四宝：狼毫毛笔竹杆漆黑光滑、黑色墨锭、石质端砚磨痕自然、配套宣纸，做工传统文人风格。",
+  "visual_reference": "中国古代文房笔墨，毛笔竖立笔架，黑墨锭与石砚并排墨汁浓黑，宣纸铺开待书，古风书房光影细腻",
+  "visual_prompt_negative": "现代钢笔圆珠笔、塑料文具、化学墨水、颜色鲜艳、廉价仿制品",
+  "narrative_function": "用于书写辞官奏折的工具，象征文官身份与关键行动时刻，辅助情节决策呈现",
+  "is_motif": false,
+  "scenes_present": [
+    "scene_003"
+  ],
+  "emotional_association": "严肃思虑与决断"
+}

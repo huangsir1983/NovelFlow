@@ -1,0 +1,220 @@
+[
+  {
+    "id": "shot_0245",
+    "scene_id": "scene_016",
+    "shot_number": 1,
+    "goal": "建立停灵处的封闭肃杀空间与棺木居中的礼制秩序，先将人物压缩为环境中的一粒尘，奠定失去后的迟来悲痛基调。",
+    "composition": "WS对称构图，棺材居画面正中略后方，白幡自上缘垂落形成纵向压迫线，前景左右各有失焦烛台微弱跳动，中景空旷地面留出大面积冷灰留白，沈词位于画面下三分之一偏左，背对镜头独坐于棺前，身形被巨大空间吞没。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众先感到礼法空间的冷与空，再意识到个人悲恸在此处显得微小而无处遁形。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.42,
+    "order": 245
+  },
+  {
+    "id": "shot_0246",
+    "scene_id": "scene_016",
+    "shot_number": 2,
+    "goal": "将后事用品纳入叙事，具体化‘他亲手为她料理身后事’的事实与死亡已成定局的视觉证据。",
+    "composition": "MS静物组接感构图，前景右下为盛水铜盆与白布，左侧挂着整齐寿衣一角，背景虚化可见棺木边角与摇曳烛火，画面重心压在器具的冰冷质感上，人物不入画，仅保留空间中的余温缺席。",
+    "camera_movement": "pan",
+    "framing": "MS",
+    "emotion_target": "唤起观众对死亡程序性的刺痛，感受爱意不是通过言语而是通过近乎残酷的亲手处理来显现。",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.5,
+    "order": 246
+  },
+  {
+    "id": "shot_0247",
+    "scene_id": "scene_016",
+    "shot_number": 3,
+    "goal": "从遗体一侧建立有限主观视角，暗示虽然女主已死，但镜头仍以贴近她的认知残响观看沈词，形成反转性的情感观察。",
+    "composition": "MLS低位于棺侧，前景左侧为棺沿与一截素白寿衣虚焦遮挡，沈词位于中景右侧半跪半俯，双手收回于膝前，头低着不看镜头，背景白幡与空墙形成深远负空间，视觉线从棺沿引向他的脊背弧线。",
+    "camera_movement": "steadicam",
+    "framing": "MLS",
+    "emotion_target": "让观众产生一种‘她在看他’的错觉，悲伤因此更靠近也更残忍。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.58,
+    "order": 247
+  },
+  {
+    "id": "shot_0248",
+    "scene_id": "scene_016",
+    "shot_number": 4,
+    "goal": "第一次靠近沈词的失控边缘，展示他抱头沉默崩塌的身体状态，强调无声胜有声。",
+    "composition": "MS侧后45度构图，沈词占画面右侧三分之二，双肘撑膝、双手抱头，脊背绷紧后又塌陷；左侧前景保留一支模糊烛火，背景中棺材边缘保持清晰存在但不抢焦，形成他被死亡持续注视的关系。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到压抑、窒息，意识到这个人已不再是过去那个稳得住的世家公子。",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 248
+  },
+  {
+    "id": "shot_0249",
+    "scene_id": "scene_016",
+    "shot_number": 5,
+    "goal": "捕捉肩背细微发抖这一关键动作，把情绪从‘克制’推进到‘濒临崩断’。",
+    "composition": "MCU紧贴沈词背肩，画面几乎被玄青衣料与紧绷肩线填满，前景无，背景仅有失焦白幡垂线和一点惨白烛光；肩胛处细微颤动成为唯一运动中心。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到他在拼命不出声，那种压抑比嚎哭更伤人。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 249
+  },
+  {
+    "id": "shot_0250",
+    "scene_id": "scene_016",
+    "shot_number": 6,
+    "goal": "切入手部细节，呈现他情绪控制的代价，补足无对白场景中的内在张力。",
+    "composition": "CU俯角，沈词一只手从额前滑落至膝上，指节泛白攥紧衣料，布面起皱；画面左上保留另一只手模糊边缘，背景为冷硬地砖纹路，形成向下坠落的视觉感。",
+    "camera_movement": "tilt",
+    "framing": "CU",
+    "emotion_target": "唤起观众对‘忍’的疼痛感，像看见一个人把所有声音都掐回身体里。",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.77,
+    "order": 250
+  },
+  {
+    "id": "shot_0251",
+    "scene_id": "scene_016",
+    "shot_number": 7,
+    "goal": "把视线引回棺木，让死亡对象从抽象存在重新变成他必须面对的具体现实。",
+    "composition": "MS从沈词肩后看向棺内方向，前景右侧是他失焦的颊线与散落一缕发丝，画面中心偏左为棺内高令宁安置后的素白轮廓与衣襟边缘，不正面暴露遗容，背景烛火形成稀薄逆光轮廓。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众体会到他不敢看又不得不看的痛，死亡成为无法回避的对视。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 251
+  },
+  {
+    "id": "shot_0252",
+    "scene_id": "scene_016",
+    "shot_number": 8,
+    "goal": "第一次正面给到沈词的眼部反应，完成迟来悲痛的明确显形。",
+    "composition": "CU正侧偏前，沈词脸位于画面右侧，左侧留出朝向棺木的视线空间；眼尾与下睫潮红，瞳孔发直，唇线紧闭，背景为暗虚的白幡与一点烛火反光，强化面部苍白与血色对撞。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众终于看清他的痛不是悔恨的表演，而是迟到到几乎无用的真伤。",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.88,
+    "order": 252
+  },
+  {
+    "id": "shot_0253",
+    "scene_id": "scene_016",
+    "shot_number": 9,
+    "goal": "以视线对应棺木，完成这场无对白中的‘对话’：他看她，却得不到任何回应。",
+    "composition": "CU棺内侧角度，前景下方为素白寿衣与交叠的手部安置，焦点落在静止的手与衣纹上；画面上缘保留棺沿黑线，沈词不入画，仅通过上一镜视线建立关系。构图平静到近乎残酷。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "制造冰冷终局感，让观众感受‘一切都来不及了’。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 253
+  },
+  {
+    "id": "shot_0254",
+    "scene_id": "scene_016",
+    "shot_number": 10,
+    "goal": "回到沈词，表现他抬眼后的短暂支撑终于再次坠落，情绪从顶点转入空壳化。",
+    "composition": "MCU延续同轴，沈词仍在画面右侧，视线从上方缓慢垂落，眼神失焦，肩线明显向下塌；背景中棺木边角保持在左后方，像压在他身上的实体重量。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "让观众感到不是哭过就结束，而是整个人被抽空后的持续坍塌。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 254
+  },
+  {
+    "id": "shot_0255",
+    "scene_id": "scene_016",
+    "shot_number": 11,
+    "goal": "将人物重新放回空间，表现沉默如何在巨大停灵处里扩散成回音般的空洞。",
+    "composition": "FS侧面长构图，棺木位于画面中部偏左，沈词坐于棺前更低一层，身体前倾，几乎缩成一团；前景右侧垂下白幡形成遮挡，背景深处墙面空无一物，空间被拉长，人与棺之间的距离短，人与世界之间的距离极长。",
+    "camera_movement": "crane",
+    "framing": "FS",
+    "emotion_target": "唤起观众对孤绝的感受，像一场丧事结束后只剩下他与无法撤去的死亡。",
+    "duration_hint": "4s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 255
+  },
+  {
+    "id": "shot_0256",
+    "scene_id": "scene_016",
+    "shot_number": 12,
+    "goal": "以冷收方式结束场景，把情绪停在无声的后劲上，并为下场戏留出沉重余波。",
+    "composition": "WS近乎第一镜的呼应构图，但机位更高更远，棺材依旧居中，沈词缩在下方更小，烛火在左右边缘成两点惨白，四周空旷到仿佛可闻回音；画面不再强调动作，只强调停滞。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众带着沉默离场，感受这段关系最沉重的情感落点不是宣泄，而是无可挽回。",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈词",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 0.6,
+    "order": 256
+  }
+]

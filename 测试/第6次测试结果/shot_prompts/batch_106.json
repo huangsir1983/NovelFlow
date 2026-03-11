@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp_0636",
+    "shot_id": "shot_0590",
+    "prompt_text": "A cramped ancient Chinese birth chamber centered on a bed, Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, lying exhausted at the center-right of the bed while midwives and an imperial physician crowd around her in a half-circle; Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, stands rigid at the left rear side of the bed, emotionally isolated and distant, posture straight but frozen. Blurred candle flame and fluttering white cloth in the lower left foreground, reflective rim of a bronze basin in the right foreground, old wooden walls and heavy shadows pressing down the background space. Low-saturation warm-cool contrast, amber candlelight mixed with cold dim shadow, slight back and side light, oppressive enclosed composition, cinematic historical drama realism, highly detailed textures, shallow atmospheric haze, tense and suffocating mood.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "low-saturation warm-cool contrast, amber candlelight with cold shadow, side-back lighting, enclosed dim interior"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, plastic, modern furniture, modern medical equipment, contemporary clothing, text, watermark, logo, low quality, blurry face, deformed hands, extra fingers, oversaturated colors, futuristic details"
+  },
+  {
+    "id": "sp_0637",
+    "shot_id": "shot_0591",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, shown in close-up side profile filling the right two-thirds of the frame, sweat-soaked temple hair stuck to her cheek, lips pale, expression trapped by labor pain and near loss of control. Defocused candle flame and passing white cloth shadow in the left foreground, blurred figures moving in the background like oppressive shapes, sweat beads outlined by rear candlelight. Low-saturation warm-cool contrast, flickering amber edge light against cold dim room tones, handheld subjective intensity, cinematic realism, intimate bodily pain, fine skin texture, shallow depth of field, suffocating and isolated atmosphere.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "flickering amber rear candlelight with cool dim ambient shadow, close subjective side-back lighting"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, hospital equipment, plastic, contemporary styling, text, watermark, logo, low quality, bad anatomy, extra limbs, deformed face, oversaturated colors, sharp digital artifacts"
+  },
+  {
+    "id": "sp_0638",
+    "shot_id": "shot_0592",
+    "prompt_text": "Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, represented through an extreme close-up of her hand gripping a silk bedsheet, fingers clenched so hard the knuckles turn white, deep wrinkles pulled into the fabric, physical agony made visible through the gesture. Only blurred blood-toned stain and sweeping white cloth in the background, trembling warm candle flicker touching the edges of the frame. Low-saturation warm-cool contrast, amber flicker against murky cool shadows, stark tactile realism, macro cinematic detail, dangerous tension, oppressive minimal composition, historical drama texture.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic macro photography, historical drama realism, film grain",
+      "lighting": "flickering amber candle edge light with cool shadowed background, high contrast tactile close-up"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern bedding, text, watermark, logo, low quality, blurry details, bad hands, extra fingers, malformed anatomy, oversaturated colors, glossy modern look"
+  },
+  {
+    "id": "sp_0639",
+    "shot_id": "shot_0593",
+    "prompt_text": "A frantic midwife in ancient Chinese attire urgently bending over the bed to inspect the labor, an imperial physician in traditional robes in the rear passing hot water, and Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, partly visible on the bed amid the chaos. A bronze basin is slammed down in the left foreground with splashing water highlights, wet white cloth rushes in and out from the right creating visual obstruction, bed edge and crossing arms slice the frame into crowded fragments. Low-saturation warm-cool contrast, amber candlelight flashing on metal and water against cold dark wood tones, panning cinematic energy, cramped disorder, urgent historical realism, dense layered composition, oppressive sensory overload.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain, dynamic motion blur",
+      "lighting": "amber candlelight reflections on bronze and water with cool shadowed interior, low-saturation warm-cool clash"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, stainless steel, electric lights, hospital tools, plastic basin, text, watermark, logo, low quality, frozen unnatural motion, bad anatomy, extra limbs, oversaturated colors, futuristic details"
+  },
+  {
+    "id": "sp_0640",
+    "shot_id": "shot_0594",
+    "prompt_text": "A midwife in ancient Chinese clothing in medium close-up at the left foreground, half-turned toward someone offscreen to the right, speaking urgently with a strained, demanding expression, forcing a life-or-death choice; the blurred outline of Gao Lingning, a tall elegant young Chinese noblewoman in historical hanfu, pale skin, sharp almond eyes, straight dark brows, black hair in a neat low bun with jade hairpin, cold restrained expression, faint scar on her neck, slim but resilient figure, muted white and dark teal silk robes, aristocratic yet wounded aura, is visible on the bed in the right rear background. Damp white cloth and rising steam frame the image edges, compressing the depth and making the room feel airless. Low-saturation warm-cool contrast, amber candle haze and damp heat against cold dark corners, handheld immediacy, tense historical drama realism, moral pressure, close crowded composition, highly detailed fabric and moisture textures.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic photography, historical drama realism, film grain",
+      "lighting": "humid amber candlelight with cool shadowed background, close side lighting, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern medical tools, plastic, text, watermark, logo, low quality, bad anatomy, distorted face, oversaturated colors, contemporary styling, futuristic details"
+  },
+  {
+    "id": "sp_0641",
+    "shot_id": "shot_0595",
+    "prompt_text": "Shen Ci, a tall aristocratic young man from ancient China, cold and elegant, sharp long eyes, pale skin, high nose bridge, thin lips, black hair in a neat topknot with jade crown, wearing dark blue and black embroidered hanfu, restrained noble aura, subtle obsession and sorrow in his expression, cinematic lighting, highly detailed, stands in medium close-up on the right side of the frame, body turned toward the bed yet his gaze briefly unfocused, silent and shaken, throat tight and visible near the center of the frame, emotion held back just before collapse. The blurred shoulder-back of a midwife and a candle flame occupy the left foreground, while a dark wooden wall and a faint bed-curtain shadow fill the background. Warm light from the left strikes half of his face while the other half sinks into cold darkness. Low-saturation warm-cool contrast, restrained amber side light and deep cool shadow, static composition, severe emotional pressure, cinematic historical realism, fine facial detail, oppressive stillness.",
+    "style_params": {
+      "aspect_ratio": "16:9",
+      "quality": "masterpiece, best quality, cinematic",
+      "style": "cinematic portrait photography, historical drama realism, film grain",
+      "lighting": "single warm amber side light from the left with the opposite side falling into cool darkness, low-saturation warm-cool contrast"
+    },
+    "negative_prompt": "modern elements, anachronistic objects, electric lights, modern hairstyle, contemporary clothing, text, watermark, logo, low quality, bad anatomy, deformed hands, oversaturated colors, glossy modern fashion look, futuristic details"
+  }
+]

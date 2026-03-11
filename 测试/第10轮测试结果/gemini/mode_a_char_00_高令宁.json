@@ -1,0 +1,55 @@
+{
+  "name": "高令宁",
+  "aliases": [
+    "令宁",
+    "高小姐",
+    "沈夫人"
+  ],
+  "role": "protagonist",
+  "age_range": "16-25岁",
+  "appearance": {
+    "face": "面容清丽但线条微锐，肤色冷白，眼神常带疏离与厌倦，标志性表情是似笑非笑的冷嗤",
+    "body": "身姿纤细但脊背挺直，体态极具韧性与傲骨",
+    "hair": "乌黑长发，后期多梳随性的少妇发髻，少有繁复珠翠",
+    "distinguishing_features": "眼底透着历经沧桑后的绝对清明与冷漠"
+  },
+  "costume": {
+    "typical_outfit": "剪裁利落的丝质汉服，不追求奢华但质地极佳，后期在江南穿着更为宽松闲适",
+    "color_palette": [
+      "冰蓝色",
+      "月白色"
+    ]
+  },
+  "casting_tags": [
+    "清冷大女主",
+    "破碎后重组",
+    "人间清醒",
+    "骨相美人"
+  ],
+  "visual_reference": "1girl, 20 years old, ancient chinese noblewoman, elegant hanfu, ice blue and white color palette, cold and detached expression, pale skin, delicate but sharp features, highly detailed, cinematic lighting, 8k --ar 9:16",
+  "personality": "极度要强、杀伐果断、眼里揉不得沙子。重生后转为绝对的内核稳定与情感抽离，不再内耗，边界感极强。",
+  "desire": "摆脱前世纠缠，护住高家满门，让儿女平安降生并独自抚养，追求绝对的精神自由。",
+  "flaw": "过强的自尊心与防御机制，一旦失望便彻底封闭情感通道，拒绝任何沟通与和解。",
+  "arc": "执念深重的怨妇（前世） → 及时止损的清醒者（重生初） → 彻底放下实现自由的独立女性（结局）",
+  "scene_presence": "贯穿全剧：退回木雁退婚、马球会冷眼旁观、洞房夜冷遇沈词、难产保命、江南招赘",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感",
+      "dynamic": "从前世的相爱相杀到今生的单向逃离与被纠缠",
+      "function": "阻碍/镜像（展示放下与执迷的对比）"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "对照",
+      "dynamic": "高位俯视与冷漠反击",
+      "function": "阻碍（催化女权意识觉醒的工具人）"
+    },
+    {
+      "target": "高父",
+      "type": "情感",
+      "dynamic": "双向守护，绝对的后盾",
+      "function": "助攻"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 高家门旁 - 日",
+  "location": "高家门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词拦路谈判处理陆姝仪与和离约定",
+  "key_dialogue": "但是，你要先处理好那位表小姐。",
+  "emotional_peak": "四目相对恨意",
+  "tension_score": 0.8,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "大雁勒痕",
+    "奏折"
+  ],
+  "dramatic_purpose": "确立今生交易关系",
+  "source_text_start": "却在门旁看到了等待已久的沈词。他眼下泛青，指尖有道细细的勒痕。",
+  "source_text_end": "四目相对，只剩恨意。我冷哼一声，转身离开。"
+}

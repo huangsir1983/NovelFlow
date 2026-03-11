@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0004",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0040",
+      "shot_0041",
+      "shot_0042"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立空间、主观限制与人物状态，角色集合未变，情绪仍处于同一条‘礼制压迫下的抽离’弧线上；从环境压迫切入高令宁受阻视野，再落到她本人僵直状态，形成连续的限制性主观体验，适合压缩为一个6秒建立段。",
+    "order": 4
+  },
+  {
+    "id": "seg_0005",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0043",
+      "shot_0044",
+      "shot_0045"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段集中表现外部压力如何逼出失衡：先给双人关系与催促压力，再拍听者/观察者沈睿的克制反应，最终落到高令宁被看见的失神。角色未变化，时空连续，情绪从尴尬逼迫递增到明显失神，形成完整一拍。",
+    "order": 5
+  },
+  {
+    "id": "seg_0006",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0046",
+      "shot_0047",
+      "shot_0048"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段构成明确的情感转折点，必须作为独立segment：沈睿轻咳打破僵局，高令宁被迫回神，随即进入夫妻对拜动作。三镜头在因果上高度紧密，既完成情绪换挡，也完成叙事动作推进。",
+    "order": 6
+  },
+  {
+    "id": "seg_0007",
+    "scene_id": "scene_003",
+    "shot_ids": [
+      "shot_0049",
+      "shot_0050",
+      "shot_0051"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "末段以动作细节收束：先外化高令宁机械配合，再给沈睿察觉却不追问的反应，最后回到限制性主观完成冷收尾。情绪从余震落回更深冷意，角色集合稳定，叙事上也正好完成礼成后的关系定调。",
+    "order": 7
+  }
+]

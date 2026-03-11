@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "id": "scene_049",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:40:01"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_012",
+    "characters_present": [
+      "高父",
+      "沈母"
+    ],
+    "related_beats": [
+      "beat_014"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家前厅 - 日",
+    "location": "高家前厅",
+    "time_of_day": "day",
+    "description": "高家前厅格局端正，空间半封闭，日光自门外和侧窗斜照入内。厅内陈设简洁，主位沉稳。高父居中而坐，气场压人；沈母上门求见，面上带笑却神色勉强，来客与主家在空间上形成明显对峙。",
+    "action": "沈母立于厅中，强撑着客套笑意试图说和。高父端坐不动，语气冷硬，逐句压制。听到“闹上公堂，鱼死网破”时，沈母脸色发僵，唇边笑意挂不住，只能收势退让，不再坚持带走昭昭。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "高家虽然门第低，却也并非好欺负的，贵公子与义妹关系暧昧，差点害得发妻一事两命，这若传出去，沈公子的官途要是不要？",
+        "subtext": "我手里握着能毁掉沈家的把柄，不会任你们拿捏。"
+      },
+      {
+        "character": "沈母",
+        "line": "可是，昭昭毕竟是我们沈家的血脉……",
+        "subtext": "至少把孩子要回去，保住沈家的体面和控制权。"
+      },
+      {
+        "character": "高父",
+        "line": "我高家还养得起一个小姑娘，两个孩子和离后，昭昭归高家。",
+        "subtext": "孩子绝不会交给你们，和离已成定局。"
+      },
+      {
+        "character": "高父",
+        "line": "沈家若执意纠缠，那便闹上公堂，鱼死网破。",
+        "subtext": "你若不退，我就把沈家一起拖下水。"
+      }
+    ],
+    "characters_present": [
+      "高父",
+      "沈母"
+    ],
+    "key_props": [
+      "厅堂座椅",
+      "昭昭相关话题中的抚养权主张"
+    ],
+    "dramatic_purpose": "明确高家对昭昭抚养权和和离立场的强硬态度，切断沈家通过长辈斡旋回收孩子的可能。",
+    "tension_score": 0.72,
+    "dramatic_intensity": 0.44,
+    "order": 49
+  }
+}

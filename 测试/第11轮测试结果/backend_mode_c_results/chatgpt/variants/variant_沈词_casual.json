@@ -1,0 +1,33 @@
+{
+  "variant_id": "shen_ci_variant_05",
+  "variant_type": "casual",
+  "variant_name": "沈词 — 高家养胎期间的伪温柔日常",
+  "tags": [
+    "婚后",
+    "低姿态",
+    "短暂温柔",
+    "探望",
+    "假性和缓"
+  ],
+  "scene_ids": [
+    "scene_007"
+  ],
+  "trigger": "高令宁回娘家养胎后，沈词每日下衙前来探望，送珍玩、剥葡萄、低声认错时出现。",
+  "appearance_delta": {
+    "face": "冷意被明显收敛，眉眼柔和度高于主设定常态，带有罕见的小心翼翼与试探，像是在强行学习温柔",
+    "body": "依旧清瘦修长，但因放低姿态而不再显得居高临下，坐卧陪伴时更有居家感",
+    "hair": "下衙后来访，发式仍整齐，但比朝堂状态少一分严苛，多一分私下亲近感",
+    "distinguishing_features": "剥葡萄、轻吻、低声承认前世对不住她，这一状态最突出的是冷面权臣身上极少见的‘笨拙温存’"
+  },
+  "costume_override": {
+    "outfit": "下衙后探望妻子的私下深色锦袍或简化常服，面料精致，线条柔和于朝服",
+    "color_palette": [
+      "玄青",
+      "月白",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "Ancient Chinese scholar-official visiting his wife in a quiet courtyard, handsome pale man with refined cold features softened into cautious tenderness, tall slender build, neatly tied black hair with simple jade crown, elegant dark blue casual hanfu, seated beside fruit and gifts, peeling grapes with restrained gentleness, warm domestic historical drama lighting, subtle emotional intimacy, cinematic realism, high detail",
+  "visual_prompt_negative": "modern home, casual t-shirt, broad happy smile, beard, armor, fantasy setting, exaggerated romance pose, messy hairstyle",
+  "emotional_tone": "短暂真实又脆弱的温柔，仿佛一切尚可挽回"
+}

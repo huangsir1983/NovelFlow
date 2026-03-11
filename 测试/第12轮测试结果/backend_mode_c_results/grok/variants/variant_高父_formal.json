@@ -1,0 +1,30 @@
+{
+  "variant_id": "高父_variant_02",
+  "variant_type": "formal",
+  "variant_name": "高父 — 婚堂见证",
+  "tags": [
+    "慈父",
+    "官员",
+    "婚礼"
+  ],
+  "scene_ids": [
+    "scene_008"
+  ],
+  "trigger": "沈家婚堂日间，女儿成亲大典对拜时",
+  "appearance_delta": {
+    "face": "中年皱纹，慈祥忧心带庄重复杂",
+    "body": "略显消瘦",
+    "hair": "花白束冠",
+    "distinguishing_features": "眼角皱纹与注视女儿的复杂关切目光"
+  },
+  "costume_override": {
+    "outfit": "四品官袍",
+    "color_palette": [
+      "深红",
+      "墨绿"
+    ]
+  },
+  "visual_reference": "一位50岁左右的中年官员，花白头发束冠，眼角皱纹慈祥忧心中带庄重复杂情绪，略显消瘦，身穿深红色四品官袍，站在沈家婚堂中看着女儿盖头下拜堂，喜烛红毯背景，柔和日间室内光与喜庆氛围，写实风格，高清细节",
+  "visual_prompt_negative": "年轻脸庞、现代西装、冷酷表情、卡通风格、过度喜悦表情",
+  "emotional_tone": "庄重欣慰夹杂隐忧"
+}

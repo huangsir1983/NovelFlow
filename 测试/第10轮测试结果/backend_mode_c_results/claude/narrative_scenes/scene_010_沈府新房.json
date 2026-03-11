@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 沈府新房 - 夜",
+  "location": "沈府新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "新婚之夜，沈词与高令宁圆房，陆姝仪婢女来叩门",
+  "key_dialogue": "要不是睿儿，你以为我想碰你？",
+  "emotional_peak": "冷漠的云雨与陆姝仪的打扰",
+  "tension_score": 0.7,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "红盖头",
+    "喜床",
+    "红烛",
+    "丝带",
+    "水盆"
+  ],
+  "dramatic_purpose": "展现夫妻关系冷淡，陆姝仪再次介入"
+}

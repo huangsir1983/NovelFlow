@@ -1,0 +1,32 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "INT. 高府正堂/婚礼现场 - DAY",
+  "location": "高府与迎亲礼场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词",
+    "媒人"
+  ],
+  "core_event": "在重重压力下婚事敲定，高父仍反复叮嘱女儿受委屈就和离。盛大婚礼举行，高令宁心不在焉，机械完成拜堂。",
+  "key_dialogue": "「受了委屈便和离回家。」",
+  "emotional_peak": "婚礼看似风光，女主却如再次踏入已知的深渊，情绪空洞麻木。",
+  "tension_score": 0.68,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "大红喜服",
+    "盖头",
+    "凤冠",
+    "喜轿",
+    "八抬大轿",
+    "红绸",
+    "喜烛",
+    "礼乐器",
+    "聘礼箱",
+    "拜堂垫",
+    "交杯酒"
+  ],
+  "dramatic_purpose": "完成再婚节点，形成表面喜庆与内里宿命的反差"
+}

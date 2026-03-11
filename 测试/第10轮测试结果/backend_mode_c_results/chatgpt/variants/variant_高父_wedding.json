@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaofu_variant_04",
+  "variant_type": "wedding",
+  "variant_name": "高父 — 婚前叮嘱时的送嫁父亲形象",
+  "tags": [
+    "送嫁",
+    "婚礼前后",
+    "护女叮嘱",
+    "不舍"
+  ],
+  "scene_ids": [
+    "scene_011"
+  ],
+  "trigger": "婚事最终敲定，高父在婚礼前后反复叮嘱女儿若受委屈便和离回家，在喜庆场面中显出与众不同的清醒与不安。",
+  "appearance_delta": {
+    "face": "在喜庆氛围下神情并不舒展，眼神更凝重，像明知前路凶险仍不得不送女出门",
+    "body": "站姿端肃却带迟滞感，像压着不舍与担忧，显得比平日更苍老几分",
+    "hair": "发髻与礼仪装束一丝不苟，鬓白在红色婚礼环境衬托下更加明显",
+    "distinguishing_features": "喜堂中的唯一冷静者之一，慈父气质与对婚姻风险的警觉形成鲜明反差"
+  },
+  "costume_override": {
+    "outfit": "正式会客与送嫁场合所穿的整齐官员常服或庄重礼服，避免喧宾夺主但足够体面",
+    "color_palette": [
+      "深青",
+      "灰蓝",
+      "沉褐"
+    ]
+  },
+  "visual_reference": "middle-aged ancient Chinese father at a traditional wedding, dignified thin scholar-official, worried kind face, deep wrinkles, slightly graying hair in a strict formal topknot, dark muted ceremonial robe, surrounded by red wedding decorations but emotionally restrained, giving serious advice to his daughter before marriage, contrast of festive setting and paternal anxiety, historical drama realism",
+  "emotional_tone": "不舍、警惕、深沉父爱"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "沈昭昭",
+  "aliases": [
+    "昭昭",
+    "小千金"
+  ],
+  "role": "supporting",
+  "age_range": "0-3",
+  "appearance": {
+    "face": "婴儿时期肤白柔嫩，五官漂亮，幼年后眼睛明亮，神情灵动",
+    "body": "健康小女孩体态，圆润可爱",
+    "hair": "幼年软发，扎简单童髻",
+    "distinguishing_features": "聪慧活泼，幼小年纪便能背诗，像光一样明朗"
+  },
+  "costume": {
+    "typical_outfit": "婴儿包被、小袄、小裙子，后期穿精致童装与冬日小斗篷",
+    "color_palette": [
+      "鹅黄",
+      "朱红",
+      "粉白",
+      "嫩绿"
+    ]
+  },
+  "casting_tags": [
+    "小女儿",
+    "灵气萌娃",
+    "新生希望"
+  ],
+  "visual_reference": "cute ancient chinese little girl, bright eyes, lively expression, traditional child hanfu, warm sunlight, hopeful atmosphere",
+  "personality": "聪明、活泼、好奇心强",
+  "desire": "童真阶段，以亲近父母、探索世界为主",
+  "flaw": "年幼，尚无明显缺陷",
+  "arc": "作为意外出生的女儿，取代宿命中的儿子，成为母亲人生新出口，也让父亲的情感方向彻底改变",
+  "scene_presence": "出生、被争夺抚养、满月宴、江南成长线中持续出现",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母女",
+      "dynamic": "被母亲全力守护，承载新人生",
+      "function": "希望与疗愈"
+    },
+    {
+      "target": "沈词",
+      "type": "父女",
+      "dynamic": "父亲深爱她并借她持续试图靠近母亲",
+      "function": "连接离散家庭的纽带"
+    },
+    {
+      "target": "高父",
+      "type": "外祖父与外孙女",
+      "dynamic": "被外祖父坚定护在高家",
+      "function": "高家延续与情感补偿"
+    }
+  ]
+}

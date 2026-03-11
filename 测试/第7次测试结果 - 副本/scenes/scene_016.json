@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "id": "scene_016",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:03:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_003",
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "related_beats": [
+      "beat_004",
+      "beat_006"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家宅院·父亲房中 - NIGHT",
+    "location": "高家宅院·父亲房中",
+    "time_of_day": "night",
+    "description": "封闭的旧式书房兼卧房，层高中等，室内以案头油灯为主光源，暖黄侧光压出人物面部皱纹与疲态。书案上摊着纸张、笔墨与未收起的文书，夜色从窗棂外压进来，室内静得只剩说话与纸张摩擦声。高父神色倦重，显然彻夜未眠。",
+    "action": "高父在熬了一夜后改口，坐在书案前缓慢开口，语气沉重。高令宁站在案前，看着他眼角新添的皱纹，沉默不语，手指收紧衣袖。父女对视间，婚事态度发生转折，高令宁没有立刻反驳，只是安静听完。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "沈家势大，只怕你嫁过去会受委屈。",
+        "subtext": "他开始后悔这门婚事，担心女儿进高门后失去庇护。"
+      },
+      {
+        "character": "高父",
+        "line": "为父生养你十余年，不求你高嫁为家族争光，但求你觅得良人，平安喜乐度过此生。",
+        "subtext": "他放下门第与仕途考量，第一次把女儿的安稳置于家族利益之上。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "高父"
+    ],
+    "key_props": [
+      "油灯",
+      "书案",
+      "笔墨文书"
+    ],
+    "dramatic_purpose": "建立父女关系与婚事变数，交代高父从支持联姻转为犹疑，为后续高令宁提出条件铺垫。",
+    "tension_score": 0.42,
+    "dramatic_intensity": -0.16,
+    "order": 16
+  }
+}

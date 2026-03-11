@@ -1,0 +1,30 @@
+{
+  "variant_id": "luxuyi_variant_02",
+  "variant_type": "injured",
+  "variant_name": "陆姝仪 — 胃病发作",
+  "tags": [
+    "病弱",
+    "痛苦",
+    "被照顾"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "马球会休息室内胃病发作，沈词在旁照顾",
+  "appearance_delta": {
+    "face": "面色苍白，额头冒汗，眉头紧蹙",
+    "body": "身体蜷缩，更显虚弱",
+    "hair": "发丝凌乱，发饰歪斜",
+    "distinguishing_features": "手捂腹部，痛苦的表情中带着隐忍"
+  },
+  "costume_override": {
+    "outfit": "素色襦裙，衣襟略显凌乱",
+    "color_palette": [
+      "浅粉",
+      "米白"
+    ]
+  },
+  "visual_reference": "古代病弱女子，温婉面容因痛苦而苍白憔悴，额头渗出细汗，眉头紧蹙，身着素色浅粉襦裙，衣襟略显凌乱，发丝散落，发饰歪斜，身体微微蜷缩，一手捂着腹部，另一手无力地撑在身侧，眼神虚弱但仍带着隐忍和倔强，坐在室内榻上，光线昏暗柔和，营造出病中脆弱又惹人怜惜的氛围",
+  "visual_prompt_negative": "健康气色，挺拔身姿，整齐装扮，明亮光线，活力表情",
+  "emotional_tone": "痛苦虚弱，激发保护欲"
+}

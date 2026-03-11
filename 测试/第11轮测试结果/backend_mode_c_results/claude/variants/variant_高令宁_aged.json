@@ -1,0 +1,31 @@
+{
+  "variant_id": "gao_lingning_variant_04",
+  "variant_type": "aged",
+  "variant_name": "高令宁 — 前世暮年（回忆）",
+  "tags": [
+    "前世",
+    "暮年",
+    "憔悴",
+    "绝望",
+    "自伤"
+  ],
+  "scene_ids": [],
+  "trigger": "前世回忆片段：丧子之后与沈词婚姻彻底破碎，在漫长的怨恨与消耗中走向暮年，最终以瓷片自伤颈部而亡，是重生前的最后形象",
+  "appearance_delta": {
+    "face": "面容枯槁，颧骨高耸，眼窝深陷，杏眼不再明亮而是浑浊暗淡，法令纹与眼尾皱纹深刻，薄唇干裂无血色，神情是彻底的心如死灰",
+    "body": "极度消瘦，骨架嶙峋，肩背佝偻，已无年轻时的挺拔体态",
+    "hair": "花白稀疏，枯燥无光泽，随意挽成松散低髻，以一根旧银簪勉强固定",
+    "distinguishing_features": "脖颈处有一道触目惊心的鲜红伤口（瓷片自伤），手中握着带血的碎瓷片"
+  },
+  "costume_override": {
+    "outfit": "灰白色旧襦裙，布料洗得发薄，褙子颜色黯淡近乎无色，衣衫不整，腰间绦带松垮",
+    "color_palette": [
+      "灰白",
+      "暗灰",
+      "枯褐"
+    ]
+  },
+  "visual_reference": "An elderly emaciated Chinese woman in her late years, gaunt face with deep wrinkles and sunken hollow eyes that were once sharp almond-shaped but now clouded and lifeless, grey-white thinning hair in a loose low bun held by an old tarnished silver hairpin, wearing a faded grey-white worn hanfu ruqun with a dull outer beizi, hunched posture with protruding bones, holding a blood-stained broken porcelain shard in one trembling hand, a fresh red wound visible on the side of her neck, sitting alone in a dark desolate traditional Chinese room with cold lighting, desaturated color palette, somber atmosphere, cinematic lighting, highly detailed, 8k",
+  "visual_prompt_negative": "young face, smooth skin, bright eyes, colorful clothing, smile, healthy complexion, jewelry, modern clothing, glasses, tattoo, Western features, fantasy armor, wings",
+  "emotional_tone": "绝望赴死——一生执念燃尽后的万念俱灰，是角色弧光的最低点，与重生后的新生形成最强烈对比"
+}

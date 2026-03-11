@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 沈家新婚正厅 - DAY",
+  "location": "前世沈家正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "沈母"
+  ],
+  "core_event": "前世新婚第二日，沈母安排陆姝仪向高令宁敬茶，暗示平妻意图。高令宁砸杯自戕反击，震慑沈家。",
+  "key_dialogue": "「我是高家长女……眼里从来容不得沙子。」",
+  "emotional_peak": "高令宁拿碎瓷抹脖，鲜血与新婚羞辱在同一刻爆发。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "敬茶茶盏",
+    "碎瓷片",
+    "血迹丝帕",
+    "新婚衣饰"
+  ],
+  "dramatic_purpose": "回溯前世婚姻创伤起点，解释女主为何无法再信任沈家与沈词。",
+  "source_text_start": "上一世。\n沈词求娶我，是为陆姝仪。",
+  "source_text_end": "沈母拿陆姝仪给我立威，我也拿她给整个沈家立威。"
+}

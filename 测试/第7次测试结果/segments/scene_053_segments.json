@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0257",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0802",
+      "shot_0803",
+      "shot_0804"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot同属开场空间建立与权力关系铺陈，角色集合不变，情绪仍处于体面静止下的压迫累积，适合合并为一个连续段落完成空间、视点与逼近动作的同步建立。",
+    "order": 257
+  },
+  {
+    "id": "seg_0258",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0805",
+      "shot_0806",
+      "shot_0807"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段将沈睿的执拗诉求、高令宁的反应与‘想开了’、再到和离书的物证串成一个完整情绪单位：从逼迫到超脱再到现实切割，属于同一情感转折前半段，且主视角持续稳定在女主限制性主观内。",
+    "order": 258
+  },
+  {
+    "id": "seg_0259",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0809",
+      "shot_0810",
+      "shot_0811"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组shot构成场面核心翻转：女主完成‘原谅’宣告，男主立刻发生身体与情绪崩塌，随后再用女主反应确认权力反转已成立。情绪连续且节拍清晰，适合合并成单一爆点段落。",
+    "order": 259
+  },
+  {
+    "id": "seg_0260",
+    "scene_id": "scene_053",
+    "shot_ids": [
+      "shot_0813",
+      "shot_0814",
+      "shot_0815"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜形成完整尾声：沈睿的失态升级、关键台词揭底、再以高令宁与昭昭的静止完成冷收尾。角色集合未变，但情感弧线从崩溃到终局明确收束，因此应作为独立终段结束本场。",
+    "order": 260
+  }
+]

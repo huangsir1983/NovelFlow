@@ -1,0 +1,30 @@
+{
+  "variant_id": "陆姝仪_variant_02",
+  "variant_type": "casual",
+  "variant_name": "陆姝仪 — 制作风筝",
+  "tags": [
+    "风筝",
+    "悠闲",
+    "被宠"
+  ],
+  "scene_ids": [
+    "scene_006"
+  ],
+  "trigger": "马球会沙场沈词宠溺陪伴下制作风筝时",
+  "appearance_delta": {
+    "face": "温婉清丽，泪眼盈盈专注",
+    "body": "柔弱纤细",
+    "hair": "柔顺黑发轻挽随风",
+    "distinguishing_features": "手持风筝线，姿态轻柔"
+  },
+  "costume_override": {
+    "outfit": "粉色飘逸衣裙",
+    "color_palette": [
+      "粉色",
+      "浅绿"
+    ]
+  },
+  "visual_reference": "一位温婉清丽的古代少女，身穿粉色飘逸衣裙站在马球会沙场，脸庞清丽柔弱，杏眼含泪楚楚可怜，黑发轻挽随风微动，身姿纤细手持风筝线制作风筝，光影明亮略带忧伤",
+  "visual_prompt_negative": "强势表情、现代装、浓妆、壮实身材、激烈动作",
+  "emotional_tone": "温柔专注"
+}

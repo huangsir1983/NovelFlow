@@ -1,0 +1,32 @@
+{
+  "variant_id": "shen_ci_variant_02",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 朝堂权臣",
+  "tags": [
+    "官服",
+    "冷峻",
+    "权势"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_003",
+    "scene_007"
+  ],
+  "trigger": "提亲、交涉等正式场合",
+  "appearance_delta": {
+    "face": "如玉面庞，表情端方持重",
+    "body": "身姿挺拔，气场强大",
+    "hair": "束发戴官帽",
+    "distinguishing_features": "冷如冰湖的眼睛，不怒自威"
+  },
+  "costume_override": {
+    "outfit": "深色文官朝服，腰佩玉带",
+    "color_palette": [
+      "墨色",
+      "深青",
+      "玉白"
+    ]
+  },
+  "visual_reference": "powerful Chinese official in dark formal court robes, jade belt, cold authoritative presence, handsome jade-like face with piercing amber eyes, traditional official hat, ancient China dynasty, dignified posture, scholar-official aesthetic",
+  "emotional_tone": "冷静理智，权威压迫"
+}

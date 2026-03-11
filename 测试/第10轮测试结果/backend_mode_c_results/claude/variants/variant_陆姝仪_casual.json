@@ -1,0 +1,29 @@
+{
+  "variant_id": "lu_shuyi_variant_01",
+  "variant_type": "casual",
+  "variant_name": "陆姝仪 — 马球会日常",
+  "tags": [
+    "柔弱",
+    "示好",
+    "寄人篱下"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "马球会白天,向沈词示好,展现温顺可怜",
+  "appearance_delta": {
+    "face": "温婉清丽,略带讨好的笑意",
+    "body": "纤细柔弱,姿态谦卑",
+    "hair": "柔顺长发,简单发饰",
+    "distinguishing_features": "柔顺温和的神态,眼神期待"
+  },
+  "costume_override": {
+    "outfit": "素色襦裙,朴素淡雅,适合户外活动",
+    "color_palette": [
+      "浅绿",
+      "粉白"
+    ]
+  },
+  "visual_reference": "delicate young Chinese woman in pale green hanfu, soft gentle smile, hopeful eyes, simple hair ornament, slender graceful posture, outdoor daylight, traditional Chinese garden setting, vulnerable yet sweet appearance",
+  "emotional_tone": "温顺讨好,柔弱依赖"
+}

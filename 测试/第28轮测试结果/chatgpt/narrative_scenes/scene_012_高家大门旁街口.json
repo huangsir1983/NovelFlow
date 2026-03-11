@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "EXT. 高家门旁 - day",
+  "location": "高家大门旁街口",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词拦在门旁，以长子沈睿之死为筹码逼我成婚，我提出唯一条件：先处理好陆姝仪。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "亡子的名字成为婚约最重的勒索。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "活雁勒痕",
+    "药方",
+    "门槛"
+  ],
+  "dramatic_purpose": "明确二人再婚动机：不是爱情，而是为了重得那个孩子。",
+  "visual_reference": "高家门外日光刺眼，男子面带疲惫与执拗挡住去路，女子手执药方被逼停，二人目光如刀，往来行人模糊成背景",
+  "visual_prompt_negative": "避免街头拥挤吵闹，避免甜蜜重逢感，避免现代城市元素",
+  "source_text_start": "想起他胸口痛的老毛病，我想到医馆为他开一帖药。",
+  "source_text_end": "我冷哼一声，转身离开。"
+}

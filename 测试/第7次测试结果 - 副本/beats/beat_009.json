@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "id": "beat_009",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-09T00:04:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_002",
+      "scene_003",
+      "scene_004",
+      "scene_005"
+    ]
+  },
+  "data": {
+    "title": "踏入新婚冷局并被旧情搅局",
+    "description": "婚事在第三次提亲后终于敲定。新婚夜两人都带着前世记忆冷淡圆房，沈词以‘为了睿儿才碰你’试探羞辱，女主则麻木配合；正当洞房未散，陆姝仪婢女来报她醉酒心痛，前世争宠戏码再度上演。",
+    "beat_type": "event",
+    "save_the_cat": "Midpoint",
+    "emotional_value": -0.4,
+    "dramatic_intensity": -0.4,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 9
+  }
+}

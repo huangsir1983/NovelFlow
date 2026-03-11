@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_006",
+  "name": "侯爵府客房",
+  "type": "interior",
+  "era_style": "明代顶级权贵府邸",
+  "description": "华贵的客房，陈设考究。室内有一张雕花软榻，旁边的小几上放着冒着热气的药碗。黄昏时分，室内点燃了摇曳的烛火，映照着精致的屏风和厚重的帷幔。",
+  "visual_reference": "Interior of a luxurious guest room in an ancient Chinese Marquis manor. An ornate wooden daybed, a small table with a steaming medicine bowl. Dusk lighting, flickering candlelight casting warm glows on elegant folding screens and heavy silk curtains. Cinematic, emotional, highly detailed.",
+  "atmosphere": "暧昧、憋屈、令人窒息",
+  "color_palette": [
+    "#DAA520",
+    "#800000",
+    "#191970"
+  ],
+  "lighting": "黄昏的幽暗与室内温暖的烛光交织，形成强烈的冷暖对比，烛光摇曳不定。",
+  "key_features": [
+    "雕花软榻",
+    "冒热气的药碗",
+    "摇曳的灯火"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "旁观他人暧昧的冷漠与索然无味。"
+}

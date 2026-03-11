@@ -1,0 +1,41 @@
+{
+  "name": "高父",
+  "aliases": [
+    "父亲",
+    "高大人"
+  ],
+  "role": "supporting",
+  "age_range": "45-55",
+  "appearance": {
+    "face": "面容和蔼，眼角有皱纹，带着文官的儒雅",
+    "body": "中等身材，略显清瘦",
+    "hair": "半白发髻",
+    "distinguishing_features": "看着女儿时满眼慈爱与忧心"
+  },
+  "costume": {
+    "typical_outfit": "四品文官常服或居家宽袍",
+    "color_palette": [
+      "深褐",
+      "墨绿"
+    ]
+  },
+  "casting_tags": [
+    "慈父",
+    "儒雅官员",
+    "护女狂魔"
+  ],
+  "visual_reference": "1man, middle-aged ancient chinese official, kind face, wrinkles around eyes, wearing dark green official robes, fatherly aura, masterpiece",
+  "personality": "开明，疼爱女儿，有政治远见（听劝辞官），护短",
+  "desire": "女儿平安喜乐，家族免遭政治牵连",
+  "flaw": "前期对沈家门第抱有一定幻想",
+  "arc": "从劝女儿忍让，到彻底看清沈家面目，强硬支持女儿和离",
+  "scene_presence": "首尾呼应，女主的重要支撑",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "父女",
+      "dynamic": "无条件包容和支持",
+      "function": "提供避风港"
+    }
+  ]
+}

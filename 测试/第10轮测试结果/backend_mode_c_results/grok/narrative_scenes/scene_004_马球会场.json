@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 马球会场 - 日",
+  "location": "马球会场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "女主与蒋晟亲密，目睹沈词宠溺陆姝仪风筝，脚滑被扶",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "醋意与挑衅交织",
+  "tension_score": 0.65,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "马球杆",
+    "风筝",
+    "葡萄篮",
+    "柳树池边石凳",
+    "蒋晟手帕"
+  ],
+  "dramatic_purpose": "三角关系升级与女主脚伤铺垫"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_019",
+  "order": 18,
+  "heading": "INT. 高家后院卧房 - DAY",
+  "location": "高家后院房中",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "昭昭",
+    "高父"
+  ],
+  "core_event": "沈词跪求见妻女，被高父摆出和离书。沈词强闯后院，质问高令宁为何真的要按约和离；高令宁表示自己已想开并原谅他，希望他另觅良人，沈词却崩溃地说不要她原谅。",
+  "key_dialogue": "「高令宁，我不要你原谅我。」",
+  "emotional_peak": "沈词从自信她不会放手，跌入被放下的恐惧中。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 260,
+  "key_props": [
+    "和离书",
+    "襁褓中的昭昭",
+    "雕花木门"
+  ],
+  "dramatic_purpose": "完成情感权力反转：女主抽身，男主开始沦为追逐者。",
+  "source_text_start": "唯有沈词。\n笔直地跪在我父亲面前，只为见我和女儿一面。\n父",
+  "source_text_end": "我错愕地看着他，哑然失笑。\n不恨他了……他怎么反而还不乐"
+}

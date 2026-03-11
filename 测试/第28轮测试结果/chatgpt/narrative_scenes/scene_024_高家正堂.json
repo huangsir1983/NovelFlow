@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_024",
+  "order": 23,
+  "heading": "INT. 高家正堂 - day",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人第三次提亲后，父亲在压力下应婚，却私下再三叮嘱我若受委屈便和离回家。",
+  "key_dialogue": "「受了委屈便和离回家。」",
+  "emotional_peak": "父亲的退路承诺，成了我婚前唯一的安全感。",
+  "tension_score": 0.52,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "聘礼山",
+    "婚书",
+    "座椅"
+  ],
+  "dramatic_purpose": "巩固父女情线，并为后续和离提供情感支持。",
+  "visual_reference": "堂中堆满贵重聘礼，父亲却愁眉不展，女儿在他身后轻轻捶肩，富贵与不安形成鲜明反差",
+  "visual_prompt_negative": "避免喜庆过头，避免媒人喧闹，避免空镜过多",
+  "source_text_start": "媒人第三次上门提亲。",
+  "source_text_end": "「齐大非偶，」父亲嘱咐我，「你不必逼着自己一定让沈家满意，受了委屈便和离回家，为父再另为你安排亲事。」"
+}

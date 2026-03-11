@@ -1,0 +1,21 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 高家后院 - 日间",
+  "location": "高家后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词闯入争执和离，女主表示原谅，沈词拒绝",
+  "key_dialogue": "我不信你肯放过我……我不要你原谅我。",
+  "emotional_peak": "沈词拼命摇头",
+  "tension_score": 0.75,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "和离书",
+    "雕花木门"
+  ],
+  "dramatic_purpose": "情感逆转男主不舍"
+}

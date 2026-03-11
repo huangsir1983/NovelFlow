@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 马球会休息室 - 夜",
+  "location": "马球会休息室",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "大夫"
+  ],
+  "core_event": "陆姝仪胃病,沈词照顾她,高令宁要求陆姝仪先出嫁才同意婚事",
+  "key_dialogue": "公子还是先操心好表小姐的婚事,再来提亲吧",
+  "emotional_peak": "陆姝仪跪求高令宁,沈词护着她",
+  "tension_score": 0.75,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "药碗",
+    "床榻",
+    "灯火",
+    "医药箱"
+  ],
+  "dramatic_purpose": "激化矛盾,陆姝仪示弱"
+}

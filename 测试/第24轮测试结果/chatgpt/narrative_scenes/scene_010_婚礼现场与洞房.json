@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "INT. 高家与沈家婚礼/新房 - 日夜",
+  "location": "婚礼现场与洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "陆姝仪婢女"
+  ],
+  "core_event": "媒人第三次上门后婚事终定。婚礼中我心不在焉，洞房里沈词与我冷嘲热讽地完成夫妻之礼，随后陆姝仪照旧借醉心口痛来搅局，我放他去。",
+  "key_dialogue": "「你我早晚要和离，我费那心思做什么？」",
+  "emotional_peak": "新婚夜本该是开始，却从一开始就像一场带着终点的履约。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "如山聘礼",
+    "红盖头",
+    "丝带",
+    "和离约定"
+  ],
+  "dramatic_purpose": "完成婚姻建立，并显示两人的亲密与敌意并存。",
+  "visual_reference": "古代盛大婚礼后转入冷色洞房，新娘疲惫麻木，新郎讥诮克制，门外忽闻侍女急报。",
+  "visual_prompt_negative": "不要现代婚纱，不要低俗情色，不要夸张红光滤镜，不要喜剧化闹洞房。",
+  "source_text_start": "媒人第三次上门提亲。种种压力下，父亲应下了这",
+  "source_text_end": "余光里，他盯着我的后背，神色讥诮：「怎么，又想等我姝仪那里后，再去我父亲母亲前告状？」"
+}

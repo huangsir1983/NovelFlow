@@ -1,0 +1,166 @@
+{
+  "model": "Gemini",
+  "model_id": "gemini",
+  "mode_c": {
+    "mode": "C_pipeline",
+    "streaming": true,
+    "total_time_s": 448.63,
+    "time_to_first_char_s": 403.49,
+    "char_export_log": [
+      {
+        "name": "高令宁",
+        "time_s": 403.49
+      },
+      {
+        "name": "沈词",
+        "time_s": 404.79
+      },
+      {
+        "name": "陆姝仪",
+        "time_s": 405.47
+      },
+      {
+        "name": "高父",
+        "time_s": 406.2
+      },
+      {
+        "name": "蒋晟",
+        "time_s": 406.82
+      },
+      {
+        "name": "沈睿",
+        "time_s": 407.52
+      },
+      {
+        "name": "昭昭",
+        "time_s": 408.04
+      },
+      {
+        "name": "稳婆",
+        "time_s": 408.49
+      },
+      {
+        "name": "赘婿甲",
+        "time_s": 409.11
+      }
+    ],
+    "scene_export_log": [
+      {
+        "scene_id": "scene_001",
+        "location": "高家正堂",
+        "time_s": 422.97
+      },
+      {
+        "scene_id": "scene_002",
+        "location": "高令宁闺房",
+        "time_s": 424.87
+      },
+      {
+        "scene_id": "scene_003",
+        "location": "沈家正堂",
+        "time_s": 430.54
+      },
+      {
+        "scene_id": "scene_004",
+        "location": "沈家病榻",
+        "time_s": 431.03
+      },
+      {
+        "scene_id": "scene_005",
+        "location": "高家书房",
+        "time_s": 431.4
+      },
+      {
+        "scene_id": "scene_006",
+        "location": "高家大门外",
+        "time_s": 432.05
+      },
+      {
+        "scene_id": "scene_007",
+        "location": "马球场柳池旁",
+        "time_s": 432.51
+      },
+      {
+        "scene_id": "scene_008",
+        "location": "马球场偏僻角落",
+        "time_s": 433.01
+      },
+      {
+        "scene_id": "scene_009",
+        "location": "马球场休息室",
+        "time_s": 434.68
+      },
+      {
+        "scene_id": "scene_010",
+        "location": "沈家洞房",
+        "time_s": 435.3
+      },
+      {
+        "scene_id": "scene_011",
+        "location": "沈家内室",
+        "time_s": 436.23
+      },
+      {
+        "scene_id": "scene_012",
+        "location": "高家廊下",
+        "time_s": 440.04
+      },
+      {
+        "scene_id": "scene_013",
+        "location": "高家厢房",
+        "time_s": 441.6
+      },
+      {
+        "scene_id": "scene_014",
+        "location": "高家产房",
+        "time_s": 442.21
+      },
+      {
+        "scene_id": "scene_015",
+        "location": "模糊的房间",
+        "time_s": 442.72
+      },
+      {
+        "scene_id": "scene_016",
+        "location": "高家正堂转后院",
+        "time_s": 443.49
+      },
+      {
+        "scene_id": "scene_017",
+        "location": "高家厅堂（满月宴）",
+        "time_s": 447.24
+      },
+      {
+        "scene_id": "scene_018",
+        "location": "江南院落",
+        "time_s": 447.74
+      },
+      {
+        "scene_id": "scene_019",
+        "location": "江南高令宁卧室",
+        "time_s": 448.61
+      }
+    ],
+    "num_characters": 9,
+    "num_characters_streamed": 9,
+    "num_scenes": 19,
+    "num_scenes_streamed": 19,
+    "character_names": [
+      "高令宁",
+      "沈词",
+      "陆姝仪",
+      "高父",
+      "蒋晟",
+      "沈睿",
+      "昭昭",
+      "稳婆",
+      "赘婿甲"
+    ],
+    "stream_chunks": 142,
+    "num_locations": 19,
+    "num_props_total": 65,
+    "num_props_major": 0,
+    "num_variants": 14,
+    "pipeline_total_time_s": 1297.09
+  }
+}

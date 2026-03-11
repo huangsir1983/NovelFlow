@@ -1,0 +1,32 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆母"
+  ],
+  "role": "minor",
+  "age_range": "45-55岁",
+  "appearance": {
+    "face": "富态势利",
+    "body": "中等",
+    "hair": "贵妇发髻",
+    "distinguishing_features": "威严表情"
+  },
+  "costume": {
+    "typical_outfit": "华贵夫人服",
+    "color_palette": [
+      "金色",
+      "红"
+    ]
+  },
+  "casting_tags": [
+    "势利婆母"
+  ],
+  "visual_reference": "一位中年古代贵妇，富态面容，华贵服饰，发髻精致，表情略带势利，在沈府大厅说话",
+  "visual_prompt_negative": "年轻、贫穷装扮",
+  "personality": "势利、护短",
+  "desire": "家族利益",
+  "flaw": "偏心",
+  "arc": "理亏退让",
+  "scene_presence": "立威、要孙女",
+  "relationships": []
+}

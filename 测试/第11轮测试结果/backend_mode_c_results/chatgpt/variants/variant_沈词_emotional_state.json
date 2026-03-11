@@ -1,0 +1,35 @@
+{
+  "variant_id": "shen_ci_variant_06",
+  "variant_type": "emotional_state",
+  "variant_name": "沈词 — 产房与和离后的崩塌追悔",
+  "tags": [
+    "产房",
+    "红眼失态",
+    "执念破碎",
+    "追妻开端",
+    "崩塌"
+  ],
+  "scene_ids": [
+    "scene_009",
+    "scene_010",
+    "scene_011"
+  ],
+  "trigger": "高令宁早产难产时选择保她，得知生下女儿后执念被打碎；随后在和离书前失态求见，并在满月宴得知真相时彻底陷入追悔。",
+  "appearance_delta": {
+    "face": "眼眶发红最为明显，脸色苍白甚至失血般灰冷，主设定中冷感眉眼与失控红眼形成最强反差；在满月宴听见真相时更显惨白",
+    "body": "原本挺拔的身形出现明显颓势，跪求、闯院、情绪崩塌让他显出一种强撑体面的狼狈感",
+    "hair": "仍保持官宦出身的基本整束，但在连番打击下可有细微散乱和衣冠不整，象征秩序失守",
+    "distinguishing_features": "这是‘我要高令宁’之后的彻底反转状态：不再是掌控局面的冷臣，而是被爱与悔意逼到失态、近乎哀求的男人"
+  },
+  "costume_override": {
+    "outfit": "产房外与求见时可穿下衙后的官袍或深色正式常服，后续和离、满月宴场合依旧维持高阶文臣体面，但衣摆、袖口常带被攥皱或久候后的疲惫痕迹",
+    "color_palette": [
+      "墨黑",
+      "暗金",
+      "灰青"
+    ]
+  },
+  "visual_reference": "Ancient Chinese high-ranking scholar-official in emotional collapse, pale handsome man with reddened eyes, cold refined features broken by grief and regret, tall slender body slightly bent or kneeling, black hair tied neatly but subtly disordered, dark formal hanfu or official robe with wrinkled sleeves, atmosphere of childbirth crisis, divorce pleading, and devastating truth, cinematic Chinese melodrama, dramatic close-up, sorrowful tension, high detail",
+  "visual_prompt_negative": "modern courtroom, western formal suit, beard, smiling, warrior armor, fantasy spell effects, casual posture, contemporary hospital",
+  "emotional_tone": "执念破碎后的后知后觉，悔恨、恐惧与乞求交叠"
+}

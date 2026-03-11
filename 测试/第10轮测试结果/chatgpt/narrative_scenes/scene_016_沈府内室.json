@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 沈府卧房 - DAY",
+  "location": "沈府内室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "太医"
+  ],
+  "core_event": "高令宁有孕，太医诊出男胎。沈词看她绣虎头帽，误以为她会借孩子赖在沈家一辈子；她明确表示做完月子就和离。",
+  "key_dialogue": "「我做完月子便走，不会纠缠。」",
+  "emotional_peak": "高令宁说不再恨他，沈词反问“谁准你想开了”。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "脉枕",
+    "太医药箱",
+    "虎头帽针线",
+    "绣绷",
+    "门框",
+    "软榻",
+    "孕妇靠枕",
+    "茶杯"
+  ],
+  "dramatic_purpose": "正式启动“怀子待离”阶段，并显露男主开始失控。"
+}

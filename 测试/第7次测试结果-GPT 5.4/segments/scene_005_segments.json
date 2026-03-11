@@ -1,0 +1,115 @@
+[
+  {
+    "id": "seg_0033",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0124",
+      "shot_0125",
+      "shot_0126"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "以空间建立、主观发现、脚步停顿组成同一组‘发现拦截’动作链，角色集合稳定，情绪由冷意过渡到警觉，适合作为开场连续段落。",
+    "order": 33
+  },
+  {
+    "id": "seg_0034",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0127",
+      "shot_0128",
+      "shot_0129"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成‘双方状态交代—控制欲细节—主动拦截’的升级，情绪从克制观察转入近身施压，叙事连续性强。",
+    "order": 34
+  },
+  {
+    "id": "seg_0035",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0130",
+      "shot_0131",
+      "shot_0132"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组是完整的第一次攻防：沈词下刀、高令宁受击、沈词再加码，把婚事与孩子绑定，情绪弧线清晰且无角色变化，应合并为一段。",
+    "order": 35
+  },
+  {
+    "id": "seg_0036",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0133",
+      "shot_0134",
+      "shot_0135"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "同属高令宁的反击回合：姿态立起、接受婚约、立即开出条件，情绪从忍痛转入掌控，形成明确的单段情感弧线。",
+    "order": 36
+  },
+  {
+    "id": "seg_0037",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0136",
+      "shot_0137",
+      "shot_0138"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组三镜头围绕同一信息反转展开：高令宁的猜疑被证实，沈词失控辩护，高令宁以反应完成压制，话题与情绪都集中于第三者冲突。",
+    "order": 37
+  },
+  {
+    "id": "seg_0038",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0139",
+      "shot_0140",
+      "shot_0141"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是一段完整的让步过程：自辩—被沉默逼住—口头答应却不认输，内部节拍清楚，且角色与空间连续。",
+    "order": 38
+  },
+  {
+    "id": "seg_0039",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0142",
+      "shot_0143",
+      "shot_0144"
+    ],
+    "segment_number": 7,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这是场景的第二个大转折，从第三者争执切入婚后契约，情感彻底去情化；建立双人空间、抛出最伤人条款、女主对等切割，适合整合为一段核心段落。",
+    "order": 39
+  },
+  {
+    "id": "seg_0040",
+    "scene_id": "scene_005",
+    "shot_ids": [
+      "shot_0145",
+      "shot_0146",
+      "shot_0147",
+      "shot_0148"
+    ],
+    "segment_number": 8,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "终局段需要把最后的互刺、动作胜负和余韵统一收束。虽然含四个shot，但同属一个连续收尾动作链：追加防备、狠话封口、女主离场、男主滞留沉默，情绪从锋利跌入苦涩余冷。",
+    "order": 40
+  }
+]

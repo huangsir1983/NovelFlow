@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "id": "scene_005",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:11:59"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_005",
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "侯爵娘子"
+    ],
+    "related_beats": [
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "EXT. 马球会场 - 日",
+    "location": "马球会沙地场边",
+    "time_of_day": "day",
+    "description": "开阔的马球会场，日光强烈，自高处直照，沙尘被奔马与人群扬起，空气干燥。场边设有观赛休憩区域，席位、茶果、时令葡萄等点缀其间。高令宁与蒋晟站在场边，蒋晟体格结实、习武之人姿态端正，始终靠近外侧替她挡风。高令宁衣着体面，在春日光线下格外醒目。",
+    "action": "高令宁应邀赴马球会，由蒋晟陪同。蒋晟一路护在她身侧，抬手替她挡风沙，见她想吃葡萄，先低头剥皮后再递到她手边。高令宁站在原地，目光掠过热闹场地，短暂停住，情绪由轻松转为凝滞。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁",
+      "蒋晟",
+      "侯爵娘子"
+    ],
+    "key_props": [
+      "葡萄"
+    ],
+    "dramatic_purpose": "铺陈马球会社交场景，展示蒋晟作为可选良配的体贴，也为后续沈词的嫉妒与对照埋下基础。",
+    "tension_score": 0.34,
+    "dramatic_intensity": -0.32,
+    "order": 5
+  }
+}

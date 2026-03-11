@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "FLASHBACK - INT. 沈府新婚厅堂 - DAY",
+  "location": "前世沈府厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世高令宁婚后第二日被迫面对陆姝仪敬茶、意图共侍一夫的羞辱，她当场砸茶杯抹脖子立威，震慑沈家。",
+  "key_dialogue": "没有人可以拿捏我。包括沈词。",
+  "emotional_peak": "高令宁捡起瓷片抹脖子，以近乎自毁的方式夺回尊严。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 170,
+  "key_props": [
+    "敬茶茶盏",
+    "碎瓷片",
+    "茶盘"
+  ],
+  "dramatic_purpose": "补足前世创伤根源，解释女主为何绝不退让。",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。那是他母",
+  "source_text_end": "也拿她给整个沈家立威。没有人可以拿捏我。包"
+}

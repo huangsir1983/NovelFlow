@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "FLASHBACK. 沈家正房 - night",
+  "location": "沈家卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我试图修补关系，亲手做衣鞋饭菜，沈词却将这些心意尽数投入火盆，以讥讽回应我的靠近。",
+  "key_dialogue": "「怎么，又想从我身上得到什么？」",
+  "emotional_peak": "示好被焚毁，夫妻仅剩彼此提防。",
+  "tension_score": 0.82,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "寝衣",
+    "鞋子",
+    "火盆"
+  ],
+  "dramatic_purpose": "展示婚姻修复失败的节点，强化互伤模式。",
+  "visual_reference": "冬夜卧房，火盆映红男子冷硬侧脸，针脚细密的寝衣鞋袜被丢进火中，女子站在火光外神情僵冷，爱意与尊严同时被焚烧",
+  "visual_prompt_negative": "避免大火失控，避免现代布艺，避免表情夸张失真",
+  "source_text_start": "我亲自为他绣寝衣，做鞋子，做饭菜。",
+  "source_text_end": "我太高傲，他太尖锐。"
+}

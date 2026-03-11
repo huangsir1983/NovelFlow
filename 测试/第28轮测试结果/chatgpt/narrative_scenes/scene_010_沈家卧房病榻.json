@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "FLASHBACK. 沈家病榻前 - night",
+  "location": "沈家卧房病榻",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我重病将死时，沈词却衣不解带守在床前，流露出前世后半生最迟来的温柔与悲伤。",
+  "key_dialogue": "无",
+  "emotional_peak": "恨意深处竟还有不肯承认的牵挂。",
+  "tension_score": 0.63,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "病榻",
+    "药碗",
+    "寿衣"
+  ],
+  "dramatic_purpose": "补足二人复杂感情，使关系不止于单一仇恨。",
+  "visual_reference": "月光照进病房，瘦削男子守在床边，女子病弱落泪抓着他的胳膊，空气静得只剩呼吸声，哀伤而克制",
+  "visual_prompt_negative": "避免恐怖病态效果，避免大量旁人，避免过度煽情滤镜",
+  "source_text_start": "可是。 我重病之时，还是只有他守在床前。",
+  "source_text_end": "可谁能想到，真能重来呢？"
+}

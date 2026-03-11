@@ -1,0 +1,35 @@
+{
+  "variant_id": "shenci_variant_01",
+  "variant_type": "formal",
+  "variant_name": "沈词 — 清冷权臣",
+  "tags": [
+    "高岭之花",
+    "掌控欲",
+    "冷酷",
+    "端方"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_003",
+    "scene_004",
+    "scene_006",
+    "scene_008",
+    "scene_010"
+  ],
+  "trigger": "前世及重生初期，自以为能掌控全局，以施恩者的姿态对女主施压、冷嘲热讽或进行契约交易时。",
+  "appearance_delta": {
+    "face": "面容冷峻如玉，眼神睥睨，常带讥诮的微表情",
+    "body": "长身玉立，姿态极度挺拔高傲，充满压迫感",
+    "hair": "束发戴冠，一丝不苟，没有半点凌乱",
+    "distinguishing_features": "琥珀般的冷眸透着绝对的自信与无情"
+  },
+  "costume_override": {
+    "outfit": "考究且毫无褶皱的深色系文臣常服或锦袍，佩戴玉佩",
+    "color_palette": [
+      "玄色",
+      "藏青"
+    ]
+  },
+  "visual_reference": "A handsome young ancient Chinese scholar-official, tall and slender, pale skin, cold amber eyes with a mocking and aloof expression, perfectly groomed hair with a jade crown, wearing a flawless dark blue and black official robe, standing straight and arrogant with an oppressive aura, cinematic lighting, 8k.",
+  "emotional_tone": "傲慢、冷酷、极度自负"
+}

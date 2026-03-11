@@ -1,0 +1,32 @@
+{
+  "variant_id": "高父_variant_04",
+  "variant_type": "wedding",
+  "variant_name": "高父 — 婚前允婚与婚堂送嫁时的隐忍父亲",
+  "tags": [
+    "允婚",
+    "送嫁",
+    "给退路",
+    "不舍"
+  ],
+  "scene_ids": [
+    "scene_012",
+    "scene_013"
+  ],
+  "trigger": "在第三次提亲压力下，高父最终同意婚事，并在婚前叮嘱女儿受委屈便和离回家；婚礼当日以父亲身份送女出嫁，内心并不真正轻松。",
+  "appearance_delta": {
+    "face": "表面维持礼数与平稳，实则眼神沉郁，不见嫁女喜色",
+    "body": "举止稳重但略显僵硬，像强行支撑体面完成仪式",
+    "hair": "束冠严整，符合婚礼场面礼仪",
+    "distinguishing_features": "温厚中带明显不舍，已提前为女儿准备退路，护女态度更明确"
+  },
+  "costume_override": {
+    "outfit": "适合婚礼礼仪场合的正式官员或家主礼服，较平日更庄重",
+    "color_palette": [
+      "深青",
+      "褐色",
+      "灰白"
+    ]
+  },
+  "visual_reference": "middle-aged ancient Chinese father at his daughter's wedding, refined scholarly face with worried wrinkles, neatly crowned black-and-gray hair, wearing a formal dark official ceremonial robe in muted teal and brown tones, standing in a red wedding hall with restrained sorrow rather than joy, realistic historical drama style, dignified but reluctant father sending off daughter",
+  "emotional_tone": "隐忍、不舍、强撑体面"
+}

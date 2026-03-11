@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_008",
+  "name": "沈府女主房间",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸内宅",
+  "description": "宽敞明亮的当家主母卧房。窗明几净，阳光充足。榻上放着做了一半的婴儿虎头帽和绣花针线。门框雕刻精美，整体布置温馨但透着一种即将离去的疏离感。",
+  "visual_reference": "Interior of an ancient Chinese noblewoman's bedroom, bright and airy. A baby's tiger-head hat and embroidery tools resting on a low table. Intricately carved wooden door frames. Warm daylight streaming through paper windows. Serene but slightly detached atmosphere, photorealistic.",
+  "atmosphere": "平静、释然、暗流涌动",
+  "color_palette": [
+    "#FFF8DC",
+    "#F5F5DC",
+    "#8FBC8F"
+  ],
+  "lighting": "明亮柔和的日间自然光，充满整个房间，没有阴暗角落，象征女主内心的坦荡。",
+  "key_features": [
+    "婴儿虎头帽",
+    "绣花针线",
+    "明亮的雕花窗"
+  ],
+  "narrative_scenes": [
+    "scene_009"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从平静释怀的陈述到男主不可置信的破防。"
+}

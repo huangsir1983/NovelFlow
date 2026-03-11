@@ -1,0 +1,32 @@
+{
+  "variant_id": "gaolingning_labor",
+  "variant_type": "injured",
+  "variant_name": "高令宁 — 难产危急期",
+  "tags": [
+    "孕期",
+    "早产",
+    "破碎感",
+    "生死一线"
+  ],
+  "scene_ids": [
+    "scene_011",
+    "scene_012",
+    "scene_013"
+  ],
+  "trigger": "被陆姝仪设计气到动胎气早产，在产房生死一线，并在梦中与前世长子诀别",
+  "appearance_delta": {
+    "face": "极度苍白，满是冷汗，因剧痛而眉头紧锁，但眼神透着向死而生的决绝",
+    "body": "孕晚期腹部隆起，身体极度虚弱无力",
+    "hair": "长发完全散落，被汗水浸湿凌乱地贴在脸颊和脖颈上",
+    "distinguishing_features": "极致的破碎感与濒死状态，褪去了所有伪装的刺"
+  },
+  "costume_override": {
+    "outfit": "单薄的白色里衣，下摆与床单染有刺目的血迹",
+    "color_palette": [
+      "纯白",
+      "暗红（血迹）"
+    ]
+  },
+  "visual_reference": "1girl, ancient chinese woman, pregnant, lying on a bed, extremely pale skin, covered in cold sweat, messy wet black hair sticking to face, wearing plain white inner garments with subtle blood stains, expression of intense pain but resolute eyes, extreme fragile and shattered feeling, masterpiece, high quality, dramatic cinematic lighting, dark background",
+  "emotional_tone": "痛苦、绝望但透着强烈的求生欲与母性"
+}

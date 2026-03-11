@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "id": "scene_039",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:39:09"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高令宁"
+    ],
+    "related_beats": [
+      "beat_011"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高府 - 内室/厅外传话处 - DAY",
+    "location": "高府内室",
+    "time_of_day": "day",
+    "description": "内室较暗，与厅堂的明亮形成区隔。侍女在门边候命，室内安静，空气压住，带有回避会面的封闭感。",
+    "action": "高令宁坐在内室，没有起身见客。她回想前世旧事，手指缓慢收紧衣袖，神色凝住。随后她低声吩咐侍女去前厅传话，称自己孕期倦怠，不想见客，以此将陆姝仪拒之门外。",
+    "dialogue": [],
+    "characters_present": [
+      "高令宁"
+    ],
+    "key_props": [
+      "衣袖",
+      "内室门帘"
+    ],
+    "dramatic_purpose": "外化高令宁对前世悲剧重演的警惕，表现她试图主动切断危险链条。",
+    "tension_score": 0.62,
+    "dramatic_intensity": 0.24,
+    "order": 39
+  }
+}

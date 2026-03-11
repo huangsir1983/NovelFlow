@@ -1,0 +1,60 @@
+{
+  "name": "蒋晟",
+  "aliases": [
+    "蒋公子"
+  ],
+  "role": "supporting",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "五官端正，神情老实，晒得略有健康麦色，脸红时显得憨直",
+    "body": "习武之人，肩宽体健，动作利落",
+    "hair": "束发干净利落，偏武人打扮",
+    "distinguishing_features": "朴实稳当、保护性动作明显，和文臣气质形成反差"
+  },
+  "costume": {
+    "typical_outfit": "简练利落的公子常服或习武便装",
+    "color_palette": [
+      "褐色",
+      "墨绿",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "老实忠厚",
+    "武人",
+    "良配候选",
+    "工具性情敌"
+  ],
+  "visual_reference": "honest young ancient Chinese martial man, broad shoulders, neat tied hair, plain noble clothing, reliable and straightforward expression, realistic period drama style",
+  "personality": "忠厚、笨拙、守礼、责任感强",
+  "desire": "本想正常求娶良配，后被局势裹挟，只求体面收场",
+  "flaw": "不够圆滑，缺乏对复杂宅门权谋的防备",
+  "arc": "从良配候选到被卷入失贞陷阱，最终与陆姝仪成婚，却并未建立真正亲密",
+  "scene_presence": "出现在相看、马球会护送、脚伤后照料、厢房事件、后续被迫提亲与成婚的关键场合",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "相看对象",
+      "dynamic": "真诚体贴，但她对其更多是策略性利用与短暂比较",
+      "function": "提供另一种婚姻可能"
+    },
+    {
+      "target": "高父",
+      "type": "师生",
+      "dynamic": "被器重，具备入赘或结亲潜力",
+      "function": "父亲的安心选择"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "夫妻",
+      "dynamic": "以设计成婚，关系疏离冷淡",
+      "function": "揭开陆姝仪自救真相"
+    },
+    {
+      "target": "沈词",
+      "type": "敌意对视",
+      "dynamic": "被轻视与迁怒",
+      "function": "激发男主妒意"
+    }
+  ]
+}

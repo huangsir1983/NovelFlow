@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "INT. 新房洞房 - 夜",
+  "location": "新房洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "洞房夜圆房后陆婢女来报陆心口痛，沈词离去",
+  "key_dialogue": "你去吧，也不必回来了。",
+  "emotional_peak": "沈词讥诮与高令宁催促困了",
+  "tension_score": 0.65,
+  "estimated_duration_s": 140,
+  "key_props": [
+    "红罗帐床",
+    "喜烛",
+    "丝带手腕",
+    "水盆",
+    "陆婢女叩门"
+  ],
+  "dramatic_purpose": "初夜冲突，延续前世怨怼"
+}

@@ -1,0 +1,30 @@
+{
+  "variant_id": "gaolingning_variant_06",
+  "variant_type": "emotional_state",
+  "variant_name": "高令宁 — 医馆对峙",
+  "tags": [
+    "痛苦",
+    "妥协",
+    "恨意"
+  ],
+  "scene_ids": [
+    "scene_004"
+  ],
+  "trigger": "医馆门外，被沈词拦住，听到关于沈睿的威胁",
+  "appearance_delta": {
+    "face": "眼中闪烁着痛苦和恨意，眉头紧锁",
+    "body": "身体紧绷，双手握拳",
+    "hair": "发髻完整但略显凌乱",
+    "distinguishing_features": "眼神中痛苦与恨意交织，嘴唇咬紧"
+  },
+  "costume_override": {
+    "outfit": "青色襦裙，外披薄纱披风",
+    "color_palette": [
+      "青色",
+      "素白"
+    ]
+  },
+  "visual_reference": "古代女子，清秀端庄的面容上眉头紧锁，眼中闪烁着痛苦和恨意交织的复杂情绪，嘴唇咬紧，身着青色襦裙外披薄纱披风，发髻完整但略显凌乱，站在医馆门外，身体紧绷双手握拳，与对面的男子四目相对，背景是古代街道和医馆门面，光线明暗对比强烈，气氛紧张压抑充满对抗",
+  "visual_prompt_negative": "平静表情，放松姿态，温和眼神，柔顺态度，室内场景",
+  "emotional_tone": "痛苦、恨意、妥协"
+}

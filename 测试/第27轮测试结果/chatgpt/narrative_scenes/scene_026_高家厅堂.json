@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_026",
+  "order": 25,
+  "heading": "INT. 高家厅堂 - night",
+  "location": "高家厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "婢女小厮"
+  ],
+  "core_event": "厅堂对质中，陆姝仪哭诉我设计她失贞，沈词选择无条件相信她，并公开认定我恶毒跋扈。",
+  "key_dialogue": "从头到尾，你都是这般恶毒跋扈的妇人。",
+  "emotional_peak": "最亲近的人再次将罪名压到我身上",
+  "tension_score": 0.99,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "桌案",
+    "证人婢女",
+    "衣角"
+  ],
+  "dramatic_purpose": "彻底击碎两人短暂和缓，也把女主逼到必须为自己讨公道的地步。",
+  "visual_reference": "高家厅堂灯火压抑，陆姝仪含泪跪地控诉，沈词站在她身侧神情冷绝，怀孕女主立于中央发抖却强撑，婢女小厮分列两旁，像一场无形审判，古风强冲突场面",
+  "visual_prompt_negative": "避免法庭现代感、避免夸张泼妇动作、避免喜剧化误会、避免过多围观群众",
+  "source_text_start": "陆姝仪哭着要自尽。",
+  "source_text_end": "我站在原地，浑身发颤地看着他凉薄的面容。"
+}

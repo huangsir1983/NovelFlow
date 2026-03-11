@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_005",
+  "name": "高家门前",
+  "type": "exterior",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "高大朱漆大门，石狮镇守两侧，门前石阶宽阔，门楣悬匾额，背景府墙与照壁，空间开阔正式，适合偶遇与谈判。",
+  "visual_reference": "明代中晚期江南官宦世家府邸大门外部，高大朱漆木门，左右威严石狮镇守，门前宽阔石阶与照壁，门楣悬官府匾额，背景白墙黑瓦府墙，日光下庄严气派古典",
+  "visual_prompt_negative": "现代汽车、金属门、霓虹灯、西方建筑",
+  "atmosphere": "紧张偶遇、恨意对视",
+  "color_palette": [
+    "朱红色",
+    "石灰白",
+    "墨黑色"
+  ],
+  "lighting": "白天明亮自然日光，突出石狮与大门轮廓",
+  "key_features": [
+    "朱漆大门",
+    "镇宅石狮",
+    "官府匾额"
+  ],
+  "narrative_scenes": [
+    "scene_005"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "父亲辞官后遇沈词的意外到同意嫁但要求处理陆的恨意四目"
+}

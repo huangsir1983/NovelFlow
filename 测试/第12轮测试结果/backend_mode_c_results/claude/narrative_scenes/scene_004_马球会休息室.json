@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_004",
+  "order": 5,
+  "heading": "INT. 马球会休息处 - 日",
+  "location": "马球会休息室",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "沈词要抱高令宁回去，被拒绝，陆姝仪胃病发作，沈词温柔照顾，高令宁冷眼旁观后离开",
+  "key_dialogue": "你身上哪里，我没碰过？",
+  "emotional_peak": "讽刺与心寒",
+  "tension_score": 0.7,
+  "estimated_duration_s": 150,
+  "key_props": [
+    "药碗",
+    "榻",
+    "灯火"
+  ],
+  "dramatic_purpose": "强化沈词对陆姝仪的偏心，刺激女主"
+}

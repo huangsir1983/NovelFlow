@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_017",
+  "name": "江南院子",
+  "type": "mixed",
+  "era_style": "明代江南水乡私家园林宅院",
+  "description": "江南小院，白墙黑瓦，雪天景，中央石榻摆被枕与雪球，假山池塘，木窗小楼，空间温馨私密适合夜爬床纠缠。",
+  "visual_reference": "明代江南水乡私家园林宅院混合空间，白墙黑瓦小院，雪景覆盖，中央石榻摆被枕与雪球，假山池塘环绕，木窗小楼背景，暮色柔光古典诗意江南氛围",
+  "visual_prompt_negative": "现代别墅、热带植物、霓虹灯、卡通雪",
+  "atmosphere": "雪夜温馨、贪婪纠缠",
+  "color_palette": [
+    "雪白色",
+    "黑瓦灰",
+    "木褐色"
+  ],
+  "lighting": "黄昏暮色柔和洒落，雪景冷暖对比",
+  "key_features": [
+    "白墙黑瓦",
+    "雪中石榻",
+    "假山池塘"
+  ],
+  "narrative_scenes": [
+    "scene_018"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "dusk"
+  ],
+  "emotional_range": "三年后江南雪天见赘婿候选到夜爬床纠缠的似哭似笑贪婪贴背"
+}

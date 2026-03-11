@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "id": "scene_048",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-09T00:04:24"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_011",
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "related_beats": [
+      "beat_007",
+      "beat_015"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高令宁卧房 - 夜",
+    "location": "高家后院卧房",
+    "time_of_day": "night",
+    "description": "封闭的卧房空间，床榻靠墙，床头昏暗，光线集中在枕边，四周安静，带有梦境般朦胧感。床边出现年幼的沈睿，双手捧着一只粥碗，碗口冒着微弱热气。高令宁卧在床上，面色虚弱，视线低垂。",
+    "action": "年幼的沈睿踮起脚，把粥碗小心递到高令宁嘴边，反复观察她的神色。见她没有反应，他垂下眼，声音发颤，随后低头朝床前磕下去。高令宁艰难睁眼，抬起手，轻轻抚摸他的脸。",
+    "dialogue": [
+      {
+        "character": "沈睿",
+        "line": "娘，这是儿子亲自熬的，求您喝一点吧。",
+        "subtext": "我想照顾你，也害怕失去你。"
+      },
+      {
+        "character": "沈睿",
+        "line": "妹妹……走后，您和爹爹总是把自己关起来，不吃不喝，儿子真的很担心您的身体。",
+        "subtext": "这个家已经散了，我无力挽回。"
+      },
+      {
+        "character": "沈睿",
+        "line": "都是儿子不好。",
+        "subtext": "我把父母婚姻的痛苦归咎到自己身上。"
+      },
+      {
+        "character": "高令宁",
+        "line": "与你何干？",
+        "subtext": "我不愿让孩子背负大人的罪责。"
+      },
+      {
+        "character": "沈睿",
+        "line": "若非为了儿子，爹娘早就和离，各自生活，而非像现在这般互相将就。",
+        "subtext": "我知道你们的婚姻早已名存实亡。"
+      },
+      {
+        "character": "沈睿",
+        "line": "娘亲为我，受了太多委屈。",
+        "subtext": "我看见了你的牺牲。"
+      },
+      {
+        "character": "沈睿",
+        "line": "若有来生，娘亲别再生下我，让妹妹代替我承欢膝下，侍奉您终老。",
+        "subtext": "我宁愿自己不曾存在，也想换你一生安稳。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈睿"
+    ],
+    "key_props": [
+      "粥碗",
+      "床榻"
+    ],
+    "dramatic_purpose": "通过梦境外化高令宁对前世婚姻与子女命运的创痛，为她下定和离决心提供情感根基。",
+    "tension_score": 0.62,
+    "dramatic_intensity": 0.24,
+    "order": 48
+  }
+}

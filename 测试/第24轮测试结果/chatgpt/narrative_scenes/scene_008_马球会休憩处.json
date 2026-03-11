@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会厢房 - 傍晚",
+  "location": "马球会休憩处",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "大夫"
+  ],
+  "core_event": "我脚伤正骨，目睹沈词守着犯胃病的陆姝仪。双方再度围绕她的婚事争执，陆姝仪下跪求留下，沈词当众护住她，我忆起前世她对我的羞辱。",
+  "key_dialogue": "「有我在，没人能赶你走。」",
+  "emotional_peak": "我再一次亲眼确认，在沈词心里自己始终排在陆姝仪之后。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "伤脚",
+    "药碗",
+    "衣角"
+  ],
+  "dramatic_purpose": "将旧日情伤具体化，推动我从报复转向疲惫与看透。",
+  "visual_reference": "灯下厢房，一边是正骨后的冷淡女子，一边是跪地哭求的柔弱女子，男子护在怀中，场面压抑。",
+  "visual_prompt_negative": "不要现代诊所，不要夸张宫斗表情，不要艳俗色彩，不要过度柔焦。",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了。",
+  "source_text_end": "「你辛辛苦苦追求的，我轻而易举便得到了。」「高姑娘，你不觉得自己很可笑吗？」"
+}

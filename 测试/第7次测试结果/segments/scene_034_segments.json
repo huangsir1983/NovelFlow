@@ -1,0 +1,75 @@
+[
+  {
+    "id": "seg_0189",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0480",
+      "shot_0481",
+      "shot_0482"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前三个shot共享女主濒危限制视角与同一角色集合，叙事功能都在建立产房压迫、身体痛感与危险信息，情绪从窒息推进到风险落地，适合合并为同一段开场危机建立。",
+    "order": 189
+  },
+  {
+    "id": "seg_0190",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0483",
+      "shot_0484",
+      "shot_0485"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这组三镜头完成同一情绪弧：高令宁无发言权的漂浮感→稳婆正式交出选择权→沈睿的沉默反压全场。角色未变，空间未变，属于第一轮逼问成形的连续段落。",
+    "order": 190
+  },
+  {
+    "id": "seg_0191",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0486",
+      "shot_0487",
+      "shot_0488"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同服务于第二轮情绪抬升：主观晕眩、稳婆逼近、女主无声等待。叙事中心始终是‘被动承受与等待答案’，适合合并为临界前的蓄压段。",
+    "order": 191
+  },
+  {
+    "id": "seg_0192",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0489",
+      "shot_0490",
+      "shot_0491",
+      "shot_0492",
+      "shot_0493"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是全场核心爆点，多个shot虽然略超6秒常规，但共同构成不可拆分的决断链条：第三次逼问、动作先行、第一句选择、众人反应、第二句确认。若拆开会削弱爆发完整性，因此按情感弧线完整合并。",
+    "order": 192
+  },
+  {
+    "id": "seg_0193",
+    "scene_id": "scene_034",
+    "shot_ids": [
+      "shot_0494",
+      "shot_0495",
+      "shot_0496",
+      "shot_0497"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后四个shot组成完整尾声弧线：女主接住表态→婴儿啼哭反转→房内秩序重组→冷静双人收尾。角色集合虽短暂扩展到稳婆与太医，但核心情感仍回落到床边两人，适合合并成终段。",
+    "order": 193
+  }
+]

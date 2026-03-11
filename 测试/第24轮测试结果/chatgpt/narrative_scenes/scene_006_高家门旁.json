@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "EXT. 高家门外/街边 - 白日",
+  "location": "高家门旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词"
+  ],
+  "core_event": "父亲因担心我受委屈想改主意，并让我见门生蒋晟；我要求父亲辞官避祸。出门抓药时，沈词拦路，以未来儿子沈睿为筹码逼我成婚，并约定生子后和离。",
+  "key_dialogue": "「成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。」",
+  "emotional_peak": "我们以死去的儿子为交易核心，冷酷地重新缔结婚约。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 160,
+  "key_props": [
+    "辞官奏折",
+    "药方",
+    "活雁勒痕"
+  ],
+  "dramatic_purpose": "明确今生婚姻契约的现实条件：生子、和离、处理陆姝仪。",
+  "visual_reference": "街边门廊下，女子刚从家中出来，男子风尘仆仆拦住去路，谈判气氛像刀锋般冰冷。",
+  "visual_prompt_negative": "不要现代街景，不要拥挤市场喧闹盖过人物，不要浮夸武侠姿势。",
+  "source_text_start": "父亲不放心让我嫁入沈家。一夜未睡后，他改了原",
+  "source_text_end": "「谁纠缠谁是狗。」他抿唇，不再说话。四目相对，只剩恨意。"
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "id": "scene_055",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T22:40:12"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "vff_generate"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_014",
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "related_beats": [
+      "beat_016"
+    ]
+  },
+  "data": {
+    "heading": "INT. 江南宅院卧房 - LATER NIGHT",
+    "location": "江南宅院卧房",
+    "time_of_day": "night",
+    "description": "同一卧房，月色更深，室内更静。地面铺着冷光，床榻与地铺形成上下层次分明的画面关系。被褥与枕头被临时铺在床边地上，视觉上形成一种自降身份的停留。氛围压抑、黏滞，只有呼吸声与布料摩擦声可被放大。",
+    "action": "沈词离开后不久又折返回来，怀里抱着自己的被子和枕头。他站在床边，语气放低，近乎乞求，随后把被褥铺在地上，执意留在床边守着。高令宁背对他，不再回应，闭眼睡去。半梦半醒间，沈词从地上缓慢起身，动作极轻地伸手握住她的手腕，指尖试探着停留，不敢再有更多动作。随后他把脸贴在她背后，呼吸发颤，像哭又像笑，低声吐出近乎誓言的纠缠之语。",
+    "dialogue": [
+      {
+        "character": "沈词",
+        "line": "我不放你，我在地上陪你。",
+        "subtext": "他宁可放低姿态也不愿离开，借留下来维系仍未断绝的联系。"
+      },
+      {
+        "character": "沈词",
+        "line": "高令宁，你永远别想摆脱我。",
+        "subtext": "他承认自己的执念，将爱与控制混为一体。"
+      },
+      {
+        "character": "沈词",
+        "line": "只要我还活着……",
+        "subtext": "他把这段关系上升为一种不可终止的生命绑定。"
+      },
+      {
+        "character": "沈词",
+        "line": "我就会恬不知耻地纠缠你一辈子。",
+        "subtext": "他彻底放弃体面，公开自己的偏执与自甘卑微。"
+      }
+    ],
+    "characters_present": [
+      "高令宁",
+      "沈词"
+    ],
+    "key_props": [
+      "被子",
+      "枕头",
+      "地铺",
+      "床榻"
+    ],
+    "dramatic_purpose": "完成本章情感主轴的明示：沈词的爱已异化为不肯松手的纠缠，也为后续关系走向建立强烈的心理与行为基调。",
+    "tension_score": 0.9,
+    "dramatic_intensity": 0.8,
+    "order": 55
+  }
+}

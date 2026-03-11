@@ -1,0 +1,46 @@
+{
+  "name": "赘婿候选们",
+  "aliases": [
+    "新夫婿们"
+  ],
+  "role": "minor",
+  "age_range": "20-30",
+  "appearance": {
+    "face": "相貌出众，各有风格，整体清俊讨喜",
+    "body": "年轻健康",
+    "hair": "整洁士子发式",
+    "distinguishing_features": "围在昭昭身边堆雪，象征女主的新生活选择权"
+  },
+  "costume": {
+    "typical_outfit": "江南文雅男装",
+    "color_palette": [
+      "月白",
+      "浅青",
+      "灰蓝"
+    ]
+  },
+  "casting_tags": [
+    "群像男配",
+    "新生活象征"
+  ],
+  "visual_reference": "group of handsome ancient Chinese young men in Jiangnan courtyard, refined robes, warm domestic winter atmosphere",
+  "personality": "温顺体贴，作为被筛选对象存在",
+  "desire": "入赘高家或获得婚配机会",
+  "flaw": "功能性角色，无深入塑造",
+  "arc": "无",
+  "scene_presence": "江南结尾段出现，刺激沈词彻底失控",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "潜在婚配对象",
+      "dynamic": "构成她拥有选择权的证明",
+      "function": "结局反转与刺激男主"
+    },
+    {
+      "target": "昭昭",
+      "type": "陪伴关系",
+      "dynamic": "与孩子互动融洽",
+      "function": "营造新家庭可能"
+    }
+  ]
+}

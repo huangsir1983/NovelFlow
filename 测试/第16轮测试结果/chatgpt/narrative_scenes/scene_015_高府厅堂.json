@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高府厅堂 - NIGHT",
+  "location": "高府厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "高父"
+  ],
+  "core_event": "陆姝仪哭诉自己被设计失贞，沈词不问真相便站到她一边，斥责高令宁恶毒跋扈，并以陆姝仪之死威胁；高令宁怒极反击，场面彻底失控。",
+  "key_dialogue": "这一世姝仪若再为你而死，信不信我杀了你？",
+  "emotional_peak": "高令宁当众甩沈词耳光，随后腹痛发作。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "证人名册（婢女小厮）",
+    "衣角",
+    "耳光动作",
+    "门鼓威胁意象"
+  ],
+  "dramatic_purpose": "让男女主信任彻底崩断，推动生死抉择高潮。",
+  "source_text_start": "陆姝仪哭着要自尽。她跪在我面前，哽咽：「夫",
+  "source_text_end": "记忆的最后，父亲踏入门内，脸色一变：「女儿"
+}

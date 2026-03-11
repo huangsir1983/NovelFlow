@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "id": "beat_007",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T22:40:02"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_016",
+      "scene_017",
+      "scene_018"
+    ]
+  },
+  "data": {
+    "title": "在马球场互相挑衅试探底线",
+    "description": "女主看见沈词宠溺陆姝仪，旧怨翻涌，故意借蒋晟的亲近刺激沈词；沈词私下现身，提出抱她回去，又以暧昧口吻揭穿两人曾有亲密旧事，主线进入充满火药味的婚前博弈。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Fun and Games",
+    "emotional_value": 0.1,
+    "dramatic_intensity": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 7
+  }
+}

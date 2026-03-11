@@ -1,0 +1,29 @@
+{
+  "variant_id": "gaolingning_wedding",
+  "variant_type": "wedding",
+  "variant_name": "高令宁 — 大婚之夜",
+  "tags": [
+    "大婚",
+    "冷漠",
+    "公事公办"
+  ],
+  "scene_ids": [
+    "scene_008"
+  ],
+  "trigger": "与沈词大婚当夜，在洞房内直接略过繁文缛节完成圆房",
+  "appearance_delta": {
+    "face": "化有明艳的新娘妆容，但神情极其冷漠、厌烦，毫无新婚之喜",
+    "body": "被繁复的婚服包裹，动作机械",
+    "hair": "华丽的新娘凤冠霞帔，或刚掀开红盖头时略带压痕的黑发",
+    "distinguishing_features": "与喜庆环境格格不入的麻木感，将身体接触视作完成任务"
+  },
+  "costume_override": {
+    "outfit": "正红色传统婚服，因略过仪式直接圆房，衣物可能略显凌乱",
+    "color_palette": [
+      "正红",
+      "金色"
+    ]
+  },
+  "visual_reference": "1girl, ancient chinese bride, wearing gorgeous traditional red hanfu wedding dress, gold bridal crown, pale skin, exquisite bridal makeup, extremely cold and indifferent expression, contrasting with the festive red atmosphere, sitting on a wedding bed, masterpiece, high quality, cinematic lighting",
+  "emotional_tone": "毫无波澜、厌烦、将一切视作交易"
+}

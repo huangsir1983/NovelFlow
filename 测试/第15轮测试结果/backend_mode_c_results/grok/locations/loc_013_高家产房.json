@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_013",
+  "name": "高家产房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸产房",
+  "description": "临时改作产房的侧室，床单凌乱，稳婆药箱与盆具置地，太医用具陈列，空间紧张压抑适合难产场景。",
+  "visual_reference": "明代官宦府邸产房夜景室内，紧张分娩空间，木床铺凌乱床单，旁稳婆药箱与草药盆，太医工具散落，烛光昏黄照亮，墙简洁，压抑氛围，高度细节写实",
+  "visual_prompt_negative": "现代家具、西方建筑元素、电灯霓虹、塑料物品、卡通风格、低分辨率、模糊",
+  "atmosphere": "生死抉择、血色尽失",
+  "color_palette": [
+    "血红",
+    "药箱褐",
+    "烛黄",
+    "暗灰"
+  ],
+  "lighting": "夜晚多烛光昏黄摇曳，增强紧张感",
+  "key_features": [
+    "凌乱床单",
+    "稳婆药箱",
+    "太医用具"
+  ],
+  "narrative_scenes": [
+    "scene_014"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "难产的生死到沈词保母决定的决绝"
+}

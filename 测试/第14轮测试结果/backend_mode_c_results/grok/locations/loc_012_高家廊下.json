@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_012",
+  "name": "高家廊下",
+  "type": "mixed",
+  "era_style": "明代中晚期江南官宦世家府邸",
+  "description": "高家回廊下半开放空间，长廊木柱，旁设石凳与葡萄篮，连接正堂与闺房，适合日常探望与道歉。",
+  "visual_reference": "明代中晚期江南官宦世家府邸廊下混合空间，长廊木柱雕花，旁置石凳与葡萄篮，背景府内庭院绿植，日光透过廊檐洒入，古典优雅日常氛围",
+  "visual_prompt_negative": "现代走廊、金属栏杆、霓虹",
+  "atmosphere": "温馨探望、昏昏欲睡",
+  "color_palette": [
+    "木褐色",
+    "葡萄紫",
+    "绿植色"
+  ],
+  "lighting": "白天廊檐下柔和散射光，舒适亲密",
+  "key_features": [
+    "雕花长廊",
+    "石凳坐席",
+    "葡萄篮"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "回娘家养胎沈每日探望剥葡萄道歉到昏昏欲睡亲吻"
+}

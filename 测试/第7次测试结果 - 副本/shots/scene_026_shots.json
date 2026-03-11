@@ -1,0 +1,284 @@
+[
+  {
+    "id": "shot_0392",
+    "scene_id": "scene_026",
+    "shot_number": 1,
+    "goal": "建立卧房的死亡氛围与私密封闭感，明确这是无人插手的入殓现场。",
+    "composition": "WS，机位在门内偏外侧，门框作前景形成压迫式框景；画面右侧为床榻与静止的高令宁遗体，左前景依次可见清水盆、叠好的白布、寿衣；窗棂侧逆光从后方切入，在地面与床沿投下条状阴影，房间中央留出大片空白。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "肃穆、寒意、不可逆的终局感",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.32,
+    "order": 392
+  },
+  {
+    "id": "shot_0393",
+    "scene_id": "scene_026",
+    "shot_number": 2,
+    "goal": "将视角收拢到高令宁的遗体状态，确认死亡已成事实，并保持女主主观余韵。",
+    "composition": "CU，高令宁平躺于画面右侧偏中，脸部占据主要视觉重心，发丝与苍白额角清晰；左侧前景虚化掠过床帐边缘，背景仅保留冷白被褥与一小段窗影，不见全貌。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷寂、脆弱、死亡的静止感",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.38,
+    "order": 393
+  },
+  {
+    "id": "shot_0394",
+    "scene_id": "scene_026",
+    "shot_number": 3,
+    "goal": "引入沈睿的状态，传达他枯槁、克制、近乎固执地独自承担这一切。",
+    "composition": "MCU，沈睿位于画面左侧，半侧脸垂眼坐在床边，肩背微绷；右侧背景虚化中保留高令宁面部轮廓，形成同框但不对视；前景有一角白布压低画面下缘。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "压抑、自责、迟到的悲痛",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.46,
+    "order": 394
+  },
+  {
+    "id": "shot_0395",
+    "scene_id": "scene_026",
+    "shot_number": 4,
+    "goal": "通过手部动作具体化‘亲力亲为’，让观众看到他未假手于人的事实。",
+    "composition": "CU，清水盆占画面下半部，沈睿双手从左侧入画拧干帕子，水沿指节滴落；右上角虚焦可见床沿与垂下的寿衣布料，形成行动与目的的关联。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "克制中的认真、笨拙中的郑重",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.44,
+    "order": 395
+  },
+  {
+    "id": "shot_0396",
+    "scene_id": "scene_026",
+    "shot_number": 5,
+    "goal": "展示沈睿抱起高令宁遗体，推动送终动作进入最具重量的身体接触阶段。",
+    "composition": "MS，机位保持床一侧的180度线内，沈睿自画面左侧俯身，将高令宁从右侧床面缓缓抱起；她的头与手垂向画面右下，白布与被褥在下方形成褶皱；背景是冷白墙面与一道狭长窗影。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "沉重、失措、迟来的亲密",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.62,
+    "order": 396
+  },
+  {
+    "id": "shot_0397",
+    "scene_id": "scene_026",
+    "shot_number": 6,
+    "goal": "强调高令宁身体的无回应，放大‘生前尖锐，死后静默’的反差。",
+    "composition": "CU，高令宁的手无力垂落在画面中央偏右，袖口滑开露出苍白手腕；沈睿的前臂从左侧稳住她，衣料褶皱压在下方；背景完全虚化，只剩一片冷色块。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "刺痛、无可挽回、失去实感",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.7,
+    "order": 397
+  },
+  {
+    "id": "shot_0398",
+    "scene_id": "scene_026",
+    "shot_number": 7,
+    "goal": "完成放平动作，传达他对她遗体的谨慎与珍重，像在补做一件迟到的事。",
+    "composition": "MLS，床榻横贯画面下三分之二，沈睿从左向右将高令宁放平，身体弯成保护性的弧线；画面右后方放着整齐寿衣，左前景虚化的水盆边缘形成圆形压迫。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "小心翼翼、卑微的弥补感",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.66,
+    "order": 398
+  },
+  {
+    "id": "shot_0399",
+    "scene_id": "scene_026",
+    "shot_number": 8,
+    "goal": "进入擦拭仪式的核心动作，以细节代替煽情表达。",
+    "composition": "CU，高令宁脸部位于画面中央偏右，沈睿持湿帕的手从左侧轻触她额角与颊侧；帕子的白与她肤色几乎融成一体，背景仅余枕面与发丝。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "温柔、迟到、几乎不敢碰触的悲伤",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.74,
+    "order": 399
+  },
+  {
+    "id": "shot_0400",
+    "scene_id": "scene_026",
+    "shot_number": 9,
+    "goal": "给出沈睿的反应镜头，避免机械动作堆砌，捕捉他克制到近乎麻木的痛感。",
+    "composition": "CU，沈睿面部占左中部，垂眼望向画外右侧的高令宁，眼下阴影深重，唇线紧绷；右侧留白承接其视线方向，背景窗棂光切过半张脸。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压抑、悔意、无法说出口的爱",
+    "duration_hint": "3s",
+    "characters": [
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.78,
+    "order": 400
+  },
+  {
+    "id": "shot_0401",
+    "scene_id": "scene_026",
+    "shot_number": 10,
+    "goal": "将擦拭延伸到手部，强化‘最后一次照料’的意味。",
+    "composition": "CU，高令宁双手平置于被面中央，沈睿的手从左侧托起她一只手，以帕子缓慢擦拭指尖与掌心；寿衣衣襟在画面上缘虚化压下，形成下一动作的视觉预示。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "珍惜、徒劳、对失去的迟缓认领",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.76,
+    "order": 401
+  },
+  {
+    "id": "shot_0402",
+    "scene_id": "scene_026",
+    "shot_number": 11,
+    "goal": "通过更衣动作的艰难，体现沈睿并不熟练，却坚持亲自完成。",
+    "composition": "MS，床沿与人物形成横向构图，沈睿位于画面左侧半跪，低头替高令宁抬肩、更换寿衣上襟；高令宁身体平放于右侧，白布半覆其下；前景有一层虚焦床帐轻微遮挡，增强窥视式私密感。",
+    "camera_movement": "steadicam",
+    "framing": "MS",
+    "emotion_target": "笨拙、隐忍、带羞耻感的深情",
+    "duration_hint": "5-6s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 402
+  },
+  {
+    "id": "shot_0403",
+    "scene_id": "scene_026",
+    "shot_number": 12,
+    "goal": "将情绪推向峰值，以衣料遮覆身体的瞬间完成关系的最终反转与告别。",
+    "composition": "CU，寿衣布料自画面左上向右下铺开，掠过高令宁胸前与颈侧，沈睿的手指在领口处短暂停顿；她的下颌线与闭合的眼睫仍留在画面右上角一隅，像最后的可见痕迹。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "终结、窒息、爱恨并置的悲剧钉死感",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈睿"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 403
+  },
+  {
+    "id": "shot_0404",
+    "scene_id": "scene_026",
+    "shot_number": 13,
+    "goal": "在峰值后给沈睿一个几乎失守的停顿，展现他情绪的回落与封存。",
+    "composition": "MCU，沈睿仍在床边，身体微微前倾，双手停在画面下缘没有继续动作；他占据中央偏左，身后是冷白墙面，右侧床上高令宁已被寿衣整理得更平整，只剩部分轮廓入画。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "空心、失重、强压回去的崩塌",
+    "duration_hint": "4s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.72,
+    "order": 404
+  },
+  {
+    "id": "shot_0405",
+    "scene_id": "scene_026",
+    "shot_number": 14,
+    "goal": "以环境细节收束这一套送终动作，让水声与布声的余韵取代哭喊，回到冷叙事。",
+    "composition": "CU，清水盆位于画面下方中央，帕子被放回盆沿，一滴水落入盆中荡开轻微涟漪；后景虚化中床榻与白衣轮廓横陈，沈睿身影只剩模糊暗块。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "余哀、冷静、无声比哭更重",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.54,
+    "order": 405
+  },
+  {
+    "id": "shot_0406",
+    "scene_id": "scene_026",
+    "shot_number": 15,
+    "goal": "以远景完成冷收尾，重申房中只有他一人守着她，悲剧关系在静止中落定。",
+    "composition": "WS，回到门框式构图，但比开场更空；床榻在画面右侧，已整理停当的高令宁静卧，沈睿独坐床边偏左，背影低垂；前景门框与半掩帘幕形成层层阻隔，窗光更冷，室内无任何他人活动痕迹。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "终局、孤绝、私密哀悼被封存在房中",
+    "duration_hint": "5s",
+    "characters": [
+      "沈睿",
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.41,
+    "order": 406
+  }
+]

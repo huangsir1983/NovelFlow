@@ -1,0 +1,63 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "沈大人",
+    "阿词"
+  ],
+  "role": "protagonist",
+  "age_range": "18-42岁（跨越两世）",
+  "appearance": {
+    "face": "如玉面庞，清冷俊美，眉眼疏离",
+    "body": "长身玉立，身姿挺拔",
+    "hair": "乌黑长发束冠，儒雅端正",
+    "distinguishing_features": "琥珀色眸子，冷如冰湖的眼神"
+  },
+  "costume": {
+    "typical_outfit": "文官朝服或儒雅长袍",
+    "color_palette": [
+      "墨色",
+      "深蓝",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "冷峻",
+    "权臣",
+    "重生男主",
+    "口是心非"
+  ],
+  "visual_reference": "古代文官贵公子，面容俊美冷峻如玉，琥珀色眸子深邃疏离，身着墨色或深蓝色官服长袍，腰佩玉带，发冠整齐，站姿笔直端方，眼神冷淡中带着隐藏的情绪波动，整体气质清冷矜贵又压抑克制，背景为朝堂或书房，光线清冷",
+  "visual_prompt_negative": "现代西装，眼镜，短发，温柔笑容，轻浮姿态，鲜艳服饰",
+  "personality": "端方持重，冷静克制，口是心非，内心矛盾",
+  "desire": "保护陆姝仪，得到沈睿，挽回高令宁",
+  "flaw": "感情迟钝，不善表达，固执己见",
+  "arc": "从冷漠算计到后悔莫及，重生后从疏离到卑微纠缠",
+  "scene_presence": "男主角，贯穿全剧",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻",
+      "dynamic": "相爱相杀，互相折磨",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅竹马",
+      "dynamic": "保护疼爱，界限模糊",
+      "function": "情感纠葛源头"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "骄傲期待",
+      "function": "重生动机"
+    },
+    {
+      "target": "昭昭",
+      "type": "父女",
+      "dynamic": "愧疚疼爱",
+      "function": "情感转折"
+    }
+  ]
+}

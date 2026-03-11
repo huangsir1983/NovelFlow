@@ -1,0 +1,51 @@
+{
+  "name": "沈母",
+  "aliases": [
+    "婆婆"
+  ],
+  "role": "minor",
+  "age_range": "45-65岁",
+  "appearance": {
+    "face": "未详细描述",
+    "body": "贵妇体态",
+    "hair": "传统发髻",
+    "distinguishing_features": "高门贵妇气质"
+  },
+  "costume": {
+    "typical_outfit": "贵妇服饰",
+    "color_palette": [
+      "华贵色彩"
+    ]
+  },
+  "casting_tags": [
+    "势利",
+    "传统",
+    "婆婆"
+  ],
+  "visual_reference": "A noble Chinese matriarch in her 50s, elegant traditional robes, authoritative presence, ancient dynasty aristocrat",
+  "personality": "势利眼，看重门第和利益。想让陆姝仪做平妻，被高令宁以死抗争后被吓病。为陆姝仪择婿时只考虑门面。",
+  "desire": "维护沈家利益和面子，希望儿子娶门当户对的妻子。",
+  "flaw": "过于势利，不顾儿媳感受，导致家庭矛盾。",
+  "arc": "前世：让陆姝仪敬茶→被高令宁以死抗争吓病→失去管家权。重生：安排聘礼→想接走孙女→被高父拒绝。",
+  "scene_presence": "次要角色，制造矛盾。关键场景：敬茶事件、为陆姝仪择婿、想接走孙女。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "权力",
+      "dynamic": "母子关系，影响儿子决策",
+      "function": "外部压力"
+    },
+    {
+      "target": "高令宁",
+      "type": "权力",
+      "dynamic": "婆媳矛盾，互相对抗",
+      "function": "冲突制造"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "利益",
+      "dynamic": "姨甥关系，想利用她",
+      "function": "利益工具"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "id": "scene_044",
+    "type": "scene",
+    "pipeline_step": "scene_extract",
+    "created_at": "2026-03-08T09:13:18"
+  },
+  "_hooks": {
+    "ready_for": [
+      "shot_design",
+      "visual_readiness",
+      "storyboard",
+      "image_prompt"
+    ],
+    "canvas_node_type": "scene",
+    "source_chapter": "ch_010",
+    "characters_present": [
+      "高父",
+      "沈母"
+    ],
+    "related_beats": [
+      "beat_022"
+    ]
+  },
+  "data": {
+    "heading": "INT. 高家正厅 - 日",
+    "location": "高家正厅",
+    "time_of_day": "day",
+    "description": "室内为传统宅院正厅，空间规整而带压迫感，前厅采自然天光，自门口或窗棂斜照入内。主位前后层次分明，待客座与门口形成对峙轴线。厅中无多余喧闹，气氛冷硬。昭昭并未出场，但其归属成为厅内谈判焦点。",
+    "action": "沈母上门交涉，姿态放低，面带勉强笑意。高父端坐或立于主位，神色冷淡，言辞坚决，不留转圜。双方围绕昭昭归属与沈家名声进行拉锯，高父几次截断对方话头，明确划定底线。",
+    "dialogue": [
+      {
+        "character": "高父",
+        "line": "高家虽然门第低，却也并非好欺负的，贵公子与义妹关系暧昧，差点害得发妻一事两命，这若传出去，沈公子的官途要是不要？",
+        "subtext": "你们若再逼迫，我就公开丑闻，毁掉沈词前程。"
+      },
+      {
+        "character": "沈母",
+        "line": "可是，昭昭毕竟是我们沈家的血脉……",
+        "subtext": "至少把孩子要回去，保住沈家的体面与控制权。"
+      },
+      {
+        "character": "高父",
+        "line": "我高家还养得起一个小姑娘，两个孩子和离后，昭昭归高家。",
+        "subtext": "孩子绝不可能交给你们。"
+      },
+      {
+        "character": "高父",
+        "line": "沈家若执意纠缠，那便闹上公堂，鱼死网破。",
+        "subtext": "我不惧翻脸，且已准备好把事情做绝。"
+      }
+    ],
+    "characters_present": [
+      "高父",
+      "沈母"
+    ],
+    "key_props": [
+      "待客座椅",
+      "茶盏"
+    ],
+    "dramatic_purpose": "明确两家正式决裂，奠定昭昭归属和高家主导局面，为沈词后续失控闯入制造压力背景。",
+    "tension_score": 0.72,
+    "dramatic_intensity": 0.44,
+    "order": 44
+  }
+}

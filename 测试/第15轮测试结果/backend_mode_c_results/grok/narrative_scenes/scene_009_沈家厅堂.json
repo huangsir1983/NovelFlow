@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 沈家厅堂 - 日",
+  "location": "沈家厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词"
+  ],
+  "core_event": "沈词为陆择婿，高令宁建议纳妾被拒",
+  "key_dialogue": "我与姝仪，并无男女之情。",
+  "emotional_peak": "沈词情绪翻涌",
+  "tension_score": 0.6,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "扇子",
+    "聘礼单"
+  ],
+  "dramatic_purpose": "澄清感情却加深误会",
+  "source_text_start": "沈词开始给陆姝仪择婿。",
+  "source_text_end": "沈词低头地拂了拂衣袖，面无表情：「我与姝仪，并无男女之情。」"
+}

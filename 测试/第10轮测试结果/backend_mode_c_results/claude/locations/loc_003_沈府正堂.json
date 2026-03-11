@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_003",
+  "name": "沈府正堂",
+  "type": "interior",
+  "era_style": "明代士绅家族正堂",
+  "description": "气派宽阔的厅堂，正中高悬匾额，两侧对联。堂中摆乌木圈椅与长条案，案上摆设茶具、香炉。地面铺青石板，两侧立柱粗壮，柱上挂宫灯。后墙设条案，案上摆古董摆件。敬茶时堂前设矮几，茶盘茶杯整齐摆放。血迹溅落在地砖与帕子上，瓷片散落。",
+  "visual_reference": "Ming Dynasty gentry family main hall, grand spacious room with hanging plaques and couplets, dark ebony furniture, stone floor tiles, thick pillars with palace lanterns, tea ceremony setup with low tables, formal atmosphere, traditional Chinese architecture, natural daylight, solemn and imposing space",
+  "atmosphere": "威严、冷漠、压抑",
+  "color_palette": [
+    "乌木黑",
+    "青石灰",
+    "冷白色"
+  ],
+  "lighting": "宫灯与天光混合，光线冷硬，投下深重阴影",
+  "key_features": [
+    "高悬匾额",
+    "乌木圈椅",
+    "敬茶矮几",
+    "青石地板"
+  ],
+  "narrative_scenes": [
+    "scene_003"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "愤怒与绝望的极端情绪"
+}

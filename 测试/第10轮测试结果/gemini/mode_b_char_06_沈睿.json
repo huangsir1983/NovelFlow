@@ -1,0 +1,40 @@
+{
+  "name": "沈睿",
+  "aliases": [
+    "睿儿"
+  ],
+  "role": "minor",
+  "age_range": "7-15",
+  "appearance": {
+    "face": "清秀聪慧，带有病容",
+    "body": "瘦弱",
+    "hair": "总角/少年束发",
+    "distinguishing_features": "早慧且忧郁的眼神"
+  },
+  "costume": {
+    "typical_outfit": "精致但略显宽大的少爷服",
+    "color_palette": [
+      "素白",
+      "浅蓝"
+    ]
+  },
+  "casting_tags": [
+    "神童",
+    "病弱",
+    "催泪"
+  ],
+  "visual_reference": "1boy, ancient chinese child, pale and sickly, intelligent eyes, light blue robes, melancholic, 8k",
+  "personality": "懂事，早慧，孝顺",
+  "desire": "父母和睦",
+  "flaw": "心思过重导致早夭",
+  "arc": "无",
+  "scene_presence": "梦境与回忆",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "母亲",
+      "dynamic": "深深的羁绊与愧疚",
+      "function": "男女主重生的唯一纽带"
+    }
+  ]
+}

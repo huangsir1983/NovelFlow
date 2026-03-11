@@ -1,0 +1,31 @@
+{
+  "variant_id": "shenci_variant_01",
+  "variant_type": "wedding",
+  "variant_name": "沈词 — 婚礼新郎",
+  "tags": [
+    "婚礼",
+    "正式",
+    "新郎"
+  ],
+  "scene_ids": [
+    "scene_008",
+    "scene_009"
+  ],
+  "trigger": "沈家婚堂成亲大典及新房洞房时  ",
+  "appearance_delta": {
+    "face": "冷峻英俊中略带庄重与复杂情绪",
+    "body": "长身玉立，挺拔修长",
+    "hair": "黑发整齐束玉冠",
+    "distinguishing_features": "冰湖黑眸带讥诮但藏一丝隐忍柔  情"
+  },
+  "costume_override": {
+    "outfit": "深色新郎喜袍或官服",
+    "color_palette": [
+      "深红",
+      "墨黑"
+    ]
+  },
+  "visual_reference": "一位24岁左右古代年轻文官作为新郎，面如冠玉冷峻英俊，剑眉星目眼神复杂带讥诮，黑发整齐束玉冠，身穿深红色镶金边锦袍，姿态挺拔站在婚堂红毯或新房内，红烛喜床背景，光影摇曳庄重氛围，写实风格，高清细节，古风氛围",
+  "visual_prompt_negative": "现代西装、胡须过多、胖脸、笑容过多甜腻、卡通风格、过于鲜艳颜色",
+  "emotional_tone": "庄重隐忍，内心纠结"
+}

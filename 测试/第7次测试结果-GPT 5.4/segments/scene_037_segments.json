@@ -1,0 +1,60 @@
+[
+  {
+    "id": "seg_0182",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0590",
+      "shot_0591",
+      "shot_0592"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "开场三镜均围绕父女对坐的同一空间关系展开，角色集合不变，情绪仍处于表面平静、父亲试探性劝和的起势阶段，适合合并为一个建立关系与立场的段落。",
+    "order": 182
+  },
+  {
+    "id": "seg_0183",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0593",
+      "shot_0594",
+      "shot_0595"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段以“父亲施压—女儿不认同—环境外化婚姻秩序”为完整微弧线，虽然景别变化大，但叙事动作连续，且道具镜头强化同一论点，适合合并。",
+    "order": 183
+  },
+  {
+    "id": "seg_0184",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0596",
+      "shot_0597",
+      "shot_0598",
+      "shot_0599"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处形成明确情感转折：从听受、停顿到抬眼反问，主体始终是高令宁，动作和心理外化连续，适合将四个相邻镜头融合为一个完整的蓄力与出招段落。",
+    "order": 184
+  },
+  {
+    "id": "seg_0185",
+    "scene_id": "scene_037",
+    "shot_ids": [
+      "shot_0600",
+      "shot_0601",
+      "shot_0602",
+      "shot_0603"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组镜头构成完整收束：父亲被问住、修正表述、女儿沉默不受、客观双人定格冲突。角色集合稳定，情感从微裂到回冷，适合合并为结尾段。",
+    "order": 185
+  }
+]

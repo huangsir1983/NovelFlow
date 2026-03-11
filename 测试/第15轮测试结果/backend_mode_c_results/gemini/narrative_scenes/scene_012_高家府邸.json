@@ -1,0 +1,24 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高家 - DAY",
+  "location": "高家府邸",
+  "time_of_day": "day",
+  "characters_present": [
+    "父亲",
+    "沈母",
+    "沈词"
+  ],
+  "core_event": "高父强硬拒绝沈母带走孙女的要求，并逼迫沈词签下和离书。沈词拒绝和离，并强行闯入后院要见高令宁。",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "沈词在岳父的逼迫下，撕下所有伪装，不顾体面强闯后院。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "和离书",
+    "笔墨"
+  ],
+  "dramatic_purpose": "展现高父对女儿的维护，彻底断绝了沈家带走孩子的可能。沈词的失态行为标志着他心态的彻底转变，从掌控者变为乞求者。",
+  "source_text_start": "经此一事，他已经对沈词失望至极，连带着对沈家也生出怨恨。\n沈母亲自上门，他神色冷淡：",
+  "source_text_end": "竟然不顾小厮阻拦，强行闯入了后院。"
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "EXT. 侯府柳池旁 - day",
+  "location": "侯爵府柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "我撞见沈词宠溺看着陆姝仪，心生恶气，故意借脚滑之机让蒋晟亲密扶住自己，反刺激沈词。",
+  "key_dialogue": "「蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。」",
+  "emotional_peak": "我用刻意的亲近回敬他们之间的暧昧。",
+  "tension_score": 0.79,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "扶手"
+  ],
+  "dramatic_purpose": "制造四角关系的第一次公开视觉冲撞。",
+  "visual_reference": "池边柳丝轻扬，粉衣女子举着风筝，年轻公子低头含笑；远处另一女子脚下一滑，被青年稳稳扶住，两组人物遥遥对峙，暗流涌动",
+  "visual_prompt_negative": "避免群像混乱，避免狗血夸张摔倒姿势，避免明艳喜剧滤镜",
+  "source_text_start": "春光如泄，我站在原地，忽然怔了片刻。",
+  "source_text_end": "余光里，沈词的目光落到我身上，面无表情地眯起眼睛。"
+}

@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_046",
+  "order": 45,
+  "heading": "EXT. 江南雪院 - day",
+  "location": "江南宅院前院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭",
+    "沈词",
+    "数位赘婿候选"
+  ],
+  "core_event": "冬雪后，父亲为我找来的几位赘婿候选在院中陪昭昭玩雪，沈词突然现身，被雪球砸中后发现所谓“新夫婿”们，脸色骤沉。",
+  "key_dialogue": "「他们是谁？」",
+  "emotional_peak": "他以为的试探，终于换来真正的被替代恐惧。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "雪球",
+    "院门",
+    "雪地"
+  ],
+  "dramatic_purpose": "让沈词直面女主人生里出现的新位置、新秩序。",
+  "visual_reference": "雪后江南院子里孩子与几位年轻男子堆雪人，气氛温暖；院门忽开，远道而来的男子肩头中了一枚雪球，笑意僵住，画面喜中带刺",
+  "visual_prompt_negative": "避免搞笑滑稽风过强，避免现代冬装，避免人群过多",
+  "source_text_start": "冬雪过后, 我推开院门。",
+  "source_text_end": "他找到在旁悠哉嗑子的我，冷声道：「他们是谁？」"
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "shot_0087",
+    "scene_id": "scene_008",
+    "shot_number": 1,
+    "goal": "建立灵堂空间的压抑氛围，通过环境细节暗示死亡的沉重",
+    "composition": "低角度仰拍，棺材占据画面下三分之二，白幡在上方虚焦飘动，烛光在前景形成光斑",
+    "camera_movement": "slow dolly in",
+    "framing": "WS",
+    "emotion_target": "压抑、肃穆、不祥",
+    "duration_hint": "3-4s",
+    "characters": [],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 87
+  },
+  {
+    "id": "shot_0088",
+    "scene_id": "scene_008",
+    "shot_number": 2,
+    "goal": "揭示沈词的存在，通过背影和肢体语言传达崩溃状态",
+    "composition": "中景侧后方45度，沈词跪姿占据画面右侧，棺材在左侧形成对角线构图，负空间强调孤独",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "孤独、悔恨、脆弱",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 88
+  },
+  {
+    "id": "shot_0089",
+    "scene_id": "scene_008",
+    "shot_number": 3,
+    "goal": "捕捉肩膀颤抖的细节，外化内心的崩溃",
+    "composition": "特写肩部和后颈，月白色衣料因颤抖产生褶皱，烛光在布料上形成明暗交替",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "压抑的痛苦、无声的哭泣",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.85,
+    "order": 89
+  },
+  {
+    "id": "shot_0090",
+    "scene_id": "scene_008",
+    "shot_number": 4,
+    "goal": "通过双手抱头的动作展现自责和绝望",
+    "composition": "侧面中特写，沈词双手抱头，手指插入发间，头部低垂，前景虚化的白绫",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "自责、绝望、崩溃边缘",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 90
+  },
+  {
+    "id": "shot_0091",
+    "scene_id": "scene_008",
+    "shot_number": 5,
+    "goal": "泪水滴落的物理细节，将情绪具象化",
+    "composition": "极特写地面白布，泪滴落下瞬间，水渍缓慢晕开，背景虚化的跪姿剪影",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "心碎、无法挽回的失去",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.95,
+    "order": 91
+  },
+  {
+    "id": "shot_0092",
+    "scene_id": "scene_008",
+    "shot_number": 6,
+    "goal": "沈词抬头的转折动作，从崩溃到强迫自己面对",
+    "composition": "正面中景，沈词缓慢抬头，泪痕清晰，眼神空洞失焦，棺材在背景居中",
+    "camera_movement": "slow tilt up",
+    "framing": "MS",
+    "emotion_target": "麻木、强撑、内心死寂",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.85,
+    "order": 92
+  },
+  {
+    "id": "shot_0093",
+    "scene_id": "scene_008",
+    "shot_number": 7,
+    "goal": "手伸向棺材的动作，象征试图触碰已逝之人",
+    "composition": "侧面中特写，沈词的手从画面左侧伸入，棺材木纹占据右侧，浅景深",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "渴望、追悔、徒劳",
+    "duration_hint": "2-3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "match_cut",
+    "dramatic_intensity": 0.9,
+    "order": 93
+  },
+  {
+    "id": "shot_0094",
+    "scene_id": "scene_008",
+    "shot_number": 8,
+    "goal": "手指抚摸棺材的触感细节，传达珍惜来得太晚",
+    "composition": "极特写手指与木面，指尖缓慢滑过木纹，烛光在黑漆表面形成反光",
+    "camera_movement": "slow pan following hand",
+    "framing": "ECU",
+    "emotion_target": "温柔、悔恨、生前未曾给予的珍视",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "match_cut",
+    "transition_out": "dissolve",
+    "dramatic_intensity": 1.0,
+    "order": 94
+  },
+  {
+    "id": "shot_0095",
+    "scene_id": "scene_008",
+    "shot_number": 9,
+    "goal": "回到全景收束场景，强化孤独和无法改变的事实",
+    "composition": "高角度俯拍，沈词跪姿在画面中心缩小，白色灵堂空间包围他，对称构图",
+    "camera_movement": "slow crane up",
+    "framing": "WS",
+    "emotion_target": "孤立无援、命运的残酷、无法挽回",
+    "duration_hint": "4-5s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "fade_to_black",
+    "dramatic_intensity": 0.7,
+    "order": 95
+  }
+]

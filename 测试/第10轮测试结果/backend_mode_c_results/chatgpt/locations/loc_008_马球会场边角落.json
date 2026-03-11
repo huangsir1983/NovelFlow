@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_008",
+  "name": "马球会场边角落",
+  "type": "exterior",
+  "era_style": "明代中晚期园林式赛会边缘僻静角落",
+  "description": "这是依附于马球会场的边缘空间，远离主看台，靠近树荫与碎石小路，私密而短暂停留性质明显。地面以不规则碎石铺成，边上设一只简朴石凳，树影斑驳落在裙摆与脚踝附近。四周植被不算浓密，但足以形成视觉屏障，使人物脱离热闹中心。远处仍可隐约见赛会尘土与人声，近处则只有风吹发梢与细小动作。空间应突出“无人角落”的半封闭感与尴尬亲近感。",
+  "visual_reference": "Quiet hidden corner beside a late Ming dynasty polo event, shaded by trees, dappled light on a gravel path, simple stone bench, elegant noblewoman's skirt hem near an injured ankle, distant hints of polo field dust and activity, secluded yet still within an aristocratic outdoor venue, intimate confrontation, historical Chinese realism, cinematic close framing",
+  "atmosphere": "私密刺痛、暧昧尖锐、旧情反噬",
+  "color_palette": [
+    "树影绿",
+    "碎石灰",
+    "象牙白",
+    "柔棕"
+  ],
+  "lighting": "树荫过滤后的斑驳日光为主，光线不均，带有暧昧与不安定感，适合近景情绪戏。",
+  "key_features": [
+    "斑驳树影下的碎石小路",
+    "简朴石凳",
+    "远处若隐若现的赛场痕迹"
+  ],
+  "narrative_scenes": [
+    "scene_008"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "在远离人群的角落里，前世亲密被翻作今生羞辱，情绪细而锋利。"
+}

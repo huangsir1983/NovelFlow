@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "INT. 马球会客舍 - DAY",
+  "location": "马球会临时客舍",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为高令宁正骨，另一边陆姝仪胃病发作，沈词在榻边喂药照拂；随后高令宁再次拒绝退让，陆姝仪跪求留在沈家，沈词当众护她。",
+  "key_dialogue": "「有我在，没人能赶你走。」",
+  "emotional_peak": "沈词将陆姝仪揽入怀中，高令宁再一次被排除在‘夫君偏爱’之外。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "药碗",
+    "软榻",
+    "靠枕",
+    "伤药",
+    "绷带",
+    "诊脉枕",
+    "灯火",
+    "帕子",
+    "衣袖",
+    "门帘"
+  ],
+  "dramatic_purpose": "确认沈词偏护姿态，逼女主认识到争一时意气毫无意义。"
+}

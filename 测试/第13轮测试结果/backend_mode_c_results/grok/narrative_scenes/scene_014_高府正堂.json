@@ -1,0 +1,23 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "INT. 高府正堂 - 日",
+  "location": "高府正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父"
+  ],
+  "core_event": "产后父亲递和离书，沈词跪求见女",
+  "key_dialogue": "爹，令宁不会与我和离的。",
+  "emotional_peak": "沈词僵硬短促冷笑",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "和离书"
+  ],
+  "dramatic_purpose": "和离正式启动与沈词挽留",
+  "source_text_start": "笔直地跪在我父亲面前，只为见我和女儿一面。",
+  "source_text_end": "他缓缓地站了起来，弯着腰，发出了极其短促的一声笑。"
+}

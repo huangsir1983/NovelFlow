@@ -1,0 +1,31 @@
+{
+  "variant_id": "gaolingning_variant_04",
+  "variant_type": "casual",
+  "variant_name": "高令宁 — 江南闲居",
+  "tags": [
+    "闲居",
+    "释怀",
+    "自由"
+  ],
+  "scene_ids": [
+    "scene_017",
+    "scene_018"
+  ],
+  "trigger": "和离三年后在江南宅院带昭昭生活，雪夜沈词闯入时",
+  "appearance_delta": {
+    "face": "面容成熟柔和，眼神释怀平静少倔强",
+    "body": "苗条修长，姿态优雅放松",
+    "hair": "乌黑长发简约发髻或微松",
+    "distinguishing_features": "轻松家居姿态，平和气质"
+  },
+  "costume_override": {
+    "outfit": "淡雅简便家居襦裙",
+    "color_palette": [
+      "浅蓝",
+      "米白"
+    ]
+  },
+  "visual_reference": "一位二十三岁古代汉族女子在江南宅院，清丽端庄脸庞，柳眉杏目眼神坚定释怀平静，皮肤白皙如玉，身材苗条优雅，穿着浅蓝色简约家居绣花襦裙，头发简约发髻插玉钗，站在江南雪院中姿态放松，背景雪景或宅院，光影柔和自然或雪夜，写实风格，细腻皮肤纹理，高清细节",
+  "visual_prompt_negative": "现代服装、短发、浓妆艳抹、卡通风格、西方面孔、华丽嫁衣、悲伤扭曲表情、肥胖身材",
+  "emotional_tone": "平静释怀与独立"
+}

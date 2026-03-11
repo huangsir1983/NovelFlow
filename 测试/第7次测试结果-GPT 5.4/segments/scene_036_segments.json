@@ -1,0 +1,60 @@
+[
+  {
+    "id": "seg_0186",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0552",
+      "shot_0553",
+      "shot_0554"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头共同完成场景建立与探视动作铺垫，角色集合不变，时空连续，情绪保持在表层安稳与补偿试探之间，适合合并为一段先立环境再落到手部细节的开场segment。",
+    "order": 186
+  },
+  {
+    "id": "seg_0187",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0555",
+      "shot_0556",
+      "shot_0557",
+      "shot_0558"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕‘接受但未卸防—并肩坐下—试探性依靠—细部照料’形成完整的身体距离推进，角色与场景稳定不变，情绪仍属同一条回暖表层弧线，合并后节拍完整且有起伏。",
+    "order": 187
+  },
+  {
+    "id": "seg_0188",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0559",
+      "shot_0560",
+      "shot_0561",
+      "shot_0562"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处是明确情感弧线转折点，从柔软照料进入前世愧疚坦白，因此将停顿、认错、女主反应与双人静止合并成一个核心反转segment，完整呈现‘女主先察觉—观众后证实’的主观悬疑结构。",
+    "order": 188
+  },
+  {
+    "id": "seg_0189",
+    "scene_id": "scene_036",
+    "shot_ids": [
+      "shot_0563",
+      "shot_0564",
+      "shot_0565"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后三镜属于同一私密动作链：靠近、落吻、女主收尾反应。角色与空间不变，但情绪完成本场表层修复的顶点后迅速回冷，适合作为结尾独立segment保留复杂余味与未解悬念。",
+    "order": 189
+  }
+]

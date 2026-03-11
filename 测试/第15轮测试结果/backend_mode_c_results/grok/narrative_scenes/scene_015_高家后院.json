@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家后院 - 日",
+  "location": "高家后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "父亲",
+    "沈母"
+  ],
+  "core_event": "产后谈判和离，沈词跪求见女被拒",
+  "key_dialogue": "两个孩子和离后，昭昭归高家。",
+  "emotional_peak": "沈词强闯后院",
+  "tension_score": 0.8,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "和离书",
+    "雕花木门"
+  ],
+  "dramatic_purpose": "正式和离与沈词崩溃",
+  "source_text_start": "沈家几次来人，说沈母想看孙女，想接走昭昭。",
+  "source_text_end": "我平静地看着他：「按照我们约定好的，和离。」"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "seg_0120",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0297",
+      "shot_0298"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "前两镜均为无人物现场建立，角色集合一致为空，情绪从冷寂环境自然收束到物证细节，形成同一段“死亡已发生”的证据链，适合合并为开场段落。",
+    "order": 120
+  },
+  {
+    "id": "seg_0121",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0299",
+      "shot_0300",
+      "shot_0301"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组三镜围绕同一叙事动作：@char_沈睿 沈睿被带到现场、视线落下、看到物证。角色关系稳定，情感持续上升为‘意识到真相’，无时空跳转，适合合并为一段主观冲击建立。",
+    "order": 121
+  },
+  {
+    "id": "seg_0122",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0302",
+      "shot_0303"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "两镜处于同一对峙时刻，角色集合相同，且互为正反情绪支点：一镜拍听者背影与拒绝，一镜拍说者未成形的解释冲动，符合‘听者比说者重要’的对话场面处理，合并后情绪更完整。",
+    "order": 122
+  },
+  {
+    "id": "seg_0123",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0304",
+      "shot_0305"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此处存在明确时空跳转，但闪回与回现实共同服务同一情感节点——误会成形。因闪回极短且为主观碎片，不足以独立成段，故与随后的现实反应镜头合并，形成‘疑云刺入—内心定案’的一次完整换挡。",
+    "order": 123
+  },
+  {
+    "id": "seg_0124",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0306",
+      "shot_0307",
+      "shot_0308"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均围绕‘解释失败’与‘误会钉死’展开，角色集合稳定，情绪从外部空间对峙推进到身体动作失败，再收束为主观误认尖峰，是同一情绪弧线的连续递进，适合合并为高压段落。",
+    "order": 124
+  },
+  {
+    "id": "seg_0125",
+    "scene_id": "scene_024",
+    "shot_ids": [
+      "shot_0309",
+      "shot_0310"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后两镜构成完整收束：先完成@char_高令宁 高令宁内部情绪换挡，再用大全空间关系宣判婚姻断裂。角色集合未变，但情感从个人受伤转为关系终局，适合作为结尾段落独立保留力度。",
+    "order": 125
+  }
+]

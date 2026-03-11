@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_009",
+  "name": "高令宁房间",
+  "type": "interior",
+  "era_style": "明代孕妇居室",
+  "description": "温馨的居室，床榻宽大舒适，床边设小几放脉枕、药箱。窗边摆放针线筐，内有虎头帽等婴儿用品。房间布置以舒适实用为主，色调柔和。墙上挂平安符，角落放香炉。",
+  "visual_reference": "Ming Dynasty pregnant woman's chamber, comfortable large bed, medical supplies nearby, embroidery basket with baby items, soft color palette, peaceful atmosphere, natural window light, traditional Chinese interior, nurturing space",
+  "atmosphere": "温馨、孕育、母性",
+  "color_palette": [
+    "柔和米色",
+    "浅木色",
+    "婴儿用品彩色"
+  ],
+  "lighting": "柔和自然光从窗外洒入，营造温暖安宁氛围",
+  "key_features": [
+    "脉枕药箱",
+    "针线筐",
+    "虎头帽",
+    "宽大床榻"
+  ],
+  "narrative_scenes": [
+    "scene_012"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "怀孕诊断的不可置信与冷淡"
+}

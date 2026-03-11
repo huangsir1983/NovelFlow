@@ -1,0 +1,218 @@
+[
+  {
+    "id": "shot_0233",
+    "scene_id": "scene_017",
+    "shot_number": 1,
+    "goal": "建立当下时空，明确已从回忆抽离回到沈府内宅；以熟悉空间的静止感承接前段回忆余波。",
+    "composition": "WS，室内纵深构图。桌案位于画面右后方，高令宁独坐于右侧三分之一处，身形端直但微显凝滞；左前景以虚化烛台形成暖色遮挡，背景为暗沉门框与屏风轮廓，中央留出大片静默留白，烛火成为唯一稳定亮点。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "让观众感到回忆结束后的空寂、压抑与命运回看的余震。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "dissolve",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.25,
+    "order": 233
+  },
+  {
+    "id": "shot_0234",
+    "scene_id": "scene_017",
+    "shot_number": 2,
+    "goal": "将观众从空间观察推进到人物状态，呈现她长久静坐、尚未完全回神的状态。",
+    "composition": "MLS，高令宁仍位于画面右侧，半侧身对镜，桌案横向切过画面下部；左侧烛火在中前景，暖光侧打她的脸与肩，背景深处沉入冷暗。她目视前方虚空，肩颈线条紧绷，人与环境被门框式阴影轻微压住。",
+    "camera_movement": "dolly",
+    "framing": "MLS",
+    "emotion_target": "让观众贴近她的孤独与克制，感受她仍被旧事困住。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.18,
+    "order": 234
+  },
+  {
+    "id": "shot_0235",
+    "scene_id": "scene_017",
+    "shot_number": 3,
+    "goal": "捕捉她眼神从冷硬转为恍惚的关键变化，完成情绪转折的第一次收束。",
+    "composition": "MCU，人物面部居中略偏右，留出左侧视线空间；前景无干扰，背景仅保留一处虚化烛火光斑。侧逆光勾出她清晰眉骨与鼻梁，眼下阴影加深，脖颈淡痕若隐若现。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "让观众察觉坚硬外壳出现裂缝，进入恍惚与后怕。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": -0.05,
+    "order": 235
+  },
+  {
+    "id": "shot_0236",
+    "scene_id": "scene_017",
+    "shot_number": 4,
+    "goal": "强调她的呼吸与微表情变化，传达从前世情绪中抽离时的身体反应。",
+    "composition": "CU，取她眼鼻口与下颌，脸占画面大部分，视线微微下坠；背景完全虚化，只留琥珀色烛光晕圈。唇线轻抿后松开，呼吸细微可见。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到压抑中的脆弱与难以言明的生还感。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 236
+  },
+  {
+    "id": "shot_0237",
+    "scene_id": "scene_017",
+    "shot_number": 5,
+    "goal": "呈现她缓慢抬手的动作起点，为‘确认自己仍活着’建立动作逻辑。",
+    "composition": "MS，人物坐姿保持不变，右手自画面下缘缓慢抬入，动作成为唯一运动元素；桌案在下前景形成横向压迫线，烛台位于左后景，稳定火焰与她手的迟疑形成对照。",
+    "camera_movement": "static",
+    "framing": "MS",
+    "emotion_target": "制造一种近乎不敢置信的迟滞感，让观众屏息等待她确认现实。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.08,
+    "order": 237
+  },
+  {
+    "id": "shot_0238",
+    "scene_id": "scene_017",
+    "shot_number": 6,
+    "goal": "突出手抚过脸的触觉确认，具象化‘仍活着’这一叙事前提。",
+    "composition": "CU，手与脸同框。她的指尖从颧骨划至下颌，面部位于右侧三分之二，左侧留出少量暗部；皮肤在烛光下冷白，手指动作极轻，像怕惊散眼前现实。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "唤起观众对她重获肉身、重返当下的细密震动与怜惜。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.15,
+    "order": 238
+  },
+  {
+    "id": "shot_0239",
+    "scene_id": "scene_017",
+    "shot_number": 7,
+    "goal": "用主观化细节切入掌心，强化她对‘重来一世’事实的私人确认。",
+    "composition": "ECU，掌心充满画面，纹路与指节被烛火擦亮；背景为失焦的深色衣袖与桌案边缘，空间信息被压缩。手停在半空，略带颤意。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "让观众进入她近乎失语的自我验证时刻，感受命运反转的私密冲击。",
+    "duration_hint": "1.5-2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.22,
+    "order": 239
+  },
+  {
+    "id": "shot_0240",
+    "scene_id": "scene_017",
+    "shot_number": 8,
+    "goal": "回到她看掌心的反应，完成动作与心理的闭环，传达惊疑、后怕与清醒交织。",
+    "composition": "MCU，机位略高于手部，带入她低头的姿态；掌心位于下前景虚焦，脸在中景清晰，眼神落向手中。背景烛火保持稳定，构成她内心波动与环境静止的反差。",
+    "camera_movement": "tilt",
+    "framing": "MCU",
+    "emotion_target": "让观众感受到她并非单纯悲恨，而是在回看命运后重新衡量自己。",
+    "duration_hint": "2-3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.18,
+    "order": 240
+  },
+  {
+    "id": "shot_0241",
+    "scene_id": "scene_017",
+    "shot_number": 9,
+    "goal": "通过一口轻吸的气，标记她从恍惚转向重新控制自我的节点。",
+    "composition": "CU，正侧45度面部近景，胸口与锁骨处略入画，呼吸起伏可见；背景仅留一线门框暗影，像无形规训仍在。光线在她眼中形成一点微弱高光。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "让观众感到她在压下翻涌情绪，开始收拢自我、准备行动。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.05,
+    "order": 241
+  },
+  {
+    "id": "shot_0242",
+    "scene_id": "scene_017",
+    "shot_number": 10,
+    "goal": "呈现目光重新聚焦的瞬间，明确她已从被动承受记忆转向主动面对今生。",
+    "composition": "CU，双眼位于画面上半部，脸微转向镜头左侧，视线由散转定；前景无物，背景是低亮暖冷混合虚化层次。眼神恢复锋利但不再单一怨恨。",
+    "camera_movement": "dolly",
+    "framing": "CU",
+    "emotion_target": "让观众感受到一种克制的决意——她没有释怀，但她开始选择。",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.12,
+    "order": 242
+  },
+  {
+    "id": "shot_0243",
+    "scene_id": "scene_017",
+    "shot_number": 11,
+    "goal": "用稍拉开的构图重新放回空间，表现她与沈府内宅、与命运棋局的重新关系定位。",
+    "composition": "MS，高令宁端坐于画面中央偏右，手已缓缓落回桌案边缘；烛台在左前景清晰入画，桌案延伸至右下形成导线，背景门框与屏风将她半围困于礼法空间中，但她姿态已恢复端正。画面留白比开头更少，人物存在感更强。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "让观众感到她重归冷静，不是和解，而是带着记忆重新入局。",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.02,
+    "order": 243
+  },
+  {
+    "id": "shot_0244",
+    "scene_id": "scene_017",
+    "shot_number": 12,
+    "goal": "以稳定烛火与她凝定的坐姿完成收束，落点在‘重来一世’后的沉静决心，为后续选择埋钩。",
+    "composition": "MLS，回到与首镜呼应的空间角度，但机位更近。高令宁位于右侧，视线坚定投向画外左前方；左前景烛火稳定，右后方暗部吞没多余信息，桌案边角与人物形成三角稳定构图。静止中暗含将起的行动。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "给观众留下冷静、克制而带命运反击意味的尾韵。",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": -0.1,
+    "order": 244
+  }
+]

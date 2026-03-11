@@ -1,0 +1,58 @@
+[
+  {
+    "id": "seg_0198",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0616",
+      "shot_0617",
+      "shot_0618",
+      "shot_0619"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "合并开门前后与首次主观窥见现场的4个shot，角色集合基本稳定，叙事动作连续为“逼近—破门—窥见—确认失序证据”。情绪由不祥屏息推进到震惊与疑窦，适合作为一段完整的揭示前奏。",
+    "order": 198
+  },
+  {
+    "id": "seg_0199",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0620",
+      "shot_0621",
+      "shot_0622"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段完成从客观证据到女主内在判断的情绪跃迁。先给出核心视觉信息，再以反应镜头承接，符合“听者比说者重要”和“心理外化为目光移动”的导演原则。角色焦点由昏迷二人转移到高令宁，形成明确段落边界。",
+    "order": 199
+  },
+  {
+    "id": "seg_0200",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0623",
+      "shot_0624",
+      "shot_0625",
+      "shot_0626"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这4个shot构成完整的权力与关系对峙段落：高令宁看向沈词、沈词反应、沈词视角确认高令宁、最后双人冻结。角色集合在此稳定，情绪持续抬升至全场峰值，适合合并为一个连续高压segment。",
+    "order": 200
+  },
+  {
+    "id": "seg_0201",
+    "scene_id": "scene_041",
+    "shot_ids": [
+      "shot_0627"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一镜承担收束功能，情感从峰值转入死寂余寒。虽然仅含一个shot，但其空间关系和情绪结案感完整，适合作为独立尾段保留停顿，让误会不可逆地扩散。",
+    "order": 201
+  }
+]

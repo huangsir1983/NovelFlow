@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seg_0164",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0476",
+      "shot_0477",
+      "shot_0478"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "首段合并建立环境、嵌入人物、落到牵手细节，属于同一连续动作链：外出散心进入街市。角色集合稳定，情绪从热闹表象落到克制温情，适合压缩为一个完整开场段落。",
+    "order": 164
+  },
+  {
+    "id": "seg_0165",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0479",
+      "shot_0480",
+      "shot_0481"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段围绕同一触发事件——孩童提灯跑过——完成女主感受、外部诱因、男主松动三步递进，情感由疏离转为被刺中，未发生时空跳转，适合合并成一个触发段。",
+    "order": 165
+  },
+  {
+    "id": "seg_0166",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0482",
+      "shot_0483",
+      "shot_0484"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头共享同一主观逻辑：女主先观察男主，再确认自身判断，最终落到引发联想的鱼龙灯物象。属于‘女主先知—观众后证实’的标准主观段，情绪平稳蓄压，适合整体合并。",
+    "order": 166
+  },
+  {
+    "id": "seg_0167",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0485",
+      "shot_0486",
+      "shot_0487",
+      "shot_0488"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "此段是全场核心情感弧：男主情绪回坠、开口命名、女主沉默接住、手部完成接受。虽然包含4个shot，但都服务于同一事件中心‘静好’落名，情绪连续且密度高，应合并为一个完整表意段。",
+    "order": 167
+  },
+  {
+    "id": "seg_0168",
+    "scene_id": "scene_032",
+    "shot_ids": [
+      "shot_0489"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一镜承担收束功能，角色集合不变但情绪完成回冷，需单独成段保留停顿与余味，作为‘静好’假象的客观封口。",
+    "order": 168
+  }
+]

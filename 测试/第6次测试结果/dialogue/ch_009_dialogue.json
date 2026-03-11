@@ -1,0 +1,281 @@
+[
+  {
+    "id": "dl_0118",
+    "scene_id": "scene_039",
+    "character_id": "char_陆姝仪",
+    "line": "夫人，您便这般恨我吗？",
+    "subtext": "她以受害者姿态先发制人，把高令宁塑造成出于私恨迫害她的人，试图引发在场者的同情与道德谴责。",
+    "emotion_intensity": 0.82,
+    "order": 0
+  },
+  {
+    "id": "dl_0119",
+    "scene_id": "scene_039",
+    "character_id": "char_陆姝仪",
+    "line": "我不日将成婚，您设计我失贞，是要我非死不可吗？",
+    "subtext": "她将事件直接定性为高令宁蓄意毁她名节，借‘非死不可’强化自己的绝境处境，逼迫众人站队。",
+    "emotion_intensity": 0.91,
+    "order": 1
+  },
+  {
+    "id": "dl_0120",
+    "scene_id": "scene_039",
+    "character_id": "char_陆姝仪",
+    "line": "夫人，满高府都是您的人，我只是沈家的孤女，无权无势，自然您想要什么证据都有。",
+    "subtext": "她否定高府证人的可信度，强调自己孤弱无依，暗示整个取证环境都被高令宁操控。",
+    "emotion_intensity": 0.86,
+    "order": 2
+  },
+  {
+    "id": "dl_0121",
+    "scene_id": "scene_039",
+    "character_id": "char_陆姝仪",
+    "line": "兄长，难道你觉得我是个不知廉耻去勾引男人的货色吗？",
+    "subtext": "她向沈词索要公开背书，用极端措辞逼他表态，以此巩固自己清白受辱的叙事。",
+    "emotion_intensity": 0.89,
+    "order": 3
+  },
+  {
+    "id": "dl_0122",
+    "scene_id": "scene_039",
+    "character_id": "char_沈词",
+    "line": "自然不是。",
+    "subtext": "他毫不犹豫地站在陆姝仪一边，否认对她品行的怀疑，也等于否定高令宁的立场。",
+    "emotion_intensity": 0.54,
+    "order": 4
+  },
+  {
+    "id": "dl_0123",
+    "scene_id": "scene_039",
+    "character_id": "char_沈词",
+    "line": "是我不好，没能护好你，才会让你一而再再二三地受伤。",
+    "subtext": "他把陆姝仪视作需要自己保护的人，并默认她确实反复受害，言下之意是高令宁又一次伤害了她。",
+    "emotion_intensity": 0.84,
+    "order": 5
+  },
+  {
+    "id": "dl_0124",
+    "scene_id": "scene_039",
+    "character_id": "char_高令宁",
+    "line": "沈词！",
+    "subtext": "她震惊而愤怒，试图打断沈词继续站在陆姝仪那边，也是在质问他为何如此定罪自己。",
+    "emotion_intensity": 0.8,
+    "order": 6
+  },
+  {
+    "id": "dl_0125",
+    "scene_id": "scene_039",
+    "character_id": "char_沈词",
+    "line": "我不想听你说话。",
+    "subtext": "他拒绝给高令宁申辩机会，表明自己此刻已在情感和判断上封闭于她。",
+    "emotion_intensity": 0.77,
+    "order": 7
+  },
+  {
+    "id": "dl_0126",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "明日，你最好上门提亲。",
+    "subtext": "他命令蒋晟为陆姝仪负责，默认两人已有需要婚姻收场的实质性关系，并以此迅速处置局面。",
+    "emotion_intensity": 0.74,
+    "order": 8
+  },
+  {
+    "id": "dl_0127",
+    "scene_id": "scene_040",
+    "character_id": "char_高令宁",
+    "line": "你把话说清楚再走。",
+    "subtext": "她不接受含混定罪，要求沈词正面说明指控和立场，试图阻止事情被草率盖棺定论。",
+    "emotion_intensity": 0.79,
+    "order": 9
+  },
+  {
+    "id": "dl_0128",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "松手。",
+    "subtext": "他以命令式态度切断身体和情感上的接触，表现出明显的冷漠与排斥。",
+    "emotion_intensity": 0.62,
+    "order": 10
+  },
+  {
+    "id": "dl_0129",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "你现在还怀着孕，我不想与你说这些。",
+    "subtext": "表面上是顾及她有孕，实则是在回避对质，也暗示他对她已失去沟通意愿。",
+    "emotion_intensity": 0.67,
+    "order": 11
+  },
+  {
+    "id": "dl_0130",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "我本以为你变好了，没想到还这么让我失望了。",
+    "subtext": "他认定高令宁恶习未改，把这次事件当成她本性复发，对她彻底失望。",
+    "emotion_intensity": 0.83,
+    "order": 12
+  },
+  {
+    "id": "dl_0131",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "从头到尾，你都是这般恶毒跋扈的妇人。",
+    "subtext": "他对高令宁进行本质化审判，不再区分具体事实，而是将她整体定义为恶毒之人。",
+    "emotion_intensity": 0.92,
+    "order": 13
+  },
+  {
+    "id": "dl_0132",
+    "scene_id": "scene_040",
+    "character_id": "char_高令宁",
+    "line": "事情不调查清楚，今日你们谁都别想走。",
+    "subtext": "她强硬阻止众人离开，要求在当场厘清真相，不愿再背负未经查证的罪名。",
+    "emotion_intensity": 0.88,
+    "order": 14
+  },
+  {
+    "id": "dl_0133",
+    "scene_id": "scene_040",
+    "character_id": "char_高令宁",
+    "line": "若在高家调查不清，那我就去登京兆府，敲登门鼓，要个公道！",
+    "subtext": "她把事情升级到公权裁断层面，以公开审理威胁对方，表明自己宁可闹大也要洗刷冤屈。",
+    "emotion_intensity": 0.95,
+    "order": 15
+  },
+  {
+    "id": "dl_0134",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "你疯了！",
+    "subtext": "他认为高令宁要把家丑公之于众，既会损害陆姝仪，也会毁掉体面与秩序，因此强烈反对。",
+    "emotion_intensity": 0.84,
+    "order": 16
+  },
+  {
+    "id": "dl_0135",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "你非要闹得满城风雨，逼死了姝仪才罢休吗？",
+    "subtext": "他将高令宁追究真相的行为等同于逼迫陆姝仪去死，以道德压力阻止她继续追查。",
+    "emotion_intensity": 0.93,
+    "order": 17
+  },
+  {
+    "id": "dl_0136",
+    "scene_id": "scene_040",
+    "character_id": "char_沈词",
+    "line": "这一世姝仪若再为你而死，信不信我杀了你？",
+    "subtext": "他把陆姝仪的生死责任完全压到高令宁身上，甚至发出赤裸威胁，暴露出极端偏袒与压迫。",
+    "emotion_intensity": 0.99,
+    "order": 18
+  },
+  {
+    "id": "dl_0137",
+    "scene_id": "scene_040",
+    "character_id": "char_陆姝仪",
+    "line": "你怎么敢打阿词？",
+    "subtext": "她在冲突中迅速占据道德高位，把高令宁塑造成施暴者，同时公开维护沈词，进一步拉近两人立场。",
+    "emotion_intensity": 0.87,
+    "order": 19
+  },
+  {
+    "id": "dl_0138",
+    "scene_id": "scene_040",
+    "character_id": "char_高父",
+    "line": "女儿！",
+    "subtext": "他一见高令宁出事便本能惊呼，流露出强烈的担忧与保护欲。",
+    "emotion_intensity": 0.92,
+    "order": 20
+  },
+  {
+    "id": "dl_0139",
+    "scene_id": "scene_041",
+    "character_id": "char_旁白",
+    "line": "沈大人，夫人急火攻心，早产加难产。",
+    "subtext": "这是稳婆在紧急通报高令宁的凶险状况，催促沈词面对即将到来的生死抉择。",
+    "emotion_intensity": 0.86,
+    "order": 21
+  },
+  {
+    "id": "dl_0140",
+    "scene_id": "scene_041",
+    "character_id": "char_旁白",
+    "line": "只怕这孩子……未必能顺利生下来。",
+    "subtext": "稳婆在说明胎儿存活前景不乐观，为后续保大保小的抉择做铺垫。",
+    "emotion_intensity": 0.8,
+    "order": 22
+  },
+  {
+    "id": "dl_0141",
+    "scene_id": "scene_041",
+    "character_id": "char_旁白",
+    "line": "届时保大保小，还得等您拿主意啊。",
+    "subtext": "稳婆把最终决定权交给沈词，强调时间紧迫，也揭示高令宁自身无法掌握命运。",
+    "emotion_intensity": 0.83,
+    "order": 23
+  },
+  {
+    "id": "dl_0142",
+    "scene_id": "scene_041",
+    "character_id": "char_旁白",
+    "line": "沈大人……求求您给个主意吧，到底是保大人还是保孩子啊？",
+    "subtext": "稳婆因局势危急而近乎哀求，催逼沈词立即作出不可回避的生死决断。",
+    "emotion_intensity": 0.94,
+    "order": 24
+  },
+  {
+    "id": "dl_0143",
+    "scene_id": "scene_042",
+    "character_id": "char_旁白",
+    "line": "高令宁……",
+    "subtext": "有人低声呼唤她的名字，像是在生死边缘确认她、挽留她，也可能流露出压抑已久的情感。",
+    "emotion_intensity": 0.72,
+    "order": 25
+  },
+  {
+    "id": "dl_0144",
+    "scene_id": "scene_042",
+    "character_id": "char_旁白",
+    "line": "什么？",
+    "subtext": "稳婆没听清，立刻追问，说明现场正处于高度紧张和混乱之中。",
+    "emotion_intensity": 0.44,
+    "order": 26
+  },
+  {
+    "id": "dl_0145",
+    "scene_id": "scene_042",
+    "character_id": "char_沈词",
+    "line": "我要高令宁。",
+    "subtext": "在保大保小的抉择中，他明确选择高令宁活下去，暴露出她在他心中并非可被舍弃之人。",
+    "emotion_intensity": 0.97,
+    "order": 27
+  },
+  {
+    "id": "dl_0146",
+    "scene_id": "scene_042",
+    "character_id": "char_沈词",
+    "line": "我要她活着。",
+    "subtext": "他进一步强调自己的选择不是犹豫后的权衡，而是对高令宁生命的强烈执念与坚持。",
+    "emotion_intensity": 1.0,
+    "order": 28
+  },
+  {
+    "id": "dl_0147",
+    "scene_id": "scene_042",
+    "character_id": "char_旁白",
+    "line": "沈大人，快来看看小千金，漂亮得很呢！",
+    "subtext": "稳婆在母女平安后报喜，期待沈词把注意力转向新生儿，也宣告危险暂时过去。",
+    "emotion_intensity": 0.76,
+    "order": 29
+  },
+  {
+    "id": "dl_0148",
+    "scene_id": "scene_042",
+    "character_id": "char_沈词",
+    "line": "你说什么？",
+    "subtext": "他原本预期的是男孩，听见‘小千金’后震惊失措，显露出强烈的意外与认知落差。",
+    "emotion_intensity": 0.81,
+    "order": 30
+  }
+]

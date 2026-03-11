@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 沈府与旧日回忆蒙太奇 - 多时段",
+  "location": "沈府内外多处",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "沈睿"
+  ],
+  "core_event": "我回顾前世婚后长期互相怨恨、陆姝仪之死、孩子夭折与夫妻冷战，直到临终时沈词仍守在床前，形成复杂纠缠。",
+  "key_dialogue": "「若有来生，只做路人。」",
+  "emotional_peak": "明明彼此伤害至深，却在生死边缘显出无法言明的牵连。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 180,
+  "key_props": [
+    "火盆中的衣物鞋袜",
+    "病榻",
+    "棺材"
+  ],
+  "dramatic_purpose": "丰富前世因果，让今生的恨与不舍都具备重量。",
+  "visual_reference": "一组古代婚姻悲剧式蒙太奇：争执、冷落、病榻守护、棺前落泪，情感复杂压抑。",
+  "visual_prompt_negative": "不要现代医院，不要梦幻粉色滤镜，不要夸张言情海报风，不要轻浮表演。",
+  "source_text_start": "我是恨沈词的。恨他算计我，娶我回来，又不真心",
+  "source_text_end": "上一世撩狠话时，我们说过最多的便是若有来生，只做路人。可谁能想到，真能重来呢？"
+}

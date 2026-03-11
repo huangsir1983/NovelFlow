@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_022",
+  "order": 21,
+  "heading": "INT. 沈家喜堂 - DAY",
+  "location": "沈家喜堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "宾客"
+  ],
+  "core_event": "婚礼当天我全程心不在焉，连夫妻对拜都走神，直到沈词轻咳提醒，二人才机械完成婚礼。",
+  "key_dialogue": "无悲无喜。",
+  "emotional_peak": "隔着盖头看见他的平静侧脸，我意识到这是一场没有喜悦的婚礼。",
+  "tension_score": 0.5,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "盖头",
+    "喜帕",
+    "婚案"
+  ],
+  "dramatic_purpose": "把大婚处理成一场完成契约的仪式，而非爱情结果。",
+  "visual_reference": "古代喜堂红绸高挂却气氛冷淡，新娘盖头低垂怔住，新郎侧脸平静清冷，司仪和宾客热闹成空壳，红色喜庆反衬人物荒凉",
+  "visual_prompt_negative": "避免甜蜜婚礼镜头，避免现代中式婚宴，避免夸张群演喧闹遮主角",
+  "source_text_start": "成亲的全程，我心不在焉。",
+  "source_text_end": "隔着盖头，我能看见他平静的侧脸。无悲无喜。"
+}

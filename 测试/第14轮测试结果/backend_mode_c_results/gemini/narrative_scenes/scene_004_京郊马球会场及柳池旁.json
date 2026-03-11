@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 马球会场 - DAY",
+  "location": "京郊马球会场及柳池旁",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "高令宁与蒋晟亲密互动，故意刺激在不远处与陆姝仪相处的沈词。高令宁假装崴脚，与蒋晟暧昧离去，沈词眼神冰冷。",
+  "key_dialogue": "蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。",
+  "emotional_peak": "四人视线交错，高令宁与蒋晟的亲昵姿态和沈词冰冷的目光形成强烈对比。",
+  "tension_score": 0.7,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "马球杆",
+    "剥好的葡萄",
+    "风筝"
+  ],
+  "dramatic_purpose": "多角关系登场，展现主角间的相互试探与嫉妒，激化矛盾。",
+  "source_text_start": "陪我去的便是父亲的门生。 叫蒋晟，是个习武之人。 他为人老实，家境殷实，的确可作良配。",
+  "source_text_end": "抬起脸对蒋晟笑了笑，满眼崇拜：「蒋公子，我脚好像崴了，烦你扶我去那边坐一坐。」"
+}

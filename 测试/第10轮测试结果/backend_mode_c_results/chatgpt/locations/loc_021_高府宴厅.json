@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_021",
+  "name": "高府宴厅",
+  "type": "interior",
+  "era_style": "明代中晚期官宅宴饮厅堂",
+  "description": "高府宴厅为举行满月宴的正式厅堂，桌椅按宴席格局铺开，果盘、酒杯、满月礼与请帖摆设齐整。团扇与婴儿礼物为女性与庆生氛围增添柔性装饰。宾客屏退后，原本热闹的厅堂突然空下来，剩下的桌椅、半撤未撤的宴席与轻动门帘会制造一种真相揭露前的空旷回响。空间要既保留庆宴后的余温，也能在空厅状态下显出冷清和审判感。",
+  "visual_reference": "Late Ming dynasty banquet hall in an official residence, full moon celebration for a baby, arranged banquet tables and chairs, fruit platters, wine cups, invitation cards, baby gifts, women’s round fans, after guests leave the hall becomes half-empty and echoing, doorway curtains moving slightly, revelation scene in a once festive space, cinematic Chinese historical drama, highly detailed",
+  "atmosphere": "喜宴余温、空厅回响、真相刺骨",
+  "color_palette": [
+    "宴席暖红",
+    "木棕",
+    "淡金"
+  ],
+  "lighting": "白日厅堂明亮，但宾客退去后局部阴影显现，空桌与门帘处的静光更突出冷清感。",
+  "key_features": [
+    "满月宴席撤后留下的空厅",
+    "婴儿满月礼与请帖",
+    "门帘后可被偷听的空间关系"
+  ],
+  "narrative_scenes": [
+    "scene_027"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从满月庆贺的体面喜气，急转为迟来真相揭露后的彻底无可挽回。"
+}

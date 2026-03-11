@@ -1,0 +1,279 @@
+[
+  {
+    "id": "shot_0501",
+    "scene_id": "scene_033",
+    "shot_number": 1,
+    "goal": "建立产房的封闭压迫氛围，交代生产已结束却没有新生喜气，只剩死亡后的死寂。",
+    "composition": "WS。画面偏低机位，产房门框作为前景压景，门内空间被门框与垂帘切割。左侧是凌乱产床，床褥褶皱、血污与白布可见；右前景虚焦处放着襁褓一角。高令宁位于左后方床上，半靠着枕被，身形虚弱；沈词位于右后方椅上，与她隔空对坐。窗纸透入冷白天光，室内烛火在边角形成微弱暖色，对撞明显，中间大片留白形成情感断裂。",
+    "camera_movement": "static",
+    "framing": "WS",
+    "emotion_target": "压抑、窒息、失去后的空洞",
+    "duration_hint": "4-5s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.52,
+    "order": 501
+  },
+  {
+    "id": "shot_0502",
+    "scene_id": "scene_033",
+    "shot_number": 2,
+    "goal": "将视角拉入高令宁的主观感知，强调她产后虚脱与呼吸困难的生理状态。",
+    "composition": "CU。高令宁位于画面左三分之一，半躺半靠，额发微乱，唇色惨白。前景右侧有一缕失焦床帐边缘，像压在她视野前的障碍。背景中远处虚焦可见沈词端坐的暗色轮廓。冷白侧光打在她脸颊和颈侧细痕上，眼下阴影明显。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "疼痛后的麻木、耗竭中的清醒恨意",
+    "duration_hint": "3-4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.6,
+    "order": 502
+  },
+  {
+    "id": "shot_0503",
+    "scene_id": "scene_033",
+    "shot_number": 3,
+    "goal": "从高令宁的主观延伸到她所见之物，点出死婴的存在但不正面猎奇呈现。",
+    "composition": "MS。镜头位于床沿视角，前景左下是高令宁失力搭在被褥上的手，画面中央偏右是放置的襁褓，包裹过于安静，没有任何起伏。背景右后方虚焦中坐着沈词，身形僵硬。视觉引导由高令宁的手指指向襁褓，再延伸到沈词，形成因果链。",
+    "camera_movement": "dolly",
+    "framing": "MS",
+    "emotion_target": "刺痛、不可挽回、母性被掏空后的冷绝",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.68,
+    "order": 503
+  },
+  {
+    "id": "shot_0504",
+    "scene_id": "scene_033",
+    "shot_number": 4,
+    "goal": "切入沈词反应，交代他并非无感，而是在极端克制中濒临崩塌。",
+    "composition": "MCU。沈词位于画面右侧，身体微前倾却僵住，肩背仍维持世家子弟的端正，但眼眶发红。左侧前景留出大片虚焦空位，暗示他与高令宁之间无法跨越的距离。背景是冷灰墙面与一角烛火，火焰微弱。",
+    "camera_movement": "static",
+    "framing": "MCU",
+    "emotion_target": "压抑、羞耻、失控前的硬撑",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.64,
+    "order": 504
+  },
+  {
+    "id": "shot_0505",
+    "scene_id": "scene_033",
+    "shot_number": 5,
+    "goal": "建立两人的对视轴线与仇恨关系，明确这场戏的核心不是悲伤，而是关系断裂。",
+    "composition": "MLS。遵守180度规则，从高令宁一侧斜拍二人。高令宁在左前景床上，沈词在右中景椅上，二人目光在画面中央交汇，但中央被一段空地和地上的白布隔开。襁褓位于二人视线下方偏中，作为视觉重心与情感裂缝。床柱与椅背构成两组垂直线，像无形牢笼。",
+    "camera_movement": "static",
+    "framing": "MLS",
+    "emotion_target": "冰冷对峙、彼此归罪、婚姻裂成两端",
+    "duration_hint": "5-6s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.75,
+    "order": 505
+  },
+  {
+    "id": "shot_0506",
+    "scene_id": "scene_033",
+    "shot_number": 6,
+    "goal": "强化高令宁的主观敌意，将她眼中的沈词处理为伤害源。",
+    "composition": "CU。高令宁正面偏侧，视线直刺画外右侧。脸部占据画面大部分，背景完全浅焦化，只留一块冷白窗光和一点深色人影。唇线紧闭，眼底有湿意但不落泪，颈侧细痕在侧光下若隐若现。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "恨、忍、绝不示弱的冷硬",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.82,
+    "order": 506
+  },
+  {
+    "id": "shot_0507",
+    "scene_id": "scene_033",
+    "shot_number": 7,
+    "goal": "以反打呈现沈词承受这道目光的状态，让观众看到他的防线开始松动。",
+    "composition": "CU。沈词位于画面左三分之一，朝画外左看向高令宁，保持方向连续。前景右边有失焦的白布边角侵入，像死亡在他面前横亘。眼尾发红，呼吸压着，唇微启却没有说话。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "被指控感、无力辩解、内里崩坏",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.8,
+    "order": 507
+  },
+  {
+    "id": "shot_0508",
+    "scene_id": "scene_033",
+    "shot_number": 8,
+    "goal": "通过细节动作传达高令宁并未哭喊，而是在身体极弱时仍死死撑住，这种克制更伤人。",
+    "composition": "ECU。高令宁抓住床褥的手，指节发白，绣褥被攥出深褶；手背还带着产后虚汗。画面上沿虚焦处掠过一缕月白衣袖，提示她身份与体面尚未完全崩塌。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "隐忍的痛、压进骨头里的怨",
+    "duration_hint": "2s",
+    "characters": [
+      "高令宁"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.84,
+    "order": 508
+  },
+  {
+    "id": "shot_0509",
+    "scene_id": "scene_033",
+    "shot_number": 9,
+    "goal": "用沈词的身体细节回应，将他的情绪表现从脸转到姿态，避免单一正反打机械化。",
+    "composition": "ECU。沈词搭在膝上的手，手指僵直后缓慢蜷起，指尖压进衣料。深色锦袍纹理冷硬，玉佩半入画却不再端正，轻微偏斜。背景完全失焦，仅余一片灰白冷调。",
+    "camera_movement": "static",
+    "framing": "ECU",
+    "emotion_target": "强撑、内疚、控制即将失效",
+    "duration_hint": "2s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.83,
+    "order": 509
+  },
+  {
+    "id": "shot_0510",
+    "scene_id": "scene_033",
+    "shot_number": 10,
+    "goal": "再次回到高令宁主观，表现她对沈词的注视已从寻求答案变成纯粹的审判。",
+    "composition": "MCU。镜头略带主观压迫感，从床上视角俯看沈词。沈词坐在画面中央偏右，背后墙面空白冷硬，四周留白将他困住。画面边缘保留模糊床帷，表明视角仍 anchored 在高令宁位置。",
+    "camera_movement": "dolly",
+    "framing": "MCU",
+    "emotion_target": "审视、寒意、把对方钉在罪责之下",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.86,
+    "order": 510
+  },
+  {
+    "id": "shot_0511",
+    "scene_id": "scene_033",
+    "shot_number": 11,
+    "goal": "让时间在静默中延长，凸显这场对视的杀伤力胜过任何台词。",
+    "composition": "FS。侧面双人构图，高令宁在左、沈词在右，中间的襁褓位于地面或矮凳上居中偏前，形成三点式构图。人物都不动，只有烛火轻晃。背景窗纸冷光和烛火暖斑分别落在两人身后，却互不融合。",
+    "camera_movement": "static",
+    "framing": "FS",
+    "emotion_target": "冻结、绝望、关系在静默里正式死亡",
+    "duration_hint": "6-7s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.9,
+    "order": 511
+  },
+  {
+    "id": "shot_0512",
+    "scene_id": "scene_033",
+    "shot_number": 12,
+    "goal": "捕捉沈词被彻底击中的瞬间：他不再回视，第一次从对峙中撤退。",
+    "composition": "CU。沈词正面略侧，眼神先维持向左，随后缓慢闭上。画面左侧保留一小块高令宁方向的空白，像未被填补的目光。冷光落在他眼睫和鼻梁，眼下红意更重。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "认输、崩塌、被命运与关系双重击垮",
+    "duration_hint": "3-4s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.94,
+    "order": 512
+  },
+  {
+    "id": "shot_0513",
+    "scene_id": "scene_033",
+    "shot_number": 13,
+    "goal": "用身体姿态完成情绪落点，表现沈词不是激烈失控，而是整个人往下塌陷。",
+    "composition": "MS。沈词位于右侧坐姿全上身，随着闭眼，肩线明显下沉，脊背第一次失去挺拔。左侧前景虚焦中是高令宁床榻边缘，形成无声见证。背景烛火被他的肩背遮去一半，像最后一点支撑熄灭。",
+    "camera_movement": "tilt",
+    "framing": "MS",
+    "emotion_target": "惨败、耗尽、再无力辩白",
+    "duration_hint": "3s",
+    "characters": [
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.96,
+    "order": 513
+  },
+  {
+    "id": "shot_0514",
+    "scene_id": "scene_033",
+    "shot_number": 14,
+    "goal": "回到高令宁，确认她看到这一切，却没有获得任何安慰，只有更深的空。",
+    "composition": "CU。高令宁位于左侧，望向画外右，眼神没有波动，唇角近乎僵硬。背景中的沈词已经完全虚化下沉成一团暗色。她面上的冷白与身后的月白被褥几乎融为一体，像生命力被抽空。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "冷绝、心死、恨意后剩下的真空",
+    "duration_hint": "3s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "cut",
+    "dramatic_intensity": 0.91,
+    "order": 514
+  },
+  {
+    "id": "shot_0515",
+    "scene_id": "scene_033",
+    "shot_number": 15,
+    "goal": "以死婴襁褓作为终极视觉句号，封死这段婚姻的回旋空间。",
+    "composition": "CU。襁褓静置在画面中央偏下，布纹整齐得过分，毫无生命起伏。上方背景两端分别虚焦着高令宁和沈词的身影，一个在左卧着，一个在右坐着，彼此都无法靠近。冷白天光落在襁褓上，周围暖色几乎退尽。",
+    "camera_movement": "static",
+    "framing": "CU",
+    "emotion_target": "残酷、终结、不可逆的命运判决",
+    "duration_hint": "4s",
+    "characters": [
+      "高令宁",
+      "沈词"
+    ],
+    "transition_in": "cut",
+    "transition_out": "L-cut",
+    "dramatic_intensity": 0.88,
+    "order": 515
+  }
+]

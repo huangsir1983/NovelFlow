@@ -1,0 +1,91 @@
+[
+  {
+    "id": "seg_0022",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0082",
+      "shot_0083",
+      "shot_0084"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜均服务于同一叙事任务：建立空间、引入女主主观视角、锁定木雁这一核心道具。角色集合基本稳定，情绪仍处于压抑观察阶段，适合合并为同一开场segment。",
+    "order": 22
+  },
+  {
+    "id": "seg_0023",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0085",
+      "shot_0086",
+      "shot_0087"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该组镜头形成完整的行动起势：女主决断、高父立场、沈睿沉默、女主出手。角色未变化，情绪由观察转入主动破局，是清晰的一段弧线。",
+    "order": 23
+  },
+  {
+    "id": "seg_0024",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0088",
+      "shot_0089",
+      "shot_0090",
+      "shot_0091",
+      "shot_0092"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一段围绕同一个核心事件“退还木雁并明言不满”展开，动作与反应连续紧密，虽然包含多人的情绪波动，但都服务于同一第一次权力翻转，因此适合压缩为一个高密度segment。",
+    "order": 24
+  },
+  {
+    "id": "seg_0025",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0093",
+      "shot_0094",
+      "shot_0095",
+      "shot_0096",
+      "shot_0097"
+    ],
+    "segment_number": 4,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "这一组完成从‘彼此识破’到‘高父暴怒、媒人劝解’的外部冲突升级。情绪弧线清晰且连贯，角色集合未增减，但重心由女主动作转到众人反扑，适合作为独立冲突段。",
+    "order": 25
+  },
+  {
+    "id": "seg_0026",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0098",
+      "shot_0099",
+      "shot_0100"
+    ],
+    "segment_number": 5,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "该段是第二次情绪换挡：从高父怒斥切到女主温笑逼问，再进入群像沉默。三镜共同服务于‘把选择权逼到沈睿面前’这一单一戏剧目标，合并后节奏更完整。",
+    "order": 26
+  },
+  {
+    "id": "seg_0027",
+    "scene_id": "scene_001",
+    "shot_ids": [
+      "shot_0101",
+      "shot_0102",
+      "shot_0103",
+      "shot_0104"
+    ],
+    "segment_number": 6,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "最后一组完成回应、确认、冷收尾三步，情绪从压抑沉默落到更冷的交易共识。虽有角色反应切换，但都属于同一收束段，且必须以木雁收口以强化视觉记忆。",
+    "order": 27
+  }
+]

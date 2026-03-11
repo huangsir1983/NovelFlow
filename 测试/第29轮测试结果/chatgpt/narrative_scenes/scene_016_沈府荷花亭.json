@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "FLASHBACK. 荷花亭 - AFTERNOON",
+  "location": "沈府荷花亭",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "陆姝仪"
+  ],
+  "core_event": "前世陆姝仪在荷花亭中以胜利者姿态羞辱我，直言我身为妻子所得疼爱不过是她指缝漏下的一点。",
+  "key_dialogue": "「你辛辛苦苦追求的，我轻而易举便得到了。」",
+  "emotional_peak": "她温柔笑着说出最刻薄的话，击碎我的自尊。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "荷花亭栏杆",
+    "团扇",
+    "茶盏"
+  ],
+  "dramatic_purpose": "单独呈现我心中最深的情感创口，解释我为何对她无法退让。",
+  "visual_reference": "夏日下午荷花亭，水光粼粼，温婉女子含笑坐着，语气柔和却字字刺人，另一女子僵立亭中，脸色被羞辱得发白，表面宁静内里刀锋毕现",
+  "visual_prompt_negative": "避免撕扯打斗，避免宫廷夸张头饰，避免现代园林感",
+  "source_text_start": "就像那个下午，荷花亭内，陆姝仪笑吟吟同我说的：",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}

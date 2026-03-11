@@ -1,0 +1,37 @@
+{
+  "name": "太医",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-65",
+  "appearance": {
+    "face": "沉稳老成",
+    "body": "中等",
+    "hair": "束发或官帽",
+    "distinguishing_features": "望闻问切后断言胎儿性别"
+  },
+  "costume": {
+    "typical_outfit": "宫廷医官服饰",
+    "color_palette": [
+      "青灰",
+      "深蓝"
+    ]
+  },
+  "casting_tags": [
+    "太医",
+    "医学权威"
+  ],
+  "visual_reference": "ancient Chinese imperial physician, calm elder scholar-doctor, traditional medical attire",
+  "personality": "谨慎专业",
+  "desire": "看诊准确",
+  "flaw": "无",
+  "arc": "无",
+  "scene_presence": "诊断怀孕为男孩，引发后续误判与期待",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "医患",
+      "dynamic": "宣布关键信息",
+      "function": "制造剧情预期"
+    }
+  ]
+}

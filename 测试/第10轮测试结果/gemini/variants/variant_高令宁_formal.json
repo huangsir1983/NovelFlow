@@ -1,0 +1,36 @@
+{
+  "variant_id": "gaolingning_variant_01_reborn",
+  "variant_type": "formal",
+  "variant_name": "高令宁 — 重生归来（前期常服）",
+  "tags": [
+    "清醒",
+    "冷漠",
+    "端庄",
+    "华贵"
+  ],
+  "scene_ids": [
+    "scene_001",
+    "scene_002",
+    "scene_005",
+    "scene_006",
+    "scene_007",
+    "scene_008",
+    "scene_009"
+  ],
+  "trigger": "重生后在娘家退婚、筹谋以及与沈词周旋拉扯的时期（前期主要形象）",
+  "appearance_delta": {
+    "face": "妆容精致端庄，眼神极度冷静、充满防备与审视，毫无少女的娇憨",
+    "body": "纤细匀称，姿态挺拔，带有当家主母的威严",
+    "hair": "一丝不苟的端庄主母髻，配以华贵但不张扬的发饰",
+    "distinguishing_features": "脖颈处隐约可见极淡的自刎幻痛红痕，眼神极具压迫感"
+  },
+  "costume_override": {
+    "outfit": "华贵端庄的当家主母常服，剪裁考究、质地优良的汉服",
+    "color_palette": [
+      "月白",
+      "青瓷色"
+    ]
+  },
+  "visual_reference": "A beautiful young ancient Chinese noble woman, elegant but with a stubborn and cold gaze, wearing exquisite traditional Hanfu in pale blue and celadon, hair tied in a dignified matriarch bun with elegant hairpins, a very faint pale red scar on her neck, standing in a traditional Chinese courtyard, cinematic lighting, highly detailed, 8k resolution, photorealistic.",
+  "emotional_tone": "冷漠清醒，充满掌控欲与防备"
+}

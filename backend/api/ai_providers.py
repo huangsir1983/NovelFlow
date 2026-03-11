@@ -83,7 +83,7 @@ def list_providers(db: Session = Depends(get_db)):
 @router.post("/settings/ai-providers")
 def create_provider(data: ProviderCreate, db: Session = Depends(get_db)):
     """Add a new AI provider."""
-    valid_types = {"anthropic", "gemini", "openai_compat"}
+    valid_types = {"anthropic", "gemini", "openai_compat", "responses_api", "grok_video", "nanobanana"}
     if data.provider_type not in valid_types:
         raise HTTPException(status_code=400, detail=f"Invalid provider_type. Allowed: {', '.join(valid_types)}")
 
@@ -122,7 +122,7 @@ def update_provider(provider_id: str, data: ProviderUpdate, db: Session = Depend
     if data.name is not None:
         provider.name = data.name
     if data.provider_type is not None:
-        valid_types = {"anthropic", "gemini", "openai_compat"}
+        valid_types = {"anthropic", "gemini", "openai_compat", "responses_api", "grok_video", "nanobanana"}
         if data.provider_type not in valid_types:
             raise HTTPException(status_code=400, detail=f"Invalid provider_type")
         provider.provider_type = data.provider_type

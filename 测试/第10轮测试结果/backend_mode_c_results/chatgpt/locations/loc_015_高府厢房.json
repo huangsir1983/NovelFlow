@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_015",
+  "name": "高府厢房",
+  "type": "interior",
+  "era_style": "明代中晚期官宅偏院厢房",
+  "description": "高府厢房位于偏院一角，平日少人使用，空间狭窄而封闭，木门厚重，内有简单床榻、屏风与熏香炉。夜间昏暗烛火下，地上鞋履、散乱衣带与凌乱被褥格外刺眼，屏风后的阴影加剧了现场的不清不白。家具较简，缺乏主室的礼制感，因此更容易显得失控、污秽与可疑。整体视觉重点在门被推开后瞬间映入眼帘的凌乱证据感。",
+  "visual_reference": "Late Ming dynasty side chamber in an official residence, rarely used secondary room, dim candlelight, messy bed, fallen shoes on the floor, loose clothing sashes, folding screen, incense burner, rumpled bedding, wooden side door forced open, scandalous discovery scene, historical Chinese drama, highly detailed, tense composition",
+  "atmosphere": "失控、惊悚、证据般的混乱",
+  "color_palette": [
+    "昏黄",
+    "暗棕",
+    "灰黑"
+  ],
+  "lighting": "微弱烛火制造大片阴影，只照亮床榻凌乱区域与地上的衣履，画面中心像被抓现行般突兀。",
+  "key_features": [
+    "凌乱床榻与散乱衣带",
+    "半遮半掩的屏风",
+    "夜间被撞破的厢房木门"
+  ],
+  "narrative_scenes": [
+    "scene_019"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "几乎没有缓冲，场景自开门一刻即坠入无法辩驳的致命误会。"
+}

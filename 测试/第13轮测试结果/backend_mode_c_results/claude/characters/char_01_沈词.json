@@ -1,0 +1,63 @@
+{
+  "name": "沈词",
+  "aliases": [
+    "沈公子",
+    "沈大人",
+    "阿词"
+  ],
+  "role": "protagonist",
+  "age_range": "18-42岁（跨越两世）",
+  "appearance": {
+    "face": "如玉面庞，清冷俊美，眉眼端正",
+    "body": "长身玉立，身姿挺拔",
+    "hair": "乌黑长发，束冠",
+    "distinguishing_features": "冷如冰湖的眼神，薄唇微抿时的冷漠"
+  },
+  "costume": {
+    "typical_outfit": "文官朝服，青色长袍",
+    "color_palette": [
+      "青色",
+      "墨色",
+      "官服色"
+    ]
+  },
+  "casting_tags": [
+    "清冷",
+    "端方",
+    "矛盾",
+    "深情"
+  ],
+  "visual_reference": "古代男子，清冷俊美的面容，如玉般的气质，身着青色长袍，长身玉立，眉眼端正却透着疏离冷漠，眼神如冰湖般深邃，薄唇微抿，整体气质端方持重又带着压抑的情感，背景是古代书房或朝堂，光线清冷",
+  "visual_prompt_negative": "现代服装，粗犷外表，过于热情的表情，武将装束",
+  "personality": "清冷端方，理智克制，内心矛盾挣扎",
+  "desire": "保护陆姝仪，得到沈睿，后期渴望挽回高令宁",
+  "flaw": "情感表达障碍，过于理智，伤害他人而不自知",
+  "arc": "从算计婚姻到真心悔悟，从冷漠到卑微纠缠",
+  "scene_presence": "男主角，贯穿全剧",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "夫妻",
+      "dynamic": "从利用到真爱，从冷漠到纠缠",
+      "function": "核心情感线"
+    },
+    {
+      "target": "陆姝仪",
+      "type": "青梅竹马",
+      "dynamic": "保护与愧疚",
+      "function": "情感纠葛"
+    },
+    {
+      "target": "沈睿",
+      "type": "父子",
+      "dynamic": "深爱儿子，为他妥协",
+      "function": "行为动机"
+    },
+    {
+      "target": "昭昭",
+      "type": "父女",
+      "dynamic": "疼爱女儿，渴望陪伴",
+      "function": "情感转变"
+    }
+  ]
+}

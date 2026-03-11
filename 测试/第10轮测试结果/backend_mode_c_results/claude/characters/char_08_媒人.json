@@ -1,0 +1,30 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "50岁左右",
+  "appearance": {
+    "face": "圆润笑脸",
+    "body": "微胖",
+    "hair": "妇人发髻",
+    "distinguishing_features": "职业化的笑容"
+  },
+  "costume": {
+    "typical_outfit": "媒婆典型服饰",
+    "color_palette": [
+      "红色",
+      "花色"
+    ]
+  },
+  "casting_tags": [
+    "媒婆",
+    "圆滑"
+  ],
+  "visual_reference": "traditional Chinese matchmaker, round face, professional smile, colorful traditional clothing",
+  "personality": "圆滑世故,见风使舵",
+  "desire": "促成婚事赚钱",
+  "flaw": "势利",
+  "arc": "提亲工具人",
+  "scene_presence": "提亲场景",
+  "relationships": []
+}

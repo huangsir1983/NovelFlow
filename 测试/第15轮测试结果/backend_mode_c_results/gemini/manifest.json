@@ -1,0 +1,49 @@
+{
+  "model": "Gemini (gemini-2.5-pro via comfly)",
+  "status": "OK",
+  "streaming": true,
+  "total_time_s": 103.48,
+  "time_to_first_char_s": 43.02,
+  "num_characters": 7,
+  "num_scenes": 16,
+  "num_chars_streamed": 7,
+  "num_scenes_streamed": 5,
+  "character_names": [
+    "高令宁",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "父亲",
+    "沈母",
+    "沈睿"
+  ],
+  "stream_chunks": 435,
+  "source_text_coverage": {
+    "total": 16,
+    "count_with_start": 16,
+    "count_with_end": 16,
+    "count_with_both": 16,
+    "coverage_pct": 100.0
+  },
+  "num_locations": 15,
+  "num_props_total": 34,
+  "num_props_major": 10,
+  "num_props_minor": 24,
+  "minor_props_with_visual": 0,
+  "num_variants": 14,
+  "pipeline_total_time_s": 242.11,
+  "r14_major_prop_top_n": 10,
+  "r13_source_text_coverage": {
+    "total": 16,
+    "count_with_start": 16,
+    "count_with_end": 16,
+    "count_with_both": 16,
+    "coverage_pct": 100.0
+  },
+  "r14_fixes": [
+    "unified_streaming_pipeline",
+    "clean_scene_files",
+    "parallel_stage2",
+    "prop_top_n"
+  ]
+}

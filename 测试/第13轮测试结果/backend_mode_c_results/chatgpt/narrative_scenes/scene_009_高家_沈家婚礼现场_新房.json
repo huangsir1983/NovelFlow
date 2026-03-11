@@ -1,0 +1,30 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "INT. 高家/婚礼现场/新房 - DAY TO NIGHT",
+  "location": "高家、沈家婚礼现场、新房",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "高父",
+    "沈词",
+    "陆姝仪",
+    "沈府婢女",
+    "媒人"
+  ],
+  "core_event": "第三次提亲后婚事终定。婚礼完成，新婚夜两人以近乎怨偶的方式行夫妻礼，陆姝仪按前世套路醉酒闹房，高令宁冷淡放人。",
+  "key_dialogue": "「你去吧。也不必回来了。」",
+  "emotional_peak": "洞房里肉体结合却无情爱，只有彼此利用与厌倦。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "如山聘礼",
+    "红盖头",
+    "丝带",
+    "喜床与换洗热水",
+    "醉酒传话"
+  ],
+  "dramatic_purpose": "完成婚姻落地，展示这段关系从一开始就是交易与对抗。",
+  "source_text_start": "媒人第三次上门提亲。\n种种压力下，父亲应下了这门婚事。",
+  "source_text_end": "我轻嗤：「你我早晚要和离，我费那心思做什么？」"
+}

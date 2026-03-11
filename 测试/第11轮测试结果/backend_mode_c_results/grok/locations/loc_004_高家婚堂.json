@@ -1,0 +1,30 @@
+{
+  "location_id": "loc_004",
+  "name": "高家婚堂",
+  "type": "interior",
+  "era_style": "明代婚礼装饰的官宦府邸正厅",
+  "description": "与正堂相同结构，但为婚礼特别布置：满堂红绸喜幛悬挂，地面铺设红色喜毯，中央设拜堂香案，上置龙凤喜烛和大红喜字。两侧点缀花灯和绸缎装饰，空间喜庆热烈却又庄重，保留原有红木家具作为背景。",
+  "visual_reference": "Ornate Ming dynasty Chinese wedding ceremony hall in wealthy official residence, red silk draperies and happy characters everywhere, red carpet on floor, central altar with dragon-phoenix candles, traditional redwood furniture in background, festive yet solemn, detailed red decorations, warm interior",
+  "visual_prompt_negative": "modern wedding elements, western suits, electric lights, blurry, low resolution",
+  "atmosphere": "喜庆庄重, 心不在焉",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "深木棕",
+    "喜烛橙"
+  ],
+  "lighting": "白天结合自然光与喜烛火光，温暖明亮突出红色调",
+  "key_features": [
+    "拜堂红毯喜案",
+    "龙凤喜烛",
+    "满堂红绸"
+  ],
+  "narrative_scenes": [
+    "scene_004"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "婚礼仪式的正式喜庆到女主怔愣与内心复杂"
+}

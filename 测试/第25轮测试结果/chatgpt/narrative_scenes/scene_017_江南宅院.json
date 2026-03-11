@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "EXT./INT. 江南院落与卧房 - 日夜",
+  "location": "江南宅院",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "昭昭",
+    "沈词",
+    "几位赘婿"
+  ],
+  "core_event": "冬后沈词突然来到江南，看到昭昭与几位赘婿相处融洽后醋意爆发；深夜他借打雷之名爬上我的床，被我踹下后仍抱着被枕守在地上，卑微而执拗地宣称会纠缠我一辈子。",
+  "key_dialogue": "只要我还活着……我就会恬不知耻地纠缠你一辈子。",
+  "emotional_peak": "曾经端方冷傲的沈词终于彻底放下体面，变成执念深重的追逐者。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 210,
+  "key_props": [
+    "雪球",
+    "被褥枕头",
+    "床榻"
+  ],
+  "dramatic_purpose": "以反转式终局收束关系——女主抽身，男主沉沦，纠缠仍未结束。",
+  "visual_reference": "江南雪后小院温暖热闹，夜里卧房昏暗，男子抱被坐地，神情落魄执拗。",
+  "visual_prompt_negative": "不要现代睡衣，不要轻浮搞笑，不要露骨亲密，不要豪门都市感。",
+  "source_text_start": "冬雪过后，我推开院门。爹爹在江南替",
+  "source_text_end": "「我就会恬不知耻地纠缠你一辈子。」"
+}

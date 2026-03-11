@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_006",
+  "name": "高府门外",
+  "type": "exterior",
+  "era_style": "明代中晚期京城官宅临街府门",
+  "description": "高府门外为典型官宅街门场景，高大朱漆府门嵌铜钉，门前数级石阶抬高门第，厚重门槛将内外分界得极清楚。门侧可停马车，远处隐见街巷与药铺方向招牌，构成京城日常街景。空间相对狭长，适合人物拦截与逼迫，门前站位一旦靠近便显局促。沈词手中活雁留下的勒痕成为细节焦点，使礼制求婚与威逼交易并置。整体视觉强调府门的社会等级感与临街对峙的不体面。",
+  "visual_reference": "Late Ming dynasty city official mansion gate, vermilion double doors with bronze studs, stone steps, high threshold, carriage waiting outside, narrow street with medicine shop sign in distance, formal urban aristocratic entrance, tense confrontation at the doorway, subtle detail of rope marks from a live goose in the man's hand, daylight, cinematic historical realism",
+  "atmosphere": "逼仄、冷硬、交易感强",
+  "color_palette": [
+    "朱门红",
+    "石阶灰",
+    "鸦青"
+  ],
+  "lighting": "直接日光照亮门前石阶与人物衣纹，府门内侧较暗，形成内外心理边界。",
+  "key_features": [
+    "高大朱漆府门与石阶",
+    "街巷尽头的药铺招牌",
+    "活雁勒痕这一不安细节"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "从门前偶遇般的短暂停留，骤然转为以孩子为筹码的冷酷婚约。"
+}

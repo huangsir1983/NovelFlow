@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "INT. 侯府客房 - day",
+  "location": "侯爵府客房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "大夫"
+  ],
+  "core_event": "大夫为我正骨时，我看见不远处沈词温柔照料犯病的陆姝仪，对他彻底生出索然无味之感。",
+  "key_dialogue": "「我们回家吧。」",
+  "emotional_peak": "看见他的偏爱后，我第一次不是嫉妒，而是厌倦。",
+  "tension_score": 0.58,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "药碗",
+    "诊包",
+    "塌"
+  ],
+  "dramatic_purpose": "让女主情感从争胜转向抽离。",
+  "visual_reference": "客房中大夫为女子正骨，青年在旁愧疚守着；更远处另一男子端药哄着泪盈盈的病弱女子，前后景形成冷暖对照",
+  "visual_prompt_negative": "避免医疗细节血腥，避免混乱人群，避免过分古装剧滤镜",
+  "source_text_start": "大夫来看过了我的伤。",
+  "source_text_end": "我收回视线，只觉得索然无味。"
+}

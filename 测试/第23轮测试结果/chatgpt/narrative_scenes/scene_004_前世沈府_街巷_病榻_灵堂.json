@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "FLASHBACK MONTAGE. INT/EXT. 沈府与京城各处 - DAY/NIGHT",
+  "location": "前世沈府、街巷、病榻、灵堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "高父",
+    "陆姝仪",
+    "沈睿"
+  ],
+  "core_event": "前世婚后数十年片段交错：高令宁掌家劳心、父亲下狱流放、夫妻互相猜疑、陆姝仪投湖、女主病重、死后沈词守灵落泪。",
+  "key_dialogue": "若有来生，只做路人。",
+  "emotional_peak": "两人明明生前互咒早死，死后沈词却抱着棺材无声流泪。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "火盆中被丢弃的寝衣鞋袜",
+    "棺材与寿衣",
+    "月下病榻",
+    "官司文书",
+    "牌位"
+  ],
+  "dramatic_purpose": "浓缩前世完整情感史，奠定‘相爱相杀却已错过’的宿命基调。",
+  "source_text_start": "我是恨沈词的。恨他算计我，娶我回来，又不真",
+  "source_text_end": "上一世撩狠话时，我们说过最多的便是若有来生，只做路人。"
+}

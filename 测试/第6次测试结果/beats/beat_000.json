@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "id": "beat_000",
+    "type": "beat",
+    "pipeline_step": "beat_extract",
+    "created_at": "2026-03-08T09:13:52"
+  },
+  "_hooks": {
+    "ready_for": [
+      "rhythm_analysis",
+      "arc_mapping",
+      "pacing_check"
+    ],
+    "canvas_node_type": "beat",
+    "related_scenes": [
+      "scene_001"
+    ]
+  },
+  "data": {
+    "title": "当众折辱未婚夫",
+    "description": "女主在外部退婚风波中故意让沈词下不来台，回到家后余波未平，奠定这段关系从爱慕到敌意的反常开局。",
+    "beat_type": "action",
+    "save_the_cat": "Opening Image",
+    "emotional_value": -0.2,
+    "dramatic_intensity": -0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 0
+  }
+}

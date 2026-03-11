@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_011",
+  "name": "沈府婚礼正堂",
+  "type": "interior",
+  "era_style": "明代中晚期世家婚礼礼堂",
+  "description": "沈府婚礼正堂为正式礼仪空间，中央铺设拜垫，正中礼案陈放五谷盘、龙凤烛等婚礼器具，四周悬挂喜绸。空间高挑，梁柱粗壮，正面礼制轴线分明，新人站位与宾客目光都被引向中央。喜服与红盖头形成强烈红色视觉中心，但家具陈设相对简洁，使人感到仪式性高于温度。整体虽充满典礼元素，却因人物神情冷淡而显得更像被执行的家族契约。",
+  "visual_reference": "Late Ming dynasty aristocratic wedding hall, formal ceremonial main hall, central kneeling mats, ritual altar table with five grains tray, dragon-phoenix candles, red silk wedding drapery, bride in red veil and groom in wedding robes, symmetrical wooden architecture, solemn and emotionally detached, cinematic Chinese historical wedding scene, highly detailed",
+  "atmosphere": "喜庆外壳下的冷漠、仪式化",
+  "color_palette": [
+    "正红",
+    "乌木黑",
+    "烛金"
+  ],
+  "lighting": "白日天光与堂内礼烛共同照明，红绸和喜服在亮处鲜明夺目，但人物面部可保持克制阴影。",
+  "key_features": [
+    "中央拜垫与礼案",
+    "龙凤烛和五谷盘",
+    "高密度喜绸与礼制轴线"
+  ],
+  "narrative_scenes": [
+    "scene_013"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "day"
+  ],
+  "emotional_range": "热烈婚礼视觉与新人疏离神态形成尖锐反差，情绪冷于空间。"
+}

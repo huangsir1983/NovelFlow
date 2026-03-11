@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_039",
+  "order": 38,
+  "heading": "FLASHBACK. 沈家临终榻前 - night",
+  "location": "沈家临终卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "前世的我",
+    "前世的沈词"
+  ],
+  "core_event": "被他逼问是否忘了前世遗言时，往昔临终画面重现：我抓着他的手诅咒即使死了也要缠着他，让他痛苦一生。",
+  "key_dialogue": "「我就算死了……也会一直缠着你，让你痛苦一生。」",
+  "emotional_peak": "前世最狠的话，成了今生他不肯放手的执念来源。",
+  "tension_score": 0.83,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "病榻",
+    "覆眼的手"
+  ],
+  "dramatic_purpose": "补足当前对峙中的关键前史，使“我不放过你”有源头。",
+  "visual_reference": "临终卧房里气若游丝的女子死死抓住男子手腕，说出恶毒誓言，男子神色冷静近乎残忍，手缓缓覆上她的眼，画面寒凉",
+  "visual_prompt_negative": "避免灵异效果，避免血腥死状，避免多人围床",
+  "source_text_start": "你忘了前世你死时，说了什么吗？ 记得。",
+  "source_text_end": "声音依旧是令人厌恶的冷静： 「我等着。」"
+}

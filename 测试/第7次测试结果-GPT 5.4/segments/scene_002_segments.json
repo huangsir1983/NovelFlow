@@ -1,0 +1,59 @@
+[
+  {
+    "id": "seg_0000",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0012",
+      "shot_0013",
+      "shot_0014"
+    ],
+    "segment_number": 1,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头同属入屋后第一轮审问建立段，角色集合不变，时空连续；情绪从空间压迫到父亲质问再到女主沉默反制，形成完整起势，适合合并为首段。",
+    "order": 0
+  },
+  {
+    "id": "seg_0001",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0015",
+      "shot_0016"
+    ],
+    "segment_number": 2,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "本段聚焦高父持续追问与高令宁首次显露内情的情绪针刺，属于同一情感推进单元；前者是外部施压，后者是内部反应揭示，合并后形成‘勒紧—露锋’的节拍。",
+    "order": 1
+  },
+  {
+    "id": "seg_0002",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0018",
+      "shot_0019",
+      "shot_0020"
+    ],
+    "segment_number": 3,
+    "target_duration": "6s",
+    "target_model": "grok",
+    "merge_rationale": "三镜头构成明确的情感转折：父亲察觉异常、女儿主动承认、父亲误判为退婚并试图善后。角色与空间不变，但情绪弧线完成从责问到忧心的转向，适合独立成段。",
+    "order": 2
+  },
+  {
+    "id": "seg_0003",
+    "scene_id": "scene_002",
+    "shot_ids": [
+      "shot_0021",
+      "shot_0022",
+      "shot_0023",
+      "shot_0024",
+      "shot_0025"
+    ],
+    "segment_number": 4,
+    "target_duration": "12s",
+    "target_model": "grok",
+    "merge_rationale": "这是本场核心反转与落点，虽包含5个shot，但都服务于同一情绪爆发单元：打断、反转、父亲错愕、宣告、格局定型。若拆开会削弱宣言的连续冲击，因此合并为一个12秒高潮段最合理。",
+    "order": 3
+  }
+]

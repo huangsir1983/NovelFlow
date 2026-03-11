@@ -1,0 +1,163 @@
+{
+  "total_scenes": 14,
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "order": 0,
+      "location": "沈府正厅",
+      "core_event": "陆姝仪敬茶，高令宁砸杯自刎，沈词拦住",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "陆姝仪",
+        "沈母"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "order": 1,
+      "location": "沈府荷花亭",
+      "core_event": "陆姝仪投湖自尽，沈词归罪高令宁",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "陆姝仪"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "order": 2,
+      "location": "沈府卧房",
+      "core_event": "高令宁重病，沈词守床照顾并比量消瘦脸庞",
+      "characters_present": [
+        "高令宁",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "order": 3,
+      "location": "高府正堂",
+      "core_event": "媒人提亲，聘礼木雁被拒，高令宁抬价",
+      "characters_present": [
+        "高令宁",
+        "高父",
+        "沈词",
+        "媒人"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "order": 4,
+      "location": "高府闺房",
+      "core_event": "父女争执，高令宁坚持嫁并劝父辞官",
+      "characters_present": [
+        "高令宁",
+        "高父"
+      ]
+    },
+    {
+      "scene_id": "scene_006",
+      "order": 5,
+      "location": "医馆门前",
+      "core_event": "沈词拦路谈判，双方约定和离与处理陆姝仪",
+      "characters_present": [
+        "高令宁",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_007",
+      "order": 6,
+      "location": "马球场",
+      "core_event": "马球会，高令宁与蒋晟亲昵，沈词目睹陆姝仪献风筝",
+      "characters_present": [
+        "高令宁",
+        "蒋晟",
+        "沈词",
+        "陆姝仪"
+      ]
+    },
+    {
+      "scene_id": "scene_008",
+      "order": 7,
+      "location": "客栈厢房",
+      "core_event": "陆姝仪跪求暂留，沈词护她，高令宁妥协提亲",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "陆姝仪",
+        "蒋晟"
+      ]
+    },
+    {
+      "scene_id": "scene_009",
+      "order": 8,
+      "location": "沈府洞房",
+      "core_event": "洞房花烛，陆婢女打断，沈词被叫走",
+      "characters_present": [
+        "高令宁",
+        "沈词"
+      ]
+    },
+    {
+      "scene_id": "scene_010",
+      "order": 9,
+      "location": "高府厢房",
+      "core_event": "陆姝仪来访后昏迷与蒋晟共处，高令宁被指控",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "陆姝仪",
+        "蒋晟"
+      ]
+    },
+    {
+      "scene_id": "scene_011",
+      "order": 10,
+      "location": "高府产房",
+      "core_event": "早产难产，沈词选择保母，昭昭出生",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "高父",
+        "稳婆",
+        "太医"
+      ]
+    },
+    {
+      "scene_id": "scene_012",
+      "order": 11,
+      "location": "高府后院",
+      "core_event": "和离书对峙，沈词跪求，强闯见女",
+      "characters_present": [
+        "高令宁",
+        "沈词",
+        "高父",
+        "沈母"
+      ]
+    },
+    {
+      "scene_id": "scene_013",
+      "order": 12,
+      "location": "江南院落",
+      "core_event": "三年后沈词来访，雪球砸中，见赘婿",
+      "characters_present": [
+        "高令宁",
+        "昭昭",
+        "沈词",
+        "赘婿们"
+      ]
+    },
+    {
+      "scene_id": "scene_014",
+      "order": 13,
+      "location": "江南卧房",
+      "core_event": "沈词爬床纠缠，雷雨中表白永不放手",
+      "characters_present": [
+        "高令宁",
+        "沈词"
+      ]
+    }
+  ]
+}

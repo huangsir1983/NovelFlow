@@ -1,0 +1,28 @@
+{
+  "location_id": "loc_025",
+  "name": "江南居所卧房",
+  "type": "interior",
+  "era_style": "明代中晚期江南宅院主卧",
+  "description": "江南卧房较京城卧室更简雅，床榻低敛，锦被整洁，屏风与窗棂构成层次，地铺被褥可临时铺在床边。夜里月光透过窗棂，在地面与被面投下冷白格影；烛火残影则提供微弱暖意。若伴随雷雨声，房间会变得更封闭、更私密。整体装饰少而精，强调木作、织物与留白，适合表现一方在床上、一方睡在地上的尴尬亲密与纠缠不休。",
+  "visual_reference": "Late Ming dynasty Jiangnan bedroom at night, elegant minimalist southern Chinese chamber, low wooden bed with brocade quilt, floor bedding laid beside it, folding screen, lattice window casting moonlight patterns, faint candle shadows, rainstorm or thunder outside, intimate yet tense reunion scene, historical Chinese drama, highly detailed",
+  "atmosphere": "深夜私密、狼狈、偏执缠绵",
+  "color_palette": [
+    "月白",
+    "深木棕",
+    "冷蓝灰"
+  ],
+  "lighting": "月光是主光源，冷白清晰；残余烛火仅作低位暖光点缀，形成床上床下的情绪分割。",
+  "key_features": [
+    "床边地铺被褥",
+    "窗棂月光格影",
+    "屏风与夜雨声构成的私密空间"
+  ],
+  "narrative_scenes": [
+    "scene_031"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "从闯入式的荒唐深夜相处，延伸到男主跌入尘埃的卑微执念表白。"
+}

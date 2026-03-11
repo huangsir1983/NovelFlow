@@ -1,0 +1,29 @@
+{
+  "location_id": "loc_006",
+  "name": "沈家洞房",
+  "type": "interior",
+  "era_style": "明代中晚期官宦府邸洞房",
+  "description": "喜庆华丽的洞房，中央大红喜床挂鸳鸯帐与盖头，红烛高照，地面铺红毯，墙壁满饰喜字剪纸和金丝绸缎，侧边置水盆与妆台，布局浪漫私密，装饰以红色金饰和喜庆织物为主，营造新婚浓烈氛围。",
+  "visual_reference": "Luxurious bridal chamber in late Ming dynasty mansion, large red silk canopy bed with mandarin duck embroidery and bridal veil, flickering red candles, red carpet floor, walls covered in double-happiness cutouts and satin drapes, wash basin and vanity, warm romantic night atmosphere, highly detailed cinematic",
+  "atmosphere": "喜庆浪漫带张力",
+  "color_palette": [
+    "大红",
+    "金黄",
+    "黑红",
+    "丝绸红"
+  ],
+  "lighting": "夜晚红烛摇曳的温暖橘光，投下柔和浪漫阴影",
+  "key_features": [
+    "红烛喜床鸳鸯帐",
+    "盖头与喜字装饰",
+    "红毯水盆"
+  ],
+  "narrative_scenes": [
+    "scene_006"
+  ],
+  "scene_count": 1,
+  "time_variations": [
+    "night"
+  ],
+  "emotional_range": "洞房嘲讽的尴尬到女主泪眼平静的隐忍"
+}

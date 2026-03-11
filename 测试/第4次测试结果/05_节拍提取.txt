@@ -1,0 +1,215 @@
+节拍提取结果 — 共 21 节拍
+模型: gpt-5.4 | 耗时: 72.5s
+
+[
+  {
+    "title": "回望前世定下冷婚命题",
+    "description": "开篇以重生视角总述前世与今生：女主与沈词前世育有后来成相的长子，今生虽彼此厌弃，仍因子嗣、命运与利益重新走向婚约；同时埋下青梅义妹、重振门楣、再孕男胎、按约和离等远期走向。",
+    "beat_type": "revelation",
+    "save_the_cat": "Opening Image",
+    "emotional_value": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 0
+  },
+  {
+    "title": "点明重生婚姻只为代价与选择",
+    "description": "文本核心主题被提出：婚姻不再是爱情归宿，而是复仇、改命、求子、偿债与自我选择的战场；女主明确表露不愿再与沈词纠缠一生，‘成婚—生子—和离’成为主线价值命题。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Theme Stated",
+    "emotional_value": -0.1,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 1
+  },
+  {
+    "title": "识破聘礼确认对方也已重生",
+    "description": "时间回到提亲当日，媒人带着缩水一半的聘礼上门，正中木雁刺痛女主记忆，她立刻判断沈词同样重生；父亲、媒人、门第压力与婚约利益关系被完整摆上台面，世界规则和主要人物关系完成建构。",
+    "beat_type": "revelation",
+    "save_the_cat": "Set-Up",
+    "emotional_value": -0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 2
+  },
+  {
+    "title": "退还木雁当众掀翻求亲场",
+    "description": "女主借‘聘礼太薄’发难，故意退还木雁、试探退亲，当众羞辱沈家体面；父亲震怒、媒人惊慌、沈词短暂失态后又稳住局面，婚约从礼法程序转为双重重生者的暗战。",
+    "beat_type": "action",
+    "save_the_cat": "Catalyst",
+    "emotional_value": -0.4,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 3
+  },
+  {
+    "title": "回屋追忆旧爱并犹疑婚路",
+    "description": "父亲质问女主为何突然翻脸，女主表面沉默，内心回溯未嫁时对沈词的爱慕、拾钗温柔与提亲时的欢喜，再与婚后噩梦形成尖锐反差；她在‘退婚脱身’与‘带恨重嫁’之间完成心理拉扯。",
+    "beat_type": "transition",
+    "save_the_cat": "Debate",
+    "emotional_value": -0.3,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续下降",
+    "order": 4
+  },
+  {
+    "title": "宣告执意再嫁改写婚嫁姿态",
+    "description": "女主否认退婚可能，明确表示不是不嫁，而是一定要嫁，并且要让沈家‘求着我嫁’，以风光婚礼重塑自己在这段关系中的位置；主线由被动受婚转为主动入局。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Break into Two",
+    "emotional_value": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 5
+  },
+  {
+    "title": "翻出平妻旧案激活情感副线",
+    "description": "通过前世回忆揭露婚姻悲剧根源：沈词娶她本是为容纳青梅陆姝仪做平妻，婚后第二日便以敬茶摊牌。女主砸杯自戕立威，奠定她与沈词、陆姝仪之间长期纠葛。B Story正式成型，为‘夫妻间爱恨与第三人纠缠’的副线。",
+    "beat_type": "revelation",
+    "save_the_cat": "B Story",
+    "emotional_value": -0.7,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 6
+  },
+  {
+    "title": "细数前世夫妻互伤升级怨局",
+    "description": "文本进入主线推进的‘承诺兑现区’：女主掌中馈、救父、示好、受冷待，陆姝仪投湖后夫妻彻底决裂；但病中照料、死后痛哭又暴露迟来的情感。观众持续看到‘若重来会如何改写’这一高概念玩法。B Story与主线深度交织。",
+    "beat_type": "revelation",
+    "save_the_cat": "Fun and Games",
+    "emotional_value": -0.6,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续上升",
+    "order": 7
+  },
+  {
+    "title": "订立婚前契约把孩子变成目的",
+    "description": "父亲决定辞官避祸，女主强行促成；随后她与沈词在门旁摊牌，沈词以‘若今生不成亲，等于再杀睿儿一次’击穿她的防线。双方最终约定：成婚、生下睿儿、给足财产、然后和离。目标、代价与期限被明确，故事达到结构性中点。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Midpoint",
+    "emotional_value": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 8
+  },
+  {
+    "title": "借马球会试探并挑动三角暗流",
+    "description": "沈词认义妹消息传来，女主以拖延婚事反制；马球会上蒋晟作为潜在良配出现，陆姝仪以风筝和柔顺姿态刺激女主，女主又借蒋晟反刺激沈词。主线婚约、B Story情感线和第三条备选婚配线开始同时挤压人物。",
+    "beat_type": "action",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": -0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 9
+  },
+  {
+    "title": "目睹护妹场面逼出旧恨再燃",
+    "description": "大夫治脚后，女主亲眼见沈词温声安抚胃病发作的陆姝仪，又见陆姝仪跪求留在沈家、沈词将她护入怀中。前世荷花亭羞辱与偏爱记忆被重新激活，女主对这桩婚事与这段关系的厌憎抵达情绪高压区。",
+    "beat_type": "revelation",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": -0.8,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 10
+  },
+  {
+    "title": "答应提亲却把婚姻降为交易",
+    "description": "在回忆‘相似婢女’、伤胎、夭折女儿静好等往事后，女主终于承认与沈词终难相守，现实里疲惫松口，让他明日来提亲，并提醒婚后必须守诺。她虽前进一步，却在情感上退得更远。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": -0.1,
+    "hook_potential": "medium",
+    "rhythm_warning": "false",
+    "order": 11
+  },
+  {
+    "title": "踏入新婚夜重演前世冷局",
+    "description": "第三次提亲成功，父亲允许女儿受委屈就和离回家；婚礼完成后，新婚夜两人带着前世记忆圆房，言语却充满功利与怨气。陆姝仪婢女再度在关键时刻叩门求沈词过去，前世噩梦几乎原样复刻，婚姻从起点即显示失败底色。",
+    "beat_type": "event",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": -0.5,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 12
+  },
+  {
+    "title": "验出男胎却被一句想开击穿",
+    "description": "陆姝仪婚事推进之际，女主被诊出有孕且太医断为男胎，与前世宿命高度重合；沈词试图借孩子与亲昵重新绑定她，女主却冷静宣布生子后仍会离开，也不再恨他。沈词一句‘谁准你想开了’暴露他真正的情感失衡。",
+    "beat_type": "revelation",
+    "save_the_cat": "Midpoint",
+    "emotional_value": 0.3,
+    "hook_potential": "high",
+    "rhythm_warning": "连续上升",
+    "order": 13
+  },
+  {
+    "title": "回娘家享受假性温柔埋下陷阱",
+    "description": "女主养胎回高府，沈词日日探望、剥葡萄、承认前世亏欠、亲吻示软，父亲也误以为夫妻转好；但女主始终保持清醒，怀疑这份温柔是否只因腹中子嗣。表面缓和制造了即将坠落前的情绪假峰值。",
+    "beat_type": "transition",
+    "save_the_cat": "Bad Guys Close In",
+    "emotional_value": 0.4,
+    "hook_potential": "medium",
+    "rhythm_warning": "连续上升",
+    "order": 14
+  },
+  {
+    "title": "撞见失贞现场引爆信任坍塌",
+    "description": "陆姝仪借婚前相见之名登门后失踪，众人搜查高府，最终在厢房发现她昏迷、蒋晟衣冠不整，现场直指失贞设计。此案不仅毁掉陆姝仪婚事，也把矛头推向女主与高家，所有关系同时被拖入深渊。",
+    "beat_type": "event",
+    "save_the_cat": "All Is Lost",
+    "emotional_value": -0.9,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 15
+  },
+  {
+    "title": "遭到死亡威胁后在产床心死",
+    "description": "陆姝仪哭诉受害，沈词当场站到她一边，拒绝听女主解释，还说出‘这一世姝仪若再为你而死，便杀了你’。女主掌掴之后腹痛早产，在保大保小时沈词选择‘我要高令宁’，但生下的却是女儿而非预设中的沈睿，命运彻底偏轨。",
+    "beat_type": "action",
+    "save_the_cat": "Dark Night of the Soul",
+    "emotional_value": -1.0,
+    "hook_potential": "high",
+    "rhythm_warning": "连续下降",
+    "order": 16
+  },
+  {
+    "title": "借梦见长子后决意以女儿重生",
+    "description": "女主梦见前世已长大的沈睿自责求她来生不要再为他困住婚姻，这成为她真正放下‘必须重演生子命运’的内在转折。她给女儿取名昭昭，并在沈家接人、沈母上门、高父施压中正式选择与过去切割。",
+    "beat_type": "revelation",
+    "save_the_cat": "Break into Three",
+    "emotional_value": 0.2,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 17
+  },
+  {
+    "title": "拿和离书正面对峙并宣布原谅",
+    "description": "沈词跪求见妻女、强闯后院，拿着和离书质问她是否真心要散。女主平静重申依约和离，认为两人性情不合，只会彼此折磨，甚至表示自己已经原谅他并祝他另觅良人；沈词却因此近乎崩溃，显示主线情感权力发生逆转。",
+    "beat_type": "dialogue",
+    "save_the_cat": "Finale",
+    "emotional_value": 0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 18
+  },
+  {
+    "title": "逼出陆姝仪自白重写旧案因果",
+    "description": "昭昭满月宴上，陆姝仪不请自来，承认自己也重生，坦白因前世怨恨与无依无靠而故意挑拨女主和沈词、设计蒋晟失贞局，只为替自己谋出路。双重重生真相补全旧案，也让沈词终于直面过去误判。",
+    "beat_type": "revelation",
+    "save_the_cat": "Finale",
+    "emotional_value": -0.1,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 19
+  },
+  {
+    "title": "远走江南后仍被偏执追到身边",
+    "description": "女主带昭昭远赴江南，三年得清净生活；沈词靠书信、金银、婚讯试探持续存在，直至突然现身，撞见她身边的‘新夫婿’后嫉妒失控。深夜他被赶下床仍抱枕返回，宣称只要活着就会不知羞耻地纠缠她一辈子。主线虽表面结束，情感战事并未停息。",
+    "beat_type": "event",
+    "save_the_cat": "Final Image",
+    "emotional_value": 0.0,
+    "hook_potential": "high",
+    "rhythm_warning": "false",
+    "order": 20
+  }
+]

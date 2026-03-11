@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "EXT. 侯爵府马球会 - 日",
+  "location": "侯爵府马球场",
+  "time_of_day": "day",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "马球会上高令宁脚崴,蒋晟照顾,沈词吃醋,陆姝仪示好",
+  "key_dialogue": "你身上哪里,我没碰过?",
+  "emotional_peak": "沈词看到高令宁与蒋晟亲密而嫉妒",
+  "tension_score": 0.6,
+  "estimated_duration_s": 240,
+  "key_props": [
+    "马球",
+    "马匹",
+    "看台",
+    "葡萄",
+    "风筝",
+    "柳树",
+    "池塘"
+  ],
+  "dramatic_purpose": "展示三角关系,陆姝仪登场"
+}

@@ -1,0 +1,31 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "INT. 高家正厅 - NIGHT",
+  "location": "高家正厅",
+  "time_of_day": "night",
+  "characters_present": [
+    "高令宁",
+    "陆姝仪",
+    "沈词",
+    "蒋晟",
+    "高父",
+    "小厮"
+  ],
+  "core_event": "陆姝仪哭诉自己被高令宁设计失贞，沈词几乎不加调查便选择相信她，斥责高令宁恶毒跋扈，还威胁若姝仪再因她而死便杀了她。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "高令宁愤怒至极扇沈词一巴掌，情绪与身体双重崩溃。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 300,
+  "key_props": [
+    "厅堂桌案",
+    "证言下人",
+    "衣角",
+    "哭湿的帕子",
+    "烛台",
+    "门槛",
+    "茶杯",
+    "昏暗灯火"
+  ],
+  "dramatic_purpose": "将夫妻信任彻底击碎，把前世误会压到今生最高点。"
+}

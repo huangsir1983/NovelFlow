@@ -1,0 +1,65 @@
+{
+  "name": "陆姝仪",
+  "aliases": [
+    "姝仪",
+    "表小姐",
+    "义妹",
+    "小姐"
+  ],
+  "role": "supporting",
+  "age_range": "17-28",
+  "appearance": {
+    "face": "面容温婉清丽，五官秀致柔和，泪眼盈盈时尤显楚楚可怜，带有典型病弱美人的脆弱感",
+    "body": "身形纤细柔弱，姿态轻软，稍一受惊便显得摇摇欲坠",
+    "hair": "柔顺乌发，多梳温婉少女发式，配素雅簪花",
+    "distinguishing_features": "脆弱无害的气质与擅长示弱的神情，是她最强的社交武器"
+  },
+  "costume": {
+    "typical_outfit": "柔美的浅色襦裙，常穿粉色、藕荷色、月白等凸显温婉病弱感的衣裳",
+    "color_palette": [
+      "粉色",
+      "藕荷",
+      "月白"
+    ]
+  },
+  "casting_tags": [
+    "白月光",
+    "病弱美人",
+    "青梅表妹",
+    "外柔内狠",
+    "可怜感",
+    "心机型柔弱"
+  ],
+  "visual_reference": "Delicate Chinese young woman, late teens to 20s, soft pale face, tearful gentle eyes, slender build, long black hair with simple floral hairpins, pastel hanfu, fragile and melancholic, ancient drama style",
+  "personality": "表面温顺柔弱，实则敏锐、自卑、擅长利用他人保护欲；在失去依靠时会采取隐蔽而激烈的自保手段；她对阶层与婚配机会极度敏感，不愿再做被安排的牺牲品。",
+  "desire": "摆脱孤女与寄人篱下的命运，得到稳定体面的婚姻与被坚定选择的安全感。",
+  "flaw": "将生存焦虑转化为操纵与嫁祸，习惯借示弱实现目的；不肯正视自己对他人造成的伤害，直到事败才认错。",
+  "arc": "前世在婚配困局与情感失衡中投湖自尽→重生后试图改命，却仍无法脱离弱者处境→设计高令宁与蒋晟事件强行谋婚→在满月宴上坦白，承认自己的怨恨与算计→从白月光幻象跌回真实的求生者。",
+  "scene_presence": "前世婚后敬茶风波中被高令宁立威；被沈词救回并认作义妹；马球会放风筝、胃病发作、跪求留下；出嫁前引发多轮婚配冲突；高府中设局与蒋晟昏迷同处，诬指高令宁设计失贞；后嫁给蒋晟；满月宴上自曝重生与前因后果后离开。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "情感|利益|权力",
+      "dynamic": "青梅与被保护者关系，建立在依赖、亏欠与暧昧误读之上",
+      "function": "阻碍者；情感诱因"
+    },
+    {
+      "target": "高令宁",
+      "type": "对照|情感",
+      "dynamic": "正妻与青梅的天然对立，实质是两种女性求生策略的冲突",
+      "function": "女性镜像；主要矛盾制造者"
+    },
+    {
+      "target": "蒋晟",
+      "type": "利益|权力",
+      "dynamic": "被她设计绑定的丈夫，婚姻建立于算计而非感情",
+      "function": "她改命手段的承接者"
+    },
+    {
+      "target": "沈母",
+      "type": "权力|利益",
+      "dynamic": "既受其安排婚事，也被其拿来维持沈家体面",
+      "function": "封建婚配机制的执行端"
+    }
+  ]
+}
