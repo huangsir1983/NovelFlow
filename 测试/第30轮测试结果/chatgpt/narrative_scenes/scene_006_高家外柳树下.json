@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "FLASHBACK. 柳树下小径 - 日",
+  "location": "高家外柳树下",
+  "time_of_day": "day",
+  "characters_present": [
+    "少女时期的我",
+    "前世的沈词"
+  ],
+  "core_event": "待字闺中时，我曾真心爱慕沈词的容貌、门第和守礼风姿，尤其记得他在柳树下拾起发钗递还的温柔一幕。",
+  "key_dialogue": "「隔着丝帕递来时温和守礼。」",
+  "emotional_peak": "少女倾心",
+  "tension_score": 0.28,
+  "estimated_duration_s": 45,
+  "key_props": [
+    "发钗",
+    "丝帕",
+    "柳枝"
+  ],
+  "dramatic_purpose": "补足女主曾经真情，强化后续幻灭重量",
+  "visual_reference": "春日柳荫，小径安静，年轻公子弯身拾起女子发钗，用洁白丝帕托着递回，少女含羞望他，画面清润克制，古典初恋质感",
+  "visual_prompt_negative": "避免拥抱亲吻，避免过分华丽场景，避免现代校园感",
+  "source_text_start": "待字闺中时，我的确爱慕过沈词。",
+  "source_text_end": "沈家着人提亲时，我欣喜若狂，只觉得宛如大梦一场。"
+}

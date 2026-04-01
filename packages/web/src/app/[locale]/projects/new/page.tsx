@@ -5,7 +5,7 @@ import { useRouter } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { WizardLayout } from '@unrealmake/shared/components';
 import type { WizardStep } from '@unrealmake/shared/components';
-import { useEdition } from '@unrealmake/shared/hooks';
+import { useEdition, useProjectStore } from '@unrealmake/shared/hooks';
 import { fetchAPI } from '@unrealmake/shared/lib';
 import type { Project, ImportSource } from '@unrealmake/shared/types';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
@@ -20,6 +20,7 @@ export default function NewProjectPage() {
   const router = useRouter();
   const t = useTranslations();
   const { edition, getFeatureConfig } = useEdition();
+  const store = useProjectStore();
   const config = getFeatureConfig();
 
   const WIZARD_STEPS: WizardStep[] = [
@@ -37,21 +38,53 @@ export default function NewProjectPage() {
   const handleCreate = async () => {
     if (!projectName.trim()) return;
     setCreating(true);
+
+    // Generate UUID on client side for optimistic navigation
+    const id = crypto.randomUUID();
+    const now = new Date().toISOString();
+
+    // Create optimistic project object and store in zustand
+    const optimisticProject: Project = {
+      id,
+      name: projectName,
+      description,
+      import_source: importSource,
+      edition,
+      stage: 'import',
+      created_at: now,
+      updated_at: now,
+    };
+    store.setProject(optimisticProject);
+
+    // Persist to sessionStorage so project page can read it even after full navigation
     try {
-      const project = await fetchAPI<Project>('/api/projects', {
-        method: 'POST',
-        body: JSON.stringify({
-          name: projectName,
-          description,
-          import_source: importSource,
-          edition,
-        }),
-      });
-      router.push(`/projects/${project.id}`);
-    } catch (err) {
-      console.error('Failed to create project:', err);
-      setCreating(false);
+      sessionStorage.setItem(`optimistic-project-${id}`, JSON.stringify(optimisticProject));
+    } catch {
+      // sessionStorage unavailable — store-only fallback
     }
+
+    // Save to backend first, then navigate (with timeout fallback)
+    const savePromise = fetchAPI<Project>('/api/projects', {
+      method: 'POST',
+      body: JSON.stringify({
+        id,
+        name: projectName,
+        description,
+        import_source: importSource,
+        edition,
+      }),
+    });
+
+    // Navigate after save succeeds, or after 2s timeout (whichever comes first)
+    const timeoutPromise = new Promise<void>((resolve) => setTimeout(resolve, 2000));
+
+    try {
+      await Promise.race([savePromise, timeoutPromise]);
+    } catch {
+      // Save failed — still navigate, project page will use sessionStorage data
+    }
+
+    router.push(`/projects/${id}`);
   };
 
   const wizardLabels = {

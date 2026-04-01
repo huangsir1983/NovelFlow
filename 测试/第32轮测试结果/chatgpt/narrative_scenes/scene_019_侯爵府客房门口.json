@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_019",
+  "order": 18,
+  "heading": "INT. 侯爵府客房门前 - dusk",
+  "location": "侯爵府客房门口",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "临走前沈词再度要求我退让，让陆姝仪暂留沈家，陆姝仪甚至下跪哀求，我却坚持不退。",
+  "key_dialogue": "「不退。」",
+  "emotional_peak": "陆姝仪当众跪求、沈词抱她维护，把三人关系推到公开对峙。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "衣角",
+    "药碗",
+    "门槛"
+  ],
+  "dramatic_purpose": "将女主与陆姝仪的矛盾正式公开化、不可调和。",
+  "visual_reference": "灯火初上，门口空间逼仄，柔弱女子突然跪地去拽衣角，男子立刻将她护入怀中，另一侧女主面色冷静却眼底发寒，三角关系极具戏剧张力",
+  "visual_prompt_negative": "避免宫斗夸张群演，避免哭嚎过火，避免现代灯具",
+  "source_text_start": "走出几步，身后突然传来淡淡的一声：「二",
+  "source_text_end": "「有我在，没人能赶你走。」他小心翼翼地"
+}

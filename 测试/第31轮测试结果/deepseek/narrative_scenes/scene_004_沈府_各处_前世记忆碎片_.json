@@ -1,0 +1,26 @@
+{
+  "heading": "前世怨偶（闪回）",
+  "location": "沈府/各处（前世记忆碎片）",
+  "time_of_day": "混合",
+  "characters_present": [
+    "高令宁（前世）",
+    "沈词（前世）",
+    "陆姝仪（前世）"
+  ],
+  "core_event": "回忆前世夫妻互相折磨：高令宁操劳过度险流产、父亲下狱不求沈词、陆姝仪死后沈词冷待、互赠之物被焚。",
+  "emotional_peak": "沈词将高令宁做的寝衣鞋子丢入火盆，冷笑讥讽。",
+  "dramatic_purpose": "详细铺陈前世恩怨，解释恨意来源。",
+  "key_props": [
+    "火盆",
+    "寝衣",
+    "鞋子",
+    "饭菜"
+  ],
+  "visual_reference": "记忆蒙太奇：深夜烛火下操劳、跪求权贵、火盆燃烧、病榻相守。",
+  "visual_prompt_negative": "连贯的单一场景，明亮色调。",
+  "source_text_start": "我是恨沈词的。恨他算计我，娶我回来，又不真心待我。",
+  "source_text_end": "可谁能想到，真能重来呢？",
+  "is_flashback": true,
+  "scene_id": "scene_004",
+  "order": 3
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "EXT. 马球场角落 - day",
+  "location": "侯爵府僻静角落",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词追到僻静处要抱我回去，我拒绝与他有肌肤之亲，他却以曾经夫妻之实羞辱我。",
+  "key_dialogue": "「你身上哪里，我没碰过？」",
+  "emotional_peak": "他一句露骨旧事，瞬间撕破重生后表面上的男女分寸。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "肿起的脚踝",
+    "衣袖",
+    "石凳"
+  ],
+  "dramatic_purpose": "强化二人身体记忆仍在、情绪边界失守的尴尬与敌意。",
+  "visual_reference": "僻静角落光影斑驳，女子一瘸一拐要走，男子突然拽住她手臂，神情冷沉带怒，距离过近，旧日亲密与现实疏离激烈冲撞",
+  "visual_prompt_negative": "避免直接亲热，避免现代庭院，避免轻喜剧摔倒桥段",
+  "source_text_start": "寻了个无人的角落，我坐下揉了揉脚。很痛",
+  "source_text_end": "「装什么装？」「你身上哪里，我没碰过？"
+}

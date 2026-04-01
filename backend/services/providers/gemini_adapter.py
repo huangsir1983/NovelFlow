@@ -171,7 +171,7 @@ class GeminiAdapter(ProviderAdapter):
         Returns:
             ImageResponse with raw image bytes
         """
-        url = f"{self.base_url}/v1beta/models/{model}:generateContent"
+        url = f"{self.base_url}/v1beta/models/{model}:generateContent?key={self.api_key}"
 
         # Build parts
         parts = []
@@ -193,10 +193,9 @@ class GeminiAdapter(ProviderAdapter):
                 }
             ],
             "generationConfig": {
-                "responseModalities": ["IMAGE"],
+                "responseModalities": ["IMAGE", "TEXT"],
                 "imageConfig": {
                     "aspectRatio": aspect_ratio,
-                    "imageSize": image_size,
                 },
             },
         }

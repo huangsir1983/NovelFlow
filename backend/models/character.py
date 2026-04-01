@@ -29,6 +29,7 @@ class Character(Base, TimestampMixin):
     visual_prompt_negative = Column(Text, default="")  # elements to AVOID when generating
     desire = Column(Text, default="")  # core desire
     flaw = Column(Text, default="")  # fatal flaw
+    scene_presence = Column(Text, default="")  # scene appearance summary
 
     def __repr__(self) -> str:
         return f"<Character(id={self.id}, name={self.name}, role={self.role})>"

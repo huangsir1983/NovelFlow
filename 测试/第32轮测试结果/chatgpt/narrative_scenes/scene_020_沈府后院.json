@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_020",
+  "order": 19,
+  "heading": "FLASHBACK. 沈府内宅 - day",
+  "location": "沈府后院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "相似婢女"
+  ],
+  "core_event": "前世沈睿七岁时，沈词留了个酷似陆姝仪的婢女在身边珍爱教养，我因其毁画而将其送走。",
+  "key_dialogue": "「长相与年少的陆姝仪有七分相似。」",
+  "emotional_peak": "亡人影子以新的形态侵入婚姻，再次刺穿我的底线。",
+  "tension_score": 0.84,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "毁掉的画",
+    "婢女身契",
+    "书册"
+  ],
+  "dramatic_purpose": "揭示前世陆姝仪阴影多年不散，夫妻旧伤持续恶化。",
+  "visual_reference": "后院里少女婢女抱着书册，眉眼酷似旧人，案上是一幅被毁坏的画，主母神色冰冷收起身契，旧伤被新影子重新揭开",
+  "visual_prompt_negative": "避免误做替身恋甜宠，避免现代女仆装，避免煽情滤镜",
+  "source_text_start": "陆姝仪死的第十年。沈词依旧没忘了她。他",
+  "source_text_end": "看着女孩稚嫩的面庞，我放了她的身契，送"
+}

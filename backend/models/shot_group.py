@@ -1,7 +1,7 @@
 """ShotGroup model — merged shots forming a VFF segment."""
 
 import uuid
-from sqlalchemy import Column, String, Text, Integer, ForeignKey, JSON
+from sqlalchemy import Column, String, Text, Integer, ForeignKey, JSON, Index
 
 from models.base import Base, TimestampMixin
 
@@ -10,6 +10,12 @@ class ShotGroup(Base, TimestampMixin):
     """ShotGroup table — merged shot segments with VFF script and visual prompts."""
 
     __tablename__ = "shot_groups"
+    __table_args__ = (
+        Index("idx_shot_groups_project_scene_order", "project_id", "scene_id", "order"),
+    )
+    __table_args__ = (
+        Index("idx_shot_groups_project_scene_order", "project_id", "scene_id", "order"),
+    )
 
     id = Column(String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
     project_id = Column(String(36), ForeignKey("projects.id", ondelete="CASCADE"), nullable=False, index=True)

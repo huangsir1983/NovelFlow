@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_038",
+  "order": 37,
+  "heading": "INT. 高家产房 - night",
+  "location": "高家产房床前",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "稳婆",
+    "婴儿"
+  ],
+  "core_event": "在所有人催问中，沈词终于明确选择保我，随后孩子出生，竟是个女儿而非预言中的沈睿。",
+  "key_dialogue": "「我要她活着。」",
+  "emotional_peak": "我活下来、孩子也活下来，却彻底打碎了两人赖以维系婚姻的“长子”前提。",
+  "tension_score": 0.97,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "啼哭婴儿",
+    "泪水",
+    "襁褓"
+  ],
+  "dramatic_purpose": "制造命运偏移的最大转折：孩子不是沈睿，整个婚姻理由崩塌。",
+  "visual_reference": "产房里一声啼哭划破长夜，男子红着眼伸手探女子鼻息，周围人忙着看新生儿，得知是小千金时他的表情瞬间凝固，命运急转",
+  "visual_prompt_negative": "避免喜庆满月氛围提前出现，避免现代婴儿床，避免过分煽情柔光",
+  "source_text_start": "稳婆忙道：「什么？」「我要高令宁。」是",
+  "source_text_end": "稳婆兴高采烈地道：「沈大人，快来看看小"
+}

@@ -1,9 +1,12 @@
 """Database engine, session, and initialization."""
 
 import logging
+import time
 import uuid
+from pathlib import Path
 from sqlalchemy import create_engine, text, inspect, event
 from sqlalchemy.orm import sessionmaker, Session
+from sqlalchemy.exc import OperationalError
 from typing import Generator
 
 from config import settings
@@ -13,11 +16,14 @@ logger = logging.getLogger(__name__)
 
 _is_sqlite = "sqlite" in settings.database_url
 
+if settings.app_env.lower() == "production" and _is_sqlite:
+    raise RuntimeError("Production mode does not allow SQLite. Please set PostgreSQL DATABASE_URL.")
+
 if _is_sqlite:
     # SQLite development mode — single-thread friendly
     engine = create_engine(
         settings.database_url,
-        connect_args={"check_same_thread": False, "timeout": 30},
+        connect_args={"check_same_thread": False, "timeout": 60},
         echo=settings.debug,
     )
 
@@ -27,7 +33,7 @@ if _is_sqlite:
         cursor.execute("PRAGMA foreign_keys=ON")
         cursor.execute("PRAGMA journal_mode=WAL")
         cursor.execute("PRAGMA synchronous=NORMAL")
-        cursor.execute("PRAGMA busy_timeout=30000")
+        cursor.execute("PRAGMA busy_timeout=60000")
         cursor.close()
 else:
     # PostgreSQL production mode — connection pool
@@ -41,6 +47,22 @@ else:
         echo=settings.debug,
     )
 
+@event.listens_for(engine, "before_cursor_execute")
+def _before_cursor_execute(conn, cursor, statement, parameters, context, executemany):
+    context._query_start_time = time.time()
+
+
+@event.listens_for(engine, "after_cursor_execute")
+def _after_cursor_execute(conn, cursor, statement, parameters, context, executemany):
+    start = getattr(context, "_query_start_time", None)
+    if not start:
+        return
+    elapsed_ms = (time.time() - start) * 1000
+    if elapsed_ms > settings.db_slow_query_ms:
+        sql_preview = " ".join((statement or "").split())[:240]
+        logger.warning("Slow query %.1fms > %sms: %s", elapsed_ms, settings.db_slow_query_ms, sql_preview)
+
+
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
@@ -53,11 +75,87 @@ def get_db() -> Generator[Session, None, None]:
         db.close()
 
 
+def commit_with_retry(db: Session, max_retries: int = 5, base_delay: float = 0.3) -> None:
+    """Commit helper.
+
+    SQLite keeps retry logic for local development lock contention.
+    PostgreSQL path commits directly.
+    """
+    if not _is_sqlite:
+        db.commit()
+        return
+
+    for attempt in range(max_retries + 1):
+        try:
+            db.commit()
+            return
+        except OperationalError as e:
+            if "database is locked" in str(e) and attempt < max_retries:
+                delay = base_delay * (2 ** attempt)
+                logger.warning(f"DB locked on commit, retry {attempt + 1}/{max_retries} in {delay:.1f}s")
+                db.rollback()
+                time.sleep(delay)
+            else:
+                raise
+
+
 def init_db() -> None:
     """Create all tables, apply missing column migrations, and seed data."""
     Base.metadata.create_all(bind=engine)
     _apply_column_migrations()
+    _ensure_core_indexes()
+    if settings.db_explain_on_startup:
+        _log_index_startup_selfcheck()
     _seed_style_templates()
+
+
+def _ensure_core_indexes() -> None:
+    """Ensure critical composite indexes exist for P1-3."""
+    ddl = [
+        "CREATE INDEX IF NOT EXISTS idx_import_tasks_project_created ON import_tasks(project_id, created_at)",
+        "CREATE INDEX IF NOT EXISTS idx_scenes_project_order ON scenes(project_id, \"order\")",
+        "CREATE INDEX IF NOT EXISTS idx_shot_groups_project_scene_order ON shot_groups(project_id, scene_id, \"order\")",
+    ]
+    for stmt in ddl:
+        try:
+            with engine.begin() as conn:
+                conn.execute(text(stmt))
+        except Exception as e:
+            logger.warning("Ensure index failed: %s (%s)", stmt, e)
+
+
+def _log_index_startup_selfcheck() -> None:
+    """Log index hit self-check on startup and persist EXPLAIN snapshots."""
+    try:
+        with engine.begin() as conn:
+            queries = {
+                "import_tasks": "EXPLAIN SELECT * FROM import_tasks WHERE project_id='demo' ORDER BY created_at DESC LIMIT 20",
+                "scenes": "EXPLAIN SELECT * FROM scenes WHERE project_id='demo' ORDER BY \"order\" ASC LIMIT 50",
+                "shot_groups": "EXPLAIN SELECT * FROM shot_groups WHERE project_id='demo' AND scene_id='demo' ORDER BY \"order\" ASC LIMIT 50",
+            }
+
+            snapshot_lines: list[str] = []
+            for name, sql in queries.items():
+                try:
+                    rows = conn.execute(text(sql)).fetchall()
+                    plan_lines = [str(r[0]) for r in rows]
+                    plan_text = "\n".join(plan_lines)
+                    hit = any(("Index" in ln) or ("index" in ln) for ln in plan_lines)
+                    logger.info("Index self-check %s hit=%s", name, hit)
+                    snapshot_lines.append(f"[{name}] hit={hit}\n{plan_text}\n")
+                except Exception as e:
+                    err = f"[{name}] hit=unknown\nERROR: {e}\n"
+                    snapshot_lines.append(err)
+                    logger.warning("EXPLAIN self-check failed for %s: %s", name, e)
+
+            snapshot_dir = Path(settings.upload_dir) / "diagnostics"
+            snapshot_dir.mkdir(parents=True, exist_ok=True)
+            ts = int(time.time())
+            target = snapshot_dir / f"explain_snapshot_{ts}.txt"
+            target.write_text("\n".join(snapshot_lines), encoding="utf-8")
+            logger.info("EXPLAIN snapshot written: %s", target)
+    except Exception as e:
+        logger.warning("Index startup self-check skipped: %s", e)
 
 
 def _apply_column_migrations() -> None:
@@ -74,6 +172,13 @@ def _apply_column_migrations() -> None:
             ("full_text", "TEXT"),
             ("stream_checkpoint", "JSON"),
             ("style_template_id", "VARCHAR(36)"),
+            ("novel_analysis", "TEXT"),
+            ("source_file_name", "VARCHAR(255)"),
+            ("source_storage_provider", "VARCHAR(20)"),
+            ("source_storage_key", "VARCHAR(512)"),
+            ("source_storage_uri", "TEXT"),
+            ("source_file_size", "INTEGER"),
+            ("story_bible_overrides", "JSON"),
         ],
         "scenes": [
             ("characters_present", "JSON"),
@@ -84,6 +189,8 @@ def _apply_column_migrations() -> None:
             ("key_dialogue", "TEXT"),
             ("emotional_peak", "TEXT"),
             ("estimated_duration_s", "INTEGER"),
+            ("generated_script", "TEXT"),
+            ("edited_source_text", "TEXT"),
         ],
         "locations": [
             ("chapter_id", "VARCHAR(36)"),
@@ -114,6 +221,9 @@ def _apply_column_migrations() -> None:
         ],
         "projects": [
             ("current_phase", "VARCHAR(20) DEFAULT 'workbench'"),
+            ("adaptation_direction", "VARCHAR(20)"),
+            ("screen_format", "VARCHAR(20)"),
+            ("style_preset", "VARCHAR(30)"),
         ],
         "shots": [
             ("beat_id", "VARCHAR(36)"),
@@ -147,6 +257,37 @@ def _apply_column_migrations() -> None:
                     msg = f"{table}.{col_name}: {e}"
                     _migration_failures.append(msg)
                     logger.warning(f"Migration FAILED {msg}")
+
+    # P1-3: critical composite indexes
+    required_indexes = {
+        "import_tasks": [
+            ("idx_import_tasks_project_created", "project_id, created_at"),
+        ],
+        "scenes": [
+            ("idx_scenes_project_order", "project_id, \"order\""),
+        ],
+        "shot_groups": [
+            ("idx_shot_groups_project_scene_order", "project_id, scene_id, \"order\""),
+        ],
+    }
+
+    for table, indexes in required_indexes.items():
+        if table not in inspector.get_table_names():
+            continue
+
+        existing_indexes = {idx.get("name") for idx in inspector.get_indexes(table)}
+
+        for idx_name, idx_expr in indexes:
+            if idx_name in existing_indexes:
+                continue
+            try:
+                with engine.begin() as conn:
+                    conn.execute(text(f"CREATE INDEX IF NOT EXISTS {idx_name} ON {table} ({idx_expr})"))
+                logger.info(f"Migration: created index {idx_name} on {table}")
+            except Exception as e:
+                msg = f"index {table}.{idx_name}: {e}"
+                _migration_failures.append(msg)
+                logger.warning(f"Migration FAILED {msg}")
 
     if _migration_failures:
         logger.error(

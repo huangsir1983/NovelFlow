@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_007",
+  "order": 6,
+  "heading": "FLASHBACK. 沈府厅堂 - night",
+  "location": "沈府厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我为救娘家四处求助却不肯向丈夫低头，沈词因此愤怒质问我究竟把不把他当夫婿。",
+  "key_dialogue": "「你究竟是我沈家妇，还是高家女？」",
+  "emotional_peak": "夫妻第一次正面触及信任与身份归属的核心裂痕。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "求助名帖",
+    "跪折的裙角",
+    "案桌"
+  ],
+  "dramatic_purpose": "揭示夫妻互不信任的深层原因：自尊、家族、立场冲突。",
+  "visual_reference": "昏暗厅堂里，女子膝头尘土未净，手中仍攥着求助名帖，男子立于案前冷声质问，二人之间隔着一盏冷掉的茶与无法跨越的自尊",
+  "visual_prompt_negative": "避免温柔和解氛围，避免多人旁听，避免现代西装",
+  "source_text_start": "我四处奔走求助，宁愿对权贵下跪，也不肯",
+  "source_text_end": "「你这般防我，可曾把我当作你的夫婿？」"
+}

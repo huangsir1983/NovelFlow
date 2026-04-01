@@ -6,7 +6,13 @@
     "loading": "Loading...",
     "autoSaved": "Auto saved",
     "online": "{count} online",
-    "version": "Unreal Make v0.1.0 · Phase 0"
+    "version": "Unreal Make v0.1.0 · Phase 0",
+    "recentProjects": "Recent Projects",
+    "noProjects": "No projects yet. Click above to create one.",
+    "open": "Open",
+    "deleteProject": "Delete",
+    "confirmDeleteProject": "Delete project \"{name}\"? This cannot be undone.",
+    "deleted": "Deleted"
   },
   "editions": {
     "normal": "Normal",

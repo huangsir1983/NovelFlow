@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_034",
+  "order": 33,
+  "heading": "INT. 高家前厅 - dusk",
+  "location": "高家前厅与厢房外",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈词",
+    "下人"
+  ],
+  "core_event": "陆姝仪借辞别名义入高府后失踪，我派人搜索，最终在厢房找到昏迷且衣冠不整的她与蒋晟。",
+  "key_dialogue": "「面若冰霜。」",
+  "emotional_peak": "我与沈词四目相对，知道一场巨大的污名风暴已无可避免。",
+  "tension_score": 0.96,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "厢房门",
+    "昏迷的两人",
+    "灯笼"
+  ],
+  "dramatic_purpose": "引爆全书最大误会事件，直接触发早产危机。",
+  "visual_reference": "傍晚高府一片慌乱，灯笼摇晃，下人奔走，厢房门被推开后露出昏迷男女衣冠凌乱的画面，门外众人表情凝固，寒意扑面",
+  "visual_prompt_negative": "避免低俗香艳化，避免现代酒店感，避免夸张围观人群",
+  "source_text_start": "陆姝仪来了。说是即将出嫁，想来见我一面",
+  "source_text_end": "心里一惊。我转头去看沈词，他也在看我。"
+}

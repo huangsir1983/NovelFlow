@@ -24,6 +24,15 @@ from api.image_gen import router as image_gen_router
 from api.video_gen import router as video_gen_router
 from api.budget import router as budget_router
 from api.shot_actions import router as shot_actions_router
+from api.novel_analysis import router as novel_analysis_router
+from api.export import router as export_router
+from api.asset_generation import router as asset_gen_router
+from api.asset_images import router as asset_images_router
+from api.pipeline import router as pipeline_router
+from api.artifacts_writeback import router as artifacts_writeback_router
+from api.collaboration import router as collaboration_router
+from api.preview_export import router as preview_export_router
+from api.canvas import router as canvas_router
 
 logger = logging.getLogger(__name__)
 
@@ -76,7 +85,7 @@ app.add_middleware(
 
 @app.get("/api/health")
 def health_check():
-    """Enhanced health check: DB + Redis connectivity + active imports."""
+    """Enhanced health check: DB + Redis + Storage connectivity + active imports."""
     from database import engine
     from sqlalchemy import text
 
@@ -107,9 +116,33 @@ def health_check():
     except Exception as e:
         health["redis"] = f"error: {e}"
 
-    # Active imports
-    from api.import_novel import get_active_import_count
+    # Check Storage
+    try:
+        from services.storage_adapter import get_storage, get_storage_metrics
+
+        storage = get_storage()
+        ok, detail = storage.health_check()
+        health["storage"] = "connected" if ok else f"error: {detail}"
+        health["storage_provider"] = settings.storage_provider
+        health["storage_metrics"] = get_storage_metrics()
+        if not ok:
+            health["status"] = "degraded"
+    except Exception as e:
+        health["storage"] = f"error: {e}"
+        health["status"] = "degraded"
+
+    # Quota usage snapshot
+    try:
+        from services.task_quota import get_quota_usage_snapshot
+
+        health["quota_usage"] = get_quota_usage_snapshot()
+    except Exception as e:
+        health["quota_usage"] = {"error": str(e)}
+
+    # Active imports + SSE metrics
+    from api.import_novel import get_active_import_count, get_sse_metrics
     health["active_imports"] = get_active_import_count()
+    health["sse_metrics"] = get_sse_metrics()
 
     return health
 
@@ -127,6 +160,15 @@ app.include_router(image_gen_router, prefix="/api")
 app.include_router(video_gen_router, prefix="/api")
 app.include_router(budget_router, prefix="/api")
 app.include_router(shot_actions_router, prefix="/api")
+app.include_router(novel_analysis_router, prefix="/api")
+app.include_router(export_router, prefix="/api")
+app.include_router(asset_gen_router, prefix="/api")
+app.include_router(asset_images_router, prefix="/api")
+app.include_router(pipeline_router, prefix="/api")
+app.include_router(artifacts_writeback_router, prefix="/api")
+app.include_router(collaboration_router, prefix="/api")
+app.include_router(preview_export_router, prefix="/api")
+app.include_router(canvas_router, prefix="/api")
 
 
 # ── Static frontend served at root ──
@@ -143,3 +185,8 @@ def serve_index():
 # Mount static assets (css, js, images) if any extra files exist
 if STATIC_DIR.exists():
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+
+# Mount uploads directory so stored images are accessible via URL
+UPLOADS_DIR = Path(__file__).parent / "uploads"
+if UPLOADS_DIR.exists():
+    app.mount("/uploads", StaticFiles(directory=str(UPLOADS_DIR)), name="uploads")

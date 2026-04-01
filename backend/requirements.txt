@@ -10,3 +10,7 @@ ebooklib>=0.18
 pymupdf>=1.24.0
 chardet>=5.0.0
 httpx>=0.28.0
+celery>=5.4.0
+redis>=5.0.0
+oss2>=2.19.0
+oss2>=2.19.0

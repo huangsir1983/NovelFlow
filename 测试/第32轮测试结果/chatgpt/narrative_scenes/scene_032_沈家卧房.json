@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_032",
+  "order": 31,
+  "heading": "INT. 沈家卧房 - day",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我直言自己已经想开，以后都不会再恨他，沈词却反常失控，像被剥夺了某种牵连。",
+  "key_dialogue": "「谁准你想开了？」",
+  "emotional_peak": "他无法接受我真的不再恨他，情绪出现首次异常反扑。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "咬断的丝线",
+    "绣帽",
+    "门框"
+  ],
+  "dramatic_purpose": "揭示沈词内心并不满足于契约婚姻，开始显露依恋与控制欲。",
+  "visual_reference": "卧房里空气突然凝结，女子抬眼淡笑说不再恨他，男子站在近处神色冷硬却近乎受伤，手指微蜷，像被一句话刺中旧伤",
+  "visual_prompt_negative": "避免大吵大闹夸张表演，避免现代室内布置，避免甜蜜误会感",
+  "source_text_start": "我看着他，失笑半晌，摇头：「你放心，我",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分"
+}

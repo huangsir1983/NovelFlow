@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_041",
+  "order": 40,
+  "heading": "INT. 高家前院 - day",
+  "location": "高家前院",
+  "time_of_day": "day",
+  "characters_present": [
+    "父亲",
+    "沈词"
+  ],
+  "core_event": "沈词跪在我父亲面前求见我与女儿，父亲拿出和离书并表示已准备好赘婿人选。",
+  "key_dialogue": "「爹，令宁不会与我和离的。」",
+  "emotional_peak": "“赘婿”一词让沈词第一次显出近乎狼狈的失控。",
+  "tension_score": 0.93,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "和离书",
+    "跪姿",
+    "前院石阶"
+  ],
+  "dramatic_purpose": "把和离从口头约定推进到正式文书层面，并刺激沈词转向主动挽回。",
+  "visual_reference": "高家前院天光冷清，男子笔直跪在石阶前，面色憔悴，长辈把和离书放在他面前，构图突出尊严被迫下沉的瞬间",
+  "visual_prompt_negative": "避免夸张磕头流血，避免围观群众戏，避免现代西装下跪",
+  "source_text_start": "唯有沈词。笔直地跪在我父亲面前，只为见",
+  "source_text_end": "沈词的身体猛得一僵。他缓缓地站了起来，"
+}

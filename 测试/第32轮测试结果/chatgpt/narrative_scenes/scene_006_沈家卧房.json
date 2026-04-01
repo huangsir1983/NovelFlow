@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_006",
+  "order": 5,
+  "heading": "FLASHBACK. 沈府内室 - night",
+  "location": "沈家卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我"
+  ],
+  "core_event": "因过分劳心操持家务，我险些害死自己的第一个孩子，付出沉重身心代价。",
+  "key_dialogue": "「名声有了，可却因过分劳心，差点害死我们第一个孩子。」",
+  "emotional_peak": "拼命证明自己的贤德，换来的却是几乎失去孩子的恐惧。",
+  "tension_score": 0.8,
+  "estimated_duration_s": 65,
+  "key_props": [
+    "安胎药",
+    "凌乱账册",
+    "烛台"
+  ],
+  "dramatic_purpose": "展示女主在婚内以自我消耗换取体面的代价。",
+  "visual_reference": "深夜内室，烛光将账册照得发黄，孕妇面色惨白扶着桌案，药碗未凉，窗外天色未明，表现过劳与惊险安胎的状态",
+  "visual_prompt_negative": "避免生产场景混入，避免现代医疗设备，避免血腥失控",
+  "source_text_start": "名声有了，可却因过分劳心，差点害死我们",
+  "source_text_end": "我父亲不慎卷入朝堂党争，被判下狱流放。"
+}

@@ -1,9 +1,11 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useEdition } from '@unrealmake/shared/hooks';
-import { Edition, EDITION_ORDER } from '@unrealmake/shared/types';
+import { Edition, EDITION_ORDER, Project } from '@unrealmake/shared/types';
+import { fetchAPI } from '@unrealmake/shared/lib/api';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 
 const EDITION_KEYS: Record<Edition, string> = {
@@ -13,13 +15,48 @@ const EDITION_KEYS: Record<Edition, string> = {
   [Edition.ULTIMATE]: 'ultimate',
 };
 
+function timeAgo(dateStr: string, locale: string): string {
+  const now = Date.now();
+  const then = new Date(dateStr).getTime();
+  const diff = now - then;
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return locale === 'zh' ? '刚刚' : 'just now';
+  if (mins < 60) return locale === 'zh' ? `${mins} 分钟前` : `${mins}m ago`;
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return locale === 'zh' ? `${hours} 小时前` : `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  if (days < 30) return locale === 'zh' ? `${days} 天前` : `${days}d ago`;
+  const months = Math.floor(days / 30);
+  return locale === 'zh' ? `${months} 个月前` : `${months}mo ago`;
+}
+
 export default function HomePage() {
   const router = useRouter();
   const { edition, setEdition } = useEdition();
   const t = useTranslations();
 
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchAPI<Project[]>('/api/projects')
+      .then(setProjects)
+      .catch(() => setProjects([]))
+      .finally(() => setLoading(false));
+  }, []);
+
+  const handleDelete = async (proj: Project) => {
+    if (!confirm(t('common.confirmDeleteProject', { name: proj.name }))) return;
+    try {
+      await fetchAPI(`/api/projects/${proj.id}`, { method: 'DELETE' });
+      setProjects((prev) => prev.filter((p) => p.id !== proj.id));
+    } catch {
+      // ignore
+    }
+  };
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-bg-0 px-4">
+    <div className="flex min-h-screen flex-col items-center bg-bg-0 px-4 pt-16">
       {/* Language switcher & Settings */}
       <div className="absolute right-4 top-4 flex items-center gap-2">
         <button
@@ -37,7 +74,7 @@ export default function HomePage() {
       </div>
 
       {/* Header */}
-      <div className="mb-12 text-center">
+      <div className="mb-8 text-center">
         <h1 className="mb-2 text-3xl font-bold text-white">
           虚幻<span className="text-brand">造物</span>
         </h1>
@@ -47,7 +84,7 @@ export default function HomePage() {
       </div>
 
       {/* Edition Switcher */}
-      <div className="mb-8 flex gap-2 rounded-full bg-bg-1 p-1">
+      <div className="mb-6 flex gap-2 rounded-full bg-bg-1 p-1">
         {EDITION_ORDER.map((ed) => (
           <button
             key={ed}
@@ -65,7 +102,7 @@ export default function HomePage() {
       </div>
 
       {/* Current edition info */}
-      <p className="mb-8 text-xs text-white/30">
+      <p className="mb-6 text-xs text-white/30">
         {t(`editions.${EDITION_KEYS[edition]}Desc`)}
       </p>
 
@@ -78,8 +115,73 @@ export default function HomePage() {
         {t('common.createProject')}
       </button>
 
+      {/* Recent Projects */}
+      <div className="mt-12 w-full max-w-2xl">
+        <h2 className="mb-4 text-sm font-medium text-white/60">
+          {t('common.recentProjects')}
+        </h2>
+
+        {loading ? (
+          <div className="py-8 text-center text-sm text-white/30">
+            {t('common.loading')}
+          </div>
+        ) : projects.length === 0 ? (
+          <div className="py-8 text-center text-sm text-white/30">
+            {t('common.noProjects')}
+          </div>
+        ) : (
+          <div className="space-y-2">
+            {projects.map((proj) => (
+              <div
+                key={proj.id}
+                className="group flex items-center gap-4 rounded-lg bg-bg-1 px-4 py-3 transition-colors hover:bg-bg-2 cursor-pointer"
+                onClick={() => router.push(`/projects/${proj.id}`)}
+              >
+                {/* Project info */}
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="truncate text-sm font-medium text-white">
+                      {proj.name}
+                    </span>
+                    <span className="shrink-0 rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-white/40">
+                      {t(`stages.${proj.stage}`)}
+                    </span>
+                  </div>
+                  {proj.description && (
+                    <p className="mt-0.5 truncate text-xs text-white/30">
+                      {proj.description}
+                    </p>
+                  )}
+                </div>
+
+                {/* Time */}
+                <span className="shrink-0 text-xs text-white/20">
+                  {timeAgo(proj.updated_at, t('lang.switchTo') === 'EN' ? 'zh' : 'en')}
+                </span>
+
+                {/* Delete button */}
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDelete(proj);
+                  }}
+                  className="shrink-0 rounded p-1 text-white/0 transition-colors group-hover:text-white/20 hover:!text-red-400 hover:bg-white/5"
+                  title={t('common.deleteProject')}
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="3 6 5 6 21 6" />
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                  </svg>
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
       {/* Footer */}
-      <div className="mt-16 text-xs text-white/20">
+      <div className="mt-auto py-8 text-xs text-white/20">
         {t('common.version')}
       </div>
     </div>

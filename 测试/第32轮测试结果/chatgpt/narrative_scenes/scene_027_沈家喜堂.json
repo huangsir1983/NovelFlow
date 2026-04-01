@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_027",
+  "order": 26,
+  "heading": "INT. 沈家喜堂 - day",
+  "location": "沈家喜堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "司仪",
+    "宾客"
+  ],
+  "core_event": "婚礼当日我全程心不在焉，甚至对拜都险些错过，直到沈词轻咳提醒才完成仪式。",
+  "key_dialogue": "「还是沈词不轻不重地轻咳一声，我才回过神来。」",
+  "emotional_peak": "这场再来一次的婚礼没有期待，只有麻木与既视感。",
+  "tension_score": 0.55,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "红盖头",
+    "喜堂红绸",
+    "婚礼司仪"
+  ],
+  "dramatic_purpose": "完成重生后再婚的形式节点，表现这场婚姻缺失喜悦。",
+  "visual_reference": "喜堂喜红铺陈却气氛空洞，新娘呆立在拜堂中央，盖头下神情恍惚，新郎侧脸平静如水，满堂热闹反衬二人内心冷寂",
+  "visual_prompt_negative": "避免欢快喜剧感，避免西式婚礼元素，避免过度浪漫打光",
+  "source_text_start": "成亲的全程，我心不在焉。就连夫妻对拜的",
+  "source_text_end": "隔着盖头，我能看见他平静的侧脸。无悲无"
+}

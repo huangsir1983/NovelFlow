@@ -1,0 +1,44 @@
+{
+  "name": "媒人",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "30-50岁",
+  "appearance": {
+    "face": "圆脸，笑容可掬，眉眼灵活，善于察言观色。",
+    "body": "中等身材，略显富态。",
+    "hair": "梳着利落的发髻，插着喜庆的簪花。",
+    "distinguishing_features": "职业性的热情笑容，能说会道的神态。"
+  },
+  "costume": {
+    "typical_outfit": "颜色鲜艳（如红色）的得体衣裙，符合媒人身份。",
+    "color_palette": [
+      "红色",
+      "玫红色"
+    ]
+  },
+  "casting_tags": [
+    "职业媒人",
+    "能说会道"
+  ],
+  "visual_reference": "一位笑容可掬、衣着鲜艳的中年妇人，正指着堂下的聘礼热情地说着什么，眼神灵活地观察着在场众人的表情。",
+  "visual_prompt_negative": "冷漠、阴沉、衣着朴素、表情呆滞",
+  "personality": "职业性热情，能说会道，善于察言观色，遵循雇主（沈家）意愿行事。",
+  "desire": "促成婚事，拿到酬金。",
+  "flaw": "无深度刻画。",
+  "arc": "功能性配角，无弧线。",
+  "scene_presence": "仅在沈家三次提亲场景中短暂出场。",
+  "relationships": [
+    {
+      "target": "高令宁",
+      "type": "说客",
+      "dynamic": "职业性劝说。劝说高令宁接受聘礼和婚事。",
+      "function": "推动提亲情节，引出高令宁与沈词的初次对峙。"
+    },
+    {
+      "target": "沈词",
+      "type": "雇主代表",
+      "dynamic": "听从吩咐。传达沈家（沈词）的意图。",
+      "function": "作为沈家的传声筒。"
+    }
+  ]
+}

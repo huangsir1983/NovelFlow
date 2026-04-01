@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_039",
+  "order": 38,
+  "heading": "FLASHBACK. 沈府旧卧房梦境 - night",
+  "location": "梦中沈府卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈睿"
+  ],
+  "core_event": "我梦见前世已病弱的沈睿捧粥劝我进食，并为父母因他而互相将就的一生自责请罪。",
+  "key_dialogue": "「若有来生，娘亲别再生下我，让妹妹代替我承欢膝下。」",
+  "emotional_peak": "孩子的愧疚让我的执念松动，也让我真正接纳新生女儿。",
+  "tension_score": 0.75,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "热粥",
+    "小碗",
+    "床榻"
+  ],
+  "dramatic_purpose": "用梦境完成对长子执念的告别，并为女儿命名昭昭奠基。",
+  "visual_reference": "梦中卧房温暗安静，小小少年踮脚端着热粥，神情懂事得让人心碎，病后的母亲伸手抚摸他的脸，时光像被泪水浸透",
+  "visual_prompt_negative": "避免鬼怪恐怖感，避免成年版角色误入，避免现代儿童服饰",
+  "source_text_start": "我做了个梦。床头，小小的沈睿捧着一碗粥",
+  "source_text_end": "他朝我磕了个头：「若有来生，娘亲别再生"
+}

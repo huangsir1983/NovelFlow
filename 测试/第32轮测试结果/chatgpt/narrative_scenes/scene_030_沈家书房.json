@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_030",
+  "order": 29,
+  "heading": "INT. 沈家书房 - day",
+  "location": "沈家书房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "陆姝仪议婚受阻，沈词焦头烂额，我甚至主动提议他把她假死后收进府中，等和离再扶正。",
+  "key_dialogue": "「等你我一和离，你给她扶正或是不再娶妻，都皆大欢喜。」",
+  "emotional_peak": "我从想报复到忽然厌倦，主动替他谋划与心上人团圆。",
+  "tension_score": 0.74,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "折扇",
+    "婚配名册",
+    "书案"
+  ],
+  "dramatic_purpose": "展示女主情感上的第二次转向：从敌意到真正放手。",
+  "visual_reference": "书房内案卷堆叠，女子摇扇从容出主意，男子抬眼看她神色复杂，阳光斜照进来，像把他们多年纠缠短暂照亮却无法温暖",
+  "visual_prompt_negative": "避免暧昧对视浪漫化，避免现代书柜，避免喜剧谋略感",
+  "source_text_start": "沈词开始给陆姝仪择婿。那些青年，他总嫌",
+  "source_text_end": "良久的沉默。沈词低头地拂了拂衣袖，面无"
+}

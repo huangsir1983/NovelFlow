@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "EXT. 高家门旁 - 日",
+  "location": "高家门旁巷口",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我出门时被沈词拦下，他以“再不成亲就是再杀睿儿一次”相逼，把长子之痛重新压到我心口。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "痛处被刺",
+  "tension_score": 0.91,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "药方",
+    "门槛",
+    "勒痕手指"
+  ],
+  "dramatic_purpose": "明确二人再婚共同动机是儿子，而非爱情",
+  "visual_reference": "高门外巷口，女子停步，男子拦在前方，眼下青黑、手指勒痕清晰，日光下两人对峙，空气锋利，命运被一句话重新扯紧",
+  "visual_prompt_negative": "避免拥抱求婚感，避免人群围观过多，避免现代街景",
+  "source_text_start": "我松了口气，浑身轻松。",
+  "source_text_end": "他总是这样。寥寥几句就能戳到人痛处。"
+}

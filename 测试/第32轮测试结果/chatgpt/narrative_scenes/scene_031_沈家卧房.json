@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_031",
+  "order": 30,
+  "heading": "INT. 沈家卧房 - day",
+  "location": "沈家卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "太医"
+  ],
+  "core_event": "开春后我如前世时间线怀孕，太医断定是男孩，沈词因“沈睿”将至而靠近我并试探我是否会赖在沈家。",
+  "key_dialogue": "「你这般心疼睿儿，来日生下他，只怕是要在沈府赖一辈子。」",
+  "emotional_peak": "我平静表示坐完月子就走，令他第一次明显失措。",
+  "tension_score": 0.83,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "脉枕",
+    "虎头帽",
+    "绣线"
+  ],
+  "dramatic_purpose": "让闪前中的孕事正式落地，并把“和离约定”推进到临产前后。",
+  "visual_reference": "春日卧房明净，女子低头绣虎头帽，太医方才离开，男子从门边走来抱住她，下巴抵在她发间，画面看似温存却被冷意切开",
+  "visual_prompt_negative": "避免甜宠孕期氛围，避免现代产检元素，避免夸张婴儿用品",
+  "source_text_start": "不过很快，我也无暇顾及。开春之时，我有",
+  "source_text_end": "「高令宁，」他盯着我，冷硬的语气有几分"
+}

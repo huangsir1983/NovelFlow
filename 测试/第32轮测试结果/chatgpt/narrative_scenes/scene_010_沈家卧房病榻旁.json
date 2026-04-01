@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "FLASHBACK. 沈府病榻前 - night",
+  "location": "沈家卧房病榻旁",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我重病时，曾与我怨怼半生的沈词却衣不解带守在床前，露出迟来的隐秘哀恸。",
+  "key_dialogue": "「午夜梦回时，我满眼泪光地醒来，怀里竟死死抱着的，竟是沈词的胳膊。」",
+  "emotional_peak": "彼此仇深似海，却在病榻前暴露出无法否认的牵连。",
+  "tension_score": 0.74,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "药碗",
+    "被褥",
+    "月光"
+  ],
+  "dramatic_purpose": "为两人复杂关系加入反向情感证据，避免单一仇恨。",
+  "visual_reference": "月光照进病榻，病中女子骨瘦苍白，昏睡中抓着男人的手臂，男人坐在床沿凝视她消瘦的脸，神情黯然克制，安静却沉重",
+  "visual_prompt_negative": "避免甜蜜恋爱感，避免过度唯美滤镜，避免多人侍候",
+  "source_text_start": "可是。我重病之时，还是只有他守在床前。",
+  "source_text_end": "他垂着眼，横着手掌，在月光下黯然地比量"
+}

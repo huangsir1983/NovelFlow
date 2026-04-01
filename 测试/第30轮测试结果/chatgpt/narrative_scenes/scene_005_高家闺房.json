@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "INT. 高家女儿房 - 日",
+  "location": "高家闺房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲"
+  ],
+  "core_event": "回房后父亲质问我为何当众羞辱沈词，我沉默不答，父女之间第一次正面碰撞出我对这门婚事的复杂态度。",
+  "key_dialogue": "「你发什么疯？」",
+  "emotional_peak": "压抑对峙",
+  "tension_score": 0.68,
+  "estimated_duration_s": 60,
+  "key_props": [
+    "妆台",
+    "发钗",
+    "门帘"
+  ],
+  "dramatic_purpose": "让父亲代替观众发问，逼出女主心理转折",
+  "visual_reference": "古代闺房内，父亲焦躁踱步，少女坐于桌边神情冷静，光线从窗棂斜切而入，室内气氛沉闷，父女距离感明显",
+  "visual_prompt_negative": "避免哭闹拥抱，避免现代卧室，避免柔和甜美滤镜",
+  "source_text_start": "回到屋内。",
+  "source_text_end": "我看着他，没有说话。"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_043",
+  "order": 42,
+  "heading": "FLASHBACK. 沈府病榻前 - night",
+  "location": "前世临终病榻",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "被他逼问后，我想起前世临终时曾抓着他发誓，死了也要缠着他一生，让他痛苦。",
+  "key_dialogue": "「我就算死了……也会一直缠着你，让你痛苦一生。」",
+  "emotional_peak": "这句死亡诅咒成为今生他无法放手的情绪根刺。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "病榻",
+    "覆眼的手",
+    "临终誓言"
+  ],
+  "dramatic_purpose": "解释他为何执着于“你不能想开、不能原谅”。",
+  "visual_reference": "前世病榻前气息奄奄的女子死死抓住男子的手，含恨说出诅咒，男子神情冷静到近乎残酷，缓缓覆上她的眼，画面阴冷宿命感强",
+  "visual_prompt_negative": "避免恐怖鬼片化，避免血腥垂死特写，避免现代病房",
+  "source_text_start": "「你忘了前世你死时，说了什么吗？」记得",
+  "source_text_end": "声音依旧是令人厌恶的冷静：「我等着。」"
+}

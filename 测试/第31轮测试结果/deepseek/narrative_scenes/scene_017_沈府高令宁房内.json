@@ -1,0 +1,25 @@
+{
+  "heading": "诊出有孕",
+  "location": "沈府高令宁房内",
+  "time_of_day": "白天",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "太医",
+    "沈母"
+  ],
+  "core_event": "太医诊出高令宁怀孕且是男孩，沈词高兴，以为她会赖在沈府。",
+  "emotional_peak": "沈词搂着高令宁说“只怕是要在沈府赖一辈子”，高令宁躲开吻说做完月子便走。",
+  "dramatic_purpose": "沈词流露出挽留意向，高令宁坚持和离计划。",
+  "key_props": [
+    "虎头帽",
+    "丝线"
+  ],
+  "visual_reference": "房内，高令宁绣虎头帽，沈词从后拥抱，她侧脸躲开。",
+  "visual_prompt_negative": "温馨怀孕画面。",
+  "source_text_start": "开春之时，我有孕了。",
+  "source_text_end": "我看着他，失笑半晌，摇头：“你放心，我想开了，以后都不会恨你了。”",
+  "is_flashback": false,
+  "scene_id": "scene_017",
+  "order": 16
+}

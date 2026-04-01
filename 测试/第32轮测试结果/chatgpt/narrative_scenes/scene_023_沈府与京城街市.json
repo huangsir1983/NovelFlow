@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_023",
+  "order": 22,
+  "heading": "FLASHBACK. 沈府内外街市 - day",
+  "location": "沈府与京城街市",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "为保住这个孩子，沈词寻遍名医名药，对我处处忍让，甚至带我出门看烟火试图修补关系。",
+  "key_dialogue": "「就叫静好吧。」",
+  "emotional_peak": "在短暂温柔里，我们第一次像真正期待共同孩子的夫妻。",
+  "tension_score": 0.58,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "汤药",
+    "鱼龙灯",
+    "孩子名字"
+  ],
+  "dramatic_purpose": "在悲剧前短暂给予可能的幸福反差。",
+  "visual_reference": "街市华灯初上，孩子们举着鱼龙灯奔跑，男子牵着女子的手停在人群边，神色少见地柔和，仿佛一切还有补救余地",
+  "visual_prompt_negative": "避免过度浪漫偶像剧感，避免现代夜市，避免烟花漫天俗套",
+  "source_text_start": "事后，他整个人都瘦了一圈。为了保住这个",
+  "source_text_end": "宝马雕车的街道上，一群孩子握着鱼龙灯欢"
+}

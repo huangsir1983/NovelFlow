@@ -40,6 +40,8 @@ class ProgressiveAssetParser:
         self._array_key = None      # "characters" or "scenes"
         self._obj_start = -1
         self._depth = 0
+        self._in_str = False        # inside JSON string?
+        self._esc = False           # previous char was backslash?
 
     def feed(self, chunk: str) -> dict:
         """Feed a streaming chunk, return newly discovered assets.
@@ -78,7 +80,11 @@ class ProgressiveAssetParser:
         return result
 
     def _scan_array(self, key: str) -> list[dict]:
-        """Generic array scanner — find complete JSON objects from _scan_pos."""
+        """Generic array scanner — find complete JSON objects from _scan_pos.
+
+        Tracks string context (in_str/esc) so that { } inside JSON string
+        values do not interfere with depth counting.
+        """
         found = []
         buf = self.buffer
         pos = self._scan_pos
@@ -96,10 +102,29 @@ class ProgressiveAssetParser:
                     break
                 self._in_array = True
                 self._array_key = key
+                self._in_str = False
+                self._esc = False
                 pos = bracket_pos + 1
                 continue
 
-            # Inside array — track { } depth
+            # Track string context to ignore { } inside strings
+            if self._esc:
+                self._esc = False
+                pos += 1
+                continue
+            if ch == '\\' and self._in_str:
+                self._esc = True
+                pos += 1
+                continue
+            if ch == '"':
+                self._in_str = not self._in_str
+                pos += 1
+                continue
+            if self._in_str:
+                pos += 1
+                continue
+
+            # Outside string — track { } depth
             if ch == '{':
                 if self._depth == 0:
                     self._obj_start = pos
@@ -113,8 +138,10 @@ class ProgressiveAssetParser:
                         obj = json.loads(obj_str, strict=False)
                         found.append(obj)
                     except json.JSONDecodeError:
-                        pass
+                        logger.debug("_scan_array: JSONDecodeError for object at pos %d", self._obj_start)
                     self._obj_start = -1
+                    self._in_str = False
+                    self._esc = False
             elif ch == ']' and self._depth == 0:
                 # Array closed
                 self._in_array = False

@@ -1,0 +1,26 @@
+{
+  "heading": "陆姝仪犯病",
+  "location": "马球会休息厢房",
+  "time_of_day": "白天",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪",
+    "大夫"
+  ],
+  "core_event": "高令宁脚伤正骨后，看到沈词悉心照顾犯胃病的陆姝仪，心生厌烦欲离开。",
+  "emotional_peak": "高令宁看着沈词喂药哄陆姝仪，觉得索然无味，决定回家。",
+  "dramatic_purpose": "强化高令宁对沈词偏心的认知和心灰意冷。",
+  "key_props": [
+    "药碗",
+    "正骨工具"
+  ],
+  "visual_reference": "厢房内，两处对比：一边沈词温柔喂药，一边蒋晟愧疚扶人。",
+  "visual_prompt_negative": "温馨统一的画面。",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便好了。",
+  "source_text_end": "我收回视线，只觉得索然无味。半晌，低声道：“我们回家吧。”",
+  "is_flashback": false,
+  "scene_id": "scene_008",
+  "order": 7
+}

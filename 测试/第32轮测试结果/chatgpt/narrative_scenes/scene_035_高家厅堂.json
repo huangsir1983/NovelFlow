@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_035",
+  "order": 34,
+  "heading": "INT. 高家厅堂 - night",
+  "location": "高家厅堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟",
+    "婢女小厮"
+  ],
+  "core_event": "面对失贞指控，我试图用证人自证清白，但陆姝仪反将一军，沈词当场选择相信她。",
+  "key_dialogue": "「我不想听你说话。」",
+  "emotional_peak": "我最恨的不是被诬陷，而是他毫不犹豫地站到她那边。",
+  "tension_score": 0.98,
+  "estimated_duration_s": 130,
+  "key_props": [
+    "证人下人",
+    "桌案",
+    "衣角"
+  ],
+  "dramatic_purpose": "把前世“陆姝仪之死怪我”在今生升级重演，推动关系彻底崩裂。",
+  "visual_reference": "厅堂灯火冷亮，女子挺直脊背自辩，另一柔弱女子泪流满面，男子面色冷硬护在其旁，旁边还有昏沉未醒的蒋晟，整个空间像法庭般压迫",
+  "visual_prompt_negative": "避免公堂正式场景混入，避免歇斯底里表演过火，避免现代照明",
+  "source_text_start": "陆姝仪哭着要自尽。她跪在我面前，哽咽：",
+  "source_text_end": "「我本以为你变好了，没想到还这么让我失"
+}

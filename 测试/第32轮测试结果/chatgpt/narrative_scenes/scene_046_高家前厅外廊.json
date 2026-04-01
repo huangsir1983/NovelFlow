@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_046",
+  "order": 45,
+  "heading": "INT. 高家前厅廊下 - day",
+  "location": "高家前厅外廊",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "陆姝仪离开后，沈词站在不远处听完真相，想伸手拉我，却只抓住了我的衣角。",
+  "key_dialogue": "「他伸手想去拉我。却只捉住了我的衣角。」",
+  "emotional_peak": "真相没有换来靠近，反而让他更清楚地失去我。",
+  "tension_score": 0.81,
+  "estimated_duration_s": 55,
+  "key_props": [
+    "衣角",
+    "回廊",
+    "请帖"
+  ],
+  "dramatic_purpose": "用一个极短动作表现沈词挽回无门的状态。",
+  "visual_reference": "回廊下光影狭长，男子沉默站着，女子行礼后转身离开，他伸手迟了一步只捏住一角衣料，失落感克制而锋利",
+  "visual_prompt_negative": "避免直接拥抱和解，避免狗血拉扯，避免现代建筑",
+  "source_text_start": "几步之外，沈词沉默地注视着我, 神色苍",
+  "source_text_end": "他伸手想去拉我。却只捉住了我的衣角。"
+}

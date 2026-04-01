@@ -8,7 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
-from database import get_db
+from database import get_db, commit_with_retry
 from models.project import Project
 
 router = APIRouter(tags=["projects"])
@@ -17,6 +17,7 @@ router = APIRouter(tags=["projects"])
 # --- Schemas ---
 
 class ProjectCreate(BaseModel):
+    id: Optional[str] = None
     name: str
     description: str = ""
     import_source: str = "novel"
@@ -36,10 +37,19 @@ class ProjectResponse(BaseModel):
     import_source: str
     edition: str
     stage: str
+    adaptation_direction: Optional[str] = None
+    screen_format: Optional[str] = None
+    style_preset: Optional[str] = None
     created_at: datetime
     updated_at: datetime
 
     model_config = {"from_attributes": True}
+
+
+class ProjectConfigUpdate(BaseModel):
+    adaptation_direction: Optional[str] = None
+    screen_format: Optional[str] = None
+    style_preset: Optional[str] = None
 
 
 # --- Routes ---
@@ -47,15 +57,21 @@ class ProjectResponse(BaseModel):
 @router.post("/projects", response_model=ProjectResponse, status_code=201)
 def create_project(data: ProjectCreate, db: Session = Depends(get_db)):
     """Create a new project."""
+    project_id = data.id or str(uuid4())
+    # If client-provided ID already exists, return existing project (idempotent)
+    if data.id:
+        existing = db.query(Project).filter(Project.id == data.id).first()
+        if existing:
+            return existing
     project = Project(
-        id=str(uuid4()),
+        id=project_id,
         name=data.name,
         description=data.description,
         import_source=data.import_source,
         edition=data.edition,
     )
     db.add(project)
-    db.commit()
+    commit_with_retry(db)
     db.refresh(project)
     return project
 
@@ -89,7 +105,7 @@ def update_project(project_id: str, data: ProjectUpdate, db: Session = Depends(g
     if data.stage is not None:
         project.stage = data.stage
 
-    db.commit()
+    commit_with_retry(db)
     db.refresh(project)
     return project
 
@@ -101,5 +117,24 @@ def delete_project(project_id: str, db: Session = Depends(get_db)):
     if not project:
         raise HTTPException(status_code=404, detail="Project not found")
     db.delete(project)
-    db.commit()
+    commit_with_retry(db)
     return None
+
+
+@router.patch("/projects/{project_id}/config", response_model=ProjectResponse)
+def update_project_config(project_id: str, data: ProjectConfigUpdate, db: Session = Depends(get_db)):
+    """Update project configuration (adaptation direction, screen format, style preset)."""
+    project = db.query(Project).filter(Project.id == project_id).first()
+    if not project:
+        raise HTTPException(status_code=404, detail="Project not found")
+
+    if data.adaptation_direction is not None:
+        project.adaptation_direction = data.adaptation_direction
+    if data.screen_format is not None:
+        project.screen_format = data.screen_format
+    if data.style_preset is not None:
+        project.style_preset = data.style_preset
+
+    commit_with_retry(db)
+    db.refresh(project)
+    return project

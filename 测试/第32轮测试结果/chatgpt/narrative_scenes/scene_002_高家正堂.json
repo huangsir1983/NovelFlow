@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_002",
+  "order": 1,
+  "heading": "INT. 高家正堂 - day",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人上门提亲，聘礼较前世明显减半，我由木雁看出沈词同样重生，当堂退回聘礼抬价试探。",
+  "key_dialogue": "「聘礼太薄，我不满意。」",
+  "emotional_peak": "我公开羞辱沈家婚事，逼沈词当众表态是否退亲。",
+  "tension_score": 0.91,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "木雁",
+    "聘礼箱",
+    "金银绸缎"
+  ],
+  "dramatic_purpose": "建立重生识别机制与男女主彼此知晓对方重生后的第一轮博弈。",
+  "visual_reference": "高家正堂摆满聘礼箱与绸缎，中央木雁刺眼醒目，少女将木雁退还媒人，父亲震怒拍案，门第显赫的少年冷冷抬眼，空气像结冰般紧绷",
+  "visual_prompt_negative": "避免现代婚礼元素，避免过度华丽宫殿，避免搞笑表情，避免模糊道具",
+  "source_text_start": "媒人来提亲时，聘礼比前世少了一半。我便",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "FLASHBACK. 沈府书房外与火盆旁 - night",
+  "location": "沈府书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "陆姝仪死后，我试图用绣寝衣、鞋袜与饭菜修补关系，沈词却将我的心意统统丢入火盆。",
+  "key_dialogue": "「怎么，又想从我身上得到什么？」",
+  "emotional_peak": "我卑微示好被他彻底踩碎，夫妻关系跌入寒冰。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "绣寝衣",
+    "鞋子",
+    "火盆"
+  ],
+  "dramatic_purpose": "具象化夫妻感情不可逆的恶化。",
+  "visual_reference": "夜色中的书房，火盆里布料卷曲燃烧，女子捧着亲手做的衣物僵立，男子神色冷讽，将仅存善意付之一炬，火光照出二人苍白面容",
+  "visual_prompt_negative": "避免大火灾难感，避免现代室内设计，避免柔情滤镜",
+  "source_text_start": "可陆姝仪死了。她下午和我说完话，傍晚便",
+  "source_text_end": "他不再领情，统统丢入火盆之中，冷笑着讥"
+}

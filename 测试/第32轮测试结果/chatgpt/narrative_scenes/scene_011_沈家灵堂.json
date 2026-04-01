@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_011",
+  "order": 10,
+  "heading": "FLASHBACK. 灵堂 - night",
+  "location": "沈家灵堂",
+  "time_of_day": "night",
+  "characters_present": [
+    "沈词",
+    "我的遗体"
+  ],
+  "core_event": "我死后，沈词亲自为我净身穿寿衣，最终在棺前无声落泪，暴露出死别后的崩塌。",
+  "key_dialogue": "「若有来生，只做路人。」",
+  "emotional_peak": "生前互相诅咒，死后却只剩一人抱头痛哭。",
+  "tension_score": 0.78,
+  "estimated_duration_s": 75,
+  "key_props": [
+    "棺材",
+    "寿衣",
+    "白烛"
+  ],
+  "dramatic_purpose": "完成前世情感闭环，解释为何今生两人仍被过去紧紧绑住。",
+  "visual_reference": "白烛冷照的灵堂，棺木前一个身影弯腰抱头，形容枯槁，周围素白肃穆，男人的克制终于崩裂成无声痛哭，画面冷寂沉重",
+  "visual_prompt_negative": "避免民俗恐怖风，避免夸张哭嚎群戏，避免现代丧葬元素",
+  "source_text_start": "我咽气后，他亲自抱着我遗体，清洗干净，",
+  "source_text_end": "可谁能想到，真能重来呢？"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "EXT. 高家门前 - day",
+  "location": "高家门前台阶",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我提出嫁他可以，但必须先处理好陆姝仪；沈词辩称与她并无逾矩，只承诺孩子出生后便和离。",
+  "key_dialogue": "「成亲后，睿儿一出生，我会给你足以傍身的财产，我们便和离。」",
+  "emotional_peak": "两人就婚姻条款达成冷酷契约，四目相对只剩恨意。",
+  "tension_score": 0.89,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "婚约条件",
+    "门前石阶",
+    "袖中手指"
+  ],
+  "dramatic_purpose": "把情感婚姻改写为明确协议，奠定后续“和离约定”的法律与情绪基础。",
+  "visual_reference": "门前台阶上，两人站得很近却神色敌对，女子冷硬提出条件，男子面色沉下，衣袖下手指攥紧，像在谈一场无爱的政治婚约",
+  "visual_prompt_negative": "避免拥抱靠近，避免暖色浪漫气氛，避免喜剧感",
+  "source_text_start": "我忍下了泪花，平复心绪：「我可以嫁。」",
+  "source_text_end": "「谁纠缠谁是狗。」他抿唇，不再说话。四"
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_045",
+  "order": 44,
+  "heading": "INT. 高家前厅 - day",
+  "location": "高家前厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "陆姝仪"
+  ],
+  "core_event": "昭昭满月宴上，陆姝仪不请自来，坦白她也重生，并承认蒋晟事件是她为自保设计的陷害。",
+  "key_dialogue": "「蒋晟的事，是我设计。」",
+  "emotional_peak": "真相终于落地：前世今生的一切误会并非无源，而是她主动搅局。",
+  "tension_score": 0.94,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "满月请帖",
+    "宴席",
+    "盈盈一拜"
+  ],
+  "dramatic_purpose": "揭晓关键悬案真相，洗清女主，也重塑陆姝仪的动机。",
+  "visual_reference": "满月宴气氛被突兀打断，柔弱女子站在人群边神色灰败却平静，主角与她隔桌对视，四周喜庆色彩反衬真相揭露的冷感",
+  "visual_prompt_negative": "避免大型宴会群魔乱舞，避免现代生日宴布置，避免恶毒反派夸张表情",
+  "source_text_start": "拿到和离书后。我开始养身体，闭门不出这",
+  "source_text_end": "「我知道你厌恶我, 以后不会再出现在你"
+}

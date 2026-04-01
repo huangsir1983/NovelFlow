@@ -1,0 +1,120 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: unrealmake-alert-rules
+  namespace: monitoring
+  labels:
+    app: unrealmake
+spec:
+  groups:
+    - name: unrealmake.sse.rules
+      interval: 30s
+      rules:
+        - alert: UnrealmakeSSEDisconnectRateHigh
+          expr: |
+            (
+              increase(unrealmake_sse_disconnects_total[5m])
+              /
+              clamp_min(increase(unrealmake_sse_connections_total[5m]), 1)
+            ) > 0.20
+          for: 5m
+          labels:
+            severity: warning
+            service: unrealmake-backend
+          annotations:
+            summary: "SSE disconnect rate > 20%"
+            description: "SSE disconnect rate is above 20% for 5m. Investigate ingress/network/SSE reconnect behavior."
+
+        - alert: UnrealmakeSSEDisconnectRateCritical
+          expr: |
+            (
+              increase(unrealmake_sse_disconnects_total[5m])
+              /
+              clamp_min(increase(unrealmake_sse_connections_total[5m]), 1)
+            ) > 0.35
+          for: 3m
+          labels:
+            severity: critical
+            service: unrealmake-backend
+          annotations:
+            summary: "SSE disconnect rate > 35%"
+            description: "SSE disconnect rate is above 35% for 3m. User streaming experience is severely degraded."
+
+        - alert: UnrealmakeSSEActiveConnectionsSpike
+          expr: |
+            unrealmake_sse_active_connections
+              >
+            clamp_min(avg_over_time(unrealmake_sse_active_connections[30m]) * 3, 100)
+          for: 2m
+          labels:
+            severity: warning
+            service: unrealmake-backend
+          annotations:
+            summary: "SSE active connections abnormal spike"
+            description: "Current active SSE connections exceed 3x 30m average (with floor=100)."
+
+        - alert: UnrealmakeSSEServerErrorsGrowing
+          expr: increase(unrealmake_sse_server_errors_total[5m]) > 10
+          for: 5m
+          labels:
+            severity: warning
+            service: unrealmake-backend
+          annotations:
+            summary: "SSE server errors increasing"
+            description: "SSE server error count increased by more than 10 over 5m."
+
+    - name: unrealmake.storage.rules
+      interval: 30s
+      rules:
+        - alert: UnrealmakeStorageReadFailuresHigh
+          expr: rate(unrealmake_storage_read_failures_total[5m]) > 0.1
+          for: 5m
+          labels:
+            severity: warning
+            service: unrealmake-backend
+          annotations:
+            summary: "Storage read failures rate high"
+            description: "Storage read failure rate is above 0.1/s over 5m."
+
+        - alert: UnrealmakeStorageReadFailuresCritical
+          expr: rate(unrealmake_storage_read_failures_total[5m]) > 0.5
+          for: 3m
+          labels:
+            severity: critical
+            service: unrealmake-backend
+          annotations:
+            summary: "Storage read failures rate critical"
+            description: "Storage read failure rate is above 0.5/s over 5m."
+
+        - alert: UnrealmakeStorageHealthDown
+          expr: unrealmake_storage_health == 0
+          for: 2m
+          labels:
+            severity: critical
+            service: unrealmake-backend
+          annotations:
+            summary: "Storage health check failed"
+            description: "Storage backend health is down for more than 2 minutes."
+
+    - name: unrealmake.core.rules
+      interval: 30s
+      rules:
+        - alert: UnrealmakeBackendHealthDegraded
+          expr: unrealmake_health_status == 0
+          for: 2m
+          labels:
+            severity: warning
+            service: unrealmake-backend
+          annotations:
+            summary: "Backend health degraded"
+            description: "Backend health status is degraded for more than 2 minutes."
+
+        - alert: UnrealmakeActiveImportsSaturated
+          expr: unrealmake_active_imports > 120
+          for: 2m
+          labels:
+            severity: warning
+            service: unrealmake-backend
+          annotations:
+            summary: "Active imports above saturation threshold"
+            description: "Active imports exceeded 120 for more than 2 minutes. Consider scaling workers or throttling."

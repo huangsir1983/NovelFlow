@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_001",
+  "order": 0,
+  "heading": "INT. 沈家内室 - day",
+  "location": "沈家正房内室",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "大夫"
+  ],
+  "core_event": "重生后的婚姻进入第二年，我再度怀孕且被断定为男胎，沈词因此提出为了未来长子继续维持婚姻。",
+  "key_dialogue": "「为睿儿着想，你我便这般继续过下去吧。」",
+  "emotional_peak": "我在沉默后提出仍按约定和离，彻底否定与他再纠缠一生的可能。",
+  "tension_score": 0.86,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "诊脉药箱",
+    "孕脉诊断",
+    "绣活"
+  ],
+  "dramatic_purpose": "以闪前方式先抛出婚后核心矛盾与和离决定，建立重生婚姻的终极冲突。",
+  "visual_reference": "古代高门内室，光线冷白，一名孕妇坐在榻边，桌上有大夫药箱与脉枕，男子站在不远处神情克制疏冷，气氛压抑凝滞，构图强调夫妻之间的距离感",
+  "visual_prompt_negative": "避免现代家具，避免夸张宫廷风，避免喜庆表情，避免多人围观，避免卡通感",
+  "source_text_start": "我和沈词的长子成了一代名相。是以双双重",
+  "source_text_end": "大概是因为这次，不想再与他纠缠一生了吧。"
+}

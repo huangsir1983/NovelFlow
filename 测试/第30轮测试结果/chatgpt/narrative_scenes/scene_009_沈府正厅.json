@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_009",
+  "order": 8,
+  "heading": "FLASHBACK. 沈府正厅 - 日",
+  "location": "沈府正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "前世的我",
+    "前世的沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "我当场砸茶杯、捡起瓷片抹向自己脖颈，以近乎自毁的方式立威，逼得沈家无人再敢明着拿捏我。",
+  "key_dialogue": "「捡起瓷片，抹了脖子。」",
+  "emotional_peak": "以命反击",
+  "tension_score": 0.97,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "碎瓷片",
+    "茶杯",
+    "脖颈血痕"
+  ],
+  "dramatic_purpose": "树立女主狠绝底色，也解释沈家日后对她的忌惮",
+  "visual_reference": "大厅内碎瓷飞溅，新妇持带血瓷片抵住颈侧，血线刺目，沈母惊恐失声，陆姝仪昏倒，沈词冲上前拦抱，极端压迫感强烈",
+  "visual_prompt_negative": "避免大面积血腥恐怖，避免动作片打斗感，避免夸张表演",
+  "source_text_start": "我气红了眼。",
+  "source_text_end": "自那后，再没人敢在我面前提陆姝仪三个字。"
+}

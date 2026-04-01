@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_036",
+  "order": 35,
+  "heading": "INT. 高家厅堂 - night",
+  "location": "高家厅堂中央",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "我坚持把事情查清并要去京兆府击鼓鸣冤，沈词却以“她若再为你而死我便杀你”相逼，我反手给了他一巴掌。",
+  "key_dialogue": "「这一世姝仪若再为你而死，信不信我杀了你？」",
+  "emotional_peak": "我扇他耳光的瞬间，所有旧恨与今冤彻底炸裂。",
+  "tension_score": 1.0,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "巴掌声",
+    "拳头",
+    "门鼓威胁"
+  ],
+  "dramatic_purpose": "把二人冲突推至极致，也成为女主身体崩塌前最后一次反击。",
+  "visual_reference": "厅堂中央极近景对峙，男子逼近压迫感十足，女子眼中含怒与屈辱，下一秒耳光清脆落下，旁边女子尖叫，空气像被撕开",
+  "visual_prompt_negative": "避免武打场面，避免血腥，避免喜剧化打脸效果",
+  "source_text_start": "我站在原地，浑身发颤地看着他凉薄的面容",
+  "source_text_end": "看着我发抖的双手，陆姝仪尖叫一声：「你"
+}

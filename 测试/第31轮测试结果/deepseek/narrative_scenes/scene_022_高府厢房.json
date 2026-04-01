@@ -1,0 +1,24 @@
+{
+  "heading": "发现昏迷二人",
+  "location": "高府厢房",
+  "time_of_day": "傍晚",
+  "characters_present": [
+    "高令宁",
+    "沈词",
+    "仆人"
+  ],
+  "core_event": "傍晚发现陆姝仪未归，搜寻高府，在厢房找到昏迷且衣冠不整的陆姝仪和蒋晟。",
+  "emotional_peak": "高令宁看到现场，心里一惊，转头对上沈词冰霜般的脸。",
+  "dramatic_purpose": "危机爆发，陷害事件发生。",
+  "key_props": [
+    "厢房",
+    "床铺"
+  ],
+  "visual_reference": "厢房门被推开，室内两人昏迷不醒，衣衫凌乱，门外男女主对视。",
+  "visual_prompt_negative": "清醒状态，整齐衣着。",
+  "source_text_start": "直到傍晚，沈词脸色铁青地来到高府。",
+  "source_text_end": "和同样昏迷不醒、衣冠不整的蒋晟。心里一惊。我转头去看沈词，他也在看我。面若冰霜。",
+  "is_flashback": false,
+  "scene_id": "scene_022",
+  "order": 21
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "FLASHBACK. 沈府内室 - 夜",
+  "location": "沈府内室火盆旁",
+  "time_of_day": "night",
+  "characters_present": [
+    "前世的我",
+    "前世的沈词"
+  ],
+  "core_event": "陆姝仪死后，我尝试修补夫妻关系，亲手做衣做鞋做饭，沈词却将一切扔进火盆，以最冷酷的话彻底拒绝。",
+  "key_dialogue": "「怎么，又想从我身上得到什么？」",
+  "emotional_peak": "羞辱心死",
+  "tension_score": 0.84,
+  "estimated_duration_s": 65,
+  "key_props": [
+    "寝衣",
+    "鞋子",
+    "火盆"
+  ],
+  "dramatic_purpose": "强化男主前世的刻薄与女主绝望来源",
+  "visual_reference": "昏暗内室中火盆腾起橙红火光，针线衣物被投入燃烧，女子立在火光外脸色苍白，男人冷笑侧立，空气中充满灰烬与讥讽",
+  "visual_prompt_negative": "避免现代壁炉，避免夸张虐打，避免甜蜜居家感",
+  "source_text_start": "后来，我也曾想修补我们的关系。",
+  "source_text_end": "他不再领情，统统丢入火盆之中，冷笑着讥讽我。"
+}

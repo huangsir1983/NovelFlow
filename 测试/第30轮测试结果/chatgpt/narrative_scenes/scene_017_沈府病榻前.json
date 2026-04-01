@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_017",
+  "order": 16,
+  "heading": "FLASHBACK. 沈府病榻前 - 夜",
+  "location": "沈府病榻前",
+  "time_of_day": "night",
+  "characters_present": [
+    "前世的我",
+    "前世的沈词",
+    "沈睿"
+  ],
+  "core_event": "前世弥留之际的沈睿跪在我膝头，哀求父母彼此珍重，别再争吵折伤，成为我们今生都无法摆脱的牵绊。",
+  "key_dialogue": "「劝我们互相珍重，莫要再置气争吵。」",
+  "emotional_peak": "丧子锥心",
+  "tension_score": 0.82,
+  "estimated_duration_s": 65,
+  "key_props": [
+    "病榻",
+    "薄被",
+    "孩儿跪姿"
+  ],
+  "dramatic_purpose": "具体化长子在父母关系中的情感重量",
+  "visual_reference": "病室昏暗，少年病容憔悴跪伏在母亲膝前，父亲站在一侧强忍情绪，三人被死亡阴影笼罩，画面悲恸而克制",
+  "visual_prompt_negative": "避免成人化儿童形象，避免过度血腥，避免现代病房",
+  "source_text_start": "沈睿是我们的长子。",
+  "source_text_end": "若非英年早逝，他的前途不可限量。"
+}

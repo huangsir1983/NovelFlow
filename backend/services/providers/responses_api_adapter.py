@@ -100,21 +100,45 @@ class ResponsesAPIAdapter(ProviderAdapter):
         temperature: float = 0.7,
         max_tokens: int = 4096,
     ) -> AIResponse:
+        """Always use streaming internally and collect the full response."""
         url = f"{self.base_url}/v1/responses"
         body = {
             "model": model,
             "input": self._build_input(system=system, messages=messages),
             "max_output_tokens": max_tokens,
+            "stream": True,
         }
 
         start = time.time()
-        resp = self._client.post(url, json=body, headers=self._headers())
-        resp.raise_for_status()
-        elapsed = time.time() - start
+        parts: list[str] = []
+        usage = {}
 
-        data = resp.json()
-        content = self._extract_text(data)
-        usage = data.get("usage", {})
+        with self._client.stream("POST", url, json=body, headers=self._headers()) as resp:
+            resp.raise_for_status()
+            for line in resp.iter_lines():
+                if not line.startswith("data: "):
+                    continue
+                payload = line[6:]
+                if payload.strip() == "[DONE]":
+                    break
+                try:
+                    chunk = json.loads(payload)
+                    if chunk.get("type") == "response.output_text.delta":
+                        delta_text = chunk.get("delta", "")
+                        if delta_text:
+                            parts.append(delta_text)
+                        continue
+                    if chunk.get("type") == "response.completed":
+                        resp_obj = chunk.get("response", {})
+                        usage = resp_obj.get("usage", {})
+                    text = self._extract_text(chunk)
+                    if text:
+                        parts.append(text)
+                except json.JSONDecodeError:
+                    continue
+
+        elapsed = time.time() - start
+        content = "".join(parts)
 
         return AIResponse(
             content=content,
@@ -191,17 +215,8 @@ class ResponsesAPIAdapter(ProviderAdapter):
         except GeneratorExit:
             logger.debug(f"Stream consumer disconnected for {self.provider_name}")
         except (httpx.HTTPStatusError, httpx.StreamError, httpx.TimeoutException) as e:
-            logger.warning("Responses API streaming failed (%s), falling back to non-streaming", e)
-            # Fall back to non-streaming call
-            response = self.call(
-                model=model,
-                system=system,
-                messages=messages,
-                temperature=temperature,
-                max_tokens=max_tokens,
-            )
-            if response.content:
-                yield response.content
+            logger.warning("Responses API streaming failed: %s", e)
+            raise
 
     def health_check(self) -> bool:
         try:

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_010",
+  "order": 9,
+  "heading": "FLASHBACK. 沈府内院 - 日",
+  "location": "沈府账房与内院回廊",
+  "time_of_day": "day",
+  "characters_present": [
+    "前世的我"
+  ],
+  "core_event": "掌家后我过分争强好胜，凡事亲力亲为，拼命做出人人称赞的沈夫人，却也因劳心劳力伤及身体和孩子。",
+  "key_dialogue": "「立志要做个人人夸赞的沈夫人。」",
+  "emotional_peak": "孤勇逞强",
+  "tension_score": 0.56,
+  "estimated_duration_s": 55,
+  "key_props": [
+    "账册",
+    "钥匙串",
+    "灯盏"
+  ],
+  "dramatic_purpose": "补足女主性格与婚后悲剧的内在成因",
+  "visual_reference": "清晨到深夜的蒙太奇感画面，年轻夫人抱账册穿行回廊、查点库房、深夜烛下批看事务，身影倔强疲惫，豪门内院秩序森严",
+  "visual_prompt_negative": "避免现代办公室感，避免轻松宅斗氛围，避免华丽空洞摆拍",
+  "source_text_start": "我是恨沈词的。",
+  "source_text_end": "名声有了，可却因过分劳心，差点害死我们第一个孩子。"
+}

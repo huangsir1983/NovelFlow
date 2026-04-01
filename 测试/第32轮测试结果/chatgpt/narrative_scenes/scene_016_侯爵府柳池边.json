@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_016",
+  "order": 15,
+  "heading": "EXT. 柳池旁 - day",
+  "location": "侯爵府柳池边",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "陆姝仪",
+    "蒋晟"
+  ],
+  "core_event": "我在柳池边撞见沈词宠溺看陆姝仪，随即借崴脚让蒋晟扶我离开，双方无声较劲。",
+  "key_dialogue": "「认了义妹，还这般藕断丝连。」",
+  "emotional_peak": "视线交织时，我看见前世从未属于我的温柔，嫉恨瞬间翻涌。",
+  "tension_score": 0.87,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "风筝",
+    "柳池",
+    "扶持的手"
+  ],
+  "dramatic_purpose": "用一个视线场面具现男女主与陆姝仪之间的情感错位。",
+  "visual_reference": "柳池边春柳轻拂，粉衣女子举着风筝，青年低头含笑；另一侧女主被人扶住脚步微歪，几人的视线在空间中交叉，情绪暗流汹涌",
+  "visual_prompt_negative": "避免热闹群像遮挡主角，避免古偶甜宠感，避免卡通风筝夸张",
+  "source_text_start": "春光如泄，我站在原地，忽然怔了片刻。这",
+  "source_text_end": "有道目光一直跟在身后，如芒在背。"
+}

@@ -4,3 +4,7 @@ export * from './editors';
 export * from './panels';
 export * from './import';
 export * from './settings';
+export * from './asset-library';
+export * from './basic-info';
+export * from './shared';
+export * from './production';

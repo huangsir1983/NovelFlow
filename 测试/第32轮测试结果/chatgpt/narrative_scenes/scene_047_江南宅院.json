@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_047",
+  "order": 46,
+  "heading": "EXT. 江南宅院 - day",
+  "location": "江南宅院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭"
+  ],
+  "core_event": "我带着昭昭去了江南，一晃三年，女儿聪明明朗，我也终于过上一段真正清净的生活。",
+  "key_dialogue": "「昭昭已经能蹦能跳, 唐诗三百首倒背如流。」",
+  "emotional_peak": "离开京城纠缠后，我第一次拥有不围着痛苦运转的人生。",
+  "tension_score": 0.38,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "书信",
+    "典籍",
+    "花朵珠宝"
+  ],
+  "dramatic_purpose": "展示和离后的新生活与女儿成长成果，提供情绪缓冲。",
+  "visual_reference": "江南宅院清润安宁，小女孩在院中读诗玩花，母亲坐在廊下拆信，环境明亮松弛，终于有了远离京城是非的生活感",
+  "visual_prompt_negative": "避免北方宅院风格，避免豪华宫殿感，避免悲情压抑色调",
+  "source_text_start": "京城总有人纠缠。我索性带着昭昭去了江南",
+  "source_text_end": "每数个月，我才会回他一封。也只是让他寄"
+}

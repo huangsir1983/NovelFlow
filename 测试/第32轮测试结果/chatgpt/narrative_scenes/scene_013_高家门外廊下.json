@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_013",
+  "order": 12,
+  "heading": "EXT. 高家门旁 - day",
+  "location": "高家门外廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词堵在门旁，以未来长子沈睿相逼，要求我必须嫁他，否则等于再杀孩子一次。",
+  "key_dialogue": "「这一世若你我不成亲，便等于再杀睿儿一次。」",
+  "emotional_peak": "他精准刺中我丧子之痛，让婚事从彼此怨恨转为对子嗣的交易。",
+  "tension_score": 0.95,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "医馆药方",
+    "活雁勒痕",
+    "门槛"
+  ],
+  "dramatic_purpose": "明确二人重启婚姻的共同唯一理由——长子沈睿。",
+  "visual_reference": "高家门边日光冷亮，女子手持药方欲出门，男子守候已久眼下青黑、指尖带勒痕，二人在窄门廊对峙，空气紧绷如弓弦",
+  "visual_prompt_negative": "避免甜蜜重逢，避免多人围观，避免现代街景",
+  "source_text_start": "想起他胸口痛的老毛病，我想到医馆为他开",
+  "source_text_end": "之所以再嫁他，只是因为我想再见我的孩子"
+}

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "INT. 高家闺房 - day",
+  "location": "高家小姐卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲"
+  ],
+  "core_event": "回房后父亲质问我为何当众让沈词难堪，我坦承自己并非不嫁，而是必须以高姿态风光嫁入。",
+  "key_dialogue": "「谁说我不想嫁？我一定要嫁。」",
+  "emotional_peak": "我从沉默到冷笑再到坚定，明确这次婚事必须由他来求。",
+  "tension_score": 0.72,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "发钗",
+    "绣凳",
+    "茶盏"
+  ],
+  "dramatic_purpose": "说明女主此生婚嫁策略改变，不是逃婚，而是主动掌控婚姻入口。",
+  "visual_reference": "闺房内父亲焦躁踱步，少女坐在窗边神情沉静却眼含锋芒，案上有发钗与未收起的女红，室内静压中带着反击后的余热",
+  "visual_prompt_negative": "避免过度哭泣，避免现代卧室布置，避免温馨喜剧感",
+  "source_text_start": "回到屋内。父亲绕着我转圈，不理解极了：",
+  "source_text_end": "父亲愣住了。我低声说：「我一定要嫁。」"
+}

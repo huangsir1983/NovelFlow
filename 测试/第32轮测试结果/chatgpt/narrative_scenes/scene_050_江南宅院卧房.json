@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_050",
+  "order": 49,
+  "heading": "INT. 江南卧房 - night",
+  "location": "江南宅院卧房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "夫婿人选"
+  ],
+  "core_event": "深夜沈词借打雷爬上我的床，说想陪我，我拒绝后他仍抱着被褥睡在地上，宣称会不知廉耻地纠缠我一辈子。",
+  "key_dialogue": "「只要我还活着……我就会恬不知耻地纠缠你一辈子。」",
+  "emotional_peak": "昔日高高在上的人彻底放下体面，只求留在我身边。",
+  "tension_score": 0.92,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "被褥枕头",
+    "床榻",
+    "窗外雷声"
+  ],
+  "dramatic_purpose": "以反向追逐作结，留下两人关系未完待续的余韵。",
+  "visual_reference": "江南夜雨雷声中，卧房昏暗温冷，女子半卧床上神色厌倦，另一男子从屏风后起身替她掖被，而沈词抱着被褥站在地上，狼狈又执拗，最终蜷在床边地面，手小心碰住她腕间",
+  "visual_prompt_negative": "避免三人同床低俗化，避免现代卧室，避免霸道强迫亲密镜头",
+  "source_text_start": "深夜。有人爬上了我的床。看清他的脸后，",
+  "source_text_end": "「只要我还活着……」「我就会恬不知耻地"
+}

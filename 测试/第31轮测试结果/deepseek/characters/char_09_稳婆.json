@@ -1,0 +1,44 @@
+{
+  "name": "稳婆",
+  "aliases": [],
+  "role": "minor",
+  "age_range": "40-60岁",
+  "appearance": {
+    "face": "面容朴实，带着焦急与担忧的神情，额头可能有汗。",
+    "body": "中等身材，手脚利落。",
+    "hair": "头发简单束起，可能有些凌乱。",
+    "distinguishing_features": "焦急、专业的接生婆形象。"
+  },
+  "costume": {
+    "typical_outfit": "便于活动的深色衣裙，袖子可能挽起。",
+    "color_palette": [
+      "深蓝色",
+      "灰色"
+    ]
+  },
+  "casting_tags": [
+    "接生婆",
+    "焦急"
+  ],
+  "visual_reference": "一位面容焦急的中年妇人，衣袖挽起，正转头急切地向身后的男子询问，背景是昏暗的产房，氛围紧张。",
+  "visual_prompt_negative": "悠闲、华丽、表情冷漠",
+  "personality": "专业，焦急，遵循当时社会规范（听丈夫意见决定保大保小）。",
+  "desire": "顺利接生，保住母子平安。",
+  "flaw": "无深度刻画。",
+  "arc": "功能性配角，无弧线。",
+  "scene_presence": "仅在高令宁早产难产场景中短暂出场，询问沈词“保大保小”。",
+  "relationships": [
+    {
+      "target": "沈词",
+      "type": "询问对象",
+      "dynamic": "焦急询问。在危急关头向沈词寻求决定。",
+      "function": "制造生死关头的紧张感，引出沈词“要她活着”的关键选择，揭示其内心真实情感。"
+    },
+    {
+      "target": "高令宁",
+      "type": "救助对象",
+      "dynamic": "专业救助。尽力为高令宁接生。",
+      "function": "推动关键剧情，制造悬念。"
+    }
+  ]
+}

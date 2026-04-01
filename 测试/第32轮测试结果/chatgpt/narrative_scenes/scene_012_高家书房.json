@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_012",
+  "order": 11,
+  "heading": "INT. 高家书房 - night",
+  "location": "高家书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "父亲"
+  ],
+  "core_event": "父亲因担心我嫁入沈家受委屈改变主意，我则逼父亲写下辞官奏折，从根源改写高家覆灭命运。",
+  "key_dialogue": "「别再掺合朝堂的浑水了，否则稍有不慎，便是抄家灭门之灾。」",
+  "emotional_peak": "我不再只谋婚事，而是率先切断前世家破人亡的祸根。",
+  "tension_score": 0.77,
+  "estimated_duration_s": 95,
+  "key_props": [
+    "辞官奏折",
+    "毛笔",
+    "官印"
+  ],
+  "dramatic_purpose": "女主主动改命，建立她重生后的真正目标之一：保住高家。",
+  "visual_reference": "深夜书房烛火跳动，父亲提笔写辞官奏折，女儿在一旁紧盯纸面，神色冷静决绝，案上官印与公文象征命运转向",
+  "visual_prompt_negative": "避免朝堂大殿场面，避免现代书桌，避免温馨团圆感",
+  "source_text_start": "父亲不放心让我嫁入沈家。一夜未睡后，他",
+  "source_text_end": "盯着父亲写完辞官的奏折。我松了口气，浑"
+}

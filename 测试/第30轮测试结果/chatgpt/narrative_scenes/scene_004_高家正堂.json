@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "INT. 高家正堂 - 日",
+  "location": "高家正堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "我当众退回木雁，直言聘礼太薄不肯受下，逼沈词在众人面前失了体面，也借此确认他的反应。",
+  "key_dialogue": "「聘礼太薄，我不满意。」",
+  "emotional_peak": "公开发难",
+  "tension_score": 0.9,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "木雁",
+    "聘礼单",
+    "堂案"
+  ],
+  "dramatic_purpose": "女主主动夺回议价权，首轮正面压制男主",
+  "visual_reference": "正堂中央，少女将木雁推回媒人手中，父亲震怒拍案，媒人失色，沈词骤然抬眼，视线如冰，场面凝固，古典高压构图",
+  "visual_prompt_negative": "避免打闹喜剧感，避免夸张武打动作，避免现代室内陈设",
+  "source_text_start": "直到，我将木雁还给媒人。",
+  "source_text_end": "他侧头看我，满眼讥诮冷薄，是我再熟悉不过的眼神。"
+}

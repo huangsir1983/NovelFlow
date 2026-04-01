@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_021",
+  "order": 20,
+  "heading": "FLASHBACK. 沈府正房 - night",
+  "location": "沈府正房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "沈词误以为我把那婢女卖入窑子，盛怒之下掐我脖子并骂我毒妇，夫妻彻底撕破脸。",
+  "key_dialogue": "「若非看你为我生下了睿儿，我定要休了你，绝不让你这种毒妇祸害我沈家。」",
+  "emotional_peak": "他以最恶毒的词给我定罪，恨意滔天。",
+  "tension_score": 0.97,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "脖颈勒痕",
+    "合上的房门",
+    "生辰画"
+  ],
+  "dramatic_purpose": "把前世误解与仇恨推向身体暴力。",
+  "visual_reference": "正房房门紧闭，男子铁青着脸掐住女子脖颈，额角青筋暴起，女子被迫仰头却仍冷冷回望，画面充满窒息感",
+  "visual_prompt_negative": "避免血腥暴力夸张化，避免现代家庭暴力场景布置，避免色情化",
+  "source_text_start": "沈词回府时，那姑娘已不见了人影。他合上",
+  "source_text_end": "他冷沉着脸，眸光里是滔天的恨意：「谁知"
+}

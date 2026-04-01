@@ -17,8 +17,8 @@ logger = logging.getLogger(__name__)
 DEFAULT_PROVIDERS = [
     {
         "name": "OpenClaudeCode",
-        "provider_type": "openai_compat",
-        "base_url": "https://yunwu.ai",
+        "provider_type": "responses_api",
+        "base_url": "https://www.openclaudecode.cn",
         "api_key": "sk-S2HdTVByFCfJcZ3oM3BUBQio0CGtty7xA2aTHdCP9occt50e",
         "models": [
             {
@@ -32,7 +32,7 @@ DEFAULT_PROVIDERS = [
         ],
         "is_default": False,
         "enabled": True,
-        "priority": 5,
+        "priority": 1,
     },
     {
         "name": "XuhuanAI-GPT",
@@ -112,13 +112,13 @@ DEFAULT_PROVIDERS = [
     },
     {
         "name": "NanoBanana-Image",
-        "provider_type": "nanobanana",
-        "base_url": "https://yhflow.xuhuanai.cn",
-        "api_key": "gaiohtldtbnfakhtljkhg",
+        "provider_type": "gemini",
+        "base_url": "https://yunwu.ai",
+        "api_key": "sk-P3oE4OgQYSE6DXuV0BvnfnnCmscwFGE3PKrb31jAYwfhZnUU",
         "models": [
             {
-                "model_id": "gemini-3.1-flash-image",
-                "display_name": "Gemini 3.1 Flash Image (NanoBanana)",
+                "model_id": "gemini-3.1-flash-image-preview",
+                "display_name": "Gemini 3.1 Flash Image (YunwuAI)",
                 "model_type": "image",
                 "capability_tier": "standard",
                 "max_tokens": 0,
@@ -133,11 +133,22 @@ DEFAULT_PROVIDERS = [
 
 
 def seed_providers(db: Session) -> None:
-    """Insert pre-configured providers that do not already exist."""
+    """Insert pre-configured providers that do not already exist.
+    If a provider already exists, sync its fields to match the config."""
     for cfg in DEFAULT_PROVIDERS:
         exists = db.query(AIProvider).filter(AIProvider.name == cfg["name"]).first()
         if exists:
-            logger.debug("Provider '%s' already exists, skipping seed.", cfg["name"])
+            # Sync fields in case config changed
+            changed = False
+            # Do NOT sync "enabled" and "priority" — respect user overrides
+            for field in ("provider_type", "base_url", "api_key", "models", "is_default"):
+                if getattr(exists, field) != cfg[field]:
+                    setattr(exists, field, cfg[field])
+                    changed = True
+            if changed:
+                logger.info("Updated AI provider: %s", cfg["name"])
+            else:
+                logger.debug("Provider '%s' already up-to-date, skipping.", cfg["name"])
             continue
 
         provider = AIProvider(

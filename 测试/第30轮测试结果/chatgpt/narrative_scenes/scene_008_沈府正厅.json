@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "FLASHBACK. 沈府新房次日 - 日",
+  "location": "沈府正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "前世的我",
+    "前世的沈词",
+    "沈母",
+    "陆姝仪"
+  ],
+  "core_event": "前世我刚嫁入沈家第二日，便被迫面对陆姝仪给我敬茶、将做平妻的羞辱，骤然看清沈家娶我的真正目的。",
+  "key_dialogue": "「能容这位表小姐做平妻。」",
+  "emotional_peak": "新婚幻灭",
+  "tension_score": 0.88,
+  "estimated_duration_s": 80,
+  "key_props": [
+    "茶杯",
+    "敬茶托盘",
+    "新妇头饰"
+  ],
+  "dramatic_purpose": "揭示前世婚姻骗局的起点",
+  "visual_reference": "新婚后的沈府正厅仍残留喜色，年轻新妇穿华服却面色惨白，柔弱表小姐端茶跪地，沈母高坐施压，场面礼法森严而恶毒",
+  "visual_prompt_negative": "避免现代家庭伦理布景，避免夸张宫斗妆容，避免过多宾客",
+  "source_text_start": "上一世。",
+  "source_text_end": "看着地上那道柔弱又倔强的身影。"
+}

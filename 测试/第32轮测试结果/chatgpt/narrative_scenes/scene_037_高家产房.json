@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_037",
+  "order": 36,
+  "heading": "INT. 高家产房 - night",
+  "location": "高家产房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲",
+    "稳婆",
+    "太医"
+  ],
+  "core_event": "我受刺激早产难产，稳婆逼沈词在保大保小间做选择，沉默窒息中我以为他会选孩子。",
+  "key_dialogue": "「保大保小，还得等您拿主意啊。」",
+  "emotional_peak": "我的生死被交到最恨的人手里，屈辱与绝望达到顶点。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "床单",
+    "稳婆",
+    "太医药箱"
+  ],
+  "dramatic_purpose": "让婚姻契约和前世阴影在生死关头集中爆发。",
+  "visual_reference": "产房混乱压抑，稳婆与太医忙乱，女子满头冷汗抓紧床单，男子站在床边面无血色却迟迟不开口，生死抉择沉沉压下",
+  "visual_prompt_negative": "避免血腥特写，避免现代产房设备，避免恐怖惊悚化",
+  "source_text_start": "眼前一花。我踉跄几步，腹中剧痛。记忆的",
+  "source_text_end": "我缓缓闭上眼睛。耳旁仿佛有人低声呢喃："
+}

@@ -1,8 +1,9 @@
 """Video generation API — Grok-based AI video generation."""
 
-import base64
 import logging
+from uuid import uuid4
 
+import httpx
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
@@ -12,6 +13,44 @@ from database import get_db
 logger = logging.getLogger(__name__)
 
 router = APIRouter(tags=["video"])
+
+
+def _acquire_video_quota(project_id: str = "global"):
+    from fastapi import HTTPException
+    from services.task_quota import acquire_quota
+
+    ok, info, lease = acquire_quota("video", tenant_id="default", project_id=project_id)
+    if not ok:
+        raise HTTPException(status_code=429, detail={"code": "quota_exceeded", **info})
+    return lease
+
+
+def _archive_video_to_storage(video_url: str) -> tuple[str | None, str | None, str | None]:
+    """Best-effort archive provider video URL to configured storage."""
+    if not video_url:
+        return None, None, None
+
+    try:
+        with httpx.Client(timeout=120) as client:
+            resp = client.get(video_url)
+            resp.raise_for_status()
+            data = resp.content
+            content_type = resp.headers.get("content-type", "video/mp4")
+
+        from services.storage_adapter import get_storage
+
+        storage = get_storage()
+        ext = (content_type.split("/")[-1] or "mp4").split(";")[0]
+        object_key = f"assets/videos/{uuid4()}.{ext}"
+        stored = storage.put_bytes(
+            object_key=object_key,
+            data=data,
+            content_type=content_type,
+        )
+        return stored.provider, stored.object_key, stored.uri
+    except Exception as e:
+        logger.warning("Failed to archive video to storage: %s", e)
+        return None, None, None
 
 
 # --- Schemas ---
@@ -29,6 +68,9 @@ class VideoGenerateResponse(BaseModel):
     task_id: str
     elapsed: float
     provider: str
+    storage_provider: str | None = None
+    storage_key: str | None = None
+    storage_uri: str | None = None
 
 
 class VideoTaskStatusResponse(BaseModel):
@@ -57,7 +99,9 @@ def generate_video_from_text(
         raise HTTPException(status_code=400, detail="aspect_ratio must be '16:9' or '9:16'")
 
     from services.ai_engine import ai_engine
+    from services.task_quota import release_quota
 
+    lease = _acquire_video_quota()
     try:
         result = ai_engine.generate_video(
             prompt=data.prompt,
@@ -68,6 +112,10 @@ def generate_video_from_text(
         )
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))
+    finally:
+        release_quota(lease)
+
+    storage_provider, storage_key, storage_uri = _archive_video_to_storage(result["video_url"])
 
     return VideoGenerateResponse(
         video_url=result["video_url"],
@@ -75,6 +123,9 @@ def generate_video_from_text(
         task_id=result["task_id"],
         elapsed=result["elapsed"],
         provider=result["provider"],
+        storage_provider=storage_provider,
+        storage_key=storage_key,
+        storage_uri=storage_uri,
     )
 
 
@@ -107,7 +158,9 @@ def generate_video_with_reference(
     ref_mime = reference.content_type or "image/jpeg"
 
     from services.ai_engine import ai_engine
+    from services.task_quota import release_quota
 
+    lease = _acquire_video_quota()
     try:
         result = ai_engine.generate_video(
             prompt=prompt,
@@ -120,6 +173,10 @@ def generate_video_with_reference(
         )
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e))
+    finally:
+        release_quota(lease)
+
+    storage_provider, storage_key, storage_uri = _archive_video_to_storage(result["video_url"])
 
     return VideoGenerateResponse(
         video_url=result["video_url"],
@@ -127,6 +184,9 @@ def generate_video_with_reference(
         task_id=result["task_id"],
         elapsed=result["elapsed"],
         provider=result["provider"],
+        storage_provider=storage_provider,
+        storage_key=storage_key,
+        storage_uri=storage_uri,
     )
 
 
@@ -147,12 +207,16 @@ def generate_video_async(
 
     from services.ai_engine import ai_engine
     from services.providers.grok_video_adapter import GrokVideoAdapter
+    from services.task_quota import release_quota
+
+    lease = _acquire_video_quota()
 
     # Resolve video routes
     routes = ai_engine._resolve_routes("standard", db=db, model_type="video")
     routes = [(a, m) for a, m in routes if isinstance(a, GrokVideoAdapter)]
 
     if not routes:
+        release_quota(lease)
         raise HTTPException(
             status_code=503,
             detail="No video-capable AI provider configured.",
@@ -171,8 +235,10 @@ def generate_video_async(
             size=data.size,
         )
     except Exception as e:
+        release_quota(lease)
         raise HTTPException(status_code=503, detail=str(e))
 
+    release_quota(lease)
     return {"task_id": task_id, "status": "queued", "provider": adapter.provider_name}
 
 

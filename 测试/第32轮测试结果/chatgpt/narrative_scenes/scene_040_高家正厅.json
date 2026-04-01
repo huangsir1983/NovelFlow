@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_040",
+  "order": 39,
+  "heading": "INT. 高家正厅 - day",
+  "location": "高家正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "沈母"
+  ],
+  "core_event": "女儿昭昭出生后，沈母上门想接走孩子，父亲强硬拒绝并以官途威胁，明确孩子归高家。",
+  "key_dialogue": "「两个孩子和离后，昭昭归高家。」",
+  "emotional_peak": "父亲第一次公开向沈家亮出底线，为我与女儿撑起完整后路。",
+  "tension_score": 0.88,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "婴儿襁褓",
+    "和离立场",
+    "高家门第"
+  ],
+  "dramatic_purpose": "巩固女主离开沈家的现实条件，切断婆家控制。",
+  "visual_reference": "高家正厅中父亲端坐如山，沈母强颜赔笑，关于孩子去留的交锋冷而锋利，门外隐约可闻婴儿动静，形成保护与争夺的对照",
+  "visual_prompt_negative": "避免婆媳撕扯，避免宫廷太后感，避免现代客厅",
+  "source_text_start": "我给女儿取名为昭昭。只希望她阳光开朗，",
+  "source_text_end": "毕竟于她而言，昭昭是个女孩，无需传宗接"
+}

@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_003",
+  "order": 2,
+  "heading": "FLASHBACK. 京郊原野 - 夜",
+  "location": "京郊猎雁处",
+  "time_of_day": "night",
+  "characters_present": [
+    "前世的沈词"
+  ],
+  "core_event": "前世订亲时，沈词为显郑重，亲自守在京郊整夜射得活雁作为聘礼，制造出珍视结发妻子的盛名与假象。",
+  "key_dialogue": "「亲自射了只活大雁。」",
+  "emotional_peak": "美梦错认",
+  "tension_score": 0.42,
+  "estimated_duration_s": 45,
+  "key_props": [
+    "活雁",
+    "长弓",
+    "夜色旷野"
+  ],
+  "dramatic_purpose": "对照今生木雁，凸显前世伪装深情与今生冷淡现实",
+  "visual_reference": "京郊寒夜，年轻文臣披风立于荒野，拉弓瞄准天际大雁，月色冷白，远处草木摇动，画面孤高肃杀，具有命运感",
+  "visual_prompt_negative": "避免白天狩猎，避免多人围猎，避免现代弓箭装备，避免浪漫滤镜过重",
+  "source_text_start": "上一世，沈家聘我，用的是只活雁。",
+  "source_text_end": "那时，人人夸我有福气，觅得如此重视结发妻子的郎君。"
+}

@@ -1,5 +1,6 @@
 """Knowledge base, Characters, Locations CRUD API + Story Bible aggregation."""
 
+import json
 from datetime import datetime
 from typing import Optional
 from uuid import uuid4
@@ -14,6 +15,9 @@ from models.character import Character
 from models.location import Location
 from models.project import Project
 from models.beat import Beat
+from models.import_task import ImportTask
+from models.prop import Prop
+from models.character_variant import CharacterVariant
 
 router = APIRouter(tags=["knowledge"])
 
@@ -91,6 +95,7 @@ class CharacterResponse(BaseModel):
     visual_prompt_negative: str = ""
     desire: str
     flaw: str
+    scene_presence: str = ""
     created_at: datetime
     updated_at: datetime
     model_config = {"from_attributes": True}
@@ -125,8 +130,18 @@ class LocationResponse(BaseModel):
     mood: str
     sensory: str
     narrative_function: str
+    type: str = ""
+    era_style: str = ""
     visual_reference: str = ""
     visual_prompt_negative: str = ""
+    atmosphere: str = ""
+    color_palette: list = []
+    lighting: str = ""
+    key_features: list = []
+    narrative_scene_ids: list = []
+    scene_count: int = 0
+    time_variations: list = []
+    emotional_range: str = ""
     created_at: datetime
     updated_at: datetime
     model_config = {"from_attributes": True}
@@ -286,11 +301,56 @@ def delete_location(project_id: str, location_id: str, db: Session = Depends(get
     return None
 
 
+@router.delete("/projects/{project_id}/props/{prop_id}", status_code=204)
+def delete_prop(project_id: str, prop_id: str, db: Session = Depends(get_db)):
+    prop = db.query(Prop).filter(Prop.id == prop_id, Prop.project_id == project_id).first()
+    if not prop:
+        raise HTTPException(status_code=404, detail="Prop not found")
+    db.delete(prop)
+    db.commit()
+    return None
+
+
+@router.delete("/projects/{project_id}/variants/{variant_id}", status_code=204)
+def delete_variant(project_id: str, variant_id: str, db: Session = Depends(get_db)):
+    variant = db.query(CharacterVariant).filter(CharacterVariant.id == variant_id, CharacterVariant.project_id == project_id).first()
+    if not variant:
+        raise HTTPException(status_code=404, detail="Variant not found")
+    db.delete(variant)
+    db.commit()
+    return None
+
+
 # ── Story Bible Aggregation ─────────────────────────────────────
+
+class StoryBibleUpdateRequest(BaseModel):
+    overrides: dict = {}
+
+
+def _get_merged_story_bible(import_task, overrides: dict | None = None) -> dict:
+    """Merge novel_analysis_json.structured with story_bible_overrides."""
+    if not import_task or not import_task.novel_analysis_json:
+        return {}
+    analysis = import_task.novel_analysis_json
+    structured = dict(analysis.get("structured", analysis))
+    report = analysis.get("report", {})
+    # Apply stored overrides
+    stored_overrides = import_task.story_bible_overrides or {}
+    for k, v in stored_overrides.items():
+        structured[k] = v
+    # Apply request overrides on top
+    if overrides:
+        for k, v in overrides.items():
+            structured[k] = v
+    return {
+        "structured": structured,
+        "report": report,
+    }
+
 
 @router.get("/projects/{project_id}/story-bible")
 def get_story_bible(project_id: str, db: Session = Depends(get_db)):
-    """Aggregated Story Bible view: characters + locations + world_building + style_guide + key beats + stats."""
+    """Aggregated Story Bible view: characters + locations + world_building + style_guide + key beats + stats + novel analysis."""
     project = db.query(Project).filter(Project.id == project_id).first()
     if not project:
         raise HTTPException(status_code=404, detail="Project not found")
@@ -302,6 +362,15 @@ def get_story_bible(project_id: str, db: Session = Depends(get_db)):
     kb = db.query(KnowledgeBase).filter(KnowledgeBase.project_id == project_id).first()
     world_building = kb.world_building if kb else {}
     style_guide = kb.style_guide if kb else {}
+
+    # Load import task for novel_analysis_json
+    import_task = (
+        db.query(ImportTask)
+        .filter(ImportTask.project_id == project_id)
+        .order_by(ImportTask.created_at.desc())
+        .first()
+    )
+    merged = _get_merged_story_bible(import_task)
 
     # Key beats: high emotional impact or hook potential
     key_beats = [
@@ -345,6 +414,8 @@ def get_story_bible(project_id: str, db: Session = Depends(get_db)):
         "world_building": world_building,
         "style_guide": style_guide,
         "key_beats": key_beats,
+        "novel_analysis": merged.get("structured", {}),
+        "novel_analysis_report": merged.get("report", {}),
         "stats": {
             "character_count": len(characters),
             "location_count": len(locations),
@@ -352,4 +423,37 @@ def get_story_bible(project_id: str, db: Session = Depends(get_db)):
             "protagonist_count": sum(1 for c in characters if c.role == "protagonist"),
             "antagonist_count": sum(1 for c in characters if c.role == "antagonist"),
         },
+    }
+
+
+@router.put("/projects/{project_id}/story-bible")
+def update_story_bible(project_id: str, data: StoryBibleUpdateRequest, db: Session = Depends(get_db)):
+    """Update Story Bible overrides — merges into import_task.story_bible_overrides."""
+    project = db.query(Project).filter(Project.id == project_id).first()
+    if not project:
+        raise HTTPException(status_code=404, detail="Project not found")
+
+    import_task = (
+        db.query(ImportTask)
+        .filter(ImportTask.project_id == project_id)
+        .order_by(ImportTask.created_at.desc())
+        .first()
+    )
+    if not import_task:
+        raise HTTPException(status_code=404, detail="No import task found for project")
+
+    # Merge new overrides with existing
+    existing = import_task.story_bible_overrides or {}
+    existing.update(data.overrides)
+    import_task.story_bible_overrides = existing
+    db.commit()
+    db.refresh(import_task)
+
+    # Return merged story bible
+    merged = _get_merged_story_bible(import_task)
+    return {
+        "status": "ok",
+        "overrides": import_task.story_bible_overrides,
+        "novel_analysis": merged.get("structured", {}),
+        "novel_analysis_report": merged.get("report", {}),
     }

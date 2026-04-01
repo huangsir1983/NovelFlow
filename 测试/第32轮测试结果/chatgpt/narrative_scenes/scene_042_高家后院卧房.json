@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_042",
+  "order": 41,
+  "heading": "INT. 高家后院卧房 - day",
+  "location": "高家后院卧房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "昭昭"
+  ],
+  "core_event": "沈词强闯后院质问我为何真要和离，我平静重申我们按约定结束婚姻。",
+  "key_dialogue": "「按照我们约定好的，和离。」",
+  "emotional_peak": "我把婚姻定义为互相折磨的同处，彻底取消未来幻想。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "和离书",
+    "婴儿",
+    "雕花木门"
+  ],
+  "dramatic_purpose": "让女主亲口宣判这段关系结束。",
+  "visual_reference": "卧房门被猛地推开，女子抱着婴儿坐在床边，男子衣衫略乱拿着和离书闯入，神情愤怒又惊惶，室内安静与入侵形成强烈对比",
+  "visual_prompt_negative": "避免家庭狗血争吵过火，避免现代婴儿用品，避免夸张摔门特效",
+  "source_text_start": "下一秒，所有人都震惊地直起腰，看着素来",
+  "source_text_end": "「我们性情不合，强行活在一处，只会互相"
+}

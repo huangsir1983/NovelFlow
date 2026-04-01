@@ -1,0 +1,26 @@
+{
+  "heading": "替身风波（闪回）",
+  "location": "沈府（前世）",
+  "time_of_day": "白天",
+  "characters_present": [
+    "高令宁（前世）",
+    "沈词（前世）",
+    "年幼婢女（替身）",
+    "沈睿（前世）"
+  ],
+  "core_event": "回忆陆姝仪死后十年，沈词身边出现酷似她的婢女，高令宁将婢女送走，引发夫妻激烈冲突。",
+  "emotional_peak": "沈词掐住高令宁脖子威胁，高令宁反击说“陆姝仪就是被你克死的”，沈词推倒她导致流产。",
+  "dramatic_purpose": "展现前世矛盾巅峰，以及流产悲剧的直接原因。",
+  "key_props": [
+    "画",
+    "身契",
+    "药碗"
+  ],
+  "visual_reference": "房间内激烈争吵、掐脖子、推倒在地、病榻喝药、死婴。",
+  "visual_prompt_negative": "和谐画面，孩子存活。",
+  "source_text_start": "是很可笑。陆姝仪死的第十年。",
+  "source_text_end": "彼此眼中都生了要将对方杀死般的仇恨。",
+  "is_flashback": true,
+  "scene_id": "scene_011",
+  "order": 10
+}

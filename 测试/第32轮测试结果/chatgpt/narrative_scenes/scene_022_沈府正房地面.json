@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_022",
+  "order": 21,
+  "heading": "FLASHBACK. 沈府正房 - night",
+  "location": "沈府正房地面",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "我以刻薄言语反击，沈词盛怒将我推倒在地，导致我三个月身孕伤了胎气。",
+  "key_dialogue": "「我看陆姝仪就是被你克死的……」",
+  "emotional_peak": "一句诛心话换来一推，直接改变了腹中孩子的命运。",
+  "tension_score": 0.99,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "跌落的身子",
+    "染褶的裙摆",
+    "门槛"
+  ],
+  "dramatic_purpose": "将言语仇杀转化为不可逆的身体后果。",
+  "visual_reference": "室内空气像凝固一般，女子冷笑着说出诛心之语，下一秒被猛然推倒，裙摆散在冰冷地面，双方都被自己的恶意逼入绝境",
+  "visual_prompt_negative": "避免夸张飞摔，避免漫画式动作，避免旁观者过多",
+  "source_text_start": "沉默几秒。我冷然一笑：「沈词，你真不要",
+  "source_text_end": "他不知道。彼时我已经有了三个月的身孕。"
+}

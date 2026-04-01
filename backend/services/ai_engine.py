@@ -136,6 +136,20 @@ class AIEngine:
                             adapter = self._get_or_create_adapter(provider)
                             if adapter:
                                 routes.append((adapter, m["model_id"]))
+                # Fallback: if no exact tier match, use any text provider
+                if not routes and model_type == "text":
+                    for provider in providers:
+                        models_config = provider.models or []
+                        for m in models_config:
+                            m_type = m.get("model_type", "text")
+                            if m_type != model_type:
+                                continue
+                            adapter = self._get_or_create_adapter(provider)
+                            if adapter:
+                                routes.append((adapter, m["model_id"]))
+                                break
+                        if routes:
+                            break
             except Exception as e:
                 logger.warning(f"Failed to query DB providers: {e}")
 
@@ -477,28 +491,48 @@ class AIEngine:
                 "Add a provider with an image model (model_type='image') in Settings."
             )
 
+        import httpx
+
+        max_retries = 3
         last_error = None
         for adapter, model_id in routes:
-            try:
-                resp = adapter.generate_image(
-                    model=model_id,
-                    prompt=prompt,
-                    reference_image=reference_image,
-                    reference_mime=reference_mime,
-                    aspect_ratio=aspect_ratio,
-                    image_size=image_size,
-                )
-                return {
-                    "image_data": resp.image_data,
-                    "mime_type": resp.mime_type,
-                    "model": resp.model,
-                    "elapsed": resp.elapsed,
-                    "provider": resp.provider_name,
-                }
-            except Exception as e:
-                logger.warning(f"Image generation failed ({adapter.provider_name}/{model_id}): {e}")
-                last_error = e
-                continue
+            for attempt in range(max_retries):
+                try:
+                    resp = adapter.generate_image(
+                        model=model_id,
+                        prompt=prompt,
+                        reference_image=reference_image,
+                        reference_mime=reference_mime,
+                        aspect_ratio=aspect_ratio,
+                        image_size=image_size,
+                    )
+                    return {
+                        "image_data": resp.image_data,
+                        "mime_type": resp.mime_type,
+                        "model": resp.model,
+                        "elapsed": resp.elapsed,
+                        "provider": resp.provider_name,
+                    }
+                except httpx.HTTPStatusError as e:
+                    status = e.response.status_code
+                    if status in (429, 500, 503) and attempt < max_retries - 1:
+                        wait = 2 ** attempt * 2
+                        if status == 429:
+                            wait = min(float(e.response.headers.get("retry-after", str(wait))), 60.0)
+                        logger.warning(
+                            f"Image gen {status} from {adapter.provider_name}/{model_id}, "
+                            f"retry in {wait}s (attempt {attempt+1}/{max_retries})"
+                        )
+                        time.sleep(wait)
+                        last_error = e
+                        continue
+                    logger.warning(f"Image generation failed ({adapter.provider_name}/{model_id}): {e}")
+                    last_error = e
+                    break
+                except Exception as e:
+                    logger.warning(f"Image generation failed ({adapter.provider_name}/{model_id}): {e}")
+                    last_error = e
+                    break
 
         raise RuntimeError(f"All image providers failed. Last error: {last_error}")
 

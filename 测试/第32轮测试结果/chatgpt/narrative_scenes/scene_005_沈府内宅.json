@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_005",
+  "order": 4,
+  "heading": "FLASHBACK. 沈府后宅与各处 - day",
+  "location": "沈府内宅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈母",
+    "下人"
+  ],
+  "core_event": "前世立威后沈母被吓病，管家权落到我手中，我以争强好胜的姿态开始全面掌控沈府。",
+  "key_dialogue": "「没有人可以拿捏我。」",
+  "emotional_peak": "我把危机逆转成权力掌控，决意做让沈家挑不出错的当家主母。",
+  "tension_score": 0.68,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "账册",
+    "库房钥匙",
+    "管家牌"
+  ],
+  "dramatic_purpose": "从受辱切到权力反制，展现女主性格与婚后生存方式。",
+  "visual_reference": "沈府回廊与账房交叉蒙太奇，年轻主母手持账册与钥匙，清晨已起、夜里未眠，下人垂首听令，权力与疲惫同时压在她肩头",
+  "visual_prompt_negative": "避免宫斗夸张人海，避免现代办公室感，避免轻佻妆容",
+  "source_text_start": "沈母被吓病后，管家权落到了我手中。那时",
+  "source_text_end": "我操持全府，事事都要亲自过问，天不亮便"
+}

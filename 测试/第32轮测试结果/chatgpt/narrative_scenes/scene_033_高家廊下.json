@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_033",
+  "order": 32,
+  "heading": "INT/EXT. 高家廊下 - day",
+  "location": "高家廊下",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈词",
+    "父亲"
+  ],
+  "core_event": "我借养胎回娘家，沈词每日来高家照料献殷勤，父亲逐渐误以为我们感情已变好。",
+  "key_dialogue": "「姑爷看起来，是把你捧在心尖上的。」",
+  "emotional_peak": "父亲松动劝我维持婚姻，而我清楚他在意的只是腹中沈家未来。",
+  "tension_score": 0.62,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "葡萄",
+    "补品",
+    "廊下躺椅"
+  ],
+  "dramatic_purpose": "制造表面和缓假象，为后续高家风暴形成反差。",
+  "visual_reference": "高家廊下风轻，女子倚着坐榻昏昏欲睡，男子低头细致剥葡萄，父亲远远望着神色稍安，画面有家庭平静假象却埋着裂缝",
+  "visual_prompt_negative": "避免真情侣甜蜜感，避免现代别墅庭院，避免群戏喧闹",
+  "source_text_start": "伯爵娘子又登门了。沈词再不行动，陆姝仪",
+  "source_text_end": "我沉默。直到午饭过后，小厮来报。"
+}

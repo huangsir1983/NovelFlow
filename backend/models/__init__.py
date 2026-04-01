@@ -14,6 +14,8 @@ from models.ai_call_log import AICallLog
 from models.prop import Prop
 from models.character_variant import CharacterVariant
 from models.style_template import StyleTemplate
+from models.asset_image import AssetImage
+from models.canvas_workflow import CanvasWorkflow, CanvasNodeExecution
 
 __all__ = [
     "Base",
@@ -33,4 +35,7 @@ __all__ = [
     "Prop",
     "CharacterVariant",
     "StyleTemplate",
+    "AssetImage",
+    "CanvasWorkflow",
+    "CanvasNodeExecution",
 ]

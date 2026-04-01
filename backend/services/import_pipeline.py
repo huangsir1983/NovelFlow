@@ -78,20 +78,84 @@ class ImportPipeline:
     _active_pipelines: list["ImportPipeline"] = []
     _active_lock = threading.Lock()
 
-    def __init__(self, task_id: str, project_id: str, full_text: str, db_factory):
+    def __init__(self, task_id: str, project_id: str, full_text: str, db_factory, mode: str = "full"):
         self.task_id = task_id
         self.project_id = project_id
         self.full_text = full_text
         self.db_factory = db_factory  # callable that returns a new Session
+        self.mode = mode  # "full" or "scenes_only"
         self._cancelled = False
         self._progress_lock = threading.Lock()
         self._scene_fallback_done = False  # B2.1: prevent double scene fallback
+        self._streaming_scenes = []
+        self._loc_futures = []
+        self._loc_executor = None
+        self._scenes_done = threading.Event()
+        self._chars_done = threading.Event()
+        self._scenes_data = []
+        self._characters_data = []
+        self._director_baseline = {}  # Phase 0: structured data from novel analysis
 
     def _emit(self, event: dict):
         """Thread-safe: push an SSE event via the Redis event bus."""
         from services.event_bus import push_event
         event["timestamp"] = time.time()
         push_event(self.task_id, event)
+
+    def _resolve_source_text(self, db: Session) -> str:
+        """Prefer source storage object, fallback to DB full_text."""
+        try:
+            task = db.query(ImportTask).filter(ImportTask.id == self.task_id).first()
+            if not task:
+                return self.full_text or ""
+
+            if task.source_storage_key:
+                try:
+                    from services.novel_parser import read_file
+                    from services.storage_adapter import get_storage, mark_storage_read_failure
+
+                    storage = get_storage()
+                    raw_bytes = storage.get_bytes(object_key=task.source_storage_key)
+                    parsed_text = read_file(raw_bytes, task.source_file_name or "upload.txt")
+                    if parsed_text and parsed_text.strip():
+                        return parsed_text
+                except Exception as e:
+                    logger.warning("Pipeline source storage read failed task=%s: %s", self.task_id, e)
+                    mark_storage_read_failure()
+
+            return (self.full_text or task.full_text or "")
+        except Exception as e:
+            logger.warning("Pipeline resolve source text failed task=%s: %s", self.task_id, e)
+            return self.full_text or ""
+
+    def _load_director_baseline(self, db: Session) -> dict:
+        """Load Phase 0 director baseline (novel_analysis_json) from DB.
+
+        Returns the structured dict or {} if not available.
+        """
+        try:
+            task = db.query(ImportTask).filter(ImportTask.id == self.task_id).first()
+            if task and task.novel_analysis_json and isinstance(task.novel_analysis_json, dict):
+                logger.info("Director baseline loaded: %s", list(task.novel_analysis_json.keys()))
+                return task.novel_analysis_json
+            # Fallback: try any task for this project that has analysis
+            task = (
+                db.query(ImportTask)
+                .filter(
+                    ImportTask.project_id == self.project_id,
+                    ImportTask.novel_analysis_json.isnot(None),
+                )
+                .order_by(ImportTask.created_at.desc())
+                .first()
+            )
+            if task and task.novel_analysis_json and isinstance(task.novel_analysis_json, dict):
+                logger.info("Director baseline loaded from earlier task: %s",
+                            list(task.novel_analysis_json.keys()))
+                return task.novel_analysis_json
+        except Exception as e:
+            logger.warning(f"Failed to load director baseline (non-fatal): {e}")
+        logger.info("No director baseline available, proceeding without Phase 0 data")
+        return {}
 
     def _call_with_retry(self, fn, *args, retries: int = MAX_RETRIES, **kwargs):
         """Call fn with exponential backoff retry."""
@@ -161,6 +225,7 @@ class ImportPipeline:
                 capability_tier=rendered["capability_tier"],
                 temperature=rendered["temperature"],
                 max_tokens=rendered["max_tokens"],
+                db=db,
             )
 
             for chunk in stream:
@@ -197,6 +262,7 @@ class ImportPipeline:
                         visual_prompt_negative=char.get("visual_prompt_negative", ""),
                         desire=char.get("desire", ""),
                         flaw=char.get("flaw", ""),
+                        scene_presence=char.get("scene_presence", ""),
                     )
                     db.add(character)
                     if char_count % CHAR_FLUSH_BATCH == 0:
@@ -251,6 +317,7 @@ class ImportPipeline:
                                 visual_prompt_negative=char.get("visual_prompt_negative", ""),
                                 desire=char.get("desire", ""),
                                 flaw=char.get("flaw", ""),
+                        scene_presence=char.get("scene_presence", ""),
                             )
                             db.add(character)
                             char["_db_id"] = char_id
@@ -269,29 +336,33 @@ class ImportPipeline:
         return characters_data
 
     def _stream_scenes(self, db: Session) -> list[dict]:
-        """R29: 场景独立流式提取 + 渐进位置卡发射 (threading 版)."""
+        """R29: 场景独立流式提取 + 渐进位置卡发射 (threading 版).
+
+        支持分窗提取：当文本超过 80000 字符时，使用 smart_segment 分窗，
+        每个窗口独立调用 AI 提取场景，最后合并去重。
+        """
         from services.ai_engine import ai_engine
         from services.streaming_parser import ProgressiveAssetParser, extract_json_robust
         from services.prompt_templates import render_prompt
+        from services.novel_parser import smart_segment
         from collections import defaultdict
+        import os
 
-        text_for_prompt = self.full_text[:80000]
-        rendered = render_prompt("P_SCENE_ONLY_EXTRACT", text=text_for_prompt)
+        # 专用文件日志
+        _dbg_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "debug_pipeline.log")
+        _dbg_handler = logging.FileHandler(_dbg_path, encoding="utf-8")
+        _dbg_handler.setLevel(logging.DEBUG)
+        _dbg_handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
+        logger.addHandler(_dbg_handler)
+        logger.info(f"DBG _stream_scenes ENTER project={self.project_id}")
 
-        parser = ProgressiveAssetParser()
-        parser._chars_closed = True  # skip char scanning, only scan scenes
-
-        response_chunks: list[str] = []
-        response_total_chars = 0
-        chunk_count = 0
-        scene_count = 0
-        scenes_data = []
-
-        # Progressive location grouping
+        # Progressive location grouping (shared across all windows)
         loc_groups = {}
         unfired_locs = []
         fired_locs = set()
         batch_idx = 0
+        scene_count = 0
+        all_scenes_data = []
 
         def _add_scene_to_groups(scene_obj):
             nonlocal batch_idx
@@ -322,6 +393,8 @@ class ImportPipeline:
 
         def _fire_loc_batch():
             nonlocal batch_idx
+            if self._loc_executor is None:
+                return
             batch_locs = unfired_locs[:self.LOC_BATCH_SIZE]
             del unfired_locs[:self.LOC_BATCH_SIZE]
             batch_groups = {}
@@ -344,123 +417,224 @@ class ImportPipeline:
                 self._gen_location_batch, batch_groups, idx)
             self._loc_futures.append(future)
 
-        logger.info("R29 dual-stream: scene stream starting")
-
-        try:
-            stream = ai_engine.stream(
-                system=rendered["system"],
-                messages=[{"role": "user", "content": rendered["user"]}],
-                capability_tier=rendered["capability_tier"],
-                temperature=rendered["temperature"],
-                max_tokens=rendered["max_tokens"],
+        def _create_scene_db_record(scene_obj, idx):
+            """Create a Scene DB record and return db_scene_id."""
+            db_scene_id = str(uuid4())
+            scene = Scene(
+                id=db_scene_id,
+                project_id=self.project_id,
+                heading=scene_obj.get("heading", ""),
+                location=scene_obj.get("location", ""),
+                time_of_day=scene_obj.get("time_of_day", ""),
+                description=scene_obj.get("description", ""),
+                action=scene_obj.get("action", ""),
+                dialogue=scene_obj.get("dialogue", []),
+                order=scene_obj.get("order", idx),
+                tension_score=_safe_float(scene_obj.get("tension_score", 0.0)),
+                characters_present=scene_obj.get("characters_present", []),
+                key_props=scene_obj.get("key_props", []),
+                dramatic_purpose=scene_obj.get("dramatic_purpose", ""),
+                core_event=scene_obj.get("core_event", ""),
+                key_dialogue=scene_obj.get("key_dialogue", ""),
+                emotional_peak=scene_obj.get("emotional_peak", ""),
+                estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                visual_reference=scene_obj.get("visual_reference", ""),
+                visual_prompt_negative=scene_obj.get("visual_prompt_negative", ""),
+                source_text_start=scene_obj.get("source_text_start", ""),
+                source_text_end=scene_obj.get("source_text_end", ""),
+                narrative_mode=scene_obj.get("narrative_mode", "mixed"),
+                hook_type=scene_obj.get("hook_type", ""),
+                cliffhanger=scene_obj.get("cliffhanger", ""),
+                reversal_points=scene_obj.get("reversal_points", []),
+                sweet_spot=scene_obj.get("sweet_spot", ""),
+                emotion_beat=scene_obj.get("emotion_beat", ""),
+                dialogue_budget=scene_obj.get("dialogue_budget", "medium"),
             )
+            db.add(scene)
+            return db_scene_id
 
-            for chunk in stream:
-                if response_total_chars < MAX_RESPONSE_BUFFER_CHARS:
-                    response_chunks.append(chunk)
-                    response_total_chars += len(chunk)
-                chunk_count += 1
+        def _extract_single_window(window_text, rendered, window_label="single"):
+            """Execute AI stream for a single window and return extracted scenes."""
+            nonlocal scene_count
+            parser = ProgressiveAssetParser()
+            parser._chars_closed = True
+            response_chunks = []
+            response_total_chars = 0
+            chunk_count = 0
+            window_scenes = []
 
-                if chunk_count % 100 == 0 and self._cancelled:
+            try:
+                stream = ai_engine.stream(
+                    system=rendered["system"],
+                    messages=[{"role": "user", "content": rendered["user"]}],
+                    capability_tier=rendered["capability_tier"],
+                    temperature=rendered["temperature"],
+                    max_tokens=rendered["max_tokens"],
+                    db=db,
+                )
+
+                for chunk in stream:
+                    if response_total_chars < MAX_RESPONSE_BUFFER_CHARS:
+                        response_chunks.append(chunk)
+                        response_total_chars += len(chunk)
+                    chunk_count += 1
+
+                    if chunk_count % 100 == 0 and self._cancelled:
+                        break
+
+                    result = parser.feed(chunk)
+
+                    for scene_obj in result["scenes"]:
+                        scene_id_str = f"scene_{scene_count + 1:03d}"
+                        scene_obj["scene_id"] = scene_id_str
+                        if "order" not in scene_obj:
+                            scene_obj["order"] = scene_count
+
+                        db_scene_id = _create_scene_db_record(scene_obj, scene_count)
+                        if scene_count % SCENE_FLUSH_BATCH == 0:
+                            db.flush()
+                        scene_obj["_db_id"] = db_scene_id
+                        scene_count += 1
+
+                        _add_scene_to_groups(scene_obj)
+                        self._streaming_scenes.append(scene_obj)
+                        window_scenes.append(scene_obj)
+
+                        self._emit({
+                            "type": "scene_found",
+                            "phase": "streaming",
+                            "data": {
+                                "scene_id": scene_id_str,
+                                "location": scene_obj.get("location", ""),
+                                "core_event": (scene_obj.get("core_event", ""))[:60],
+                                "index": scene_count - 1,
+                            },
+                        })
+
+            except Exception as e:
+                logger.warning(f"R29 scene stream error ({window_label}): {e}", exc_info=True)
+                import sys; print(f"DBG STREAM_ERROR ({window_label}): {e}", file=sys.stderr, flush=True)
+
+            import sys; print(f"DBG STREAM_DONE ({window_label}): chunks={chunk_count} chars={response_total_chars} scenes={len(window_scenes)} parser={len(parser.found_scenes)}", file=sys.stderr, flush=True)
+            logger.info(f"R29 scene stream ({window_label}): {chunk_count} chunks, {response_total_chars} chars, "
+                         f"{len(window_scenes)} scenes emitted via SSE")
+
+            # Post-stream: recover from full response
+            recovered_scenes = parser.found_scenes
+            if response_chunks:
+                full_response = "".join(response_chunks)
+                try:
+                    parsed = extract_json_robust(full_response)
+                    if isinstance(parsed, dict):
+                        parsed_scenes = parsed.get("scenes", [])
+                        if len(parsed_scenes) > len(recovered_scenes):
+                            logger.info(f"R29 scene recovery ({window_label}): {len(recovered_scenes)} -> {len(parsed_scenes)}")
+                            recovered_scenes = parsed_scenes
+                            for i, scene_obj in enumerate(recovered_scenes):
+                                scene_id_str = f"scene_{scene_count + 1:03d}" if "_db_id" not in scene_obj else scene_obj.get("scene_id", "")
+                                if "_db_id" not in scene_obj:
+                                    scene_obj["scene_id"] = scene_id_str
+                                    if "order" not in scene_obj:
+                                        scene_obj["order"] = scene_count
+                                    db_scene_id = _create_scene_db_record(scene_obj, scene_count)
+                                    scene_obj["_db_id"] = db_scene_id
+                                    scene_count += 1
+                                _add_scene_to_groups(scene_obj)
+                            db.flush()
+                except Exception as e:
+                    logger.warning(f"R29 scene full-response parse failed ({window_label}): {e}")
+
+            return recovered_scenes
+
+        # ── Determine single vs multi-window extraction ──
+        text_len = len(self.full_text)
+        logger.info(f"R29 scene extraction: text_len={text_len}")
+
+        if text_len <= 80000:
+            # ── Single window (original logic) ──
+            text_for_prompt = self.full_text
+            rendered = render_prompt("P_SCENE_ONLY_EXTRACT", text=text_for_prompt)
+
+            # Phase 0 injection
+            ep = self._director_baseline.get("episode_suggestion")
+            if ep and isinstance(ep, dict):
+                ep_count = ep.get("count", "")
+                ep_dur = ep.get("duration_minutes", "")
+                if ep_count and ep_dur:
+                    injection = (
+                        f"\n\n【导演基准参考】建议集数 {ep_count} 集，每集约 {ep_dur} 分钟，"
+                        f"请据此控制场景拆分粒度。"
+                    )
+                    rendered["user"] = rendered["user"] + injection
+                    logger.info("Phase 0 injected episode_suggestion into scene extraction")
+
+            logger.info("R29 dual-stream: scene stream starting (single window)")
+            all_scenes_data = _extract_single_window(self.full_text, rendered, "single")
+
+        else:
+            # ── Multi-window extraction ──
+            windows = smart_segment(self.full_text, window_size=60000, overlap=3000)
+            logger.info(f"R29 multi-window: {len(windows)} windows for {text_len} chars")
+
+            self._emit({
+                "type": "multi_window_start",
+                "phase": "streaming",
+                "data": {"total_windows": len(windows), "text_length": text_len},
+            })
+
+            for win_idx, window in enumerate(windows):
+                if self._cancelled:
                     break
 
-                result = parser.feed(chunk)
+                window_text = window["text"]
 
-                for scene_obj in result["scenes"]:
-                    scene_id_str = f"scene_{scene_count + 1:03d}"
-                    scene_obj["scene_id"] = scene_id_str
-                    if "order" not in scene_obj:
-                        scene_obj["order"] = scene_count
+                if win_idx == 0:
+                    # First window: use standard prompt
+                    rendered = render_prompt("P_SCENE_ONLY_EXTRACT", text=window_text)
 
-                    db_scene_id = str(uuid4())
-                    scene = Scene(
-                        id=db_scene_id,
-                        project_id=self.project_id,
-                        heading=scene_obj.get("heading", ""),
-                        location=scene_obj.get("location", ""),
-                        time_of_day=scene_obj.get("time_of_day", ""),
-                        description=scene_obj.get("description", ""),
-                        action=scene_obj.get("action", ""),
-                        dialogue=scene_obj.get("dialogue", []),
-                        order=scene_obj.get("order", scene_count),
-                        tension_score=_safe_float(scene_obj.get("tension_score", 0.0)),
-                        characters_present=scene_obj.get("characters_present", []),
-                        key_props=scene_obj.get("key_props", []),
-                        dramatic_purpose=scene_obj.get("dramatic_purpose", ""),
-                        core_event=scene_obj.get("core_event", ""),
-                        key_dialogue=scene_obj.get("key_dialogue", ""),
-                        emotional_peak=scene_obj.get("emotional_peak", ""),
-                        estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                    # Phase 0 injection
+                    ep = self._director_baseline.get("episode_suggestion")
+                    if ep and isinstance(ep, dict):
+                        ep_count = ep.get("count", "")
+                        ep_dur = ep.get("duration_minutes", "")
+                        if ep_count and ep_dur:
+                            injection = (
+                                f"\n\n【导演基准参考】建议集数 {ep_count} 集，每集约 {ep_dur} 分钟，"
+                                f"请据此控制场景拆分粒度。"
+                            )
+                            rendered["user"] = rendered["user"] + injection
+                else:
+                    # Subsequent windows: use continuation prompt with context from last scene
+                    last_scene = all_scenes_data[-1] if all_scenes_data else {}
+                    rendered = render_prompt(
+                        "P_SCENE_CONTINUATION_EXTRACT",
+                        text=window_text,
+                        window_index=win_idx,
+                        last_scene_id=last_scene.get("scene_id", "scene_001"),
+                        last_scene_location=last_scene.get("location", "未知"),
+                        last_scene_event=last_scene.get("core_event", "未知"),
+                        last_scene_text_end=last_scene.get("source_text_end", ""),
+                        start_scene_number=scene_count + 1,
+                        start_order=scene_count,
                     )
-                    db.add(scene)
-                    if scene_count % SCENE_FLUSH_BATCH == 0:
-                        db.flush()
-                    scene_obj["_db_id"] = db_scene_id
-                    scene_count += 1
 
-                    # Progressive location grouping
-                    _add_scene_to_groups(scene_obj)
-                    # R29: share with variant pipeline
-                    self._streaming_scenes.append(scene_obj)
+                self._emit({
+                    "type": "window_progress",
+                    "phase": "streaming",
+                    "data": {"window_index": win_idx, "total_windows": len(windows)},
+                })
 
-                    self._emit({
-                        "type": "scene_found",
-                        "phase": "streaming",
-                        "data": {
-                            "scene_id": scene_id_str,
-                            "location": scene_obj.get("location", ""),
-                            "core_event": (scene_obj.get("core_event", ""))[:60],
-                            "index": scene_count - 1,
-                        },
-                    })
+                logger.info(f"R29 multi-window: starting window {win_idx + 1}/{len(windows)}")
+                window_scenes = _extract_single_window(window_text, rendered, f"window_{win_idx}")
+                all_scenes_data.extend(window_scenes)
 
-        except Exception as e:
-            logger.warning(f"R29 scene stream error: {e}")
+            # ── Dedup scenes in overlap regions ──
+            all_scenes_data = self._dedup_overlap_scenes(all_scenes_data, db)
 
-        # Post-stream: recover from full response
-        scenes_data = parser.found_scenes
-        if response_chunks:
-            full_response = "".join(response_chunks)
-            try:
-                parsed = extract_json_robust(full_response)
-                if isinstance(parsed, dict):
-                    parsed_scenes = parsed.get("scenes", [])
-                    if len(parsed_scenes) > len(scenes_data):
-                        logger.info(f"R29 scene recovery: {len(scenes_data)} -> {len(parsed_scenes)}")
-                        scenes_data = parsed_scenes
-                        for i, scene_obj in enumerate(scenes_data):
-                            scene_id_str = f"scene_{i + 1:03d}"
-                            scene_obj["scene_id"] = scene_id_str
-                            if "order" not in scene_obj:
-                                scene_obj["order"] = i
-                            if "_db_id" not in scene_obj:
-                                db_scene_id = str(uuid4())
-                                scene = Scene(
-                                    id=db_scene_id,
-                                    project_id=self.project_id,
-                                    heading=scene_obj.get("heading", ""),
-                                    location=scene_obj.get("location", ""),
-                                    time_of_day=scene_obj.get("time_of_day", ""),
-                                    description=scene_obj.get("description", ""),
-                                    action=scene_obj.get("action", ""),
-                                    dialogue=scene_obj.get("dialogue", []),
-                                    order=scene_obj.get("order", i),
-                                    tension_score=_safe_float(scene_obj.get("tension_score", 0.0)),
-                                    characters_present=scene_obj.get("characters_present", []),
-                                    key_props=scene_obj.get("key_props", []),
-                                    dramatic_purpose=scene_obj.get("dramatic_purpose", ""),
-                                    core_event=scene_obj.get("core_event", ""),
-                                    key_dialogue=scene_obj.get("key_dialogue", ""),
-                                    emotional_peak=scene_obj.get("emotional_peak", ""),
-                                    estimated_duration_s=scene_obj.get("estimated_duration_s"),
-                                )
-                                db.add(scene)
-                                scene_obj["_db_id"] = db_scene_id
-                            # Add recovered scenes to loc groups
-                            _add_scene_to_groups(scene_obj)
-                        db.flush()
-            except Exception as e:
-                logger.warning(f"R29 scene full-response parse failed: {e}")
+            # ── Re-number all scenes sequentially ──
+            for i, scene_obj in enumerate(all_scenes_data):
+                scene_obj["scene_id"] = f"scene_{i + 1:03d}"
+                scene_obj["order"] = i
 
         # Fire remaining unfired location batch
         if unfired_locs:
@@ -469,13 +643,81 @@ class ImportPipeline:
         db.flush()
         db.commit()
 
+        # Verify scenes actually persisted
+        from models.scene import Scene as SceneCheck
+        persisted_count = db.query(SceneCheck).filter(SceneCheck.project_id == self.project_id).count()
+        logger.info(f"R29 DB verify: {persisted_count} scenes persisted for project {self.project_id}")
+        with open("G:/涛项目/claude版/模块二/backend/debug_pipeline.log", "a", encoding="utf-8") as f:
+            f.write(f"DB_VERIFY: {persisted_count} scenes persisted, scenes_data={len(all_scenes_data)}\n")
+
         # Signal: scenes done
-        self._scenes_data = scenes_data
+        self._scenes_data = all_scenes_data
         self._scenes_done.set()
 
-        logger.info(f"R29 scene stream done: {len(scenes_data)} scenes, "
+        logger.info(f"R29 scene stream done: {len(all_scenes_data)} scenes, "
                      f"{batch_idx} loc batches fired")
-        return scenes_data
+        return all_scenes_data
+
+    def _dedup_overlap_scenes(self, scenes: list[dict], db: Session) -> list[dict]:
+        """Remove duplicate scenes that were extracted from overlapping text regions.
+
+        Uses source_text_start/source_text_end to detect overlapping scenes.
+        When two consecutive scenes from different windows cover the same text region,
+        keep the one from the earlier window (appears first in the list).
+        """
+        if len(scenes) <= 1:
+            return scenes
+
+        deduped = [scenes[0]]
+        for i in range(1, len(scenes)):
+            current = scenes[i]
+            prev = deduped[-1]
+
+            # Check for overlap using source_text markers
+            curr_start = current.get("source_text_start", "")
+            prev_end = prev.get("source_text_end", "")
+            prev_start = prev.get("source_text_start", "")
+            curr_end = current.get("source_text_end", "")
+
+            # If current scene's start text matches or is contained in previous scene's text range,
+            # it's likely a duplicate from the overlap region
+            is_duplicate = False
+            if curr_start and prev_start and len(curr_start) >= 8 and len(prev_start) >= 8:
+                # Check if source_text_start of current scene matches previous scene's start
+                if curr_start[:8] == prev_start[:8]:
+                    is_duplicate = True
+                # Check if current scene's start overlaps with previous scene's end
+                elif prev_end and curr_start[:8] == prev_end[:8]:
+                    is_duplicate = True
+
+            # Also check core_event similarity as a secondary signal
+            if not is_duplicate and current.get("core_event") and prev.get("core_event"):
+                curr_event = current["core_event"]
+                prev_event = prev["core_event"]
+                # Simple overlap check: if >60% of chars match
+                if len(curr_event) > 10 and len(prev_event) > 10:
+                    from difflib import SequenceMatcher
+                    ratio = SequenceMatcher(None, curr_event, prev_event).ratio()
+                    if ratio > 0.6:
+                        is_duplicate = True
+                        logger.info(f"Dedup: removing scene with similar core_event (ratio={ratio:.2f}): {curr_event[:30]}")
+
+            if is_duplicate:
+                logger.info(f"Dedup: removing duplicate scene: {current.get('scene_id', '?')} "
+                            f"start='{curr_start[:20]}' (matches prev end='{prev_end[:20]}')")
+                # Delete the duplicate DB record if it exists
+                if "_db_id" in current:
+                    try:
+                        db_obj = db.query(Scene).filter(Scene.id == current["_db_id"]).first()
+                        if db_obj:
+                            db.delete(db_obj)
+                    except Exception:
+                        pass
+            else:
+                deduped.append(current)
+
+        logger.info(f"Dedup: {len(scenes)} -> {len(deduped)} scenes after overlap removal")
+        return deduped
 
     def _gen_location_batch(self, batch_groups: dict, batch_idx: int) -> list[dict]:
         """R29: 生成一批位置卡 (线程版)."""
@@ -483,6 +725,7 @@ class ImportPipeline:
         from services.ai_engine import ai_engine
         from services.streaming_parser import extract_json_robust
         from services.prompt_templates import render_prompt
+        from database import SessionLocal
 
         snippets = []
         for loc_name in batch_groups:
@@ -506,14 +749,22 @@ class ImportPipeline:
             relevant_text_snippets="\n".join(snippets[:10]),
         )
 
-        resp = ai_engine.call(
-            system=rendered["system"],
-            messages=[{"role": "user", "content": rendered["user"]}],
-            capability_tier=rendered["capability_tier"],
-            temperature=rendered["temperature"],
-            max_tokens=rendered["max_tokens"],
-            operation_type="location_card_batch",
-        )
+        thread_db = SessionLocal()
+        try:
+            resp = ai_engine.call(
+                system=rendered["system"],
+                messages=[{"role": "user", "content": rendered["user"]}],
+                capability_tier=rendered["capability_tier"],
+                temperature=rendered["temperature"],
+                max_tokens=rendered["max_tokens"],
+                operation_type="location_card_batch",
+                db=thread_db,
+            )
+        except Exception as e:
+            logger.error(f"R29 loc batch {batch_idx+1} AI call FAILED: {e}", exc_info=True)
+            return []
+        finally:
+            thread_db.close()
 
         try:
             cards = extract_json_robust(resp["content"])
@@ -523,6 +774,7 @@ class ImportPipeline:
             return cards
         except Exception as e:
             logger.warning(f"R29 loc batch {batch_idx+1} parse failed: {e}")
+            logger.debug(f"R29 loc batch {batch_idx+1} raw response: {resp.get('content', '')[:500]}")
             return []
 
     def _run_variants_early(self, db: Session):
@@ -571,18 +823,16 @@ class ImportPipeline:
             with ThreadPoolExecutor(max_workers=6) as executor:
                 self._loc_executor = executor
 
-                # Submit dual streams
-                char_future = executor.submit(self._stream_characters, self.db_factory())
+                # Submit scene stream only — characters/props/variants
+                # are now generated on-demand via asset_generation API
                 scene_future = executor.submit(self._stream_scenes, self.db_factory())
 
-                # Submit variants (waits for chars_done internally)
-                variant_future = executor.submit(self._run_variants_early, self.db_factory())
+                # Signal chars_done immediately so any dependent code doesn't block
+                self._chars_done.set()
+                self._characters_data = []
 
-                # Submit props (waits for scenes_done internally)
-                props_future = executor.submit(self._run_props_after_scenes, self.db_factory())
-
-                # Wait for dual streams to complete
-                characters_data = char_future.result(timeout=900)
+                # Wait for scene stream to complete
+                characters_data = []
                 scenes_data = scene_future.result(timeout=900)
 
                 # Wait for loc batch futures
@@ -636,15 +886,7 @@ class ImportPipeline:
 
                 db.flush()
 
-                # Wait for enrichment tasks
-                try:
-                    variant_future.result(timeout=600)
-                except Exception as e:
-                    logger.warning(f"R29 variants failed (non-fatal): {e}")
-                try:
-                    props_future.result(timeout=600)
-                except Exception as e:
-                    logger.warning(f"R29 props failed (non-fatal): {e}")
+                # Variants and props are now generated on-demand, skip enrichment
 
             logger.info(f"R29 dual-stream complete: {len(characters_data)} chars, "
                          f"{len(scenes_data)} scenes, {len(all_location_cards)} loc cards")
@@ -728,6 +970,7 @@ class ImportPipeline:
                         capability_tier=rendered["capability_tier"],
                         temperature=rendered["temperature"],
                         max_tokens=max_tokens,
+                        db=db,
                     )
 
                     for chunk in stream:
@@ -765,6 +1008,7 @@ class ImportPipeline:
                                 visual_prompt_negative=char.get("visual_prompt_negative", ""),
                                 desire=char.get("desire", ""),
                                 flaw=char.get("flaw", ""),
+                        scene_presence=char.get("scene_presence", ""),
                             )
                             db.add(character)
                             # Batch flush: every CHAR_FLUSH_BATCH characters
@@ -805,6 +1049,17 @@ class ImportPipeline:
                                 key_dialogue=scene_obj.get("key_dialogue", ""),
                                 emotional_peak=scene_obj.get("emotional_peak", ""),
                                 estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                                visual_reference=scene_obj.get("visual_reference", ""),
+                                visual_prompt_negative=scene_obj.get("visual_prompt_negative", ""),
+                                source_text_start=scene_obj.get("source_text_start", ""),
+                                source_text_end=scene_obj.get("source_text_end", ""),
+                                narrative_mode=scene_obj.get("narrative_mode", "mixed"),
+                                hook_type=scene_obj.get("hook_type", ""),
+                                cliffhanger=scene_obj.get("cliffhanger", ""),
+                                reversal_points=scene_obj.get("reversal_points", []),
+                                sweet_spot=scene_obj.get("sweet_spot", ""),
+                                emotion_beat=scene_obj.get("emotion_beat", ""),
+                                dialogue_budget=scene_obj.get("dialogue_budget", "medium"),
                             )
                             db.add(scene)
                             # Batch flush: every SCENE_FLUSH_BATCH scenes
@@ -897,6 +1152,7 @@ class ImportPipeline:
                                         visual_prompt_negative=char.get("visual_prompt_negative", ""),
                                         desire=char.get("desire", ""),
                                         flaw=char.get("flaw", ""),
+                        scene_presence=char.get("scene_presence", ""),
                                     )
                                     db.add(character)
                                     char["_db_id"] = char_id
@@ -927,6 +1183,17 @@ class ImportPipeline:
                                     key_dialogue=scene_obj.get("key_dialogue", ""),
                                     emotional_peak=scene_obj.get("emotional_peak", ""),
                                     estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                                    visual_reference=scene_obj.get("visual_reference", ""),
+                                    visual_prompt_negative=scene_obj.get("visual_prompt_negative", ""),
+                                    source_text_start=scene_obj.get("source_text_start", ""),
+                                    source_text_end=scene_obj.get("source_text_end", ""),
+                                    narrative_mode=scene_obj.get("narrative_mode", "mixed"),
+                                    hook_type=scene_obj.get("hook_type", ""),
+                                    cliffhanger=scene_obj.get("cliffhanger", ""),
+                                    reversal_points=scene_obj.get("reversal_points", []),
+                                    sweet_spot=scene_obj.get("sweet_spot", ""),
+                                    emotion_beat=scene_obj.get("emotion_beat", ""),
+                                    dialogue_budget=scene_obj.get("dialogue_budget", "medium"),
                                 )
                                 db.add(scene)
                                 scene_obj["_db_id"] = db_scene_id
@@ -980,6 +1247,7 @@ class ImportPipeline:
             capability_tier=rendered["capability_tier"],
             temperature=rendered["temperature"],
             max_tokens=max_tokens,
+            db=db,
             operation_type="combined_extract_fallback",
         )
         raw = resp["content"]
@@ -1049,6 +1317,17 @@ class ImportPipeline:
                     key_dialogue=scene_obj.get("key_dialogue", ""),
                     emotional_peak=scene_obj.get("emotional_peak", ""),
                     estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                    visual_reference=scene_obj.get("visual_reference", ""),
+                    visual_prompt_negative=scene_obj.get("visual_prompt_negative", ""),
+                    source_text_start=scene_obj.get("source_text_start", ""),
+                    source_text_end=scene_obj.get("source_text_end", ""),
+                    narrative_mode=scene_obj.get("narrative_mode", "mixed"),
+                    hook_type=scene_obj.get("hook_type", ""),
+                    cliffhanger=scene_obj.get("cliffhanger", ""),
+                    reversal_points=scene_obj.get("reversal_points", []),
+                    sweet_spot=scene_obj.get("sweet_spot", ""),
+                    emotion_beat=scene_obj.get("emotion_beat", ""),
+                    dialogue_budget=scene_obj.get("dialogue_budget", "medium"),
                 )
                 db.add(scene)
                 scene_obj["_db_id"] = db_scene_id
@@ -1094,6 +1373,7 @@ class ImportPipeline:
                                 visual_reference=char.get("visual_reference", ""),
                                 desire=char.get("desire", ""),
                                 flaw=char.get("flaw", ""),
+                        scene_presence=char.get("scene_presence", ""),
                             )
                             db.add(character)
                             char["_db_id"] = char_id
@@ -1124,6 +1404,17 @@ class ImportPipeline:
                             key_dialogue=scene_obj.get("key_dialogue", ""),
                             emotional_peak=scene_obj.get("emotional_peak", ""),
                             estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                            visual_reference=scene_obj.get("visual_reference", ""),
+                            visual_prompt_negative=scene_obj.get("visual_prompt_negative", ""),
+                            source_text_start=scene_obj.get("source_text_start", ""),
+                            source_text_end=scene_obj.get("source_text_end", ""),
+                            narrative_mode=scene_obj.get("narrative_mode", "mixed"),
+                            hook_type=scene_obj.get("hook_type", ""),
+                            cliffhanger=scene_obj.get("cliffhanger", ""),
+                            reversal_points=scene_obj.get("reversal_points", []),
+                            sweet_spot=scene_obj.get("sweet_spot", ""),
+                            emotion_beat=scene_obj.get("emotion_beat", ""),
+                            dialogue_budget=scene_obj.get("dialogue_budget", "medium"),
                         )
                         db.add(scene)
                         scene_obj["_db_id"] = db_scene_id
@@ -1186,6 +1477,17 @@ class ImportPipeline:
                 key_dialogue=scene_obj.get("key_dialogue", ""),
                 emotional_peak=scene_obj.get("emotional_peak", ""),
                 estimated_duration_s=scene_obj.get("estimated_duration_s"),
+                visual_reference=scene_obj.get("visual_reference", ""),
+                visual_prompt_negative=scene_obj.get("visual_prompt_negative", ""),
+                source_text_start=scene_obj.get("source_text_start", ""),
+                source_text_end=scene_obj.get("source_text_end", ""),
+                narrative_mode=scene_obj.get("narrative_mode", "mixed"),
+                hook_type=scene_obj.get("hook_type", ""),
+                cliffhanger=scene_obj.get("cliffhanger", ""),
+                reversal_points=scene_obj.get("reversal_points", []),
+                sweet_spot=scene_obj.get("sweet_spot", ""),
+                emotion_beat=scene_obj.get("emotion_beat", ""),
+                dialogue_budget=scene_obj.get("dialogue_budget", "medium"),
             )
             db.add(scene)
             scene_obj["_db_id"] = db_scene_id
@@ -1256,7 +1558,8 @@ class ImportPipeline:
             })
 
         db.flush()
-        logger.info(f"Location cards written: {len(cards)}")
+        db.commit()
+        logger.info(f"Location cards committed: {len(cards)}")
 
     # ─── Mode C Stage 2: Props collection + card generation ───────
 
@@ -1264,11 +1567,12 @@ class ImportPipeline:
         """Stage 2B+2C: Collect props, tier them, generate cards for major props."""
         from services.ai_engine import ai_engine
         from services.asset_enrichment import (
-            collect_and_tier_props, generate_prop_cards, generate_minor_prop_visuals,
+            collect_and_tier_props, generate_prop_cards,
         )
 
         prop_data = collect_and_tier_props(scenes_data)
-        logger.info(f"Props: {prop_data['total_unique']} unique "
+        logger.info(f"Props: {prop_data['total_unique']} unique, "
+                     f"top {prop_data.get('top_n', 'all')} kept "
                      f"(major: {prop_data['major_count']}, minor: {prop_data['minor_count']})")
 
         # Generate cards for major props
@@ -1309,44 +1613,9 @@ class ImportPipeline:
                     },
                 })
 
-        # Generate visual prompts for minor props
-        minor_visual_map = {}
-        if prop_data.get("minor"):
-            # Try to get era context from knowledge base
-            era_context = ""
-            try:
-                kb = db.query(KnowledgeBase).filter(
-                    KnowledgeBase.project_id == self.project_id
-                ).first()
-                if kb and kb.world_building:
-                    era_context = kb.world_building.get("era", kb.world_building.get("setting", ""))
-            except Exception:
-                pass
-
-            try:
-                minor_visuals = generate_minor_prop_visuals(
-                    prop_data["minor"], era_context, ai_engine)
-                for mv in minor_visuals:
-                    minor_visual_map[mv.get("name", "")] = mv
-            except Exception as e:
-                logger.warning(f"Minor prop visual generation failed (non-fatal): {e}")
-
-        # Save minor props
-        for prop_name, info in prop_data.get("minor", {}).items():
-            mv = minor_visual_map.get(prop_name, {})
-            prop = Prop(
-                id=str(uuid4()),
-                project_id=self.project_id,
-                name=prop_name,
-                is_major=False,
-                visual_reference=mv.get("visual_reference", ""),
-                visual_prompt_negative=mv.get("visual_prompt_negative", ""),
-                scenes_present=info.get("scenes", []),
-                appearance_count=info.get("count", 0),
-            )
-            db.add(prop)
-
         db.flush()
+        db.commit()
+        logger.info(f"Props committed to DB for project {self.project_id}")
 
     # ─── Mode C Stage 3: Character variants ───────────────────────
 
@@ -1432,22 +1701,27 @@ class ImportPipeline:
                     db.add(cv)
                     variant_count += 1
 
-                self._emit({
-                    "type": "variant",
-                    "phase": "variants",
-                    "data": {
-                        "character": char_name,
-                        "variant_count": len(variants),
-                    },
-                })
+                    # Emit per-variant SSE event for streaming display
+                    self._emit({
+                        "type": "variant_card",
+                        "phase": "variants",
+                        "data": {
+                            "character_name": char_name,
+                            "variant_name": v.get("variant_name", ""),
+                            "variant_type": v.get("variant_type", ""),
+                            "index": variant_count - 1,
+                        },
+                    })
 
         db.flush()
-        logger.info(f"Character variants written: {variant_count}")
+        db.commit()
+        logger.info(f"Character variants committed: {variant_count}")
 
     # ─── Thread task: scene → shots + beats + merge ───────────────
 
     def _process_scene_task(self, scene_id: str, scene_json: dict,
-                            char_profiles_json: str, style_guide_json: str):
+                            char_profiles_json: str, style_guide_json: str,
+                            prev_scene_json: dict = None, next_scene_json: dict = None):
         """Thread pool task: decompose scene to shots + generate beats + merge to groups."""
         from services.novel_parser import (
             decompose_scene_to_shots,
@@ -1455,13 +1729,49 @@ class ImportPipeline:
             merge_shots_to_groups,
         )
 
+        # 构建精简跨场景上下文字符串
+        prev_scene_context = ""
+        next_scene_context = ""
+        prev_scene_emotion = ""
+        next_scene_emotion = ""
+
+        if prev_scene_json:
+            prev_scene_context = (
+                f"前一场景：{prev_scene_json.get('heading', '')}，"
+                f"核心事件：{prev_scene_json.get('core_event', '')}，"
+                f"情绪节拍：{prev_scene_json.get('emotion_beat', '')}，"
+                f"张力值：{prev_scene_json.get('tension_score', 0)}"
+            )
+            prev_scene_emotion = (
+                f"{prev_scene_json.get('heading', '')} — "
+                f"情绪：{prev_scene_json.get('emotion_beat', '')}，"
+                f"张力：{prev_scene_json.get('tension_score', 0)}，"
+                f"悬念：{prev_scene_json.get('cliffhanger', '')}"
+            )
+
+        if next_scene_json:
+            next_scene_context = (
+                f"后一场景：{next_scene_json.get('heading', '')}，"
+                f"核心事件：{next_scene_json.get('core_event', '')}，"
+                f"情绪节拍：{next_scene_json.get('emotion_beat', '')}，"
+                f"张力值：{next_scene_json.get('tension_score', 0)}"
+            )
+            next_scene_emotion = (
+                f"{next_scene_json.get('heading', '')} — "
+                f"情绪：{next_scene_json.get('emotion_beat', '')}，"
+                f"张力：{next_scene_json.get('tension_score', 0)}"
+            )
+
         thread_db = self.db_factory()
         try:
             # 1. Decompose scene to shots
             try:
                 shot_data_list = self._call_with_retry(
                     decompose_scene_to_shots,
-                    scene_json, char_profiles_json, style_guide_json, db=thread_db,
+                    scene_json, char_profiles_json, style_guide_json,
+                    prev_scene_context=prev_scene_context,
+                    next_scene_context=next_scene_context,
+                    db=thread_db,
                 )
             except Exception as e:
                 logger.warning(f"Shot decomposition failed for '{scene_json.get('heading', '')}': {e}")
@@ -1477,7 +1787,10 @@ class ImportPipeline:
                     for d in (scene_json.get("dialogue") or [])
                 )
                 beat_data_list = self._call_with_retry(
-                    generate_beats, scene_text, db=thread_db,
+                    generate_beats, scene_text,
+                    prev_scene_emotion=prev_scene_emotion,
+                    next_scene_emotion=next_scene_emotion,
+                    db=thread_db,
                 )
             except Exception as e:
                 logger.warning(f"Beat generation failed for '{scene_json.get('heading', '')}': {e}")
@@ -1580,6 +1893,49 @@ class ImportPipeline:
             task.status = "running"
             db.commit()
 
+            # P0-3 third batch: prefer loading source text from storage object
+            resolved_text = self._resolve_source_text(db)
+            if resolved_text:
+                self.full_text = resolved_text
+                task.full_text = resolved_text  # keep legacy path warm for compatibility
+                db.commit()
+
+            with open("G:/涛项目/claude版/模块二/backend/debug_pipeline.log", "a", encoding="utf-8") as f:
+                f.write(f"PIPELINE_START: task={self.task_id} mode={self.mode} project={self.project_id}\n")
+
+            # ── Phase 0: Load director baseline from novel analysis ──
+            self._director_baseline = self._load_director_baseline(db)
+
+            # ── scenes_only mode: only extract scenes, then finish ──
+            if self.mode == "scenes_only":
+                self._emit({"type": "phase_start", "phase": "streaming"})
+                task.current_phase = "streaming"
+                db.commit()
+
+                try:
+                    scenes_data = self._stream_scenes(db)
+                except Exception as e:
+                    logger.error(f"Scenes-only extraction failed: {e}", exc_info=True)
+                    raise
+
+                task.progress = {
+                    **(task.progress or {}),
+                    "scene_count": len(scenes_data),
+                }
+                task.status = "completed"
+                db.commit()
+
+                self._emit({
+                    "type": "phase_done",
+                    "phase": "streaming",
+                    "data": {"scene_count": len(scenes_data)},
+                })
+                self._emit({
+                    "type": "pipeline_complete",
+                    "summary": {"scene_count": len(scenes_data)},
+                })
+                return
+
             # Determine resume point
             start_phase_idx = 0
             if task.current_phase in self.PHASES:
@@ -1602,14 +1958,7 @@ class ImportPipeline:
                     logger.error(f"Streaming extraction failed: {e}", exc_info=True)
                     raise
 
-                # B2.4: detect empty character list as serious issue
-                if len(characters_data) == 0:
-                    logger.error("CRITICAL: streaming extraction returned 0 characters")
-                    self._emit({
-                        "type": "warning",
-                        "phase": "streaming",
-                        "data": {"message": "No characters extracted from novel text"},
-                    })
+                # Characters are now generated on-demand, empty list is expected
 
                 task.progress = {
                     **(task.progress or {}),
@@ -1707,15 +2056,7 @@ class ImportPipeline:
                 except Exception as e:
                     logger.warning(f"Location cards failed (non-fatal): {e}")
 
-                try:
-                    self._collect_and_save_props(db, scenes_data)
-                except Exception as e:
-                    logger.warning(f"Props failed (non-fatal): {e}")
-
-                try:
-                    self._run_character_variants(db, characters_data, scenes_data)
-                except Exception as e:
-                    logger.warning(f"Variants failed (non-fatal): {e}")
+                # Props and variants are now generated on-demand
 
                 db.commit()
                 self._emit({"type": "phase_done", "phase": "enrichment"})
@@ -1740,6 +2081,19 @@ class ImportPipeline:
                     f"【{s.heading}】{(s.action or '')[:300]}"
                     for s in scene_records_db if s.heading
                 )
+
+                # Phase 0 injection: themes, era, genre_type → avoid knowledge base re-inferring
+                baseline_prefix_parts = []
+                if self._director_baseline.get("era"):
+                    baseline_prefix_parts.append(f"时代背景：{self._director_baseline['era']}")
+                if self._director_baseline.get("genre_type"):
+                    baseline_prefix_parts.append(f"题材类型：{self._director_baseline['genre_type']}")
+                if self._director_baseline.get("themes"):
+                    baseline_prefix_parts.append(
+                        f"核心主题：{'、'.join(self._director_baseline['themes'])}")
+                if baseline_prefix_parts:
+                    synopsis = "【导演基准 — 已确认信息】\n" + "\n".join(baseline_prefix_parts) + "\n\n" + synopsis
+                    logger.info("Phase 0 injected era/genre/themes into knowledge base")
 
                 char_names = [c.get("name", "") for c in characters_data]
                 loc_names = [
@@ -1807,10 +2161,28 @@ class ImportPipeline:
                 .filter(KnowledgeBase.project_id == self.project_id)
                 .first()
             )
-            style_guide_json = json.dumps(
-                kb_record.style_guide if kb_record else {},
-                ensure_ascii=False,
-            )
+            style_guide_data = kb_record.style_guide if kb_record else {}
+
+            # Phase 0 injection: enrich style_guide with director baseline
+            if self._director_baseline:
+                vb = self._director_baseline.get("visual_baseline", {})
+                if vb:
+                    # Merge visual baseline into style_guide
+                    if vb.get("art_style"):
+                        style_guide_data["visual_tone"] = vb["art_style"]
+                    if vb.get("lighting_baseline"):
+                        style_guide_data["lighting_baseline"] = vb["lighting_baseline"]
+                    if vb.get("color_system"):
+                        style_guide_data["color_system"] = vb["color_system"]
+                    if vb.get("texture_keywords"):
+                        style_guide_data["texture_keywords"] = vb["texture_keywords"]
+                if self._director_baseline.get("pacing_type"):
+                    style_guide_data["pacing_type"] = self._director_baseline["pacing_type"]
+                if self._director_baseline.get("genre_type"):
+                    style_guide_data["genre_type"] = self._director_baseline["genre_type"]
+                logger.info("Phase 0 enriched style_guide with director baseline")
+
+            style_guide_json = json.dumps(style_guide_data, ensure_ascii=False)
 
             scene_records_for_shots = (
                 db.query(Scene)
@@ -1833,6 +2205,8 @@ class ImportPipeline:
 
                 with ThreadPoolExecutor(max_workers=MAX_SCENE_CONCURRENCY) as executor:
                     futures = {}
+                    # 预构建有序 scene_json 列表，用于跨场景上下文传递
+                    ordered_scene_jsons = []
                     for scene in scene_records_for_shots:
                         scene_json = {
                             "heading": scene.heading,
@@ -1845,7 +2219,16 @@ class ImportPipeline:
                             "key_props": scene.key_props or [],
                             "dramatic_purpose": scene.dramatic_purpose or "",
                             "tension_score": scene.tension_score,
+                            "emotion_beat": getattr(scene, "emotion_beat", ""),
+                            "core_event": getattr(scene, "core_event", ""),
+                            "cliffhanger": getattr(scene, "cliffhanger", ""),
                         }
+                        ordered_scene_jsons.append(scene_json)
+
+                    for i, scene in enumerate(scene_records_for_shots):
+                        scene_json = ordered_scene_jsons[i]
+                        prev_sj = ordered_scene_jsons[i - 1] if i > 0 else None
+                        next_sj = ordered_scene_jsons[i + 1] if i < len(ordered_scene_jsons) - 1 else None
 
                         filtered_chars_json = self._filter_char_profiles(
                             char_profiles,
@@ -1855,6 +2238,7 @@ class ImportPipeline:
                         future = executor.submit(
                             self._process_scene_task,
                             scene.id, scene_json, filtered_chars_json, style_guide_json,
+                            prev_sj, next_sj,
                         )
                         futures[future] = scene
 
@@ -2052,8 +2436,21 @@ class ImportPipeline:
                             shot_group_id = p_data.get("shot_group_id", p_data.get("shot_id", ""))
                             for g in groups:
                                 if g.id == shot_group_id or str(g.segment_number) == str(p_data.get("segment_number", "")):
-                                    g.visual_prompt_positive = p_data.get("prompt_text", p_data.get("visual_prompt_positive", ""))
-                                    g.visual_prompt_negative = p_data.get("negative_prompt", p_data.get("visual_prompt_negative", ""))
+                                    positive = p_data.get("prompt_text", p_data.get("visual_prompt_positive", ""))
+                                    negative = p_data.get("negative_prompt", p_data.get("visual_prompt_negative", ""))
+
+                                    # Phase 0 injection: append global prompts from director baseline
+                                    vb = self._director_baseline.get("visual_baseline", {})
+                                    if vb.get("global_prompt_suffix"):
+                                        positive = f"{positive}, {vb['global_prompt_suffix']}"
+                                    if vb.get("global_negative_prompt"):
+                                        if negative:
+                                            negative = f"{negative}, {vb['global_negative_prompt']}"
+                                        else:
+                                            negative = vb["global_negative_prompt"]
+
+                                    g.visual_prompt_positive = positive
+                                    g.visual_prompt_negative = negative
                                     g.style_tags = p_data.get("style_tags", [])
                                     if p_data.get("style_params"):
                                         g.style_metadata = {**(g.style_metadata or {}), **p_data["style_params"]}

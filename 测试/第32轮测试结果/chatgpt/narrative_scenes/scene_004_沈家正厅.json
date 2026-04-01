@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_004",
+  "order": 3,
+  "heading": "FLASHBACK. 沈家新房次日正厅 - day",
+  "location": "沈家正厅",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "沈母",
+    "陆姝仪",
+    "沈词"
+  ],
+  "core_event": "前世新婚第二日，沈母安排陆姝仪向我敬茶，意图让我默认她做平妻，我当场砸杯以瓷片抹颈反击。",
+  "key_dialogue": "「沈家让我入门，是看中我家世平平，脾气温和，能容这位表小姐做平妻。」",
+  "emotional_peak": "我以自伤立威，逼整个沈家在新婚次日噤声。",
+  "tension_score": 0.98,
+  "estimated_duration_s": 120,
+  "key_props": [
+    "茶杯碎瓷",
+    "敬茶托盘",
+    "脖颈血痕"
+  ],
+  "dramatic_purpose": "交代前世婚姻创伤起点，说明女主对陆姝仪与沈家的根本恨意来源。",
+  "visual_reference": "新婚次日的厅堂仍带红色喜意却气氛惊悚，地上茶杯碎裂，女子握瓷片抵住脖颈，鲜血微渗，沈母惊呆，陆姝仪昏倒，沈词冲上前拦住",
+  "visual_prompt_negative": "避免血腥夸张喷溅，避免现代服装，避免武侠打斗感",
+  "source_text_start": "上一世。沈词求娶我，是为陆姝仪。那是他",
+  "source_text_end": "我也拿她给整个沈家立威。没有人可以拿捏"
+}

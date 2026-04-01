@@ -57,7 +57,7 @@ def group_scenes_by_location(narrative_scenes: list[dict]) -> dict:
     return result
 
 
-def generate_location_cards(groups: dict, full_text: str, ai_engine) -> list[dict]:
+def generate_location_cards(groups: dict, full_text: str, ai_engine, db=None) -> list[dict]:
     """Generate location visual asset cards from grouped narrative scenes.
 
     Ported from run_test_round10.py lines 974-1049.
@@ -101,6 +101,7 @@ def generate_location_cards(groups: dict, full_text: str, ai_engine) -> list[dic
         temperature=rendered["temperature"],
         max_tokens=rendered["max_tokens"],
         operation_type="location_card",
+        db=db,
     )
 
     location_cards = []
@@ -122,14 +123,13 @@ def generate_location_cards(groups: dict, full_text: str, ai_engine) -> list[dic
 # ─── Stage 2B: Prop collection & tiering ──────────────────────────
 
 
-def collect_and_tier_props(narrative_scenes: list[dict]) -> dict:
-    """Collect props from ALL narrative scenes with tiering rules.
+def collect_and_tier_props(narrative_scenes: list[dict], top_n: int = 10) -> dict:
+    """Collect props from ALL narrative scenes, deduplicate, keep only top_n by frequency.
 
     Rules:
-    - Appears >=2 times → major (needs full visual archive card)
-    - Appears <2 times → minor (name + scene refs only)
-
-    Ported from run_test_round10.py lines 1056-1093.
+    - Deduplicate by name, count appearances
+    - Keep only top_n props by appearance count (all treated as major)
+    - Minor props are discarded entirely
     """
     prop_counter = Counter()
     prop_scenes = defaultdict(list)
@@ -144,28 +144,28 @@ def collect_and_tier_props(narrative_scenes: list[dict]) -> dict:
             if scene_id not in prop_scenes[prop]:
                 prop_scenes[prop].append(scene_id)
 
+    # Only keep top_n props by appearance count
+    top_props = prop_counter.most_common(top_n)
+
     major_props = {
         p: {"count": c, "scenes": prop_scenes[p]}
-        for p, c in prop_counter.items() if c >= 2
-    }
-    minor_props = {
-        p: {"count": c, "scenes": prop_scenes[p]}
-        for p, c in prop_counter.items() if c < 2
+        for p, c in top_props
     }
 
     return {
         "major": major_props,
-        "minor": minor_props,
+        "minor": {},
         "total_unique": len(prop_counter),
+        "top_n": top_n,
         "major_count": len(major_props),
-        "minor_count": len(minor_props),
+        "minor_count": 0,
     }
 
 
 # ─── Stage 2C: Prop card generation ──────────────────────────────
 
 
-def generate_prop_cards(major_props: dict, full_text: str, ai_engine) -> list[dict]:
+def generate_prop_cards(major_props: dict, full_text: str, ai_engine, db=None) -> list[dict]:
     """Generate prop visual asset cards for major props.
 
     Ported from run_test_round10.py run_phase2() lines 1121-1158.
@@ -209,6 +209,7 @@ def generate_prop_cards(major_props: dict, full_text: str, ai_engine) -> list[di
         temperature=rendered["temperature"],
         max_tokens=rendered["max_tokens"],
         operation_type="prop_card",
+        db=db,
     )
 
     prop_cards = []
@@ -227,7 +228,7 @@ def generate_prop_cards(major_props: dict, full_text: str, ai_engine) -> list[di
 # ─── Stage 3: Character variant generation ────────────────────────
 
 
-def generate_character_variant(char_data: dict, char_scenes: list[dict], ai_engine) -> list[dict]:
+def generate_character_variant(char_data: dict, char_scenes: list[dict], ai_engine, db=None) -> list[dict]:
     """Generate character variants for a single character.
 
     Ported from run_test_round10.py run_phase3() gen_variant() lines 1203-1239.
@@ -256,6 +257,7 @@ def generate_character_variant(char_data: dict, char_scenes: list[dict], ai_engi
         temperature=rendered["temperature"],
         max_tokens=rendered["max_tokens"],
         operation_type="character_variant",
+        db=db,
     )
 
     try:
@@ -273,7 +275,7 @@ def generate_character_variant(char_data: dict, char_scenes: list[dict], ai_engi
 
 
 def generate_minor_prop_visuals(
-    minor_props: dict, era_context: str, ai_engine
+    minor_props: dict, era_context: str, ai_engine, db=None
 ) -> list[dict]:
     """Batch-generate basic visual prompts for minor props.
 
@@ -311,6 +313,7 @@ def generate_minor_prop_visuals(
         temperature=rendered["temperature"],
         max_tokens=rendered["max_tokens"],
         operation_type="minor_prop_visual",
+        db=db,
     )
 
     try:

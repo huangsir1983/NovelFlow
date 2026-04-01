@@ -1,0 +1,26 @@
+{
+  "heading": "马球会的偶遇",
+  "location": "马球会场地",
+  "time_of_day": "白天",
+  "characters_present": [
+    "高令宁",
+    "蒋晟",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "高令宁与蒋晟参加马球会，看到沈词与陆姝仪亲密放风筝，高令宁假装崴脚与蒋晟亲近。",
+  "emotional_peak": "高令宁看到沈词宠溺看陆姝仪的眼神，心中暗骂；沈词看到高令宁与蒋晟亲近，眯起眼睛。",
+  "dramatic_purpose": "展现四人关系，高令宁故意刺激沈词。",
+  "key_props": [
+    "风筝",
+    "葡萄",
+    "马球"
+  ],
+  "visual_reference": "古代马球场，尘土飞扬，柳池边男女放风筝，另一对男女扶持。",
+  "visual_prompt_negative": "现代运动装备，清晰无尘的画面。",
+  "source_text_start": "马球会沙尘飞扬的场地上，他处处护着我",
+  "source_text_end": "他扶着我，慢慢地走。有道目光一直跟在身后，如芒在背。",
+  "is_flashback": false,
+  "scene_id": "scene_006",
+  "order": 5
+}

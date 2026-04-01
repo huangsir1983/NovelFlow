@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_028",
+  "order": 27,
+  "heading": "INT. 沈家新房 - night",
+  "location": "沈家洞房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "沈词"
+  ],
+  "core_event": "新婚夜里沈词带着讥讽与欲望靠近，我只把夫妻之实当任务，催他快些结束。",
+  "key_dialogue": "「再快点吧，我困了。」",
+  "emotional_peak": "他原想以身体占上风，却被我冷漠反应反制成更深的空虚。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 110,
+  "key_props": [
+    "丝带",
+    "喜被",
+    "床帐"
+  ],
+  "dramatic_purpose": "体现两人肉体亲密与情感疏离的极端反差，也为怀孕埋因。",
+  "visual_reference": "红烛残照的新房内，喜被凌乱，女子眼神潮红却空洞，男子俯身带着讥诮试探，气氛不是缠绵而是冷酷交易，压迫感强",
+  "visual_prompt_negative": "避免露骨色情，避免甜蜜洞房，避免现代床品",
+  "source_text_start": "入夜后，喧嚣如水退去。月光照亮了我潮红",
+  "source_text_end": "可我只是闭上眼，催促：「再快点吧，我困"
+}

@@ -1,0 +1,27 @@
+{
+  "scene_id": "scene_026",
+  "order": 25,
+  "heading": "INT. 高家厅堂 - day",
+  "location": "高家厅堂",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "父亲",
+    "媒人"
+  ],
+  "core_event": "媒人第三次上门，父亲终于在重压下答应婚事，却私下反复嘱咐我受委屈便和离回家。",
+  "key_dialogue": "「受了委屈便和离回家，为父再另为你安排亲事。」",
+  "emotional_peak": "父亲把娘家后路明确摆在我面前，成为我婚后最大的底气。",
+  "tension_score": 0.63,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "聘礼山",
+    "婚书",
+    "茶案"
+  ],
+  "dramatic_purpose": "强化父女关系与女主可退的归属，区别于前世无路可退。",
+  "visual_reference": "厅堂内聘礼堆如小山，父亲面带愁容坐在一旁，女儿轻轻为他捶肩，气氛并非喜庆而是沉重防备，婚事像一场风险交易",
+  "visual_prompt_negative": "避免婚庆喜乐喧嚣，避免现代礼盒，避免空镜无人物",
+  "source_text_start": "媒人第三次上门提亲。种种压力下，父亲应",
+  "source_text_end": "只可惜，当时我没听进去。在沈家高高的门"
+}

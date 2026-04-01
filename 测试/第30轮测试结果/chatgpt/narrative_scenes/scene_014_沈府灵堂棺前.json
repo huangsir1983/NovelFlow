@@ -1,0 +1,25 @@
+{
+  "scene_id": "scene_014",
+  "order": 13,
+  "heading": "FLASHBACK. 灵堂 - 日",
+  "location": "沈府灵堂棺前",
+  "time_of_day": "day",
+  "characters_present": [
+    "前世的沈词"
+  ],
+  "core_event": "我死后，沈词亲自为我收殓，又在棺前抱头无声痛哭，昔日互咒早死的夫妻最终只剩苍老凄凉。",
+  "key_dialogue": "「只做路人。」",
+  "emotional_peak": "迟到悲恸",
+  "tension_score": 0.61,
+  "estimated_duration_s": 50,
+  "key_props": [
+    "棺材",
+    "寿衣",
+    "灵堂白幡"
+  ],
+  "dramatic_purpose": "完成前世情感尾声，为今生重来奠定宿命感",
+  "visual_reference": "白幡低垂的灵堂中，男人孤身伏在棺前无声落泪，肩背佝偻，棺木沉重而冰冷，画面空旷，人生尽头的悔意扑面而来",
+  "visual_prompt_negative": "避免恐怖灵异效果，避免多人哭丧喧闹，避免现代葬礼元素",
+  "source_text_start": "我咽气后，他亲自抱着我遗体，清洗干净，穿上寿衣，没有半点假手于人。",
+  "source_text_end": "可谁能想到，真能重来呢？"
+}

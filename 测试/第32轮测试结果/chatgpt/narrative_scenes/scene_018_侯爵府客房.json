@@ -1,0 +1,29 @@
+{
+  "scene_id": "scene_018",
+  "order": 17,
+  "heading": "INT. 侯爵府客房 - day",
+  "location": "侯爵府客房",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "蒋晟",
+    "大夫",
+    "沈词",
+    "陆姝仪"
+  ],
+  "core_event": "大夫为我正骨时，几步之外沈词正温声哄着胃病发作的陆姝仪，我因此心灰意冷。",
+  "key_dialogue": "「我们回家吧。」",
+  "emotional_peak": "同一屋内两种照料方式并置，让我彻底感到索然无味。",
+  "tension_score": 0.76,
+  "estimated_duration_s": 85,
+  "key_props": [
+    "药碗",
+    "正骨木枕",
+    "塌椅"
+  ],
+  "dramatic_purpose": "展示女主情感上的抽离：从嫉妒转向疲惫。",
+  "visual_reference": "客房中分成两个视觉焦点，一边大夫为女子查看脚踝，蒋晟愧疚站立；另一边男子端药轻哄泪眼少女，同室却如两个世界",
+  "visual_prompt_negative": "避免医院现代化设施，避免多人拥挤混乱，避免强光喜庆",
+  "source_text_start": "大夫来看过了我的伤。脚踝错位，正骨完便",
+  "source_text_end": "我收回视线，只觉得索然无味。半晌，低声"
+}

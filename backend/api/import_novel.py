@@ -24,7 +24,7 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
 from config import settings
-from database import get_db, SessionLocal
+from database import get_db, SessionLocal, commit_with_retry
 from models.project import Project
 from models.chapter import Chapter
 from models.import_task import ImportTask
@@ -34,6 +34,11 @@ from models.prop import Prop
 from models.character_variant import CharacterVariant
 from models.style_template import StyleTemplate
 from services.event_bus import get_events, event_count, subscribe
+from services.storage_adapter import (
+    get_storage,
+    build_object_key,
+    mark_storage_read_failure,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -52,6 +57,17 @@ import threading
 _active_imports = 0
 _active_lock = threading.Lock()
 
+# SSE metrics (P0-4)
+_sse_metrics = {
+    "active_connections": 0,
+    "connections_total": 0,
+    "disconnects_total": 0,
+    "server_errors_total": 0,
+    "heartbeats_total": 0,
+    "timeouts_total": 0,
+}
+_sse_lock = threading.Lock()
+
 
 def get_active_import_count() -> int:
     """Return the current number of active imports (for health check)."""
@@ -62,6 +78,11 @@ def get_active_import_count() -> int:
 def shutdown_executor(wait: bool = True):
     """Graceful shutdown of the import executor (called from main.py)."""
     _import_executor.shutdown(wait=wait, cancel_futures=False)
+
+
+def get_sse_metrics() -> dict:
+    with _sse_lock:
+        return dict(_sse_metrics)
 
 
 # ─── Response Models ────────────────────────────────────────────
@@ -79,6 +100,10 @@ class ImportStatusResponse(BaseModel):
     current_phase: str
     progress: dict
     error: str | None = None
+    source_file_name: str | None = None
+    source_storage_provider: str | None = None
+    source_storage_key: str | None = None
+    source_storage_uri: str | None = None
 
 
 # Legacy response for backward compat
@@ -99,18 +124,20 @@ def import_novel(
     project_id: str,
     file: UploadFile = File(...),
     style_template_id: str | None = Query(None, description="Optional style template ID"),
+    start_pipeline: bool = Query(True, description="Whether to start the import pipeline immediately"),
     db: Session = Depends(get_db),
 ):
     """Upload a novel file and start async import pipeline. Returns task_id for SSE tracking."""
     global _active_imports
 
-    # Check concurrency limit
-    with _active_lock:
-        if _active_imports >= settings.max_concurrent_imports:
-            raise HTTPException(
-                status_code=429,
-                detail=f"Too many concurrent imports ({settings.max_concurrent_imports}). Please try again later.",
-            )
+    # Check concurrency limit (only when starting pipeline)
+    if start_pipeline:
+        with _active_lock:
+            if _active_imports >= settings.max_concurrent_imports:
+                raise HTTPException(
+                    status_code=429,
+                    detail=f"Too many concurrent imports ({settings.max_concurrent_imports}). Please try again later.",
+                )
 
     # Validate project exists
     project = db.query(Project).filter(Project.id == project_id).first()
@@ -137,11 +164,27 @@ def import_novel(
     if len(file_bytes) > max_size:
         raise HTTPException(status_code=400, detail=f"File too large. Max: {settings.max_upload_size_mb}MB")
 
+    task_id = str(uuid4())
+
+    # Store raw upload to storage backend (P0-3 compatibility mode)
+    source_file_name = file.filename or "upload.txt"
+    storage_result = None
+    try:
+        storage = get_storage()
+        object_key = build_object_key(project_id=project_id, task_id=task_id, filename=source_file_name)
+        storage_result = storage.put_bytes(
+            object_key=object_key,
+            data=file_bytes,
+            content_type=file.content_type,
+        )
+    except Exception as e:
+        logger.warning("Upload storage failed, continue with legacy DB text path: %s", e)
+
     # Read file content
     from services.novel_parser import read_file
 
     try:
-        full_text = read_file(file_bytes, file.filename or "upload.txt")
+        full_text = read_file(file_bytes, source_file_name)
     except Exception as e:
         logger.error(f"Failed to read file: {e}")
         raise HTTPException(status_code=400, detail=f"Failed to read file: {str(e)}")
@@ -150,7 +193,6 @@ def import_novel(
         raise HTTPException(status_code=400, detail="File is empty")
 
     # Create ImportTask
-    task_id = str(uuid4())
     task = ImportTask(
         id=task_id,
         project_id=project_id,
@@ -159,44 +201,95 @@ def import_novel(
         progress={},
         full_text=full_text,
         style_template_id=style_template_id,
+        source_file_name=source_file_name,
+        source_storage_provider=storage_result.provider if storage_result else None,
+        source_storage_key=storage_result.object_key if storage_result else None,
+        source_storage_uri=storage_result.uri if storage_result else None,
+        source_file_size=(storage_result.size_bytes if storage_result else len(file_bytes)),
     )
     db.add(task)
-    db.commit()
+    commit_with_retry(db)
 
-    # Submit to bounded thread pool
-    _submit_pipeline(task_id, project_id, full_text)
+    # Only submit pipeline if start_pipeline=True
+    if start_pipeline:
+        _submit_pipeline(task_id, project_id, full_text, tenant_id="default")
 
     return ImportTaskResponse(
         task_id=task_id,
         status="pending",
-        current_phase="streaming",
+        current_phase="streaming" if start_pipeline else "waiting",
     )
 
 
-def _submit_pipeline(task_id: str, project_id: str, full_text: str):
-    """Submit a pipeline run to the bounded executor with active count tracking."""
+def _submit_pipeline(task_id: str, project_id: str, full_text: str, tenant_id: str = "default"):
+    """Submit a pipeline run with concurrent quota checks."""
+    _submit_pipeline_with_mode(task_id, project_id, full_text, mode="full", tenant_id=tenant_id)
+
+
+def _submit_pipeline_with_mode(
+    task_id: str,
+    project_id: str,
+    full_text: str,
+    mode: str = "full",
+    tenant_id: str = "default",
+):
+    """Submit import pipeline task with quota checks and queue fallback."""
     global _active_imports
 
-    from services.import_pipeline import ImportPipeline
+    from services.task_quota import acquire_quota, release_quota
 
-    pipeline = ImportPipeline(
-        task_id=task_id,
-        project_id=project_id,
-        full_text=full_text,
-        db_factory=SessionLocal,
-    )
+    ok, reason, lease = acquire_quota("import", tenant_id=tenant_id, project_id=project_id)
+    if not ok:
+        raise HTTPException(status_code=429, detail={"code": "quota_exceeded", **reason})
 
-    def _run_and_track():
-        global _active_imports
-        with _active_lock:
-            _active_imports += 1
-        try:
-            pipeline.run()
-        finally:
-            with _active_lock:
-                _active_imports -= 1
+    try:
+        if settings.use_celery_queue:
+            from tasks.import_tasks import run_import_pipeline
 
-    _import_executor.submit(_run_and_track)
+            run_import_pipeline.delay(task_id, project_id, full_text, mode, tenant_id)
+            return
+
+        # local fallback — run in background thread so the HTTP response returns immediately
+        from services.import_pipeline import ImportPipeline
+
+        def _run_pipeline():
+            global _active_imports
+            logger.info("EXECUTOR_START: task=%s mode=%s", task_id, mode)
+            try:
+                pipeline = ImportPipeline(
+                    task_id=task_id,
+                    project_id=project_id,
+                    full_text=full_text,
+                    db_factory=SessionLocal,
+                    mode=mode,
+                )
+                with _active_lock:
+                    _active_imports += 1
+                try:
+                    pipeline.run()
+                finally:
+                    with _active_lock:
+                        _active_imports -= 1
+            except Exception:
+                logger.exception("Pipeline thread FAILED: task=%s", task_id)
+                # Mark task as failed in DB so frontend sees the error
+                try:
+                    fail_db = SessionLocal()
+                    fail_task = fail_db.query(ImportTask).filter(ImportTask.id == task_id).first()
+                    if fail_task:
+                        fail_task.status = "failed"
+                        fail_task.error = "Pipeline execution failed"
+                        commit_with_retry(fail_db)
+                    fail_db.close()
+                except Exception:
+                    pass
+            finally:
+                release_quota(lease)
+
+        _import_executor.submit(_run_pipeline)
+    except Exception:
+        release_quota(lease)
+        raise
 
 
 # ─── GET: SSE Event Stream ─────────────────────────────────────
@@ -226,6 +319,10 @@ def import_events(
         """
         last_event_idx = 0
         max_idle_cycles = 480  # ~2 hours at 15s per cycle
+
+        with _sse_lock:
+            _sse_metrics["active_connections"] += 1
+            _sse_metrics["connections_total"] += 1
 
         try:
             for _ in range(max_idle_cycles):
@@ -263,16 +360,27 @@ def import_events(
                 notified = subscribe(task_id, timeout=15.0)
                 if not notified:
                     # Timeout — send heartbeat
+                    with _sse_lock:
+                        _sse_metrics["heartbeats_total"] += 1
                     yield ": heartbeat\n\n"
 
             # Max idle reached
             logger.warning(f"SSE stream for task {task_id} reached max idle cycles")
+            with _sse_lock:
+                _sse_metrics["timeouts_total"] += 1
             yield f"data: {json.dumps({'type': 'error', 'message': 'SSE stream timeout', 'retryable': True}, ensure_ascii=False)}\n\n"
 
         except GeneratorExit:
+            with _sse_lock:
+                _sse_metrics["disconnects_total"] += 1
             logger.info(f"SSE client disconnected for task {task_id}")
         except Exception as e:
+            with _sse_lock:
+                _sse_metrics["server_errors_total"] += 1
             logger.warning(f"SSE stream error for task {task_id}: {e}")
+        finally:
+            with _sse_lock:
+                _sse_metrics["active_connections"] = max(0, _sse_metrics["active_connections"] - 1)
 
     return StreamingResponse(
         event_stream(),
@@ -309,6 +417,46 @@ def import_status(
         current_phase=task.current_phase,
         progress=task.progress or {},
         error=task.error,
+        source_file_name=task.source_file_name,
+        source_storage_provider=task.source_storage_provider,
+        source_storage_key=task.source_storage_key,
+        source_storage_uri=task.source_storage_uri,
+    )
+
+
+# ─── GET: Latest Status (no task_id needed) ──────────────────
+
+
+@router.get("/projects/{project_id}/import/latest-status", response_model=ImportStatusResponse)
+def import_latest_status(
+    project_id: str,
+    db: Session = Depends(get_db),
+):
+    """Return the latest import task status for a project.
+
+    Unlike /status, this does NOT require a task_id query param —
+    it automatically finds the most recent task.
+    Useful for page-load reconnection when the client has lost the task_id.
+    """
+    task = (
+        db.query(ImportTask)
+        .filter(ImportTask.project_id == project_id)
+        .order_by(ImportTask.created_at.desc())
+        .first()
+    )
+    if not task:
+        raise HTTPException(status_code=404, detail="No import task found")
+
+    return ImportStatusResponse(
+        task_id=task.id,
+        status=task.status,
+        current_phase=task.current_phase or "",
+        progress=task.progress or {},
+        error=task.error,
+        source_file_name=task.source_file_name,
+        source_storage_provider=task.source_storage_provider,
+        source_storage_key=task.source_storage_key,
+        source_storage_uri=task.source_storage_uri,
     )
 
 
@@ -345,10 +493,26 @@ def import_retry(
     # Reset status to running, keep current_phase for resume
     task.status = "pending"
     task.error = None
-    db.commit()
+    commit_with_retry(db)
 
-    # We need the original full text — try task.full_text first, then reconstruct from chapters.
-    full_text = task.full_text
+    # Prefer recovering original text from storage source file, then fallback to legacy full_text/chapters.
+    full_text = ""
+
+    if task.source_storage_key:
+        try:
+            from services.novel_parser import read_file
+
+            storage = get_storage()
+            raw_bytes = storage.get_bytes(object_key=task.source_storage_key)
+            full_text = read_file(raw_bytes, task.source_file_name or "upload.txt")
+            logger.info("Retry loaded source file from storage key=%s", task.source_storage_key)
+        except Exception as e:
+            logger.warning("Retry storage source load failed, fallback to legacy path: %s", e)
+            mark_storage_read_failure()
+
+    if not full_text:
+        full_text = task.full_text or ""
+
     if not full_text:
         chapters = (
             db.query(Chapter)
@@ -364,13 +528,61 @@ def import_retry(
                 detail="No original text found. Please re-upload the file.",
             )
 
-    _submit_pipeline(task_id, project_id, full_text)
+    _submit_pipeline(task_id, project_id, full_text, tenant_id="default")
 
     return ImportTaskResponse(
         task_id=task_id,
         status="running",
         current_phase=task.current_phase,
     )
+
+
+# ─── POST: Cancel Import ──────────────────────────────────────
+
+
+@router.post("/projects/{project_id}/import/cancel")
+def import_cancel(
+    project_id: str,
+    task_id: str = Query(...),
+    db: Session = Depends(get_db),
+):
+    """Cancel a running import pipeline. Marks as failed and signals pipeline to stop."""
+    from services.import_pipeline import ImportPipeline
+
+    task = db.query(ImportTask).filter(
+        ImportTask.id == task_id,
+        ImportTask.project_id == project_id,
+    ).first()
+    if not task:
+        raise HTTPException(status_code=404, detail="Import task not found")
+
+    if task.status not in ("running", "pending"):
+        return {"status": "already_stopped", "task_id": task_id}
+
+    # Signal pipeline threads to cancel
+    with ImportPipeline._active_lock:
+        for pipeline in ImportPipeline._active_pipelines:
+            if pipeline.task_id == task_id:
+                pipeline._cancelled = True
+                logger.info(f"Cancel signal sent to pipeline {task_id}")
+                break
+
+    # Update DB status
+    task.status = "failed"
+    task.error = "用户手动取消"
+    commit_with_retry(db)
+
+    # Push cancel event so SSE picks it up
+    from services.event_bus import push_event
+    push_event(task_id, {
+        "type": "error",
+        "message": "用户手动取消",
+        "phase": task.current_phase,
+        "retryable": True,
+        "timestamp": time.time(),
+    })
+
+    return {"status": "cancelled", "task_id": task_id}
 
 
 # ─── GET: Style Templates ──────────────────────────────────────
@@ -548,11 +760,20 @@ def get_project_variants(
         .filter(CharacterVariant.project_id == project_id)
         .all()
     )
+    # Build character_id → name lookup
+    char_ids = {v.character_id for v in variants if v.character_id}
+    char_name_map = {}
+    if char_ids:
+        from models.character import Character as CharModel
+        chars = db.query(CharModel.id, CharModel.name).filter(CharModel.id.in_(char_ids)).all()
+        char_name_map = {c.id: c.name for c in chars}
+
     return [
         {
             "id": v.id,
             "project_id": v.project_id,
             "character_id": v.character_id,
+            "character_name": char_name_map.get(v.character_id, ""),
             "variant_type": v.variant_type or "",
             "variant_name": v.variant_name or "",
             "tags": v.tags or [],

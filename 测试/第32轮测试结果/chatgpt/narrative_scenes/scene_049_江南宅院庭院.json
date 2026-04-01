@@ -1,0 +1,28 @@
+{
+  "scene_id": "scene_049",
+  "order": 48,
+  "heading": "EXT. 江南雪院 - day",
+  "location": "江南宅院庭院",
+  "time_of_day": "day",
+  "characters_present": [
+    "我",
+    "昭昭",
+    "沈词",
+    "几位赘婿人选"
+  ],
+  "core_event": "冬雪后沈词突然来到江南，恰撞见我院中已有数位赘婿人选陪昭昭玩雪，脸色当场阴沉。",
+  "key_dialogue": "「他们是谁？」「我的新夫婿。」",
+  "emotional_peak": "他费尽心思试探未果，现实却是我身边真的有了替代者。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 100,
+  "key_props": [
+    "雪球",
+    "院门",
+    "嗑瓜子"
+  ],
+  "dramatic_purpose": "把沈词彻底推入被动追逐的位置，也制造最后一轮情感对峙。",
+  "visual_reference": "雪后的江南院子明亮清寒，小女孩与几名相貌出众男子堆雪嬉闹，女主在廊下悠闲嗑瓜子，院门处沈词站住，肩头挨了雪球，神色骤沉",
+  "visual_prompt_negative": "避免现代羽绒服雪人元素，避免轻松搞笑综艺感，避免北方大宅错误风格",
+  "source_text_start": "冬雪过后, 我推开院门。爹爹在江南替我",
+  "source_text_end": "我不耐烦地推开了他：「客房在里面, 去"
+}

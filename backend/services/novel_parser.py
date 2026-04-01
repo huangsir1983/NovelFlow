@@ -239,12 +239,18 @@ def extract_scenes(chapter_text: str, db=None) -> list[dict]:
     return _parse_json_response(result["content"], default=[])
 
 
-def generate_beats(chapter_text: str, db=None) -> list[dict]:
+def generate_beats(chapter_text: str, prev_scene_emotion: str = "",
+                    next_scene_emotion: str = "", db=None) -> list[dict]:
     """Generate beat sheet from a chapter using AI (standard tier)."""
     from services.ai_engine import ai_engine
     from services.prompt_templates import render_prompt
 
-    prompt = render_prompt("P10_NOVEL_TO_BEAT", text=chapter_text[:40000])
+    prompt = render_prompt(
+        "P10_NOVEL_TO_BEAT",
+        text=chapter_text[:40000],
+        prev_scene_emotion=prev_scene_emotion or "（无前序场景情绪信息）",
+        next_scene_emotion=next_scene_emotion or "（无后续场景情绪信息）",
+    )
     result = ai_engine.call(
         system=prompt["system"],
         messages=[{"role": "user", "content": prompt["user"]}],
@@ -719,7 +725,8 @@ def _normalize(text: str) -> str:
 
 
 def decompose_scene_to_shots(scene_json: dict, character_profiles: str,
-                              style_guide: str, db=None) -> list[dict]:
+                              style_guide: str, prev_scene_context: str = "",
+                              next_scene_context: str = "", db=None) -> list[dict]:
     """Phase 3: Decompose a scene into individual shot cards.
 
     Uses existing P06_SCENE_TO_SHOT template.
@@ -732,6 +739,8 @@ def decompose_scene_to_shots(scene_json: dict, character_profiles: str,
         scene_json=json.dumps(scene_json, ensure_ascii=False),
         character_profiles=character_profiles,
         style_guide=style_guide,
+        prev_scene_context=prev_scene_context or "（无前序场景）",
+        next_scene_context=next_scene_context or "（无后续场景）",
     )
     result = ai_engine.call(
         system=prompt["system"],

@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_015",
+  "order": 14,
+  "heading": "INT. 高家书房 - 夜",
+  "location": "高家书房",
+  "time_of_day": "night",
+  "characters_present": [
+    "我",
+    "父亲"
+  ],
+  "core_event": "父亲因担心我嫁入沈家受委屈，决定改变主意，我则借机要求他尽早辞官、远离党争，以先保住高家命运。",
+  "key_dialogue": "「别再掺合朝堂的浑水了。」",
+  "emotional_peak": "护家决心",
+  "tension_score": 0.63,
+  "estimated_duration_s": 70,
+  "key_props": [
+    "辞官奏折",
+    "毛笔",
+    "书案"
+  ],
+  "dramatic_purpose": "推进女主改写家破人亡命运的支线目标",
+  "visual_reference": "夜色书房，父亲伏案写奏折，女儿立在一旁盯着纸面，神情冷静坚决，烛火映出父亲脸上皱纹与迟疑，家族命运感强",
+  "visual_prompt_negative": "避免朝堂大殿场面，避免欢快父女相处，避免现代书房陈设",
+  "source_text_start": "父亲不放心让我嫁入沈家。",
+  "source_text_end": "盯着父亲写完辞官的奏折。"
+}

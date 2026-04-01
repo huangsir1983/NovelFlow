@@ -1,0 +1,26 @@
+{
+  "scene_id": "scene_008",
+  "order": 7,
+  "heading": "FLASHBACK. 荷花亭 - dusk",
+  "location": "沈府荷花亭",
+  "time_of_day": "dusk",
+  "characters_present": [
+    "我",
+    "陆姝仪"
+  ],
+  "core_event": "陆姝仪在荷花亭内以胜利者姿态羞辱我，明言我苦求的夫妻疼爱只是她指缝流出的残羹。",
+  "key_dialogue": "「有些事，是强求不来的。」",
+  "emotional_peak": "她用温柔语气刺穿我多年来自我说服的体面。",
+  "tension_score": 0.9,
+  "estimated_duration_s": 90,
+  "key_props": [
+    "荷花亭栏杆",
+    "团扇",
+    "香帕"
+  ],
+  "dramatic_purpose": "形成情感羞辱的具体记忆，为后续陆姝仪之死与误会埋下心理炸点。",
+  "visual_reference": "傍晚荷花亭，水面映着余晖，陆姝仪笑意温柔却眼神锋利，主角立在一旁强撑体面，亭中空气像丝线般绷紧，柔美环境与恶意台词形成反差",
+  "visual_prompt_negative": "避免肢体冲突，避免夸张恶女表情，避免现代园林元素",
+  "source_text_start": "就像那个下午，荷花亭内，陆姝仪笑吟吟同",
+  "source_text_end": "「高姑娘，你不觉得自己很可笑吗？」"
+}
