@@ -10,6 +10,14 @@ function getXyflowHelpers() {
   return { applyNodeChanges: xyflow.applyNodeChanges, applyEdgeChanges: xyflow.applyEdgeChanges };
 }
 
+interface AIMessage {
+  id: string;
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+  timestamp: number;
+  action?: string; // 'assign-modules' | 'analyze-storyboard' | etc.
+}
+
 interface CanvasStoreState {
   /* React Flow data */
   nodes: Node[];
@@ -26,6 +34,11 @@ interface CanvasStoreState {
   promptBarExpanded: boolean;
   promptBarContent: string;
   promptBarMode: 'ai' | 'edit';
+
+  /* AI Assistant Panel */
+  aiPanelOpen: boolean;
+  aiMessages: AIMessage[];
+  aiProcessing: boolean;
 
   /* Navigation */
   focusedSceneId: string | null;
@@ -49,6 +62,14 @@ interface CanvasStoreState {
   setFocusedSceneId: (sceneId: string | null) => void;
   cacheNodePosition: (nodeId: string, x: number, y: number) => void;
   getCachedPosition: (nodeId: string) => { x: number; y: number } | undefined;
+
+  /* AI Panel actions */
+  toggleAIPanel: () => void;
+  setAIPanelOpen: (open: boolean) => void;
+  addAIMessage: (msg: AIMessage) => void;
+  appendToLastAIMessage: (chunk: string) => void;
+  setAIProcessing: (processing: boolean) => void;
+  clearAIMessages: () => void;
 }
 
 export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
@@ -67,6 +88,10 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
 
   focusedSceneId: null,
   positionCache: {},
+
+  aiPanelOpen: false,
+  aiMessages: [],
+  aiProcessing: false,
 
   setNodes: (nodes) => set({ nodes }),
   setEdges: (edges) => set({ edges }),
@@ -108,4 +133,17 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
     set((s) => ({ positionCache: { ...s.positionCache, [nodeId]: { x, y } } })),
 
   getCachedPosition: (nodeId) => get().positionCache[nodeId],
+
+  toggleAIPanel: () => set((s) => ({ aiPanelOpen: !s.aiPanelOpen })),
+  setAIPanelOpen: (open) => set({ aiPanelOpen: open }),
+  addAIMessage: (msg) => set((s) => ({ aiMessages: [...s.aiMessages, msg] })),
+  appendToLastAIMessage: (chunk) => set((s) => {
+    const msgs = [...s.aiMessages];
+    if (msgs.length > 0 && msgs[msgs.length - 1].role === 'assistant') {
+      msgs[msgs.length - 1] = { ...msgs[msgs.length - 1], content: msgs[msgs.length - 1].content + chunk };
+    }
+    return { aiMessages: msgs };
+  }),
+  setAIProcessing: (aiProcessing) => set({ aiProcessing }),
+  clearAIMessages: () => set({ aiMessages: [] }),
 }));

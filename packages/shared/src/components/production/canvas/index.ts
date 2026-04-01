@@ -5,6 +5,7 @@ export { ImageGenerationNode } from './ImageGenerationNode';
 export { VideoGenerationNode } from './VideoGenerationNode';
 export { PipelineEdge } from './CanvasEdge';
 export { SelectionToolbar } from './SelectionToolbar';
+export { MODULE_TEMPLATES, detectModuleType } from './ModuleTemplates';
 
 /* React Flow nodeTypes / edgeTypes registries */
 import { SceneNode } from './SceneNode';

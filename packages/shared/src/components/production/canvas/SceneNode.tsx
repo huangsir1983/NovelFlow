@@ -1,10 +1,19 @@
 'use client';
 
 import { memo, useState, useEffect, useRef, useCallback } from 'react';
-import { type NodeProps, type Node } from '@xyflow/react';
+import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { SceneNodeData } from '../../../types/canvas';
+import type { CanvasModuleType } from '../../../types/canvas';
 
 type SceneNode = Node<SceneNodeData, 'scene'>;
+
+const MODULE_BADGE: Record<CanvasModuleType, { color: string; label: string; icon: string }> = {
+  dialogue:  { color: '#378ADD', label: '对话', icon: '💬' },
+  action:    { color: '#D85A30', label: '动作', icon: '⚔️' },
+  suspense:  { color: '#534AB7', label: '悬疑', icon: '🔍' },
+  landscape: { color: '#1D9E75', label: '转场', icon: '🏔' },
+  emotion:   { color: '#D4537E', label: '情感', icon: '💭' },
+};
 
 const CONNECT_MENU = [
   { icon: '≡', label: '文本生成', desc: '脚本、广告词、品牌文案', key: 'text' },
@@ -190,6 +199,8 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
 
   return (
     <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
+      <Handle type="target" position={Position.Left} />
+      <Handle type="source" position={Position.Right} />
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, paddingLeft: 4 }}>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)' }}>≡</span>
@@ -220,13 +231,14 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
             </span>
           </div>
 
-          <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
+          <div style={{ display: 'flex', gap: 8, marginBottom: 16, flexWrap: 'wrap' }}>
             {data.location && <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', backgroundColor: 'rgba(255,255,255,0.04)', padding: '4px 10px', borderRadius: 8 }}>{data.location}</span>}
             {data.timeOfDay && <span style={{ fontSize: 11, color: 'rgba(255,180,50,0.4)', backgroundColor: 'rgba(255,180,50,0.05)', padding: '4px 10px', borderRadius: 8 }}>{data.timeOfDay}</span>}
+            {data.emotionalPeak && <span style={{ fontSize: 11, color: 'rgba(255,100,150,0.5)', backgroundColor: 'rgba(255,100,150,0.06)', padding: '4px 10px', borderRadius: 8 }}>{data.emotionalPeak}</span>}
           </div>
 
           <p style={{ fontSize: 12, lineHeight: 1.7, color: selected ? 'rgba(255,255,255,0.4)' : 'rgba(255,255,255,0.22)', marginBottom: 16, display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
-            {data.description || '暂无描述'}
+            {data.coreEvent || data.description || '暂无描述'}
           </p>
 
           {data.characterNames.length > 0 && (
@@ -237,7 +249,18 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
             </div>
           )}
 
-          <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.18)' }}>{data.shotCount} 个镜头</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.18)' }}>{data.shotCount} 个镜头</div>
+            {data.moduleType && MODULE_BADGE[data.moduleType] && (
+              <span style={{
+                fontSize: 10, padding: '2px 8px', borderRadius: 6, fontWeight: 500,
+                backgroundColor: MODULE_BADGE[data.moduleType].color + '18',
+                color: MODULE_BADGE[data.moduleType].color,
+              }}>
+                {MODULE_BADGE[data.moduleType].icon} {MODULE_BADGE[data.moduleType].label}
+              </span>
+            )}
+          </div>
         </div>
 
         <svg style={{ position: 'absolute', bottom: 8, right: 8 }} width="10" height="10" viewBox="0 0 10 10" fill="none">

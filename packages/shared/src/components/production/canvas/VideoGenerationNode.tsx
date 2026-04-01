@@ -1,7 +1,7 @@
 'use client';
 
 import { memo, useState } from 'react';
-import { type NodeProps, type Node } from '@xyflow/react';
+import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { VideoGenerationNodeData } from '../../../types/canvas';
 
 type VideoGenerationNode = Node<VideoGenerationNodeData, 'videoGeneration'>;
@@ -11,48 +11,62 @@ const MODE_LABEL: Record<string, string> = { text_to_video: 'T2V', image_to_vide
 function VideoGenerationNodeComponent({ data, selected }: NodeProps<VideoGenerationNode>) {
   const [hovered, setHovered] = useState(false);
 
+  const cardBg = selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e';
+  const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
+
   return (
     <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="relative" style={{ width: 290 }}>
-      <div className="flex items-center gap-1.5 mb-2 pl-1">
-        <span className="text-[12px] text-white/20">▶</span>
-        <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-fuchsia-400/90' : 'text-fuchsia-400/50'}`}>Video</span>
+      <Handle type="target" position={Position.Left} />
+      <Handle type="source" position={Position.Right} />
+      <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, paddingLeft: 4 }}>
+        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)' }}>▶</span>
+        <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? 'rgba(232,121,249,0.9)' : 'rgba(232,121,249,0.5)' }}>Video</span>
       </div>
 
-      <div className={`relative overflow-hidden transition-all duration-200 ${selected ? 'shadow-[0_2px_24px_rgba(255,255,255,0.03)]' : ''}`} style={{ borderRadius: 16 }}>
-        <div style={{ borderRadius: 16 }} className={`absolute inset-0 transition-colors duration-200 ${selected ? 'bg-[#1f2129]' : hovered ? 'bg-[#1a1c23]' : 'bg-[#16181e]'}`} />
-        <div style={{ borderRadius: 16 }} className={`absolute inset-0 pointer-events-none transition-colors duration-200 border ${selected ? 'border-white/[0.16]' : hovered ? 'border-white/[0.12]' : 'border-white/[0.06]'}`} />
-        <div className="absolute top-0 right-0 z-[1]"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M0 0L20 0L20 20Z" fill="white" fillOpacity="0.04" /></svg></div>
-
-        <div className="relative z-[1] p-5">
-          <div className="flex items-center gap-2 mb-3">
-            <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded ${selected ? 'text-fuchsia-300/70 bg-fuchsia-400/10' : 'text-white/25 bg-white/[0.04]'}`}>{MODE_LABEL[data.mode] || 'Video'}</span>
-            {data.durationMs > 0 && <span className="text-[10px] text-white/22">{(data.durationMs / 1000).toFixed(1)}s</span>}
+      <div style={{
+        borderRadius: 16, position: 'relative', overflow: 'hidden',
+        backgroundColor: cardBg, border: `1px solid ${cardBorder}`,
+        boxShadow: selected ? '0 2px 24px rgba(255,255,255,0.03)' : 'none',
+        transition: 'background-color 0.2s, border-color 0.2s',
+      }}>
+        <div style={{ position: 'relative', zIndex: 1, padding: 20 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+            <span style={{
+              fontSize: 10, fontFamily: 'monospace', padding: '2px 6px', borderRadius: 4,
+              color: selected ? 'rgba(232,121,249,0.7)' : 'rgba(255,255,255,0.25)',
+              backgroundColor: selected ? 'rgba(232,121,249,0.1)' : 'rgba(255,255,255,0.04)',
+            }}>{MODE_LABEL[data.mode] || 'Video'}</span>
+            {data.durationMs > 0 && <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.22)' }}>{(data.durationMs / 1000).toFixed(1)}s</span>}
           </div>
 
-          <div className={`w-full h-[100px] rounded-xl mb-3 flex items-center justify-center overflow-hidden ${selected ? 'bg-white/[0.03]' : 'bg-white/[0.015]'}`}>
+          <div style={{
+            width: '100%', height: 100, borderRadius: 12, marginBottom: 12, overflow: 'hidden',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            backgroundColor: selected ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.015)',
+          }}>
             {data.videoUrl ? (
-              <video src={data.videoUrl} className="w-full h-full object-cover" muted loop playsInline
+              <video src={data.videoUrl} style={{ width: '100%', height: '100%', objectFit: 'cover' }} muted loop playsInline
                 onMouseEnter={(e) => (e.target as HTMLVideoElement).play()}
                 onMouseLeave={(e) => { const v = e.target as HTMLVideoElement; v.pause(); v.currentTime = 0; }} />
             ) : (
-              <div className="flex flex-col items-center gap-1">
-                <span className="text-lg text-white/5">▶</span>
-                <span className="text-[10px] text-white/10">{data.status === 'running' ? '生成中...' : '待生成'}</span>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+                <span style={{ fontSize: 18, color: 'rgba(255,255,255,0.05)' }}>▶</span>
+                <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.1)' }}>{data.status === 'running' ? '生成中...' : '待生成'}</span>
               </div>
             )}
           </div>
 
           {data.status === 'running' && (
-            <div className="flex items-center gap-2">
-              <div className="h-1 flex-1 rounded-full bg-white/[0.03] overflow-hidden"><div className="h-full bg-fuchsia-400/50 rounded-full" style={{ width: `${data.progress}%` }} /></div>
-              <span className="text-[10px] text-white/22">{data.progress}%</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <div style={{ height: 4, flex: 1, borderRadius: 99, backgroundColor: 'rgba(255,255,255,0.03)', overflow: 'hidden' }}>
+                <div style={{ height: '100%', backgroundColor: 'rgba(232,121,249,0.5)', borderRadius: 99, width: `${data.progress}%` }} />
+              </div>
+              <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.22)' }}>{data.progress}%</span>
             </div>
           )}
-          {data.status === 'success' && data.videoUrl && <div className="text-[10px] text-emerald-400/35">生成完成</div>}
-          {data.status === 'error' && data.errorMessage && <div className="text-[10px] text-red-400/45 truncate">{data.errorMessage}</div>}
+          {data.status === 'success' && data.videoUrl && <div style={{ fontSize: 10, color: 'rgba(52,211,153,0.35)' }}>生成完成</div>}
+          {data.status === 'error' && data.errorMessage && <div style={{ fontSize: 10, color: 'rgba(248,113,113,0.45)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{data.errorMessage}</div>}
         </div>
-
-        <div className="absolute bottom-2 right-2 z-[1]"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M9 1L1 9M9 4.5L4.5 9M9 8L8 9" stroke="white" strokeOpacity="0.06" strokeWidth="1" strokeLinecap="round" /></svg></div>
       </div>
     </div>
   );

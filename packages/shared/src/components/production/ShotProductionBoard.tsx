@@ -79,6 +79,8 @@ import { canvasNodeTypes, canvasEdgeTypes, SelectionToolbar } from './canvas';
 import { SceneListPanel } from './canvas/SceneListPanel';
 import { VideoPreviewPanel } from './canvas/VideoPreviewPanel';
 import { PromptBar } from './canvas/PromptBar';
+import { AIAssistantPanel } from './canvas/AIAssistantPanel';
+import { NodeFloatingToolbar } from './canvas/NodeFloatingToolbar';
 
 interface ShotProductionBoardProps {
   projectName: string;
@@ -103,6 +105,9 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   const rightPanelOpen = useCanvasStore((s) => s.rightPanelOpen);
   const toggleLeftPanel = useCanvasStore((s) => s.toggleLeftPanel);
   const toggleRightPanel = useCanvasStore((s) => s.toggleRightPanel);
+  const aiPanelOpen = useCanvasStore((s) => s.aiPanelOpen);
+  const toggleAIPanel = useCanvasStore((s) => s.toggleAIPanel);
+  const viewport = useCanvasStore((s) => s.viewport);
 
   const scenes = useProjectStore((s) => s.scenes);
 
@@ -140,7 +145,7 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   }
 
   return (
-    <div className="relative h-full w-full bg-black">
+    <div className="relative h-full w-full bg-black" onContextMenu={(e) => e.preventDefault()}>
       <style dangerouslySetInnerHTML={{ __html: RF_OVERRIDES }} />
       {/* React Flow Canvas */}
       <ReactFlow
@@ -154,26 +159,30 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         onSelectionChange={handleSelectionChange}
         onNodeClick={handleNodeClick}
         onPaneClick={handlePaneClick}
-        defaultViewport={{ x: 50, y: 50, zoom: 0.6 }}
-        minZoom={0.05}
+        defaultViewport={{ x: 50, y: 50, zoom: 0.4 }}
+        minZoom={0.02}
         maxZoom={3}
         proOptions={{ hideAttribution: true }}
         defaultEdgeOptions={{
           type: 'pipeline',
-          animated: true,
+          animated: false,
         }}
+        onlyRenderVisibleElements
         selectNodesOnDrag={false}
         nodesDraggable
         panOnDrag={[1, 2]}
         zoomOnScroll
       >
-        <Background
-          variant={BackgroundVariant.Dots}
-          gap={20}
-          size={1.5}
-          color="rgba(255,255,255,0.18)"
-          style={{ backgroundColor: '#000000' }}
-        />
+        {/* Dynamic background: hide dots when zoomed out */}
+        {viewport.zoom > 0.25 && (
+          <Background
+            variant={BackgroundVariant.Dots}
+            gap={20}
+            size={Math.max(0.5, 1.5 * viewport.zoom)}
+            color={`rgba(255,255,255,${Math.min(0.18, viewport.zoom * 0.3)})`}
+            style={{ backgroundColor: '#000000' }}
+          />
+        )}
         <MiniMap
           nodeColor={(n) => {
             const nt = n.type;
@@ -185,6 +194,7 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
             return 'rgba(255,255,255,0.2)';
           }}
           maskColor="rgba(0,0,0,0.8)"
+          position="bottom-left"
           style={{
             backgroundColor: 'rgba(10,15,26,0.95)',
             border: '1px solid rgba(255,255,255,0.08)',
@@ -195,6 +205,7 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         />
         <Controls
           showInteractive={false}
+          position="bottom-left"
           style={{
             backgroundColor: 'rgba(10,15,26,0.95)',
             border: '1px solid rgba(255,255,255,0.08)',
@@ -237,6 +248,11 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         onGroupSelected={() => {/* TODO: grouping */}}
       />
 
+      {/* Floating toolbar for selected node (edit bar + AI input) */}
+      {selectedNodeIds.length === 1 && (
+        <NodeFloatingToolbar nodeId={selectedNodeIds[0]} />
+      )}
+
       {/* Panel toggle buttons */}
       <button
         onClick={toggleLeftPanel}
@@ -260,6 +276,41 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
       >
         {rightPanelOpen ? '▶' : '◀'}
       </button>
+
+      {/* AI Assistant Panel */}
+      <AIAssistantPanel />
+
+      {/* AI Panel toggle — floating circle button (bottom-right) */}
+      {!aiPanelOpen && (
+        <div
+          onClick={toggleAIPanel}
+          onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.1)'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}
+          style={{
+            position: 'absolute',
+            bottom: 24,
+            right: 24,
+            zIndex: 100,
+            width: 48,
+            height: 48,
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
+            boxShadow: '0 4px 20px rgba(99, 102, 241, 0.4)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#fff',
+            fontSize: 20,
+            cursor: 'pointer',
+            transition: 'transform 0.15s',
+            pointerEvents: 'auto',
+          }}
+          title="AI 创作助手"
+          role="button"
+        >
+          ✦
+        </div>
+      )}
     </div>
   );
 }

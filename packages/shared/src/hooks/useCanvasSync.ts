@@ -28,6 +28,7 @@ export function useCanvasSync() {
     const hash = JSON.stringify({
       sceneCount: scenes.length,
       sceneIds: scenes.map((s) => s.id).join(','),
+      scenesWithScript: scenes.filter((s) => s.generated_script_json).length,
       shotCount: shots.length,
       shotIds: shots.map((s) => s.id).join(','),
       runKeys: Object.keys(nodeRunsByShotId).sort().join(','),
@@ -48,6 +49,26 @@ export function useCanvasSync() {
       description: s.description || '',
       characterNames: (s.characters_present || []) as string[],
       order: s.order ?? 0,
+      coreEvent: s.core_event || '',
+      emotionalPeak: s.emotional_peak || '',
+      narrativeMode: s.narrative_mode || '',
+      scriptJson: s.generated_script_json ? {
+        beats: (s.generated_script_json.beats || []).map((b) => ({
+          beat_id: b.beat_id || '',
+          timestamp: b.timestamp || '',
+          type: b.type || '',
+          shots: (b.shots || []).map((sh) => ({
+            shot_type: sh.shot_type || '',
+            camera_move: sh.camera_move || '',
+            angle: sh.angle || '',
+            subject: sh.subject || '',
+            action: sh.action || '',
+            dialogue: sh.dialogue ? { character: sh.dialogue.character || '', line: sh.dialogue.line || '' } : null,
+          })),
+        })),
+        duration_estimate_s: s.generated_script_json.duration_estimate_s,
+        scene_summary: s.generated_script_json.scene_summary as unknown as SceneInput['scriptJson'] extends undefined ? never : NonNullable<SceneInput['scriptJson']>['scene_summary'],
+      } : undefined,
     }));
 
     const shotInputs: ShotInput[] = shots.map((s) => ({

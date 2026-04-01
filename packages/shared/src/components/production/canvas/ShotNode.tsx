@@ -1,8 +1,8 @@
 'use client';
 
 import { memo, useState, useEffect, useRef } from 'react';
-import { type NodeProps, type Node } from '@xyflow/react';
-import type { ShotNodeData } from '../../../types/canvas';
+import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
+import type { ShotNodeData, CanvasModuleType } from '../../../types/canvas';
 
 type ShotNode = Node<ShotNodeData, 'shot'>;
 
@@ -11,6 +11,14 @@ const CONNECT_MENU = [
   { icon: '◧', label: '图片生成', key: 'image' },
   { icon: '▶', label: '视频生成', key: 'video' },
 ];
+
+const MODULE_COLORS: Record<CanvasModuleType, { color: string; label: string }> = {
+  dialogue:  { color: '#378ADD', label: '对话' },
+  action:    { color: '#D85A30', label: '动作' },
+  suspense:  { color: '#534AB7', label: '悬疑' },
+  landscape: { color: '#1D9E75', label: '转场' },
+  emotion:   { color: '#D4537E', label: '情感' },
+};
 
 function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
   const [hovered, setHovered] = useState(false);
@@ -25,20 +33,24 @@ function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
   }, [menuOpen]);
 
   return (
-    <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="relative" style={{ width: 290, paddingRight: 50, marginRight: -50 }}>
+    <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} style={{ width: 260, position: 'relative' }}>
+      <Handle type="target" position={Position.Left} />
+      <Handle type="source" position={Position.Right} />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">◎</span>
         <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-orange-400/90' : 'text-orange-400/50'}`}>Shot</span>
       </div>
 
-      <div className={`relative overflow-hidden transition-all duration-200 ${selected ? 'shadow-[0_2px_24px_rgba(255,255,255,0.03)]' : ''}`} style={{ borderRadius: 16 }}>
-        <div style={{ borderRadius: 16 }} className={`absolute inset-0 transition-colors duration-200 ${selected ? 'bg-[#1f2129]' : hovered ? 'bg-[#1a1c23]' : 'bg-[#16181e]'}`} />
-        <div style={{ borderRadius: 16 }} className={`absolute inset-0 pointer-events-none transition-colors duration-200 border ${selected ? 'border-white/[0.16]' : hovered ? 'border-white/[0.12]' : 'border-white/[0.06]'}`} />
-        <div className="absolute top-0 right-0 z-[1]"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M0 0L20 0L20 20Z" fill="white" fillOpacity="0.04" /></svg></div>
+      <div style={{
+        borderRadius: 16, position: 'relative', overflow: 'hidden',
+        backgroundColor: selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e',
+        border: `1px solid ${selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)'}`,
+        boxShadow: selected ? '0 2px 24px rgba(255,255,255,0.03)' : 'none',
+        transition: 'background-color 0.2s, border-color 0.2s',
+      }}>
 
-        <div className={`absolute top-3.5 right-3.5 w-2 h-2 rounded-full z-[1] ${
-          data.status === 'running' ? 'bg-blue-400 animate-pulse' : data.status === 'success' ? 'bg-emerald-400' : data.status === 'error' ? 'bg-red-400' : 'bg-white/10'
-        }`} />
+        <div style={{ position: 'absolute', top: 14, right: 14, width: 8, height: 8, borderRadius: '50%', zIndex: 1,
+          backgroundColor: data.status === 'running' ? '#60a5fa' : data.status === 'success' ? '#34d399' : data.status === 'error' ? '#f87171' : 'rgba(255,255,255,0.1)' }} />
 
         <div className="relative z-[1] p-5">
           <div className="flex items-center gap-2 mb-3">
@@ -54,13 +66,37 @@ function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
           </div>
 
           <p className={`text-[12px] line-clamp-2 leading-[1.7] ${selected ? 'text-white/40' : 'text-white/22'}`}>{data.description || '暂无描述'}</p>
+
+          {/* 模块类型 + 提示词状态 */}
+          <div className="flex items-center gap-1.5 mt-3 flex-wrap">
+            {data.moduleType && MODULE_COLORS[data.moduleType] && (
+              <span className="text-[9px] px-1.5 py-0.5 rounded-md font-medium"
+                style={{
+                  backgroundColor: MODULE_COLORS[data.moduleType].color + '18',
+                  color: MODULE_COLORS[data.moduleType].color,
+                }}>
+                {data.agentAssigned ? '🤖 ' : ''}{MODULE_COLORS[data.moduleType].label}
+              </span>
+            )}
+            {data.imagePrompt && (
+              <span className="text-[9px] px-1.5 py-0.5 rounded-md bg-emerald-500/10 text-emerald-400/70">图✓</span>
+            )}
+            {data.videoPrompt && (
+              <span className="text-[9px] px-1.5 py-0.5 rounded-md bg-emerald-500/10 text-emerald-400/70">视✓</span>
+            )}
+          </div>
         </div>
 
         <div className="absolute bottom-2 right-2 z-[1]"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M9 1L1 9M9 4.5L4.5 9M9 8L8 9" stroke="white" strokeOpacity="0.06" strokeWidth="1" strokeLinecap="round" /></svg></div>
       </div>
 
-      <div className={`absolute z-10 ${hovered || menuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        style={{ top: '50%', transform: 'translateY(-50%)', right: hovered || menuOpen ? -44 : -12, transition: 'right 0.3s ease-out, opacity 0.3s ease-out' }}>
+      <div style={{
+        position: 'absolute', zIndex: 10, top: '50%', transform: 'translateY(-50%)',
+        right: hovered || menuOpen ? -44 : -12,
+        opacity: hovered || menuOpen ? 1 : 0,
+        pointerEvents: hovered || menuOpen ? 'auto' as const : 'none' as const,
+        transition: 'right 0.3s ease-out, opacity 0.3s ease-out',
+      }}>
         <button onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
           className="w-8 h-8 rounded-full border border-white/15 bg-[#1a1c24] flex items-center justify-center text-white/35 hover:text-white/60 hover:border-white/30 hover:bg-[#22252e] transition-all duration-150 cursor-pointer">
           <span className="text-lg leading-none font-light">+</span>

@@ -23,32 +23,15 @@ function PipelineEdgeComponent({
   });
 
   return (
-    <>
-      {/* Glow layer */}
-      <BaseEdge
-        id={`${id}-glow`}
-        path={edgePath}
-        style={{
-          stroke: 'rgba(0,200,255,0.1)',
-          strokeWidth: 8,
-          filter: 'blur(4px)',
-        }}
-      />
-      {/* Main line */}
-      <BaseEdge
-        id={id}
-        path={edgePath}
-        style={{
-          stroke: selected ? 'rgba(0,200,255,0.8)' : 'rgba(0,200,255,0.3)',
-          strokeWidth: 2,
-          transition: 'stroke 0.2s',
-        }}
-      />
-      {/* Animated dot */}
-      <circle r="3" fill="rgba(0,200,255,0.8)">
-        <animateMotion dur="3s" repeatCount="indefinite" path={edgePath} />
-      </circle>
-    </>
+    <BaseEdge
+      id={id}
+      path={edgePath}
+      style={{
+        stroke: selected ? 'rgba(0,200,255,0.7)' : 'rgba(255,255,255,0.1)',
+        strokeWidth: selected ? 2 : 1.5,
+        transition: 'stroke 0.15s',
+      }}
+    />
   );
 }
 

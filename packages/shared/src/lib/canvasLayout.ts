@@ -8,6 +8,10 @@
  *   Col 3 (x=960)  : ImageGenerationNode(s)
  *   Col 4 (x=1280) : VideoGenerationNode(s)
  *
+ * Data sources (in priority order):
+ *   1. Explicit `shots` array (from Shot table)
+ *   2. `scene.scriptJson.beats[].shots[]` (from generated_script_json)
+ *
  * Each scene group is vertically offset by SCENE_GAP.
  * Multiple shots within a scene are stacked vertically with SHOT_GAP.
  */
@@ -21,13 +25,17 @@ import type {
   VideoGenerationNodeData,
   CanvasNodeStatus,
 } from '../types/canvas';
+import { detectModuleType } from '../components/production/canvas/ModuleTemplates';
 
 /* ── Layout constants ── */
-const COL_X = [0, 320, 640, 960, 1280];
-const SCENE_PADDING = 120;  // vertical padding between scene groups
-const SHOT_GAP = 220;       // vertical gap between shots within a scene
-const NODE_WIDTH = 260;
-const NODE_HEIGHT = 180;
+const COL_X = [0, 420, 860, 1300, 1740];
+const SCENE_PADDING = 240;  // vertical padding between scene groups
+const SHOT_GAP = 300;       // vertical gap between shots within a scene
+const NODE_WIDTH = 280;
+const NODE_HEIGHT = 200;
+
+/** Max scenes to auto-expand shots for (performance). Others show Scene card only. */
+const MAX_AUTO_EXPAND_SCENES = 5;
 
 /* ── Helpers ── */
 function sceneNodeId(sceneId: string) { return `scene-${sceneId}`; }
@@ -35,6 +43,27 @@ function shotNodeId(shotId: string) { return `shot-${shotId}`; }
 function promptNodeId(shotId: string) { return `prompt-${shotId}`; }
 function imageNodeId(shotId: string) { return `image-${shotId}`; }
 function videoNodeId(shotId: string) { return `video-${shotId}`; }
+
+/* ── Script JSON types (from generated_script_json) ── */
+interface ScriptShotJson {
+  shot_type: string;
+  camera_move: string;
+  angle: string;
+  subject: string;
+  action: string;
+  dialogue: { character: string; line: string; subtext?: string; delivery?: string } | null;
+  sfx?: string;
+  music?: string;
+  close_up_target?: string;
+  transition?: string;
+}
+
+interface ScriptBeatJson {
+  beat_id: string;
+  timestamp: string;
+  type: string;
+  shots: ScriptShotJson[];
+}
 
 export interface SceneInput {
   id: string;
@@ -44,6 +73,14 @@ export interface SceneInput {
   description: string;
   characterNames: string[];
   order: number;
+  coreEvent?: string;
+  emotionalPeak?: string;
+  narrativeMode?: string;
+  scriptJson?: {
+    beats: ScriptBeatJson[];
+    duration_estimate_s?: number;
+    scene_summary?: { hook?: string; core_reversal?: string; sweet_spot?: string; cliffhanger?: string };
+  };
 }
 
 export interface ShotInput {
@@ -65,6 +102,33 @@ export interface BuildGraphOptions {
   nodeRunsByShotId?: Record<string, Array<{ nodeKey: string; status: string; progress?: number }>>;
 }
 
+/**
+ * Flatten a scene's scriptJson beats into ShotInput[].
+ * Used when Shot table is empty but generated_script_json has data.
+ */
+function extractShotsFromScriptJson(sceneId: string, scriptJson: SceneInput['scriptJson']): ShotInput[] {
+  if (!scriptJson?.beats) return [];
+  const result: ShotInput[] = [];
+  let shotNumber = 1;
+  for (const beat of scriptJson.beats) {
+    for (const shot of beat.shots) {
+      result.push({
+        id: `${sceneId}_b${beat.beat_id}_s${shotNumber}`,
+        sceneId,
+        shotNumber,
+        framing: shot.shot_type || '',
+        cameraAngle: shot.angle || '',
+        cameraMovement: shot.camera_move || '',
+        description: shot.action || '',
+        visualPrompt: '',
+        status: 'idle',
+      });
+      shotNumber++;
+    }
+  }
+  return result;
+}
+
 export function buildCanvasGraph(
   scenes: SceneInput[],
   shots: ShotInput[],
@@ -81,9 +145,16 @@ export function buildCanvasGraph(
 
   for (let si = 0; si < sortedScenes.length; si++) {
     const scene = sortedScenes[si];
-    const sceneShots = shots
+
+    // Get shots: first from explicit shots array, fallback to scriptJson
+    // Only auto-expand shots for the first N scenes (performance)
+    let sceneShots: ShotInput[] = shots
       .filter((s) => s.sceneId === scene.id)
       .sort((a, b) => a.shotNumber - b.shotNumber);
+
+    if (sceneShots.length === 0 && scene.scriptJson && si < MAX_AUTO_EXPAND_SCENES) {
+      sceneShots = extractShotsFromScriptJson(scene.id, scene.scriptJson);
+    }
 
     const baseY = currentY;
     const sId = sceneNodeId(scene.id);
@@ -93,6 +164,8 @@ export function buildCanvasGraph(
     const sceneCenterY = baseY + shotsGroupHeight / 2;
 
     // Scene node
+    const sceneText = [scene.description, scene.coreEvent, scene.heading].filter(Boolean).join(' ');
+    const sceneModuleType = detectModuleType(sceneText);
     nodes.push({
       id: sId,
       type: 'scene',
@@ -109,6 +182,10 @@ export function buildCanvasGraph(
         characterNames: scene.characterNames,
         order: scene.order,
         shotCount: sceneShots.length,
+        moduleType: sceneModuleType ?? undefined,
+        coreEvent: scene.coreEvent,
+        emotionalPeak: scene.emotionalPeak,
+        narrativeMode: scene.narrativeMode,
       } satisfies SceneNodeData,
       style: { width: NODE_WIDTH },
     });
@@ -129,6 +206,7 @@ export function buildCanvasGraph(
 
       // Shot node
       const shId = shotNodeId(shot.id);
+      const detectedModule = detectModuleType(shot.description || '');
       nodes.push({
         id: shId,
         type: 'shot',
@@ -146,6 +224,8 @@ export function buildCanvasGraph(
           description: shot.description,
           thumbnailUrl: shot.thumbnailUrl,
           specId: shot.id,
+          moduleType: detectedModule ?? undefined,
+          imagePrompt: shot.visualPrompt || undefined,
         } satisfies ShotNodeData,
         style: { width: NODE_WIDTH },
       });
