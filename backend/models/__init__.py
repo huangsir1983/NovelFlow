@@ -16,6 +16,8 @@ from models.character_variant import CharacterVariant
 from models.style_template import StyleTemplate
 from models.asset_image import AssetImage
 from models.canvas_workflow import CanvasWorkflow, CanvasNodeExecution
+from models.chain_template import ChainTemplate
+from models.workflow_execution import WorkflowExecution, WorkflowStepRun
 
 __all__ = [
     "Base",
@@ -38,4 +40,7 @@ __all__ = [
     "AssetImage",
     "CanvasWorkflow",
     "CanvasNodeExecution",
+    "ChainTemplate",
+    "WorkflowExecution",
+    "WorkflowStepRun",
 ]

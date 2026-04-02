@@ -3,10 +3,10 @@
  *
  * Layout strategy: column-based
  *   Col 0 (x=0)    : SceneNode
- *   Col 1 (x=320)  : ShotNode(s)
- *   Col 2 (x=640)  : PromptAssemblyNode(s)
- *   Col 3 (x=960)  : ImageGenerationNode(s)
- *   Col 4 (x=1280) : VideoGenerationNode(s)
+ *   Col 1 (x=500)  : ShotNode(s)
+ *   Col 2 (x=1020) : PromptAssemblyNode(s)
+ *   Col 3 (x=1540) : ImageGenerationNode(s)
+ *   Col 4 (x=2060) : VideoGenerationNode(s)
  *
  * Data sources (in priority order):
  *   1. Explicit `shots` array (from Shot table)
@@ -28,21 +28,24 @@ import type {
 import { detectModuleType } from '../components/production/canvas/ModuleTemplates';
 
 /* ── Layout constants ── */
-const COL_X = [0, 420, 860, 1300, 1740];
-const SCENE_PADDING = 240;  // vertical padding between scene groups
-const SHOT_GAP = 300;       // vertical gap between shots within a scene
+const COL_X = [0, 500, 1020, 1540, 2060];
+const SCENE_PADDING = 400;  // vertical padding between scene groups
+const SHOT_GAP = 420;       // vertical gap between shots within a scene
 const NODE_WIDTH = 280;
 const NODE_HEIGHT = 200;
 
-/** Max scenes to auto-expand shots for (performance). Others show Scene card only. */
-const MAX_AUTO_EXPAND_SCENES = 5;
+/**
+ * Previously limited to 5 for performance. Now safe to expand all scenes
+ * because scene-level virtualization (useCanvasVirtualization) only renders
+ * visible scenes, and React Flow's onlyRenderVisibleElements culls offscreen nodes.
+ */
 
 /* ── Helpers ── */
 function sceneNodeId(sceneId: string) { return `scene-${sceneId}`; }
-function shotNodeId(shotId: string) { return `shot-${shotId}`; }
+export function shotNodeId(shotId: string) { return `shot-${shotId}`; }
 function promptNodeId(shotId: string) { return `prompt-${shotId}`; }
 function imageNodeId(shotId: string) { return `image-${shotId}`; }
-function videoNodeId(shotId: string) { return `video-${shotId}`; }
+export function videoNodeId(shotId: string) { return `video-${shotId}`; }
 
 /* ── Script JSON types (from generated_script_json) ── */
 interface ScriptShotJson {
@@ -152,7 +155,7 @@ export function buildCanvasGraph(
       .filter((s) => s.sceneId === scene.id)
       .sort((a, b) => a.shotNumber - b.shotNumber);
 
-    if (sceneShots.length === 0 && scene.scriptJson && si < MAX_AUTO_EXPAND_SCENES) {
+    if (sceneShots.length === 0 && scene.scriptJson) {
       sceneShots = extractShotsFromScriptJson(scene.id, scene.scriptJson);
     }
 
@@ -298,13 +301,114 @@ export function buildCanvasGraph(
       // Edges: Scene → Shot → Prompt → Image → Video
       edges.push(
         { id: `e-${sId}-${shId}`, source: sId, target: shId, type: 'pipeline' },
-        { id: `e-${shId}-${prId}`, source: shId, target: prId, type: 'pipeline' },
-        { id: `e-${prId}-${imId}`, source: prId, target: imId, type: 'pipeline' },
-        { id: `e-${imId}-${viId}`, source: imId, target: viId, type: 'pipeline' },
+        { id: `e-${shId}-${prId}`, source: shId, target: prId, type: 'pipeline', data: { shotId: shot.id, segment: 'shot-prompt' } },
+        { id: `e-${prId}-${imId}`, source: prId, target: imId, type: 'pipeline', data: { shotId: shot.id, segment: 'prompt-image' } },
+        { id: `e-${imId}-${viId}`, source: imId, target: viId, type: 'pipeline', data: { shotId: shot.id, segment: 'image-video' } },
       );
     }
 
     // Advance Y for next scene group: scene node height + all shots height + padding
+    const shotsHeight = Math.max(1, sceneShots.length) * SHOT_GAP;
+    currentY += Math.max(NODE_HEIGHT, shotsHeight) + SCENE_PADDING;
+  }
+
+  return { nodes, edges };
+}
+
+/**
+ * Incremental graph build for scene-level virtualization.
+ *
+ * Only rebuilds nodes/edges for scenes in `visibleSceneIds`.
+ * For non-visible scenes, retains existing nodes from `existingNodes`
+ * to preserve positions (they won't render due to React Flow's
+ * onlyRenderVisibleElements optimization, but maintain state).
+ */
+export function buildCanvasGraphIncremental(
+  scenes: SceneInput[],
+  shots: ShotInput[],
+  visibleSceneIds: Set<string>,
+  existingNodes: Node[],
+  options: BuildGraphOptions = {},
+): { nodes: Node[]; edges: Edge[] } {
+  // If all scenes are visible or set is empty, fall back to full build
+  if (visibleSceneIds.size === 0 || visibleSceneIds.size >= scenes.length) {
+    return buildCanvasGraph(scenes, shots, options);
+  }
+
+  const { positionCache = {}, artifactsByShotId = {}, nodeRunsByShotId = {} } = options;
+  const nodes: Node[] = [];
+  const edges: Edge[] = [];
+
+  // Index existing nodes by sceneId for quick lookup
+  const existingByScene = new Map<string, Node[]>();
+  for (const n of existingNodes) {
+    const sceneId = (n.data as { sceneId?: string })?.sceneId;
+    if (sceneId) {
+      const arr = existingByScene.get(sceneId) || [];
+      arr.push(n);
+      existingByScene.set(sceneId, arr);
+    }
+  }
+
+  // Index existing edges by source scene
+  const sortedScenes = [...scenes].sort((a, b) => a.order - b.order);
+
+  // Track Y offset for scene placement
+  let currentY = 0;
+
+  for (let si = 0; si < sortedScenes.length; si++) {
+    const scene = sortedScenes[si];
+    const sceneShots = shots
+      .filter((s) => s.sceneId === scene.id)
+      .sort((a, b) => a.shotNumber - b.shotNumber);
+
+    if (visibleSceneIds.has(scene.id)) {
+      // Visible scene: full rebuild (reuse buildCanvasGraph logic inline)
+      const sceneResult = buildCanvasGraph(
+        [scene],
+        sceneShots,
+        { ...options, positionCache },
+      );
+
+      // Offset nodes to correct Y position
+      for (const n of sceneResult.nodes) {
+        if (!positionCache[n.id]) {
+          n.position = { x: n.position.x, y: n.position.y + currentY };
+        }
+        nodes.push(n);
+      }
+      edges.push(...sceneResult.edges);
+    } else {
+      // Non-visible scene: keep existing nodes as-is
+      const existing = existingByScene.get(scene.id) || [];
+      if (existing.length > 0) {
+        nodes.push(...existing);
+      } else {
+        // No existing nodes — create a minimal scene placeholder
+        const sId = sceneNodeId(scene.id);
+        nodes.push({
+          id: sId,
+          type: 'scene',
+          position: positionCache[sId] ?? { x: COL_X[0], y: currentY },
+          data: {
+            label: scene.heading || `Scene ${scene.order}`,
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            nodeType: 'scene',
+            heading: scene.heading,
+            location: scene.location,
+            timeOfDay: scene.timeOfDay,
+            description: scene.description,
+            characterNames: scene.characterNames,
+            order: scene.order,
+            shotCount: sceneShots.length,
+          } satisfies SceneNodeData,
+          style: { width: NODE_WIDTH },
+        });
+      }
+    }
+
+    // Advance Y for next scene
     const shotsHeight = Math.max(1, sceneShots.length) * SHOT_GAP;
     currentY += Math.max(NODE_HEIGHT, shotsHeight) + SCENE_PADDING;
   }

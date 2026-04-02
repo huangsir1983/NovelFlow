@@ -630,3 +630,70 @@ def sync_from_project(req: SyncFromProjectRequest):
 def sync_to_project(req: SyncToProjectRequest):
     """Write back canvas results to project."""
     return {"status": "ok", "updated_count": len(req.results)}
+
+
+# ══════════════════════════════════════════════════════════════
+# 5. AI Merge Analysis (分镜合并分析)
+# ══════════════════════════════════════════════════════════════
+
+class MergeAnalysisRequest(BaseModel):
+    scene_id: str
+    storyboard_nodes: list  # [{id, label, text, emotion, shotType, estimatedDuration}]
+    project_id: Optional[str] = None
+
+
+@router.post("/canvas/agent/merge-analysis")
+def merge_analysis(req: MergeAnalysisRequest, db: Session = Depends(get_db)):
+    """AI-powered storyboard merge analysis for video generation optimization."""
+    if not req.storyboard_nodes:
+        return {"decisions": [], "summary": "无分镜", "totalVideos": 0, "totalDuration": 0}
+
+    try:
+        prompt = render_prompt(
+            "P_CANVAS_MERGE_ANALYSIS",
+            scene_id=req.scene_id,
+            storyboard_count=str(len(req.storyboard_nodes)),
+            total_duration=str(sum(s.get("estimatedDuration", 5) for s in req.storyboard_nodes)),
+            storyboards_json=json.dumps(req.storyboard_nodes, ensure_ascii=False),
+        )
+
+        result = ai_engine.call(
+            system=prompt["system"],
+            messages=[{"role": "user", "content": prompt["user"]}],
+            capability_tier=prompt["capability_tier"],
+            temperature=prompt["temperature"],
+            max_tokens=prompt["max_tokens"],
+            db=db,
+            project_id=req.project_id,
+            operation_type="canvas_merge_analysis",
+        )
+
+        content = result["content"].strip()
+        if content.startswith("```"):
+            content = content.split("\n", 1)[-1]
+        if content.endswith("```"):
+            content = content.rsplit("```", 1)[0]
+        return json.loads(content.strip())
+    except json.JSONDecodeError:
+        logger.warning("Failed to parse merge analysis response")
+        # Fallback: each storyboard becomes one video
+        return {
+            "decisions": [
+                {
+                    "groupId": f"g{i+1}",
+                    "shotNodeIds": [s["id"]],
+                    "totalDuration": s.get("estimatedDuration", 5),
+                    "videoCount": 1,
+                    "reason": "默认独立成片",
+                    "driftRisk": "low" if s.get("estimatedDuration", 5) <= 8 else "medium",
+                    "recommendedProvider": "jimeng",
+                }
+                for i, s in enumerate(req.storyboard_nodes)
+            ],
+            "summary": f"{len(req.storyboard_nodes)} 个分镜独立成片",
+            "totalVideos": len(req.storyboard_nodes),
+            "totalDuration": sum(s.get("estimatedDuration", 5) for s in req.storyboard_nodes),
+        }
+    except Exception as e:
+        logger.error(f"Merge analysis failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))

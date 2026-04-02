@@ -20,8 +20,7 @@ function ImageGenerationNodeComponent({ data, selected }: NodeProps<ImageGenerat
 
   return (
     <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} style={{ width: 260, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} />
-      <Handle type="source" position={Position.Right} />
+      <Handle type="target" position={Position.Left} className="target-handle" />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">◧</span>
         <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-yellow-400/90' : 'text-yellow-400/50'}`}>Image</span>
@@ -63,17 +62,20 @@ function ImageGenerationNodeComponent({ data, selected }: NodeProps<ImageGenerat
         <div className="absolute bottom-2 right-2 z-[1]"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M9 1L1 9M9 4.5L4.5 9M9 8L8 9" stroke="white" strokeOpacity="0.06" strokeWidth="1" strokeLinecap="round" /></svg></div>
       </div>
 
-      <div style={{
+      <div className="nodrag nopan" style={{
         position: 'absolute', zIndex: 10, top: '50%', transform: 'translateY(-50%)',
         right: hovered || menuOpen ? -44 : -12,
         opacity: hovered || menuOpen ? 1 : 0,
         pointerEvents: hovered || menuOpen ? 'auto' as const : 'none' as const,
         transition: 'right 0.3s ease-out, opacity 0.3s ease-out',
+        width: 32, height: 32,
       }}>
-        <button onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
-          className="w-8 h-8 rounded-full border border-white/15 bg-[#1a1c24] flex items-center justify-center text-white/35 hover:text-white/60 hover:border-white/30 hover:bg-[#22252e] transition-all duration-150 cursor-pointer">
+        <Handle type="source" position={Position.Right} className="plus-source" />
+        <div onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
+          className="w-8 h-8 rounded-full border border-white/15 bg-[#1a1c24] flex items-center justify-center text-white/35 hover:text-white/60 hover:border-white/30 hover:bg-[#22252e] transition-all duration-150 cursor-crosshair"
+          style={{ position: 'absolute', top: 0, left: 0 }}>
           <span className="text-lg leading-none font-light">+</span>
-        </button>
+        </div>
       </div>
 
       {menuOpen && (

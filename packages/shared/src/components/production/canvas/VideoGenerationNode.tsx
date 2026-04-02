@@ -16,7 +16,7 @@ function VideoGenerationNodeComponent({ data, selected }: NodeProps<VideoGenerat
 
   return (
     <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="relative" style={{ width: 290 }}>
-      <Handle type="target" position={Position.Left} />
+      <Handle type="target" position={Position.Left} className="target-handle" />
       <Handle type="source" position={Position.Right} />
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, paddingLeft: 4 }}>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)' }}>▶</span>

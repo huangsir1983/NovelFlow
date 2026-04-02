@@ -3,6 +3,7 @@
 import { memo, useState, useEffect, useRef } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { ShotNodeData, CanvasModuleType } from '../../../types/canvas';
+import { useMagneticButton } from '../../../hooks/useMagneticButton';
 
 type ShotNode = Node<ShotNodeData, 'shot'>;
 
@@ -20,22 +21,26 @@ const MODULE_COLORS: Record<CanvasModuleType, { color: string; label: string }> 
   emotion:   { color: '#D4537E', label: '情感' },
 };
 
+const CARD_W = 260;
+
 function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
-  const [hovered, setHovered] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
+  const { showBtn, btnPos, isSnapped, menuOpen, setMenuOpen, BTN_SIZE } = useMagneticButton(cardRef, CARD_W);
+
+  // Derive hovered from showBtn for card styling
+  const hovered = showBtn;
 
   useEffect(() => {
     if (!menuOpen) return;
     const h = (e: MouseEvent) => { if (menuRef.current && !menuRef.current.contains(e.target as HTMLElement)) setMenuOpen(false); };
     document.addEventListener('mousedown', h);
     return () => document.removeEventListener('mousedown', h);
-  }, [menuOpen]);
+  }, [menuOpen, setMenuOpen]);
 
   return (
-    <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} style={{ width: 260, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} />
-      <Handle type="source" position={Position.Right} />
+    <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
+      <Handle type="target" position={Position.Left} className="target-handle" />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">◎</span>
         <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-orange-400/90' : 'text-orange-400/50'}`}>Shot</span>
@@ -90,17 +95,32 @@ function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
         <div className="absolute bottom-2 right-2 z-[1]"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M9 1L1 9M9 4.5L4.5 9M9 8L8 9" stroke="white" strokeOpacity="0.06" strokeWidth="1" strokeLinecap="round" /></svg></div>
       </div>
 
-      <div style={{
-        position: 'absolute', zIndex: 10, top: '50%', transform: 'translateY(-50%)',
-        right: hovered || menuOpen ? -44 : -12,
-        opacity: hovered || menuOpen ? 1 : 0,
-        pointerEvents: hovered || menuOpen ? 'auto' as const : 'none' as const,
-        transition: 'right 0.3s ease-out, opacity 0.3s ease-out',
-      }}>
-        <button onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
-          className="w-8 h-8 rounded-full border border-white/15 bg-[#1a1c24] flex items-center justify-center text-white/35 hover:text-white/60 hover:border-white/30 hover:bg-[#22252e] transition-all duration-150 cursor-pointer">
+      {/* + button — magnetic snap + connection drag source */}
+      <div
+        className="nodrag nopan"
+        style={{
+          position: 'absolute',
+          left: isSnapped ? btnPos.x - BTN_SIZE / 2 : undefined,
+          top: isSnapped ? btnPos.y - BTN_SIZE / 2 : '50%',
+          right: isSnapped ? undefined : (showBtn ? -44 : -12),
+          transform: isSnapped ? undefined : 'translateY(-50%)',
+          opacity: showBtn ? 1 : 0,
+          pointerEvents: showBtn ? 'auto' as const : 'none' as const,
+          transition: isSnapped ? 'none' : 'right 0.3s ease-out, opacity 0.3s ease-out',
+          zIndex: 10,
+          width: BTN_SIZE,
+          height: BTN_SIZE,
+        }}
+      >
+        {/* Invisible Handle overlay — drag from here starts a connection */}
+        <Handle type="source" position={Position.Right} className="plus-source" />
+        {/* Visual "+" circle — click opens menu */}
+        <div
+          onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
+          className="w-8 h-8 rounded-full border border-white/15 bg-[#1a1c24] flex items-center justify-center text-white/35 hover:text-white/60 hover:border-white/30 hover:bg-[#22252e] transition-all duration-150 cursor-crosshair"
+          style={{ position: 'absolute', top: 0, left: 0 }}>
           <span className="text-lg leading-none font-light">+</span>
-        </button>
+        </div>
       </div>
 
       {menuOpen && (

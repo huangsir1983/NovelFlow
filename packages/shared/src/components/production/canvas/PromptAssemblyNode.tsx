@@ -3,28 +3,32 @@
 import { memo, useState, useEffect, useRef } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { PromptAssemblyNodeData } from '../../../types/canvas';
+import { useMagneticButton } from '../../../hooks/useMagneticButton';
 
 type PromptAssemblyNode = Node<PromptAssemblyNodeData, 'promptAssembly'>;
 
+const CARD_W = 260;
+
 function PromptAssemblyNodeComponent({ data, selected }: NodeProps<PromptAssemblyNode>) {
-  const [hovered, setHovered] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
+  const { showBtn, btnPos, isSnapped, menuOpen, setMenuOpen, BTN_SIZE } = useMagneticButton(cardRef, CARD_W);
+
+  const hovered = showBtn;
 
   useEffect(() => {
     if (!menuOpen) return;
     const h = (e: MouseEvent) => { if (menuRef.current && !menuRef.current.contains(e.target as HTMLElement)) setMenuOpen(false); };
     document.addEventListener('mousedown', h);
     return () => document.removeEventListener('mousedown', h);
-  }, [menuOpen]);
+  }, [menuOpen, setMenuOpen]);
 
   const cardBg = selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e';
   const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
 
   return (
-    <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} style={{ width: 260, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} />
-      <Handle type="source" position={Position.Right} />
+    <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
+      <Handle type="target" position={Position.Left} className="target-handle" />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">✦</span>
         <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? 'rgba(74,222,128,0.9)' : 'rgba(74,222,128,0.5)' }}>Prompt</span>
@@ -56,22 +60,34 @@ function PromptAssemblyNodeComponent({ data, selected }: NodeProps<PromptAssembl
         </div>
       </div>
 
-      {/* + button */}
-      <div style={{
-        position: 'absolute', top: '50%', transform: 'translateY(-50%)',
-        right: hovered || menuOpen ? -44 : -12,
-        opacity: hovered || menuOpen ? 1 : 0,
-        pointerEvents: hovered || menuOpen ? 'auto' : 'none',
-        transition: 'right 0.3s ease-out, opacity 0.3s ease-out', zIndex: 10,
-      }}>
-        <button onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
+      {/* + button — magnetic snap + connection drag source */}
+      <div
+        className="nodrag nopan"
+        style={{
+          position: 'absolute',
+          left: isSnapped ? btnPos.x - BTN_SIZE / 2 : undefined,
+          top: isSnapped ? btnPos.y - BTN_SIZE / 2 : '50%',
+          right: isSnapped ? undefined : (showBtn ? -44 : -12),
+          transform: isSnapped ? undefined : 'translateY(-50%)',
+          opacity: showBtn ? 1 : 0,
+          pointerEvents: showBtn ? 'auto' as const : 'none' as const,
+          transition: isSnapped ? 'none' : 'right 0.3s ease-out, opacity 0.3s ease-out',
+          zIndex: 10,
+          width: BTN_SIZE,
+          height: BTN_SIZE,
+        }}
+      >
+        <Handle type="source" position={Position.Right} className="plus-source" />
+        <div
+          onClick={(e) => { e.stopPropagation(); setMenuOpen((v) => !v); }}
           style={{
+            position: 'absolute', top: 0, left: 0,
             width: 32, height: 32, borderRadius: '50%', border: '1px solid rgba(255,255,255,0.15)',
             backgroundColor: '#1a1c24', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: 'rgba(255,255,255,0.35)', fontSize: 18, cursor: 'pointer',
+            color: 'rgba(255,255,255,0.35)', fontSize: 18, cursor: 'crosshair',
           }}>
           +
-        </button>
+        </div>
       </div>
 
       {/* Menu */}

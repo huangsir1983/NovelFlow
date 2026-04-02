@@ -33,6 +33,8 @@ from api.artifacts_writeback import router as artifacts_writeback_router
 from api.collaboration import router as collaboration_router
 from api.preview_export import router as preview_export_router
 from api.canvas import router as canvas_router
+from api.chain_templates import router as chain_templates_router
+from api.workflow_execution import router as workflow_execution_router
 
 logger = logging.getLogger(__name__)
 
@@ -46,9 +48,11 @@ async def lifespan(app: FastAPI):
     # Seed pre-configured AI providers (idempotent)
     from database import SessionLocal
     from services.seed_providers import seed_providers
+    from services.seed_chain_templates import seed_chain_templates
     db = SessionLocal()
     try:
         seed_providers(db)
+        seed_chain_templates(db)
     finally:
         db.close()
 
@@ -169,6 +173,8 @@ app.include_router(artifacts_writeback_router, prefix="/api")
 app.include_router(collaboration_router, prefix="/api")
 app.include_router(preview_export_router, prefix="/api")
 app.include_router(canvas_router, prefix="/api")
+app.include_router(chain_templates_router, prefix="/api")
+app.include_router(workflow_execution_router, prefix="/api")
 
 
 # ── Static frontend served at root ──

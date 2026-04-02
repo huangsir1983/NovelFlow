@@ -199,7 +199,7 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
 
   return (
     <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} />
+      <Handle type="target" position={Position.Left} className="target-handle" />
       <Handle type="source" position={Position.Right} />
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, paddingLeft: 4 }}>

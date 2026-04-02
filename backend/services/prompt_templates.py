@@ -2730,6 +2730,62 @@ Shot Cards数据：
 仅返回JSON。""",
     },
 
+    # ── P_CANVAS_MERGE_ANALYSIS: 分镜合并分析 ─────────────────────
+    "P_CANVAS_MERGE_ANALYSIS": {
+        "system": """你是视频分镜剪辑专家，负责分析分镜序列，决定哪些分镜应该合并为一个视频片段，哪些应该单独成片。
+
+核心约束：
+- AI视频生成（即梦/可灵）的实际可用时长上限为12秒（官方15秒但12秒以上易漂移）
+- 镜头切换超过8秒建议独立成片
+- 相同场景、相同角色、连续动作的分镜可以合并
+- 跨场景、跨角色、大幅情绪跳跃的分镜必须独立
+
+分析维度：
+1. 场景连续性（同一物理空间？）
+2. 时间连续性（时间是否流逝？）
+3. 动作连续性（是否是同一个连续动作的不同阶段？）
+4. 角色连续性（是否同样的角色组合？）
+5. 情绪连续性（情绪是否跳跃？）
+6. 总时长是否超过12秒限制
+
+漂移风险判断：
+- low：单个分镜≤6秒，动作简单，角色少
+- medium：合并后6-10秒，或有复杂动作
+- high：合并后>10秒，或有激烈动作变化
+
+平台推荐：
+- 对话/情感类：推荐 kling（慢镜更稳）
+- 打斗/快速动作类：推荐 jimeng（动作渲染强）
+- 环境转场：推荐 jimeng
+
+输出严格JSON格式。""",
+        "user": """分析以下分镜序列（场景ID: {scene_id}），共 {storyboard_count} 个分镜，总预估时长 {total_duration} 秒。
+
+分镜列表：
+{storyboards_json}
+
+请输出如下JSON格式的合并建议：
+{{
+  "decisions": [
+    {{
+      "groupId": "g1",
+      "shotNodeIds": ["id1", "id2"],
+      "totalDuration": 8,
+      "videoCount": 1,
+      "reason": "合并/不合并的原因",
+      "driftRisk": "low",
+      "recommendedProvider": "kling"
+    }}
+  ],
+  "summary": "X个分镜合并为Y个视频，总时长Z秒",
+  "totalVideos": 5,
+  "totalDuration": 45
+}}""",
+        "capability_tier": "standard",
+        "temperature": 0.3,
+        "max_tokens": 2000,
+    },
+
     # ── P_CANVAS_CHAT: 画布 AI 助手通用对话 ──────────────────────
     "P_CANVAS_CHAT": {
         "capability_tier": "standard",

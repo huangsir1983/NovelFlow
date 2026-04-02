@@ -1,10 +1,87 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import type { Edge } from '@xyflow/react';
 import { useProjectStore } from '../stores/projectStore';
 import { useBoardStore } from '../stores/boardStore';
 import { useCanvasStore } from '../stores/canvasStore';
-import { buildCanvasGraph, type SceneInput, type ShotInput } from '../lib/canvasLayout';
+import { buildCanvasGraph, type SceneInput, type ShotInput, shotNodeId, videoNodeId } from '../lib/canvasLayout';
+
+/**
+ * Apply disconnection state to raw edges: filter out broken segments, inject bypass edges.
+ * Also merges in any user-created manual edges.
+ */
+function applyDisconnections(
+  rawEdges: Edge[],
+  manualEdges: Edge[],
+  disconnectedSegments: Record<string, Set<string>>,
+): Edge[] {
+  const disconnectedShotIds = Object.keys(disconnectedSegments);
+
+  // Start with raw pipeline edges, filtering out disconnected segments
+  let result: Edge[];
+  if (disconnectedShotIds.length === 0) {
+    result = [...rawEdges];
+  } else {
+    result = rawEdges.filter((e) => {
+      const edgeData = e.data as { shotId?: string; segment?: string } | undefined;
+      if (!edgeData?.shotId || !edgeData?.segment) return true;
+      const segs = disconnectedSegments[edgeData.shotId];
+      return !segs || !segs.has(edgeData.segment);
+    });
+
+    // Add bypass dashed edges for disconnected shots
+    for (const sid of disconnectedShotIds) {
+      const segs = disconnectedSegments[sid];
+      if (segs && segs.size > 0) {
+        result.push({
+          id: `bypass-${sid}`,
+          source: shotNodeId(sid),
+          target: videoNodeId(sid),
+          type: 'bypass',
+          data: { shotId: sid },
+        });
+      }
+    }
+  }
+
+  // Append user-created manual edges
+  for (const me of manualEdges) {
+    if (!result.some((e) => e.id === me.id)) {
+      result.push(me);
+    }
+  }
+
+  return result;
+}
+
+/**
+ * BFS: check if there's a directed path from `start` to `end` using
+ * only non-bypass edges in the given edge list.
+ */
+function hasPath(edges: Edge[], start: string, end: string): boolean {
+  const adj = new Map<string, string[]>();
+  for (const e of edges) {
+    if (e.type === 'bypass') continue;
+    const list = adj.get(e.source) || [];
+    list.push(e.target);
+    adj.set(e.source, list);
+  }
+  const visited = new Set<string>();
+  const queue = [start];
+  visited.add(start);
+  while (queue.length > 0) {
+    const node = queue.shift()!;
+    if (node === end) return true;
+    for (const next of adj.get(node) || []) {
+      if (!visited.has(next)) {
+        visited.add(next);
+        queue.push(next);
+      }
+    }
+  }
+  return false;
+}
 
 /**
  * Syncs domain data (scenes/shots from projectStore + production state from boardStore)
@@ -19,12 +96,15 @@ export function useCanvasSync() {
   const shots = useProjectStore((s) => s.shots);
   const nodeRunsByShotId = useBoardStore((s) => s.nodeRunsByShotId);
   const artifactsByShotId = useBoardStore((s) => s.artifactsByShotId);
+  const disconnectedSegments = useCanvasStore((s) => s.disconnectedSegments);
+  const manualEdges = useCanvasStore((s) => s.manualEdges);
 
   const prevHashRef = useRef('');
+  const rawEdgesRef = useRef<Edge[]>([]);
   const initializedRef = useRef(false);
 
+  // Effect 1: rebuild graph when domain data changes
   useEffect(() => {
-    // Build a hash of domain data only — canvas UI state is excluded
     const hash = JSON.stringify({
       sceneCount: scenes.length,
       sceneIds: scenes.map((s) => s.id).join(','),
@@ -38,8 +118,7 @@ export function useCanvasSync() {
     if (hash === prevHashRef.current) return;
     prevHashRef.current = hash;
 
-    // Read positionCache from store directly (not as a reactive dependency)
-    const { positionCache, setNodes, setEdges } = useCanvasStore.getState();
+    const { positionCache, setNodes, setEdges, disconnectedSegments: disc, manualEdges: me } = useCanvasStore.getState();
 
     const sceneInputs: SceneInput[] = scenes.map((s) => ({
       id: s.id,
@@ -108,8 +187,38 @@ export function useCanvasSync() {
       ),
     });
 
+    rawEdgesRef.current = edges;
     setNodes(nodes);
-    setEdges(edges);
+    setEdges(applyDisconnections(edges, me, disc));
     initializedRef.current = true;
   }, [scenes, shots, nodeRunsByShotId, artifactsByShotId]);
+
+  // Effect 2: re-apply edges when disconnectedSegments or manualEdges change
+  useEffect(() => {
+    if (!initializedRef.current) return;
+    const { setEdges } = useCanvasStore.getState();
+    const computed = applyDisconnections(rawEdgesRef.current, manualEdges, disconnectedSegments);
+    setEdges(computed);
+
+    // Auto-clear bypass: if shot→video has a complete path (through non-bypass edges),
+    // remove the disconnection state for that shot → bypass disappears on next render.
+    const disconnectedShotIds = Object.keys(disconnectedSegments);
+    if (disconnectedShotIds.length === 0) return;
+
+    const toReconnect: string[] = [];
+    for (const shotId of disconnectedShotIds) {
+      if (hasPath(computed, shotNodeId(shotId), videoNodeId(shotId))) {
+        toReconnect.push(shotId);
+      }
+    }
+    if (toReconnect.length > 0) {
+      // Batch reconnect in next microtask to avoid set-during-render
+      Promise.resolve().then(() => {
+        const { reconnectAllEdges } = useCanvasStore.getState();
+        for (const sid of toReconnect) {
+          reconnectAllEdges(sid);
+        }
+      });
+    }
+  }, [disconnectedSegments, manualEdges]);
 }

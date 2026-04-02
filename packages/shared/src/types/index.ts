@@ -7,3 +7,4 @@ export * from './preview';
 export * from './pipeline';
 export * from './production';
 export * from './canvas';
+export * from './chainWorkflow';

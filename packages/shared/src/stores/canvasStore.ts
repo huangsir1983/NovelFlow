@@ -2,6 +2,7 @@
 
 import { create } from 'zustand';
 import type { Node, Edge, Viewport, NodeChange, EdgeChange } from '@xyflow/react';
+import type { SceneGroup, CanvasRenderMode } from '../types/chainWorkflow';
 
 // Lazy-load to avoid SSR issues (React Flow requires browser environment)
 function getXyflowHelpers() {
@@ -46,6 +47,21 @@ interface CanvasStoreState {
   /* Node position cache — keeps user-dragged positions across rebuilds */
   positionCache: Record<string, { x: number; y: number }>;
 
+  /* Scene-level virtualization */
+  sceneGroups: SceneGroup[];
+  visibleSceneIds: Set<string>;
+  renderMode: CanvasRenderMode;
+
+  /* Edge disconnection — tracks broken pipeline segments per shot */
+  disconnectedSegments: Record<string, Set<string>>;
+
+  /* Manual edges — user-created connections via drag, survive graph rebuilds */
+  manualEdges: Edge[];
+
+  /* Box selection */
+  boxSelectActive: boolean;
+  boxSelectRect: { x: number; y: number; w: number; h: number } | null;
+
   /* Actions */
   setNodes: (nodes: Node[]) => void;
   setEdges: (edges: Edge[]) => void;
@@ -62,6 +78,26 @@ interface CanvasStoreState {
   setFocusedSceneId: (sceneId: string | null) => void;
   cacheNodePosition: (nodeId: string, x: number, y: number) => void;
   getCachedPosition: (nodeId: string) => { x: number; y: number } | undefined;
+
+  /* Virtualization actions */
+  setSceneGroups: (groups: SceneGroup[]) => void;
+  updateVisibleScenes: (visibleIds: Set<string>) => void;
+  setRenderMode: (mode: CanvasRenderMode) => void;
+
+  /* Edge disconnection actions */
+  disconnectEdge: (shotId: string, segment: string) => void;
+  reconnectEdge: (shotId: string, segment: string) => void;
+  reconnectAllEdges: (shotId: string) => void;
+  isSegmentDisconnected: (shotId: string, segment: string) => boolean;
+  hasAnyDisconnected: (shotId: string) => boolean;
+
+  /* Manual edge actions */
+  addManualEdge: (edge: Edge) => void;
+  removeManualEdge: (edgeId: string) => void;
+
+  /* Box selection actions */
+  setBoxSelectActive: (active: boolean) => void;
+  setBoxSelectRect: (rect: { x: number; y: number; w: number; h: number } | null) => void;
 
   /* AI Panel actions */
   toggleAIPanel: () => void;
@@ -88,6 +124,15 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
 
   focusedSceneId: null,
   positionCache: {},
+
+  sceneGroups: [],
+  visibleSceneIds: new Set<string>(),
+  renderMode: 'full' as CanvasRenderMode,
+  disconnectedSegments: {},
+  manualEdges: [],
+
+  boxSelectActive: false,
+  boxSelectRect: null,
 
   aiPanelOpen: false,
   aiMessages: [],
@@ -133,6 +178,52 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
     set((s) => ({ positionCache: { ...s.positionCache, [nodeId]: { x, y } } })),
 
   getCachedPosition: (nodeId) => get().positionCache[nodeId],
+
+  setSceneGroups: (sceneGroups) => set({ sceneGroups }),
+  updateVisibleScenes: (visibleIds) => set({ visibleSceneIds: visibleIds }),
+  setRenderMode: (renderMode) => set({ renderMode }),
+  disconnectEdge: (shotId, segment) => set((s) => {
+    const prev = s.disconnectedSegments[shotId] || new Set<string>();
+    const next = new Set(prev);
+    next.add(segment);
+    return { disconnectedSegments: { ...s.disconnectedSegments, [shotId]: next } };
+  }),
+  reconnectEdge: (shotId, segment) => set((s) => {
+    const prev = s.disconnectedSegments[shotId];
+    if (!prev) return s;
+    const next = new Set(prev);
+    next.delete(segment);
+    const updated = { ...s.disconnectedSegments };
+    if (next.size === 0) {
+      delete updated[shotId];
+    } else {
+      updated[shotId] = next;
+    }
+    return { disconnectedSegments: updated };
+  }),
+  reconnectAllEdges: (shotId) => set((s) => {
+    const updated = { ...s.disconnectedSegments };
+    delete updated[shotId];
+    return { disconnectedSegments: updated };
+  }),
+  isSegmentDisconnected: (shotId, segment) => {
+    const segs = get().disconnectedSegments[shotId];
+    return segs ? segs.has(segment) : false;
+  },
+  hasAnyDisconnected: (shotId) => {
+    const segs = get().disconnectedSegments[shotId];
+    return segs ? segs.size > 0 : false;
+  },
+
+  addManualEdge: (edge) => set((s) => ({
+    manualEdges: [...s.manualEdges, edge],
+  })),
+  removeManualEdge: (edgeId) => set((s) => ({
+    manualEdges: s.manualEdges.filter((e) => e.id !== edgeId),
+  })),
+
+  setBoxSelectActive: (boxSelectActive) => set({ boxSelectActive }),
+  setBoxSelectRect: (boxSelectRect) => set({ boxSelectRect }),
 
   toggleAIPanel: () => set((s) => ({ aiPanelOpen: !s.aiPanelOpen })),
   setAIPanelOpen: (open) => set({ aiPanelOpen: open }),
