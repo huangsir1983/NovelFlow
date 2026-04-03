@@ -34,10 +34,9 @@ function PromptAssemblyNodeComponent({ data, selected }: NodeProps<PromptAssembl
         <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? 'rgba(74,222,128,0.9)' : 'rgba(74,222,128,0.5)' }}>Prompt</span>
       </div>
 
-      <div style={{
+      <div className="canvas-card" style={{
         borderRadius: 16, position: 'relative', overflow: 'hidden',
         backgroundColor: cardBg, border: `1px solid ${cardBorder}`,
-        boxShadow: selected ? '0 2px 24px rgba(255,255,255,0.03)' : 'none',
         transition: 'background-color 0.2s, border-color 0.2s',
       }}>
         <div style={{ position: 'relative', zIndex: 1, padding: 20 }}>

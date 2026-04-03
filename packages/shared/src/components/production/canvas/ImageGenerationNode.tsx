@@ -26,11 +26,10 @@ function ImageGenerationNodeComponent({ data, selected }: NodeProps<ImageGenerat
         <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-yellow-400/90' : 'text-yellow-400/50'}`}>Image</span>
       </div>
 
-      <div style={{
+      <div className="canvas-card" style={{
         borderRadius: 16, position: 'relative', overflow: 'hidden',
         backgroundColor: selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e',
         border: `1px solid ${selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)'}`,
-        boxShadow: selected ? '0 2px 24px rgba(255,255,255,0.03)' : 'none',
         transition: 'background-color 0.2s, border-color 0.2s',
       }}>
         <div className="relative z-[1] p-5">

@@ -23,10 +23,9 @@ function VideoGenerationNodeComponent({ data, selected }: NodeProps<VideoGenerat
         <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? 'rgba(232,121,249,0.9)' : 'rgba(232,121,249,0.5)' }}>Video</span>
       </div>
 
-      <div style={{
+      <div className="canvas-card" style={{
         borderRadius: 16, position: 'relative', overflow: 'hidden',
         backgroundColor: cardBg, border: `1px solid ${cardBorder}`,
-        boxShadow: selected ? '0 2px 24px rgba(255,255,255,0.03)' : 'none',
         transition: 'background-color 0.2s, border-color 0.2s',
       }}>
         <div style={{ position: 'relative', zIndex: 1, padding: 20 }}>

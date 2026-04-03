@@ -6,7 +6,6 @@ import {
   Background,
   BackgroundVariant,
   MiniMap,
-  Controls,
   ReactFlowProvider,
   type OnSelectionChangeParams,
   type Edge,
@@ -91,6 +90,22 @@ const RF_OVERRIDES = `
   stroke-width: 2 !important;
   stroke-dasharray: 6 3 !important;
 }
+.canvas-card {
+  box-shadow:
+    0 0 15px 3px rgba(255,255,255,0.02),
+    0 0 1px 0 rgba(255,255,255,0.06) !important;
+  transition: box-shadow 0.25s ease !important;
+}
+.react-flow__node:hover .canvas-card {
+  box-shadow:
+    0 0 22px 5px rgba(255,255,255,0.04),
+    0 0 1px 0 rgba(255,255,255,0.12) !important;
+}
+.react-flow__node.selected .canvas-card {
+  box-shadow:
+    0 0 28px 8px rgba(0,200,255,0.07),
+    0 0 1px 0 rgba(0,200,255,0.18) !important;
+}
 .react-flow__pane {
   background: transparent !important;
 }
@@ -98,26 +113,29 @@ const RF_OVERRIDES = `
   display: none !important;
 }
 .react-flow__minimap {
-  background: rgba(10,12,18,0.95) !important;
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 12px !important;
-}
-.react-flow__controls {
-  background: rgba(10,12,18,0.95) !important;
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 12px !important;
-}
-.react-flow__controls button {
   background: transparent !important;
   border: none !important;
-  color: rgba(255,255,255,0.5) !important;
-  fill: rgba(255,255,255,0.5) !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-.react-flow__controls button:hover {
-  background: rgba(255,255,255,0.05) !important;
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
-.react-flow__controls button svg {
-  fill: rgba(255,255,255,0.5) !important;
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
 `;
 
@@ -135,6 +153,7 @@ import { NodeFloatingToolbar } from './canvas/NodeFloatingToolbar';
 import { SceneNavigatorWheel } from './canvas/SceneNavigatorWheel';
 import { CanvasLeftToolbar } from './canvas/CanvasLeftToolbar';
 import { BoxSelectExecutor } from './canvas/BoxSelectExecutor';
+import { CanvasBottomToolbar } from './canvas/CanvasBottomToolbar';
 
 interface ShotProductionBoardProps {
   projectName: string;
@@ -198,6 +217,8 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   const aiPanelOpen = useCanvasStore((s) => s.aiPanelOpen);
   const toggleAIPanel = useCanvasStore((s) => s.toggleAIPanel);
   const viewport = useCanvasStore((s) => s.viewport);
+  const snapToGrid = useCanvasStore((s) => s.snapToGrid);
+  const miniMapOpen = useCanvasStore((s) => s.miniMapOpen);
 
   const scenes = useProjectStore((s) => s.scenes);
 
@@ -259,6 +280,8 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
           type: 'pipeline',
           animated: false,
         }}
+        snapToGrid={snapToGrid}
+        snapGrid={[20, 20]}
         onlyRenderVisibleElements
         selectNodesOnDrag={false}
         nodesDraggable
@@ -275,36 +298,36 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
             style={{ backgroundColor: '#000000' }}
           />
         )}
-        <MiniMap
-          nodeColor={(n) => {
-            const nt = n.type;
-            if (nt === 'scene') return 'rgba(0,200,255,0.5)';
-            if (nt === 'shot') return 'rgba(255,150,50,0.5)';
-            if (nt === 'promptAssembly') return 'rgba(50,200,100,0.5)';
-            if (nt === 'imageGeneration') return 'rgba(255,200,50,0.5)';
-            if (nt === 'videoGeneration') return 'rgba(200,50,255,0.5)';
-            return 'rgba(255,255,255,0.2)';
-          }}
-          maskColor="rgba(0,0,0,0.8)"
-          position="bottom-left"
-          style={{
-            backgroundColor: 'rgba(10,15,26,0.95)',
-            border: '1px solid rgba(255,255,255,0.08)',
-            borderRadius: '8px',
-          }}
-          pannable
-          zoomable
-        />
-        <Controls
-          showInteractive={false}
-          position="bottom-left"
-          style={{
-            backgroundColor: 'rgba(10,15,26,0.95)',
-            border: '1px solid rgba(255,255,255,0.08)',
-            borderRadius: '8px',
-          }}
-        />
+        {miniMapOpen && (
+          <MiniMap
+            nodeColor={(n) => {
+              const nt = n.type;
+              if (nt === 'scene') return 'rgba(0,200,255,0.7)';
+              if (nt === 'shot') return 'rgba(255,150,50,0.7)';
+              if (nt === 'promptAssembly') return 'rgba(50,200,100,0.7)';
+              if (nt === 'imageGeneration') return 'rgba(255,200,50,0.7)';
+              if (nt === 'videoGeneration') return 'rgba(200,50,255,0.7)';
+              return 'rgba(255,255,255,0.3)';
+            }}
+            nodeStrokeWidth={0}
+            maskColor="rgba(0,0,0,0.65)"
+            style={{
+              width: 200,
+              height: 130,
+              left: 16,
+              bottom: 60,
+              backgroundColor: 'rgba(10,14,24,0.95)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: 12,
+            }}
+            pannable
+            zoomable
+          />
+        )}
       </ReactFlow>
+
+      {/* Bottom toolbar: minimap toggle, snap, fit view, zoom slider */}
+      <CanvasBottomToolbar />
 
       {/* Left toolbar: icon bar + expandable panels */}
       <CanvasLeftToolbar />

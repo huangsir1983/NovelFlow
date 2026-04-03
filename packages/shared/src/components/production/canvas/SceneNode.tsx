@@ -208,10 +208,9 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
       </div>
 
       {/* Card body */}
-      <div ref={cardBodyRef} style={{
+      <div ref={cardBodyRef} className="canvas-card" style={{
         position: 'relative', borderRadius: 16,
         backgroundColor: cardBg, border: `1px solid ${cardBorder}`,
-        boxShadow: selected ? '0 2px 24px rgba(255,255,255,0.03)' : 'none',
         overflow: 'hidden', minHeight: 200,
         transition: 'background-color 0.2s, border-color 0.2s',
       }}>

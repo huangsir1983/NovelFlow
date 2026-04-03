@@ -58,6 +58,10 @@ interface CanvasStoreState {
   /* Manual edges — user-created connections via drag, survive graph rebuilds */
   manualEdges: Edge[];
 
+  /* Grid snap & minimap */
+  snapToGrid: boolean;
+  miniMapOpen: boolean;
+
   /* Box selection */
   boxSelectActive: boolean;
   boxSelectRect: { x: number; y: number; w: number; h: number } | null;
@@ -95,6 +99,10 @@ interface CanvasStoreState {
   addManualEdge: (edge: Edge) => void;
   removeManualEdge: (edgeId: string) => void;
 
+  /* Grid snap & minimap */
+  setSnapToGrid: (snap: boolean) => void;
+  toggleMiniMap: () => void;
+
   /* Box selection actions */
   setBoxSelectActive: (active: boolean) => void;
   setBoxSelectRect: (rect: { x: number; y: number; w: number; h: number } | null) => void;
@@ -130,6 +138,8 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
   renderMode: 'full' as CanvasRenderMode,
   disconnectedSegments: {},
   manualEdges: [],
+  snapToGrid: false,
+  miniMapOpen: true,
 
   boxSelectActive: false,
   boxSelectRect: null,
@@ -221,6 +231,9 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
   removeManualEdge: (edgeId) => set((s) => ({
     manualEdges: s.manualEdges.filter((e) => e.id !== edgeId),
   })),
+
+  setSnapToGrid: (snapToGrid) => set({ snapToGrid }),
+  toggleMiniMap: () => set((s) => ({ miniMapOpen: !s.miniMapOpen })),
 
   setBoxSelectActive: (boxSelectActive) => set({ boxSelectActive }),
   setBoxSelectRect: (boxSelectRect) => set({ boxSelectRect }),
