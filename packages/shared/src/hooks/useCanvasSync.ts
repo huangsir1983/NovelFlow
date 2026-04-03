@@ -94,6 +94,9 @@ function hasPath(edges: Edge[], start: string, end: string): boolean {
 export function useCanvasSync() {
   const scenes = useProjectStore((s) => s.scenes);
   const shots = useProjectStore((s) => s.shots);
+  const locations = useProjectStore((s) => s.locations);
+  const assetImages = useProjectStore((s) => s.assetImages);
+  const assetImageKeys = useProjectStore((s) => s.assetImageKeys);
   const nodeRunsByShotId = useBoardStore((s) => s.nodeRunsByShotId);
   const artifactsByShotId = useBoardStore((s) => s.artifactsByShotId);
   const disconnectedSegments = useCanvasStore((s) => s.disconnectedSegments);
@@ -113,6 +116,7 @@ export function useCanvasSync() {
       shotIds: shots.map((s) => s.id).join(','),
       runKeys: Object.keys(nodeRunsByShotId).sort().join(','),
       artKeys: Object.keys(artifactsByShotId).sort().join(','),
+      locPanorama: locations.map((l) => `${l.id}:${assetImages[l.id]?.['panorama'] ? '1' : '0'}`).join(','),
     });
 
     if (hash === prevHashRef.current) return;
@@ -162,8 +166,21 @@ export function useCanvasSync() {
       visualPrompt: s.visual_prompt || '',
     }));
 
+    // Build location name → panorama URL/key map
+    const locationPanoramaMap: Record<string, { panoramaUrl?: string; panoramaStorageKey?: string }> = {};
+    for (const loc of locations) {
+      const imgs = assetImages[loc.id];
+      const keys = assetImageKeys[loc.id];
+      const panoramaUrl = imgs?.['panorama'];
+      const panoramaStorageKey = keys?.['panorama'];
+      if (panoramaUrl || panoramaStorageKey) {
+        locationPanoramaMap[loc.name] = { panoramaUrl, panoramaStorageKey };
+      }
+    }
+
     const { nodes, edges } = buildCanvasGraph(sceneInputs, shotInputs, {
       positionCache,
+      locationPanoramaMap,
       artifactsByShotId: Object.fromEntries(
         Object.entries(artifactsByShotId).map(([k, v]) => [
           k,
@@ -191,7 +208,7 @@ export function useCanvasSync() {
     setNodes(nodes);
     setEdges(applyDisconnections(edges, me, disc));
     initializedRef.current = true;
-  }, [scenes, shots, nodeRunsByShotId, artifactsByShotId]);
+  }, [scenes, shots, nodeRunsByShotId, artifactsByShotId, locations, assetImages, assetImageKeys]);
 
   // Effect 2: re-apply edges when disconnectedSegments or manualEdges change
   useEffect(() => {

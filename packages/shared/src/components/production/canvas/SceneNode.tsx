@@ -1,9 +1,15 @@
 'use client';
 
-import { memo, useState, useEffect, useRef, useCallback } from 'react';
-import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
+import { memo, useState, useEffect, useRef, useCallback, lazy, Suspense } from 'react';
+import { type NodeProps, type Node, Handle, Position, useReactFlow } from '@xyflow/react';
 import type { SceneNodeData } from '../../../types/canvas';
 import type { CanvasModuleType } from '../../../types/canvas';
+import { useProjectStore } from '../../../stores/projectStore';
+import { fetchAPI } from '../../../lib/api';
+
+const PanoramaViewer = lazy(() =>
+  import('../../panorama/PanoramaViewer').then((m) => ({ default: m.PanoramaViewer }))
+);
 
 type SceneNode = Node<SceneNodeData, 'scene'>;
 
@@ -46,10 +52,75 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
   const [dragEnd, setDragEnd] = useState<{ x: number; y: number } | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [children, setChildren] = useState<ChildCard[]>([]);
+  const [panoramaOpen, setPanoramaOpen] = useState(false);
 
   const cardRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
   const cardBodyRef = useRef<HTMLDivElement>(null);
+  const reactFlow = useReactFlow();
+
+  // Handle panorama screenshot: upload + update ImageGeneration nodes in same scene
+  const handlePanoramaScreenshot = useCallback(async (base64: string) => {
+    const projectId = useProjectStore.getState().project?.id;
+    if (!projectId) return;
+
+    try {
+      // Upload screenshot
+      const blob = await fetch(`data:image/jpeg;base64,${base64}`).then((r) => r.blob());
+      const formData = new FormData();
+      formData.append('file', blob, 'panorama_screenshot.jpg');
+
+      const resp = await fetch(
+        `http://localhost:8000/api/projects/${projectId}/asset-images/upload`,
+        { method: 'POST', body: formData },
+      );
+      if (!resp.ok) return;
+      const { storage_key } = await resp.json();
+
+      const screenshotUrl = `data:image/jpeg;base64,${base64}`;
+
+      // Update all ImageGeneration nodes in this scene with the screenshot reference
+      const allNodes = reactFlow.getNodes();
+      const updatedNodes = allNodes.map((n) => {
+        if (
+          n.type === 'imageGeneration' &&
+          (n.data as { sceneId?: string })?.sceneId === data.sceneId
+        ) {
+          return {
+            ...n,
+            data: {
+              ...n.data,
+              locationScreenshotUrl: screenshotUrl,
+              locationScreenshotStorageKey: storage_key,
+            },
+          };
+        }
+        return n;
+      });
+      reactFlow.setNodes(updatedNodes);
+
+      // Save screenshot mapping
+      const { setAssetImage, setAssetImageKey } = useProjectStore.getState();
+      const locations = useProjectStore.getState().locations;
+      const matchedLocation = locations.find((l) => l.name === data.location);
+      if (matchedLocation) {
+        setAssetImage(matchedLocation.id, 'panorama_screenshot', screenshotUrl);
+        setAssetImageKey(matchedLocation.id, 'panorama_screenshot', storage_key);
+        // Persist mapping
+        await fetchAPI(`/api/projects/${projectId}/asset-images`, {
+          method: 'POST',
+          body: JSON.stringify({
+            asset_id: matchedLocation.id,
+            asset_type: 'location',
+            slot_key: 'panorama_screenshot',
+            storage_key,
+          }),
+        }).catch(() => {});
+      }
+    } catch (e) {
+      console.error('Failed to save panorama screenshot:', e);
+    }
+  }, [data.sceneId, data.location, reactFlow]);
 
   const getZoom = useCallback(() => {
     if (!cardRef.current) return 1;
@@ -199,8 +270,8 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
 
   return (
     <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} className="target-handle" />
-      <Handle type="source" position={Position.Right} />
+      <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
+      <Handle type="source" position={Position.Right} style={{ top: '55%' }} />
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, paddingLeft: 4 }}>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)' }}>≡</span>
@@ -258,6 +329,32 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
               }}>
                 {MODULE_BADGE[data.moduleType].icon} {MODULE_BADGE[data.moduleType].label}
               </span>
+            )}
+            {data.panoramaUrl && (
+              <button
+                className="nodrag nopan"
+                onClick={(e) => { e.stopPropagation(); setPanoramaOpen(true); }}
+                style={{
+                  marginLeft: 'auto',
+                  display: 'flex', alignItems: 'center', gap: 4,
+                  padding: '2px 8px', borderRadius: 6,
+                  border: '1px solid rgba(0,200,255,0.2)',
+                  background: 'rgba(0,200,255,0.08)',
+                  color: 'rgba(0,200,255,0.7)',
+                  fontSize: 10, fontWeight: 500,
+                  cursor: 'pointer',
+                  transition: 'background 0.15s',
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(0,200,255,0.15)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.background = 'rgba(0,200,255,0.08)'; }}
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M2 12h20" />
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                </svg>
+                360°
+              </button>
             )}
           </div>
         </div>
@@ -383,6 +480,18 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
           </div>
         );
       })}
+
+      {/* ── Panorama Viewer Modal ── */}
+      {panoramaOpen && data.panoramaUrl && (
+        <Suspense fallback={null}>
+          <PanoramaViewer
+            panoramaUrl={data.panoramaUrl}
+            isOpen={panoramaOpen}
+            onClose={() => setPanoramaOpen(false)}
+            onScreenshot={handlePanoramaScreenshot}
+          />
+        </Suspense>
+      )}
     </div>
   );
 }

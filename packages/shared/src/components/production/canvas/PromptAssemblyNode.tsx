@@ -28,7 +28,7 @@ function PromptAssemblyNodeComponent({ data, selected }: NodeProps<PromptAssembl
 
   return (
     <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} className="target-handle" />
+      <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">✦</span>
         <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? 'rgba(74,222,128,0.9)' : 'rgba(74,222,128,0.5)' }}>Prompt</span>

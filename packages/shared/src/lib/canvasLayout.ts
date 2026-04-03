@@ -31,13 +31,35 @@ import { detectModuleType } from '../components/production/canvas/ModuleTemplate
 const COL_X = [0, 500, 1020, 1540, 2060];
 const SCENE_PADDING = 400;  // vertical padding between scene groups
 const SHOT_GAP = 420;       // vertical gap between shots within a scene
-const NODE_WIDTH = 280;
 const NODE_HEIGHT = 200;
+
+/** Actual card widths per node type — must match the component's outer div width */
+const NODE_WIDTHS: Record<string, number> = {
+  scene: 320,
+  shot: 260,
+  promptAssembly: 260,
+  imageGeneration: 260,
+  videoGeneration: 290,
+};
+const DEFAULT_NODE_WIDTH = 280;
+
+/** Build dimension props for a node — uses correct width per type, no forced `measured` */
+function nodeDims(nodeType: string) {
+  const w = NODE_WIDTHS[nodeType] || DEFAULT_NODE_WIDTH;
+  return {
+    width: w,
+    height: NODE_HEIGHT,
+    initialWidth: w,
+    initialHeight: NODE_HEIGHT,
+    style: { width: w },
+    measured: { width: w, height: NODE_HEIGHT },
+  };
+}
 
 /**
  * Previously limited to 5 for performance. Now safe to expand all scenes
  * because scene-level virtualization (useCanvasVirtualization) only renders
- * visible scenes, and React Flow's onlyRenderVisibleElements culls offscreen nodes.
+ * visible scenes.
  */
 
 /* ── Helpers ── */
@@ -103,6 +125,8 @@ export interface BuildGraphOptions {
   positionCache?: Record<string, { x: number; y: number }>;
   artifactsByShotId?: Record<string, Array<{ id: string; type: string; url?: string; status: string }>>;
   nodeRunsByShotId?: Record<string, Array<{ nodeKey: string; status: string; progress?: number }>>;
+  /** {locationName: {panoramaUrl, panoramaStorageKey}} — for populating SceneNode panorama data */
+  locationPanoramaMap?: Record<string, { panoramaUrl?: string; panoramaStorageKey?: string }>;
 }
 
 /**
@@ -137,7 +161,7 @@ export function buildCanvasGraph(
   shots: ShotInput[],
   options: BuildGraphOptions = {},
 ) {
-  const { positionCache = {}, artifactsByShotId = {}, nodeRunsByShotId = {} } = options;
+  const { positionCache = {}, artifactsByShotId = {}, nodeRunsByShotId = {}, locationPanoramaMap = {} } = options;
 
   const nodes: Node[] = [];
   const edges: Edge[] = [];
@@ -169,6 +193,7 @@ export function buildCanvasGraph(
     // Scene node
     const sceneText = [scene.description, scene.coreEvent, scene.heading].filter(Boolean).join(' ');
     const sceneModuleType = detectModuleType(sceneText);
+    const locationPanorama = scene.location ? locationPanoramaMap[scene.location] : undefined;
     nodes.push({
       id: sId,
       type: 'scene',
@@ -189,8 +214,10 @@ export function buildCanvasGraph(
         coreEvent: scene.coreEvent,
         emotionalPeak: scene.emotionalPeak,
         narrativeMode: scene.narrativeMode,
+        panoramaUrl: locationPanorama?.panoramaUrl,
+        panoramaStorageKey: locationPanorama?.panoramaStorageKey,
       } satisfies SceneNodeData,
-      style: { width: NODE_WIDTH },
+      ...nodeDims('scene'),
     });
 
     for (let shi = 0; shi < sceneShots.length; shi++) {
@@ -230,7 +257,7 @@ export function buildCanvasGraph(
           moduleType: detectedModule ?? undefined,
           imagePrompt: shot.visualPrompt || undefined,
         } satisfies ShotNodeData,
-        style: { width: NODE_WIDTH },
+        ...nodeDims('shot'),
       });
 
       // Prompt assembly node
@@ -250,7 +277,7 @@ export function buildCanvasGraph(
           locationRef: scene.location,
           styleTemplate: undefined,
         } satisfies PromptAssemblyNodeData,
-        style: { width: NODE_WIDTH },
+        ...nodeDims('promptAssembly'),
       });
 
       // Image generation node
@@ -274,7 +301,7 @@ export function buildCanvasGraph(
           selectedCandidateId: imageArtifacts.find((a) => a.status === 'approved')?.id,
           progress: imageRun?.progress ?? 0,
         } satisfies ImageGenerationNodeData,
-        style: { width: NODE_WIDTH },
+        ...nodeDims('imageGeneration'),
       });
 
       // Video generation node
@@ -295,7 +322,7 @@ export function buildCanvasGraph(
           progress: videoRun?.progress ?? 0,
           mode: 'image_to_video',
         } satisfies VideoGenerationNodeData,
-        style: { width: NODE_WIDTH },
+        ...nodeDims('videoGeneration'),
       });
 
       // Edges: Scene → Shot → Prompt → Image → Video
@@ -403,7 +430,7 @@ export function buildCanvasGraphIncremental(
             order: scene.order,
             shotCount: sceneShots.length,
           } satisfies SceneNodeData,
-          style: { width: NODE_WIDTH },
+          ...nodeDims('scene'),
         });
       }
     }
@@ -428,7 +455,7 @@ export function getSceneBounds(sceneId: string, nodes: Node[]) {
 
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
   for (const n of sceneNodes) {
-    const w = (n.style?.width as number) || NODE_WIDTH;
+    const w = (n.style?.width as number) || DEFAULT_NODE_WIDTH;
     const h = NODE_HEIGHT;
     minX = Math.min(minX, n.position.x);
     minY = Math.min(minY, n.position.y);

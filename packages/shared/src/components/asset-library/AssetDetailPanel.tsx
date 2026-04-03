@@ -1,10 +1,14 @@
 'use client';
 
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, lazy, Suspense } from 'react';
 import { createPortal } from 'react-dom';
 import { useProjectStore } from '../../stores/projectStore';
 import { fetchAPI } from '../../lib/api';
 import type { Character, Scene, Location, Prop, CharacterVariant } from '../../types/project';
+
+const PanoramaViewer = lazy(() =>
+  import('../panorama/PanoramaViewer').then((m) => ({ default: m.PanoramaViewer })),
+);
 
 /* ─── Helper: persist asset image mapping to backend ────── */
 
@@ -38,10 +42,7 @@ const CHARACTER_SLOTS = [
 ];
 
 const LOCATION_SLOTS = [
-  { key: 'east', label: '正东方向' },
-  { key: 'south', label: '正南方向', rhPrompt: '<sks> south facing view wide shot' },
-  { key: 'west', label: '正西方向', rhPrompt: '<sks> west facing view wide shot' },
-  { key: 'north', label: '正北方向', rhPrompt: '<sks> north facing view wide shot' },
+  { key: 'main', label: '主图' },
 ];
 
 const PROP_SLOTS = [
@@ -865,9 +866,20 @@ function CharacterVariantTab({ variant, onDelete }: { variant: CharacterVariant;
 
 function LocationDetail({ location }: { location: Location }) {
   const { assetImages, assetImageKeys, setAssetImage, setAssetImageKey, screenFormat, project } = useProjectStore();
+  const [panoramaLoading, setPanoramaLoading] = useState(false);
+  const [panoramaViewerOpen, setPanoramaViewerOpen] = useState(false);
 
   const images = assetImages[location.id];
   const keys = assetImageKeys[location.id];
+
+  // Backward compat: read 'main' or fallback to 'east'
+  const mainImage = images?.['main'] || images?.['east'];
+  const mainKey = keys?.['main'] || keys?.['east'];
+  const panoramaImage = images?.['panorama'];
+
+  // Provide compatible images record for ImageSlotGrid
+  const compatImages = images ? { ...images, main: mainImage || '' } : undefined;
+  const compatKeys = keys ? { ...keys, main: mainKey || '' } : undefined;
 
   const handleImageGenerated = useCallback((slotKey: string, base64: string, storageKey?: string) => {
     setAssetImage(location.id, slotKey, base64);
@@ -877,17 +889,138 @@ function LocationDetail({ location }: { location: Location }) {
     saveAssetImageMapping(project?.id, location.id, 'location', slotKey, storageKey ?? '');
   }, [location.id, setAssetImage, setAssetImageKey, project?.id]);
 
+  // Generate 360° panorama from main image
+  const handleGeneratePanorama = useCallback(async () => {
+    if (!mainKey || panoramaLoading) return;
+    setPanoramaLoading(true);
+    try {
+      const result = await fetchAPI<{ image_base64: string; storage_key?: string }>(
+        '/api/ai/generate-panorama',
+        {
+          method: 'POST',
+          body: JSON.stringify({
+            reference_storage_key: mainKey,
+            prompt: `no people, no person, no human, empty scene environment only. ${location.visual_reference || location.visual_description || location.name}`,
+          }),
+        },
+      );
+      handleImageGenerated('panorama', result.image_base64, result.storage_key ?? undefined);
+    } catch (err) {
+      console.error('Panorama generation failed:', err);
+      alert('全景图生成失败，请重试');
+    } finally {
+      setPanoramaLoading(false);
+    }
+  }, [mainKey, panoramaLoading, location, handleImageGenerated]);
+
+  // Handle panorama screenshot
+  const handlePanoramaScreenshot = useCallback(async (base64: string) => {
+    // Store as panorama_screenshot slot
+    handleImageGenerated('panorama_screenshot', base64);
+    // Upload to backend storage
+    try {
+      const bytes = Uint8Array.from(atob(base64), (c) => c.charCodeAt(0));
+      const blob = new Blob([bytes], { type: 'image/jpeg' });
+      const formData = new FormData();
+      formData.append('file', blob, 'panorama_screenshot.jpg');
+      const resp = await fetch(
+        `http://localhost:8000/api/projects/${project?.id}/asset-images/upload`,
+        { method: 'POST', body: formData },
+      );
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.storage_key) {
+          setAssetImageKey(location.id, 'panorama_screenshot', data.storage_key);
+          saveAssetImageMapping(project?.id, location.id, 'location', 'panorama_screenshot', data.storage_key);
+        }
+      }
+    } catch (err) {
+      console.warn('Failed to upload panorama screenshot:', err);
+    }
+  }, [handleImageGenerated, project?.id, location.id, setAssetImageKey]);
+
+  // Build panorama URL for viewer
+  const panoramaUrl = panoramaImage
+    ? panoramaImage.startsWith('data:') || panoramaImage.startsWith('http')
+      ? panoramaImage
+      : `data:image/png;base64,${panoramaImage}`
+    : '';
+
   return (
     <div className="p-5 pb-24">
       <ImageSlotGrid
         assetId={location.id}
         slots={LOCATION_SLOTS}
-        assetImages={images}
+        assetImages={compatImages}
         prompt={`no people, no person, no human, empty scene, ${location.visual_reference || location.visual_description || location.name}`}
         aspectRatio={screenFormat === 'vertical' ? '9:16' : '16:9'}
         onImageGenerated={handleImageGenerated}
-        storageKeys={keys}
+        storageKeys={compatKeys}
       />
+
+      {/* 360° Panorama section */}
+      <div className="mt-4 mb-4">
+        <p className="text-[10px] font-semibold uppercase tracking-wider text-white/25 mb-2">360° VR 全景</p>
+
+        {panoramaImage ? (
+          <div className="relative group">
+            <img
+              src={panoramaUrl}
+              alt="360° panorama"
+              className="w-full rounded-xl border border-white/[0.06] cursor-pointer"
+              style={{ aspectRatio: '2/1', objectFit: 'cover' }}
+              onClick={() => setPanoramaViewerOpen(true)}
+            />
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/40 rounded-xl">
+              <span className="text-white text-sm font-medium">查看 360°</span>
+            </div>
+          </div>
+        ) : (
+          <button
+            onClick={handleGeneratePanorama}
+            disabled={!mainKey || panoramaLoading}
+            className="w-full rounded-xl border border-dashed border-white/10 bg-white/[0.02] py-6 text-center transition-colors hover:bg-white/[0.04] hover:border-white/20 disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            {panoramaLoading ? (
+              <span className="text-[12px] text-white/40">生成全景图中...</span>
+            ) : !mainKey ? (
+              <span className="text-[12px] text-white/30">请先生成主图</span>
+            ) : (
+              <span className="text-[12px] text-white/50">生成 360° 全景图</span>
+            )}
+          </button>
+        )}
+
+        {panoramaImage && (
+          <div className="flex gap-2 mt-2">
+            <button
+              onClick={() => setPanoramaViewerOpen(true)}
+              className="flex-1 rounded-lg bg-blue-500/15 px-3 py-1.5 text-[11px] font-medium text-blue-300/80 hover:bg-blue-500/25 transition-colors"
+            >
+              查看 360°
+            </button>
+            <button
+              onClick={handleGeneratePanorama}
+              disabled={panoramaLoading}
+              className="rounded-lg bg-white/[0.04] px-3 py-1.5 text-[11px] text-white/40 hover:bg-white/[0.08] transition-colors disabled:opacity-30"
+            >
+              {panoramaLoading ? '生成中...' : '重新生成'}
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* Panorama Viewer modal */}
+      {panoramaViewerOpen && panoramaUrl && (
+        <Suspense fallback={null}>
+          <PanoramaViewer
+            isOpen={panoramaViewerOpen}
+            panoramaUrl={panoramaUrl}
+            onClose={() => setPanoramaViewerOpen(false)}
+            onScreenshot={handlePanoramaScreenshot}
+          />
+        </Suspense>
+      )}
 
       <h3 className="text-lg font-bold text-white/95 mb-1">{location.name}</h3>
 

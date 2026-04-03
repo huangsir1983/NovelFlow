@@ -32,7 +32,7 @@ function PromptBarInner() {
   return (
     <div
       className={`
-        pointer-events-auto absolute inset-x-3 bottom-3 z-30
+        pointer-events-auto absolute right-3 bottom-3 left-[210px] z-30
         rounded-xl border border-white/[0.08] bg-[#0a0f1a]/95 backdrop-blur-xl
         transition-all duration-300
         ${promptBarExpanded ? 'max-h-[200px]' : 'max-h-[48px]'}

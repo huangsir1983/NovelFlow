@@ -38,12 +38,22 @@ const RF_OVERRIDES = `
 .react-flow__handle {
   opacity: 0 !important;
   pointer-events: none !important;
-  width: 0 !important;
-  height: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
   min-width: 0 !important;
   min-height: 0 !important;
   border: none !important;
   background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.react-flow__handle-left {
+  left: 0 !important;
+  transform: translateY(-50%) !important;
+}
+.react-flow__handle-right {
+  right: 0 !important;
+  transform: translateY(-50%) !important;
 }
 .react-flow__handle.plus-source {
   opacity: 0 !important;
@@ -63,9 +73,9 @@ const RF_OVERRIDES = `
 .react-flow__handle-left.target-handle {
   opacity: 0 !important;
   pointer-events: none !important;
-  width: 16px !important;
-  height: 16px !important;
-  left: -8px !important;
+  width: 1px !important;
+  height: 1px !important;
+  left: 0 !important;
   background: transparent !important;
   border: none !important;
 }
@@ -92,19 +102,22 @@ const RF_OVERRIDES = `
 }
 .canvas-card {
   box-shadow:
-    0 0 15px 3px rgba(255,255,255,0.02),
-    0 0 1px 0 rgba(255,255,255,0.06) !important;
+    0 0 20px 4px rgba(255,255,255,0.06),
+    0 0 40px 8px rgba(255,255,255,0.03),
+    0 0 1px 0 rgba(255,255,255,0.1) !important;
   transition: box-shadow 0.25s ease !important;
 }
 .react-flow__node:hover .canvas-card {
   box-shadow:
-    0 0 22px 5px rgba(255,255,255,0.04),
-    0 0 1px 0 rgba(255,255,255,0.12) !important;
+    0 0 24px 6px rgba(255,255,255,0.1),
+    0 0 48px 12px rgba(255,255,255,0.04),
+    0 0 1px 0 rgba(255,255,255,0.15) !important;
 }
 .react-flow__node.selected .canvas-card {
   box-shadow:
-    0 0 28px 8px rgba(0,200,255,0.07),
-    0 0 1px 0 rgba(0,200,255,0.18) !important;
+    0 0 28px 8px rgba(0,200,255,0.15),
+    0 0 50px 14px rgba(0,200,255,0.06),
+    0 0 1px 0 rgba(0,200,255,0.25) !important;
 }
 .react-flow__pane {
   background: transparent !important;
@@ -113,20 +126,12 @@ const RF_OVERRIDES = `
   display: none !important;
 }
 .react-flow__minimap {
-  background: rgba(10,14,24,0.95) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-radius: 12px !important;
   margin: 0 !important;
   padding: 0 !important;
-  width: 200px !important;
-  height: 130px !important;
-  left: 16px !important;
-  right: auto !important;
-  bottom: 120px !important;
-  top: auto !important;
+  z-index: 55 !important;
 }
 .react-flow__minimap svg {
-  border-radius: 12px !important;
+  border-radius: 10px !important;
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -307,23 +312,33 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
             style={{ backgroundColor: '#000000' }}
           />
         )}
-        {miniMapOpen && (
+        {/* Always render MiniMap so it subscribes to node store; toggle via CSS */}
           <MiniMap
             nodeColor={(n) => {
               const nt = n.type;
-              if (nt === 'scene') return 'rgba(0,200,255,0.7)';
-              if (nt === 'shot') return 'rgba(255,150,50,0.7)';
-              if (nt === 'promptAssembly') return 'rgba(50,200,100,0.7)';
-              if (nt === 'imageGeneration') return 'rgba(255,200,50,0.7)';
-              if (nt === 'videoGeneration') return 'rgba(200,50,255,0.7)';
-              return 'rgba(255,255,255,0.3)';
+              if (nt === 'scene') return '#00c8ff';
+              if (nt === 'shot') return '#ff9632';
+              if (nt === 'promptAssembly') return '#32c864';
+              if (nt === 'imageGeneration') return '#ffc832';
+              if (nt === 'videoGeneration') return '#c832ff';
+              return '#ffffff';
             }}
+            nodeStrokeColor="transparent"
             nodeStrokeWidth={0}
-            maskColor="rgba(0,0,0,0.65)"
+            maskColor="rgba(0,0,0,0.5)"
+            position="bottom-left"
+            style={miniMapOpen ? {
+              width: 180,
+              height: 110,
+              left: 12,
+              bottom: 44,
+              background: 'rgba(10,14,24,0.92)',
+              border: '1px solid rgba(255,255,255,0.1)',
+              borderRadius: 10,
+            } : { display: 'none' }}
             pannable
             zoomable
           />
-        )}
       </ReactFlow>
 
       {/* Bottom toolbar: minimap toggle, snap, fit view, zoom slider */}
@@ -337,23 +352,6 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
 
       {/* Box Select Executor (Shift+drag overlay) */}
       <BoxSelectExecutor />
-
-      {/* Top bar */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 p-3">
-        <div className="pointer-events-auto inline-flex items-center gap-3 rounded-xl border border-white/[0.08] bg-[#0a0f1a]/90 px-4 py-2.5 backdrop-blur-xl">
-          <div>
-            <div className="text-[9px] uppercase tracking-[0.3em] text-cyan-300/60">Workflow Canvas</div>
-            <div className="text-sm font-medium text-white/85">{projectName}</div>
-          </div>
-          <button
-            type="button"
-            onClick={onOpenPreview}
-            className="ml-4 rounded-lg bg-cyan-500/20 px-3 py-1.5 text-xs font-medium text-cyan-100 hover:bg-cyan-500/30 transition-colors"
-          >
-            Preview
-          </button>
-        </div>
-      </div>
 
       {/* Left panel - Scene list (initially hidden, toggle with button) */}
       {leftPanelOpen && <SceneListPanel />}

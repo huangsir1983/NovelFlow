@@ -20,7 +20,7 @@ function ImageGenerationNodeComponent({ data, selected }: NodeProps<ImageGenerat
 
   return (
     <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} style={{ width: 260, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} className="target-handle" />
+      <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">◧</span>
         <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-yellow-400/90' : 'text-yellow-400/50'}`}>Image</span>

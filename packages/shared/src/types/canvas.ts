@@ -36,6 +36,8 @@ export interface SceneNodeData extends BaseNodeData {
   coreEvent?: string;
   emotionalPeak?: string;
   narrativeMode?: string;
+  panoramaStorageKey?: string;
+  panoramaUrl?: string;
 }
 
 /* ---------- Shot ---------- */
@@ -76,6 +78,8 @@ export interface ImageGenerationNodeData extends BaseNodeData {
   candidates: ImageCandidateItem[];
   selectedCandidateId?: string;
   progress: number;
+  locationScreenshotUrl?: string;
+  locationScreenshotStorageKey?: string;
 }
 
 /* ---------- Video Generation ---------- */

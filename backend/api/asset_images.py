@@ -1,10 +1,9 @@
 """Asset image mapping API — persist asset_id + slot → storage_key."""
 
 import logging
-from typing import Optional
 from uuid import uuid4
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
@@ -92,3 +91,45 @@ def list_asset_images(
         .filter(AssetImage.project_id == project_id)
         .all()
     )
+
+
+class UploadResponse(BaseModel):
+    storage_key: str
+    storage_uri: str | None = None
+
+
+@router.post(
+    "/projects/{project_id}/asset-images/upload",
+    response_model=UploadResponse,
+)
+def upload_asset_image(
+    project_id: str,
+    file: UploadFile = File(...),
+):
+    """Upload an image file to storage (no AI generation). Used for panorama screenshots etc."""
+    file_bytes = file.file.read()
+    if len(file_bytes) > 20 * 1024 * 1024:  # 20MB limit
+        raise HTTPException(status_code=400, detail="File too large (max 20MB)")
+
+    content_type = file.content_type or "image/jpeg"
+    ext = content_type.split("/")[-1].split(";")[0]
+    if ext not in ("png", "jpeg", "jpg", "webp"):
+        ext = "png"
+
+    from services.storage_adapter import get_storage
+
+    storage = get_storage()
+    object_key = f"assets/screenshots/{uuid4()}.{ext}"
+    try:
+        stored = storage.put_bytes(
+            object_key=object_key,
+            data=file_bytes,
+            content_type=content_type,
+        )
+        return UploadResponse(
+            storage_key=stored.object_key,
+            storage_uri=stored.uri,
+        )
+    except Exception as e:
+        logger.error("Failed to upload asset image: %s", e)
+        raise HTTPException(status_code=500, detail=f"Storage upload failed: {e}")

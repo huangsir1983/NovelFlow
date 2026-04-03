@@ -40,7 +40,7 @@ function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
 
   return (
     <div ref={cardRef} style={{ width: CARD_W, position: 'relative' }}>
-      <Handle type="target" position={Position.Left} className="target-handle" />
+      <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
       <div className="flex items-center gap-1.5 mb-2 pl-1">
         <span className="text-[12px] text-white/20">◎</span>
         <span className={`text-[12px] font-medium tracking-wide ${selected ? 'text-orange-400/90' : 'text-orange-400/50'}`}>Shot</span>

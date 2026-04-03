@@ -220,6 +220,123 @@ def generate_image_raw(
     )
 
 
+# --- Panorama Generation (Gemini img2img → equirectangular 360° VR) ---
+
+class PanoramaGenerateRequest(BaseModel):
+    reference_storage_key: str   # storage_key of the main location image
+    prompt: str                  # location visual_reference description
+    style_preset: str = ""       # optional style tag (realistic, 3d_chinese, etc.)
+
+
+class PanoramaGenerateResponse(BaseModel):
+    image_base64: str
+    mime_type: str
+    model: str
+    elapsed: float
+    storage_key: str | None = None
+    storage_uri: str | None = None
+
+
+PANORAMA_PROMPT_TEMPLATE = (
+    "Generate a seamless 360-degree equirectangular panorama image at 4000x2000 pixels resolution. "
+    "The image MUST use equirectangular projection format suitable for spherical VR mapping. "
+    "The left edge must connect perfectly and seamlessly to the right edge with no visible seam.\n\n"
+    "SPATIAL COMPOSITION & CAMERA:\n"
+    "- Create a SPACIOUS, EXPANSIVE, GRAND environment with a strong sense of depth and openness.\n"
+    "- CAMERA DISTANCE: Place the camera FAR BACK from the main subject/focal point, as if shooting with a WIDE-ANGLE LENS from a DISTANT vantage point.\n"
+    "- The camera should be positioned to show the FULL EXTENT of the environment — walls, floor, ceiling/sky all visible with plenty of empty space.\n"
+    "- Leave LARGE AMOUNTS OF EMPTY FLOOR/GROUND SPACE in the scene — this is essential so characters can be composited into the scene later.\n"
+    "- For interiors: camera in the center of a VERY LARGE room, showing the entire room with generous empty floor area, tall ceilings, distant walls.\n"
+    "- For exteriors: camera pulled far back showing vast landscapes, wide streets, open plazas with lots of empty ground.\n"
+    "- Use layered depth: clear foreground floor/ground, spacious midground, detailed background.\n"
+    "- Avoid close-up or tight framing — everything should feel distant and spacious.\n"
+    "- The viewer should feel they are standing in the middle of a LARGE, OPEN space with room to move around.\n\n"
+    "ENVIRONMENT ONLY — no people, no characters, no humans, no living creatures anywhere in the scene.\n\n"
+    "Scene description: {description}\n"
+    "{style_line}"
+    "\nCRITICAL REQUIREMENTS:\n"
+    "1. Output MUST be equirectangular projection panorama (2:1 aspect ratio), NOT a flat perspective image.\n"
+    "2. Full 360° horizontal coverage, ~180° vertical coverage (floor to ceiling/sky).\n"
+    "3. Consistent lighting, color palette, and style throughout the full 360° sweep.\n"
+    "4. Reference the provided image for visual style, color palette, materials, and atmosphere.\n"
+    "5. Make the space feel LARGE, OPEN, and IMMERSIVE."
+)
+
+
+@router.post("/ai/generate-panorama", response_model=PanoramaGenerateResponse)
+def generate_panorama(
+    data: PanoramaGenerateRequest,
+    db: Session = Depends(get_db),
+):
+    """Generate a 4000x2000 equirectangular 360° VR panorama from a reference location image."""
+    from services.ai_engine import ai_engine
+    from services.storage_adapter import get_storage
+    from services.task_quota import release_quota
+
+    # 1. Read reference image from storage
+    storage = get_storage()
+    try:
+        ref_bytes = storage.get_bytes(object_key=data.reference_storage_key)
+    except Exception as e:
+        raise HTTPException(status_code=404, detail=f"Reference image not found: {e}")
+
+    ref_mime = "image/png"
+    if data.reference_storage_key.endswith((".jpg", ".jpeg")):
+        ref_mime = "image/jpeg"
+    elif data.reference_storage_key.endswith(".webp"):
+        ref_mime = "image/webp"
+
+    # 2. Build panorama prompt
+    style_line = f"Style: {data.style_preset}\n" if data.style_preset else ""
+    panorama_prompt = PANORAMA_PROMPT_TEMPLATE.format(
+        description=data.prompt,
+        style_line=style_line,
+    )
+
+    # 3. Generate via Gemini img2img with 2:1 aspect ratio
+    lease = _acquire_image_quota()
+    try:
+        result = ai_engine.generate_image(
+            prompt=panorama_prompt,
+            reference_image=ref_bytes,
+            reference_mime=ref_mime,
+            aspect_ratio="2:1",     # Gemini adapter omits unsupported ratio, prompt controls dimensions
+            image_size="4K",
+            db=db,
+        )
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
+    finally:
+        release_quota(lease)
+
+    image_b64 = base64.b64encode(result["image_data"]).decode("utf-8")
+
+    # 4. Store panorama
+    storage_key = None
+    storage_uri = None
+    try:
+        ext = (result["mime_type"].split("/")[-1] or "png").split(";")[0]
+        object_key = f"assets/panoramas/{uuid4()}.{ext}"
+        stored = storage.put_bytes(
+            object_key=object_key,
+            data=result["image_data"],
+            content_type=result["mime_type"],
+        )
+        storage_key = stored.object_key
+        storage_uri = stored.uri
+    except Exception as e:
+        logger.warning("Failed to store panorama image: %s", e)
+
+    return PanoramaGenerateResponse(
+        image_base64=image_b64,
+        mime_type=result["mime_type"],
+        model=result["model"],
+        elapsed=result["elapsed"],
+        storage_key=storage_key,
+        storage_uri=storage_uri,
+    )
+
+
 # --- View Angle Conversion (RunningHub) ---
 
 class ViewAngleRequest(BaseModel):

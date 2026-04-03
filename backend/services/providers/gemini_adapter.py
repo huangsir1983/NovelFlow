@@ -185,6 +185,13 @@ class GeminiAdapter(ProviderAdapter):
             })
         parts.append({"text": prompt})
 
+        # Build image config — omit aspectRatio for unsupported ratios (e.g. "2:1")
+        # so the prompt can control output dimensions instead
+        supported_ratios = {"1:1", "3:4", "4:3", "16:9", "9:16"}
+        image_config: dict = {}
+        if aspect_ratio in supported_ratios:
+            image_config["aspectRatio"] = aspect_ratio
+
         body = {
             "contents": [
                 {
@@ -194,9 +201,7 @@ class GeminiAdapter(ProviderAdapter):
             ],
             "generationConfig": {
                 "responseModalities": ["IMAGE", "TEXT"],
-                "imageConfig": {
-                    "aspectRatio": aspect_ratio,
-                },
+                "imageConfig": image_config,
             },
         }
 
