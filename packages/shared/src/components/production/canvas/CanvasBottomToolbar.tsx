@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useCallback } from 'react';
 import { useReactFlow } from '@xyflow/react';
 import { useCanvasStore } from '../../../stores/canvasStore';
 
@@ -44,7 +44,7 @@ export function CanvasBottomToolbar() {
   const zoomPct = Math.round(viewport.zoom * 100);
 
   return (
-    <div className="absolute bottom-4 left-4 z-50 pointer-events-auto">
+    <div className="absolute left-4 z-[60] pointer-events-auto" style={{ bottom: 68 }}>
       {/* Capsule toolbar */}
       <div style={{
         display: 'flex',

@@ -113,11 +113,20 @@ const RF_OVERRIDES = `
   display: none !important;
 }
 .react-flow__minimap {
-  background: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
+  background: rgba(10,14,24,0.95) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
   margin: 0 !important;
   padding: 0 !important;
+  width: 200px !important;
+  height: 130px !important;
+  left: 16px !important;
+  right: auto !important;
+  bottom: 120px !important;
+  top: auto !important;
+}
+.react-flow__minimap svg {
+  border-radius: 12px !important;
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -311,15 +320,6 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
             }}
             nodeStrokeWidth={0}
             maskColor="rgba(0,0,0,0.65)"
-            style={{
-              width: 200,
-              height: 130,
-              left: 16,
-              bottom: 60,
-              backgroundColor: 'rgba(10,14,24,0.95)',
-              border: '1px solid rgba(255,255,255,0.08)',
-              borderRadius: 12,
-            }}
             pannable
             zoomable
           />
