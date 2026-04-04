@@ -44,52 +44,58 @@ export function useNodeExecution() {
       };
     });
 
-    // Auto-populate Composite layers when all upstream sources are ready
+    // Upsert this source's layer into downstream composite nodes
     for (const targetId of targetIds) {
       const targetNode = updatedNodes.find(n => n.id === targetId);
       if (!targetNode || (targetNode.data as Record<string, unknown>).nodeType !== 'composite') continue;
 
-      const compEdges = edges.filter(e => e.target === targetId);
-      const layers: Array<{
-        id: string; type: string; sourceNodeId: string; imageUrl?: string;
-        x: number; y: number; width: number; height: number;
-        rotation: number; zIndex: number; opacity: number; visible: boolean;
-      }> = [];
+      const compData = targetNode.data as Record<string, unknown>;
+      const existingLayers = ((compData.layers || []) as Array<Record<string, unknown>>).slice();
 
-      let allReady = true;
-      for (let i = 0; i < compEdges.length; i++) {
-        const srcNode = updatedNodes.find(n => n.id === compEdges[i].source);
-        if (!srcNode) { allReady = false; continue; }
-        const srcData = srcNode.data as Record<string, unknown>;
-        const imgUrl = (srcData.outputPngUrl || srcData.outputImageUrl || srcData.screenshotUrl) as string | undefined;
-        if (!imgUrl) { allReady = false; continue; }
+      // Determine layer type for this source
+      const srcNode = updatedNodes.find(n => n.id === sourceNodeId);
+      const srcData = srcNode?.data as Record<string, unknown> | undefined;
+      const nodeType = (srcData?.nodeType || '') as string;
+      const processType = (srcData?.processType || '') as string;
+      const isBgUpscale = nodeType === 'imageProcess' && processType === 'hdUpscale'
+        && edges.some(e => e.target === sourceNodeId && e.source.startsWith('scenebg-'));
+      const layerType = (nodeType === 'sceneBG' || isBgUpscale) ? 'background' : 'character';
 
-        const nodeType = srcData.nodeType as string;
-        const layerType = nodeType === 'sceneBG' ? 'background'
-          : nodeType === 'imageProcess' ? 'character'
-          : 'character';
+      const imgUrl = outputUrl || (srcData?.outputPngUrl || srcData?.outputImageUrl) as string | undefined;
+      if (!imgUrl) continue;
 
-        layers.push({
-          id: compEdges[i].source,
-          type: layerType,
-          sourceNodeId: compEdges[i].source,
-          imageUrl: imgUrl,
-          x: 0, y: 0,
-          width: 1920, height: 1080,
-          rotation: 0,
-          zIndex: layerType === 'background' ? 0 : i + 1,
-          opacity: 1,
-          visible: true,
-        });
+      const layerIdx = existingLayers.findIndex(l => l.sourceNodeId === sourceNodeId);
+      const newLayer = {
+        id: sourceNodeId,
+        type: layerType,
+        sourceNodeId,
+        imageUrl: imgUrl,
+        x: layerType === 'background' ? 0 : (1920 - 600) / 2,
+        y: 0,
+        width: layerType === 'background' ? 1920 : 600,
+        height: 1080,
+        rotation: 0,
+        zIndex: layerType === 'background' ? 0 : existingLayers.length,
+        opacity: 1,
+        visible: true,
+        flipX: false,
+      };
+
+      if (layerIdx >= 0) {
+        // Update only imageUrl, keep user adjustments (position, size, etc.)
+        existingLayers[layerIdx] = { ...existingLayers[layerIdx], imageUrl: imgUrl };
+      } else {
+        existingLayers.push(newLayer);
       }
 
-      if (allReady && layers.length > 0) {
-        updatedNodes = updatedNodes.map(n =>
-          n.id === targetId
-            ? { ...n, data: { ...n.data, layers } }
-            : n,
-        );
-      }
+      updatedNodes = updatedNodes.map(n =>
+        n.id === targetId
+          ? { ...n, data: { ...n.data, layers: existingLayers, outputImageUrl: undefined } }
+          : n,
+      );
+
+      // Persist updated composite layers to backend
+      useCanvasStore.getState().persistCompositeLayers(targetId, existingLayers);
     }
 
     setNodes(updatedNodes);
@@ -105,6 +111,9 @@ export function useNodeExecution() {
       const data = node.data as Record<string, unknown>;
       const nodeType = data.nodeType as string | undefined;
       if (!data.shotId) return;
+
+      // Reset all downstream nodes' green dots before this node runs
+      useCanvasStore.getState().resetDownstreamNodes(nodeId);
 
       // Set node status to queued
       updateNode(nodeId, { status: 'queued' });
@@ -215,17 +224,30 @@ export function useNodeExecution() {
           const outputPng = output.outputPngUrl || (outputKey?.endsWith('.png')
             ? `${API_BASE_URL}/uploads/${outputKey}` : undefined);
 
-          updateNode(nodeId, {
-            status: 'success',
-            progress: 100,
-            ...(outputUrl ? { outputImageUrl: outputUrl } : {}),
-            ...(outputKey ? { outputStorageKey: outputKey } : {}),
-            ...(outputPng ? { outputPngUrl: outputPng } : {}),
-            ...(output.runninghubTaskId ? { runninghubTaskId: output.runninghubTaskId } : {}),
-          });
+          // BlendRefine: store result as preview (not output) — user must confirm
+          if (nodeType === 'blendRefine') {
+            updateNode(nodeId, {
+              status: 'success',
+              progress: 100,
+              previewImageUrl: outputUrl,
+              confirmed: false,
+              ...(outputKey ? { outputStorageKey: outputKey } : {}),
+              ...(output.runninghubTaskId ? { runninghubTaskId: output.runninghubTaskId } : {}),
+            });
+            // Do NOT propagate — wait for user confirmation
+          } else {
+            updateNode(nodeId, {
+              status: 'success',
+              progress: 100,
+              ...(outputUrl ? { outputImageUrl: outputUrl } : {}),
+              ...(outputKey ? { outputStorageKey: outputKey } : {}),
+              ...(outputPng ? { outputPngUrl: outputPng } : {}),
+              ...(output.runninghubTaskId ? { runninghubTaskId: output.runninghubTaskId } : {}),
+            });
 
-          // Propagate output to downstream nodes
-          propagateOutput(nodeId, outputUrl, outputKey);
+            // Propagate output to downstream nodes
+            propagateOutput(nodeId, outputUrl, outputKey);
+          }
         }
       } catch (err) {
         updateNode(nodeId, {
@@ -254,5 +276,27 @@ export function useNodeExecution() {
     [updateNode],
   );
 
-  return { runNode, runFromNode, cancelRun };
+  /** Confirm blendRefine preview — copies previewImageUrl to outputImageUrl and propagates downstream */
+  const confirmBlendRefine = useCallback(
+    (nodeId: string) => {
+      const nodes = useCanvasStore.getState().nodes;
+      const node = nodes.find((n) => n.id === nodeId);
+      if (!node) return;
+
+      const data = node.data as Record<string, unknown>;
+      const previewUrl = data.previewImageUrl as string | undefined;
+      const storageKey = data.outputStorageKey as string | undefined;
+      if (!previewUrl) return;
+
+      updateNode(nodeId, {
+        outputImageUrl: previewUrl,
+        confirmed: true,
+      });
+
+      propagateOutput(nodeId, previewUrl, storageKey);
+    },
+    [updateNode, propagateOutput],
+  );
+
+  return { runNode, runFromNode, cancelRun, confirmBlendRefine, propagateOutput };
 }

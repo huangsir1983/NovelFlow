@@ -128,6 +128,10 @@ class BatchExecuteRequest(BaseModel):
     node_ids: list
 
 
+class SaveCompositeLayersRequest(BaseModel):
+    layers: list
+
+
 class SyncFromProjectRequest(BaseModel):
     project_id: str
 
@@ -645,8 +649,63 @@ def review_composition(req: ReviewCompositionRequest):
 # 3. Node Execution (stubs — Phase 3)
 # ══════════════════════════════════════════════════════════════
 
+_NODE_STORE_WF_ID = "node-execution-store"
+
+
+def _ensure_node_store_workflow(db: Session) -> str:
+    """Ensure a dedicated canvas_workflow row exists for node execution records."""
+    existing = db.query(CanvasWorkflow).filter(CanvasWorkflow.id == _NODE_STORE_WF_ID).first()
+    if existing:
+        return _NODE_STORE_WF_ID
+    # Need a valid project_id — grab the first project
+    from models.project import Project
+    project = db.query(Project).first()
+    if not project:
+        raise RuntimeError("No project exists — cannot create node store workflow")
+    db.add(CanvasWorkflow(
+        id=_NODE_STORE_WF_ID,
+        project_id=project.id,
+        name="Node Execution Store",
+        status="active",
+    ))
+    db.commit()
+    return _NODE_STORE_WF_ID
+
+
+def _persist_node_result(
+    db: Session, node_id: str, node_type: str, content: dict, result: dict
+):
+    """Upsert execution result into canvas_node_executions for later reload."""
+    try:
+        wf_id = _ensure_node_store_workflow(db)
+        existing = db.query(CanvasNodeExecution).filter(
+            CanvasNodeExecution.node_id == node_id
+        ).first()
+        if existing:
+            existing.node_type = node_type
+            existing.status = "done"
+            existing.input_snapshot = content
+            existing.output_snapshot = result.get("result", {})
+            existing.error_message = None
+        else:
+            rec = CanvasNodeExecution(
+                id=str(uuid.uuid4()),
+                workflow_id=wf_id,
+                node_id=node_id,
+                node_type=node_type,
+                status="done",
+                input_snapshot=content,
+                output_snapshot=result.get("result", {}),
+            )
+            db.add(rec)
+        db.commit()
+    except Exception as e:
+        logger.warning("Failed to persist node result for %s: %s", node_id, e)
+        db.rollback()
+
+
 @router.post("/canvas/nodes/{node_id}/execute")
-def execute_node(node_id: str, req: ExecuteNodeRequest):
+def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(get_db)):
     """
     Execute a single canvas node based on its type.
     Dispatches to the appropriate service (RunningHub, Gemini, stub, etc.).
@@ -655,8 +714,9 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
     node_type = req.node_type
     content = req.content
 
+
     # ── Stub nodes — passthrough input as output ──
-    STUB_TYPES = {"hdUpscale", "blendRefine", "lighting", "finalHD"}
+    STUB_TYPES = {"lighting", "finalHD"}
     if node_type in STUB_TYPES:
         input_url = content.get("inputImageUrl", "")
         return {
@@ -669,6 +729,16 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
 
     # ── SceneBG — panorama viewport screenshot (frontend-driven) ──
     if node_type == "sceneBG":
+        screenshot_key = content.get("screenshotStorageKey", "")
+        if screenshot_key:
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": screenshot_key},
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
         return {
             "execution_id": execution_id,
             "status": "success",
@@ -753,19 +823,20 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
             object_key = f"assets/images/{u4()}.{ext}"
             storage.put_bytes(object_key=object_key, data=result_data, content_type=f"image/{ext}")
 
-            return {
+            resp = {
                 "execution_id": execution_id,
                 "status": "success",
                 "node_type": node_type,
                 "result": {"outputStorageKey": object_key, "runninghubTaskId": task_id},
             }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
         finally:
             import os
             os.unlink(tmp.name)
 
     # ── Expression — Gemini img2img ──
     if node_type == "expression":
-        import asyncio
         import base64
         from services.expression_service import generate_expression
 
@@ -784,26 +855,50 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
                 except Exception as e:
                     logger.warning("Failed to read source image from storage: %s", e)
 
+        # If still no base64, try to download from inputImageUrl
+        if not ref_base64:
+            input_url = content.get("inputImageUrl", "")
+            if input_url:
+                try:
+                    import httpx as _httpx
+                    _client = _httpx.Client(timeout=30)
+                    img_resp = _client.get(input_url)
+                    img_resp.raise_for_status()
+                    ref_base64 = base64.b64encode(img_resp.content).decode("utf-8")
+                    logger.info("Downloaded reference image from URL: %s (%d bytes)", input_url, len(img_resp.content))
+                except Exception as e:
+                    logger.warning("Failed to download image from URL %s: %s", input_url, e)
+
         if not ref_base64 or not expr_prompt:
             raise HTTPException(status_code=400, detail="referenceImageBase64/inputStorageKey and expressionPrompt are required")
 
         try:
-            result_b64 = asyncio.get_event_loop().run_until_complete(
-                generate_expression(
-                    reference_image_base64=ref_base64,
-                    expression_prompt=expr_prompt,
-                    negative_prompt=content.get("negativePrompt"),
-                    character_name=content.get("characterName"),
-                )
+            result_b64 = generate_expression(
+                reference_image_base64=ref_base64,
+                expression_prompt=expr_prompt,
+                negative_prompt=content.get("negativePrompt"),
+                character_name=content.get("characterName"),
+                db=db,
             )
-            return {
+            # Save expression result as file so it can be reloaded
+            from services.storage_adapter import get_storage as _get_storage
+            from uuid import uuid4 as _u4
+            _storage = _get_storage()
+            _img_data = base64.b64decode(result_b64)
+            _obj_key = f"assets/images/{_u4()}.png"
+            _storage.put_bytes(object_key=_obj_key, data=_img_data, content_type="image/png")
+
+            resp = {
                 "execution_id": execution_id,
                 "status": "success",
                 "node_type": node_type,
-                "result": {"outputImageBase64": result_b64},
+                "result": {"outputImageBase64": result_b64, "outputStorageKey": _obj_key},
             }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
         except Exception as e:
-            logger.error("Expression generation failed: %s", e)
+            import traceback
+            logger.error("Expression generation failed: %s\n%s", e, traceback.format_exc())
             raise HTTPException(status_code=502, detail=str(e))
 
     # ── Matting — RunningHub background removal ──
@@ -845,18 +940,109 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
             object_key = f"assets/images/{u4()}.png"
             storage.put_bytes(object_key=object_key, data=result_bytes, content_type="image/png")
 
-            return {
+            resp = {
                 "execution_id": execution_id,
                 "status": "success",
                 "node_type": node_type,
                 "result": {"outputStorageKey": object_key},
             }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+        finally:
+            import os
+            os.unlink(tmp.name)
+
+    # ── HD Upscale — RunningHub image upscaling ──
+    if node_type == "hdUpscale":
+        from config import settings
+        from services.runninghub_client import RunningHubClient
+        from services.hd_upscale_service import run_hd_upscale
+        from services.storage_adapter import get_storage
+        import tempfile
+
+        if not settings.runninghub_api_key:
+            raise HTTPException(status_code=503, detail="RunningHub API key not configured")
+
+        # Get source image from storage or URL
+        source_data = None
+        source_key = content.get("inputStorageKey", "")
+        if source_key:
+            try:
+                storage = get_storage()
+                source_data = storage.get_bytes(object_key=source_key)
+            except Exception:
+                logger.warning("HD Upscale: failed to read from storage key %s", source_key)
+
+        if not source_data:
+            input_url = content.get("inputImageUrl", "")
+            if input_url:
+                try:
+                    import httpx as _httpx
+                    _client = _httpx.Client(timeout=30)
+                    img_resp = _client.get(input_url)
+                    img_resp.raise_for_status()
+                    source_data = img_resp.content
+                except Exception as e:
+                    logger.warning("HD Upscale: failed to download from URL %s: %s", input_url, e)
+
+        if not source_data:
+            raise HTTPException(status_code=400, detail="inputStorageKey or inputImageUrl is required")
+
+        suffix = ".png" if (source_key or "").endswith(".png") else ".jpg"
+        tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+        try:
+            tmp.write(source_data)
+            tmp.flush()
+            tmp.close()
+
+            client = RunningHubClient(
+                api_key=settings.runninghub_api_key,
+                base_url=settings.runninghub_base_url,
+            )
+            image_size = content.get("imageSize", "2K")
+            result_bytes = run_hd_upscale(
+                client, tmp.name,
+                image_size=image_size,
+                instance_type=settings.runninghub_instance_type,
+            )
+
+            # Store result
+            storage = get_storage()
+            from uuid import uuid4 as u4
+            object_key = f"assets/images/{u4()}.png"
+            storage.put_bytes(object_key=object_key, data=result_bytes, content_type="image/png")
+
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": object_key},
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+        except Exception as e:
+            import traceback
+            logger.error("HD Upscale failed: %s\n%s", e, traceback.format_exc())
+            raise HTTPException(status_code=502, detail=str(e))
         finally:
             import os
             os.unlink(tmp.name)
 
     # ── Composite — receive composite image from frontend editor ──
     if node_type == "composite":
+        # Case 1: frontend sends outputStorageKey (already uploaded)
+        output_storage_key = content.get("outputStorageKey", "")
+        if output_storage_key:
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": output_storage_key},
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+
+        # Case 2: frontend sends base64 image data
         image_base64 = content.get("compositeImageBase64", "")
         if not image_base64:
             return {
@@ -875,12 +1061,85 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
         object_key = f"assets/images/{u4()}.png"
         storage.put_bytes(object_key=object_key, data=img_data, content_type="image/png")
 
-        return {
+        resp = {
             "execution_id": execution_id,
             "status": "success",
             "node_type": node_type,
             "result": {"outputStorageKey": object_key},
         }
+        _persist_node_result(db, node_id, node_type, content, resp)
+        return resp
+
+    # ── BlendRefine — RunningHub image blending / fusion ──
+    if node_type == "blendRefine":
+        from config import settings
+        from services.runninghub_client import RunningHubClient, RunningHubError
+        from services.storage_adapter import get_storage
+        import tempfile
+
+        BLEND_APP_ID = "2027426419357261825"
+
+        if not settings.runninghub_api_key:
+            raise HTTPException(status_code=503, detail="RunningHub API key not configured")
+
+        source_key = content.get("inputStorageKey", "")
+        if not source_key:
+            raise HTTPException(status_code=400, detail="inputStorageKey is required for blendRefine")
+
+        storage = get_storage()
+        try:
+            source_data = storage.get_bytes(object_key=source_key)
+        except Exception:
+            raise HTTPException(status_code=404, detail=f"Source image not found: {source_key}")
+
+        suffix = ".png" if source_key.endswith(".png") else ".jpg"
+        tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+        try:
+            tmp.write(source_data)
+            tmp.flush()
+            tmp.close()
+
+            client = RunningHubClient(
+                api_key=settings.runninghub_api_key,
+                base_url=settings.runninghub_base_url,
+            )
+            download_url = client.upload_image(tmp.name)
+
+            node_info_list = [
+                {"nodeId": "41", "fieldName": "image", "fieldValue": download_url, "description": "图像输入"},
+            ]
+            task_id = client.submit_task(
+                app_id=BLEND_APP_ID,
+                node_info_list=node_info_list,
+                instance_type=settings.runninghub_instance_type,
+            )
+
+            result = client.poll_until_done(task_id, poll_interval=3.0, timeout=300.0)
+            results = result.get("results", [])
+            if not results:
+                raise HTTPException(status_code=502, detail="RunningHub blendRefine returned no results")
+
+            result_url = results[0] if isinstance(results[0], str) else results[0].get("url", "")
+            result_data = client._get_binary(result_url)
+
+            from uuid import uuid4 as u4
+            ext = "png" if result_url.lower().endswith(".png") else "jpg"
+            object_key = f"assets/images/{u4()}.{ext}"
+            storage.put_bytes(object_key=object_key, data=result_data, content_type=f"image/{ext}")
+
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": object_key, "runninghubTaskId": task_id},
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+        except RunningHubError as e:
+            raise HTTPException(status_code=502, detail=f"RunningHub blendRefine error: {e}")
+        finally:
+            import os
+            os.unlink(tmp.name)
 
     # ── Unified ImageProcess — dispatches based on processType ──
     if node_type == "imageProcess":
@@ -888,23 +1147,16 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
         if process_type in ("viewAngle", "propAngle"):
             # Re-dispatch to viewAngle handler
             req.node_type = "viewAngle"
-            return execute_node(node_id, req)
+            return execute_node(node_id, req, db)
         elif process_type == "expression":
             req.node_type = "expression"
-            return execute_node(node_id, req)
+            return execute_node(node_id, req, db)
         elif process_type == "matting":
             req.node_type = "matting"
-            return execute_node(node_id, req)
+            return execute_node(node_id, req, db)
         elif process_type == "hdUpscale":
-            # Stub: passthrough
-            input_url = content.get("inputImageUrl", "")
-            return {
-                "execution_id": execution_id,
-                "status": "success",
-                "node_type": "imageProcess",
-                "result": {"outputImageUrl": input_url, "stub": True, "processType": process_type},
-                "message": "hdUpscale is a stub — input passed through",
-            }
+            req.node_type = "hdUpscale"
+            return execute_node(node_id, req, db)
         else:
             return {
                 "execution_id": execution_id,
@@ -920,6 +1172,69 @@ def execute_node(node_id: str, req: ExecuteNodeRequest):
         "node_type": node_type,
         "message": f"Unknown node type: {node_type}",
     }
+
+
+@router.get("/canvas/node-results")
+def get_node_results(db: Session = Depends(get_db)):
+    """Return all persisted node execution results for canvas reload."""
+    rows = db.query(CanvasNodeExecution).filter(
+        CanvasNodeExecution.status == "done"
+    ).all()
+    result = {}
+    for r in rows:
+        result[r.node_id] = {
+            "node_type": r.node_type,
+            "input_snapshot": r.input_snapshot or {},
+            "output_snapshot": r.output_snapshot or {},
+        }
+    return result
+
+
+@router.post("/canvas/composite-layers/{node_id}")
+def save_composite_layers(node_id: str, req: SaveCompositeLayersRequest, db: Session = Depends(get_db)):
+    """Persist composite layer configuration (positions, sizes, rotations, etc.)."""
+    try:
+        wf_id = _ensure_node_store_workflow(db)
+        existing = db.query(CanvasNodeExecution).filter(
+            CanvasNodeExecution.node_id == node_id,
+            CanvasNodeExecution.node_type == "compositeLayers",
+        ).first()
+        if existing:
+            existing.output_snapshot = {"layers": req.layers}
+            existing.status = "done"
+        else:
+            rec = CanvasNodeExecution(
+                id=str(uuid.uuid4()),
+                workflow_id=wf_id,
+                node_id=node_id,
+                node_type="compositeLayers",
+                status="done",
+                input_snapshot={},
+                output_snapshot={"layers": req.layers},
+            )
+            db.add(rec)
+        db.commit()
+        return {"status": "ok"}
+    except Exception as e:
+        db.rollback()
+        logger.warning("Failed to save composite layers for %s: %s", node_id, e)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/canvas/composite-layers")
+def get_composite_layers(db: Session = Depends(get_db)):
+    """Return all saved composite layer configurations."""
+    rows = db.query(CanvasNodeExecution).filter(
+        CanvasNodeExecution.node_type == "compositeLayers",
+        CanvasNodeExecution.status == "done",
+    ).all()
+    result = {}
+    for r in rows:
+        output = r.output_snapshot or {}
+        layers = output.get("layers", [])
+        if layers:
+            result[r.node_id] = layers
+    return result
 
 
 @router.post("/canvas/batch-execute")

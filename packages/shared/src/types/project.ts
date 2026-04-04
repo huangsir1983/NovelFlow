@@ -60,6 +60,7 @@ export interface ScriptShot {
   subject: string;
   action: string;
   dialogue: ScriptDialogue | null;
+  characters?: Array<{ name: string; expression?: string; action?: string; position?: string }>;
   sfx?: string;
   music?: string;
   transition?: string;

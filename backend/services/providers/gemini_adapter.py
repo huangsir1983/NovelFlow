@@ -37,6 +37,8 @@ class GeminiAdapter(ProviderAdapter):
 
     def __init__(self, *, base_url: str, api_key: str, provider_name: str = "Gemini"):
         super().__init__(base_url=base_url, api_key=api_key, provider_name=provider_name)
+        # Pre-create httpx client to avoid event-loop issues in worker threads (Python 3.12+)
+        self._http_client = httpx.Client(timeout=300)
 
     def _build_body(
         self,
@@ -88,9 +90,8 @@ class GeminiAdapter(ProviderAdapter):
         )
 
         start = time.time()
-        with httpx.Client(timeout=300) as client:
-            resp = client.post(url, json=body, headers=self._headers())
-            resp.raise_for_status()
+        resp = self._http_client.post(url, json=body, headers=self._headers())
+        resp.raise_for_status()
 
         elapsed = time.time() - start
         data = resp.json()
@@ -127,26 +128,25 @@ class GeminiAdapter(ProviderAdapter):
             temperature=temperature, max_tokens=max_tokens,
         )
 
-        with httpx.Client(timeout=300) as client:
-            with client.stream("POST", url, json=body, headers=self._headers()) as resp:
-                resp.raise_for_status()
-                for line in resp.iter_lines():
-                    if not line.startswith("data: "):
-                        continue
-                    payload = line[6:]
-                    if payload.strip() == "[DONE]":
-                        break
-                    try:
-                        chunk = json.loads(payload)
-                        candidates = chunk.get("candidates", [])
-                        if candidates:
-                            parts = candidates[0].get("content", {}).get("parts", [])
-                            for p in parts:
-                                text = p.get("text", "")
-                                if text:
-                                    yield text
-                    except json.JSONDecodeError:
-                        continue
+        with self._http_client.stream("POST", url, json=body, headers=self._headers()) as resp:
+            resp.raise_for_status()
+            for line in resp.iter_lines():
+                if not line.startswith("data: "):
+                    continue
+                payload = line[6:]
+                if payload.strip() == "[DONE]":
+                    break
+                try:
+                    chunk = json.loads(payload)
+                    candidates = chunk.get("candidates", [])
+                    if candidates:
+                        parts = candidates[0].get("content", {}).get("parts", [])
+                        for p in parts:
+                            text = p.get("text", "")
+                            if text:
+                                yield text
+                except json.JSONDecodeError:
+                    continue
 
     def generate_image(
         self,
@@ -158,19 +158,7 @@ class GeminiAdapter(ProviderAdapter):
         aspect_ratio: str = "3:4",
         image_size: str = "2K",
     ) -> ImageResponse:
-        """Generate an image using Gemini image model.
-
-        Args:
-            model: Image model ID (e.g. "gemini-3.1-flash-image-preview")
-            prompt: Text prompt describing the desired image
-            reference_image: Optional reference image bytes for img2img
-            reference_mime: MIME type of reference image
-            aspect_ratio: Output aspect ratio ("1:1", "3:4", "4:3", "16:9", "9:16")
-            image_size: Output resolution ("1K", "2K", "4K" — 4K requires gemini-3.1-flash-image-preview-4k model)
-
-        Returns:
-            ImageResponse with raw image bytes
-        """
+        """Generate an image using Gemini image model."""
         url = f"{self.base_url}/v1beta/models/{model}:generateContent?key={self.api_key}"
 
         # Build parts
@@ -186,7 +174,6 @@ class GeminiAdapter(ProviderAdapter):
         parts.append({"text": prompt})
 
         # Build image config — omit aspectRatio for unsupported ratios (e.g. "2:1")
-        # so the prompt can control output dimensions instead
         supported_ratios = {"1:1", "3:4", "4:3", "16:9", "9:16"}
         image_config: dict = {}
         if aspect_ratio in supported_ratios:
@@ -206,9 +193,8 @@ class GeminiAdapter(ProviderAdapter):
         }
 
         start = time.time()
-        with httpx.Client(timeout=180) as client:
-            resp = client.post(url, json=body, headers=self._headers())
-            resp.raise_for_status()
+        resp = self._http_client.post(url, json=body, headers=self._headers())
+        resp.raise_for_status()
 
         elapsed = time.time() - start
         data = resp.json()
@@ -248,9 +234,8 @@ class GeminiAdapter(ProviderAdapter):
                 "contents": [{"parts": [{"text": "hi"}]}],
                 "generationConfig": {"maxOutputTokens": 5},
             }
-            with httpx.Client(timeout=15) as client:
-                resp = client.post(url, json=body, headers=self._headers())
-                return resp.status_code == 200
+            resp = self._http_client.post(url, json=body, headers=self._headers())
+            return resp.status_code == 200
         except Exception as e:
             logger.warning(f"Gemini health check failed: {e}")
             return False

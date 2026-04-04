@@ -164,8 +164,9 @@ export function SceneNavigatorWheel() {
     (sceneId: string) => {
       setFocusedSceneId(sceneId);
 
-      // Find shot nodes for this scene, sorted by shotNumber
-      const shotNodes = nodes
+      // Read positions directly from store — no dependency on React Flow's internal node list
+      const allNodes = useCanvasStore.getState().nodes;
+      const shotNodes = allNodes
         .filter(
           (n) =>
             (n.data as { sceneId?: string }).sceneId === sceneId &&
@@ -177,37 +178,59 @@ export function SceneNavigatorWheel() {
           return aNum - bNum;
         });
 
+      // Compute bounding box of the first shot row
+      let targetNodes: typeof allNodes;
       if (shotNodes.length > 0) {
-        // Get the first shot's Y position, then find all nodes at roughly the same Y
-        // (the full row: scene + shot + prompt + image + video for that shot)
         const firstShotY = shotNodes[0].position.y;
-        const rowNodes = nodes.filter((n) => {
+        targetNodes = allNodes.filter((n) => {
           const d = n.data as { sceneId?: string };
           return d.sceneId === sceneId && Math.abs(n.position.y - firstShotY) < 50;
         });
-
-        reactFlow.fitView({
-          nodes: rowNodes.map((n) => ({ id: n.id })),
-          padding: 0.3,
-          maxZoom: 1.0,
-          duration: 400,
-        });
       } else {
-        // Fallback: scene node only
-        const sceneNode = nodes.find(
+        const sceneNode = allNodes.find(
           (n) => (n.data as { sceneId?: string }).sceneId === sceneId &&
                  (n.data as { nodeType?: string }).nodeType === 'scene',
         );
-        if (sceneNode) {
-          reactFlow.fitView({
-            nodes: [{ id: sceneNode.id }],
-            padding: 0.3,
-            duration: 400,
-          });
-        }
+        targetNodes = sceneNode ? [sceneNode] : [];
       }
+
+      if (targetNodes.length === 0) return;
+
+      // Calculate bounding box center from node positions (bypass fitView entirely)
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      for (const n of targetNodes) {
+        const w = (n.measured?.width ?? n.width ?? 280) as number;
+        const h = (n.measured?.height ?? n.height ?? 200) as number;
+        minX = Math.min(minX, n.position.x);
+        minY = Math.min(minY, n.position.y);
+        maxX = Math.max(maxX, n.position.x + w);
+        maxY = Math.max(maxY, n.position.y + h);
+      }
+
+      const centerX = (minX + maxX) / 2;
+      const centerY = (minY + maxY) / 2;
+      const boxW = maxX - minX;
+      const boxH = maxY - minY;
+
+      // Fit zoom to show the row with padding
+      const screenW = typeof window !== 'undefined' ? window.innerWidth : 1920;
+      const screenH = typeof window !== 'undefined' ? window.innerHeight : 1080;
+      const padding = 0.3;
+      const zoomX = screenW / (boxW * (1 + padding));
+      const zoomY = screenH / (boxH * (1 + padding));
+      const zoom = Math.min(Math.min(zoomX, zoomY), 1.0); // cap at 1.0
+
+      // setViewport is synchronous — no need to wait for React Flow to have the nodes
+      reactFlow.setViewport(
+        {
+          x: screenW / 2 - centerX * zoom,
+          y: screenH / 2 - centerY * zoom,
+          zoom,
+        },
+        { duration: 400 },
+      );
     },
-    [nodes, reactFlow, setFocusedSceneId],
+    [reactFlow, setFocusedSceneId],
   );
 
   // ── Scroll wheel: advance one scene at a time ──

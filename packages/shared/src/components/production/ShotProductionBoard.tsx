@@ -5,7 +5,6 @@ import {
   ReactFlow,
   Background,
   BackgroundVariant,
-  MiniMap,
   ReactFlowProvider,
   type OnSelectionChangeParams,
   type Edge,
@@ -101,37 +100,19 @@ const RF_OVERRIDES = `
   stroke-dasharray: 6 3 !important;
 }
 .canvas-card {
-  box-shadow:
-    0 0 20px 4px rgba(255,255,255,0.06),
-    0 0 40px 8px rgba(255,255,255,0.03),
-    0 0 1px 0 rgba(255,255,255,0.1) !important;
-  transition: box-shadow 0.25s ease !important;
+  box-shadow: none !important;
 }
 .react-flow__node:hover .canvas-card {
-  box-shadow:
-    0 0 24px 6px rgba(255,255,255,0.1),
-    0 0 48px 12px rgba(255,255,255,0.04),
-    0 0 1px 0 rgba(255,255,255,0.15) !important;
+  box-shadow: none !important;
 }
 .react-flow__node.selected .canvas-card {
-  box-shadow:
-    0 0 28px 8px rgba(0,200,255,0.15),
-    0 0 50px 14px rgba(0,200,255,0.06),
-    0 0 1px 0 rgba(0,200,255,0.25) !important;
+  box-shadow: 0 0 0 1px rgba(0,200,255,0.4) !important;
 }
 .react-flow__pane {
   background: transparent !important;
 }
 .react-flow__attribution {
   display: none !important;
-}
-.react-flow__minimap {
-  margin: 0 !important;
-  padding: 0 !important;
-  z-index: 55 !important;
-}
-.react-flow__minimap svg {
-  border-radius: 10px !important;
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -167,7 +148,12 @@ import { NodeFloatingToolbar } from './canvas/NodeFloatingToolbar';
 import { SceneNavigatorWheel } from './canvas/SceneNavigatorWheel';
 import { CanvasLeftToolbar } from './canvas/CanvasLeftToolbar';
 import { BoxSelectExecutor } from './canvas/BoxSelectExecutor';
+import { CanvasLiteMinimap } from './canvas/CanvasLiteMinimap';
 import { CanvasBottomToolbar } from './canvas/CanvasBottomToolbar';
+import { CompositeEditor } from './canvas/CompositeEditor';
+import { API_BASE_URL } from '../../lib/api';
+import type { CompositeLayerItem } from '../../types/canvas';
+import { useNodeExecution } from '../../hooks/useNodeExecution';
 
 interface ShotProductionBoardProps {
   projectName: string;
@@ -181,10 +167,32 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   // Scene-level virtualization (updates sceneGroups, visibleSceneIds, renderMode)
   useCanvasVirtualization();
 
+  const { propagateOutput } = useNodeExecution();
+
   const rawNodes = useCanvasStore((s) => s.nodes);
   const rawEdges = useCanvasStore((s) => s.edges);
-  const nodes = useDeferredValue(rawNodes);
-  const edges = useDeferredValue(rawEdges);
+  const visibleSceneIds = useCanvasStore((s) => s.visibleSceneIds);
+  const focusedSceneId = useCanvasStore((s) => s.focusedSceneId);
+
+  // Filter nodes/edges to only visible scenes — avoids React Flow processing thousands of offscreen nodes
+  // Always include focusedSceneId so navigation (fan wheel) can fitView to it immediately
+  const filteredNodes = useMemo(() => {
+    if (!visibleSceneIds || visibleSceneIds.size === 0) return rawNodes;
+    return rawNodes.filter((n) => {
+      const sceneId = (n.data as Record<string, unknown>)?.sceneId as string | undefined;
+      return !sceneId || visibleSceneIds.has(sceneId) || sceneId === focusedSceneId;
+    });
+  }, [rawNodes, visibleSceneIds, focusedSceneId]);
+
+  const visibleNodeIds = useMemo(() => new Set(filteredNodes.map((n) => n.id)), [filteredNodes]);
+
+  const filteredEdges = useMemo(() => {
+    if (!visibleSceneIds || visibleSceneIds.size === 0) return rawEdges;
+    return rawEdges.filter((e) => visibleNodeIds.has(e.source) && visibleNodeIds.has(e.target));
+  }, [rawEdges, visibleNodeIds, visibleSceneIds]);
+
+  const nodes = useDeferredValue(filteredNodes);
+  const edges = useDeferredValue(filteredEdges);
   const onNodesChange = useCanvasStore((s) => s.onNodesChange);
   const onEdgesChange = useCanvasStore((s) => s.onEdgesChange);
   const setViewport = useCanvasStore((s) => s.setViewport);
@@ -238,6 +246,81 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
 
   const scenes = useProjectStore((s) => s.scenes);
 
+  // Composite editor state
+  const compositeEditorOpen = useCanvasStore((s) => s.compositeEditorOpen);
+  const compositeEditorShotId = useCanvasStore((s) => s.compositeEditorShotId);
+  const closeCompositeEditor = useCanvasStore((s) => s.closeCompositeEditor);
+
+  // Find composite node data when editor is open
+  const compositeNode = useMemo(() => {
+    if (!compositeEditorOpen || !compositeEditorShotId) return null;
+    return rawNodes.find((n) => n.id === `composite-${compositeEditorShotId}`);
+  }, [compositeEditorOpen, compositeEditorShotId, rawNodes]);
+
+  const handleCompositeEditorSave = useCallback(
+    async (imageDataUrl: string, updatedLayers: CompositeLayerItem[]) => {
+      if (!compositeNode) return;
+      const nodeId = compositeNode.id;
+
+      // Update node locally with layers + output preview
+      const allNodes = useCanvasStore.getState().nodes;
+      useCanvasStore.getState().setNodes(
+        allNodes.map((n) =>
+          n.id === nodeId
+            ? { ...n, data: { ...n.data, layers: updatedLayers, outputImageUrl: imageDataUrl } }
+            : n,
+        ),
+      );
+      // Persist layer positions/sizes to backend
+      useCanvasStore.getState().persistCompositeLayers(nodeId, updatedLayers as unknown as Array<Record<string, unknown>>);
+      closeCompositeEditor();
+
+      // Upload the exported image to backend
+      try {
+        const blob = await fetch(imageDataUrl).then((r) => r.blob());
+        const formData = new FormData();
+        formData.append('file', blob, 'composite_output.png');
+
+        const projectId = useProjectStore.getState().project?.id;
+        if (!projectId) return;
+
+        const resp = await fetch(
+          `${API_BASE_URL}/api/projects/${projectId}/asset-images/upload`,
+          { method: 'POST', body: formData },
+        );
+        if (!resp.ok) return;
+        const { storage_key } = await resp.json();
+        const persistentUrl = `${API_BASE_URL}/uploads/${storage_key}`;
+
+        // Update node with persistent URL
+        const latestNodes = useCanvasStore.getState().nodes;
+        useCanvasStore.getState().setNodes(
+          latestNodes.map((n) =>
+            n.id === nodeId
+              ? { ...n, data: { ...n.data, outputImageUrl: persistentUrl } }
+              : n,
+          ),
+        );
+
+        // Persist to backend
+        await fetch(`${API_BASE_URL}/api/canvas/nodes/${nodeId}/execute`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            node_type: 'composite',
+            content: { outputStorageKey: storage_key },
+          }),
+        });
+
+        // Propagate output to downstream nodes (e.g. BlendRefine)
+        propagateOutput(nodeId, persistentUrl, storage_key);
+      } catch (e) {
+        console.error('Failed to persist composite output:', e);
+      }
+    },
+    [compositeNode, closeCompositeEditor, propagateOutput],
+  );
+
   const handleSelectionChange = useCallback(
     ({ nodes: selectedNodes }: OnSelectionChangeParams) => {
       selectNodes(selectedNodes.map((n) => n.id));
@@ -259,7 +342,7 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   }, [setInspectedNode, selectNodes]);
 
   // Empty state
-  if (scenes.length === 0 && nodes.length === 0) {
+  if (scenes.length === 0 && rawNodes.length === 0) {
     return (
       <div className="flex h-full items-center justify-center bg-[#090d18]">
         <div className="text-center">
@@ -304,44 +387,19 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         panOnDrag={[1, 2]}
         zoomOnScroll
       >
-        {/* Dynamic background: hide dots when zoomed out */}
-        {viewport.zoom > 0.25 && (
-          <Background
-            variant={BackgroundVariant.Dots}
-            gap={20}
-            size={Math.max(0.5, 1.5 * viewport.zoom)}
-            color={`rgba(255,255,255,${Math.min(0.18, viewport.zoom * 0.3)})`}
-            style={{ backgroundColor: '#000000' }}
-          />
-        )}
-        {/* Always render MiniMap so it subscribes to node store; toggle via CSS */}
-          <MiniMap
-            nodeColor={(n) => {
-              const nt = n.type;
-              if (nt === 'scene') return '#00c8ff';
-              if (nt === 'shot') return '#ff9632';
-              if (nt === 'promptAssembly') return '#32c864';
-              if (nt === 'imageGeneration') return '#ffc832';
-              if (nt === 'videoGeneration') return '#c832ff';
-              return '#ffffff';
-            }}
-            nodeStrokeColor="transparent"
-            nodeStrokeWidth={0}
-            maskColor="rgba(0,0,0,0.5)"
-            position="bottom-left"
-            style={miniMapOpen ? {
-              width: 180,
-              height: 110,
-              left: 12,
-              bottom: 44,
-              background: 'rgba(10,14,24,0.92)',
-              border: '1px solid rgba(255,255,255,0.1)',
-              borderRadius: 10,
-            } : { display: 'none' }}
-            pannable
-            zoomable
-          />
+        {/* Background: always render for consistent #000 color; dots only when zoomed in */}
+        <Background
+          variant={BackgroundVariant.Dots}
+          gap={40}
+          size={viewport.zoom > 0.35 ? Math.max(0.3, 0.8 * viewport.zoom) : 0}
+          color={viewport.zoom > 0.35 ? `rgba(255,255,255,${Math.min(0.12, viewport.zoom * 0.15)})` : 'transparent'}
+          style={{ backgroundColor: '#000000' }}
+        />
+        {/* MiniMap removed — replaced by lightweight CanvasLiteMinimap outside ReactFlow */}
       </ReactFlow>
+
+      {/* Lightweight canvas-based minimap — reads rawNodes from store, no ReactFlow overhead */}
+      {miniMapOpen && <CanvasLiteMinimap />}
 
       {/* Bottom toolbar: minimap toggle, snap, fit view, zoom slider */}
       <CanvasBottomToolbar />
@@ -434,6 +492,17 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         >
           ✦
         </div>
+      )}
+
+      {/* Composite Editor — full-screen portal overlay */}
+      {compositeEditorOpen && compositeNode && (
+        <CompositeEditor
+          layers={(compositeNode.data as any).layers ?? []}
+          canvasWidth={(compositeNode.data as any).canvasWidth ?? 1920}
+          canvasHeight={(compositeNode.data as any).canvasHeight ?? 1080}
+          onSave={handleCompositeEditorSave}
+          onClose={closeCompositeEditor}
+        />
       )}
     </div>
   );

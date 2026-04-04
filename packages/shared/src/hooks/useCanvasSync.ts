@@ -6,6 +6,197 @@ import { useProjectStore } from '../stores/projectStore';
 import { useBoardStore } from '../stores/boardStore';
 import { useCanvasStore } from '../stores/canvasStore';
 import { buildCanvasGraph, type SceneInput, type ShotInput, type CharacterMapEntry, type LocationDetailEntry, shotNodeId, videoNodeId } from '../lib/canvasLayout';
+import { API_BASE_URL } from '../lib/api';
+
+/** Apply saved node execution results to freshly built nodes + propagate outputs downstream */
+type SavedNodeResult = { node_type: string; input_snapshot: Record<string, unknown>; output_snapshot: Record<string, unknown> };
+
+function _applySavedResults(
+  nodes: import('@xyflow/react').Node[],
+  edges: Edge[],
+  saved: Record<string, SavedNodeResult> | null,
+): import('@xyflow/react').Node[] {
+  if (!saved || Object.keys(saved).length === 0) return nodes;
+
+  // Step 1: Build output URL map for all saved nodes
+  const outputMap = new Map<string, { url?: string; key?: string }>();
+  for (const [nodeId, rec] of Object.entries(saved)) {
+    if (!rec.output_snapshot) continue;
+    const out = rec.output_snapshot;
+    const key = out.outputStorageKey as string | undefined;
+    const url = key ? `${API_BASE_URL}/uploads/${key}` : (out.outputImageUrl as string | undefined);
+    if (url || key) outputMap.set(nodeId, { url, key });
+  }
+
+  // Step 2: Build downstream propagation map (source → set of target node IDs)
+  const downstreamInputs = new Map<string, { url?: string; key?: string }>();
+  for (const e of edges) {
+    const src = outputMap.get(e.source);
+    if (src) downstreamInputs.set(e.target, src);
+  }
+
+  // Step 3: Patch nodes — restore saved results + propagate inputs to downstream
+  return nodes.map((n) => {
+    let patched = n;
+
+    // Apply saved execution result to this node
+    const rec = saved[n.id];
+    if (rec?.output_snapshot) {
+      const out = rec.output_snapshot;
+      const inp = rec.input_snapshot || {};
+      const patch: Record<string, unknown> = { status: 'success', progress: 100 };
+      if (out.outputStorageKey) {
+        patch.outputStorageKey = out.outputStorageKey;
+        patch.outputImageUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
+      }
+      if (out.outputImageUrl) patch.outputImageUrl = out.outputImageUrl;
+      if (out.outputPngUrl) patch.outputPngUrl = out.outputPngUrl;
+      // SceneBG nodes store screenshot in screenshotUrl field
+      if (rec.node_type === 'sceneBG' && out.outputStorageKey) {
+        patch.screenshotUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
+        patch.panoramaStorageKey = out.outputStorageKey as string;
+      }
+      if (inp.azimuth !== undefined) patch.azimuth = inp.azimuth;
+      if (inp.elevation !== undefined) patch.elevation = inp.elevation;
+      if (inp.distance !== undefined) patch.distance = inp.distance;
+      if (inp.targetAngle) patch.targetAngle = inp.targetAngle;
+      if (inp.expressionPrompt) patch.expressionPrompt = inp.expressionPrompt;
+      if (inp.scaleFactor) patch.scaleFactor = inp.scaleFactor;
+      if (inp.processType) patch.processType = inp.processType;
+      patched = { ...patched, data: { ...patched.data, ...patch } };
+    }
+
+    // Propagate upstream output as this node's input
+    const upstream = downstreamInputs.get(n.id);
+    if (upstream) {
+      const inputPatch: Record<string, unknown> = {};
+      if (upstream.url) inputPatch.inputImageUrl = upstream.url;
+      if (upstream.key) inputPatch.inputStorageKey = upstream.key;
+      patched = { ...patched, data: { ...patched.data, ...inputPatch } };
+    }
+
+    return patched;
+  });
+}
+
+/**
+ * Auto-populate Composite layers from upstream nodes that already have output.
+ * Each upstream source that has an image is upserted into the composite's layers.
+ */
+function _autoPopulateCompositeLayers(
+  nodes: import('@xyflow/react').Node[],
+  edges: Edge[],
+  savedCompositeLayers?: Record<string, Array<Record<string, unknown>>>,
+): import('@xyflow/react').Node[] {
+  // Find all composite nodes
+  const compositeNodes = nodes.filter(n => (n.data as Record<string, unknown>).nodeType === 'composite');
+  if (compositeNodes.length === 0) return nodes;
+
+  let result = nodes;
+  for (const compNode of compositeNodes) {
+    const compData = compNode.data as Record<string, unknown>;
+    const currentLayers = (compData.layers || []) as Array<Record<string, unknown>>;
+
+    // Priority: savedCompositeLayers (backend-persisted, has user positions) > currentLayers (in-memory)
+    // Always use saved as base when available — it preserves user position/size/rotation edits.
+    const saved = savedCompositeLayers?.[compNode.id];
+    let layers: Array<Record<string, unknown>>;
+    let changed: boolean;
+    let imageUrlChanged = false; // track if any layer imageUrl actually changed
+    if (saved && saved.length > 0) {
+      // Start from saved layers (user-adjusted positions/sizes).
+      // For each saved layer, prefer current imageUrl if newer, keep saved position/size.
+      layers = saved.map(sl => {
+        const cur = currentLayers.find(cl => cl.sourceNodeId === sl.sourceNodeId);
+        // If current has a different (newer) imageUrl, use it; otherwise keep saved
+        if (cur && cur.imageUrl && cur.imageUrl !== sl.imageUrl) {
+          imageUrlChanged = true;
+          return { ...sl, imageUrl: cur.imageUrl };
+        }
+        return { ...sl };
+      });
+      // Also add any current layers that are not in saved (new upstream sources)
+      for (const cl of currentLayers) {
+        if (!layers.some(l => l.sourceNodeId === cl.sourceNodeId)) {
+          layers.push(cl);
+          imageUrlChanged = true;
+        }
+      }
+      changed = true;
+    } else {
+      layers = currentLayers.slice();
+      changed = false;
+    }
+
+    // Find all edges pointing to this composite — upsert upstream outputs
+    const incomingEdges = edges.filter(e => e.target === compNode.id);
+    for (const edge of incomingEdges) {
+      const srcNode = result.find(n => n.id === edge.source);
+      if (!srcNode) continue;
+      const srcData = srcNode.data as Record<string, unknown>;
+      const imgUrl = (srcData.outputPngUrl || srcData.outputImageUrl || srcData.screenshotUrl) as string | undefined;
+      if (!imgUrl) continue;
+
+      // Determine layer type
+      const nodeType = (srcData.nodeType || '') as string;
+      const processType = (srcData.processType || '') as string;
+      const isBgUpscale = nodeType === 'imageProcess' && processType === 'hdUpscale'
+        && edges.some(e => e.target === edge.source && e.source.startsWith('scenebg-'));
+      const layerType = (nodeType === 'sceneBG' || isBgUpscale) ? 'background' : 'character';
+
+      // Upsert: find existing layer by sourceNodeId or type (for background)
+      const existingIdx = layers.findIndex(l => l.sourceNodeId === edge.source);
+      if (existingIdx >= 0) {
+        // Only update imageUrl — never touch position/size/rotation
+        if (layers[existingIdx].imageUrl !== imgUrl) {
+          layers[existingIdx] = { ...layers[existingIdx], imageUrl: imgUrl };
+          changed = true;
+          imageUrlChanged = true;
+        }
+      } else {
+        // Check if there's already a background layer from a different source
+        const bgIdx = layerType === 'background' ? layers.findIndex(l => l.type === 'background') : -1;
+        if (bgIdx >= 0) {
+          // Update imageUrl + sourceNodeId, keep position/size
+          if (layers[bgIdx].imageUrl !== imgUrl) imageUrlChanged = true;
+          layers[bgIdx] = { ...layers[bgIdx], imageUrl: imgUrl, sourceNodeId: edge.source };
+          changed = true;
+        } else {
+          // Brand new layer — use defaults
+          layers.push({
+            id: edge.source,
+            type: layerType,
+            sourceNodeId: edge.source,
+            imageUrl: imgUrl,
+            x: layerType === 'background' ? 0 : (1920 - 600) / 2,
+            y: 0,
+            width: layerType === 'background' ? 1920 : 600,
+            height: 1080,
+            rotation: 0,
+            zIndex: layerType === 'background' ? 0 : layers.length,
+            opacity: 1,
+            visible: true,
+            flipX: false,
+          });
+          changed = true;
+          imageUrlChanged = true;
+        }
+      }
+    }
+
+    if (changed) {
+      result = result.map(n => {
+        if (n.id !== compNode.id) return n;
+        const patch: Record<string, unknown> = { layers };
+        // Only clear outputImageUrl when layer images actually changed (stale export);
+        // preserve it on pure restore (refresh) so the preview keeps the editor export.
+        if (imageUrlChanged) patch.outputImageUrl = undefined;
+        return { ...n, data: { ...n.data, ...patch } };
+      });
+    }
+  }
+  return result;
+}
 
 /**
  * Apply disconnection state to raw edges: filter out broken segments, inject bypass edges.
@@ -107,6 +298,12 @@ export function useCanvasSync() {
   const rawEdgesRef = useRef<Edge[]>([]);
   const initializedRef = useRef(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+
+  // Cache for persisted node results (fetched once, applied after every rebuild)
+  const savedResultsRef = useRef<Record<string, SavedNodeResult> | null>(null);
+  // Cache for persisted composite layer configurations
+  const savedLayersRef = useRef<Record<string, Array<Record<string, unknown>>> | null>(null);
+  const fetchedRef = useRef(false);
 
   // Effect 1: rebuild graph when domain data changes (debounced)
   useEffect(() => {
@@ -253,9 +450,80 @@ export function useCanvasSync() {
     });
 
     rawEdgesRef.current = edges;
-    setNodes(nodes);
+
+    // Snapshot current session's node runtime state before rebuild wipes it.
+    // Keyed by nodeId → subset of data fields worth preserving.
+    const prevNodes = useCanvasStore.getState().nodes;
+    const prevDataMap = new Map<string, Record<string, unknown>>();
+    for (const pn of prevNodes) {
+      const pd = pn.data as Record<string, unknown>;
+      const snap: Record<string, unknown> = {};
+      // Preserve outputs produced during this session
+      if (pd.outputImageUrl) snap.outputImageUrl = pd.outputImageUrl;
+      if (pd.outputPngUrl) snap.outputPngUrl = pd.outputPngUrl;
+      if (pd.outputStorageKey) snap.outputStorageKey = pd.outputStorageKey;
+      if (pd.screenshotUrl) snap.screenshotUrl = pd.screenshotUrl;
+      if (pd.panoramaStorageKey) snap.panoramaStorageKey = pd.panoramaStorageKey;
+      // Preserve propagated inputs
+      if (pd.inputImageUrl) snap.inputImageUrl = pd.inputImageUrl;
+      if (pd.inputStorageKey) snap.inputStorageKey = pd.inputStorageKey;
+      // Preserve status
+      if (pd.status === 'success' || pd.status === 'running' || pd.status === 'error') {
+        snap.status = pd.status;
+        if (pd.progress !== undefined) snap.progress = pd.progress;
+      }
+      // Preserve composite layers
+      if (pd.nodeType === 'composite' && Array.isArray(pd.layers) && (pd.layers as unknown[]).length > 0) {
+        snap.layers = pd.layers;
+      }
+      if (Object.keys(snap).length > 0) prevDataMap.set(pn.id, snap);
+    }
+
+    // Apply saved node results (if already fetched) before setting nodes
+    let finalNodes = _applySavedResults(nodes, edges, savedResultsRef.current);
+
+    // Restore current session state onto rebuilt nodes (only fields the rebuild didn't set)
+    if (prevDataMap.size > 0) {
+      finalNodes = finalNodes.map((n) => {
+        const snap = prevDataMap.get(n.id);
+        if (!snap) return n;
+        const nd = n.data as Record<string, unknown>;
+        const patch: Record<string, unknown> = {};
+        for (const [key, val] of Object.entries(snap)) {
+          if (nd[key] === undefined || nd[key] === null) patch[key] = val;
+        }
+        if (Object.keys(patch).length === 0) return n;
+        return { ...n, data: { ...nd, ...patch } };
+      });
+    }
+
+    // Auto-populate composite layers from upstream outputs + merge saved backend layers
+    finalNodes = _autoPopulateCompositeLayers(finalNodes, edges, savedLayersRef.current ?? undefined);
+
+    setNodes(finalNodes);
     setEdges(applyDisconnections(edges, me, disc));
     initializedRef.current = true;
+
+    // Fetch saved results + composite layers once, then re-apply
+    if (!fetchedRef.current) {
+      fetchedRef.current = true;
+      Promise.all([
+        fetch(`${API_BASE_URL}/api/canvas/node-results`).then(r => r.ok ? r.json() : {}),
+        fetch(`${API_BASE_URL}/api/canvas/composite-layers`).then(r => r.ok ? r.json() : {}),
+      ])
+        .then(([saved, savedLayers]: [Record<string, SavedNodeResult>, Record<string, Array<Record<string, unknown>>>]) => {
+          if (Object.keys(saved).length > 0) savedResultsRef.current = saved;
+          if (Object.keys(savedLayers).length > 0) savedLayersRef.current = savedLayers;
+          if (!savedResultsRef.current && !savedLayersRef.current) return;
+          // Re-apply to current nodes
+          const { nodes: cur, setNodes: sn } = useCanvasStore.getState();
+          const edgesNow = useCanvasStore.getState().edges;
+          let patched = _applySavedResults(cur, edgesNow, savedResultsRef.current);
+          patched = _autoPopulateCompositeLayers(patched, edgesNow, savedLayersRef.current ?? undefined);
+          sn(patched);
+        })
+        .catch(() => {});
+    }
     }, 100); // debounce 100ms
 
     return () => clearTimeout(debounceRef.current);

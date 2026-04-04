@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useEffect, useCallback, memo } from 'react';
+import { useRef, useEffect, useCallback, memo, useState } from 'react';
 
 /* ── Geometry constants (from taoge view_angle_widget.py) ── */
 const BASE_W = 320;
@@ -105,11 +105,12 @@ function ViewAngleCanvasComponent({
   }, [rcx, rcy, s, elevRx, elevRy]);
 
   /* ── Load preview image ── */
+  const [imgReady, setImgReady] = useState(false);
   useEffect(() => {
-    if (!previewImageUrl) { imgRef.current = null; return; }
+    if (!previewImageUrl) { imgRef.current = null; setImgReady(false); return; }
     const img = new Image();
     img.crossOrigin = 'anonymous';
-    img.onload = () => { imgRef.current = img; };
+    img.onload = () => { imgRef.current = img; setImgReady(true); };
     img.src = previewImageUrl;
   }, [previewImageUrl]);
 
@@ -271,11 +272,9 @@ function ViewAngleCanvasComponent({
       const hw = w / 2;
       const hh = h / 2;
 
-      // ── Non-linear azimuth mapping ──
-      // In our convention: negative azimuth = camera to the LEFT = see character's LEFT side
-      // = RIGHT side of front-view image should be closer to camera
-      // Flip sign vs taoge's PyQt convention to match our camera-position convention
-      let effectiveDeg = azimuth + AZ_NONLINEAR_OFFSET * Math.cos(azimuth * Math.PI / 180);
+      // ── Non-linear azimuth mapping (from taoge) ──
+      // effective = -azimuth - 35 * cos(azimuth)
+      let effectiveDeg = -azimuth - AZ_NONLINEAR_OFFSET * Math.cos(azimuth * Math.PI / 180);
 
       // ── Mirror flip past ±90° ──
       let mirror = false;
@@ -283,7 +282,7 @@ function ViewAngleCanvasComponent({
       else if (effectiveDeg < -90) { mirror = true; effectiveDeg += 180; }
 
       const azRad = effectiveDeg * Math.PI / 180;
-      const elRad = (elevation * 0.5 + 20) * Math.PI / 180; // dampened + 20° baseline
+      const elRad = (elevation * 0.5 + 5) * Math.PI / 180; // 仰视(-30)=-10°, 平视=5°, 俯视=20°, 高角度=35°
 
       // ── Virtual camera ──
       const focal = FOCAL * s;
@@ -332,7 +331,7 @@ function ViewAngleCanvasComponent({
       ctx.restore();
 
       // ── Draw image using vertical strip rendering (perspective approximation) ──
-      const STRIPS = 32;
+      const STRIPS = 128;
       for (let i = 0; i < STRIPS; i++) {
         const t0 = i / STRIPS;
         const t1 = (i + 1) / STRIPS;
@@ -401,7 +400,7 @@ function ViewAngleCanvasComponent({
         return [px + dx / len * pad, py + dy / len * pad] as [number, number];
       });
     }
-  }, [width, height, azimuth, elevation, distance, s, rcx, rcy, ringRx, ringRy, elevRx, elevRy, azToRender, azHandlePos, distHandlePos, elevHandlePos]);
+  }, [width, height, azimuth, elevation, distance, s, rcx, rcy, ringRx, ringRy, elevRx, elevRy, azToRender, azHandlePos, distHandlePos, elevHandlePos, imgReady]);
 
   useEffect(() => {
     draw();

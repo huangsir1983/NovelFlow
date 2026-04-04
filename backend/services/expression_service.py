@@ -10,12 +10,13 @@ from typing import Optional
 logger = logging.getLogger(__name__)
 
 
-async def generate_expression(
+def generate_expression(
     reference_image_base64: str,
     expression_prompt: str,
     *,
     negative_prompt: Optional[str] = None,
     character_name: Optional[str] = None,
+    db=None,
 ) -> str:
     """
     Use Gemini img2img to transform a character reference image
@@ -26,13 +27,12 @@ async def generate_expression(
         expression_prompt: Text prompt describing the desired expression/action.
         negative_prompt: Things to avoid in the generated image.
         character_name: Optional character name for context.
+        db: Optional database session for provider routing.
 
     Returns:
         Base64-encoded result image string.
     """
-    from services.ai_engine import get_ai_engine
-
-    engine = get_ai_engine()
+    from services.ai_engine import ai_engine
 
     # Build the prompt
     parts = []
@@ -46,14 +46,26 @@ async def generate_expression(
 
     full_prompt = " ".join(parts)
 
-    # Use Gemini image generation with reference image
+    # Decode base64 to bytes for ai_engine.generate_image()
+    ref_bytes = base64.b64decode(reference_image_base64)
+
+    # Detect MIME type from image header
+    ref_mime = "image/png"
+    if ref_bytes[:3] == b'\xff\xd8\xff':
+        ref_mime = "image/jpeg"
+    elif ref_bytes[:4] == b'RIFF' and ref_bytes[8:12] == b'WEBP':
+        ref_mime = "image/webp"
+
     try:
-        result = await engine.generate_image_with_reference(
+        result = ai_engine.generate_image(
             prompt=full_prompt,
-            reference_image_base64=reference_image_base64,
-            aspect_ratio="1:1",
+            reference_image=ref_bytes,
+            reference_mime=ref_mime,
+            aspect_ratio="3:4",
+            db=db,
         )
-        return result
+        # Return base64-encoded result
+        return base64.b64encode(result["image_data"]).decode("utf-8")
     except Exception as e:
         logger.error("Expression generation failed: %s", e)
         raise

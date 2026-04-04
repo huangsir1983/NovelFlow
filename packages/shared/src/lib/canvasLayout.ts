@@ -35,21 +35,24 @@ import { detectModuleType } from '../components/production/canvas/ModuleTemplate
 
 /* ── Layout constants ── */
 /**
- * 9-column layout for the 12-node branching pipeline:
- *   Col 0 (0)    : Scene
- *   Col 1 (500)  : Shot
- *   Col 2 (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
- *   Col 3 (1540) : ViewAngle / PropAngle
- *   Col 4 (2060) : Expression
- *   Col 5 (2580) : HDUpscale + Matting
- *   Col 6 (3100) : Composite (merge point)
- *   Col 7 (3620) : BlendRefine + Lighting
- *   Col 8 (4140) : FinalHD + VideoGeneration
+ * 12-column layout — paired nodes arranged side-by-side:
+ *   Col 0  (0)    : Scene
+ *   Col 1  (500)  : Shot
+ *   Col 2  (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
+ *   Col 3  (1540) : ViewAngle / PropAngle
+ *   Col 4  (2060) : Expression
+ *   Col 5  (2580) : HDUpscale
+ *   Col 6  (2860) : Matting
+ *   Col 7  (3380) : Composite (merge point)
+ *   Col 8  (3920) : BlendRefine
+ *   Col 9  (4200) : Lighting
+ *   Col 10 (4700) : FinalHD
+ *   Col 11 (4980) : VideoGeneration
  */
-const COL_X = [0, 500, 1020, 1540, 2060, 2580, 3100, 3620, 4140];
-const SCENE_PADDING = 400;  // vertical padding between scene groups
-const SHOT_GAP = 420;       // vertical gap between shots within a scene
-const BRANCH_GAP = 220;     // vertical gap between branches (sceneBG, characters, props)
+const COL_X = [0, 500, 1020, 1540, 2060, 2580, 2860, 3380, 3920, 4200, 4700, 4980];
+const SCENE_PADDING = 600;  // vertical padding between scene groups
+const SHOT_GAP = 700;       // vertical gap between shots within a scene
+const BRANCH_GAP = 280;     // vertical gap between branches (sceneBG, characters, props)
 const NODE_HEIGHT = 200;
 
 /** Actual card widths per node type — must match the component's outer div width */
@@ -129,6 +132,7 @@ interface ScriptShotJson {
   subject: string;
   action: string;
   dialogue: { character: string; line: string; subtext?: string; delivery?: string } | null;
+  characters?: Array<{ name: string; expression?: string; action?: string; position?: string }>;
   sfx?: string;
   music?: string;
   close_up_target?: string;
@@ -175,6 +179,9 @@ export interface ShotInput {
   durationEstimate?: string;
   emotionTarget?: string;
   dialogueText?: string;
+  subject?: string;
+  /** Per-character structured expression/action from generated_script_json */
+  characterActions?: Record<string, { expression?: string; action?: string; position?: string }>;
 }
 
 /** Character visual data keyed by character name */
@@ -231,6 +238,29 @@ function extractShotsFromScriptJson(sceneId: string, scriptJson: SceneInput['scr
   let shotNumber = 1;
   for (const beat of scriptJson.beats) {
     for (const shot of beat.shots) {
+      // Extract character names from structured characters array + dialogue
+      const mentionedChars: string[] = [];
+      if (shot.characters?.length) {
+        for (const c of shot.characters) {
+          if (c.name && !mentionedChars.includes(c.name)) mentionedChars.push(c.name);
+        }
+      }
+      if (shot.dialogue?.character && !mentionedChars.includes(shot.dialogue.character)) {
+        mentionedChars.push(shot.dialogue.character);
+      }
+      // Build per-character action/expression map from structured data
+      const characterActions: Record<string, { expression?: string; action?: string; position?: string }> = {};
+      if (shot.characters?.length) {
+        for (const c of shot.characters) {
+          if (c.name) {
+            characterActions[c.name] = {
+              expression: c.expression,
+              action: c.action,
+              position: c.position,
+            };
+          }
+        }
+      }
       result.push({
         id: `${sceneId}_b${beat.beat_id}_s${shotNumber}`,
         sceneId,
@@ -241,8 +271,11 @@ function extractShotsFromScriptJson(sceneId: string, scriptJson: SceneInput['scr
         description: shot.action || '',
         visualPrompt: '',
         status: 'idle',
-        charactersInFrame: shot.subject ? [shot.subject] : [],
+        subject: shot.subject || '',
+        charactersInFrame: mentionedChars,
         dialogueText: shot.dialogue?.line || '',
+        emotionTarget: shot.dialogue?.subtext || shot.dialogue?.delivery || '',
+        characterActions: Object.keys(characterActions).length > 0 ? characterActions : undefined,
       });
       shotNumber++;
     }
@@ -286,19 +319,66 @@ export function buildCanvasGraph(
     const baseY = currentY;
     const sId = sceneNodeId(scene.id);
 
+    // Helper: resolve character names for a shot (same logic used for both Y calc and node creation)
+    // Strategy: precise extraction, not broad fallback.
+    //   1. shot.charactersInFrame (explicit, e.g. from dialogue character or Shot table)
+    //   2. scan shot.subject + shot.description for mentions of known character names
+    //   3. Only for explicit Shot-table shots (no subject field): fallback to scene.characterNames
+    const allCharNamesForScene = Object.keys(characterMap);
+    // Sort by name length desc so "陆姝仪婢女" is checked before "陆姝仪"
+    const charNamesByLen = [...allCharNamesForScene].sort((a, b) => b.length - a.length);
+    const resolveCharNamesForShot = (s: ShotInput): string[] => {
+      const found = new Set<string>();
+
+      // 1. Explicit charactersInFrame (dialogue characters or Shot-table data)
+      if (s.charactersInFrame?.length) {
+        for (const n of s.charactersInFrame) {
+          if (characterMap[n]) { found.add(n); continue; }
+          const fuzzy = allCharNamesForScene.find(k => n.includes(characterMap[k].name) || characterMap[k].name.includes(n));
+          if (fuzzy) found.add(fuzzy);
+        }
+      }
+
+      // 2. Scan subject + description for character name mentions
+      const textToScan = [s.subject, s.description].filter(Boolean).join(' ');
+      if (textToScan && charNamesByLen.length > 0) {
+        for (const cn of charNamesByLen) {
+          if (textToScan.includes(cn)) found.add(cn);
+        }
+      }
+
+      // 3. Fallback to scene characters ONLY for Shot-table entries (no subject = explicit shot)
+      if (found.size === 0 && !s.subject && scene.characterNames?.length) {
+        for (const n of scene.characterNames) {
+          if (characterMap[n]) found.add(n);
+          else {
+            const fuzzy = allCharNamesForScene.find(k => n.includes(characterMap[k].name) || characterMap[k].name.includes(n));
+            if (fuzzy) found.add(fuzzy);
+          }
+        }
+      }
+
+      return [...found];
+    };
+
     // Pre-compute per-shot Y positions based on actual branch counts
+    // Each shot's branches fan out vertically centered on shotY.
+    // Actual vertical span = branchTotalHeight + sub-node offsets (BRANCH_GAP/2 above & below)
+    //                        + tallest node height + safety margin
     const shotYPositions: number[] = [];
     {
       let nextY = baseY;
       for (const s of sceneShots) {
         shotYPositions.push(nextY);
-        let charNames = s.charactersInFrame?.length ? s.charactersInFrame : scene.characterNames;
-        if ((!charNames || charNames.length === 0) && Object.keys(characterMap).length > 0) {
-          charNames = Object.keys(characterMap);
-        }
-        const branches = 1 + (charNames?.length || 0); // 1 sceneBG + N characters
-        const branchHeight = (branches - 1) * BRANCH_GAP;
-        nextY += Math.max(SHOT_GAP, branchHeight + 120);
+        const resolvedNames = resolveCharNamesForShot(s);
+        const branches = 1 + resolvedNames.length; // 1 sceneBG + N characters
+        const branchTotalHeight = (branches - 1) * BRANCH_GAP;
+        // Branches centered on shotY → extend branchTotalHeight/2 above and below
+        // Sub-nodes (hdUpscale/matting) add BRANCH_GAP/4 above/below each character branch
+        // Plus node height itself + comfortable margin
+        const maxNodeH = branches > 1 ? (NODE_HEIGHTS.characterProcess || NODE_HEIGHT) : NODE_HEIGHT;
+        const actualSpan = branchTotalHeight + maxNodeH + 100;
+        nextY += Math.max(SHOT_GAP, actualSpan);
       }
     }
     const shotsGroupHeight = shotYPositions.length > 1
@@ -341,38 +421,12 @@ export function buildCanvasGraph(
       const shotY = shotYPositions[shi];
       const artifacts = artifactsByShotId[shot.id] || [];
       const runs = nodeRunsByShotId[shot.id] || [];
-
       const shotStatus = (shot.status || 'idle') as CanvasNodeStatus;
-      const videoRun = runs.find((r) => r.nodeKey === 'video');
-      const videoArtifact = artifacts.find((a) => a.type === 'video');
-
-      // ── Build character refs and location detail for this shot ──
-      // Priority: shot-level characters > scene-level characters > all known characters
-      let shotCharNames = shot.charactersInFrame?.length
-        ? shot.charactersInFrame
-        : scene.characterNames;
-
-      // If still empty, use all characters in characterMap as fallback
-      if ((!shotCharNames || shotCharNames.length === 0) && Object.keys(characterMap).length > 0) {
-        shotCharNames = Object.keys(characterMap);
-      }
-
-      // Resolve character names: exact match first, then fuzzy (contains) match
-      const allCharNames = Object.keys(characterMap);
-      const resolveCharName = (name: string): CharacterMapEntry | undefined => {
-        // Exact match
-        if (characterMap[name]) return characterMap[name];
-        // Fuzzy: characterMap key contains shot name, or shot name contains key
-        return allCharNames
-          .map((k) => characterMap[k])
-          .find((c) => name.includes(c.name) || c.name.includes(name));
-      };
-
-      const characterRefs: CharacterRefInfo[] = shotCharNames
-        .map(resolveCharName)
+      // ── Build character refs for this shot (uses shared resolveCharNamesForShot helper) ──
+      const resolvedCharNames = resolveCharNamesForShot(shot);
+      const characterRefs: CharacterRefInfo[] = resolvedCharNames
+        .map(n => characterMap[n])
         .filter((c): c is CharacterMapEntry => !!c)
-        // Deduplicate by name
-        .filter((c, i, arr) => arr.findIndex((x) => x.name === c.name) === i)
         .map((c) => ({
           name: c.name,
           visualRefUrl: c.visualRefUrl,
@@ -417,7 +471,7 @@ export function buildCanvasGraph(
           specId: shot.id,
           moduleType: detectedModule ?? undefined,
           imagePrompt: shot.visualPrompt || undefined,
-          charactersInFrame: shot.charactersInFrame,
+          charactersInFrame: characterRefs.length > 0 ? characterRefs.map(c => c.name) : shot.charactersInFrame,
           durationEstimateMs: shotDurationMs || undefined,
           dialogueText: shot.dialogueText,
           emotionTarget: shot.emotionTarget,
@@ -464,8 +518,32 @@ export function buildCanvasGraph(
         } satisfies SceneBGNodeData,
         ...nodeDims('sceneBG'),
       });
-      compositeSourceIds.push(bgId);
       edges.push({ id: `e-${shId}-${bgId}`, source: shId, target: bgId, type: 'pipeline', data: { shotId: shot.id, segment: 'shot-scenebg' } });
+
+      // SceneBG → HDUpscale for background (Col 3, same column as ViewAngle)
+      const bgHdId = `imgproc-hdUpscale-${shot.id}-bg`;
+      nodes.push({
+        id: bgHdId,
+        type: 'imageProcess',
+        position: positionCache[bgHdId] ?? { x: COL_X[3], y: bgY },
+        data: {
+          label: '场景高清',
+          status: 'idle' as CanvasNodeStatus,
+          sceneId: scene.id,
+          shotId: shot.id,
+          nodeType: 'imageProcess',
+          processType: 'hdUpscale' as ImageProcessNodeData['processType'],
+          inputImageUrl: undefined,
+          inputStorageKey: undefined,
+          outputImageUrl: undefined,
+          outputStorageKey: undefined,
+          scaleFactor: 2,
+          progress: 0,
+        } satisfies ImageProcessNodeData,
+        ...nodeDims('sceneBG'), // landscape dimensions for BG hdUpscale
+      });
+      edges.push({ id: `e-${bgId}-${bgHdId}`, source: bgId, target: bgHdId, type: 'pipeline', data: { shotId: shot.id, segment: 'scenebg-hdupscale' } });
+      compositeSourceIds.push(bgHdId);
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       // Character branches (Col 2-5): CharProcess → ViewAngle → Expression → HDUpscale + Matting
@@ -475,6 +553,43 @@ export function buildCanvasGraph(
         const charY = branchBaseY + branchIdx * BRANCH_GAP;
         branchIdx++;
         const charEntry = characterMap[cn];
+
+        // ── Build per-character action/expression prompts ──
+        // Priority: structured characterActions from script JSON > fallback text extraction
+        const structuredData = shot.characterActions?.[cn];
+        let charAction = '';
+        let charExpression = '';
+
+        if (structuredData) {
+          // Use structured data from generated_script_json.characters[]
+          charAction = structuredData.action || '';
+          charExpression = structuredData.expression || '';
+        } else {
+          // Fallback: extract from shot action text for old data without characters field
+          const actionText = shot.description || '';
+          if (actionText && cn) {
+            const clauses = actionText.split(/[，。；！？,;!?]/).map(s => s.trim()).filter(Boolean);
+            const relevant = clauses.filter(c => c.includes(cn));
+            charAction = relevant.length > 0 ? relevant.join('，') : '';
+          }
+          charExpression = shot.emotionTarget || '';
+        }
+
+        // ViewAngle prompt: character action + camera angle
+        const viewAnglePromptParts = [
+          charAction ? `${charAction}` : cn,
+          shot.cameraAngle ? `${shot.cameraAngle} angle` : '',
+        ].filter(Boolean);
+        const viewAnglePrompt = viewAnglePromptParts.join(', ');
+
+        // Expression prompt: default consistency prefix + structured expression/action
+        const expressionSpecificParts = [
+          charExpression,
+          charAction,
+        ].filter(Boolean);
+        const expressionPrompt = expressionSpecificParts.length > 0
+          ? `保持人物一致性，保持画风一致性，保持角色视角一致性，${expressionSpecificParts.join('，')}`
+          : '保持人物一致性，保持画风一致性，保持角色视角一致性';
 
         // CharacterProcess (Col 2) — carries the character's reference IMAGE
         const cpId = charProcessNodeId(shot.id, cn);
@@ -511,7 +626,7 @@ export function buildCanvasGraph(
           type: 'imageProcess',
           position: positionCache[vaId] ?? { x: COL_X[3], y: charY },
           data: {
-            label: '视角调整',
+            label: `视角·${cn}`,
             status: 'idle' as CanvasNodeStatus,
             sceneId: scene.id,
             shotId: shot.id,
@@ -520,6 +635,7 @@ export function buildCanvasGraph(
             inputImageUrl: charRef.visualRefUrl,
             inputStorageKey: charRef.visualRefStorageKey,
             targetAngle: shot.cameraAngle || 'front',
+            viewAnglePrompt,
             progress: 0,
           } satisfies ImageProcessNodeData,
           ...nodeDims('imageProcess'),
@@ -528,21 +644,20 @@ export function buildCanvasGraph(
 
         // ImageProcess: Expression (Col 4)
         const exId = imageProcessNodeId(shot.id, cn, 'expression');
-        const expressionPrompt = [shot.emotionTarget, shot.dialogueText].filter(Boolean).join(' — ') || '';
         nodes.push({
           id: exId,
           type: 'imageProcess',
           position: positionCache[exId] ?? { x: COL_X[4], y: charY },
           data: {
-            label: '表情动作',
+            label: `表情·${cn}`,
             status: 'idle' as CanvasNodeStatus,
             sceneId: scene.id,
             shotId: shot.id,
             nodeType: 'imageProcess',
             processType: 'expression',
             expressionPrompt,
-            emotion: shot.emotionTarget,
-            action: shot.description,
+            emotion: charExpression,
+            action: charAction || shot.description,
             progress: 0,
           } satisfies ImageProcessNodeData,
           ...nodeDims('imageProcess'),
@@ -554,7 +669,7 @@ export function buildCanvasGraph(
         nodes.push({
           id: hdId,
           type: 'imageProcess',
-          position: positionCache[hdId] ?? { x: COL_X[5], y: charY - BRANCH_GAP / 4 },
+          position: positionCache[hdId] ?? { x: COL_X[5], y: charY },
           data: {
             label: '高清化',
             status: 'idle' as CanvasNodeStatus,
@@ -574,7 +689,7 @@ export function buildCanvasGraph(
         nodes.push({
           id: mtId,
           type: 'imageProcess',
-          position: positionCache[mtId] ?? { x: COL_X[5], y: charY + BRANCH_GAP / 4 },
+          position: positionCache[mtId] ?? { x: COL_X[6], y: charY },
           data: {
             label: '抠图',
             status: 'idle' as CanvasNodeStatus,
@@ -597,7 +712,7 @@ export function buildCanvasGraph(
       nodes.push({
         id: compId,
         type: 'composite',
-        position: positionCache[compId] ?? { x: COL_X[6], y: shotY },
+        position: positionCache[compId] ?? { x: COL_X[7], y: shotY },
         data: {
           label: '合成',
           status: 'idle' as CanvasNodeStatus,
@@ -621,12 +736,15 @@ export function buildCanvasGraph(
       // Post-composite chain (Col 7-8): BlendRefine → Lighting → FinalHD → VideoGen
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+      const videoRun = runs.find((r) => r.nodeKey === 'video');
+      const videoArtifact = artifacts.find((a) => a.type === 'video');
+
       // BlendRefine (Col 7, upper)
       const brId = blendRefineNodeId(shot.id);
       nodes.push({
         id: brId,
         type: 'blendRefine',
-        position: positionCache[brId] ?? { x: COL_X[7], y: shotY - BRANCH_GAP / 4 },
+        position: positionCache[brId] ?? { x: COL_X[8], y: shotY },
         data: {
           label: '融合',
           status: 'idle' as CanvasNodeStatus,
@@ -646,7 +764,7 @@ export function buildCanvasGraph(
       nodes.push({
         id: ltId,
         type: 'lighting',
-        position: positionCache[ltId] ?? { x: COL_X[7], y: shotY + BRANCH_GAP / 4 },
+        position: positionCache[ltId] ?? { x: COL_X[9], y: shotY },
         data: {
           label: '光影',
           status: 'idle' as CanvasNodeStatus,
@@ -667,7 +785,7 @@ export function buildCanvasGraph(
       nodes.push({
         id: fhId,
         type: 'finalHD',
-        position: positionCache[fhId] ?? { x: COL_X[8], y: shotY - BRANCH_GAP / 4 },
+        position: positionCache[fhId] ?? { x: COL_X[10], y: shotY },
         data: {
           label: '终稿高清',
           status: 'idle' as CanvasNodeStatus,
@@ -688,7 +806,7 @@ export function buildCanvasGraph(
       nodes.push({
         id: viId,
         type: 'videoGeneration',
-        position: positionCache[viId] ?? { x: COL_X[8], y: shotY + BRANCH_GAP / 4 },
+        position: positionCache[viId] ?? { x: COL_X[11], y: shotY },
         data: {
           label: 'Video',
           status: (videoRun?.status as CanvasNodeStatus) || 'idle',
@@ -710,9 +828,7 @@ export function buildCanvasGraph(
     const lastShotY = shotYPositions.length > 0 ? shotYPositions[shotYPositions.length - 1] : baseY;
     const lastShotBranches = sceneShots.length > 0 ? (() => {
       const s = sceneShots[sceneShots.length - 1];
-      let cn = s.charactersInFrame?.length ? s.charactersInFrame : scene.characterNames;
-      if ((!cn || cn.length === 0) && Object.keys(characterMap).length > 0) cn = Object.keys(characterMap);
-      return 1 + (cn?.length || 0);
+      return 1 + resolveCharNamesForShot(s).length;
     })() : 1;
     const lastShotHeight = Math.max(NODE_HEIGHT, (lastShotBranches - 1) * BRANCH_GAP);
     currentY = lastShotY + lastShotHeight + SCENE_PADDING;
@@ -817,12 +933,28 @@ export function buildCanvasGraphIncremental(
     // Advance Y using dynamic per-shot branch heights
     {
       let nextY = 0;
+      const charMap = options.characterMap || {};
+      const knownCharNames = Object.keys(charMap);
+      const knownByLen = [...knownCharNames].sort((a, b) => b.length - a.length);
       for (const s of sceneShots) {
-        let cn = s.charactersInFrame?.length ? s.charactersInFrame : scene.characterNames;
-        if ((!cn || cn.length === 0) && Object.keys(options.characterMap || {}).length > 0) cn = Object.keys(options.characterMap || {});
-        const branches = 1 + (cn?.length || 0);
-        const branchHeight = (branches - 1) * BRANCH_GAP;
-        nextY += Math.max(SHOT_GAP, branchHeight + 120);
+        // Same resolution logic as resolveCharNamesForShot in buildCanvasGraph
+        const found = new Set<string>();
+        if (s.charactersInFrame?.length) {
+          for (const n of s.charactersInFrame) {
+            if (charMap[n]) found.add(n);
+            else { const f = knownCharNames.find(k => n.includes(charMap[k]?.name) || charMap[k]?.name.includes(n)); if (f) found.add(f); }
+          }
+        }
+        const text = [s.subject, s.description].filter(Boolean).join(' ');
+        if (text) { for (const cn of knownByLen) { if (text.includes(cn)) found.add(cn); } }
+        if (found.size === 0 && !s.subject && scene.characterNames?.length) {
+          for (const n of scene.characterNames) { if (charMap[n]) found.add(n); }
+        }
+        const branches = 1 + found.size;
+        const branchTotalHeight = (branches - 1) * BRANCH_GAP;
+        const maxNodeH = branches > 1 ? (NODE_HEIGHTS.characterProcess || NODE_HEIGHT) : NODE_HEIGHT;
+        const actualSpan = branchTotalHeight + maxNodeH + 100;
+        nextY += Math.max(SHOT_GAP, actualSpan);
       }
       currentY += Math.max(NODE_HEIGHT, nextY) + SCENE_PADDING;
     }
@@ -844,7 +976,7 @@ export function getSceneBounds(sceneId: string, nodes: Node[]) {
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
   for (const n of sceneNodes) {
     const w = (n.style?.width as number) || DEFAULT_NODE_WIDTH;
-    const h = NODE_HEIGHT;
+    const h = (n.type ? NODE_HEIGHTS[n.type] : undefined) || NODE_HEIGHT;
     minX = Math.min(minX, n.position.x);
     minY = Math.min(minY, n.position.y);
     maxX = Math.max(maxX, n.position.x + w);

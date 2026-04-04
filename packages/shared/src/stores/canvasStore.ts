@@ -3,6 +3,10 @@
 import { create } from 'zustand';
 import type { Node, Edge, Viewport, NodeChange, EdgeChange } from '@xyflow/react';
 import type { SceneGroup, CanvasRenderMode } from '../types/chainWorkflow';
+import { API_BASE_URL } from '../lib/api';
+
+// Debounce timers for composite layer persistence (per node)
+const _compositeLayerTimers = new Map<string, ReturnType<typeof setTimeout>>();
 
 // Lazy-load to avoid SSR issues (React Flow requires browser environment)
 function getXyflowHelpers() {
@@ -112,6 +116,12 @@ interface CanvasStoreState {
   /* Composite editor actions */
   openCompositeEditor: (shotId: string) => void;
   closeCompositeEditor: () => void;
+
+  /* Downstream cascade reset */
+  resetDownstreamNodes: (sourceNodeId: string) => void;
+
+  /* Composite layer persistence */
+  persistCompositeLayers: (nodeId: string, layers: Array<Record<string, unknown>>) => void;
 
   /* Box selection actions */
   setBoxSelectActive: (active: boolean) => void;
@@ -252,6 +262,62 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
 
   openCompositeEditor: (shotId) => set({ compositeEditorOpen: true, compositeEditorShotId: shotId }),
   closeCompositeEditor: () => set({ compositeEditorOpen: false, compositeEditorShotId: null }),
+
+  resetDownstreamNodes: (sourceNodeId) => {
+    const { nodes, edges } = get();
+    // BFS: find all nodes reachable downstream from sourceNodeId
+    const visited = new Set<string>();
+    const queue: string[] = [];
+    for (const e of edges) {
+      if (e.source === sourceNodeId && e.type !== 'bypass') {
+        if (!visited.has(e.target)) { visited.add(e.target); queue.push(e.target); }
+      }
+    }
+    while (queue.length > 0) {
+      const cur = queue.shift()!;
+      for (const e of edges) {
+        if (e.source === cur && e.type !== 'bypass' && !visited.has(e.target)) {
+          visited.add(e.target);
+          queue.push(e.target);
+        }
+      }
+    }
+    if (visited.size === 0) return;
+
+    set({
+      nodes: nodes.map(n => {
+        if (!visited.has(n.id)) return n;
+        const d = n.data as Record<string, unknown>;
+        // Composite: keep layers intact, only reset status
+        if (d.nodeType === 'composite') {
+          return { ...n, data: { ...d, status: 'idle', progress: 0 } };
+        }
+        // Other nodes: reset status + clear output (they need re-run)
+        return {
+          ...n,
+          data: {
+            ...d,
+            status: 'idle',
+            progress: 0,
+            outputImageUrl: undefined,
+            outputPngUrl: undefined,
+            outputStorageKey: undefined,
+          },
+        };
+      }),
+    });
+  },
+
+  persistCompositeLayers: (nodeId, layers) => {
+    clearTimeout(_compositeLayerTimers.get(nodeId));
+    _compositeLayerTimers.set(nodeId, setTimeout(() => {
+      fetch(`${API_BASE_URL}/api/canvas/composite-layers/${nodeId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ layers }),
+      }).catch(() => {});
+    }, 300));
+  },
 
   setBoxSelectActive: (boxSelectActive) => set({ boxSelectActive }),
   setBoxSelectRect: (boxSelectRect) => set({ boxSelectRect }),

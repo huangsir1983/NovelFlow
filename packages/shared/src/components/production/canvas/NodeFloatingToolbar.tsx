@@ -9,9 +9,8 @@
 //   下方：AI 指令输入框
 // ══════════════════════════════════════════════════════════════
 
-import { memo, useState, useCallback, useEffect, useRef } from 'react';
+import { memo, useState, useEffect, useRef } from 'react';
 import { useReactFlow, useStore } from '@xyflow/react';
-import { useCanvasStore } from '../../../stores/canvasStore';
 import type { CanvasModuleType } from '../../../types/canvas';
 
 interface NodeFloatingToolbarProps {
@@ -30,8 +29,7 @@ function NodeFloatingToolbarComponent({ nodeId }: NodeFloatingToolbarProps) {
   const { getNode } = useReactFlow();
   // Subscribe to viewport so we re-render on every pan/zoom
   useStore((s) => s.transform);
-  const [aiInput, setAiInput] = useState('');
-  const [rect, setRect] = useState<{ cx: number; top: number; bottom: number; width: number } | null>(null);
+  const [rect, setRect] = useState<{ cx: number; top: number; width: number } | null>(null);
   const rafRef = useRef(0);
 
   // Track the actual DOM element bounding rect of the selected node
@@ -40,7 +38,7 @@ function NodeFloatingToolbarComponent({ nodeId }: NodeFloatingToolbarProps) {
       const el = document.querySelector(`[data-id="${nodeId}"]`) as HTMLElement | null;
       if (el) {
         const r = el.getBoundingClientRect();
-        setRect({ cx: r.left + r.width / 2, top: r.top, bottom: r.bottom, width: r.width });
+        setRect({ cx: r.left + r.width / 2, top: r.top, width: r.width });
       }
       rafRef.current = requestAnimationFrame(update);
     }
@@ -49,19 +47,6 @@ function NodeFloatingToolbarComponent({ nodeId }: NodeFloatingToolbarProps) {
   }, [nodeId]);
 
   const node = getNode(nodeId);
-
-  const handleAiSubmit = useCallback(() => {
-    if (!aiInput.trim()) return;
-    const store = useCanvasStore.getState();
-    store.setAIPanelOpen(true);
-    store.addAIMessage({
-      id: `u-${Date.now()}`,
-      role: 'user',
-      content: `[针对节点 ${nodeId}] ${aiInput}`,
-      timestamp: Date.now(),
-    });
-    setAiInput('');
-  }, [aiInput, nodeId]);
 
   if (!node || !rect) return null;
 
@@ -140,54 +125,6 @@ function NodeFloatingToolbarComponent({ nodeId }: NodeFloatingToolbarProps) {
               <FlowBtn icon="↓" label="下载" color="rgba(255,255,255,0.5)" />
             </>
           )}
-          <FlowBtn icon="⋯" label="" color="rgba(255,255,255,0.3)" />
-        </div>
-      </div>
-
-      {/* ══ 下方：AI 输入框 ══ */}
-      <div
-        className="nodrag nopan"
-        style={{
-          position: 'fixed',
-          left: rect.cx,
-          top: rect.bottom + 12,
-          transform: 'translateX(-50%)',
-          minWidth: 280,
-          zIndex: 9999,
-          pointerEvents: 'auto',
-        }}
-      >
-        <div style={{
-          borderRadius: 12,
-          background: 'rgba(20, 22, 30, 0.95)',
-          border: '1px solid rgba(255,255,255,0.1)',
-          backdropFilter: 'blur(12px)',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.5)',
-          overflow: 'hidden',
-        }}>
-          <textarea
-            value={aiInput}
-            onChange={(e) => setAiInput(e.target.value)}
-            onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleAiSubmit(); } }}
-            placeholder="描述任何你想要生成的内容..."
-            rows={2}
-            style={{
-              width: '100%', background: 'transparent', border: 'none', outline: 'none', resize: 'none',
-              fontSize: 12, color: 'rgba(255,255,255,0.7)', padding: '10px 12px', fontFamily: 'inherit',
-            }}
-          />
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', padding: '0 8px 6px' }}>
-            <div
-              onClick={handleAiSubmit}
-              style={{
-                width: 24, height: 24, borderRadius: '50%',
-                background: aiInput.trim() ? '#6366f1' : 'rgba(255,255,255,0.05)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: 11, color: aiInput.trim() ? '#fff' : 'rgba(255,255,255,0.15)',
-                cursor: aiInput.trim() ? 'pointer' : 'default',
-              }}
-            >↑</div>
-          </div>
         </div>
       </div>
     </>

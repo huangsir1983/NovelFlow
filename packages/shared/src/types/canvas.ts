@@ -226,6 +226,7 @@ export interface CompositeLayerItem {
   zIndex: number;
   opacity: number;
   visible: boolean;
+  flipX: boolean;
 }
 
 export interface CompositeNodeData extends BaseNodeData {
@@ -242,6 +243,11 @@ export interface BlendRefineNodeData extends BaseNodeData {
   nodeType: 'blendRefine';
   inputImageUrl?: string;
   outputImageUrl?: string;
+  outputStorageKey?: string;
+  /** RunningHub 返回的待确认预览图 */
+  previewImageUrl?: string;
+  /** 用户是否已确认采用预览图 */
+  confirmed?: boolean;
   progress: number;
 }
 
@@ -277,6 +283,7 @@ export interface ImageProcessNodeData extends BaseNodeData {
   outputPngUrl?: string;
   /** viewAngle params */
   targetAngle?: string;
+  viewAnglePrompt?: string;
   azimuth?: number;      // -180 ~ +180, default 0
   elevation?: number;    // -30 ~ +60, default 0
   distance?: number;     // 0 ~ 10, default 5

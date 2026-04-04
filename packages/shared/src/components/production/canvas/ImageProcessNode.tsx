@@ -6,6 +6,7 @@ import type { ImageProcessNodeData, ImageProcessType } from '../../../types/canv
 import { ViewAngleCanvas } from './ViewAngleCanvas';
 import { angleToPrompt, AZIMUTH_PRESETS, ELEVATION_PRESETS, DISTANCE_PRESETS } from '../../../lib/viewAnglePrompt';
 import { API_BASE_URL } from '../../../lib/api';
+import { useCanvasStore } from '../../../stores/canvasStore';
 
 type ImageProcessNode = Node<ImageProcessNodeData, 'imageProcess'>;
 
@@ -31,6 +32,7 @@ const CHECKERBOARD_BG: React.CSSProperties = {
 
 /* ── Styles ── */
 const CARD_WIDTH = 180; // portrait width to match character images
+const CARD_WIDTH_LANDSCAPE = 260; // landscape width for scene background hdUpscale
 const IMG_HEIGHT = 240; // tall portrait image area
 
 const statusDotBase: React.CSSProperties = {
@@ -64,8 +66,19 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
   const executingRef = useRef(false);
   const reactFlow = useReactFlow();
 
+  // Sync local angle state when node data is restored from backend
+  useEffect(() => {
+    if (data.azimuth !== undefined && data.azimuth !== localAz) setLocalAz(data.azimuth);
+    if (data.elevation !== undefined && data.elevation !== localEl) setLocalEl(data.elevation);
+    if (data.distance !== undefined && data.distance !== localDist) setLocalDist(data.distance);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data.azimuth, data.elevation, data.distance]);
+
   const cfg = PROCESS_CONFIG[data.processType] || PROCESS_CONFIG.viewAngle;
   const isMatting = data.processType === 'matting';
+  const isLandscape = data.processType === 'hdUpscale' && id.endsWith('-bg');
+  const cardWidth = isLandscape ? CARD_WIDTH_LANDSCAPE : CARD_WIDTH;
+  const imgHeight = isLandscape ? Math.round(CARD_WIDTH_LANDSCAPE * 9 / 16) : IMG_HEIGHT;
   const outputUrl = isMatting ? (data.outputPngUrl || data.outputImageUrl) : data.outputImageUrl;
   const displayUrl = outputUrl || data.inputImageUrl;
 
@@ -82,12 +95,90 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     prevSelectedRef.current = selected;
   }, [selected, showToolbar]);
 
-  /* ── Update node data helper ── */
+  /* ── Update node data + optionally propagate to downstream ── */
   const updateNodeData = useCallback((patch: Record<string, unknown>) => {
-    const allNodes = reactFlow.getNodes();
-    reactFlow.setNodes(allNodes.map(n =>
+    const s = useCanvasStore.getState();
+    s.setNodes(s.nodes.map(n =>
       n.id === id ? { ...n, data: { ...n.data, ...patch } } : n,
     ));
+  }, [id]);
+
+  const updateAndPropagate = useCallback((
+    patch: Record<string, unknown>,
+    outputUrl?: string,
+    outputKey?: string,
+  ) => {
+    const store = useCanvasStore.getState();
+    const edges = store.edges;
+    const downstream = edges.filter(e => e.source === id);
+    const targetIds = new Set(downstream.map(e => e.target));
+
+    let updatedNodes = store.nodes.map(n => {
+      if (n.id === id) {
+        return { ...n, data: { ...n.data, ...patch } };
+      }
+      if (targetIds.has(n.id) && (outputUrl || outputKey)) {
+        return {
+          ...n,
+          data: {
+            ...n.data,
+            inputImageUrl: outputUrl || (n.data as Record<string, unknown>).inputImageUrl,
+            inputStorageKey: outputKey || (n.data as Record<string, unknown>).inputStorageKey,
+          },
+        };
+      }
+      return n;
+    });
+
+    // Upsert this node's layer into downstream composite nodes
+    for (const targetId of targetIds) {
+      const targetNode = updatedNodes.find(n => n.id === targetId);
+      if (!targetNode || (targetNode.data as Record<string, unknown>).nodeType !== 'composite') continue;
+
+      const compData = targetNode.data as Record<string, unknown>;
+      const existingLayers = ((compData.layers || []) as Array<Record<string, unknown>>).slice();
+
+      // Determine layer type for this source node
+      const myData = updatedNodes.find(n => n.id === id)?.data as Record<string, unknown> | undefined;
+      const processType = (myData?.processType || '') as string;
+      const isBgUpscale = processType === 'hdUpscale'
+        && edges.some(e => e.target === id && e.source.startsWith('scenebg-'));
+      const layerType = isBgUpscale ? 'background' : 'character';
+      const imgUrl = outputUrl || (myData?.outputPngUrl || myData?.outputImageUrl) as string | undefined;
+
+      if (!imgUrl) continue;
+
+      const layerIdx = existingLayers.findIndex(l => l.sourceNodeId === id);
+      const newLayer = {
+        id,
+        type: layerType,
+        sourceNodeId: id,
+        imageUrl: imgUrl,
+        x: layerType === 'background' ? 0 : (1920 - 600) / 2,
+        y: 0,
+        width: layerType === 'background' ? 1920 : 600,
+        height: 1080,
+        rotation: 0,
+        zIndex: layerType === 'background' ? 0 : existingLayers.length,
+        opacity: 1, visible: true, flipX: false,
+      };
+
+      if (layerIdx >= 0) {
+        // Update only imageUrl, keep user adjustments
+        existingLayers[layerIdx] = { ...existingLayers[layerIdx], imageUrl: imgUrl };
+      } else {
+        existingLayers.push(newLayer);
+      }
+
+      updatedNodes = updatedNodes.map(n =>
+        n.id === targetId ? { ...n, data: { ...n.data, layers: existingLayers, outputImageUrl: undefined } } : n,
+      );
+
+      // Persist updated composite layers to backend
+      useCanvasStore.getState().persistCompositeLayers(targetId, existingLayers);
+    }
+
+    useCanvasStore.getState().setNodes(updatedNodes);
   }, [id, reactFlow]);
 
   /* ── ViewAngle angle change ── */
@@ -103,10 +194,33 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     setShowToolbar(true);
   }, []);
 
-  /* ── Card click → show toolbar (no stopPropagation so React Flow selects the node) ── */
+  /* ── Card click → show toolbar + auto-open panel + animate viewport ── */
   const handleCardClick = useCallback(() => {
     setShowToolbar(true);
-  }, []);
+    if (activePanel === null && data.status !== 'running') {
+      setActivePanel(data.processType || 'viewAngle');
+    }
+
+    // Animate viewport: pan card to center + zoom so bottom panel is visible
+    const node = reactFlow.getNode(id);
+    if (!node) return;
+    const HEADER_H = 31; // header icon+label + margin
+    const CARD_BODY_H = imgHeight + 28; // image + bottom overlay + border
+    const PANEL_H = 300; // max panel height (viewAngle is tallest)
+    const PANEL_OFFSET = 0;
+    const totalH = HEADER_H + CARD_BODY_H + PANEL_OFFSET + PANEL_H;
+    // Center point: midpoint of card top to panel bottom
+    const centerX = node.position.x + cardWidth / 2;
+    const centerY = node.position.y + totalH / 2;
+    // Target zoom: fit totalH + padding in viewport
+    const vpEl = document.querySelector('.react-flow') as HTMLElement | null;
+    const vpH = vpEl?.clientHeight || 800;
+    const vpW = vpEl?.clientWidth || 1200;
+    const zoomH = vpH / (totalH * 1.15);
+    const zoomW = vpW / (Math.max(cardWidth, 460) * 1.3); // 460 = viewAngle panel width
+    const targetZoom = Math.min(zoomH, zoomW, 1.5); // cap at 1.5x
+    reactFlow.setCenter(centerX, centerY, { zoom: Math.max(targetZoom, 0.5), duration: 400 });
+  }, [activePanel, data.status, data.processType, id, reactFlow]);
 
   /* ── Execute node ── */
   const handleExecute = useCallback(async () => {
@@ -119,6 +233,10 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
       inputStorageKey: data.inputStorageKey,
       inputImageUrl: data.inputImageUrl,
     };
+
+
+    // Reset all downstream nodes' green dots before execution starts
+    useCanvasStore.getState().resetDownstreamNodes(id);
 
     if (execType === 'viewAngle') {
       content.azimuth = localAz;
@@ -138,6 +256,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
       updateNodeData({ processType: execType, status: 'running', progress: 0 });
     } else if (execType === 'hdUpscale') {
       content.scaleFactor = scaleFactor;
+      content.imageSize = scaleFactor <= 2 ? '2K' : '4K';
       updateNodeData({ processType: execType, scaleFactor, status: 'running', progress: 0 });
     }
 
@@ -171,12 +290,13 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
                 const event = JSON.parse(line.slice(6));
                 if (event.progress !== undefined) updateNodeData({ progress: event.progress });
                 if (event.status === 'completed' || event.status === 'success') {
-                  updateNodeData({
+                  const evtUrl = event.outputImageUrl || (event.outputStorageKey ? `${API_BASE_URL}/uploads/${event.outputStorageKey}` : undefined);
+                  updateAndPropagate({
                     status: 'success', progress: 100,
-                    ...(event.outputImageUrl ? { outputImageUrl: event.outputImageUrl } : {}),
+                    ...(evtUrl ? { outputImageUrl: evtUrl } : {}),
                     ...(event.outputStorageKey ? { outputStorageKey: event.outputStorageKey } : {}),
                     ...(event.outputPngUrl ? { outputPngUrl: event.outputPngUrl } : {}),
-                  });
+                  }, evtUrl, event.outputStorageKey);
                 }
               } catch { /* ignore */ }
             }
@@ -193,13 +313,13 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
         }
         const outPng = output.outputPngUrl || (output.outputStorageKey?.endsWith('.png')
           ? `${API_BASE_URL}/uploads/${output.outputStorageKey}` : undefined);
-        updateNodeData({
+        updateAndPropagate({
           status: 'success', progress: 100,
           ...(outUrl ? { outputImageUrl: outUrl } : {}),
           ...(output.outputStorageKey ? { outputStorageKey: output.outputStorageKey } : {}),
           ...(outPng ? { outputPngUrl: outPng } : {}),
           ...(output.runninghubTaskId ? { runninghubTaskId: output.runninghubTaskId } : {}),
-        });
+        }, outUrl, output.outputStorageKey);
       }
     } catch (err) {
       updateNodeData({
@@ -209,7 +329,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     } finally {
       executingRef.current = false;
     }
-  }, [id, data, activePanel, localAz, localEl, localDist, exprText, scaleFactor, updateNodeData]);
+  }, [id, data, activePanel, localAz, localEl, localDist, exprText, scaleFactor, updateNodeData, updateAndPropagate]);
 
   const isRunning = data.status === 'running';
   const borderColor = selected
@@ -220,13 +340,14 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      style={{ width: CARD_WIDTH, position: 'relative' }}
+      style={{ width: cardWidth, position: 'relative' }}
     >
       <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '50%' }} />
       <Handle type="source" position={Position.Right} style={{ top: '50%' }} />
 
       {/* ── Capsule toolbar via NodeToolbar (renders in portal, never clipped) ── */}
-      <NodeToolbar isVisible={toolbarVisible} position={Position.Top} offset={8}>
+      <NodeToolbar isVisible={toolbarVisible} position={Position.Top} offset={8} align="start">
+        <div style={{ position: 'relative', left: cardWidth / 2, transform: 'translateX(-50%)' }}>
         <div
           className="nopan nodrag nowheel"
           style={{
@@ -269,6 +390,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
             );
           })}
         </div>
+        </div>
       </NodeToolbar>
 
       {/* ── Header ── */}
@@ -289,7 +411,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
       >
         {/* Portrait image area */}
         <div style={{
-          width: '100%', height: IMG_HEIGHT,
+          width: '100%', height: imgHeight,
           ...(isMatting ? CHECKERBOARD_BG : { backgroundColor: '#0c0e12' }),
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
@@ -300,7 +422,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
               style={{
                 width: '100%', height: '100%',
                 objectFit: isMatting ? 'contain' : 'cover',
-                opacity: outputUrl ? 1 : 0.5,
+                opacity: 1,
               }}
             />
           ) : (
@@ -321,6 +443,11 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
           {data.processType === 'viewAngle' && data.targetAngle && (
             <span style={{ fontSize: 8, padding: '2px 5px', borderRadius: 4, backgroundColor: PROCESS_CONFIG.viewAngle.accentBg, color: PROCESS_CONFIG.viewAngle.accent }}>
               {data.targetAngle.replace('<sks> ', '')}
+            </span>
+          )}
+          {data.processType === 'viewAngle' && data.viewAnglePrompt && (
+            <span style={{ fontSize: 8, padding: '2px 5px', borderRadius: 4, backgroundColor: PROCESS_CONFIG.viewAngle.accentBg, color: PROCESS_CONFIG.viewAngle.accent, maxWidth: 140, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+              {data.viewAnglePrompt}
             </span>
           )}
           {data.processType === 'expression' && data.expressionPrompt && (
@@ -359,8 +486,16 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
         )}
       </div>
 
-      {/* ── Floating panel via NodeToolbar bottom (renders in portal) ── */}
-      <NodeToolbar isVisible={activePanel !== null} position={Position.Bottom} offset={8}>
+      {/* ── Floating panel — absolute positioned below card ── */}
+      {activePanel !== null && (
+        <div style={{
+          position: 'absolute',
+          top: '100%',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          zIndex: 50,
+          paddingTop: 0,
+        }}>
         <div
           className="nopan nodrag nowheel"
           style={{
@@ -607,7 +742,8 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
             </div>
           )}
         </div>
-      </NodeToolbar>
+        </div>
+      )}
     </div>
   );
 }
