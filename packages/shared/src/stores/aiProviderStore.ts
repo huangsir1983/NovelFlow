@@ -9,7 +9,7 @@ import type {
   TestResult,
 } from '../types/aiProvider';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+import { API_BASE_URL } from '../lib/api';
 
 interface AIProviderStoreState {
   providers: AIProvider[];
@@ -34,7 +34,7 @@ export const useAIProviderStore = create<AIProviderStoreState>((set, get) => ({
   fetchProviders: async () => {
     set({ loading: true, error: null });
     try {
-      const res = await fetch(`${API_BASE}/api/settings/ai-providers`);
+      const res = await fetch(`${API_BASE_URL}/api/settings/ai-providers`);
       if (!res.ok) throw new Error('Failed to fetch providers');
       const data = await res.json();
       set({ providers: data.providers, loading: false });
@@ -44,7 +44,7 @@ export const useAIProviderStore = create<AIProviderStoreState>((set, get) => ({
   },
 
   createProvider: async (input) => {
-    const res = await fetch(`${API_BASE}/api/settings/ai-providers`, {
+    const res = await fetch(`${API_BASE_URL}/api/settings/ai-providers`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(input),
@@ -56,7 +56,7 @@ export const useAIProviderStore = create<AIProviderStoreState>((set, get) => ({
   },
 
   updateProvider: async (id, input) => {
-    const res = await fetch(`${API_BASE}/api/settings/ai-providers/${id}`, {
+    const res = await fetch(`${API_BASE_URL}/api/settings/ai-providers/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(input),
@@ -68,7 +68,7 @@ export const useAIProviderStore = create<AIProviderStoreState>((set, get) => ({
   },
 
   deleteProvider: async (id) => {
-    const res = await fetch(`${API_BASE}/api/settings/ai-providers/${id}`, {
+    const res = await fetch(`${API_BASE_URL}/api/settings/ai-providers/${id}`, {
       method: 'DELETE',
     });
     if (!res.ok) throw new Error('Failed to delete provider');
@@ -76,7 +76,7 @@ export const useAIProviderStore = create<AIProviderStoreState>((set, get) => ({
   },
 
   testProvider: async (id) => {
-    const res = await fetch(`${API_BASE}/api/settings/ai-providers/${id}/test`, {
+    const res = await fetch(`${API_BASE_URL}/api/settings/ai-providers/${id}/test`, {
       method: 'POST',
     });
     if (!res.ok) throw new Error('Failed to test provider');
@@ -85,7 +85,7 @@ export const useAIProviderStore = create<AIProviderStoreState>((set, get) => ({
 
   fetchAvailableModels: async () => {
     try {
-      const res = await fetch(`${API_BASE}/api/settings/ai-providers/available-models`);
+      const res = await fetch(`${API_BASE_URL}/api/settings/ai-providers/available-models`);
       if (!res.ok) throw new Error('Failed to fetch models');
       const data = await res.json();
       set({ availableModels: data.tiers });

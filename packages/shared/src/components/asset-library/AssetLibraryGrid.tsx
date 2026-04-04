@@ -256,6 +256,7 @@ export function AssetLibraryGrid({
           {items.map((item) => {
             const previewImage = assetImages[item.id]?.front_full || assetImages[item.id]?.front || assetImages[item.id]?.east;
             const isGenerating = (assetLoadingSlots[item.id]?.size ?? 0) > 0;
+            const hasPanorama = item.cardType === 'location' && !!assetImages[item.id]?.panorama;
             return (
               <AssetListCard
                 key={item.key}
@@ -264,6 +265,7 @@ export function AssetLibraryGrid({
                 selected={selectedAssetId === item.id}
                 previewImage={previewImage}
                 isGenerating={isGenerating}
+                hasPanorama={hasPanorama}
                 onDelete={() => handleDeleteRequest(item)}
                 onClick={() => selectAsset(item.id, item.cardType)}
               />

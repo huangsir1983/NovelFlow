@@ -63,6 +63,10 @@ interface CanvasStoreState {
   miniMapOpen: boolean;
   edgeFlowAnimation: boolean;
 
+  /* Composite editor */
+  compositeEditorOpen: boolean;
+  compositeEditorShotId: string | null;
+
   /* Box selection */
   boxSelectActive: boolean;
   boxSelectRect: { x: number; y: number; w: number; h: number } | null;
@@ -105,6 +109,10 @@ interface CanvasStoreState {
   toggleMiniMap: () => void;
   toggleEdgeFlowAnimation: () => void;
 
+  /* Composite editor actions */
+  openCompositeEditor: (shotId: string) => void;
+  closeCompositeEditor: () => void;
+
   /* Box selection actions */
   setBoxSelectActive: (active: boolean) => void;
   setBoxSelectRect: (rect: { x: number; y: number; w: number; h: number } | null) => void;
@@ -143,6 +151,9 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
   snapToGrid: false,
   miniMapOpen: true,
   edgeFlowAnimation: true,
+
+  compositeEditorOpen: false,
+  compositeEditorShotId: null,
 
   boxSelectActive: false,
   boxSelectRect: null,
@@ -238,6 +249,9 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
   setSnapToGrid: (snapToGrid) => set({ snapToGrid }),
   toggleMiniMap: () => set((s) => ({ miniMapOpen: !s.miniMapOpen })),
   toggleEdgeFlowAnimation: () => set((s) => ({ edgeFlowAnimation: !s.edgeFlowAnimation })),
+
+  openCompositeEditor: (shotId) => set({ compositeEditorOpen: true, compositeEditorShotId: shotId }),
+  closeCompositeEditor: () => set({ compositeEditorOpen: false, compositeEditorShotId: null }),
 
   setBoxSelectActive: (boxSelectActive) => set({ boxSelectActive }),
   setBoxSelectRect: (boxSelectRect) => set({ boxSelectRect }),

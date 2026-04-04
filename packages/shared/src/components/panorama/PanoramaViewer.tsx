@@ -89,14 +89,20 @@ export function PanoramaViewer({ panoramaUrl, isOpen, onClose, onScreenshot }: P
       },
     );
 
-    // Orbit controls
+    // Orbit controls — disable built-in zoom (distance-based) and use FOV zoom instead
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableZoom = true;
+    controls.enableZoom = false;
     controls.enablePan = false;
     controls.rotateSpeed = -0.5;
-    controls.minDistance = 0.1;
-    controls.maxDistance = 100;
     controlsRef.current = controls;
+
+    // FOV-based zoom via mouse wheel
+    const handleWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      camera.fov = Math.max(20, Math.min(100, camera.fov + e.deltaY * 0.05));
+      camera.updateProjectionMatrix();
+    };
+    container.addEventListener('wheel', handleWheel, { passive: false });
 
     // Animation loop
     const animate = () => {
@@ -118,6 +124,7 @@ export function PanoramaViewer({ panoramaUrl, isOpen, onClose, onScreenshot }: P
     window.addEventListener('resize', handleResize);
 
     return () => {
+      container.removeEventListener('wheel', handleWheel);
       window.removeEventListener('resize', handleResize);
       cancelAnimationFrame(animationIdRef.current);
       controls.dispose();

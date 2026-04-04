@@ -5,7 +5,7 @@ import { useWorkflowExecutionStore } from '../stores/workflowExecutionStore';
 import { useCanvasStore } from '../stores/canvasStore';
 import type { WorkflowSSEEvent, WorkflowExecutionStatus } from '../types';
 
-const API_BASE_URL = 'http://localhost:8000';
+import { API_BASE_URL } from '../lib/api';
 
 /**
  * Hook to subscribe to workflow execution SSE events and sync canvas node status.

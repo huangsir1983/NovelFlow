@@ -5,7 +5,7 @@ import type { Edge } from '@xyflow/react';
 import { useProjectStore } from '../stores/projectStore';
 import { useBoardStore } from '../stores/boardStore';
 import { useCanvasStore } from '../stores/canvasStore';
-import { buildCanvasGraph, type SceneInput, type ShotInput, shotNodeId, videoNodeId } from '../lib/canvasLayout';
+import { buildCanvasGraph, type SceneInput, type ShotInput, type CharacterMapEntry, type LocationDetailEntry, shotNodeId, videoNodeId } from '../lib/canvasLayout';
 
 /**
  * Apply disconnection state to raw edges: filter out broken segments, inject bypass edges.
@@ -94,6 +94,7 @@ function hasPath(edges: Edge[], start: string, end: string): boolean {
 export function useCanvasSync() {
   const scenes = useProjectStore((s) => s.scenes);
   const shots = useProjectStore((s) => s.shots);
+  const characters = useProjectStore((s) => s.characters);
   const locations = useProjectStore((s) => s.locations);
   const assetImages = useProjectStore((s) => s.assetImages);
   const assetImageKeys = useProjectStore((s) => s.assetImageKeys);
@@ -105,8 +106,9 @@ export function useCanvasSync() {
   const prevHashRef = useRef('');
   const rawEdgesRef = useRef<Edge[]>([]);
   const initializedRef = useRef(false);
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
-  // Effect 1: rebuild graph when domain data changes
+  // Effect 1: rebuild graph when domain data changes (debounced)
   useEffect(() => {
     const hash = JSON.stringify({
       sceneCount: scenes.length,
@@ -117,11 +119,16 @@ export function useCanvasSync() {
       runKeys: Object.keys(nodeRunsByShotId).sort().join(','),
       artKeys: Object.keys(artifactsByShotId).sort().join(','),
       locPanorama: locations.map((l) => `${l.id}:${assetImages[l.id]?.['panorama'] ? '1' : '0'}`).join(','),
+      charIds: characters.map((c) => c.id).join(','),
+      locDetailIds: locations.map((l) => l.id).join(','),
     });
 
     if (hash === prevHashRef.current) return;
-    prevHashRef.current = hash;
 
+    // Debounce graph rebuild to avoid rapid sequential updates
+    clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+    prevHashRef.current = hash;
     const { positionCache, setNodes, setEdges, disconnectedSegments: disc, manualEdges: me } = useCanvasStore.getState();
 
     const sceneInputs: SceneInput[] = scenes.map((s) => ({
@@ -164,6 +171,8 @@ export function useCanvasSync() {
       description: s.description || '',
       thumbnailUrl: undefined,
       visualPrompt: s.visual_prompt || '',
+      charactersInFrame: s.characters_in_frame || [],
+      durationEstimate: s.duration_estimate || '',
     }));
 
     // Build location name → panorama URL/key map
@@ -178,9 +187,48 @@ export function useCanvasSync() {
       }
     }
 
+    // Build character name → visual data map
+    const characterMap: Record<string, CharacterMapEntry> = {};
+    for (const char of characters) {
+      const imgs = assetImages[char.id];
+      const keys = assetImageKeys[char.id];
+      // Try multiple image slots — priority: visual_reference > front_full > front > main > any first available
+      const visualRefUrl = imgs?.['visual_reference'] || imgs?.['front_full'] || imgs?.['front'] || imgs?.['main']
+        || (imgs ? Object.values(imgs)[0] : undefined) || char.visual_reference;
+      const visualRefStorageKey = keys?.['visual_reference'] || keys?.['front_full'] || keys?.['front'] || keys?.['main']
+        || (keys ? Object.values(keys)[0] : undefined);
+      characterMap[char.name] = {
+        name: char.name,
+        appearance: char.appearance,
+        costume: char.costume,
+        visualRefUrl,
+        visualRefStorageKey,
+        negativePrompt: char.visual_prompt_negative,
+      };
+    }
+
+    // Build location name → visual detail map
+    const locationDetailMap: Record<string, LocationDetailEntry> = {};
+    for (const loc of locations) {
+      const imgs = assetImages[loc.id];
+      const keys = assetImageKeys[loc.id];
+      locationDetailMap[loc.name] = {
+        visualDescription: loc.visual_description,
+        mood: loc.mood,
+        atmosphere: loc.atmosphere,
+        lighting: loc.lighting,
+        colorPalette: loc.color_palette,
+        visualRefUrl: imgs?.['main'] || imgs?.['east'] || loc.visual_reference,
+        visualRefStorageKey: keys?.['main'] || keys?.['east'],
+        negativePrompt: loc.visual_prompt_negative,
+      };
+    }
+
     const { nodes, edges } = buildCanvasGraph(sceneInputs, shotInputs, {
       positionCache,
       locationPanoramaMap,
+      characterMap,
+      locationDetailMap,
       artifactsByShotId: Object.fromEntries(
         Object.entries(artifactsByShotId).map(([k, v]) => [
           k,
@@ -208,7 +256,10 @@ export function useCanvasSync() {
     setNodes(nodes);
     setEdges(applyDisconnections(edges, me, disc));
     initializedRef.current = true;
-  }, [scenes, shots, nodeRunsByShotId, artifactsByShotId, locations, assetImages, assetImageKeys]);
+    }, 100); // debounce 100ms
+
+    return () => clearTimeout(debounceRef.current);
+  }, [scenes, shots, characters, nodeRunsByShotId, artifactsByShotId, locations, assetImages, assetImageKeys]);
 
   // Effect 2: re-apply edges when disconnectedSegments or manualEdges change
   useEffect(() => {

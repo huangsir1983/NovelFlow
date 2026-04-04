@@ -20,17 +20,36 @@ import type { Node, Edge } from '@xyflow/react';
 import type {
   SceneNodeData,
   ShotNodeData,
-  PromptAssemblyNodeData,
-  ImageGenerationNodeData,
+  SceneBGNodeData,
+  CharacterProcessNodeData,
+  ImageProcessNodeData,
+  CompositeNodeData,
+  BlendRefineNodeData,
+  LightingNodeData,
+  FinalHDNodeData,
   VideoGenerationNodeData,
   CanvasNodeStatus,
+  CharacterRefInfo,
 } from '../types/canvas';
 import { detectModuleType } from '../components/production/canvas/ModuleTemplates';
 
 /* ── Layout constants ── */
-const COL_X = [0, 500, 1020, 1540, 2060];
+/**
+ * 9-column layout for the 12-node branching pipeline:
+ *   Col 0 (0)    : Scene
+ *   Col 1 (500)  : Shot
+ *   Col 2 (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
+ *   Col 3 (1540) : ViewAngle / PropAngle
+ *   Col 4 (2060) : Expression
+ *   Col 5 (2580) : HDUpscale + Matting
+ *   Col 6 (3100) : Composite (merge point)
+ *   Col 7 (3620) : BlendRefine + Lighting
+ *   Col 8 (4140) : FinalHD + VideoGeneration
+ */
+const COL_X = [0, 500, 1020, 1540, 2060, 2580, 3100, 3620, 4140];
 const SCENE_PADDING = 400;  // vertical padding between scene groups
 const SHOT_GAP = 420;       // vertical gap between shots within a scene
+const BRANCH_GAP = 220;     // vertical gap between branches (sceneBG, characters, props)
 const NODE_HEIGHT = 200;
 
 /** Actual card widths per node type — must match the component's outer div width */
@@ -40,19 +59,38 @@ const NODE_WIDTHS: Record<string, number> = {
   promptAssembly: 260,
   imageGeneration: 260,
   videoGeneration: 290,
+  sceneBG: 260,
+  characterProcess: 180,
+  viewAngle: 260,
+  expression: 260,
+  hdUpscale: 240,
+  matting: 260,
+  propProcess: 240,
+  propAngle: 260,
+  composite: 280,
+  blendRefine: 240,
+  lighting: 240,
+  finalHD: 240,
+  imageProcess: 260,
 };
 const DEFAULT_NODE_WIDTH = 280;
 
-/** Build dimension props for a node — uses correct width per type, no forced `measured` */
+/** Per-node-type heights — only needed for nodes that differ from NODE_HEIGHT */
+const NODE_HEIGHTS: Record<string, number> = {
+  characterProcess: 310, // portrait card: label(~30) + 260 image + overlay
+};
+
+/** Build dimension props for a node — uses correct width/height per type */
 function nodeDims(nodeType: string) {
   const w = NODE_WIDTHS[nodeType] || DEFAULT_NODE_WIDTH;
+  const h = NODE_HEIGHTS[nodeType] || NODE_HEIGHT;
   return {
     width: w,
-    height: NODE_HEIGHT,
+    height: h,
     initialWidth: w,
-    initialHeight: NODE_HEIGHT,
+    initialHeight: h,
     style: { width: w },
-    measured: { width: w, height: NODE_HEIGHT },
+    measured: { width: w, height: h },
   };
 }
 
@@ -65,9 +103,23 @@ function nodeDims(nodeType: string) {
 /* ── Helpers ── */
 function sceneNodeId(sceneId: string) { return `scene-${sceneId}`; }
 export function shotNodeId(shotId: string) { return `shot-${shotId}`; }
-function promptNodeId(shotId: string) { return `prompt-${shotId}`; }
-function imageNodeId(shotId: string) { return `image-${shotId}`; }
+// promptNodeId / imageNodeId removed — old linear pipeline nodes replaced by 12-node branching pipeline
 export function videoNodeId(shotId: string) { return `video-${shotId}`; }
+
+/* ── New 12-node pipeline ID helpers ── */
+export function sceneBGNodeId(shotId: string) { return `scenebg-${shotId}`; }
+export function charProcessNodeId(shotId: string, charName: string) { return `charproc-${shotId}-${charName}`; }
+export function viewAngleNodeId(shotId: string, charName: string) { return `viewangle-${shotId}-${charName}`; }
+export function expressionNodeId(shotId: string, charName: string) { return `expression-${shotId}-${charName}`; }
+export function hdUpscaleNodeId(shotId: string, charName: string) { return `hdupscale-${shotId}-${charName}`; }
+export function mattingNodeId(shotId: string, charName: string) { return `matting-${shotId}-${charName}`; }
+export function propProcessNodeId(shotId: string, propIdx: number) { return `propproc-${shotId}-${propIdx}`; }
+export function propAngleNodeId(shotId: string, propIdx: number) { return `propangle-${shotId}-${propIdx}`; }
+export function compositeNodeId(shotId: string) { return `composite-${shotId}`; }
+export function blendRefineNodeId(shotId: string) { return `blendrefine-${shotId}`; }
+export function lightingNodeId(shotId: string) { return `lighting-${shotId}`; }
+export function finalHDNodeId(shotId: string) { return `finalhd-${shotId}`; }
+export function imageProcessNodeId(shotId: string, charName: string, processType: string) { return `imgproc-${processType}-${shotId}-${charName}`; }
 
 /* ── Script JSON types (from generated_script_json) ── */
 interface ScriptShotJson {
@@ -119,6 +171,32 @@ export interface ShotInput {
   thumbnailUrl?: string;
   visualPrompt?: string;
   status?: CanvasNodeStatus;
+  charactersInFrame?: string[];
+  durationEstimate?: string;
+  emotionTarget?: string;
+  dialogueText?: string;
+}
+
+/** Character visual data keyed by character name */
+export interface CharacterMapEntry {
+  name: string;
+  appearance?: { face?: string; body?: string; hair?: string; distinguishing_features?: string };
+  costume?: { typical_outfit?: string };
+  visualRefUrl?: string;
+  visualRefStorageKey?: string;
+  negativePrompt?: string;
+}
+
+/** Location visual data keyed by location name */
+export interface LocationDetailEntry {
+  visualDescription?: string;
+  mood?: string;
+  atmosphere?: string;
+  lighting?: string;
+  colorPalette?: string[];
+  visualRefUrl?: string;
+  visualRefStorageKey?: string;
+  negativePrompt?: string;
 }
 
 export interface BuildGraphOptions {
@@ -127,7 +205,21 @@ export interface BuildGraphOptions {
   nodeRunsByShotId?: Record<string, Array<{ nodeKey: string; status: string; progress?: number }>>;
   /** {locationName: {panoramaUrl, panoramaStorageKey}} — for populating SceneNode panorama data */
   locationPanoramaMap?: Record<string, { panoramaUrl?: string; panoramaStorageKey?: string }>;
+  /** {characterName: visual data} — for populating PromptAssembly characterRefs */
+  characterMap?: Record<string, CharacterMapEntry>;
+  /** {locationName: visual detail} — for populating PromptAssembly locationRef */
+  locationDetailMap?: Record<string, LocationDetailEntry>;
 }
+
+/** Parse a duration string like "3s" / "5" into milliseconds. Returns 0 on failure. */
+function parseDurationMs(raw?: string): number {
+  if (!raw) return 0;
+  const n = parseFloat(raw);
+  if (Number.isNaN(n) || n <= 0) return 0;
+  // If the string already looks like ms (> 500), keep it; otherwise treat as seconds
+  return n > 500 ? Math.round(n) : Math.round(n * 1000);
+}
+
 
 /**
  * Flatten a scene's scriptJson beats into ShotInput[].
@@ -149,6 +241,8 @@ function extractShotsFromScriptJson(sceneId: string, scriptJson: SceneInput['scr
         description: shot.action || '',
         visualPrompt: '',
         status: 'idle',
+        charactersInFrame: shot.subject ? [shot.subject] : [],
+        dialogueText: shot.dialogue?.line || '',
       });
       shotNumber++;
     }
@@ -161,7 +255,13 @@ export function buildCanvasGraph(
   shots: ShotInput[],
   options: BuildGraphOptions = {},
 ) {
-  const { positionCache = {}, artifactsByShotId = {}, nodeRunsByShotId = {}, locationPanoramaMap = {} } = options;
+  const {
+    positionCache = {},
+    artifactsByShotId = {},
+    nodeRunsByShotId = {},
+    locationPanoramaMap = {},
+    characterMap = {},
+  } = options;
 
   const nodes: Node[] = [];
   const edges: Edge[] = [];
@@ -186,8 +286,24 @@ export function buildCanvasGraph(
     const baseY = currentY;
     const sId = sceneNodeId(scene.id);
 
-    // Center scene node vertically relative to its shots group
-    const shotsGroupHeight = Math.max(0, sceneShots.length - 1) * SHOT_GAP;
+    // Pre-compute per-shot Y positions based on actual branch counts
+    const shotYPositions: number[] = [];
+    {
+      let nextY = baseY;
+      for (const s of sceneShots) {
+        shotYPositions.push(nextY);
+        let charNames = s.charactersInFrame?.length ? s.charactersInFrame : scene.characterNames;
+        if ((!charNames || charNames.length === 0) && Object.keys(characterMap).length > 0) {
+          charNames = Object.keys(characterMap);
+        }
+        const branches = 1 + (charNames?.length || 0); // 1 sceneBG + N characters
+        const branchHeight = (branches - 1) * BRANCH_GAP;
+        nextY += Math.max(SHOT_GAP, branchHeight + 120);
+      }
+    }
+    const shotsGroupHeight = shotYPositions.length > 1
+      ? shotYPositions[shotYPositions.length - 1] - shotYPositions[0]
+      : 0;
     const sceneCenterY = baseY + shotsGroupHeight / 2;
 
     // Scene node
@@ -222,19 +338,64 @@ export function buildCanvasGraph(
 
     for (let shi = 0; shi < sceneShots.length; shi++) {
       const shot = sceneShots[shi];
-      const shotY = baseY + shi * SHOT_GAP;
+      const shotY = shotYPositions[shi];
       const artifacts = artifactsByShotId[shot.id] || [];
       const runs = nodeRunsByShotId[shot.id] || [];
 
       const shotStatus = (shot.status || 'idle') as CanvasNodeStatus;
-      const promptRun = runs.find((r) => r.nodeKey === 'prompt');
-      const imageRun = runs.find((r) => r.nodeKey === 'image');
       const videoRun = runs.find((r) => r.nodeKey === 'video');
-
-      const imageArtifacts = artifacts.filter((a) => a.type === 'image');
       const videoArtifact = artifacts.find((a) => a.type === 'video');
 
-      // Shot node
+      // ── Build character refs and location detail for this shot ──
+      // Priority: shot-level characters > scene-level characters > all known characters
+      let shotCharNames = shot.charactersInFrame?.length
+        ? shot.charactersInFrame
+        : scene.characterNames;
+
+      // If still empty, use all characters in characterMap as fallback
+      if ((!shotCharNames || shotCharNames.length === 0) && Object.keys(characterMap).length > 0) {
+        shotCharNames = Object.keys(characterMap);
+      }
+
+      // Resolve character names: exact match first, then fuzzy (contains) match
+      const allCharNames = Object.keys(characterMap);
+      const resolveCharName = (name: string): CharacterMapEntry | undefined => {
+        // Exact match
+        if (characterMap[name]) return characterMap[name];
+        // Fuzzy: characterMap key contains shot name, or shot name contains key
+        return allCharNames
+          .map((k) => characterMap[k])
+          .find((c) => name.includes(c.name) || c.name.includes(name));
+      };
+
+      const characterRefs: CharacterRefInfo[] = shotCharNames
+        .map(resolveCharName)
+        .filter((c): c is CharacterMapEntry => !!c)
+        // Deduplicate by name
+        .filter((c, i, arr) => arr.findIndex((x) => x.name === c.name) === i)
+        .map((c) => ({
+          name: c.name,
+          visualRefUrl: c.visualRefUrl,
+          visualRefStorageKey: c.visualRefStorageKey,
+          appearanceDesc: c.appearance
+            ? [c.appearance.face, c.appearance.body, c.appearance.hair, c.appearance.distinguishing_features]
+                .filter(Boolean).join(', ')
+            : undefined,
+          costumeDesc: c.costume?.typical_outfit,
+          negativePrompt: c.negativePrompt,
+        }));
+
+      const locationPanorama2 = scene.location ? locationPanoramaMap[scene.location] : undefined;
+
+      // Estimate duration
+      const shotDurationMs = parseDurationMs(shot.durationEstimate)
+        || (scene.scriptJson?.duration_estimate_s
+          ? Math.round((scene.scriptJson.duration_estimate_s * 1000) / Math.max(1, sceneShots.length))
+          : 0);
+
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Shot node (Col 1)
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       const shId = shotNodeId(shot.id);
       const detectedModule = detectModuleType(shot.description || '');
       nodes.push({
@@ -256,87 +417,305 @@ export function buildCanvasGraph(
           specId: shot.id,
           moduleType: detectedModule ?? undefined,
           imagePrompt: shot.visualPrompt || undefined,
+          charactersInFrame: shot.charactersInFrame,
+          durationEstimateMs: shotDurationMs || undefined,
+          dialogueText: shot.dialogueText,
+          emotionTarget: shot.emotionTarget,
         } satisfies ShotNodeData,
         ...nodeDims('shot'),
       });
 
-      // Prompt assembly node
-      const prId = promptNodeId(shot.id);
+      // ── Scene → Shot edge
+      edges.push({ id: `e-${sId}-${shId}`, source: sId, target: shId, type: 'pipeline' });
+
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Branch layout: sceneBG + N characters + M props stacked vertically
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      const charNames = characterRefs.map((c) => c.name);
+      const numBranches = 1 + charNames.length + 0; // sceneBG + characters (props TBD)
+      const branchTotalHeight = (numBranches - 1) * BRANCH_GAP;
+      const branchBaseY = shotY - branchTotalHeight / 2;
+      let branchIdx = 0;
+
+      // All node IDs that feed into Composite
+      const compositeSourceIds: string[] = [];
+
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // SceneBG node (Col 2) — VR panorama screenshot as background layer
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      const bgId = sceneBGNodeId(shot.id);
+      const bgY = branchBaseY + branchIdx * BRANCH_GAP;
+      branchIdx++;
       nodes.push({
-        id: prId,
-        type: 'promptAssembly',
-        position: positionCache[prId] ?? { x: COL_X[2], y: shotY },
+        id: bgId,
+        type: 'sceneBG',
+        position: positionCache[bgId] ?? { x: COL_X[2], y: bgY },
         data: {
-          label: 'Prompt',
-          status: (promptRun?.status as CanvasNodeStatus) || 'idle',
+          label: '场景背景',
+          status: 'idle' as CanvasNodeStatus,
           sceneId: scene.id,
           shotId: shot.id,
-          nodeType: 'promptAssembly',
-          assembledPrompt: shot.visualPrompt || '',
-          characterRefs: [],
-          locationRef: scene.location,
-          styleTemplate: undefined,
-        } satisfies PromptAssemblyNodeData,
-        ...nodeDims('promptAssembly'),
+          nodeType: 'sceneBG',
+          panoramaUrl: locationPanorama2?.panoramaUrl,
+          panoramaStorageKey: locationPanorama2?.panoramaStorageKey,
+          screenshotUrl: undefined,
+          viewAngle: { yaw: 0, pitch: 0 },
+          progress: 0,
+        } satisfies SceneBGNodeData,
+        ...nodeDims('sceneBG'),
       });
+      compositeSourceIds.push(bgId);
+      edges.push({ id: `e-${shId}-${bgId}`, source: shId, target: bgId, type: 'pipeline', data: { shotId: shot.id, segment: 'shot-scenebg' } });
 
-      // Image generation node
-      const imId = imageNodeId(shot.id);
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Character branches (Col 2-5): CharProcess → ViewAngle → Expression → HDUpscale + Matting
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      for (const charRef of characterRefs) {
+        const cn = charRef.name;
+        const charY = branchBaseY + branchIdx * BRANCH_GAP;
+        branchIdx++;
+        const charEntry = characterMap[cn];
+
+        // CharacterProcess (Col 2) — carries the character's reference IMAGE
+        const cpId = charProcessNodeId(shot.id, cn);
+        // Gather all available image variants from asset library
+        const charAssetImages = charEntry ? {
+          visual_reference: charEntry.visualRefUrl,
+          ...(charEntry.visualRefStorageKey ? { storageKey: charEntry.visualRefStorageKey } : {}),
+        } : undefined;
+        nodes.push({
+          id: cpId,
+          type: 'characterProcess',
+          position: positionCache[cpId] ?? { x: COL_X[2], y: charY },
+          data: {
+            label: cn,
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            shotId: shot.id,
+            nodeType: 'characterProcess',
+            characterId: undefined,
+            characterName: cn,
+            visualRefUrl: charRef.visualRefUrl,
+            visualRefStorageKey: charRef.visualRefStorageKey,
+            availableImages: charAssetImages as Record<string, string> | undefined,
+            selectedVariant: 'visual_reference',
+          } satisfies CharacterProcessNodeData,
+          ...nodeDims('characterProcess'),
+        });
+        edges.push({ id: `e-${shId}-${cpId}`, source: shId, target: cpId, type: 'pipeline', data: { shotId: shot.id, segment: `shot-char-${cn}` } });
+
+        // ImageProcess: ViewAngle (Col 3)
+        const vaId = imageProcessNodeId(shot.id, cn, 'viewAngle');
+        nodes.push({
+          id: vaId,
+          type: 'imageProcess',
+          position: positionCache[vaId] ?? { x: COL_X[3], y: charY },
+          data: {
+            label: '视角调整',
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            shotId: shot.id,
+            nodeType: 'imageProcess',
+            processType: 'viewAngle',
+            inputImageUrl: charRef.visualRefUrl,
+            inputStorageKey: charRef.visualRefStorageKey,
+            targetAngle: shot.cameraAngle || 'front',
+            progress: 0,
+          } satisfies ImageProcessNodeData,
+          ...nodeDims('imageProcess'),
+        });
+        edges.push({ id: `e-${cpId}-${vaId}`, source: cpId, target: vaId, type: 'pipeline', data: { shotId: shot.id, segment: `char-viewangle-${cn}` } });
+
+        // ImageProcess: Expression (Col 4)
+        const exId = imageProcessNodeId(shot.id, cn, 'expression');
+        const expressionPrompt = [shot.emotionTarget, shot.dialogueText].filter(Boolean).join(' — ') || '';
+        nodes.push({
+          id: exId,
+          type: 'imageProcess',
+          position: positionCache[exId] ?? { x: COL_X[4], y: charY },
+          data: {
+            label: '表情动作',
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            shotId: shot.id,
+            nodeType: 'imageProcess',
+            processType: 'expression',
+            expressionPrompt,
+            emotion: shot.emotionTarget,
+            action: shot.description,
+            progress: 0,
+          } satisfies ImageProcessNodeData,
+          ...nodeDims('imageProcess'),
+        });
+        edges.push({ id: `e-${vaId}-${exId}`, source: vaId, target: exId, type: 'pipeline', data: { shotId: shot.id, segment: `viewangle-expression-${cn}` } });
+
+        // ImageProcess: HDUpscale (Col 5, upper)
+        const hdId = imageProcessNodeId(shot.id, cn, 'hdUpscale');
+        nodes.push({
+          id: hdId,
+          type: 'imageProcess',
+          position: positionCache[hdId] ?? { x: COL_X[5], y: charY - BRANCH_GAP / 4 },
+          data: {
+            label: '高清化',
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            shotId: shot.id,
+            nodeType: 'imageProcess',
+            processType: 'hdUpscale',
+            scaleFactor: 2,
+            progress: 0,
+          } satisfies ImageProcessNodeData,
+          ...nodeDims('imageProcess'),
+        });
+        edges.push({ id: `e-${exId}-${hdId}`, source: exId, target: hdId, type: 'pipeline', data: { shotId: shot.id, segment: `expression-hd-${cn}` } });
+
+        // ImageProcess: Matting (Col 5, lower)
+        const mtId = imageProcessNodeId(shot.id, cn, 'matting');
+        nodes.push({
+          id: mtId,
+          type: 'imageProcess',
+          position: positionCache[mtId] ?? { x: COL_X[5], y: charY + BRANCH_GAP / 4 },
+          data: {
+            label: '抠图',
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            shotId: shot.id,
+            nodeType: 'imageProcess',
+            processType: 'matting',
+            progress: 0,
+          } satisfies ImageProcessNodeData,
+          ...nodeDims('imageProcess'),
+        });
+        edges.push({ id: `e-${hdId}-${mtId}`, source: hdId, target: mtId, type: 'pipeline', data: { shotId: shot.id, segment: `hd-matting-${cn}` } });
+        compositeSourceIds.push(mtId);
+      }
+
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Composite node (Col 6) — merge point
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      const compId = compositeNodeId(shot.id);
       nodes.push({
-        id: imId,
-        type: 'imageGeneration',
-        position: positionCache[imId] ?? { x: COL_X[3], y: shotY },
+        id: compId,
+        type: 'composite',
+        position: positionCache[compId] ?? { x: COL_X[6], y: shotY },
         data: {
-          label: 'Image',
-          status: (imageRun?.status as CanvasNodeStatus) || 'idle',
+          label: '合成',
+          status: 'idle' as CanvasNodeStatus,
           sceneId: scene.id,
           shotId: shot.id,
-          nodeType: 'imageGeneration',
-          prompt: shot.visualPrompt || '',
-          candidates: imageArtifacts.map((a) => ({
-            id: a.id,
-            url: a.url,
-            status: a.status as 'draft' | 'approved' | 'rejected',
-          })),
-          selectedCandidateId: imageArtifacts.find((a) => a.status === 'approved')?.id,
-          progress: imageRun?.progress ?? 0,
-        } satisfies ImageGenerationNodeData,
-        ...nodeDims('imageGeneration'),
+          nodeType: 'composite',
+          layers: [],
+          outputImageUrl: undefined,
+          canvasWidth: 1920,
+          canvasHeight: 1080,
+          progress: 0,
+        } satisfies CompositeNodeData,
+        ...nodeDims('composite'),
       });
+      // Connect all branch outputs → Composite
+      for (const srcId of compositeSourceIds) {
+        edges.push({ id: `e-${srcId}-${compId}`, source: srcId, target: compId, type: 'pipeline', data: { shotId: shot.id, segment: `branch-composite` } });
+      }
 
-      // Video generation node
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Post-composite chain (Col 7-8): BlendRefine → Lighting → FinalHD → VideoGen
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+      // BlendRefine (Col 7, upper)
+      const brId = blendRefineNodeId(shot.id);
+      nodes.push({
+        id: brId,
+        type: 'blendRefine',
+        position: positionCache[brId] ?? { x: COL_X[7], y: shotY - BRANCH_GAP / 4 },
+        data: {
+          label: '融合',
+          status: 'idle' as CanvasNodeStatus,
+          sceneId: scene.id,
+          shotId: shot.id,
+          nodeType: 'blendRefine',
+          inputImageUrl: undefined,
+          outputImageUrl: undefined,
+          progress: 0,
+        } satisfies BlendRefineNodeData,
+        ...nodeDims('blendRefine'),
+      });
+      edges.push({ id: `e-${compId}-${brId}`, source: compId, target: brId, type: 'pipeline', data: { shotId: shot.id, segment: 'composite-blend' } });
+
+      // Lighting (Col 7, lower)
+      const ltId = lightingNodeId(shot.id);
+      nodes.push({
+        id: ltId,
+        type: 'lighting',
+        position: positionCache[ltId] ?? { x: COL_X[7], y: shotY + BRANCH_GAP / 4 },
+        data: {
+          label: '光影',
+          status: 'idle' as CanvasNodeStatus,
+          sceneId: scene.id,
+          shotId: shot.id,
+          nodeType: 'lighting',
+          inputImageUrl: undefined,
+          outputImageUrl: undefined,
+          lightingPreset: 'auto',
+          progress: 0,
+        } satisfies LightingNodeData,
+        ...nodeDims('lighting'),
+      });
+      edges.push({ id: `e-${brId}-${ltId}`, source: brId, target: ltId, type: 'pipeline', data: { shotId: shot.id, segment: 'blend-lighting' } });
+
+      // FinalHD (Col 8, upper)
+      const fhId = finalHDNodeId(shot.id);
+      nodes.push({
+        id: fhId,
+        type: 'finalHD',
+        position: positionCache[fhId] ?? { x: COL_X[8], y: shotY - BRANCH_GAP / 4 },
+        data: {
+          label: '终稿高清',
+          status: 'idle' as CanvasNodeStatus,
+          sceneId: scene.id,
+          shotId: shot.id,
+          nodeType: 'finalHD',
+          inputImageUrl: undefined,
+          outputImageUrl: undefined,
+          scaleFactor: 2,
+          progress: 0,
+        } satisfies FinalHDNodeData,
+        ...nodeDims('finalHD'),
+      });
+      edges.push({ id: `e-${ltId}-${fhId}`, source: ltId, target: fhId, type: 'pipeline', data: { shotId: shot.id, segment: 'lighting-finalhd' } });
+
+      // VideoGeneration (Col 8, lower)
       const viId = videoNodeId(shot.id);
       nodes.push({
         id: viId,
         type: 'videoGeneration',
-        position: positionCache[viId] ?? { x: COL_X[4], y: shotY },
+        position: positionCache[viId] ?? { x: COL_X[8], y: shotY + BRANCH_GAP / 4 },
         data: {
           label: 'Video',
           status: (videoRun?.status as CanvasNodeStatus) || 'idle',
           sceneId: scene.id,
           shotId: shot.id,
           nodeType: 'videoGeneration',
-          sourceImageId: imageArtifacts.find((a) => a.status === 'approved')?.id,
+          sourceImageId: undefined,
           videoUrl: videoArtifact?.url,
-          durationMs: 0,
+          durationMs: shotDurationMs,
           progress: videoRun?.progress ?? 0,
           mode: 'image_to_video',
         } satisfies VideoGenerationNodeData,
         ...nodeDims('videoGeneration'),
       });
-
-      // Edges: Scene → Shot → Prompt → Image → Video
-      edges.push(
-        { id: `e-${sId}-${shId}`, source: sId, target: shId, type: 'pipeline' },
-        { id: `e-${shId}-${prId}`, source: shId, target: prId, type: 'pipeline', data: { shotId: shot.id, segment: 'shot-prompt' } },
-        { id: `e-${prId}-${imId}`, source: prId, target: imId, type: 'pipeline', data: { shotId: shot.id, segment: 'prompt-image' } },
-        { id: `e-${imId}-${viId}`, source: imId, target: viId, type: 'pipeline', data: { shotId: shot.id, segment: 'image-video' } },
-      );
+      edges.push({ id: `e-${fhId}-${viId}`, source: fhId, target: viId, type: 'pipeline', data: { shotId: shot.id, segment: 'finalhd-video' } });
     }
 
-    // Advance Y for next scene group: scene node height + all shots height + padding
-    const shotsHeight = Math.max(1, sceneShots.length) * SHOT_GAP;
-    currentY += Math.max(NODE_HEIGHT, shotsHeight) + SCENE_PADDING;
+    // Advance Y: use pre-computed shot positions to determine total scene height
+    const lastShotY = shotYPositions.length > 0 ? shotYPositions[shotYPositions.length - 1] : baseY;
+    const lastShotBranches = sceneShots.length > 0 ? (() => {
+      const s = sceneShots[sceneShots.length - 1];
+      let cn = s.charactersInFrame?.length ? s.charactersInFrame : scene.characterNames;
+      if ((!cn || cn.length === 0) && Object.keys(characterMap).length > 0) cn = Object.keys(characterMap);
+      return 1 + (cn?.length || 0);
+    })() : 1;
+    const lastShotHeight = Math.max(NODE_HEIGHT, (lastShotBranches - 1) * BRANCH_GAP);
+    currentY = lastShotY + lastShotHeight + SCENE_PADDING;
   }
 
   return { nodes, edges };
@@ -362,7 +741,7 @@ export function buildCanvasGraphIncremental(
     return buildCanvasGraph(scenes, shots, options);
   }
 
-  const { positionCache = {}, artifactsByShotId = {}, nodeRunsByShotId = {} } = options;
+  const { positionCache = {} } = options;
   const nodes: Node[] = [];
   const edges: Edge[] = [];
 
@@ -435,9 +814,18 @@ export function buildCanvasGraphIncremental(
       }
     }
 
-    // Advance Y for next scene
-    const shotsHeight = Math.max(1, sceneShots.length) * SHOT_GAP;
-    currentY += Math.max(NODE_HEIGHT, shotsHeight) + SCENE_PADDING;
+    // Advance Y using dynamic per-shot branch heights
+    {
+      let nextY = 0;
+      for (const s of sceneShots) {
+        let cn = s.charactersInFrame?.length ? s.charactersInFrame : scene.characterNames;
+        if ((!cn || cn.length === 0) && Object.keys(options.characterMap || {}).length > 0) cn = Object.keys(options.characterMap || {});
+        const branches = 1 + (cn?.length || 0);
+        const branchHeight = (branches - 1) * BRANCH_GAP;
+        nextY += Math.max(SHOT_GAP, branchHeight + 120);
+      }
+      currentY += Math.max(NODE_HEIGHT, nextY) + SCENE_PADDING;
+    }
   }
 
   return { nodes, edges };

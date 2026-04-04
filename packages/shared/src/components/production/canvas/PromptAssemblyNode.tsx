@@ -1,6 +1,6 @@
 'use client';
 
-import { memo, useState, useEffect, useRef } from 'react';
+import { memo, useEffect, useRef } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { PromptAssemblyNodeData } from '../../../types/canvas';
 import { useMagneticButton } from '../../../hooks/useMagneticButton';
@@ -40,20 +40,27 @@ function PromptAssemblyNodeComponent({ data, selected }: NodeProps<PromptAssembl
         transition: 'background-color 0.2s, border-color 0.2s',
       }}>
         <div style={{ position: 'relative', zIndex: 1, padding: 20 }}>
-          <div style={{
-            width: '100%', minHeight: 70, borderRadius: 12, padding: 14, marginBottom: 12,
+          <div className="nodrag nowheel" style={{
+            width: '100%', minHeight: 70, maxHeight: 120, borderRadius: 12, padding: 14, marginBottom: 12,
             backgroundColor: selected ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.015)',
+            overflowY: 'auto',
           }}>
-            <p style={{ fontSize: 11, color: 'rgba(255,255,255,0.25)', display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical', overflow: 'hidden', lineHeight: 1.7, fontFamily: 'monospace' }}>
+            <p style={{ fontSize: 11, color: 'rgba(255,255,255,0.25)', lineHeight: 1.7, fontFamily: 'monospace' }}>
               {data.assembledPrompt || '等待组装...'}
             </p>
           </div>
           <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-            {data.characterRefs.map((n) => (
-              <span key={n} style={{ fontSize: 9, color: 'rgba(167,139,250,0.35)', backgroundColor: 'rgba(139,92,246,0.05)', padding: '2px 8px', borderRadius: 99 }}>{n}</span>
+            {data.characterRefs.map((c) => (
+              <span key={c.name} style={{ fontSize: 9, color: 'rgba(167,139,250,0.35)', backgroundColor: 'rgba(139,92,246,0.05)', padding: '2px 8px', borderRadius: 99, display: 'flex', alignItems: 'center', gap: 3 }}>
+                {c.visualRefUrl && <img src={c.visualRefUrl} alt="" style={{ width: 12, height: 12, borderRadius: '50%', objectFit: 'cover' }} />}
+                {c.name}
+              </span>
             ))}
             {data.locationRef && (
-              <span style={{ fontSize: 9, color: 'rgba(252,211,77,0.35)', backgroundColor: 'rgba(245,158,11,0.05)', padding: '2px 8px', borderRadius: 99 }}>{data.locationRef}</span>
+              <span style={{ fontSize: 9, color: 'rgba(252,211,77,0.35)', backgroundColor: 'rgba(245,158,11,0.05)', padding: '2px 8px', borderRadius: 99 }}>{data.locationRef.name}</span>
+            )}
+            {data.negativePrompt && (
+              <span style={{ fontSize: 9, color: 'rgba(248,113,113,0.35)', backgroundColor: 'rgba(239,68,68,0.05)', padding: '2px 8px', borderRadius: 99 }}>neg</span>
             )}
           </div>
         </div>

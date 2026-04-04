@@ -5,7 +5,7 @@ import { type NodeProps, type Node, Handle, Position, useReactFlow } from '@xyfl
 import type { SceneNodeData } from '../../../types/canvas';
 import type { CanvasModuleType } from '../../../types/canvas';
 import { useProjectStore } from '../../../stores/projectStore';
-import { fetchAPI } from '../../../lib/api';
+import { fetchAPI, API_BASE_URL } from '../../../lib/api';
 
 const PanoramaViewer = lazy(() =>
   import('../../panorama/PanoramaViewer').then((m) => ({ default: m.PanoramaViewer }))
@@ -71,7 +71,7 @@ function SceneNodeComponent({ data, selected }: NodeProps<SceneNode>) {
       formData.append('file', blob, 'panorama_screenshot.jpg');
 
       const resp = await fetch(
-        `http://localhost:8000/api/projects/${projectId}/asset-images/upload`,
+        `${API_BASE_URL}/api/projects/${projectId}/asset-images/upload`,
         { method: 'POST', body: formData },
       );
       if (!resp.ok) return;

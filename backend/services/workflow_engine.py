@@ -37,6 +37,18 @@ class WorkflowEngine:
         'generate-video-direct': 'video_queue',
         'grid9-to-video': 'video_queue',
         'user-select-frame': None,  # 人工门，不入队列
+        # 12-node pipeline steps
+        'scene-bg-extract': 'image_queue',
+        'character-select': None,         # 前端选取，不入队列
+        'view-angle-adjust': 'image_queue',
+        'expression-transform': 'image_queue',
+        'hd-upscale': 'image_queue',
+        'matting-extract': 'image_queue',
+        'prop-select': None,              # 前端选取，不入队列
+        'prop-angle-adjust': 'image_queue',
+        'composite-edit': None,           # 前端编辑器，不入队列
+        'lighting-adjust': 'image_queue',
+        'final-hd': 'image_queue',
     }
 
     def instantiate(self, db: Session, template_id: str, target_node_ids: list,

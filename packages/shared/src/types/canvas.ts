@@ -40,6 +40,26 @@ export interface SceneNodeData extends BaseNodeData {
   panoramaUrl?: string;
 }
 
+/* ---------- Character Reference (for prompt assembly) ---------- */
+export interface CharacterRefInfo {
+  name: string;
+  visualRefUrl?: string;
+  visualRefStorageKey?: string;
+  appearanceDesc?: string;
+  costumeDesc?: string;
+  negativePrompt?: string;
+}
+
+/* ---------- Location Reference (for prompt assembly) ---------- */
+export interface LocationRefInfo {
+  name: string;
+  visualRefUrl?: string;
+  panoramaUrl?: string;
+  visualDescription?: string;
+  mood?: string;
+  lighting?: string;
+}
+
 /* ---------- Shot ---------- */
 export interface ShotNodeData extends BaseNodeData {
   nodeType: 'shot';
@@ -54,15 +74,23 @@ export interface ShotNodeData extends BaseNodeData {
   agentAssigned?: boolean;
   imagePrompt?: string;
   videoPrompt?: string;
+  charactersInFrame?: string[];
+  durationEstimateMs?: number;
+  dialogueText?: string;
+  emotionTarget?: string;
 }
 
 /* ---------- Prompt Assembly ---------- */
 export interface PromptAssemblyNodeData extends BaseNodeData {
   nodeType: 'promptAssembly';
   assembledPrompt: string;
-  characterRefs: string[];
-  locationRef?: string;
+  characterRefs: CharacterRefInfo[];
+  locationRef?: LocationRefInfo;
   styleTemplate?: string;
+  emotionalContext?: string;
+  narrativeMode?: string;
+  timeOfDay?: string;
+  negativePrompt?: string;
 }
 
 /* ---------- Image Generation ---------- */
@@ -80,6 +108,8 @@ export interface ImageGenerationNodeData extends BaseNodeData {
   progress: number;
   locationScreenshotUrl?: string;
   locationScreenshotStorageKey?: string;
+  characterRefUrls?: string[];
+  locationRefUrl?: string;
 }
 
 /* ---------- Video Generation ---------- */
@@ -92,13 +122,195 @@ export interface VideoGenerationNodeData extends BaseNodeData {
   mode: 'text_to_video' | 'image_to_video' | 'scene_character_to_video';
 }
 
+/* ---------- Scene Background (VR panorama screenshot) ---------- */
+export interface SceneBGNodeData extends BaseNodeData {
+  nodeType: 'sceneBG';
+  panoramaUrl?: string;
+  panoramaStorageKey?: string;
+  screenshotUrl?: string;
+  viewAngle: { yaw: number; pitch: number };
+  progress: number;
+}
+
+/* ---------- Character Process (asset image selection entry) ---------- */
+export interface CharacterProcessNodeData extends BaseNodeData {
+  nodeType: 'characterProcess';
+  characterId?: string;
+  characterName: string;
+  /** Primary visual reference image URL (the image passed downstream) */
+  visualRefUrl?: string;
+  visualRefStorageKey?: string;
+  /** All available image variants from asset library for user selection */
+  availableImages?: Record<string, string>; // e.g. { front: url, side: url, full: url }
+  /** Which variant the user selected as the pipeline input */
+  selectedVariant?: string;
+}
+
+/* ---------- View Angle (RunningHub angle adjust) ---------- */
+export interface ViewAngleNodeData extends BaseNodeData {
+  nodeType: 'viewAngle';
+  /** Input image URL (from CharacterProcess.visualRefUrl) */
+  inputImageUrl?: string;
+  inputStorageKey?: string;
+  outputImageUrl?: string;
+  outputStorageKey?: string;
+  targetAngle: string;
+  runninghubTaskId?: string;
+  progress: number;
+}
+
+/* ---------- Expression (Gemini img2img — image-driven) ---------- */
+export interface ExpressionNodeData extends BaseNodeData {
+  nodeType: 'expression';
+  /** Input image (from ViewAngle output — the angle-adjusted character image) */
+  inputImageUrl?: string;
+  inputStorageKey?: string;
+  /** Output image after expression/action transform */
+  outputImageUrl?: string;
+  outputStorageKey?: string;
+  /** Short instruction for Gemini (e.g. "angry shouting", "smiling gently") */
+  expressionPrompt: string;
+  emotion?: string;
+  action?: string;
+  negativePrompt?: string;
+}
+
+/* ---------- HD Upscale (stub) ---------- */
+export interface HDUpscaleNodeData extends BaseNodeData {
+  nodeType: 'hdUpscale';
+  inputImageUrl?: string;
+  outputImageUrl?: string;
+  scaleFactor: number;
+  progress: number;
+}
+
+/* ---------- Matting (RunningHub background removal) ---------- */
+export interface MattingNodeData extends BaseNodeData {
+  nodeType: 'matting';
+  inputImageUrl?: string;
+  outputPngUrl?: string;
+  runninghubTaskId?: string;
+  progress: number;
+}
+
+/* ---------- Prop Process (prop selection entry) ---------- */
+export interface PropProcessNodeData extends BaseNodeData {
+  nodeType: 'propProcess';
+  propId?: string;
+  propName: string;
+  visualRefUrl?: string;
+  visualRefStorageKey?: string;
+}
+
+/* ---------- Prop Angle (reuses viewAngle logic) ---------- */
+export interface PropAngleNodeData extends BaseNodeData {
+  nodeType: 'propAngle';
+  inputImageUrl?: string;
+  outputImageUrl?: string;
+  targetAngle: string;
+  runninghubTaskId?: string;
+  progress: number;
+}
+
+/* ---------- Composite (PS-like layer editor) ---------- */
+export interface CompositeLayerItem {
+  id: string;
+  type: 'background' | 'character' | 'prop';
+  sourceNodeId: string;
+  imageUrl?: string;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  rotation: number;
+  zIndex: number;
+  opacity: number;
+  visible: boolean;
+}
+
+export interface CompositeNodeData extends BaseNodeData {
+  nodeType: 'composite';
+  layers: CompositeLayerItem[];
+  outputImageUrl?: string;
+  canvasWidth: number;
+  canvasHeight: number;
+  progress: number;
+}
+
+/* ---------- Blend Refine (stub) ---------- */
+export interface BlendRefineNodeData extends BaseNodeData {
+  nodeType: 'blendRefine';
+  inputImageUrl?: string;
+  outputImageUrl?: string;
+  progress: number;
+}
+
+/* ---------- Lighting (stub) ---------- */
+export interface LightingNodeData extends BaseNodeData {
+  nodeType: 'lighting';
+  inputImageUrl?: string;
+  outputImageUrl?: string;
+  lightingPreset: string;
+  progress: number;
+}
+
+/* ---------- Final HD (stub) ---------- */
+export interface FinalHDNodeData extends BaseNodeData {
+  nodeType: 'finalHD';
+  inputImageUrl?: string;
+  outputImageUrl?: string;
+  scaleFactor: number;
+  progress: number;
+}
+
+/* ---------- Unified Image Process (replaces ViewAngle/Expression/HDUpscale/Matting) ---------- */
+export type ImageProcessType = 'viewAngle' | 'expression' | 'hdUpscale' | 'matting';
+
+export interface ImageProcessNodeData extends BaseNodeData {
+  nodeType: 'imageProcess';
+  processType: ImageProcessType;
+  inputImageUrl?: string;
+  inputStorageKey?: string;
+  outputImageUrl?: string;
+  outputStorageKey?: string;
+  /** For matting: transparent PNG output */
+  outputPngUrl?: string;
+  /** viewAngle params */
+  targetAngle?: string;
+  azimuth?: number;      // -180 ~ +180, default 0
+  elevation?: number;    // -30 ~ +60, default 0
+  distance?: number;     // 0 ~ 10, default 5
+  /** expression params */
+  expressionPrompt?: string;
+  emotion?: string;
+  action?: string;
+  /** hdUpscale params */
+  scaleFactor?: number;
+  /** RunningHub task tracking */
+  runninghubTaskId?: string;
+  progress: number;
+}
+
 /* ---------- Union ---------- */
 export type CanvasNodeData =
   | SceneNodeData
   | ShotNodeData
   | PromptAssemblyNodeData
   | ImageGenerationNodeData
-  | VideoGenerationNodeData;
+  | VideoGenerationNodeData
+  | SceneBGNodeData
+  | CharacterProcessNodeData
+  | ViewAngleNodeData
+  | ExpressionNodeData
+  | HDUpscaleNodeData
+  | MattingNodeData
+  | PropProcessNodeData
+  | PropAngleNodeData
+  | CompositeNodeData
+  | BlendRefineNodeData
+  | LightingNodeData
+  | FinalHDNodeData
+  | ImageProcessNodeData;
 
 
 // ═══════════════════════════════════════════════════════════════

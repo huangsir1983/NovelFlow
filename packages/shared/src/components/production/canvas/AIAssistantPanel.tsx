@@ -7,10 +7,7 @@
 import { memo, useRef, useEffect, useState, useCallback } from 'react';
 import { useCanvasStore } from '../../../stores/canvasStore';
 import { useProjectStore } from '../../../stores/projectStore';
-import { fetchAPI } from '../../../lib/api';
-
-// SSE stream helper (raw fetch, since fetchAPIStream doesn't parse SSE events)
-const API_BASE_URL = 'http://localhost:8000';
+import { fetchAPI, API_BASE_URL } from '../../../lib/api';
 
 async function fetchSSE(
   endpoint: string,

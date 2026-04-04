@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect, lazy, Suspense } from 'react';
 import { createPortal } from 'react-dom';
 import { useProjectStore } from '../../stores/projectStore';
-import { fetchAPI } from '../../lib/api';
+import { fetchAPI, API_BASE_URL } from '../../lib/api';
 import type { Character, Scene, Location, Prop, CharacterVariant } from '../../types/project';
 
 const PanoramaViewer = lazy(() =>
@@ -192,7 +192,7 @@ function ImageSlotGrid({
         formData.append('aspect_ratio', aspectRatio);
         formData.append('reference', blob, 'reference.png');
 
-        const resp = await fetch('http://localhost:8000/api/ai/generate-image/upload', {
+        const resp = await fetch(`${API_BASE_URL}/api/ai/generate-image/upload`, {
           method: 'POST',
           body: formData,
         });
@@ -924,7 +924,7 @@ function LocationDetail({ location }: { location: Location }) {
       const formData = new FormData();
       formData.append('file', blob, 'panorama_screenshot.jpg');
       const resp = await fetch(
-        `http://localhost:8000/api/projects/${project?.id}/asset-images/upload`,
+        `${API_BASE_URL}/api/projects/${project?.id}/asset-images/upload`,
         { method: 'POST', body: formData },
       );
       if (resp.ok) {
@@ -967,6 +967,7 @@ function LocationDetail({ location }: { location: Location }) {
             <img
               src={panoramaUrl}
               alt="360° panorama"
+              crossOrigin="anonymous"
               className="w-full rounded-xl border border-white/[0.06] cursor-pointer"
               style={{ aspectRatio: '2/1', objectFit: 'cover' }}
               onClick={() => setPanoramaViewerOpen(true)}
@@ -1421,7 +1422,7 @@ function RegenerateButton({
   const handleRegenerate = async () => {
     setRegenerating(true);
     try {
-      const resp = await fetch(`http://localhost:8000/api/projects/${projectId}/assets/regenerate/${assetType}/${assetId}`, {
+      const resp = await fetch(`${API_BASE_URL}/api/projects/${projectId}/assets/regenerate/${assetType}/${assetId}`, {
         method: 'POST',
       });
       if (!resp.ok) {

@@ -2,6 +2,7 @@
 
 import { useCallback, useRef, useState } from 'react';
 import { useProjectStore } from '../../stores/projectStore';
+import { API_BASE_URL } from '../../lib/api';
 
 interface BasicInfoTabProps {
   projectId: string;
@@ -10,11 +11,9 @@ interface BasicInfoTabProps {
   uploading?: boolean;
 }
 
-const API_BASE = 'http://localhost:8000';
-
 /** Fire-and-forget config save — errors are silently ignored */
 function saveConfig(projectId: string, patch: Record<string, string>) {
-  fetch(`${API_BASE}/api/projects/${projectId}/config`, {
+  fetch(`${API_BASE_URL}/api/projects/${projectId}/config`, {
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(patch),
@@ -85,7 +84,7 @@ export function BasicInfoTab({ projectId, onStartScenes, onFileUpload, uploading
     let accumulated = '';
 
     try {
-      const response = await fetch(`http://localhost:8000/api/projects/${projectId}/analysis/stream`, {
+      const response = await fetch(`${API_BASE_URL}/api/projects/${projectId}/analysis/stream`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -169,7 +168,7 @@ export function BasicInfoTab({ projectId, onStartScenes, onFileUpload, uploading
     try {
       // Send empty novel_text — backend reads full text from DB (saved during analysis)
       // This avoids browser serialization failure on large novel texts
-      const response = await fetch(`http://localhost:8000/api/projects/${projectId}/analysis/start-scenes`, {
+      const response = await fetch(`${API_BASE_URL}/api/projects/${projectId}/analysis/start-scenes`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ novel_text: '' }),

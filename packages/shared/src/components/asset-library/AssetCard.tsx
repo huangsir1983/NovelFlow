@@ -336,11 +336,12 @@ interface AssetListCardProps {
   selected?: boolean;
   previewImage?: string;
   isGenerating?: boolean;
+  hasPanorama?: boolean;
   onDelete?: () => void;
   onClick?: () => void;
 }
 
-export function AssetListCard({ cardType, data, selected, previewImage, isGenerating, onDelete, onClick }: AssetListCardProps) {
+export function AssetListCard({ cardType, data, selected, previewImage, isGenerating, hasPanorama, onDelete, onClick }: AssetListCardProps) {
   const colors = CARD_COLORS[cardType];
   const characterVariants = useProjectStore((s) => s.characterVariants);
   const characterName = (data.character_name as string) || '';
@@ -466,6 +467,11 @@ export function AssetListCard({ cardType, data, selected, previewImage, isGenera
           {cardType === 'character' && variantCount > 0 && (
             <span className="rounded-md bg-pink-500/10 px-1.5 py-0.5 text-[10px] font-medium text-pink-300/80 ring-1 ring-inset ring-pink-500/10">
               {variantCount}变体
+            </span>
+          )}
+          {cardType === 'location' && hasPanorama && (
+            <span className="rounded-md bg-cyan-500/10 px-1.5 py-0.5 text-[10px] font-medium text-cyan-300/80 ring-1 ring-inset ring-cyan-500/10">
+              360°
             </span>
           )}
         </div>

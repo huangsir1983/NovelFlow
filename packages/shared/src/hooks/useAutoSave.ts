@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useCallback } from 'react';
 import { useProjectStore } from '../stores/projectStore';
-import { fetchAPI } from '../lib/api';
+import { fetchAPI, API_BASE_URL } from '../lib/api';
 
 const AUTO_SAVE_INTERVAL = 30_000; // 30 seconds
 
@@ -85,7 +85,7 @@ export function useAutoSave(projectId: string | null) {
         character_variants: store.characterVariants,
       });
       navigator.sendBeacon(
-        `http://localhost:8000/api/projects/${projectId}/sync`,
+        `${API_BASE_URL}/api/projects/${projectId}/sync`,
         new Blob([data], { type: 'application/json' }),
       );
     };

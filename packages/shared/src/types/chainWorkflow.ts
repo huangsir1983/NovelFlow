@@ -4,7 +4,7 @@
    链模板系统、工作流执行引擎、AI 分镜合并分析、场景级虚拟化
    ══════════════════════════════════════════════════════════════ */
 
-import type { CanvasWorkflowStepType, CanvasVideoProvider, CanvasNodeStatus } from './canvas';
+import type { CanvasWorkflowStepType, CanvasVideoProvider } from './canvas';
 
 // ═══════════════════════════════════════════════════════════════
 // Section 1 — 链步骤类型（扩展 CanvasWorkflowStepType）
@@ -20,7 +20,19 @@ export type ChainStepType =
   | 'blend-refine'             // 溶图优化
   | 'set-video-keyframe'       // 锁定视频首帧
   | 'generate-image-direct'    // 直接生图
-  | 'generate-video-direct';   // 直接生视频
+  | 'generate-video-direct'    // 直接生视频
+  // 12-node pipeline steps
+  | 'scene-bg-extract'         // VR 全景截图
+  | 'character-select'         // 角色选取
+  | 'view-angle-adjust'        // RunningHub 视角调整
+  | 'expression-transform'     // Gemini 表情/动作变换
+  | 'hd-upscale'               // 高清放大
+  | 'matting-extract'           // RunningHub 抠图
+  | 'prop-select'              // 道具选取
+  | 'prop-angle-adjust'        // 道具视角调整
+  | 'composite-edit'           // 图层合成
+  | 'lighting-adjust'          // 光影调整
+  | 'final-hd';               // 终稿高清化
 
 // ═══════════════════════════════════════════════════════════════
 // Section 2 — 链模板

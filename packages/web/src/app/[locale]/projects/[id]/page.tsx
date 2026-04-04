@@ -29,6 +29,7 @@ import {
   buildShotProductionProjection,
   fetchAPI,
 } from '@unrealmake/shared/lib';
+import { API_BASE_URL } from '@unrealmake/shared/lib/api';
 import type {
   Project, Beat, Scene, Shot, ShotGroup, Character, Location,
   Prop, CharacterVariant, ImportSSEEvent, GeneratedScript, ScriptBeat, ScriptShot,
@@ -197,7 +198,7 @@ function SceneSourceTextEditor({
     setSaving(true);
     try {
       const editedValue = newText === originalText ? null : newText;
-      await fetch(`http://localhost:8000/api/projects/${projectId}/scenes/${scene.id}`, {
+      await fetch(`${API_BASE_URL}/api/projects/${projectId}/scenes/${scene.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ edited_source_text: editedValue ?? '' }),
@@ -217,7 +218,7 @@ function SceneSourceTextEditor({
     setText(originalText ?? '');
     setSaving(true);
     try {
-      await fetch(`http://localhost:8000/api/projects/${projectId}/scenes/${scene.id}`, {
+      await fetch(`${API_BASE_URL}/api/projects/${projectId}/scenes/${scene.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ edited_source_text: '' }),
@@ -274,7 +275,7 @@ function SceneMetadataEditor({
 
   const saveField = useCallback(async (field: string, value: string | string[]) => {
     try {
-      await fetch(`http://localhost:8000/api/projects/${projectId}/scenes/${scene.id}`, {
+      await fetch(`${API_BASE_URL}/api/projects/${projectId}/scenes/${scene.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ [field]: value }),
@@ -394,7 +395,7 @@ function StoryBiblePanel({ projectId, store }: { projectId: string | undefined; 
 
   useEffect(() => {
     if (!projectId) return;
-    fetch(`http://localhost:8000/api/projects/${projectId}/story-bible`)
+    fetch(`${API_BASE_URL}/api/projects/${projectId}/story-bible`)
       .then((r) => r.ok ? r.json() : null)
       .then((data) => { if (data) setStoryBible(data); })
       .catch(() => {});
@@ -412,7 +413,7 @@ function StoryBiblePanel({ projectId, store }: { projectId: string | undefined; 
     if (!projectId) return;
     setSaving(true);
     try {
-      const res = await fetch(`http://localhost:8000/api/projects/${projectId}/story-bible`, {
+      const res = await fetch(`${API_BASE_URL}/api/projects/${projectId}/story-bible`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ overrides: { [key]: value } }),
@@ -673,7 +674,7 @@ function ScriptThreeColumnLayout({
 
     try {
       const response = await fetch(
-        `http://localhost:8000/api/projects/${selectedScene.project_id}/scenes/${selectedScene.id}/generate-script`,
+        `${API_BASE_URL}/api/projects/${selectedScene.project_id}/scenes/${selectedScene.id}/generate-script`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -757,7 +758,7 @@ function ScriptThreeColumnLayout({
 
     try {
       const response = await fetch(
-        `http://localhost:8000/api/projects/${projectId}/scenes/generate-all-scripts`,
+        `${API_BASE_URL}/api/projects/${projectId}/scenes/generate-all-scripts`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -798,7 +799,7 @@ function ScriptThreeColumnLayout({
               setBatchProgress(prev => prev ? { ...prev, completed: prev.completed + 1, current: '' } : prev);
               // 刷新场景数据
               try {
-                const scenesRes = await fetch(`http://localhost:8000/api/projects/${projectId}/scenes`);
+                const scenesRes = await fetch(`${API_BASE_URL}/api/projects/${projectId}/scenes`);
                 if (scenesRes.ok) {
                   const scenesData = await scenesRes.json();
                   store.setScenes(scenesData);
@@ -811,7 +812,7 @@ function ScriptThreeColumnLayout({
             } else if (payload.type === 'batch_complete') {
               // 最终刷新
               try {
-                const scenesRes = await fetch(`http://localhost:8000/api/projects/${projectId}/scenes`);
+                const scenesRes = await fetch(`${API_BASE_URL}/api/projects/${projectId}/scenes`);
                 if (scenesRes.ok) {
                   const scenesData = await scenesRes.json();
                   store.setScenes(scenesData);
@@ -844,7 +845,7 @@ function ScriptThreeColumnLayout({
     if (batchId && store.scenes[0]?.project_id) {
       try {
         await fetch(
-          `http://localhost:8000/api/projects/${store.scenes[0].project_id}/scenes/cancel-batch/${batchId}`,
+          `${API_BASE_URL}/api/projects/${store.scenes[0].project_id}/scenes/cancel-batch/${batchId}`,
           { method: 'POST' },
         );
       } catch { /* ignore */ }
@@ -1710,7 +1711,7 @@ export default function ProjectPage() {
             { asset_id: string; slot_key: string; storage_key: string }[]
           >(`/api/projects/${projectId}/asset-images`).catch(() => []);
           for (const row of backendImages) {
-            const url = `http://localhost:8000/uploads/${row.storage_key}`;
+            const url = `${API_BASE_URL}/uploads/${row.storage_key}`;
             store.setAssetImage(row.asset_id, row.slot_key, url);
             store.setAssetImageKey(row.asset_id, row.slot_key, row.storage_key);
             backendAssetIds.add(`${row.asset_id}:${row.slot_key}`);
@@ -1815,7 +1816,7 @@ export default function ProjectPage() {
         >(`/api/projects/${projectId}/asset-images`).catch(() => []);
         if (backendImages.length > 0) {
           for (const row of backendImages) {
-            const url = `http://localhost:8000/uploads/${row.storage_key}`;
+            const url = `${API_BASE_URL}/uploads/${row.storage_key}`;
             store.setAssetImage(row.asset_id, row.slot_key, url);
             store.setAssetImageKey(row.asset_id, row.slot_key, row.storage_key);
             backendAssetIds.add(`${row.asset_id}:${row.slot_key}`);
@@ -1859,7 +1860,7 @@ export default function ProjectPage() {
       pollingTimerRef.current = setInterval(async () => {
         try {
           const res = await fetch(
-            `http://localhost:8000/api/projects/${projectId}/import/status?task_id=${taskId}`,
+            `${API_BASE_URL}/api/projects/${projectId}/import/status?task_id=${taskId}`,
           );
           if (!res.ok) return;
           const info = await res.json();
@@ -1897,7 +1898,7 @@ export default function ProjectPage() {
       }
       eventSourceRef.current?.close();
 
-      const url = `http://localhost:8000/api/projects/${projectId}/import/events?task_id=${taskId}`;
+      const url = `${API_BASE_URL}/api/projects/${projectId}/import/events?task_id=${taskId}`;
       const es = new EventSource(url);
       eventSourceRef.current = es;
 
@@ -2132,7 +2133,7 @@ export default function ProjectPage() {
 
     try {
       await fetch(
-        `http://localhost:8000/api/projects/${projectId}/import/cancel?task_id=${taskId}`,
+        `${API_BASE_URL}/api/projects/${projectId}/import/cancel?task_id=${taskId}`,
         { method: 'POST' },
       );
     } catch {
@@ -2157,7 +2158,7 @@ export default function ProjectPage() {
     if (oldTaskId) {
       try {
         await fetch(
-          `http://localhost:8000/api/projects/${projectId}/import/cancel?task_id=${oldTaskId}`,
+          `${API_BASE_URL}/api/projects/${projectId}/import/cancel?task_id=${oldTaskId}`,
           { method: 'POST' },
         );
       } catch { /* ignore */ }
@@ -2175,7 +2176,7 @@ export default function ProjectPage() {
       // First try the /import/retry endpoint (works if task is failed)
       if (oldTaskId) {
         const retryResp = await fetch(
-          `http://localhost:8000/api/projects/${projectId}/import/retry?task_id=${oldTaskId}`,
+          `${API_BASE_URL}/api/projects/${projectId}/import/retry?task_id=${oldTaskId}`,
           { method: 'POST' },
         );
         if (retryResp.ok) {
@@ -2187,7 +2188,7 @@ export default function ProjectPage() {
       // Fallback: re-submit via start-scenes (creates new task)
       // Send novelFullText if available; backend will fall back to DB if empty
       const response = await fetch(
-        `http://localhost:8000/api/projects/${projectId}/analysis/start-scenes`,
+        `${API_BASE_URL}/api/projects/${projectId}/analysis/start-scenes`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -2232,7 +2233,7 @@ export default function ProjectPage() {
       setGeneratingAsset(type);
 
       try {
-        const resp = await fetch(`http://localhost:8000/api/projects/${projectId}/assets/generate/${typeMap[type]}`, {
+        const resp = await fetch(`${API_BASE_URL}/api/projects/${projectId}/assets/generate/${typeMap[type]}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ mode }),
@@ -2251,7 +2252,7 @@ export default function ProjectPage() {
             await reloadProjectData();
 
             // Check backend generation status
-            const statusResp = await fetch(`http://localhost:8000/api/projects/${projectId}/assets/generate/status`);
+            const statusResp = await fetch(`${API_BASE_URL}/api/projects/${projectId}/assets/generate/status`);
             if (statusResp.ok) {
               const statuses = await statusResp.json();
               const taskStatus = statuses[type];

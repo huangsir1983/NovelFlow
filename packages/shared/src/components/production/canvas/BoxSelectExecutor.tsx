@@ -11,6 +11,7 @@ import {
 import type { Node, Edge } from '@xyflow/react';
 import { useReactFlow } from '@xyflow/react';
 import { useCanvasStore } from '../../../stores/canvasStore';
+import { useProjectStore } from '../../../stores/projectStore';
 import { useChainTemplateStore } from '../../../stores/chainTemplateStore';
 import { useWorkflowExecutionStore } from '../../../stores/workflowExecutionStore';
 import { fetchAPI } from '../../../lib/api';
@@ -62,15 +63,15 @@ function buildPlan(
   edges: Edge[],
 ): ExecutionPlanPreview {
   const selected = nodes.filter((n) => selectedIds.includes(n.id));
-  const shotCount = selected.filter(
-    (n) => (n.data as Record<string, unknown>).nodeType === 'shot',
-  ).length;
-  const imageCount = selected.filter(
-    (n) => (n.data as Record<string, unknown>).nodeType === 'imageGeneration',
-  ).length;
-  const videoCount = selected.filter(
-    (n) => (n.data as Record<string, unknown>).nodeType === 'videoGeneration',
-  ).length;
+  const getType = (n: Node) => (n.data as Record<string, unknown>).nodeType as string;
+  const shotCount = selected.filter((n) => getType(n) === 'shot').length;
+  const imageCount = selected.filter((n) => {
+    const t = getType(n);
+    return t === 'imageGeneration' || t === 'viewAngle' || t === 'expression'
+      || t === 'matting' || t === 'composite' || t === 'sceneBG'
+      || t === 'hdUpscale' || t === 'propAngle';
+  }).length;
+  const videoCount = selected.filter((n) => getType(n) === 'videoGeneration').length;
 
   // Topological sort into parallel groups
   const upstreamMap = buildUpstreamMap(edges);
@@ -131,8 +132,8 @@ async function analyzeMerge(
     {
       method: 'POST',
       body: JSON.stringify({
-        scene_id: sceneId,
-        storyboard_nodes: storyboardNodes,
+        sceneId: sceneId,
+        storyboardNodes: storyboardNodes,
       } satisfies MergeAnalysisRequest),
     },
   );
@@ -484,14 +485,17 @@ const MergeAnalysisPanel = memo(MergeAnalysisPanelComponent);
    ══════════════════════════════════════════════════════════════ */
 
 interface BoxSelectExecutorProps {
-  projectId: string;
-  workflowId: string;
+  projectId?: string;
+  workflowId?: string;
 }
 
 function BoxSelectExecutorComponent({
-  projectId,
-  workflowId,
+  projectId: projectIdProp,
+  workflowId: workflowIdProp,
 }: BoxSelectExecutorProps) {
+  const storeProjectId = useProjectStore((s) => s.project?.id);
+  const projectId = projectIdProp || storeProjectId || '';
+  const workflowId = workflowIdProp || '';
   const reactFlow = useReactFlow();
   const {
     nodes,

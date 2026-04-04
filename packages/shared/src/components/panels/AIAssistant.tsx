@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useCallback, useRef, useEffect } from 'react';
+import { API_BASE_URL } from '../../lib/api';
 
 interface AIAssistantProps {
   projectId: string;
@@ -26,7 +27,7 @@ export function AIAssistant({ projectId, onAIAction }: AIAssistantProps) {
       setResult('');
 
       try {
-        const response = await fetch(`http://localhost:8000/api/projects/${projectId}/ai/operate`, {
+        const response = await fetch(`${API_BASE_URL}/api/projects/${projectId}/ai/operate`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

@@ -88,6 +88,12 @@ function ShotNodeComponent({ data, selected }: NodeProps<ShotNode>) {
             {data.videoPrompt && (
               <span className="text-[9px] px-1.5 py-0.5 rounded-md bg-emerald-500/10 text-emerald-400/70">视✓</span>
             )}
+            {data.durationEstimateMs ? (
+              <span className="text-[9px] px-1.5 py-0.5 rounded-md bg-sky-500/10 text-sky-400/60">{(data.durationEstimateMs / 1000).toFixed(1)}s</span>
+            ) : null}
+            {data.charactersInFrame && data.charactersInFrame.length > 0 && (
+              <span className="text-[9px] px-1.5 py-0.5 rounded-md bg-violet-500/10 text-violet-400/60">{data.charactersInFrame.length}角色</span>
+            )}
           </div>
         </div>
 

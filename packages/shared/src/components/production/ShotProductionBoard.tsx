@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useMemo } from 'react';
+import { useCallback, useMemo, useDeferredValue } from 'react';
 import {
   ReactFlow,
   Background,
@@ -181,8 +181,10 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   // Scene-level virtualization (updates sceneGroups, visibleSceneIds, renderMode)
   useCanvasVirtualization();
 
-  const nodes = useCanvasStore((s) => s.nodes);
-  const edges = useCanvasStore((s) => s.edges);
+  const rawNodes = useCanvasStore((s) => s.nodes);
+  const rawEdges = useCanvasStore((s) => s.edges);
+  const nodes = useDeferredValue(rawNodes);
+  const edges = useDeferredValue(rawEdges);
   const onNodesChange = useCanvasStore((s) => s.onNodesChange);
   const onEdgesChange = useCanvasStore((s) => s.onEdgesChange);
   const setViewport = useCanvasStore((s) => s.setViewport);

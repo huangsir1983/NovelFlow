@@ -74,6 +74,9 @@ function NodeFloatingToolbarComponent({ nodeId }: NodeFloatingToolbarProps) {
 
   const nodeType = data.nodeType || node.type || 'scene';
 
+  // imageProcess nodes have their own capsule toolbar — don't show this one
+  if (nodeType === 'imageProcess') return null;
+
   const moduleInfo = data.moduleType ? MODULE_LABELS[data.moduleType] : null;
   const coreText = data.coreEvent || data.description || '';
   const characters = data.characterNames || [];

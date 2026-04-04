@@ -21,6 +21,52 @@ router = APIRouter(tags=["canvas"])
 
 
 # ══════════════════════════════════════════════════════════════
+# View Angle prompt helper (ported from taoge view_angle_service.py)
+# ══════════════════════════════════════════════════════════════
+
+_AZIMUTH_MAP = [
+    (0, "front view"), (45, "front-right quarter view"),
+    (90, "right side view"), (135, "back-right quarter view"),
+    (180, "back view"), (-180, "back view"),
+    (-135, "back-left quarter view"), (-90, "left side view"),
+    (-45, "front-left quarter view"),
+]
+_ELEVATION_MAP = [
+    (-30, "low-angle shot"), (0, "eye-level shot"),
+    (30, "elevated shot"), (60, "high-angle shot"),
+]
+_DISTANCE_MAP = [(3.3, "close-up"), (6.6, "medium shot"), (10.0, "wide shot")]
+
+
+def _angle_to_prompt(azimuth: float, elevation: float, distance: float) -> str:
+    """Convert numeric angles to <sks> prompt string."""
+    # Azimuth: circular nearest
+    az_text = "front view"
+    min_d = 999.0
+    for angle, text in _AZIMUTH_MAP:
+        diff = abs(azimuth - angle)
+        if diff > 180:
+            diff = 360 - diff
+        if diff < min_d:
+            min_d = diff
+            az_text = text
+    # Elevation: linear nearest
+    el_text = "eye-level shot"
+    min_d = 999.0
+    for angle, text in _ELEVATION_MAP:
+        if abs(elevation - angle) < min_d:
+            min_d = abs(elevation - angle)
+            el_text = text
+    # Distance: threshold
+    dist_text = "wide shot"
+    for thr, text in _DISTANCE_MAP:
+        if distance <= thr:
+            dist_text = text
+            break
+    return f"<sks> {az_text} {el_text} {dist_text}"
+
+
+# ══════════════════════════════════════════════════════════════
 # Request / Response Models
 # ══════════════════════════════════════════════════════════════
 
@@ -75,6 +121,7 @@ class ReviewCompositionRequest(BaseModel):
 class ExecuteNodeRequest(BaseModel):
     node_type: str
     content: dict
+    project_id: Optional[str] = None
 
 
 class BatchExecuteRequest(BaseModel):
@@ -600,8 +647,279 @@ def review_composition(req: ReviewCompositionRequest):
 
 @router.post("/canvas/nodes/{node_id}/execute")
 def execute_node(node_id: str, req: ExecuteNodeRequest):
-    """Execute a single canvas node."""
-    return {"execution_id": str(uuid.uuid4()), "status": "pending", "message": "Phase 3"}
+    """
+    Execute a single canvas node based on its type.
+    Dispatches to the appropriate service (RunningHub, Gemini, stub, etc.).
+    """
+    execution_id = str(uuid.uuid4())
+    node_type = req.node_type
+    content = req.content
+
+    # ── Stub nodes — passthrough input as output ──
+    STUB_TYPES = {"hdUpscale", "blendRefine", "lighting", "finalHD"}
+    if node_type in STUB_TYPES:
+        input_url = content.get("inputImageUrl", "")
+        return {
+            "execution_id": execution_id,
+            "status": "success",
+            "node_type": node_type,
+            "result": {"outputImageUrl": input_url, "stub": True},
+            "message": f"{node_type} is a stub — input passed through",
+        }
+
+    # ── SceneBG — panorama viewport screenshot (frontend-driven) ──
+    if node_type == "sceneBG":
+        return {
+            "execution_id": execution_id,
+            "status": "success",
+            "node_type": node_type,
+            "result": {"message": "SceneBG screenshot is generated on frontend via Three.js"},
+        }
+
+    # ── CharacterProcess / PropProcess — asset selection (frontend-driven) ──
+    if node_type in ("characterProcess", "propProcess"):
+        return {
+            "execution_id": execution_id,
+            "status": "success",
+            "node_type": node_type,
+            "result": {"message": "Asset selection is done on frontend"},
+        }
+
+    # ── ViewAngle / PropAngle — RunningHub view-angle conversion ──
+    if node_type in ("viewAngle", "propAngle"):
+        from config import settings
+        from services.runninghub_client import RunningHubClient, RunningHubError
+        from services.storage_adapter import get_storage
+        import tempfile
+
+        if not settings.runninghub_api_key:
+            raise HTTPException(status_code=503, detail="RunningHub API key not configured")
+
+        source_key = content.get("inputStorageKey", "")
+        target_angle = content.get("targetAngle", "")
+        azimuth = content.get("azimuth")
+        elevation = content.get("elevation")
+        distance_val = content.get("distance")
+        if not source_key:
+            raise HTTPException(status_code=400, detail="inputStorageKey is required")
+
+        storage = get_storage()
+        try:
+            source_data = storage.get_bytes(object_key=source_key)
+        except Exception:
+            raise HTTPException(status_code=404, detail=f"Source image not found: {source_key}")
+
+        suffix = ".png" if source_key.endswith(".png") else ".jpg"
+        tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+        try:
+            tmp.write(source_data)
+            tmp.flush()
+            tmp.close()
+
+            client = RunningHubClient(
+                api_key=settings.runninghub_api_key,
+                base_url=settings.runninghub_base_url,
+            )
+            download_url = client.upload_image(tmp.name)
+
+            # Build prompt: prefer azimuth/elevation/distance if provided
+            if azimuth is not None and elevation is not None and distance_val is not None:
+                prompt = _angle_to_prompt(float(azimuth), float(elevation), float(distance_val))
+            elif target_angle:
+                prompt = target_angle if target_angle.startswith("<sks>") else f"<sks> {target_angle} view eye-level shot medium shot"
+            else:
+                prompt = "<sks> front view eye-level shot medium shot"
+            node_info_list = [
+                {"nodeId": "41", "fieldName": "image", "fieldValue": download_url},
+                {"nodeId": "137", "fieldName": "text", "fieldValue": prompt},
+            ]
+            task_id = client.submit_task(
+                app_id=settings.runninghub_app_id,
+                node_info_list=node_info_list,
+                instance_type=settings.runninghub_instance_type,
+            )
+
+            result = client.poll_until_done(task_id, poll_interval=3.0, timeout=300.0)
+            results = result.get("results", [])
+            if not results:
+                raise HTTPException(status_code=502, detail="RunningHub returned no results")
+
+            result_url = results[0] if isinstance(results[0], str) else results[0].get("url", "")
+            result_data = client._get_binary(result_url)
+
+            # Store result
+            from uuid import uuid4 as u4
+            ext = "png" if result_url.lower().endswith(".png") else "jpg"
+            object_key = f"assets/images/{u4()}.{ext}"
+            storage.put_bytes(object_key=object_key, data=result_data, content_type=f"image/{ext}")
+
+            return {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": object_key, "runninghubTaskId": task_id},
+            }
+        finally:
+            import os
+            os.unlink(tmp.name)
+
+    # ── Expression — Gemini img2img ──
+    if node_type == "expression":
+        import asyncio
+        import base64
+        from services.expression_service import generate_expression
+
+        ref_base64 = content.get("referenceImageBase64", "")
+        expr_prompt = content.get("expressionPrompt", "")
+
+        # If no base64 provided, try to read from storage
+        if not ref_base64:
+            source_key = content.get("inputStorageKey", "")
+            if source_key:
+                try:
+                    from services.storage_adapter import get_storage
+                    storage = get_storage()
+                    source_data = storage.get_bytes(object_key=source_key)
+                    ref_base64 = base64.b64encode(source_data).decode("utf-8")
+                except Exception as e:
+                    logger.warning("Failed to read source image from storage: %s", e)
+
+        if not ref_base64 or not expr_prompt:
+            raise HTTPException(status_code=400, detail="referenceImageBase64/inputStorageKey and expressionPrompt are required")
+
+        try:
+            result_b64 = asyncio.get_event_loop().run_until_complete(
+                generate_expression(
+                    reference_image_base64=ref_base64,
+                    expression_prompt=expr_prompt,
+                    negative_prompt=content.get("negativePrompt"),
+                    character_name=content.get("characterName"),
+                )
+            )
+            return {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputImageBase64": result_b64},
+            }
+        except Exception as e:
+            logger.error("Expression generation failed: %s", e)
+            raise HTTPException(status_code=502, detail=str(e))
+
+    # ── Matting — RunningHub background removal ──
+    if node_type == "matting":
+        from config import settings
+        from services.runninghub_client import RunningHubClient
+        from services.matting_service import run_matting
+        from services.storage_adapter import get_storage
+        import tempfile
+
+        if not settings.runninghub_api_key:
+            raise HTTPException(status_code=503, detail="RunningHub API key not configured")
+
+        source_key = content.get("inputStorageKey", "")
+        if not source_key:
+            raise HTTPException(status_code=400, detail="inputStorageKey is required")
+
+        storage = get_storage()
+        try:
+            source_data = storage.get_bytes(object_key=source_key)
+        except Exception:
+            raise HTTPException(status_code=404, detail=f"Source image not found: {source_key}")
+
+        suffix = ".png" if source_key.endswith(".png") else ".jpg"
+        tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+        try:
+            tmp.write(source_data)
+            tmp.flush()
+            tmp.close()
+
+            client = RunningHubClient(
+                api_key=settings.runninghub_api_key,
+                base_url=settings.runninghub_base_url,
+            )
+            result_bytes = run_matting(client, tmp.name, instance_type=settings.runninghub_instance_type)
+
+            # Store result as PNG
+            from uuid import uuid4 as u4
+            object_key = f"assets/images/{u4()}.png"
+            storage.put_bytes(object_key=object_key, data=result_bytes, content_type="image/png")
+
+            return {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": object_key},
+            }
+        finally:
+            import os
+            os.unlink(tmp.name)
+
+    # ── Composite — receive composite image from frontend editor ──
+    if node_type == "composite":
+        image_base64 = content.get("compositeImageBase64", "")
+        if not image_base64:
+            return {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"message": "Composite editing is done on frontend"},
+            }
+
+        from services.storage_adapter import get_storage
+        from uuid import uuid4 as u4
+        import base64 as b64
+
+        storage = get_storage()
+        img_data = b64.b64decode(image_base64)
+        object_key = f"assets/images/{u4()}.png"
+        storage.put_bytes(object_key=object_key, data=img_data, content_type="image/png")
+
+        return {
+            "execution_id": execution_id,
+            "status": "success",
+            "node_type": node_type,
+            "result": {"outputStorageKey": object_key},
+        }
+
+    # ── Unified ImageProcess — dispatches based on processType ──
+    if node_type == "imageProcess":
+        process_type = content.get("processType", "")
+        if process_type in ("viewAngle", "propAngle"):
+            # Re-dispatch to viewAngle handler
+            req.node_type = "viewAngle"
+            return execute_node(node_id, req)
+        elif process_type == "expression":
+            req.node_type = "expression"
+            return execute_node(node_id, req)
+        elif process_type == "matting":
+            req.node_type = "matting"
+            return execute_node(node_id, req)
+        elif process_type == "hdUpscale":
+            # Stub: passthrough
+            input_url = content.get("inputImageUrl", "")
+            return {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": "imageProcess",
+                "result": {"outputImageUrl": input_url, "stub": True, "processType": process_type},
+                "message": "hdUpscale is a stub — input passed through",
+            }
+        else:
+            return {
+                "execution_id": execution_id,
+                "status": "error",
+                "node_type": "imageProcess",
+                "message": f"Unknown processType: {process_type}",
+            }
+
+    # ── Unknown node type ──
+    return {
+        "execution_id": execution_id,
+        "status": "error",
+        "node_type": node_type,
+        "message": f"Unknown node type: {node_type}",
+    }
 
 
 @router.post("/canvas/batch-execute")

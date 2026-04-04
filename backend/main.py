@@ -1,14 +1,20 @@
 """UnrealMake (虚幻造物) FastAPI application."""
 
+from __future__ import annotations
+
 import logging
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+
+if TYPE_CHECKING:
+    from starlette.types import ASGIApp, Receive, Send
 
 from config import settings
 from database import init_db
@@ -77,14 +83,40 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# CORS — origins from config (overridable via CORS_ORIGINS env var)
+# CORS — in development allow all origins (for tunnel/remote testing);
+# in production restrict to configured origins.
+_cors_origins = ["*"] if settings.app_env == "development" else settings.cors_origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
-    allow_credentials=True,
+    allow_origins=_cors_origins,
+    allow_credentials=True if settings.app_env != "development" else False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# Ensure /uploads/ responses always carry CORS headers, even when the browser
+# sends no Origin header (e.g. direct navigation or <img> without crossOrigin).
+# Without this, cached non-CORS responses break subsequent WebGL texture loads.
+class _UploadsCORSMiddleware:
+    def __init__(self, app_: "ASGIApp"):
+        self.app = app_
+
+    async def __call__(self, scope: dict, receive: "Receive", send: "Send"):
+        if scope["type"] == "http" and scope.get("path", "").startswith("/uploads/"):
+            async def _send(message: dict):
+                if message["type"] == "http.response.start":
+                    headers = list(message.get("headers", []))
+                    if not any(k == b"access-control-allow-origin" for k, _ in headers):
+                        headers.append((b"access-control-allow-origin", b"*"))
+                    message = {**message, "headers": headers}
+                await send(message)
+            await self.app(scope, receive, _send)
+        else:
+            await self.app(scope, receive, send)
+
+
+app.add_middleware(_UploadsCORSMiddleware)
 
 
 @app.get("/api/health")
