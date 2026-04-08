@@ -56,6 +56,12 @@ function _applySavedResults(
         patch.screenshotUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
         patch.panoramaStorageKey = out.outputStorageKey as string;
       }
+      // Pose3D nodes: restore screenshot + joint angles
+      if (rec.node_type === 'pose3D' && out.outputStorageKey) {
+        patch.screenshotUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
+        patch.screenshotStorageKey = out.outputStorageKey as string;
+      }
+      if (inp.jointAngles) patch.jointAngles = inp.jointAngles;
       if (inp.azimuth !== undefined) patch.azimuth = inp.azimuth;
       if (inp.elevation !== undefined) patch.elevation = inp.elevation;
       if (inp.distance !== undefined) patch.distance = inp.distance;
@@ -372,15 +378,28 @@ export function useCanvasSync() {
       durationEstimate: s.duration_estimate || '',
     }));
 
-    // Build location name → panorama URL/key map
-    const locationPanoramaMap: Record<string, { panoramaUrl?: string; panoramaStorageKey?: string }> = {};
+    // Build location name → panorama URL/key map (with viewpoints)
+    const locationPanoramaMap: Record<string, { locationId: string; panoramaUrl?: string; panoramaStorageKey?: string; viewpoints?: import('../types/canvas').ViewPoint[] }> = {};
     for (const loc of locations) {
       const imgs = assetImages[loc.id];
       const keys = assetImageKeys[loc.id];
       const panoramaUrl = imgs?.['panorama'];
       const panoramaStorageKey = keys?.['panorama'];
-      if (panoramaUrl || panoramaStorageKey) {
-        locationPanoramaMap[loc.name] = { panoramaUrl, panoramaStorageKey };
+      // Map backend viewpoints (snake_case) to frontend ViewPoint (camelCase)
+      const viewpoints = ((loc as unknown as Record<string, unknown>).viewpoints as Array<Record<string, unknown>> | undefined)?.map(vp => ({
+        id: vp.id as string,
+        label: vp.label as string,
+        yaw: (vp.yaw as number) ?? 0,
+        pitch: (vp.pitch as number) ?? 0,
+        fov: (vp.fov as number) ?? 75,
+        posX: (vp.pos_x as number) ?? 0,
+        posY: (vp.pos_y as number) ?? 0,
+        posZ: (vp.pos_z as number) ?? 0,
+        correctionStrength: (vp.correction_strength as number) ?? 0.5,
+        isDefault: (vp.is_default as boolean) ?? false,
+      })) ?? [];
+      if (panoramaUrl || panoramaStorageKey || viewpoints.length > 0) {
+        locationPanoramaMap[loc.name] = { locationId: loc.id, panoramaUrl, panoramaStorageKey, viewpoints };
       }
     }
 
@@ -395,12 +414,15 @@ export function useCanvasSync() {
       const visualRefStorageKey = keys?.['visual_reference'] || keys?.['front_full'] || keys?.['front'] || keys?.['main']
         || (keys ? Object.values(keys)[0] : undefined);
       characterMap[char.name] = {
+        id: char.id,
         name: char.name,
         appearance: char.appearance,
         costume: char.costume,
         visualRefUrl,
         visualRefStorageKey,
         negativePrompt: char.visual_prompt_negative,
+        allImages: imgs,
+        allImageKeys: keys,
       };
     }
 
@@ -419,6 +441,52 @@ export function useCanvasSync() {
         visualRefStorageKey: keys?.['main'] || keys?.['east'],
         negativePrompt: loc.visual_prompt_negative,
       };
+    }
+
+    // ── Match scene.location → location.name ──
+    // Scenes use short forms (e.g. "沈府卧房"), locations use full forms
+    // (e.g. "沈家卧房"). Apply synonym normalization + contains fallback.
+    const _normLocName = (s: string): string =>
+      s.replace(/侯府/g, '侯爵府').replace(/沈府/g, '沈家').replace(/高府/g, '高家');
+    const locNameSet = new Set(locations.map(l => l.name));
+    const locNames = locations.map(l => l.name);
+    const sceneLocations = new Set(sceneInputs.map(s => s.location).filter(Boolean));
+    for (const sceneLoc of sceneLocations) {
+      if (locationPanoramaMap[sceneLoc] && locationDetailMap[sceneLoc]) continue;
+      // Step 1: synonym normalization → exact match
+      const norm = _normLocName(sceneLoc);
+      let resolved = locNameSet.has(norm) ? norm : '';
+      // Step 2: contains match (normalized scene.location ⊂ loc.name or reverse)
+      if (!resolved) {
+        for (const ln of locNames) {
+          if (ln.includes(norm) || norm.includes(ln)) { resolved = ln; break; }
+        }
+      }
+      // Step 3: bigram fallback for remaining edge cases
+      if (!resolved) {
+        let bestName = '';
+        let bestScore = 2;
+        for (const ln of locNames) {
+          const a = norm, b = _normLocName(ln);
+          let bigrams = 0;
+          for (let i = 0; i < a.length - 1; i++) {
+            if (b.includes(a.substring(i, i + 2))) bigrams++;
+          }
+          let chars = 0;
+          for (const ch of a) { if (b.includes(ch)) chars++; }
+          const score = bigrams * 5 + chars;
+          if (score > bestScore) { bestScore = score; bestName = ln; }
+        }
+        if (bestName) resolved = bestName;
+      }
+      if (resolved) {
+        if (!locationPanoramaMap[sceneLoc] && locationPanoramaMap[resolved]) {
+          locationPanoramaMap[sceneLoc] = locationPanoramaMap[resolved];
+        }
+        if (!locationDetailMap[sceneLoc] && locationDetailMap[resolved]) {
+          locationDetailMap[sceneLoc] = locationDetailMap[resolved];
+        }
+      }
     }
 
     const { nodes, edges } = buildCanvasGraph(sceneInputs, shotInputs, {
@@ -464,6 +532,8 @@ export function useCanvasSync() {
       if (pd.outputStorageKey) snap.outputStorageKey = pd.outputStorageKey;
       if (pd.screenshotUrl) snap.screenshotUrl = pd.screenshotUrl;
       if (pd.panoramaStorageKey) snap.panoramaStorageKey = pd.panoramaStorageKey;
+      if (pd.jointAngles && typeof pd.jointAngles === 'object' && Object.keys(pd.jointAngles as object).length > 0) snap.jointAngles = pd.jointAngles;
+      if (pd.screenshotStorageKey) snap.screenshotStorageKey = pd.screenshotStorageKey;
       // Preserve propagated inputs
       if (pd.inputImageUrl) snap.inputImageUrl = pd.inputImageUrl;
       if (pd.inputStorageKey) snap.inputStorageKey = pd.inputStorageKey;
@@ -475,6 +545,12 @@ export function useCanvasSync() {
       // Preserve composite layers
       if (pd.nodeType === 'composite' && Array.isArray(pd.layers) && (pd.layers as unknown[]).length > 0) {
         snap.layers = pd.layers;
+      }
+      // Preserve character variant selection across rebuild
+      if (pd.nodeType === 'characterProcess' && pd.selectedVariant && pd.selectedVariant !== 'visual_reference') {
+        snap.selectedVariant = pd.selectedVariant;
+        if (pd.visualRefUrl) snap.visualRefUrl = pd.visualRefUrl;
+        if (pd.visualRefStorageKey) snap.visualRefStorageKey = pd.visualRefStorageKey;
       }
       if (Object.keys(snap).length > 0) prevDataMap.set(pn.id, snap);
     }

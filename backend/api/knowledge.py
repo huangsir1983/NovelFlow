@@ -2,14 +2,15 @@
 
 import json
 from datetime import datetime
-from typing import Optional
+from typing import Any, Optional
 from uuid import uuid4
 
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 from sqlalchemy.orm import Session
 
 from database import get_db
+from sqlalchemy.orm.attributes import flag_modified
 from models.knowledge_base import KnowledgeBase
 from models.character import Character
 from models.location import Location
@@ -142,9 +143,71 @@ class LocationResponse(BaseModel):
     scene_count: int = 0
     time_variations: list = []
     emotional_range: str = ""
+    viewpoints: list | None = []
     created_at: datetime
     updated_at: datetime
     model_config = {"from_attributes": True}
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce_nulls(cls, data: Any) -> Any:
+        """DB columns that are NULL but schema expects list/str — coerce to defaults."""
+        if hasattr(data, "__dict__"):
+            # SQLAlchemy model instance
+            import copy
+            d = {c.name: getattr(data, c.name) for c in data.__table__.columns}
+        elif isinstance(data, dict):
+            d = data
+        else:
+            return data
+        for field in ("viewpoints", "color_palette", "key_features", "narrative_scene_ids", "time_variations"):
+            if d.get(field) is None:
+                d[field] = []
+        for field in ("description", "visual_description", "mood", "sensory", "narrative_function",
+                       "type", "era_style", "visual_reference", "visual_prompt_negative",
+                       "atmosphere", "lighting", "emotional_range"):
+            if d.get(field) is None:
+                d[field] = ""
+        return d
+
+
+# ── ViewPoint Schemas ────────────────────────────────────────────
+
+class ViewPointCreate(BaseModel):
+    label: str
+    yaw: float = 0.0
+    pitch: float = 0.0
+    fov: float = 75.0
+    pos_x: float = 0.0
+    pos_y: float = 0.0
+    pos_z: float = 0.0
+    correction_strength: float = 0.5
+    is_default: Optional[bool] = None
+
+
+class ViewPointUpdate(BaseModel):
+    label: Optional[str] = None
+    yaw: Optional[float] = None
+    pitch: Optional[float] = None
+    fov: Optional[float] = None
+    pos_x: Optional[float] = None
+    pos_y: Optional[float] = None
+    pos_z: Optional[float] = None
+    correction_strength: Optional[float] = None
+    is_default: Optional[bool] = None
+
+
+class ViewPointResponse(BaseModel):
+    id: str
+    label: str
+    yaw: float
+    pitch: float
+    fov: float
+    pos_x: float = 0.0
+    pos_y: float = 0.0
+    pos_z: float = 0.0
+    correction_strength: float = 0.5
+    is_default: bool
 
 
 # ── Knowledge Base Routes ────────────────────────────────────────
@@ -297,6 +360,155 @@ def delete_location(project_id: str, location_id: str, db: Session = Depends(get
     if not location:
         raise HTTPException(status_code=404, detail="Location not found")
     db.delete(location)
+    db.commit()
+    return None
+
+
+# ── ViewPoint Routes (on Location) ──────────────────────────────
+
+def _get_location_or_404(project_id: str, location_id: str, db: Session) -> Location:
+    loc = db.query(Location).filter(Location.id == location_id, Location.project_id == project_id).first()
+    if not loc:
+        raise HTTPException(status_code=404, detail="Location not found")
+    return loc
+
+
+@router.get(
+    "/projects/{project_id}/locations/{location_id}/viewpoints",
+    response_model=list[ViewPointResponse],
+)
+def list_viewpoints(project_id: str, location_id: str, db: Session = Depends(get_db)):
+    loc = _get_location_or_404(project_id, location_id, db)
+    return loc.viewpoints or []
+
+
+@router.post(
+    "/projects/{project_id}/locations/{location_id}/viewpoints",
+    response_model=ViewPointResponse,
+    status_code=201,
+)
+def add_viewpoint(project_id: str, location_id: str, data: ViewPointCreate, db: Session = Depends(get_db)):
+    loc = _get_location_or_404(project_id, location_id, db)
+    vps = list(loc.viewpoints or [])
+
+    vp = {
+        "id": f"vp-{uuid4().hex[:8]}",
+        "label": data.label,
+        "yaw": data.yaw,
+        "pitch": data.pitch,
+        "fov": data.fov,
+        "pos_x": data.pos_x,
+        "pos_y": data.pos_y,
+        "pos_z": data.pos_z,
+        "correction_strength": data.correction_strength,
+        "is_default": data.is_default if data.is_default is not None else (len(vps) == 0),
+    }
+
+    # If this is set as default, unset others
+    if vp["is_default"]:
+        for v in vps:
+            v["is_default"] = False
+
+    vps.append(vp)
+    loc.viewpoints = vps
+    flag_modified(loc, "viewpoints")
+    db.commit()
+    db.refresh(loc)
+    return vp
+
+
+@router.put(
+    "/projects/{project_id}/locations/{location_id}/viewpoints/{vp_id}",
+    response_model=ViewPointResponse,
+)
+def update_viewpoint(
+    project_id: str, location_id: str, vp_id: str,
+    data: ViewPointUpdate, db: Session = Depends(get_db),
+):
+    loc = _get_location_or_404(project_id, location_id, db)
+    vps = list(loc.viewpoints or [])
+    target = None
+    for v in vps:
+        if v["id"] == vp_id:
+            target = v
+            break
+    if target is None:
+        raise HTTPException(status_code=404, detail="ViewPoint not found")
+
+    if data.label is not None:
+        target["label"] = data.label
+    if data.yaw is not None:
+        target["yaw"] = data.yaw
+    if data.pitch is not None:
+        target["pitch"] = data.pitch
+    if data.fov is not None:
+        target["fov"] = data.fov
+    if data.pos_x is not None:
+        target["pos_x"] = data.pos_x
+    if data.pos_y is not None:
+        target["pos_y"] = data.pos_y
+    if data.pos_z is not None:
+        target["pos_z"] = data.pos_z
+    if data.correction_strength is not None:
+        target["correction_strength"] = data.correction_strength
+    if data.is_default is True:
+        for v in vps:
+            v["is_default"] = (v["id"] == vp_id)
+
+    loc.viewpoints = vps
+    flag_modified(loc, "viewpoints")
+    db.commit()
+    db.refresh(loc)
+    return target
+
+
+@router.put(
+    "/projects/{project_id}/locations/{location_id}/viewpoints",
+    response_model=list[ViewPointResponse],
+)
+def replace_viewpoints(
+    project_id: str, location_id: str,
+    data: list[ViewPointCreate],
+    db: Session = Depends(get_db),
+):
+    """Batch replace all viewpoints for a location."""
+    loc = _get_location_or_404(project_id, location_id, db)
+    new_vps = []
+    for i, vp_data in enumerate(data):
+        new_vps.append({
+            "id": vp_data.label and f"vp-{uuid4().hex[:8]}",
+            "label": vp_data.label,
+            "yaw": vp_data.yaw,
+            "pitch": vp_data.pitch,
+            "fov": vp_data.fov,
+            "pos_x": vp_data.pos_x,
+            "pos_y": vp_data.pos_y,
+            "pos_z": vp_data.pos_z,
+            "correction_strength": vp_data.correction_strength,
+            "is_default": vp_data.is_default if vp_data.is_default is not None else (i == 0),
+        })
+    loc.viewpoints = new_vps
+    flag_modified(loc, "viewpoints")
+    db.commit()
+    db.refresh(loc)
+    return loc.viewpoints or []
+
+
+@router.delete(
+    "/projects/{project_id}/locations/{location_id}/viewpoints/{vp_id}",
+    status_code=204,
+)
+def delete_viewpoint(
+    project_id: str, location_id: str, vp_id: str,
+    db: Session = Depends(get_db),
+):
+    loc = _get_location_or_404(project_id, location_id, db)
+    vps = list(loc.viewpoints or [])
+    new_vps = [v for v in vps if v["id"] != vp_id]
+    if len(new_vps) == len(vps):
+        raise HTTPException(status_code=404, detail="ViewPoint not found")
+    loc.viewpoints = new_vps
+    flag_modified(loc, "viewpoints")
     db.commit()
     return None
 

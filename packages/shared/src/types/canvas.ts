@@ -122,14 +122,41 @@ export interface VideoGenerationNodeData extends BaseNodeData {
   mode: 'text_to_video' | 'image_to_video' | 'scene_character_to_video';
 }
 
+/* ---------- ViewPoint (camera preset on a single panorama) ---------- */
+export interface ViewPoint {
+  id: string;
+  label: string;
+  yaw: number;        // -180 ~ 180
+  pitch: number;      // -90 ~ 90
+  fov: number;        // 20 ~ 100
+  // 相机位移 (球内偏移，产生视差)
+  posX?: number;       // 默认 0, 范围 -400 ~ 400
+  posY?: number;       // 默认 0, 范围 -400 ~ 400
+  posZ?: number;       // 默认 0, 范围 -400 ~ 400
+  // 畸变矫正强度 (0=原始畸变, 0.5=平衡, 1=完全矫正)
+  correctionStrength?: number; // 默认 0.5
+  isDefault?: boolean;
+}
+
 /* ---------- Scene Background (VR panorama screenshot) ---------- */
 export interface SceneBGNodeData extends BaseNodeData {
   nodeType: 'sceneBG';
   panoramaUrl?: string;
   panoramaStorageKey?: string;
   screenshotUrl?: string;
-  viewAngle: { yaw: number; pitch: number };
+  viewAngle: { yaw: number; pitch: number; fov?: number };
+  viewpoints?: ViewPoint[];
+  activeViewpointId?: string;
   progress: number;
+  /** Location detail fields — always populated from scene.location lookup */
+  locationId?: string;
+  locationName?: string;
+  locationDescription?: string;
+  mood?: string;
+  lighting?: string;
+  colorPalette?: string[];
+  /** Location reference image URL (fallback preview when no panorama) */
+  visualRefUrl?: string;
 }
 
 /* ---------- Character Process (asset image selection entry) ---------- */
@@ -269,6 +296,21 @@ export interface FinalHDNodeData extends BaseNodeData {
   progress: number;
 }
 
+/* ---------- 3D Pose Mannequin ---------- */
+export interface Pose3DNodeData extends BaseNodeData {
+  nodeType: 'pose3D';
+  /** Serialized joint rotations — maps joint name to Euler angles (degrees) */
+  jointAngles: Record<string, { x: number; y: number; z: number }>;
+  /** Camera orbit state for the 3D viewer */
+  cameraState?: { azimuth: number; elevation: number; distance: number };
+  /** Captured screenshot URL (after user takes screenshot) */
+  screenshotUrl?: string;
+  screenshotStorageKey?: string;
+  /** Currently selected preset name, if any */
+  presetName?: string;
+  progress: number;
+}
+
 /* ---------- Unified Image Process (replaces ViewAngle/Expression/HDUpscale/Matting) ---------- */
 export type ImageProcessType = 'viewAngle' | 'expression' | 'hdUpscale' | 'matting';
 
@@ -291,6 +333,9 @@ export interface ImageProcessNodeData extends BaseNodeData {
   expressionPrompt?: string;
   emotion?: string;
   action?: string;
+  /** Pose reference from Pose3D node (action reference image) */
+  poseReferenceUrl?: string;
+  poseReferenceStorageKey?: string;
   /** hdUpscale params */
   scaleFactor?: number;
   /** RunningHub task tracking */
@@ -317,7 +362,8 @@ export type CanvasNodeData =
   | BlendRefineNodeData
   | LightingNodeData
   | FinalHDNodeData
-  | ImageProcessNodeData;
+  | ImageProcessNodeData
+  | Pose3DNodeData;
 
 
 // ═══════════════════════════════════════════════════════════════

@@ -453,6 +453,7 @@ class AIEngine:
         prompt: str,
         reference_image: bytes | None = None,
         reference_mime: str = "image/png",
+        reference_images: list[dict] | None = None,
         aspect_ratio: str = "3:4",
         image_size: str = "2K",
         capability_tier: str = "standard",
@@ -503,6 +504,7 @@ class AIEngine:
                         prompt=prompt,
                         reference_image=reference_image,
                         reference_mime=reference_mime,
+                        reference_images=reference_images,
                         aspect_ratio=aspect_ratio,
                         image_size=image_size,
                     )
@@ -521,6 +523,20 @@ class AIEngine:
                             wait = min(float(e.response.headers.get("retry-after", str(wait))), 60.0)
                         logger.warning(
                             f"Image gen {status} from {adapter.provider_name}/{model_id}, "
+                            f"retry in {wait}s (attempt {attempt+1}/{max_retries})"
+                        )
+                        time.sleep(wait)
+                        last_error = e
+                        continue
+                    logger.warning(f"Image generation failed ({adapter.provider_name}/{model_id}): {e}")
+                    last_error = e
+                    break
+                except (ConnectionError, OSError, httpx.ConnectError, httpx.RemoteProtocolError, httpx.ReadError) as e:
+                    # Retry on connection/SSL errors (stale pool, network hiccup)
+                    if attempt < max_retries - 1:
+                        wait = 2 ** attempt * 2
+                        logger.warning(
+                            f"Image gen connection error from {adapter.provider_name}/{model_id}: {e}, "
                             f"retry in {wait}s (attempt {attempt+1}/{max_retries})"
                         )
                         time.sleep(wait)

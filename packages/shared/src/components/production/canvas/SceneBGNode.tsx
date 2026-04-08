@@ -1,8 +1,8 @@
 'use client';
 
-import { memo, useState, useCallback } from 'react';
+import { memo, useState, useCallback, useRef } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
-import type { SceneBGNodeData } from '../../../types/canvas';
+import type { SceneBGNodeData, ViewPoint } from '../../../types/canvas';
 import { PanoramaViewer } from '../../panorama/PanoramaViewer';
 import { useProjectStore } from '../../../stores/projectStore';
 import { useCanvasStore } from '../../../stores/canvasStore';
@@ -13,26 +13,35 @@ type SceneBGNode = Node<SceneBGNodeData, 'sceneBG'>;
 function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
   const [hovered, setHovered] = useState(false);
   const [panoramaOpen, setPanoramaOpen] = useState(false);
+  const [detailOpen, setDetailOpen] = useState(false);
 
   const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
   const accent = selected ? 'rgba(6,182,212,0.9)' : 'rgba(6,182,212,0.5)';
 
-  const previewUrl = data.screenshotUrl || data.panoramaUrl;
+  const previewUrl = data.screenshotUrl || data.panoramaUrl || data.visualRefUrl;
+
+  // Resolve active viewpoint
+  const activeVp = data.viewpoints?.find(v => v.id === data.activeViewpointId);
+  const displayYaw = activeVp?.yaw ?? data.viewAngle?.yaw ?? 0;
+  const displayPitch = activeVp?.pitch ?? data.viewAngle?.pitch ?? 0;
+  const displayFov = activeVp?.fov ?? data.viewAngle?.fov ?? 75;
+  const hasPosition = activeVp && ((activeVp.posX ?? 0) !== 0 || (activeVp.posY ?? 0) !== 0 || (activeVp.posZ ?? 0) !== 0);
+  const hasCorrection = activeVp && (activeVp.correctionStrength ?? 0.5) !== 0.5;
 
   // Handle panorama screenshot: upload + update this node's data
-  const handleScreenshot = useCallback(async (base64: string) => {
+  const handleScreenshot = useCallback(async (base64: string, viewAngle: { yaw: number; pitch: number; fov: number }) => {
     const projectId = useProjectStore.getState().project?.id;
     const screenshotUrl = `data:image/jpeg;base64,${base64}`;
 
-    // Immediately update this node's screenshotUrl via store
+    // Immediately update this node's screenshotUrl + viewAngle via store
     const currentNodes = useCanvasStore.getState().nodes;
     useCanvasStore.getState().setNodes(currentNodes.map((n) =>
       n.id === id
-        ? { ...n, data: { ...n.data, screenshotUrl, status: 'success', progress: 100 } }
+        ? { ...n, data: { ...n.data, screenshotUrl, viewAngle, status: 'success', progress: 100 } }
         : n,
     ));
 
-    // Reset all downstream nodes' green dots (they need re-processing with new screenshot)
+    // Reset all downstream nodes' green dots
     useCanvasStore.getState().resetDownstreamNodes(id);
 
     setPanoramaOpen(false);
@@ -40,7 +49,6 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
     if (!projectId) return;
 
     try {
-      // Upload screenshot to backend
       const blob = await fetch(`data:image/jpeg;base64,${base64}`).then((r) => r.blob());
       const formData = new FormData();
       formData.append('file', blob, 'scene_bg_screenshot.jpg');
@@ -52,12 +60,10 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
       if (!resp.ok) return;
       const { storage_key } = await resp.json();
 
-      // Build persistent URL from storage key
       const persistentUrl = `${API_BASE_URL}/uploads/${storage_key}`;
       const shotId = id.replace('scenebg-', '');
       const compositeId = `composite-${shotId}`;
 
-      // Use store directly (reactFlow.getNodes may be stale after async upload)
       const store = useCanvasStore.getState();
       const storeNodes = store.nodes;
       const edges = store.edges;
@@ -73,15 +79,12 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
       }
 
       const updatedNodes = storeNodes.map(n => {
-        // Update SceneBG itself
         if (n.id === id) {
-          return { ...n, data: { ...n.data, screenshotUrl: persistentUrl, panoramaStorageKey: storage_key } };
+          return { ...n, data: { ...n.data, screenshotUrl: persistentUrl, panoramaStorageKey: storage_key, viewAngle } };
         }
-        // Update hdUpscale input + temp output
         if (n.id === bgSourceId && bgSourceId !== id) {
           return { ...n, data: { ...n.data, inputImageUrl: persistentUrl, inputStorageKey: storage_key, outputImageUrl: persistentUrl, outputStorageKey: storage_key } };
         }
-        // Update composite's background layer
         if (n.id === compositeId) {
           const compData = n.data as Record<string, unknown>;
           const existing = ((compData.layers || []) as Array<Record<string, unknown>>).slice();
@@ -103,7 +106,6 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
 
       store.setNodes(updatedNodes);
 
-      // Persist composite layers to backend (preserve user positions across refresh)
       const compNode = updatedNodes.find(n => n.id === compositeId);
       if (compNode) {
         const compLayers = (compNode.data as Record<string, unknown>).layers as Array<Record<string, unknown>> | undefined;
@@ -112,7 +114,6 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
         }
       }
 
-      // Persist to backend for reload
       fetch(`${API_BASE_URL}/api/canvas/nodes/${id}/execute`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -123,9 +124,67 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
     }
   }, [id]);
 
+  // Debounced viewpoint persist to backend
+  const persistTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const persistViewpoints = useCallback((vps: ViewPoint[]) => {
+    const projectId = useProjectStore.getState().project?.id;
+    const locationId = data.locationId;
+    if (!projectId || !locationId) return;
+    if (persistTimerRef.current) clearTimeout(persistTimerRef.current);
+    persistTimerRef.current = setTimeout(() => {
+      const payload = vps.map(vp => ({
+        label: vp.label,
+        yaw: vp.yaw,
+        pitch: vp.pitch,
+        fov: vp.fov,
+        pos_x: vp.posX ?? 0,
+        pos_y: vp.posY ?? 0,
+        pos_z: vp.posZ ?? 0,
+        correction_strength: vp.correctionStrength ?? 0.5,
+        is_default: vp.isDefault ?? false,
+      }));
+      fetch(`${API_BASE_URL}/api/projects/${projectId}/locations/${locationId}/viewpoints`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      }).catch(e => console.error('Failed to persist viewpoints:', e));
+    }, 500);
+  }, [data.locationId]);
+
+  // Handle viewpoint change from PanoramaViewer
+  const handleViewpointChange = useCallback((vpId: string) => {
+    const store = useCanvasStore.getState();
+    const nodes = store.nodes;
+    const currentNode = nodes.find(n => n.id === id);
+    const vps = (currentNode?.data as SceneBGNodeData)?.viewpoints ?? [];
+    // Mark the selected viewpoint as default for persistence
+    const updatedVps = vps.map(vp => ({ ...vp, isDefault: vp.id === vpId }));
+    store.setNodes(nodes.map(n =>
+      n.id === id
+        ? { ...n, data: { ...n.data, activeViewpointId: vpId, viewpoints: updatedVps } }
+        : n,
+    ));
+    persistViewpoints(updatedVps);
+  }, [id, persistViewpoints]);
+
+  // Handle viewpoints update from PanoramaViewer edit mode
+  const handleViewpointsUpdate = useCallback((vps: ViewPoint[]) => {
+    const store = useCanvasStore.getState();
+    const nodes = store.nodes;
+    store.setNodes(nodes.map(n =>
+      n.id === id
+        ? { ...n, data: { ...n.data, viewpoints: vps } }
+        : n,
+    ));
+    persistViewpoints(vps);
+  }, [id, persistViewpoints]);
+
   const handleCardClick = useCallback(() => {
     if (data.panoramaUrl) {
       setPanoramaOpen(true);
+    } else {
+      // Even without panorama, toggle detail view so card is always clickable
+      setDetailOpen(prev => !prev);
     }
   }, [data.panoramaUrl]);
 
@@ -143,14 +202,12 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
         <span className="text-[12px] font-medium tracking-wide" style={{ color: accent }}>场景背景</span>
       </div>
 
-      {/* Tapnow style: image fills the card edge-to-edge */}
       <div className="canvas-card" style={{
         borderRadius: 16, position: 'relative', overflow: 'hidden',
         border: `1px solid ${cardBorder}`,
         transition: 'border-color 0.2s',
-        cursor: data.panoramaUrl ? 'pointer' : 'default',
+        cursor: 'pointer',
       }} onClick={handleCardClick}>
-        {/* Image area — fills entire card */}
         <div style={{
           width: '100%', aspectRatio: '16 / 9',
           backgroundColor: '#0c0e12',
@@ -159,41 +216,126 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
           {previewUrl ? (
             <img src={previewUrl} alt="scene preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           ) : (
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: 'center', padding: '0 12px' }}>
               <span style={{ fontSize: 28, display: 'block', color: 'rgba(255,255,255,0.06)', marginBottom: 4 }}>🌐</span>
               <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.15)' }}>
-                {data.panoramaUrl ? '点击截取全景' : '无全景数据'}
+                {data.panoramaUrl ? '点击截取全景' : data.locationName ? '点击查看详情' : '无场景数据'}
               </span>
             </div>
           )}
         </div>
 
+        {/* Location name overlay at top */}
+        {data.locationName && (
+          <div style={{
+            position: 'absolute', top: 0, left: 0, right: 0,
+            background: previewUrl ? 'linear-gradient(rgba(0,0,0,0.5), transparent)' : 'none',
+            padding: '8px 10px 16px',
+            display: 'flex', alignItems: 'center', gap: 6,
+          }}>
+            <span style={{
+              fontSize: 11, fontWeight: 500, letterSpacing: '0.02em',
+              color: previewUrl ? 'rgba(255,255,255,0.85)' : 'rgba(255,255,255,0.4)',
+              overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+            }}>
+              {data.locationName}
+            </span>
+            {data.lighting && (
+              <span style={{
+                fontSize: 9, padding: '1px 6px', borderRadius: 4, flexShrink: 0,
+                backgroundColor: 'rgba(255,180,50,0.12)', color: 'rgba(255,180,50,0.6)',
+              }}>
+                {data.lighting}
+              </span>
+            )}
+          </div>
+        )}
+
         {/* Overlay info at bottom */}
-        <div style={{
-          position: 'absolute', bottom: 0, left: 0, right: 0,
-          background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
-          padding: '20px 12px 10px',
-          display: 'flex', alignItems: 'center', gap: 6,
-        }}>
-          <span style={{
-            fontSize: 9, padding: '2px 8px', borderRadius: 4,
-            backgroundColor: 'rgba(6,182,212,0.2)', color: 'rgba(6,182,212,0.8)',
+        {(data.panoramaUrl || data.screenshotUrl) && (
+          <div style={{
+            position: 'absolute', bottom: 0, left: 0, right: 0,
+            background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
+            padding: '20px 12px 10px',
+            display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap',
           }}>
-            偏航 {data.viewAngle?.yaw ?? 0}°
-          </span>
-          <span style={{
-            fontSize: 9, padding: '2px 8px', borderRadius: 4,
-            backgroundColor: 'rgba(6,182,212,0.2)', color: 'rgba(6,182,212,0.8)',
+            <span style={{
+              fontSize: 9, padding: '2px 8px', borderRadius: 4,
+              backgroundColor: 'rgba(6,182,212,0.2)', color: 'rgba(6,182,212,0.8)',
+            }}>
+              偏航 {displayYaw.toFixed(0)}°
+            </span>
+            <span style={{
+              fontSize: 9, padding: '2px 8px', borderRadius: 4,
+              backgroundColor: 'rgba(6,182,212,0.2)', color: 'rgba(6,182,212,0.8)',
+            }}>
+              俯仰 {displayPitch.toFixed(0)}°
+            </span>
+            <span style={{
+              fontSize: 9, padding: '2px 8px', borderRadius: 4,
+              backgroundColor: 'rgba(6,182,212,0.2)', color: 'rgba(6,182,212,0.8)',
+            }}>
+              FOV {displayFov.toFixed(0)}°
+            </span>
+            {activeVp && (
+              <span style={{
+                fontSize: 9, padding: '2px 8px', borderRadius: 4,
+                backgroundColor: 'rgba(52,211,153,0.15)', color: 'rgba(52,211,153,0.7)',
+              }}>
+                {activeVp.label}
+              </span>
+            )}
+            {hasPosition && (
+              <span style={{
+                fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                backgroundColor: 'rgba(168,85,247,0.15)', color: 'rgba(168,85,247,0.7)',
+              }}>
+                位移
+              </span>
+            )}
+            {hasCorrection && (
+              <span style={{
+                fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                backgroundColor: 'rgba(251,191,36,0.15)', color: 'rgba(251,191,36,0.7)',
+              }}>
+                矫正 {((activeVp!.correctionStrength ?? 0.5) * 100).toFixed(0)}%
+              </span>
+            )}
+            {data.screenshotUrl && (
+              <span style={{
+                fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                backgroundColor: 'rgba(52,211,153,0.15)', color: 'rgba(52,211,153,0.7)',
+              }}>已截图</span>
+            )}
+          </div>
+        )}
+
+        {/* Mood/description overlay at bottom (when no panorama/screenshot data) */}
+        {!data.panoramaUrl && !data.screenshotUrl && data.mood && (
+          <div style={{
+            position: 'absolute', bottom: 0, left: 0, right: 0,
+            padding: '6px 10px',
+            display: 'flex', alignItems: 'center', gap: 4,
           }}>
-            俯仰 {data.viewAngle?.pitch ?? 0}°
-          </span>
-          {data.screenshotUrl && (
             <span style={{
               fontSize: 9, padding: '2px 6px', borderRadius: 4,
-              backgroundColor: 'rgba(52,211,153,0.15)', color: 'rgba(52,211,153,0.7)',
-            }}>已截图</span>
-          )}
-        </div>
+              backgroundColor: 'rgba(168,85,247,0.12)', color: 'rgba(168,85,247,0.5)',
+            }}>
+              {data.mood}
+            </span>
+          </div>
+        )}
+
+        {/* Viewpoint count badge */}
+        {(data.viewpoints?.length ?? 0) > 0 && (
+          <div style={{
+            position: 'absolute', top: data.locationName ? 28 : 10, left: 10, zIndex: 2,
+            fontSize: 9, padding: '2px 6px', borderRadius: 4,
+            backgroundColor: 'rgba(6,182,212,0.2)', color: 'rgba(6,182,212,0.8)',
+          }}>
+            {data.viewpoints!.length} 点位
+          </div>
+        )}
 
         {/* Status dot */}
         <div style={{
@@ -214,6 +356,44 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
         )}
       </div>
 
+      {/* Location detail panel (shown when no panorama and user clicks) */}
+      {detailOpen && !data.panoramaUrl && (data.locationDescription || data.mood || data.lighting) && (
+        <div style={{
+          marginTop: 8, borderRadius: 12, padding: '10px 12px',
+          backgroundColor: 'rgba(15,17,22,0.95)',
+          border: '1px solid rgba(255,255,255,0.06)',
+        }}>
+          {data.locationDescription && (
+            <p style={{
+              fontSize: 11, lineHeight: 1.6, margin: '0 0 6px',
+              color: 'rgba(255,255,255,0.35)',
+              display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+            }}>
+              {data.locationDescription}
+            </p>
+          )}
+          <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+            {data.mood && (
+              <span style={{ fontSize: 9, padding: '2px 6px', borderRadius: 4, backgroundColor: 'rgba(168,85,247,0.12)', color: 'rgba(168,85,247,0.5)' }}>
+                {data.mood}
+              </span>
+            )}
+            {data.lighting && (
+              <span style={{ fontSize: 9, padding: '2px 6px', borderRadius: 4, backgroundColor: 'rgba(255,180,50,0.12)', color: 'rgba(255,180,50,0.5)' }}>
+                {data.lighting}
+              </span>
+            )}
+            {data.colorPalette && data.colorPalette.length > 0 && (
+              <div style={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+                {data.colorPalette.slice(0, 5).map((c, i) => (
+                  <div key={i} style={{ width: 10, height: 10, borderRadius: 2, backgroundColor: c, border: '1px solid rgba(255,255,255,0.1)' }} />
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Panorama Viewer Modal */}
       {data.panoramaUrl && (
         <PanoramaViewer
@@ -221,6 +401,11 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
           isOpen={panoramaOpen}
           onClose={() => setPanoramaOpen(false)}
           onScreenshot={handleScreenshot}
+          viewpoints={data.viewpoints}
+          activeViewpointId={data.activeViewpointId}
+          onViewpointChange={handleViewpointChange}
+          onViewpointsUpdate={handleViewpointsUpdate}
+          editMode={true}
         />
       )}
     </div>

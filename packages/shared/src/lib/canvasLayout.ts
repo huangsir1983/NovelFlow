@@ -28,6 +28,7 @@ import type {
   LightingNodeData,
   FinalHDNodeData,
   VideoGenerationNodeData,
+  Pose3DNodeData,
   CanvasNodeStatus,
   CharacterRefInfo,
 } from '../types/canvas';
@@ -75,6 +76,7 @@ const NODE_WIDTHS: Record<string, number> = {
   lighting: 240,
   finalHD: 240,
   imageProcess: 260,
+  pose3D: 260,
 };
 const DEFAULT_NODE_WIDTH = 280;
 
@@ -123,6 +125,7 @@ export function blendRefineNodeId(shotId: string) { return `blendrefine-${shotId
 export function lightingNodeId(shotId: string) { return `lighting-${shotId}`; }
 export function finalHDNodeId(shotId: string) { return `finalhd-${shotId}`; }
 export function imageProcessNodeId(shotId: string, charName: string, processType: string) { return `imgproc-${processType}-${shotId}-${charName}`; }
+export function pose3DNodeId(shotId: string, charName: string) { return `pose3d-${shotId}-${charName}`; }
 
 /* ── Script JSON types (from generated_script_json) ── */
 interface ScriptShotJson {
@@ -186,12 +189,15 @@ export interface ShotInput {
 
 /** Character visual data keyed by character name */
 export interface CharacterMapEntry {
+  id?: string;
   name: string;
   appearance?: { face?: string; body?: string; hair?: string; distinguishing_features?: string };
   costume?: { typical_outfit?: string };
   visualRefUrl?: string;
   visualRefStorageKey?: string;
   negativePrompt?: string;
+  allImages?: Record<string, string>;
+  allImageKeys?: Record<string, string>;
 }
 
 /** Location visual data keyed by location name */
@@ -210,8 +216,8 @@ export interface BuildGraphOptions {
   positionCache?: Record<string, { x: number; y: number }>;
   artifactsByShotId?: Record<string, Array<{ id: string; type: string; url?: string; status: string }>>;
   nodeRunsByShotId?: Record<string, Array<{ nodeKey: string; status: string; progress?: number }>>;
-  /** {locationName: {panoramaUrl, panoramaStorageKey}} — for populating SceneNode panorama data */
-  locationPanoramaMap?: Record<string, { panoramaUrl?: string; panoramaStorageKey?: string }>;
+  /** {locationName: {panoramaUrl, panoramaStorageKey, viewpoints?}} — for populating SceneNode panorama data */
+  locationPanoramaMap?: Record<string, { locationId?: string; panoramaUrl?: string; panoramaStorageKey?: string; viewpoints?: import('../types/canvas').ViewPoint[] }>;
   /** {characterName: visual data} — for populating PromptAssembly characterRefs */
   characterMap?: Record<string, CharacterMapEntry>;
   /** {locationName: visual detail} — for populating PromptAssembly locationRef */
@@ -294,6 +300,7 @@ export function buildCanvasGraph(
     nodeRunsByShotId = {},
     locationPanoramaMap = {},
     characterMap = {},
+    locationDetailMap = {},
   } = options;
 
   const nodes: Node[] = [];
@@ -500,6 +507,7 @@ export function buildCanvasGraph(
       const bgId = sceneBGNodeId(shot.id);
       const bgY = branchBaseY + branchIdx * BRANCH_GAP;
       branchIdx++;
+      const locationDetail2 = scene.location ? locationDetailMap[scene.location] : undefined;
       nodes.push({
         id: bgId,
         type: 'sceneBG',
@@ -513,8 +521,24 @@ export function buildCanvasGraph(
           panoramaUrl: locationPanorama2?.panoramaUrl,
           panoramaStorageKey: locationPanorama2?.panoramaStorageKey,
           screenshotUrl: undefined,
-          viewAngle: { yaw: 0, pitch: 0 },
+          viewAngle: { yaw: 0, pitch: 0, fov: 75 },
+          viewpoints: (locationPanorama2?.viewpoints?.length ?? 0) > 0
+            ? locationPanorama2!.viewpoints!
+            : [
+                { id: 'vp-default-up', label: '上', yaw: 0, pitch: 0, fov: 75, posX: 0, posZ: 400, posY: 0, correctionStrength: 0.5, isDefault: true },
+                { id: 'vp-default-down', label: '下', yaw: 180, pitch: 0, fov: 75, posX: 0, posZ: -400, posY: 0, correctionStrength: 0.5, isDefault: false },
+                { id: 'vp-default-left', label: '左', yaw: -90, pitch: 0, fov: 75, posX: 400, posZ: 0, posY: 0, correctionStrength: 0.5, isDefault: false },
+                { id: 'vp-default-right', label: '右', yaw: 90, pitch: 0, fov: 75, posX: -400, posZ: 0, posY: 0, correctionStrength: 0.5, isDefault: false },
+              ],
+          activeViewpointId: locationPanorama2?.viewpoints?.find(v => v.isDefault)?.id ?? 'vp-default-up',
           progress: 0,
+          locationId: locationPanorama2?.locationId,
+          locationName: scene.location || undefined,
+          locationDescription: locationDetail2?.visualDescription,
+          mood: locationDetail2?.mood,
+          lighting: locationDetail2?.lighting,
+          colorPalette: locationDetail2?.colorPalette,
+          visualRefUrl: locationDetail2?.visualRefUrl,
         } satisfies SceneBGNodeData,
         ...nodeDims('sceneBG'),
       });
@@ -594,10 +618,11 @@ export function buildCanvasGraph(
         // CharacterProcess (Col 2) — carries the character's reference IMAGE
         const cpId = charProcessNodeId(shot.id, cn);
         // Gather all available image variants from asset library
-        const charAssetImages = charEntry ? {
-          visual_reference: charEntry.visualRefUrl,
-          ...(charEntry.visualRefStorageKey ? { storageKey: charEntry.visualRefStorageKey } : {}),
-        } : undefined;
+        // Merge current visualRefUrl as 'visual_reference' so it's always selectable
+        const charAllImages: Record<string, string> = { ...(charEntry?.allImages || {}) };
+        if (charRef.visualRefUrl && !charAllImages['visual_reference']) {
+          charAllImages['visual_reference'] = charRef.visualRefUrl;
+        }
         nodes.push({
           id: cpId,
           type: 'characterProcess',
@@ -608,11 +633,11 @@ export function buildCanvasGraph(
             sceneId: scene.id,
             shotId: shot.id,
             nodeType: 'characterProcess',
-            characterId: undefined,
+            characterId: charEntry?.id,
             characterName: cn,
             visualRefUrl: charRef.visualRefUrl,
             visualRefStorageKey: charRef.visualRefStorageKey,
-            availableImages: charAssetImages as Record<string, string> | undefined,
+            availableImages: charAllImages,
             selectedVariant: 'visual_reference',
           } satisfies CharacterProcessNodeData,
           ...nodeDims('characterProcess'),
@@ -642,6 +667,26 @@ export function buildCanvasGraph(
         });
         edges.push({ id: `e-${cpId}-${vaId}`, source: cpId, target: vaId, type: 'pipeline', data: { shotId: shot.id, segment: `char-viewangle-${cn}` } });
 
+        // Pose3D node (companion to Expression, placed above it)
+        const p3dId = pose3DNodeId(shot.id, cn);
+        nodes.push({
+          id: p3dId,
+          type: 'pose3D',
+          position: positionCache[p3dId] ?? { x: COL_X[4], y: charY - BRANCH_GAP * 0.8 },
+          data: {
+            label: `摆姿·${cn}`,
+            status: 'idle' as CanvasNodeStatus,
+            sceneId: scene.id,
+            shotId: shot.id,
+            nodeType: 'pose3D',
+            jointAngles: {},
+            progress: 0,
+          } satisfies Pose3DNodeData,
+          ...nodeDims('pose3D'),
+        });
+        // ViewAngle → Pose3D (bypass — optional reference input)
+        edges.push({ id: `e-${vaId}-${p3dId}`, source: vaId, target: p3dId, type: 'bypass', data: { shotId: shot.id, segment: `viewangle-pose3d-${cn}` } });
+
         // ImageProcess: Expression (Col 4)
         const exId = imageProcessNodeId(shot.id, cn, 'expression');
         nodes.push({
@@ -663,6 +708,8 @@ export function buildCanvasGraph(
           ...nodeDims('imageProcess'),
         });
         edges.push({ id: `e-${vaId}-${exId}`, source: vaId, target: exId, type: 'pipeline', data: { shotId: shot.id, segment: `viewangle-expression-${cn}` } });
+        // Pose3D → Expression (bypass — pose reference for expression generation)
+        edges.push({ id: `e-${p3dId}-${exId}`, source: p3dId, target: exId, type: 'bypass', data: { shotId: shot.id, segment: `pose3d-expression-${cn}` } });
 
         // ImageProcess: HDUpscale (Col 5, upper)
         const hdId = imageProcessNodeId(shot.id, cn, 'hdUpscale');

@@ -1,6 +1,6 @@
 'use client';
 
-import { memo, useState, useCallback, useRef, useEffect } from 'react';
+import { memo, useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import { type NodeProps, type Node, Handle, Position, useReactFlow, NodeToolbar } from '@xyflow/react';
 import type { ImageProcessNodeData, ImageProcessType } from '../../../types/canvas';
 import { ViewAngleCanvas } from './ViewAngleCanvas';
@@ -21,6 +21,15 @@ const PROCESS_CONFIG: Record<ImageProcessType, {
 };
 
 const CAPSULE_ITEMS: ImageProcessType[] = ['viewAngle', 'expression', 'matting', 'hdUpscale'];
+
+/* ── Placeholder style for contentEditable ── */
+const EDITABLE_STYLE_ID = 'expr-editable-placeholder';
+if (typeof document !== 'undefined' && !document.getElementById(EDITABLE_STYLE_ID)) {
+  const style = document.createElement('style');
+  style.id = EDITABLE_STYLE_ID;
+  style.textContent = `[data-placeholder]:empty:before{content:attr(data-placeholder);color:rgba(255,255,255,0.25);pointer-events:none;}`;
+  document.head.appendChild(style);
+}
 
 /* ── Checkerboard for matting ── */
 const CHECKERBOARD_BG: React.CSSProperties = {
@@ -58,13 +67,132 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
   const [hovered, setHovered] = useState(false);
   const [showToolbar, setShowToolbar] = useState(false);
   const [activePanel, setActivePanel] = useState<ImageProcessType | null>(null);
-  const [exprText, setExprText] = useState(data.expressionPrompt || '保持人物一致性，保持视角一致，');
+  const [exprText] = useState(data.expressionPrompt || '保持人物一致性，保持视角一致，');
   const [scaleFactor, setScaleFactor] = useState(data.scaleFactor || 2);
   const [localAz, setLocalAz] = useState(data.azimuth ?? 0);
   const [localEl, setLocalEl] = useState(data.elevation ?? 0);
   const [localDist, setLocalDist] = useState(data.distance ?? 5);
+  const [showMentionDropdown, setShowMentionDropdown] = useState(false);
+  const editableRef = useRef<HTMLDivElement>(null);
+  const editableInitRef = useRef(false);
+  const mentionRangeRef = useRef<Range | null>(null);
   const executingRef = useRef(false);
   const reactFlow = useReactFlow();
+
+  // Subscribe to edges & nodes for upstream image collection
+  const edges = useCanvasStore(s => s.edges);
+  const allNodes = useCanvasStore(s => s.nodes);
+  const upstreamImages = useMemo(() => {
+    const incoming = edges.filter(e => e.target === id);
+    return incoming.map((edge, idx) => {
+      const src = allNodes.find(n => n.id === edge.source);
+      const d = src?.data as Record<string, unknown> | undefined;
+      if (!d) return null;
+      const url = (d.outputImageUrl || d.screenshotUrl || d.outputPngUrl || d.inputImageUrl) as string | undefined;
+      const storageKey = (d.outputStorageKey || d.screenshotStorageKey || d.visualRefStorageKey || d.panoramaStorageKey || d.inputStorageKey) as string | undefined;
+      return url ? { index: idx + 1, url, storageKey, label: `图片 ${idx + 1}` } : null;
+    }).filter(Boolean) as { index: number; url: string; storageKey?: string; label: string }[];
+  }, [edges, allNodes, id]);
+
+  // ── ContentEditable helpers for @ mention ──
+  const getPromptFromEditable = useCallback(() => {
+    if (!editableRef.current) return exprText;
+    let result = '';
+    const walk = (n: globalThis.Node) => {
+      if (n.nodeType === globalThis.Node.TEXT_NODE) {
+        result += n.textContent || '';
+      } else if (n instanceof HTMLElement) {
+        if (n.dataset.mentionIndex) {
+          result += `@${n.dataset.mentionIndex}`;
+        } else {
+          n.childNodes.forEach(c => walk(c));
+        }
+      }
+    };
+    editableRef.current.childNodes.forEach(c => walk(c));
+    return result.trim();
+  }, [exprText]);
+
+  const handleEditableInput = useCallback(() => {
+    const sel = window.getSelection();
+    if (!sel || !sel.rangeCount) return;
+    const range = sel.getRangeAt(0);
+    const n = range.startContainer;
+    if (n.nodeType === globalThis.Node.TEXT_NODE) {
+      const text = n.textContent || '';
+      const offset = range.startOffset;
+      if (offset > 0 && text[offset - 1] === '@') {
+        mentionRangeRef.current = range.cloneRange();
+        setShowMentionDropdown(true);
+        return;
+      }
+    }
+    mentionRangeRef.current = null;
+    setShowMentionDropdown(false);
+  }, []);
+
+  const handleMentionSelect = useCallback((img: { index: number; url: string; storageKey?: string; label: string }) => {
+    const el = editableRef.current;
+    if (!el) { setShowMentionDropdown(false); return; }
+
+    // Use the saved range from when @ was typed (click on dropdown steals focus)
+    const savedRange = mentionRangeRef.current;
+    if (!savedRange) { setShowMentionDropdown(false); return; }
+    const textNode = savedRange.startContainer;
+
+    if (textNode.nodeType === globalThis.Node.TEXT_NODE && textNode.parentNode) {
+      const text = textNode.textContent || '';
+      const offset = savedRange.startOffset;
+      if (offset > 0 && text[offset - 1] === '@') {
+        const before = text.slice(0, offset - 1);
+        const after = text.slice(offset);
+        textNode.textContent = before;
+
+        // Build chip element
+        const chip = document.createElement('span');
+        chip.setAttribute('data-mention-index', String(img.index));
+        chip.contentEditable = 'false';
+        chip.style.cssText = 'display:inline-flex;align-items:center;gap:3px;padding:1px 5px 1px 2px;border-radius:4px;background:rgba(255,255,255,0.1);margin:0 2px;vertical-align:middle;font-size:11px;color:rgba(255,255,255,0.8);cursor:default;';
+        const imgEl = document.createElement('img');
+        imgEl.src = img.url;
+        imgEl.style.cssText = 'width:16px;height:16px;border-radius:3px;object-fit:cover;vertical-align:middle;';
+        chip.appendChild(imgEl);
+        const lbl = document.createElement('span');
+        lbl.textContent = img.label;
+        chip.appendChild(lbl);
+
+        const parent = textNode.parentNode;
+        const next = textNode.nextSibling;
+        parent.insertBefore(chip, next);
+        const afterNode = document.createTextNode(after || ' ');
+        parent.insertBefore(afterNode, chip.nextSibling);
+
+        // Restore focus and cursor to contentEditable
+        el.focus();
+        const sel = window.getSelection();
+        if (sel) {
+          const newRange = document.createRange();
+          newRange.setStart(afterNode, after ? 0 : 1);
+          newRange.collapse(true);
+          sel.removeAllRanges();
+          sel.addRange(newRange);
+        }
+      }
+    }
+    mentionRangeRef.current = null;
+    setShowMentionDropdown(false);
+  }, []);
+
+  // Initialize contentEditable when expression panel opens
+  useEffect(() => {
+    if (activePanel === 'expression' && editableRef.current && !editableInitRef.current) {
+      editableRef.current.textContent = exprText || '';
+      editableInitRef.current = true;
+    }
+    if (activePanel !== 'expression') {
+      editableInitRef.current = false;
+    }
+  }, [activePanel, exprText]);
 
   // Sync local angle state when node data is restored from backend
   useEffect(() => {
@@ -188,6 +316,19 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     setLocalDist(dist);
   }, []);
 
+  /* ── Skip: pass input directly to output + downstream ── */
+  const handleSkip = useCallback(() => {
+    const inputUrl = data.inputImageUrl;
+    const inputKey = data.inputStorageKey;
+    if (!inputUrl) return;
+    updateAndPropagate(
+      { outputImageUrl: inputUrl, outputStorageKey: inputKey, status: 'success', progress: 100 },
+      inputUrl,
+      inputKey,
+    );
+    setActivePanel(null);
+  }, [data.inputImageUrl, data.inputStorageKey, updateAndPropagate]);
+
   /* ── Capsule button click ── */
   const handleCapsuleClick = useCallback((pt: ImageProcessType) => {
     setActivePanel(prev => prev === pt ? null : pt);
@@ -250,8 +391,29 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
         status: 'running', progress: 0,
       });
     } else if (execType === 'expression') {
-      content.expressionPrompt = exprText;
-      updateNodeData({ processType: execType, expressionPrompt: exprText, status: 'running', progress: 0 });
+      const fullPrompt = getPromptFromEditable();
+      // Extract @N indices from prompt text
+      const mentionMatches = fullPrompt.match(/@(\d+)/g);
+      const mentionIndices = mentionMatches ? mentionMatches.map(m => parseInt(m.slice(1))) : [];
+      content.expressionPrompt = fullPrompt;
+      content.mentionedImages = mentionIndices;
+
+      // Send ALL upstream images to backend so Gemini sees both character + pose reference
+      if (upstreamImages.length > 0) {
+        // Primary reference = image 1 (character)
+        const primary = upstreamImages[0];
+        content.inputStorageKey = primary.storageKey || '';
+        content.inputImageUrl = primary.storageKey ? '' : (primary.url || '');
+        // All upstream images as referenceImages array
+        content.referenceImages = upstreamImages.map(img => ({
+          index: img.index,
+          storageKey: img.storageKey || '',
+          url: img.storageKey ? '' : (img.url || ''),
+        }));
+        console.log(`[Expression] sending ${upstreamImages.length} images:`,
+          upstreamImages.map(i => `@${i.index}=${i.storageKey?.slice(-20) || i.url?.slice(-30) || '?'}`));
+      }
+      updateNodeData({ processType: execType, expressionPrompt: fullPrompt, status: 'running', progress: 0 });
     } else if (execType === 'matting') {
       updateNodeData({ processType: execType, status: 'running', progress: 0 });
     } else if (execType === 'hdUpscale') {
@@ -322,6 +484,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
         }, outUrl, output.outputStorageKey);
       }
     } catch (err) {
+      console.error('[Expression Execute] Error:', err);
       updateNodeData({
         status: 'error',
         errorMessage: err instanceof Error ? err.message : 'Unknown error',
@@ -329,7 +492,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     } finally {
       executingRef.current = false;
     }
-  }, [id, data, activePanel, localAz, localEl, localDist, exprText, scaleFactor, updateNodeData, updateAndPropagate]);
+  }, [id, data, activePanel, localAz, localEl, localDist, exprText, scaleFactor, updateNodeData, updateAndPropagate, getPromptFromEditable, upstreamImages]);
 
   const isRunning = data.status === 'running';
   const borderColor = selected
@@ -361,6 +524,29 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
             whiteSpace: 'nowrap' as const,
           }}
         >
+          {/* Skip / passthrough button */}
+          <button
+            onClick={(e) => { e.stopPropagation(); handleSkip(); }}
+            style={{
+              border: 'none',
+              background: data.outputImageUrl === data.inputImageUrl && data.inputImageUrl ? 'rgba(255,255,255,0.08)' : 'transparent',
+              borderRadius: 18,
+              padding: '5px 10px',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 3,
+              transition: 'background 0.15s',
+            }}
+          >
+            <span style={{ fontSize: 12 }}>⏩</span>
+            <span style={{
+              fontSize: 10,
+              fontWeight: 400,
+              color: data.outputImageUrl === data.inputImageUrl && data.inputImageUrl ? 'rgba(167,139,250,0.9)' : 'rgba(255,255,255,0.4)',
+            }}>跳过</span>
+          </button>
+          <div style={{ width: 1, height: 16, backgroundColor: 'rgba(255,255,255,0.06)', alignSelf: 'center' }} />
           {CAPSULE_ITEMS.map(pt => {
             const c = PROCESS_CONFIG[pt];
             const isActive = activePanel === pt;
@@ -633,40 +819,176 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
             </div>
           )}
 
-          {/* ── Expression Panel ── */}
+          {/* ── Expression Panel (redesigned) ── */}
           {activePanel === 'expression' && (
-            <div style={{ width: 260 }}>
-              <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.5)', marginBottom: 8 }}>描述表情/动作变化</div>
-              <textarea
-                className="nopan nodrag nowheel"
-                value={exprText}
-                onChange={(e) => setExprText(e.target.value)}
-                placeholder="保持人物一致性，保持视角一致，微笑..."
-                style={{
-                  width: '100%', height: 64, resize: 'vertical',
-                  background: 'rgba(255,255,255,0.04)',
-                  border: '1px solid rgba(255,255,255,0.08)',
-                  borderRadius: 8, padding: 8,
-                  color: 'rgba(255,255,255,0.8)', fontSize: 11,
-                  outline: 'none', boxSizing: 'border-box',
-                }}
-                onClick={(e) => e.stopPropagation()}
-              />
-              <div style={{ fontSize: 8, color: 'rgba(255,255,255,0.3)', marginTop: 4, marginBottom: 10 }}>
-                模型: gemini-3-pro-image-preview
+            <div style={{ width: 380 }}>
+              {/* Toolbar row: 风格 / 标记 / 聚焦 + input thumbnails */}
+              <div style={{
+                display: 'flex', alignItems: 'center', gap: 4, marginBottom: 10,
+                flexWrap: 'wrap',
+              }}>
+                {/* 风格 button */}
+                <button
+                  onClick={(e) => { e.stopPropagation(); /* TODO: open style library */ }}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 3,
+                    border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6,
+                    background: 'rgba(255,255,255,0.04)', padding: '4px 8px',
+                    cursor: 'pointer', color: 'rgba(255,255,255,0.5)', fontSize: 10,
+                  }}
+                >
+                  <span style={{ fontSize: 12 }}>✦</span>
+                  <span>风格</span>
+                </button>
+                {/* 标记 button (reserved) */}
+                <button
+                  disabled
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 3,
+                    border: '1px solid rgba(255,255,255,0.06)', borderRadius: 6,
+                    background: 'transparent', padding: '4px 8px',
+                    cursor: 'not-allowed', color: 'rgba(255,255,255,0.25)', fontSize: 10,
+                  }}
+                >
+                  <span style={{ fontSize: 12 }}>◎</span>
+                  <span>标记</span>
+                </button>
+                {/* 聚焦 button (reserved) */}
+                <button
+                  disabled
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 3,
+                    border: '1px solid rgba(255,255,255,0.06)', borderRadius: 6,
+                    background: 'transparent', padding: '4px 8px',
+                    cursor: 'not-allowed', color: 'rgba(255,255,255,0.25)', fontSize: 10,
+                  }}
+                >
+                  <span style={{ fontSize: 12 }}>⊙</span>
+                  <span>聚焦</span>
+                </button>
+
+                {/* Upstream input image thumbnails */}
+                {upstreamImages.map(img => (
+                  <div key={img.index} style={{ position: 'relative', width: 36, height: 36, flexShrink: 0 }}>
+                    <img
+                      src={img.url}
+                      alt={img.label}
+                      style={{
+                        width: 36, height: 36, borderRadius: 6, objectFit: 'cover',
+                        border: '1px solid rgba(255,255,255,0.1)',
+                      }}
+                    />
+                    <span style={{
+                      position: 'absolute', top: -4, right: -4,
+                      width: 16, height: 16, borderRadius: '50%',
+                      backgroundColor: 'rgba(96,165,250,0.9)', color: '#fff',
+                      fontSize: 9, fontWeight: 600,
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    }}>
+                      {img.index}
+                    </span>
+                  </div>
+                ))}
               </div>
-              <button
-                onClick={(e) => { e.stopPropagation(); handleExecute(); }}
-                disabled={isRunning || !data.inputImageUrl}
-                style={{
-                  ...btnBase,
-                  background: 'rgba(251,146,60,0.8)',
-                  color: '#fff',
-                  opacity: isRunning || !data.inputImageUrl ? 0.4 : 1,
-                }}
-              >
-                {isRunning ? '生成中...' : '生成表情'}
-              </button>
+
+              {/* Prompt input area with inline mention chips */}
+              <div style={{ position: 'relative', marginBottom: 8 }}>
+                {/* ContentEditable input — supports inline @mention chips */}
+                <div
+                  ref={editableRef}
+                  contentEditable
+                  suppressContentEditableWarning
+                  className="nopan nodrag nowheel"
+                  onInput={handleEditableInput}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') { e.stopPropagation(); setShowMentionDropdown(false); }
+                  }}
+                  onClick={(e) => e.stopPropagation()}
+                  data-placeholder="描述你想要生成的画面内容，@引用素材"
+                  style={{
+                    minHeight: 56,
+                    maxHeight: 120,
+                    overflowY: 'auto',
+                    background: 'rgba(255,255,255,0.04)',
+                    border: '1px solid rgba(255,255,255,0.08)',
+                    borderRadius: 8, padding: '8px 10px',
+                    color: 'rgba(255,255,255,0.8)',
+                    fontSize: 11,
+                    lineHeight: '1.6',
+                    outline: 'none',
+                    whiteSpace: 'pre-wrap',
+                    wordBreak: 'break-word',
+                  }}
+                />
+
+                {/* @ Mention dropdown */}
+                {showMentionDropdown && upstreamImages.length > 0 && (
+                  <div
+                    className="nopan nodrag nowheel"
+                    onMouseDown={e => e.preventDefault()}
+                    style={{
+                      position: 'absolute', bottom: '100%', left: 0,
+                      marginBottom: 4, width: '100%',
+                      background: 'rgba(25,27,35,0.98)',
+                      border: '1px solid rgba(255,255,255,0.1)',
+                      borderRadius: 8, padding: 4,
+                      boxShadow: '0 -4px 16px rgba(0,0,0,0.4)',
+                      zIndex: 10,
+                    }}
+                  >
+                    {upstreamImages.map(img => (
+                      <button
+                        key={img.index}
+                        onMouseDown={e => e.preventDefault()}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleMentionSelect(img);
+                        }}
+                        style={{
+                          display: 'flex', alignItems: 'center', gap: 8,
+                          width: '100%', padding: '6px 8px', border: 'none',
+                          background: 'transparent', borderRadius: 6,
+                          cursor: 'pointer', textAlign: 'left',
+                          color: 'rgba(255,255,255,0.7)', fontSize: 11,
+                        }}
+                        onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.06)')}
+                        onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
+                      >
+                        <img
+                          src={img.url}
+                          alt={img.label}
+                          style={{ width: 28, height: 28, borderRadius: 4, objectFit: 'cover' }}
+                        />
+                        <span style={{ flex: 1 }}>{img.label}</span>
+                        <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: 10 }}>(@{img.index})</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Bottom bar: model info + generate button */}
+              <div style={{
+                display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                gap: 8,
+              }}>
+                <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.25)' }}>
+                  gemini-2.0-flash-preview-image-generation
+                </span>
+                <button
+                  onClick={(e) => { e.stopPropagation(); handleExecute(); }}
+                  disabled={isRunning || !data.inputImageUrl}
+                  style={{
+                    border: 'none', borderRadius: 8, padding: '6px 16px',
+                    cursor: 'pointer', fontWeight: 600, fontSize: 11,
+                    background: 'rgba(251,146,60,0.8)', color: '#fff',
+                    opacity: isRunning || !data.inputImageUrl ? 0.4 : 1,
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {isRunning ? '生成中...' : '生成'}
+                </button>
+              </div>
               {isRunning && (
                 <div style={progressBarOuter}>
                   <div style={{ height: '100%', backgroundColor: 'rgba(251,146,60,0.6)', borderRadius: 2, width: `${data.progress ?? 0}%`, transition: 'width 0.3s' }} />

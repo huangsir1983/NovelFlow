@@ -25,6 +25,8 @@ export { LightingNode } from './LightingNode';
 export { FinalHDNode } from './FinalHDNode';
 export { CompositeEditor } from './CompositeEditor';
 export { ImageProcessNode } from './ImageProcessNode';
+export { Pose3DNode } from './Pose3DNode';
+export { Pose3DEditor } from './Pose3DEditor';
 
 /* React Flow nodeTypes / edgeTypes registries */
 import { SceneNode } from './SceneNode';
@@ -47,6 +49,7 @@ import { BlendRefineNode } from './BlendRefineNode';
 import { LightingNode } from './LightingNode';
 import { FinalHDNode } from './FinalHDNode';
 import { ImageProcessNode } from './ImageProcessNode';
+import { Pose3DNode } from './Pose3DNode';
 
 export const canvasNodeTypes = {
   scene: SceneNode,
@@ -65,6 +68,7 @@ export const canvasNodeTypes = {
   propProcess: PropProcessNode,
   propAngle: PropAngleNode,
   imageProcess: ImageProcessNode,
+  pose3D: Pose3DNode,
   composite: CompositeNode,
   blendRefine: BlendRefineNode,
   lighting: LightingNode,

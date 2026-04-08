@@ -746,6 +746,25 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
             "result": {"message": "SceneBG screenshot is generated on frontend via Three.js"},
         }
 
+    # ── Pose3D — 3D mannequin pose screenshot (frontend-driven) ──
+    if node_type == "pose3D":
+        screenshot_key = content.get("screenshotStorageKey", "")
+        if screenshot_key:
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": screenshot_key},
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+        return {
+            "execution_id": execution_id,
+            "status": "success",
+            "node_type": node_type,
+            "result": {"message": "Pose3D screenshot is generated on frontend via Three.js"},
+        }
+
     # ── CharacterProcess / PropProcess — asset selection (frontend-driven) ──
     if node_type in ("characterProcess", "propProcess"):
         return {
@@ -843,31 +862,63 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
         ref_base64 = content.get("referenceImageBase64", "")
         expr_prompt = content.get("expressionPrompt", "")
 
-        # If no base64 provided, try to read from storage
-        if not ref_base64:
-            source_key = content.get("inputStorageKey", "")
-            if source_key:
+        # Helper: read image from storageKey or URL → base64
+        def _resolve_image_base64(storage_key: str = "", image_url: str = "") -> str:
+            b64 = ""
+            if storage_key:
                 try:
                     from services.storage_adapter import get_storage
                     storage = get_storage()
-                    source_data = storage.get_bytes(object_key=source_key)
-                    ref_base64 = base64.b64encode(source_data).decode("utf-8")
+                    source_data = storage.get_bytes(object_key=storage_key)
+                    b64 = base64.b64encode(source_data).decode("utf-8")
                 except Exception as e:
-                    logger.warning("Failed to read source image from storage: %s", e)
-
-        # If still no base64, try to download from inputImageUrl
-        if not ref_base64:
-            input_url = content.get("inputImageUrl", "")
-            if input_url:
+                    logger.warning("Failed to read image from storage %s: %s", storage_key, e)
+            if not b64 and image_url:
                 try:
                     import httpx as _httpx
                     _client = _httpx.Client(timeout=30)
-                    img_resp = _client.get(input_url)
+                    img_resp = _client.get(image_url)
                     img_resp.raise_for_status()
-                    ref_base64 = base64.b64encode(img_resp.content).decode("utf-8")
-                    logger.info("Downloaded reference image from URL: %s (%d bytes)", input_url, len(img_resp.content))
+                    b64 = base64.b64encode(img_resp.content).decode("utf-8")
                 except Exception as e:
-                    logger.warning("Failed to download image from URL %s: %s", input_url, e)
+                    logger.warning("Failed to download image from URL %s: %s", image_url, e)
+            return b64
+
+        # Resolve primary reference image (backward compatible)
+        if not ref_base64:
+            ref_base64 = _resolve_image_base64(
+                content.get("inputStorageKey", ""),
+                content.get("inputImageUrl", ""),
+            )
+
+        # Resolve extra reference images from referenceImages array
+        extra_images: list[dict] = []
+        ref_images_raw = content.get("referenceImages", [])
+        if isinstance(ref_images_raw, list):
+            for ref_item in ref_images_raw:
+                idx = ref_item.get("index", 0)
+                sk = ref_item.get("storageKey", "")
+                url = ref_item.get("url", "")
+                img_b64 = _resolve_image_base64(sk, url)
+                if img_b64:
+                    extra_images.append({"index": idx, "base64": img_b64})
+
+        # If extra_images includes index 1, use it as primary ref_base64
+        if extra_images and not ref_base64:
+            for ei in extra_images:
+                if ei["index"] == 1:
+                    ref_base64 = ei["base64"]
+                    break
+            if not ref_base64:
+                ref_base64 = extra_images[0]["base64"]
+
+        # Remove primary from extra_images (avoid duplication)
+        extra_images = [ei for ei in extra_images if ei.get("index", 0) != 1]
+
+        logger.info(
+            "Expression handler: ref_base64=%s, extra_images=%d, prompt=%s",
+            bool(ref_base64), len(extra_images), expr_prompt[:80],
+        )
 
         if not ref_base64 or not expr_prompt:
             raise HTTPException(status_code=400, detail="referenceImageBase64/inputStorageKey and expressionPrompt are required")
@@ -876,6 +927,7 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
             result_b64 = generate_expression(
                 reference_image_base64=ref_base64,
                 expression_prompt=expr_prompt,
+                extra_images=extra_images if extra_images else None,
                 negative_prompt=content.get("negativePrompt"),
                 character_name=content.get("characterName"),
                 db=db,

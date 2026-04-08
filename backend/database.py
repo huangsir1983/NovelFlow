@@ -208,6 +208,7 @@ def _apply_column_migrations() -> None:
             ("time_variations", "JSON"),
             ("emotional_range", "TEXT"),
             ("visual_prompt_negative", "TEXT DEFAULT ''"),
+            ("viewpoints", "JSON"),
         ],
         "characters": [
             ("age_range", "VARCHAR(50)"),

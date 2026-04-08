@@ -38,7 +38,11 @@ class GeminiAdapter(ProviderAdapter):
     def __init__(self, *, base_url: str, api_key: str, provider_name: str = "Gemini"):
         super().__init__(base_url=base_url, api_key=api_key, provider_name=provider_name)
         # Pre-create httpx client to avoid event-loop issues in worker threads (Python 3.12+)
-        self._http_client = httpx.Client(timeout=300)
+        # Use short keepalive to avoid stale SSL connections being reused
+        self._http_client = httpx.Client(
+            timeout=300,
+            limits=httpx.Limits(max_keepalive_connections=5, keepalive_expiry=30),
+        )
 
     def _build_body(
         self,
@@ -155,15 +159,30 @@ class GeminiAdapter(ProviderAdapter):
         prompt: str,
         reference_image: bytes | None = None,
         reference_mime: str = "image/png",
+        reference_images: list[dict] | None = None,
         aspect_ratio: str = "3:4",
         image_size: str = "2K",
     ) -> ImageResponse:
-        """Generate an image using Gemini image model."""
+        """Generate an image using Gemini image model.
+
+        Args:
+            reference_image: Single reference image bytes (legacy, used if reference_images is empty).
+            reference_images: List of {"data": bytes, "mime_type": str} for multi-image input.
+        """
         url = f"{self.base_url}/v1beta/models/{model}:generateContent?key={self.api_key}"
 
-        # Build parts
+        # Build parts — support multiple reference images
         parts = []
-        if reference_image:
+        if reference_images:
+            for ref in reference_images:
+                image_b64 = base64.b64encode(ref["data"]).decode("utf-8")
+                parts.append({
+                    "inlineData": {
+                        "data": image_b64,
+                        "mimeType": ref.get("mime_type", "image/png"),
+                    }
+                })
+        elif reference_image:
             image_b64 = base64.b64encode(reference_image).decode("utf-8")
             parts.append({
                 "inlineData": {

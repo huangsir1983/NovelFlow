@@ -33,6 +33,7 @@ class Location(Base, TimestampMixin):
     scene_count = Column(Integer, default=0)
     time_variations = Column(JSON, default=lambda: [])  # ["day", "night"]
     emotional_range = Column(Text, default="")  # emotional span across scenes
+    viewpoints = Column(JSON, default=lambda: [])  # [{id, label, yaw, pitch, fov, is_default}]
 
     def __repr__(self) -> str:
         return f"<Location(id={self.id}, name={self.name})>"
