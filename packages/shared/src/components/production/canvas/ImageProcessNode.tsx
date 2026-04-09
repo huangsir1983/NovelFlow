@@ -88,7 +88,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
       const src = allNodes.find(n => n.id === edge.source);
       const d = src?.data as Record<string, unknown> | undefined;
       if (!d) return null;
-      const url = (d.outputImageUrl || d.screenshotUrl || d.outputPngUrl || d.inputImageUrl) as string | undefined;
+      const url = (d.outputImageUrl || d.screenshotUrl || d.outputPngUrl || d.visualRefUrl || d.inputImageUrl) as string | undefined;
       const storageKey = (d.outputStorageKey || d.screenshotStorageKey || d.visualRefStorageKey || d.panoramaStorageKey || d.inputStorageKey) as string | undefined;
       return url ? { index: idx + 1, url, storageKey, label: `图片 ${idx + 1}` } : null;
     }).filter(Boolean) as { index: number; url: string; storageKey?: string; label: string }[];

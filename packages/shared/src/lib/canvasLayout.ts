@@ -40,10 +40,10 @@ import { detectModuleType } from '../components/production/canvas/ModuleTemplate
  *   Col 0  (0)    : Scene
  *   Col 1  (500)  : Shot
  *   Col 2  (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
- *   Col 3  (1540) : ViewAngle / PropAngle
- *   Col 4  (2060) : Expression
- *   Col 5  (2580) : HDUpscale
- *   Col 6  (2860) : Matting
+ *   Col 3  (1540) : Expression / Pose3D / PropAngle
+ *   Col 4  (2060) : Matting
+ *   Col 5  (2580) : (reserved)
+ *   Col 6  (2860) : (reserved)
  *   Col 7  (3380) : Composite (merge point)
  *   Col 8  (3920) : BlendRefine
  *   Col 9  (4200) : Lighting
@@ -65,7 +65,7 @@ const NODE_WIDTHS: Record<string, number> = {
   videoGeneration: 290,
   sceneBG: 260,
   characterProcess: 180,
-  viewAngle: 260,
+  viewAngle: 260, // kept for ImageProcessNode UI compatibility
   expression: 260,
   hdUpscale: 240,
   matting: 260,
@@ -114,7 +114,6 @@ export function videoNodeId(shotId: string) { return `video-${shotId}`; }
 /* ── New 12-node pipeline ID helpers ── */
 export function sceneBGNodeId(shotId: string) { return `scenebg-${shotId}`; }
 export function charProcessNodeId(shotId: string, charName: string) { return `charproc-${shotId}-${charName}`; }
-export function viewAngleNodeId(shotId: string, charName: string) { return `viewangle-${shotId}-${charName}`; }
 export function expressionNodeId(shotId: string, charName: string) { return `expression-${shotId}-${charName}`; }
 export function hdUpscaleNodeId(shotId: string, charName: string) { return `hdupscale-${shotId}-${charName}`; }
 export function mattingNodeId(shotId: string, charName: string) { return `matting-${shotId}-${charName}`; }
@@ -599,13 +598,6 @@ export function buildCanvasGraph(
           charExpression = shot.emotionTarget || '';
         }
 
-        // ViewAngle prompt: character action + camera angle
-        const viewAnglePromptParts = [
-          charAction ? `${charAction}` : cn,
-          shot.cameraAngle ? `${shot.cameraAngle} angle` : '',
-        ].filter(Boolean);
-        const viewAnglePrompt = viewAnglePromptParts.join(', ');
-
         // Expression prompt: default consistency prefix + structured expression/action
         const expressionSpecificParts = [
           charExpression,
@@ -644,35 +636,12 @@ export function buildCanvasGraph(
         });
         edges.push({ id: `e-${shId}-${cpId}`, source: shId, target: cpId, type: 'pipeline', data: { shotId: shot.id, segment: `shot-char-${cn}` } });
 
-        // ImageProcess: ViewAngle (Col 3)
-        const vaId = imageProcessNodeId(shot.id, cn, 'viewAngle');
-        nodes.push({
-          id: vaId,
-          type: 'imageProcess',
-          position: positionCache[vaId] ?? { x: COL_X[3], y: charY },
-          data: {
-            label: `视角·${cn}`,
-            status: 'idle' as CanvasNodeStatus,
-            sceneId: scene.id,
-            shotId: shot.id,
-            nodeType: 'imageProcess',
-            processType: 'viewAngle',
-            inputImageUrl: charRef.visualRefUrl,
-            inputStorageKey: charRef.visualRefStorageKey,
-            targetAngle: shot.cameraAngle || 'front',
-            viewAnglePrompt,
-            progress: 0,
-          } satisfies ImageProcessNodeData,
-          ...nodeDims('imageProcess'),
-        });
-        edges.push({ id: `e-${cpId}-${vaId}`, source: cpId, target: vaId, type: 'pipeline', data: { shotId: shot.id, segment: `char-viewangle-${cn}` } });
-
         // Pose3D node (companion to Expression, placed above it)
         const p3dId = pose3DNodeId(shot.id, cn);
         nodes.push({
           id: p3dId,
           type: 'pose3D',
-          position: positionCache[p3dId] ?? { x: COL_X[4], y: charY - BRANCH_GAP * 0.8 },
+          position: positionCache[p3dId] ?? { x: (COL_X[2] + COL_X[3]) / 2 - 80, y: charY - BRANCH_GAP * 0.45 },
           data: {
             label: `摆姿·${cn}`,
             status: 'idle' as CanvasNodeStatus,
@@ -684,15 +653,13 @@ export function buildCanvasGraph(
           } satisfies Pose3DNodeData,
           ...nodeDims('pose3D'),
         });
-        // ViewAngle → Pose3D (bypass — optional reference input)
-        edges.push({ id: `e-${vaId}-${p3dId}`, source: vaId, target: p3dId, type: 'bypass', data: { shotId: shot.id, segment: `viewangle-pose3d-${cn}` } });
 
-        // ImageProcess: Expression (Col 4)
+        // ImageProcess: Expression (Col 3)
         const exId = imageProcessNodeId(shot.id, cn, 'expression');
         nodes.push({
           id: exId,
           type: 'imageProcess',
-          position: positionCache[exId] ?? { x: COL_X[4], y: charY },
+          position: positionCache[exId] ?? { x: COL_X[3], y: charY },
           data: {
             label: `表情·${cn}`,
             status: 'idle' as CanvasNodeStatus,
@@ -704,39 +671,22 @@ export function buildCanvasGraph(
             emotion: charExpression,
             action: charAction || shot.description,
             progress: 0,
+            inputImageUrl: charRef.visualRefUrl,
+            inputStorageKey: charRef.visualRefStorageKey,
           } satisfies ImageProcessNodeData,
           ...nodeDims('imageProcess'),
         });
-        edges.push({ id: `e-${vaId}-${exId}`, source: vaId, target: exId, type: 'pipeline', data: { shotId: shot.id, segment: `viewangle-expression-${cn}` } });
+        // CharacterProcess → Expression (direct pipeline)
+        edges.push({ id: `e-${cpId}-${exId}`, source: cpId, target: exId, type: 'pipeline', data: { shotId: shot.id, segment: `char-expression-${cn}` } });
         // Pose3D → Expression (bypass — pose reference for expression generation)
         edges.push({ id: `e-${p3dId}-${exId}`, source: p3dId, target: exId, type: 'bypass', data: { shotId: shot.id, segment: `pose3d-expression-${cn}` } });
 
-        // ImageProcess: HDUpscale (Col 5, upper)
-        const hdId = imageProcessNodeId(shot.id, cn, 'hdUpscale');
-        nodes.push({
-          id: hdId,
-          type: 'imageProcess',
-          position: positionCache[hdId] ?? { x: COL_X[5], y: charY },
-          data: {
-            label: '高清化',
-            status: 'idle' as CanvasNodeStatus,
-            sceneId: scene.id,
-            shotId: shot.id,
-            nodeType: 'imageProcess',
-            processType: 'hdUpscale',
-            scaleFactor: 2,
-            progress: 0,
-          } satisfies ImageProcessNodeData,
-          ...nodeDims('imageProcess'),
-        });
-        edges.push({ id: `e-${exId}-${hdId}`, source: exId, target: hdId, type: 'pipeline', data: { shotId: shot.id, segment: `expression-hd-${cn}` } });
-
-        // ImageProcess: Matting (Col 5, lower)
+        // ImageProcess: Matting (Col 4)
         const mtId = imageProcessNodeId(shot.id, cn, 'matting');
         nodes.push({
           id: mtId,
           type: 'imageProcess',
-          position: positionCache[mtId] ?? { x: COL_X[6], y: charY },
+          position: positionCache[mtId] ?? { x: COL_X[4], y: charY },
           data: {
             label: '抠图',
             status: 'idle' as CanvasNodeStatus,
@@ -748,7 +698,7 @@ export function buildCanvasGraph(
           } satisfies ImageProcessNodeData,
           ...nodeDims('imageProcess'),
         });
-        edges.push({ id: `e-${hdId}-${mtId}`, source: hdId, target: mtId, type: 'pipeline', data: { shotId: shot.id, segment: `hd-matting-${cn}` } });
+        edges.push({ id: `e-${exId}-${mtId}`, source: exId, target: mtId, type: 'pipeline', data: { shotId: shot.id, segment: `expression-matting-${cn}` } });
         compositeSourceIds.push(mtId);
       }
 

@@ -29,6 +29,16 @@ const shot = {
   durationEstimate: '3s',
 };
 
+const defaultCharMap = {
+  Alice: {
+    name: 'Alice',
+    appearance: {},
+    costume: {},
+    visualRefUrl: undefined,
+    visualRefStorageKey: undefined,
+  },
+};
+
 describe('buildCanvasGraph with viewpoints', () => {
   it('passes viewpoints into SceneBGNode data', () => {
     const viewpoints: ViewPoint[] = [
@@ -44,15 +54,7 @@ describe('buildCanvasGraph with viewpoints', () => {
           viewpoints,
         },
       },
-      characterMap: {
-        Alice: {
-          name: 'Alice',
-          appearance: {},
-          costume: {},
-          visualRefUrl: undefined,
-          visualRefStorageKey: undefined,
-        },
-      },
+      characterMap: defaultCharMap,
     });
 
     const sceneBGNode = nodes.find(n => n.type === 'sceneBG');
@@ -71,23 +73,141 @@ describe('buildCanvasGraph with viewpoints', () => {
           panoramaUrl: 'http://test/panorama.jpg',
         },
       },
-      characterMap: {
-        Alice: {
-          name: 'Alice',
-          appearance: {},
-          costume: {},
-          visualRefUrl: undefined,
-          visualRefStorageKey: undefined,
-        },
-      },
+      characterMap: defaultCharMap,
     });
 
     const sceneBGNode = nodes.find(n => n.type === 'sceneBG');
     expect(sceneBGNode).toBeDefined();
 
     const data = sceneBGNode!.data as Record<string, unknown>;
-    expect(data.viewpoints).toEqual([]);
-    expect(data.activeViewpointId).toBeUndefined();
+    expect((data.viewpoints as unknown[]).length).toBeGreaterThan(0);
+    expect(data.activeViewpointId).toBe('vp-default-up');
     expect(data.panoramaUrl).toBe('http://test/panorama.jpg');
+  });
+});
+
+describe('Expression node receives character reference image as input', () => {
+  const charMapWithRef = {
+    Alice: {
+      name: 'Alice',
+      appearance: {},
+      costume: {},
+      visualRefUrl: 'http://test/alice-ref.png',
+      visualRefStorageKey: 'assets/characters/alice-ref.png',
+    },
+  };
+
+  it('should set inputImageUrl and inputStorageKey from charRef on Expression node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], { characterMap: charMapWithRef });
+    const exNode = nodes.find(n => n.id === 'imgproc-expression-shot1-Alice');
+    expect(exNode).toBeDefined();
+
+    const data = exNode!.data as Record<string, unknown>;
+    expect(data.inputImageUrl).toBe('http://test/alice-ref.png');
+    expect(data.inputStorageKey).toBe('assets/characters/alice-ref.png');
+  });
+
+  it('should leave inputImageUrl undefined when charRef has no visualRefUrl', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], { characterMap: defaultCharMap });
+    const exNode = nodes.find(n => n.id === 'imgproc-expression-shot1-Alice');
+    const data = exNode!.data as Record<string, unknown>;
+    expect(data.inputImageUrl).toBeUndefined();
+    expect(data.inputStorageKey).toBeUndefined();
+  });
+});
+
+describe('ViewAngle node removal — CharacterProcess connects directly to Expression', () => {
+  const opts = { characterMap: defaultCharMap };
+
+  it('should NOT contain any viewAngle imageProcess node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const viewAngleNodes = nodes.filter(
+      n => (n.data as Record<string, unknown>).processType === 'viewAngle',
+    );
+    expect(viewAngleNodes).toHaveLength(0);
+  });
+
+  it('should have a direct edge from CharacterProcess to Expression', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const cpToEx = edges.find(
+      e => e.source === `charproc-shot1-Alice` && e.target === `imgproc-expression-shot1-Alice`,
+    );
+    expect(cpToEx).toBeDefined();
+    expect(cpToEx!.type).toBe('pipeline');
+  });
+
+  it('should NOT have any edge involving a viewAngle node id', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const viewAngleEdges = edges.filter(
+      e => e.source.includes('viewangle') || e.target.includes('viewangle'),
+    );
+    expect(viewAngleEdges).toHaveLength(0);
+  });
+
+  it('should NOT have a bypass edge from viewAngle to pose3D', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const vaToP3d = edges.filter(
+      e => e.source.startsWith('imgproc-viewAngle-') && e.target.startsWith('pose3d-'),
+    );
+    expect(vaToP3d).toHaveLength(0);
+  });
+
+  it('should still have Pose3D node for each character', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const pose3d = nodes.find(n => n.id === `pose3d-shot1-Alice`);
+    expect(pose3d).toBeDefined();
+    expect((pose3d!.data as Record<string, unknown>).nodeType).toBe('pose3D');
+  });
+
+  it('should still have Pose3D → Expression bypass edge', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const p3dToEx = edges.find(
+      e => e.source === `pose3d-shot1-Alice` && e.target === `imgproc-expression-shot1-Alice`,
+    );
+    expect(p3dToEx).toBeDefined();
+    expect(p3dToEx!.type).toBe('bypass');
+  });
+});
+
+describe('Character HDUpscale removal — Expression connects directly to Matting', () => {
+  const opts = { characterMap: defaultCharMap };
+
+  it('should NOT contain any character hdUpscale node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const charHdNodes = nodes.filter(
+      n =>
+        (n.data as Record<string, unknown>).processType === 'hdUpscale' &&
+        !n.id.endsWith('-bg'),
+    );
+    expect(charHdNodes).toHaveLength(0);
+  });
+
+  it('should have a direct edge from Expression to Matting', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const exToMt = edges.find(
+      e =>
+        e.source === `imgproc-expression-shot1-Alice` &&
+        e.target === `imgproc-matting-shot1-Alice`,
+    );
+    expect(exToMt).toBeDefined();
+    expect(exToMt!.type).toBe('pipeline');
+  });
+
+  it('should NOT have Expression→hdUpscale or hdUpscale→Matting edges', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const hdEdges = edges.filter(
+      e =>
+        (e.source.includes('hdUpscale') || e.target.includes('hdUpscale')) &&
+        !e.source.endsWith('-bg') &&
+        !e.target.endsWith('-bg'),
+    );
+    expect(hdEdges).toHaveLength(0);
+  });
+
+  it('should still have Matting node for each character', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const mt = nodes.find(n => n.id === `imgproc-matting-shot1-Alice`);
+    expect(mt).toBeDefined();
+    expect((mt!.data as Record<string, unknown>).processType).toBe('matting');
   });
 });
