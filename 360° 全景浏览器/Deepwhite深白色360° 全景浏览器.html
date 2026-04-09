@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360° 全景图片浏览器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 添加 importmap 以解析 ES 模块的 "three" 依赖路径 -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #111; font-family: sans-serif; }
+        #canvas-container { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 1; cursor: grab; }
+        #canvas-container:active { cursor: grabbing; }
+        
+        /* 隐藏原生的文件上传输入框 */
+        #file-input { display: none; }
+        
+        /* UI 层叠在 Canvas 之上 */
+        .ui-layer { position: absolute; z-index: 10; }
+        
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .drag-active {
+            border-color: #3b82f6 !important;
+            background: rgba(59, 130, 246, 0.2) !important;
+        }
+
+        /* 新增：背景光晕动画效果 */
+        @keyframes blob {
+            0% { transform: translate(0px, 0px) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.9); }
+            100% { transform: translate(0px, 0px) scale(1); }
+        }
+        .animate-blob { animation: blob 7s infinite; }
+        .animation-delay-2000 { animation-delay: 2s; }
+        .animation-delay-4000 { animation-delay: 4s; }
+    </style>
+</head>
+<body class="text-white">
+
+    <!-- WebGL 渲染容器 -->
+    <div id="canvas-container"></div>
+
+    <!-- 初始上传界面 -->
+    <div id="upload-overlay" class="ui-layer inset-0 flex items-center justify-center transition-opacity duration-500 bg-gray-950 overflow-hidden">
+        
+        <!-- 装饰性背景光晕 -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+            <div class="absolute top-[10%] left-[15%] w-72 h-72 bg-blue-600 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob"></div>
+            <div class="absolute top-[20%] right-[15%] w-72 h-72 bg-purple-600 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob animation-delay-2000"></div>
+            <div class="absolute bottom-[15%] left-[30%] w-72 h-72 bg-cyan-600 rounded-full mix-blend-screen filter blur-[100px] opacity-40 animate-blob animation-delay-4000"></div>
+        </div>
+
+        <!-- 玻璃拟物化主卡片 -->
+        <div class="glass-panel p-10 rounded-3xl shadow-[0_8px_32px_0_rgba(0,0,0,0.36)] border border-white/10 max-w-xl w-full text-center mx-4 relative z-10 backdrop-blur-2xl bg-white/5">
+            
+            <div class="mb-8">
+                <h1 class="text-4xl font-extrabold mb-5 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400">
+                    360° 全景浏览器
+                </h1>
+                <p class="text-gray-300 text-sm leading-relaxed px-4">
+                    该应用将360VR全景图，转化为可观看浏览的视角，并且提供多种截图方式。
+                </p>
+            </div>
+            
+            <!-- 拖拽上传区域 -->
+            <div id="drop-zone" class="border-2 border-dashed border-gray-500/50 rounded-2xl p-10 cursor-pointer transition-all duration-300 hover:border-blue-400 hover:bg-blue-500/10 group bg-black/20">
+                <div class="bg-gray-800/50 rounded-full p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 group-hover:bg-blue-500/20">
+                    <svg class="w-10 h-10 text-gray-400 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
+                    </svg>
+                </div>
+                <p class="text-lg font-medium text-gray-200 group-hover:text-white transition-colors">点击选择文件，或将图片拖拽至此</p>
+                <p class="text-xs text-gray-500 mt-3 font-light">支持等距柱状投影全景图 (JPG / PNG / WEBP)</p>
+            </div>
+
+            <!-- 底部作者署名 -->
+            <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-center">
+                <div class="text-xs text-gray-400 tracking-wider">
+                    Designed by <span class="text-gray-200 font-medium">DeepWhite深白色</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 加载中提示 -->
+    <div id="loading-overlay" class="ui-layer inset-0 flex flex-col items-center justify-center bg-black/70 hidden">
+        <svg class="animate-spin h-12 w-12 text-blue-500 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        <p id="loading-text" class="text-lg font-medium">正在处理全景图...</p>
+    </div>
+
+    <!-- 右上角悬浮操作栏（图片加载后显示） -->
+    <div id="controls-panel" class="ui-layer top-6 right-6 hidden flex flex-col items-end gap-3">
+        
+        <button id="btn-screenshot-single" class="glass-panel hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg transition-colors shadow-lg flex items-center justify-center w-52" title="截取当前视角的画面">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            当前视角截图
+        </button>
+
+        <button id="btn-screenshot-4" class="glass-panel hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg transition-colors shadow-lg flex items-center justify-center w-52" title="以当前视角为前方的四方向截图">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+            四宫格截图 (2x2)
+        </button>
+
+        <button id="btn-screenshot-12" class="glass-panel hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg transition-colors shadow-lg flex items-center justify-center w-52" title="上排仰视，中排平视，下排俯视">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zM14 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"></path></svg>
+            十二宫格截图 (4x3)
+        </button>
+
+        <button id="btn-recenter" class="glass-panel hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg transition-colors shadow-lg flex items-center justify-center w-52" title="重置视角到原点">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+            重置视角
+        </button>
+
+        <button id="btn-change-image" class="glass-panel hover:bg-white/20 text-white font-medium py-2 px-4 rounded-lg transition-colors shadow-lg flex items-center justify-center w-52">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+            更换图片
+        </button>
+    </div>
+
+    <!-- 实际的文件输入框 -->
+    <input type="file" id="file-input" accept="image/jpeg, image/png, image/webp" />
+
+    <!-- 使用 type="module" 确保依赖正确加载 -->
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+        // --- UI 元素 ---
+        const dropZone = document.getElementById('drop-zone');
+        const fileInput = document.getElementById('file-input');
+        const uploadOverlay = document.getElementById('upload-overlay');
+        const loadingOverlay = document.getElementById('loading-overlay');
+        const loadingText = document.getElementById('loading-text');
+        const controlsPanel = document.getElementById('controls-panel');
+        const btnChangeImage = document.getElementById('btn-change-image');
+        const btnRecenter = document.getElementById('btn-recenter');
+        const btnScreenshotSingle = document.getElementById('btn-screenshot-single');
+        const btnScreenshot4 = document.getElementById('btn-screenshot-4');
+        const btnScreenshot12 = document.getElementById('btn-screenshot-12');
+
+        // --- Three.js 全局变量 ---
+        let scene, camera, renderer, controls, sphereMaterial;
+
+        // --- 初始化 Three.js 场景 ---
+        function initThreeJS() {
+            const container = document.getElementById('canvas-container');
+
+            // 1. 创建场景
+            scene = new THREE.Scene();
+
+            // 2. 创建相机
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 0, 0.1); 
+
+            // 3. 创建渲染器
+            renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.outputEncoding = THREE.sRGBEncoding; 
+            container.appendChild(renderer.domElement);
+
+            // 4. 创建轨道控制器
+            controls = new OrbitControls(camera, renderer.domElement);
+            controls.enableZoom = true;
+            controls.enablePan = false;    
+            controls.minDistance = 0.1;
+            controls.maxDistance = 100;    
+            controls.rotateSpeed = -0.5;   
+
+            // 5. 创建全景球体
+            const geometry = new THREE.SphereGeometry(500, 60, 40);
+            geometry.scale(-1, 1, 1);
+
+            sphereMaterial = new THREE.MeshBasicMaterial({ color: 0x111111 });
+            const sphere = new THREE.Mesh(geometry, sphereMaterial);
+            scene.add(sphere);
+
+            window.addEventListener('resize', onWindowResize, false);
+            animate();
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update(); 
+            renderer.render(scene, camera);
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function loadPanorama(imageDataUrl) {
+            loadingOverlay.classList.remove('hidden');
+
+            const textureLoader = new THREE.TextureLoader();
+            
+            textureLoader.load(
+                imageDataUrl,
+                function (texture) {
+                    texture.encoding = THREE.sRGBEncoding;
+                    texture.minFilter = THREE.LinearFilter;
+                    texture.magFilter = THREE.LinearFilter;
+
+                    sphereMaterial.map = texture;
+                    sphereMaterial.color.setHex(0xffffff);
+                    sphereMaterial.needsUpdate = true;
+
+                    loadingOverlay.classList.add('hidden');
+                    uploadOverlay.classList.add('hidden');
+                    controlsPanel.classList.remove('hidden');
+                    
+                    recenterCamera();
+                },
+                undefined,
+                function (err) {
+                    console.error('加载贴图出错:', err);
+                    loadingOverlay.classList.add('hidden');
+                    alert('图片加载失败，请尝试其他图片。');
+                }
+            );
+        }
+
+        function handleFile(file) {
+            if (!file) return;
+            if (!file.type.startsWith('image/')) {
+                alert('请上传图片文件 (JPG, PNG, WEBP)。');
+                return;
+            }
+
+            const reader = new FileReader();
+            loadingOverlay.classList.remove('hidden');
+            
+            reader.onload = function (e) {
+                loadPanorama(e.target.result);
+            };
+            
+            reader.onerror = function () {
+                loadingOverlay.classList.add('hidden');
+                alert('读取文件出错！');
+            };
+
+            reader.readAsDataURL(file);
+        }
+
+        // --- 事件绑定 ---
+        dropZone.addEventListener('click', () => { fileInput.click(); });
+        btnChangeImage.addEventListener('click', () => { fileInput.click(); });
+
+        function recenterCamera() {
+            camera.position.set(0, 0, 0.1);
+            controls.target.set(0, 0, 0);
+            camera.fov = 75;
+            camera.updateProjectionMatrix();
+            controls.update();
+        }
+        btnRecenter.addEventListener('click', recenterCamera);
+
+        // --- 核心截图生成逻辑 ---
+
+        // 1. 获取当前屏幕正中心的偏航角(Yaw)
+        function getCurrentBaseYaw() {
+            const dir = new THREE.Vector3();
+            camera.getWorldDirection(dir);
+            // Three.js 默认朝向 -Z。使用 atan2(x, z) 可得到当前所在的角度。
+            return Math.atan2(dir.x, dir.z);
+        }
+
+        // 2. 根据偏航角(Yaw)和俯仰角(Pitch)获取目标看向的三维坐标点
+        function getTargetPosition(yaw, pitch) {
+            return new THREE.Vector3(
+                Math.cos(pitch) * Math.sin(yaw),
+                Math.sin(pitch),
+                Math.cos(pitch) * Math.cos(yaw)
+            );
+        }
+
+        // 3. 通用截图控制器 (处理 2x2 和 4x3 截图)
+        async function takeScreenshotGrid(type) {
+            loadingText.innerText = '正在生成截图...';
+            loadingOverlay.classList.remove('hidden');
+            await new Promise(resolve => setTimeout(resolve, 50));
+
+            // 保存当前状态，以便截图完成后恢复
+            const origWidth = window.innerWidth;
+            const origHeight = window.innerHeight;
+            const origAspect = camera.aspect;
+            const origPos = camera.position.clone();
+            const origQuat = camera.quaternion.clone();
+
+            // 定义单个单元格的大小 (16:9 比例)
+            const cellW = 960; 
+            const cellH = 540; 
+            
+            // 设定网格行列数
+            const cols = (type === '4grid') ? 2 : 4;
+            const rows = (type === '12grid') ? 3 : 2; 
+
+            const finalWidth = cellW * cols;
+            const finalHeight = cellH * rows;
+
+            // 创建离屏 Canvas
+            const canvasObj = document.createElement('canvas');
+            canvasObj.width = finalWidth;
+            canvasObj.height = finalHeight;
+            const ctx = canvasObj.getContext('2d');
+
+            // 将渲染器切换到单个格子的分辨率
+            renderer.setSize(cellW, cellH);
+            camera.aspect = cellW / cellH;
+            camera.updateProjectionMatrix();
+
+            // 禁用控制器，避免它覆写我们手动设置的旋转
+            controls.enabled = false;
+
+            // 获取当前界面的视角基础角度
+            const baseYaw = getCurrentBaseYaw();
+            const imagesData = [];
+
+            // 生成不同类型所需的角度和行列映射
+            if (type === '4grid') {
+                // 原 2x2 四宫格: 当前平视四个方向
+                for (let i = 0; i < 4; i++) {
+                    // 每次向右旋转 90 度 (PI/2)
+                    const yaw = baseYaw - i * (Math.PI / 2);
+                    camera.position.set(0, 0, 0);
+                    camera.lookAt(getTargetPosition(yaw, 0));
+                    renderer.render(scene, camera);
+                    
+                    imagesData.push({ 
+                        src: renderer.domElement.toDataURL('image/jpeg', 0.95), 
+                        x: (i % 2) * cellW, 
+                        y: Math.floor(i / 2) * cellH 
+                    });
+                }
+            } else if (type === '12grid') {
+                // 新增 4x3 十二宫格: 仰视/平视/俯视
+                const pitchUp = Math.PI / 4;
+                const pitchDown = -Math.PI / 4;
+
+                for (let col = 0; col < 4; col++) {
+                    // 调整偏航角(yaw)的映射，使得当前主视图(baseYaw)落在 col=1（第二列）的位置
+                    // col=0: 左侧(+90度), col=1: 正前(0度), col=2: 右侧(-90度), col=3: 后方(-180度)
+                    const yaw = baseYaw + (1 - col) * (Math.PI / 2);
+                    
+                    // 【第一排：仰视】
+                    camera.position.set(0, 0, 0);
+                    camera.lookAt(getTargetPosition(yaw, pitchUp));
+                    renderer.render(scene, camera);
+                    imagesData.push({ src: renderer.domElement.toDataURL('image/jpeg', 0.95), x: col * cellW, y: 0 });
+
+                    // 【第二排：平视】
+                    camera.position.set(0, 0, 0);
+                    camera.lookAt(getTargetPosition(yaw, 0));
+                    renderer.render(scene, camera);
+                    imagesData.push({ src: renderer.domElement.toDataURL('image/jpeg', 0.95), x: col * cellW, y: cellH });
+
+                    // 【第三排：俯视】
+                    camera.position.set(0, 0, 0);
+                    camera.lookAt(getTargetPosition(yaw, pitchDown));
+                    renderer.render(scene, camera);
+                    imagesData.push({ src: renderer.domElement.toDataURL('image/jpeg', 0.95), x: col * cellW, y: cellH * 2 });
+                }
+            }
+
+            // 恢复相机和渲染器状态
+            renderer.setSize(origWidth, origHeight);
+            camera.aspect = origAspect;
+            camera.position.copy(origPos);
+            camera.quaternion.copy(origQuat);
+            camera.updateProjectionMatrix();
+            controls.enabled = true;
+            controls.update();
+
+            // 将截好的图绘制到 Canvas 上
+            for (const item of imagesData) {
+                const img = new Image();
+                await new Promise(resolve => {
+                    img.onload = () => {
+                        ctx.drawImage(img, item.x, item.y, cellW, cellH);
+                        resolve();
+                    };
+                    img.src = item.src;
+                });
+            }
+
+            // 绘制白色边框以作分隔
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = 4;
+            ctx.beginPath();
+            // 画纵向分隔线
+            for (let i = 1; i < cols; i++) {
+                ctx.moveTo(i * cellW, 0); ctx.lineTo(i * cellW, finalHeight);
+            }
+            // 画横向分隔线
+            for (let j = 1; j < rows; j++) {
+                ctx.moveTo(0, j * cellH); ctx.lineTo(finalWidth, j * cellH);
+            }
+            ctx.stroke();
+
+            // 导出并下载
+            const finalDataURL = canvasObj.toDataURL('image/jpeg', 0.95);
+            const link = document.createElement('a');
+            link.download = `panorama-${type}.jpg`;
+            link.href = finalDataURL;
+            link.click();
+
+            // 清理 UI
+            loadingText.innerText = '正在处理全景图...';
+            loadingOverlay.classList.add('hidden');
+        }
+
+        // --- 单张当前视角截图 ---
+        async function takeSingleScreenshot() {
+            loadingText.innerText = '正在生成截图...';
+            loadingOverlay.classList.remove('hidden');
+            await new Promise(resolve => setTimeout(resolve, 50));
+
+            const origWidth = window.innerWidth;
+            const origHeight = window.innerHeight;
+            const origAspect = camera.aspect;
+
+            // 强制渲染为 1920x1080 保证清晰度
+            renderer.setSize(1920, 1080);
+            camera.aspect = 1920 / 1080;
+            camera.updateProjectionMatrix();
+
+            renderer.render(scene, camera);
+            const dataURL = renderer.domElement.toDataURL('image/jpeg', 0.95);
+
+            renderer.setSize(origWidth, origHeight);
+            camera.aspect = origAspect;
+            camera.updateProjectionMatrix();
+
+            const link = document.createElement('a');
+            link.download = `panorama-single.jpg`;
+            link.href = dataURL;
+            link.click();
+
+            loadingOverlay.classList.add('hidden');
+        }
+
+        // 绑定所有截图模式的点击事件
+        btnScreenshotSingle.addEventListener('click', takeSingleScreenshot);
+        btnScreenshot4.addEventListener('click', () => takeScreenshotGrid('4grid'));
+        btnScreenshot12.addEventListener('click', () => takeScreenshotGrid('12grid'));
+
+        // 文件拖拽及选择交互
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            handleFile(file);
+            e.target.value = '';
+        });
+
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            window.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) { e.preventDefault(); e.stopPropagation(); }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => { dropZone.classList.add('drag-active'); }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => { dropZone.classList.remove('drag-active'); }, false);
+        });
+
+        window.addEventListener('drop', (e) => {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            if (files.length > 0) handleFile(files[0]);
+        }, false);
+
+        // 初始化
+        initThreeJS();
+
+    </script>
+</body>
+</html>

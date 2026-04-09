@@ -1,12 +1,15 @@
 'use client';
 
-import { memo, useState, useCallback } from 'react';
+import { memo, useState, useCallback, lazy, Suspense } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { Pose3DNodeData } from '../../../types/canvas';
-import { Pose3DEditor } from './Pose3DEditor';
 import { useProjectStore } from '../../../stores/projectStore';
 import { useCanvasStore } from '../../../stores/canvasStore';
 import { API_BASE_URL } from '../../../lib/api';
+
+const LazyPose3DEditor = lazy(() =>
+  import('./Pose3DEditor').then((m) => ({ default: m.Pose3DEditor })),
+);
 
 type Pose3DNode = Node<Pose3DNodeData, 'pose3D'>;
 
@@ -174,14 +177,27 @@ function Pose3DNodeComponent({ id, data, selected }: NodeProps<Pose3DNode>) {
         )}
       </div>
 
-      {/* Pose3D Editor Modal */}
-      <Pose3DEditor
-        isOpen={editorOpen}
-        onClose={() => setEditorOpen(false)}
-        onScreenshot={handleScreenshot}
-        initialJointAngles={data.jointAngles}
-        onPoseChange={handlePoseChange}
-      />
+      {/* Pose3D Editor Modal — lazy-loaded to defer three.js download */}
+      {editorOpen && (
+        <Suspense fallback={
+          <div style={{
+            position: 'fixed', inset: 0, zIndex: 9999,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            backgroundColor: 'rgba(0,0,0,0.7)', color: 'rgba(255,255,255,0.5)',
+            fontSize: 14,
+          }}>
+            正在加载 3D 编辑器…
+          </div>
+        }>
+          <LazyPose3DEditor
+            isOpen={editorOpen}
+            onClose={() => setEditorOpen(false)}
+            onScreenshot={handleScreenshot}
+            initialJointAngles={data.jointAngles}
+            onPoseChange={handlePoseChange}
+          />
+        </Suspense>
+      )}
     </div>
   );
 }

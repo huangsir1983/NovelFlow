@@ -19,9 +19,12 @@ import {
 } from '@unrealmake/shared/components';
 import dynamic from 'next/dynamic';
 
+import { CanvasSkeleton } from '@unrealmake/shared/components/production/canvas/CanvasSkeleton';
+import { ParticleBrandAnimation } from '@unrealmake/shared/components/production/canvas/ParticleBrandAnimation';
+
 const ShotProductionBoard = dynamic(
   () => import('@unrealmake/shared/components/production/ShotProductionBoard').then((m) => ({ default: m.ShotProductionBoard })),
-  { ssr: false, loading: () => <div className="flex h-full items-center justify-center text-sm text-white/30">Loading Canvas...</div> },
+  { ssr: false },
 );
 import {
   buildAnimaticClips,
@@ -1527,6 +1530,7 @@ export default function ProjectPage() {
   const [initialized, setInitialized] = useState(false);
   const [generatingAsset, setGeneratingAsset] = useState<string | null>(null);
   const [stageOverride, setStageOverride] = useState<StageTab | null>(requestedStageTab);
+  const [canvasOverlay, setCanvasOverlay] = useState<'visible' | 'fading' | 'gone'>('idle' as any);
   const sseRetryCountRef = useRef(0);
   const sseRetryTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pollingTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -1545,6 +1549,32 @@ export default function ProjectPage() {
     stageOverride ||
     normalizedRequestedStageTab ||
     normalizedStoreStageTab;
+
+  // ── Canvas brand animation: only plays on first entry to canvas tab ──
+  const canvasAnimPlayed = useRef(false);
+  const canvasOverlayTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
+  useEffect(() => {
+    if (activeStageTab === 'canvas') {
+      // Skip animation if already played once this session
+      if (canvasAnimPlayed.current) {
+        setCanvasOverlay('gone');
+        return;
+      }
+      canvasAnimPlayed.current = true;
+      setCanvasOverlay('visible');
+      const t1 = setTimeout(() => setCanvasOverlay('fading'), 15000);
+      const t2 = setTimeout(() => setCanvasOverlay('gone'), 15800);
+      canvasOverlayTimers.current = [t1, t2];
+    } else {
+      // Leaving canvas tab — clean up
+      canvasOverlayTimers.current.forEach(clearTimeout);
+      canvasOverlayTimers.current = [];
+      setCanvasOverlay('idle' as any);
+    }
+    return () => {
+      canvasOverlayTimers.current.forEach(clearTimeout);
+    };
+  }, [activeStageTab === 'canvas']); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!requestedStageTab) {
@@ -1594,6 +1624,9 @@ export default function ProjectPage() {
 
   // Load project and data
   useEffect(() => {
+    // Prefetch canvas chunk in parallel with data loading so it's ready when user enters canvas tab
+    import('@unrealmake/shared/components/production/ShotProductionBoard').catch(() => {});
+
     let cancelled = false;
 
     const loadProject = async () => {
@@ -2388,8 +2421,25 @@ export default function ProjectPage() {
 
   if (!initialized || store.loading) {
     return (
-      <div className="flex h-screen items-center justify-center bg-bg-0">
-        <div className="text-white/40">{t('common.loading')}</div>
+      <div className="flex h-screen flex-col bg-bg-0">
+        {/* Skeleton header bar */}
+        <div className="flex h-12 shrink-0 items-center border-b border-white/[0.06] px-4">
+          <div className="h-4 w-32 rounded bg-white/[0.06]" />
+          <div className="ml-auto flex gap-2">
+            <div className="h-6 w-16 rounded bg-white/[0.06]" />
+            <div className="h-6 w-16 rounded bg-white/[0.06]" />
+          </div>
+        </div>
+        {/* Skeleton stage tabs */}
+        <div className="flex h-10 shrink-0 items-center gap-4 border-b border-white/[0.06] px-4">
+          {[1,2,3,4,5].map(i => (
+            <div key={i} className="h-3 w-12 rounded bg-white/[0.06]" />
+          ))}
+        </div>
+        {/* Body area with canvas skeleton */}
+        <div className="flex-1 overflow-hidden">
+          <CanvasSkeleton />
+        </div>
       </div>
     );
   }
@@ -2494,10 +2544,25 @@ export default function ProjectPage() {
               onRetry={handleRetry}
             />
           ) : activeStageTab === 'canvas' ? (
-            <ShotProductionBoard
-              projectName={store.project.name}
-              onOpenPreview={handleOpenPreview}
-            />
+            <div className="relative h-full w-full">
+              {/* Canvas loads in the background */}
+              <ShotProductionBoard
+                projectName={store.project.name}
+                onOpenPreview={handleOpenPreview}
+              />
+              {/* Brand animation overlay — managed by page state, independent of dynamic import */}
+              {(canvasOverlay === 'visible' || canvasOverlay === 'fading') && (
+                <div
+                  className="absolute inset-0 z-[9998] pointer-events-none"
+                  style={{
+                    opacity: canvasOverlay === 'fading' ? 0 : 1,
+                    transition: 'opacity 800ms ease-out',
+                  }}
+                >
+                  <ParticleBrandAnimation />
+                </div>
+              )}
+            </div>
           ) : activeStageTab === 'preview' ? (
             <PreviewAnimaticWorkspace
               projectName={store.project.name}

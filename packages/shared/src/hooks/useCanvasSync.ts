@@ -600,7 +600,7 @@ export function useCanvasSync() {
         })
         .catch(() => {});
     }
-    }, 100); // debounce 100ms
+    }, initializedRef.current ? 100 : 0); // first build is immediate, subsequent debounce 100ms
 
     return () => clearTimeout(debounceRef.current);
   }, [scenes, shots, characters, nodeRunsByShotId, artifactsByShotId, locations, assetImages, assetImageKeys]);

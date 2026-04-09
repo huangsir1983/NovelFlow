@@ -1,0 +1,193 @@
+╔════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                    REACT FLOW CANVAS LAYOUT ARCHITECTURE                                         ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+HORIZONTAL LAYOUT (Column Spacing)
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+
+         X=0         X=420      X=860      X=1300     X=1740
+         │           │          │          │          │
+         ▼           ▼          ▼          ▼          ▼
+    ┌─────────┐  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐
+    │ Scene   │  │ Shot   │  │ Prompt │  │ Image  │  │ Video  │
+    │  Node   │  │  Node  │  │Assembly│  │  Gen   │  │  Gen   │
+    │  w=280  │  │ w=280  │  │ w=280  │  │ w=280  │  │ w=280  │
+    │ h=200   │  │ h=200  │  │ h=200  │  │ h=200  │  │ h=200  │
+    └─────────┘  └────────┘  └────────┘  └────────┘  └────────┘
+         │            │          │          │          │
+         └─────420────┘          │          │          │
+                │────────440─────┘          │          │
+                          │────────440─────┘          │
+                                  │────────440────────┘
+
+    COL_X = [0, 420, 860, 1300, 1740]
+    Δ between columns: 420, 440, 440, 440 pixels
+
+
+VERTICAL LAYOUT (Scene Spacing)
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+
+                        │
+                        ▼
+    ┌──────────────────────────────────────────┐
+    │         SCENE 1 (order: 0)               │ baseY = 0
+    │         [Scene Node centered]            │
+    │                                          │ sceneCenterY = 
+    │  Y=0    Shot 1  ─┐  Prompt  ─┐ Image   │   (300 - 0) / 2 = 150
+    │         [Row 1]  │           │  Video  │
+    │                  ├─ 300px ─┤           │  (SHOT_GAP = 300px)
+    │  Y=300  Shot 2  ─┤ (SHOT   │           │
+    │         [Row 2]  │  GAP)    │           │
+    │                  ├─ 300px ─┤           │
+    │  Y=600  Shot 3  ─┘          └─────────┘
+    │         [Row 3]                        │
+    │                                        │
+    │         Total shots height = 900px    │
+    │         (3 shots × 300px gap)          │
+    └──────────────────────────────────────────┘
+                        │
+              (SCENE_PADDING = 240px)
+                        │
+                        ▼
+    ┌──────────────────────────────────────────┐
+    │         SCENE 2 (order: 1)               │ baseY = 1140
+    │         [Scene Node centered]            │
+    │                                          │ (900 + 240 = 1140)
+    │  Y=1140 Shot 1  ─┐  Prompt  ─┐ Image   │
+    │         [Row 1]  │           │  Video  │
+    │                  ├─ 300px ─┤           │
+    │  Y=1440 Shot 2  ─┤ (SHOT   │           │
+    │         [Row 2]  │  GAP)    │           │
+    │                  ├─ 300px ─┤           │
+    │  Y=1740 Shot 3  ─┘          └─────────┘
+    │         [Row 3]                        │
+    │                                        │
+    │         Total shots height = 900px    │
+    │         (3 shots × 300px gap)          │
+    └──────────────────────────────────────────┘
+                        │
+              (SCENE_PADDING = 240px)
+                        │
+                        ▼
+    ┌──────────────────────────────────────────┐
+    │         SCENE 3 (order: 2)               │ baseY = 2280
+    │                                          │ (1140 + 900 + 240 = 2280)
+    │  ...more scenes follow...               │
+    └──────────────────────────────────────────┘
+
+
+POSITION CACHE MECHANISM
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+
+    ┌────────────────────────────┐
+    │   User drags node 'shot-5' │
+    │     from (420, 300)        │
+    │     to   (500, 600)        │
+    └───────────┬────────────────┘
+                │
+                ▼
+    ┌──────────────────────────────────┐
+    │ canvasStore.cacheNodePosition()   │
+    │ ('shot-5', 500, 600)             │
+    └───────────┬──────────────────────┘
+                │
+                ▼
+    ┌──────────────────────────────────┐
+    │ positionCache = {                │
+    │   ...                            │
+    │   'shot-5': { x: 500, y: 600 },  │
+    │   ...                            │
+    │ }                                │
+    └───────────┬──────────────────────┘
+                │
+    ┌───────────┴──────────────────────┐
+    │   Canvas data changes trigger     │
+    │   buildCanvasGraph() rebuild      │
+    └───────────┬──────────────────────┘
+                │
+                ▼
+    position = positionCache['shot-5'] ?? defaultPosition
+             = { x: 500, y: 600 }  ✓ User's adjustment preserved!
+
+
+CONSTANTS LOCATION
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+
+File: packages/shared/src/lib/canvasLayout.ts
+
+    Line 31: const COL_X = [0, 420, 860, 1300, 1740];
+    Line 32: const SCENE_PADDING = 240;
+    Line 33: const SHOT_GAP = 300;
+    Line 34: const NODE_WIDTH = 280;
+    Line 35: const NODE_HEIGHT = 200;
+
+
+DYNAMIC CALCULATION FLOW
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+
+    buildCanvasGraph(scenes, shots, options)
+           │
+           ├─ Sort scenes by order
+           │
+           ├─ Initialize: currentY = 0
+           │
+           └─► For each scene:
+               │
+               ├─ baseY = currentY
+               │
+               ├─ Calculate shotsGroupHeight = 
+               │   Math.max(0, sceneShots.length - 1) * SHOT_GAP
+               │
+               ├─ Create Scene Node at:
+               │   x: COL_X[0] = 0
+               │   y: baseY + shotsGroupHeight / 2
+               │
+               └─► For each shot in scene:
+                   │
+                   ├─ shotY = baseY + shotIndex * SHOT_GAP
+                   │
+                   ├─ Create Shot Node at:
+                   │   x: COL_X[1] = 420
+                   │   y: shotY
+                   │
+                   ├─ Create Prompt Node at:
+                   │   x: COL_X[2] = 860
+                   │   y: shotY
+                   │
+                   ├─ Create Image Node at:
+                   │   x: COL_X[3] = 1300
+                   │   y: shotY
+                   │
+                   └─ Create Video Node at:
+                       x: COL_X[4] = 1740
+                       y: shotY
+               
+               After all shots:
+               shotsHeight = Math.max(1, sceneShots.length) * SHOT_GAP
+               currentY += Math.max(NODE_HEIGHT, shotsHeight) + SCENE_PADDING
+
+
+KEY FILES REFERENCE
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+
+┌─ canvasLayout.ts
+│  ├─ buildCanvasGraph()              [Lines 135-316]  ◄── MAIN LAYOUT ENGINE
+│  ├─ buildCanvasGraphIncremental()   [Lines 326-417]  ◄── OPTIMIZED FOR VIRTUALIZATION
+│  ├─ getSceneNodeIds()               [Lines 420-422]
+│  ├─ getSceneBounds()                [Lines 425-439]
+│  └─ Helper functions (nodeId builders) [Lines 44-48]
+│
+├─ canvasStore.ts
+│  ├─ positionCache                   [Line 48]        ◄── CACHES USER DRAGS
+│  ├─ cacheNodePosition()             [Line 157-158]   ◄── STORES DRAG EVENTS
+│  ├─ getCachedPosition()             [Line 160]       ◄── RETRIEVES CACHED POS
+│  └─ onNodesChange()                 [Lines 124-136]  ◄── APPLIES CHANGES
+│
+├─ useCanvasSync.ts
+│  └─ useCanvasSync()                 [Lines 17-115]   ◄── CONVERTS DATA → NODES
+│
+└─ ShotProductionBoard.tsx
+   ├─ CanvasInner()                   [Lines 94-332]   ◄── RENDERS REACTFLOW
+   ├─ defaultViewport                 [Line 169]       ◄── INITIAL VIEW
+   └─ RF_OVERRIDES                    [Lines 16-72]    ◄── STYLE OVERRIDES
+
