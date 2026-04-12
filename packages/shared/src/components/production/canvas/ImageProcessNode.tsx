@@ -204,7 +204,8 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
 
   const cfg = PROCESS_CONFIG[data.processType] || PROCESS_CONFIG.viewAngle;
   const isMatting = data.processType === 'matting';
-  const isLandscape = data.processType === 'hdUpscale' && id.endsWith('-bg');
+  const isLandscape = (data.processType === 'hdUpscale' && id.endsWith('-bg'))
+    || (data.processType === 'expression' && id.endsWith('-scene'));
   const cardWidth = isLandscape ? CARD_WIDTH_LANDSCAPE : CARD_WIDTH;
   const imgHeight = isLandscape ? Math.round(CARD_WIDTH_LANDSCAPE * 9 / 16) : IMG_HEIGHT;
   const outputUrl = isMatting ? (data.outputPngUrl || data.outputImageUrl) : data.outputImageUrl;
@@ -397,6 +398,10 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
       const mentionIndices = mentionMatches ? mentionMatches.map(m => parseInt(m.slice(1))) : [];
       content.expressionPrompt = fullPrompt;
       content.mentionedImages = mentionIndices;
+
+      // Determine aspect ratio: post-composite (scene) = 16:9, per-character = 3:4
+      const isPostComposite = id.endsWith('-scene');
+      content.aspectRatio = isPostComposite ? '16:9' : '3:4';
 
       // Send ALL upstream images to backend so Gemini sees both character + pose reference
       if (upstreamImages.length > 0) {

@@ -29,10 +29,24 @@ def _acquire_image_quota(project_id: str = "global"):
 
 # --- Schemas ---
 
+class ReferenceImageItem(BaseModel):
+    data: str           # base64-encoded image
+    mime_type: str = "image/jpeg"
+
+
+class InterleavedPart(BaseModel):
+    """A single part in an interleaved text+image sequence for Gemini."""
+    type: str           # "text" or "image"
+    content: str        # text content, or base64-encoded image data
+    mime_type: str = "image/jpeg"  # only used when type="image"
+
+
 class TextToImageRequest(BaseModel):
     prompt: str
     aspect_ratio: str = "3:4"   # 1:1 | 3:4 | 4:3 | 16:9 | 9:16
     image_size: str = "2K"      # 1K | 2K | 4K (4K needs 4k model)
+    reference_images: list[ReferenceImageItem] | None = None  # legacy: all-images-first
+    interleaved_parts: list[InterleavedPart] | None = None    # preferred: text+image interleaved
 
 
 class ImageGenerateResponse(BaseModel):
@@ -60,10 +74,40 @@ def generate_image_from_text(
     from services.ai_engine import ai_engine
     from services.task_quota import release_quota
 
+    # Build interleaved parts or legacy reference_images
+    interleaved = None
+    ref_images = None
+
+    if data.interleaved_parts:
+        # Preferred: interleaved text+image parts → direct Gemini parts
+        logger.info(f"[IMAGE-API] Received {len(data.interleaved_parts)} interleaved parts")
+        interleaved = []
+        for i, part in enumerate(data.interleaved_parts):
+            if part.type == "text":
+                logger.info(f"[IMAGE-API] Part[{i}]: TEXT, len={len(part.content)}")
+                interleaved.append({"type": "text", "content": part.content})
+            elif part.type == "image":
+                raw_bytes = base64.b64decode(part.content)
+                logger.info(f"[IMAGE-API] Part[{i}]: IMAGE, b64_len={len(part.content)}, decoded={len(raw_bytes)} bytes, mime={part.mime_type}")
+                interleaved.append({
+                    "type": "image",
+                    "data": raw_bytes,
+                    "mime_type": part.mime_type,
+                })
+    elif data.reference_images:
+        ref_images = []
+        for ref in data.reference_images:
+            ref_images.append({
+                "data": base64.b64decode(ref.data),
+                "mime_type": ref.mime_type,
+            })
+
     lease = _acquire_image_quota()
     try:
         result = ai_engine.generate_image(
             prompt=data.prompt,
+            reference_images=ref_images,
+            interleaved_parts=interleaved,
             aspect_ratio=data.aspect_ratio,
             image_size=data.image_size,
             db=db,

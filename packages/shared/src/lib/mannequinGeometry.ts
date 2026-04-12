@@ -127,6 +127,10 @@ export interface MannequinResult {
   skeleton: THREE.Skeleton;
   jointMarkers: Map<string, THREE.Mesh>;
   gapFills: Map<string, THREE.Mesh>;
+  facialFeatures: Map<string, THREE.Mesh>;
+  outlineMesh: THREE.SkinnedMesh | null;
+  /** Captured on first updateAllHelpers call (rest pose) */
+  headRestWorldQuat: THREE.Quaternion | null;
   boneMap: Map<string, THREE.Bone>;
 }
 
@@ -196,8 +200,12 @@ export async function loadMannequin(modelUrl = '/models/Xbot.glb'): Promise<Mann
 
   const jointMarkers = _buildJointMarkers();
   const gapFills = _buildGapFills();
+  const facialFeatures = _buildFacialFeatures();
 
-  return { model, skinnedMesh: body, skeleton, jointMarkers, gapFills, boneMap };
+  // Outline disabled — previous attempts (clone, inflate) didn't work reliably with SkinnedMesh
+  const outlineMesh: THREE.SkinnedMesh | null = null;
+
+  return { model, skinnedMesh: body, skeleton, jointMarkers, gapFills, facialFeatures, outlineMesh, headRestWorldQuat: null, boneMap };
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -246,6 +254,65 @@ function _buildGapFills(): Map<string, THREE.Mesh> {
 }
 
 /* ══════════════════════════════════════════════════════════════
+   Facial features — eyes, eyebrows, nose, mouth for AI face detection
+   ══════════════════════════════════════════════════════════════ */
+
+/** Eyebrow arc — curved tube following head sphere */
+function _browArcGeo(): THREE.TubeGeometry {
+  const curve = new THREE.QuadraticBezierCurve3(
+    new THREE.Vector3(-0.016, 0, -0.004),
+    new THREE.Vector3(0, 0, 0.003),
+    new THREE.Vector3(0.016, 0, -0.004),
+  );
+  return new THREE.TubeGeometry(curve, 8, 0.002, 4, false);
+}
+
+/** Mouth arc — curved tube following head sphere */
+function _mouthArcGeo(): THREE.TubeGeometry {
+  const curve = new THREE.QuadraticBezierCurve3(
+    new THREE.Vector3(-0.016, 0, -0.003),
+    new THREE.Vector3(0, 0, 0.002),
+    new THREE.Vector3(0.016, 0, -0.003),
+  );
+  return new THREE.TubeGeometry(curve, 8, 0.0018, 4, false);
+}
+
+function _buildFacialFeatures(): Map<string, THREE.Mesh> {
+  const features = new Map<string, THREE.Mesh>();
+
+  // depthTest: true so features are hidden when viewed from behind
+  const eyeMat = new THREE.MeshStandardMaterial({ color: 0x1a1008, roughness: 0.3, metalness: 0 });
+  const browMat = new THREE.MeshStandardMaterial({ color: 0x2a1a0a, roughness: 0.8, metalness: 0 });
+  const noseMat = new THREE.MeshStandardMaterial({ color: 0xc0a080, roughness: 0.6, metalness: 0 });
+  const mouthMat = new THREE.MeshStandardMaterial({ color: 0xb06060, roughness: 0.5, metalness: 0 });
+
+  // Offsets in world space: X = right, Y = up, Z = forward (face direction)
+  // Rotated by head delta-quaternion (current vs rest) in updateAllHelpers
+  const specs: Array<{ name: string; geo: THREE.BufferGeometry; mat: THREE.Material; offset: [number, number, number] }> = [
+    // Eyes
+    { name: 'leftEye',  geo: new THREE.SphereGeometry(0.008, 8, 6), mat: eyeMat,   offset: [-0.040, 0.08, 0.13] },
+    { name: 'rightEye', geo: new THREE.SphereGeometry(0.008, 8, 6), mat: eyeMat,   offset: [0.040, 0.08, 0.13] },
+    // Eyebrows — curved arcs following head curvature
+    { name: 'leftBrow', geo: _browArcGeo(), mat: browMat,  offset: [-0.040, 0.105, 0.13] },
+    { name: 'rightBrow',geo: _browArcGeo(), mat: browMat,  offset: [0.040, 0.105, 0.13] },
+    // Nose — protrudes forward
+    { name: 'nose',     geo: new THREE.SphereGeometry(0.007, 8, 6), mat: noseMat,  offset: [0, 0.035, 0.14] },
+    // Mouth — curved arc following head curvature
+    { name: 'mouth',    geo: _mouthArcGeo(), mat: mouthMat, offset: [0, -0.005, 0.13] },
+  ];
+
+  for (const spec of specs) {
+    const mesh = new THREE.Mesh(spec.geo, spec.mat);
+    mesh.name = `face_${spec.name}`;
+    mesh.userData.localOffset = new THREE.Vector3(spec.offset[0], spec.offset[1], spec.offset[2]);
+    mesh.renderOrder = 998;
+    features.set(spec.name, mesh);
+  }
+
+  return features;
+}
+
+/* ══════════════════════════════════════════════════════════════
    Per-frame update
    ══════════════════════════════════════════════════════════════ */
 
@@ -272,6 +339,30 @@ export function updateAllHelpers(mannequin: MannequinResult) {
         bone.getWorldQuaternion(_wq);
         fill.quaternion.copy(_wq);
       }
+    }
+  }
+
+  // Position facial features relative to head bone using delta rotation from rest pose
+  const headBone = boneMap.get('head');
+  if (headBone && mannequin.facialFeatures.size > 0) {
+    headBone.getWorldPosition(_wp);
+    headBone.getWorldQuaternion(_wq);
+
+    // Capture rest-pose world quaternion on first call
+    if (!mannequin.headRestWorldQuat) {
+      mannequin.headRestWorldQuat = _wq.clone();
+    }
+
+    // Delta = how much the head has rotated from rest pose
+    const restInv = mannequin.headRestWorldQuat.clone().invert();
+    const delta = _wq.clone().multiply(restInv);
+
+    const headPos = _wp.clone();
+    for (const [, mesh] of mannequin.facialFeatures) {
+      // localOffset is in world space (X=right, Y=up, Z=forward in rest pose)
+      const offset = (mesh.userData.localOffset as THREE.Vector3).clone().applyQuaternion(delta);
+      mesh.position.copy(headPos).add(offset);
+      mesh.quaternion.copy(delta);
     }
   }
 }

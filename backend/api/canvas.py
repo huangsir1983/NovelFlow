@@ -930,6 +930,7 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
                 extra_images=extra_images if extra_images else None,
                 negative_prompt=content.get("negativePrompt"),
                 character_name=content.get("characterName"),
+                aspect_ratio=content.get("aspectRatio", "3:4"),
                 db=db,
             )
             # Save expression result as file so it can be reloaded

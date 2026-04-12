@@ -4,6 +4,7 @@ import { memo, useState, useCallback, useRef } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { SceneBGNodeData, ViewPoint } from '../../../types/canvas';
 import { PanoramaViewer } from '../../panorama/PanoramaViewer';
+import { DirectorStage3D } from '../../panorama/DirectorStage3D';
 import { useProjectStore } from '../../../stores/projectStore';
 import { useCanvasStore } from '../../../stores/canvasStore';
 import { API_BASE_URL } from '../../../lib/api';
@@ -13,6 +14,7 @@ type SceneBGNode = Node<SceneBGNodeData, 'sceneBG'>;
 function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
   const [hovered, setHovered] = useState(false);
   const [panoramaOpen, setPanoramaOpen] = useState(false);
+  const [directorStageOpen, setDirectorStageOpen] = useState(false);
   const [detailOpen, setDetailOpen] = useState(false);
 
   const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
@@ -337,6 +339,23 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
           </div>
         )}
 
+        {/* 3D Director Stage button */}
+        {data.panoramaUrl && (
+          <button
+            onClick={(e) => { e.stopPropagation(); setDirectorStageOpen(true); }}
+            style={{
+              position: 'absolute', top: data.locationName ? 28 : 10, right: 22, zIndex: 2,
+              fontSize: 9, padding: '2px 8px', borderRadius: 4, cursor: 'pointer',
+              backgroundColor: 'rgba(168,85,247,0.2)', color: 'rgba(168,85,247,0.85)',
+              border: '1px solid rgba(168,85,247,0.3)', transition: 'background 0.15s',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.backgroundColor = 'rgba(168,85,247,0.35)'; }}
+            onMouseLeave={e => { e.currentTarget.style.backgroundColor = 'rgba(168,85,247,0.2)'; }}
+          >
+            3D 导演台
+          </button>
+        )}
+
         {/* Status dot */}
         <div style={{
           position: 'absolute', top: 10, right: 10, width: 8, height: 8,
@@ -406,6 +425,15 @@ function SceneBGNodeComponent({ id, data, selected }: NodeProps<SceneBGNode>) {
           onViewpointChange={handleViewpointChange}
           onViewpointsUpdate={handleViewpointsUpdate}
           editMode={true}
+        />
+      )}
+
+      {/* 3D Director Stage Modal */}
+      {data.panoramaUrl && (
+        <DirectorStage3D
+          panoramaUrl={data.panoramaUrl}
+          isOpen={directorStageOpen}
+          onClose={() => setDirectorStageOpen(false)}
         />
       )}
     </div>

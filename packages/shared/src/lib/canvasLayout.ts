@@ -42,18 +42,18 @@ import { detectModuleType } from '../components/production/canvas/ModuleTemplate
  *   Col 2  (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
  *   Col 3  (1540) : Expression / Pose3D / PropAngle
  *   Col 4  (2060) : Matting
- *   Col 5  (2580) : (reserved)
- *   Col 6  (2860) : (reserved)
- *   Col 7  (3380) : Composite (merge point)
- *   Col 8  (3920) : BlendRefine
- *   Col 9  (4200) : Lighting
- *   Col 10 (4700) : FinalHD
- *   Col 11 (4980) : VideoGeneration
+ *   Col 5  (2320) : (reserved)
+ *   Col 6  (2450) : (reserved)
+ *   Col 7  (2580) : Composite (merge point)
+ *   Col 8  (3120) : BlendRefine
+ *   Col 9  (3720) : Lighting
+ *   Col 10 (4320) : FinalHD
+ *   Col 11 (4920) : VideoGeneration
  */
-const COL_X = [0, 500, 1020, 1540, 2060, 2580, 2860, 3380, 3920, 4200, 4700, 4980];
+const COL_X = [0, 500, 1020, 1540, 2060, 2320, 2450, 2580, 3120, 3720, 4320, 4920];
 const SCENE_PADDING = 600;  // vertical padding between scene groups
-const SHOT_GAP = 700;       // vertical gap between shots within a scene
-const BRANCH_GAP = 280;     // vertical gap between branches (sceneBG, characters, props)
+const SHOT_GAP = 800;       // vertical gap between shots within a scene
+const BRANCH_GAP = 400;     // vertical gap between branches (sceneBG, characters, props)
 const NODE_HEIGHT = 200;
 
 /** Actual card widths per node type — must match the component's outer div width */
@@ -121,6 +121,7 @@ export function propProcessNodeId(shotId: string, propIdx: number) { return `pro
 export function propAngleNodeId(shotId: string, propIdx: number) { return `propangle-${shotId}-${propIdx}`; }
 export function compositeNodeId(shotId: string) { return `composite-${shotId}`; }
 export function blendRefineNodeId(shotId: string) { return `blendrefine-${shotId}`; }
+export function postExpressionNodeId(shotId: string) { return `imgproc-expression-${shotId}-scene`; }
 export function lightingNodeId(shotId: string) { return `lighting-${shotId}`; }
 export function finalHDNodeId(shotId: string) { return `finalhd-${shotId}`; }
 export function imageProcessNodeId(shotId: string, charName: string, processType: string) { return `imgproc-${processType}-${shotId}-${charName}`; }
@@ -730,18 +731,42 @@ export function buildCanvasGraph(
       }
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // Post-composite chain (Col 7-8): BlendRefine → Lighting → FinalHD → VideoGen
+      // Post-composite chain (Col 8-11): Expression → Lighting → FinalHD → VideoGen
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
       const videoRun = runs.find((r) => r.nodeKey === 'video');
       const videoArtifact = artifacts.find((a) => a.type === 'video');
 
-      // BlendRefine (Col 7, upper)
+      // Post-composite Expression (Col 8) — Gemini img2img for scene refinement
+      const peId = postExpressionNodeId(shot.id);
+      nodes.push({
+        id: peId,
+        type: 'imageProcess',
+        position: positionCache[peId] ?? { x: COL_X[8], y: shotY },
+        data: {
+          label: '表情',
+          status: 'idle' as CanvasNodeStatus,
+          sceneId: scene.id,
+          shotId: shot.id,
+          nodeType: 'imageProcess',
+          processType: 'expression' as ImageProcessNodeData['processType'],
+          expressionPrompt: '以背景光源和色调为基准，将角色的光影、色域、边缘融合到背景中，使人物看起来真实存在于场景中。修复背景中的AI畸变和不自然纹理。保持角色的姿势、表情、服装和构图不变。',
+          inputImageUrl: undefined,
+          inputStorageKey: undefined,
+          outputImageUrl: undefined,
+          outputStorageKey: undefined,
+          progress: 0,
+        } satisfies ImageProcessNodeData,
+        ...nodeDims('imageProcess'),
+      });
+      edges.push({ id: `e-${compId}-${peId}`, source: compId, target: peId, type: 'pipeline', data: { shotId: shot.id, segment: 'composite-expression' } });
+
+      // BlendRefine (test branch) — RunningHub fusion, positioned below Expression
       const brId = blendRefineNodeId(shot.id);
       nodes.push({
         id: brId,
         type: 'blendRefine',
-        position: positionCache[brId] ?? { x: COL_X[8], y: shotY },
+        position: positionCache[brId] ?? { x: COL_X[8], y: shotY + 300 },
         data: {
           label: '融合',
           status: 'idle' as CanvasNodeStatus,
@@ -754,9 +779,9 @@ export function buildCanvasGraph(
         } satisfies BlendRefineNodeData,
         ...nodeDims('blendRefine'),
       });
-      edges.push({ id: `e-${compId}-${brId}`, source: compId, target: brId, type: 'pipeline', data: { shotId: shot.id, segment: 'composite-blend' } });
+      edges.push({ id: `e-${compId}-${brId}`, source: compId, target: brId, type: 'pipeline', data: { shotId: shot.id, segment: 'composite-blend-test' } });
 
-      // Lighting (Col 7, lower)
+      // Lighting (Col 9)
       const ltId = lightingNodeId(shot.id);
       nodes.push({
         id: ltId,
@@ -775,7 +800,7 @@ export function buildCanvasGraph(
         } satisfies LightingNodeData,
         ...nodeDims('lighting'),
       });
-      edges.push({ id: `e-${brId}-${ltId}`, source: brId, target: ltId, type: 'pipeline', data: { shotId: shot.id, segment: 'blend-lighting' } });
+      edges.push({ id: `e-${peId}-${ltId}`, source: peId, target: ltId, type: 'pipeline', data: { shotId: shot.id, segment: 'expression-lighting' } });
 
       // FinalHD (Col 8, upper)
       const fhId = finalHDNodeId(shot.id);

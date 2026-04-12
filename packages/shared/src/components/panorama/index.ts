@@ -1,1 +1,10 @@
 export { PanoramaViewer } from './PanoramaViewer';
+export { DirectorStage3D } from './DirectorStage3D';
+export { HybridDirectorStage3D } from './HybridDirectorStage3D';
+export { DepthStage3D } from './DepthStage3D';
+export { PointCloudStage3D } from './PointCloudStage3D';
+export { ParallaxStage3D } from './ParallaxStage3D';
+export type { Character3D, DirectorStage3DProps } from './directorStageHelpers';
+export type { StageCharacter } from './stageCharacter';
+export { createStageCharacter, applyBodyPreset, updateTransform, updateScale, updateJointAngles, updateRotation, updateY } from './stageCharacter';
+export { gnomonicNadirToEquirectUV, fovToExtent, DEFAULT_GROUND_FOV } from './gnomonicProjection';

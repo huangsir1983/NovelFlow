@@ -149,6 +149,11 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
         scene.add(fill);
       }
 
+      // Add facial features to scene
+      for (const feat of mannequin.facialFeatures.values()) {
+        scene.add(feat);
+      }
+
       mannequinRef.current = mannequin;
 
       // Force a matrix world update so helpers get correct initial positions
@@ -197,6 +202,13 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
         }
         for (const fill of m.gapFills.values()) {
           fill.geometry.dispose();
+        }
+        for (const feat of m.facialFeatures.values()) {
+          feat.geometry.dispose();
+          (feat.material as THREE.Material).dispose();
+        }
+        if (m.outlineMesh) {
+          (m.outlineMesh.material as THREE.Material).dispose();
         }
       }
       mannequinRef.current = null;
@@ -258,7 +270,7 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
     const scene = sceneRef.current;
     const mannequin = mannequinRef.current;
 
-    // Hide grid + Beta_Joints for clean screenshot, KEEP joint markers visible for AI pose detection
+    // Hide grid, Beta_Joints, and joint markers for clean screenshot — keep gap fills + facial features visible
     const hiddenForShot: THREE.Object3D[] = [];
     if (mannequin) {
       // Hide Beta_Joints (the model's built-in joint spheres)
@@ -268,6 +280,10 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
           hiddenForShot.push(child);
         }
       });
+      // Hide interactive joint markers (blue spheres — UI only)
+      for (const marker of mannequin.jointMarkers.values()) {
+        if (marker.visible) { marker.visible = false; hiddenForShot.push(marker); }
+      }
     }
     // Hide grid
     if (gridRef.current) { gridRef.current.visible = false; hiddenForShot.push(gridRef.current); }
@@ -277,6 +293,8 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
     renderer.setSize(1920, 1080);
     camera.aspect = 1920 / 1080;
     camera.updateProjectionMatrix();
+    // Ensure gap fills + facial features are positioned correctly before screenshot
+    if (mannequin) updateAllHelpers(mannequin);
     renderer.render(scene, camera);
 
     const base64 = renderer.domElement.toDataURL('image/jpeg', 0.92).split(',')[1];
@@ -374,19 +392,22 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
           </div>
         )}
 
-        {/* Bottom toolbar */}
-        <div style={{
-          position: 'absolute', bottom: 20, left: '50%', transform: 'translateX(-50%)',
-          display: 'flex', flexDirection: 'column', gap: 6, alignItems: 'center',
-          padding: '10px 16px', borderRadius: 12,
-          backgroundColor: 'rgba(15,17,22,0.9)', border: '1px solid rgba(255,255,255,0.08)',
-        }}>
-          {/* Row 1: body presets */}
-          <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
-            <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.25)', marginRight: 2 }}>身体</span>
+      </div>
+
+      {/* Right sidebar — presets & actions */}
+      <div style={{
+        width: 200, padding: '16px 12px', overflowY: 'auto',
+        backgroundColor: 'rgba(15,17,22,0.95)',
+        borderLeft: '1px solid rgba(255,255,255,0.06)',
+        display: 'flex', flexDirection: 'column', gap: 12,
+      }}>
+        {/* Body presets */}
+        <div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(168,85,247,0.9)', marginBottom: 6 }}>身体预设</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
             {(Object.entries(POSE_PRESETS) as [string, { label: string; angles: Record<string, { x: number; y: number; z: number }> }][]).map(([key, preset]) => (
               <button key={key} onClick={() => handlePreset(key)} style={{
-                padding: '4px 10px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer',
+                padding: '4px 8px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer',
                 backgroundColor: presetName === key ? 'rgba(168,85,247,0.25)' : 'rgba(255,255,255,0.06)',
                 color: presetName === key ? 'rgba(168,85,247,0.9)' : 'rgba(255,255,255,0.5)',
               }}>
@@ -394,9 +415,12 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
               </button>
             ))}
           </div>
-          {/* Row 2: hand presets (left + right) */}
-          <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
-            <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.25)', marginRight: 2 }}>左手</span>
+        </div>
+
+        {/* Left hand presets */}
+        <div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(96,165,250,0.9)', marginBottom: 6 }}>左手</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
             {(Object.entries(HAND_PRESETS) as [string, { label: string }][]).map(([key, hp]) => (
               <button key={`L${key}`} onClick={() => handleHandPreset('left', key)} style={{
                 padding: '3px 8px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer',
@@ -406,8 +430,13 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
                 {hp.label}
               </button>
             ))}
-            <div style={{ width: 1, height: 16, backgroundColor: 'rgba(255,255,255,0.08)', margin: '0 2px' }} />
-            <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.25)', marginRight: 2 }}>右手</span>
+          </div>
+        </div>
+
+        {/* Right hand presets */}
+        <div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(96,165,250,0.9)', marginBottom: 6 }}>右手</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
             {(Object.entries(HAND_PRESETS) as [string, { label: string }][]).map(([key, hp]) => (
               <button key={`R${key}`} onClick={() => handleHandPreset('right', key)} style={{
                 padding: '3px 8px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer',
@@ -418,18 +447,22 @@ function Pose3DEditorComponent({ isOpen, onClose, onScreenshot, initialJointAngl
               </button>
             ))}
           </div>
-          {/* Row 3: actions */}
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-            <button onClick={handleReset} style={{ padding: '4px 12px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.5)' }}>
-              重置
-            </button>
-            <button onClick={handleScreenshot} style={{ padding: '4px 14px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer', fontWeight: 500, backgroundColor: 'rgba(52,211,153,0.2)', color: 'rgba(52,211,153,0.9)' }}>
-              截图
-            </button>
-            <button onClick={onClose} style={{ padding: '4px 12px', borderRadius: 5, border: 'none', fontSize: 10, cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.5)' }}>
-              关闭
-            </button>
-          </div>
+        </div>
+
+        {/* Divider */}
+        <div style={{ height: 1, backgroundColor: 'rgba(255,255,255,0.06)' }} />
+
+        {/* Actions */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <button onClick={handleReset} style={{ width: '100%', padding: '6px 0', borderRadius: 6, border: 'none', fontSize: 11, cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.5)' }}>
+            重置
+          </button>
+          <button onClick={handleScreenshot} style={{ width: '100%', padding: '6px 0', borderRadius: 6, border: 'none', fontSize: 11, cursor: 'pointer', fontWeight: 500, backgroundColor: 'rgba(52,211,153,0.2)', color: 'rgba(52,211,153,0.9)' }}>
+            截图
+          </button>
+          <button onClick={onClose} style={{ width: '100%', padding: '6px 0', borderRadius: 6, border: 'none', fontSize: 11, cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.5)' }}>
+            关闭
+          </button>
         </div>
       </div>
 

@@ -1,14 +1,36 @@
 'use client';
-import { memo, useState, useCallback } from 'react';
+import { memo, useState, useCallback, useMemo } from 'react';
 import { type NodeProps, type Node, Handle, Position } from '@xyflow/react';
 import type { BlendRefineNodeData } from '../../../types/canvas';
 import { useNodeExecution } from '../../../hooks/useNodeExecution';
+import { useCanvasStore } from '../../../stores/canvasStore';
 
 type BlendRefineNode = Node<BlendRefineNodeData, 'blendRefine'>;
 
 function BlendRefineNodeComponent({ id, data, selected }: NodeProps<BlendRefineNode>) {
   const [hovered, setHovered] = useState(false);
-  const { runNode, confirmBlendRefine } = useNodeExecution();
+  const { runNode, propagateOutput } = useNodeExecution();
+
+  // Dynamically collect input from upstream composite node
+  const edges = useCanvasStore(s => s.edges);
+  const allNodes = useCanvasStore(s => s.nodes);
+  const upstreamImage = useMemo(() => {
+    const incoming = edges.filter(e => e.target === id);
+    for (const edge of incoming) {
+      const src = allNodes.find(n => n.id === edge.source);
+      const d = src?.data as Record<string, unknown> | undefined;
+      if (!d) continue;
+      // Only use outputImageUrl — do NOT fallback to inputImageUrl
+      // (composite's inputImageUrl may be a matting result, not the actual composite output)
+      const url = d.outputImageUrl as string | undefined;
+      const storageKey = d.outputStorageKey as string | undefined;
+      if (url || storageKey) return { url, storageKey };
+    }
+    return null;
+  }, [edges, allNodes, id]);
+
+  const inputUrl = data.inputImageUrl || upstreamImage?.url;
+  const inputKey = data.inputStorageKey || upstreamImage?.storageKey;
 
   const cardBg = selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e';
   const cardBorder = selected
@@ -21,18 +43,41 @@ function BlendRefineNodeComponent({ id, data, selected }: NodeProps<BlendRefineN
   const isRunning = data.status === 'running' || data.status === 'queued';
   const hasPreview = data.status === 'success' && !!data.previewImageUrl && !data.confirmed;
   const isConfirmed = data.status === 'success' && !!data.confirmed;
-  const hasInput = !!data.inputImageUrl;
+  const hasInput = !!inputUrl;
   const isError = data.status === 'error';
 
   const handleRun = useCallback((e: React.MouseEvent) => {
     e.stopPropagation();
+    // Ensure inputImageUrl/inputStorageKey are set from upstream before running
+    if (upstreamImage && (!data.inputImageUrl || !data.inputStorageKey)) {
+      const nodes = useCanvasStore.getState().nodes;
+      useCanvasStore.getState().setNodes(
+        nodes.map(n =>
+          n.id === id
+            ? { ...n, data: { ...n.data, inputImageUrl: upstreamImage.url, inputStorageKey: upstreamImage.storageKey } }
+            : n,
+        ),
+      );
+    }
     runNode(id);
-  }, [runNode, id]);
+  }, [runNode, id, upstreamImage, data.inputImageUrl, data.inputStorageKey]);
 
   const handleConfirm = useCallback((e: React.MouseEvent) => {
     e.stopPropagation();
-    confirmBlendRefine(id);
-  }, [confirmBlendRefine, id]);
+    const previewUrl = data.previewImageUrl;
+    const storageKey = data.outputStorageKey;
+    if (!previewUrl) return;
+
+    const nodes = useCanvasStore.getState().nodes;
+    useCanvasStore.getState().setNodes(
+      nodes.map(n =>
+        n.id === id
+          ? { ...n, data: { ...n.data, outputImageUrl: previewUrl, confirmed: true } }
+          : n,
+      ),
+    );
+    propagateOutput(id, previewUrl, storageKey);
+  }, [id, data.previewImageUrl, data.outputStorageKey, propagateOutput]);
 
   const imgBoxStyle: React.CSSProperties = {
     flex: 1,
@@ -97,7 +142,7 @@ function BlendRefineNodeComponent({ id, data, selected }: NodeProps<BlendRefineN
           <div style={imgBoxStyle}>
             {hasInput ? (
               <img
-                src={data.inputImageUrl}
+                src={inputUrl}
                 alt="合成图"
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
@@ -188,28 +233,17 @@ function BlendRefineNodeComponent({ id, data, selected }: NodeProps<BlendRefineN
             </div>
           )}
 
-          {/* Error state */}
+          {/* Error message */}
           {isError && (
-            <div style={{ marginTop: 10 }}>
-              <div style={{ fontSize: 10, color: '#f87171', textAlign: 'center', marginBottom: 6 }}>
+            <div style={{ marginTop: 6 }}>
+              <div style={{ fontSize: 10, color: '#f87171', textAlign: 'center' }}>
                 {data.errorMessage || '融图失败'}
               </div>
-              <button
-                onClick={handleRun}
-                style={{
-                  ...btnBase,
-                  width: '100%',
-                  backgroundColor: 'rgba(248,113,113,0.15)',
-                  color: '#f87171',
-                }}
-              >
-                重试
-              </button>
             </div>
           )}
 
-          {/* Idle state with input — show run button */}
-          {data.status === 'idle' && hasInput && (
+          {/* Show run button when not running and no preview pending */}
+          {!isRunning && !hasPreview && !isConfirmed && (
             <div style={{ marginTop: 10 }}>
               <button
                 onClick={handleRun}
@@ -220,7 +254,7 @@ function BlendRefineNodeComponent({ id, data, selected }: NodeProps<BlendRefineN
                   color: 'rgba(45,212,191,0.85)',
                 }}
               >
-                开始融图
+                {isError ? '重试融图' : '开始融图'}
               </button>
             </div>
           )}

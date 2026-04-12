@@ -160,6 +160,7 @@ class GeminiAdapter(ProviderAdapter):
         reference_image: bytes | None = None,
         reference_mime: str = "image/png",
         reference_images: list[dict] | None = None,
+        interleaved_parts: list[dict] | None = None,
         aspect_ratio: str = "3:4",
         image_size: str = "2K",
     ) -> ImageResponse:
@@ -168,12 +169,32 @@ class GeminiAdapter(ProviderAdapter):
         Args:
             reference_image: Single reference image bytes (legacy, used if reference_images is empty).
             reference_images: List of {"data": bytes, "mime_type": str} for multi-image input.
+            interleaved_parts: List of {"type": "text"|"image", ...} for precise text+image ordering.
+                When provided, maps directly to Gemini parts (overrides prompt + reference_images).
         """
         url = f"{self.base_url}/v1beta/models/{model}:generateContent?key={self.api_key}"
 
-        # Build parts — support multiple reference images
+        logger.info(f"[IMAGE-GEN] URL: {self.base_url}/v1beta/models/{model}:generateContent")
+        logger.info(f"[IMAGE-GEN] interleaved_parts count: {len(interleaved_parts) if interleaved_parts else 0}")
+        logger.info(f"[IMAGE-GEN] reference_images count: {len(reference_images) if reference_images else 0}")
+        logger.info(f"[IMAGE-GEN] has reference_image: {reference_image is not None}")
+
+        # Build parts — prefer interleaved for precise control
         parts = []
-        if reference_images:
+        if interleaved_parts:
+            # Direct mapping: each part becomes a Gemini part in exact order
+            for part in interleaved_parts:
+                if part["type"] == "text":
+                    parts.append({"text": part["content"]})
+                elif part["type"] == "image":
+                    image_b64 = base64.b64encode(part["data"]).decode("utf-8")
+                    parts.append({
+                        "inlineData": {
+                            "data": image_b64,
+                            "mimeType": part.get("mime_type", "image/png"),
+                        }
+                    })
+        elif reference_images:
             for ref in reference_images:
                 image_b64 = base64.b64encode(ref["data"]).decode("utf-8")
                 parts.append({
@@ -182,6 +203,7 @@ class GeminiAdapter(ProviderAdapter):
                         "mimeType": ref.get("mime_type", "image/png"),
                     }
                 })
+            parts.append({"text": prompt})
         elif reference_image:
             image_b64 = base64.b64encode(reference_image).decode("utf-8")
             parts.append({
@@ -190,7 +212,9 @@ class GeminiAdapter(ProviderAdapter):
                     "mimeType": reference_mime,
                 }
             })
-        parts.append({"text": prompt})
+            parts.append({"text": prompt})
+        else:
+            parts.append({"text": prompt})
 
         # Build image config — omit aspectRatio for unsupported ratios (e.g. "2:1")
         supported_ratios = {"1:1", "3:4", "4:3", "16:9", "9:16"}
@@ -211,15 +235,42 @@ class GeminiAdapter(ProviderAdapter):
             },
         }
 
+        # Diagnostic logging: parts summary
+        for i, p in enumerate(parts):
+            if "text" in p:
+                text_preview = p["text"][:200] + "..." if len(p["text"]) > 200 else p["text"]
+                logger.info(f"[IMAGE-GEN] Part[{i}]: TEXT, len={len(p['text'])}, preview={text_preview}")
+            elif "inlineData" in p:
+                b64_len = len(p["inlineData"]["data"])
+                mime = p["inlineData"]["mimeType"]
+                logger.info(f"[IMAGE-GEN] Part[{i}]: IMAGE, mime={mime}, b64_len={b64_len} (~{b64_len * 3 // 4 // 1024}KB)")
+
+        body_json = json.dumps(body)
+        logger.info(f"[IMAGE-GEN] Total request body size: {len(body_json) // 1024}KB ({len(body_json)} bytes)")
+
         start = time.time()
         resp = self._http_client.post(url, json=body, headers=self._headers())
+
+        logger.info(f"[IMAGE-GEN] Response status: {resp.status_code}")
+        if resp.status_code != 200:
+            logger.error(f"[IMAGE-GEN] Response body: {resp.text[:2000]}")
         resp.raise_for_status()
 
         elapsed = time.time() - start
         data = resp.json()
 
-        # Extract image from response
+        # Log response structure
         candidates = data.get("candidates", [])
+        logger.info(f"[IMAGE-GEN] Response candidates: {len(candidates)}")
+        if candidates:
+            resp_parts = candidates[0].get("content", {}).get("parts", [])
+            for i, rp in enumerate(resp_parts):
+                if "text" in rp:
+                    logger.info(f"[IMAGE-GEN] Resp Part[{i}]: TEXT = {rp['text'][:200]}")
+                elif "inlineData" in rp:
+                    logger.info(f"[IMAGE-GEN] Resp Part[{i}]: IMAGE, mime={rp['inlineData'].get('mimeType')}, b64_len={len(rp['inlineData'].get('data', ''))}")
+
+        # Extract image from response
         if not candidates:
             raise RuntimeError("No candidates in image generation response")
 

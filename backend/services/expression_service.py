@@ -27,6 +27,7 @@ def generate_expression(
     extra_images: list[dict] | None = None,
     negative_prompt: Optional[str] = None,
     character_name: Optional[str] = None,
+    aspect_ratio: str = "3:4",
     db=None,
 ) -> str:
     """
@@ -103,7 +104,7 @@ def generate_expression(
         result = ai_engine.generate_image(
             prompt=full_prompt,
             reference_images=ref_images_for_api,
-            aspect_ratio="3:4",
+            aspect_ratio=aspect_ratio,
             db=db,
         )
         return base64.b64encode(result["image_data"]).decode("utf-8")

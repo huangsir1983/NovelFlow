@@ -169,6 +169,59 @@ describe('ViewAngle node removal — CharacterProcess connects directly to Expre
   });
 });
 
+describe('Post-composite: BlendRefine replaced by Expression (Gemini)', () => {
+  const opts = { characterMap: defaultCharMap };
+
+  it('should NOT contain any blendRefine node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const brNodes = nodes.filter(n => n.type === 'blendRefine');
+    expect(brNodes).toHaveLength(0);
+  });
+
+  it('should contain a post-composite expression imageProcess node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const peNode = nodes.find(n => n.id === 'imgproc-expression-shot1-scene');
+    expect(peNode).toBeDefined();
+    expect(peNode!.type).toBe('imageProcess');
+    const data = peNode!.data as Record<string, unknown>;
+    expect(data.nodeType).toBe('imageProcess');
+    expect(data.processType).toBe('expression');
+  });
+
+  it('should have Composite → post-composite expression pipeline edge', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const edge = edges.find(
+      e => e.source === 'composite-shot1' && e.target === 'imgproc-expression-shot1-scene',
+    );
+    expect(edge).toBeDefined();
+    expect(edge!.type).toBe('pipeline');
+  });
+
+  it('should have post-composite expression → Lighting pipeline edge', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const edge = edges.find(
+      e => e.source === 'imgproc-expression-shot1-scene' && e.target === 'lighting-shot1',
+    );
+    expect(edge).toBeDefined();
+    expect(edge!.type).toBe('pipeline');
+  });
+
+  it('should NOT have any blendrefine edges', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const brEdges = edges.filter(
+      e => e.source.includes('blendrefine') || e.target.includes('blendrefine'),
+    );
+    expect(brEdges).toHaveLength(0);
+  });
+
+  it('should have a default expressionPrompt on post-composite expression node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const peNode = nodes.find(n => n.id === 'imgproc-expression-shot1-scene');
+    const data = peNode!.data as Record<string, unknown>;
+    expect(data.expressionPrompt).toBeTruthy();
+  });
+});
+
 describe('Character HDUpscale removal — Expression connects directly to Matting', () => {
   const opts = { characterMap: defaultCharMap };
 

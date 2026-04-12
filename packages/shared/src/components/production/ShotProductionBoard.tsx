@@ -292,12 +292,12 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         const { storage_key } = await resp.json();
         const persistentUrl = `${API_BASE_URL}/uploads/${storage_key}`;
 
-        // Update node with persistent URL
+        // Update node with persistent URL + storage key
         const latestNodes = useCanvasStore.getState().nodes;
         useCanvasStore.getState().setNodes(
           latestNodes.map((n) =>
             n.id === nodeId
-              ? { ...n, data: { ...n.data, outputImageUrl: persistentUrl } }
+              ? { ...n, data: { ...n.data, outputImageUrl: persistentUrl, outputStorageKey: storage_key } }
               : n,
           ),
         );
@@ -312,7 +312,7 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
           }),
         });
 
-        // Propagate output to downstream nodes (e.g. BlendRefine)
+        // Propagate output to downstream nodes (e.g. post-composite Expression)
         propagateOutput(nodeId, persistentUrl, storage_key);
       } catch (e) {
         console.error('Failed to persist composite output:', e);

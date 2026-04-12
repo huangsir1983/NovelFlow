@@ -224,7 +224,7 @@ export function useNodeExecution() {
           const outputPng = output.outputPngUrl || (outputKey?.endsWith('.png')
             ? `${API_BASE_URL}/uploads/${outputKey}` : undefined);
 
-          // BlendRefine: store result as preview (not output) — user must confirm
+          // BlendRefine: store result as preview — user must confirm before propagation
           if (nodeType === 'blendRefine') {
             updateNode(nodeId, {
               status: 'success',
@@ -234,7 +234,6 @@ export function useNodeExecution() {
               ...(outputKey ? { outputStorageKey: outputKey } : {}),
               ...(output.runninghubTaskId ? { runninghubTaskId: output.runninghubTaskId } : {}),
             });
-            // Do NOT propagate — wait for user confirmation
           } else {
             updateNode(nodeId, {
               status: 'success',
@@ -276,27 +275,5 @@ export function useNodeExecution() {
     [updateNode],
   );
 
-  /** Confirm blendRefine preview — copies previewImageUrl to outputImageUrl and propagates downstream */
-  const confirmBlendRefine = useCallback(
-    (nodeId: string) => {
-      const nodes = useCanvasStore.getState().nodes;
-      const node = nodes.find((n) => n.id === nodeId);
-      if (!node) return;
-
-      const data = node.data as Record<string, unknown>;
-      const previewUrl = data.previewImageUrl as string | undefined;
-      const storageKey = data.outputStorageKey as string | undefined;
-      if (!previewUrl) return;
-
-      updateNode(nodeId, {
-        outputImageUrl: previewUrl,
-        confirmed: true,
-      });
-
-      propagateOutput(nodeId, previewUrl, storageKey);
-    },
-    [updateNode, propagateOutput],
-  );
-
-  return { runNode, runFromNode, cancelRun, confirmBlendRefine, propagateOutput };
+  return { runNode, runFromNode, cancelRun, propagateOutput };
 }

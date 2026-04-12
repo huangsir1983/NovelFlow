@@ -454,6 +454,7 @@ class AIEngine:
         reference_image: bytes | None = None,
         reference_mime: str = "image/png",
         reference_images: list[dict] | None = None,
+        interleaved_parts: list[dict] | None = None,
         aspect_ratio: str = "3:4",
         image_size: str = "2K",
         capability_tier: str = "standard",
@@ -505,6 +506,7 @@ class AIEngine:
                         reference_image=reference_image,
                         reference_mime=reference_mime,
                         reference_images=reference_images,
+                        interleaved_parts=interleaved_parts,
                         aspect_ratio=aspect_ratio,
                         image_size=image_size,
                     )
