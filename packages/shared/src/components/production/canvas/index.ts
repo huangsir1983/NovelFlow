@@ -21,12 +21,13 @@ export { PropProcessNode } from './PropProcessNode';
 export { PropAngleNode } from './PropAngleNode';
 export { CompositeNode } from './CompositeNode';
 export { BlendRefineNode } from './BlendRefineNode';
-export { LightingNode } from './LightingNode';
 export { FinalHDNode } from './FinalHDNode';
 export { CompositeEditor } from './CompositeEditor';
 export { ImageProcessNode } from './ImageProcessNode';
 export { Pose3DNode } from './Pose3DNode';
 export { Pose3DEditor } from './Pose3DEditor';
+export { DirectorStage3DNode } from './DirectorStage3DNode';
+export { GeminiCompositeNode } from './GeminiCompositeNode';
 
 /* React Flow nodeTypes / edgeTypes registries */
 import { SceneNode } from './SceneNode';
@@ -46,10 +47,11 @@ import { PropProcessNode } from './PropProcessNode';
 import { PropAngleNode } from './PropAngleNode';
 import { CompositeNode } from './CompositeNode';
 import { BlendRefineNode } from './BlendRefineNode';
-import { LightingNode } from './LightingNode';
 import { FinalHDNode } from './FinalHDNode';
 import { ImageProcessNode } from './ImageProcessNode';
 import { Pose3DNode } from './Pose3DNode';
+import { DirectorStage3DNode } from './DirectorStage3DNode';
+import { GeminiCompositeNode } from './GeminiCompositeNode';
 
 export const canvasNodeTypes = {
   scene: SceneNode,
@@ -71,8 +73,9 @@ export const canvasNodeTypes = {
   pose3D: Pose3DNode,
   composite: CompositeNode,
   blendRefine: BlendRefineNode,
-  lighting: LightingNode,
   finalHD: FinalHDNode,
+  directorStage3D: DirectorStage3DNode,
+  geminiComposite: GeminiCompositeNode,
 } as const;
 
 export const canvasEdgeTypes = {

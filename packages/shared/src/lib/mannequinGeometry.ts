@@ -564,6 +564,54 @@ export const POSE_PRESETS: Record<string, { label: string; angles: PoseAngles }>
       rightLowerArm: { x: 0, y: 0, z: 5 },
     },
   },
+
+  leaning: {
+    label: '倚靠',
+    angles: {
+      hips: { x: 0, y: 15, z: 5 },
+      leftUpperArm:  { x: -20, y: 0, z: -50 },
+      rightUpperArm: { x: -80, y: 0, z: 40 },
+      rightLowerArm: { x: -30, y: 0, z: 10 },
+      leftUpperLeg:  { x: -5, y: 0, z: 0 },
+      rightUpperLeg: { x: 10, y: 10, z: 0 },
+      rightLowerLeg: { x: -15, y: 0, z: 0 },
+    },
+  },
+
+  kneeling: {
+    label: '跪',
+    angles: {
+      leftUpperLeg:  { x: -90, y: 0, z: 0 },
+      rightUpperLeg: { x: -90, y: 0, z: 0 },
+      leftLowerLeg:  { x: 160, y: 0, z: 0 },
+      rightLowerLeg: { x: 160, y: 0, z: 0 },
+      leftUpperArm:  { x: 0, y: 0, z: -60 },
+      rightUpperArm: { x: 0, y: 0, z: 60 },
+    },
+  },
+
+  pointing: {
+    label: '指向',
+    angles: {
+      rightUpperArm: { x: -80, y: 0, z: 30 },
+      rightLowerArm: { x: 0, y: 0, z: 5 },
+      leftUpperArm:  { x: 0, y: 0, z: -65 },
+      leftLowerArm:  { x: 0, y: 0, z: -3 },
+    },
+  },
+
+  bowing: {
+    label: '鞠躬',
+    angles: {
+      spine: { x: 20, y: 0, z: 0 },
+      chest: { x: 15, y: 0, z: 0 },
+      neck:  { x: 10, y: 0, z: 0 },
+      leftUpperArm:  { x: 10, y: 0, z: -55 },
+      rightUpperArm: { x: 10, y: 0, z: 55 },
+      leftLowerArm:  { x: 0, y: 0, z: -3 },
+      rightLowerArm: { x: 0, y: 0, z: 3 },
+    },
+  },
 };
 
 /* ══════════════════════════════════════════════════════════════

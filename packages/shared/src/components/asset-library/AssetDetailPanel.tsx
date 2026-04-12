@@ -868,6 +868,7 @@ function LocationDetail({ location }: { location: Location }) {
   const { assetImages, assetImageKeys, setAssetImage, setAssetImageKey, screenFormat, project } = useProjectStore();
   const [panoramaLoading, setPanoramaLoading] = useState(false);
   const [panoramaViewerOpen, setPanoramaViewerOpen] = useState(false);
+  const [depthMapLoading, setDepthMapLoading] = useState(false);
 
   const images = assetImages[location.id];
   const keys = assetImageKeys[location.id];
@@ -876,6 +877,7 @@ function LocationDetail({ location }: { location: Location }) {
   const mainImage = images?.['main'] || images?.['east'];
   const mainKey = keys?.['main'] || keys?.['east'];
   const panoramaImage = images?.['panorama'];
+  const depthMapImage = images?.['panorama_depth'];
 
   // Provide compatible images record for ImageSlotGrid
   const compatImages = images ? { ...images, main: mainImage || '' } : undefined;
@@ -912,6 +914,56 @@ function LocationDetail({ location }: { location: Location }) {
       setPanoramaLoading(false);
     }
   }, [mainKey, panoramaLoading, location, handleImageGenerated]);
+
+  // Generate depth map from panorama
+  const handleGenerateDepthMap = useCallback(async () => {
+    if (!panoramaImage || depthMapLoading) return;
+    setDepthMapLoading(true);
+    try {
+      // panoramaImage may be a URL or base64 — convert to Blob either way
+      let blob: Blob;
+      let mime = 'image/png';
+      if (panoramaImage.startsWith('http')) {
+        // Fetch from URL
+        const imgResp = await fetch(panoramaImage);
+        if (!imgResp.ok) throw new Error(`获取全景图失败 (${imgResp.status})`);
+        blob = await imgResp.blob();
+        mime = blob.type || 'image/png';
+      } else {
+        // base64 (with or without data: prefix)
+        const raw = panoramaImage.startsWith('data:')
+          ? panoramaImage.split(',')[1]
+          : panoramaImage;
+        mime = panoramaImage.startsWith('data:image/jpeg') ? 'image/jpeg' : 'image/png';
+        const bytes = Uint8Array.from(atob(raw), c => c.charCodeAt(0));
+        blob = new Blob([bytes], { type: mime });
+      }
+
+      const ext = mime.includes('jpeg') || mime.includes('jpg') ? 'jpg' : 'png';
+      const formData = new FormData();
+      formData.append('prompt',
+        'Generate a depth map of this image. Output a single-channel grayscale image. ' +
+        'White (255) = closest to camera, Black (0) = farthest from camera. ' +
+        'The depth map should accurately represent the 3D spatial structure of the scene ' +
+        'with smooth, continuous depth transitions. No text, no labels, no color — pure grayscale depth only.');
+      formData.append('aspect_ratio', '2:1');
+      formData.append('image_size', '2K');
+      formData.append('reference', new File([blob], `vr_panorama.${ext}`, { type: mime }));
+
+      const resp = await fetch(`${API_BASE_URL}/api/ai/generate-image/upload`, {
+        method: 'POST',
+        body: formData,
+      });
+      if (!resp.ok) throw new Error(`生成深度图失败 (${resp.status}): ${await resp.text()}`);
+      const data = await resp.json();
+      handleImageGenerated('panorama_depth', data.image_base64, data.storage_key ?? undefined);
+    } catch (err) {
+      console.error('Depth map generation failed:', err);
+      alert('深度图生成失败，请重试');
+    } finally {
+      setDepthMapLoading(false);
+    }
+  }, [panoramaImage, depthMapLoading, handleImageGenerated]);
 
   // Handle panorama screenshot
   const handlePanoramaScreenshot = useCallback(async (base64: string) => {
@@ -1008,6 +1060,45 @@ function LocationDetail({ location }: { location: Location }) {
               {panoramaLoading ? '生成中...' : '重新生成'}
             </button>
           </div>
+        )}
+      </div>
+
+      {/* Depth Map section */}
+      <div className="mb-4">
+        <p className="text-[10px] font-semibold uppercase tracking-wider text-white/25 mb-2">深度图</p>
+
+        {depthMapImage ? (
+          <div className="relative group">
+            <img
+              src={depthMapImage.startsWith('data:') || depthMapImage.startsWith('http') ? depthMapImage : `data:image/png;base64,${depthMapImage}`}
+              alt="深度图"
+              className="w-full rounded-xl border border-white/[0.06]"
+              style={{ aspectRatio: '2/1', objectFit: 'cover' }}
+            />
+            <div className="flex gap-2 mt-2">
+              <button
+                onClick={handleGenerateDepthMap}
+                disabled={depthMapLoading}
+                className="rounded-lg bg-white/[0.04] px-3 py-1.5 text-[11px] text-white/40 hover:bg-white/[0.08] transition-colors disabled:opacity-30"
+              >
+                {depthMapLoading ? '生成中...' : '重新生成'}
+              </button>
+            </div>
+          </div>
+        ) : (
+          <button
+            onClick={handleGenerateDepthMap}
+            disabled={!panoramaImage || depthMapLoading}
+            className="w-full rounded-xl border border-dashed border-white/10 bg-white/[0.02] py-6 text-center transition-colors hover:bg-white/[0.04] hover:border-white/20 disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            {depthMapLoading ? (
+              <span className="text-[12px] text-white/40">生成深度图中...</span>
+            ) : !panoramaImage ? (
+              <span className="text-[12px] text-white/30">请先生成全景图</span>
+            ) : (
+              <span className="text-[12px] text-white/50">生成深度图</span>
+            )}
+          </button>
         )}
       </div>
 

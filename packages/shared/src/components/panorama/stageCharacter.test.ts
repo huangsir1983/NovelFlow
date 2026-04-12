@@ -162,4 +162,42 @@ describe('stageCharacter', () => {
     expect(moved.rotationY).toBe(45);
     expect(moved.y).toBe(0.5);
   });
+
+  // ── New body presets (leaning, kneeling, pointing, bowing) ──
+
+  it('applies leaning preset', () => {
+    const char = createStageCharacter(0);
+    const updated = applyBodyPreset(char, 'leaning');
+    expect(updated.presetName).toBe('leaning');
+    expect(updated.jointAngles.hips).toBeDefined();
+    expect(updated.jointAngles.rightUpperArm).toBeDefined();
+  });
+
+  it('applies kneeling preset with bent knees', () => {
+    const char = createStageCharacter(0);
+    const updated = applyBodyPreset(char, 'kneeling');
+    expect(updated.presetName).toBe('kneeling');
+    expect(updated.jointAngles.leftUpperLeg).toBeDefined();
+    expect(updated.jointAngles.leftUpperLeg!.x).toBe(-90);
+    expect(updated.jointAngles.leftLowerLeg).toBeDefined();
+    expect(updated.jointAngles.leftLowerLeg!.x).toBe(160);
+  });
+
+  it('applies pointing preset with extended arm', () => {
+    const char = createStageCharacter(0);
+    const updated = applyBodyPreset(char, 'pointing');
+    expect(updated.presetName).toBe('pointing');
+    expect(updated.jointAngles.rightUpperArm).toBeDefined();
+    expect(updated.jointAngles.rightUpperArm!.x).toBe(-80);
+  });
+
+  it('applies bowing preset with forward lean', () => {
+    const char = createStageCharacter(0);
+    const updated = applyBodyPreset(char, 'bowing');
+    expect(updated.presetName).toBe('bowing');
+    expect(updated.jointAngles.spine).toBeDefined();
+    expect(updated.jointAngles.spine!.x).toBe(20);
+    expect(updated.jointAngles.chest).toBeDefined();
+    expect(updated.jointAngles.chest!.x).toBe(15);
+  });
 });

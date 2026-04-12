@@ -22,6 +22,18 @@ export interface StageCharacter {
   presetName: string;
 }
 
+/** A 2D sprite prop placed in the 3D stage. */
+export interface StageProp {
+  id: string;
+  name: string;
+  imageUrl: string;     // URL or base64 data-URI of prop image
+  x: number;
+  y: number;
+  z: number;
+  scale: number;
+  rotationY: number;    // degrees
+}
+
 // ── Constants ────────────────────────────────────────────────────
 
 export const STAGE_CHAR_COLORS = [

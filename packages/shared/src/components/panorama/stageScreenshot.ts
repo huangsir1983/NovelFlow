@@ -28,6 +28,8 @@ export interface StageScreenshots {
     stageCharName: string;
     color: string;
     screenshot: string;
+    /** Bounding box as percentage of 1920×1080 frame (0–100) */
+    bbox?: { left: number; top: number; width: number; height: number };
   }>;
 }
 
@@ -72,6 +74,7 @@ export function buildInterleavedParts(
     stageCharColor: string;
     poseScreenshot: string;
     referenceBase64: string;
+    bbox?: { left: number; top: number; width: number; height: number };
   }>,
   sceneDescription?: string,
 ): GeminiPart[] {
@@ -88,10 +91,13 @@ export function buildInterleavedParts(
   const lines: string[] = [];
 
   lines.push('## 任务');
-  lines.push('将3D导演台的人偶场景转化为真人影视级画面。每个人偶替换为对应的真人角色，严格保留原始场景的构图、光影和氛围。');
+  lines.push('将3D导演台的人偶场景转化为高品质影视级画面。每个彩色人偶替换为其对应的角色参考照中的人物形象。严格保留原始场景的构图、光影和氛围。');
   lines.push('');
-  lines.push('## 场景全貌');
-  lines.push('图1是3D导演台的场景全貌截图，展示了所有角色的位置关系、场景布局、光照方向和整体氛围。生成的画面必须复刻图1的构图和光影。');
+  lines.push('## 场景全貌（图1）');
+  lines.push('图1是3D导演台的场景全貌截图。生成的画面必须在以下三个维度同时精确复刻图1：');
+  lines.push('1. **构图复刻**：每个人偶在画面中的位置（左/中/右、上/中/下）、占画面的面积比例、身体朝向和角度——生成的角色必须与人偶完全一致，不能移动、不能放大缩小、不能改变朝向');
+  lines.push('2. **姿态复刻**：每个人偶的身体姿势（站/坐/蹲等）、肢体动作（手臂抬起/下垂、腿弯曲/伸直）、身体倾斜角度和转向——角色必须精确还原');
+  lines.push('3. **光影复刻**：图1中的光源位置、光照强度、色温和整体亮度——角色必须被同样的光源照亮，亮度和色温与周围环境一致');
   lines.push('');
 
   lines.push('## 角色对应关系（严格一一对应，不要互换）');
@@ -103,11 +109,29 @@ export function buildInterleavedParts(
     const colorName = hexToColorName(cd.stageCharColor);
     const poseIdx = imgIdx;
     const refIdx = imgIdx + 1;
+
+    // Build position description from bbox
+    let posDesc = '';
+    if (cd.bbox) {
+      const centerX = cd.bbox.left + cd.bbox.width / 2;
+      const centerY = cd.bbox.top + cd.bbox.height / 2;
+      const hPos = centerX < 33 ? '画面左侧' : centerX < 66 ? '画面中部' : '画面右侧';
+      const vPos = centerY < 33 ? '上方' : centerY < 66 ? '中间' : '下方';
+      const right = +(cd.bbox.left + cd.bbox.width).toFixed(1);
+      const bottom = +(cd.bbox.top + cd.bbox.height).toFixed(1);
+      posDesc = `【位置锁定】该角色在图1中位于${hPos}${vPos}，精确坐标：左边界${cd.bbox.left}%、上边界${cd.bbox.top}%、右边界${right}%、下边界${bottom}%，宽${cd.bbox.width}%×高${cd.bbox.height}%。生成后角色的轮廓必须落在这个矩形区域内，不能偏移也不能放大缩小。`;
+    }
+
     lines.push(
       `角色${ci + 1}「${cd.referenceCharName}」：` +
-      `图${poseIdx}（${colorName}人偶）是该角色的3D姿态，` +
-      `图${refIdx}是该角色的真人参考照。` +
-      `生成时，该角色必须使用图${refIdx}的外貌/发型/服装，同时严格保持图${poseIdx}的姿势、朝向和在场景中的位置。`,
+      `图${poseIdx}（${colorName}人偶）是该角色的3D姿态截图。` +
+      `图${refIdx}是该角色的参考形象照。` +
+      (posDesc ? posDesc : '') +
+      `生成时：` +
+      `(a) 【姿态精确复刻】角色的身体姿势、肢体动作、身体朝向和倾斜角度必须与图${poseIdx}中人偶完全一致——如果人偶身体向左侧转了30°，角色也必须向左侧转30°，绝对不能变成正面朝前；如果人偶微微前倾，角色也必须微微前倾。仔细观察人偶的：躯干朝向、头部转向、手臂姿态、腿部弯曲角度；` +
+      `(b) 【位置精确复刻】角色在画面中的水平位置和垂直位置必须与图${poseIdx}中人偶完全一致——如果人偶偏左站立，角色也必须偏左站立，绝对不能移到画面中央；` +
+      `(c) 角色的面容、脸型、五官、发型、发饰、服装必须与图${refIdx}高度一致，保持图${refIdx}的艺术风格（CG风保持CG风，不要转为写实风）；` +
+      `(d) 参考照的光照条件必须丢弃，角色必须被场景实际光源照亮，亮度和色温与周围环境一致。`,
     );
     lines.push('');
     imgIdx += 2;
@@ -119,13 +143,17 @@ export function buildInterleavedParts(
     lines.push('');
   }
 
-  lines.push('## 生成规则');
-  lines.push('1. 每个角色的姿态、朝向、位置必须与其对应的3D姿态截图完全一致，不要互换角色');
-  lines.push('2. 每个角色的外貌、发型、服装必须与其对应的真人参考照一致');
-  lines.push('3. 整体构图、光影方向、色调氛围必须与图1（场景全貌）保持一致');
-  lines.push('4. 角色身上的光影、色温必须与背景环境统一——光源方向、阴影角度、色调冷暖都要匹配场景，让角色自然融入背景，不能看起来像抠图贴上去的');
-  lines.push('5. 画面品质：影视级，画面统一，不要改变原始光影');
-  lines.push('6. 不要添加3D场景中没有的人物或元素');
+  lines.push('## 生成规则（按优先级排序，必须全部严格遵守）');
+  lines.push('1. **位置锁定**：每个角色在画面中的位置必须与图1中对应人偶完全一致。如果人偶在画面左侧1/3处，角色就必须在左侧1/3处——绝对禁止将角色向画面中央偏移或重新居中。上方给出了每个角色的精确百分比坐标矩形，角色轮廓必须落在该矩形内');
+  lines.push('2. **朝向锁定**：每个角色的身体朝向、躯干转向角度、头部转向必须与其3D姿态截图中的人偶完全一致。如果人偶身体侧转、斜对镜头，角色也必须侧转、斜对镜头——绝对禁止将角色转为正面朝前的对称站姿');
+  lines.push('3. **姿势锁定**：每个角色的身体姿势（坐/站/蹲/躺等）、肢体动作（手臂高低、腿部弯曲）、身体倾斜角度必须与其3D姿态截图完全一致');
+  lines.push('4. **大小锁定**：每个角色在画面中占据的面积比例必须与图1中对应人偶完全一致——不能放大也不能缩小，头顶和脚底必须与人偶对齐');
+  lines.push('5. **环境光融合**：角色不能看起来像贴图。必须：(a)丢弃参考照的棚拍光照；(b)角色亮度≈环境亮度（暗场景中角色也必须暗）；(c)角色色温与背景一致（烛光→暖黄，月光→冷蓝）；(d)角色身上有与光源方向一致的明暗面；(e)角色脚下/身下有投射阴影；(f)轮廓边缘自然过渡');
+  lines.push('6. **面部一致性**：脸型、五官必须与参考照高度一致。肤色基调保持一致但明暗和色温适配场景光照');
+  lines.push('7. **风格保真**：角色艺术风格与参考照一致（CG风保持CG风，不要转为写实风）');
+  lines.push('8. 发型、发饰、服装款式和颜色与参考照完全一致');
+  lines.push('9. 画面品质：影视级品质，画面统一');
+  lines.push('10. 不要添加3D场景中没有的人物或元素');
 
   parts.push({ type: 'text', content: lines.join('\n') });
 

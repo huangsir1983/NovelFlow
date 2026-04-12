@@ -75,6 +75,16 @@ interface CanvasStoreState {
   boxSelectActive: boolean;
   boxSelectRect: { x: number; y: number; w: number; h: number } | null;
 
+  /* 3D Director Stage clipboard */
+  stage3DClipboard: {
+    sceneId: string;
+    stageCharacters: Array<Record<string, unknown>>;
+    cameraState?: Record<string, unknown>;
+    screenshotBase64?: string;
+    screenshotStorageKey?: string;
+    characterScreenshots?: Array<Record<string, unknown>>;
+  } | null;
+
   /* Actions */
   setNodes: (nodes: Node[]) => void;
   setEdges: (edges: Edge[]) => void;
@@ -127,6 +137,10 @@ interface CanvasStoreState {
   setBoxSelectActive: (active: boolean) => void;
   setBoxSelectRect: (rect: { x: number; y: number; w: number; h: number } | null) => void;
 
+  /* 3D Director Stage copy/paste actions */
+  copyStage3D: (nodeId: string) => void;
+  pasteStage3D: (targetNodeId: string) => boolean;
+
   /* AI Panel actions */
   toggleAIPanel: () => void;
   setAIPanelOpen: (open: boolean) => void;
@@ -167,6 +181,8 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
 
   boxSelectActive: false,
   boxSelectRect: null,
+
+  stage3DClipboard: null,
 
   aiPanelOpen: false,
   aiMessages: [],
@@ -321,6 +337,97 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
 
   setBoxSelectActive: (boxSelectActive) => set({ boxSelectActive }),
   setBoxSelectRect: (boxSelectRect) => set({ boxSelectRect }),
+
+  copyStage3D: (nodeId) => {
+    const { nodes } = get();
+    const node = nodes.find(n => n.id === nodeId);
+    if (!node) return;
+    const d = node.data as Record<string, unknown>;
+    if (d.nodeType !== 'directorStage3D') return;
+    set({
+      stage3DClipboard: {
+        sceneId: d.sceneId as string,
+        stageCharacters: JSON.parse(JSON.stringify(d.stageCharacters || [])),
+        cameraState: d.cameraState ? JSON.parse(JSON.stringify(d.cameraState)) : undefined,
+        screenshotBase64: d.screenshotBase64 as string | undefined,
+        screenshotStorageKey: d.screenshotStorageKey as string | undefined,
+        characterScreenshots: d.characterScreenshots
+          ? JSON.parse(JSON.stringify(d.characterScreenshots))
+          : undefined,
+      },
+    });
+  },
+
+  pasteStage3D: (targetNodeId) => {
+    const { stage3DClipboard, nodes, edges } = get();
+    if (!stage3DClipboard) return false;
+    const targetNode = nodes.find(n => n.id === targetNodeId);
+    if (!targetNode) return false;
+    const td = targetNode.data as Record<string, unknown>;
+    if ((td.sceneId as string) !== stage3DClipboard.sceneId) return false;
+
+    // Find upstream CharacterProcess nodes for reference images
+    const charProcessDatas: Array<Record<string, unknown>> = [];
+    for (const e of edges) {
+      if (e.target !== targetNodeId) continue;
+      const upstream = nodes.find(n => n.id === e.source);
+      if (upstream && (upstream.data as Record<string, unknown>).nodeType === 'characterProcess') {
+        charProcessDatas.push(upstream.data as Record<string, unknown>);
+      }
+    }
+
+    set({
+      nodes: nodes.map(n => {
+        if (n.id === targetNodeId) {
+          const d = { ...n.data } as Record<string, unknown>;
+          d.stageCharacters = JSON.parse(JSON.stringify(stage3DClipboard.stageCharacters));
+          d.cameraState = stage3DClipboard.cameraState
+            ? JSON.parse(JSON.stringify(stage3DClipboard.cameraState))
+            : undefined;
+          // Copy source screenshot as initial preview
+          d.screenshotBase64 = stage3DClipboard.screenshotBase64;
+          d.screenshotStorageKey = stage3DClipboard.screenshotStorageKey;
+          d.characterScreenshots = stage3DClipboard.characterScreenshots
+            ? JSON.parse(JSON.stringify(stage3DClipboard.characterScreenshots))
+            : undefined;
+          return { ...n, data: d };
+        }
+
+        // Propagate to downstream GeminiComposite nodes
+        const downEdge = edges.find(e => e.source === targetNodeId && e.target === n.id);
+        if (downEdge && (n.data as Record<string, unknown>).nodeType === 'geminiComposite'
+            && stage3DClipboard.screenshotBase64) {
+          const charScreenshots = (stage3DClipboard.characterScreenshots || []) as Array<Record<string, unknown>>;
+          const mappings = charScreenshots.map(cs => {
+            const cpData = charProcessDatas.find(
+              cp => cp.characterName === cs.stageCharName,
+            );
+            return {
+              stageCharId: cs.stageCharId,
+              stageCharName: cs.stageCharName,
+              color: cs.color,
+              poseScreenshot: cs.screenshot,
+              bbox: cs.bbox,
+              referenceImageUrl: cpData?.visualRefUrl,
+              referenceStorageKey: cpData?.visualRefStorageKey,
+            };
+          });
+          return {
+            ...n,
+            data: {
+              ...n.data,
+              sceneScreenshotBase64: stage3DClipboard.screenshotBase64,
+              characterMappings: mappings,
+              status: 'idle',
+            },
+          };
+        }
+
+        return n;
+      }),
+    });
+    return true;
+  },
 
   toggleAIPanel: () => set((s) => ({ aiPanelOpen: !s.aiPanelOpen })),
   setAIPanelOpen: (open) => set({ aiPanelOpen: open }),

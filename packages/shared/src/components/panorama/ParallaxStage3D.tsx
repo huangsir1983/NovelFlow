@@ -8,6 +8,7 @@ import { TransformControls } from 'three/examples/jsm/controls/TransformControls
 import { createLabelSprite } from './directorStageHelpers';
 import {
   type StageCharacter,
+  type StageProp,
   createStageCharacter,
   applyBodyPreset,
   updateTransform,
@@ -43,6 +44,8 @@ const BODY_PRESETS: { key: string; label: string }[] = [
   { key: 'thinking', label: '思考' }, { key: 'tpose', label: 'T-Pose' },
   { key: 'hugging', label: '拥抱' }, { key: 'prone', label: '趴下' },
   { key: 'lying', label: '躺下' },
+  { key: 'leaning', label: '倚靠' }, { key: 'kneeling', label: '跪' },
+  { key: 'pointing', label: '指向' }, { key: 'bowing', label: '鞠躬' },
 ];
 
 export interface ParallaxStage3DProps {
@@ -51,10 +54,15 @@ export interface ParallaxStage3DProps {
   isOpen: boolean;
   onClose: () => void;
   sphereRadius?: number;
-  parallaxScale?: number;  // strength of parallax effect (default 0.15)
+  parallaxScale?: number;  // strength of parallax effect (default 0.3)
   characters?: StageCharacter[];
   onCharactersUpdate?: (chars: StageCharacter[]) => void;
   onScreenshots?: (screenshots: StageScreenshots) => void;
+  props?: StageProp[];     // 2D sprite props placed in the 3D scene
+  /** Called when camera state changes (on close / screenshot) for persistence */
+  onCameraStateChange?: (state: { position: { x: number; y: number; z: number }; fov: number; target: { x: number; y: number; z: number } }) => void;
+  /** Restore camera to this state on open */
+  initialCameraState?: { position: { x: number; y: number; z: number }; fov: number; target: { x: number; y: number; z: number } };
 }
 
 // ── Parallax Occlusion Mapping shader for sphere interior ────────
@@ -167,10 +175,13 @@ export function ParallaxStage3D({
   isOpen,
   onClose,
   sphereRadius = 10,
-  parallaxScale = 0.15,
+  parallaxScale = 0.3,
   characters: initialCharacters = [],
   onCharactersUpdate,
   onScreenshots,
+  props: stageProps = [],
+  onCameraStateChange,
+  initialCameraState,
 }: ParallaxStage3DProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
@@ -181,6 +192,8 @@ export function ParallaxStage3D({
   const sphereMeshRef = useRef<THREE.Mesh | null>(null);
   const charGroupRef = useRef<THREE.Group | null>(null);
   const charObjsRef = useRef<Map<string, MannequinInstance>>(new Map());
+  const propGroupRef = useRef<THREE.Group | null>(null);
+  const propMeshesRef = useRef<Map<string, THREE.Mesh>>(new Map());
   const mannequinSourceRef = useRef<any>(null);
   const selectedCharIdRef = useRef<string | null>(null);
   const animIdRef = useRef(0);
@@ -205,6 +218,7 @@ export function ParallaxStage3D({
   const [selectedJoint, setSelectedJoint] = useState<string | null>(null);
   const [leftHandPreset, setLeftHandPreset] = useState<string | null>(null);
   const [rightHandPreset, setRightHandPreset] = useState<string | null>(null);
+  const [shutterPhase, setShutterPhase] = useState<'idle' | 'flash' | 'fade'>('idle');
 
   useEffect(() => { charsRef.current = chars; }, [chars]);
 
@@ -220,10 +234,24 @@ export function ParallaxStage3D({
   }, [initialCharacters]);
 
   const onScreenshotsRef = useRef(onScreenshots);
+  const onCameraStateChangeRef = useRef(onCameraStateChange);
   useEffect(() => { onCharsUpdateRef.current = onCharactersUpdate; }, [onCharactersUpdate]);
   useEffect(() => { onScreenshotsRef.current = onScreenshots; }, [onScreenshots]);
   useEffect(() => { onCloseRef.current = onClose; }, [onClose]);
+  useEffect(() => { onCameraStateChangeRef.current = onCameraStateChange; }, [onCameraStateChange]);
   useEffect(() => { selectedCharIdRef.current = selectedCharId; }, [selectedCharId]);
+
+  /** Emit current camera state for persistence */
+  const emitCameraState = useCallback(() => {
+    const camera = cameraRef.current;
+    const controls = controlsRef.current;
+    if (!camera || !controls || !onCameraStateChangeRef.current) return;
+    onCameraStateChangeRef.current({
+      position: { x: camera.position.x, y: camera.position.y, z: camera.position.z },
+      fov: camera.fov,
+      target: { x: controls.target.x, y: controls.target.y, z: controls.target.z },
+    });
+  }, []);
 
   // ── Main scene setup ──
   useEffect(() => {
@@ -256,6 +284,19 @@ export function ParallaxStage3D({
     controls.enableZoom = false;   // we handle zoom via FOV
     controls.enablePan = false;    // we handle pan manually
     controls.rotateSpeed = -0.3;   // inverted for inside-sphere feel
+    controlsRef.current = controls;
+
+    // Restore camera state if available (from copy/paste or previous session)
+    if (initialCameraState) {
+      camera.position.set(initialCameraState.position.x, initialCameraState.position.y, initialCameraState.position.z);
+      camera.fov = initialCameraState.fov;
+      camera.updateProjectionMatrix();
+      controls.target.set(initialCameraState.target.x, initialCameraState.target.y, initialCameraState.target.z);
+      // Force immediate sync — damping would otherwise interpolate and drift
+      controls.enableDamping = false;
+      controls.update();
+      controls.enableDamping = true;
+    }
     controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: undefined as any, RIGHT: THREE.MOUSE.ROTATE };
     controls.update();
     controlsRef.current = controls;
@@ -350,6 +391,12 @@ export function ParallaxStage3D({
     scene.add(charGroup);
     charGroupRef.current = charGroup;
 
+    // Prop group — same ground level as characters
+    const propGroup = new THREE.Group();
+    propGroup.position.y = -eyeLevel;
+    scene.add(propGroup);
+    propGroupRef.current = propGroup;
+
     // Load textures
     setLoading(true);
     const loader = new THREE.TextureLoader();
@@ -404,16 +451,34 @@ export function ParallaxStage3D({
           cb(tex);
           checkReady();
         };
-        img.onerror = () => { loaded++; setLoading(false); };
+        img.onerror = () => { console.warn('[ParallaxStage3D] Texture load failed:', url); loaded++; setLoading(false); };
         img.src = url;
       });
     };
 
     loadTex(panoramaUrl, (t) => { panoTex = t; });
-    loadTex(depthMapUrl, (t) => {
-      t.colorSpace = THREE.LinearSRGBColorSpace;
-      depthTex = t;
-    });
+    if (depthMapUrl) {
+      console.log('[ParallaxStage3D] Loading depth map:', depthMapUrl);
+      loadTex(depthMapUrl, (t) => {
+        t.colorSpace = THREE.LinearSRGBColorSpace;
+        depthTex = t;
+        console.log('[ParallaxStage3D] Depth map loaded successfully');
+      });
+    } else {
+      console.log('[ParallaxStage3D] No depth map URL, using flat fallback');
+      // No depth map — create a flat white texture (no parallax effect)
+      const canvas = document.createElement('canvas');
+      canvas.width = 4;
+      canvas.height = 2;
+      const ctx = canvas.getContext('2d')!;
+      ctx.fillStyle = '#808080'; // mid-gray = no displacement
+      ctx.fillRect(0, 0, 4, 2);
+      depthTex = new THREE.CanvasTexture(canvas);
+      depthTex.wrapS = THREE.RepeatWrapping;
+      depthTex.wrapT = THREE.ClampToEdgeWrapping;
+      loaded++;
+      checkReady();
+    }
 
     // ── Pointer events ──
     const handlePointerDown = (e: PointerEvent) => {
@@ -532,15 +597,38 @@ export function ParallaxStage3D({
       controls.update();
 
       // Clamp camera inside sphere after pan
-      const maxMove = sphereRadius * 0.4;
+      const maxMove = sphereRadius * 0.25;
       camera.position.x = Math.max(-maxMove, Math.min(maxMove, camera.position.x));
       camera.position.y = Math.max(-maxMove, Math.min(maxMove, camera.position.y));
       camera.position.z = Math.max(-maxMove, Math.min(maxMove, camera.position.z));
 
-      // Update camera position uniform for POM
+      // Update camera position uniform for POM.
+      // POM requires camera offset from sphere center to produce parallax.
+      // When camera is at center (the default), viewDir ≈ surfaceNormal everywhere,
+      // so tangential components are ~0 and no UV displacement occurs.
+      // Fix: offset virtual camera backward along view direction so that edge-of-view
+      // fragments have meaningful tangential view components, creating visible depth.
       if (sphereMeshRef.current) {
         const mat = sphereMeshRef.current.material as THREE.ShaderMaterial;
-        mat.uniforms.uCameraPos.value.copy(camera.position);
+        const dir = new THREE.Vector3();
+        camera.getWorldDirection(dir);
+
+        // Read the user-set base parallax scale (from slider / prop)
+        // We store it separately to avoid feedback loops with attenuation
+        const basePScale = mat.uniforms.uParallaxScale.value as number;
+
+        // Attenuate POM strength when camera is off-center to reduce distortion.
+        // Camera displacement causes asymmetric tangent-space view directions on the sphere,
+        // producing visible warping. Reducing parallax scale at larger offsets mitigates this.
+        const camOffset = camera.position.length();
+        const offsetRatio = Math.min(camOffset / maxMove, 1.0);
+        const attenuation = 1.0 - offsetRatio * 0.8; // 80% reduction at max offset
+
+        // Virtual camera position: always offset from ORIGIN (not from displaced camera)
+        // along the view direction. This keeps POM sampling symmetric regardless of pan.
+        const virtualOffset = basePScale * attenuation * sphereRadius;
+        const virtualPos = dir.clone().multiplyScalar(-virtualOffset);
+        mat.uniforms.uCameraPos.value.copy(virtualPos);
       }
 
       // Update joint markers and facial features for all mannequins
@@ -597,6 +685,15 @@ export function ParallaxStage3D({
       charGroupRef.current = null;
       for (const inst of charObjsRef.current.values()) disposeInstance(inst);
       charObjsRef.current.clear();
+      // Dispose prop meshes
+      for (const mesh of propMeshesRef.current.values()) {
+        mesh.geometry.dispose();
+        const mat = mesh.material as THREE.MeshBasicMaterial;
+        mat.map?.dispose();
+        mat.dispose();
+      }
+      propMeshesRef.current.clear();
+      propGroupRef.current = null;
       mannequinSourceRef.current = null;
       setMannequinReady(false);
     };
@@ -678,6 +775,58 @@ export function ParallaxStage3D({
     }
   }, [chars, mannequinReady]);
 
+  // ── Sync 2D sprite props into scene ──
+  useEffect(() => {
+    const group = propGroupRef.current;
+    if (!group) return;
+
+    const newIds = new Set(stageProps.map(p => p.id));
+
+    // Remove deleted props
+    for (const [id, mesh] of propMeshesRef.current.entries()) {
+      if (!newIds.has(id)) {
+        group.remove(mesh);
+        mesh.geometry.dispose();
+        const mat = mesh.material as THREE.MeshBasicMaterial;
+        mat.map?.dispose();
+        mat.dispose();
+        propMeshesRef.current.delete(id);
+      }
+    }
+
+    // Create or update props
+    for (const prop of stageProps) {
+      let mesh = propMeshesRef.current.get(prop.id);
+      if (!mesh) {
+        // Create a textured plane for the prop
+        const tex = new THREE.TextureLoader().load(prop.imageUrl);
+        tex.colorSpace = THREE.SRGBColorSpace;
+        const geo = new THREE.PlaneGeometry(1, 1);
+        const mat = new THREE.MeshBasicMaterial({
+          map: tex,
+          transparent: true,
+          side: THREE.DoubleSide,
+          depthWrite: false,
+        });
+        mesh = new THREE.Mesh(geo, mat);
+        mesh.userData.propId = prop.id;
+        mesh.userData.propName = prop.name;
+        propMeshesRef.current.set(prop.id, mesh);
+        group.add(mesh);
+
+        // Add a label sprite above the prop
+        const label = createLabelSprite(prop.name, '#f59e0b');
+        label.position.y = 0.7;
+        mesh.add(label);
+      }
+
+      // Update transform
+      mesh.position.set(prop.x, prop.y, prop.z);
+      mesh.scale.setScalar(prop.scale);
+      mesh.rotation.y = THREE.MathUtils.degToRad(prop.rotationY);
+    }
+  }, [stageProps]);
+
   // ── Selection: show/hide joint markers ──
   useEffect(() => {
     for (const [id, inst] of charObjsRef.current.entries()) {
@@ -710,7 +859,7 @@ export function ParallaxStage3D({
   useEffect(() => {
     if (!isOpen) return;
     const handleKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onCloseRef.current();
+      if (e.key === 'Escape') { emitCameraState(); onCloseRef.current(); }
       if ((e.key === 'Delete' || e.key === 'Backspace') && selectedCharId) {
         e.preventDefault();
         const updated = charsRef.current.filter(c => c.id !== selectedCharId);
@@ -857,6 +1006,7 @@ export function ParallaxStage3D({
       // Crop to character bounding box with padding
       const inst = charObjsRef.current.get(char.id);
       let croppedB64 = renderer.domElement.toDataURL('image/jpeg', 0.6).split(',')[1];
+      let charBbox: { left: number; top: number; width: number; height: number } | undefined;
       if (inst) {
         const box = new THREE.Box3().setFromObject(inst.root);
         const corners = [
@@ -893,6 +1043,13 @@ export function ParallaxStage3D({
           const cropCtx = cropCanvas.getContext('2d')!;
           cropCtx.drawImage(renderer.domElement, cx, cy, cw, ch, 0, 0, cw, ch);
           croppedB64 = cropCanvas.toDataURL('image/jpeg', 0.6).split(',')[1];
+          // Compute bounding box as percentage of frame (1 decimal for precision)
+          charBbox = {
+            left: Math.round((cx / 1920) * 1000) / 10,
+            top: Math.round((cy / 1080) * 1000) / 10,
+            width: Math.round((cw / 1920) * 1000) / 10,
+            height: Math.round((ch / 1080) * 1000) / 10,
+          };
         }
       }
 
@@ -901,6 +1058,7 @@ export function ParallaxStage3D({
         stageCharName: char.name,
         color: char.color,
         screenshot: croppedB64,
+        bbox: charBbox,
       });
     }
 
@@ -922,6 +1080,12 @@ export function ParallaxStage3D({
 
     const result: StageScreenshots = { base, characters: charScreenshots };
     onScreenshotsRef.current?.(result);
+
+    // Persist camera state alongside screenshots
+    emitCameraState();
+
+    // Trigger shutter animation → auto-close
+    setShutterPhase('flash');
   }, []);
 
   const handleResetView = useCallback(() => {
@@ -970,7 +1134,7 @@ export function ParallaxStage3D({
             <span style={{ fontSize: 9, color: 'rgba(6,182,212,0.8)' }}>{currentParallax.toFixed(2)}</span>
           </div>
           <input
-            type="range" min={0} max={0.5} step={0.01}
+            type="range" min={0} max={1.0} step={0.01}
             value={currentParallax}
             onChange={e => setCurrentParallax(parseFloat(e.target.value))}
             style={{ width: '100%', accentColor: '#06b6d4' }}
@@ -1133,17 +1297,18 @@ export function ParallaxStage3D({
         position: 'absolute', bottom: 24, left: '50%', transform: 'translateX(-50%)',
         display: 'flex', gap: 8, zIndex: 20,
       }}>
-        <button onClick={handleScreenshot} style={{
+        <button onClick={handleScreenshot} disabled={shutterPhase !== 'idle'} style={{
           padding: '10px 20px', borderRadius: 12,
           background: 'rgba(52,211,153,0.2)', border: '1px solid rgba(52,211,153,0.4)',
-          color: 'rgba(52,211,153,0.9)', fontSize: 13, fontWeight: 500, cursor: 'pointer', backdropFilter: 'blur(8px)',
+          color: 'rgba(52,211,153,0.9)', fontSize: 13, fontWeight: 500, cursor: shutterPhase !== 'idle' ? 'not-allowed' : 'pointer', backdropFilter: 'blur(8px)',
+          opacity: shutterPhase !== 'idle' ? 0.4 : 1,
         }}>截图</button>
         <button onClick={handleResetView} style={{
           padding: '10px 20px', borderRadius: 12,
           background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.15)',
           color: 'rgba(255,255,255,0.8)', fontSize: 13, cursor: 'pointer', backdropFilter: 'blur(8px)',
         }}>重置视角</button>
-        <button onClick={onClose} style={{
+        <button onClick={() => { emitCameraState(); onClose(); }} style={{
           padding: '10px 20px', borderRadius: 12,
           background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.15)',
           color: 'rgba(255,255,255,0.8)', fontSize: 13, cursor: 'pointer', backdropFilter: 'blur(8px)',
@@ -1153,7 +1318,43 @@ export function ParallaxStage3D({
       <div style={{ position: 'absolute', bottom: 8, right: 16, zIndex: 20, fontSize: 10, color: 'rgba(255,255,255,0.2)' }}>
         ESC 关闭 | 拖拽旋转 | 滚轮缩放 | 中键平移
       </div>
+
+      {/* Shutter animation overlay */}
+      {shutterPhase === 'flash' && (
+        <div
+          style={{
+            position: 'absolute', inset: 0, zIndex: 100,
+            background: '#fff',
+            animation: 'shutterFlash 200ms ease-out forwards',
+            pointerEvents: 'none',
+          }}
+          onAnimationEnd={() => setShutterPhase('fade')}
+        />
+      )}
+      {shutterPhase === 'fade' && (
+        <div
+          style={{
+            position: 'absolute', inset: 0, zIndex: 100,
+            background: '#000',
+            animation: 'shutterFade 400ms ease-in forwards',
+            pointerEvents: 'none',
+          }}
+          onAnimationEnd={() => { setShutterPhase('idle'); emitCameraState(); onCloseRef.current?.(); }}
+        />
+      )}
+      <style>{`
+        @keyframes shutterFlash {
+          0% { opacity: 0.85; }
+          100% { opacity: 0; }
+        }
+        @keyframes shutterFade {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+      `}</style>
     </div>,
     document.body,
   );
 }
+
+export default ParallaxStage3D;

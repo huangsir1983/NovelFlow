@@ -259,73 +259,58 @@ export function updateJointMarkerPositions(inst: MannequinInstance): void {
 
 // ── Position facial features (same pattern as joint markers) ─────
 
-const _fwp = new THREE.Vector3();
-
-/**
- * Position facial features using headBone.localToWorld → root.worldToLocal.
- * Same proven approach as updateJointMarkerPositions.
- * Features are children of root, offsets are in headBone local space.
- */
+const _headWorldPos = new THREE.Vector3();
 const _headWorldQuat = new THREE.Quaternion();
 const _rootQuat = new THREE.Quaternion();
-const _delta = new THREE.Quaternion();
+const _headLocalQuat = new THREE.Quaternion();
 const _faceDir = new THREE.Vector3();
 const _toCamera = new THREE.Vector3();
 
 /**
- * Position facial features using skeleton boneInverses for actual head position,
- * and full bone-chain world quaternion for rotation tracking.
+ * Position facial features by reading head bone's actual world transform,
+ * then converting to root-local space. Same approach as updateJointMarkerPositions
+ * but also applies head rotation to feature offsets.
  *
- * Xbot model has bones at origin in Object3D hierarchy; real positions
- * are encoded in skeleton.boneInverses (bind matrices).
+ * Previous implementation used boneInverses (bind-pose position) which is a
+ * fixed rest-pose value — it doesn't update when parent bones (hips, spine,
+ * neck) move the head to a different position. This caused features to
+ * drift away from the face when the head was repositioned via the bone chain.
  */
 export function positionFacialFeatures(inst: MannequinInstance, camera?: THREE.Camera): void {
   const headBone = inst.boneMap.get('head');
   if (!headBone || inst.facialFeatures.size === 0) return;
 
-  const headIdx = inst.skeleton.bones.indexOf(headBone);
-  if (headIdx < 0) return;
-
   inst.root.updateMatrixWorld(true);
 
-  // 1. Head bind-pose position & orientation (model-local / root-local space)
-  const bindMat = inst.skeleton.boneInverses[headIdx].clone().invert();
-  const bindPos = _fwp.setFromMatrixPosition(bindMat);
-  const bindQuat = _delta.setFromRotationMatrix(bindMat); // reuse _delta temporarily
-
-  // 2. Head current world quaternion (full bone chain: root → hips → … → head)
+  // 1. Head actual world position and quaternion (accounts for full bone chain)
+  headBone.getWorldPosition(_headWorldPos);
   headBone.getWorldQuaternion(_headWorldQuat);
 
-  // 3. Root world quaternion
+  // 2. Convert head position to root-local space (features are children of root)
+  const headLocalPos = _headWorldPos.clone();
+  inst.root.worldToLocal(headLocalPos);
+
+  // 3. Head rotation in root-local space: rootQuat⁻¹ * headWorldQuat
   inst.root.getWorldQuaternion(_rootQuat);
+  _headLocalQuat.copy(_rootQuat).invert().multiply(_headWorldQuat);
 
-  // 4. Delta rotation in root-local space:
-  //    headInRootLocal = rootQuat⁻¹ * headWorldQuat
-  //    delta = headInRootLocal * bindQuat⁻¹
-  const bindQuatClone = bindQuat.clone();          // save before _delta is reused
-  const bindPosClone = new THREE.Vector3().copy(bindPos); // save before _fwp is reused
-  _delta.copy(_rootQuat).invert().multiply(_headWorldQuat).multiply(bindQuatClone.invert());
-
-  // 5. Back-face visibility: hide features when head faces away from camera
+  // 4. Back-face visibility: hide features when head faces away from camera
   let faceVisible = true;
   if (camera) {
-    // Face forward in world space = rootQuat * delta * (0,0,1)
-    _faceDir.set(0, 0, 1).applyQuaternion(_delta).applyQuaternion(_rootQuat);
-    // Head world position for dot product
-    const headWorldPos = bindPosClone.clone();
-    inst.root.localToWorld(headWorldPos);
+    // Face forward in world space = headWorldQuat * (0,0,1)
+    _faceDir.set(0, 0, 1).applyQuaternion(_headWorldQuat);
     camera.getWorldPosition(_toCamera);
-    _toCamera.sub(headWorldPos).normalize();
+    _toCamera.sub(_headWorldPos).normalize();
     faceVisible = _faceDir.dot(_toCamera) > -0.1;
   }
 
-  // 6. Position each feature in root-local space
+  // 5. Position each feature: rotate offset by head's local quaternion, add to head position
   for (const [, mesh] of inst.facialFeatures) {
     mesh.visible = faceVisible;
     if (!faceVisible) continue;
     const offset = (mesh.userData.localOffset as THREE.Vector3).clone();
-    offset.applyQuaternion(_delta);
-    mesh.position.copy(bindPosClone).add(offset);
+    offset.applyQuaternion(_headLocalQuat);
+    mesh.position.copy(headLocalPos).add(offset);
   }
 }
 

@@ -147,7 +147,7 @@ export function useNodeExecution() {
             },
           };
         } else if (nodeType && ['sceneBG', 'characterProcess', 'propProcess', 'composite',
-            'blendRefine', 'lighting', 'finalHD'].includes(nodeType)) {
+            'blendRefine'].includes(nodeType)) {
           endpoint = `${API_BASE_URL}/api/canvas/nodes/${nodeId}/execute`;
           body = {
             node_type: nodeType,

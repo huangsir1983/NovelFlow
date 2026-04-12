@@ -86,97 +86,149 @@ describe('buildCanvasGraph with viewpoints', () => {
   });
 });
 
-describe('Expression node receives character reference image as input', () => {
-  const charMapWithRef = {
-    Alice: {
-      name: 'Alice',
-      appearance: {},
-      costume: {},
-      visualRefUrl: 'http://test/alice-ref.png',
-      visualRefStorageKey: 'assets/characters/alice-ref.png',
-    },
-  };
+// ═══════════════════════════════════════════════════════════
+// New pipeline topology tests (DirectorStage3D + GeminiComposite)
+// ═══════════════════════════════════════════════════════════
 
-  it('should set inputImageUrl and inputStorageKey from charRef on Expression node', () => {
-    const { nodes } = buildCanvasGraph([scene], [shot], { characterMap: charMapWithRef });
-    const exNode = nodes.find(n => n.id === 'imgproc-expression-shot1-Alice');
-    expect(exNode).toBeDefined();
+describe('New pipeline: removed nodes', () => {
+  const opts = { characterMap: defaultCharMap };
 
-    const data = exNode!.data as Record<string, unknown>;
-    expect(data.inputImageUrl).toBe('http://test/alice-ref.png');
-    expect(data.inputStorageKey).toBe('assets/characters/alice-ref.png');
+  it('should NOT contain any Pose3D node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const pose3dNodes = nodes.filter(n => n.type === 'pose3D');
+    expect(pose3dNodes).toHaveLength(0);
   });
 
-  it('should leave inputImageUrl undefined when charRef has no visualRefUrl', () => {
-    const { nodes } = buildCanvasGraph([scene], [shot], { characterMap: defaultCharMap });
-    const exNode = nodes.find(n => n.id === 'imgproc-expression-shot1-Alice');
-    const data = exNode!.data as Record<string, unknown>;
-    expect(data.inputImageUrl).toBeUndefined();
-    expect(data.inputStorageKey).toBeUndefined();
+  it('should NOT contain any per-character Expression node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const charExprNodes = nodes.filter(
+      n => n.id.startsWith('imgproc-expression-shot1-') && !n.id.endsWith('-scene'),
+    );
+    expect(charExprNodes).toHaveLength(0);
+  });
+
+  it('should NOT contain any Matting node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const mattingNodes = nodes.filter(
+      n => (n.data as Record<string, unknown>).processType === 'matting',
+    );
+    expect(mattingNodes).toHaveLength(0);
+  });
+
+  it('should NOT contain any HDUpscale-BG node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const hdBgNodes = nodes.filter(
+      n => n.id.includes('hdUpscale') && n.id.endsWith('-bg'),
+    );
+    expect(hdBgNodes).toHaveLength(0);
+  });
+
+  it('should NOT contain old Composite node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], opts);
+    const compositeNodes = nodes.filter(n => n.type === 'composite');
+    expect(compositeNodes).toHaveLength(0);
+  });
+
+  it('should NOT have any Pose3D edges', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const p3dEdges = edges.filter(
+      e => e.source.includes('pose3d') || e.target.includes('pose3d'),
+    );
+    expect(p3dEdges).toHaveLength(0);
+  });
+
+  it('should NOT have any Matting edges', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const mattingEdges = edges.filter(
+      e => e.source.includes('matting') || e.target.includes('matting'),
+    );
+    expect(mattingEdges).toHaveLength(0);
   });
 });
 
-describe('ViewAngle node removal — CharacterProcess connects directly to Expression', () => {
+describe('New pipeline: DirectorStage3D node', () => {
   const opts = { characterMap: defaultCharMap };
 
-  it('should NOT contain any viewAngle imageProcess node', () => {
+  it('should create a DirectorStage3D node per shot', () => {
     const { nodes } = buildCanvasGraph([scene], [shot], opts);
-    const viewAngleNodes = nodes.filter(
-      n => (n.data as Record<string, unknown>).processType === 'viewAngle',
-    );
-    expect(viewAngleNodes).toHaveLength(0);
+    const dsNode = nodes.find(n => n.type === 'directorStage3D');
+    expect(dsNode).toBeDefined();
+    expect(dsNode!.id).toBe('dirstage-shot1');
+    const data = dsNode!.data as Record<string, unknown>;
+    expect(data.nodeType).toBe('directorStage3D');
   });
 
-  it('should have a direct edge from CharacterProcess to Expression', () => {
+  it('should have SceneBG → DirectorStage3D edge', () => {
     const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const cpToEx = edges.find(
-      e => e.source === `charproc-shot1-Alice` && e.target === `imgproc-expression-shot1-Alice`,
+    const edge = edges.find(
+      e => e.source === 'scenebg-shot1' && e.target === 'dirstage-shot1',
     );
-    expect(cpToEx).toBeDefined();
-    expect(cpToEx!.type).toBe('pipeline');
+    expect(edge).toBeDefined();
+    expect(edge!.type).toBe('pipeline');
   });
 
-  it('should NOT have any edge involving a viewAngle node id', () => {
+  it('should have CharacterProcess → DirectorStage3D edge', () => {
     const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const viewAngleEdges = edges.filter(
-      e => e.source.includes('viewangle') || e.target.includes('viewangle'),
+    const edge = edges.find(
+      e => e.source === 'charproc-shot1-Alice' && e.target === 'dirstage-shot1',
     );
-    expect(viewAngleEdges).toHaveLength(0);
+    expect(edge).toBeDefined();
+    expect(edge!.type).toBe('pipeline');
   });
 
-  it('should NOT have a bypass edge from viewAngle to pose3D', () => {
-    const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const vaToP3d = edges.filter(
-      e => e.source.startsWith('imgproc-viewAngle-') && e.target.startsWith('pose3d-'),
-    );
-    expect(vaToP3d).toHaveLength(0);
-  });
+  it('should pass depthMap info when available', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], {
+      characterMap: defaultCharMap,
+      locationPanoramaMap: {
+        'Grand Hall': {
+          panoramaUrl: 'http://test/vr.jpg',
+          depthMapUrl: 'http://test/depth.png',
+          depthMapStorageKey: 'assets/depth/001.png',
+        },
+      },
+    });
 
-  it('should still have Pose3D node for each character', () => {
-    const { nodes } = buildCanvasGraph([scene], [shot], opts);
-    const pose3d = nodes.find(n => n.id === `pose3d-shot1-Alice`);
-    expect(pose3d).toBeDefined();
-    expect((pose3d!.data as Record<string, unknown>).nodeType).toBe('pose3D');
-  });
-
-  it('should still have Pose3D → Expression bypass edge', () => {
-    const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const p3dToEx = edges.find(
-      e => e.source === `pose3d-shot1-Alice` && e.target === `imgproc-expression-shot1-Alice`,
-    );
-    expect(p3dToEx).toBeDefined();
-    expect(p3dToEx!.type).toBe('bypass');
+    const bgNode = nodes.find(n => n.type === 'sceneBG');
+    expect(bgNode).toBeDefined();
+    const bgData = bgNode!.data as Record<string, unknown>;
+    expect(bgData.depthMapUrl).toBe('http://test/depth.png');
+    expect(bgData.depthMapStorageKey).toBe('assets/depth/001.png');
   });
 });
 
-describe('Post-composite: BlendRefine replaced by Expression (Gemini)', () => {
+describe('New pipeline: GeminiComposite node', () => {
   const opts = { characterMap: defaultCharMap };
 
-  it('should NOT contain any blendRefine node', () => {
+  it('should create a GeminiComposite node per shot', () => {
     const { nodes } = buildCanvasGraph([scene], [shot], opts);
-    const brNodes = nodes.filter(n => n.type === 'blendRefine');
-    expect(brNodes).toHaveLength(0);
+    const gcNode = nodes.find(n => n.type === 'geminiComposite');
+    expect(gcNode).toBeDefined();
+    expect(gcNode!.id).toBe('geminicomp-shot1');
+    const data = gcNode!.data as Record<string, unknown>;
+    expect(data.nodeType).toBe('geminiComposite');
   });
+
+  it('should have DirectorStage3D → GeminiComposite edge', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const edge = edges.find(
+      e => e.source === 'dirstage-shot1' && e.target === 'geminicomp-shot1',
+    );
+    expect(edge).toBeDefined();
+    expect(edge!.type).toBe('pipeline');
+  });
+
+  it('should have GeminiComposite → PostExpression edge', () => {
+    const { edges } = buildCanvasGraph([scene], [shot], opts);
+    const edge = edges.find(
+      e => e.source === 'geminicomp-shot1' && e.target === 'imgproc-expression-shot1-scene',
+    );
+    expect(edge).toBeDefined();
+    expect(edge!.type).toBe('pipeline');
+  });
+});
+
+describe('New pipeline: PostExpression still exists', () => {
+  const opts = { characterMap: defaultCharMap };
 
   it('should contain a post-composite expression imageProcess node', () => {
     const { nodes } = buildCanvasGraph([scene], [shot], opts);
@@ -184,23 +236,13 @@ describe('Post-composite: BlendRefine replaced by Expression (Gemini)', () => {
     expect(peNode).toBeDefined();
     expect(peNode!.type).toBe('imageProcess');
     const data = peNode!.data as Record<string, unknown>;
-    expect(data.nodeType).toBe('imageProcess');
     expect(data.processType).toBe('expression');
   });
 
-  it('should have Composite → post-composite expression pipeline edge', () => {
+  it('should have PostExpression → FinalHD pipeline edge', () => {
     const { edges } = buildCanvasGraph([scene], [shot], opts);
     const edge = edges.find(
-      e => e.source === 'composite-shot1' && e.target === 'imgproc-expression-shot1-scene',
-    );
-    expect(edge).toBeDefined();
-    expect(edge!.type).toBe('pipeline');
-  });
-
-  it('should have post-composite expression → Lighting pipeline edge', () => {
-    const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const edge = edges.find(
-      e => e.source === 'imgproc-expression-shot1-scene' && e.target === 'lighting-shot1',
+      e => e.source === 'imgproc-expression-shot1-scene' && e.target === 'finalhd-shot1',
     );
     expect(edge).toBeDefined();
     expect(edge!.type).toBe('pipeline');
@@ -214,53 +256,116 @@ describe('Post-composite: BlendRefine replaced by Expression (Gemini)', () => {
     expect(brEdges).toHaveLength(0);
   });
 
-  it('should have a default expressionPrompt on post-composite expression node', () => {
+  it('should NOT contain any Lighting node', () => {
     const { nodes } = buildCanvasGraph([scene], [shot], opts);
-    const peNode = nodes.find(n => n.id === 'imgproc-expression-shot1-scene');
-    const data = peNode!.data as Record<string, unknown>;
-    expect(data.expressionPrompt).toBeTruthy();
+    const lightingNodes = nodes.filter(n => n.type === 'lighting');
+    expect(lightingNodes).toHaveLength(0);
   });
 });
 
-describe('Character HDUpscale removal — Expression connects directly to Matting', () => {
-  const opts = { characterMap: defaultCharMap };
+describe('New pipeline: multi-character shot', () => {
+  const twoCharScene = { ...scene, characters: ['Alice', 'Bob'] };
+  const twoCharShot = { ...shot, charactersInFrame: ['Alice', 'Bob'] };
+  const twoCharMap = {
+    Alice: { name: 'Alice', appearance: {}, costume: {}, visualRefUrl: 'http://alice.jpg' },
+    Bob: { name: 'Bob', appearance: {}, costume: {}, visualRefUrl: 'http://bob.jpg' },
+  };
 
-  it('should NOT contain any character hdUpscale node', () => {
-    const { nodes } = buildCanvasGraph([scene], [shot], opts);
-    const charHdNodes = nodes.filter(
-      n =>
-        (n.data as Record<string, unknown>).processType === 'hdUpscale' &&
-        !n.id.endsWith('-bg'),
-    );
-    expect(charHdNodes).toHaveLength(0);
+  it('creates CharacterProcess for each character', () => {
+    const { nodes } = buildCanvasGraph([twoCharScene], [twoCharShot], { characterMap: twoCharMap });
+    const charNodes = nodes.filter(n => n.type === 'characterProcess');
+    expect(charNodes).toHaveLength(2);
   });
 
-  it('should have a direct edge from Expression to Matting', () => {
-    const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const exToMt = edges.find(
-      e =>
-        e.source === `imgproc-expression-shot1-Alice` &&
-        e.target === `imgproc-matting-shot1-Alice`,
-    );
-    expect(exToMt).toBeDefined();
-    expect(exToMt!.type).toBe('pipeline');
+  it('all CharProcess nodes connect to same DirectorStage3D', () => {
+    const { edges } = buildCanvasGraph([twoCharScene], [twoCharShot], { characterMap: twoCharMap });
+    const edgesToDS = edges.filter(e => e.target === 'dirstage-shot1' && e.source.startsWith('charproc-'));
+    expect(edgesToDS).toHaveLength(2);
   });
 
-  it('should NOT have Expression→hdUpscale or hdUpscale→Matting edges', () => {
-    const { edges } = buildCanvasGraph([scene], [shot], opts);
-    const hdEdges = edges.filter(
-      e =>
-        (e.source.includes('hdUpscale') || e.target.includes('hdUpscale')) &&
-        !e.source.endsWith('-bg') &&
-        !e.target.endsWith('-bg'),
-    );
-    expect(hdEdges).toHaveLength(0);
+  it('only one DirectorStage3D per shot', () => {
+    const { nodes } = buildCanvasGraph([twoCharScene], [twoCharShot], { characterMap: twoCharMap });
+    const dsNodes = nodes.filter(n => n.type === 'directorStage3D');
+    expect(dsNodes).toHaveLength(1);
   });
 
-  it('should still have Matting node for each character', () => {
-    const { nodes } = buildCanvasGraph([scene], [shot], opts);
-    const mt = nodes.find(n => n.id === `imgproc-matting-shot1-Alice`);
-    expect(mt).toBeDefined();
-    expect((mt!.data as Record<string, unknown>).processType).toBe('matting');
+  it('only one GeminiComposite per shot', () => {
+    const { nodes } = buildCanvasGraph([twoCharScene], [twoCharShot], { characterMap: twoCharMap });
+    const gcNodes = nodes.filter(n => n.type === 'geminiComposite');
+    expect(gcNodes).toHaveLength(1);
+  });
+});
+
+// ═══════════════════════════════════════════════════════════
+// characterActions passthrough to DirectorStage3D
+// ═══════════════════════════════════════════════════════════
+
+describe('characterActions passthrough', () => {
+  const sceneWithScript = {
+    ...scene,
+    characters: ['Alice', 'Bob'],
+    scriptJson: {
+      beats: [{
+        beat_id: 'b1',
+        timestamp: '00:00',
+        type: 'action',
+        shots: [{
+          shot_type: 'medium',
+          camera_move: 'static',
+          angle: 'eye-level',
+          subject: 'Alice and Bob',
+          action: 'Alice sits while Bob runs',
+          dialogue: null,
+          characters: [
+            { name: 'Alice', expression: '平静', action: '坐在椅子上', position: '画面左侧' },
+            { name: 'Bob', expression: '紧张', action: '奔跑', position: '画面右侧' },
+          ],
+        }],
+      }],
+    },
+  };
+
+  const charMap = {
+    Alice: { name: 'Alice', appearance: {}, costume: {}, visualRefUrl: 'http://alice.jpg' },
+    Bob: { name: 'Bob', appearance: {}, costume: {}, visualRefUrl: 'http://bob.jpg' },
+  };
+
+  it('passes characterActions from scriptJson shots to DirectorStage3D node data', () => {
+    const { nodes } = buildCanvasGraph([sceneWithScript], [], { characterMap: charMap });
+    const dsNode = nodes.find(n => n.type === 'directorStage3D');
+    expect(dsNode).toBeDefined();
+
+    const data = dsNode!.data as Record<string, unknown>;
+    const actions = data.characterActions as Record<string, { expression?: string; action?: string; position?: string }>;
+    expect(actions).toBeDefined();
+    expect(actions['Alice']).toEqual({ expression: '平静', action: '坐在椅子上', position: '画面左侧' });
+    expect(actions['Bob']).toEqual({ expression: '紧张', action: '奔跑', position: '画面右侧' });
+  });
+
+  it('passes characterActions from explicit shot input', () => {
+    const shotWithActions = {
+      ...shot,
+      charactersInFrame: ['Alice'],
+      characterActions: {
+        Alice: { expression: '微笑', action: '走近窗边', position: '画面中央' },
+      },
+    };
+    const { nodes } = buildCanvasGraph([scene], [shotWithActions], { characterMap: defaultCharMap });
+    const dsNode = nodes.find(n => n.type === 'directorStage3D');
+    expect(dsNode).toBeDefined();
+
+    const data = dsNode!.data as Record<string, unknown>;
+    const actions = data.characterActions as Record<string, { expression?: string; action?: string; position?: string }>;
+    expect(actions).toBeDefined();
+    expect(actions['Alice'].action).toBe('走近窗边');
+  });
+
+  it('DirectorStage3D has undefined characterActions when shot has none', () => {
+    const { nodes } = buildCanvasGraph([scene], [shot], { characterMap: defaultCharMap });
+    const dsNode = nodes.find(n => n.type === 'directorStage3D');
+    expect(dsNode).toBeDefined();
+
+    const data = dsNode!.data as Record<string, unknown>;
+    expect(data.characterActions).toBeUndefined();
   });
 });

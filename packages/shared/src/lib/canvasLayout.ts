@@ -23,12 +23,10 @@ import type {
   SceneBGNodeData,
   CharacterProcessNodeData,
   ImageProcessNodeData,
-  CompositeNodeData,
-  BlendRefineNodeData,
-  LightingNodeData,
+  DirectorStage3DNodeData,
+  GeminiCompositeNodeData,
   FinalHDNodeData,
   VideoGenerationNodeData,
-  Pose3DNodeData,
   CanvasNodeStatus,
   CharacterRefInfo,
 } from '../types/canvas';
@@ -36,21 +34,18 @@ import { detectModuleType } from '../components/production/canvas/ModuleTemplate
 
 /* ── Layout constants ── */
 /**
- * 12-column layout — paired nodes arranged side-by-side:
+ * 10-column layout — new pipeline with DirectorStage3D + GeminiComposite:
  *   Col 0  (0)    : Scene
  *   Col 1  (500)  : Shot
  *   Col 2  (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
- *   Col 3  (1540) : Expression / Pose3D / PropAngle
- *   Col 4  (2060) : Matting
- *   Col 5  (2320) : (reserved)
- *   Col 6  (2450) : (reserved)
- *   Col 7  (2580) : Composite (merge point)
- *   Col 8  (3120) : BlendRefine
- *   Col 9  (3720) : Lighting
- *   Col 10 (4320) : FinalHD
- *   Col 11 (4920) : VideoGeneration
+ *   Col 3  (1540) : (reserved)
+ *   Col 4  (2060) : DirectorStage3D (merge point)
+ *   Col 5  (2580) : GeminiComposite
+ *   Col 6  (3120) : PostExpression
+ *   Col 7  (3720) : FinalHD
+ *   Col 8  (4320) : VideoGeneration
  */
-const COL_X = [0, 500, 1020, 1540, 2060, 2320, 2450, 2580, 3120, 3720, 4320, 4920];
+const COL_X = [0, 500, 1020, 1540, 2060, 2580, 3120, 3720, 4320];
 const SCENE_PADDING = 600;  // vertical padding between scene groups
 const SHOT_GAP = 800;       // vertical gap between shots within a scene
 const BRANCH_GAP = 400;     // vertical gap between branches (sceneBG, characters, props)
@@ -65,7 +60,7 @@ const NODE_WIDTHS: Record<string, number> = {
   videoGeneration: 290,
   sceneBG: 260,
   characterProcess: 180,
-  viewAngle: 260, // kept for ImageProcessNode UI compatibility
+  viewAngle: 260,
   expression: 260,
   hdUpscale: 240,
   matting: 260,
@@ -73,10 +68,11 @@ const NODE_WIDTHS: Record<string, number> = {
   propAngle: 260,
   composite: 280,
   blendRefine: 240,
-  lighting: 240,
   finalHD: 240,
   imageProcess: 260,
   pose3D: 260,
+  directorStage3D: 320,
+  geminiComposite: 280,
 };
 const DEFAULT_NODE_WIDTH = 280;
 
@@ -122,10 +118,11 @@ export function propAngleNodeId(shotId: string, propIdx: number) { return `propa
 export function compositeNodeId(shotId: string) { return `composite-${shotId}`; }
 export function blendRefineNodeId(shotId: string) { return `blendrefine-${shotId}`; }
 export function postExpressionNodeId(shotId: string) { return `imgproc-expression-${shotId}-scene`; }
-export function lightingNodeId(shotId: string) { return `lighting-${shotId}`; }
 export function finalHDNodeId(shotId: string) { return `finalhd-${shotId}`; }
 export function imageProcessNodeId(shotId: string, charName: string, processType: string) { return `imgproc-${processType}-${shotId}-${charName}`; }
 export function pose3DNodeId(shotId: string, charName: string) { return `pose3d-${shotId}-${charName}`; }
+export function directorStage3DNodeId(shotId: string) { return `dirstage-${shotId}`; }
+export function geminiCompositeNodeId(shotId: string) { return `geminicomp-${shotId}`; }
 
 /* ── Script JSON types (from generated_script_json) ── */
 interface ScriptShotJson {
@@ -216,8 +213,8 @@ export interface BuildGraphOptions {
   positionCache?: Record<string, { x: number; y: number }>;
   artifactsByShotId?: Record<string, Array<{ id: string; type: string; url?: string; status: string }>>;
   nodeRunsByShotId?: Record<string, Array<{ nodeKey: string; status: string; progress?: number }>>;
-  /** {locationName: {panoramaUrl, panoramaStorageKey, viewpoints?}} — for populating SceneNode panorama data */
-  locationPanoramaMap?: Record<string, { locationId?: string; panoramaUrl?: string; panoramaStorageKey?: string; viewpoints?: import('../types/canvas').ViewPoint[] }>;
+  /** {locationName: {panoramaUrl, panoramaStorageKey, depthMapUrl, viewpoints?}} — for populating SceneNode panorama data */
+  locationPanoramaMap?: Record<string, { locationId?: string; panoramaUrl?: string; panoramaStorageKey?: string; depthMapUrl?: string; depthMapStorageKey?: string; viewpoints?: import('../types/canvas').ViewPoint[] }>;
   /** {characterName: visual data} — for populating PromptAssembly characterRefs */
   characterMap?: Record<string, CharacterMapEntry>;
   /** {locationName: visual detail} — for populating PromptAssembly locationRef */
@@ -539,38 +536,19 @@ export function buildCanvasGraph(
           lighting: locationDetail2?.lighting,
           colorPalette: locationDetail2?.colorPalette,
           visualRefUrl: locationDetail2?.visualRefUrl,
+          depthMapUrl: locationPanorama2?.depthMapUrl,
+          depthMapStorageKey: locationPanorama2?.depthMapStorageKey,
         } satisfies SceneBGNodeData,
         ...nodeDims('sceneBG'),
       });
       edges.push({ id: `e-${shId}-${bgId}`, source: shId, target: bgId, type: 'pipeline', data: { shotId: shot.id, segment: 'shot-scenebg' } });
 
-      // SceneBG → HDUpscale for background (Col 3, same column as ViewAngle)
-      const bgHdId = `imgproc-hdUpscale-${shot.id}-bg`;
-      nodes.push({
-        id: bgHdId,
-        type: 'imageProcess',
-        position: positionCache[bgHdId] ?? { x: COL_X[3], y: bgY },
-        data: {
-          label: '场景高清',
-          status: 'idle' as CanvasNodeStatus,
-          sceneId: scene.id,
-          shotId: shot.id,
-          nodeType: 'imageProcess',
-          processType: 'hdUpscale' as ImageProcessNodeData['processType'],
-          inputImageUrl: undefined,
-          inputStorageKey: undefined,
-          outputImageUrl: undefined,
-          outputStorageKey: undefined,
-          scaleFactor: 2,
-          progress: 0,
-        } satisfies ImageProcessNodeData,
-        ...nodeDims('sceneBG'), // landscape dimensions for BG hdUpscale
-      });
-      edges.push({ id: `e-${bgId}-${bgHdId}`, source: bgId, target: bgHdId, type: 'pipeline', data: { shotId: shot.id, segment: 'scenebg-hdupscale' } });
-      compositeSourceIds.push(bgHdId);
+      // SceneBG feeds directly into DirectorStage3D (no more HDUpscale-BG)
+      compositeSourceIds.push(bgId);
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // Character branches (Col 2-5): CharProcess → ViewAngle → Expression → HDUpscale + Matting
+      // Character branches (Col 2): CharProcess → DirectorStage3D
+      // (No more Pose3D, Expression, Matting — those are replaced by 3D stage)
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       for (const charRef of characterRefs) {
         const cn = charRef.name;
@@ -578,40 +556,8 @@ export function buildCanvasGraph(
         branchIdx++;
         const charEntry = characterMap[cn];
 
-        // ── Build per-character action/expression prompts ──
-        // Priority: structured characterActions from script JSON > fallback text extraction
-        const structuredData = shot.characterActions?.[cn];
-        let charAction = '';
-        let charExpression = '';
-
-        if (structuredData) {
-          // Use structured data from generated_script_json.characters[]
-          charAction = structuredData.action || '';
-          charExpression = structuredData.expression || '';
-        } else {
-          // Fallback: extract from shot action text for old data without characters field
-          const actionText = shot.description || '';
-          if (actionText && cn) {
-            const clauses = actionText.split(/[，。；！？,;!?]/).map(s => s.trim()).filter(Boolean);
-            const relevant = clauses.filter(c => c.includes(cn));
-            charAction = relevant.length > 0 ? relevant.join('，') : '';
-          }
-          charExpression = shot.emotionTarget || '';
-        }
-
-        // Expression prompt: default consistency prefix + structured expression/action
-        const expressionSpecificParts = [
-          charExpression,
-          charAction,
-        ].filter(Boolean);
-        const expressionPrompt = expressionSpecificParts.length > 0
-          ? `保持人物一致性，保持画风一致性，保持角色视角一致性，${expressionSpecificParts.join('，')}`
-          : '保持人物一致性，保持画风一致性，保持角色视角一致性';
-
         // CharacterProcess (Col 2) — carries the character's reference IMAGE
         const cpId = charProcessNodeId(shot.id, cn);
-        // Gather all available image variants from asset library
-        // Merge current visualRefUrl as 'visual_reference' so it's always selectable
         const charAllImages: Record<string, string> = { ...(charEntry?.allImages || {}) };
         if (charRef.visualRefUrl && !charAllImages['visual_reference']) {
           charAllImages['visual_reference'] = charRef.visualRefUrl;
@@ -636,113 +582,68 @@ export function buildCanvasGraph(
           ...nodeDims('characterProcess'),
         });
         edges.push({ id: `e-${shId}-${cpId}`, source: shId, target: cpId, type: 'pipeline', data: { shotId: shot.id, segment: `shot-char-${cn}` } });
-
-        // Pose3D node (companion to Expression, placed above it)
-        const p3dId = pose3DNodeId(shot.id, cn);
-        nodes.push({
-          id: p3dId,
-          type: 'pose3D',
-          position: positionCache[p3dId] ?? { x: (COL_X[2] + COL_X[3]) / 2 - 80, y: charY - BRANCH_GAP * 0.45 },
-          data: {
-            label: `摆姿·${cn}`,
-            status: 'idle' as CanvasNodeStatus,
-            sceneId: scene.id,
-            shotId: shot.id,
-            nodeType: 'pose3D',
-            jointAngles: {},
-            progress: 0,
-          } satisfies Pose3DNodeData,
-          ...nodeDims('pose3D'),
-        });
-
-        // ImageProcess: Expression (Col 3)
-        const exId = imageProcessNodeId(shot.id, cn, 'expression');
-        nodes.push({
-          id: exId,
-          type: 'imageProcess',
-          position: positionCache[exId] ?? { x: COL_X[3], y: charY },
-          data: {
-            label: `表情·${cn}`,
-            status: 'idle' as CanvasNodeStatus,
-            sceneId: scene.id,
-            shotId: shot.id,
-            nodeType: 'imageProcess',
-            processType: 'expression',
-            expressionPrompt,
-            emotion: charExpression,
-            action: charAction || shot.description,
-            progress: 0,
-            inputImageUrl: charRef.visualRefUrl,
-            inputStorageKey: charRef.visualRefStorageKey,
-          } satisfies ImageProcessNodeData,
-          ...nodeDims('imageProcess'),
-        });
-        // CharacterProcess → Expression (direct pipeline)
-        edges.push({ id: `e-${cpId}-${exId}`, source: cpId, target: exId, type: 'pipeline', data: { shotId: shot.id, segment: `char-expression-${cn}` } });
-        // Pose3D → Expression (bypass — pose reference for expression generation)
-        edges.push({ id: `e-${p3dId}-${exId}`, source: p3dId, target: exId, type: 'bypass', data: { shotId: shot.id, segment: `pose3d-expression-${cn}` } });
-
-        // ImageProcess: Matting (Col 4)
-        const mtId = imageProcessNodeId(shot.id, cn, 'matting');
-        nodes.push({
-          id: mtId,
-          type: 'imageProcess',
-          position: positionCache[mtId] ?? { x: COL_X[4], y: charY },
-          data: {
-            label: '抠图',
-            status: 'idle' as CanvasNodeStatus,
-            sceneId: scene.id,
-            shotId: shot.id,
-            nodeType: 'imageProcess',
-            processType: 'matting',
-            progress: 0,
-          } satisfies ImageProcessNodeData,
-          ...nodeDims('imageProcess'),
-        });
-        edges.push({ id: `e-${exId}-${mtId}`, source: exId, target: mtId, type: 'pipeline', data: { shotId: shot.id, segment: `expression-matting-${cn}` } });
-        compositeSourceIds.push(mtId);
+        compositeSourceIds.push(cpId);
       }
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // Composite node (Col 6) — merge point
+      // DirectorStage3D node (Col 4) — merge point (replaces old Composite)
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      const compId = compositeNodeId(shot.id);
+      const dsId = directorStage3DNodeId(shot.id);
       nodes.push({
-        id: compId,
-        type: 'composite',
-        position: positionCache[compId] ?? { x: COL_X[7], y: shotY },
+        id: dsId,
+        type: 'directorStage3D',
+        position: positionCache[dsId] ?? { x: COL_X[4], y: shotY },
         data: {
-          label: '合成',
+          label: '3D导演台',
           status: 'idle' as CanvasNodeStatus,
           sceneId: scene.id,
           shotId: shot.id,
-          nodeType: 'composite',
-          layers: [],
-          outputImageUrl: undefined,
-          canvasWidth: 1920,
-          canvasHeight: 1080,
+          nodeType: 'directorStage3D',
+          sceneDescription: shot.description,
+          characterActions: shot.characterActions,
           progress: 0,
-        } satisfies CompositeNodeData,
-        ...nodeDims('composite'),
+        } satisfies DirectorStage3DNodeData,
+        ...nodeDims('directorStage3D'),
       });
-      // Connect all branch outputs → Composite
+      // Connect all branch outputs → DirectorStage3D
       for (const srcId of compositeSourceIds) {
-        edges.push({ id: `e-${srcId}-${compId}`, source: srcId, target: compId, type: 'pipeline', data: { shotId: shot.id, segment: `branch-composite` } });
+        edges.push({ id: `e-${srcId}-${dsId}`, source: srcId, target: dsId, type: 'pipeline', data: { shotId: shot.id, segment: 'branch-dirstage' } });
       }
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // Post-composite chain (Col 8-11): Expression → Lighting → FinalHD → VideoGen
+      // GeminiComposite node (Col 5) — screenshot → Gemini image generation
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      const gcId = geminiCompositeNodeId(shot.id);
+      nodes.push({
+        id: gcId,
+        type: 'geminiComposite',
+        position: positionCache[gcId] ?? { x: COL_X[5], y: shotY },
+        data: {
+          label: 'Gemini合成',
+          status: 'idle' as CanvasNodeStatus,
+          sceneId: scene.id,
+          shotId: shot.id,
+          nodeType: 'geminiComposite',
+          sceneDescription: shot.description,
+          progress: 0,
+        } satisfies GeminiCompositeNodeData,
+        ...nodeDims('geminiComposite'),
+      });
+      edges.push({ id: `e-${dsId}-${gcId}`, source: dsId, target: gcId, type: 'pipeline', data: { shotId: shot.id, segment: 'dirstage-geminicomp' } });
+
+      // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      // Post-GeminiComposite chain (Col 6-8): PostExpression → FinalHD → VideoGen
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
       const videoRun = runs.find((r) => r.nodeKey === 'video');
       const videoArtifact = artifacts.find((a) => a.type === 'video');
 
-      // Post-composite Expression (Col 8) — Gemini img2img for scene refinement
+      // Post-composite Expression (Col 6) — Gemini img2img for scene refinement
       const peId = postExpressionNodeId(shot.id);
       nodes.push({
         id: peId,
         type: 'imageProcess',
-        position: positionCache[peId] ?? { x: COL_X[8], y: shotY },
+        position: positionCache[peId] ?? { x: COL_X[6], y: shotY },
         data: {
           label: '表情',
           status: 'idle' as CanvasNodeStatus,
@@ -759,55 +660,14 @@ export function buildCanvasGraph(
         } satisfies ImageProcessNodeData,
         ...nodeDims('imageProcess'),
       });
-      edges.push({ id: `e-${compId}-${peId}`, source: compId, target: peId, type: 'pipeline', data: { shotId: shot.id, segment: 'composite-expression' } });
+      edges.push({ id: `e-${gcId}-${peId}`, source: gcId, target: peId, type: 'pipeline', data: { shotId: shot.id, segment: 'geminicomp-expression' } });
 
-      // BlendRefine (test branch) — RunningHub fusion, positioned below Expression
-      const brId = blendRefineNodeId(shot.id);
-      nodes.push({
-        id: brId,
-        type: 'blendRefine',
-        position: positionCache[brId] ?? { x: COL_X[8], y: shotY + 300 },
-        data: {
-          label: '融合',
-          status: 'idle' as CanvasNodeStatus,
-          sceneId: scene.id,
-          shotId: shot.id,
-          nodeType: 'blendRefine',
-          inputImageUrl: undefined,
-          outputImageUrl: undefined,
-          progress: 0,
-        } satisfies BlendRefineNodeData,
-        ...nodeDims('blendRefine'),
-      });
-      edges.push({ id: `e-${compId}-${brId}`, source: compId, target: brId, type: 'pipeline', data: { shotId: shot.id, segment: 'composite-blend-test' } });
-
-      // Lighting (Col 9)
-      const ltId = lightingNodeId(shot.id);
-      nodes.push({
-        id: ltId,
-        type: 'lighting',
-        position: positionCache[ltId] ?? { x: COL_X[9], y: shotY },
-        data: {
-          label: '光影',
-          status: 'idle' as CanvasNodeStatus,
-          sceneId: scene.id,
-          shotId: shot.id,
-          nodeType: 'lighting',
-          inputImageUrl: undefined,
-          outputImageUrl: undefined,
-          lightingPreset: 'auto',
-          progress: 0,
-        } satisfies LightingNodeData,
-        ...nodeDims('lighting'),
-      });
-      edges.push({ id: `e-${peId}-${ltId}`, source: peId, target: ltId, type: 'pipeline', data: { shotId: shot.id, segment: 'expression-lighting' } });
-
-      // FinalHD (Col 8, upper)
+      // FinalHD (Col 7)
       const fhId = finalHDNodeId(shot.id);
       nodes.push({
         id: fhId,
         type: 'finalHD',
-        position: positionCache[fhId] ?? { x: COL_X[10], y: shotY },
+        position: positionCache[fhId] ?? { x: COL_X[7], y: shotY },
         data: {
           label: '终稿高清',
           status: 'idle' as CanvasNodeStatus,
@@ -821,14 +681,14 @@ export function buildCanvasGraph(
         } satisfies FinalHDNodeData,
         ...nodeDims('finalHD'),
       });
-      edges.push({ id: `e-${ltId}-${fhId}`, source: ltId, target: fhId, type: 'pipeline', data: { shotId: shot.id, segment: 'lighting-finalhd' } });
+      edges.push({ id: `e-${peId}-${fhId}`, source: peId, target: fhId, type: 'pipeline', data: { shotId: shot.id, segment: 'expression-finalhd' } });
 
-      // VideoGeneration (Col 8, lower)
+      // VideoGeneration (Col 8)
       const viId = videoNodeId(shot.id);
       nodes.push({
         id: viId,
         type: 'videoGeneration',
-        position: positionCache[viId] ?? { x: COL_X[11], y: shotY },
+        position: positionCache[viId] ?? { x: COL_X[8], y: shotY },
         data: {
           label: 'Video',
           status: (videoRun?.status as CanvasNodeStatus) || 'idle',

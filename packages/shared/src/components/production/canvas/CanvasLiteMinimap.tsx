@@ -30,7 +30,6 @@ const NODE_COLORS: Record<string, string> = {
   composite: '#64d8cb',
   sceneBG: '#5ac8fa',
   blendRefine: '#c89664',
-  lighting: '#fad85a',
   finalHD: '#d85aff',
 };
 const DEFAULT_COLOR = '#666666';

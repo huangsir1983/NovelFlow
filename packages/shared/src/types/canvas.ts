@@ -157,6 +157,9 @@ export interface SceneBGNodeData extends BaseNodeData {
   colorPalette?: string[];
   /** Location reference image URL (fallback preview when no panorama) */
   visualRefUrl?: string;
+  /** Depth map for parallax 3D stage */
+  depthMapUrl?: string;
+  depthMapStorageKey?: string;
 }
 
 /* ---------- Character Process (asset image selection entry) ---------- */
@@ -278,20 +281,13 @@ export interface BlendRefineNodeData extends BaseNodeData {
   progress: number;
 }
 
-/* ---------- Lighting (stub) ---------- */
-export interface LightingNodeData extends BaseNodeData {
-  nodeType: 'lighting';
-  inputImageUrl?: string;
-  outputImageUrl?: string;
-  lightingPreset: string;
-  progress: number;
-}
-
-/* ---------- Final HD (stub) ---------- */
+/* ---------- Final HD ---------- */
 export interface FinalHDNodeData extends BaseNodeData {
   nodeType: 'finalHD';
   inputImageUrl?: string;
+  inputStorageKey?: string;
   outputImageUrl?: string;
+  outputStorageKey?: string;
   scaleFactor: number;
   progress: number;
 }
@@ -343,6 +339,82 @@ export interface ImageProcessNodeData extends BaseNodeData {
   progress: number;
 }
 
+/* ---------- 3D Director Stage (ParallaxStage3D wrapper) ---------- */
+export interface DirectorStage3DNodeData extends BaseNodeData {
+  nodeType: 'directorStage3D';
+  /** VR panorama URL (from upstream SceneBG) */
+  panoramaUrl?: string;
+  panoramaStorageKey?: string;
+  /** Depth map URL (from upstream SceneBG) */
+  depthMapUrl?: string;
+  depthMapStorageKey?: string;
+  /** Character reference images (from upstream CharacterProcess nodes) */
+  characterRefs?: Array<{
+    characterId?: string;
+    characterName: string;
+    visualRefUrl?: string;
+    visualRefStorageKey?: string;
+    color?: string;
+  }>;
+  /** Prop images for 2D sprite placement (from upstream PropProcess nodes) */
+  propRefs?: Array<{
+    propName: string;
+    visualRefUrl?: string;
+    visualRefStorageKey?: string;
+  }>;
+  /** Persisted stage character states */
+  stageCharacters?: import('../components/panorama/stageCharacter').StageCharacter[];
+  /** Full scene screenshot (base64) */
+  screenshotBase64?: string;
+  screenshotStorageKey?: string;
+  /** Per-character cropped screenshots */
+  characterScreenshots?: Array<{
+    stageCharId: string;
+    stageCharName: string;
+    color: string;
+    screenshot: string;
+  }>;
+  /** Scene description for Gemini prompt */
+  sceneDescription?: string;
+  /** Per-character action/expression from shot data, for auto-preset matching */
+  characterActions?: Record<string, { expression?: string; action?: string; position?: string }>;
+  /** Persisted camera state for copy/paste and restore */
+  cameraState?: {
+    position: { x: number; y: number; z: number };
+    fov: number;
+    target: { x: number; y: number; z: number };
+  };
+  progress: number;
+}
+
+/* ---------- Gemini Composite (screenshot → Gemini image generation) ---------- */
+export interface GeminiCompositeNodeData extends BaseNodeData {
+  nodeType: 'geminiComposite';
+  /** Scene screenshot base64 (from upstream DirectorStage3D) */
+  sceneScreenshotBase64?: string;
+  sceneScreenshotStorageKey?: string;
+  /** Character pose-to-reference mappings */
+  characterMappings?: Array<{
+    stageCharId: string;
+    stageCharName: string;
+    color: string;
+    poseScreenshot: string;
+    /** Storage key for pose screenshot (used after restore when base64 not available) */
+    poseStorageKey?: string;
+    /** Bounding box as percentage of frame (0–100) */
+    bbox?: { left: number; top: number; width: number; height: number };
+    referenceImageUrl?: string;
+    referenceStorageKey?: string;
+  }>;
+  /** Scene description for Gemini prompt */
+  sceneDescription?: string;
+  /** Gemini output image */
+  outputImageUrl?: string;
+  outputImageBase64?: string;
+  outputStorageKey?: string;
+  progress: number;
+}
+
 /* ---------- Union ---------- */
 export type CanvasNodeData =
   | SceneNodeData
@@ -360,10 +432,11 @@ export type CanvasNodeData =
   | PropAngleNodeData
   | CompositeNodeData
   | BlendRefineNodeData
-  | LightingNodeData
   | FinalHDNodeData
   | ImageProcessNodeData
-  | Pose3DNodeData;
+  | Pose3DNodeData
+  | DirectorStage3DNodeData
+  | GeminiCompositeNodeData;
 
 
 // ═══════════════════════════════════════════════════════════════

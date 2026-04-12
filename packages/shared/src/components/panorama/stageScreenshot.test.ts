@@ -255,7 +255,25 @@ describe('buildInterleavedParts', () => {
     expect(text).toContain('姿态');
     expect(text).toContain('影视级');
     expect(text).toContain('不要互换');
-    expect(text).toContain('光影');
+    expect(text).toContain('环境光融合');
+    expect(text).toContain('位置锁定');
+    expect(text).toContain('大小锁定');
+  });
+
+  it('includes bbox position lock when bbox is provided', () => {
+    const charDataWithBbox = [
+      {
+        ...charData[0],
+        bbox: { left: 25.5, top: 10.2, width: 20.3, height: 60.8 },
+      },
+    ];
+    const parts = buildInterleavedParts(screenshots, charDataWithBbox);
+    const text = parts.find(p => p.type === 'text')!.content;
+    expect(text).toContain('左边界25.5%');
+    expect(text).toContain('上边界10.2%');
+    expect(text).toContain('宽20.3%');
+    expect(text).toContain('高60.8%');
+    expect(text).toContain('不能偏移也不能放大缩小');
   });
 
   it('works with single character', () => {

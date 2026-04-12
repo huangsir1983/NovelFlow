@@ -715,18 +715,6 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
     content = req.content
 
 
-    # ── Stub nodes — passthrough input as output ──
-    STUB_TYPES = {"lighting", "finalHD"}
-    if node_type in STUB_TYPES:
-        input_url = content.get("inputImageUrl", "")
-        return {
-            "execution_id": execution_id,
-            "status": "success",
-            "node_type": node_type,
-            "result": {"outputImageUrl": input_url, "stub": True},
-            "message": f"{node_type} is a stub — input passed through",
-        }
-
     # ── SceneBG — panorama viewport screenshot (frontend-driven) ──
     if node_type == "sceneBG":
         screenshot_key = content.get("screenshotStorageKey", "")
@@ -764,6 +752,116 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
             "node_type": node_type,
             "result": {"message": "Pose3D screenshot is generated on frontend via Three.js"},
         }
+
+    # ── DirectorStage3D — 3D director stage screenshot (frontend-driven) ──
+    if node_type == "directorStage3D":
+        screenshot_key = content.get("screenshotStorageKey", "")
+        if screenshot_key:
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {"outputStorageKey": screenshot_key},
+            }
+            # Store stageCharacters + character screenshot keys in input_snapshot
+            # so they survive page refresh and can be restored by frontend
+            stage_chars = content.get("stageCharacters", [])
+            char_screenshots = content.get("characterScreenshots", [])
+            scene_desc = content.get("sceneDescription", "")
+            input_data = dict(content)
+            input_data["stageCharacters"] = stage_chars
+            input_data["characterScreenshots"] = char_screenshots
+            if scene_desc:
+                input_data["sceneDescription"] = scene_desc
+            _persist_node_result(db, node_id, node_type, input_data, resp)
+            return resp
+        return {
+            "execution_id": execution_id,
+            "status": "success",
+            "node_type": node_type,
+            "result": {"message": "DirectorStage3D screenshot is generated on frontend via Three.js"},
+        }
+
+    # ── GeminiComposite — Gemini image generation from 3D stage screenshots ──
+    if node_type == "geminiComposite":
+        import base64 as b64
+        from services.ai_engine import ai_engine
+        from services.storage_adapter import get_storage
+
+        # Persist-only mode: frontend already generated the image, just store the reference
+        if content.get("storage_key"):
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {
+                    "storage_key": content["storage_key"],
+                    "storage_uri": content.get("storage_uri", ""),
+                },
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+
+        interleaved_parts_raw = content.get("interleaved_parts", [])
+        if not interleaved_parts_raw:
+            raise HTTPException(status_code=400, detail="interleaved_parts is required for geminiComposite")
+
+        # Convert raw parts to the format expected by ai_engine.generate_image
+        interleaved = []
+        for part in interleaved_parts_raw:
+            p_type = part.get("type", "text")
+            p_content = part.get("content", "")
+            if p_type == "text":
+                interleaved.append({"type": "text", "content": p_content})
+            elif p_type == "image":
+                raw_bytes = b64.b64decode(p_content)
+                mime = part.get("mime_type", "image/jpeg")
+                interleaved.append({"type": "image", "data": raw_bytes, "mime_type": mime})
+
+        try:
+            result = ai_engine.generate_image(
+                prompt="",  # Prompt is embedded in interleaved_parts
+                interleaved_parts=interleaved,
+                aspect_ratio=content.get("aspect_ratio", "16:9"),
+                image_size=content.get("image_size", "2K"),
+                db=db,
+            )
+
+            # Store result
+            storage = get_storage()
+            from uuid import uuid4 as u4
+            image_data = result["image_data"]
+            mime_type = result.get("mime_type", "image/png")
+            ext = mime_type.split("/")[-1].split(";")[0] or "png"
+            object_key = f"assets/images/{u4()}.{ext}"
+            storage.put_bytes(object_key=object_key, data=image_data, content_type=mime_type)
+
+            image_b64 = b64.b64encode(image_data).decode("utf-8")
+
+            # Try to get a public URL
+            storage_uri = None
+            if hasattr(storage, 'get_url'):
+                try:
+                    storage_uri = storage.get_url(object_key)
+                except Exception:
+                    pass
+
+            resp = {
+                "execution_id": execution_id,
+                "status": "success",
+                "node_type": node_type,
+                "result": {
+                    "image_base64": image_b64,
+                    "storage_key": object_key,
+                    "storage_uri": storage_uri,
+                },
+            }
+            _persist_node_result(db, node_id, node_type, content, resp)
+            return resp
+        except Exception as e:
+            import traceback
+            logger.error("GeminiComposite generation failed: %s\n%s", e, traceback.format_exc())
+            raise HTTPException(status_code=502, detail=str(e))
 
     # ── CharacterProcess / PropProcess — asset selection (frontend-driven) ──
     if node_type in ("characterProcess", "propProcess"):
@@ -1006,7 +1104,7 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
             os.unlink(tmp.name)
 
     # ── HD Upscale — RunningHub image upscaling ──
-    if node_type == "hdUpscale":
+    if node_type in ("hdUpscale", "finalHD"):
         from config import settings
         from services.runninghub_client import RunningHubClient
         from services.hd_upscale_service import run_hd_upscale

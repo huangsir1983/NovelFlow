@@ -10,6 +10,7 @@ const MODE_LABEL: Record<string, string> = { text_to_video: 'T2V', image_to_vide
 
 function VideoGenerationNodeComponent({ data, selected }: NodeProps<VideoGenerationNode>) {
   const [hovered, setHovered] = useState(false);
+  const inputImageUrl = (data as unknown as Record<string, unknown>).inputImageUrl as string | undefined;
 
   const cardBg = selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e';
   const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
@@ -47,6 +48,8 @@ function VideoGenerationNodeComponent({ data, selected }: NodeProps<VideoGenerat
               <video src={data.videoUrl} style={{ width: '100%', height: '100%', objectFit: 'cover' }} muted loop playsInline
                 onMouseEnter={(e) => (e.target as HTMLVideoElement).play()}
                 onMouseLeave={(e) => { const v = e.target as HTMLVideoElement; v.pause(); v.currentTime = 0; }} />
+            ) : inputImageUrl ? (
+              <img src={inputImageUrl} alt="源图" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }} />
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
                 <span style={{ fontSize: 18, color: 'rgba(255,255,255,0.05)' }}>▶</span>

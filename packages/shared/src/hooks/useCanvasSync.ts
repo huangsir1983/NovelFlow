@@ -6,7 +6,7 @@ import { useProjectStore } from '../stores/projectStore';
 import { useBoardStore } from '../stores/boardStore';
 import { useCanvasStore } from '../stores/canvasStore';
 import { buildCanvasGraph, type SceneInput, type ShotInput, type CharacterMapEntry, type LocationDetailEntry, shotNodeId, videoNodeId } from '../lib/canvasLayout';
-import { API_BASE_URL } from '../lib/api';
+import { API_BASE_URL, normalizeStorageUrl } from '../lib/api';
 
 /** Apply saved node execution results to freshly built nodes + propagate outputs downstream */
 type SavedNodeResult = { node_type: string; input_snapshot: Record<string, unknown>; output_snapshot: Record<string, unknown> };
@@ -23,7 +23,8 @@ function _applySavedResults(
   for (const [nodeId, rec] of Object.entries(saved)) {
     if (!rec.output_snapshot) continue;
     const out = rec.output_snapshot;
-    const key = out.outputStorageKey as string | undefined;
+    // Normalize: some handlers use outputStorageKey, others use storage_key
+    const key = (out.outputStorageKey || out.storage_key) as string | undefined;
     const url = key ? `${API_BASE_URL}/uploads/${key}` : (out.outputImageUrl as string | undefined);
     if (url || key) outputMap.set(nodeId, { url, key });
   }
@@ -33,6 +34,29 @@ function _applySavedResults(
   for (const e of edges) {
     const src = outputMap.get(e.source);
     if (src) downstreamInputs.set(e.target, src);
+  }
+
+  // Step 2b: Build DirectorStage3D → GeminiComposite propagation map
+  const stageToComposite = new Map<string, {
+    sceneStorageKey: string;
+    characterScreenshots: Array<Record<string, unknown>>;
+    stageCharacters: unknown[];
+    sceneDescription: string;
+  }>();
+  for (const [nodeId, rec] of Object.entries(saved)) {
+    if (rec.node_type !== 'directorStage3D') continue;
+    if (!rec.output_snapshot?.outputStorageKey) continue;
+    const inp = rec.input_snapshot || {};
+    for (const e of edges) {
+      if (e.source === nodeId) {
+        stageToComposite.set(e.target, {
+          sceneStorageKey: rec.output_snapshot.outputStorageKey as string,
+          characterScreenshots: (inp.characterScreenshots || []) as Array<Record<string, unknown>>,
+          stageCharacters: (inp.stageCharacters || []) as unknown[],
+          sceneDescription: (inp.sceneDescription || '') as string,
+        });
+      }
+    }
   }
 
   // Step 3: Patch nodes — restore saved results + propagate inputs to downstream
@@ -45,21 +69,51 @@ function _applySavedResults(
       const out = rec.output_snapshot;
       const inp = rec.input_snapshot || {};
       const patch: Record<string, unknown> = { status: 'success', progress: 100 };
-      if (out.outputStorageKey) {
-        patch.outputStorageKey = out.outputStorageKey;
-        patch.outputImageUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
+      // Normalize: some handlers use outputStorageKey, others use storage_key
+      const storageKey = (out.outputStorageKey || out.storage_key) as string | undefined;
+      if (storageKey) {
+        patch.outputStorageKey = storageKey;
+        patch.outputImageUrl = `${API_BASE_URL}/uploads/${storageKey}`;
       }
       if (out.outputImageUrl) patch.outputImageUrl = out.outputImageUrl;
       if (out.outputPngUrl) patch.outputPngUrl = out.outputPngUrl;
       // SceneBG nodes store screenshot in screenshotUrl field
-      if (rec.node_type === 'sceneBG' && out.outputStorageKey) {
-        patch.screenshotUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
-        patch.panoramaStorageKey = out.outputStorageKey as string;
+      if (rec.node_type === 'sceneBG' && storageKey) {
+        patch.screenshotUrl = `${API_BASE_URL}/uploads/${storageKey}`;
+        patch.panoramaStorageKey = storageKey as string;
       }
       // Pose3D nodes: restore screenshot + joint angles
-      if (rec.node_type === 'pose3D' && out.outputStorageKey) {
-        patch.screenshotUrl = `${API_BASE_URL}/uploads/${out.outputStorageKey}`;
-        patch.screenshotStorageKey = out.outputStorageKey as string;
+      if (rec.node_type === 'pose3D' && storageKey) {
+        patch.screenshotUrl = `${API_BASE_URL}/uploads/${storageKey}`;
+        patch.screenshotStorageKey = storageKey as string;
+      }
+      // DirectorStage3D nodes: restore screenshot + stageCharacters + character screenshots
+      if (rec.node_type === 'directorStage3D' && storageKey) {
+        patch.screenshotStorageKey = storageKey as string;
+        // Restore stageCharacters (positions, poses, joints)
+        if (inp.stageCharacters && Array.isArray(inp.stageCharacters)) {
+          patch.stageCharacters = inp.stageCharacters;
+        }
+        // Restore character screenshots with persistent URLs
+        if (inp.characterScreenshots && Array.isArray(inp.characterScreenshots)) {
+          patch.characterScreenshots = (inp.characterScreenshots as Array<Record<string, unknown>>).map(cs => ({
+            ...cs,
+            screenshot: cs.storageKey ? '' : (cs.screenshot || ''), // base64 not persisted; will use storageKey
+          }));
+        }
+        // Restore scene description
+        if (inp.sceneDescription) patch.sceneDescription = inp.sceneDescription;
+      }
+      // GeminiComposite nodes: restore output image + input context for regeneration
+      if (rec.node_type === 'geminiComposite' && storageKey) {
+        patch.outputStorageKey = storageKey;
+        patch.outputImageUrl = `${API_BASE_URL}/uploads/${storageKey}`;
+        // Restore input context so regeneration works without upstream re-capture
+        if (inp.sceneScreenshotStorageKey) patch.sceneScreenshotStorageKey = inp.sceneScreenshotStorageKey;
+        if (inp.sceneDescription) patch.sceneDescription = inp.sceneDescription;
+        if (inp.characterMappings && Array.isArray(inp.characterMappings)) {
+          patch.characterMappings = inp.characterMappings;
+        }
       }
       if (inp.jointAngles) patch.jointAngles = inp.jointAngles;
       if (inp.azimuth !== undefined) patch.azimuth = inp.azimuth;
@@ -79,6 +133,44 @@ function _applySavedResults(
       if (upstream.url) inputPatch.inputImageUrl = upstream.url;
       if (upstream.key) inputPatch.inputStorageKey = upstream.key;
       patched = { ...patched, data: { ...patched.data, ...inputPatch } };
+    }
+
+    // Propagate DirectorStage3D → GeminiComposite (scene screenshot + character mappings)
+    const stageData = stageToComposite.get(n.id);
+    if (stageData && (patched.data as Record<string, unknown>).nodeType === 'geminiComposite') {
+      const compositePatch: Record<string, unknown> = {
+        sceneScreenshotStorageKey: stageData.sceneStorageKey,
+      };
+      if (stageData.sceneDescription) compositePatch.sceneDescription = stageData.sceneDescription;
+      // Reconstruct characterMappings from saved character screenshots
+      if (stageData.characterScreenshots.length > 0) {
+        // Find CharacterProcess nodes upstream of DirectorStage3D for reference images
+        // DirectorStage3D → this GeminiComposite, CharacterProcess → DirectorStage3D
+        const stageNodeId = edges.find(e => e.target === n.id && stageToComposite.has(n.id))?.source;
+        const charProcessNodes = stageNodeId
+          ? nodes.filter(cn => {
+              const isUpstream = edges.some(e => e.source === cn.id && e.target === stageNodeId);
+              return isUpstream && (cn.data as Record<string, unknown>).nodeType === 'characterProcess';
+            })
+          : [];
+        compositePatch.characterMappings = stageData.characterScreenshots.map(cs => {
+          const cpNode = charProcessNodes.find(
+            cn => (cn.data as Record<string, unknown>).characterName === cs.stageCharName,
+          );
+          const cpData = cpNode?.data as Record<string, unknown> | undefined;
+          return {
+            stageCharId: cs.stageCharId,
+            stageCharName: cs.stageCharName,
+            color: cs.color,
+            poseScreenshot: '', // base64 not available after restore
+            poseStorageKey: cs.storageKey || '',
+            bbox: cs.bbox,
+            referenceImageUrl: cpData?.visualRefUrl || '',
+            referenceStorageKey: cpData?.visualRefStorageKey || '',
+          };
+        });
+      }
+      patched = { ...patched, data: { ...patched.data, ...compositePatch } };
     }
 
     return patched;
@@ -379,12 +471,14 @@ export function useCanvasSync() {
     }));
 
     // Build location name → panorama URL/key map (with viewpoints)
-    const locationPanoramaMap: Record<string, { locationId: string; panoramaUrl?: string; panoramaStorageKey?: string; viewpoints?: import('../types/canvas').ViewPoint[] }> = {};
+    const locationPanoramaMap: Record<string, { locationId: string; panoramaUrl?: string; panoramaStorageKey?: string; depthMapUrl?: string; depthMapStorageKey?: string; viewpoints?: import('../types/canvas').ViewPoint[] }> = {};
     for (const loc of locations) {
       const imgs = assetImages[loc.id];
       const keys = assetImageKeys[loc.id];
-      const panoramaUrl = imgs?.['panorama'];
+      const panoramaUrl = normalizeStorageUrl(imgs?.['panorama']);
       const panoramaStorageKey = keys?.['panorama'];
+      const depthMapUrl = normalizeStorageUrl(imgs?.['panorama_depth']);
+      const depthMapStorageKey = keys?.['panorama_depth'];
       // Map backend viewpoints (snake_case) to frontend ViewPoint (camelCase)
       const viewpoints = ((loc as unknown as Record<string, unknown>).viewpoints as Array<Record<string, unknown>> | undefined)?.map(vp => ({
         id: vp.id as string,
@@ -398,8 +492,8 @@ export function useCanvasSync() {
         correctionStrength: (vp.correction_strength as number) ?? 0.5,
         isDefault: (vp.is_default as boolean) ?? false,
       })) ?? [];
-      if (panoramaUrl || panoramaStorageKey || viewpoints.length > 0) {
-        locationPanoramaMap[loc.name] = { locationId: loc.id, panoramaUrl, panoramaStorageKey, viewpoints };
+      if (panoramaUrl || panoramaStorageKey || depthMapUrl || depthMapStorageKey || viewpoints.length > 0) {
+        locationPanoramaMap[loc.name] = { locationId: loc.id, panoramaUrl, panoramaStorageKey, depthMapUrl, depthMapStorageKey, viewpoints };
       }
     }
 
@@ -409,8 +503,9 @@ export function useCanvasSync() {
       const imgs = assetImages[char.id];
       const keys = assetImageKeys[char.id];
       // Try multiple image slots — priority: visual_reference > front_full > front > main > any first available
-      const visualRefUrl = imgs?.['visual_reference'] || imgs?.['front_full'] || imgs?.['front'] || imgs?.['main']
+      const rawVisualRefUrl = imgs?.['visual_reference'] || imgs?.['front_full'] || imgs?.['front'] || imgs?.['main']
         || (imgs ? Object.values(imgs)[0] : undefined) || char.visual_reference;
+      const visualRefUrl = normalizeStorageUrl(rawVisualRefUrl);
       const visualRefStorageKey = keys?.['visual_reference'] || keys?.['front_full'] || keys?.['front'] || keys?.['main']
         || (keys ? Object.values(keys)[0] : undefined);
       characterMap[char.name] = {
@@ -437,7 +532,7 @@ export function useCanvasSync() {
         atmosphere: loc.atmosphere,
         lighting: loc.lighting,
         colorPalette: loc.color_palette,
-        visualRefUrl: imgs?.['main'] || imgs?.['east'] || loc.visual_reference,
+        visualRefUrl: normalizeStorageUrl(imgs?.['main'] || imgs?.['east'] || loc.visual_reference),
         visualRefStorageKey: keys?.['main'] || keys?.['east'],
         negativePrompt: loc.visual_prompt_negative,
       };
@@ -551,6 +646,26 @@ export function useCanvasSync() {
         snap.selectedVariant = pd.selectedVariant;
         if (pd.visualRefUrl) snap.visualRefUrl = pd.visualRefUrl;
         if (pd.visualRefStorageKey) snap.visualRefStorageKey = pd.visualRefStorageKey;
+      }
+      // Preserve DirectorStage3D state across rebuild
+      if (pd.nodeType === 'directorStage3D') {
+        if (pd.stageCharacters && Array.isArray(pd.stageCharacters) && (pd.stageCharacters as unknown[]).length > 0) {
+          snap.stageCharacters = pd.stageCharacters;
+        }
+        if (pd.characterScreenshots && Array.isArray(pd.characterScreenshots)) {
+          snap.characterScreenshots = pd.characterScreenshots;
+        }
+        if (pd.screenshotBase64) snap.screenshotBase64 = pd.screenshotBase64;
+        if (pd.sceneDescription) snap.sceneDescription = pd.sceneDescription;
+      }
+      // Preserve GeminiComposite state across rebuild
+      if (pd.nodeType === 'geminiComposite') {
+        if (pd.sceneScreenshotStorageKey) snap.sceneScreenshotStorageKey = pd.sceneScreenshotStorageKey;
+        if (pd.sceneScreenshotBase64) snap.sceneScreenshotBase64 = pd.sceneScreenshotBase64;
+        if (pd.characterMappings && Array.isArray(pd.characterMappings) && (pd.characterMappings as unknown[]).length > 0) {
+          snap.characterMappings = pd.characterMappings;
+        }
+        if (pd.sceneDescription) snap.sceneDescription = pd.sceneDescription;
       }
       if (Object.keys(snap).length > 0) prevDataMap.set(pn.id, snap);
     }
