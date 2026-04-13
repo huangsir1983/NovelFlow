@@ -113,13 +113,47 @@ export interface ImageGenerationNodeData extends BaseNodeData {
 }
 
 /* ---------- Video Generation ---------- */
+
+/** 视频节点图片画廊引用 */
+export interface VideoImageRef {
+  id: string;
+  label: string;                 // "首帧图" / "苏阳" / "镜子"
+  type: 'firstFrame' | 'character' | 'prop' | 'scene';
+  url: string;                   // 可访问 HTTP URL（给 API file_paths 用）
+  storageKey?: string;
+  characterName?: string;        // type=character 时
+}
+
 export interface VideoGenerationNodeData extends BaseNodeData {
   nodeType: 'videoGeneration';
-  sourceImageId?: string;
   videoUrl?: string;
   durationMs: number;
   progress: number;
   mode: 'text_to_video' | 'image_to_video' | 'scene_character_to_video';
+  // 输入/输出
+  inputImageUrl?: string;          // FinalHD 传来的首帧图
+  inputStorageKey?: string;
+  videoStorageKey?: string;
+  // 提示词
+  assembledPrompt?: string;        // 结构化提示词（可编辑）
+  imageRefs?: VideoImageRef[];     // 图片画廊
+  // API 参数
+  ratio?: '16:9' | '9:16' | '1:1';
+  durationSeconds?: number;
+  seedanceTaskId?: string;
+  // 上游元数据（canvasLayout 填充）
+  shotDescription?: string;
+  shotFraming?: string;
+  shotCameraAngle?: string;
+  shotCameraMovement?: string;
+  shotDialogue?: string;
+  shotEmotionTarget?: string;
+  shotCharactersInFrame?: string[];
+  shotCharacterActions?: Record<string, { expression?: string; action?: string; position?: string }>;
+  sceneLocation?: string;
+  sceneTimeOfDay?: string;
+  sceneDescription?: string;
+  characterRefs?: Array<{ name: string; visualRefUrl?: string; visualRefStorageKey?: string }>;
 }
 
 /* ---------- ViewPoint (camera preset on a single panorama) ---------- */

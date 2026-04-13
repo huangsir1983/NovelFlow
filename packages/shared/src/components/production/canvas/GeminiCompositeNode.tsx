@@ -234,12 +234,14 @@ function GeminiCompositeNodeInner({ id, data }: NodeProps) {
       <div className="p-3">
         {hasOutput ? (
           <div className="flex flex-col gap-2">
-            <img
-              src={d.outputImageUrl || `data:image/jpeg;base64,${d.outputImageBase64}`}
-              alt="Gemini合成结果"
-              className="w-full rounded object-cover"
-              style={{ maxHeight: 140 }}
-            />
+            <div className="w-full rounded overflow-hidden" style={{ aspectRatio: '16/9' }}>
+              <img
+                src={d.outputImageUrl || `data:image/jpeg;base64,${d.outputImageBase64}`}
+                alt="Gemini合成结果"
+                className="w-full h-full object-contain rounded"
+                style={{ backgroundColor: 'rgba(0,0,0,0.3)' }}
+              />
+            </div>
             <button
               onClick={handleGenerate}
               disabled={d.status === 'running'}
@@ -250,12 +252,14 @@ function GeminiCompositeNodeInner({ id, data }: NodeProps) {
           </div>
         ) : hasInput ? (
           <div className="flex flex-col gap-2">
-            <img
-              src={inputPreviewSrc}
-              alt="场景截图"
-              className="w-full rounded object-cover opacity-60"
-              style={{ maxHeight: 100 }}
-            />
+            <div className="w-full rounded overflow-hidden" style={{ aspectRatio: '16/9' }}>
+              <img
+                src={inputPreviewSrc}
+                alt="场景截图"
+                className="w-full h-full object-contain rounded opacity-60"
+                style={{ backgroundColor: 'rgba(0,0,0,0.3)' }}
+              />
+            </div>
             <button
               onClick={handleGenerate}
               disabled={d.status === 'running'}

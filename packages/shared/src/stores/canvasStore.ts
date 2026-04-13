@@ -363,8 +363,18 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
     if (!stage3DClipboard) return false;
     const targetNode = nodes.find(n => n.id === targetNodeId);
     if (!targetNode) return false;
+
+    // Location check: source and target must share the same location
+    const findSceneLocation = (sceneId: string) => {
+      const sn = nodes.find(n => (n.data as Record<string, unknown>).nodeType === 'scene' && (n.data as Record<string, unknown>).sceneId === sceneId);
+      return (sn?.data as Record<string, unknown>)?.location as string | undefined;
+    };
     const td = targetNode.data as Record<string, unknown>;
-    if ((td.sceneId as string) !== stage3DClipboard.sceneId) return false;
+    const srcLoc = findSceneLocation(stage3DClipboard.sceneId);
+    const tgtLoc = findSceneLocation(td.sceneId as string);
+    if (!srcLoc || !tgtLoc || srcLoc !== tgtLoc) return false;
+
+    const hasScreenshot = !!stage3DClipboard.screenshotBase64 || !!stage3DClipboard.screenshotStorageKey;
 
     // Find upstream CharacterProcess nodes for reference images
     const charProcessDatas: Array<Record<string, unknown>> = [];
@@ -390,13 +400,13 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
           d.characterScreenshots = stage3DClipboard.characterScreenshots
             ? JSON.parse(JSON.stringify(stage3DClipboard.characterScreenshots))
             : undefined;
+          d.status = hasScreenshot ? 'success' : d.status;
           return { ...n, data: d };
         }
 
         // Propagate to downstream GeminiComposite nodes
         const downEdge = edges.find(e => e.source === targetNodeId && e.target === n.id);
-        if (downEdge && (n.data as Record<string, unknown>).nodeType === 'geminiComposite'
-            && stage3DClipboard.screenshotBase64) {
+        if (downEdge && (n.data as Record<string, unknown>).nodeType === 'geminiComposite' && hasScreenshot) {
           const charScreenshots = (stage3DClipboard.characterScreenshots || []) as Array<Record<string, unknown>>;
           const mappings = charScreenshots.map(cs => {
             const cpData = charProcessDatas.find(
@@ -417,6 +427,7 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
             data: {
               ...n.data,
               sceneScreenshotBase64: stage3DClipboard.screenshotBase64,
+              sceneScreenshotStorageKey: stage3DClipboard.screenshotStorageKey,
               characterMappings: mappings,
               status: 'idle',
             },

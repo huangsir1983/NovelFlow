@@ -65,6 +65,10 @@ class Settings(BaseSettings):
     runninghub_app_id: str = "2026919371204993025"
     runninghub_instance_type: str = "default"
 
+    # Seedance (映话全能视频S)
+    seedance_api_key: str = ""
+    seedance_base_url: str = "https://api.xuhuanai.cn/v1/videos/international/generations"
+
     # AI rate limiting
     ai_rpm_limit: int = 500
     ai_tpm_limit: int = 800000

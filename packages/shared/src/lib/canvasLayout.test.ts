@@ -369,3 +369,79 @@ describe('characterActions passthrough', () => {
     expect(data.characterActions).toBeUndefined();
   });
 });
+
+
+// ═══════════════════════════════════════════════════════════
+// VideoGeneration node upstream metadata population
+// ═══════════════════════════════════════════════════════════
+
+describe('VideoGeneration node data population', () => {
+  const charMap = {
+    Alice: { name: 'Alice', appearance: {}, costume: {}, visualRefUrl: 'http://alice.jpg', visualRefStorageKey: 'refs/alice.jpg' },
+    Bob: { name: 'Bob', appearance: {}, costume: {}, visualRefUrl: 'http://bob.jpg' },
+  };
+
+  const shotFull = {
+    ...shot,
+    framing: 'close-up',
+    cameraAngle: 'low-angle',
+    cameraMovement: 'dolly-in',
+    description: 'Alice approaches Bob',
+    dialogueText: 'Hello Bob',
+    emotionTarget: 'surprise',
+    charactersInFrame: ['Alice', 'Bob'],
+    durationEstimate: '5s',
+    characterActions: {
+      Alice: { expression: '微笑', action: '走近', position: '画面左' },
+    },
+  };
+
+  it('populates shot metadata on VideoGeneration node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shotFull], { characterMap: charMap });
+    const vNode = nodes.find(n => n.type === 'videoGeneration');
+    expect(vNode).toBeDefined();
+
+    const d = vNode!.data as Record<string, unknown>;
+    expect(d.shotDescription).toBe('Alice approaches Bob');
+    expect(d.shotFraming).toBe('close-up');
+    expect(d.shotCameraAngle).toBe('low-angle');
+    expect(d.shotCameraMovement).toBe('dolly-in');
+    expect(d.shotDialogue).toBe('Hello Bob');
+    expect(d.shotEmotionTarget).toBe('surprise');
+  });
+
+  it('populates scene metadata on VideoGeneration node', () => {
+    const { nodes } = buildCanvasGraph([scene], [shotFull], { characterMap: charMap });
+    const d = nodes.find(n => n.type === 'videoGeneration')!.data as Record<string, unknown>;
+    expect(d.sceneLocation).toBe('Grand Hall');
+    expect(d.sceneTimeOfDay).toBe('day');
+  });
+
+  it('populates characterRefs with visualRefUrl and storageKey', () => {
+    const { nodes } = buildCanvasGraph([scene], [shotFull], { characterMap: charMap });
+    const d = nodes.find(n => n.type === 'videoGeneration')!.data as Record<string, unknown>;
+    const cRefs = d.characterRefs as Array<{ name: string; visualRefUrl?: string; visualRefStorageKey?: string }>;
+    expect(cRefs).toHaveLength(2);
+    expect(cRefs[0].name).toBe('Alice');
+    expect(cRefs[0].visualRefUrl).toBe('http://alice.jpg');
+    expect(cRefs[0].visualRefStorageKey).toBe('refs/alice.jpg');
+    expect(cRefs[1].name).toBe('Bob');
+    expect(cRefs[1].visualRefUrl).toBe('http://bob.jpg');
+  });
+
+  it('populates durationSeconds and ratio', () => {
+    const { nodes } = buildCanvasGraph([scene], [shotFull], { characterMap: charMap });
+    const d = nodes.find(n => n.type === 'videoGeneration')!.data as Record<string, unknown>;
+    expect(d.durationSeconds).toBe(5);
+    expect(d.ratio).toBe('16:9');
+  });
+
+  it('populates shotCharactersInFrame and shotCharacterActions', () => {
+    const { nodes } = buildCanvasGraph([scene], [shotFull], { characterMap: charMap });
+    const d = nodes.find(n => n.type === 'videoGeneration')!.data as Record<string, unknown>;
+    expect(d.shotCharactersInFrame).toEqual(['Alice', 'Bob']);
+    const actions = d.shotCharacterActions as Record<string, unknown>;
+    expect(actions).toBeDefined();
+    expect(actions['Alice']).toEqual({ expression: '微笑', action: '走近', position: '画面左' });
+  });
+});

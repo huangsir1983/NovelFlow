@@ -1084,6 +1084,9 @@ export function ParallaxStage3D({
     // Persist camera state alongside screenshots
     emitCameraState();
 
+    // Freeze controls so damping doesn't drift during shutter animation
+    if (controlsRef.current) controlsRef.current.enabled = false;
+
     // Trigger shutter animation → auto-close
     setShutterPhase('flash');
   }, []);

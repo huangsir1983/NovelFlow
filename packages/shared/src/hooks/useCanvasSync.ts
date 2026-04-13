@@ -115,6 +115,15 @@ function _applySavedResults(
           patch.characterMappings = inp.characterMappings;
         }
       }
+      // VideoGeneration nodes: restore video URL + prompt state
+      if (rec.node_type === 'videoGeneration') {
+        if (out.video_url) { patch.videoUrl = out.video_url; patch.status = 'success'; }
+        if (out.task_id) patch.seedanceTaskId = out.task_id;
+        if (inp.assembledPrompt) patch.assembledPrompt = inp.assembledPrompt;
+        if (inp.imageRefs) patch.imageRefs = inp.imageRefs;
+        if (inp.ratio) patch.ratio = inp.ratio;
+        if (inp.durationSeconds) patch.durationSeconds = inp.durationSeconds;
+      }
       if (inp.jointAngles) patch.jointAngles = inp.jointAngles;
       if (inp.azimuth !== undefined) patch.azimuth = inp.azimuth;
       if (inp.elevation !== undefined) patch.elevation = inp.elevation;
@@ -504,10 +513,17 @@ export function useCanvasSync() {
       const keys = assetImageKeys[char.id];
       // Try multiple image slots — priority: visual_reference > front_full > front > main > any first available
       const rawVisualRefUrl = imgs?.['visual_reference'] || imgs?.['front_full'] || imgs?.['front'] || imgs?.['main']
-        || (imgs ? Object.values(imgs)[0] : undefined) || char.visual_reference;
-      const visualRefUrl = normalizeStorageUrl(rawVisualRefUrl);
+        || (imgs ? Object.values(imgs)[0] : undefined);
       const visualRefStorageKey = keys?.['visual_reference'] || keys?.['front_full'] || keys?.['front'] || keys?.['main']
         || (keys ? Object.values(keys)[0] : undefined);
+      // Only use rawVisualRefUrl if it's actually an image (http/data:/path), not a text description.
+      // Fallback to storage key → /uploads/ URL when store cache is empty (e.g. after page reload).
+      let visualRefUrl: string | undefined;
+      if (rawVisualRefUrl && (rawVisualRefUrl.startsWith('http') || rawVisualRefUrl.startsWith('data:') || rawVisualRefUrl.includes('/uploads/'))) {
+        visualRefUrl = normalizeStorageUrl(rawVisualRefUrl);
+      } else if (visualRefStorageKey) {
+        visualRefUrl = `${API_BASE_URL}/uploads/${visualRefStorageKey}`;
+      }
       characterMap[char.name] = {
         id: char.id,
         name: char.name,
@@ -526,14 +542,22 @@ export function useCanvasSync() {
     for (const loc of locations) {
       const imgs = assetImages[loc.id];
       const keys = assetImageKeys[loc.id];
+      const rawLocUrl = imgs?.['main'] || imgs?.['east'];
+      const locStorageKey = keys?.['main'] || keys?.['east'];
+      let locVisualRefUrl: string | undefined;
+      if (rawLocUrl && (rawLocUrl.startsWith('http') || rawLocUrl.startsWith('data:') || rawLocUrl.includes('/uploads/'))) {
+        locVisualRefUrl = normalizeStorageUrl(rawLocUrl);
+      } else if (locStorageKey) {
+        locVisualRefUrl = `${API_BASE_URL}/uploads/${locStorageKey}`;
+      }
       locationDetailMap[loc.name] = {
         visualDescription: loc.visual_description,
         mood: loc.mood,
         atmosphere: loc.atmosphere,
         lighting: loc.lighting,
         colorPalette: loc.color_palette,
-        visualRefUrl: normalizeStorageUrl(imgs?.['main'] || imgs?.['east'] || loc.visual_reference),
-        visualRefStorageKey: keys?.['main'] || keys?.['east'],
+        visualRefUrl: locVisualRefUrl,
+        visualRefStorageKey: locStorageKey,
         negativePrompt: loc.visual_prompt_negative,
       };
     }

@@ -2,6 +2,22 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { useCanvasStore } from './canvasStore';
 import type { Node, Edge } from '@xyflow/react';
 
+// Helper: create a Scene node (provides location for paste validation)
+function makeSceneNode(sceneId: string, location: string): Node {
+  return {
+    id: `scene-${sceneId}`,
+    type: 'scene',
+    position: { x: 0, y: 0 },
+    data: {
+      nodeType: 'scene',
+      label: `Scene`,
+      status: 'idle',
+      sceneId,
+      location,
+    },
+  };
+}
+
 // Helper: create a DirectorStage3D node for testing
 function makeStage3DNode(
   id: string,
@@ -144,14 +160,16 @@ describe('DirectorStage3D copy/paste', () => {
     expect(useCanvasStore.getState().stage3DClipboard!.sceneId).toBe('scene-42');
   });
 
-  it('pasteStage3D deep-copies data to target node with same sceneId', () => {
+  it('pasteStage3D deep-copies data to target node with same location', () => {
+    const sceneA = makeSceneNode('scene-1', '大厅');
+    const sceneB = makeSceneNode('scene-2', '大厅'); // same location
     const source = makeStage3DNode('node-1', 'scene-1');
-    const target = makeStage3DNode('node-2', 'scene-1', {
+    const target = makeStage3DNode('node-2', 'scene-2', {
       stageCharacters: [],
       cameraState: undefined,
       screenshotBase64: '',
     });
-    useCanvasStore.setState({ nodes: [source, target] });
+    useCanvasStore.setState({ nodes: [sceneA, sceneB, source, target] });
 
     useCanvasStore.getState().copyStage3D('node-1');
     const result = useCanvasStore.getState().pasteStage3D('node-2');
@@ -169,10 +187,12 @@ describe('DirectorStage3D copy/paste', () => {
     });
   });
 
-  it('pasteStage3D rejects target node with different sceneId', () => {
+  it('pasteStage3D rejects target node with different location', () => {
+    const sceneA = makeSceneNode('scene-1', '大厅');
+    const sceneB = makeSceneNode('scene-2', '花园'); // different location
     const source = makeStage3DNode('node-1', 'scene-1');
     const target = makeStage3DNode('node-2', 'scene-2', { stageCharacters: [] });
-    useCanvasStore.setState({ nodes: [source, target] });
+    useCanvasStore.setState({ nodes: [sceneA, sceneB, source, target] });
 
     useCanvasStore.getState().copyStage3D('node-1');
     const result = useCanvasStore.getState().pasteStage3D('node-2');
@@ -193,9 +213,10 @@ describe('DirectorStage3D copy/paste', () => {
   });
 
   it('pasted data is independent (modifying target does not affect clipboard)', () => {
+    const scene = makeSceneNode('scene-1', '大厅');
     const source = makeStage3DNode('node-1', 'scene-1');
     const target = makeStage3DNode('node-2', 'scene-1', { stageCharacters: [] });
-    useCanvasStore.setState({ nodes: [source, target] });
+    useCanvasStore.setState({ nodes: [scene, source, target] });
 
     useCanvasStore.getState().copyStage3D('node-1');
     useCanvasStore.getState().pasteStage3D('node-2');
@@ -211,12 +232,13 @@ describe('DirectorStage3D copy/paste', () => {
   });
 
   it('pasteStage3D copies source screenshot to target as preview', () => {
+    const scene = makeSceneNode('scene-1', '大厅');
     const source = makeStage3DNode('node-1', 'scene-1');
     const target = makeStage3DNode('node-2', 'scene-1', {
       screenshotBase64: 'TARGET_OLD_BASE64',
       screenshotStorageKey: 'target/old/path.jpg',
     });
-    useCanvasStore.setState({ nodes: [source, target] });
+    useCanvasStore.setState({ nodes: [scene, source, target] });
 
     useCanvasStore.getState().copyStage3D('node-1');
     useCanvasStore.getState().pasteStage3D('node-2');
@@ -228,6 +250,7 @@ describe('DirectorStage3D copy/paste', () => {
   });
 
   it('pasteStage3D propagates screenshot data to downstream GeminiComposite node', () => {
+    const scene = makeSceneNode('scene-1', '大厅');
     const source = makeStage3DNode('node-1', 'scene-1');
     const target = makeStage3DNode('node-2', 'scene-1', {
       stageCharacters: [],
@@ -243,7 +266,7 @@ describe('DirectorStage3D copy/paste', () => {
       { id: 'e-cp2-target', source: 'cp-2', target: 'node-2' },
       { id: 'e-target-gemini', source: 'node-2', target: 'gemini-2' },
     ];
-    useCanvasStore.setState({ nodes: [source, target, gemini, cp1, cp2], edges });
+    useCanvasStore.setState({ nodes: [scene, source, target, gemini, cp1, cp2], edges });
 
     useCanvasStore.getState().copyStage3D('node-1');
     useCanvasStore.getState().pasteStage3D('node-2');
@@ -251,6 +274,7 @@ describe('DirectorStage3D copy/paste', () => {
     // GeminiComposite should have received the scene screenshot
     const geminiData = useCanvasStore.getState().nodes.find(n => n.id === 'gemini-2')!.data as Record<string, unknown>;
     expect(geminiData.sceneScreenshotBase64).toBe('OLD_SCREENSHOT');
+    expect(geminiData.sceneScreenshotStorageKey).toBe('old/screenshot.jpg');
 
     // characterMappings should have been built
     const mappings = geminiData.characterMappings as Array<Record<string, unknown>>;
@@ -261,5 +285,30 @@ describe('DirectorStage3D copy/paste', () => {
     expect(mappings[1].stageCharName).toBe('林婉');
     expect(mappings[1].poseScreenshot).toBe('CHAR1_SCREENSHOT_BASE64');
     expect(mappings[1].referenceImageUrl).toBe('http://ref/linwan.jpg');
+  });
+
+  it('pasteStage3D propagates when only screenshotStorageKey exists (no base64)', () => {
+    const scene = makeSceneNode('scene-1', '大厅');
+    const source = makeStage3DNode('node-1', 'scene-1', {
+      screenshotBase64: undefined,
+      screenshotStorageKey: 'persistent/screenshot.jpg',
+    });
+    const target = makeStage3DNode('node-2', 'scene-1', {
+      stageCharacters: [],
+      screenshotBase64: undefined,
+      screenshotStorageKey: undefined,
+    });
+    const gemini = makeGeminiCompositeNode('gemini-2', 'scene-1');
+
+    const edges: Edge[] = [
+      { id: 'e-target-gemini', source: 'node-2', target: 'gemini-2' },
+    ];
+    useCanvasStore.setState({ nodes: [scene, source, target, gemini], edges });
+
+    useCanvasStore.getState().copyStage3D('node-1');
+    useCanvasStore.getState().pasteStage3D('node-2');
+
+    const geminiData = useCanvasStore.getState().nodes.find(n => n.id === 'gemini-2')!.data as Record<string, unknown>;
+    expect(geminiData.sceneScreenshotStorageKey).toBe('persistent/screenshot.jpg');
   });
 });

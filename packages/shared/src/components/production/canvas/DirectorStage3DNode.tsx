@@ -167,7 +167,17 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
     return () => window.removeEventListener('click', close);
   }, [contextMenu]);
 
-  const canPaste = !!clipboard && clipboard.sceneId === d.sceneId;
+  // Only allow paste when source and target share the same location (same VR panorama)
+  const canPaste = useMemo(() => {
+    if (!clipboard) return false;
+    const findSceneLocation = (sceneId: string) => {
+      const sceneNode = allNodes.find(n => (n.data as Record<string, unknown>).nodeType === 'scene' && (n.data as Record<string, unknown>).sceneId === sceneId);
+      return (sceneNode?.data as Record<string, unknown>)?.location as string | undefined;
+    };
+    const srcLocation = findSceneLocation(clipboard.sceneId);
+    const tgtLocation = findSceneLocation(d.sceneId);
+    return !!srcLocation && !!tgtLocation && srcLocation === tgtLocation;
+  }, [clipboard, allNodes, d.sceneId]);
 
   const handleCharactersUpdate = useCallback(
     (chars: StageCharacter[]) => {
@@ -380,24 +390,24 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
       {/* Right-click context menu (portal to body to escape ReactFlow transform) */}
       {contextMenu && createPortal(
         <div
-          className="fixed z-[9999] bg-zinc-800 border border-zinc-600 rounded-lg shadow-xl py-1 min-w-[160px]"
-          style={{ left: contextMenu.x, top: contextMenu.y }}
+          className="fixed z-[9999] border border-zinc-500/40 rounded-lg shadow-xl py-1 min-w-[160px] backdrop-blur-xl"
+          style={{ left: contextMenu.x, top: contextMenu.y, backgroundColor: 'rgba(39, 39, 42, 0.75)' }}
           onClick={(e) => e.stopPropagation()}
         >
           <button
-            className="w-full text-left px-3 py-1.5 text-xs text-zinc-200 hover:bg-zinc-700 transition-colors"
+            className="w-full text-left px-3 py-1.5 text-xs text-zinc-200 hover:bg-white/10 transition-colors"
             onClick={handleCopy}
           >
             复制导演台设置
           </button>
           <button
             className={`w-full text-left px-3 py-1.5 text-xs transition-colors ${
-              canPaste ? 'text-zinc-200 hover:bg-zinc-700' : 'text-zinc-500 cursor-not-allowed'
+              canPaste ? 'text-zinc-200 hover:bg-white/10' : 'text-zinc-500 cursor-not-allowed'
             }`}
             onClick={canPaste ? handlePaste : undefined}
             disabled={!canPaste}
           >
-            粘贴导演台设置
+            粘贴导演台设置{!clipboard ? '' : !canPaste ? ' (地点不同)' : ''}
           </button>
         </div>,
         document.body,

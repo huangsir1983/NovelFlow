@@ -1316,6 +1316,156 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
                 "message": f"Unknown processType: {process_type}",
             }
 
+    # ── VideoGeneration — Seedance 映话全能视频S ──
+    if node_type == "videoGeneration":
+        import time as _time
+        import httpx as _httpx
+        import base64 as _b64
+        from pathlib import Path as _Path
+        from config import settings as cfg
+
+        vid_prompt = content.get("prompt", "")
+        raw_file_paths = content.get("file_paths", [])
+        vid_ratio = content.get("ratio", "16:9")
+        vid_duration = content.get("duration", 5)
+
+        if not cfg.seedance_api_key:
+            raise HTTPException(status_code=500, detail="SEEDANCE_API_KEY not configured")
+
+        # ── Resolve images: convert local files to base64 data URIs ──
+        # The Seedance API cannot fetch localhost URLs, so we read local files
+        # and send them inline as base64. Public URLs are kept as-is.
+        uploads_dir = _Path(cfg.storage_local_dir)
+        image_data_uris: list[str] = []
+        public_urls: list[str] = []
+
+        def _local_to_data_uri(storage_key: str) -> str | None:
+            """Read a local file by storage key and return data:... URI, or None."""
+            file_path = uploads_dir / storage_key
+            if not file_path.exists():
+                logger.warning("Seedance: local file not found: %s", file_path)
+                return None
+            data = file_path.read_bytes()
+            ext = file_path.suffix.lower().lstrip(".")
+            mime = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}.get(ext, "image/jpeg")
+            b64 = _b64.b64encode(data).decode()
+            logger.info("Seedance: converted %s to data URI (%d bytes)", storage_key, len(data))
+            return f"data:{mime};base64,{b64}"
+
+        for fp in raw_file_paths:
+            if not fp:
+                continue
+            # Public URL (not localhost) — keep as-is for file_paths
+            if (fp.startswith("http://") or fp.startswith("https://")) and "localhost" not in fp and "127.0.0.1" not in fp:
+                public_urls.append(fp)
+                continue
+            # Localhost URL → extract storage key → read local file → base64
+            if fp.startswith("http://localhost") or fp.startswith("http://127.0.0.1"):
+                # Extract storage key from URL: http://localhost:8000/uploads/assets/images/xxx.jpeg → assets/images/xxx.jpeg
+                parts = fp.split("/uploads/", 1)
+                if len(parts) == 2:
+                    uri = _local_to_data_uri(parts[1])
+                    if uri:
+                        image_data_uris.append(uri)
+                continue
+            # Might be a bare storage key (e.g. assets/images/xxx.jpeg)
+            if not fp.startswith("data:"):
+                uri = _local_to_data_uri(fp)
+                if uri:
+                    image_data_uris.append(uri)
+            else:
+                # Already a data: URI
+                image_data_uris.append(fp)
+
+        logger.info("Seedance images: %d data URIs, %d public URLs", len(image_data_uris), len(public_urls))
+
+        submit_url = f"{cfg.seedance_base_url}/async"
+        auth_headers = {
+            "Authorization": f"Bearer {cfg.seedance_api_key}",
+            "Content-Type": "application/json",
+        }
+        payload: dict = {
+            "model": "seedance-2.0-fast",
+            "prompt": vid_prompt,
+            "ratio": vid_ratio,
+            "duration": vid_duration,
+        }
+        # Send first local image via 'image' field (base64 data URI — proven to work)
+        # Send remaining images via 'file_paths' (only public URLs)
+        if image_data_uris:
+            payload["image"] = image_data_uris[0]
+            # Additional data URIs beyond the first → also try as file_paths
+            # (API may or may not support this; public URLs definitely work)
+            remaining_data = image_data_uris[1:]
+            all_paths = public_urls + remaining_data
+            if all_paths:
+                payload["file_paths"] = all_paths
+        elif public_urls:
+            payload["file_paths"] = public_urls
+
+        logger.info("Seedance submit: prompt=%d chars, image=%s, file_paths=%d, ratio=%s, dur=%ds",
+                     len(vid_prompt), "yes" if "image" in payload else "no",
+                     len(payload.get("file_paths", [])), vid_ratio, vid_duration)
+
+        def _sse_stream():
+            # Use a client instance for better connection management with large payloads
+            client = _httpx.Client(timeout=_httpx.Timeout(connect=30, read=120, write=120, pool=30))
+            try:
+                # 1. Submit task (sync httpx)
+                # Longer timeout for base64 image payloads (can be ~1MB+)
+                resp = client.post(submit_url, json=payload, headers=auth_headers)
+                resp.raise_for_status()
+                resp_data = resp.json()
+                task_id = resp_data.get("task_id") or resp_data.get("id") or ""
+                if not task_id:
+                    raise ValueError(f"Seedance 未返回 task_id: {resp_data}")
+
+                logger.info("Seedance task submitted: %s", task_id)
+                yield f"data: {json.dumps({'type': 'submitted', 'task_id': task_id})}\n\n"
+
+                # 2. Poll loop (sync — blocks this thread, not the event loop)
+                poll_url = f"{cfg.seedance_base_url}/async/{task_id}"
+                poll_headers = {"Authorization": f"Bearer {cfg.seedance_api_key}"}
+                max_polls = 120  # ~10 minutes at 5s interval
+
+                for i in range(max_polls):
+                    _time.sleep(5)
+                    try:
+                        poll_resp = client.get(poll_url, headers=poll_headers)
+                        poll_resp.raise_for_status()
+                        poll_data = poll_resp.json()
+                    except Exception as poll_err:
+                        logger.warning("Seedance poll error (attempt %d): %s", i, poll_err)
+                        yield f"data: {json.dumps({'type': 'progress', 'progress': int((i+1)/max_polls*80), 'status': 'polling_error'})}\n\n"
+                        continue
+
+                    status = poll_data.get("status", "queued")
+
+                    if status in ("succeeded", "completed"):
+                        video_url = (poll_data.get("metadata") or {}).get("url", "")
+                        _persist_node_result(db, node_id, node_type, content, {
+                            "result": {"video_url": video_url, "task_id": task_id}
+                        })
+                        yield f"data: {json.dumps({'type': 'success', 'video_url': video_url, 'task_id': task_id})}\n\n"
+                        return
+
+                    if status == "failed":
+                        error_msg = (poll_data.get("error") or {}).get("message", "Generation failed")
+                        yield f"data: {json.dumps({'type': 'error', 'message': error_msg})}\n\n"
+                        return
+
+                    progress = poll_data.get("progress", int((i + 1) / max_polls * 80))
+                    yield f"data: {json.dumps({'type': 'progress', 'progress': progress, 'status': status})}\n\n"
+
+                yield f"data: {json.dumps({'type': 'error', 'message': '超时：视频生成耗时过长'})}\n\n"
+            except Exception as e:
+                logger.error("Seedance SSE error: %s", e, exc_info=True)
+                yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
+            finally:
+                client.close()
+
+        return StreamingResponse(_sse_stream(), media_type="text/event-stream")
+
     # ── Unknown node type ──
     return {
         "execution_id": execution_id,
