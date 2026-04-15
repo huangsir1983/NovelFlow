@@ -14,11 +14,10 @@ import { useCanvasStore } from '../../../stores/canvasStore';
 import { useProjectStore } from '../../../stores/projectStore';
 import { useChainTemplateStore } from '../../../stores/chainTemplateStore';
 import { useWorkflowExecutionStore } from '../../../stores/workflowExecutionStore';
-import { fetchAPI } from '../../../lib/api';
+import { analyzeMerge, applyMergeDecisions } from '../../../lib/mergeAnalysis';
 import type {
   ExecutionPlanPreview,
   MergeAnalysisResult,
-  MergeAnalysisRequest,
   ChainTemplate,
 } from '../../../types';
 
@@ -107,36 +106,6 @@ function buildPlan(
     parallelGroups: groups,
     hasUserConfirmSteps: false,
   };
-}
-
-async function analyzeMerge(
-  sceneId: string,
-  nodes: Node[],
-): Promise<MergeAnalysisResult> {
-  const storyboardNodes = nodes
-    .filter((n) => (n.data as Record<string, unknown>).nodeType === 'shot')
-    .map((n) => {
-      const d = n.data as Record<string, unknown>;
-      return {
-        id: n.id,
-        label: (d.label as string) || '',
-        text: (d.description as string) || '',
-        emotion: (d.emotion as string) || '',
-        shotType: (d.framing as string) || 'medium',
-        estimatedDuration: 5,
-      };
-    });
-
-  return fetchAPI<MergeAnalysisResult>(
-    '/api/canvas/agent/merge-analysis',
-    {
-      method: 'POST',
-      body: JSON.stringify({
-        sceneId: sceneId,
-        storyboardNodes: storyboardNodes,
-      } satisfies MergeAnalysisRequest),
-    },
-  );
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -677,21 +646,34 @@ function BoxSelectExecutorComponent({
 
     setMergeLoading(true);
     try {
-      const result = await analyzeMerge(sceneId, selectedNodes);
+      const result = await analyzeMerge(sceneId, selectedNodes, projectId);
       setMergeResult(result);
     } catch (err) {
       console.error('[BoxSelectExecutor] merge analysis failed:', err);
     } finally {
       setMergeLoading(false);
     }
-  }, [focusedSceneId, nodes, selectedNodeIds]);
+  }, [focusedSceneId, nodes, selectedNodeIds, projectId]);
 
   const handleApplyMerge = useCallback(
-    (_result: MergeAnalysisResult) => {
-      // TODO: apply merge decisions to canvas nodes
+    async (result: MergeAnalysisResult) => {
+      const sceneId = focusedSceneId || '';
+      if (!sceneId || !projectId) {
+        console.error('[BoxSelectExecutor] missing sceneId or projectId');
+        setMergeResult(null);
+        return;
+      }
+
+      try {
+        await applyMergeDecisions(result, sceneId, projectId);
+      } catch (err) {
+        console.error('[BoxSelectExecutor] apply merge failed:', err);
+      }
+
       setMergeResult(null);
+      setShowExecuteBar(false);
     },
-    [],
+    [focusedSceneId, projectId],
   );
 
   // ── Render selection rectangle in screen space ──

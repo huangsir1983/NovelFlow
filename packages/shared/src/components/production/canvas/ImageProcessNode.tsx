@@ -41,7 +41,7 @@ const CHECKERBOARD_BG: React.CSSProperties = {
 
 /* ── Styles ── */
 const CARD_WIDTH = 180; // portrait width to match character images
-const CARD_WIDTH_LANDSCAPE = 260; // landscape width for scene background hdUpscale
+const CARD_WIDTH_LANDSCAPE = 300; // landscape width for scene background hdUpscale
 const IMG_HEIGHT = 240; // tall portrait image area
 
 const statusDotBase: React.CSSProperties = {
@@ -207,7 +207,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
   const isLandscape = (data.processType === 'hdUpscale' && id.endsWith('-bg'))
     || (data.processType === 'expression' && id.endsWith('-scene'));
   const cardWidth = isLandscape ? CARD_WIDTH_LANDSCAPE : CARD_WIDTH;
-  const imgHeight = isLandscape ? Math.round(CARD_WIDTH_LANDSCAPE * 9 / 16) : IMG_HEIGHT;
+  const imgHeight = isLandscape ? undefined : IMG_HEIGHT; // landscape: auto height; portrait: fixed
   const outputUrl = isMatting ? (data.outputPngUrl || data.outputImageUrl) : data.outputImageUrl;
   const displayUrl = outputUrl || data.inputImageUrl;
 
@@ -347,7 +347,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
     const node = reactFlow.getNode(id);
     if (!node) return;
     const HEADER_H = 31; // header icon+label + margin
-    const CARD_BODY_H = imgHeight + 28; // image + bottom overlay + border
+    const CARD_BODY_H = (imgHeight ?? Math.round(cardWidth * 9 / 16)) + 28; // image + bottom overlay + border
     const PANEL_H = 300; // max panel height (viewAngle is tallest)
     const PANEL_OFFSET = 0;
     const totalH = HEADER_H + CARD_BODY_H + PANEL_OFFSET + PANEL_H;
@@ -408,7 +408,7 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
         // Primary reference = image 1 (character)
         const primary = upstreamImages[0];
         content.inputStorageKey = primary.storageKey || '';
-        content.inputImageUrl = primary.storageKey ? '' : (primary.url || '');
+        content.inputImageUrl = primary.url || '';
         // All upstream images as referenceImages array
         content.referenceImages = upstreamImages.map(img => ({
           index: img.index,
@@ -600,9 +600,10 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
           cursor: 'pointer',
         }}
       >
-        {/* Portrait image area */}
+        {/* Image area */}
         <div style={{
-          width: '100%', height: imgHeight,
+          width: '100%',
+          ...(imgHeight ? { height: imgHeight } : { minHeight: 100 }),
           ...(isMatting ? CHECKERBOARD_BG : { backgroundColor: '#0c0e12' }),
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
@@ -610,14 +611,13 @@ function ImageProcessNodeComponent({ id, data, selected }: NodeProps<ImageProces
             <img
               src={displayUrl}
               alt={cfg.label}
-              style={{
-                width: '100%', height: '100%',
-                objectFit: isMatting ? 'contain' : 'cover',
-                opacity: 1,
-              }}
+              style={imgHeight
+                ? { width: '100%', height: '100%', objectFit: isMatting ? 'contain' : 'cover' }
+                : { width: '100%', height: 'auto', display: 'block' }
+              }
             />
           ) : (
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: 'center', padding: isLandscape ? '40px 0' : undefined }}>
               <span style={{ fontSize: 28, display: 'block', color: 'rgba(255,255,255,0.06)', marginBottom: 4 }}>{cfg.icon}</span>
               <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.15)' }}>等待输入</span>
             </div>

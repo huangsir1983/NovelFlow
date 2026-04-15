@@ -28,6 +28,7 @@ export { Pose3DNode } from './Pose3DNode';
 export { Pose3DEditor } from './Pose3DEditor';
 export { DirectorStage3DNode } from './DirectorStage3DNode';
 export { GeminiCompositeNode } from './GeminiCompositeNode';
+export { VideoSegmentNode } from './VideoSegmentNode';
 
 /* React Flow nodeTypes / edgeTypes registries */
 import { SceneNode } from './SceneNode';
@@ -52,6 +53,7 @@ import { ImageProcessNode } from './ImageProcessNode';
 import { Pose3DNode } from './Pose3DNode';
 import { DirectorStage3DNode } from './DirectorStage3DNode';
 import { GeminiCompositeNode } from './GeminiCompositeNode';
+import { VideoSegmentNode } from './VideoSegmentNode';
 
 export const canvasNodeTypes = {
   scene: SceneNode,
@@ -76,6 +78,7 @@ export const canvasNodeTypes = {
   finalHD: FinalHDNode,
   directorStage3D: DirectorStage3DNode,
   geminiComposite: GeminiCompositeNode,
+  videoSegment: VideoSegmentNode,
 } as const;
 
 export const canvasEdgeTypes = {

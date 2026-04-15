@@ -154,6 +154,12 @@ export interface VideoGenerationNodeData extends BaseNodeData {
   sceneTimeOfDay?: string;
   sceneDescription?: string;
   characterRefs?: Array<{ name: string; visualRefUrl?: string; visualRefStorageKey?: string }>;
+  // 磁吸合并字段（canvasLayout 填充）
+  mergeGroupId?: string;       // 所属磁吸组 ID
+  mergeGroupIndex?: number;    // 在组内的序号（0=首卡）
+  mergeGroupSize?: number;     // 组内总卡数
+  mergedVideoUrl?: string;     // 合并生成的视频 URL（仅首卡）
+  mergedPrompt?: string;       // 合并 prompt（AI 生成，可编辑）
 }
 
 /* ---------- ViewPoint (camera preset on a single panorama) ---------- */
@@ -449,6 +455,57 @@ export interface GeminiCompositeNodeData extends BaseNodeData {
   progress: number;
 }
 
+/* ---------- Video Segment (merged shots → single video) ---------- */
+
+/** Per-shot metadata within a merged video segment */
+export interface VideoSegmentShotInfo {
+  shotId: string;
+  description: string;
+  framing: string;
+  cameraAngle: string;
+  cameraMovement: string;
+  dialogue?: string;
+  emotionTarget?: string;
+  durationSeconds: number;
+  characterActions?: Record<string, { expression?: string; action?: string; position?: string }>;
+}
+
+export interface VideoSegmentNodeData extends BaseNodeData {
+  nodeType: 'videoSegment';
+  /** ShotGroup.id from backend */
+  shotGroupId: string;
+  /** Ordered shot IDs in this segment */
+  shotIds: string[];
+  /** Sum of shot durations */
+  totalDurationSeconds: number;
+  /** Generated video URL */
+  videoUrl?: string;
+  videoStorageKey?: string;
+  progress: number;
+  mode: 'image_to_video';
+  /** First shot's FinalHD output (first frame) */
+  inputImageUrl?: string;
+  inputStorageKey?: string;
+  /** Multi-shot structured prompt (editable) */
+  assembledPrompt?: string;
+  imageRefs?: VideoImageRef[];
+  ratio?: '16:9' | '9:16' | '1:1';
+  seedanceTaskId?: string;
+  /** AI-assigned drift risk */
+  driftRisk: 'low' | 'medium' | 'high';
+  /** AI-recommended video provider */
+  recommendedProvider: string;
+  /** AI explanation for merging these shots */
+  mergeRationale?: string;
+  /** Per-shot metadata for prompt assembly */
+  shots: VideoSegmentShotInfo[];
+  /** Shared scene context */
+  sceneLocation?: string;
+  sceneTimeOfDay?: string;
+  sceneDescription?: string;
+  characterRefs?: Array<{ name: string; visualRefUrl?: string; visualRefStorageKey?: string }>;
+}
+
 /* ---------- Union ---------- */
 export type CanvasNodeData =
   | SceneNodeData
@@ -470,7 +527,8 @@ export type CanvasNodeData =
   | ImageProcessNodeData
   | Pose3DNodeData
   | DirectorStage3DNodeData
-  | GeminiCompositeNodeData;
+  | GeminiCompositeNodeData
+  | VideoSegmentNodeData;
 
 
 // ═══════════════════════════════════════════════════════════════

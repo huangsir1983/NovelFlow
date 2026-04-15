@@ -1,39 +1,70 @@
+/**
+ * FinalHDNode — HD upscale card (Tapnow style).
+ *
+ * Card: ExpressionNode-style display shell.
+ * Click: opens floating panel with 2x/4x selector + execute button.
+ */
+
 'use client';
-import { memo, useState, useCallback } from 'react';
+
+import { memo, useState, useCallback, useEffect, useRef } from 'react';
 import { type NodeProps, type Node, Handle, Position, useReactFlow } from '@xyflow/react';
 import type { FinalHDNodeData } from '../../../types/canvas';
 import { API_BASE_URL } from '../../../lib/api';
 import { useCanvasStore } from '../../../stores/canvasStore';
+import {
+  getFinalHDDisplayUrl,
+  buildFinalHDBadges,
+} from '../../../lib/cardDisplayHelpers';
 
 type FinalHDNode = Node<FinalHDNodeData, 'finalHD'>;
 
-const ACCENT = 'rgba(52,211,153,0.9)';
-const ACCENT_DIM = 'rgba(52,211,153,0.5)';
-const ACCENT_BG = 'rgba(52,211,153,0.06)';
-
 function FinalHDNodeComponent({ id, data, selected }: NodeProps<FinalHDNode>) {
   const [hovered, setHovered] = useState(false);
+  const [panelOpen, setPanelOpen] = useState(false);
   const [scaleFactor, setScaleFactor] = useState(data.scaleFactor || 2);
   const reactFlow = useReactFlow();
 
-  const isRunning = data.status === 'running' || data.status === 'queued';
-  const isSuccess = data.status === 'success';
-  const hasInput = !!data.inputImageUrl;
-  const displayUrl = data.outputImageUrl || data.inputImageUrl;
+  // Close panel when deselected (clicking blank area)
+  const prevSelectedRef = useRef(selected);
+  useEffect(() => {
+    if (prevSelectedRef.current && !selected) {
+      setPanelOpen(false);
+    }
+    prevSelectedRef.current = selected;
+  }, [selected]);
 
-  const cardBg = selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e';
-  const cardBorder = selected
-    ? 'rgba(255,255,255,0.16)'
-    : hovered
-    ? 'rgba(255,255,255,0.12)'
-    : 'rgba(255,255,255,0.06)';
+  const isRunning = data.status === 'running' || data.status === 'queued';
+  const hasInput = !!data.inputImageUrl;
+  const displayUrl = getFinalHDDisplayUrl(data);
+  const badges = buildFinalHDBadges({ scaleFactor, outputImageUrl: data.outputImageUrl });
+
+  const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
+  const accent = selected ? 'rgba(52,211,153,0.9)' : 'rgba(52,211,153,0.5)';
+
+  /* ── Card click → open panel + center viewport ── */
+  const handleCardClick = useCallback(() => {
+    setPanelOpen(prev => !prev);
+    const node = reactFlow.getNode(id);
+    if (!node) return;
+    const CARD_W = 300;
+    const HEADER_H = 31;
+    const CARD_BODY_H = Math.round(CARD_W * 9 / 16) + 28;
+    const PANEL_H = 240;
+    const totalH = HEADER_H + CARD_BODY_H + PANEL_H;
+    const centerX = node.position.x + CARD_W / 2;
+    const centerY = node.position.y + totalH / 2;
+    const vpEl = document.querySelector('.react-flow') as HTMLElement | null;
+    const vpH = vpEl?.clientHeight || 800;
+    const vpW = vpEl?.clientWidth || 1200;
+    const targetZoom = Math.min(vpH / (totalH * 1.15), vpW / (CARD_W * 1.3), 1.5);
+    reactFlow.setCenter(centerX, centerY, { zoom: Math.max(targetZoom, 0.5), duration: 400 });
+  }, [id, reactFlow]);
 
   /* ── Update node data + propagate to downstream ── */
   const updateNodeData = useCallback((patch: Record<string, unknown>) => {
     const s = useCanvasStore.getState();
-    s.setNodes(s.nodes.map(n =>
-      n.id === id ? { ...n, data: { ...n.data, ...patch } } : n,
-    ));
+    s.setNodes(s.nodes.map(n => n.id === id ? { ...n, data: { ...n.data, ...patch } } : n));
   }, [id]);
 
   const updateAndPropagate = useCallback((
@@ -47,29 +78,18 @@ function FinalHDNodeComponent({ id, data, selected }: NodeProps<FinalHDNode>) {
     const targetIds = new Set(downstream.map(e => e.target));
 
     const updatedNodes = store.nodes.map(n => {
-      if (n.id === id) {
-        return { ...n, data: { ...n.data, ...patch } };
-      }
+      if (n.id === id) return { ...n, data: { ...n.data, ...patch } };
       if (targetIds.has(n.id) && (outputUrl || outputKey)) {
-        return {
-          ...n,
-          data: {
-            ...n.data,
-            inputImageUrl: outputUrl || (n.data as Record<string, unknown>).inputImageUrl,
-            inputStorageKey: outputKey || (n.data as Record<string, unknown>).inputStorageKey,
-          },
-        };
+        return { ...n, data: { ...n.data, inputImageUrl: outputUrl || (n.data as Record<string, unknown>).inputImageUrl, inputStorageKey: outputKey || (n.data as Record<string, unknown>).inputStorageKey } };
       }
       return n;
     });
-
     store.setNodes(updatedNodes);
   }, [id, reactFlow]);
 
   /* ── Execute HD upscale via RunningHub ── */
   const handleExecute = useCallback(async () => {
     if (isRunning || !hasInput) return;
-
     updateNodeData({ scaleFactor, status: 'running', progress: 0 });
 
     try {
@@ -79,12 +99,7 @@ function FinalHDNodeComponent({ id, data, selected }: NodeProps<FinalHDNode>) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           node_type: 'finalHD',
-          content: {
-            inputImageUrl: data.inputImageUrl,
-            inputStorageKey: data.inputStorageKey,
-            scaleFactor,
-            imageSize: scaleFactor <= 2 ? '2K' : '4K',
-          },
+          content: { inputImageUrl: data.inputImageUrl, inputStorageKey: data.inputStorageKey, scaleFactor, imageSize: scaleFactor <= 2 ? '2K' : '4K' },
         }),
       });
 
@@ -116,6 +131,7 @@ function FinalHDNodeComponent({ id, data, selected }: NodeProps<FinalHDNode>) {
                     ...(evtUrl ? { outputImageUrl: evtUrl } : {}),
                     ...(event.outputStorageKey ? { outputStorageKey: event.outputStorageKey } : {}),
                   }, evtUrl, event.outputStorageKey);
+                  setPanelOpen(false);
                 }
                 if (event.status === 'error') {
                   updateNodeData({ status: 'error', errorMessage: event.error || 'Unknown error' });
@@ -128,14 +144,13 @@ function FinalHDNodeComponent({ id, data, selected }: NodeProps<FinalHDNode>) {
         const result = await response.json();
         const output = result.result || {};
         let outUrl = output.outputImageUrl;
-        if (!outUrl && output.outputStorageKey) {
-          outUrl = `${API_BASE_URL}/uploads/${output.outputStorageKey}`;
-        }
+        if (!outUrl && output.outputStorageKey) outUrl = `${API_BASE_URL}/uploads/${output.outputStorageKey}`;
         updateAndPropagate({
           status: 'success', progress: 100,
           ...(outUrl ? { outputImageUrl: outUrl } : {}),
           ...(output.outputStorageKey ? { outputStorageKey: output.outputStorageKey } : {}),
         }, outUrl, output.outputStorageKey);
+        setPanelOpen(false);
       }
     } catch (err) {
       updateNodeData({ status: 'error', errorMessage: String(err) });
@@ -146,149 +161,168 @@ function FinalHDNodeComponent({ id, data, selected }: NodeProps<FinalHDNode>) {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="relative"
-      style={{ width: 240 }}
+      style={{ width: 300, position: 'relative' }}
     >
       <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
       <Handle type="source" position={Position.Right} style={{ top: '55%' }} />
 
-      {/* Header */}
+      {/* Title bar */}
       <div className="flex items-center gap-1.5 mb-2 pl-1">
-        <span style={{ fontSize: 13 }}>⬆</span>
-        <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? ACCENT : ACCENT_DIM }}>
-          终稿高清
-        </span>
-        {/* Status dot */}
-        {isSuccess && (
-          <span style={{ width: 6, height: 6, borderRadius: '50%', backgroundColor: '#34d399', marginLeft: 'auto' }} />
-        )}
-        {data.status === 'error' && (
-          <span style={{ width: 6, height: 6, borderRadius: '50%', backgroundColor: '#f87171', marginLeft: 'auto' }} />
-        )}
+        <span className="text-[13px]">⬆</span>
+        <span className="text-[12px] font-medium tracking-wide" style={{ color: accent }}>终稿高清</span>
       </div>
 
-      {/* Card body */}
-      <div
-        className="canvas-card"
-        style={{
-          borderRadius: 16,
-          position: 'relative',
-          overflow: 'hidden',
-          backgroundColor: cardBg,
-          border: `1px solid ${cardBorder}`,
-          transition: 'background-color 0.2s, border-color 0.2s',
-        }}
-      >
-        <div style={{ position: 'relative', zIndex: 1, padding: 16 }}>
-          {/* Scale factor badge */}
-          <div style={{ marginBottom: 12 }}>
-            <span
-              style={{
-                fontSize: 9,
-                color: ACCENT_DIM,
-                backgroundColor: ACCENT_BG,
-                padding: '2px 10px',
-                borderRadius: 99,
-              }}
-            >
-              {scaleFactor}x 放大
-            </span>
-          </div>
+      {/* Main card */}
+      <div className="canvas-card" style={{
+        borderRadius: 16, position: 'relative', overflow: 'hidden',
+        border: `1px solid ${cardBorder}`,
+        transition: 'border-color 0.2s',
+        cursor: 'pointer',
+      }} onClick={handleCardClick}>
+        {/* Image area */}
+        <div style={{
+          width: '100%', minHeight: 100,
+          backgroundColor: '#0c0e12',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
+          {displayUrl ? (
+            <img src={displayUrl} alt="终稿高清" style={{ width: '100%', height: 'auto', display: 'block' }} />
+          ) : (
+            <div style={{ textAlign: 'center', padding: '40px 0' }}>
+              <span style={{ fontSize: 28, display: 'block', color: 'rgba(255,255,255,0.06)', marginBottom: 4 }}>⬆</span>
+              <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.15)' }}>等待上游图片</span>
+            </div>
+          )}
+        </div>
 
-          {/* Image preview */}
-          <div
-            style={{
-              width: '100%',
-              aspectRatio: '16 / 9',
-              borderRadius: 10,
-              backgroundColor: selected ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.015)',
-              overflow: 'hidden',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginBottom: 12,
-            }}
-          >
-            {displayUrl ? (
-              <img
-                src={displayUrl}
-                alt="终稿高清"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
-            ) : (
-              <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.18)' }}>等待上游图片...</span>
-            )}
-          </div>
-
-          {/* Scale factor buttons */}
-          <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.5)', marginBottom: 6 }}>放大倍率</div>
-          <div style={{ display: 'flex', gap: 6, marginBottom: 10 }}>
-            {[2, 4].map(f => (
-              <button
-                key={f}
-                onClick={(e) => { e.stopPropagation(); setScaleFactor(f); }}
-                style={{
-                  flex: 1,
-                  border: scaleFactor === f ? '1px solid rgba(52,211,153,0.5)' : '1px solid rgba(255,255,255,0.08)',
-                  borderRadius: 8, padding: '6px 0', fontSize: 13, fontWeight: 600,
-                  background: scaleFactor === f ? 'rgba(52,211,153,0.15)' : 'rgba(255,255,255,0.04)',
-                  color: scaleFactor === f ? ACCENT : 'rgba(255,255,255,0.5)',
-                  cursor: 'pointer',
-                }}
-              >{f}x</button>
+        {/* Gradient overlay */}
+        <div style={{
+          position: 'absolute', bottom: 0, left: 0, right: 0,
+          background: 'linear-gradient(transparent, rgba(0,0,0,0.75))',
+          padding: '24px 12px 10px',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 4, flexWrap: 'wrap' }}>
+            {badges.map((b, i) => (
+              <span key={i} style={{
+                fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                backgroundColor: b.bgColor, color: b.textColor,
+              }}>{b.text}</span>
             ))}
           </div>
+        </div>
 
-          {/* Execute button */}
-          <button
-            onClick={(e) => { e.stopPropagation(); handleExecute(); }}
-            disabled={isRunning || !hasInput}
+        {/* Status dot */}
+        <div style={{
+          position: 'absolute', top: 10, right: 10, width: 8, height: 8,
+          borderRadius: '50%', zIndex: 2,
+          backgroundColor:
+            data.status === 'running' ? '#60a5fa'
+            : data.status === 'success' ? '#34d399'
+            : data.status === 'error' ? '#f87171'
+            : 'transparent',
+        }} />
+
+        {/* Progress bar */}
+        {isRunning && (
+          <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, backgroundColor: 'rgba(0,0,0,0.3)' }}>
+            <div style={{ height: '100%', backgroundColor: 'rgba(52,211,153,0.6)', width: `${data.progress ?? 0}%`, transition: 'width 0.3s' }} />
+          </div>
+        )}
+      </div>
+
+      {/* ── Floating panel ── */}
+      {panelOpen && (
+        <div style={{
+          position: 'absolute', top: '100%', left: '50%',
+          transform: 'translateX(-50%)', zIndex: 50,
+        }}>
+          <div
+            className="nopan nodrag nowheel"
             style={{
-              width: '100%',
-              border: 'none',
-              borderRadius: 8, padding: '8px 0', fontSize: 12, fontWeight: 600,
-              background: ACCENT,
-              color: '#fff',
-              cursor: isRunning || !hasInput ? 'not-allowed' : 'pointer',
-              opacity: isRunning || !hasInput ? 0.4 : 1,
-              transition: 'opacity 0.2s',
+              width: 280,
+              background: 'rgba(20,22,28,0.95)',
+              backdropFilter: 'blur(12px)',
+              borderRadius: 16,
+              border: '1px solid rgba(255,255,255,0.08)',
+              padding: 16,
+              boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
+              position: 'relative',
             }}
           >
-            {isRunning ? '处理中...' : '高清化'}
-          </button>
+            {/* Close */}
+            <button
+              onClick={(e) => { e.stopPropagation(); setPanelOpen(false); }}
+              style={{
+                position: 'absolute', top: 8, right: 8, border: 'none',
+                background: 'rgba(255,255,255,0.06)', borderRadius: '50%',
+                width: 22, height: 22, cursor: 'pointer',
+                color: 'rgba(255,255,255,0.4)', fontSize: 11,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}
+            >×</button>
 
-          {/* Progress bar */}
-          {isRunning && (
-            <div style={{
-              marginTop: 8,
-              width: '100%', height: 4, borderRadius: 2,
-              backgroundColor: 'rgba(255,255,255,0.06)',
-              overflow: 'hidden',
-            }}>
+            {/* Scale factor selector */}
+            <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.3)', marginBottom: 6 }}>放大倍率</div>
+            <div style={{ display: 'flex', gap: 6, marginBottom: 12 }}>
+              {[2, 4].map(f => (
+                <button
+                  key={f}
+                  onClick={(e) => { e.stopPropagation(); setScaleFactor(f); }}
+                  style={{
+                    flex: 1,
+                    border: scaleFactor === f ? '1px solid rgba(52,211,153,0.5)' : '1px solid rgba(255,255,255,0.08)',
+                    borderRadius: 8, padding: '8px 0', fontSize: 14, fontWeight: 600,
+                    background: scaleFactor === f ? 'rgba(52,211,153,0.15)' : 'rgba(255,255,255,0.04)',
+                    color: scaleFactor === f ? 'rgba(52,211,153,0.9)' : 'rgba(255,255,255,0.5)',
+                    cursor: 'pointer',
+                  }}
+                >{f}x</button>
+              ))}
+            </div>
+
+            {/* Progress */}
+            {isRunning && (
               <div style={{
-                height: '100%',
-                backgroundColor: 'rgba(52,211,153,0.6)',
-                borderRadius: 2,
-                width: `${data.progress ?? 0}%`,
-                transition: 'width 0.3s',
-              }} />
-            </div>
-          )}
+                marginBottom: 10, width: '100%', height: 4, borderRadius: 2,
+                backgroundColor: 'rgba(255,255,255,0.06)', overflow: 'hidden',
+              }}>
+                <div style={{
+                  height: '100%', backgroundColor: 'rgba(52,211,153,0.6)', borderRadius: 2,
+                  width: `${data.progress ?? 0}%`, transition: 'width 0.3s',
+                }} />
+              </div>
+            )}
 
-          {/* Error message */}
-          {data.status === 'error' && data.errorMessage && (
-            <div style={{ marginTop: 6, fontSize: 10, color: '#f87171', lineHeight: 1.3 }}>
-              {data.errorMessage}
-            </div>
-          )}
-        </div>
+            {/* Error */}
+            {data.status === 'error' && data.errorMessage && (
+              <div style={{
+                marginBottom: 8, padding: '6px 10px', borderRadius: 8,
+                background: 'rgba(220,38,38,0.1)', border: '1px solid rgba(220,38,38,0.2)',
+                fontSize: 11, color: 'rgba(248,113,113,0.8)', wordBreak: 'break-all',
+              }}>{data.errorMessage}</div>
+            )}
 
-        <div style={{ position: 'absolute', bottom: 6, right: 6, zIndex: 1 }}>
-          <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-            <path d="M9 1L1 9M9 4.5L4.5 9M9 8L8 9" stroke="white" strokeOpacity="0.06" strokeWidth="1" strokeLinecap="round" />
-          </svg>
+            {/* Execute button */}
+            <button
+              onClick={(e) => { e.stopPropagation(); handleExecute(); }}
+              disabled={isRunning || !hasInput}
+              style={{
+                width: '100%', border: 'none', borderRadius: 8,
+                padding: '8px 0', fontSize: 12, fontWeight: 600,
+                background: isRunning
+                  ? 'rgba(255,255,255,0.06)'
+                  : 'rgba(52,211,153,0.9)',
+                color: '#fff',
+                cursor: isRunning || !hasInput ? 'not-allowed' : 'pointer',
+                opacity: isRunning || !hasInput ? 0.4 : 1,
+                transition: 'opacity 0.2s',
+              }}
+            >
+              {isRunning ? '处理中...' : '高清化'}
+            </button>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

@@ -1,9 +1,9 @@
 /**
- * DirectorStage3DNode — 3D Director Stage canvas node.
+ * DirectorStage3DNode — 3D Director Stage canvas node (Tapnow style).
  *
- * Wraps ParallaxStage3D for in-canvas 3D scene composition.
- * Receives VR panorama + depth map from SceneBG, character refs from CharacterProcess.
- * Outputs scene screenshot + per-character screenshots for downstream GeminiComposite.
+ * Card: ExpressionNode-style display shell (image + badges + status).
+ * Left-click: opens ParallaxStage3D full-screen modal.
+ * Right-click: copy/paste context menu.
  */
 
 'use client';
@@ -19,16 +19,12 @@ import { matchActionToPreset } from '../../../lib/actionPresetMatcher';
 import { useProjectStore } from '../../../stores/projectStore';
 import { useCanvasStore } from '../../../stores/canvasStore';
 import { API_BASE_URL } from '../../../lib/api';
+import {
+  getDirectorStage3DDisplayUrl,
+  buildDirectorStage3DBadges,
+} from '../../../lib/cardDisplayHelpers';
 
 const LazyParallaxStage3D = lazy(() => import('../../panorama/ParallaxStage3D'));
-
-const STATUS_COLORS: Record<string, string> = {
-  idle: 'border-zinc-700',
-  queued: 'border-blue-500',
-  running: 'border-blue-400 animate-pulse',
-  success: 'border-emerald-500',
-  error: 'border-red-500',
-};
 
 /** Extract upstream node data by matching node type from incoming edges */
 function findUpstreamData<T>(
@@ -61,8 +57,9 @@ function findAllUpstreamData<T>(
   return result;
 }
 
-function DirectorStage3DNodeInner({ id, data }: NodeProps) {
+function DirectorStage3DNodeInner({ id, data, selected }: NodeProps) {
   const d = data as unknown as DirectorStage3DNodeData;
+  const [hovered, setHovered] = useState(false);
   const [isStageOpen, setIsStageOpen] = useState(false);
   const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null);
   const edges = useEdges();
@@ -74,21 +71,11 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
   const copyStage3D = useCanvasStore(s => s.copyStage3D);
   const pasteStage3D = useCanvasStore(s => s.pasteStage3D);
 
-  const statusClass = STATUS_COLORS[d.status] || STATUS_COLORS.idle;
-  const hasScreenshot = !!d.screenshotBase64 || !!d.screenshotStorageKey;
-  const screenshotSrc = d.screenshotBase64
-    ? `data:image/jpeg;base64,${d.screenshotBase64}`
-    : d.screenshotStorageKey
-      ? `${API_BASE_URL}/uploads/${d.screenshotStorageKey}`
-      : '';
-
-  // Read upstream SceneBG data
+  // ── Upstream data ──
   const sceneBGData = useMemo(
     () => findUpstreamData<SceneBGNodeData>(edges, allNodes as never[], id, 'sceneBG'),
     [edges, allNodes, id],
   );
-
-  // Read upstream CharacterProcess data
   const charProcessDatas = useMemo(
     () => findAllUpstreamData<CharacterProcessNodeData>(edges, allNodes as never[], id, 'characterProcess'),
     [edges, allNodes, id],
@@ -98,68 +85,59 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
   const depthMapUrl = d.depthMapUrl || sceneBGData?.depthMapUrl;
   const hasPanorama = !!panoramaUrl;
   const hasDepthMap = !!depthMapUrl;
+  const hasScreenshot = !!d.screenshotBase64 || !!d.screenshotStorageKey;
 
-  // Build character list for the stage
+  // ── Display ──
+  const displayUrl = getDirectorStage3DDisplayUrl(d);
+  const badges = buildDirectorStage3DBadges({
+    hasPanorama,
+    hasDepthMap,
+    characterCount: charProcessDatas.length,
+    hasScreenshot,
+  });
+
+  const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
+  const accent = selected ? 'rgba(6,182,212,0.9)' : 'rgba(6,182,212,0.5)';
+
+  // ── Stage characters ──
   const stageCharacters = useMemo<StageCharacter[]>(() => {
     if (d.stageCharacters?.length) return d.stageCharacters;
-    // Auto-create from upstream CharacterProcess nodes
     return charProcessDatas.map((cp, i) => {
       const charAction = d.characterActions?.[cp.characterName];
       const presetName = matchActionToPreset(charAction?.action);
       return {
         id: `char-${i}`,
         name: cp.characterName,
-        x: -2 + i * 2,
-        y: 0,
-        z: 0,
-        rotationY: 0,
+        x: -2 + i * 2, y: 0, z: 0, rotationY: 0,
         color: STAGE_CHAR_COLORS[i % STAGE_CHAR_COLORS.length],
-        scale: 1,
-        jointAngles: {},
-        presetName,
+        scale: 1, jointAngles: {}, presetName,
       };
     });
   }, [d.stageCharacters, charProcessDatas, d.characterActions]);
 
+  // ── Handlers ──
   const handleOpenStage = useCallback(() => {
     if (!hasPanorama) return;
     setIsStageOpen(true);
   }, [hasPanorama]);
 
-  const handleCloseStage = useCallback(() => {
-    setIsStageOpen(false);
-  }, []);
+  const handleCloseStage = useCallback(() => { setIsStageOpen(false); }, []);
 
-  // Camera state persistence
   const handleCameraStateChange = useCallback(
     (state: { position: { x: number; y: number; z: number }; fov: number; target: { x: number; y: number; z: number } }) => {
-      setNodes(nds =>
-        nds.map(n =>
-          n.id === id ? { ...n, data: { ...n.data, cameraState: state } } : n,
-        ),
-      );
+      setNodes(nds => nds.map(n => n.id === id ? { ...n, data: { ...n.data, cameraState: state } } : n));
     },
     [id, setNodes],
   );
 
-  // Right-click context menu
   const handleContextMenu = useCallback((e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
+    e.preventDefault(); e.stopPropagation();
     setContextMenu({ x: e.clientX, y: e.clientY });
   }, []);
 
-  const handleCopy = useCallback(() => {
-    copyStage3D(id);
-    setContextMenu(null);
-  }, [id, copyStage3D]);
+  const handleCopy = useCallback(() => { copyStage3D(id); setContextMenu(null); }, [id, copyStage3D]);
+  const handlePaste = useCallback(() => { pasteStage3D(id); setContextMenu(null); }, [id, pasteStage3D]);
 
-  const handlePaste = useCallback(() => {
-    pasteStage3D(id);
-    setContextMenu(null);
-  }, [id, pasteStage3D]);
-
-  // Close context menu on outside click
   useEffect(() => {
     if (!contextMenu) return;
     const close = () => setContextMenu(null);
@@ -167,7 +145,6 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
     return () => window.removeEventListener('click', close);
   }, [contextMenu]);
 
-  // Only allow paste when source and target share the same location (same VR panorama)
   const canPaste = useMemo(() => {
     if (!clipboard) return false;
     const findSceneLocation = (sceneId: string) => {
@@ -181,65 +158,34 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
 
   const handleCharactersUpdate = useCallback(
     (chars: StageCharacter[]) => {
-      setNodes(nds =>
-        nds.map(n =>
-          n.id === id
-            ? { ...n, data: { ...n.data, stageCharacters: chars } }
-            : n,
-        ),
-      );
+      setNodes(nds => nds.map(n => n.id === id ? { ...n, data: { ...n.data, stageCharacters: chars } } : n));
     },
     [id, setNodes],
   );
 
   const handleScreenshots = useCallback(
     (screenshots: StageScreenshots) => {
-      // 1. Immediately update store with base64 data (instant feedback)
       setNodes(nds =>
         nds.map(n => {
           if (n.id === id) {
-            return {
-              ...n,
-              data: {
-                ...n.data,
-                screenshotBase64: screenshots.base,
-                characterScreenshots: screenshots.characters,
-                status: 'success',
-              },
-            };
+            return { ...n, data: { ...n.data, screenshotBase64: screenshots.base, characterScreenshots: screenshots.characters, status: 'success' } };
           }
-          // Also propagate to downstream GeminiComposite
           const downEdge = edges.find(e => e.source === id && e.target === n.id);
           if (downEdge && (n.data as Record<string, unknown>).nodeType === 'geminiComposite') {
             const mappings = screenshots.characters.map(sc => {
-              const cpData = charProcessDatas.find(
-                cp => cp.characterName === sc.stageCharName,
-              );
+              const cpData = charProcessDatas.find(cp => cp.characterName === sc.stageCharName);
               return {
-                stageCharId: sc.stageCharId,
-                stageCharName: sc.stageCharName,
-                color: sc.color,
-                poseScreenshot: sc.screenshot,
-                bbox: sc.bbox,
-                referenceImageUrl: cpData?.visualRefUrl,
-                referenceStorageKey: cpData?.visualRefStorageKey,
+                stageCharId: sc.stageCharId, stageCharName: sc.stageCharName, color: sc.color,
+                poseScreenshot: sc.screenshot, bbox: sc.bbox,
+                referenceImageUrl: cpData?.visualRefUrl, referenceStorageKey: cpData?.visualRefStorageKey,
               };
             });
-            return {
-              ...n,
-              data: {
-                ...n.data,
-                sceneScreenshotBase64: screenshots.base,
-                characterMappings: mappings,
-                status: 'idle',
-              },
-            };
+            return { ...n, data: { ...n.data, sceneScreenshotBase64: screenshots.base, characterMappings: mappings, status: 'idle' } };
           }
           return n;
         }),
       );
 
-      // 2. Upload screenshots to storage & persist (async, non-blocking)
       const projectId = useProjectStore.getState().project?.id;
       if (!projectId) return;
 
@@ -249,19 +195,13 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
             const blob = await fetch(`data:image/jpeg;base64,${base64}`).then(r => r.blob());
             const formData = new FormData();
             formData.append('file', blob, filename);
-            const resp = await fetch(
-              `${API_BASE_URL}/api/projects/${projectId}/asset-images/upload`,
-              { method: 'POST', body: formData },
-            );
+            const resp = await fetch(`${API_BASE_URL}/api/projects/${projectId}/asset-images/upload`, { method: 'POST', body: formData });
             if (!resp.ok) return null;
             const { storage_key } = await resp.json();
             return storage_key as string;
           };
 
-          // Upload base scene screenshot
           const sceneKey = await uploadBlob(screenshots.base, 'stage3d_scene.jpg');
-
-          // Upload each character screenshot
           const charKeys: Array<{ stageCharId: string; storageKey: string }> = [];
           for (const cs of screenshots.characters) {
             const key = await uploadBlob(cs.screenshot, `stage3d_char_${cs.stageCharId}.jpg`);
@@ -270,25 +210,15 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
 
           if (!sceneKey) return;
 
-          // Update store with persistent URLs (replace base64 preview)
           const store = useCanvasStore.getState();
           store.setNodes(store.nodes.map(n => {
             if (n.id === id) {
-              return {
-                ...n,
-                data: {
-                  ...n.data,
-                  screenshotStorageKey: sceneKey,
-                  screenshotBase64: screenshots.base, // keep base64 for display
-                },
-              };
+              return { ...n, data: { ...n.data, screenshotStorageKey: sceneKey, screenshotBase64: screenshots.base } };
             }
             return n;
           }));
 
-          // Persist to backend: stageCharacters + screenshot keys
-          const currentChars = (useCanvasStore.getState().nodes.find(n => n.id === id)
-            ?.data as Record<string, unknown>)?.stageCharacters;
+          const currentChars = (useCanvasStore.getState().nodes.find(n => n.id === id)?.data as Record<string, unknown>)?.stageCharacters;
           fetch(`${API_BASE_URL}/api/canvas/nodes/${id}/execute`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -299,13 +229,7 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
                 stageCharacters: currentChars || stageCharacters,
                 characterScreenshots: screenshots.characters.map(cs => {
                   const ck = charKeys.find(k => k.stageCharId === cs.stageCharId);
-                  return {
-                    stageCharId: cs.stageCharId,
-                    stageCharName: cs.stageCharName,
-                    color: cs.color,
-                    storageKey: ck?.storageKey || '',
-                    bbox: cs.bbox,
-                  };
+                  return { stageCharId: cs.stageCharId, stageCharName: cs.stageCharName, color: cs.color, storageKey: ck?.storageKey || '', bbox: cs.bbox };
                 }),
                 sceneDescription: d.sceneDescription,
               },
@@ -319,91 +243,105 @@ function DirectorStage3DNodeInner({ id, data }: NodeProps) {
     [id, edges, charProcessDatas, setNodes, stageCharacters, d.sceneDescription],
   );
 
+  // ── Render (ExpressionNode-style) ──
   return (
     <>
       <div
-        className={`relative rounded-lg border-2 bg-zinc-900 text-white shadow-lg ${statusClass}`}
-        style={{ width: 320, minHeight: 200 }}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
         onContextMenu={handleContextMenu}
+        style={{ width: 300, position: 'relative' }}
       >
-        {/* Handles */}
-        <Handle type="target" position={Position.Left} className="!bg-cyan-500 !w-3 !h-3" />
-        <Handle type="source" position={Position.Right} className="!bg-cyan-500 !w-3 !h-3" />
+        <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
+        <Handle type="source" position={Position.Right} style={{ top: '55%' }} />
 
-        {/* Header */}
-        <div className="flex items-center gap-2 px-3 py-2 border-b border-zinc-700">
-          <span className="text-sm font-medium">3D导演台</span>
-          {hasPanorama && <span className="w-2 h-2 rounded-full bg-emerald-500" title="VR全景已加载" />}
-          {hasDepthMap && <span className="w-2 h-2 rounded-full bg-blue-500" title="深度图已加载" />}
-          <span className="ml-auto text-xs text-zinc-400">{d.status}</span>
+        {/* Title bar (outside card) */}
+        <div className="flex items-center gap-1.5 mb-2 pl-1">
+          <span className="text-[13px]">🎬</span>
+          <span className="text-[12px] font-medium tracking-wide" style={{ color: accent }}>3D导演台</span>
         </div>
 
-        {/* Body */}
-        <div className="p-3">
-          {hasScreenshot ? (
-            <img
-              src={screenshotSrc}
-              alt="3D导演台截图"
-              className="w-full rounded object-cover cursor-pointer hover:opacity-90 transition-opacity"
-              style={{ maxHeight: 160 }}
-              onClick={handleOpenStage}
-            />
-          ) : hasPanorama ? (
-            <div
-              className="flex flex-col items-center justify-center gap-2 rounded bg-zinc-800 cursor-pointer hover:bg-zinc-750 transition-colors"
-              style={{ height: 120 }}
-              onClick={handleOpenStage}
-            >
-              <span className="text-2xl">🎬</span>
-              <span className="text-xs text-zinc-400">点击打开3D导演台</span>
-              {!hasDepthMap && <span className="text-[10px] text-yellow-500/60">无深度图 (无视差效果)</span>}
-            </div>
-          ) : (
-            <div
-              className="flex flex-col items-center justify-center gap-2 rounded bg-zinc-800"
-              style={{ height: 120 }}
-            >
-              <span className="text-xs text-zinc-500">等待VR全景图...</span>
-            </div>
-          )}
-
-          {/* Character indicators */}
-          {charProcessDatas.length > 0 && (
-            <div className="mt-2 flex gap-1 flex-wrap">
-              {charProcessDatas.map((cp, i) => (
-                <span
-                  key={i}
-                  className="text-xs px-1.5 py-0.5 rounded"
-                  style={{
-                    backgroundColor: STAGE_CHAR_COLORS[i % STAGE_CHAR_COLORS.length],
-                    color: '#fff',
-                  }}
-                >
-                  {cp.characterName}
+        {/* Main card */}
+        <div className="canvas-card" style={{
+          borderRadius: 16, position: 'relative', overflow: 'hidden',
+          border: `1px solid ${cardBorder}`,
+          transition: 'border-color 0.2s',
+          cursor: hasPanorama ? 'pointer' : 'default',
+        }} onClick={handleOpenStage}>
+          {/* Image area */}
+          <div style={{
+            width: '100%', minHeight: 100,
+            backgroundColor: '#0c0e12',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+          }}>
+            {displayUrl ? (
+              <img src={displayUrl} alt="3D导演台截图" style={{ width: '100%', height: 'auto', display: 'block' }} />
+            ) : (
+              <div style={{ textAlign: 'center', padding: '40px 0' }}>
+                <span style={{ fontSize: 28, display: 'block', color: 'rgba(255,255,255,0.06)', marginBottom: 4 }}>🎬</span>
+                <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.15)' }}>
+                  {hasPanorama ? '点击打开导演台' : '等待VR全景图'}
                 </span>
+              </div>
+            )}
+          </div>
+
+          {/* Gradient overlay with badges */}
+          <div style={{
+            position: 'absolute', bottom: 0, left: 0, right: 0,
+            background: 'linear-gradient(transparent, rgba(0,0,0,0.75))',
+            padding: '24px 12px 10px',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 4, flexWrap: 'wrap' }}>
+              {badges.map((b, i) => (
+                <span key={i} style={{
+                  fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                  backgroundColor: b.bgColor, color: b.textColor,
+                }}>{b.text}</span>
               ))}
+              {/* Character name chips */}
+              {charProcessDatas.map((cp, i) => (
+                <span key={`char-${i}`} style={{
+                  fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                  backgroundColor: STAGE_CHAR_COLORS[i % STAGE_CHAR_COLORS.length],
+                  color: '#fff', maxWidth: 60, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                }}>{cp.characterName}</span>
+              ))}
+            </div>
+          </div>
+
+          {/* Status dot */}
+          <div style={{
+            position: 'absolute', top: 10, right: 10, width: 8, height: 8,
+            borderRadius: '50%', zIndex: 2,
+            backgroundColor:
+              d.status === 'running' ? '#60a5fa'
+              : d.status === 'success' ? '#34d399'
+              : d.status === 'error' ? '#f87171'
+              : 'transparent',
+          }} />
+
+          {/* Progress bar */}
+          {d.status === 'running' && (
+            <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, backgroundColor: 'rgba(0,0,0,0.3)' }}>
+              <div style={{ height: '100%', backgroundColor: 'rgba(6,182,212,0.6)', width: `${d.progress ?? 0}%` }} />
             </div>
           )}
         </div>
       </div>
 
-      {/* Right-click context menu (portal to body to escape ReactFlow transform) */}
+      {/* Right-click context menu */}
       {contextMenu && createPortal(
         <div
           className="fixed z-[9999] border border-zinc-500/40 rounded-lg shadow-xl py-1 min-w-[160px] backdrop-blur-xl"
           style={{ left: contextMenu.x, top: contextMenu.y, backgroundColor: 'rgba(39, 39, 42, 0.75)' }}
           onClick={(e) => e.stopPropagation()}
         >
-          <button
-            className="w-full text-left px-3 py-1.5 text-xs text-zinc-200 hover:bg-white/10 transition-colors"
-            onClick={handleCopy}
-          >
+          <button className="w-full text-left px-3 py-1.5 text-xs text-zinc-200 hover:bg-white/10 transition-colors" onClick={handleCopy}>
             复制导演台设置
           </button>
           <button
-            className={`w-full text-left px-3 py-1.5 text-xs transition-colors ${
-              canPaste ? 'text-zinc-200 hover:bg-white/10' : 'text-zinc-500 cursor-not-allowed'
-            }`}
+            className={`w-full text-left px-3 py-1.5 text-xs transition-colors ${canPaste ? 'text-zinc-200 hover:bg-white/10' : 'text-zinc-500 cursor-not-allowed'}`}
             onClick={canPaste ? handlePaste : undefined}
             disabled={!canPaste}
           >

@@ -5,7 +5,7 @@ import type { Edge } from '@xyflow/react';
 import { useProjectStore } from '../stores/projectStore';
 import { useBoardStore } from '../stores/boardStore';
 import { useCanvasStore } from '../stores/canvasStore';
-import { buildCanvasGraph, type SceneInput, type ShotInput, type CharacterMapEntry, type LocationDetailEntry, shotNodeId, videoNodeId } from '../lib/canvasLayout';
+import { buildCanvasGraph, type SceneInput, type ShotInput, type CharacterMapEntry, type LocationDetailEntry, type MergeGroup, shotNodeId, videoNodeId } from '../lib/canvasLayout';
 import { API_BASE_URL, normalizeStorageUrl } from '../lib/api';
 
 /** Apply saved node execution results to freshly built nodes + propagate outputs downstream */
@@ -124,6 +124,13 @@ function _applySavedResults(
         if (inp.ratio) patch.ratio = inp.ratio;
         if (inp.durationSeconds) patch.durationSeconds = inp.durationSeconds;
       }
+      // VideoSegment nodes: same pattern as VideoGeneration
+      if (rec.node_type === 'videoSegment') {
+        if (out.video_url) { patch.videoUrl = out.video_url; patch.status = 'success'; }
+        if (out.task_id) patch.seedanceTaskId = out.task_id;
+        if (inp.assembledPrompt) patch.assembledPrompt = inp.assembledPrompt;
+        if (inp.imageRefs) patch.imageRefs = inp.imageRefs;
+      }
       if (inp.jointAngles) patch.jointAngles = inp.jointAngles;
       if (inp.azimuth !== undefined) patch.azimuth = inp.azimuth;
       if (inp.elevation !== undefined) patch.elevation = inp.elevation;
@@ -180,6 +187,13 @@ function _applySavedResults(
         });
       }
       patched = { ...patched, data: { ...patched.data, ...compositePatch } };
+    }
+
+    // Safety net: reconstruct inputImageUrl from inputStorageKey if missing
+    // (handles case where upstream save failed but downstream node has the key)
+    const pData = patched.data as Record<string, unknown>;
+    if (pData.inputStorageKey && !pData.inputImageUrl) {
+      patched = { ...patched, data: { ...pData, inputImageUrl: `${API_BASE_URL}/uploads/${pData.inputStorageKey}` } };
     }
 
     return patched;
@@ -400,6 +414,7 @@ export function useCanvasSync() {
   const artifactsByShotId = useBoardStore((s) => s.artifactsByShotId);
   const disconnectedSegments = useCanvasStore((s) => s.disconnectedSegments);
   const manualEdges = useCanvasStore((s) => s.manualEdges);
+  const mergeGroups = useCanvasStore((s) => s.mergeGroups);
 
   const prevHashRef = useRef('');
   const rawEdgesRef = useRef<Edge[]>([]);
@@ -425,6 +440,7 @@ export function useCanvasSync() {
       locPanorama: locations.map((l) => `${l.id}:${assetImages[l.id]?.['panorama'] ? '1' : '0'}`).join(','),
       charIds: characters.map((c) => c.id).join(','),
       locDetailIds: locations.map((l) => l.id).join(','),
+      mergeGroupIds: mergeGroups.map((g) => `${g.groupId}:${g.shotIds.join('+')}`).join(','),
     });
 
     if (hash === prevHashRef.current) return;
@@ -634,6 +650,7 @@ export function useCanvasSync() {
           })),
         ]),
       ),
+      mergeGroups: mergeGroups.length > 0 ? mergeGroups : undefined,
     });
 
     rawEdgesRef.current = edges;
@@ -682,6 +699,13 @@ export function useCanvasSync() {
         if (pd.screenshotBase64) snap.screenshotBase64 = pd.screenshotBase64;
         if (pd.sceneDescription) snap.sceneDescription = pd.sceneDescription;
       }
+      // Preserve VideoSegment state across rebuild
+      if (pd.nodeType === 'videoSegment') {
+        if (pd.videoUrl) snap.videoUrl = pd.videoUrl;
+        if (pd.seedanceTaskId) snap.seedanceTaskId = pd.seedanceTaskId;
+        if (pd.assembledPrompt) snap.assembledPrompt = pd.assembledPrompt;
+        if (pd.imageRefs) snap.imageRefs = pd.imageRefs;
+      }
       // Preserve GeminiComposite state across rebuild
       if (pd.nodeType === 'geminiComposite') {
         if (pd.sceneScreenshotStorageKey) snap.sceneScreenshotStorageKey = pd.sceneScreenshotStorageKey;
@@ -719,16 +743,45 @@ export function useCanvasSync() {
     setEdges(applyDisconnections(edges, me, disc));
     initializedRef.current = true;
 
-    // Fetch saved results + composite layers once, then re-apply
+    // Fetch saved results + composite layers + merge groups once, then re-apply
     if (!fetchedRef.current) {
       fetchedRef.current = true;
+
+      // Fetch merge groups for all loaded scenes
+      const pid = useProjectStore.getState().project?.id;
+      const sceneIds = scenes.map(s => s.id);
+      const mergeGroupFetches = pid && sceneIds.length > 0
+        ? Promise.all(
+            sceneIds.map(sid =>
+              fetch(`${API_BASE_URL}/api/canvas/shot-groups/${pid}/${sid}`)
+                .then(r => r.ok ? r.json() : { groups: [] })
+                .catch(() => ({ groups: [] }))
+            ),
+          ).then((results: Array<{ groups: MergeGroup[] }>) => {
+            const allGroups: MergeGroup[] = [];
+            for (const r of results) {
+              for (const g of r.groups || []) allGroups.push(g);
+            }
+            return allGroups;
+          })
+        : Promise.resolve([] as MergeGroup[]);
+
       Promise.all([
         fetch(`${API_BASE_URL}/api/canvas/node-results`).then(r => r.ok ? r.json() : {}),
         fetch(`${API_BASE_URL}/api/canvas/composite-layers`).then(r => r.ok ? r.json() : {}),
+        mergeGroupFetches,
       ])
-        .then(([saved, savedLayers]: [Record<string, SavedNodeResult>, Record<string, Array<Record<string, unknown>>>]) => {
+        .then(([saved, savedLayers, fetchedMergeGroups]: [Record<string, SavedNodeResult>, Record<string, Array<Record<string, unknown>>>, MergeGroup[]]) => {
           if (Object.keys(saved).length > 0) savedResultsRef.current = saved;
           if (Object.keys(savedLayers).length > 0) savedLayersRef.current = savedLayers;
+
+          // Populate canvasStore.mergeGroups if backend has saved groups
+          if (fetchedMergeGroups.length > 0) {
+            useCanvasStore.getState().setMergeGroups(fetchedMergeGroups);
+            // Note: setMergeGroups triggers a re-render which re-runs this effect with mergeGroups in hash,
+            // causing a proper rebuild with merge-aware layout. No need to manually rebuild here.
+          }
+
           if (!savedResultsRef.current && !savedLayersRef.current) return;
           // Re-apply to current nodes
           const { nodes: cur, setNodes: sn } = useCanvasStore.getState();
@@ -742,7 +795,7 @@ export function useCanvasSync() {
     }, initializedRef.current ? 100 : 0); // first build is immediate, subsequent debounce 100ms
 
     return () => clearTimeout(debounceRef.current);
-  }, [scenes, shots, characters, nodeRunsByShotId, artifactsByShotId, locations, assetImages, assetImageKeys]);
+  }, [scenes, shots, characters, nodeRunsByShotId, artifactsByShotId, locations, assetImages, assetImageKeys, mergeGroups]);
 
   // Effect 2: re-apply edges when disconnectedSegments or manualEdges change
   useEffect(() => {

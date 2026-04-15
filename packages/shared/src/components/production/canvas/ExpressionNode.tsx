@@ -19,7 +19,7 @@ function ExpressionNodeComponent({ data, selected }: NodeProps<ExpressionNode>) 
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      style={{ width: 260, position: 'relative' }}
+      style={{ width: 300, position: 'relative' }}
     >
       <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
       <Handle type="source" position={Position.Right} style={{ top: '55%' }} />
@@ -37,14 +37,14 @@ function ExpressionNodeComponent({ data, selected }: NodeProps<ExpressionNode>) 
       }}>
         {/* Image */}
         <div style={{
-          width: '100%', height: 150,
+          width: '100%', minHeight: 100,
           backgroundColor: '#0c0e12',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
           {displayUrl ? (
-            <img src={displayUrl} alt="expression" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src={displayUrl} alt="expression" style={{ width: '100%', height: 'auto', display: 'block' }} />
           ) : (
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: 'center', padding: '40px 0' }}>
               <span style={{ fontSize: 28, display: 'block', color: 'rgba(255,255,255,0.06)', marginBottom: 4 }}>🎭</span>
               <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.15)' }}>等待输入图片</span>
             </div>

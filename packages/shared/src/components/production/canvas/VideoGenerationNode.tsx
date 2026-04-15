@@ -14,10 +14,11 @@ import { type NodeProps, type Node, Handle, Position, useReactFlow } from '@xyfl
 import type { VideoGenerationNodeData, VideoImageRef } from '../../../types/canvas';
 import { assembleVideoPrompt, buildImageRefsFromNodeData } from '../../../lib/videoPromptAssembly';
 import { API_BASE_URL, normalizeStorageUrl } from '../../../lib/api';
+import { buildVideoGenerationBadges } from '../../../lib/cardDisplayHelpers';
+import { useCanvasStore } from '../../../stores/canvasStore';
+import { MergedVideoPanel } from './MergedVideoPanel';
 
 type VideoGenerationNode = Node<VideoGenerationNodeData, 'videoGeneration'>;
-
-const MODE_LABEL: Record<string, string> = { text_to_video: 'T2V', image_to_video: 'I2V', scene_character_to_video: 'SC2V' };
 
 // ─── contentEditable helpers ───
 
@@ -76,9 +77,80 @@ function extractText(el: HTMLElement): string {
   return out;
 }
 
+// ─── Merge Group Glow Frame (SVG orbit) ───
+
+const GLOW_CARD_W = 300;
+const GLOW_NODE_H = 200;  // ReactFlow node height (includes title bar)
+const GLOW_SNAP_G = 6;
+const GLOW_PAD = 8;
+const GLOW_STROKE = 2;
+const GLOW_LEN = 120;
+
+function MergeGroupGlowFrame({ mergeGroupSize, groupId }: { mergeGroupSize: number; groupId: string }) {
+  // Node-to-node step = NODE_H + SNAP_GAP = 206
+  // Total from first node top to last node bottom = (N-1)*206 + 200
+  const totalH = (mergeGroupSize - 1) * (GLOW_NODE_H + GLOW_SNAP_G) + GLOW_NODE_H;
+  const frameW = GLOW_CARD_W + GLOW_PAD * 2;
+  const frameH = totalH + GLOW_PAD * 2;
+  const svgW = frameW + GLOW_STROKE * 2;
+  const svgH = frameH + GLOW_STROKE * 2;
+  const perimeter = 2 * (frameW + frameH);
+  const animName = `mergeOrbit_${groupId.replace(/[^a-zA-Z0-9]/g, '')}`;
+
+  return (
+    <div style={{
+      position: 'absolute',
+      top: -GLOW_PAD,
+      left: -GLOW_PAD,
+      width: svgW,
+      height: svgH,
+      pointerEvents: 'none',
+      zIndex: -1,
+    }}>
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes ${animName} {
+          from { stroke-dashoffset: 0; }
+          to { stroke-dashoffset: -${perimeter}; }
+        }
+      `}} />
+      <svg width={svgW} height={svgH} style={{ overflow: 'visible' }}>
+        <defs>
+          <linearGradient id={`glowGrad_${groupId}`} x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="rgba(139,92,246,0)" />
+            <stop offset="50%" stopColor="rgba(168,85,247,0.9)" />
+            <stop offset="100%" stopColor="rgba(139,92,246,0)" />
+          </linearGradient>
+          <filter id={`glowBlur_${groupId}`}>
+            <feGaussianBlur stdDeviation="3" />
+          </filter>
+        </defs>
+        {/* 静态底框 */}
+        <rect x={GLOW_STROKE} y={GLOW_STROKE}
+          width={frameW} height={frameH} rx={16}
+          fill="none" stroke="rgba(139,92,246,0.15)" strokeWidth={1} />
+        {/* 发光层（模糊） */}
+        <rect x={GLOW_STROKE} y={GLOW_STROKE}
+          width={frameW} height={frameH} rx={16}
+          fill="none" stroke={`url(#glowGrad_${groupId})`} strokeWidth={3}
+          strokeDasharray={`${GLOW_LEN} ${perimeter - GLOW_LEN}`}
+          filter={`url(#glowBlur_${groupId})`}
+          style={{ animation: `${animName} 4s linear infinite` }} />
+        {/* 清晰光带 */}
+        <rect x={GLOW_STROKE} y={GLOW_STROKE}
+          width={frameW} height={frameH} rx={16}
+          fill="none" stroke={`url(#glowGrad_${groupId})`} strokeWidth={GLOW_STROKE}
+          strokeDasharray={`${GLOW_LEN} ${perimeter - GLOW_LEN}`}
+          style={{ animation: `${animName} 4s linear infinite` }} />
+      </svg>
+    </div>
+  );
+}
+
 // ─── Component ───
 
 function VideoGenerationNodeComponent({ id, data, selected }: NodeProps<VideoGenerationNode>) {
+  const isMerged = !!(data.mergeGroupId && (data.mergeGroupSize ?? 0) > 1);
+  const isFirstInGroup = isMerged && data.mergeGroupIndex === 0;
   const [hovered, setHovered] = useState(false);
   const [panelOpen, setPanelOpen] = useState(false);
   const [promptText, setPromptText] = useState('');
@@ -92,16 +164,32 @@ function VideoGenerationNodeComponent({ id, data, selected }: NodeProps<VideoGen
   const [chipPreview, setChipPreview] = useState<{ idx: number; top: number; left: number } | null>(null);
   const editorRef = useRef<HTMLDivElement>(null);
   const editorWrapRef = useRef<HTMLDivElement>(null);
-  const { setNodes } = useReactFlow();
+  const reactFlow = useReactFlow();
   const abortRef = useRef<AbortController | null>(null);
   // Track whether we need to re-render chips (avoid doing it on every keystroke)
   const refsVersionRef = useRef(0);
 
+  // Close panel when deselected (clicking blank area)
+  const prevSelectedRef = useRef(selected);
+  useEffect(() => {
+    if (prevSelectedRef.current && !selected) {
+      setPanelOpen(false);
+    }
+    prevSelectedRef.current = selected;
+  }, [selected]);
+
   const inputImageUrl = data.inputImageUrl;
   const defaultDur = data.durationSeconds || Math.round((data.durationMs || 5000) / 1000);
 
-  const cardBg = selected ? '#1f2129' : hovered ? '#1a1c23' : '#16181e';
   const cardBorder = selected ? 'rgba(255,255,255,0.16)' : hovered ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.06)';
+  const accent = selected ? 'rgba(232,121,249,0.9)' : 'rgba(232,121,249,0.5)';
+  const videoBadges = buildVideoGenerationBadges({ mode: data.mode, durationSeconds: defaultDur, videoUrl: data.videoUrl });
+
+  // Direct store update — bypasses useDeferredValue for immediate feedback
+  const updateNodeData = useCallback((patch: Record<string, unknown>) => {
+    const s = useCanvasStore.getState();
+    s.setNodes(s.nodes.map(n => n.id === id ? { ...n, data: { ...n.data, ...patch } } : n));
+  }, [id]);
 
   // Resolve image URL for display
   const resolveUrl = useCallback((ref: VideoImageRef) => {
@@ -139,7 +227,24 @@ function VideoGenerationNodeComponent({ id, data, selected }: NodeProps<VideoGen
       // Editor HTML will be set by useEffect below
     }
     setPanelOpen(!panelOpen);
-  }, [panelOpen, data]);
+
+    // Center viewport on card + panel
+    const node = reactFlow.getNode(id);
+    if (node) {
+      const CARD_W = 300;
+      const HEADER_H = 31;
+      const CARD_BODY_H = Math.round(CARD_W * 9 / 16) + 28;
+      const PANEL_H = 400;
+      const totalH = HEADER_H + CARD_BODY_H + PANEL_H;
+      const centerX = node.position.x + CARD_W / 2;
+      const centerY = node.position.y + totalH / 2;
+      const vpEl = document.querySelector('.react-flow') as HTMLElement | null;
+      const vpH = vpEl?.clientHeight || 800;
+      const vpW = vpEl?.clientWidth || 1200;
+      const targetZoom = Math.min(vpH / (totalH * 1.15), vpW / (CARD_W * 1.3), 1.5);
+      reactFlow.setCenter(centerX, centerY, { zoom: Math.max(targetZoom, 0.5), duration: 400 });
+    }
+  }, [panelOpen, data, id, reactFlow]);
 
   // Set editor HTML when panel opens or refs change
   useEffect(() => {
@@ -218,11 +323,7 @@ function VideoGenerationNodeComponent({ id, data, selected }: NodeProps<VideoGen
     // Prefer full URL (http) over storageKey — external API needs accessible URLs
     const filePaths = localImageRefs.map(r => r.url || r.storageKey || '').filter(Boolean);
 
-    setNodes(nds =>
-      nds.map(n =>
-        n.id === id ? { ...n, data: { ...n.data, status: 'running', progress: 0, assembledPrompt: currentPrompt, imageRefs: localImageRefs, ratio: localRatio, durationSeconds: localDuration } } : n,
-      ),
-    );
+    updateNodeData({ status: 'running', progress: 0, assembledPrompt: currentPrompt, imageRefs: localImageRefs, ratio: localRatio, durationSeconds: localDuration });
 
     const abortCtrl = new AbortController();
     abortRef.current = abortCtrl;
@@ -262,11 +363,9 @@ function VideoGenerationNodeComponent({ id, data, selected }: NodeProps<VideoGen
           try {
             const evt = JSON.parse(line.slice(6));
             if (evt.type === 'progress') {
-              setNodes(nds => nds.map(n => n.id === id ? { ...n, data: { ...n.data, progress: evt.progress } } : n));
+              updateNodeData({ progress: evt.progress });
             } else if (evt.type === 'success') {
-              setNodes(nds => nds.map(n =>
-                n.id === id ? { ...n, data: { ...n.data, status: 'success', progress: 100, videoUrl: evt.video_url, seedanceTaskId: evt.task_id } } : n,
-              ));
+              updateNodeData({ status: 'success', progress: 100, videoUrl: evt.video_url, seedanceTaskId: evt.task_id });
               setPanelOpen(false);
             } else if (evt.type === 'error') {
               throw new Error(evt.message);
@@ -281,77 +380,193 @@ function VideoGenerationNodeComponent({ id, data, selected }: NodeProps<VideoGen
       const msg = err instanceof Error ? err.message : String(err);
       console.error('[VideoGen] Error:', msg);
       setErrorMsg(msg);
-      setNodes(nds => nds.map(n =>
-        n.id === id ? { ...n, data: { ...n.data, status: 'error', errorMessage: msg, progress: 0 } } : n,
-      ));
+      updateNodeData({ status: 'error', errorMessage: msg, progress: 0 });
     } finally {
       abortRef.current = null;
     }
-  }, [id, getCurrentPrompt, localImageRefs, localRatio, localDuration, setNodes]);
+  }, [id, getCurrentPrompt, localImageRefs, localRatio, localDuration, updateNodeData]);
 
   useEffect(() => {
     return () => { abortRef.current?.abort(); };
   }, []);
 
+  const [scissorHovered, setScissorHovered] = useState(false);
+
+  // 缝隙切开：从 mergeGroup 中移除该卡及其后的卡
+  const handleSplit = useCallback(() => {
+    if (!data.mergeGroupId || data.mergeGroupIndex == null) return;
+    const s = useCanvasStore.getState();
+    const groups = s.mergeGroups;
+    const gIdx = groups.findIndex(g => g.groupId === data.mergeGroupId);
+    if (gIdx < 0) return;
+    const group = groups[gIdx];
+    const splitAt = data.mergeGroupIndex;
+    const keepIds = group.shotIds.slice(0, splitAt);
+    const newGroups = [...groups];
+    if (keepIds.length < 2) {
+      // 剩余不足 2 个，解散整个组
+      newGroups.splice(gIdx, 1);
+    } else {
+      newGroups[gIdx] = { ...group, shotIds: keepIds };
+    }
+    s.setMergeGroups(newGroups);
+  }, [data.mergeGroupId, data.mergeGroupIndex]);
+
   return (
-    <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="relative" style={{ width: 290 }}>
+    <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="relative" style={{ width: 300 }}>
       <Handle type="target" position={Position.Left} className="target-handle" style={{ top: '55%' }} />
       <Handle type="source" position={Position.Right} style={{ top: '55%' }} />
-      <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8, paddingLeft: 4 }}>
-        <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)' }}>▶</span>
-        <span style={{ fontSize: 12, fontWeight: 500, letterSpacing: '0.03em', color: selected ? 'rgba(232,121,249,0.9)' : 'rgba(232,121,249,0.5)' }}>Video</span>
+
+      {/* ✂️ 缝隙切开区域 — 磁吸组非首卡 */}
+      {isMerged && (data.mergeGroupIndex ?? 0) > 0 && (
+        <div
+          onMouseEnter={() => setScissorHovered(true)}
+          onMouseLeave={() => setScissorHovered(false)}
+          onClick={(e) => { e.stopPropagation(); handleSplit(); }}
+          style={{
+            position: 'absolute', top: -6, left: 0, right: 0, height: 12,
+            cursor: 'pointer', zIndex: 10,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            background: scissorHovered ? 'rgba(248,113,113,0.15)' : 'transparent',
+            borderRadius: 4,
+            transition: 'background 0.15s',
+          }}
+          title="点击拆开磁吸"
+        >
+          {scissorHovered && (
+            <span style={{ fontSize: 10, color: 'rgba(248,113,113,0.8)' }}>✂️ 拆开</span>
+          )}
+        </div>
+      )}
+
+      {/* Title bar */}
+      <div className="flex items-center gap-1.5 mb-2 pl-1">
+        <span className="text-[13px]">▶</span>
+        <span className="text-[12px] font-medium tracking-wide" style={{ color: accent }}>Video</span>
       </div>
 
+      {/* 整组流光框 — 仅首卡渲染 */}
+      {isFirstInGroup && data.mergeGroupId && (
+        <MergeGroupGlowFrame
+          mergeGroupSize={data.mergeGroupSize ?? 1}
+          groupId={data.mergeGroupId}
+        />
+      )}
+
+      {/* Main card */}
       <div className="canvas-card" style={{
         borderRadius: 16, position: 'relative', overflow: 'hidden',
-        backgroundColor: cardBg, border: `1px solid ${cardBorder}`,
-        transition: 'background-color 0.2s, border-color 0.2s',
+        border: `1px solid ${cardBorder}`,
+        transition: 'border-color 0.2s',
         cursor: 'pointer',
       }} onClick={handleOpenPanel}>
-        <div style={{ position: 'relative', zIndex: 1, padding: 20 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
-            <span style={{
-              fontSize: 10, fontFamily: 'monospace', padding: '2px 6px', borderRadius: 4,
-              color: selected ? 'rgba(232,121,249,0.7)' : 'rgba(255,255,255,0.25)',
-              backgroundColor: selected ? 'rgba(232,121,249,0.1)' : 'rgba(255,255,255,0.04)',
-            }}>{MODE_LABEL[data.mode] || 'Video'}</span>
-            {defaultDur > 0 && <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.22)' }}>{defaultDur}s</span>}
-          </div>
-
-          <div style={{
-            width: '100%', height: 100, borderRadius: 12, marginBottom: 12, overflow: 'hidden',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            backgroundColor: selected ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.015)',
-          }}>
-            {data.videoUrl ? (
-              <video src={data.videoUrl} style={{ width: '100%', height: '100%', objectFit: 'cover' }} muted loop playsInline
-                onMouseEnter={(e) => { e.stopPropagation(); (e.target as HTMLVideoElement).play(); }}
-                onMouseLeave={(e) => { const v = e.target as HTMLVideoElement; v.pause(); v.currentTime = 0; }} />
-            ) : inputImageUrl ? (
-              <img src={inputImageUrl} alt="源图" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }} />
-            ) : (
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
-                <span style={{ fontSize: 18, color: 'rgba(255,255,255,0.05)' }}>▶</span>
-                <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.1)' }}>{data.status === 'running' ? '生成中...' : '待生成'}</span>
-              </div>
-            )}
-          </div>
-
-          {data.status === 'running' && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <div style={{ height: 4, flex: 1, borderRadius: 99, backgroundColor: 'rgba(255,255,255,0.03)', overflow: 'hidden' }}>
-                <div style={{ height: '100%', backgroundColor: 'rgba(232,121,249,0.5)', borderRadius: 99, width: `${data.progress}%`, transition: 'width 0.3s' }} />
-              </div>
-              <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.22)' }}>{data.progress}%</span>
+        {/* Image area */}
+        <div style={{
+          width: '100%', minHeight: 100,
+          backgroundColor: '#0c0e12',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
+          {data.videoUrl ? (
+            <video src={data.videoUrl} style={{ width: '100%', height: 'auto', display: 'block' }} muted loop playsInline
+              onMouseEnter={(e) => { e.stopPropagation(); (e.target as HTMLVideoElement).play().catch(() => {}); }}
+              onMouseLeave={(e) => { const v = e.target as HTMLVideoElement; v.pause(); v.currentTime = 0; }} />
+          ) : inputImageUrl ? (
+            <img src={inputImageUrl} alt="源图" style={{ width: '100%', height: 'auto', display: 'block', opacity: 0.7 }} />
+          ) : (
+            <div style={{ textAlign: 'center', padding: '40px 0' }}>
+              <span style={{ fontSize: 28, display: 'block', color: 'rgba(255,255,255,0.06)', marginBottom: 4 }}>▶</span>
+              <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.15)' }}>{data.status === 'running' ? '生成中...' : '待生成'}</span>
             </div>
           )}
-          {data.status === 'success' && data.videoUrl && <div style={{ fontSize: 10, color: 'rgba(52,211,153,0.35)' }}>生成完成</div>}
-          {data.status === 'error' && data.errorMessage && <div style={{ fontSize: 10, color: 'rgba(248,113,113,0.45)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{data.errorMessage}</div>}
         </div>
+
+        {/* Gradient overlay */}
+        <div style={{
+          position: 'absolute', bottom: 0, left: 0, right: 0,
+          background: 'linear-gradient(transparent, rgba(0,0,0,0.75))',
+          padding: '24px 12px 10px',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 4, flexWrap: 'wrap' }}>
+            {videoBadges.map((b, i) => (
+              <span key={i} style={{
+                fontSize: 9, padding: '2px 6px', borderRadius: 4,
+                backgroundColor: b.bgColor, color: b.textColor,
+              }}>{b.text}</span>
+            ))}
+          </div>
+          {data.status === 'error' && data.errorMessage && (
+            <p style={{ fontSize: 10, color: 'rgba(248,113,113,0.6)', lineHeight: 1.4, marginTop: 4, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+              {data.errorMessage}
+            </p>
+          )}
+        </div>
+
+        {/* Status dot */}
+        <div style={{
+          position: 'absolute', top: 10, right: 10, width: 8, height: 8,
+          borderRadius: '50%', zIndex: 2,
+          backgroundColor:
+            data.status === 'running' ? '#60a5fa'
+            : data.status === 'success' ? '#34d399'
+            : data.status === 'error' ? '#f87171'
+            : 'transparent',
+        }} />
+
+        {/* Progress bar */}
+        {data.status === 'running' && (
+          <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, backgroundColor: 'rgba(0,0,0,0.3)' }}>
+            <div style={{ height: '100%', backgroundColor: 'rgba(232,121,249,0.6)', width: `${data.progress}%`, transition: 'width 0.3s' }} />
+          </div>
+        )}
+
+        {/* 磁吸组标记 */}
+        {isMerged && (
+          <div style={{
+            position: 'absolute', top: 10, left: 10, zIndex: 2,
+            fontSize: 9, padding: '1px 6px', borderRadius: 4,
+            background: isFirstInGroup ? 'rgba(139,92,246,0.3)' : 'rgba(139,92,246,0.15)',
+            color: 'rgba(139,92,246,0.9)',
+            border: '1px solid rgba(139,92,246,0.25)',
+          }}>
+            {isFirstInGroup ? `合并·${data.mergeGroupSize}镜` : `#${(data.mergeGroupIndex ?? 0) + 1}`}
+          </div>
+        )}
       </div>
 
-      {/* ── Floating panel — prompt editor ── */}
-      {panelOpen && (
+      {/* ── Floating panel — 磁吸组用 MergedVideoPanel，独立卡用原有面板 ── */}
+      {panelOpen && isMerged && (() => {
+        // 计算浮空栏偏移：定位到组内最下方卡的下方
+        const mgSize = data.mergeGroupSize ?? 1;
+        const mgIdx = data.mergeGroupIndex ?? 0;
+        const NODE_H = 200;
+        const SNAP_G = 6;
+        // 从当前卡到最下方卡的 Y 偏移
+        const remainingCards = mgSize - 1 - mgIdx;
+        const offsetY = remainingCards * (NODE_H + SNAP_G);
+
+        const s = useCanvasStore.getState();
+        const group = s.mergeGroups.find(mg => mg.groupId === data.mergeGroupId);
+
+        return (
+        <div style={{
+          position: 'absolute', top: `calc(100% + ${offsetY}px)`, left: '50%',
+          transform: 'translateX(-50%)', zIndex: 50, paddingTop: 4,
+        }}>
+          <MergedVideoPanel
+            groupId={data.mergeGroupId!}
+            shotIds={group?.shotIds ?? [data.shotId || id]}
+            totalDuration={group?.totalDuration ?? (data.durationSeconds || 5)}
+            driftRisk={(group?.driftRisk as 'low' | 'medium' | 'high') ?? 'low'}
+            firstNodeId={(() => {
+              const firstShotId = group?.shotIds[0];
+              return firstShotId ? `video-${firstShotId}` : id;
+            })()}
+            onClose={() => setPanelOpen(false)}
+          />
+        </div>
+        );
+      })()}
+      {panelOpen && !isMerged && (
         <div style={{
           position: 'absolute', top: '100%', left: '50%',
           transform: 'translateX(-50%)', zIndex: 50, paddingTop: 0,

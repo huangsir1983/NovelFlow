@@ -148,6 +148,18 @@ interface CanvasStoreState {
   appendToLastAIMessage: (chunk: string) => void;
   setAIProcessing: (processing: boolean) => void;
   clearAIMessages: () => void;
+
+  /* Merge groups — shot grouping for video segment optimization */
+  mergeGroups: Array<{
+    groupId: string;
+    shotIds: string[];
+    totalDuration: number;
+    driftRisk: 'low' | 'medium' | 'high';
+    recommendedProvider: string;
+    mergeRationale?: string;
+    assembledPrompt?: string;
+  }>;
+  setMergeGroups: (groups: CanvasStoreState['mergeGroups']) => void;
 }
 
 export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
@@ -452,4 +464,7 @@ export const useCanvasStore = create<CanvasStoreState>((set, get) => ({
   }),
   setAIProcessing: (aiProcessing) => set({ aiProcessing }),
   clearAIMessages: () => set({ aiMessages: [] }),
+
+  mergeGroups: [],
+  setMergeGroups: (mergeGroups) => set({ mergeGroups }),
 }));

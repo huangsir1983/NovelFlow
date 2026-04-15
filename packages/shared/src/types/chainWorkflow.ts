@@ -163,8 +163,8 @@ export interface MergeAnalysisResult {
 }
 
 export interface MergeAnalysisRequest {
-  sceneId: string;
-  storyboardNodes: Array<{
+  scene_id: string;
+  storyboard_nodes: Array<{
     id: string;
     label: string;
     text: string;
@@ -172,6 +172,7 @@ export interface MergeAnalysisRequest {
     shotType: string;
     estimatedDuration: number;
   }>;
+  project_id?: string;
 }
 
 // ═══════════════════════════════════════════════════════════════

@@ -27,6 +27,7 @@ import type {
   GeminiCompositeNodeData,
   FinalHDNodeData,
   VideoGenerationNodeData,
+  // VideoSegmentNodeData — 磁吸方案不再创建 VideoSegment 节点
   CanvasNodeStatus,
   CharacterRefInfo,
 } from '../types/canvas';
@@ -34,45 +35,46 @@ import { detectModuleType } from '../components/production/canvas/ModuleTemplate
 
 /* ── Layout constants ── */
 /**
- * 10-column layout — new pipeline with DirectorStage3D + GeminiComposite:
- *   Col 0  (0)    : Scene
- *   Col 1  (500)  : Shot
+ * 8-column layout — uniform 200px gap between card edges:
+ *   Col 0  (0)    : Scene (320px)
+ *   Col 1  (520)  : Shot (300px)
  *   Col 2  (1020) : SceneBG / CharacterProcess / PropProcess (branch split)
- *   Col 3  (1540) : (reserved)
- *   Col 4  (2060) : DirectorStage3D (merge point)
- *   Col 5  (2580) : GeminiComposite
- *   Col 6  (3120) : PostExpression
- *   Col 7  (3720) : FinalHD
- *   Col 8  (4320) : VideoGeneration
+ *   Col 3  (1520) : DirectorStage3D (merge point)
+ *   Col 4  (2020) : GeminiComposite
+ *   Col 5  (2520) : PostExpression (ImageProcess)
+ *   Col 6  (3020) : FinalHD
+ *   Col 7  (3520) : VideoGeneration
  */
-const COL_X = [0, 500, 1020, 1540, 2060, 2580, 3120, 3720, 4320];
+const COL_X = [0, 520, 1020, 1520, 2020, 2520, 3020, 3520];
 const SCENE_PADDING = 600;  // vertical padding between scene groups
 const SHOT_GAP = 800;       // vertical gap between shots within a scene
 const BRANCH_GAP = 400;     // vertical gap between branches (sceneBG, characters, props)
 const NODE_HEIGHT = 200;
+const SNAP_GAP = 6;          // 磁吸合并卡片间距 (px)
 
 /** Actual card widths per node type — must match the component's outer div width */
 const NODE_WIDTHS: Record<string, number> = {
   scene: 320,
-  shot: 260,
-  promptAssembly: 260,
-  imageGeneration: 260,
-  videoGeneration: 290,
-  sceneBG: 260,
+  shot: 300,
+  promptAssembly: 300,
+  imageGeneration: 300,
+  videoGeneration: 300,
+  sceneBG: 300,
   characterProcess: 180,
-  viewAngle: 260,
-  expression: 260,
-  hdUpscale: 240,
-  matting: 260,
-  propProcess: 240,
-  propAngle: 260,
-  composite: 280,
-  blendRefine: 240,
-  finalHD: 240,
-  imageProcess: 260,
-  pose3D: 260,
-  directorStage3D: 320,
-  geminiComposite: 280,
+  viewAngle: 300,
+  expression: 300,
+  hdUpscale: 300,
+  matting: 300,
+  propProcess: 300,
+  propAngle: 300,
+  composite: 300,
+  blendRefine: 300,
+  finalHD: 300,
+  imageProcess: 300,
+  pose3D: 300,
+  directorStage3D: 300,
+  geminiComposite: 300,
+  videoSegment: 300,
 };
 const DEFAULT_NODE_WIDTH = 280;
 
@@ -106,6 +108,7 @@ function sceneNodeId(sceneId: string) { return `scene-${sceneId}`; }
 export function shotNodeId(shotId: string) { return `shot-${shotId}`; }
 // promptNodeId / imageNodeId removed — old linear pipeline nodes replaced by 12-node branching pipeline
 export function videoNodeId(shotId: string) { return `video-${shotId}`; }
+export function videoSegmentNodeId(groupId: string) { return `videoseg-${groupId}`; }
 
 /* ── New 12-node pipeline ID helpers ── */
 export function sceneBGNodeId(shotId: string) { return `scenebg-${shotId}`; }
@@ -209,6 +212,16 @@ export interface LocationDetailEntry {
   negativePrompt?: string;
 }
 
+/** A merge group mapping multiple shots to one video segment */
+export interface MergeGroup {
+  groupId: string;
+  shotIds: string[];
+  totalDuration: number;
+  driftRisk: 'low' | 'medium' | 'high';
+  recommendedProvider: string;
+  mergeRationale?: string;
+}
+
 export interface BuildGraphOptions {
   positionCache?: Record<string, { x: number; y: number }>;
   artifactsByShotId?: Record<string, Array<{ id: string; type: string; url?: string; status: string }>>;
@@ -219,6 +232,8 @@ export interface BuildGraphOptions {
   characterMap?: Record<string, CharacterMapEntry>;
   /** {locationName: visual detail} — for populating PromptAssembly locationRef */
   locationDetailMap?: Record<string, LocationDetailEntry>;
+  /** Merge groups from AI merge analysis — maps multiple shots to a single video segment */
+  mergeGroups?: MergeGroup[];
 }
 
 /** Parse a duration string like "3s" / "5" into milliseconds. Returns 0 on failure. */
@@ -298,10 +313,21 @@ export function buildCanvasGraph(
     locationPanoramaMap = {},
     characterMap = {},
     locationDetailMap = {},
+    mergeGroups = [],
   } = options;
 
   const nodes: Node[] = [];
   const edges: Edge[] = [];
+
+  // Build merge group lookup: shotId → MergeGroup (only for groups with 2+ shots)
+  const shotIdToGroup = new Map<string, MergeGroup>();
+  const groupNextY = new Map<string, number>(); // 磁吸组：下一个卡的 Y 坐标
+  for (const g of mergeGroups) {
+    if (g.shotIds.length < 2) continue; // single-shot groups → use normal videoGeneration
+    for (const sid of g.shotIds) {
+      shotIdToGroup.set(sid, g);
+    }
+  }
 
   const sortedScenes = [...scenes].sort((a, b) => a.order - b.order);
 
@@ -586,13 +612,13 @@ export function buildCanvasGraph(
       }
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // DirectorStage3D node (Col 4) — merge point (replaces old Composite)
+      // DirectorStage3D node (Col 3) — merge point (replaces old Composite)
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       const dsId = directorStage3DNodeId(shot.id);
       nodes.push({
         id: dsId,
         type: 'directorStage3D',
-        position: positionCache[dsId] ?? { x: COL_X[4], y: shotY },
+        position: positionCache[dsId] ?? { x: COL_X[3], y: shotY },
         data: {
           label: '3D导演台',
           status: 'idle' as CanvasNodeStatus,
@@ -611,13 +637,13 @@ export function buildCanvasGraph(
       }
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // GeminiComposite node (Col 5) — screenshot → Gemini image generation
+      // GeminiComposite node (Col 4) — screenshot → Gemini image generation
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       const gcId = geminiCompositeNodeId(shot.id);
       nodes.push({
         id: gcId,
         type: 'geminiComposite',
-        position: positionCache[gcId] ?? { x: COL_X[5], y: shotY },
+        position: positionCache[gcId] ?? { x: COL_X[4], y: shotY },
         data: {
           label: 'Gemini合成',
           status: 'idle' as CanvasNodeStatus,
@@ -632,18 +658,18 @@ export function buildCanvasGraph(
       edges.push({ id: `e-${dsId}-${gcId}`, source: dsId, target: gcId, type: 'pipeline', data: { shotId: shot.id, segment: 'dirstage-geminicomp' } });
 
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      // Post-GeminiComposite chain (Col 6-8): PostExpression → FinalHD → VideoGen
+      // Post-GeminiComposite chain (Col 5-7): PostExpression → FinalHD → VideoGen
       // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
       const videoRun = runs.find((r) => r.nodeKey === 'video');
       const videoArtifact = artifacts.find((a) => a.type === 'video');
 
-      // Post-composite Expression (Col 6) — Gemini img2img for scene refinement
+      // Post-composite Expression (Col 5) — Gemini img2img for scene refinement
       const peId = postExpressionNodeId(shot.id);
       nodes.push({
         id: peId,
         type: 'imageProcess',
-        position: positionCache[peId] ?? { x: COL_X[6], y: shotY },
+        position: positionCache[peId] ?? { x: COL_X[5], y: shotY },
         data: {
           label: '表情',
           status: 'idle' as CanvasNodeStatus,
@@ -662,12 +688,12 @@ export function buildCanvasGraph(
       });
       edges.push({ id: `e-${gcId}-${peId}`, source: gcId, target: peId, type: 'pipeline', data: { shotId: shot.id, segment: 'geminicomp-expression' } });
 
-      // FinalHD (Col 7)
+      // FinalHD (Col 6)
       const fhId = finalHDNodeId(shot.id);
       nodes.push({
         id: fhId,
         type: 'finalHD',
-        position: positionCache[fhId] ?? { x: COL_X[7], y: shotY },
+        position: positionCache[fhId] ?? { x: COL_X[6], y: shotY },
         data: {
           label: '终稿高清',
           status: 'idle' as CanvasNodeStatus,
@@ -683,12 +709,31 @@ export function buildCanvasGraph(
       });
       edges.push({ id: `e-${peId}-${fhId}`, source: peId, target: fhId, type: 'pipeline', data: { shotId: shot.id, segment: 'expression-finalhd' } });
 
-      // VideoGeneration (Col 8)
+      // VideoGeneration (Col 7) — 磁吸定位
+      const mergeGroup = shotIdToGroup.get(shot.id);
       const viId = videoNodeId(shot.id);
+
+      // 确定 Y 坐标：磁吸组内紧贴上一张卡，否则用正常 shotY
+      let videoY = shotY;
+      let mgIndex = 0;
+      let mgSize = 1;
+      if (mergeGroup) {
+        mgIndex = mergeGroup.shotIds.indexOf(shot.id);
+        mgSize = mergeGroup.shotIds.length;
+        if (mgIndex === 0) {
+          // 首卡：使用正常 shotY，记录下一个卡的 Y
+          groupNextY.set(mergeGroup.groupId, shotY + NODE_HEIGHT + SNAP_GAP);
+        } else {
+          // 非首卡：紧贴上一张
+          videoY = groupNextY.get(mergeGroup.groupId) ?? shotY;
+          groupNextY.set(mergeGroup.groupId, videoY + NODE_HEIGHT + SNAP_GAP);
+        }
+      }
+
       nodes.push({
         id: viId,
         type: 'videoGeneration',
-        position: positionCache[viId] ?? { x: COL_X[8], y: shotY },
+        position: positionCache[viId] ?? { x: COL_X[7], y: videoY },
         data: {
           label: 'Video',
           status: (videoRun?.status as CanvasNodeStatus) || 'idle',
@@ -717,6 +762,14 @@ export function buildCanvasGraph(
             visualRefUrl: c.visualRefUrl,
             visualRefStorageKey: c.visualRefStorageKey,
           })),
+          // 磁吸合并字段
+          ...(mergeGroup ? {
+            mergeGroupId: mergeGroup.groupId,
+            mergeGroupIndex: mgIndex,
+            mergeGroupSize: mgSize,
+            mergedVideoUrl: mgIndex === 0 ? undefined : undefined,
+            mergedPrompt: mergeGroup.mergeRationale,
+          } : {}),
         } satisfies VideoGenerationNodeData,
         ...nodeDims('videoGeneration'),
       });

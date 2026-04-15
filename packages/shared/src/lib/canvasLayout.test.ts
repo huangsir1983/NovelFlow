@@ -7,9 +7,9 @@ const scene = {
   heading: 'Scene 1',
   location: 'Grand Hall',
   timeOfDay: 'day',
-  mood: '',
-  summary: '',
-  characters: ['Alice'],
+  description: '',
+  characterNames: ['Alice'],
+  order: 0,
   coreEvent: '',
   emotionalPeak: '',
   narrativeMode: '',
@@ -264,7 +264,7 @@ describe('New pipeline: PostExpression still exists', () => {
 });
 
 describe('New pipeline: multi-character shot', () => {
-  const twoCharScene = { ...scene, characters: ['Alice', 'Bob'] };
+  const twoCharScene = { ...scene, characterNames: ['Alice', 'Bob'] };
   const twoCharShot = { ...shot, charactersInFrame: ['Alice', 'Bob'] };
   const twoCharMap = {
     Alice: { name: 'Alice', appearance: {}, costume: {}, visualRefUrl: 'http://alice.jpg' },
@@ -303,7 +303,7 @@ describe('New pipeline: multi-character shot', () => {
 describe('characterActions passthrough', () => {
   const sceneWithScript = {
     ...scene,
-    characters: ['Alice', 'Bob'],
+    characterNames: ['Alice', 'Bob'],
     scriptJson: {
       beats: [{
         beat_id: 'b1',
@@ -443,5 +443,177 @@ describe('VideoGeneration node data population', () => {
     const actions = d.shotCharacterActions as Record<string, unknown>;
     expect(actions).toBeDefined();
     expect(actions['Alice']).toEqual({ expression: '微笑', action: '走近', position: '画面左' });
+  });
+});
+
+// ── NODE_WIDTHS: 4种卡片统一为 260px ──
+
+describe('NODE_WIDTHS: pipeline cards at 300, characterProcess at 180', () => {
+  const { nodes } = buildCanvasGraph([scene], [shot], { characterMap: defaultCharMap });
+
+  it('directorStage3D node has width 300', () => {
+    const n = nodes.find(n => n.type === 'directorStage3D');
+    expect(n).toBeDefined();
+    expect(n!.style).toEqual({ width: 300 });
+  });
+
+  it('geminiComposite node has width 300', () => {
+    const n = nodes.find(n => n.type === 'geminiComposite');
+    expect(n).toBeDefined();
+    expect(n!.style).toEqual({ width: 300 });
+  });
+
+  it('finalHD node has width 300', () => {
+    const n = nodes.find(n => n.type === 'finalHD');
+    expect(n).toBeDefined();
+    expect(n!.style).toEqual({ width: 300 });
+  });
+
+  it('videoGeneration node has width 300', () => {
+    const n = nodes.find(n => n.type === 'videoGeneration');
+    expect(n).toBeDefined();
+    expect(n!.style).toEqual({ width: 300 });
+  });
+
+  it('characterProcess stays at 180', () => {
+    const n = nodes.find(n => n.type === 'characterProcess');
+    expect(n).toBeDefined();
+    expect(n!.style).toEqual({ width: 180 });
+  });
+});
+
+// ═══════════════════════════════════════════════════════════
+// Merge Groups → VideoSegment node tests
+// ═══════════════════════════════════════════════════════════
+
+describe('mergeGroups: VideoSegment node creation', () => {
+  const scene2 = { ...scene };
+  const shot1 = { ...shot, id: 'shot1', shotNumber: 1, durationEstimate: '4s' };
+  const shot2 = { ...shot, id: 'shot2', shotNumber: 2, durationEstimate: '3s' };
+  const shot3 = { ...shot, id: 'shot3', shotNumber: 3, durationEstimate: '5s' };
+  const opts = { characterMap: defaultCharMap };
+
+  it('without mergeGroups, creates individual videoGeneration nodes', () => {
+    const { nodes } = buildCanvasGraph([scene2], [shot1, shot2, shot3], opts);
+    const videoNodes = nodes.filter(n => n.type === 'videoGeneration');
+    const segmentNodes = nodes.filter(n => n.type === 'videoSegment');
+    expect(videoNodes).toHaveLength(3);
+    expect(segmentNodes).toHaveLength(0);
+  });
+
+  it('with mergeGroup for 2 shots, creates 1 videoSegment + 1 videoGeneration', () => {
+    const { nodes, edges } = buildCanvasGraph([scene2], [shot1, shot2, shot3], {
+      ...opts,
+      mergeGroups: [{
+        groupId: 'g1',
+        shotIds: ['shot1', 'shot2'],
+        totalDuration: 7,
+        driftRisk: 'low',
+        recommendedProvider: 'jimeng',
+        mergeRationale: 'same scene, same characters',
+      }],
+    });
+
+    const segmentNodes = nodes.filter(n => n.type === 'videoSegment');
+    const videoNodes = nodes.filter(n => n.type === 'videoGeneration');
+    expect(segmentNodes).toHaveLength(1);
+    expect(videoNodes).toHaveLength(1); // shot3 only
+
+    // Segment node has correct data
+    const seg = segmentNodes[0];
+    expect(seg.id).toBe('videoseg-g1');
+    const d = seg.data as Record<string, unknown>;
+    expect(d.nodeType).toBe('videoSegment');
+    expect(d.shotGroupId).toBe('g1');
+    expect(d.shotIds).toEqual(['shot1', 'shot2']);
+    expect(d.totalDurationSeconds).toBe(7);
+    expect(d.driftRisk).toBe('low');
+    expect(d.recommendedProvider).toBe('jimeng');
+    expect((d.shots as unknown[]).length).toBe(2);
+
+    // Both FinalHD nodes connect to the segment node
+    const segEdges = edges.filter(e => e.target === 'videoseg-g1');
+    expect(segEdges).toHaveLength(2);
+    expect(segEdges.map(e => e.source).sort()).toEqual(['finalhd-shot1', 'finalhd-shot2']);
+
+    // Shot3 has normal video node
+    expect(videoNodes[0].id).toBe('video-shot3');
+  });
+
+  it('single-shot mergeGroup degrades to videoGeneration', () => {
+    const { nodes } = buildCanvasGraph([scene2], [shot1, shot2], {
+      ...opts,
+      mergeGroups: [{
+        groupId: 'g-single',
+        shotIds: ['shot1'],
+        totalDuration: 4,
+        driftRisk: 'low',
+        recommendedProvider: 'jimeng',
+      }],
+    });
+
+    const segmentNodes = nodes.filter(n => n.type === 'videoSegment');
+    const videoNodes = nodes.filter(n => n.type === 'videoGeneration');
+    expect(segmentNodes).toHaveLength(0); // single-shot group degrades
+    expect(videoNodes).toHaveLength(2); // both shots get videoGeneration
+  });
+
+  it('all 3 shots merged → 1 segment, 0 videoGeneration', () => {
+    const { nodes, edges } = buildCanvasGraph([scene2], [shot1, shot2, shot3], {
+      ...opts,
+      mergeGroups: [{
+        groupId: 'g-all',
+        shotIds: ['shot1', 'shot2', 'shot3'],
+        totalDuration: 12,
+        driftRisk: 'medium',
+        recommendedProvider: 'kling',
+      }],
+    });
+
+    const segmentNodes = nodes.filter(n => n.type === 'videoSegment');
+    const videoNodes = nodes.filter(n => n.type === 'videoGeneration');
+    expect(segmentNodes).toHaveLength(1);
+    expect(videoNodes).toHaveLength(0);
+
+    // All 3 FinalHD nodes connect to the segment
+    const segEdges = edges.filter(e => e.target === 'videoseg-g-all');
+    expect(segEdges).toHaveLength(3);
+  });
+
+  it('videoSegment node has width 300', () => {
+    const { nodes } = buildCanvasGraph([scene2], [shot1, shot2], {
+      ...opts,
+      mergeGroups: [{
+        groupId: 'gw',
+        shotIds: ['shot1', 'shot2'],
+        totalDuration: 7,
+        driftRisk: 'low',
+        recommendedProvider: 'jimeng',
+      }],
+    });
+
+    const seg = nodes.find(n => n.type === 'videoSegment');
+    expect(seg).toBeDefined();
+    expect(seg!.style).toEqual({ width: 300 });
+  });
+
+  it('segment node includes sceneLocation and characterRefs', () => {
+    const { nodes } = buildCanvasGraph([scene2], [shot1, shot2], {
+      ...opts,
+      mergeGroups: [{
+        groupId: 'gc',
+        shotIds: ['shot1', 'shot2'],
+        totalDuration: 7,
+        driftRisk: 'low',
+        recommendedProvider: 'jimeng',
+      }],
+    });
+
+    const d = nodes.find(n => n.type === 'videoSegment')!.data as Record<string, unknown>;
+    expect(d.sceneLocation).toBe('Grand Hall');
+    expect(d.sceneTimeOfDay).toBe('day');
+    const cRefs = d.characterRefs as Array<{ name: string }>;
+    expect(cRefs.length).toBeGreaterThan(0);
+    expect(cRefs[0].name).toBe('Alice');
   });
 });

@@ -1,8 +1,10 @@
 'use client';
 
-import { useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { useReactFlow } from '@xyflow/react';
 import { useCanvasStore } from '../../../stores/canvasStore';
+import { useProjectStore } from '../../../stores/projectStore';
+import { analyzeMerge, applyMergeDecisions } from '../../../lib/mergeAnalysis';
 
 /**
  * Bottom toolbar — horizontal capsule with:
@@ -26,7 +28,36 @@ export function CanvasBottomToolbar() {
   const edgeFlowAnimation = useCanvasStore((s) => s.edgeFlowAnimation);
   const toggleEdgeFlowAnimation = useCanvasStore((s) => s.toggleEdgeFlowAnimation);
   const viewport = useCanvasStore((s) => s.viewport);
+  const focusedSceneId = useCanvasStore((s) => s.focusedSceneId);
+  const nodes = useCanvasStore((s) => s.nodes);
+  const projectId = useProjectStore((s) => s.project?.id);
   const { fitView, zoomTo } = useReactFlow();
+
+  const [mergeLoading, setMergeLoading] = useState(false);
+
+  const handleMergeAnalysis = useCallback(async () => {
+    if (!focusedSceneId || mergeLoading) return;
+    setMergeLoading(true);
+    try {
+      const sceneNodes = nodes.filter((n) => {
+        const d = n.data as Record<string, unknown>;
+        return d.nodeType === 'shot' && n.id.includes(focusedSceneId);
+      });
+      if (sceneNodes.length < 2) {
+        console.warn('[CanvasBottomToolbar] need at least 2 shots to merge');
+        return;
+      }
+      const result = await analyzeMerge(focusedSceneId, sceneNodes, projectId);
+      // 直接应用磁吸 — 不弹分析面板
+      if (focusedSceneId && projectId) {
+        await applyMergeDecisions(result, focusedSceneId, projectId);
+      }
+    } catch (err) {
+      console.error('[CanvasBottomToolbar] merge analysis failed:', err);
+    } finally {
+      setMergeLoading(false);
+    }
+  }, [focusedSceneId, nodes, projectId, mergeLoading]);
 
   const handleFitView = useCallback(() => {
     fitView({ padding: 0.12, duration: 300 });
@@ -46,6 +77,7 @@ export function CanvasBottomToolbar() {
   const zoomPct = Math.round(viewport.zoom * 100);
 
   return (
+    <>
     <div style={{ position: 'absolute', left: 12, bottom: 10, zIndex: 60, pointerEvents: 'auto' }}>
       {/* Capsule toolbar */}
       <div style={{
@@ -112,7 +144,47 @@ export function CanvasBottomToolbar() {
 
         <Separator />
 
-        {/* 4. Zoom slider */}
+        {/* 5. AI Merge Analysis */}
+        <button
+          type="button"
+          onClick={handleMergeAnalysis}
+          disabled={!focusedSceneId || mergeLoading}
+          title={!focusedSceneId ? '请先选择场景' : 'AI 分析当前场景分镜合并方案'}
+          style={{
+            height: 26,
+            padding: '0 10px',
+            borderRadius: 13,
+            border: 'none',
+            background: mergeLoading
+              ? 'rgba(139,92,246,0.3)'
+              : focusedSceneId
+                ? 'rgba(139,92,246,0.6)'
+                : 'rgba(255,255,255,0.05)',
+            color: focusedSceneId ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.3)',
+            fontSize: 11,
+            fontWeight: 500,
+            cursor: focusedSceneId && !mergeLoading ? 'pointer' : 'not-allowed',
+            transition: 'background 0.15s',
+            whiteSpace: 'nowrap',
+          }}
+          onMouseEnter={(e) => {
+            if (focusedSceneId && !mergeLoading)
+              e.currentTarget.style.background = 'rgba(139,92,246,0.8)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = mergeLoading
+              ? 'rgba(139,92,246,0.3)'
+              : focusedSceneId
+                ? 'rgba(139,92,246,0.6)'
+                : 'rgba(255,255,255,0.05)';
+          }}
+        >
+          {mergeLoading ? '分析中...' : 'AI 合并分析'}
+        </button>
+
+        <Separator />
+
+        {/* 6. Zoom slider */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 4, padding: '0 4px' }}>
           <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.3)', fontFamily: 'monospace', minWidth: 28, textAlign: 'right' }}>
             {zoomPct}%
@@ -139,6 +211,7 @@ export function CanvasBottomToolbar() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

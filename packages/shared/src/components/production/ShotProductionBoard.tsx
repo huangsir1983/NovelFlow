@@ -9,6 +9,7 @@ import {
   type OnSelectionChangeParams,
   type Edge,
   type Connection,
+  type Viewport,
   addEdge,
 } from '@xyflow/react';
 import '@xyflow/react/dist/base.css';
@@ -195,7 +196,12 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
   const edges = useDeferredValue(filteredEdges);
   const onNodesChange = useCanvasStore((s) => s.onNodesChange);
   const onEdgesChange = useCanvasStore((s) => s.onEdgesChange);
-  const setViewport = useCanvasStore((s) => s.setViewport);
+  const _setViewport = useCanvasStore((s) => s.setViewport);
+  const setViewport = useCallback((vp: Viewport) => {
+    if (Number.isFinite(vp.x) && Number.isFinite(vp.y) && Number.isFinite(vp.zoom)) {
+      _setViewport(vp);
+    }
+  }, [_setViewport]);
   const selectNodes = useCanvasStore((s) => s.selectNodes);
   const selectedNodeIds = useCanvasStore((s) => s.selectedNodeIds);
   const setInspectedNode = useCanvasStore((s) => s.setInspectedNode);
@@ -341,6 +347,95 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
     selectNodes([]);
   }, [setInspectedNode, selectNodes]);
 
+  // 磁吸拖拽检测：Video 卡拖拽结束后检查是否靠近同场景的相邻 Video 卡
+  const handleNodeDragStop = useCallback((_evt: React.MouseEvent, node: { id: string; position: { x: number; y: number }; data: Record<string, unknown> }) => {
+    const d = node.data;
+    if (d.nodeType !== 'videoGeneration') return;
+    const sceneId = d.sceneId as string;
+    if (!sceneId) return;
+
+    const SNAP_THRESHOLD = 30;
+    const NODE_HEIGHT = 200;
+    const SNAP_GAP = 6;
+    const MAX_MERGE_DURATION = 12;
+
+    const s = useCanvasStore.getState();
+    const allVideoNodes = s.nodes.filter(
+      n => (n.data as Record<string, unknown>).nodeType === 'videoGeneration'
+        && (n.data as Record<string, unknown>).sceneId === sceneId
+        && n.id !== node.id
+    );
+
+    // 找最近的 Video 卡（Y 方向）
+    let nearest: typeof allVideoNodes[0] | null = null;
+    let minDist = Infinity;
+    for (const vn of allVideoNodes) {
+      const dist = Math.abs(node.position.y - (vn.position.y + NODE_HEIGHT + SNAP_GAP));
+      const dist2 = Math.abs(vn.position.y - (node.position.y + NODE_HEIGHT + SNAP_GAP));
+      const d = Math.min(dist, dist2);
+      if (d < minDist) { minDist = d; nearest = vn; }
+    }
+
+    if (!nearest || minDist > SNAP_THRESHOLD) return;
+
+    // 计算合并后总时长
+    const myDur = (d.durationSeconds as number) || 5;
+    const nearDur = ((nearest.data as Record<string, unknown>).durationSeconds as number) || 5;
+
+    // 收集已有组的时长
+    const myGroupId = d.mergeGroupId as string | undefined;
+    const nearGroupId = (nearest.data as Record<string, unknown>).mergeGroupId as string | undefined;
+    let totalDur = 0;
+    if (myGroupId) {
+      const g = s.mergeGroups.find(mg => mg.groupId === myGroupId);
+      totalDur += g?.totalDuration ?? myDur;
+    } else {
+      totalDur += myDur;
+    }
+    if (nearGroupId && nearGroupId !== myGroupId) {
+      const g = s.mergeGroups.find(mg => mg.groupId === nearGroupId);
+      totalDur += g?.totalDuration ?? nearDur;
+    } else if (!nearGroupId) {
+      totalDur += nearDur;
+    }
+
+    if (totalDur > MAX_MERGE_DURATION) {
+      console.warn(`[磁吸] 合并后总时长 ${totalDur}s > ${MAX_MERGE_DURATION}s，拒绝磁吸`);
+      return;
+    }
+
+    // 创建/扩展 mergeGroup
+    const nearShotId = (nearest.data as Record<string, unknown>).shotId as string;
+    const myShotId = d.shotId as string;
+    const groups = [...s.mergeGroups];
+
+    // 确定顺序：Y 小的在前
+    const [topId, bottomId] = node.position.y < nearest.position.y
+      ? [myShotId, nearShotId]
+      : [nearShotId, myShotId];
+
+    const existingIdx = groups.findIndex(g =>
+      g.shotIds.includes(topId) || g.shotIds.includes(bottomId)
+    );
+
+    if (existingIdx >= 0) {
+      const g = groups[existingIdx];
+      const newIds = [...new Set([...g.shotIds, topId, bottomId])];
+      groups[existingIdx] = { ...g, shotIds: newIds, totalDuration: totalDur };
+    } else {
+      groups.push({
+        groupId: `snap-${Date.now()}`,
+        shotIds: [topId, bottomId],
+        totalDuration: totalDur,
+        driftRisk: totalDur > 8 ? 'high' : totalDur > 5 ? 'medium' : 'low',
+        recommendedProvider: 'seedance',
+        mergeRationale: '手动磁吸合并',
+      });
+    }
+
+    s.setMergeGroups(groups);
+  }, []);
+
   // Empty state
   if (scenes.length === 0 && rawNodes.length === 0) {
     return (
@@ -371,6 +466,7 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         onNodeClick={handleNodeClick}
         onEdgeClick={handleEdgeClick}
         onPaneClick={handlePaneClick}
+        onNodeDragStop={handleNodeDragStop}
         defaultViewport={{ x: 50, y: 50, zoom: 0.4 }}
         minZoom={0.02}
         maxZoom={3}
@@ -391,8 +487,8 @@ function CanvasInner({ projectName, onOpenPreview }: ShotProductionBoardProps) {
         <Background
           variant={BackgroundVariant.Dots}
           gap={40}
-          size={viewport.zoom > 0.35 ? Math.max(0.3, 0.8 * viewport.zoom) : 0}
-          color={viewport.zoom > 0.35 ? `rgba(255,255,255,${Math.min(0.12, viewport.zoom * 0.15)})` : 'transparent'}
+          size={Number.isFinite(viewport.zoom) && viewport.zoom > 0.35 ? Math.max(0.3, 0.8 * viewport.zoom) : 0}
+          color={Number.isFinite(viewport.zoom) && viewport.zoom > 0.35 ? `rgba(255,255,255,${Math.min(0.12, viewport.zoom * 0.15)})` : 'transparent'}
           style={{ backgroundColor: '#000000' }}
         />
         {/* MiniMap removed — replaced by lightweight CanvasLiteMinimap outside ReactFlow */}

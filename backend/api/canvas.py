@@ -1466,6 +1466,136 @@ def execute_node(node_id: str, req: ExecuteNodeRequest, db: Session = Depends(ge
 
         return StreamingResponse(_sse_stream(), media_type="text/event-stream")
 
+    # ── VideoSegment — merged shots, same Seedance pipeline as videoGeneration ──
+    if node_type == "videoSegment":
+        import time as _time
+        import httpx as _httpx
+        import base64 as _b64
+        from pathlib import Path as _Path
+        from config import settings as cfg
+
+        vid_prompt = content.get("prompt", "")
+        raw_file_paths = content.get("file_paths", [])
+        vid_ratio = content.get("ratio", "16:9")
+        vid_duration = content.get("duration", 12)  # default 12s for segments
+
+        if not cfg.seedance_api_key:
+            raise HTTPException(status_code=500, detail="SEEDANCE_API_KEY not configured")
+
+        # Reuse same image resolution logic as videoGeneration
+        uploads_dir = _Path(cfg.storage_local_dir)
+        image_data_uris: list[str] = []
+        public_urls: list[str] = []
+
+        def _local_to_data_uri_seg(storage_key: str) -> str | None:
+            file_path = uploads_dir / storage_key
+            if not file_path.exists():
+                return None
+            data = file_path.read_bytes()
+            ext = file_path.suffix.lower().lstrip(".")
+            mime = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}.get(ext, "image/jpeg")
+            return f"data:{mime};base64,{_b64.b64encode(data).decode()}"
+
+        for fp in raw_file_paths:
+            if not fp:
+                continue
+            if (fp.startswith("http://") or fp.startswith("https://")) and "localhost" not in fp and "127.0.0.1" not in fp:
+                public_urls.append(fp)
+                continue
+            if fp.startswith("http://localhost") or fp.startswith("http://127.0.0.1"):
+                parts = fp.split("/uploads/", 1)
+                if len(parts) == 2:
+                    uri = _local_to_data_uri_seg(parts[1])
+                    if uri:
+                        image_data_uris.append(uri)
+                continue
+            if not fp.startswith("data:"):
+                uri = _local_to_data_uri_seg(fp)
+                if uri:
+                    image_data_uris.append(uri)
+            else:
+                image_data_uris.append(fp)
+
+        logger.info("VideoSegment images: %d data URIs, %d public URLs", len(image_data_uris), len(public_urls))
+
+        submit_url = f"{cfg.seedance_base_url}/async"
+        auth_headers = {
+            "Authorization": f"Bearer {cfg.seedance_api_key}",
+            "Content-Type": "application/json",
+        }
+        payload: dict = {
+            "model": "seedance-2.0-fast",
+            "prompt": vid_prompt,
+            "ratio": vid_ratio,
+            "duration": min(vid_duration, 15),  # cap at 15s
+        }
+        if image_data_uris:
+            payload["image"] = image_data_uris[0]
+            remaining = image_data_uris[1:] + public_urls
+            if remaining:
+                payload["file_paths"] = remaining
+        elif public_urls:
+            payload["file_paths"] = public_urls
+
+        logger.info("VideoSegment submit: prompt=%d chars, image=%s, file_paths=%d, ratio=%s, dur=%ds",
+                     len(vid_prompt), "yes" if "image" in payload else "no",
+                     len(payload.get("file_paths", [])), vid_ratio, payload["duration"])
+
+        def _sse_stream_seg():
+            client = _httpx.Client(timeout=_httpx.Timeout(connect=30, read=120, write=120, pool=30))
+            try:
+                resp = client.post(submit_url, json=payload, headers=auth_headers)
+                resp.raise_for_status()
+                resp_data = resp.json()
+                task_id = resp_data.get("task_id") or resp_data.get("id") or ""
+                if not task_id:
+                    raise ValueError(f"Seedance 未返回 task_id: {resp_data}")
+
+                logger.info("VideoSegment task submitted: %s", task_id)
+                yield f"data: {json.dumps({'type': 'submitted', 'task_id': task_id})}\n\n"
+
+                poll_url = f"{cfg.seedance_base_url}/async/{task_id}"
+                poll_headers = {"Authorization": f"Bearer {cfg.seedance_api_key}"}
+                max_polls = 120
+
+                for i in range(max_polls):
+                    _time.sleep(5)
+                    try:
+                        poll_resp = client.get(poll_url, headers=poll_headers)
+                        poll_resp.raise_for_status()
+                        poll_data = poll_resp.json()
+                    except Exception as poll_err:
+                        logger.warning("VideoSegment poll error (attempt %d): %s", i, poll_err)
+                        yield f"data: {json.dumps({'type': 'progress', 'progress': int((i+1)/max_polls*80), 'status': 'polling_error'})}\n\n"
+                        continue
+
+                    status = poll_data.get("status", "queued")
+
+                    if status in ("succeeded", "completed"):
+                        video_url = (poll_data.get("metadata") or {}).get("url", "")
+                        _persist_node_result(db, node_id, node_type, content, {
+                            "result": {"video_url": video_url, "task_id": task_id}
+                        })
+                        yield f"data: {json.dumps({'type': 'success', 'video_url': video_url, 'task_id': task_id})}\n\n"
+                        return
+
+                    if status == "failed":
+                        error_msg = (poll_data.get("error") or {}).get("message", "Generation failed")
+                        yield f"data: {json.dumps({'type': 'error', 'message': error_msg})}\n\n"
+                        return
+
+                    progress = poll_data.get("progress", int((i + 1) / max_polls * 80))
+                    yield f"data: {json.dumps({'type': 'progress', 'progress': progress, 'status': status})}\n\n"
+
+                yield f"data: {json.dumps({'type': 'error', 'message': '超时：视频生成耗时过长'})}\n\n"
+            except Exception as e:
+                logger.error("VideoSegment SSE error: %s", e, exc_info=True)
+                yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
+            finally:
+                client.close()
+
+        return StreamingResponse(_sse_stream_seg(), media_type="text/event-stream")
+
     # ── Unknown node type ──
     return {
         "execution_id": execution_id,
@@ -1631,3 +1761,124 @@ def merge_analysis(req: MergeAnalysisRequest, db: Session = Depends(get_db)):
     except Exception as e:
         logger.error(f"Merge analysis failed: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ══════════════════════════════════════════════════════════════
+# 6. Shot Group CRUD (合并分组管理)
+# ══════════════════════════════════════════════════════════════
+
+class CreateShotGroupsRequest(BaseModel):
+    project_id: str
+    scene_id: str
+    decisions: list  # [{groupId, shotNodeIds, totalDuration, reason, driftRisk, recommendedProvider}]
+
+
+class UpdateShotGroupRequest(BaseModel):
+    shot_ids: Optional[list] = None
+    duration: Optional[str] = None
+    merge_rationale: Optional[str] = None
+    visual_prompt_positive: Optional[str] = None
+
+
+@router.post("/canvas/shot-groups")
+def create_shot_groups(req: CreateShotGroupsRequest, db: Session = Depends(get_db)):
+    """Create ShotGroup records from merge analysis decisions."""
+    from models.shot_group import ShotGroup
+
+    # Delete existing groups for this scene first (replace strategy)
+    db.query(ShotGroup).filter(
+        ShotGroup.project_id == req.project_id,
+        ShotGroup.scene_id == req.scene_id,
+    ).delete()
+
+    created = []
+    for i, decision in enumerate(req.decisions):
+        shot_ids = decision.get("shotNodeIds", [])
+        # Strip "shot-" prefix if present (canvas node IDs use "shot-{id}" format)
+        clean_ids = [sid.replace("shot-", "") if sid.startswith("shot-") else sid for sid in shot_ids]
+        if len(clean_ids) < 2:
+            continue  # single-shot groups don't need a ShotGroup record
+
+        group = ShotGroup(
+            id=decision.get("groupId", str(uuid.uuid4())),
+            project_id=req.project_id,
+            scene_id=req.scene_id,
+            shot_ids=clean_ids,
+            segment_number=i,
+            duration=f"{decision.get('totalDuration', 0)}s",
+            merge_rationale=decision.get("reason", ""),
+            style_metadata={
+                "driftRisk": decision.get("driftRisk", "low"),
+                "recommendedProvider": decision.get("recommendedProvider", "jimeng"),
+            },
+            order=i,
+        )
+        db.add(group)
+        created.append({
+            "groupId": group.id,
+            "shotIds": clean_ids,
+            "totalDuration": decision.get("totalDuration", 0),
+            "driftRisk": decision.get("driftRisk", "low"),
+            "recommendedProvider": decision.get("recommendedProvider", "jimeng"),
+            "mergeRationale": group.merge_rationale,
+        })
+
+    db.commit()
+    return {"groups": created, "count": len(created)}
+
+
+@router.get("/canvas/shot-groups/{project_id}/{scene_id}")
+def get_shot_groups(project_id: str, scene_id: str, db: Session = Depends(get_db)):
+    """List all shot groups for a scene."""
+    from models.shot_group import ShotGroup
+
+    rows = db.query(ShotGroup).filter(
+        ShotGroup.project_id == project_id,
+        ShotGroup.scene_id == scene_id,
+    ).order_by(ShotGroup.order).all()
+
+    return {
+        "groups": [
+            {
+                "groupId": r.id,
+                "shotIds": r.shot_ids or [],
+                "totalDuration": int(r.duration.replace("s", "")) if r.duration else 0,
+                "driftRisk": (r.style_metadata or {}).get("driftRisk", "low"),
+                "recommendedProvider": (r.style_metadata or {}).get("recommendedProvider", "jimeng"),
+                "mergeRationale": r.merge_rationale or "",
+            }
+            for r in rows
+        ]
+    }
+
+
+@router.put("/canvas/shot-groups/{group_id}")
+def update_shot_group(group_id: str, req: UpdateShotGroupRequest, db: Session = Depends(get_db)):
+    """Update a shot group (adjust shots, duration, prompt)."""
+    from models.shot_group import ShotGroup
+
+    group = db.query(ShotGroup).filter(ShotGroup.id == group_id).first()
+    if not group:
+        raise HTTPException(status_code=404, detail="ShotGroup not found")
+
+    if req.shot_ids is not None:
+        group.shot_ids = req.shot_ids
+    if req.duration is not None:
+        group.duration = req.duration
+    if req.merge_rationale is not None:
+        group.merge_rationale = req.merge_rationale
+    if req.visual_prompt_positive is not None:
+        group.visual_prompt_positive = req.visual_prompt_positive
+
+    db.commit()
+    return {"status": "ok", "groupId": group.id}
+
+
+@router.delete("/canvas/shot-groups/{group_id}")
+def delete_shot_group(group_id: str, db: Session = Depends(get_db)):
+    """Delete a shot group (dissolve merge, restore individual video nodes)."""
+    from models.shot_group import ShotGroup
+
+    deleted = db.query(ShotGroup).filter(ShotGroup.id == group_id).delete()
+    db.commit()
+    return {"status": "ok", "deleted": deleted}
